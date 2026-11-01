@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-021",
+ "title": "Cerchiamo compagni di progetto (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Cerchiamo compagni di progetto (1) · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1021
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "A — Sono Alessia e cerco studenti [[g1]] per costruire una [[g2]] guida del quartiere. Abito qui da due anni e conosco alcune strade, ma voglio scoprire posti [[g3]]. Mi interessano le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni sono [[g4]] dopo le quattro. Preferisco un gruppo [[g5]]. Tu hai una macchina fotografica? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il [[g6]] anno del liceo e prepariamo [[g7]] video senza pubblicità. Abbiamo idee [[g8]], però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "curiosi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "nuovi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "libera"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piccolo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "primo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "brevi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "interessanti"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

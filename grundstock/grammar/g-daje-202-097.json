@@ -1,0 +1,237 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-097",
+ "title": "Il futuro semplice (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Il futuro semplice (1) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1097
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. essere · io · futuro → [[g1]]\n2. essere · tu · futuro → [[g2]]\n3. essere · lui/lei · futuro → [[g3]]\n4. essere · noi · futuro → [[g4]]\n5. essere · voi · futuro → [[g5]]\n6. essere · loro · futuro → [[g6]]\n7. avere · io · futuro → [[g7]]\n8. avere · tu · futuro → [[g8]]\n9. avere · lui/lei · futuro → [[g9]]\n10. avere · noi · futuro → [[g10]]\n11. avere · voi · futuro → [[g11]]\n12. avere · loro · futuro → [[g12]]\n13. potere · io · futuro → [[g13]]\n14. potere · tu · futuro → [[g14]]\n15. potere · lui/lei · futuro → [[g15]]\n16. potere · noi · futuro → [[g16]]\n17. potere · voi · futuro → [[g17]]\n18. potere · loro · futuro → [[g18]]\n19. volere · io · futuro → [[g19]]\n20. volere · tu · futuro → [[g20]]\n21. volere · lui/lei · futuro → [[g21]]\n22. volere · noi · futuro → [[g22]]\n23. volere · voi · futuro → [[g23]]\n24. volere · loro · futuro → [[g24]]\n25. dovere · io · futuro → [[g25]]\n26. dovere · tu · futuro → [[g26]]\n27. dovere · lui/lei · futuro → [[g27]]\n28. dovere · noi · futuro → [[g28]]\n29. dovere · voi · futuro → [[g29]]\n30. dovere · loro · futuro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sarò"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sarai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sarà"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "saremo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sarete"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "saranno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avrò"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrai"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrà"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avremo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avrete"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avranno"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "potrò"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "potrai"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "potrà"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "potremo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "potrete"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "potranno"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "vorrò"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "vorrai"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "vorrà"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "vorremo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "vorrete"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "vorranno"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "dovrò"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "dovrai"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "dovrà"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "dovremo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "dovrete"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "dovranno"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-121",
+ "title": "La scatola ritrovata (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · La scatola ritrovata (1) · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1121
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ieri pomeriggio una classe [[g1]] (visitare, passato prossimo) il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline. Quando [[g2]] (arrivare, passato prossimo) nella sala, mancava proprio la scatola. La professoressa [[g3]] (chiedere, passato prossimo) a tutti di controllare le borse. Due ragazzi [[g4]] (tornare, passato prossimo) all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria [[g5]] (ricordare, passato prossimo) che un gruppo precedente usava una scatola simile. [[g6]] (telefonare, passato prossimo) al responsabile e gli [[g7]] (spiegare, passato prossimo) il problema. Il responsabile [[g8]] (guardare, passato prossimo) nel suo ufficio e ha trovato due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra era quella della classe. Un collega ha detto: «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ha visitato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sono arrivati"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sono tornati"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha ricordato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Ha telefonato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha spiegato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha guardato"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

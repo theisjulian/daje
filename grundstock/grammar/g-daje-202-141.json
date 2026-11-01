@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-141",
+ "title": "Il messaggio della responsabile (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Il messaggio della responsabile (2) · livello medio.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1141
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao Rocco, [[g1]] (uscire, passato prossimo) prima del previsto perché mi [[g2]] (chiamare, passato prossimo) dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] (prendere + li) e [[g4]] (mettere + li) vicino alla parete, ma [[g5]] (non appendere + li) ancora. La colla è nell’armadio; [[g6]] (usare + la) soltanto sui fogli di prova. [[g7]] (comprare, passato prossimo) nuove forbici: le trovi nella scatola blu. [[g8]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g9]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. [[g10]] (telefonare, passato prossimo) a suo padre e gli [[g11]] (spiegare, passato prossimo) l’orario.\nPer favore, [[g12]] (preparare) i tavoli e [[g13]] (lasciare) libero il passaggio. [[g14]] (non spostare) la pianta: ieri l’[[g15]] (sistemare, passato prossimo) lì perché riceve più luce. I libri li [[g16]] (mettere, passato prossimo) sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono uscita"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "hanno chiamata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "prendili"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mettili"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "non appenderli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "usala"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ho comprato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Controllale"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dille"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Ho già telefonato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ho spiegato"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "prepara"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "lascia"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Non spostare"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ho sistemata"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ho messi"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-104",
+ "title": "Il quartiere tra un mese (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Il quartiere tra un mese (1) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1104
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Il prossimo mese il nostro quartiere [[g1]] (ospitare, futuro) una giornata di scambio di competenze. L’iniziativa qui descritta è immaginaria. Gli abitanti [[g2]] (potere, futuro) insegnare qualcosa che sanno fare: cucire un bottone, riparare una ruota, raccontare una storia o disegnare una mappa. Il centro culturale [[g3]] (aprire, futuro) le sale alle nove. I volontari [[g4]] (preparare, futuro) i tavoli e [[g5]] (distribuire, futuro) il programma. Ogni partecipante [[g6]] (scegliere, futuro) due attività e [[g7]] (ricevere, futuro) una scheda per gli appunti. Non ci [[g8]] (essere, futuro) una classifica. Le persone [[g9]] (lavorare, futuro) in piccoli gruppi e cambieranno stanza dopo un’ora.\nLa mattina una sarta [[g10]] (mostrare, futuro) alcune riparazioni semplici; due studenti spiegheranno come registrare un’intervista. Nel cortile un gruppo costruirà cassette per le piante. Chi preferirà leggere troverà uno spazio tranquillo con racconti brevi. A mezzogiorno tutti faranno una pausa. Nel pomeriggio i gruppi presenteranno quello che hanno imparato. Gli organizzatori raccoglieranno le proposte e pubblicheranno un resoconto senza dati personali. Io parteciperò al laboratorio di mappe; mia sorella porterà vecchie stoffe e mio padre aiuterà a sistemare le sedie. Se pioverà, useremo soltanto gli spazi interni. Alla fine avremo nuove idee e forse conosceremo meglio i nostri vicini.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ospiterà"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "potranno"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aprirà"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "prepareranno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "distribuiranno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sceglierà"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "riceverà"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sarà"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "lavoreranno"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "mostrerà"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

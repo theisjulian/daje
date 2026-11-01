@@ -1,0 +1,196 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-084",
+ "title": "Una lettera contro le classifiche",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Una lettera contro le classifiche · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3084
+ },
+ "estimatedMinutes": 23,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara [[g1]], ho letto la proposta di pubblicare ogni mese una [[g2]] dei lettori più attivi della biblioteca scolastica. Capisco che l’idea nasca dal desiderio di incoraggiare la lettura. Temo però che il numero dei [[g3]] diventi una misura [[g4]] semplice. È possibile che uno studente legga lentamente perché il [[g5]] è difficile; un altro [[g6]] prendere molti volumi senza finirli.\nNon penso che una gara sia sempre [[g7]]. Chiedo soltanto che si chiarisca lo [[g8]]. Se vogliamo condividere scoperte, sarebbe [[g9]] che ciascuno [[g10]] un passaggio interessante. Se invece desideriamo [[g11]] i bisogni dei lettori, vorrei che la biblioteca ascoltasse anche chi non prende [[g12]] in prestito.\nMi auguro che nessuno si senta escluso perché legge in un’altra [[g13]] o usa un [[g14]] diverso. Sarebbe utile che gli [[g15]] [[g16]] come partecipare senza esporre [[g17]] [[g18]]. Non credo che tutti [[g19]] [[g20]] di vedere il proprio nome in una graduatoria.\nPropongo quindi un muro di consigli anonimi. Ogni lettore potrebbe [[g21]] un libro e spiegare a chi lo consiglierebbe. Spero che questa alternativa permetta di parlare [[g22]] letture senza ridurle a un punteggio. La lettera è inventata per il laboratorio: non si riferisce a una biblioteca reale e non [[g23]] risultati di una ricerca.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "redazione"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "classifica"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "prestiti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "troppo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "libro"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "negativa"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "scopo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "meglio"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "presentasse"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "conoscere"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "libri"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "lingua"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "formato"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "insegnanti"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "spiegassero"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "informazioni"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "personali"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "abbiano"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "voglia"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "suggerire"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "descrive"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

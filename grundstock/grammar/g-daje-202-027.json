@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-027",
+ "title": "I verbi in -are al presente",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -are al presente · I verbi in -are al presente · livello medio.",
+ "topics": [
+  "I verbi in -are al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "I verbi in -are al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1027
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. cantare · io · presente → [[g1]]\n2. cantare · tu · presente → [[g2]]\n3. cantare · lui/lei · presente → [[g3]]\n4. cantare · noi · presente → [[g4]]\n5. cantare · voi · presente → [[g5]]\n6. cantare · loro · presente → [[g6]]\n7. ascoltare · io · presente → [[g7]]\n8. ascoltare · tu · presente → [[g8]]\n9. ascoltare · lui/lei · presente → [[g9]]\n10. ascoltare · noi · presente → [[g10]]\n11. ascoltare · voi · presente → [[g11]]\n12. ascoltare · loro · presente → [[g12]]\n13. cercare · io · presente → [[g13]]\n14. cercare · tu · presente → [[g14]]\n15. cercare · lui/lei · presente → [[g15]]\n16. cercare · noi · presente → [[g16]]\n17. cercare · voi · presente → [[g17]]\n18. cercare · loro · presente → [[g18]]\n19. lavorare · io · presente → [[g19]]\n20. lavorare · tu · presente → [[g20]]\n21. lavorare · lui/lei · presente → [[g21]]\n22. lavorare · noi · presente → [[g22]]\n23. lavorare · voi · presente → [[g23]]\n24. lavorare · loro · presente → [[g24]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "canto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "canti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "canta"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cantiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "cantate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "cantano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ascolto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ascolti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ascolta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ascoltiamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ascoltate"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ascoltano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "cerco"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "cerchi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "cerca"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "cerchiamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "cercate"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "cercano"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "lavoro"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "lavori"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "lavora"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "lavoriamo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "lavorate"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "lavorano"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

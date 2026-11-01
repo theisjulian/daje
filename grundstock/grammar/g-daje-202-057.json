@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-057",
+ "title": "Due modi di costruire un lavoro",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Due modi di costruire un lavoro · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1057
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "A — Mi [[g1]] (chiamare, presente) Ines e [[g2]] (vivere, presente) in una città di provincia. Lavoro in una cooperativa che consegna libri alle persone che non [[g3]] (potere, presente) andare in biblioteca. Ogni mattina [[g4]] (controllare, presente) le richieste, [[g5]] (preparare, presente) le borse e [[g6]] (organizzare, presente) il percorso. [[g7]] (usare, presente) una bicicletta elettrica per le consegne vicine. Quando piove molto, un collega mi [[g8]] (accompagnare, presente) con il furgone. Il lavoro richiede attenzione: non tutti [[g9]] (desiderare, presente) gli stessi libri e qualcuno [[g10]] (preferire, presente) caratteri grandi. [[g11]] (avere, presente) una figlia che [[g12]] (frequentare, presente) la scuola media. La sera [[g13]] (cucinare, presente) insieme e ci raccontiamo la giornata. Non guadagno molto, ma mi [[g14]] (piacere, presente) un lavoro che mi [[g15]] (permettere, presente) di conoscere le persone. Per risparmiare tempo, [[g16]] (fare, presente) la spesa due volte alla settimana. Il sabato non lavoro e spesso incontro i miei amici.\nB — Io [[g17]] (essere, presente) Ayo e [[g18]] (riparare, presente) biciclette. Ho imparato da mio zio, poi ho seguito un corso professionale. Adesso condivido un’officina con una collega. Lei [[g19]] (controllare, presente) i freni e le ruote; io mi [[g20]] (occupare, presente) soprattutto delle luci e delle trasmissioni. I clienti [[g21]] (arrivare, presente) da quartieri diversi. Alcuni [[g22]] (usare, presente) la bicicletta tutti i giorni, altri soltanto nel fine settimana. Noi [[g23]] (spiegare, presente) sempre il [[g24]] (costare, presente) prima di cominciare. Paghiamo l’affitto del locale e compriamo gli attrezzi insieme. D’estate abbiamo molto lavoro; nei mesi tranquilli organizziamo lezioni di manutenzione. Non voglio aprire un negozio più grande: preferisco migliorare il servizio e avere tempo per la mia famiglia. Queste due testimonianze sono immaginarie.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "chiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vivo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "possono"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "controllo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "preparo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "organizzo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Uso"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "accompagna"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "desiderano"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "preferisce"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Ho"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "frequenta"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "cuciniamo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "permette"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "faccio"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "riparo"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "controlla"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "occupo"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "arrivano"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "usano"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "spieghiamo"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "costo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

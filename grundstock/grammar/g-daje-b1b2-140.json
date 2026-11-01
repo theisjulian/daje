@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-140",
+ "title": "Due accordi da chiarire (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Due accordi da chiarire (2) · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3140
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Dialogo A — In una sala condivisa.\nNina: [[g1]] (avere, imperfetto) prenotato questa stanza per le cinque. Vedo però che state ancora provando.\nLeo: In effetti, abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\nNina: A dire il vero, abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città.\nLeo: [[g2]] (accettazione), finiamo questo passaggio e liberiamo il tavolo. Dove preferite che mettiamo le sedie?\nNina: Lasciatele in cerchio. Anzi, tenetene due vicino alla porta: ci serviranno per gli ospiti.\nLeo: Bene. Allora, vi avviso appena siamo pronti.\nNina: Grazie. Comunque, per la prossima volta controlliamo insieme il calendario.\n\nDialogo B — Prima di una consegna.\nMilo: [[g3]] (finire, forma composta) il testo, ma non so se mandarlo subito alla redazione.\nAda: Secondo me, manca ancora il controllo dei nomi. Non è un dettaglio.\nMilo: Certo, hai ragione. [[g4]] (chiedere, forma composta) una conferma e non è arrivata.\nAda: Intanto, possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\nMilo: Sì, ma il collegamento è molto lungo.\nAda: [[g5]] (introduzione di un caso), potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\nMilo: Capisco. Quindi, aspettiamo i nomi e sistemiamo il resto.\nAda: Esatto. Insomma, il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo.\nI due dialoghi [[g6]] (essere, presente) originali e descrivono situazioni immaginarie.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "era",
+      "Avevamo",
+      "è stato"
+     ],
+     "answer": "Avevamo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Avevamo",
+      "D’accordo",
+      "Ho finito"
+     ],
+     "answer": "D’accordo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Ho finito",
+      "osservava",
+      "ha osservato"
+     ],
+     "answer": "Ho finito"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Avevo chiesto",
+      "ha osservato",
+      "aveva osservato"
+     ],
+     "answer": "Avevo chiesto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "D’accordo",
+      "Per esempio",
+      "Avevamo"
+     ],
+     "answer": "Per esempio"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "durante",
+      "prima",
+      "sono"
+     ],
+     "answer": "sono"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

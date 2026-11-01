@@ -1,0 +1,235 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-191",
+ "title": "Un nuovo equilibrio (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Un nuovo equilibrio (2) · livello difficile.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1191
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Caro Leo, ho deciso che [[g1]] (volere, presente) organizzare meglio il mio tempo. In queste settimane studio molto e passo troppo tempo davanti allo schermo. Nelle mie giornate [[g2]] (mancare, presente) una pausa vera. Quando [[g3]] (finire, presente) i compiti, [[g4]] (controllare, presente) i messaggi e [[g5]] (cominciare, presente) subito un’altra attività. La sera [[g6]] (essere, presente) stanca, ma [[g7]] (avere, presente) la sensazione di non aver fatto quello che mi [[g8]] (piacere, presente).\nDa lunedì cambierò alcune abitudini. Prima [[g9]] (preparare, futuro) una lista breve e [[g10]] (scegliere, futuro) le attività più importanti. Non [[g11]] (riempire, futuro) ogni minuto. Due pomeriggi alla settimana [[g12]] (uscire, futuro) per una passeggiata e [[g13]] (lasciare, futuro) il telefono nello zaino. Riprenderò anche il mio quaderno di disegni. I miei amici mi [[g14]] (invitare, presente) spesso, però [[g15]] (rispondere, presente) che non [[g16]] (avere, presente) tempo; d’ora in poi [[g17]] (accettare, futuro) qualche invito e [[g18]] (proporre, futuro) incontri semplici. Non [[g19]] (servire, presente) organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante i miei spostamenti [[g20]] (leggere, futuro) qualcosa, se [[g21]] (avere, futuro) voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana [[g22]] (controllare, futuro) il programma della settimana successiva e [[g23]] (lasciare, futuro) spazio agli imprevisti. [[g24]] (sapere, presente) che non riuscirò a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. Il mio obiettivo non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi le tue pause? Mi interessa conoscere le tue idee. Scrivimi quando hai un momento. A presto, Eva.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "voglio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "manca"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "finisco"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "controllo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "comincio"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "preparerò"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sceglierò"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "riempirò"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "uscirò"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "lascerò"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "invitano"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "rispondo"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "accetterò"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "proporrò"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "serve"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "leggerò"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "avrò"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "controllerò"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "lascerò"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "So"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Scegli: e oppure che?",
+   "promptHelp": "Wähle: e oder che?",
+   "text": "1. Ho deciso __ voglio cambiare ritmo. → [[g1]]\n2. Studio __ preparo i materiali. → [[g2]]\n3. So __ la pausa è utile. → [[g3]]\n4. Esco __ incontro gli amici. → [[g4]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "e"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "e"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

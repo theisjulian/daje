@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-123",
+ "title": "Un materiale arrivato in ritardo",
+ "language": "it",
+ "level": "A2",
+ "description": "Raccontare un’esperienza · Un materiale arrivato in ritardo · livello medio.",
+ "topics": [
+  "Raccontare un’esperienza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-raccontare",
+  "topicTitle": "Raccontare un’esperienza",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1123
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Lunedì [[g1]] (ordinare, passato prossimo) alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. [[g2]] (ricevere, passato prossimo) una conferma e [[g3]] (comunicare, passato prossimo) la data ai compagni. Giovedì, però, il pacco non [[g4]] (arrivare, passato prossimo). [[g5]] (controllare, passato prossimo) il messaggio del corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. [[g6]] (accorgersi, passato prossimo) di un errore nel modulo: mancava il numero dell’edificio. [[g7]] (telefonare, passato prossimo) al servizio clienti e [[g8]] (spiegare, passato prossimo) il problema. L’addetta [[g9]] (avere, presente) corretto i dati e [[g10]] (avere, presente) confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho ordinato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ho ricevuto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho comunicato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "è arrivato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Ho controllato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Mi sono accorto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ho telefonato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho spiegato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

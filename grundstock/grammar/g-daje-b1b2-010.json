@@ -1,0 +1,166 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-010",
+ "title": "Il plastico in viaggio",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Il plastico in viaggio · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3010
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+   "text": "La mattina della mostra la nostra classe aspettava il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato dentro una scatola. Il cartone era resistente, ma le maniglie sembravano fragili. Per questo avevamo portato anche del nastro adesivo.\nSul [[g1]] (luogo della stazione dove passa il treno) c’erano molti viaggiatori. Il [[g2]] (pannello con orari e partenze) annunciava dieci minuti di [[g3]] (contrario di anticipo). La nostra [[g4]] (collegamento con un altro treno) sembrava a rischio. Un [[g5]] (persona incaricata di un servizio) ci ha indicato un altro [[g6]] (itinerario) e abbiamo controllato gli [[g7]] (indicazioni delle ore di partenza) sul telefono. I [[g8]] (documenti di viaggio) erano validi anche per quel collegamento.\nQuando il treno è arrivato, due compagni hanno sollevato la scatola. Una maniglia si è staccata, ma il plastico non è caduto: una [[g9]] (persona di genere femminile che viaggia) ha afferrato il bordo in tempo. Lei viaggiava con una valigia [[g10]] (di poco peso) e ci ha lasciato spazio vicino alla porta.\nDurante il [[g11]] (spostamento fra due luoghi) abbiamo riparato la [[g12]] (involucro esterno). La [[g13]] (luogo di arrivo) era ancora lontana, ma la [[g14]] (sentimento di chi teme un problema) era diminuita. All’arrivo, un volontario ci ha accompagnato all’[[g15]] (passaggio per lasciare un luogo). La mostra era cominciata da poco. Il nostro [[g16]] (lavoro pianificato) ha trovato posto su un [[g17]] (mobile con piano e gambe) vicino all’ingresso. Abbiamo aggiunto una [[g18]] (breve spiegazione accanto a un oggetto): «Questa città ha già fatto un viaggio».",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "binario"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tabellone"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ritardo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "coincidenza"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "addetto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "percorso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "orari"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "biglietti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "viaggiatrice"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "leggera"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "tragitto"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "confezione"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "destinazione"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "preoccupazione"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "uscita"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "progetto"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "tavolo"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "didascalia"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir."
+  }
+ ]
+}

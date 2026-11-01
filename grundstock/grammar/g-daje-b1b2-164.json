@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-164",
+ "title": "Congiuntivo presente",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Congiuntivo presente · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3164
+ },
+ "estimatedMinutes": 36,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. essere — congiuntivo presente — io → [[g1]]\n2. essere — congiuntivo presente — tu → [[g2]]\n3. essere — congiuntivo presente — lui/lei → [[g3]]\n4. essere — congiuntivo presente — noi → [[g4]]\n5. essere — congiuntivo presente — voi → [[g5]]\n6. essere — congiuntivo presente — loro → [[g6]]\n7. avere — congiuntivo presente — io → [[g7]]\n8. avere — congiuntivo presente — tu → [[g8]]\n9. avere — congiuntivo presente — lui/lei → [[g9]]\n10. avere — congiuntivo presente — noi → [[g10]]\n11. avere — congiuntivo presente — voi → [[g11]]\n12. avere — congiuntivo presente — loro → [[g12]]\n13. fare — congiuntivo presente — io → [[g13]]\n14. fare — congiuntivo presente — tu → [[g14]]\n15. fare — congiuntivo presente — lui/lei → [[g15]]\n16. fare — congiuntivo presente — noi → [[g16]]\n17. fare — congiuntivo presente — voi → [[g17]]\n18. fare — congiuntivo presente — loro → [[g18]]\n19. dire — congiuntivo presente — io → [[g19]]\n20. dire — congiuntivo presente — tu → [[g20]]\n21. dire — congiuntivo presente — lui/lei → [[g21]]\n22. dire — congiuntivo presente — noi → [[g22]]\n23. dire — congiuntivo presente — voi → [[g23]]\n24. dire — congiuntivo presente — loro → [[g24]]\n25. venire — congiuntivo presente — io → [[g25]]\n26. venire — congiuntivo presente — tu → [[g26]]\n27. venire — congiuntivo presente — lui/lei → [[g27]]\n28. venire — congiuntivo presente — noi → [[g28]]\n29. venire — congiuntivo presente — voi → [[g29]]\n30. venire — congiuntivo presente — loro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "siamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "siano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "abbiate"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "abbiano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "facciate"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "facciano"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "dica"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "dica"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "dica"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "diciamo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "diciate"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "dicano"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "venga"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "venga"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "venga"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "veniamo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "veniate"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "vengano"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "31. potere — congiuntivo presente — io → [[g1]]\n32. potere — congiuntivo presente — tu → [[g2]]\n33. potere — congiuntivo presente — lui/lei → [[g3]]\n34. potere — congiuntivo presente — noi → [[g4]]\n35. potere — congiuntivo presente — voi → [[g5]]\n36. potere — congiuntivo presente — loro → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "possiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "possiate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "possano"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

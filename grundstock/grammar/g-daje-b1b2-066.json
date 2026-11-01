@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-066",
+ "title": "Se potessimo scegliere: sei proposte (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se potessimo scegliere: sei proposte (1) · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3066
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io [[g1]] (aprire, io, condizionale) una piccola sala di registrazione. Non credo che tutti abbiano voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, potremmo registrare racconti in varie lingue. Ogni classe [[g2]] (scegliere, condizionale) un tema e qualcuno curerebbe il montaggio. Non comprerei subito strumenti costosi: prima chiederei in prestito quelli disponibili. [[g3]] (essere) necessario stabilire chi conserva le registrazioni e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce restare fuori».\nB — Bruno: «A me [[g4]] (piacere, condizionale) un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto verrebbe una volta al mese e noi [[g5]] (imparare, noi, condizionale) osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non sarebbe soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non [[g6]] (essere) risolto: non tutti riescono a concentrarsi nello stesso modo. Io metterei pochi tavoli e una luce adatta alla lettura. Credo che sia importante non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio [[g7]] (fare, condizionale presente) più rumore del resto. Non chiederei prenotazioni lunghe; limiterei l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un argomento potrebbe lasciare un biglietto e chi sa rispondere fisserebbe un incontro. [[g8]] (volere, condizionale presente) che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo sostituisca il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io inizierei con una sola materia e dopo un mese [[g9]] (valutare, io, condizionale) i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, [[g10]] (controllare, io, condizionale) che siano pulite e complete. Sarebbe ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione economica. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni [[g11]] (potere) essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi raccoglieremmo osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io [[g12]] (scrivere, io, condizionale) un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "aprirei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sceglierebbe"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Sarebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "piacerebbe"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "impareremmo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "farebbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "valuterei"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "controllerei"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "scriverei"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-144",
+ "title": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+ "language": "it",
+ "level": "A2",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Mi sono alzato: il passato prossimo dei verbi riflessivi · livello medio.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1144
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. lavarsi · io · presente → [[g1]]\n2. lavarsi · io · passato prossimo (maschile) → [[g2]]\n3. alzarsi · tu · presente → [[g3]]\n4. alzarsi · tu · passato prossimo (maschile) → [[g4]]\n5. vestirsi · lui/lei · presente → [[g5]]\n6. vestirsi · lui/lei · passato prossimo (maschile) → [[g6]]\n7. prepararsi · noi · presente → [[g7]]\n8. prepararsi · noi · passato prossimo (maschile) → [[g8]]\n9. svegliarsi · voi · presente → [[g9]]\n10. svegliarsi · voi · passato prossimo (maschile) → [[g10]]\n11. sedersi · loro · presente → [[g11]]\n12. sedersi · loro · passato prossimo (maschile) → [[g12]]\n13. rilassarsi · io · presente → [[g13]]\n14. rilassarsi · io · passato prossimo (maschile) → [[g14]]\n15. fermarsi · tu · presente → [[g15]]\n16. fermarsi · tu · passato prossimo (maschile) → [[g16]]\n17. incontrarsi · lui/lei · presente → [[g17]]\n18. incontrarsi · lui/lei · passato prossimo (maschile) → [[g18]]\n19. occuparsi · noi · presente → [[g19]]\n20. occuparsi · noi · passato prossimo (maschile) → [[g20]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi lavo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mi sono lavato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ti alzi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ti sei alzato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si veste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si è vestito"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ci prepariamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci siamo preparati"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "vi svegliate"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "vi siete svegliati"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "si siedono"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "si sono seduti"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "mi rilasso"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "mi sono rilassato"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ti fermi"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ti sei fermato"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "si incontra"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "si è incontrato"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ci occupiamo"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "ci siamo occupati"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

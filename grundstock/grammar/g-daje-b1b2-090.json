@@ -1,0 +1,94 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-090",
+ "title": "Il cartografo e il sentiero",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: riconoscere e comprendere · Il cartografo e il sentiero · livello medio.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3090
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Quando era giovane, il cartografo ricevette l’incarico di disegnare i sentieri di una valle. Partì con una borsa leggera e un quaderno. Il [[g1]] gli aveva mostrato una carta antica, ma molti nomi non erano più usati. Nella prima casa il cartografo incontrò una donna che conosceva la valle meglio di chiunque altro.\nLei gli disse che il [[g2]] più breve non era sempre quello indicato sulle mappe. D’inverno il torrente cresceva e alcuni passaggi diventavano impraticabili. Il cartografo prese nota, poi chiese chi avesse costruito il ponte. La donna non ricordava un nome; ricordava invece un gruppo di persone e una primavera molto piovosa.\nIl giorno seguente lui andò al torrente. Qualcuno aveva sistemato nuove pietre vicino all’acqua. Il sentiero continuava oltre un bosco e scompariva dietro una [[g3]]. Il cartografo capì che la sua carta avrebbe dovuto distinguere ciò che aveva visto da ciò che gli avevano raccontato.\nQuando tornò in paese, mostrò il lavoro agli abitanti. Alcuni [[g4]] un nome, altri aggiunsero un passaggio. La carta non fu più soltanto sua. Anni dopo, un ragazzo la trovò in un armadio e domandò perché accanto a certi sentieri ci fossero [[g5]] punti interrogativi. La donna sorrise: erano il segno che qualcuno aveva lasciato spazio a un’[[g6]] visita. Questo racconto è originale e non deriva da un’opera letteraria esistente.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sindaco"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "percorso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "curva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "corressero"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piccoli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "altra"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

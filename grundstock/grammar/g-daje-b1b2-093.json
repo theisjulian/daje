@@ -1,0 +1,136 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-093",
+ "title": "Una visita che comincia con una domanda (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Una visita che comincia con una domanda (1) · livello medio.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "UNESCO World Heritage Centre: Venice and its Lagoon. Welterbe-Einschreibung 1987; aktuelle Objektdarstellung am Abrufdatum. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://whc.unesco.org/en/list/394/"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Methodische Kompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3093
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Venezia e la sua laguna fanno parte del Patrimonio mondiale UNESCO dal 1987. La scheda ufficiale presenta insieme la città e l’ambiente lagunare, sottolineando il rapporto [[g1]] (storico: accorda con il nome) fra insediamenti umani e territorio. Segnala inoltre la pressione del turismo e i cambiamenti nelle funzioni [[g2]] (urbano: accorda con il nome). Questi elementi documentati offrono il punto di partenza per l’itinerario [[g3]] (immaginario: accorda con il nome) seguente; non costituiscono informazioni [[g4]] (aggiornato: accorda con il nome) su biglietti o prenotazioni.\nUn gruppo di studenti prepara una visita. La prima lista comprende soltanto monumenti [[g5]] (famoso: accorda con il nome). Poi una ragazza chiede dove comprino il pane gli abitanti e come raggiungano la scuola. La domanda non elimina l’interesse per l’arte, ma allarga lo sguardo. Il gruppo decide di osservare anche i servizi quotidiani e di evitare un programma che obblighi a correre da una fotografia all’altra.\nLa classe divide il lavoro in tre parti. Alcuni studiano una pianta, altri cercano una testimonianza [[g6]] (pubblicato: accorda con il nome) da un’istituzione culturale, altri preparano domande sull’ambiente. Nessuno dovrà intervistare persone incontrate per strada senza chiedere prima il permesso. Nel diario di viaggio sarà sempre indicato se una frase è un’osservazione [[g7]] (personale: accorda con il nome), un’informazione ricavata da una fonte o un’ipotesi.\nDurante la visita immaginata, gli studenti si fermano davanti a un campo quasi vuoto. Non lo descrivono come «più autentico» soltanto perché ci sono meno visitatori: sarebbe un giudizio troppo rapido. Annotano ciò che vedono, ascoltano i suoni e controllano sulla mappa dove si trovano. Più tardi confrontano quell’esperienza con quella di uno spazio affollato.\nIl prodotto [[g8]] (finale: accorda con il nome) non è una classifica dei luoghi migliori. È una guida [[g9]] (breve: accorda con il nome) che propone domande e lascia il tempo di osservare. Il gruppo inserisce anche una pagina [[g10]] (pratico: accorda con il nome), ma la aggiornerà prima di un viaggio reale. Una città non coincide con il percorso scelto da chi la visita; ricordarlo può rendere il viaggio più [[g11]] (interessante: accorda con il nome) e più [[g12]] (rispettoso: accorda con il nome). Il racconto degli studenti è interamente inventato.\nPrima della partenza ogni studente preparerà una piccola pagina del diario con tre spazi: informazione controllata, osservazione e domanda. Dopo il viaggio confronterà le tre sezioni con un compagno. Se una frase mescola un fatto e un’impressione, proveranno a separarla in due. Non servirà a eliminare le emozioni dal racconto, ma a permettere al lettore di riconoscerle.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "storico"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "urbane"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "immaginario"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "aggiornate"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "famosi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "pubblicata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "personale"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "finale"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "breve"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "pratica"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "interessante"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "rispettoso"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

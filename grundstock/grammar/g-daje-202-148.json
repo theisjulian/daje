@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-148",
+ "title": "Organizzare una visita al Pantheon",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Organizzare una visita al Pantheon · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Eigene sachliche Zusammenfassung nach Ministero della Cultura: Pantheon e Basilica di Santa Maria ad Martyres. Abruf 29.10.2026; Besuchsbedingungen vor realer Nutzung erneut prüfen.",
+   "url": "https://cultura.gov.it/luogo/pantheon"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1148
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Il Pantheon si trova a Roma ed è anche una basilica. Per una visita, il Ministero della Cultura indica l’acquisto dei biglietti ufficiali sul portale Musei Italiani, nell’app oppure presso le casse e i distributori automatici sul posto. Non sono previsti biglietti ufficiali per saltare la fila. Le visite seguono l’ordine di arrivo. Questa breve informazione è stata riformulata a partire dalla pagina ufficiale consultata il 29 ottobre 2026; prima di un viaggio reale occorre verificare le condizioni aggiornate.\nPer il nostro esercizio immaginiamo una classe che prepara una visita. Gli studenti [[g1]] (dividere, futuro) il lavoro in piccoli gruppi. Il primo gruppo [[g2]] (cercare, futuro) le informazioni ufficiali, il secondo [[g3]] (preparare, futuro) una mappa e il terzo [[g4]] (raccogliere, futuro) le domande. Ogni gruppo [[g5]] (avere, futuro) un portavoce. Prima della partenza, tutti confronteranno i risultati e [[g6]] (controllare, futuro) le fonti. La classe non [[g7]] (usare, futuro) messaggi pubblicitari come prova delle condizioni di ingresso. Durante la visita, gli studenti [[g8]] (osservare, futuro) l’edificio e prenderanno appunti. Dopo il ritorno, [[g9]] (scrivere, futuro) un breve resoconto e distingueranno ciò che hanno visto dalle informazioni lette. Chi non [[g10]] (partecipare, futuro) [[g11]] (potere, futuro) lavorare sulle immagini autorizzate e sui materiali ufficiali disponibili online. Il programma scolastico qui descritto è inventato.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "divideranno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cercherà"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "preparerà"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "raccoglierà"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avrà"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "controlleranno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "userà"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "osserveranno"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "scriveranno"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "parteciperà"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "potrà"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Domani io (visitare) il museo. Usa il futuro. → [[g1]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "visiterò"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

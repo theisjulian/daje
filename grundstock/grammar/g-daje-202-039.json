@@ -1,0 +1,171 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-039",
+ "title": "Un invito per il fine settimana (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Un invito per il fine settimana (1) · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1039
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara Lia, [[g1]] finalmente il programma della festa del nostro centro culturale. [[g2]] (sapere, presente) che [[g3]] molti impegni, ma [[g4]] venire anche soltanto per un pomeriggio. La festa [[g5]] sabato e domenica; noi [[g6]] liberi entrambi i giorni. Tu [[g7]] partecipare al laboratorio di cucina oppure preferisci ascoltare i racconti? I tuoi fratelli [[g8]] la possibilità di provare alcuni strumenti musicali. Non [[g9]] (dovere, presente) portare nulla. Il laboratorio [[g10]] gratuito, però [[g11]] (dovere, presente) prenotare i posti. Io [[g12]] il modulo e [[g13]] iscrivere anche voi. Mia sorella [[g14]] preparare un piccolo spettacolo: [[g15]] bisogno di qualcuno che legga due frasi. Tu [[g16]] brava a leggere e non [[g17]] paura del pubblico! Se [[g18]], [[g19]] aiutarla. Noi abbiamo anche una stanza per gli ospiti, quindi non dovete tornare subito a casa. La nostra cucina è piccola, ma il giardino è grande e possiamo cenare fuori. I vicini sono molto gentili e vogliono conoscere i nostri amici. Fammi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "So"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "puoi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "siamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vuoi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "devono"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "dobbiamo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "posso"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "vuole"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "sei"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "vuoi"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "puoi"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

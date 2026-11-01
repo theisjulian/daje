@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-130",
+ "title": "La cartolina difficile da leggere",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · La cartolina difficile da leggere · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3130
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Durante un laboratorio di scrittura [[g1]] ricevuto una cartolina inventata dall’insegnante. Il messaggio era breve, ma alcune lettere si somigliavano. Prima abbiamo provato a leggerlo da soli; poi abbiamo confrontato le interpretazioni. In un punto qualcuno leggeva «casa», qualcun altro «cosa». Il contesto aiutava, ma non eliminava ogni dubbio.\nL’insegnante ci ha chiesto di non correggere subito la parola incerta. Dovevamo [[g2]] le alternative e spiegare perché ciascuna [[g3]] possibile. Quando abbiamo letto il resto della frase, una soluzione è diventata più probabile. Tuttavia abbiamo mantenuto il punto [[g4]] finché non abbiamo visto l’originale stampato.\nGli studenti che scrivevano in modo molto ordinato pensavano di essere [[g5]]. Invece leggere una [[g6]] diversa [[g7]] un’attenzione nuova anche a loro. L’esercizio non serviva a scegliere il quaderno più bello, [[g8]] a distinguere osservazione e interpretazione.\nAlla fine ognuno ha scritto una breve istruzione per un compagno. Se il [[g9]] non la capiva, l’autore doveva chiarirla senza irritarsi. Abbiamo scoperto che una frase può essere difficile anche quando tutte le lettere sono [[g10]]. Perciò abbiamo [[g11]] sia la grafia sia le parole. Infine abbiamo conservato due versioni: quella iniziale e quella corretta. Il confronto mostrava il lavoro [[g12]], non soltanto il risultato. Così una cartolina fittizia è diventata un’occasione per pensare a chi legge.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "segnare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sembrasse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "interrogativo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avvantaggiati"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "grafia"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "richiedeva"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "bensì"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "destinatario"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "leggibili"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "rivisto"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "svolto"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

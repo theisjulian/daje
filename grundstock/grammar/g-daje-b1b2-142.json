@@ -1,0 +1,189 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-142",
+ "title": "Guardare una città dall’alto",
+ "language": "it",
+ "level": "B2",
+ "description": "Scienza e tecnologia · Guardare una città dall’alto · livello difficile.",
+ "topics": [
+  "Scienza e tecnologia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "European Space Agency (ESA): Osservazione della terra. Letzte Änderung 21.07.2010. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://www.esa.int/kids/it/imparare/Osservazione_della_terra"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "curriculum": "It12/13 5"
+ },
+ "grammar": {
+  "topic": "it12-scienza",
+  "topicTitle": "Scienza e tecnologia",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3142
+ },
+ "estimatedMinutes": 14,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Secondo la spiegazione divulgativa dell’ESA, i satelliti di osservazione della Terra aiutano a studiare [[g1]] come l’espansione urbana, gli incendi e le variazioni dei ghiacci. Le immagini dallo spazio offrono quindi un punto di osservazione utile per confrontare luoghi e momenti diversi. La [[g2]] consultata risale al 2010: qui ne riprendiamo il principio generale, non l’elenco delle missioni allora in preparazione.\nImmaginiamo ora una classe che confronta due immagini della stessa città. Nella prima si vede un grande [[g3]] [[g4]]; nella seconda quel terreno ospita edifici e strade. Un ragazzo conclude subito che la città è peggiorata. Una compagna gli chiede quali informazioni permettano di sostenerlo. L’immagine mostra una trasformazione, ma non racconta da sola chi abita nei nuovi edifici, quali servizi siano disponibili o quali [[g5]] abbiano preceduto i lavori.\nIl gruppo prepara allora due [[g6]]: «[[g7]]» e «vorremmo sapere». Nella prima scrive soltanto ciò che riesce a distinguere; nella seconda raccoglie le domande. Alcune zone sembrano più scure, ma questo basta per dire che contengano alberi? Le immagini sono [[g8]] riprese nella stessa stagione? L’[[g9]] di un edificio potrebbe essere scambiata per un oggetto diverso? Prima di discutere le conseguenze, occorre capire quanto sia affidabile il confronto.\nGli studenti decidono di aggiungere una passeggiata nel quartiere. Portano una mappa, annotano i luoghi accessibili e osservano come le persone usano gli spazi. Non fotografano i passanti per identificarli. Parlano con un bibliotecario, che suggerisce di cercare [[g10]] giornali locali. Le fonti non offrono tutte la stessa prospettiva: una mappa aiuta a orientarsi, un articolo riporta una discussione, un’immagine mostra una configurazione visibile in un certo momento.\nAlla fine il cartellone non contiene un verdetto definitivo. Presenta una trasformazione documentata, alcune possibili conseguenze e domande ancora aperte. Una studentessa propone il titolo «[[g11]] di più non significa sapere tutto». Il titolo riassume il lavoro senza svalutare gli strumenti: una nuova prospettiva diventa utile quando sappiamo quali domande può aiutare a risolvere. L’attività scolastica è inventata; la [[g12]] dell’ESA sostiene il breve quadro iniziale sulle applicazioni dell’osservazione terrestre.\nPrima di esporre il cartellone, ogni gruppo rilegge le conclusioni di un [[g13]]. Deve distinguere un fatto osservabile da una spiegazione [[g14]] e suggerire quale documento potrebbe aiutare a controllarla. Il confronto rende alcune frasi meno sicure, ma più precise.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "fenomeni",
+      "pagina",
+      "terreno"
+     ],
+     "answer": "fenomeni"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "fenomeni",
+      "terreno",
+      "pagina"
+     ],
+     "answer": "pagina"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "pagina",
+      "terreno",
+      "fenomeni"
+     ],
+     "answer": "terreno"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "pagina",
+      "libero",
+      "fenomeni"
+     ],
+     "answer": "libero"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "fenomeni",
+      "pagina",
+      "decisioni"
+     ],
+     "answer": "decisioni"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "fenomeni",
+      "colonne",
+      "pagina"
+     ],
+     "answer": "colonne"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "pagina",
+      "osserviamo",
+      "fenomeni"
+     ],
+     "answer": "osserviamo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "fenomeni",
+      "pagina",
+      "state"
+     ],
+     "answer": "state"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ombra",
+      "pagina",
+      "fenomeni"
+     ],
+     "answer": "ombra"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "vecchi",
+      "fenomeni",
+      "pagina"
+     ],
+     "answer": "vecchi"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "pagina",
+      "Vedere",
+      "fenomeni"
+     ],
+     "answer": "Vedere"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "pagina",
+      "fonte",
+      "fenomeni"
+     ],
+     "answer": "fonte"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "pagina",
+      "fenomeni",
+      "altro"
+     ],
+     "answer": "altro"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "possibile",
+      "fenomeni",
+      "pagina"
+     ],
+     "answer": "possibile"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

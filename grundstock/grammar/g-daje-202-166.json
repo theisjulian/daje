@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-166",
+ "title": "Informazioni al centro culturale",
+ "language": "it",
+ "level": "A2",
+ "description": "Venire, sapere e i verbi modali · Informazioni al centro culturale · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1166
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Visitatore: Buongiorno, scusi, avrei bisogno di alcune informazioni sul corso di fotografia.\nAddetta: Mi dica. [[g1]] (cercare, presente) il corso del sabato o quello serale?\nVisitatore: Quello serale. Lavoro fino alle cinque e [[g2]] arrivare qui alle sei.\nAddetta: Allora [[g3]] (andare, presente) bene. Le lezioni [[g4]] (cominciare, presente) alle diciotto e trenta.\nVisitatore: Quanto dura il corso?\nAddetta: Quattro settimane, con due incontri alla settimana. Ogni incontro dura un’ora e mezza.\nVisitatore: [[g5]] (dovere, presente) portare una macchina fotografica?\nAddetta: [[g6]] usare anche il telefono. Guardi, nel programma [[g7]] (trovare, presente) tutte le informazioni.\nVisitatore: Grazie. E dove si svolgono le lezioni?\nAddetta: Nella sala al primo piano. Per favore, salga dalle scale a sinistra oppure prenda l’ascensore.\nVisitatore: [[g8]] iscrivermi adesso?\nAddetta: Certo. Compili questo modulo e lo [[g9]] (consegnare, presente) alla reception. Non si preoccupi se non [[g10]] (conoscere, presente) ancora tutti i termini: il corso è per principianti.\nVisitatore: Bene, allora leggo il programma e torno fra poco.\nAddetta: Va bene. Siamo qui fino alle sette. Arrivederci!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Cerca"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "posso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "va"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cominciano"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Devo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Può"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "trova"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Posso"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "consegni"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "conosce"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

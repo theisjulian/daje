@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-026",
+ "title": "Una settimana senza programma",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Una settimana senza programma · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3026
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Caro Davide, ti scrivo [[g1]] (provenienza) una piccola isola dove mia zia vive da anni. Prima della partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso [[g2]] (capire, io) che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e dalle persone che si incontrano.\nIeri [[g3]] (uscire, io femminile) presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. Una signora [[g4]] (chiedere, a me) se conoscevo la strada per la scuola. Lei aveva abitato sull’isola [[g5]] bambina, ma non riconosceva più il quartiere. L’edificio era stato trasformato in una sala per incontri.\nL’ho accompagnata e abbiamo trovato una mostra [[g6]] disegni. Suo padre compariva in una fotografia all’ingresso. La signora [[g7]] (fermarsi) a guardarla a lungo; io aspettavo accanto [[g8]] porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato una storia che nessuna guida avrebbe potuto conoscere.\nOggi [[g9]] (piovere), così resto in casa con i miei appunti. Non [[g10]] (cercare, io) di ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia [[g11]] (in + il) suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. [[g12]] presto, Giada.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "capisco"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono uscita"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mi ha chiesto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "si è fermata"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "alla"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "piove"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "cerco"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "nel"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "A"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

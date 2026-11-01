@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-042",
+ "title": "Gli aggettivi possessivi (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi possessivi (1) · Gli aggettivi possessivi (1) · livello medio.",
+ "topics": [
+  "Gli aggettivi possessivi (1)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-1",
+  "topicTitle": "Gli aggettivi possessivi (1)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1042
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. io → quaderno → [[g1]]\n2. io → penna → [[g2]]\n3. io → quaderni → [[g3]]\n4. io → penne → [[g4]]\n5. tu → quaderno → [[g5]]\n6. tu → penna → [[g6]]\n7. tu → quaderni → [[g7]]\n8. tu → penne → [[g8]]\n9. lui/lei → quaderno → [[g9]]\n10. lui/lei → penna → [[g10]]\n11. lui/lei → quaderni → [[g11]]\n12. lui/lei → penne → [[g12]]\n13. noi → quaderno → [[g13]]\n14. noi → penna → [[g14]]\n15. noi → quaderni → [[g15]]\n16. noi → penne → [[g16]]\n17. voi → quaderno → [[g17]]\n18. voi → penna → [[g18]]\n19. voi → quaderni → [[g19]]\n20. voi → penne → [[g20]]\n21. loro → quaderno → [[g21]]\n22. loro → penna → [[g22]]\n23. loro → quaderni → [[g23]]\n24. loro → penne → [[g24]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "miei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mie"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "tuo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tua"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "tuoi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tue"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "suo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sua"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "suoi"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "sue"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "nostro"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "nostra"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "nostri"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "nostre"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "vostro"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "vostra"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "vostri"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "vostre"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

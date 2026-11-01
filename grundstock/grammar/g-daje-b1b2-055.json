@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-055",
+ "title": "Un colloquio diverso",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Un colloquio diverso · livello medio.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Methodische Kompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3055
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Quando [[g1]] (leggere, forma composta) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. [[g3]] (avere, imperfetto) però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. Nella candidatura [[g4]] (spiegare, forma composta) che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi [[g5]] (invitare, forma composta) a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. [[g6]] (volere) sapere come avrei reagito a un errore durante uno spettacolo. «[[g7]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g8]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. [[g9]] (leggere, forma composta) tutto con calma. [[g10]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi [[g11]] (seguire, forma composta) nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; [[g12]] (avere, imperfetto) però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho letto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Avevo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho spiegato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha invitato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Voleva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Chiederei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "cercherei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Ho letto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ha seguito"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avevo"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-116",
+ "title": "Il sentiero interrotto (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il sentiero interrotto (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3116
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "La mattina della passeggiata Marta [[g1]] (controllare) il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo [[g2]] (ricevere) un messaggio dalla guida. Il percorso previsto non era praticabile. Marta [[g3]] (preparare) lo zaino la sera prima e [[g4]] (essere) delusa, ma non voleva rinunciare all’intera giornata.\nLa guida [[g5]] (proporre) un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e [[g6]] (fermarsi) nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta conosceva quel paese soltanto come un punto sulla carta; ora [[g7]] (scoprire) un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo [[g8]] (domandare, forma composta) chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e [[g9]] (indicare, forma composta) i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale [[g10]] (rimanere, forma composta; accordo con il soggetto) escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta [[g11]] (scrivere, forma composta) che il viaggio non era andato come previsto. [[g12]] (avere) però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "controllava"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva ricevuto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aveva preparato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha proposto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si è fermato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scopriva"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha domandato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha indicato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "è rimasto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ha scritto"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Aveva"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

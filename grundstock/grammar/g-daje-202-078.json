@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-078",
+ "title": "Due modi di costruire un lavoro",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · Due modi di costruire un lavoro · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1078
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "A — Mi chiamo Ines e vivo in [[g1]] città di provincia. Lavoro in [[g2]] cooperativa che consegna libri alle persone che non possono andare in biblioteca. Ogni mattina controllo [[g3]] richieste, preparo [[g4]] borse e organizzo [[g5]] percorso. Uso [[g6]] bicicletta elettrica per [[g7]] consegne vicine. Quando piove molto, [[g8]] collega mi accompagna con [[g9]] furgone. [[g10]] lavoro richiede attenzione: non tutti desiderano [[g11]] stessi libri e qualcuno preferisce caratteri grandi. Ho [[g12]] figlia che frequenta [[g13]] scuola media. [[g14]] sera cuciniamo insieme e ci raccontiamo [[g15]] giornata. Non guadagno molto, ma mi piace [[g16]] lavoro che mi permette di conoscere [[g17]] persone. Per risparmiare tempo, faccio [[g18]] spesa due volte alla settimana. Il sabato non lavoro e spesso incontro i miei amici.\nB — Io sono Ayo e riparo biciclette. Ho imparato da mio zio, poi ho seguito un corso professionale. Adesso condivido un’officina con una collega. Lei controlla i freni e le ruote; io mi occupo soprattutto delle luci e delle trasmissioni. I clienti arrivano da quartieri diversi. Alcuni usano la bicicletta tutti i giorni, altri soltanto nel fine settimana. Noi spieghiamo sempre il costo prima di cominciare. Paghiamo l’affitto del locale e compriamo gli attrezzi insieme. D’estate abbiamo molto lavoro; nei mesi tranquilli organizziamo lezioni di manutenzione. Non voglio aprire un negozio più grande: preferisco migliorare il servizio e avere tempo per la mia famiglia. Queste due testimonianze sono immaginarie.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "la"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

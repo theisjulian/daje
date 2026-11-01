@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-179",
+ "title": "Forme verbali (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Forme verbali (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3179
+ },
+ "estimatedMinutes": 24,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. portare — condizionale presente — io → [[g1]]\n2. vendere — congiuntivo imperfetto — tu → [[g2]]\n3. avere — congiuntivo presente — lui/lei → [[g3]]\n4. volere — congiuntivo presente — lui/lei → [[g4]]\n5. potere — congiuntivo presente — io → [[g5]]\n6. preparare — trapassato prossimo — voi → [[g6]]\n7. portare — trapassato prossimo — io → [[g7]]\n8. lavorare — congiuntivo imperfetto — voi → [[g8]]\n9. conservare — congiuntivo presente — noi → [[g9]]\n10. vendere — presente — tu → [[g10]]\n11. ascoltare — condizionale presente — noi → [[g11]]\n12. temere — imperfetto — lui/lei → [[g12]]\n13. lavorare — trapassato prossimo — io → [[g13]]\n14. ricevere — presente — noi → [[g14]]\n15. dire — congiuntivo imperfetto — tu → [[g15]]\n16. volere — condizionale presente — lui/lei → [[g16]]\n17. fare — condizionale presente — tu → [[g17]]\n18. dire — condizionale presente — io → [[g18]]\n19. vendere — congiuntivo presente — loro → [[g19]]\n20. osservare — congiuntivo presente — lui/lei → [[g20]]\n21. lavorare — presente — lui/lei → [[g21]]\n22. partire — imperfetto — lui/lei → [[g22]]\n23. invitare — condizionale presente — voi → [[g23]]\n24. ascoltare — imperfetto — voi → [[g24]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "porterei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vendessi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "voglia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avevate preparato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avevo portato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "lavoraste"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "conserviamo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "vendi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ascolteremmo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "temeva"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "avevo lavorato"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "riceviamo"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "dicessi"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "vorrebbe"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "faresti"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "direi"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "vendano"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "osservi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "lavora"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "partiva"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "invitereste"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "ascoltavate"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

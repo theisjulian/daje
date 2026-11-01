@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-066",
+ "title": "Cerchiamo compagni di progetto (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Cerchiamo compagni di progetto (1) · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1066
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "A — [[g1]] (essere, presente) Alessia e [[g2]] (cercare, presente) studenti curiosi per costruire una piccola guida del quartiere. [[g3]] (abitare, presente) qui da due anni e [[g4]] (conoscere, presente) alcune strade, ma [[g5]] (volere, presente) scoprire posti nuovi. Mi [[g6]] (interessare, presente) le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni [[g7]] (essere, presente) libera dopo le quattro. [[g8]] (preferire, presente) un gruppo piccolo. Tu hai una macchina fotografica? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il primo anno del liceo e prepariamo brevi video senza pubblicità. Abbiamo idee interessanti, però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cerco"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Abito"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "conosco"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "voglio"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "interessano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Preferisco"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

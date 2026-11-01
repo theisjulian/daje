@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-080",
+ "title": "Due modi di raccontare il pranzo",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Due modi di raccontare il pranzo · livello medio.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Methodische Kompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3080
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Testo A — Il [[g1]] (sostantivo nel contesto; iniziali qu…) della mensa. In una scuola immaginaria gli studenti hanno proposto un quaderno dei commenti sul pranzo. La prima settimana sono comparsi [[g2]] (sostantivo nel contesto; iniziali gi…) molto [[g3]] (aggettivo nel contesto; iniziali br…): «buono», «freddo», «troppo». La cuoca ha spiegato che alcune osservazioni non erano abbastanza [[g4]] (aggettivo nel contesto; iniziali pr…) per essere utili. Il gruppo ha quindi preparato tre [[g5]] (sostantivo nel contesto; iniziali do…): quale piatto hai assaggiato, che cosa hai notato e quale cambiamento suggerisci? Nessuno è obbligato a descrivere esigenze personali davanti agli altri. Le richieste individuali seguono un canale [[g6]] (aggettivo nel contesto; iniziali ri…).\nDopo un mese il quaderno contiene meno messaggi, ma più [[g7]] (sostantivo nel contesto; iniziali in…). Alcuni studenti chiedono porzioni iniziali più [[g8]] (aggettivo nel contesto; iniziali pi…) con la possibilità di aggiungerne; altri vorrebbero leggere il menù prima di arrivare. Il progetto non stabilisce quale alimentazione sia adatta a ogni persona: serve a migliorare la comunicazione su un [[g9]] (sostantivo nel contesto; iniziali se…) comune.\nTesto B — La cena delle [[g10]] (sostantivo nel contesto; iniziali ri…). Un centro di quartiere invita le famiglie a raccontare un piatto attraverso un [[g11]] (sostantivo nel contesto; iniziali ri…). Non è una gara culinaria e non occorre portare cibo. Una persona descrive una minestra, un’altra una merenda preparata dal nonno. Gli organizzatori raccolgono i testi e chiedono agli autori di rileggerli prima della stampa. Le quantità restano indicative quando fanno parte di un ricordo; non vengono presentate come istruzioni verificate per cucinare.\nI due progetti parlano entrambi di cibo, ma hanno scopi [[g12]] (aggettivo nel contesto; iniziali di…). Il primo raccoglie osservazioni pratiche sul servizio della mensa; il secondo conserva narrazioni personali. Confondere i due scopi renderebbe meno chiaro quello che si chiede ai partecipanti. Entrambi i progetti sono inventati per l’attività.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quaderno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "giudizi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "brevi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "precise"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "domande"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "riservato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "informazioni"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piccole"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "servizio"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ricette"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ricordo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "differenti"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

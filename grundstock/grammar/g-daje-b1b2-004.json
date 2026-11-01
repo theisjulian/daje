@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-004",
+ "title": "Un laboratorio che cambia idea",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Un laboratorio che cambia idea · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3004
+ },
+ "estimatedMinutes": 11,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "La nostra officina scolastica occupa un locale [[g1]] (luminoso, maschile singolare) vicino alla palestra. All’inizio volevamo costruire soltanto oggetti [[g2]] (piccolo, maschile plurale), facili da trasportare. Poi una vicina ci ha chiesto una mensola per i suoi libri e il progetto è cambiato.\nSul banco ci sono pezzi di legno, fogli di cartone e vecchie scatole di metallo. Per le decorazioni usiamo ritagli di stoffa; evitiamo invece il vetro, perché non abbiamo strumenti adatti per lavorarlo. Ogni materiale richiede una scelta [[g3]] (diverso, femminile singolare).\nLuca procede lentamente, ma le sue misure sono [[g4]] (preciso, femminile plurale). Sara disegna rapidamente e propone soluzioni [[g5]] (originale, femminile plurale). Nessuno lavora completamente da solo: prima di tagliare, controlliamo il disegno insieme. Un bordo irregolare può essere corretto; una mensola [[g6]] (non stabile, femminile singolare) non deve essere consegnata.\nI primi risultati erano [[g7]] (modesto, maschile plurale), però la vicina li ha osservati attentamente. Ci ha spiegato che preferiva una superficie [[g8]] (non verniciata, femminile singolare), senza colori [[g9]] (vivace, maschile plurale). Abbiamo modificato il progetto e conservato gli avanzi in contenitori [[g10]] (separato, maschile plurale). Il lavoro più [[g11]] (non facile) non è stato usare gli attrezzi, ma ascoltare una richiesta senza pensare di averla già capita. La prossima volta inviteremo il destinatario prima di cominciare, non soltanto quando l’oggetto sarà pronto.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "luminoso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "piccoli"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diversa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "precise"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "originali"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "instabile"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "modesti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "naturale"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "vivaci"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "separati"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "difficile"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

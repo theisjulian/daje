@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-112",
+ "title": "Un colloquio diverso",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Un colloquio diverso · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3112
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Quando [[g1]] (leggere, forma composta) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione [[g3]] una festa e possedevo alcune competenze utili. Nella candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g4]] gruppo.\nLa responsabile mi ha invitato a [[g5]] colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito [[g6]] un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima [[g7]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\n[[g8]] contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. [[g9]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor [[g10]] (a me, il narratore) ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho letto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "cercherei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Alla"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "a"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

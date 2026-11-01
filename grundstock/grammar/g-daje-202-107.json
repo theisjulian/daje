@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-107",
+ "title": "Una mattina diversa",
+ "language": "it",
+ "level": "A2",
+ "description": "Venire, sapere e i verbi modali · Una mattina diversa · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1107
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Intervistatrice: Come [[g1]] (cominciare, presente) la tua giornata, Neri?\nNeri: Mi [[g2]] (svegliare, presente) alle sei e mezza. [[g3]] (abitare, presente) fuori città e prendo il treno per andare a scuola.\nIntervistatrice: [[g4]] (fare, presente) colazione prima di uscire?\nNeri: Sì, [[g5]] (preparare, presente) il latte e [[g6]] (mangiare, presente) due fette di pane. Mio fratello [[g7]] (dormire, presente) ancora, quindi [[g8]] (parlare, presente) piano.\nIntervistatrice: Quanto dura il viaggio?\nNeri: Circa quaranta minuti. In treno leggo oppure ascolto un podcast. Non studio sempre: qualche volta guardo il paesaggio.\nIntervistatrice: E oggi perché sei qui così presto?\nNeri: La nostra classe visita la radio locale. Io devo aiutare a sistemare i microfoni e voglio arrivare prima degli altri.\nIntervistatrice: Sai già usare gli strumenti?\nNeri: Conosco soltanto le basi. Un tecnico ci spiega tutto e controlla il lavoro.\nIntervistatrice: Che cosa vuoi imparare?\nNeri: Vorrei capire come si prepara un’intervista. Mi interessa soprattutto ascoltare bene le risposte, perché a volte una domanda nuova nasce proprio da una risposta inattesa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "comincia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sveglio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Abito"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Fai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "preparo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mangio"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dorme"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "parlo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

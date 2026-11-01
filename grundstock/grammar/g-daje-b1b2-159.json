@@ -1,0 +1,183 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-159",
+ "title": "Una fotografia trovata in rete",
+ "language": "it",
+ "level": "B2",
+ "description": "Media, fonti e discorso pubblico · Una fotografia trovata in rete · livello difficile.",
+ "topics": [
+  "Media, fonti e discorso pubblico",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Europeana PRO: Understanding the rights statements used by Europeana. 06.02.2015; aktualisiert 11.10.2024. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://pro.europeana.eu/index.php/page/available-rights-statements"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "curriculum": "It12/13 3; 4; 5"
+ },
+ "grammar": {
+  "topic": "it12-media",
+  "topicTitle": "Media, fonti e discorso pubblico",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3159
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Europeana accompagna gli oggetti digitali con indicazioni sui [[g1]], che aiutano a comprendere come [[g2]] essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non sostituisce la verifica del singolo oggetto.\nNel racconto che segue, una redazione scolastica trova una fotografia perfetta per il proprio [[g3]]. Mostra una piazza in un giorno di mercato e potrebbe [[g4]] un [[g5]] sulle trasformazioni del quartiere. Il primo impulso è scaricarla e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda [[g6]].\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato [[g7]]. I ragazzi capiscono che citare una fonte e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non trovando subito una risposta chiara per l’uso previsto, scelgono di non inserire la fotografia. Possono comunque descrivere la ricerca e offrire un collegamento alla scheda, senza ripubblicare il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato [[g8]] propria osservazione [[g9]] piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono [[g10]] semplificati. Nel testo, invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta richiede più tempo di un [[g11]] download, ma produce una domanda utile: quali informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale [[g12]] un piccolo riquadro con autore, istituzione, titolo e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né attribuiti permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il controllo: la scelta fatta per un oggetto non vale automaticamente per tutti gli altri.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "diritti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "possano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "giornale"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "accompagnare"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "articolo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "completa"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "giuridico"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sulla"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "stati"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "semplice"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "pubblica"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Europeana accompagna gli oggetti digitali con indicazioni sui diritti, che aiutano a comprendere come possano essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non sostituisce la verifica del singolo oggetto.\nNel racconto che segue, una redazione scolastica trova una fotografia perfetta per il proprio [[g1]]. Mostra una piazza in un giorno di mercato e potrebbe accompagnare un [[g2]] sulle trasformazioni del quartiere. Il primo impulso è scaricarla e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda [[g3]].\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato giuridico. I ragazzi capiscono che citare una fonte e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non trovando subito una risposta chiara per l’uso previsto, scelgono di non inserire la fotografia. Possono comunque descrivere la ricerca e offrire un collegamento alla scheda, senza ripubblicare il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato sulla propria osservazione [[g4]] piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono [[g5]] semplificati. Nel testo, invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta richiede più tempo di un semplice download, ma produce una domanda utile: quali informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale [[g6]] un piccolo riquadro con autore, istituzione, titolo e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né attribuiti permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il controllo: la scelta fatta per un oggetto non vale automaticamente per tutti gli altri.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "giornale"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "articolo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "completa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "stati"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "pubblica"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

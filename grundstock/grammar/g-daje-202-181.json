@@ -1,0 +1,200 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-181",
+ "title": "Imparare un mestiere creativo",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli aggettivi e la loro posizione · Imparare un mestiere creativo · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1181
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Nel [[g1]] centro [[g2]] un laboratorio insegna a costruire [[g3]] oggetti di carta. Il percorso non offre un titolo [[g4]]: permette di conoscere materiali e tecniche di base. L’iscrizione comprende quattro incontri, una [[g5]] raccolta di istruzioni e il materiale [[g6]] per gli esercizi. La preparazione comincia con l’osservazione di oggetti [[g7]]. Gli studenti confrontano forme [[g8]] e discutono la funzione di ogni parte. Poi passano al disegno e alla costruzione.\nGli insegnanti spiegano lentamente i passaggi più [[g9]] e mostrano concretamente come controllare le misure. La precisione è [[g10]], ma non si cerca la perfezione al [[g11]] tentativo. Un errore può suggerire una soluzione [[g12]]. Le attività [[g13]] si alternano a momenti di riflessione. Ogni partecipante descrive il procedimento e ascolta i commenti del gruppo. La collaborazione aiuta soprattutto quando un progetto richiede più mani.\nAlla fine si prepara una [[g14]] esposizione. I cartelli presentano chiaramente i materiali, la durata del lavoro e le difficoltà incontrate. Le persone interessate possono fare domande direttamente agli autori. La valutazione riguarda la comprensione dei passaggi, la cura degli strumenti e la capacità di spiegare le scelte. Non basta avere un oggetto [[g15]]: conta anche sapere come è stato realizzato. Chi desidera continuare riceve indicazioni per esercitarsi autonomamente con materiali [[g16]]. Il laboratorio invita a usare le risorse responsabilmente e a conservare gli scarti che possono servire per altri progetti.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nostro"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "immaginario"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "semplici"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "professionale"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "necessario"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "comuni"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "diverse"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "difficili"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "importante"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "primo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "nuova"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "pratiche"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "bello"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "economici"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Le attività sono (pratico). → [[g1]]\n2. I materiali sono (economico). → [[g2]]\n3. La spiegazione è (chiaro). → [[g3]]\n4. Gli oggetti sono (utile). → [[g4]]\n5. Le istruzioni sono (semplice). → [[g5]]\n6. Il risultato è (interessante). → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "pratiche"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "economici"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiara"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "utili"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "semplici"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "interessante"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

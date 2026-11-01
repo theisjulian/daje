@@ -69,7 +69,8 @@ def check_grammar(p, f):
     q = p['questions']
     g = p.get('grammar', {})
     n = sum(grammar_units(x) for x in q)
-    if n < MIN_UNITS: hard.append(f'{f}: zu kurz ({n} Einheiten, mindestens {MIN_UNITS})')
+    long_text = sum(len(x.get('text') or '') for x in q) >= 600  # langer Lückentext: wenige, anspruchsvolle Lücken genügen
+    if n < (3 if long_text else MIN_UNITS): hard.append(f'{f}: zu kurz ({n} Einheiten, mindestens {MIN_UNITS})')
     for x in q:
         if not x.get('promptHelp'): soft.append(f'{f}/{x["id"]}: Anweisung ohne deutsche Hilfe')
         if x.get('explanation') and not x.get('explanationHelp'): soft.append(f'{f}/{x["id"]}: Erklärung ohne deutsche Hilfe')

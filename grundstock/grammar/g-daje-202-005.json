@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-005",
+ "title": "Una merenda per il laboratorio",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Una merenda per il laboratorio · livello medio.",
+ "topics": [
+  "L’articolo indeterminativo (un, uno, una, un’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1005
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "A: Buongiorno, organizziamo [[g1]] merenda per i partecipanti al laboratorio. Possiamo ordinare qualcosa qui?\nB: Certamente. Prendo [[g2]] matita e [[g3]] foglio. Quante persone siete?\nA: Siamo dodici. Vorrei [[g4]] succo di pera, [[g5]] spremuta e [[g6]] tè freddo per tre persone. Per gli altri vanno bene acqua naturale e caffè.\nB: Da mangiare che cosa desiderate?\nA: [[g7]] panino con le verdure, [[g8]] focaccia al rosmarino, [[g9]]’insalata di riso e [[g10]] yogurt bianco. Poi [[g11]] torta semplice da dividere e [[g12]]’arancia per chi preferisce la frutta.\nB: Abbiamo anche uno strudel senza crema.\nA: Bene, aggiunga una porzione. Serve un contenitore per portare tutto.\nB: Nessun problema. Volete una borsa di carta?\nA: Sì, grazie. E anche un cucchiaio per lo yogurt e un tovagliolo per ogni persona.\nB: Potete tornare tra mezz’ora. Per il pagamento prepariamo un conto unico.\nA: Perfetto. La merenda comincia alle quattro, quindi abbiamo tempo. Grazie e a dopo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Un"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "un"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

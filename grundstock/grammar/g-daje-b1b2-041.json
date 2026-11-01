@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-041",
+ "title": "Un colloquio diverso (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Un colloquio diverso (1) · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3041
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Quando ho letto l’[[g1]] del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare in [[g3]].\nLa responsabile mi ha [[g4]] a un colloquio. Non mi ha chiesto soltanto quali [[g5]] [[g6]]. Voleva sapere come avrei reagito a un errore durante uno [[g7]]. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il [[g8]] [[g9]] il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi ha seguito [[g10]] prove. Ogni sera prendevo [[g11]] su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’[[g12]] che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "offerta"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Nella"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gruppo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "invitato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "programmi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "conoscessi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "spettacolo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "problema"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "riguarda"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "nelle"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "appunti"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "esperienza"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

@@ -42571,6 +42571,28998 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-daje-202-005",
+  "title": "Una merenda per il laboratorio",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Una merenda per il laboratorio · livello medio.",
+  "topics": [
+   "L’articolo indeterminativo (un, uno, una, un’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-articolo-indeterminativo",
+   "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1005
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "A: Buongiorno, organizziamo [[g1]] merenda per i partecipanti al laboratorio. Possiamo ordinare qualcosa qui?\nB: Certamente. Prendo [[g2]] matita e [[g3]] foglio. Quante persone siete?\nA: Siamo dodici. Vorrei [[g4]] succo di pera, [[g5]] spremuta e [[g6]] tè freddo per tre persone. Per gli altri vanno bene acqua naturale e caffè.\nB: Da mangiare che cosa desiderate?\nA: [[g7]] panino con le verdure, [[g8]] focaccia al rosmarino, [[g9]]’insalata di riso e [[g10]] yogurt bianco. Poi [[g11]] torta semplice da dividere e [[g12]]’arancia per chi preferisce la frutta.\nB: Abbiamo anche uno strudel senza crema.\nA: Bene, aggiunga una porzione. Serve un contenitore per portare tutto.\nB: Nessun problema. Volete una borsa di carta?\nA: Sì, grazie. E anche un cucchiaio per lo yogurt e un tovagliolo per ogni persona.\nB: Potete tornare tra mezz’ora. Per il pagamento prepariamo un conto unico.\nA: Perfetto. La merenda comincia alle quattro, quindi abbiamo tempo. Grazie e a dopo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Un"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "uno"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "un"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-012",
+  "title": "Un laboratorio aperto al quartiere",
+  "language": "it",
+  "level": "A1",
+  "description": "Il plurale: articolo e nome · Un laboratorio aperto al quartiere · livello medio.",
+  "topics": [
+   "Il plurale: articolo e nome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Il plurale: articolo e nome",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1012
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel nostro [[g1]] apre un [[g2]] di riparazione. Il locale è vicino alla biblioteca, ma l’[[g3]] si trova in una [[g4]] tranquilla. Dentro ci sono [[g5]] grandi, [[g6]] leggere, [[g7]] alti e [[g8]] nuove. Una [[g9]] dà sul [[g10]]. I volontari aiutano gli abitanti a riparare oggetti semplici: una borsa, un giocattolo, una cornice o una piccola sedia. Non riparano apparecchi elettrici. Ogni persona porta il proprio materiale e lavora insieme agli altri. Una sarta prepara le stoffe; un falegname controlla gli attrezzi. Le famiglie trovano anche uno spazio per disegnare. Sul tavolo dei bambini ci sono matite, fogli, colori e scatole vuote. Il sabato mattina il laboratorio ospita un incontro per nuovi partecipanti. La responsabile presenta il progetto e risponde alle domande. Non serve esperienza: servono curiosità, pazienza e voglia di collaborare. Prima di uscire, tutti puliscono i tavoli e mettono gli strumenti al loro posto. Così la stanza è pronta per il gruppo successivo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "quartiere"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "laboratorio"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ingresso"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "strada"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "tavoli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sedie"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "scaffali"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "lampade"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "finestra"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "giardino"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-017",
+  "title": "Costumi per una storia sul mare (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Costumi per una storia sul mare (1) · livello medio.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1017
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel laboratorio di teatro prepariamo i costumi per una storia sul mare. La protagonista indossa una giacca blu e una gonna [[g1]]. I due pescatori hanno pantaloni grigi e maglie [[g2]]. Le barche sono [[g3]], costruite con scatole [[g4]]. Per le onde usiamo stoffe [[g5]]; per il sole un disco [[g6]]. Una studentessa disegna pesci [[g7]] e stelle [[g8]]. Gli sfondi sono [[g9]], ma molto [[g10]]. Le scarpe nere degli attori non si vedono dietro alle onde. Sulla scena arriva anche una turista francese con una valigia rossa. Incontra un fotografo spagnolo, due musicisti italiani e alcune viaggiatrici tedesche. Non tutti parlano la stessa lingua, ma la musica li aiuta a capirsi. I personaggi indossano cappelli diversi: quello della turista è bianco, quello del fotografo è marrone. Alla fine della storia, le luci diventano viola e tutti cantano insieme. I costumi non sono costosi: vengono dal mercatino della scuola. Gli studenti trasformano vestiti usati in oggetti nuovi e originali.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "verde"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "bianche"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "piccole"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "leggere"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "azzurre"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "giallo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "rossi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "arancioni"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "semplici"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "colorati"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-018",
+  "title": "Una visita a Bologna",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi e la loro posizione · Una visita a Bologna · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+    "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1018
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Cara Bea, oggi ti scrivo da Bologna. Ho una [[g1]] notizia: questa mattina ho visitato Salaborsa. È una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si vedono tracce della storia della città. È uno spazio [[g2]] perché permette di osservare insieme un edificio [[g3]] e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; il [[g4]] itinerario, invece, è un progetto [[g5]] per la classe. Noi arriviamo in treno, lasciamo le borse in albergo e raggiungiamo il centro a piedi. Due compagni cercano una guida della città; una compagna prepara domande per il gruppo. Dopo la visita facciamo una pausa in una piazza [[g6]]. Io porto una [[g7]] macchina fotografica, ma [[g8]] di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il [[g9]] disegno rappresenta una [[g10]] finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bella"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "interessante"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "attuale"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "nostro"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "immaginario"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "tranquilla"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "prima"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "mio"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "grande"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-019",
+  "title": "La bacheca del centro culturale",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · La bacheca del centro culturale · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1019
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "A — SCAMBIO DI PIANTE. Sabato dalle dieci alle dodici [[g1]] cortile del centro culturale ospita uno scambio di piante. Porta una pianta piccola con [[g2]] suo nome. [[g3]] vasi devono essere puliti. Non si vendono prodotti. Se piove, l’incontro si svolge nella sala verde.\nB — CERCHIAMO VOCI. [[g4]] radio del quartiere cerca persone per leggere racconti brevi. [[g5]] registrazioni sono [[g6]] giovedì pomeriggio. Non occorre esperienza, ma è necessario partecipare a un incontro iniziale. [[g7]] interessati possono lasciare [[g8]] nome alla reception.\nC — SALA STUDIO. Da lunedì [[g9]] sala studio apre alle otto e chiude alle diciotto. [[g10]] mercoledì resta aperta fino alle venti. Le telefonate si fanno nel corridoio. [[g11]] tavoli vicino alle finestre sono riservati al lavoro individuale.\nD — OGGETTI TROVATI. Nell’armadio della reception ci sono una sciarpa, due borracce e un ombrello. Per ritirare un oggetto, descrivi [[g12]] colore e [[g13]] giorno in cui l’hai perso. [[g14]] oggetti restano qui per un mese. La reception è chiusa la domenica.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-021",
+  "title": "Cerchiamo compagni di progetto (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi e la loro posizione · Cerchiamo compagni di progetto (1) · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1021
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "A — Sono Alessia e cerco studenti [[g1]] per costruire una [[g2]] guida del quartiere. Abito qui da due anni e conosco alcune strade, ma voglio scoprire posti [[g3]]. Mi interessano le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni sono [[g4]] dopo le quattro. Preferisco un gruppo [[g5]]. Tu hai una macchina fotografica? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il [[g6]] anno del liceo e prepariamo [[g7]] video senza pubblicità. Abbiamo idee [[g8]], però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "curiosi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "nuovi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "libera"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piccolo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "primo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "brevi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "interessanti"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-023",
+  "title": "I numeri oltre cento",
+  "language": "it",
+  "level": "A2",
+  "description": "I numeri oltre cento · I numeri oltre cento · livello facile.",
+  "topics": [
+   "I numeri oltre cento",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 Wortschatz"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "ecco2-numeri-grandi",
+   "topicTitle": "I numeri oltre cento",
+   "difficulty": "leicht",
+   "origin": "own",
+   "order": 1023
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
+    "text": "1. 28 → [[g1]]\n2. trentasette → [[g2]]\n3. 46 → [[g3]]\n4. cinquantanove → [[g4]]\n5. 61 → [[g5]]\n6. settantatré → [[g6]]\n7. 84 → [[g7]]\n8. novantasei → [[g8]]\n9. 100 → [[g9]]\n10. centootto → [[g10]]\n11. 117 → [[g11]]\n12. centoventiquattro → [[g12]]\n13. 238 → [[g13]]\n14. trecentoquarantanove → [[g14]]\n15. 456 → [[g15]]\n16. cinquecentosessantasette → [[g16]]\n17. 678 → [[g17]]\n18. settecentottantanove → [[g18]]\n19. 890 → [[g19]]\n20. novecentonovantanove → [[g20]]\n21. 1000 → [[g21]]\n22. milleuno → [[g22]]\n23. 1018 → [[g23]]\n24. millecentoventuno → [[g24]]\n25. 1250 → [[g25]]\n26. millequattrocentonovantadue → [[g26]]\n27. 1630 → [[g27]]\n28. millesettecentottantanove → [[g28]]\n29. 1861 → [[g29]]\n30. millenovecentoquarantasei → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ventotto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "37"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quarantasei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "59"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sessantuno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "73"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ottantaquattro"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "96"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "cento"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "108"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "centodiciassette"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "124"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "duecentotrentotto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "349"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "quattrocentocinquantasei"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "567"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "seicentosettantotto"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "789"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "ottocentonovanta"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "999"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "mille"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "1001"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "millediciotto"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "1121"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "milleduecentocinquanta"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "1492"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "milleseicentotrenta"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "1789"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "milleottocentosessantuno"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "1946"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
+    "text": "31. 2008 → [[g1]]\n32. duemilaventisei → [[g2]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "duemilaotto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "2026"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-024",
+  "title": "Una casa per studiare insieme",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una casa per studiare insieme · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1024
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Ciao Lara, finalmente abbiamo trovato una casa per [[g1]] nostro periodo di studio! È al secondo piano di un edificio piccolo. Non è elegante, ma è luminosa e tranquilla. All’ingresso c’è uno specchio; sotto [[g2]] specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per [[g3]] scarpe. La cucina è grande: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. [[g4]] piatti sono bianchi, [[g5]] bicchieri sono trasparenti e [[g6]] tazze sono tutte diverse. Nella credenza troviamo anche pentole, posate e una tovaglia azzurra. [[g7]] soggiorno ha un divano comodo, due poltrone e una libreria. [[g8]] tappeto è vecchio, però è pulito. [[g9]] camere sono piccole. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. [[g10]] finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; [[g11]] asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. [[g12]] vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. [[g13]] sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "La"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. __ specchio è vicino alla porta. → [[g1]]\n2. __ armadi sono nuovi. → [[g2]]\n3. __ asciugamani sono puliti. → [[g3]]\n4. __ poltrone sono comode. → [[g4]]\n5. __ letto è vicino alla finestra. → [[g5]]\n6. __ cucina è luminosa. → [[g6]]\n7. __ scaffale è alto. → [[g7]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-027",
+  "title": "I verbi in -are al presente",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -are al presente · I verbi in -are al presente · livello medio.",
+  "topics": [
+   "I verbi in -are al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "I verbi in -are al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1027
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. cantare · io · presente → [[g1]]\n2. cantare · tu · presente → [[g2]]\n3. cantare · lui/lei · presente → [[g3]]\n4. cantare · noi · presente → [[g4]]\n5. cantare · voi · presente → [[g5]]\n6. cantare · loro · presente → [[g6]]\n7. ascoltare · io · presente → [[g7]]\n8. ascoltare · tu · presente → [[g8]]\n9. ascoltare · lui/lei · presente → [[g9]]\n10. ascoltare · noi · presente → [[g10]]\n11. ascoltare · voi · presente → [[g11]]\n12. ascoltare · loro · presente → [[g12]]\n13. cercare · io · presente → [[g13]]\n14. cercare · tu · presente → [[g14]]\n15. cercare · lui/lei · presente → [[g15]]\n16. cercare · noi · presente → [[g16]]\n17. cercare · voi · presente → [[g17]]\n18. cercare · loro · presente → [[g18]]\n19. lavorare · io · presente → [[g19]]\n20. lavorare · tu · presente → [[g20]]\n21. lavorare · lui/lei · presente → [[g21]]\n22. lavorare · noi · presente → [[g22]]\n23. lavorare · voi · presente → [[g23]]\n24. lavorare · loro · presente → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "canto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "canti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "canta"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "cantiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "cantate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "cantano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ascolto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ascolti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ascolta"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ascoltiamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ascoltate"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ascoltano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "cerchi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "cerca"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "cerchiamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "cercate"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "cercano"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "lavoro"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "lavori"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "lavora"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "lavoriamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "lavorate"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "lavorano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-028",
+  "title": "Come raggiungere il laboratorio",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -are al presente · Come raggiungere il laboratorio · livello medio.",
+  "topics": [
+   "I verbi in -are al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "I verbi in -are al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1028
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Teo, ti [[g1]] (spiegare, presente) come arrivare al nostro laboratorio. Tu [[g2]] (partire, presente) dalla piazza della stazione e [[g3]] (attraversare, presente) il giardino. [[g4]] (camminare, presente) lungo il viale alberato e [[g5]] (osservare, presente) i cartelli blu. Al piccolo cinema [[g6]] (girare, presente) a sinistra, poi [[g7]] (continuare, presente) fino al ponte. Non [[g8]] (attraversare, presente) il ponte: prima del fiume trovi una strada sulla destra. Passi davanti a una panetteria e cerchi un cancello verde. Quando arrivi, suoni il campanello con il disegno di una ruota. Io lavoro nella stanza al piano terra e ti apro subito. Se non trovi l’ingresso, telefoni al centro e chiedi di me. Di solito il percorso dura quindici minuti. Porta il quaderno, perché oggi progettiamo una nuova insegna. Dopo il laboratorio prepariamo insieme una merenda. Se piove, aspetti nell’atrio della stazione: ti raggiungo lì. A presto, Elia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "spiego"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "parti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "attraversi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Cammini"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "osservi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "giri"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "continui"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "attraversi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-029",
+  "title": "Una biblioteca, molte possibilità",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una biblioteca, molte possibilità · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1029
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "[[g1]] biblioteca non è soltanto [[g2]] stanza piena di libri. Nel nostro centro immaginario, [[g3]] biblioteca propone quattro servizi. [[g4]] primo è [[g5]] banco per [[g6]] prestito: [[g7]] bibliotecaria spiega come cercare [[g8]] titolo e controlla [[g9]] restituzioni. [[g10]] secondo è [[g11]] sala per leggere giornali e riviste. Qui [[g12]] persone parlano a voce bassa e lasciano i tavoli in ordine. Il terzo servizio è un laboratorio digitale. I partecipanti imparano a usare il catalogo, a scrivere un messaggio e a riconoscere informazioni poco affidabili. Non devono comunicare password o dati personali agli altri. Il quarto servizio è uno spazio per le lingue. Una volta alla settimana si incontrano piccoli gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come la casa, il tempo libero o il cibo. Una volontaria prepara le domande e aiuta chi non trova una parola. Gli incontri sono gratuiti; per partecipare occorre prenotare un posto. Le attività cambiano ogni mese. Gli orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Una"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "le"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-031",
+  "title": "I verbi in -ere al presente",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -ere al presente · I verbi in -ere al presente · livello medio.",
+  "topics": [
+   "I verbi in -ere al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "I verbi in -ere al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1031
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. vendere · io · presente → [[g1]]\n2. vendere · tu · presente → [[g2]]\n3. vendere · lui/lei · presente → [[g3]]\n4. vendere · noi · presente → [[g4]]\n5. vendere · voi · presente → [[g5]]\n6. vendere · loro · presente → [[g6]]\n7. ricevere · io · presente → [[g7]]\n8. ricevere · tu · presente → [[g8]]\n9. ricevere · lui/lei · presente → [[g9]]\n10. ricevere · noi · presente → [[g10]]\n11. ricevere · voi · presente → [[g11]]\n12. ricevere · loro · presente → [[g12]]\n13. scrivere · io · presente → [[g13]]\n14. scrivere · tu · presente → [[g14]]\n15. scrivere · lui/lei · presente → [[g15]]\n16. scrivere · noi · presente → [[g16]]\n17. scrivere · voi · presente → [[g17]]\n18. scrivere · loro · presente → [[g18]]\n19. leggere · io · presente → [[g19]]\n20. leggere · tu · presente → [[g20]]\n21. leggere · lui/lei · presente → [[g21]]\n22. leggere · noi · presente → [[g22]]\n23. leggere · voi · presente → [[g23]]\n24. leggere · loro · presente → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vendo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vendi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vende"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vendiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vendete"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vendono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ricevo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ricevi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "riceve"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "riceviamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ricevete"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ricevono"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "scrivo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "scrive"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "scriviamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "scrivete"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "scrivono"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "leggo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "leggi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "legge"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "leggiamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "leggete"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "leggono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-035",
+  "title": "Una compagna per il progetto",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -are al presente · Una compagna per il progetto · livello medio.",
+  "topics": [
+   "I verbi in -are al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "I verbi in -are al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1035
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Rami, [[g1]] (conoscere, presente) una persona che [[g2]] (potere, presente) aiutare il nostro gruppo: si [[g3]] (chiamare, presente) Elisa e [[g4]] (abitare, presente) vicino alla scuola. [[g5]] (studiare, presente) grafica e [[g6]] (disegnare, presente) molto bene. [[g7]] (parlare, presente) italiano e portoghese, [[g8]] (ascoltare, presente) con attenzione e [[g9]] (spiegare, presente) le sue idee in modo chiaro. Quando [[g10]] (lavorare, presente) con altri studenti, [[g11]] (preparare, presente) una lista delle attività e [[g12]] (controllare, presente) i tempi. Non [[g13]] (usare, presente) programmi complicati: prova soluzioni semplici e cerca materiali gratuiti. I suoi amici organizzano un piccolo festival ogni primavera. Lei cura i manifesti, fotografa gli spettacoli e racconta gli incontri sul giornale scolastico. Se tu desideri conoscerla, passa domani in biblioteca. Io arrivo alle quattro e porto i nostri disegni. Tu presenti il progetto, lei guarda il materiale e insieme decidiamo come continuare. Noi cerchiamo soprattutto una persona affidabile, e secondo me Elisa ha proprio questa qualità. Naturalmente anche lei deve capire se il lavoro le interessa. Non vogliamo assegnarle tutto: collaboriamo e dividiamo i compiti. Fammi sapere se vieni. A presto, Pietro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "conosco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "può"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "chiama"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abita"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Studia"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "disegna"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Parla"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ascolta"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "spiega"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "lavora"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "controlla"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "usa"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-036",
+  "title": "La giornata delle idee",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · La giornata delle idee · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1036
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "[[g1]] nostra scuola prepara una giornata dedicata alle idee degli studenti. L’evento è inventato per questa attività. Si svolge [[g2]] diciotto maggio e dura dalle nove alle diciassette. Partecipano ventiquattro classi: dodici presentano un progetto scientifico e [[g3]] altre dodici un progetto artistico. Nel cortile lavorano quindici volontari. Sette persone sistemano [[g4]] tavoli e otto controllano [[g5]] ingressi. [[g6]] palestra ospita trentadue piccoli stand. Ogni gruppo ha due sedie, un cartello e uno spazio per [[g7]] materiali. [[g8]] programma comprende quattro concerti e sei incontri con [[g9]] autori dei progetti. [[g10]] visitatori ricevono una scheda con dieci domande. Alle undici comincia [[g11]] primo concerto; alle tredici c’è [[g12]] pausa. [[g13]] laboratori del pomeriggio iniziano alle quattordici. Sono disponibili novanta posti, divisi in tre turni di trenta persone. L’ultima presentazione termina alle sedici e trenta. Prima della chiusura, [[g14]] organizzatori raccolgono [[g15]] schede. Non viene scelto un vincitore: l’obiettivo è ascoltare [[g16]] proposte e conoscere [[g17]] lavoro delle altre classi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "il"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Completa con l’articolo determinativo: __ stand della classe è pronto. → [[g1]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-038",
+  "title": "Una casa per studiare insieme",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi e la loro posizione · Una casa per studiare insieme · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1038
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Ciao Lara, finalmente abbiamo trovato una casa per il [[g1]] periodo di studio! È al secondo piano di un edificio [[g2]]. Non è [[g3]], ma è [[g4]] e [[g5]]. All’ingresso c’è uno specchio; sotto lo specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per le scarpe. La cucina è [[g6]]: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. I piatti sono [[g7]], i bicchieri sono [[g8]] e le tazze sono tutte [[g9]]. Nella credenza troviamo anche pentole, posate e una tovaglia [[g10]]. Il soggiorno ha un divano [[g11]], due poltrone e una libreria. Il tappeto è [[g12]], però è [[g13]]. Le camere sono [[g14]]. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. Le finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; gli asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. I vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. La sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nostro"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "piccolo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "elegante"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "luminosa"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "tranquilla"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "grande"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "bianchi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "trasparenti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "diverse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "azzurra"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "comodo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "vecchio"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "pulito"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "piccole"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-039",
+  "title": "Un invito per il fine settimana (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Un invito per il fine settimana (1) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1039
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara Lia, [[g1]] finalmente il programma della festa del nostro centro culturale. [[g2]] (sapere, presente) che [[g3]] molti impegni, ma [[g4]] venire anche soltanto per un pomeriggio. La festa [[g5]] sabato e domenica; noi [[g6]] liberi entrambi i giorni. Tu [[g7]] partecipare al laboratorio di cucina oppure preferisci ascoltare i racconti? I tuoi fratelli [[g8]] la possibilità di provare alcuni strumenti musicali. Non [[g9]] (dovere, presente) portare nulla. Il laboratorio [[g10]] gratuito, però [[g11]] (dovere, presente) prenotare i posti. Io [[g12]] il modulo e [[g13]] iscrivere anche voi. Mia sorella [[g14]] preparare un piccolo spettacolo: [[g15]] bisogno di qualcuno che legga due frasi. Tu [[g16]] brava a leggere e non [[g17]] paura del pubblico! Se [[g18]], [[g19]] aiutarla. Noi abbiamo anche una stanza per gli ospiti, quindi non dovete tornare subito a casa. La nostra cucina è piccola, ma il giardino è grande e possiamo cenare fuori. I vicini sono molto gentili e vogliono conoscere i nostri amici. Fammi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "So"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "puoi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "vuoi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "devono"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dobbiamo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "posso"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "vuole"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "sei"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "vuoi"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "puoi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-040",
+  "title": "Costumi per una storia sul mare (2)",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Costumi per una storia sul mare (2) · livello medio.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1040
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel laboratorio di teatro prepariamo [[g1]] costumi per una storia sul mare. [[g2]] protagonista indossa una giacca blu e una gonna [[g3]]. [[g4]] due pescatori hanno pantaloni grigi e maglie [[g5]]. [[g6]] barche sono [[g7]], costruite con scatole [[g8]]. Per [[g9]] onde usiamo stoffe [[g10]]; per [[g11]] sole un disco [[g12]]. Una studentessa disegna pesci [[g13]] e stelle [[g14]]. [[g15]] sfondi sono [[g16]], ma molto [[g17]]. [[g18]] scarpe [[g19]] degli attori non si vedono dietro alle onde. Sulla scena arriva anche una turista [[g20]] con una valigia [[g21]]. Incontra un fotografo [[g22]], due musicisti [[g23]] e alcune viaggiatrici [[g24]]. Non tutti parlano la stessa lingua, ma la musica li aiuta a capirsi. I personaggi indossano cappelli diversi: quello della turista è bianco, quello del fotografo è marrone. Alla fine della storia, le luci diventano viola e tutti cantano insieme. I costumi non sono costosi: vengono dal mercatino della scuola. Gli studenti trasformano vestiti usati in oggetti nuovi e originali.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "verde"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "bianche"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "piccole"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "leggere"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "azzurre"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "giallo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "rossi"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "arancioni"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "semplici"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "colorati"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "nere"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "francese"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "rossa"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "spagnolo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "italiani"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "tedesche"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-042",
+  "title": "Gli aggettivi possessivi (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi possessivi (1) · Gli aggettivi possessivi (1) · livello medio.",
+  "topics": [
+   "Gli aggettivi possessivi (1)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-possessivi-1",
+   "topicTitle": "Gli aggettivi possessivi (1)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1042
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. io → quaderno → [[g1]]\n2. io → penna → [[g2]]\n3. io → quaderni → [[g3]]\n4. io → penne → [[g4]]\n5. tu → quaderno → [[g5]]\n6. tu → penna → [[g6]]\n7. tu → quaderni → [[g7]]\n8. tu → penne → [[g8]]\n9. lui/lei → quaderno → [[g9]]\n10. lui/lei → penna → [[g10]]\n11. lui/lei → quaderni → [[g11]]\n12. lui/lei → penne → [[g12]]\n13. noi → quaderno → [[g13]]\n14. noi → penna → [[g14]]\n15. noi → quaderni → [[g15]]\n16. noi → penne → [[g16]]\n17. voi → quaderno → [[g17]]\n18. voi → penna → [[g18]]\n19. voi → quaderni → [[g19]]\n20. voi → penne → [[g20]]\n21. loro → quaderno → [[g21]]\n22. loro → penna → [[g22]]\n23. loro → quaderni → [[g23]]\n24. loro → penne → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mia"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "miei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mie"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "tuo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "tua"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "tuoi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "tue"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "suo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sua"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "suoi"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "sue"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "nostro"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "nostra"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "nostri"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "nostre"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "vostro"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "vostra"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "vostri"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "vostre"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-043",
+  "title": "I verbi in -isc- e fare",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -isc- e fare · I verbi in -isc- e fare · livello medio.",
+  "topics": [
+   "I verbi in -isc- e fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "I verbi in -isc- e fare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1043
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. partire · io · presente → [[g1]]\n2. partire · tu · presente → [[g2]]\n3. partire · lui/lei · presente → [[g3]]\n4. partire · noi · presente → [[g4]]\n5. partire · voi · presente → [[g5]]\n6. partire · loro · presente → [[g6]]\n7. aprire · io · presente → [[g7]]\n8. aprire · tu · presente → [[g8]]\n9. aprire · lui/lei · presente → [[g9]]\n10. aprire · noi · presente → [[g10]]\n11. aprire · voi · presente → [[g11]]\n12. aprire · loro · presente → [[g12]]\n13. dormire · io · presente → [[g13]]\n14. dormire · tu · presente → [[g14]]\n15. dormire · lui/lei · presente → [[g15]]\n16. dormire · noi · presente → [[g16]]\n17. dormire · voi · presente → [[g17]]\n18. dormire · loro · presente → [[g18]]\n19. capire · io · presente → [[g19]]\n20. capire · tu · presente → [[g20]]\n21. capire · lui/lei · presente → [[g21]]\n22. capire · noi · presente → [[g22]]\n23. capire · voi · presente → [[g23]]\n24. capire · loro · presente → [[g24]]\n25. pulire · io · presente → [[g25]]\n26. pulire · tu · presente → [[g26]]\n27. pulire · lui/lei · presente → [[g27]]\n28. pulire · noi · presente → [[g28]]\n29. pulire · voi · presente → [[g29]]\n30. pulire · loro · presente → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "parto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "parti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "parte"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "partiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "partite"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "partono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "apro"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "apri"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "apre"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "apriamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "aprite"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "aprono"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "dormo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "dormi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "dorme"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "dormiamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "dormite"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "dormono"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "capisci"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "capisce"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "capiamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "capite"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "capiscono"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "pulisco"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "pulisci"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "pulisce"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "puliamo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "pulite"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "puliscono"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "31. preferire · io · presente → [[g1]]\n32. preferire · tu · presente → [[g2]]\n33. preferire · lui/lei · presente → [[g3]]\n34. preferire · noi · presente → [[g4]]\n35. preferire · voi · presente → [[g5]]\n36. preferire · loro · presente → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "preferisco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "preferisci"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "preferisce"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "preferiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "preferite"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "preferiscono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-044",
+  "title": "Troppi impegni nel gruppo",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -ere al presente · Troppi impegni nel gruppo · livello medio.",
+  "topics": [
+   "I verbi in -ere al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "I verbi in -ere al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1044
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara redazione, [[g1]] (scrivere, presente) perché nel nostro gruppo di studio non [[g2]] (riuscire, presente) più a lavorare bene. [[g3]] (essere, presente) cinque amici e [[g4]] (preparare, presente) una presentazione comune. All’inizio tutti [[g5]] (partecipare, presente) con entusiasmo, ma adesso ognuno [[g6]] (seguire, presente) un orario diverso. Sara [[g7]] (frequentare, presente) un corso di musica e [[g8]] (arrivare, presente) sempre tardi. Davide [[g9]] (lavorare, presente) nel negozio dei genitori e [[g10]] (rispondere, presente) ai messaggi soltanto la sera. Io pratico atletica e [[g11]] (tornare, presente) a casa stanca. Gli altri due compagni [[g12]] (abitare, presente) lontano e prendono l’autobus prima delle cinque. Quando finalmente ci incontriamo, discutiamo dei compiti e perdiamo molto tempo. Nessuno vuole lasciare il progetto, però non troviamo una soluzione. Io penso che dobbiamo dividere meglio il lavoro, ma non so come proporlo senza sembrare autoritaria. Tutti hanno buone idee; il problema è l’organizzazione. Possiamo preparare una tabella comune? Dobbiamo scegliere un solo responsabile? Vorrei ascoltare un consiglio pratico. Grazie, Serena.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "scrivo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "riusciamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Siamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prepariamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "partecipano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "segue"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "frequenta"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "arriva"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "lavora"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "risponde"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "torno"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "abitano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-045",
+  "title": "Un piano condiviso",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -ere al presente · Un piano condiviso · livello medio.",
+  "topics": [
+   "I verbi in -ere al presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "I verbi in -ere al presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1045
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara Serena, nella tua lettera [[g1]] (descrivere, presente) una difficoltà molto comune. Voi [[g2]] (avere, presente) interessi diversi e non [[g3]] (potere, presente) incontrarvi ogni giorno. Questo non significa che il progetto [[g4]] (dovere, presente) finire. Di solito, voi [[g5]] (scegliere, presente) un momento breve in cui tutti [[g6]] (essere, presente) disponibili. In quell’incontro ciascuno [[g7]] (spiegare, presente) quanto tempo [[g8]] (potere, presente) offrire. Poi voi [[g9]] (scrivere, presente) i compiti su un foglio e assegnate una scadenza realistica a ogni attività. Una persona [[g10]] (cercare, presente) informazioni, un’altra [[g11]] (controllare, presente) le fonti e una terza [[g12]] (preparare, presente) le immagini. Chi ha poco tempo può correggere un testo breve. Voi decidete insieme le parti importanti, ma non fate tutto insieme. Per i messaggi voi usate un solo canale e indicate chiaramente le domande. Se un compagno non risponde subito, aspettate prima di mandare altri messaggi. Alla fine di ogni settimana voi controllate i risultati e cambiate il piano se necessario. Un responsabile può ricordare le scadenze, però tutti mantengono una parte della responsabilità. Buon lavoro!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "descrivi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "avete"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "potete"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "deve"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "scegliete"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "spiega"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "può"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "scrivete"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cerca"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "controlla"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-049",
+  "title": "Un invito per il fine settimana (2)",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Un invito per il fine settimana (2) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1049
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cari Lia e Neri, [[g1]] finalmente il programma della festa del nostro centro culturale. [[g2]] (sapere, presente) che [[g3]] molti impegni, ma [[g4]] venire anche soltanto per un pomeriggio. La festa [[g5]] sabato e domenica; noi [[g6]] liberi entrambi i giorni. Voi [[g7]] partecipare al laboratorio di cucina oppure preferite ascoltare i racconti? I vostri fratelli [[g8]] la possibilità di provare alcuni strumenti musicali. Non [[g9]] (dovere, presente) portare nulla. Il laboratorio [[g10]] gratuito, però [[g11]] (dovere, presente) prenotare i posti. Io [[g12]] il modulo e [[g13]] iscrivere anche voi. Mia sorella [[g14]] preparare un piccolo spettacolo: [[g15]] bisogno di qualcuno che legga due frasi. Voi [[g16]] bravi a leggere e non [[g17]] paura del pubblico! Se [[g18]], [[g19]] aiutarla. Noi abbiamo anche una stanza per gli ospiti, quindi non dovete tornare subito a casa. La nostra cucina è piccola, ma il giardino è grande e possiamo cenare fuori. I vicini sono molto gentili e vogliono conoscere i nostri amici. Fatemi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "So"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avete"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "potete"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "volete"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "devono"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dobbiamo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "posso"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "vuole"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "siete"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "avete"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "volete"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "potete"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-050",
+  "title": "Una visita a Bologna",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una visita a Bologna · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+    "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1050
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Cara Bea, oggi ti scrivo da Bologna. Ho [[g1]] bella notizia: questa mattina ho visitato Salaborsa. È [[g2]] biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. [[g3]] biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è [[g4]] pavimento di vetro: sotto si vedono tracce della storia della città. È [[g5]] spazio interessante perché permette di osservare insieme [[g6]] edificio attuale e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; [[g7]] nostro itinerario, invece, è [[g8]] progetto immaginario per [[g9]] classe. Noi arriviamo in treno, lasciamo [[g10]] borse in albergo e raggiungiamo [[g11]] centro a piedi. Due compagni cercano [[g12]] guida della città; [[g13]] compagna prepara domande per [[g14]] gruppo. Dopo la visita facciamo [[g15]] pausa in [[g16]] piazza tranquilla. Io porto [[g17]] piccola macchina fotografica, ma prima di fare fotografie dentro [[g18]] edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie [[g19]] dettaglio da disegnare. [[g20]] mio disegno rappresenta [[g21]] grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "uno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "una"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-053",
+  "title": "Una biblioteca, molte possibilità",
+  "language": "it",
+  "level": "A1",
+  "description": "Il plurale: articolo e nome · Una biblioteca, molte possibilità · livello medio.",
+  "topics": [
+   "Il plurale: articolo e nome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Il plurale: articolo e nome",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1053
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Una biblioteca non è soltanto una stanza piena di libri. Nel [[g1]] centro [[g2]], [[g3]] biblioteca propone quattro servizi. [[g4]] [[g5]] è un banco per [[g6]] prestito: una bibliotecaria spiega come cercare un titolo e controlla [[g7]] restituzioni. [[g8]] secondo è una sala per [[g9]] giornali e riviste. Qui [[g10]] persone parlano a voce [[g11]] e lasciano [[g12]] tavoli in ordine. [[g13]] terzo servizio è un laboratorio digitale. [[g14]] partecipanti imparano a usare [[g15]] catalogo, a scrivere un messaggio e a riconoscere informazioni poco [[g16]]. Non devono comunicare password o dati personali agli altri. [[g17]] quarto servizio è uno spazio per [[g18]] lingue. Una volta alla settimana si incontrano [[g19]] gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come [[g20]] casa, [[g21]] tempo libero o [[g22]] cibo. Una volontaria prepara [[g23]] domande e aiuta chi non trova una parola. Gli incontri sono [[g24]]; per partecipare occorre prenotare un posto. [[g25]] attività cambiano ogni mese. [[g26]] orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nostro"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "immaginario"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "primo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "leggere"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "bassa"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "affidabili"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "piccoli"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "gratuiti"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-057",
+  "title": "Due modi di costruire un lavoro",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Due modi di costruire un lavoro · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1057
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A — Mi [[g1]] (chiamare, presente) Ines e [[g2]] (vivere, presente) in una città di provincia. Lavoro in una cooperativa che consegna libri alle persone che non [[g3]] (potere, presente) andare in biblioteca. Ogni mattina [[g4]] (controllare, presente) le richieste, [[g5]] (preparare, presente) le borse e [[g6]] (organizzare, presente) il percorso. [[g7]] (usare, presente) una bicicletta elettrica per le consegne vicine. Quando piove molto, un collega mi [[g8]] (accompagnare, presente) con il furgone. Il lavoro richiede attenzione: non tutti [[g9]] (desiderare, presente) gli stessi libri e qualcuno [[g10]] (preferire, presente) caratteri grandi. [[g11]] (avere, presente) una figlia che [[g12]] (frequentare, presente) la scuola media. La sera [[g13]] (cucinare, presente) insieme e ci raccontiamo la giornata. Non guadagno molto, ma mi [[g14]] (piacere, presente) un lavoro che mi [[g15]] (permettere, presente) di conoscere le persone. Per risparmiare tempo, [[g16]] (fare, presente) la spesa due volte alla settimana. Il sabato non lavoro e spesso incontro i miei amici.\nB — Io [[g17]] (essere, presente) Ayo e [[g18]] (riparare, presente) biciclette. Ho imparato da mio zio, poi ho seguito un corso professionale. Adesso condivido un’officina con una collega. Lei [[g19]] (controllare, presente) i freni e le ruote; io mi [[g20]] (occupare, presente) soprattutto delle luci e delle trasmissioni. I clienti [[g21]] (arrivare, presente) da quartieri diversi. Alcuni [[g22]] (usare, presente) la bicicletta tutti i giorni, altri soltanto nel fine settimana. Noi [[g23]] (spiegare, presente) sempre il [[g24]] (costare, presente) prima di cominciare. Paghiamo l’affitto del locale e compriamo gli attrezzi insieme. D’estate abbiamo molto lavoro; nei mesi tranquilli organizziamo lezioni di manutenzione. Non voglio aprire un negozio più grande: preferisco migliorare il servizio e avere tempo per la mia famiglia. Queste due testimonianze sono immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "chiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vivo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "possono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "controllo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "preparo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "organizzo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Uso"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "accompagna"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "desiderano"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "preferisce"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Ho"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "frequenta"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "cuciniamo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "permette"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "faccio"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "riparo"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "controlla"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "occupo"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "arrivano"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "usano"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "spieghiamo"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "costo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-061",
+  "title": "Una casa per studiare insieme",
+  "language": "it",
+  "level": "A1",
+  "description": "C’è e ci sono · Una casa per studiare insieme · livello medio.",
+  "topics": [
+   "C’è e ci sono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-ce-ci-sono",
+   "topicTitle": "C’è e ci sono",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1061
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Ciao Lara, finalmente abbiamo trovato una casa per il nostro periodo di studio! [[g1]] al secondo piano di un edificio piccolo. Non [[g2]] elegante, ma [[g3]] luminosa e tranquilla. All’ingresso c’è uno specchio; sotto lo specchio c’è una cassettiera. Nel corridoio ci [[g4]] due lampade e uno scaffale per le scarpe. La cucina [[g5]] grande: ci [[g6]] un frigorifero, un forno, una credenza, un tavolo e quattro sedie. I piatti [[g7]] bianchi, i bicchieri [[g8]] trasparenti e le tazze [[g9]] tutte diverse. Nella credenza troviamo anche pentole, posate e una tovaglia azzurra. Il soggiorno ha un divano comodo, due poltrone e una libreria. Il tappeto [[g10]] vecchio, però è pulito. Le camere [[g11]] piccole. In ogni camera ci [[g12]] un letto, un armadio, una scrivania e una sedia. Le finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; gli asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. I vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. La sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "È"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-063",
+  "title": "Un invito per il fine settimana",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Un invito per il fine settimana · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1063
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Cara Lia, ho finalmente [[g1]] programma della festa del nostro centro culturale. So che hai molti impegni, ma puoi venire anche soltanto per [[g2]] pomeriggio. [[g3]] festa è sabato e domenica; noi siamo liberi entrambi [[g4]] giorni. Tu vuoi partecipare al laboratorio di cucina oppure preferisci ascoltare [[g5]] racconti? [[g6]] tuoi fratelli hanno [[g7]] possibilità di provare alcuni strumenti musicali. Non devono portare nulla. [[g8]] laboratorio è gratuito, però dobbiamo prenotare [[g9]] posti. Io ho [[g10]] modulo e posso iscrivere anche voi. Mia sorella vuole preparare [[g11]] piccolo spettacolo: ha bisogno di qualcuno che legga due frasi. Tu sei brava a leggere e non hai paura del pubblico! Se vuoi, puoi aiutarla. Noi abbiamo anche [[g12]] stanza per gli ospiti, quindi non dovete tornare subito a casa. [[g13]] nostra cucina è piccola, ma [[g14]] giardino è grande e possiamo cenare fuori. [[g15]] vicini sono molto gentili e vogliono conoscere i nostri amici. Fammi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "I"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "I"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-066",
+  "title": "Cerchiamo compagni di progetto (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Cerchiamo compagni di progetto (1) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1066
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A — [[g1]] (essere, presente) Alessia e [[g2]] (cercare, presente) studenti curiosi per costruire una piccola guida del quartiere. [[g3]] (abitare, presente) qui da due anni e [[g4]] (conoscere, presente) alcune strade, ma [[g5]] (volere, presente) scoprire posti nuovi. Mi [[g6]] (interessare, presente) le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni [[g7]] (essere, presente) libera dopo le quattro. [[g8]] (preferire, presente) un gruppo piccolo. Tu hai una macchina fotografica? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il primo anno del liceo e prepariamo brevi video senza pubblicità. Abbiamo idee interessanti, però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Abito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "conosco"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "interessano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Preferisco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-069",
+  "title": "Venire, sapere e i verbi modali (1)",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (1) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1069
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. vendere · io · presente → [[g1]]\n2. vendere · tu · presente → [[g2]]\n3. vendere · lui/lei · presente → [[g3]]\n4. vendere · noi · presente → [[g4]]\n5. vendere · voi · presente → [[g5]]\n6. vendere · loro · presente → [[g6]]\n7. scrivere · io · presente → [[g7]]\n8. scrivere · tu · presente → [[g8]]\n9. scrivere · lui/lei · presente → [[g9]]\n10. scrivere · noi · presente → [[g10]]\n11. scrivere · voi · presente → [[g11]]\n12. scrivere · loro · presente → [[g12]]\n13. aprire · io · presente → [[g13]]\n14. aprire · tu · presente → [[g14]]\n15. aprire · lui/lei · presente → [[g15]]\n16. aprire · noi · presente → [[g16]]\n17. aprire · voi · presente → [[g17]]\n18. aprire · loro · presente → [[g18]]\n19. capire · io · presente → [[g19]]\n20. capire · tu · presente → [[g20]]\n21. capire · lui/lei · presente → [[g21]]\n22. capire · noi · presente → [[g22]]\n23. capire · voi · presente → [[g23]]\n24. capire · loro · presente → [[g24]]\n25. essere · io · presente → [[g25]]\n26. essere · tu · presente → [[g26]]\n27. essere · lui/lei · presente → [[g27]]\n28. essere · noi · presente → [[g28]]\n29. essere · voi · presente → [[g29]]\n30. essere · loro · presente → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vendo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vendi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vende"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vendiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vendete"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vendono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "scrivo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "scrive"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "scriviamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "scrivete"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "scrivono"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "apro"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "apri"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "apre"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "apriamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "aprite"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "aprono"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "capisci"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "capisce"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "capiamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "capite"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "capiscono"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "sei"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "siete"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-071",
+  "title": "Cerchiamo compagni di progetto (2)",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi e la loro posizione · Cerchiamo compagni di progetto (2) · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1071
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "A — Sono Alessia e cerco studenti [[g1]] per costruire una [[g2]] guida del quartiere. Abito qui da due anni e conosco alcune strade, ma voglio scoprire posti [[g3]]. Mi interessano le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni sono [[g4]] dopo le quattro. Preferisco un gruppo [[g5]]. Tu hai una macchina fotografica? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il [[g6]] anno del liceo e prepariamo [[g7]] video senza pubblicità. Abbiamo idee [[g8]], però ci manca una persona [[g9]] di suono. Non chiediamo strumenti [[g10]]: basta un telefono e un ambiente [[g11]]. Possiamo incontrarci il venerdì in biblioteca. Il progetto è [[g12]] e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida [[g13]] anche per le famiglie [[g14]] del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "curiosi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "nuovi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "libera"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piccolo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "primo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "brevi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "interessanti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "esperta"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "professionali"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "silenzioso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "gratuito"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "chiara"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "nuove"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-073",
+  "title": "Venire, sapere e i verbi modali (2)",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (2) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1073
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. andare · io · presente → [[g1]]\n2. andare · tu · presente → [[g2]]\n3. andare · lui/lei · presente → [[g3]]\n4. andare · noi · presente → [[g4]]\n5. andare · voi · presente → [[g5]]\n6. andare · loro · presente → [[g6]]\n7. venire · io · presente → [[g7]]\n8. venire · tu · presente → [[g8]]\n9. venire · lui/lei · presente → [[g9]]\n10. venire · noi · presente → [[g10]]\n11. venire · voi · presente → [[g11]]\n12. venire · loro · presente → [[g12]]\n13. fare · io · presente → [[g13]]\n14. fare · tu · presente → [[g14]]\n15. fare · lui/lei · presente → [[g15]]\n16. fare · noi · presente → [[g16]]\n17. fare · voi · presente → [[g17]]\n18. fare · loro · presente → [[g18]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vado"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "va"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "andiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "andate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vanno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "vengo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "vieni"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "viene"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "veniamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "venite"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "vengono"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "faccio"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "fai"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "fate"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "fanno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-074",
+  "title": "Una visita a Bologna",
+  "language": "it",
+  "level": "A1",
+  "description": "Venire, sapere e i verbi modali · Una visita a Bologna · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+    "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1074
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara Bea, oggi ti [[g1]] (scrivere, presente) da Bologna. [[g2]] (avere, presente) una bella notizia: questa mattina ho visitato Salaborsa. [[g3]] una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si [[g4]] (vedere, presente) tracce della storia della città. [[g5]] uno spazio interessante perché [[g6]] (permettere, presente) di osservare insieme un edificio attuale e resti del passato. Qui si [[g7]] (trovare, presente) libri, giornali, riviste e altri materiali.\nQueste informazioni [[g8]] (venire, presente) dal sito della biblioteca; il nostro itinerario, invece, [[g9]] un progetto immaginario per la classe. Noi [[g10]] (arrivare, presente) in treno, [[g11]] (lasciare, presente) le borse in albergo e [[g12]] (raggiungere, presente) il centro a piedi. Due compagni [[g13]] (cercare, presente) una guida della città; una compagna [[g14]] (preparare, presente) domande per il gruppo. Dopo la [[g15]] (visitare, presente) [[g16]] (fare, presente) una pausa in una piazza tranquilla. Io porto una piccola macchina fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il mio disegno rappresenta una grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "scrivo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ho"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "È"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vedono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "È"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "permette"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "trovano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "vengono"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "arriviamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "lasciamo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "raggiungiamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "cercano"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "visita"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-078",
+  "title": "Due modi di costruire un lavoro",
+  "language": "it",
+  "level": "A1",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Due modi di costruire un lavoro · livello medio.",
+  "topics": [
+   "L’articolo determinativo singolare (il, lo, la, l’)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1078
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "A — Mi chiamo Ines e vivo in [[g1]] città di provincia. Lavoro in [[g2]] cooperativa che consegna libri alle persone che non possono andare in biblioteca. Ogni mattina controllo [[g3]] richieste, preparo [[g4]] borse e organizzo [[g5]] percorso. Uso [[g6]] bicicletta elettrica per [[g7]] consegne vicine. Quando piove molto, [[g8]] collega mi accompagna con [[g9]] furgone. [[g10]] lavoro richiede attenzione: non tutti desiderano [[g11]] stessi libri e qualcuno preferisce caratteri grandi. Ho [[g12]] figlia che frequenta [[g13]] scuola media. [[g14]] sera cuciniamo insieme e ci raccontiamo [[g15]] giornata. Non guadagno molto, ma mi piace [[g16]] lavoro che mi permette di conoscere [[g17]] persone. Per risparmiare tempo, faccio [[g18]] spesa due volte alla settimana. Il sabato non lavoro e spesso incontro i miei amici.\nB — Io sono Ayo e riparo biciclette. Ho imparato da mio zio, poi ho seguito un corso professionale. Adesso condivido un’officina con una collega. Lei controlla i freni e le ruote; io mi occupo soprattutto delle luci e delle trasmissioni. I clienti arrivano da quartieri diversi. Alcuni usano la bicicletta tutti i giorni, altri soltanto nel fine settimana. Noi spieghiamo sempre il costo prima di cominciare. Paghiamo l’affitto del locale e compriamo gli attrezzi insieme. D’estate abbiamo molto lavoro; nei mesi tranquilli organizziamo lezioni di manutenzione. Non voglio aprire un negozio più grande: preferisco migliorare il servizio e avere tempo per la mia famiglia. Queste due testimonianze sono immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "la"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-082",
+  "title": "Il sabato di un gruppo teatrale",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Il sabato di un gruppo teatrale · livello medio.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1082
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il sabato [[g1]] (svegliarsi) senza fretta, ma non resto a letto tutta la mattina. [[g2]] (alzarsi) alle otto, [[g3]] (lavarsi) e [[g4]] (vestirsi) con abiti comodi. Prima di uscire [[g5]] (prepararsi) un panino e controllo lo zaino. Alle nove [[g6]] (incontrarsi) con gli altri del gruppo teatrale. [[g7]] (salutarsi) nel cortile, poi [[g8]] (mettersi) in cerchio. La nostra insegnante [[g9]] (presentarsi) ai nuovi partecipanti e ci spiega il programma. Per cominciare [[g10]] (muoversi) nello spazio e [[g11]] (fermarsi) quando la musica finisce. Nessuno deve correre. In seguito [[g12]] (sedersi) e leggiamo alcune battute. Io [[g13]] (concentrarsi) sulle parole, mentre una compagna si occupa dei rumori. Quando sbaglio, non [[g14]] (arrabbiarsi): mi correggo e provo di nuovo. Durante la pausa ci riposiamo e ci raccontiamo le novità della settimana. Alla fine ci dividiamo i compiti per la prova successiva. Io mi offro di preparare una lista degli oggetti di scena. A casa mi sistemo alla scrivania e scrivo tutto prima di dimenticare i dettagli. La sera mi rilasso con un libro. Non tutti i sabati sono uguali, ma questo ritmo mi piace.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mi sveglio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Mi alzo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "mi lavo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mi vesto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "mi preparo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mi incontro"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ci salutiamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ci mettiamo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "si presenta"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ci muoviamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ci fermiamo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ci sediamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "mi concentro"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "mi arrabbio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-085",
+  "title": "Intervista a una restauratrice",
+  "language": "it",
+  "level": "A2",
+  "description": "Venire, sapere e i verbi modali · Intervista a una restauratrice · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1085
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Intervistatore: Come ti [[g1]] (chiamare, presente) e che lavoro [[g2]] (fare, presente)?\nMarta: Mi [[g3]] (chiamare, presente) Marta e restauro oggetti di carta. Lavoro soprattutto con libri e vecchie fotografie.\nIntervistatore: Come [[g4]] (cominciare, passato prossimo)?\nMarta: [[g5]] (studiare, passato prossimo) arte, poi [[g6]] (frequentare, passato prossimo) un corso pratico. Durante il corso [[g7]] (conoscere, passato prossimo) una restauratrice che mi [[g8]] (invitare, passato prossimo) nel suo laboratorio. [[g9]] (rimanere, passato prossimo) con lei per alcuni mesi e [[g10]] (imparare, passato prossimo) a osservare i materiali con pazienza.\nIntervistatore: [[g11]] (lavorare, passato prossimo) subito da sola?\nMarta: No. [[g12]] (aiutare, passato prossimo) i colleghi, ho preparato gli strumenti e ho scritto le schede degli oggetti. All’inizio ho pulito soltanto materiali semplici. Poi ho ricevuto compiti più difficili.\nIntervistatore: Ti sei trasferita per lavorare?\nMarta: Sì, sono partita per un’altra città. Ho trovato una stanza vicino al laboratorio e sono tornata a casa nei fine settimana. Dopo due anni sono rientrata nella mia regione e ho aperto uno spazio con un’amica.\nIntervistatore: Che cosa ti piace del tuo lavoro?\nMarta: Ogni oggetto racconta una storia diversa. Non cerco di farlo sembrare nuovo: voglio conservarlo e permettere alle persone di usarlo ancora. La storia e l’intervista sono immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "chiami"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "chiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "hai cominciato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Ho studiato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho frequentato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ho conosciuto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha invitata"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Sono rimasta"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho imparato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Hai lavorato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Ho aiutato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-087",
+  "title": "Piccole decisioni insieme (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "La posizione dei pronomi · Piccole decisioni insieme (1) · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1087
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A: [[g1]] (vedere, passato prossimo) il programma del festival?\nB: Sì, l’[[g2]] (leggere, passato prossimo) stamattina. Ci [[g3]] (essere, presente) due incontri interessanti.\nA: Il primo [[g4]] (cominciare, presente) alle cinque. Lo prenoto per tutti e due?\nB: Sì, grazie. E le fotografie per il laboratorio? Le [[g5]] (portare, presente) tu?\nA: Le porto io. I cartelloni invece li [[g6]] (avere, presente) Sara.\nB: Allora le telefono e le [[g7]] (chiedere, presente) di arrivare un po’ prima.\nA: Bene. Ti [[g8]] (andare, presente) di mangiare qualcosa dopo?\nB: Volentieri, ma non voglio tornare tardi. Domani mi alzo presto.\nA: Possiamo prendere una pizza e dividerla. Tu preferisci quella con le verdure?\nB: Sì. Se il locale è pieno, compriamo due panini e li mangiamo nel parco.\nA: D’accordo. Ci vediamo davanti all’ingresso alle quattro e mezza.\nB: Aspetta, a quell’ora sono ancora sul bus. Facciamo alle quattro e quarantacinque?\nA: Va bene. Ti mando un messaggio quando arrivo.\nB: Perfetto. Se incontri Sara, dille che ho trovato il suo quaderno. Glielo restituisco domani.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Hai visto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "comincia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "porti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "chiedo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "va"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-089",
+  "title": "Cerchiamo compagni di progetto (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Venire, sapere e i verbi modali · Cerchiamo compagni di progetto (2) · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1089
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A — [[g1]] Alessia e [[g2]] (cercare, presente) studenti curiosi per costruire una piccola guida del quartiere. [[g3]] (abitare, presente) qui da due anni e [[g4]] (conoscere, presente) alcune strade, ma [[g5]] (volere, presente) scoprire posti nuovi. Mi [[g6]] (interessare, presente) le botteghe, i cortili e le storie degli abitanti. Lavoro il martedì pomeriggio; negli altri giorni [[g7]] libera dopo le quattro. [[g8]] (preferire, presente) un gruppo piccolo. Tu [[g9]] (avere, presente) una macchina fotografica? Ti [[g10]] (piacere, presente) parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi [[g11]] Tommaso e Nour. [[g12]] (frequentare, presente) il primo anno del liceo e [[g13]] (preparare, presente) brevi video senza pubblicità. Abbiamo idee interessanti, però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Abito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "conosco"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "interessano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Preferisco"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Frequentiamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "prepariamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-094",
+  "title": "L’ultima giornata del progetto",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · L’ultima giornata del progetto · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1094
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Diego, mentre eri assente [[g1]] (preparare, passato prossimo) il programma dell’ultima giornata. [[g2]] (ascoltare, passato prossimo) le proposte di tutti e [[g3]] (scegliere, passato prossimo) un’attività che [[g4]] (potere, presente) fare insieme. La mattina presenteremo i nostri lavori nella sala grande. Ogni gruppo avrà dieci minuti e potrà usare immagini oppure oggetti. Non faremo una gara: raccoglieremo domande e consigli. Dopo le presentazioni andremo in giardino, se il tempo [[g5]] (essere, presente) bello. Porteremo qualcosa da mangiare e divideremo i tavoli in piccoli gruppi. La scuola [[g6]] (autorizzare, passato prossimo) l’uso dello spazio. Io [[g7]] (parlare, passato prossimo) con la responsabile e lei [[g8]] (avere, presente) confermato che ci saranno sedie sufficienti.\nNel pomeriggio incontreremo due ex studenti. Ci racconteranno come [[g9]] (continuare, passato prossimo) i loro [[g10]] (progettare, presente) fuori dalla scuola. Tu potrai fare le domande che hai preparato. Verso le quattro sistemeremo la sala e restituiremo gli strumenti. Alla fine scriveremo una breve valutazione: che cosa abbiamo imparato, che cosa è stato difficile e che cosa vorremmo cambiare. Sono contenta del programma perché lascia spazio anche a chi preferisce ascoltare. Fammi sapere se vuoi aggiungere una proposta. Ci vedremo domani all’intervallo. A presto, Micol.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abbiamo preparato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Abbiamo ascoltato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "abbiamo scelto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "possiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha già autorizzato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ho parlato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "hanno continuato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "progetti"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-097",
+  "title": "Il futuro semplice (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Il futuro semplice (1) · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1097
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. essere · io · futuro → [[g1]]\n2. essere · tu · futuro → [[g2]]\n3. essere · lui/lei · futuro → [[g3]]\n4. essere · noi · futuro → [[g4]]\n5. essere · voi · futuro → [[g5]]\n6. essere · loro · futuro → [[g6]]\n7. avere · io · futuro → [[g7]]\n8. avere · tu · futuro → [[g8]]\n9. avere · lui/lei · futuro → [[g9]]\n10. avere · noi · futuro → [[g10]]\n11. avere · voi · futuro → [[g11]]\n12. avere · loro · futuro → [[g12]]\n13. potere · io · futuro → [[g13]]\n14. potere · tu · futuro → [[g14]]\n15. potere · lui/lei · futuro → [[g15]]\n16. potere · noi · futuro → [[g16]]\n17. potere · voi · futuro → [[g17]]\n18. potere · loro · futuro → [[g18]]\n19. volere · io · futuro → [[g19]]\n20. volere · tu · futuro → [[g20]]\n21. volere · lui/lei · futuro → [[g21]]\n22. volere · noi · futuro → [[g22]]\n23. volere · voi · futuro → [[g23]]\n24. volere · loro · futuro → [[g24]]\n25. dovere · io · futuro → [[g25]]\n26. dovere · tu · futuro → [[g26]]\n27. dovere · lui/lei · futuro → [[g27]]\n28. dovere · noi · futuro → [[g28]]\n29. dovere · voi · futuro → [[g29]]\n30. dovere · loro · futuro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sarò"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sarai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sarà"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "saremo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sarete"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "saranno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avrò"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avrai"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avrà"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avremo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avrete"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avranno"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "potrò"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "potrai"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "potrà"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "potremo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "potrete"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "potranno"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "vorrò"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "vorrai"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "vorrà"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "vorremo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "vorrete"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "vorranno"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "dovrò"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "dovrai"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "dovrà"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "dovremo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "dovrete"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "dovranno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-098",
+  "title": "Preparare una piccola mostra (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo (tu, voi) e la negazione · Preparare una piccola mostra (1) · livello medio.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1098
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Vuoi organizzare una mostra con la tua classe? [[g1]] (cominciare) da un tema preciso. [[g2]] (scegliere) poche immagini e [[g3]] (controllare) se puoi usarle. [[g4]] (leggere) le indicazioni sulle fonti e [[g5]] (scrivere) il nome dell’autore quando è necessario. [[g6]] (non copiare) fotografie trovate per caso online. [[g7]] (preparare) un titolo chiaro e [[g8]] (aggiungere) una breve spiegazione per ogni oggetto. [[g9]] (prendere) un foglio grande e [[g10]] (disegnare) la disposizione dei tavoli. [[g11]] (lasciare) spazio tra gli oggetti e [[g12]] (non bloccare) le porte. Chiedi a un compagno di leggere i cartelli: se una frase non è chiara, riscrivila. Metti le informazioni principali all’inizio e usa parole comprensibili. Guarda la sala da diversi punti e verifica se tutti possono leggere. Porta il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, prova il percorso con due persone che non conoscono il progetto. Ascolta le loro domande, annota i problemi e correggi quello che serve. Durante la mostra saluta i visitatori, rispondi con calma e ammetti quando non conosci una risposta. Alla fine raccogli i commenti e conserva le idee utili per il prossimo lavoro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Comincia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Scegli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "controlla"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Leggi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Non copiare"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Prepara"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "aggiungi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Prendi"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "disegna"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Lascia"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "non bloccare"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-099",
+  "title": "Grazie per il pomeriggio",
+  "language": "it",
+  "level": "A2",
+  "description": "Gli aggettivi e la loro posizione · Grazie per il pomeriggio · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1099
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala era [[g1]], i tavoli erano ordinati e le fotografie erano davvero [[g2]]. Il programma era semplice, ma ogni attività aveva uno scopo [[g3]]. Le spiegazioni erano [[g4]] e [[g5]]. La musica era [[g6]] e il volume non era troppo [[g7]]. I volontari erano [[g8]]; anche le persone nuove si sentivano a proprio agio. La pausa era un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "luminosa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "interessanti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "chiaro"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "brevi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "comprensibili"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "piacevole"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "alto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "disponibili"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-100",
+  "title": "Preparare una piccola mostra (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo (tu, voi) e la negazione · Preparare una piccola mostra (2) · livello medio.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1100
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Vuoi organizzare una mostra con la tua classe? [[g1]] (cominciare) da un tema preciso. [[g2]] (scegliere) poche immagini e [[g3]] (controllare) se puoi usarle. [[g4]] (leggere) le indicazioni sulle fonti e [[g5]] (scrivere) il nome dell’autore quando è necessario. [[g6]] (non copiare) fotografie trovate per caso online. [[g7]] (preparare) un titolo chiaro e [[g8]] (aggiungere) una breve spiegazione per ogni oggetto. [[g9]] (prendere) un foglio grande e [[g10]] (disegnare) la disposizione dei tavoli. [[g11]] (lasciare) spazio tra gli oggetti e [[g12]] (non bloccare) le porte. [[g13]] (chiedere) a un compagno di leggere i cartelli: se una frase non è chiara, [[g14]] (riscrivere + la). [[g15]] (mettere) le informazioni principali all’inizio e [[g16]] (usare) parole comprensibili. [[g17]] (guardare) la sala da diversi punti e [[g18]] (verificare) se tutti possono leggere. Porta il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, prova il percorso con due persone che non conoscono il progetto. Ascolta le loro domande, annota i problemi e correggi quello che serve. Durante la mostra saluta i visitatori, rispondi con calma e ammetti quando non conosci una risposta. Alla fine raccogli i commenti e conserva le idee utili per il prossimo lavoro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Comincia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Scegli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "controlla"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Leggi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Non copiare"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Prepara"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "aggiungi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Prendi"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "disegna"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Lascia"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "non bloccare"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Chiedi"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "riscrivila"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "Metti"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "usa"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "Guarda"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "verifica"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-101",
+  "title": "Il passato prossimo con avere (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · Il passato prossimo con avere (1) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1101
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. essere · io · presente → [[g1]]\n2. essere · io · passato prossimo (maschile) → [[g2]]\n3. andare · tu · presente → [[g3]]\n4. andare · tu · passato prossimo (maschile) → [[g4]]\n5. comprare · lui/lei · presente → [[g5]]\n6. comprare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. mangiare · noi · presente → [[g7]]\n8. mangiare · noi · passato prossimo (uso autonomo) → [[g8]]\n9. partire · voi · presente → [[g9]]\n10. partire · voi · passato prossimo (maschile) → [[g10]]\n11. dormire · loro · presente → [[g11]]\n12. dormire · loro · passato prossimo (uso autonomo) → [[g12]]\n13. uscire · io · presente → [[g13]]\n14. uscire · io · passato prossimo (maschile) → [[g14]]\n15. avere · tu · presente → [[g15]]\n16. avere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. arrivare · lui/lei · presente → [[g17]]\n18. arrivare · lui/lei · passato prossimo (maschile) → [[g18]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sono stato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vai"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sei andato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "compra"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha comprato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "mangiamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "abbiamo mangiato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "partite"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "siete partiti"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dormono"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "hanno dormito"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "esco"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "sono uscito"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "hai avuto"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "arriva"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "è arrivato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-103",
+  "title": "Il futuro semplice (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Il futuro semplice (2) · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1103
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. tornare · io · futuro → [[g1]]\n2. tornare · tu · futuro → [[g2]]\n3. tornare · lui/lei · futuro → [[g3]]\n4. tornare · noi · futuro → [[g4]]\n5. tornare · voi · futuro → [[g5]]\n6. tornare · loro · futuro → [[g6]]\n7. leggere · io · futuro → [[g7]]\n8. leggere · tu · futuro → [[g8]]\n9. leggere · lui/lei · futuro → [[g9]]\n10. leggere · noi · futuro → [[g10]]\n11. leggere · voi · futuro → [[g11]]\n12. leggere · loro · futuro → [[g12]]\n13. partire · io · futuro → [[g13]]\n14. partire · tu · futuro → [[g14]]\n15. partire · lui/lei · futuro → [[g15]]\n16. partire · noi · futuro → [[g16]]\n17. partire · voi · futuro → [[g17]]\n18. partire · loro · futuro → [[g18]]\n19. cercare · io · futuro → [[g19]]\n20. cercare · tu · futuro → [[g20]]\n21. cercare · lui/lei · futuro → [[g21]]\n22. cercare · noi · futuro → [[g22]]\n23. cercare · voi · futuro → [[g23]]\n24. cercare · loro · futuro → [[g24]]\n25. proporre · io · futuro → [[g25]]\n26. proporre · tu · futuro → [[g26]]\n27. proporre · lui/lei · futuro → [[g27]]\n28. proporre · noi · futuro → [[g28]]\n29. proporre · voi · futuro → [[g29]]\n30. proporre · loro · futuro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "tornerò"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "tornerai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "tornerà"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "torneremo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "tornerete"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "torneranno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "leggerò"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "leggerai"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "leggerà"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "leggeremo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "leggerete"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "leggeranno"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "partirò"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "partirai"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "partirà"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "partiremo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "partirete"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "partiranno"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "cercherò"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "cercherai"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "cercherà"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "cercheremo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "cercherete"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "cercheranno"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "proporrò"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "proporrai"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "proporrà"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "proporremo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "proporrete"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "proporranno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-104",
+  "title": "Il quartiere tra un mese (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Il quartiere tra un mese (1) · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1104
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il prossimo mese il nostro quartiere [[g1]] (ospitare, futuro) una giornata di scambio di competenze. L’iniziativa qui descritta è immaginaria. Gli abitanti [[g2]] (potere, futuro) insegnare qualcosa che sanno fare: cucire un bottone, riparare una ruota, raccontare una storia o disegnare una mappa. Il centro culturale [[g3]] (aprire, futuro) le sale alle nove. I volontari [[g4]] (preparare, futuro) i tavoli e [[g5]] (distribuire, futuro) il programma. Ogni partecipante [[g6]] (scegliere, futuro) due attività e [[g7]] (ricevere, futuro) una scheda per gli appunti. Non ci [[g8]] (essere, futuro) una classifica. Le persone [[g9]] (lavorare, futuro) in piccoli gruppi e cambieranno stanza dopo un’ora.\nLa mattina una sarta [[g10]] (mostrare, futuro) alcune riparazioni semplici; due studenti spiegheranno come registrare un’intervista. Nel cortile un gruppo costruirà cassette per le piante. Chi preferirà leggere troverà uno spazio tranquillo con racconti brevi. A mezzogiorno tutti faranno una pausa. Nel pomeriggio i gruppi presenteranno quello che hanno imparato. Gli organizzatori raccoglieranno le proposte e pubblicheranno un resoconto senza dati personali. Io parteciperò al laboratorio di mappe; mia sorella porterà vecchie stoffe e mio padre aiuterà a sistemare le sedie. Se pioverà, useremo soltanto gli spazi interni. Alla fine avremo nuove idee e forse conosceremo meglio i nostri vicini.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ospiterà"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "potranno"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aprirà"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prepareranno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "distribuiranno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sceglierà"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "riceverà"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sarà"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "lavoreranno"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "mostrerà"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-106",
+  "title": "Piccole decisioni insieme (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "La posizione dei pronomi · Piccole decisioni insieme (2) · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1106
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A: [[g1]] (vedere, passato prossimo) il programma del festival?\nB: Sì, l’[[g2]] (leggere, passato prossimo) stamattina. Ci [[g3]] (essere, presente) due incontri interessanti.\nA: Il primo [[g4]] (cominciare, presente) alle cinque. Lo prenoto per tutti e due?\nB: Sì, grazie. E le fotografie per il laboratorio? Le [[g5]] (portare, presente) tu?\nA: Le porto io. I cartelloni invece li [[g6]] (avere, presente) Sara.\nB: Allora le telefono e le [[g7]] (chiedere, presente) di arrivare un po’ prima.\nA: Bene. Ti [[g8]] (andare, presente) di mangiare qualcosa dopo?\nB: Volentieri, ma non [[g9]] (volere, presente) tornare tardi. Domani mi [[g10]] (alzare, presente) presto.\nA: Possiamo prendere una pizza e dividerla. Tu preferisci quella con le verdure?\nB: Sì. Se il locale è pieno, compriamo due panini e li mangiamo nel parco.\nA: D’accordo. Ci vediamo davanti all’ingresso alle quattro e mezza.\nB: Aspetta, a quell’ora sono ancora sul bus. Facciamo alle quattro e quarantacinque?\nA: Va bene. Ti mando un messaggio quando arrivo.\nB: Perfetto. Se incontri Sara, dille che ho trovato il suo quaderno. Glielo restituisco domani.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Hai visto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "comincia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "porti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "chiedo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "va"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "alzo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-107",
+  "title": "Una mattina diversa",
+  "language": "it",
+  "level": "A2",
+  "description": "Venire, sapere e i verbi modali · Una mattina diversa · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1107
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Intervistatrice: Come [[g1]] (cominciare, presente) la tua giornata, Neri?\nNeri: Mi [[g2]] (svegliare, presente) alle sei e mezza. [[g3]] (abitare, presente) fuori città e prendo il treno per andare a scuola.\nIntervistatrice: [[g4]] (fare, presente) colazione prima di uscire?\nNeri: Sì, [[g5]] (preparare, presente) il latte e [[g6]] (mangiare, presente) due fette di pane. Mio fratello [[g7]] (dormire, presente) ancora, quindi [[g8]] (parlare, presente) piano.\nIntervistatrice: Quanto dura il viaggio?\nNeri: Circa quaranta minuti. In treno leggo oppure ascolto un podcast. Non studio sempre: qualche volta guardo il paesaggio.\nIntervistatrice: E oggi perché sei qui così presto?\nNeri: La nostra classe visita la radio locale. Io devo aiutare a sistemare i microfoni e voglio arrivare prima degli altri.\nIntervistatrice: Sai già usare gli strumenti?\nNeri: Conosco soltanto le basi. Un tecnico ci spiega tutto e controlla il lavoro.\nIntervistatrice: Che cosa vuoi imparare?\nNeri: Vorrei capire come si prepara un’intervista. Mi interessa soprattutto ascoltare bene le risposte, perché a volte una domanda nuova nasce proprio da una risposta inattesa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "comincia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sveglio"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Abito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Fai"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "preparo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mangio"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dorme"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "parlo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-113",
+  "title": "Un equivoco nel gruppo",
+  "language": "it",
+  "level": "A2",
+  "description": "Venire, sapere e i verbi modali · Un equivoco nel gruppo · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1113
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao redazione, mi [[g1]] (essere, presente) successa una cosa spiacevole. [[g2]] (leggere, passato prossimo) un messaggio del mio gruppo e [[g3]] (pensare, passato prossimo): «I compagni [[g4]] (volere, presente) lavorare senza di me». [[g5]] (arrabbiarsi, passato prossimo) e [[g6]] (rispondere, passato prossimo) troppo in fretta. [[g7]] (scrivere, passato prossimo) che il progetto non mi interessava più. Poi una compagna mi [[g8]] (telefonare, passato prossimo) e mi ha spiegato la situazione: l’incontro era soltanto per chi doveva montare il video. Io, invece, dovevo preparare il testo con un altro compagno. Poi ho letto l’ultimo messaggio: i compiti erano indicati chiaramente.\nAdesso mi vergogno un po’. I miei amici mi conoscono e sanno che tengo molto al progetto, però le mie parole li hanno feriti. Ho chiesto scusa nella chat e ho proposto di parlarne a scuola. La mia compagna mi ha risposto con gentilezza. Mi ha detto che anche lei qualche volta interpreta male un messaggio breve. Domani incontrerò gli altri e ascolterò quello che vogliono dirmi. La prossima volta leggerò tutto con calma e farò una domanda prima di reagire. Non voglio decidere al posto degli altri che cosa pensano. Un saluto, Chiara.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ho letto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho pensato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Mi sono arrabbiata"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho risposto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ho scritto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha telefonato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-114",
+  "title": "Un equivoco nel gruppo",
+  "language": "it",
+  "level": "A2",
+  "description": "Raccontare un’esperienza · Un equivoco nel gruppo · livello medio.",
+  "topics": [
+   "Raccontare un’esperienza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Ripasso"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-raccontare",
+   "topicTitle": "Raccontare un’esperienza",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1114
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao redazione, mi [[g1]] (essere, presente) successa una cosa spiacevole. [[g2]] (leggere, passato prossimo) un messaggio del mio gruppo e [[g3]] (pensare, passato prossimo): «I compagni [[g4]] (volere, presente) lavorare senza di me». [[g5]] (arrabbiarsi, passato prossimo) e [[g6]] (rispondere, passato prossimo) troppo in fretta. [[g7]] (scrivere, passato prossimo) che il progetto non mi interessava più. Poi una compagna mi [[g8]] (telefonare, passato prossimo) e mi [[g9]] (spiegare, passato prossimo) la situazione: l’incontro era soltanto per chi doveva montare il video. Io, invece, dovevo preparare il testo con un altro compagno. Poi [[g10]] (leggere, passato prossimo) l’ultimo messaggio: i compiti erano indicati chiaramente.\nAdesso mi vergogno un po’. I miei amici mi [[g11]] (conoscere, presente) e [[g12]] (sapere, presente) che tengo molto al progetto, però le mie parole li [[g13]] (avere, presente) feriti. [[g14]] (chiedere, passato prossimo) scusa nella chat e ho proposto di parlarne a scuola. La mia compagna mi ha risposto con gentilezza. Mi ha detto che anche lei qualche volta interpreta male un messaggio breve. Domani incontrerò gli altri e ascolterò quello che vogliono dirmi. La prossima volta leggerò tutto con calma e farò una domanda prima di reagire. Non voglio decidere al posto degli altri che cosa pensano. Un saluto, Chiara.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ho letto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho pensato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Mi sono arrabbiata"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho risposto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ho scritto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha telefonato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "conoscono"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "sanno"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Ho chiesto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-116",
+  "title": "Il messaggio della responsabile (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Il messaggio della responsabile (1) · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1116
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Rocco, sono uscita prima del previsto perché mi hanno chiamata dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g1]] (prendere + li) e [[g2]] (mettere + li) vicino alla parete, ma [[g3]] (non appendere + li) ancora. La colla è nell’armadio; [[g4]] (usare + la) soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g5]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g6]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, [[g7]] (preparare) i tavoli e [[g8]] (lasciare) libero il passaggio. [[g9]] (non spostare) la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; [[g10]] (scegliere) quelli con le immagini grandi e [[g11]] (portare + li) al gruppo. Se qualcuno ti chiede un foglio, [[g12]] (dare + gli) quelli nel primo cassetto. [[g13]] (ricordarsi) di fare una pausa e [[g14]] (non preoccuparsi) se non finite tutto. Mi interessa che tutti partecipino. [[g15]] (scrivere + mi) soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine [[g16]] (raccogliere) gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "prendili"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mettili"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "non appenderli"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "usala"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Controllale"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "dille"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "lascia"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Non spostare"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "scegli"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "portali"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "dagli"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Ricordati"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "non preoccuparti"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "Scrivimi"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "raccogli"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-121",
+  "title": "La scatola ritrovata (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · La scatola ritrovata (1) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1121
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ieri pomeriggio una classe [[g1]] (visitare, passato prossimo) il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline. Quando [[g2]] (arrivare, passato prossimo) nella sala, mancava proprio la scatola. La professoressa [[g3]] (chiedere, passato prossimo) a tutti di controllare le borse. Due ragazzi [[g4]] (tornare, passato prossimo) all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria [[g5]] (ricordare, passato prossimo) che un gruppo precedente usava una scatola simile. [[g6]] (telefonare, passato prossimo) al responsabile e gli [[g7]] (spiegare, passato prossimo) il problema. Il responsabile [[g8]] (guardare, passato prossimo) nel suo ufficio e ha trovato due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra era quella della classe. Un collega ha detto: «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha visitato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sono arrivati"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sono tornati"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha ricordato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Ha telefonato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha guardato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-123",
+  "title": "Un materiale arrivato in ritardo",
+  "language": "it",
+  "level": "A2",
+  "description": "Raccontare un’esperienza · Un materiale arrivato in ritardo · livello medio.",
+  "topics": [
+   "Raccontare un’esperienza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Ripasso"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-raccontare",
+   "topicTitle": "Raccontare un’esperienza",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1123
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Lunedì [[g1]] (ordinare, passato prossimo) alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. [[g2]] (ricevere, passato prossimo) una conferma e [[g3]] (comunicare, passato prossimo) la data ai compagni. Giovedì, però, il pacco non [[g4]] (arrivare, passato prossimo). [[g5]] (controllare, passato prossimo) il messaggio del corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. [[g6]] (accorgersi, passato prossimo) di un errore nel modulo: mancava il numero dell’edificio. [[g7]] (telefonare, passato prossimo) al servizio clienti e [[g8]] (spiegare, passato prossimo) il problema. L’addetta [[g9]] (avere, presente) corretto i dati e [[g10]] (avere, presente) confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho ordinato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ho ricevuto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho comunicato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "è arrivato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Ho controllato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Mi sono accorto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ho telefonato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ho spiegato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-128",
+  "title": "Grazie per il pomeriggio",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperfetto · Grazie per il pomeriggio · livello medio.",
+  "topics": [
+   "L’imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-imperfetto",
+   "topicTitle": "L’imperfetto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1128
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala [[g1]] luminosa, i tavoli erano ordinati e le fotografie [[g2]] davvero interessanti. Il programma [[g3]] semplice, ma ogni attività aveva uno scopo chiaro. Le spiegazioni [[g4]] brevi e comprensibili. La musica [[g5]] piacevole e il volume non [[g6]] troppo alto. I volontari [[g7]] disponibili; anche le persone nuove si sentivano a proprio agio. La pausa [[g8]] un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "era"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-131",
+  "title": "L’imperfetto (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperfetto · L’imperfetto (1) · livello medio.",
+  "topics": [
+   "L’imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco2-imperfetto",
+   "topicTitle": "L’imperfetto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1131
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. essere · io · imperfetto → [[g1]]\n2. essere · tu · imperfetto → [[g2]]\n3. essere · lui/lei · imperfetto → [[g3]]\n4. essere · noi · imperfetto → [[g4]]\n5. essere · voi · imperfetto → [[g5]]\n6. essere · loro · imperfetto → [[g6]]\n7. avere · io · imperfetto → [[g7]]\n8. avere · tu · imperfetto → [[g8]]\n9. avere · lui/lei · imperfetto → [[g9]]\n10. avere · noi · imperfetto → [[g10]]\n11. avere · voi · imperfetto → [[g11]]\n12. avere · loro · imperfetto → [[g12]]\n13. potere · io · imperfetto → [[g13]]\n14. potere · tu · imperfetto → [[g14]]\n15. potere · lui/lei · imperfetto → [[g15]]\n16. potere · noi · imperfetto → [[g16]]\n17. potere · voi · imperfetto → [[g17]]\n18. potere · loro · imperfetto → [[g18]]\n19. volere · io · imperfetto → [[g19]]\n20. volere · tu · imperfetto → [[g20]]\n21. volere · lui/lei · imperfetto → [[g21]]\n22. volere · noi · imperfetto → [[g22]]\n23. volere · voi · imperfetto → [[g23]]\n24. volere · loro · imperfetto → [[g24]]\n25. dovere · io · imperfetto → [[g25]]\n26. dovere · tu · imperfetto → [[g26]]\n27. dovere · lui/lei · imperfetto → [[g27]]\n28. dovere · noi · imperfetto → [[g28]]\n29. dovere · voi · imperfetto → [[g29]]\n30. dovere · loro · imperfetto → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ero"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "eri"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "eravamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "eravate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avevo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avevi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avevamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avevate"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avevano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "potevo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "potevi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "poteva"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "potevamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "potevate"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "potevano"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "volevo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "volevi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "volevamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "volevate"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "volevano"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "dovevo"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "dovevi"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "doveva"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "dovevamo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "dovevate"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "dovevano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-133",
+  "title": "Tu e Lei: ascoltare la situazione",
+  "language": "it",
+  "level": "A2",
+  "description": "La cortesia e l’imperativo formale · Tu e Lei: ascoltare la situazione · livello medio.",
+  "topics": [
+   "La cortesia e l’imperativo formale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "2 · Vita online",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-cortesia",
+   "topicTitle": "La cortesia e l’imperativo formale",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1133
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "In italiano possiamo rivolgerci a una [[g1]] con tu oppure con Lei. La scelta dipende dalla [[g2]], dal [[g3]] e dalle [[g4]] delle persone. Tra [[g5]] e [[g6]] di scuola si usa normalmente tu. In un [[g7]], con una persona che non conosciamo, Lei è spesso una scelta cortese per cominciare. Non basta osservare l’età: anche il [[g8]] e il [[g9]] hanno importanza. Se una persona propone di usare tu, possiamo accettare e continuare in modo naturale. Possiamo anche chiedere: «Possiamo darci del tu?».\nLa [[g10]] non dipende soltanto dal pronome. Il tono, l’ascolto e parole come per favore e grazie aiutano a rendere rispettoso uno scambio. Un messaggio breve può sembrare brusco anche quando contiene Lei. Al contrario, una conversazione con tu può essere molto rispettosa. Quando non siamo sicuri, ascoltiamo come parlano gli altri e chiediamo con semplicità. Non esiste una regola unica valida per tutte le famiglie, le scuole e le aziende. In questa attività osserviamo alcune situazioni e motiviamo la scelta, senza considerare scortese ogni uso diverso dal nostro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "persona"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "situazione"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "rapporto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abitudini"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "amici"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "compagni"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ufficio"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "contesto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ruolo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cortesia"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-134",
+  "title": "La scatola ritrovata (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · La scatola ritrovata (2) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1134
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma del passato prossimo corretta nel contesto.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Wähle die passende Form des passato prossimo.",
+    "text": "Ieri pomeriggio una classe [[g1]] (visitare, passato prossimo) il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline. Quando [[g2]] (arrivare, passato prossimo) nella sala, mancava proprio la scatola. La professoressa [[g3]] (chiedere, passato prossimo) a tutti di controllare le borse. Due ragazzi [[g4]] (tornare, passato prossimo) all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria [[g5]] (ricordare, passato prossimo) che un gruppo precedente usava una scatola simile. [[g6]] (telefonare, passato prossimo) al responsabile e gli [[g7]] (spiegare, passato prossimo) il problema. Il responsabile [[g8]] (guardare, passato prossimo) nel suo ufficio e [[g9]] (trovare, passato prossimo) due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra era quella della classe. Un collega [[g10]] (dire, passato prossimo): «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ha visitato",
+       "essere visitato"
+      ],
+      "answer": "ha visitato"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "avere arrivati",
+       "sono arrivati"
+      ],
+      "answer": "sono arrivati"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "essere chiesto",
+       "ha chiesto"
+      ],
+      "answer": "ha chiesto"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "avere tornati",
+       "sono tornati"
+      ],
+      "answer": "sono tornati"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "essere ricordato",
+       "ha ricordato"
+      ],
+      "answer": "ha ricordato"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Ha telefonato",
+       "essere telefonato"
+      ],
+      "answer": "Ha telefonato"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "essere spiegato",
+       "ha spiegato"
+      ],
+      "answer": "ha spiegato"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ha guardato",
+       "essere guardato"
+      ],
+      "answer": "ha guardato"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "essere trovato",
+       "ha trovato"
+      ],
+      "answer": "ha trovato"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "ha detto",
+       "essere detto"
+      ],
+      "answer": "ha detto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-138",
+  "title": "L’ultima giornata del progetto",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · L’ultima giornata del progetto · livello difficile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1138
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Diego, mentre [[g1]] (essere, imperfetto) assente [[g2]] (preparare, passato prossimo) il programma dell’ultima giornata. [[g3]] (ascoltare, passato prossimo) le proposte di tutti e [[g4]] (scegliere, passato prossimo) un’attività che [[g5]] (potere, presente) fare insieme. La mattina [[g6]] (presentare, futuro) i nostri lavori nella sala grande. Ogni gruppo [[g7]] (avere, futuro) dieci minuti e [[g8]] (potere, futuro) usare immagini oppure oggetti. Non [[g9]] (fare, futuro) una gara: [[g10]] (raccogliere, futuro) domande e consigli. Dopo le presentazioni [[g11]] (andare, futuro) in giardino, se il tempo [[g12]] (essere, presente) bello. [[g13]] (portare, futuro) qualcosa da mangiare e [[g14]] (dividere, futuro) i tavoli in piccoli gruppi. La scuola ha già autorizzato l’uso dello spazio. Io ho parlato con la responsabile e lei ha confermato che ci saranno sedie sufficienti.\nNel pomeriggio incontreremo due ex studenti. Ci racconteranno come hanno continuato i loro progetti fuori dalla scuola. Tu potrai fare le domande che hai preparato. Verso le quattro sistemeremo la sala e restituiremo gli strumenti. Alla fine scriveremo una breve valutazione: che cosa abbiamo imparato, che cosa è stato difficile e che cosa vorremmo cambiare. Sono contenta del programma perché lascia spazio anche a chi preferisce ascoltare. Fammi sapere se vuoi aggiungere una proposta. Ci vedremo domani all’intervallo. A presto, Micol.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "eri"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abbiamo preparato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Abbiamo ascoltato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo scelto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "possiamo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "presenteremo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avrà"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "potrà"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "faremo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "raccoglieremo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "andremo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Porteremo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "divideremo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-139",
+  "title": "Il passato prossimo con avere (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · Il passato prossimo con avere (2) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1139
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. venire · io · presente → [[g1]]\n2. venire · io · passato prossimo (maschile) → [[g2]]\n3. parlare · tu · presente → [[g3]]\n4. parlare · tu · passato prossimo (uso autonomo) → [[g4]]\n5. dare · lui/lei · presente → [[g5]]\n6. dare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. tornare · noi · presente → [[g7]]\n8. tornare · noi · passato prossimo (maschile) → [[g8]]\n9. provare · voi · presente → [[g9]]\n10. provare · voi · passato prossimo (uso autonomo) → [[g10]]\n11. volere · loro · presente → [[g11]]\n12. volere · loro · passato prossimo (uso autonomo) → [[g12]]\n13. dovere · io · presente → [[g13]]\n14. dovere · io · passato prossimo (uso autonomo) → [[g14]]\n15. sapere · tu · presente → [[g15]]\n16. sapere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. potere · lui/lei · presente → [[g17]]\n18. potere · lui/lei · passato prossimo (uso autonomo) → [[g18]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vengo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sono venuto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "parli"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "hai parlato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "dà"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha dato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "torniamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "siamo tornati"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "provate"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avete provato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "hanno voluto"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "devo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ho dovuto"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "sai"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "hai saputo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "può"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "ha potuto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-140",
+  "title": "L’imperfetto (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperfetto · L’imperfetto (2) · livello medio.",
+  "topics": [
+   "L’imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "ecco2-imperfetto",
+   "topicTitle": "L’imperfetto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1140
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. dire · io · imperfetto → [[g1]]\n2. dire · tu · imperfetto → [[g2]]\n3. dire · lui/lei · imperfetto → [[g3]]\n4. dire · noi · imperfetto → [[g4]]\n5. dire · voi · imperfetto → [[g5]]\n6. dire · loro · imperfetto → [[g6]]\n7. fare · io · imperfetto → [[g7]]\n8. fare · tu · imperfetto → [[g8]]\n9. fare · lui/lei · imperfetto → [[g9]]\n10. fare · noi · imperfetto → [[g10]]\n11. fare · voi · imperfetto → [[g11]]\n12. fare · loro · imperfetto → [[g12]]\n13. bere · io · imperfetto → [[g13]]\n14. bere · tu · imperfetto → [[g14]]\n15. bere · lui/lei · imperfetto → [[g15]]\n16. bere · noi · imperfetto → [[g16]]\n17. bere · voi · imperfetto → [[g17]]\n18. bere · loro · imperfetto → [[g18]]\n19. proporre · io · imperfetto → [[g19]]\n20. proporre · tu · imperfetto → [[g20]]\n21. proporre · lui/lei · imperfetto → [[g21]]\n22. proporre · noi · imperfetto → [[g22]]\n23. proporre · voi · imperfetto → [[g23]]\n24. proporre · loro · imperfetto → [[g24]]\n25. stare · io · imperfetto → [[g25]]\n26. stare · tu · imperfetto → [[g26]]\n27. stare · lui/lei · imperfetto → [[g27]]\n28. stare · noi · imperfetto → [[g28]]\n29. stare · voi · imperfetto → [[g29]]\n30. stare · loro · imperfetto → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "dicevo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "dicevi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diceva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "dicevamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "dicevate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "dicevano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "facevo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "facevi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "faceva"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "facevamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "facevate"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "facevano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "bevevo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "bevevi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "beveva"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "bevevamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "bevevate"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "bevevano"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "proponevo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "proponevi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "proponeva"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "proponevamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "proponevate"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "proponevano"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "stavo"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "stavi"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "stava"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "stavamo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "stavate"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "stavano"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "31. tradurre · io · imperfetto → [[g1]]\n32. tradurre · tu · imperfetto → [[g2]]\n33. tradurre · lui/lei · imperfetto → [[g3]]\n34. tradurre · noi · imperfetto → [[g4]]\n35. tradurre · voi · imperfetto → [[g5]]\n36. tradurre · loro · imperfetto → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "traducevo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "traducevi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "traduceva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "traducevamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "traducevate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "traducevano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-141",
+  "title": "Il messaggio della responsabile (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Il messaggio della responsabile (2) · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1141
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Rocco, [[g1]] (uscire, passato prossimo) prima del previsto perché mi [[g2]] (chiamare, passato prossimo) dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] (prendere + li) e [[g4]] (mettere + li) vicino alla parete, ma [[g5]] (non appendere + li) ancora. La colla è nell’armadio; [[g6]] (usare + la) soltanto sui fogli di prova. [[g7]] (comprare, passato prossimo) nuove forbici: le trovi nella scatola blu. [[g8]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g9]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. [[g10]] (telefonare, passato prossimo) a suo padre e gli [[g11]] (spiegare, passato prossimo) l’orario.\nPer favore, [[g12]] (preparare) i tavoli e [[g13]] (lasciare) libero il passaggio. [[g14]] (non spostare) la pianta: ieri l’[[g15]] (sistemare, passato prossimo) lì perché riceve più luce. I libri li [[g16]] (mettere, passato prossimo) sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sono uscita"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "hanno chiamata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "prendili"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mettili"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "non appenderli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "usala"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ho comprato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Controllale"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dille"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Ho già telefonato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ho spiegato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "lascia"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Non spostare"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ho sistemata"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "ho messi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-143",
+  "title": "Un nuovo equilibrio (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Un nuovo equilibrio (1) · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1143
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Caro Leo, ho deciso che voglio organizzare meglio il mio tempo. In queste settimane studio molto e passo troppo tempo davanti allo schermo. Nelle mie giornate manca una pausa vera. Quando finisco i compiti, controllo i messaggi e comincio subito un’altra attività. La sera sono stanca, ma ho la sensazione di non aver fatto quello che mi piace.\nDa lunedì cambierò alcune abitudini. Prima [[g1]] (preparare, futuro) una lista breve e [[g2]] (scegliere, futuro) le attività più importanti. Non [[g3]] (riempire, futuro) ogni minuto. Due pomeriggi alla settimana [[g4]] (uscire, futuro) per una passeggiata e [[g5]] (lasciare, futuro) il telefono nello zaino. Riprenderò anche il mio quaderno di disegni. I miei amici mi invitano spesso, però rispondo che non ho tempo; d’ora in poi [[g6]] (accettare, futuro) qualche invito e [[g7]] (proporre, futuro) incontri semplici. Non serve organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante i miei spostamenti [[g8]] (leggere, futuro) qualcosa, se [[g9]] (avere, futuro) voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana [[g10]] (controllare, futuro) il programma della settimana successiva e [[g11]] (lasciare, futuro) spazio agli imprevisti. So che non [[g12]] (riuscire, futuro) a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. Il mio obiettivo non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi le tue pause? Mi interessa conoscere le tue idee. Scrivimi quando hai un momento. A presto, Eva.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "preparerò"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sceglierò"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "riempirò"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "uscirò"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lascerò"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "accetterò"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "proporrò"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "leggerò"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avrò"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "controllerò"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "lascerò"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "riuscirò"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-144",
+  "title": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "language": "it",
+  "level": "A2",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Mi sono alzato: il passato prossimo dei verbi riflessivi · livello medio.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1144
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. lavarsi · io · presente → [[g1]]\n2. lavarsi · io · passato prossimo (maschile) → [[g2]]\n3. alzarsi · tu · presente → [[g3]]\n4. alzarsi · tu · passato prossimo (maschile) → [[g4]]\n5. vestirsi · lui/lei · presente → [[g5]]\n6. vestirsi · lui/lei · passato prossimo (maschile) → [[g6]]\n7. prepararsi · noi · presente → [[g7]]\n8. prepararsi · noi · passato prossimo (maschile) → [[g8]]\n9. svegliarsi · voi · presente → [[g9]]\n10. svegliarsi · voi · passato prossimo (maschile) → [[g10]]\n11. sedersi · loro · presente → [[g11]]\n12. sedersi · loro · passato prossimo (maschile) → [[g12]]\n13. rilassarsi · io · presente → [[g13]]\n14. rilassarsi · io · passato prossimo (maschile) → [[g14]]\n15. fermarsi · tu · presente → [[g15]]\n16. fermarsi · tu · passato prossimo (maschile) → [[g16]]\n17. incontrarsi · lui/lei · presente → [[g17]]\n18. incontrarsi · lui/lei · passato prossimo (maschile) → [[g18]]\n19. occuparsi · noi · presente → [[g19]]\n20. occuparsi · noi · passato prossimo (maschile) → [[g20]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mi lavo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mi sono lavato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ti alzi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ti sei alzato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "si veste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si è vestito"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ci prepariamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ci siamo preparati"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "vi svegliate"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "vi siete svegliati"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "si siedono"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "si sono seduti"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "mi rilasso"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "mi sono rilassato"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ti fermi"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "ti sei fermato"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "si incontra"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "si è incontrato"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "ci occupiamo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "ci siamo occupati"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-148",
+  "title": "Organizzare una visita al Pantheon",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Organizzare una visita al Pantheon · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Eigene sachliche Zusammenfassung nach Ministero della Cultura: Pantheon e Basilica di Santa Maria ad Martyres. Abruf 29.10.2026; Besuchsbedingungen vor realer Nutzung erneut prüfen.",
+    "url": "https://cultura.gov.it/luogo/pantheon",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1148
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il Pantheon si trova a Roma ed è anche una basilica. Per una visita, il Ministero della Cultura indica l’acquisto dei biglietti ufficiali sul portale Musei Italiani, nell’app oppure presso le casse e i distributori automatici sul posto. Non sono previsti biglietti ufficiali per saltare la fila. Le visite seguono l’ordine di arrivo. Questa breve informazione è stata riformulata a partire dalla pagina ufficiale consultata il 29 ottobre 2026; prima di un viaggio reale occorre verificare le condizioni aggiornate.\nPer il nostro esercizio immaginiamo una classe che prepara una visita. Gli studenti [[g1]] (dividere, futuro) il lavoro in piccoli gruppi. Il primo gruppo [[g2]] (cercare, futuro) le informazioni ufficiali, il secondo [[g3]] (preparare, futuro) una mappa e il terzo [[g4]] (raccogliere, futuro) le domande. Ogni gruppo [[g5]] (avere, futuro) un portavoce. Prima della partenza, tutti confronteranno i risultati e [[g6]] (controllare, futuro) le fonti. La classe non [[g7]] (usare, futuro) messaggi pubblicitari come prova delle condizioni di ingresso. Durante la visita, gli studenti [[g8]] (osservare, futuro) l’edificio e prenderanno appunti. Dopo il ritorno, [[g9]] (scrivere, futuro) un breve resoconto e distingueranno ciò che hanno visto dalle informazioni lette. Chi non [[g10]] (partecipare, futuro) [[g11]] (potere, futuro) lavorare sulle immagini autorizzate e sui materiali ufficiali disponibili online. Il programma scolastico qui descritto è inventato.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "divideranno"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cercherà"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "preparerà"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "raccoglierà"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avrà"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "controlleranno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "userà"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "osserveranno"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "scriveranno"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "parteciperà"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "potrà"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Domani io (visitare) il museo. Usa il futuro. → [[g1]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "visiterò"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-152",
+  "title": "Dal disegno alla bottega (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · Dal disegno alla bottega (1) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1152
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Questa [[g1]] (essere, presente) una biografia immaginaria. La protagonista si [[g2]] (chiamare, presente) Miriam Riva e [[g3]] (costruire, presente) piccoli oggetti di legno. [[g4]] (nascere, passato prossimo) in una città di pianura, dove i suoi genitori avevano un negozio. Da bambina osservava le persone che lavoravano con le mani. Dopo la scuola [[g5]] (seguire, passato prossimo) un corso di disegno e [[g6]] (cercare, passato prossimo) un impiego in un laboratorio. [[g7]] (cominciare, passato prossimo) preparando scatole e cornici; poi [[g8]] (imparare, passato prossimo) a riparare mobili. Nel suo primo anno [[g9]] (fare, passato prossimo) molti errori, ma [[g10]] (chiedere, passato prossimo) consigli e [[g11]] (continuare, passato prossimo) a esercitarsi. Alcuni anni dopo [[g12]] (aprire, passato prossimo) una bottega con due colleghi. Oggi il gruppo progetta oggetti per biblioteche e scuole. Miriam dice che un buon prodotto deve essere utile, resistente e facile da riparare. Non vuole produrre grandi quantità: preferisce conoscere chi userà gli oggetti. La bottega organizza anche incontri per ragazzi. Durante gli incontri, Miriam mostra come nasce un progetto e spiega perché sceglie un materiale invece di un altro. Ha ricevuto inviti da diverse scuole e ha raccontato il suo percorso agli studenti. Adesso prepara un nuovo laboratorio dedicato agli oggetti che durano nel tempo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "chiama"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "costruisce"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "È nata"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha seguito"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha cercato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ha cominciato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha imparato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha fatto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha continuato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha aperto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-154",
+  "title": "Un materiale arrivato in ritardo (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Preposizioni nel racconto · Un materiale arrivato in ritardo (1) · livello medio.",
+  "topics": [
+   "Preposizioni nel racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Ripasso"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-preposizioni-ripasso",
+   "topicTitle": "Preposizioni nel racconto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1154
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data [[g4]] compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio [[g5]] corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. Mi sono accorto di un errore [[g6]] modulo: mancava il numero dell’edificio. Ho telefonato [[g7]] servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\n[[g8]] frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g9]] scuola e abbiamo spostato il lavoro più impegnativo [[g10]] pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto [[g11]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato [[g12]] negozio, che ha risposto subito. [[g13]] fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Sul"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ai"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Nel"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Alla"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Il corso comincia (a + le) nove. → [[g1]]\n2. La chiave è (in + lo) zaino. → [[g2]]\n3. Il programma è (su + la) porta. → [[g3]]\n4. Torniamo (da + il) museo. → [[g4]]\n5. Scrivo (a + gli) organizzatori. → [[g5]]\n6. I colori (di + le) fotografie sono vivaci. → [[g6]]\n7. Metto i libri (su + lo) scaffale. → [[g7]]\n8. Parliamo (di + i) risultati. → [[g8]]\n9. Aspetto (in + la) sala. → [[g9]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alle"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "nello"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "agli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "delle"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sullo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "dei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-155",
+  "title": "Un materiale arrivato in ritardo (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Preposizioni nel racconto · Un materiale arrivato in ritardo (2) · livello medio.",
+  "topics": [
+   "Preposizioni nel racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Ripasso"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco2-preposizioni-ripasso",
+   "topicTitle": "Preposizioni nel racconto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1155
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto [[g4]] conferma e ho comunicato [[g5]] data [[g6]] compagni. Giovedì, però, [[g7]] pacco non è arrivato. Ho controllato [[g8]] messaggio [[g9]] corriere: l’indirizzo era corretto, ma mancava [[g10]] numero dell’edificio. Mi sono accorto di [[g11]] errore [[g12]] modulo: mancava [[g13]] numero dell’edificio. Ho telefonato [[g14]] servizio clienti e ho spiegato [[g15]] problema. L’addetta ha corretto [[g16]] dati e ha confermato la consegna per [[g17]] giorno seguente.\n[[g18]] frattempo [[g19]] classe ha preparato [[g20]] soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g21]] scuola e abbiamo spostato [[g22]] lavoro più impegnativo [[g23]] pomeriggio di venerdì. Quando [[g24]] corriere è arrivato, due compagni hanno controllato [[g25]] contenuto [[g26]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Sul"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ai"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "i"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "Nel"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "della"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-157",
+  "title": "Il cortile della mia infanzia (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Passato prossimo e imperfetto · Il cortile della mia infanzia (1) · livello difficile.",
+  "topics": [
+   "Passato prossimo e imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-passati-contrasto",
+   "topicTitle": "Passato prossimo e imperfetto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1157
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando [[g1]] (essere, imperfetto) piccola, [[g2]] (abitare, imperfetto) in un edificio con un cortile grande. Non c’erano automobili nel cortile e noi bambini [[g3]] (avere, imperfetto) molto spazio. Ogni pomeriggio [[g4]] (scendere, imperfetto) dopo i compiti e [[g5]] (chiamare, imperfetto) gli amici dalle finestre. Mia nonna [[g6]] (sedere, imperfetto) su una panchina e [[g7]] (parlare, imperfetto) con i vicini. Alcune persone coltivavano piante in vecchi vasi; altre [[g8]] (riparare, imperfetto) oggetti davanti alle cantine. Io [[g9]] (portare, imperfetto) un quaderno e [[g10]] (disegnare, imperfetto) quello che [[g11]] (vedere, imperfetto). Mi [[g12]] (piacere, imperfetto) soprattutto le biciclette, perché ogni ruota [[g13]] (avere, imperfetto) forme difficili da riprodurre.\nD’estate [[g14]] (restare, imperfetto) fuori fino a tardi. Inventavamo giochi, dividevamo il cortile in piccoli territori e cambiavamo le regole quando arrivava qualcuno di nuovo. Se litigavamo, la nonna ci ascoltava e ci chiedeva di spiegare il problema. Non decideva subito chi aveva ragione. Una sera un vicino ha portato un vecchio proiettore e ha appeso un telo bianco. Abbiamo guardato fotografie del quartiere e abbiamo riconosciuto alcuni luoghi. Prima del nostro palazzo c’era un giardino: per me era una scoperta. Da quella sera ho cominciato a chiedere storie agli adulti. Oggi il cortile è cambiato, ma quando torno riconosco ancora la panchina. Mi ricorda un tempo in cui una piccola avventura poteva cominciare proprio sotto casa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ero"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abitavo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avevamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "scendevo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "chiamavo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sedeva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "parlava"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "riparavano"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "portavo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "disegnavo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "vedevo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "piacevano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "restavamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-159",
+  "title": "La mia prima presentazione pubblica",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · La mia prima presentazione pubblica · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1159
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara zia, ieri [[g1]] (presentare, passato prossimo) il progetto della classe davanti a un pubblico e voglio raccontarti come [[g2]] (andare, passato prossimo). All’inizio ero molto nervosa. Avevo preparato le immagini, ma temevo di dimenticare le parole. La mia compagna Ilaria mi [[g3]] (aiutare, passato prossimo) a provare: mi ascoltava senza interrompere e poi mi faceva una domanda. Questo mi [[g4]] (permettere, passato prossimo) di capire quali passaggi non erano chiari.\nQuando [[g5]] (arrivare, passato prossimo) nella sala, il tecnico stava controllando il proiettore. Gli [[g6]] (consegnare, passato prossimo) il file e lui ci [[g7]] (mostrare, passato prossimo) il piccolo comando per cambiare le immagini. Io l’[[g8]] (provare, passato prossimo) due volte, poi l’[[g9]] (lasciare, passato prossimo) sul tavolo. Il pubblico entrava lentamente e parlava a bassa voce. Mia madre era seduta in fondo; l’[[g10]] (salutare, passato prossimo) con la mano, ma non [[g11]] (andare, passato prossimo) da lei perché mancavano pochi minuti.\nIl presentatore [[g12]] (chiamare, passato prossimo) il nostro gruppo. [[g13]] (alzarsi, passato prossimo), [[g14]] (prendere, passato prossimo) gli appunti e [[g15]] (raggiungere, passato prossimo) Ilaria. La prima frase [[g16]] (uscire, passato prossimo) un po’ piano. Un’insegnante mi ha fatto un gesto gentile per invitarmi a parlare più forte. Ho respirato, ho guardato il pubblico e ho continuato. A metà della presentazione una fotografia non si è aperta. Ilaria mi ha guardata; io le ho detto di passare alla successiva e ho spiegato a parole quello che mancava. Il problema non ha rovinato il lavoro.\nAlla fine abbiamo ricevuto tre domande. Non conoscevamo una risposta e lo abbiamo detto chiaramente. Il nostro insegnante ci ha ringraziate per l’onestà. La prossima volta prepareremo anche una copia stampata delle immagini. Io proverò ancora a parlare senza leggere ogni frase. Non è stato perfetto, ma sono contenta di averlo fatto. Ti mostrerò le fotografie domenica. Un abbraccio, Alina.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho presentato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è andata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha aiutata"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ha permesso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "siamo arrivate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "abbiamo consegnato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha mostrato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ho provato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ho lasciato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho salutata"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sono andata"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha chiamato"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Mi sono alzata"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ho preso"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ho raggiunto"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "è uscita"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-161",
+  "title": "Il passato prossimo con essere e i participi irregolari (1)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con essere e i participi irregolari · Il passato prossimo con essere e i participi irregolari (1) · livello medio.",
+  "topics": [
+   "Il passato prossimo con essere e i participi irregolari",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 20,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1161
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. accendere → participio passato maschile singolare → [[g1]]\n2. aggiungere → participio passato maschile singolare → [[g2]]\n3. aprire → participio passato maschile singolare → [[g3]]\n4. bere → participio passato maschile singolare → [[g4]]\n5. chiedere → participio passato maschile singolare → [[g5]]\n6. chiudere → participio passato maschile singolare → [[g6]]\n7. decidere → participio passato maschile singolare → [[g7]]\n8. descrivere → participio passato maschile singolare → [[g8]]\n9. dire → participio passato maschile singolare → [[g9]]\n10. discutere → participio passato maschile singolare → [[g10]]\n11. dividere → participio passato maschile singolare → [[g11]]\n12. esprimere → participio passato maschile singolare → [[g12]]\n13. essere → participio passato maschile singolare → [[g13]]\n14. fare → participio passato maschile singolare → [[g14]]\n15. leggere → participio passato maschile singolare → [[g15]]\n16. muovere → participio passato maschile singolare → [[g16]]\n17. morire → participio passato maschile singolare → [[g17]]\n18. nascere → participio passato maschile singolare → [[g18]]\n19. vedere → participio passato maschile singolare → [[g19]]\n20. mettere → participio passato maschile singolare → [[g20]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "acceso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aggiunto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aperto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "bevuto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "chiesto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "chiuso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "deciso"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "descritto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "detto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "discusso"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "diviso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "espresso"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "stato"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "fatto"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "letto"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "mosso"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "morto"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "nato"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "visto"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "messo"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
+    "text": "1. accendere · io · passato prossimo → [[g1]]\n2. aggiungere · io · passato prossimo → [[g2]]\n3. aprire · io · passato prossimo → [[g3]]\n4. bere · io · passato prossimo → [[g4]]\n5. chiedere · io · passato prossimo → [[g5]]\n6. chiudere · io · passato prossimo → [[g6]]\n7. decidere · io · passato prossimo → [[g7]]\n8. descrivere · io · passato prossimo → [[g8]]\n9. dire · io · passato prossimo → [[g9]]\n10. discutere · io · passato prossimo → [[g10]]\n11. dividere · io · passato prossimo → [[g11]]\n12. esprimere · io · passato prossimo → [[g12]]\n13. essere · io · passato prossimo (maschile) → [[g13]]\n14. fare · io · passato prossimo → [[g14]]\n15. leggere · io · passato prossimo → [[g15]]\n16. muovere · io · passato prossimo → [[g16]]\n17. morire · io · passato prossimo (maschile) → [[g17]]\n18. nascere · io · passato prossimo (maschile) → [[g18]]\n19. vedere · io · passato prossimo → [[g19]]\n20. mettere · io · passato prossimo → [[g20]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho acceso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho aggiunto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho aperto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ho bevuto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ho chiesto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho chiuso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ho deciso"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ho descritto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ho detto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho discusso"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ho diviso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ho espresso"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "sono stato"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ho fatto"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "ho mosso"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "sono morto"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "sono nato"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "ho visto"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "ho messo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-163",
+  "title": "La scatola ritrovata (3)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · La scatola ritrovata (3) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1163
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ieri pomeriggio una classe [[g1]] (visitare, passato prossimo) il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline. Quando [[g2]] (arrivare, passato prossimo) nella sala, mancava proprio la scatola. La professoressa [[g3]] (chiedere, passato prossimo) a tutti di controllare le borse. Due ragazzi [[g4]] (tornare, passato prossimo) all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria [[g5]] (ricordare, passato prossimo) che un gruppo precedente usava una scatola simile. [[g6]] (telefonare, passato prossimo) al responsabile e gli [[g7]] (spiegare, passato prossimo) il problema. Il responsabile [[g8]] (guardare, passato prossimo) nel suo ufficio e [[g9]] (trovare, passato prossimo) due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra era quella della classe. Un collega [[g10]] (dire, passato prossimo): «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha visitato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sono arrivati"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sono tornati"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha ricordato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Ha telefonato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha guardato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha trovato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha detto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-164",
+  "title": "Una visita a Bologna",
+  "language": "it",
+  "level": "A2",
+  "description": "Bello e la posizione degli aggettivi · Una visita a Bologna · livello medio.",
+  "topics": [
+   "Bello e la posizione degli aggettivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+    "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-bello",
+   "topicTitle": "Bello e la posizione degli aggettivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1164
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Cara Bea, oggi ti scrivo [[g1]]. Ho [[g2]]: questa mattina ho visitato Salaborsa. È una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si vedono tracce della storia della città. È uno spazio interessante perché permette di osservare insieme un edificio attuale e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; [[g3]], invece, è un progetto immaginario per la classe. Noi arriviamo in treno, lasciamo le borse in albergo e raggiungiamo il centro a piedi. Due compagni cercano una guida della città; una compagna prepara domande per il gruppo. Dopo la visita facciamo una pausa in una piazza tranquilla. Io porto [[g4]] fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. [[g5]] rappresenta una grande finestra; [[g6]] preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto [[g7]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "da Bologna"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "una bella notizia"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "il nostro itinerario"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "una piccola macchina"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Il mio disegno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "i tuoi amici"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dal nostro gruppo"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Completa con bello: un __ quadro → [[g1]]\n2. Completa con bello: uno __ spettacolo (correggi anche l’articolo) → [[g2]]\n3. Completa con bello: dei __ disegni → [[g3]]\n4. Completa con bello: delle __ immagini → [[g4]]\n5. Completa con bello: dei __ zaini → [[g5]]\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bel"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "un bello spettacolo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "bei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "belle"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "begli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un bell’edificio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-165",
+  "title": "Tre letture per il nostro giornale",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · Tre letture per il nostro giornale · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1165
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao a tutti, [[g1]] (preparare, passato prossimo) tre proposte di lettura per il giornale della scuola. [[g2]] testi immaginari, creati per questa attività, quindi non cercateli in libreria. Il primo si intitola La chiave del cortile. Racconta di una ragazza che [[g3]] (trovare, presente) un quaderno e [[g4]] (cercare, presente) il suo proprietario. I capitoli [[g5]] brevi e ogni capitolo [[g6]] (aggiungere, presente) un indizio. Se [[g7]] (amare, presente) le storie di amicizia, [[g8]] (potere, presente) cominciare da questo libro. Io l’[[g9]] (leggere, passato prossimo) in pochi giorni e [[g10]] (avere, presente) apprezzato soprattutto i dialoghi.\nIl secondo titolo [[g11]] Cento oggetti, cento storie. Ogni pagina [[g12]] (presentare, presente) un oggetto quotidiano e immagina il viaggio che [[g13]] (fare, passato prossimo) prima di arrivare in una casa. Le illustrazioni [[g14]] importanti: non [[g15]] (decorare, presente) soltanto il testo, ma [[g16]] (aggiungere, presente) informazioni. Le ho guardate a lungo e ho trovato nuovi dettagli.\nIl terzo testo è una breve commedia, Il microfono spento. Un gruppo prepara una trasmissione radio e deve risolvere molti piccoli problemi. Potete leggerla insieme e dividere le parti. Non serve un teatro: basta una stanza e un po’ di fantasia. Ho scelto queste proposte perché offrono modi diversi di leggere. Se ne inventate altre, scrivete un titolo, una descrizione e due motivi per consigliarle. Pubblicheremo le idee nel prossimo numero.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho preparato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Sono"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "trova"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "cerca"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aggiunge"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "amate"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "potete"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "presenta"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "ha fatto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "decorano"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "aggiungono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-166",
+  "title": "Informazioni al centro culturale",
+  "language": "it",
+  "level": "A2",
+  "description": "Venire, sapere e i verbi modali · Informazioni al centro culturale · livello medio.",
+  "topics": [
+   "Venire, sapere e i verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "Venire, sapere e i verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1166
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Visitatore: Buongiorno, scusi, avrei bisogno di alcune informazioni sul corso di fotografia.\nAddetta: Mi dica. [[g1]] (cercare, presente) il corso del sabato o quello serale?\nVisitatore: Quello serale. Lavoro fino alle cinque e [[g2]] arrivare qui alle sei.\nAddetta: Allora [[g3]] (andare, presente) bene. Le lezioni [[g4]] (cominciare, presente) alle diciotto e trenta.\nVisitatore: Quanto dura il corso?\nAddetta: Quattro settimane, con due incontri alla settimana. Ogni incontro dura un’ora e mezza.\nVisitatore: [[g5]] (dovere, presente) portare una macchina fotografica?\nAddetta: [[g6]] usare anche il telefono. Guardi, nel programma [[g7]] (trovare, presente) tutte le informazioni.\nVisitatore: Grazie. E dove si svolgono le lezioni?\nAddetta: Nella sala al primo piano. Per favore, salga dalle scale a sinistra oppure prenda l’ascensore.\nVisitatore: [[g8]] iscrivermi adesso?\nAddetta: Certo. Compili questo modulo e lo [[g9]] (consegnare, presente) alla reception. Non si preoccupi se non [[g10]] (conoscere, presente) ancora tutti i termini: il corso è per principianti.\nVisitatore: Bene, allora leggo il programma e torno fra poco.\nAddetta: Va bene. Siamo qui fino alle sette. Arrivederci!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Cerca"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "posso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "va"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "cominciano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Devo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Può"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "trova"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Posso"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "consegni"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "conosce"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-169",
+  "title": "Il passato prossimo con essere e i participi irregolari (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con essere e i participi irregolari · Il passato prossimo con essere e i participi irregolari (2) · livello medio.",
+  "topics": [
+   "Il passato prossimo con essere e i participi irregolari",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 20,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1169
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. perdere → participio passato maschile singolare → [[g1]]\n2. permettere → participio passato maschile singolare → [[g2]]\n3. piangere → participio passato maschile singolare → [[g3]]\n4. prendere → participio passato maschile singolare → [[g4]]\n5. rendere → participio passato maschile singolare → [[g5]]\n6. ridere → participio passato maschile singolare → [[g6]]\n7. rimanere → participio passato maschile singolare → [[g7]]\n8. rispondere → participio passato maschile singolare → [[g8]]\n9. rompere → participio passato maschile singolare → [[g9]]\n10. scegliere → participio passato maschile singolare → [[g10]]\n11. scendere → participio passato maschile singolare → [[g11]]\n12. scoprire → participio passato maschile singolare → [[g12]]\n13. scrivere → participio passato maschile singolare → [[g13]]\n14. smettere → participio passato maschile singolare → [[g14]]\n15. spegnere → participio passato maschile singolare → [[g15]]\n16. spendere → participio passato maschile singolare → [[g16]]\n17. vedere → participio passato maschile singolare → [[g17]]\n18. venire → participio passato maschile singolare → [[g18]]\n19. vivere → participio passato maschile singolare → [[g19]]\n20. tradurre → participio passato maschile singolare → [[g20]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "perso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "permesso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "pianto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "preso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "reso"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "riso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "rimasto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "risposto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "rotto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "scelto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sceso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "scoperto"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "scritto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "smesso"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "spento"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "speso"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "visto"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "venuto"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "vissuto"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "tradotto"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
+    "text": "1. perdere · io · passato prossimo → [[g1]]\n2. permettere · io · passato prossimo → [[g2]]\n3. piangere · io · passato prossimo → [[g3]]\n4. prendere · io · passato prossimo → [[g4]]\n5. rendere · io · passato prossimo → [[g5]]\n6. ridere · io · passato prossimo → [[g6]]\n7. rimanere · io · passato prossimo (maschile) → [[g7]]\n8. rispondere · io · passato prossimo → [[g8]]\n9. rompere · io · passato prossimo → [[g9]]\n10. scegliere · io · passato prossimo → [[g10]]\n11. scendere · io · passato prossimo (maschile, movimento intransitivo) → [[g11]]\n12. scoprire · io · passato prossimo → [[g12]]\n13. scrivere · io · passato prossimo → [[g13]]\n14. smettere · io · passato prossimo → [[g14]]\n15. spegnere · io · passato prossimo → [[g15]]\n16. spendere · io · passato prossimo → [[g16]]\n17. vedere · io · passato prossimo → [[g17]]\n18. venire · io · passato prossimo (maschile) → [[g18]]\n19. vivere · io · passato prossimo → [[g19]]\n20. tradurre · io · passato prossimo → [[g20]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho perso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho permesso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho pianto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ho preso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ho reso"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho riso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono rimasto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ho risposto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ho rotto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ho scelto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sono sceso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ho scoperto"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "ho scritto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ho smesso"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ho spento"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "ho speso"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "ho visto"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "sono venuto"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "ho vissuto"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "ho tradotto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-171",
+  "title": "La cortesia e l’imperativo formale",
+  "language": "it",
+  "level": "A2",
+  "description": "La cortesia e l’imperativo formale · La cortesia e l’imperativo formale · livello medio.",
+  "topics": [
+   "La cortesia e l’imperativo formale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "2 · Vita online",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-cortesia",
+   "topicTitle": "La cortesia e l’imperativo formale",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1171
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+    "text": "1. Scusa → [[g1]]\n2. Dimmi → [[g2]]\n3. Dammi → [[g3]]\n4. Senti → [[g4]]\n5. Guarda → [[g5]]\n6. Vieni → [[g6]]\n7. Entra → [[g7]]\n8. Aspetta → [[g8]]\n9. Leggi → [[g9]]\n10. Scrivi → [[g10]]\n11. Prendi → [[g11]]\n12. Scegli → [[g12]]\n13. Apri → [[g13]]\n14. Chiudi → [[g14]]\n15. Fa’ attenzione → [[g15]]\n16. Sii paziente → [[g16]]\n17. Abbi pazienza → [[g17]]\n18. Accomodati → [[g18]]\n19. Siediti → [[g19]]\n20. Non preoccuparti → [[g20]]\n21. Non correre → [[g21]]\n22. Non parlare → [[g22]]\n23. Lasciami un messaggio → [[g23]]\n24. Telefonami → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Scusi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Mi dica"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Mi dia"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Senta"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Guardi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Venga"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Entri"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Aspetti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Legga"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Scriva"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Prenda"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Scelga"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Apra"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Chiuda"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "Faccia attenzione"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "Sia paziente"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "Abbia pazienza"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "Si accomodi"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "Si sieda"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "Non si preoccupi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "Non corra"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "Non parli"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "Mi lasci un messaggio"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "Mi telefoni"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-172",
+  "title": "Una settimana tra paesi e biciclette",
+  "language": "it",
+  "level": "A2",
+  "description": "Passato prossimo e imperfetto · Una settimana tra paesi e biciclette · livello difficile.",
+  "topics": [
+   "Passato prossimo e imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-passati-contrasto",
+   "topicTitle": "Passato prossimo e imperfetto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1172
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara Ada, [[g1]] (tornare, passato prossimo) dal viaggio e ho ancora la testa piena di immagini. Per una settimana [[g2]] (attraversare, passato prossimo) piccoli paesi con un gruppo di ciclisti principianti. Non [[g3]] una corsa: il programma prevedeva tappe brevi e molte soste. [[g4]] in dieci, con due accompagnatori che [[g5]] (conoscere, imperfetto) bene il percorso. Ogni mattina [[g6]] (controllare, imperfetto) le biciclette, [[g7]] (riempire, imperfetto) le borracce e [[g8]] (leggere, imperfetto) insieme la mappa. [[g9]] (partire, imperfetto) verso le nove e [[g10]] (seguire, imperfetto) strade tranquille. Quando qualcuno [[g11]] stanco, ci [[g12]] (fermare, imperfetto) senza fretta.\nIl primo giorno [[g13]] (avere, imperfetto) paura di non riuscire a tenere il ritmo. Gli altri mi [[g14]] (aspettare, imperfetto) e mi [[g15]] (dare, imperfetto) consigli semplici. Dopo due giorni mi [[g16]] (sentire, imperfetto) più sicura. A mezzogiorno compravamo pane e frutta; poi cercavamo un posto all’ombra. Nel pomeriggio visitavamo un paese oppure parlavamo con chi lavorava nelle botteghe. Dormivamo in piccole strutture diverse, ma non cambiavamo alloggio ogni notte. In un paese siamo rimasti due giorni per partecipare a un laboratorio.\nUna mattina è arrivata la pioggia. Abbiamo lasciato le biciclette al coperto e abbiamo preso un autobus. Nessuno si è lamentato: la pausa ci ha permesso di visitare un museo. L’ultimo giorno abbiamo percorso un tratto vicino al fiume e abbiamo scattato una fotografia tutti insieme. Non sono diventata un’atleta, ma ho scoperto un modo di viaggiare che mi piace. Il prossimo anno vorrei tornare con te. Prima, però, faremo qualche giro vicino a casa. Domenica porto le foto: ti va di incontrarci? Un abbraccio, Nina.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sono tornata"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho attraversato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Eravamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "conoscevano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "controllavamo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "riempivamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "leggevamo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Partivamo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "seguivamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "fermavamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "avevo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "aspettavano"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "davano"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "sentivo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-174",
+  "title": "Insalata di couscous per quattro",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo (tu, voi) e la negazione · Insalata di couscous per quattro · livello medio.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1174
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ingredienti: 250 grammi di couscous precotto, acqua nella quantità indicata sulla confezione, due pomodori, un cetriolo, una carota, ceci già cotti, olio, succo di limone e qualche foglia di basilico.\n[[g1]] (leggere) prima le istruzioni sulla confezione del couscous e [[g2]] (seguire) le quantità e i tempi indicati. [[g3]] (versare) il couscous in una ciotola capiente. [[g4]] (aggiungere) l’acqua preparata come indicato e [[g5]] (coprire) la ciotola. [[g6]] (aspettare) il tempo necessario, poi [[g7]] (separare) i granelli con una forchetta. [[g8]] (lavare) le verdure e [[g9]] (asciugare + le). [[g10]] (tagliare) i pomodori a piccoli pezzi e [[g11]] (mettere + li) in un piatto. [[g12]] (pelare) il cetriolo se lo preferite senza buccia, [[g13]] (dividere + lo) in due e [[g14]] (tagliare + lo) a cubetti. [[g15]] (grattugiare) la carota. [[g16]] (scolare) i ceci e [[g17]] (aggiungere + li) al couscous. [[g18]] (unire) le verdure e [[g19]] (mescolare) delicatamente. [[g20]] (versare) poco olio, [[g21]] (aggiungere) il succo di limone secondo il vostro gusto e [[g22]] (controllare) il sapore. Lavate il basilico, spezzettatelo con le mani e distribuitelo sopra l’insalata. Dividete il piatto in quattro porzioni e servitelo. Per il laboratorio scolastico, preparate gli ingredienti con l’insegnante e usate gli utensili secondo le indicazioni ricevute. Questa ricetta è stata scritta per l’attività linguistica.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Leggete"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "seguite"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Versate"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Aggiungete"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "coprite"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Aspettate"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "separate"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Lavate"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "asciugatele"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Tagliate"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "metteteli"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Pelate"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "dividetelo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "tagliatelo"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "Grattugiate"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "Scolate"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "aggiungeteli"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "Unite"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "mescolate"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "Versate"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "aggiungete"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "controllate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-177",
+  "title": "La scatola ritrovata",
+  "language": "it",
+  "level": "A2",
+  "description": "Passato prossimo e imperfetto · La scatola ritrovata · livello difficile.",
+  "topics": [
+   "Passato prossimo e imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-passati-contrasto",
+   "topicTitle": "Passato prossimo e imperfetto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1177
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ieri pomeriggio una classe [[g1]] (visitare, passato prossimo) il centro culturale per preparare una mostra. Gli studenti [[g2]] (portare, imperfetto) fotografie, disegni e una scatola di vecchie cartoline. Quando [[g3]] (arrivare, passato prossimo) nella sala, [[g4]] (mancare, imperfetto) proprio la scatola. La professoressa [[g5]] (chiedere, passato prossimo) a tutti di controllare le borse. Due ragazzi [[g6]] (tornare, passato prossimo) all’ingresso, mentre gli altri [[g7]] (cercare, imperfetto) vicino ai tavoli. Una volontaria [[g8]] (ricordare, passato prossimo) che un gruppo precedente [[g9]] (usare, imperfetto) una scatola simile. [[g10]] (telefonare, passato prossimo) al responsabile e gli [[g11]] (spiegare, passato prossimo) il problema. Il responsabile [[g12]] (guardare, passato prossimo) nel suo ufficio e [[g13]] (trovare, passato prossimo) due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra [[g14]] (essere, imperfetto) quella della classe. Un collega ha detto: «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha visitato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "portavano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono arrivati"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mancava"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono tornati"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "cercavano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha ricordato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "usava"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Ha telefonato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha guardato"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "ha trovato"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "era"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-178",
+  "title": "Il cortile della mia infanzia (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Passato prossimo e imperfetto · Il cortile della mia infanzia (2) · livello difficile.",
+  "topics": [
+   "Passato prossimo e imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-passati-contrasto",
+   "topicTitle": "Passato prossimo e imperfetto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1178
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando [[g1]] (essere, imperfetto) piccola, [[g2]] (abitare, imperfetto) in un edificio con un cortile grande. Non c’erano automobili nel cortile e noi bambini [[g3]] (avere, imperfetto) molto spazio. Ogni pomeriggio [[g4]] (scendere, imperfetto) dopo i compiti e [[g5]] (chiamare, imperfetto) gli amici dalle finestre. Mia nonna [[g6]] (sedere, imperfetto) su una panchina e [[g7]] (parlare, imperfetto) con i vicini. Alcune persone coltivavano piante in vecchi vasi; altre [[g8]] (riparare, imperfetto) oggetti davanti alle cantine. Io [[g9]] (portare, imperfetto) un quaderno e [[g10]] (disegnare, imperfetto) quello che [[g11]] (vedere, imperfetto). Mi [[g12]] (piacere, imperfetto) soprattutto le biciclette, perché ogni ruota [[g13]] (avere, imperfetto) forme difficili da riprodurre.\nD’estate [[g14]] (restare, imperfetto) fuori fino a tardi. Inventavamo giochi, [[g15]] (dividere, imperfetto) il cortile in piccoli territori e [[g16]] (cambiare, imperfetto) le regole quando arrivava qualcuno di nuovo. Se litigavamo, la nonna ci ascoltava e ci chiedeva di spiegare il problema. Non decideva subito chi aveva ragione. Una sera un vicino ha portato un vecchio proiettore e ha appeso un telo bianco. Abbiamo guardato fotografie del quartiere e abbiamo riconosciuto alcuni luoghi. Prima del nostro palazzo c’era un giardino: per me era una scoperta. Da quella sera ho cominciato a chiedere storie agli adulti. Oggi il cortile è cambiato, ma quando torno riconosco ancora la panchina. Mi ricorda un tempo in cui una piccola avventura poteva cominciare proprio sotto casa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ero"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abitavo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avevamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "scendevo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "chiamavo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sedeva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "parlava"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "riparavano"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "portavo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "disegnavo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "vedevo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "piacevano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "restavamo"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "dividevamo"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "cambiavamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-181",
+  "title": "Imparare un mestiere creativo",
+  "language": "it",
+  "level": "A2",
+  "description": "Gli aggettivi e la loro posizione · Imparare un mestiere creativo · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1181
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel [[g1]] centro [[g2]] un laboratorio insegna a costruire [[g3]] oggetti di carta. Il percorso non offre un titolo [[g4]]: permette di conoscere materiali e tecniche di base. L’iscrizione comprende quattro incontri, una [[g5]] raccolta di istruzioni e il materiale [[g6]] per gli esercizi. La preparazione comincia con l’osservazione di oggetti [[g7]]. Gli studenti confrontano forme [[g8]] e discutono la funzione di ogni parte. Poi passano al disegno e alla costruzione.\nGli insegnanti spiegano lentamente i passaggi più [[g9]] e mostrano concretamente come controllare le misure. La precisione è [[g10]], ma non si cerca la perfezione al [[g11]] tentativo. Un errore può suggerire una soluzione [[g12]]. Le attività [[g13]] si alternano a momenti di riflessione. Ogni partecipante descrive il procedimento e ascolta i commenti del gruppo. La collaborazione aiuta soprattutto quando un progetto richiede più mani.\nAlla fine si prepara una [[g14]] esposizione. I cartelli presentano chiaramente i materiali, la durata del lavoro e le difficoltà incontrate. Le persone interessate possono fare domande direttamente agli autori. La valutazione riguarda la comprensione dei passaggi, la cura degli strumenti e la capacità di spiegare le scelte. Non basta avere un oggetto [[g15]]: conta anche sapere come è stato realizzato. Chi desidera continuare riceve indicazioni per esercitarsi autonomamente con materiali [[g16]]. Il laboratorio invita a usare le risorse responsabilmente e a conservare gli scarti che possono servire per altri progetti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nostro"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "immaginario"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "semplici"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "professionale"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "necessario"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "comuni"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "diverse"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "difficili"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "importante"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "primo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "nuova"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "pratiche"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "bello"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "economici"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Le attività sono (pratico). → [[g1]]\n2. I materiali sono (economico). → [[g2]]\n3. La spiegazione è (chiaro). → [[g3]]\n4. Gli oggetti sono (utile). → [[g4]]\n5. Le istruzioni sono (semplice). → [[g5]]\n6. Il risultato è (interessante). → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "pratiche"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "economici"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "chiara"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "utili"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "semplici"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "interessante"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-183",
+  "title": "Il quartiere tra un mese (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Il quartiere tra un mese (2) · livello medio.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1183
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il prossimo mese il nostro quartiere [[g1]] (ospitare, futuro) una giornata di scambio di competenze. L’iniziativa qui descritta [[g2]] (essere, presente) immaginaria. Gli abitanti [[g3]] (potere, futuro) insegnare qualcosa che [[g4]] (sapere, presente) fare: cucire un bottone, riparare una ruota, raccontare una storia o disegnare una mappa. Il centro culturale [[g5]] (aprire, futuro) le sale alle nove. I volontari [[g6]] (preparare, futuro) i tavoli e [[g7]] (distribuire, futuro) il programma. Ogni partecipante [[g8]] (scegliere, futuro) due attività e [[g9]] (ricevere, futuro) una scheda per gli appunti. Non ci [[g10]] (essere, futuro) una classifica. Le persone [[g11]] (lavorare, futuro) in piccoli gruppi e cambieranno stanza dopo un’ora.\nLa mattina una sarta [[g12]] (mostrare, futuro) alcune riparazioni semplici; due studenti [[g13]] (spiegare, futuro) come registrare un’intervista. Nel cortile un gruppo [[g14]] (costruire, futuro) cassette per le piante. Chi [[g15]] (preferire, futuro) leggere [[g16]] (trovare, futuro) uno spazio tranquillo con racconti brevi. A mezzogiorno tutti [[g17]] (fare, futuro) una pausa. Nel pomeriggio i gruppi [[g18]] (presentare, futuro) quello che hanno imparato. Gli organizzatori raccoglieranno le proposte e pubblicheranno un resoconto senza dati personali. Io parteciperò al laboratorio di mappe; mia sorella porterà vecchie stoffe e mio padre aiuterà a sistemare le sedie. Se pioverà, useremo soltanto gli spazi interni. Alla fine avremo nuove idee e forse conosceremo meglio i nostri vicini.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ospiterà"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "potranno"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sanno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aprirà"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "prepareranno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "distribuiranno"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sceglierà"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "riceverà"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sarà"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "lavoreranno"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "mostrerà"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "spiegheranno"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "costruirà"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "preferirà"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "troverà"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "faranno"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "presenteranno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-186",
+  "title": "Il messaggio della responsabile",
+  "language": "it",
+  "level": "A2",
+  "description": "L’imperativo (tu, voi) e la negazione · Il messaggio della responsabile · livello medio.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1186
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Ciao Rocco, [[g1]] (uscire, passato prossimo) prima del previsto perché mi [[g2]] (chiamare, passato prossimo) dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] (prendere + li) e [[g4]] (mettere + li) vicino alla parete, ma [[g5]] (non appendere + li) ancora. La colla è nell’armadio; [[g6]] (usare + la) soltanto sui fogli di prova. [[g7]] (comprare, passato prossimo) nuove forbici: le trovi nella scatola blu. [[g8]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g9]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. [[g10]] (telefonare, passato prossimo) a suo padre e gli [[g11]] (spiegare, passato prossimo) l’orario.\nPer favore, [[g12]] (preparare) i tavoli e [[g13]] (lasciare) libero il passaggio. [[g14]] (non spostare) la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sono uscita"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "hanno chiamata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "prendili"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mettili"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "non appenderli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "usala"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ho comprato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Controllale"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dille"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Ho già telefonato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ho spiegato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "prepara"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "lascia"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Non spostare"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-190",
+  "title": "Uno spazio anche per noi",
+  "language": "it",
+  "level": "A2",
+  "description": "Molto, poco, tanto, troppo · Uno spazio anche per noi · livello medio.",
+  "topics": [
+   "Molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Molto, poco, tanto, troppo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1190
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Siamo [[g1]] di studenti e vorremmo migliorare il cortile della scuola. Non chiediamo [[g2]]: ci basta un luogo dove incontrarci, leggere e parlare senza disturbare chi studia. Adesso ci sono soltanto [[g3]] e [[g4]] restano in piedi. [[g5]] hanno proposto nuovi tavoli; altri preferiscono [[g6]]. Noi vogliamo ascoltare [[g7]] prima di scegliere.\nLa rappresentante ci ha chiesto di preparare una proposta concreta. Le abbiamo mostrato una mappa e lei ci ha suggerito di indicare i passaggi che devono rimanere liberi. Un insegnante si è offerto di aiutarci a raccogliere le idee. Gli abbiamo spiegato che non vogliamo organizzare [[g8]] da soli: desideriamo coinvolgere anche le altre classi. Per questo vi invitiamo a lasciare un commento nella scatola vicino alla biblioteca. Scriveteci che cosa usate già, che cosa manca e quale piccolo cambiamento considerate più utile.\n[[g9]] saranno lette. Non possiamo promettere che tutto verrà realizzato, perché servono tempo, spazio e risorse. Possiamo però discutere in modo chiaro e rispettoso. Se una proposta non è possibile, cercheremo un’alternativa. Il nostro obiettivo è un cortile [[g10]] per tutti, non un luogo riservato a [[g11]]. Ci incontriamo venerdì dopo le lezioni: portate [[g12]] e ascoltate quelle degli altri.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "un gruppo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "uno spazio enorme"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "poche panchine"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "molte persone"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Alcuni compagni"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "più piante"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "tutti"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "tutto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Tutte le proposte"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "più accogliente"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "pochi amici"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "le vostre idee"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. Completa con tutto: __ le classi possono partecipare. → [[g1]]\n2. Completa con tanto: Abbiamo __ idee. → [[g2]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Tutte"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "tante"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-191",
+  "title": "Un nuovo equilibrio (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Un nuovo equilibrio (2) · livello difficile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1191
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Caro Leo, ho deciso che [[g1]] (volere, presente) organizzare meglio il mio tempo. In queste settimane studio molto e passo troppo tempo davanti allo schermo. Nelle mie giornate [[g2]] (mancare, presente) una pausa vera. Quando [[g3]] (finire, presente) i compiti, [[g4]] (controllare, presente) i messaggi e [[g5]] (cominciare, presente) subito un’altra attività. La sera [[g6]] (essere, presente) stanca, ma [[g7]] (avere, presente) la sensazione di non aver fatto quello che mi [[g8]] (piacere, presente).\nDa lunedì cambierò alcune abitudini. Prima [[g9]] (preparare, futuro) una lista breve e [[g10]] (scegliere, futuro) le attività più importanti. Non [[g11]] (riempire, futuro) ogni minuto. Due pomeriggi alla settimana [[g12]] (uscire, futuro) per una passeggiata e [[g13]] (lasciare, futuro) il telefono nello zaino. Riprenderò anche il mio quaderno di disegni. I miei amici mi [[g14]] (invitare, presente) spesso, però [[g15]] (rispondere, presente) che non [[g16]] (avere, presente) tempo; d’ora in poi [[g17]] (accettare, futuro) qualche invito e [[g18]] (proporre, futuro) incontri semplici. Non [[g19]] (servire, presente) organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante i miei spostamenti [[g20]] (leggere, futuro) qualcosa, se [[g21]] (avere, futuro) voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana [[g22]] (controllare, futuro) il programma della settimana successiva e [[g23]] (lasciare, futuro) spazio agli imprevisti. [[g24]] (sapere, presente) che non riuscirò a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. Il mio obiettivo non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi le tue pause? Mi interessa conoscere le tue idee. Scrivimi quando hai un momento. A presto, Eva.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "manca"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "finisco"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "controllo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "comincio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "preparerò"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sceglierò"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "riempirò"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "uscirò"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "lascerò"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "invitano"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "rispondo"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "accetterò"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "proporrò"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "serve"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "leggerò"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "avrò"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "controllerò"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "lascerò"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "So"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Scegli: e oppure che?",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wähle: e oder che?",
+    "text": "1. Ho deciso __ voglio cambiare ritmo. → [[g1]]\n2. Studio __ preparo i materiali. → [[g2]]\n3. So __ la pausa è utile. → [[g3]]\n4. Esco __ incontro gli amici. → [[g4]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "e"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "e"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-192",
+  "title": "Dal disegno alla bottega (2)",
+  "language": "it",
+  "level": "A2",
+  "description": "Il passato prossimo con avere · Dal disegno alla bottega (2) · livello medio.",
+  "topics": [
+   "Il passato prossimo con avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It8 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Il passato prossimo con avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1192
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Questa [[g1]] (essere, presente) una biografia immaginaria. La protagonista si [[g2]] (chiamare, presente) Miriam Riva e [[g3]] (costruire, presente) piccoli oggetti di legno. [[g4]] (nascere, passato prossimo) in una città di pianura, dove i suoi genitori avevano un negozio. Da bambina osservava le persone che lavoravano con le mani. Dopo la scuola [[g5]] (seguire, passato prossimo) un corso di disegno e [[g6]] (cercare, passato prossimo) un impiego in un laboratorio. [[g7]] (cominciare, passato prossimo) preparando scatole e cornici; poi [[g8]] (imparare, passato prossimo) a riparare mobili. Nel suo primo anno [[g9]] (fare, passato prossimo) molti errori, ma [[g10]] (chiedere, passato prossimo) consigli e [[g11]] (continuare, passato prossimo) a esercitarsi. Alcuni anni dopo [[g12]] (aprire, passato prossimo) una bottega con due colleghi. Oggi il gruppo [[g13]] (progettare, presente) oggetti per biblioteche e scuole. Miriam [[g14]] (dire, presente) che un buon prodotto deve essere utile, resistente e facile da riparare. Non vuole produrre grandi quantità: preferisce conoscere chi userà gli oggetti. La bottega organizza anche incontri per ragazzi. Durante gli incontri, Miriam mostra come nasce un progetto e spiega perché sceglie un materiale invece di un altro. Ha ricevuto inviti da diverse scuole e ha raccontato il suo percorso agli studenti. Adesso prepara un nuovo laboratorio dedicato agli oggetti che durano nel tempo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "chiama"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "costruisce"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "È nata"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha seguito"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha cercato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ha cominciato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha imparato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha fatto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha continuato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha aperto"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "progetta"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "dice"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-197",
+  "title": "Un nuovo equilibrio",
+  "language": "it",
+  "level": "A2",
+  "description": "Possessivi, tempo e quantità nel testo · Un nuovo equilibrio · livello medio.",
+  "topics": [
+   "Possessivi, tempo e quantità nel testo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Ripasso"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-possessivi-tempo",
+   "topicTitle": "Possessivi, tempo e quantità nel testo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 1197
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Caro Leo, ho deciso che voglio organizzare meglio [[g1]]. In queste settimane studio molto e passo troppo tempo davanti allo schermo. [[g2]] manca una pausa vera. Quando finisco i compiti, controllo i messaggi e comincio subito un’altra attività. La sera sono stanca, ma ho la sensazione di non aver fatto quello che mi piace.\nDa lunedì cambierò alcune abitudini. Prima preparerò una lista breve e sceglierò le attività più importanti. Non riempirò ogni minuto. Due pomeriggi alla settimana uscirò per una passeggiata e lascerò il telefono nello zaino. Riprenderò anche [[g3]] di disegni. [[g4]] mi invitano spesso, però rispondo che non ho tempo; d’ora in poi accetterò qualche invito e proporrò incontri semplici. Non serve organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante [[g5]] leggerò qualcosa, se avrò voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana controllerò il programma della settimana successiva e lascerò spazio agli imprevisti. So che non riuscirò a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. [[g6]] non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi [[g7]]? Mi interessa conoscere [[g8]]. Scrivimi quando hai un momento. A presto, Eva.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il mio tempo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Nelle mie giornate"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "il mio quaderno"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I miei amici"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "i miei spostamenti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Il mio obiettivo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le tue pause"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "le tue idee"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Usa la stessa struttura in frasi nuove.",
+    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+    "text": "1. La penna appartiene a me: è __ penna. (articolo + possessivo) → [[g1]]\n2. Vado nella stanza che appartiene a noi: vado __ stanza. (preposizione articolata + possessivo) → [[g2]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "la mia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "nella nostra"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-202-199",
+  "title": "Le scelte dopo la scuola",
+  "language": "it",
+  "level": "A2",
+  "description": "Passato prossimo e imperfetto · Le scelte dopo la scuola · livello difficile.",
+  "topics": [
+   "Passato prossimo e imperfetto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "1 · Ricordi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-passati-contrasto",
+   "topicTitle": "Passato prossimo e imperfetto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 1199
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Cara Mara, scusa se rispondo soltanto adesso. L’ultimo mese [[g1]] (essere, passato prossimo) impegnativo, perché nella nostra famiglia [[g2]] (parlare, passato prossimo) molto delle scelte per il prossimo anno. Mio fratello Luca [[g3]] (finire, passato prossimo) la scuola e non [[g4]] (sapere, imperfetto) se continuare a studiare oppure cercare un lavoro. Gli [[g5]] (piacere, imperfetto) le attività pratiche, ma [[g6]] (avere, imperfetto) paura di scegliere troppo in fretta. Un nostro vicino gli [[g7]] (proporre, passato prossimo) di visitare il suo laboratorio. Luca [[g8]] (andare, passato prossimo) con lui per due pomeriggi e [[g9]] (osservare, passato prossimo) il lavoro senza dover prendere una decisione immediata.\nNel frattempo mia sorella [[g10]] (cercare, imperfetto) un corso diverso da quello che [[g11]] (frequentare, imperfetto). Le lezioni [[g12]] (essere, imperfetto) interessanti, però l’orario non le [[g13]] (permettere, imperfetto) di partecipare alle prove del gruppo musicale. [[g14]] (pensare, imperfetto) di rinunciare alla musica, e questa idea la rendeva triste. Abbiamo controllato insieme altri programmi e abbiamo trovato un corso con incontri al mattino. Lei ha parlato con l’insegnante e si è iscritta.\nAnch’io dovevo organizzare meglio le mie attività. Avevo accettato troppi compiti per il giornale della scuola e lavoravo quasi ogni sera. Alla fine ho chiesto aiuto a due compagni. Abbiamo diviso gli articoli e abbiamo stabilito scadenze più chiare. Adesso il lavoro procede con meno ansia.\nNon abbiamo trovato una risposta perfetta per ogni problema. Luca sta ancora valutando le possibilità e forse cambierà idea. Però in casa è tornata un po’ di calma. Abbiamo capito che ascoltare una persona è più utile che scegliere al suo posto. La prossima settimana ci prenderemo una giornata libera e faremo una passeggiata insieme. Spero di vederti presto e di ascoltare anche le tue novità. Un caro saluto, Arianna.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è stato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abbiamo parlato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha finito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sapeva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piacevano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "è andato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha osservato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cercava"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "frequentava"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "permetteva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "Pensava"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-003",
+  "title": "Il giardino dietro la mensa",
+  "language": "it",
+  "level": "B1",
+  "description": "Raccontare esperienze interculturali · Il giardino dietro la mensa · livello medio.",
+  "topics": [
+   "Raccontare esperienze interculturali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+  },
+  "estimatedMinutes": 21,
+  "grammar": {
+   "topic": "ecco3-narrazione",
+   "topicTitle": "Raccontare esperienze interculturali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3003
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Dietro la mensa scolastica [[g1]] (esserci) uno spazio che nessuno usava. L’erba [[g2]] (crescere) fra le pietre e il cancello [[g3]] (rimanere) quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in un giardino, ma il progetto era rimasto in un cassetto. Quando la nuova preside lo [[g4]] (leggere), [[g5]] (invitare) gli autori a discuterne.\nLa prima riunione non [[g6]] (essere) semplice. Un gruppo [[g7]] (volere) piantare fiori, un altro [[g8]] (preferire) gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato un problema con l’acqua. Prima di comprare qualcosa, [[g9]] (misurare, noi) lo spazio e [[g10]] (osservare, noi) dove arrivava il sole.\nIl sabato successivo [[g11]] (venire, femminile plurale) anche alcune famiglie. Una madre aveva portato guanti di varie misure, mentre un vicino aveva preparato due cassette di legno. Noi [[g12]] (lavorare) a piccoli gruppi. Chi non [[g13]] (conoscere) gli attrezzi chiedeva aiuto, e nessuno [[g14]] (avere) fretta di finire.\nA giugno il giardino non [[g15]] (essere) perfetto. Alcune piante [[g16]] (crescere), altre no. [[g17]] (capire, noi) che una fotografia del primo giorno non racconta tutto il lavoro necessario dopo. Perciò [[g18]] (organizzare, noi) i turni estivi e [[g19]] (lasciare, noi) un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. Il giardino ci insegna soprattutto a tornare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "c’era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cresceva"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "rimaneva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ha letto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha invitato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "è stata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "preferiva"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "abbiamo misurato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "abbiamo osservato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sono venute"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "lavoravamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "conosceva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "sono cresciute"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "Abbiamo capito"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "abbiamo organizzato"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "abbiamo lasciato"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. parlare — imperfetto — io → [[g1]]\n2. temere — imperfetto — tu → [[g2]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "parlavo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "temevi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-004",
+  "title": "Un laboratorio che cambia idea",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Un laboratorio che cambia idea · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3004
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La nostra officina scolastica occupa un locale [[g1]] (luminoso, maschile singolare) vicino alla palestra. All’inizio volevamo costruire soltanto oggetti [[g2]] (piccolo, maschile plurale), facili da trasportare. Poi una vicina ci ha chiesto una mensola per i suoi libri e il progetto è cambiato.\nSul banco ci sono pezzi di legno, fogli di cartone e vecchie scatole di metallo. Per le decorazioni usiamo ritagli di stoffa; evitiamo invece il vetro, perché non abbiamo strumenti adatti per lavorarlo. Ogni materiale richiede una scelta [[g3]] (diverso, femminile singolare).\nLuca procede lentamente, ma le sue misure sono [[g4]] (preciso, femminile plurale). Sara disegna rapidamente e propone soluzioni [[g5]] (originale, femminile plurale). Nessuno lavora completamente da solo: prima di tagliare, controlliamo il disegno insieme. Un bordo irregolare può essere corretto; una mensola [[g6]] (non stabile, femminile singolare) non deve essere consegnata.\nI primi risultati erano [[g7]] (modesto, maschile plurale), però la vicina li ha osservati attentamente. Ci ha spiegato che preferiva una superficie [[g8]] (non verniciata, femminile singolare), senza colori [[g9]] (vivace, maschile plurale). Abbiamo modificato il progetto e conservato gli avanzi in contenitori [[g10]] (separato, maschile plurale). Il lavoro più [[g11]] (non facile) non è stato usare gli attrezzi, ma ascoltare una richiesta senza pensare di averla già capita. La prossima volta inviteremo il destinatario prima di cominciare, non soltanto quando l’oggetto sarà pronto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "luminoso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "piccoli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diversa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "precise"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "originali"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "instabile"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "modesti"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "naturale"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "vivaci"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "separati"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "difficile"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-006",
+  "title": "La prima sera alla residenza (1)",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · La prima sera alla residenza (1) · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3006
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Sono arrivata alla residenza con [[g1]] valigia e [[g2]] zaino troppo pesante. [[g3]]ingresso era aperto, ma la reception era vuota. Sul banco c’era [[g4]] foglio: invitava [[g5]] ospiti a chiamare [[g6]] numero interno. Ho aspettato qualche minuto, poi è arrivata [[g7]]addetta con due chiavi.\nMi ha accompagnata al secondo piano e mi ha mostrato la cucina della residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava nella stanza accanto. [[g8]] frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima di dormire ho scritto ai miei amici. Gli ho raccontato del viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato [[g9]] foto; le interessava soprattutto la finestra. Dava su un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo di disturbare. Tuttavia sono tornata in cucina a prendere dell’acqua. La mia vicina stava preparando [[g10]] tisana e mi ha offerto [[g11]] tazza. Abbiamo parlato dei nostri corsi e delle cose che ci mancavano. Quando sono rientrata in camera, [[g12]] posto sembrava già meno estraneo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "uno"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "L’"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "un’"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "il"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-010",
+  "title": "Il plastico in viaggio",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Il plastico in viaggio · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3010
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir.",
+    "text": "La mattina della mostra la nostra classe aspettava il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato dentro una scatola. Il cartone era resistente, ma le maniglie sembravano fragili. Per questo avevamo portato anche del nastro adesivo.\nSul [[g1]] (luogo della stazione dove passa il treno) c’erano molti viaggiatori. Il [[g2]] (pannello con orari e partenze) annunciava dieci minuti di [[g3]] (contrario di anticipo). La nostra [[g4]] (collegamento con un altro treno) sembrava a rischio. Un [[g5]] (persona incaricata di un servizio) ci ha indicato un altro [[g6]] (itinerario) e abbiamo controllato gli [[g7]] (indicazioni delle ore di partenza) sul telefono. I [[g8]] (documenti di viaggio) erano validi anche per quel collegamento.\nQuando il treno è arrivato, due compagni hanno sollevato la scatola. Una maniglia si è staccata, ma il plastico non è caduto: una [[g9]] (persona di genere femminile che viaggia) ha afferrato il bordo in tempo. Lei viaggiava con una valigia [[g10]] (di poco peso) e ci ha lasciato spazio vicino alla porta.\nDurante il [[g11]] (spostamento fra due luoghi) abbiamo riparato la [[g12]] (involucro esterno). La [[g13]] (luogo di arrivo) era ancora lontana, ma la [[g14]] (sentimento di chi teme un problema) era diminuita. All’arrivo, un volontario ci ha accompagnato all’[[g15]] (passaggio per lasciare un luogo). La mostra era cominciata da poco. Il nostro [[g16]] (lavoro pianificato) ha trovato posto su un [[g17]] (mobile con piano e gambe) vicino all’ingresso. Abbiamo aggiunto una [[g18]] (breve spiegazione accanto a un oggetto): «Questa città ha già fatto un viaggio».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "binario"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "tabellone"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ritardo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "coincidenza"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "addetto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "percorso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "orari"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "biglietti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "viaggiatrice"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "leggera"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "tragitto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "confezione"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "destinazione"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "preoccupazione"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "uscita"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "progetto"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "tavolo"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "didascalia"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-013",
+  "title": "Il prestito delle biciclette",
+  "language": "it",
+  "level": "B1",
+  "description": "I pronomi combinati · Il prestito delle biciclette · livello medio.",
+  "topics": [
+   "I pronomi combinati",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "1 · Tradizioni",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-pronomi-combinati",
+   "topicTitle": "I pronomi combinati",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3013
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il centro giovani possiede quattro biciclette. I volontari [[g1]] (diretto, le biciclette) controllano ogni settimana e ne riparano una alla volta. Se un ragazzo vuole provarne una, deve rivolgersi a Silvia: [[g2]] (indiretto, a Silvia) comunica il proprio nome e l’orario di ritorno. Silvia prende una chiave e gliela consegna dopo aver registrato il prestito.\nIeri due amiche [[g3]] (arrivare, forma composta; accordo con il soggetto) insieme. Si erano già iscritte al centro, ma non conoscevano le regole. Un volontario [[g4]] (a loro + le regole) ha spiegate con calma. Le ragazze cercavano anche una cartina. Il volontario ne aveva soltanto una e [[g5]] (a loro + la cartina + ha) prestata. «Questa strada è tranquilla», ha detto. «[[g6]] (avverbio pronominale, su questa strada) passano poche auto».\nUna delle ragazze aveva dimenticato il casco. Il centro lo poteva fornire, ma lei preferiva usare il suo. [[g7]] (chiamare, forma composta) suo fratello: «Puoi portarmelo? Sono ancora qui». Lui [[g8]] (indiretto, alla sorella) ha risposto che sarebbe arrivato in dieci minuti. Quando è comparso, teneva il casco e una borraccia. «La borraccia non è mia», [[g9]] (dire, forma composta) la sorella. «Allora me la tengo», ha scherzato lui.\nLe due amiche [[g10]] (tornare, forma composta; accordo con il soggetto) puntuali. Silvia ha controllato le biciclette e [[g11]] (domandare, forma composta) se il percorso fosse chiaro. «Sì, lo abbiamo seguito senza problemi». Poi [[g12]] (restituire, forma composta) la cartina: un’altra persona avrebbe potuto usarla. Il prestito funziona così, con piccoli oggetti che passano di mano e con informazioni che devono arrivare insieme agli oggetti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono arrivate"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "gliele"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "gliel’ha"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Ci"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ha chiamato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha detto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sono tornate"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha domandato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "hanno restituito"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-018",
+  "title": "La luce nella sala prove",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · La luce nella sala prove · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3018
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Ogni giovedì il coro si riunisce in una sala al piano terra. La porta si apre su un cortile e chi arriva per primo accende la luce. Questa sera Elena entra alle sette, appoggia la borsa su una sedia e [[g1]] gli spartiti. Sul tavolo non c’è nulla. Controlla l’armadio, ma trova soltanto una scatola di cavi e [[g2]] programmi di [[g3]] concerti.\nNel frattempo arrivano gli altri. Fa [[g4]] e tutti tengono ancora il [[g5]]. Il [[g6]] ascolta la spiegazione di Elena, poi telefona al [[g7]]. Il custode ricorda che nel pomeriggio un gruppo di ragazzi usa la [[g8]] sala per un laboratorio. Forse i fogli sono stati spostati per liberare il tavolo. Due coristi escono e chiedono informazioni nell’aula vicina.\nUna ragazza li accompagna fino a un carrello. [[g9]] alcuni [[g10]] ci sono gli spartiti, raccolti con attenzione in una [[g11]]. Nessuno [[g12]] [[g13]]; mancava soltanto un biglietto che indicasse il nuovo posto. I coristi ringraziano e tornano nella sala.\nLa prova comincia con mezz’ora di ritardo. Il direttore propone un esercizio breve di ascolto, senza fogli. Elena chiude gli [[g14]] e riconosce le voci dei compagni una alla volta. Alla fine tutti [[g15]]: la serata che sembrava rovinata offre un modo diverso di cantare insieme. Prima di uscire, Elena scrive un avviso e lo attacca sull’armadio. La settimana prossima gli spartiti avranno finalmente un posto chiaro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "alcuni",
+       "vecchi",
+       "cerca"
+      ],
+      "answer": "cerca"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "cerca",
+       "alcuni",
+       "vecchi"
+      ],
+      "answer": "alcuni"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "cerca",
+       "vecchi",
+       "alcuni"
+      ],
+      "answer": "vecchi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "alcuni",
+       "cerca",
+       "freddo"
+      ],
+      "answer": "freddo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "cerca",
+       "alcuni",
+       "cappotto"
+      ],
+      "answer": "cappotto"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "alcuni",
+       "direttore",
+       "cerca"
+      ],
+      "answer": "direttore"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "custode",
+       "cerca",
+       "alcuni"
+      ],
+      "answer": "custode"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "alcuni",
+       "stessa",
+       "cerca"
+      ],
+      "answer": "stessa"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "cerca",
+       "Sotto",
+       "alcuni"
+      ],
+      "answer": "Sotto"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "cartelloni",
+       "cerca",
+       "alcuni"
+      ],
+      "answer": "cartelloni"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "cerca",
+       "alcuni",
+       "cartella"
+      ],
+      "answer": "cartella"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "cerca",
+       "voleva",
+       "alcuni"
+      ],
+      "answer": "voleva"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "nasconderli",
+       "cerca",
+       "alcuni"
+      ],
+      "answer": "nasconderli"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "alcuni",
+       "cerca",
+       "occhi"
+      ],
+      "answer": "occhi"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "cerca",
+       "alcuni",
+       "ridono"
+      ],
+      "answer": "ridono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-020",
+  "title": "Una stanza lasciata in ordine",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Una stanza lasciata in ordine · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3020
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Cara Elisa, quando leggerai [[g1]] (dimostrativo vicino a chi scrive, femminile singolare) lettera sarò già sul treno. Ti lascio le mie chiavi nel cassetto; per favore, consegna le alla nuova coinquilina. [[g2]] (incontrare, forma composta) Marta ieri e le ho spiegato come funziona il riscaldamento. Se [[g3]] (avere, futuro semplice) altre domande, potrai aiutarla tu.\nPrima di partire ho svuotato l’armadio. [[g4]] (dimostrativo lontano, maschile singolare) maglione blu vicino alla finestra è tuo: lo avevi dimenticato in camera mia. Le piante [[g5]] (essere, presente) nostre; scegli tu dove sistemarle. Invece il vaso giallo appartiene a mia madre. Verrà a prenderlo domenica e ti avviserà [[g6]] (in anticipo).\nQuesti mesi sono stati i più intensi del mio anno. La stanza [[g7]] (essere) piccolissima, ma ci abbiamo fatto entrare amici, progetti e discussioni. La cucina era la meno ordinata della casa; eppure [[g8]] (essere) anche il luogo in cui parlavamo più volentieri.\n[[g9]] (conseguenza) non voglio salutarti con un messaggio frettoloso. Ho conservato il quaderno delle nostre ricette e te ne manderò una copia. [[g10]] (condizione) tornerò in città, mi piacerebbe cucinare ancora insieme. Intanto ti auguro una buona estate. Scrivimi quando [[g11]] (avere, futuro semplice) tempo, anche soltanto due righe: quelle [[g12]] (essere, futuro semplice) sufficienti per farmi sentire vicina. Un abbraccio, Ines.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "questa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ho incontrato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avrà"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Quel"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "prima"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Quindi"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Se"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avrai"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "saranno"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-022",
+  "title": "Condizionale presente: essere, avere, volere",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Condizionale presente: essere, avere, volere · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3022
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. essere — condizionale presente — io → [[g1]]\n2. essere — condizionale presente — tu → [[g2]]\n3. essere — condizionale presente — lui/lei → [[g3]]\n4. essere — condizionale presente — noi → [[g4]]\n5. essere — condizionale presente — voi → [[g5]]\n6. essere — condizionale presente — loro → [[g6]]\n7. avere — condizionale presente — io → [[g7]]\n8. avere — condizionale presente — tu → [[g8]]\n9. avere — condizionale presente — lui/lei → [[g9]]\n10. avere — condizionale presente — noi → [[g10]]\n11. avere — condizionale presente — voi → [[g11]]\n12. avere — condizionale presente — loro → [[g12]]\n13. volere — condizionale presente — io → [[g13]]\n14. volere — condizionale presente — tu → [[g14]]\n15. volere — condizionale presente — lui/lei → [[g15]]\n16. volere — condizionale presente — noi → [[g16]]\n17. volere — condizionale presente — voi → [[g17]]\n18. volere — condizionale presente — loro → [[g18]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sarei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "saresti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "saremmo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sareste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sarebbero"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avrei"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avresti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avrebbe"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avremmo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avreste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avrebbero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "vorresti"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "vorrebbe"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "vorremmo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "vorreste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "vorrebbero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-023",
+  "title": "Una settimana senza programma",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · Una settimana senza programma · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3023
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Caro Davide, ti scrivo da una piccola isola dove mia zia vive da anni. Prima della partenza [[g1]] (preparare, io) un programma preciso: visite, passeggiate e fotografie. Adesso [[g2]] (capire, io) che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e dalle persone che si incontrano.\nIeri [[g3]] (uscire, io femminile) presto. Il porto era quasi vuoto e alcuni pescatori [[g4]] (parlare) vicino alle barche. Una signora [[g5]] (chiedere, a me) se conoscevo la strada per la scuola. Lei [[g6]] (abitare) sull’isola da bambina, ma non riconosceva più il quartiere. L’edificio [[g7]] (trasformare, passivo trapassato prossimo) in una sala per incontri.\nL’ho accompagnata e abbiamo trovato una mostra di disegni. Suo padre compariva in una fotografia all’ingresso. La signora [[g8]] (fermarsi) a guardarla a lungo; io [[g9]] (aspettare) accanto alla porta. Poi abbiamo bevuto un caffè e lei mi [[g10]] (raccontare) una storia che nessuna guida avrebbe potuto conoscere.\nOggi [[g11]] (piovere), così resto in casa con i miei appunti. Non [[g12]] (cercare, io) di ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia nel suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. A presto, Giada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "avevo preparato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono uscita"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "parlavano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "mi ha chiesto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva abitato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "era stato trasformato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "si è fermata"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "aspettavo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha raccontato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "piove"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-025",
+  "title": "Domande prima di iscriversi",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Domande prima di iscriversi · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3025
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Gentile segreteria, ho letto la presentazione del vostro corso di racconti sonori e [[g1]] (volere, io, condizionale) ricevere alcune informazioni. Frequento l’ultimo anno della scuola secondaria e ho già realizzato brevi registrazioni con il telefono. Non possiedo però un microfono professionale. Sarebbe possibile partecipare utilizzando l’attrezzatura disponibile in sede?\nNel programma si [[g2]] (parlare, presente) di un lavoro in coppia. Io non conosco altre persone interessate: mi [[g3]] (piacere, condizionale) sapere se formerete i gruppi durante il primo incontro. Preferirei lavorare con qualcuno che abbia interessi diversi dai miei, perché penso che il confronto possa essere utile. Vi chiedo inoltre se siano previsti momenti di ascolto e revisione, oltre alla registrazione.\nAbito fuori città e l’ultimo autobus parte alle diciannove. [[g4]] (potere, io, condizionale) lasciare la sala dieci minuti prima quando necessario, senza perdere una parte importante del corso? In alternativa, [[g5]] (avere, io, condizionale) la possibilità di fermarmi soltanto negli incontri del sabato. Vorrei capire quale soluzione sia compatibile con il lavoro comune.\nInfine, mi interessa sapere come verranno utilizzati i prodotti finali. Saranno ascoltati soltanto dal gruppo o pubblicati sul sito? Desidero imparare a intervistare le persone, ma so che occorre spiegare loro dove apparirà la registrazione. Vi ringrazio per l’attenzione e resto in attesa di una risposta prima di completare l’iscrizione. Cordiali saluti, Dario Conti. Il corso e la richiesta [[g6]] (essere, presente) fittizi; non si tratta di un’offerta realmente prenotabile.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "parla"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "piacerebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Potrei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Avrei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-026",
+  "title": "Una settimana senza programma",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Una settimana senza programma · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3026
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Caro Davide, ti scrivo [[g1]] (provenienza) una piccola isola dove mia zia vive da anni. Prima della partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso [[g2]] (capire, io) che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e dalle persone che si incontrano.\nIeri [[g3]] (uscire, io femminile) presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. Una signora [[g4]] (chiedere, a me) se conoscevo la strada per la scuola. Lei aveva abitato sull’isola [[g5]] bambina, ma non riconosceva più il quartiere. L’edificio era stato trasformato in una sala per incontri.\nL’ho accompagnata e abbiamo trovato una mostra [[g6]] disegni. Suo padre compariva in una fotografia all’ingresso. La signora [[g7]] (fermarsi) a guardarla a lungo; io aspettavo accanto [[g8]] porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato una storia che nessuna guida avrebbe potuto conoscere.\nOggi [[g9]] (piovere), così resto in casa con i miei appunti. Non [[g10]] (cercare, io) di ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia [[g11]] (in + il) suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. [[g12]] presto, Giada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono uscita"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mi ha chiesto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "si è fermata"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "alla"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "piove"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "A"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-028",
+  "title": "Una richiesta precisa",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Una richiesta precisa · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 19,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3028
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir.",
+    "text": "Alla responsabile del centro civico: scrivo per segnalare un problema relativo al corso di fotografia iniziato lunedì. Nell’[[g1]] (testo che comunica un’offerta) erano indicati quattro incontri in presenza. Dopo il primo incontro abbiamo ricevuto una [[g2]] (messaggio ufficiale): le altre lezioni si sarebbero svolte online. Non discuto la competenza del docente; desidero però una [[g3]] (chiarimento dei motivi) del cambiamento.\nAvevo scelto il corso per usare insieme agli altri la camera oscura. Questa [[g4]] (lavoro previsto nel programma) non può essere sostituita da una videoconferenza. Inoltre, a casa non dispongo degli [[g5]] (mezzi necessari per un lavoro) necessari. Ho pagato la [[g6]] (somma richiesta per partecipare) entro la [[g7]] (ultimo termine utile) indicata e ho conservato la [[g8]] (documento che prova il pagamento).\nChiedo quindi se sia possibile mantenere il [[g9]] (insieme delle attività previste) oppure proporre un’[[g10]] (possibilità diversa) equivalente. In caso contrario vorrei conoscere le modalità di [[g11]] (restituzione di una somma pagata). Non mi sembra una [[g12]] (richiesta presentata come un diritto) eccessiva: il servizio offerto è diverso da quello descritto.\nResto disponibile a un [[g13]] (incontro per discutere) per trovare un [[g14]] (intesa fra le parti). Allego la copia dell’iscrizione e dell’offerta iniziale; vi chiedo di inviarmi una [[g15]] (comunicazione che risponde a una domanda) scritta entro una settimana. Vorrei evitare una [[g16]] (confronto acceso di opinioni) inutile e arrivare a una [[g17]] (modo di risolvere un problema) condivisa. Ringrazio per l’[[g18]] (interesse rivolto a una questione) e attendo un vostro [[g19]] (risposta formale a una comunicazione). Cordiali saluti, Andrea Riva. Questa lettera descrive una situazione inventata per l’attività.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "annuncio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "comunicazione"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "spiegazione"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "attività"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "strumenti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "quota"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "scadenza"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ricevuta"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "programma"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "alternativa"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "rimborso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "pretesa"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "colloquio"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "accordo"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "risposta"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "discussione"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "soluzione"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "attenzione"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "riscontro"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-030",
+  "title": "Il cinema nel cortile",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Il cinema nel cortile · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3030
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. Potremmo cominciare con una prova, [[g10]] (volere, noi, condizionale) ascoltare il parere di tutti: [[g11]] le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "cercava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sembrava"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diceva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo organizzato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avrebbe"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha suggerito"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha controllato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "prendevamo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "confrontavamo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "vorremmo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "è stato"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "è rimasta"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-032",
+  "title": "Il podcast che non avevamo previsto",
+  "language": "it",
+  "level": "B1",
+  "description": "Raccontare esperienze interculturali · Il podcast che non avevamo previsto · livello medio.",
+  "topics": [
+   "Raccontare esperienze interculturali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-narrazione",
+   "topicTitle": "Raccontare esperienze interculturali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3032
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Gentili compagni, la settimana scorsa [[g1]] (incontrare, noi) la responsabile della biblioteca. Ci ha proposto di realizzare un breve podcast sui luoghi del quartiere. Noi [[g2]] (accettare) e [[g3]] (scegliere) tre possibili itinerari. Prima di registrare, però, dovremo chiedere il consenso alle persone intervistate.\nIl gruppo di Gianni [[g4]] (preparare, futuro) le domande; quello di Ada [[g5]] (controllare, futuro) i rumori di fondo. Io vorrei occuparmi del montaggio, ma [[g6]] (avere, io, condizionale) bisogno di un compagno. Qualcuno [[g7]] (potere, terza singolare, condizionale) lavorare con me martedì? Non occorre un’attrezzatura costosa: sarebbe più utile ascoltare con attenzione e lasciare alle persone il tempo di rispondere.\nAbbiamo già parlato di questo problema a una giornalista. Lei ci [[g8]] (consigliare, forma composta) di fare prima una prova da intervistatori. Anche chi non vuole parlare davanti al microfono [[g9]] (avere, futuro) un compito: cercare informazioni, verificare i nomi o scrivere la presentazione.\nAlla fine pubblicheremo soltanto le registrazioni autorizzate. Se una risposta [[g10]] (essere, futuro semplice) troppo lunga, [[g11]] (chiedere, noi, futuro) se possiamo tagliarla senza cambiarne il significato. Il progetto finirà con un ascolto collettivo. [[g12]] (piacere, a me, condizionale) che ogni persona riconoscesse la propria voce e il senso delle proprie parole. Una registrazione chiara serve; una relazione di fiducia serve ancora di più.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abbiamo incontrato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abbiamo accettato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "abbiamo scelto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "preparerà"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "controllerà"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "avrei"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha consigliato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avrà"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sarà"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "chiederemo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Mi piacerebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-034",
+  "title": "Imparare a restaurare: un’intervista immaginaria",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Imparare a restaurare: un’intervista immaginaria · livello medio.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3034
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Intervistatrice: Come [[g1]] (scegliere, tu) il tuo percorso?\nRestauratrice: Da ragazza disegnavo molto, ma non pensavo al restauro. Un giorno [[g2]] (visitare, io) un laboratorio e ho visto quanto tempo richiedeva osservare un oggetto prima di toccarlo. Mi [[g3]] (colpire) soprattutto quella pazienza.\nIntervistatrice: Che cosa [[g4]] (fare, tu) all’inizio di un lavoro?\nRestauratrice: Esamino il materiale e [[g5]] (raccogliere, io) le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore apparentemente sporco può appartenere all’oggetto. Per questo [[g6]] (documentare, io) ogni fase.\nIntervistatrice: Hai mai cambiato idea durante un intervento?\nRestauratrice: Certo. Una volta avevo preparato un progetto molto dettagliato, poi un’analisi [[g7]] (rivelare) un materiale diverso da quello previsto. Abbiamo fermato il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma [[g8]] (essere, condizionale) peggio continuare per orgoglio.\nIntervistatrice: Quale consiglio daresti a chi vuole imparare?\nRestauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo [[g9]] (essere, presente) anche la lettura e il confronto. Nessuno dovrebbe promettere risultati prima di conoscere il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che [[g10]] (potere, congiuntivo presente) essere spiegata anche a chi lavorerà dopo di noi. Questa intervista è originale e fittizia; non attribuisce dichiarazioni a una professionista reale.\nIntervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto?\nRestauratrice: [[g11]] (preparare, presente) una relazione con fotografie e descrizioni, quando le immagini sono autorizzate. Indico che cosa [[g12]] (osservare, forma composta), quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula difficile da capire.\nIntervistatrice: E quando il tempo disponibile è poco?\nRestauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "hai scelto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho visitato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha colpito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "fai"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "raccolgo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "documento"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha rivelato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Preparo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ho osservato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-035",
+  "title": "Imparare a restaurare: un’intervista immaginaria",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Imparare a restaurare: un’intervista immaginaria · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3035
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Intervistatrice: Come hai scelto il tuo [[g1]]?\nRestauratrice: Da ragazza disegnavo molto, ma non pensavo al restauro. Un giorno ho visitato un laboratorio e ho visto quanto tempo richiedeva [[g2]] un oggetto prima di toccarlo. Mi ha colpito soprattutto quella pazienza.\nIntervistatrice: Che cosa fai all’inizio di un lavoro?\nRestauratrice: Esamino il materiale e [[g3]] le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore [[g4]] sporco può appartenere all’oggetto. Per questo documento ogni fase.\nIntervistatrice: Hai mai cambiato idea durante un intervento?\nRestauratrice: [[g5]]. Una volta avevo preparato un progetto molto dettagliato, poi un’analisi ha rivelato un materiale diverso da quello previsto. Abbiamo fermato il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma sarebbe peggio continuare per orgoglio.\nIntervistatrice: Quale consiglio daresti a chi vuole [[g6]]?\nRestauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo sono anche la lettura e il confronto. Nessuno [[g7]] promettere risultati prima di [[g8]] il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che possa essere spiegata anche a chi lavorerà dopo di noi. Questa intervista è originale e [[g9]]; non attribuisce [[g10]] a una professionista reale.\nIntervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto?\nRestauratrice: [[g11]] una relazione con fotografie e descrizioni, quando le immagini sono autorizzate. Indico che cosa ho osservato, quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula [[g12]] da capire.\nIntervistatrice: E quando il tempo disponibile è poco?\nRestauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "percorso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "osservare"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "raccolgo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "apparentemente"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Certo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "imparare"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dovrebbe"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "conoscere"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "fittizia"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "dichiarazioni"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Preparo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "difficile"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-040",
+  "title": "Il forno nelle fotografie",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Il forno nelle fotografie · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3040
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Nel nostro laboratorio di storia locale abbiamo osservato una serie di fotografie di un vecchio forno. Non conoscevamo tutte le persone ritratte e non volevamo inventare dettagli per completare il racconto. [[g1]] (conseguenza) abbiamo separato le informazioni scritte sul retro dalle nostre ipotesi. Una data era leggibile, [[g2]] (contrasto fra due fatti) un nome era quasi cancellato.\nNelle immagini il pane veniva disposto su lunghi ripiani. Le ceste erano trasportate a mano e i sacchi venivano conservati vicino alla parete. [[g3]] (contrasto) una fotografia non permette di ricostruire ogni fase del lavoro. Abbiamo cercato altri documenti, [[g4]] (causa) non bastava descrivere ciò che sembrava evidente.\nUn abitante ci ha prestato un quaderno. Alcune pagine sono state fotografate con il suo consenso e [[g5]] sono state confrontate con le immagini. Il quaderno conteneva quantità e nomi, ma non spiegava tutte le abbreviazioni. [[g6]] (conseguenza) abbiamo lasciato alcuni punti aperti.\nIl risultato è un pannello con tre sezioni: osservazioni, documenti e domande. [[g7]] (ordine temporale) abbiamo mostrato le fonti; [[g8]] (ordine temporale) abbiamo proposto una possibile ricostruzione. [[g9]] (ultimo passaggio) abbiamo invitato i visitatori a segnalarci altri materiali. La mostra è immaginaria e le fotografie non vengono riprodotte. Il suo obiettivo è mostrare un metodo: un racconto del passato diventa più affidabile quando rende visibile anche quello che ancora non sappiamo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Tuttavia",
+       "Perciò",
+       "mentre"
+      ],
+      "answer": "Perciò"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "mentre",
+       "Tuttavia",
+       "Perciò"
+      ],
+      "answer": "mentre"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Perciò",
+       "Tuttavia",
+       "mentre"
+      ],
+      "answer": "Tuttavia"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "mentre",
+       "Perciò",
+       "perché"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "mentre",
+       "poi",
+       "Perciò"
+      ],
+      "answer": "poi"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quindi",
+       "mentre",
+       "Perciò"
+      ],
+      "answer": "Quindi"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "mentre",
+       "Perciò",
+       "Prima"
+      ],
+      "answer": "Prima"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "mentre",
+       "poi",
+       "Perciò"
+      ],
+      "answer": "poi"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Infine",
+       "Perciò",
+       "mentre"
+      ],
+      "answer": "Infine"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-041",
+  "title": "Un colloquio diverso (1)",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Un colloquio diverso (1) · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3041
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Quando ho letto l’[[g1]] del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare in [[g3]].\nLa responsabile mi ha [[g4]] a un colloquio. Non mi ha chiesto soltanto quali [[g5]] [[g6]]. Voleva sapere come avrei reagito a un errore durante uno [[g7]]. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il [[g8]] [[g9]] il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi ha seguito [[g10]] prove. Ogni sera prendevo [[g11]] su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’[[g12]] che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "offerta"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Nella"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "gruppo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "invitato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "programmi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "conoscessi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "spettacolo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "problema"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "riguarda"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "nelle"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "appunti"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "esperienza"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-042",
+  "title": "Una mostra fatta di voci",
+  "language": "it",
+  "level": "B1",
+  "description": "La forma passiva con essere e venire · Una mostra fatta di voci · livello medio.",
+  "topics": [
+   "La forma passiva con essere e venire",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "3 · Società e solidarietà",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-passivo",
+   "topicTitle": "La forma passiva con essere e venire",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3042
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Nel nostro museo di quartiere una vecchia sala [[g1]] (usare, passivo imperfetto, sala) come deposito. Le finestre erano coperte da tende pesanti e gli oggetti [[g2]] (conservare, passivo imperfetto, oggetti) in scatole chiuse. L’anno scorso la sala è stata riaperta per un progetto scolastico.\nLa prima scelta [[g3]] (discutere, passivo passato prossimo, scelta) con gli abitanti: esporre oggetti preziosi oppure raccontare lavori quotidiani? Alla fine sono stati scelti oggetti comuni: un grembiule, un biglietto del tram, una radio rotta. Ogni oggetto [[g4]] (accompagnare, passivo imperfetto, oggetto) da una breve intervista registrata. Le fotografie sono state selezionate dai ragazzi insieme ai proprietari.\nLa radio apparteneva a una donna che l’aveva ricevuta da suo padre. Il biglietto era di un signore il cui primo lavoro era lontano da casa. Una sarta [[g5]] (prestare, forma composta) il grembiule con cui aveva imparato il mestiere. Nessuno di questi racconti pretendeva di rappresentare l’intero quartiere.\nPrima dell’apertura, le didascalie sono state rilette dalle persone intervistate. Alcune date [[g6]] (correggere, passivo passato prossimo, date); un nome non è stato pubblicato, su richiesta della famiglia. La mostra ora invita i visitatori a lasciare una domanda, non soltanto un commento. Il personale raccoglie le domande e le usa per preparare nuovi incontri. Anche un piccolo museo può cambiare quando ascolta chi gli sta intorno.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "veniva usata"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "venivano conservati"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "è stata discussa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "veniva accompagnato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha prestato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono state corrette"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-043",
+  "title": "La prima sera alla residenza (2)",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · La prima sera alla residenza (2) · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3043
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Sono arrivata [[g1]] residenza con una valigia e uno zaino troppo pesante. L’ingresso era aperto, ma la reception era vuota. [[g2]] banco c’era un foglio: invitava gli ospiti a chiamare il numero interno. Ho aspettato qualche minuto, poi è arrivata un’addetta [[g3]] due chiavi.\nMi ha accompagnata [[g4]] (a + il) secondo piano e mi ha mostrato la cucina della residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava [[g5]] stanza accanto. Il frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima [[g6]] dormire ho scritto ai miei amici. Gli ho raccontato [[g7]] viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato una foto; le interessava soprattutto la finestra. Dava [[g8]] (preposizione semplice) un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo [[g9]] disturbare. Tuttavia sono tornata [[g10]] cucina a prendere dell’acqua. La mia vicina stava preparando una tisana e mi ha offerto una tazza. Abbiamo parlato [[g11]] (di + i) nostri corsi e delle cose che ci mancavano. Quando sono rientrata [[g12]] camera, il posto sembrava già meno estraneo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alla"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Sul"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "con"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "su"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dei"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-048",
+  "title": "Condizionale",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Condizionale · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 30,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3048
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. fare — condizionale presente — io → [[g1]]\n2. fare — condizionale presente — tu → [[g2]]\n3. fare — condizionale presente — lui/lei → [[g3]]\n4. fare — condizionale presente — noi → [[g4]]\n5. fare — condizionale presente — voi → [[g5]]\n6. fare — condizionale presente — loro → [[g6]]\n7. dire — condizionale presente — io → [[g7]]\n8. dire — condizionale presente — tu → [[g8]]\n9. dire — condizionale presente — lui/lei → [[g9]]\n10. dire — condizionale presente — noi → [[g10]]\n11. dire — condizionale presente — voi → [[g11]]\n12. dire — condizionale presente — loro → [[g12]]\n13. venire — condizionale presente — io → [[g13]]\n14. venire — condizionale presente — tu → [[g14]]\n15. venire — condizionale presente — lui/lei → [[g15]]\n16. venire — condizionale presente — noi → [[g16]]\n17. venire — condizionale presente — voi → [[g17]]\n18. venire — condizionale presente — loro → [[g18]]\n19. potere — condizionale presente — io → [[g19]]\n20. potere — condizionale presente — tu → [[g20]]\n21. potere — condizionale presente — lui/lei → [[g21]]\n22. potere — condizionale presente — noi → [[g22]]\n23. potere — condizionale presente — voi → [[g23]]\n24. potere — condizionale presente — loro → [[g24]]\n25. andare — condizionale presente — io → [[g25]]\n26. andare — condizionale presente — tu → [[g26]]\n27. andare — condizionale presente — lui/lei → [[g27]]\n28. andare — condizionale presente — noi → [[g28]]\n29. andare — condizionale presente — voi → [[g29]]\n30. andare — condizionale presente — loro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "farei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "faresti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "farebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "faremmo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "fareste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "farebbero"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "direi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "diresti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "direbbe"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "diremmo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "direste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "direbbero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "verrei"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "verresti"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "verrebbe"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "verremmo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "verreste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "verrebbero"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "potrei"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "potresti"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "potremmo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "potreste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "potrebbero"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "andrei"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "andresti"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "andrebbe"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "andremmo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "andreste"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "andrebbero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-052",
+  "title": "Il giardino dietro la mensa",
+  "language": "it",
+  "level": "B1",
+  "description": "La forma passiva con essere e venire · Il giardino dietro la mensa · livello medio.",
+  "topics": [
+   "La forma passiva con essere e venire",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "3 · Società e solidarietà",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 19,
+  "grammar": {
+   "topic": "ecco3-passivo",
+   "topicTitle": "La forma passiva con essere e venire",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3052
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Dietro la mensa scolastica [[g1]] (esserci) uno spazio che nessuno usava. L’erba [[g2]] (crescere) fra le pietre e il cancello [[g3]] (rimanere) quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in un giardino, ma il progetto era rimasto in un cassetto. Quando la nuova preside lo [[g4]] (leggere), [[g5]] (invitare) gli autori a discuterne.\nLa prima riunione non [[g6]] (essere) semplice. Un gruppo [[g7]] (volere) piantare fiori, un altro [[g8]] (preferire) gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato un problema con l’acqua. Prima di comprare qualcosa, [[g9]] (misurare, noi) lo spazio e [[g10]] (osservare, noi) dove arrivava il sole.\nIl sabato successivo [[g11]] (venire, femminile plurale) anche alcune famiglie. Una madre aveva portato guanti di varie misure, mentre un vicino aveva preparato due cassette di legno. Noi [[g12]] (lavorare) a piccoli gruppi. Chi non [[g13]] (conoscere) gli attrezzi chiedeva aiuto, e nessuno [[g14]] (avere) fretta di finire.\nA giugno il giardino non [[g15]] (essere) perfetto. Alcune piante [[g16]] (crescere), altre no. [[g17]] (capire, noi) che una fotografia del primo giorno non racconta tutto il lavoro necessario dopo. Perciò [[g18]] (organizzare, noi) i turni estivi e [[g19]] (lasciare, noi) un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. Il giardino ci insegna soprattutto a tornare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "c’era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cresceva"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "rimaneva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ha letto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha invitato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "è stata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "preferiva"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "abbiamo misurato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "abbiamo osservato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sono venute"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "lavoravamo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "conosceva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "sono cresciute"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "Abbiamo capito"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "abbiamo organizzato"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "abbiamo lasciato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-054",
+  "title": "Il laboratorio delle mappe",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · Il laboratorio delle mappe · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3054
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La studentessa incaricata del progetto [[g1]] (preparare) una mappa del quartiere prima dell’incontro. Voleva segnare i luoghi accessibili a piedi dalla scuola e [[g2]] (scegliere) tre percorsi. Quando è arrivata in aula, [[g3]] (scoprire) che la stampante non funzionava. Era preoccupata, perché [[g4]] (prevedere) un lavoro a coppie con una copia per gruppo.\nL’insegnante le ha proposto di usare il grande foglio appeso alla parete. La studentessa [[g5]] (disegnare) soltanto le strade principali e [[g6]] (invitare) i compagni ad aggiungere i punti che conoscevano. Alcuni indicavano negozi, altri ricordavano cortili e passaggi. Un ragazzo aveva notato una scala poco visibile e [[g7]] (segnalare con pronome la) con un colore diverso.\nDopo la passeggiata, la studentessa [[g8]] (tornare, femminile) sulla mappa. Ha corretto due distanze e [[g9]] (aggiungere) una nota: il percorso più breve non era comodo per tutti. Un tratto presentava gradini e un attraversamento richiedeva attenzione. La mappa [[g10]] (diventare, femminile) meno elegante, ma più utile.\nNel rapporto finale la studentessa ha spiegato come l’imprevisto avesse modificato il lavoro. Non ha nascosto il problema della stampante e non lo [[g11]] (presentare, forma composta) come una catastrofe. [[g12]] (descrivere, forma composta) la scelta fatta, i suoi limiti e ciò che sarebbe stato necessario controllare ancora. Il progetto è immaginario: i percorsi non indicano strade reali.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "aveva preparato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aveva scelto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha scoperto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aveva previsto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha disegnato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha invitato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "l’ha segnalata"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "è tornata"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha aggiunto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "è diventata"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha presentato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Ha descritto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-055",
+  "title": "Un colloquio diverso",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Un colloquio diverso · livello medio.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Methodische Kompetenzen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3055
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando [[g1]] (leggere, forma composta) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. [[g3]] (avere, imperfetto) però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. Nella candidatura [[g4]] (spiegare, forma composta) che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi [[g5]] (invitare, forma composta) a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. [[g6]] (volere) sapere come avrei reagito a un errore durante uno spettacolo. «[[g7]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g8]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. [[g9]] (leggere, forma composta) tutto con calma. [[g10]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi [[g11]] (seguire, forma composta) nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; [[g12]] (avere, imperfetto) però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Avevo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ho spiegato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha invitato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Voleva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Chiederei"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "cercherei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Ho letto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha seguito"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avevo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-058",
+  "title": "Un colloquio diverso",
+  "language": "it",
+  "level": "B1",
+  "description": "Ci, ne e pronomi personali: ripasso · Un colloquio diverso · livello medio.",
+  "topics": [
+   "Ci, ne e pronomi personali: ripasso",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "3 · Società e solidarietà",
+    "section": "Ripasso"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It9 Grammatik, Wiederholung in It10"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-ci-ne-ripasso",
+   "topicTitle": "Ci, ne e pronomi personali: ripasso",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3058
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa i pronomi e identifica il referente di ciascuno.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze die Pronomen und gib an, worauf sie sich beziehen.",
+    "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. Nella candidatura ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile [[g1]] (a me, il narratore) ha invitato a un colloquio. Non [[g2]] (a me, il narratore) ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor [[g3]] (a me, il narratore) ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa i termini del lavoro usando le definizioni.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze die Begriffe aus der Arbeitswelt anhand der Erklärungen.",
+    "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio [[g1]] (documento che riassume formazione ed esperienze) era breve: frequentavo ancora la scuola e non avevo un vero [[g2]] (lavoro retribuito) precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune [[g3]] (capacità utilizzabili in un’attività) utili. Nella [[g4]] (proposta di sé per un posto) ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi ha invitato a un [[g5]] (incontro per valutare un candidato). Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl [[g6]] (accordo che regola un rapporto di lavoro) indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "curriculum"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "impiego"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "competenze"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "candidatura"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "colloquio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "contratto"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-059",
+  "title": "Un colloquio diverso (2)",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Un colloquio diverso (2) · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3059
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir.",
+    "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio [[g1]] (documento che riassume formazione ed esperienze) era breve: frequentavo ancora la scuola e non avevo un vero [[g2]] (lavoro retribuito) precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune [[g3]] (capacità utilizzabili in un’attività) utili. Nella [[g4]] (proposta di sé per un posto) ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi ha invitato a un [[g5]] (incontro per valutare un candidato). Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl [[g6]] (accordo che regola un rapporto di lavoro) indicava l’[[g7]] (distribuzione delle ore di lavoro), il [[g8]] (somma pagata per un lavoro) e le [[g9]] (attività assegnate a un lavoratore). Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un [[g10]] (persona che guida chi sta imparando) mi ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le [[g11]] (termini entro cui completare un lavoro). È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "curriculum"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "impiego"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "competenze"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "candidatura"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "colloquio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "contratto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "orario"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "compenso"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "mansioni"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "tutor"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "scadenze"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-062",
+  "title": "Imparare a restaurare: un’intervista immaginaria",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · Imparare a restaurare: un’intervista immaginaria · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 22,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3062
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Intervistatrice: Come [[g1]] (scegliere, tu) il tuo percorso?\nRestauratrice: Da ragazza [[g2]] (disegnare, io) molto, ma non pensavo al restauro. Un giorno [[g3]] (visitare, io) un laboratorio e [[g4]] (vedere, io) quanto tempo richiedeva osservare un oggetto prima di toccarlo. Mi [[g5]] (colpire) soprattutto quella pazienza.\nIntervistatrice: Che cosa fai all’inizio di un lavoro?\nRestauratrice: Esamino il materiale e raccolgo le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore apparentemente sporco può appartenere all’oggetto. Per questo documento ogni fase.\nIntervistatrice: Hai mai cambiato idea durante un intervento?\nRestauratrice: Certo. Una volta [[g6]] (preparare, io) un progetto molto dettagliato, poi un’analisi [[g7]] (rivelare) un materiale diverso da quello previsto. [[g8]] (fermare, noi) il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma sarebbe peggio continuare per orgoglio.\nIntervistatrice: Quale consiglio daresti a chi vuole imparare?\nRestauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo sono anche la lettura e il confronto. Nessuno dovrebbe promettere risultati prima di conoscere il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che possa essere spiegata anche a chi lavorerà dopo di noi. Questa intervista è originale e fittizia; non attribuisce dichiarazioni a una professionista reale.\nIntervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto?\nRestauratrice: Preparo una relazione con fotografie e descrizioni, quando le immagini sono autorizzate. Indico che cosa [[g9]] (osservare, forma composta), quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula difficile da capire.\nIntervistatrice: E quando il tempo disponibile è poco?\nRestauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "hai scelto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "disegnavo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ho visitato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ho visto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha colpito"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "avevo preparato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha rivelato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Abbiamo fermato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ho osservato"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. vedere — passato prossimo — lui/lei → [[g1]]\n2. partire — passato prossimo — noi (maschile) → [[g2]]\n3. partire — trapassato prossimo — io (maschile) → [[g3]]\n4. scrivere — passato prossimo — io → [[g4]]\n5. lavorare — passato prossimo — noi → [[g5]]\n6. leggere — passato prossimo — tu → [[g6]]\n7. dormire — trapassato prossimo — lui/lei → [[g7]]\n8. telefonare — trapassato prossimo — noi → [[g8]]\n9. partire — trapassato prossimo — noi (maschile) → [[g9]]\n10. avere — imperfetto — tu → [[g10]]\n11. fare — passato prossimo — io → [[g11]]\n12. visitare — trapassato prossimo — noi → [[g12]]\n13. ascoltare — trapassato prossimo — lui/lei → [[g13]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha visto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "siamo partiti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ero partito"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ho scritto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "abbiamo lavorato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "hai letto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "aveva dormito"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avevamo telefonato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "eravamo partiti"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avevi"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ho fatto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avevamo visitato"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "aveva ascoltato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-063",
+  "title": "Il giardino dietro la mensa",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · Il giardino dietro la mensa · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3063
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Dietro la mensa scolastica [[g1]] (esserci) uno spazio che nessuno usava. L’erba cresceva fra le pietre e il cancello rimaneva quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in un giardino, ma il progetto [[g2]] (rimanere) in un cassetto. Quando la nuova preside lo ha letto, ha invitato gli autori a discuterne.\nLa prima riunione non è stata semplice. Un gruppo [[g3]] (volere) piantare fiori, un altro preferiva gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato un problema con l’acqua. Prima di comprare qualcosa, [[g4]] (misurare, noi) lo spazio e abbiamo osservato dove arrivava il sole.\nIl sabato successivo sono venute anche alcune famiglie. Una madre aveva portato guanti di varie misure, mentre un vicino [[g5]] (preparare) due cassette di legno. Noi lavoravamo a piccoli gruppi. Chi non conosceva gli attrezzi chiedeva aiuto, e nessuno aveva fretta di finire.\nA giugno il giardino non [[g6]] (essere) perfetto. Alcune piante sono cresciute, altre no. Abbiamo capito che una fotografia del primo giorno non racconta tutto il lavoro necessario dopo. Perciò abbiamo organizzato i turni estivi e [[g7]] (lasciare, noi) un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. Il giardino ci insegna soprattutto a tornare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "c’era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "era rimasto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo misurato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva preparato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "abbiamo lasciato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-064",
+  "title": "La scatola senza etichetta (1)",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · La scatola senza etichetta (1) · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3064
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando Nora era piccola, suo nonno raccoglieva le fotografie del quartiere. Non scriveva quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone sembravano sconosciute anche a lui. Un sabato Nora [[g1]] (trovare) una scatola sotto il tavolo della soffitta e [[g2]] (decidere) di portarla alla biblioteca di zona.\nPrima di uscire, [[g3]] (telefonare) alla bibliotecaria e aveva chiesto se qualcuno potesse aiutarla. La signora le [[g4]] (suggerire) di non separare le immagini dalle buste. Nora [[g5]] (preparare) anche un quaderno, ma [[g6]] (dimenticare) la matita sul tavolo.\nIn biblioteca c’erano sei persone. Tutte guardavano una fotografia della piazza, che un visitatore [[g7]] (ingrandire). La donna con cui Nora [[g8]] (parlare) per prima abitava proprio lì. Mentre raccontava, un ragazzo ha notato un’insegna quasi invisibile. Nessuno [[g9]] (vedere) prima quel particolare.\nAlla fine il gruppo [[g10]] (riconoscere) il negozio, ma non tutte le persone. Nora [[g11]] (scrivere) soltanto i nomi sicuri; accanto agli altri [[g12]] (mettere) un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta [[g13]] (chiedere, forma composta) ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria [[g14]] (suggerire, forma composta) di registrare entrambe le versioni, senza scegliere in fretta. Nora [[g15]] (aggiungere, forma composta) una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha trovato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ha deciso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveva telefonato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aveva suggerito"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva preparato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva dimenticato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "aveva ingrandito"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha parlato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "aveva visto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha riconosciuto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha messo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ha suggerito"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "ha aggiunto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-066",
+  "title": "Se potessimo scegliere: sei proposte (1)",
+  "language": "it",
+  "level": "B1",
+  "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se potessimo scegliere: sei proposte (1) · livello medio.",
+  "topics": [
+   "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-ipotetico-presente",
+   "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3066
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io [[g1]] (aprire, io, condizionale) una piccola sala di registrazione. Non credo che tutti abbiano voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, potremmo registrare racconti in varie lingue. Ogni classe [[g2]] (scegliere, condizionale) un tema e qualcuno curerebbe il montaggio. Non comprerei subito strumenti costosi: prima chiederei in prestito quelli disponibili. [[g3]] (essere) necessario stabilire chi conserva le registrazioni e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce restare fuori».\nB — Bruno: «A me [[g4]] (piacere, condizionale) un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto verrebbe una volta al mese e noi [[g5]] (imparare, noi, condizionale) osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non sarebbe soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non [[g6]] (essere) risolto: non tutti riescono a concentrarsi nello stesso modo. Io metterei pochi tavoli e una luce adatta alla lettura. Credo che sia importante non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio [[g7]] (fare, condizionale presente) più rumore del resto. Non chiederei prenotazioni lunghe; limiterei l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un argomento potrebbe lasciare un biglietto e chi sa rispondere fisserebbe un incontro. [[g8]] (volere, condizionale presente) che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo sostituisca il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io inizierei con una sola materia e dopo un mese [[g9]] (valutare, io, condizionale) i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, [[g10]] (controllare, io, condizionale) che siano pulite e complete. Sarebbe ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione economica. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni [[g11]] (potere) essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi raccoglieremmo osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io [[g12]] (scrivere, io, condizionale) un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "aprirei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sceglierebbe"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Sarebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "piacerebbe"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "impareremmo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "farebbero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "valuterei"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "controllerei"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "scriverei"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-069",
+  "title": "Se potessimo scegliere: sei proposte (2)",
+  "language": "it",
+  "level": "B1",
+  "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se potessimo scegliere: sei proposte (2) · livello medio.",
+  "topics": [
+   "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 19,
+  "grammar": {
+   "topic": "ecco3-ipotetico-presente",
+   "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3069
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io [[g1]] (aprire, io, condizionale) una piccola sala di registrazione. Non credo che tutti abbiano voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, [[g2]] (potere, noi, condizionale) registrare racconti in varie lingue. Ogni classe [[g3]] (scegliere, condizionale) un tema e qualcuno [[g4]] (curare, condizionale) il montaggio. Non comprerei subito strumenti costosi: prima chiederei in prestito quelli disponibili. [[g5]] necessario stabilire chi conserva le registrazioni e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce restare fuori».\nB — Bruno: «A me piacerebbe un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto [[g6]] (venire, condizionale) una volta al mese e noi [[g7]] (imparare, noi, condizionale) osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non [[g8]] soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non [[g9]] risolto: non tutti riescono a concentrarsi nello stesso modo. Io [[g10]] (mettere, io, condizionale) pochi tavoli e una luce adatta alla lettura. Credo che sia importante non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio [[g11]] (fare, condizionale presente) più rumore del resto. Non chiederei prenotazioni lunghe; limiterei l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un argomento [[g12]] (potere) lasciare un biglietto e chi sa rispondere fisserebbe un incontro. [[g13]] (volere, condizionale presente) che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo sostituisca il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io [[g14]] (iniziare, io, condizionale) con una sola materia e dopo un mese valuterei i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, [[g15]] (controllare, io, condizionale) che siano pulite e complete. [[g16]] ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione economica. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni [[g17]] (potere) essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi [[g18]] (raccogliere, noi, condizionale) osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io [[g19]] (scrivere, io, condizionale) un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "aprirei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "potremmo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sceglierebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "curerebbe"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Sarebbe"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "verrebbe"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "impareremmo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "metterei"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "farebbero"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "inizierei"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "controllerei"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "Sarebbe"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "raccoglieremmo"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "scriverei"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-071",
+  "title": "Un colloquio diverso",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Un colloquio diverso · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3071
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando ho letto l’offerta [[g1]] laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g3]] gruppo.\nLa responsabile mi ha invitato a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come [[g4]] (reagire, forma composta) a un errore durante uno spettacolo. «[[g5]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g6]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto [[g7]] calma. [[g8]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima [[g9]] accettare.\nDurante la prima settimana un tutor mi ha seguito nelle prove. Ogni sera prendevo appunti [[g10]] quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Nella"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "avrei reagito"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Chiederei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "cercherei"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "con"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "su"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Alla"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "a"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-072",
+  "title": "Un cortile aperto dopo le lezioni?",
+  "language": "it",
+  "level": "B1",
+  "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Un cortile aperto dopo le lezioni? · livello medio.",
+  "topics": [
+   "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco3-ipotetico-presente",
+   "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3072
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Il consiglio degli studenti discute se aprire il cortile scolastico nel pomeriggio. La proposta nasce dal bisogno di un luogo gratuito per incontrarsi. Alcuni [[g1]] (volere, loro, condizionale) usarlo per giocare, altri preferirebbero studiare all’aperto. I vicini [[g2]] (chiedere, loro, condizionale) orari chiari e la scuola [[g3]] (dovere, condizionale) organizzare la sorveglianza.\nIo comincerei con due pomeriggi alla settimana. [[g4]] (lasciare, io, condizionale) libera una parte dello spazio e riserverei un angolo alle attività tranquille. Non [[g5]] (comprare, io, condizionale) subito nuove attrezzature: prima [[g6]] (osservare, io, condizionale) come vengono usati i luoghi. Un gruppo raccoglierebbe proposte, ma non [[g7]] (decidere, condizionale) da solo.\nAltri studenti aprirebbero il cortile tutti i giorni. [[g8]] (potere, loro, condizionale) avere ragione, però servirebbero risorse che non abbiamo ancora verificato. I rappresentanti [[g9]] (parlare, loro, condizionale) con la direzione e [[g10]] (confrontare, loro, condizionale) le diverse possibilità. Noi saremmo disponibili a preparare un calendario; non [[g11]] (avere, noi, condizionale) invece la competenza per assumere ogni responsabilità.\nAlla fine valuteremmo l’esperimento con criteri concordati. Non basterebbe dire che è piaciuto: occorrerebbe capire a chi è stato utile e quali difficoltà ha creato. Il cortile [[g12]] (potere) diventare un luogo migliore proprio grazie a una discussione precisa. Una proposta realistica non rinuncia ai desideri; prova a trasformarli in condizioni che tutti possano comprendere.\nPer preparare la discussione [[g13]] (potere, condizionale presente) usare una pianta del cortile. Ciascun gruppo segnerebbe dove immagina le attività e quali passaggi devono restare liberi. Le proposte non diventerebbero automaticamente decisioni: servirebbe il confronto con chi conosce gli spazi e le responsabilità della scuola. Anche una buona idea può richiedere modifiche.\nUn compagno suggerisce di chiedere un parere a chi non partecipa alle riunioni. Il questionario dovrebbe essere breve e disponibile anche su carta. Non domanderebbe informazioni private; chiederebbe soltanto quali usi interessano e quali orari sono possibili. I risultati sarebbero presentati insieme ai loro limiti: chi risponde non rappresenta necessariamente tutti. Il consiglio [[g14]] (potere) così spiegare meglio le scelte e lasciare aperta una revisione dopo la prova.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vorrebbero"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "chiederebbero"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "dovrebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Lascerei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "comprerei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "osserverei"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "deciderebbe"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Potrebbero"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "parlerebbero"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "confronterebbero"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avremmo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "potremmo"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-074",
+  "title": "Chi decide se una parola esiste?",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Chi decide se una parola esiste? · livello medio.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Accademia della Crusca: Parole nuove. 23.04.2012; Seite erläutert auch die seit November 2018 verwendete Struktur. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Methodische Kompetenzen"
+  },
+  "estimatedMinutes": 19,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3074
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici osservati nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una [[g1]] (sostantivo nel contesto; iniziali pa…) condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata dagli studenti. Alcuni dicono che [[g2]] (essere, indicativo presente) già italiana perché tutti la capiscono. Altri pensano che [[g3]] (dovere, congiuntivo presente) comparire prima in un dizionario. La discussione sembra bloccata, finché una ragazza domanda: «Di quale [[g4]] (sostantivo nel contesto; iniziali gr…) stiamo parlando quando diciamo tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata altrove.\nGli studenti [[g5]] (preparare, presente) tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella seconda raccolgono un termine già esistente che ha acquistato un significato [[g6]] (aggettivo nel contesto; iniziali nu…). Nella terza [[g7]] (osservare, presente) un prestito da un’altra lingua. Non cercano di dimostrare che una categoria sia migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario [[g8]] (registrare, indicativo presente) parole usate da molte persone. Un altro teme che una [[g9]] (sostantivo nel contesto; iniziali ri…) online dia risultati ingannevoli: cento copie dello stesso messaggio non [[g10]] (essere, presente) cento esempi [[g11]] (aggettivo nel contesto; iniziali in…). L’insegnante è d’accordo sul problema e chiede che ogni gruppo [[g12]] (indicare, congiuntivo presente) la provenienza degli esempi. Nessuno deve raccogliere conversazioni private o nomi di compagni senza consenso.\nAlla fine non viene eletta la parola più bella. Ogni gruppo presenta un dubbio: forse il termine durerà, forse scomparirà, forse cambierà significato. Gli studenti sanno che la lingua [[g13]] (cambiare, indicativo presente), ma non possono prevedere ogni cambiamento. È [[g14]] (aggettivo nel contesto; iniziali po…) che un’espressione rimanga limitata a un ambiente; è altrettanto possibile che altre persone [[g15]] (adottare, loro, congiuntivo presente con pronome) per una ragione [[g16]] (aggettivo nel contesto; iniziali nu…).\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un premio a chi aveva indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede curiosità e attenzione alle persone che la [[g17]] (parlare, presente). Il racconto della classe e tutte le sue battute [[g18]] (essere, presente) originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la presentazione finale, ogni scheda distingue inoltre una definizione da un esempio. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un lettore esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco [[g19]] (aggettivo nel contesto; iniziali ch…), la riscrivono. Il lavoro non produce un dizionario completo: offre un piccolo esercizio di osservazione, con fonti dichiarate e limiti visibili. Anche chi non ama inventare parole può partecipare controllando gli esempi e formulando domande.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "prima",
+       "parola",
+       "durante"
+      ],
+      "answer": "parola"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "prima",
+       "è",
+       "durante"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "è",
+       "sia",
+       "debba"
+      ],
+      "answer": "debba"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "durante",
+       "prima",
+       "gruppo"
+      ],
+      "answer": "gruppo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "durante",
+       "prima",
+       "preparano"
+      ],
+      "answer": "preparano"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "è",
+       "parola",
+       "nuovo"
+      ],
+      "answer": "nuovo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "durante",
+       "prima",
+       "osservano"
+      ],
+      "answer": "osservano"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "durante",
+       "registra",
+       "prima"
+      ],
+      "answer": "registra"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "durante",
+       "prima",
+       "ricerca"
+      ],
+      "answer": "ricerca"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "prima",
+       "durante",
+       "sono"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "indipendenti",
+       "parola",
+       "è"
+      ],
+      "answer": "indipendenti"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "è",
+       "sia",
+       "indichi"
+      ],
+      "answer": "indichi"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "cambia",
+       "durante",
+       "prima"
+      ],
+      "answer": "cambia"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "parola",
+       "è",
+       "possibile"
+      ],
+      "answer": "possibile"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "la adottino",
+       "è",
+       "sia"
+      ],
+      "answer": "la adottino"
+     },
+     {
+      "id": "g16",
+      "options": [
+       "è",
+       "parola",
+       "nuova"
+      ],
+      "answer": "nuova"
+     },
+     {
+      "id": "g17",
+      "options": [
+       "durante",
+       "prima",
+       "parlano"
+      ],
+      "answer": "parlano"
+     },
+     {
+      "id": "g18",
+      "options": [
+       "sono",
+       "durante",
+       "prima"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g19",
+      "options": [
+       "chiara",
+       "è",
+       "parola"
+      ],
+      "answer": "chiara"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-076",
+  "title": "La chiave che non apriva nulla",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · La chiave che non apriva nulla · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3076
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa gli aggettivi nella forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze die Adjektive in der richtigen Form.",
+    "text": "Nella casa del farista c’era una chiave [[g1]] (piccolo, femminile singolare) legata a un filo [[g2]] (rosso, maschile singolare). Nessuna porta aveva una serratura adatta. Il farista diceva che era [[g3]] (prezioso, femminile singolare), ma non spiegava perché. Una visitatrice [[g4]] (curioso, femminile singolare) provò a immaginare un tesoro; lui rise e le mostrò un cassetto [[g5]] (vuoto, maschile singolare).\nUn pomeriggio arrivò una busta [[g6]] (giallo, femminile singolare). Dentro c’era una fotografia [[g7]] (sbiadito, femminile singolare): due bambini davanti a un cancello [[g8]] (chiuso, maschile singolare). Sul retro qualcuno aveva scritto soltanto un indirizzo. La visitatrice pensò che il mistero fosse [[g9]] (risolto, maschile singolare), ma il farista scosse la testa. Quel cancello non esisteva più.\nLa chiave, raccontò finalmente, apparteneva alla casa in cui aveva imparato a leggere. La porta era stata sostituita molti anni prima, eppure lui conservava l’oggetto. Non serviva a entrare in una stanza; gli ricordava la persona che gli aveva aperto quella stanza quando era bambino. Non c’erano documenti [[g10]] (segreto, maschile plurale) né monete [[g11]] (antico, femminile plurale).\nLa visitatrice osservò di nuovo il filo e notò un nodo [[g12]] (irregolare, maschile singolare). «Quello l’ho fatto io», disse il farista. Il mistero non aveva una soluzione spettacolare. Aveva una storia che diventava visibile soltanto quando qualcuno decideva di raccontarla. La visitatrice rinunciò al titolo che aveva preparato e ne scrisse uno più semplice: «Una chiave, una persona». Il racconto è originale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "rosso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "preziosa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "curiosa"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vuoto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "gialla"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sbiadita"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "chiuso"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "risolto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "segreti"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "antiche"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "irregolare"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-079",
+  "title": "La scatola senza etichetta (2)",
+  "language": "it",
+  "level": "B1",
+  "description": "Il trapassato prossimo · La scatola senza etichetta (2) · livello medio.",
+  "topics": [
+   "Il trapassato prossimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "2 · Vivere all’estero",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 1.2 Grammatik"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco3-trapassato",
+   "topicTitle": "Il trapassato prossimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3079
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando Nora [[g1]] (essere) piccola, suo nonno raccoglieva le fotografie del quartiere. Non [[g2]] (scrivere) quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone [[g3]] (sembrare) sconosciute anche a lui. Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e [[g4]] (decidere) di portarla alla biblioteca di zona.\nPrima di uscire, aveva telefonato alla bibliotecaria e [[g5]] (chiedere) se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora [[g6]] (preparare) anche un quaderno, ma aveva dimenticato la matita sul tavolo.\nIn biblioteca [[g7]] (esserci) sei persone. Tutte [[g8]] (guardare) una fotografia della piazza, che un visitatore aveva ingrandito. La donna con cui Nora [[g9]] (parlare) per prima abitava proprio lì. Mentre raccontava, un ragazzo [[g10]] (notare) un’insegna quasi invisibile. Nessuno aveva visto prima quel particolare.\nAlla fine il gruppo [[g11]] (riconoscere) il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri [[g12]] (mettere) un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta [[g13]] (chiedere, forma composta) ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora [[g14]] (aggiungere, forma composta) una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "scriveva"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sembravano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ha deciso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva chiesto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva preparato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "c’erano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "guardavano"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha parlato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha notato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha riconosciuto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ha messo"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "ha aggiunto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-080",
+  "title": "Due modi di raccontare il pranzo",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Due modi di raccontare il pranzo · livello medio.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Methodische Kompetenzen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3080
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Testo A — Il [[g1]] (sostantivo nel contesto; iniziali qu…) della mensa. In una scuola immaginaria gli studenti hanno proposto un quaderno dei commenti sul pranzo. La prima settimana sono comparsi [[g2]] (sostantivo nel contesto; iniziali gi…) molto [[g3]] (aggettivo nel contesto; iniziali br…): «buono», «freddo», «troppo». La cuoca ha spiegato che alcune osservazioni non erano abbastanza [[g4]] (aggettivo nel contesto; iniziali pr…) per essere utili. Il gruppo ha quindi preparato tre [[g5]] (sostantivo nel contesto; iniziali do…): quale piatto hai assaggiato, che cosa hai notato e quale cambiamento suggerisci? Nessuno è obbligato a descrivere esigenze personali davanti agli altri. Le richieste individuali seguono un canale [[g6]] (aggettivo nel contesto; iniziali ri…).\nDopo un mese il quaderno contiene meno messaggi, ma più [[g7]] (sostantivo nel contesto; iniziali in…). Alcuni studenti chiedono porzioni iniziali più [[g8]] (aggettivo nel contesto; iniziali pi…) con la possibilità di aggiungerne; altri vorrebbero leggere il menù prima di arrivare. Il progetto non stabilisce quale alimentazione sia adatta a ogni persona: serve a migliorare la comunicazione su un [[g9]] (sostantivo nel contesto; iniziali se…) comune.\nTesto B — La cena delle [[g10]] (sostantivo nel contesto; iniziali ri…). Un centro di quartiere invita le famiglie a raccontare un piatto attraverso un [[g11]] (sostantivo nel contesto; iniziali ri…). Non è una gara culinaria e non occorre portare cibo. Una persona descrive una minestra, un’altra una merenda preparata dal nonno. Gli organizzatori raccolgono i testi e chiedono agli autori di rileggerli prima della stampa. Le quantità restano indicative quando fanno parte di un ricordo; non vengono presentate come istruzioni verificate per cucinare.\nI due progetti parlano entrambi di cibo, ma hanno scopi [[g12]] (aggettivo nel contesto; iniziali di…). Il primo raccoglie osservazioni pratiche sul servizio della mensa; il secondo conserva narrazioni personali. Confondere i due scopi renderebbe meno chiaro quello che si chiede ai partecipanti. Entrambi i progetti sono inventati per l’attività.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "quaderno"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "giudizi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "brevi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "precise"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "domande"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "riservato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "informazioni"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "piccole"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "servizio"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ricette"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ricordo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "differenti"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-081",
+  "title": "Una fotografia trovata in rete",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Una fotografia trovata in rete · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Europeana PRO: Understanding the rights statements used by Europeana. 06.02.2015; aktualisiert 11.10.2024. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://pro.europeana.eu/index.php/page/available-rights-statements",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 20,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3081
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "[[g1]] accompagna gli oggetti digitali con [[g2]] sui diritti, che aiutano a comprendere come possano essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non [[g3]] la verifica del singolo oggetto.\nNel racconto che segue, una [[g4]] scolastica [[g5]] una fotografia perfetta per il proprio giornale. Mostra una piazza in un giorno di mercato e potrebbe accompagnare un articolo sulle trasformazioni del quartiere. Il primo impulso è [[g6]] e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda completa.\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato giuridico. I ragazzi capiscono che citare una [[g7]] e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non [[g8]] subito una risposta [[g9]] per l’uso previsto, scelgono di non inserire la fotografia. Possono [[g10]] descrivere la ricerca e offrire un collegamento alla scheda, senza [[g11]] il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato sulla [[g12]] osservazione della piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono stati [[g13]]. Nel [[g14]], invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta [[g15]] più tempo di un semplice download, ma produce una domanda utile: [[g16]] informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale pubblica un piccolo riquadro con autore, istituzione, [[g17]] e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né [[g18]] permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il [[g19]]: la scelta [[g20]] per un oggetto non vale automaticamente per tutti gli altri.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Europeana"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "indicazioni"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sostituisce"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "redazione"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "trova"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "scaricarla"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "fonte"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "trovando"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "chiara"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "comunque"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ripubblicare"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "propria"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "semplificati"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "testo"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "richiede"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "quali"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "titolo"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "attribuiti"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "controllo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "fatta"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-082",
+  "title": "Chi decide se una parola esiste?",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · Chi decide se una parola esiste? · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Accademia della Crusca: Parole nuove. 23.04.2012; Seite erläutert auch die seit November 2018 verwendete Struktur. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3082
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici osservati nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una parola condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata [[g1]] studenti. Alcuni [[g2]] che è già italiana perché tutti la [[g3]]. Altri pensano che [[g4]] comparire prima in un dizionario. La discussione sembra bloccata, finché una ragazza domanda: «Di quale gruppo stiamo parlando quando diciamo tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata [[g5]].\nGli studenti preparano tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella [[g6]] raccolgono un termine già esistente che ha acquistato un significato nuovo. Nella terza osservano un prestito da un’altra lingua. Non cercano di dimostrare che una categoria sia migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario registra parole usate da molte persone. Un altro teme che una ricerca online dia risultati ingannevoli: cento copie dello stesso messaggio non sono cento esempi indipendenti. L’insegnante è d’accordo sul problema e chiede che ogni gruppo indichi la provenienza degli esempi. Nessuno deve raccogliere conversazioni private o nomi di compagni senza consenso.\nAlla fine non viene [[g7]] la parola più bella. Ogni gruppo presenta un dubbio: [[g8]] il termine durerà, forse scomparirà, forse cambierà significato. Gli studenti sanno che la lingua cambia, ma non possono prevedere ogni cambiamento. È possibile che un’espressione rimanga limitata a un ambiente; è altrettanto possibile che altre persone la adottino per una ragione nuova.\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un premio a chi aveva indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede curiosità e attenzione alle persone che la parlano. Il racconto della classe e tutte le sue battute sono originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la [[g9]] finale, ogni scheda distingue inoltre una definizione da un esempio. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un lettore esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco chiara, la riscrivono. Il lavoro non produce un dizionario [[g10]]: offre un piccolo esercizio di osservazione, con fonti [[g11]] e limiti visibili. Anche chi non ama inventare parole può partecipare [[g12]] gli esempi e formulando domande.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "dagli"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "dicono"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "capiscono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "debba"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "altrove"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "seconda"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "eletta"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "forse"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "presentazione"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "completo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dichiarate"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "controllando"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-084",
+  "title": "Una lettera contro le classifiche",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Una lettera contro le classifiche · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 23,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3084
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Cara [[g1]], ho letto la proposta di pubblicare ogni mese una [[g2]] dei lettori più attivi della biblioteca scolastica. Capisco che l’idea nasca dal desiderio di incoraggiare la lettura. Temo però che il numero dei [[g3]] diventi una misura [[g4]] semplice. È possibile che uno studente legga lentamente perché il [[g5]] è difficile; un altro [[g6]] prendere molti volumi senza finirli.\nNon penso che una gara sia sempre [[g7]]. Chiedo soltanto che si chiarisca lo [[g8]]. Se vogliamo condividere scoperte, sarebbe [[g9]] che ciascuno [[g10]] un passaggio interessante. Se invece desideriamo [[g11]] i bisogni dei lettori, vorrei che la biblioteca ascoltasse anche chi non prende [[g12]] in prestito.\nMi auguro che nessuno si senta escluso perché legge in un’altra [[g13]] o usa un [[g14]] diverso. Sarebbe utile che gli [[g15]] [[g16]] come partecipare senza esporre [[g17]] [[g18]]. Non credo che tutti [[g19]] [[g20]] di vedere il proprio nome in una graduatoria.\nPropongo quindi un muro di consigli anonimi. Ogni lettore potrebbe [[g21]] un libro e spiegare a chi lo consiglierebbe. Spero che questa alternativa permetta di parlare [[g22]] letture senza ridurle a un punteggio. La lettera è inventata per il laboratorio: non si riferisce a una biblioteca reale e non [[g23]] risultati di una ricerca.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "redazione"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "classifica"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "prestiti"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "troppo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "libro"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "negativa"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "scopo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "meglio"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "presentasse"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "conoscere"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "libri"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "lingua"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "formato"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "insegnanti"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "spiegassero"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "informazioni"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "personali"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "abbiano"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "voglia"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "suggerire"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "delle"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "descrive"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-090",
+  "title": "Il cartografo e il sentiero",
+  "language": "it",
+  "level": "B1",
+  "description": "Passato remoto: riconoscere e comprendere · Il cartografo e il sentiero · livello medio.",
+  "topics": [
+   "Passato remoto: riconoscere e comprendere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-remoto",
+   "topicTitle": "Passato remoto: riconoscere e comprendere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3090
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Quando era giovane, il cartografo ricevette l’incarico di disegnare i sentieri di una valle. Partì con una borsa leggera e un quaderno. Il [[g1]] gli aveva mostrato una carta antica, ma molti nomi non erano più usati. Nella prima casa il cartografo incontrò una donna che conosceva la valle meglio di chiunque altro.\nLei gli disse che il [[g2]] più breve non era sempre quello indicato sulle mappe. D’inverno il torrente cresceva e alcuni passaggi diventavano impraticabili. Il cartografo prese nota, poi chiese chi avesse costruito il ponte. La donna non ricordava un nome; ricordava invece un gruppo di persone e una primavera molto piovosa.\nIl giorno seguente lui andò al torrente. Qualcuno aveva sistemato nuove pietre vicino all’acqua. Il sentiero continuava oltre un bosco e scompariva dietro una [[g3]]. Il cartografo capì che la sua carta avrebbe dovuto distinguere ciò che aveva visto da ciò che gli avevano raccontato.\nQuando tornò in paese, mostrò il lavoro agli abitanti. Alcuni [[g4]] un nome, altri aggiunsero un passaggio. La carta non fu più soltanto sua. Anni dopo, un ragazzo la trovò in un armadio e domandò perché accanto a certi sentieri ci fossero [[g5]] punti interrogativi. La donna sorrise: erano il segno che qualcuno aveva lasciato spazio a un’[[g6]] visita. Questo racconto è originale e non deriva da un’opera letteraria esistente.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sindaco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "percorso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "curva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "corressero"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piccoli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "altra"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-093",
+  "title": "Una visita che comincia con una domanda (1)",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Una visita che comincia con una domanda (1) · livello medio.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "UNESCO World Heritage Centre: Venice and its Lagoon. Welterbe-Einschreibung 1987; aktuelle Objektdarstellung am Abrufdatum. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://whc.unesco.org/en/list/394/",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Methodische Kompetenzen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3093
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Venezia e la sua laguna fanno parte del Patrimonio mondiale UNESCO dal 1987. La scheda ufficiale presenta insieme la città e l’ambiente lagunare, sottolineando il rapporto [[g1]] (storico: accorda con il nome) fra insediamenti umani e territorio. Segnala inoltre la pressione del turismo e i cambiamenti nelle funzioni [[g2]] (urbano: accorda con il nome). Questi elementi documentati offrono il punto di partenza per l’itinerario [[g3]] (immaginario: accorda con il nome) seguente; non costituiscono informazioni [[g4]] (aggiornato: accorda con il nome) su biglietti o prenotazioni.\nUn gruppo di studenti prepara una visita. La prima lista comprende soltanto monumenti [[g5]] (famoso: accorda con il nome). Poi una ragazza chiede dove comprino il pane gli abitanti e come raggiungano la scuola. La domanda non elimina l’interesse per l’arte, ma allarga lo sguardo. Il gruppo decide di osservare anche i servizi quotidiani e di evitare un programma che obblighi a correre da una fotografia all’altra.\nLa classe divide il lavoro in tre parti. Alcuni studiano una pianta, altri cercano una testimonianza [[g6]] (pubblicato: accorda con il nome) da un’istituzione culturale, altri preparano domande sull’ambiente. Nessuno dovrà intervistare persone incontrate per strada senza chiedere prima il permesso. Nel diario di viaggio sarà sempre indicato se una frase è un’osservazione [[g7]] (personale: accorda con il nome), un’informazione ricavata da una fonte o un’ipotesi.\nDurante la visita immaginata, gli studenti si fermano davanti a un campo quasi vuoto. Non lo descrivono come «più autentico» soltanto perché ci sono meno visitatori: sarebbe un giudizio troppo rapido. Annotano ciò che vedono, ascoltano i suoni e controllano sulla mappa dove si trovano. Più tardi confrontano quell’esperienza con quella di uno spazio affollato.\nIl prodotto [[g8]] (finale: accorda con il nome) non è una classifica dei luoghi migliori. È una guida [[g9]] (breve: accorda con il nome) che propone domande e lascia il tempo di osservare. Il gruppo inserisce anche una pagina [[g10]] (pratico: accorda con il nome), ma la aggiornerà prima di un viaggio reale. Una città non coincide con il percorso scelto da chi la visita; ricordarlo può rendere il viaggio più [[g11]] (interessante: accorda con il nome) e più [[g12]] (rispettoso: accorda con il nome). Il racconto degli studenti è interamente inventato.\nPrima della partenza ogni studente preparerà una piccola pagina del diario con tre spazi: informazione controllata, osservazione e domanda. Dopo il viaggio confronterà le tre sezioni con un compagno. Se una frase mescola un fatto e un’impressione, proveranno a separarla in due. Non servirà a eliminare le emozioni dal racconto, ma a permettere al lettore di riconoscerle.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "storico"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "urbane"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "immaginario"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aggiornate"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "famosi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "pubblicata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "personale"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "finale"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "breve"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "pratica"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "interessante"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "rispettoso"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-096",
+  "title": "Una visita che comincia con una domanda (2)",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Una visita che comincia con una domanda (2) · livello medio.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "UNESCO World Heritage Centre: Venice and its Lagoon. Welterbe-Einschreibung 1987; aktuelle Objektdarstellung am Abrufdatum. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://whc.unesco.org/en/list/394/",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10 Methodische Kompetenzen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3096
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Venezia e la sua laguna fanno parte del Patrimonio mondiale UNESCO dal 1987. La scheda ufficiale presenta insieme la città e l’ambiente lagunare, sottolineando il rapporto [[g1]] (storico: accorda con il nome) fra insediamenti umani e territorio. Segnala inoltre la pressione del turismo e i cambiamenti nelle funzioni urbane. Questi elementi [[g2]] (documentato: accorda con il nome) offrono il punto di partenza per l’itinerario immaginario seguente; non costituiscono informazioni [[g3]] (aggiornato: accorda con il nome) su biglietti o prenotazioni.\nUn gruppo di studenti prepara una visita. La prima lista comprende soltanto monumenti [[g4]] (famoso: accorda con il nome). Poi una ragazza chiede dove comprino il pane gli abitanti e come raggiungano la scuola. La domanda non elimina l’interesse per l’arte, ma allarga lo sguardo. Il gruppo decide di osservare anche i servizi quotidiani e di evitare un programma che obblighi a correre da una fotografia all’altra.\nLa classe divide il lavoro in tre parti. Alcuni studiano una pianta, altri cercano una testimonianza [[g5]] (pubblicato: accorda con il nome) da un’istituzione culturale, altri preparano domande sull’ambiente. Nessuno dovrà intervistare persone incontrate per strada senza chiedere prima il permesso. Nel diario di viaggio [[g6]] (essere, futuro semplice) sempre indicato se una frase è un’osservazione personale, un’informazione ricavata da una fonte o un’ipotesi.\nDurante la visita immaginata, gli studenti si fermano davanti a un campo quasi vuoto. Non lo descrivono come «più autentico» soltanto perché ci sono meno visitatori: [[g7]] (essere) un giudizio troppo rapido. Annotano ciò che vedono, ascoltano i suoni e [[g8]] (controllare, presente) sulla mappa dove si trovano. Più tardi confrontano quell’esperienza con quella di uno spazio affollato.\nIl prodotto [[g9]] (finale: accorda con il nome) non è una classifica dei luoghi migliori. È una guida breve che propone domande e lascia il tempo di osservare. Il gruppo inserisce anche una pagina [[g10]] (pratico: accorda con il nome), ma la aggiornerà prima di un viaggio reale. Una città non coincide con il percorso scelto da chi la visita; ricordarlo può rendere il viaggio più [[g11]] (interessante: accorda con il nome) e più rispettoso. Il racconto degli studenti è interamente inventato.\nPrima della partenza ogni studente [[g12]] (preparare, futuro semplice) una piccola pagina del diario con tre spazi: informazione controllata, osservazione e domanda. Dopo il viaggio confronterà le tre sezioni con un compagno. Se una frase mescola un fatto e un’impressione, proveranno a separarla in due. Non servirà a eliminare le emozioni dal racconto, ma a permettere al lettore di riconoscerle.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "storico"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "documentati"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aggiornate"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "famosi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "pubblicata"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sarà"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "controllano"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "finale"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "pratica"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "interessante"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "preparerà"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-099",
+  "title": "Il vestito che racconta un mestiere",
+  "language": "it",
+  "level": "B1",
+  "description": "Ripasso delle strutture in testi B1 · Il vestito che racconta un mestiere · livello medio.",
+  "topics": [
+   "Ripasso delle strutture in testi B1",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "daje3-ripasso-strutture",
+   "topicTitle": "Ripasso delle strutture in testi B1",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3099
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "[[g1]] la festa della scuola non volevamo comprare costumi [[g2]] usare una sola volta. Abbiamo chiesto alle famiglie [[g3]] prestare un abito che raccontasse qualcosa del loro lavoro. La proposta sembrava semplice, ma le prime risposte ci hanno fatto cambiare idea. Non tutte le professioni hanno una divisa e non tutti vogliono essere riconosciuti attraverso il proprio mestiere.\nUna madre ha portato una giacca le cui tasche erano piene di piccoli strumenti. Un nonno ha scelto un cappello a cui teneva molto, anche se non lo metteva più. Un’altra persona ha offerto soltanto una fotografia: l’abito di cui parlava non esisteva più. Abbiamo capito che avremmo dovuto ascoltare le storie, non limitare il progetto [[g4]] oggetti.\nLa mostra è stata organizzata in coppie: un oggetto o un’immagine e un breve testo. Gli autori hanno riletto le parole con cui li descrivevamo. Alcuni hanno chiesto [[g5]] togliere il nome dell’azienda, altri hanno aggiunto una spiegazione. Una giacca macchiata di colore non raccontava soltanto fatica: [[g6]] la proprietaria ricordava il primo lavoro realizzato da sola.\nIl giorno dell’apertura una visitatrice ha domandato quale fosse l’abito più importante. Non abbiamo saputo rispondere, perché il criterio non era il valore economico. Ci interessava il rapporto [[g7]] un oggetto e chi lo aveva usato. Una divisa può rendere visibile una funzione, ma non contiene tutta una persona.\nAlla fine abbiamo restituito ogni prestito [[g8]] un’etichetta nuova, sulla quale compariva il titolo scelto dal proprietario. La classe ha conservato soltanto i testi autorizzati. Nessuno ha sfilato travestito [[g9]] qualcun altro: abbiamo preferito leggere le storie insieme, lasciando agli oggetti il loro contesto. La mostra e tutte le testimonianze sono immaginarie, create per questa attività.\nDopo la restituzione abbiamo riletto i testi senza guardare le immagini. Alcuni sembravano meno chiari: mancavano indicazioni che avevamo dato [[g10]] scontate. Li abbiamo corretti, mantenendo le parole approvate dai proprietari. Anche questa revisione è entrata [[g11]] diario del progetto.\nLa classe ha capito che un oggetto richiede spiegazioni. Questo non riduce il suo valore. Quelli che sembravano più comuni hanno suscitato molte domande. Una persona ha detto che avrebbe preferito aggiungere una registrazione. Gli studenti hanno risposto che ne avrebbero discusso [[g12]] una futura mostra.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Per"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "agli"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "fra"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "con"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "per"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-100",
+  "title": "La chiave che non apriva nulla",
+  "language": "it",
+  "level": "B1",
+  "description": "Lessico, registri e significati nel contesto · La chiave che non apriva nulla · livello medio.",
+  "topics": [
+   "Lessico, registri e significati nel contesto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Laboratorio"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+  },
+  "estimatedMinutes": 25,
+  "grammar": {
+   "topic": "daje3-lessico-contesto",
+   "topicTitle": "Lessico, registri e significati nel contesto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "order": 3100
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nella casa del farista c’era una chiave piccola legata a un filo rosso. Nessuna [[g1]] aveva una serratura [[g2]]. Il farista [[g3]] che era [[g4]], ma non [[g5]] perché. Una visitatrice [[g6]] [[g7]] a immaginare un tesoro; lui rise e le [[g8]] un cassetto vuoto.\nUn pomeriggio [[g9]] una busta gialla. Dentro c’era una [[g10]] sbiadita: due bambini [[g11]] a un cancello chiuso. Sul retro qualcuno aveva [[g12]] soltanto un indirizzo. La visitatrice pensò che il mistero fosse risolto, ma il farista [[g13]] la testa. Quel cancello non esisteva più.\nLa chiave, [[g14]] finalmente, [[g15]] alla casa in cui aveva imparato a leggere. La porta era stata sostituita molti anni prima, eppure lui [[g16]] l’oggetto. Non serviva a entrare in una stanza; gli [[g17]] la persona che gli aveva [[g18]] quella stanza quando era [[g19]]. Non c’erano documenti [[g20]] né monete antiche.\nLa visitatrice [[g21]] di nuovo il filo e notò un nodo irregolare. «Quello l’ho [[g22]] io», [[g23]] il farista. Il mistero non aveva una soluzione spettacolare. Aveva una storia che diventava visibile soltanto quando qualcuno decideva di raccontarla. La visitatrice rinunciò al titolo che aveva preparato e ne scrisse uno più [[g24]]: «Una chiave, una persona». Il [[g25]] è originale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "porta"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "adatta"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diceva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "preziosa"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "spiegava"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "curiosa"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "provò"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "mostrò"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "arrivò"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "fotografia"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "davanti"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "scritto"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "scosse"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "raccontò"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "apparteneva"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "conservava"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "ricordava"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "aperto"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "bambino"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "segreti"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "osservò"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "fatto"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "disse"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "semplice"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "racconto"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-102",
+  "title": "Chi decide se una parola esiste?",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Chi decide se una parola esiste? · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Accademia della Crusca: Parole nuove. 23.04.2012; Seite erläutert auch die seit November 2018 verwendete Struktur. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 20,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3102
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici osservati nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una parola condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata dagli studenti. Alcuni dicono che [[g1]] (essere, indicativo presente) già italiana perché tutti la capiscono. Altri pensano che [[g2]] (dovere, congiuntivo presente) comparire prima in un dizionario. La discussione sembra bloccata, finché una ragazza domanda: «Di quale gruppo stiamo parlando quando diciamo tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata altrove.\nGli studenti [[g3]] (preparare, presente) tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella seconda raccolgono un termine già esistente che ha acquistato un significato nuovo. Nella terza [[g4]] (osservare, presente) un prestito da un’altra lingua. Non cercano di dimostrare che una categoria [[g5]] (essere, congiuntivo presente) migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario [[g6]] (registrare, indicativo presente) parole usate da molte persone. Un altro teme che una ricerca online [[g7]] (dare, congiuntivo presente) risultati ingannevoli: cento copie dello stesso messaggio non [[g8]] (essere, presente) cento esempi indipendenti. L’insegnante è d’accordo sul problema e chiede che ogni gruppo [[g9]] (indicare, congiuntivo presente) la provenienza degli esempi. Nessuno deve raccogliere conversazioni private o nomi di compagni senza consenso.\nAlla fine non viene eletta la parola più bella. Ogni gruppo presenta un dubbio: forse il termine durerà, forse scomparirà, forse cambierà significato. Gli studenti sanno che la lingua [[g10]] (cambiare, indicativo presente), ma non possono prevedere ogni cambiamento. È possibile che un’espressione [[g11]] (rimanere, congiuntivo presente) limitata a un ambiente; è altrettanto possibile che altre persone [[g12]] (adottare, loro, congiuntivo presente con pronome) per una ragione nuova.\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un premio a chi [[g13]] (avere) indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede curiosità e attenzione alle persone che la [[g14]] (parlare, presente). Il racconto della classe e tutte le sue battute [[g15]] (essere, presente) originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la presentazione finale, ogni scheda distingue inoltre una definizione da un esempio. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un lettore esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco chiara, la riscrivono. Il lavoro non produce un dizionario completo: offre un piccolo esercizio di osservazione, con fonti dichiarate e limiti visibili. Anche chi non ama inventare parole può partecipare controllando gli esempi e formulando domande.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "debba"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "preparano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "osservano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "registra"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dia"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "indichi"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cambia"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "rimanga"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "la adottino"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "parlano"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. venire — congiuntivo imperfetto — voi → [[g1]]\n2. fare — congiuntivo imperfetto — noi → [[g2]]\n3. vendere — congiuntivo imperfetto — noi → [[g3]]\n4. temere — congiuntivo imperfetto — loro → [[g4]]\n5. vendere — congiuntivo imperfetto — tu → [[g5]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "veniste"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "facessimo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vendessimo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "temessero"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vendessi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-103",
+  "title": "Il sentiero interrotto (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il sentiero interrotto (1) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3103
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La mattina della passeggiata Marta [[g1]] (controllare) il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non [[g2]] (essere) praticabile. Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida [[g3]] (proporre) un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta [[g4]] (conoscere) quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo [[g5]] (domandare, forma composta) chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida [[g6]] (spiegare, forma composta) che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. [[g7]] (avere) però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "controllava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "conosceva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha domandato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Aveva"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-108",
+  "title": "Una lettera sulle luci accese",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Una lettera sulle luci accese · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3108
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, [[g1]] (notare, io) che alcune aule vuote [[g2]] (avere) ancora le luci accese. Io non [[g3]] (sapere, io) chi dovesse spegnerle e non voglio accusare una persona senza conoscere l’organizzazione. [[g4]] (volere, io, condizionale) però capire se esista una procedura chiara.\nLa nostra classe [[g5]] (discutere) il problema e [[g6]] (preparare) una proposta. I rappresentanti [[g7]] (potere, loro, condizionale) incontrare il personale e chiedere quali controlli siano già previsti. Noi [[g8]] (pensare, noi) che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti possono credere che lo farà qualcun altro.\nIl custode ci [[g9]] (spiegare) che alcuni locali vengono usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse utile un calendario visibile. Lui [[g10]] (rispondere) che lo [[g11]] (discutere, forma composta) con i colleghi.\nPer una settimana osserveremo soltanto le aree che siamo autorizzati a controllare. Non toccheremo impianti e non pubblicheremo nomi. Alla fine presenteremo ciò che abbiamo visto, distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma [[g12]] (potere) essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho notato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "avevano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "so"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha discusso"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha preparato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "potrebbero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "pensiamo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha risposto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "avrebbe discusso"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-111",
+  "title": "Una fotografia trovata in rete",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Una fotografia trovata in rete · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Europeana PRO: Understanding the rights statements used by Europeana. 06.02.2015; aktualisiert 11.10.2024. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://pro.europeana.eu/index.php/page/available-rights-statements",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3111
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Europeana accompagna gli oggetti digitali con indicazioni sui diritti, che aiutano a comprendere come possano essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non sostituisce la verifica del singolo oggetto.\nNel racconto che segue, una redazione scolastica trova una fotografia perfetta per il proprio [[g1]]. Mostra una piazza in un giorno di mercato e potrebbe [[g2]] un articolo sulle trasformazioni del quartiere. Il [[g3]] impulso è scaricarla e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda completa.\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato giuridico. I ragazzi capiscono che citare una fonte e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non trovando subito una [[g4]] chiara per l’uso previsto, scelgono di non inserire la fotografia. Possono comunque descrivere la ricerca e offrire un collegamento alla scheda, senza ripubblicare il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato sulla propria osservazione della piazza [[g5]]. Il disegno non viene presentato come una ricostruzione storica. Una [[g6]] [[g7]] che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono stati semplificati. Nel testo, invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta richiede più tempo di un semplice download, ma [[g8]] una domanda utile: quali informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale pubblica un piccolo riquadro con autore, istituzione, titolo e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né attribuiti permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il controllo: la scelta fatta per un oggetto non vale automaticamente per tutti gli altri.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "giornale"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "accompagnare"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "primo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "risposta"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "attuale"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "didascalia"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "precisa"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "produce"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-112",
+  "title": "Un colloquio diverso",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Un colloquio diverso · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3112
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando [[g1]] (leggere, forma composta) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione [[g3]] una festa e possedevo alcune competenze utili. Nella candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g4]] gruppo.\nLa responsabile mi ha invitato a [[g5]] colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito [[g6]] un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima [[g7]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\n[[g8]] contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. [[g9]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor [[g10]] (a me, il narratore) ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho letto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "cercherei"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "Alla"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "a"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-115",
+  "title": "La carta dei suoni (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · La carta dei suoni (1) · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3115
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel nostro istituto è arrivata una classe di scambio. Invece di organizzare subito una visita ai monumenti, abbiamo proposto una passeggiata dedicata ai suoni. Ogni gruppo [[g1]] scegliere un luogo e descriverlo senza usare il suo nome. Gli altri avrebbero provato a riconoscerlo leggendo la descrizione. Non era una gara di velocità: serviva a notare [[g2]] che [[g3]] ignoriamo.\nAll’inizio alcuni studenti temevano di non conoscere abbastanza parole. Una ragazza ha suggerito di usare anche confronti: un rumore poteva ricordare la pioggia, un cassetto o un foglio strappato. Chi non trovava un termine poteva [[g4]] il movimento che lo produceva. Un compagno ha disegnato una porta; un altro ha scritto due righe nella propria lingua e poi le ha riformulate in italiano con l’aiuto del gruppo.\nLa prima descrizione riguardava una fontana. Sembrava facile, ma molti l’hanno confusa con il traffico [[g5]] da lontano. Per [[g6]] il testo, gli autori hanno aggiunto una pausa e una variazione di intensità. La seconda descrizione, invece, era troppo dettagliata: il nome del negozio [[g7]] di [[g8]] senza leggere il resto. È stato necessario togliere un’informazione, non aggiungerla.\nAlla fine abbiamo costruito una carta dei suoni con brevi testi e simboli. Le registrazioni erano facoltative e non contenevano conversazioni riconoscibili. La carta non pretende di rappresentare tutta la città: raccoglie un percorso e un momento. Quando la rileggeremo in un’altra stagione, alcuni suoni saranno diversi. Anche questo farà parte del progetto, perché descrivere un luogo significa scegliere che cosa osservare e ricordare quando lo abbiamo osservato.\nAlla [[g9]], ogni gruppo leggerà il testo di un altro. Questo passaggio servirà a verificare se la descrizione funziona anche senza la voce dell’autore. Se un dettaglio non sarà comprensibile, lo discuteremo prima di correggerlo. Una parola insolita non è automaticamente [[g10]]: può richiedere un esempio o una [[g11]]. L’[[g12]] è costruire un testo che un lettore diverso da noi possa seguire.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "doveva"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "dettagli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "spesso"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "spiegare"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ascoltato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "chiarire"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "permetteva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "indovinare"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "presentazione"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sbagliata"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "spiegazione"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "obiettivo"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-116",
+  "title": "Il sentiero interrotto (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il sentiero interrotto (2) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3116
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La mattina della passeggiata Marta [[g1]] (controllare) il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo [[g2]] (ricevere) un messaggio dalla guida. Il percorso previsto non era praticabile. Marta [[g3]] (preparare) lo zaino la sera prima e [[g4]] (essere) delusa, ma non voleva rinunciare all’intera giornata.\nLa guida [[g5]] (proporre) un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e [[g6]] (fermarsi) nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta conosceva quel paese soltanto come un punto sulla carta; ora [[g7]] (scoprire) un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo [[g8]] (domandare, forma composta) chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e [[g9]] (indicare, forma composta) i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale [[g10]] (rimanere, forma composta; accordo con il soggetto) escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta [[g11]] (scrivere, forma composta) che il viaggio non era andato come previsto. [[g12]] (avere) però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "controllava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aveva ricevuto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveva preparato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si è fermato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "scopriva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha domandato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha indicato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "è rimasto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Aveva"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-118",
+  "title": "La corsa a coppie",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · La corsa a coppie · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3118
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "La squadra della scuola [[g1]] (preparare) una corsa a coppie nel parco. Il regolamento prevedeva che i compagni arrivassero insieme, non che uno aspettasse l’altro soltanto alla fine. Giulia [[g2]] (correre) più velocemente di Eva e all’inizio [[g3]] (pensare) che avrebbe dovuto rallentare senza ottenere nulla in cambio.\nPrima della partenza le due ragazze hanno parlato del percorso. Eva [[g4]] (osservare) bene la mappa e [[g5]] (individuare) alcuni punti in cui era facile sbagliare direzione. Giulia invece [[g6]] (provare) la salita e sapeva dove conveniva mantenere un ritmo regolare. Si sono divise i compiti senza fare una gara fra le proprie capacità.\nDurante la corsa Giulia [[g7]] (prendere) una curva troppo presto. Eva [[g8]] (chiamare con pronome diretto femminile singolare) e le due sono tornate sul percorso. Poco dopo Eva [[g9]] (rallentare). Giulia [[g10]] (adattare) il passo e ha proposto di ripartire insieme dopo una breve pausa. Nessuna delle due [[g11]] (accusare) l’altra.\nAll’arrivo non [[g12]] (essere) prime, ma avevano rispettato la regola che rendeva diversa quella corsa. L’organizzatore [[g13]] (chiedere) a ogni coppia che cosa avesse imparato. Giulia ha risposto che conoscere il percorso contava quanto essere veloci; Eva [[g14]] (aggiungere, forma composta) che chiedere di rallentare non significava rinunciare. La gara è immaginaria e non offre indicazioni per un allenamento reale.\nPrima di tornare a casa, le ragazze hanno riletto insieme il regolamento. All’inizio [[g15]] (notare, forma composta) soprattutto la distanza e l’orario di partenza. Ora vedevano la frase sull’arrivo in coppia in modo diverso. Non era un ostacolo aggiunto alla corsa: [[g16]] (essere) il motivo per cui l’attività richiedeva collaborazione.\nNel diario del gruppo [[g17]] (descrivere, forma composta) due decisioni concrete, evitando di scrivere soltanto che «è stato bello stare insieme». Hanno raccontato la curva sbagliata e il cambiamento di ritmo, perché quei passaggi mostravano come si erano aiutate. Al prossimo incontro avrebbero ascoltato le altre coppie. Forse qualcuno [[g18]] (trovare, forma composta) un modo diverso di organizzarsi e avrebbe potuto spiegarlo. Anche dopo l’arrivo restava qualcosa da imparare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ha osservato",
+       "aveva preparato",
+       "aveva osservato"
+      ],
+      "answer": "aveva preparato"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "correva",
+       "era",
+       "è stato"
+      ],
+      "answer": "correva"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "pensava",
+       "è stato",
+       "era"
+      ],
+      "answer": "pensava"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "aveva osservato",
+       "ha osservato",
+       "osserverà"
+      ],
+      "answer": "aveva osservato"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "aveva osservato",
+       "aveva individuato",
+       "ha osservato"
+      ],
+      "answer": "aveva individuato"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ha osservato",
+       "aveva provato",
+       "aveva osservato"
+      ],
+      "answer": "aveva provato"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "osservava",
+       "ha preso",
+       "ha osservato"
+      ],
+      "answer": "ha preso"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "osservava",
+       "ha osservato",
+       "l’ha chiamata"
+      ],
+      "answer": "l’ha chiamata"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "ha osservato",
+       "ha rallentato",
+       "osservava"
+      ],
+      "answer": "ha rallentato"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "ha adattato",
+       "ha osservato",
+       "osservava"
+      ],
+      "answer": "ha adattato"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "ha osservato",
+       "osservava",
+       "ha accusato"
+      ],
+      "answer": "ha accusato"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "erano",
+       "è stato",
+       "era"
+      ],
+      "answer": "erano"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "osservava",
+       "ha chiesto",
+       "ha osservato"
+      ],
+      "answer": "ha chiesto"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "ha osservato",
+       "osservava",
+       "ha aggiunto"
+      ],
+      "answer": "ha aggiunto"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "avevano notato",
+       "aveva osservato",
+       "ha osservato"
+      ],
+      "answer": "avevano notato"
+     },
+     {
+      "id": "g16",
+      "options": [
+       "era",
+       "sarà",
+       "è stato"
+      ],
+      "answer": "era"
+     },
+     {
+      "id": "g17",
+      "options": [
+       "hanno descritto",
+       "osservava",
+       "ha osservato"
+      ],
+      "answer": "hanno descritto"
+     },
+     {
+      "id": "g18",
+      "options": [
+       "aveva trovato",
+       "aveva osservato",
+       "ha osservato"
+      ],
+      "answer": "aveva trovato"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-120",
+  "title": "Il giardino dietro la mensa",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il giardino dietro la mensa · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3120
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Dietro la mensa scolastica c’era [[g1]] spazio che nessuno usava. L’erba cresceva fra le pietre e il cancello rimaneva quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in [[g2]] giardino, ma [[g3]] progetto era rimasto in un cassetto. Quando la nuova preside lo ha letto, ha invitato gli autori a discuterne.\nLa prima riunione non è stata semplice. [[g4]] gruppo voleva piantare fiori, [[g5]] altro preferiva gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato [[g6]] problema con l’acqua. Prima di comprare qualcosa, abbiamo misurato lo spazio e abbiamo osservato dove arrivava [[g7]] sole.\nIl sabato successivo sono venute anche alcune famiglie. [[g8]] madre aveva portato guanti di varie misure, mentre [[g9]] vicino aveva preparato due cassette di legno. Noi lavoravamo a piccoli gruppi. Chi non conosceva gli attrezzi chiedeva aiuto, e nessuno aveva fretta di finire.\nA giugno il giardino non era perfetto. Alcune piante sono cresciute, altre no. Abbiamo capito che [[g10]] fotografia del primo giorno non racconta tutto [[g11]] lavoro necessario dopo. Perciò abbiamo organizzato i turni estivi e abbiamo lasciato un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. [[g12]] giardino ci insegna soprattutto a tornare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "uno"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Un"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Una"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-121",
+  "title": "Una lettera sulle luci accese",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Una lettera sulle luci accese · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3121
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, ho notato che alcune aule vuote avevano ancora le luci accese. Io non so chi dovesse [[g1]] e non voglio accusare una persona senza conoscere l’organizzazione. Vorrei però capire se esista una procedura chiara.\nLa [[g2]] [[g3]] ha discusso il problema e ha preparato una [[g4]]. I rappresentanti potrebbero incontrare il personale e chiedere quali controlli siano già [[g5]]. Noi pensiamo che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti [[g6]] credere che lo farà qualcun altro.\nIl custode ci ha spiegato che alcuni locali [[g7]] usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse [[g8]] un calendario visibile. Lui ha risposto che lo avrebbe discusso con i colleghi.\nPer una settimana osserveremo soltanto le aree che [[g9]] autorizzati a controllare. Non toccheremo [[g10]] e non pubblicheremo nomi. Alla fine [[g11]] ciò che abbiamo [[g12]], distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma potrebbe essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "nostra",
+       "classe",
+       "spegnerle"
+      ],
+      "answer": "spegnerle"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "spegnerle",
+       "nostra",
+       "classe"
+      ],
+      "answer": "nostra"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "nostra",
+       "spegnerle",
+       "classe"
+      ],
+      "answer": "classe"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "nostra",
+       "proposta",
+       "spegnerle"
+      ],
+      "answer": "proposta"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "spegnerle",
+       "nostra",
+       "previsti"
+      ],
+      "answer": "previsti"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "spegnerle",
+       "possono",
+       "nostra"
+      ],
+      "answer": "possono"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "spegnerle",
+       "nostra",
+       "vengono"
+      ],
+      "answer": "vengono"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "nostra",
+       "spegnerle",
+       "utile"
+      ],
+      "answer": "utile"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "siamo",
+       "spegnerle",
+       "nostra"
+      ],
+      "answer": "siamo"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "impianti",
+       "spegnerle",
+       "nostra"
+      ],
+      "answer": "impianti"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "presenteremo",
+       "nostra",
+       "spegnerle"
+      ],
+      "answer": "presenteremo"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "nostra",
+       "visto",
+       "spegnerle"
+      ],
+      "answer": "visto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-123",
+  "title": "Il gruppo dei messaggi (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il gruppo dei messaggi (1) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3123
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La nostra famiglia [[g1]] (usare) un gruppo di messaggi per organizzare pranzi e visite. All’inizio [[g2]] (sembrare) comodo, poi sono aumentate le fotografie e le battute. Mia zia [[g3]] (cercare) l’orario di un appuntamento e non [[g4]] (riuscire) a trovarlo. Un giorno [[g5]] (scrivere): «Potete mandarmi soltanto l’informazione che serve?».\nNessuno [[g6]] (volere) escluderla. Mio cugino [[g7]] (proporre) un secondo gruppo per gli avvisi pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna [[g8]] (spiegare) che leggeva i messaggi una volta al giorno, non continuamente. [[g9]] (indiretto, alla nonna) abbiamo chiesto quale sistema preferisse e lei [[g10]] (scegliere) una telefonata per gli accordi urgenti.\nDopo quella discussione abbiamo cambiato poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa [[g11]] (diretto, qualcosa che si organizza) comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se [[g12]] (essere, presente) d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. Tuttavia discutiamo meno, perché sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "usava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sembrava"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "cercava"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "riusciva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha scelto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-124",
+  "title": "Il gruppo dei messaggi (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il gruppo dei messaggi (2) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3124
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La nostra famiglia [[g1]] (usare) un gruppo di messaggi per organizzare pranzi e visite. All’inizio [[g2]] (sembrare) comodo, poi [[g3]] (aumentare, femminile plurale) le fotografie e le battute. Mia zia [[g4]] (cercare) l’orario di un appuntamento e non [[g5]] (riuscire) a trovarlo. Un giorno [[g6]] (scrivere): «Potete mandarmi soltanto l’informazione che serve?».\nNessuno [[g7]] (volere) escluderla. Mio cugino [[g8]] (proporre) un secondo gruppo per gli avvisi pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna [[g9]] (spiegare) che leggeva i messaggi una volta al giorno, non continuamente. Le abbiamo chiesto quale sistema preferisse e lei [[g10]] (scegliere) una telefonata per gli accordi urgenti.\nDopo quella discussione [[g11]] (cambiare, noi) poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa lo comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. Tuttavia discutiamo meno, perché sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "usava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sembrava"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono aumentate"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "cercava"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "riusciva"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ha scelto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "abbiamo cambiato"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. vedere — passato prossimo — noi → [[g1]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abbiamo visto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-125",
+  "title": "Il gruppo dei messaggi (3)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Il gruppo dei messaggi (3) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3125
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "La nostra famiglia [[g1]] (usare) un gruppo di messaggi per organizzare pranzi e visite. All’inizio [[g2]] (sembrare) comodo, poi sono aumentate le fotografie e le battute. Mia zia [[g3]] (cercare) l’orario di un appuntamento e non [[g4]] (riuscire) a trovarlo. Un giorno [[g5]] (scrivere): «Potete mandar[[g6]] (indiretto, a me) soltanto l’informazione che serve?».\nNessuno voleva escluderla. Mio cugino [[g7]] (proporre) un secondo gruppo per gli avvisi pratici. [[g8]] (indiretto, a mio cugino) abbiamo risposto che forse bastava usare un titolo chiaro. La nonna [[g9]] (spiegare) che leggeva i messaggi una volta al giorno, non continuamente. [[g10]] (indiretto, alla nonna) abbiamo chiesto quale sistema preferisse e lei ha scelto una telefonata per gli accordi urgenti.\nDopo quella discussione [[g11]] (cambiare, noi) poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa [[g12]] (diretto, qualcosa che si organizza) comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. Tuttavia discutiamo meno, perché sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "usava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sembrava"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "cercava"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "riusciva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha proposto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ha spiegato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "abbiamo cambiato"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-126",
+  "title": "La cartolina difficile da leggere",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · La cartolina difficile da leggere · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3126
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Durante [[g1]] (articolo indeterminativo) laboratorio di scrittura abbiamo ricevuto una cartolina inventata dall’insegnante. [[g2]] messaggio era breve, ma alcune lettere si somigliavano. Prima abbiamo provato a leggerlo da soli; poi abbiamo confrontato le interpretazioni. In un punto qualcuno leggeva «casa», qualcun altro «cosa». [[g3]] contesto aiutava, ma non eliminava ogni dubbio.\nL’insegnante ci ha chiesto di non correggere subito la parola incerta. Dovevamo segnare [[g4]] alternative e spiegare perché ciascuna sembrasse possibile. Quando abbiamo letto il resto della frase, [[g5]] soluzione è diventata più probabile. Tuttavia abbiamo mantenuto il punto interrogativo finché non abbiamo visto l’originale stampato.\n[[g6]] studenti che scrivevano in modo molto ordinato pensavano di essere avvantaggiati. Invece leggere [[g7]] grafia diversa richiedeva un’attenzione nuova anche a loro. L’esercizio non serviva a scegliere [[g8]] quaderno più bello, bensì a distinguere osservazione e interpretazione.\nAlla fine ognuno ha scritto una breve istruzione per [[g9]] compagno. Se il destinatario non la capiva, l’autore doveva chiarirla senza irritarsi. Abbiamo scoperto che [[g10]] frase può essere difficile anche quando tutte le lettere sono leggibili. Perciò abbiamo rivisto sia la grafia sia le parole. Infine abbiamo conservato due versioni: quella iniziale e quella corretta. Il confronto mostrava [[g11]] lavoro svolto, non soltanto il risultato. Così [[g12]] cartolina fittizia è diventata un’occasione per pensare a chi legge.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "una"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-128",
+  "title": "Passato remoto",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Passato remoto · livello difficile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 eA 1.2"
+  },
+  "estimatedMinutes": 24,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3128
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. essere — passato remoto — io → [[g1]]\n2. essere — passato remoto — tu → [[g2]]\n3. essere — passato remoto — lui/lei → [[g3]]\n4. essere — passato remoto — noi → [[g4]]\n5. essere — passato remoto — voi → [[g5]]\n6. essere — passato remoto — loro → [[g6]]\n7. avere — passato remoto — io → [[g7]]\n8. avere — passato remoto — tu → [[g8]]\n9. avere — passato remoto — lui/lei → [[g9]]\n10. avere — passato remoto — noi → [[g10]]\n11. avere — passato remoto — voi → [[g11]]\n12. avere — passato remoto — loro → [[g12]]\n13. fare — passato remoto — io → [[g13]]\n14. fare — passato remoto — tu → [[g14]]\n15. fare — passato remoto — lui/lei → [[g15]]\n16. fare — passato remoto — noi → [[g16]]\n17. fare — passato remoto — voi → [[g17]]\n18. fare — passato remoto — loro → [[g18]]\n19. dire — passato remoto — io → [[g19]]\n20. dire — passato remoto — tu → [[g20]]\n21. dire — passato remoto — lui/lei → [[g21]]\n22. dire — passato remoto — noi → [[g22]]\n23. dire — passato remoto — voi → [[g23]]\n24. dire — passato remoto — loro → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "fui"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fosti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "fu"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "fummo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "foste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "furono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ebbi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avesti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ebbe"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avemmo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "aveste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "ebbero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "feci"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "facesti"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "fece"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "facemmo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "faceste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "fecero"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "dissi"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "dicesti"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "disse"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "dicemmo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "diceste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "dissero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-130",
+  "title": "La cartolina difficile da leggere",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · La cartolina difficile da leggere · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3130
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Durante un laboratorio di scrittura [[g1]] ricevuto una cartolina inventata dall’insegnante. Il messaggio era breve, ma alcune lettere si somigliavano. Prima abbiamo provato a leggerlo da soli; poi abbiamo confrontato le interpretazioni. In un punto qualcuno leggeva «casa», qualcun altro «cosa». Il contesto aiutava, ma non eliminava ogni dubbio.\nL’insegnante ci ha chiesto di non correggere subito la parola incerta. Dovevamo [[g2]] le alternative e spiegare perché ciascuna [[g3]] possibile. Quando abbiamo letto il resto della frase, una soluzione è diventata più probabile. Tuttavia abbiamo mantenuto il punto [[g4]] finché non abbiamo visto l’originale stampato.\nGli studenti che scrivevano in modo molto ordinato pensavano di essere [[g5]]. Invece leggere una [[g6]] diversa [[g7]] un’attenzione nuova anche a loro. L’esercizio non serviva a scegliere il quaderno più bello, [[g8]] a distinguere osservazione e interpretazione.\nAlla fine ognuno ha scritto una breve istruzione per un compagno. Se il [[g9]] non la capiva, l’autore doveva chiarirla senza irritarsi. Abbiamo scoperto che una frase può essere difficile anche quando tutte le lettere sono [[g10]]. Perciò abbiamo [[g11]] sia la grafia sia le parole. Infine abbiamo conservato due versioni: quella iniziale e quella corretta. Il confronto mostrava il lavoro [[g12]], non soltanto il risultato. Così una cartolina fittizia è diventata un’occasione per pensare a chi legge.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abbiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "segnare"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sembrasse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "interrogativo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avvantaggiati"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "grafia"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "richiedeva"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "bensì"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "destinatario"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "leggibili"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "rivisto"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "svolto"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-134",
+  "title": "Congiuntivo imperfetto (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Congiuntivo imperfetto (1) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 36,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3134
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. essere — congiuntivo imperfetto — io → [[g1]]\n2. essere — congiuntivo imperfetto — tu → [[g2]]\n3. essere — congiuntivo imperfetto — lui/lei → [[g3]]\n4. essere — congiuntivo imperfetto — noi → [[g4]]\n5. essere — congiuntivo imperfetto — voi → [[g5]]\n6. essere — congiuntivo imperfetto — loro → [[g6]]\n7. avere — congiuntivo imperfetto — io → [[g7]]\n8. avere — congiuntivo imperfetto — tu → [[g8]]\n9. avere — congiuntivo imperfetto — lui/lei → [[g9]]\n10. avere — congiuntivo imperfetto — noi → [[g10]]\n11. avere — congiuntivo imperfetto — voi → [[g11]]\n12. avere — congiuntivo imperfetto — loro → [[g12]]\n13. parlare — congiuntivo imperfetto — io → [[g13]]\n14. parlare — congiuntivo imperfetto — tu → [[g14]]\n15. parlare — congiuntivo imperfetto — lui/lei → [[g15]]\n16. parlare — congiuntivo imperfetto — noi → [[g16]]\n17. parlare — congiuntivo imperfetto — voi → [[g17]]\n18. parlare — congiuntivo imperfetto — loro → [[g18]]\n19. ricevere — congiuntivo imperfetto — io → [[g19]]\n20. ricevere — congiuntivo imperfetto — tu → [[g20]]\n21. ricevere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. ricevere — congiuntivo imperfetto — noi → [[g22]]\n23. ricevere — congiuntivo imperfetto — voi → [[g23]]\n24. ricevere — congiuntivo imperfetto — loro → [[g24]]\n25. dormire — congiuntivo imperfetto — io → [[g25]]\n26. dormire — congiuntivo imperfetto — tu → [[g26]]\n27. dormire — congiuntivo imperfetto — lui/lei → [[g27]]\n28. dormire — congiuntivo imperfetto — noi → [[g28]]\n29. dormire — congiuntivo imperfetto — voi → [[g29]]\n30. dormire — congiuntivo imperfetto — loro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "fossi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fossi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "fosse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "fossimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "foste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "fossero"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avessi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avessi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avesse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avessimo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "aveste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "avessero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "parlassi"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "parlassi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "parlasse"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "parlassimo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "parlaste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "parlassero"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "ricevessi"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "ricevessi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "ricevesse"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "ricevessimo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "riceveste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "ricevessero"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "dormissi"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "dormissi"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "dormisse"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "dormissimo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "dormiste"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "dormissero"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "31. venire — congiuntivo imperfetto — io → [[g1]]\n32. venire — congiuntivo imperfetto — tu → [[g2]]\n33. venire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. venire — congiuntivo imperfetto — noi → [[g4]]\n35. venire — congiuntivo imperfetto — voi → [[g5]]\n36. venire — congiuntivo imperfetto — loro → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "venissi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "venissi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "venisse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "venissimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "veniste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "venissero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-136",
+  "title": "Se potessimo scegliere: sei proposte",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Se potessimo scegliere: sei proposte · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3136
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io aprirei una piccola sala di registrazione. Non credo che tutti [[g1]] voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, potremmo registrare racconti in varie lingue. Ogni classe sceglierebbe un tema e qualcuno curerebbe il montaggio. Non comprerei subito strumenti [[g2]]: prima chiederei in prestito quelli disponibili. Sarebbe necessario stabilire chi conserva le [[g3]] e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce [[g4]] fuori».\nB — Bruno: «A me piacerebbe un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto verrebbe una volta al mese e noi impareremmo osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non sarebbe soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non sarebbe risolto: non tutti riescono a concentrarsi nello stesso modo. Io metterei pochi tavoli e una luce [[g5]] alla [[g6]]. Credo che sia [[g7]] non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio farebbero più rumore del resto. Non chiederei prenotazioni lunghe; [[g8]] l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un [[g9]] potrebbe lasciare un biglietto e chi sa rispondere fisserebbe un incontro. Vorrei che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo [[g10]] il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io inizierei con una sola materia e dopo un mese valuterei i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, controllerei che siano [[g11]] e complete. Sarebbe ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione [[g12]]. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni potrebbe essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi raccoglieremmo osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io scriverei un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abbiano"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "costosi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "registrazioni"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "restare"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "adatta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "lettura"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "importante"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "limiterei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "argomento"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sostituisca"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "pulite"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "economica"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-137",
+  "title": "Due accordi da chiarire (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Due accordi da chiarire (1) · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3137
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Dialogo A — In una sala condivisa.\nNina: [[g1]] (avere, imperfetto) prenotato questa stanza per le cinque. Vedo però che state ancora provando.\nLeo: In effetti, abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\nNina: A dire il vero, abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città.\nLeo: [[g2]] (accettazione), finiamo questo passaggio e liberiamo il tavolo. Dove preferite che mettiamo le sedie?\nNina: Lasciatele in cerchio. Anzi, tenetene due vicino alla porta: ci serviranno per gli ospiti.\nLeo: Bene. Allora, vi avviso appena siamo pronti.\nNina: Grazie. Comunque, per la prossima volta controlliamo insieme il calendario.\n\nDialogo B — Prima di una consegna.\nMilo: [[g3]] (finire, forma composta) il testo, ma non so se mandarlo subito alla redazione.\nAda: Secondo me, manca ancora il controllo dei nomi. Non è un dettaglio.\nMilo: Certo, hai ragione. [[g4]] (chiedere, forma composta) una conferma e non è arrivata.\nAda: Intanto, possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\nMilo: Sì, ma il collegamento è molto lungo.\nAda: [[g5]] (introduzione di un caso), potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\nMilo: Capisco. Quindi, aspettiamo i nomi e sistemiamo il resto.\nAda: Esatto. Insomma, il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo.\nI due dialoghi [[g6]] (essere, presente) originali e descrivono situazioni immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "era",
+       "Avevamo",
+       "è stato"
+      ],
+      "answer": "Avevamo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Ho finito",
+       "Avevamo",
+       "D’accordo"
+      ],
+      "answer": "D’accordo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Ho finito",
+       "osservava",
+       "ha osservato"
+      ],
+      "answer": "Ho finito"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Avevo chiesto",
+       "ha osservato",
+       "aveva osservato"
+      ],
+      "answer": "Avevo chiesto"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Avevamo",
+       "Per esempio",
+       "D’accordo"
+      ],
+      "answer": "Per esempio"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "durante",
+       "prima",
+       "sono"
+      ],
+      "answer": "sono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-140",
+  "title": "Due accordi da chiarire (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Due accordi da chiarire (2) · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3140
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Dialogo A — In una sala condivisa.\nNina: [[g1]] (avere, imperfetto) prenotato questa stanza per le cinque. Vedo però che state ancora provando.\nLeo: In effetti, abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\nNina: A dire il vero, abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città.\nLeo: [[g2]] (accettazione), finiamo questo passaggio e liberiamo il tavolo. Dove preferite che mettiamo le sedie?\nNina: Lasciatele in cerchio. Anzi, tenetene due vicino alla porta: ci serviranno per gli ospiti.\nLeo: Bene. Allora, vi avviso appena siamo pronti.\nNina: Grazie. Comunque, per la prossima volta controlliamo insieme il calendario.\n\nDialogo B — Prima di una consegna.\nMilo: [[g3]] (finire, forma composta) il testo, ma non so se mandarlo subito alla redazione.\nAda: Secondo me, manca ancora il controllo dei nomi. Non è un dettaglio.\nMilo: Certo, hai ragione. [[g4]] (chiedere, forma composta) una conferma e non è arrivata.\nAda: Intanto, possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\nMilo: Sì, ma il collegamento è molto lungo.\nAda: [[g5]] (introduzione di un caso), potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\nMilo: Capisco. Quindi, aspettiamo i nomi e sistemiamo il resto.\nAda: Esatto. Insomma, il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo.\nI due dialoghi [[g6]] (essere, presente) originali e descrivono situazioni immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "era",
+       "Avevamo",
+       "è stato"
+      ],
+      "answer": "Avevamo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Avevamo",
+       "D’accordo",
+       "Ho finito"
+      ],
+      "answer": "D’accordo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Ho finito",
+       "osservava",
+       "ha osservato"
+      ],
+      "answer": "Ho finito"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Avevo chiesto",
+       "ha osservato",
+       "aveva osservato"
+      ],
+      "answer": "Avevo chiesto"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "D’accordo",
+       "Per esempio",
+       "Avevamo"
+      ],
+      "answer": "Per esempio"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "durante",
+       "prima",
+       "sono"
+      ],
+      "answer": "sono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-141",
+  "title": "Congiuntivo imperfetto (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Congiuntivo imperfetto (2) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 36,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3141
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. fare — congiuntivo imperfetto — io → [[g1]]\n2. fare — congiuntivo imperfetto — tu → [[g2]]\n3. fare — congiuntivo imperfetto — lui/lei → [[g3]]\n4. fare — congiuntivo imperfetto — noi → [[g4]]\n5. fare — congiuntivo imperfetto — voi → [[g5]]\n6. fare — congiuntivo imperfetto — loro → [[g6]]\n7. dire — congiuntivo imperfetto — io → [[g7]]\n8. dire — congiuntivo imperfetto — tu → [[g8]]\n9. dire — congiuntivo imperfetto — lui/lei → [[g9]]\n10. dire — congiuntivo imperfetto — noi → [[g10]]\n11. dire — congiuntivo imperfetto — voi → [[g11]]\n12. dire — congiuntivo imperfetto — loro → [[g12]]\n13. potere — congiuntivo imperfetto — io → [[g13]]\n14. potere — congiuntivo imperfetto — tu → [[g14]]\n15. potere — congiuntivo imperfetto — lui/lei → [[g15]]\n16. potere — congiuntivo imperfetto — noi → [[g16]]\n17. potere — congiuntivo imperfetto — voi → [[g17]]\n18. potere — congiuntivo imperfetto — loro → [[g18]]\n19. volere — congiuntivo imperfetto — io → [[g19]]\n20. volere — congiuntivo imperfetto — tu → [[g20]]\n21. volere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. volere — congiuntivo imperfetto — noi → [[g22]]\n23. volere — congiuntivo imperfetto — voi → [[g23]]\n24. volere — congiuntivo imperfetto — loro → [[g24]]\n25. andare — congiuntivo imperfetto — io → [[g25]]\n26. andare — congiuntivo imperfetto — tu → [[g26]]\n27. andare — congiuntivo imperfetto — lui/lei → [[g27]]\n28. andare — congiuntivo imperfetto — noi → [[g28]]\n29. andare — congiuntivo imperfetto — voi → [[g29]]\n30. andare — congiuntivo imperfetto — loro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "facessi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "facessi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "facesse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "facessimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "faceste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "facessero"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dicessi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "dicessi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dicesse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "dicessimo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "diceste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "dicessero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "potessi"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "potessi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "potesse"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "potessimo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "poteste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "potessero"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "volessi"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "volessi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "volesse"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "volessimo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "voleste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "volessero"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "andassi"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "andassi"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "andasse"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "andassimo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "andaste"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "andassero"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "31. partire — congiuntivo imperfetto — io → [[g1]]\n32. partire — congiuntivo imperfetto — tu → [[g2]]\n33. partire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. partire — congiuntivo imperfetto — noi → [[g4]]\n35. partire — congiuntivo imperfetto — voi → [[g5]]\n36. partire — congiuntivo imperfetto — loro → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "partissi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "partissi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "partisse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "partissimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "partiste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "partissero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-142",
+  "title": "Guardare una città dall’alto",
+  "language": "it",
+  "level": "B2",
+  "description": "Scienza e tecnologia · Guardare una città dall’alto · livello difficile.",
+  "topics": [
+   "Scienza e tecnologia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "European Space Agency (ESA): Osservazione della terra. Letzte Änderung 21.07.2010. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://www.esa.int/kids/it/imparare/Osservazione_della_terra",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Kompetenzen und Themen"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 5"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "it12-scienza",
+   "topicTitle": "Scienza e tecnologia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3142
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Secondo la spiegazione divulgativa dell’ESA, i satelliti di osservazione della Terra aiutano a studiare [[g1]] come l’espansione urbana, gli incendi e le variazioni dei ghiacci. Le immagini dallo spazio offrono quindi un punto di osservazione utile per confrontare luoghi e momenti diversi. La [[g2]] consultata risale al 2010: qui ne riprendiamo il principio generale, non l’elenco delle missioni allora in preparazione.\nImmaginiamo ora una classe che confronta due immagini della stessa città. Nella prima si vede un grande [[g3]] [[g4]]; nella seconda quel terreno ospita edifici e strade. Un ragazzo conclude subito che la città è peggiorata. Una compagna gli chiede quali informazioni permettano di sostenerlo. L’immagine mostra una trasformazione, ma non racconta da sola chi abita nei nuovi edifici, quali servizi siano disponibili o quali [[g5]] abbiano preceduto i lavori.\nIl gruppo prepara allora due [[g6]]: «[[g7]]» e «vorremmo sapere». Nella prima scrive soltanto ciò che riesce a distinguere; nella seconda raccoglie le domande. Alcune zone sembrano più scure, ma questo basta per dire che contengano alberi? Le immagini sono [[g8]] riprese nella stessa stagione? L’[[g9]] di un edificio potrebbe essere scambiata per un oggetto diverso? Prima di discutere le conseguenze, occorre capire quanto sia affidabile il confronto.\nGli studenti decidono di aggiungere una passeggiata nel quartiere. Portano una mappa, annotano i luoghi accessibili e osservano come le persone usano gli spazi. Non fotografano i passanti per identificarli. Parlano con un bibliotecario, che suggerisce di cercare [[g10]] giornali locali. Le fonti non offrono tutte la stessa prospettiva: una mappa aiuta a orientarsi, un articolo riporta una discussione, un’immagine mostra una configurazione visibile in un certo momento.\nAlla fine il cartellone non contiene un verdetto definitivo. Presenta una trasformazione documentata, alcune possibili conseguenze e domande ancora aperte. Una studentessa propone il titolo «[[g11]] di più non significa sapere tutto». Il titolo riassume il lavoro senza svalutare gli strumenti: una nuova prospettiva diventa utile quando sappiamo quali domande può aiutare a risolvere. L’attività scolastica è inventata; la [[g12]] dell’ESA sostiene il breve quadro iniziale sulle applicazioni dell’osservazione terrestre.\nPrima di esporre il cartellone, ogni gruppo rilegge le conclusioni di un [[g13]]. Deve distinguere un fatto osservabile da una spiegazione [[g14]] e suggerire quale documento potrebbe aiutare a controllarla. Il confronto rende alcune frasi meno sicure, ma più precise.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "fenomeni",
+       "pagina",
+       "terreno"
+      ],
+      "answer": "fenomeni"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "fenomeni",
+       "terreno",
+       "pagina"
+      ],
+      "answer": "pagina"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "pagina",
+       "terreno",
+       "fenomeni"
+      ],
+      "answer": "terreno"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "pagina",
+       "libero",
+       "fenomeni"
+      ],
+      "answer": "libero"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "fenomeni",
+       "pagina",
+       "decisioni"
+      ],
+      "answer": "decisioni"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "fenomeni",
+       "colonne",
+       "pagina"
+      ],
+      "answer": "colonne"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "pagina",
+       "osserviamo",
+       "fenomeni"
+      ],
+      "answer": "osserviamo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "fenomeni",
+       "pagina",
+       "state"
+      ],
+      "answer": "state"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "ombra",
+       "pagina",
+       "fenomeni"
+      ],
+      "answer": "ombra"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "vecchi",
+       "fenomeni",
+       "pagina"
+      ],
+      "answer": "vecchi"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "pagina",
+       "Vedere",
+       "fenomeni"
+      ],
+      "answer": "Vedere"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "pagina",
+       "fonte",
+       "fenomeni"
+      ],
+      "answer": "fonte"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "pagina",
+       "fenomeni",
+       "altro"
+      ],
+      "answer": "altro"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "possibile",
+       "fenomeni",
+       "pagina"
+      ],
+      "answer": "possibile"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-143",
+  "title": "Due lettere sulla biblioteca del sabato",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Due lettere sulla biblioteca del sabato · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3143
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "A — Lettera di Bianca. La biblioteca del nostro quartiere chiude [[g1]] sabato a mezzogiorno. Vorrei proporre un’apertura pomeridiana una volta al mese. Durante la settimana seguo un corso lontano da casa e riesco raramente a passarci. Non chiedo che il personale lavori senza pausa: immagino [[g2]] orario diverso, da discutere con chi organizza il servizio. Mi piacerebbe soprattutto partecipare a un incontro in cui i lettori presentino un libro senza dover preparare [[g3]] relazione lunga.\nHo parlato della proposta con mio fratello. Lui non legge molti romanzi, ma usa la biblioteca per studiare e cercare manuali. Gli ho chiesto se verrebbe; mi ha risposto che dipenderebbe dal programma. Questa risposta [[g4]] (a Bianca) sembra utile: un’apertura aggiuntiva non interessa automaticamente tutti. Per capire le esigenze, preparerei poche domande e le lascerei sia all’ingresso sia sul sito. Non userei soltanto un questionario online, perché rischierei di non ascoltare alcuni frequentatori.\nB — Risposta di Karim. L’idea di Bianca mi interessa, ma prima di cambiare gli orari guarderei come viene usato lo spazio. [[g5]] sabato mattina accompagno mia sorella alla sezione ragazzi e spesso non troviamo un posto tranquillo. Se aprissimo più a lungo senza organizzare meglio le sale, potremmo spostare il problema invece di risolverlo.\nPer questo proporrei [[g6]] periodo di prova. Un pomeriggio sarebbe dedicato allo studio, un altro agli incontri. Alla fine raccoglieremmo osservazioni dai lettori e dal personale. Chi non partecipa dovrebbe poter spiegare perché: forse l’orario non va bene, forse non conosce l’iniziativa, forse cerca [[g7]] servizio diverso. Non vorrei che il numero dei presenti diventasse l’unico criterio.\nSono disponibile ad aiutare nella comunicazione della prova, ma non a sostituire il lavoro di persone formate. Alla biblioteca chiediamo competenza, cura e continuità. Un progetto nato dai lettori può essere prezioso se riconosce queste esigenze. Le due lettere sono state scritte per l’esercizio e non riportano [[g8]] consultazione reale.\nNota comune dei due autori: «Abbiamo scritto le nostre proposte e le abbiamo rilette insieme. Alla responsabile le manderemo una copia. [[g9]] calendario non lo decidiamo noi; ne discuteremo con chi organizza [[g10]] servizio. I lettori possono darci suggerimenti. Se li raccogliamo con ordine, sarà più facile usarli. Nessuno dovrà giustificar[[g11]] (riflessivo) se non verrà. A chi chiede una risposta promettiamo di scrivergli dopo il confronto; le domande aperte non [[g12]] (diretto, le domande) dimenticheremo».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "si"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "le"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-145",
+  "title": "Forme verbali (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Forme verbali (1) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 28,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3145
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. vendere — congiuntivo imperfetto — tu → [[g1]]\n2. controllare — congiuntivo presente — loro → [[g2]]\n3. andare — congiuntivo presente — io → [[g3]]\n4. parlare — congiuntivo imperfetto — noi → [[g4]]\n5. prendere — trapassato prossimo — voi → [[g5]]\n6. ascoltare — congiuntivo imperfetto — io → [[g6]]\n7. ricevere — passato prossimo — loro → [[g7]]\n8. avere — condizionale presente — io → [[g8]]\n9. lavorare — condizionale presente — voi → [[g9]]\n10. controllare — passato prossimo — voi → [[g10]]\n11. essere — condizionale presente — io → [[g11]]\n12. invitare — trapassato prossimo — lui/lei → [[g12]]\n13. dire — passato prossimo — voi → [[g13]]\n14. volere — condizionale presente — io → [[g14]]\n15. potere — congiuntivo imperfetto — tu → [[g15]]\n16. lavorare — passato prossimo — tu → [[g16]]\n17. vendere — presente — lui/lei → [[g17]]\n18. conservare — imperfetto — noi → [[g18]]\n19. ricevere — presente — noi → [[g19]]\n20. conservare — congiuntivo imperfetto — io → [[g20]]\n21. fare — passato prossimo — lui/lei → [[g21]]\n22. essere — condizionale presente — loro → [[g22]]\n23. telefonare — congiuntivo presente — io → [[g23]]\n24. telefonare — presente — tu → [[g24]]\n25. potere — condizionale presente — lui/lei → [[g25]]\n26. vendere — congiuntivo imperfetto — loro → [[g26]]\n27. lavorare — congiuntivo presente — loro → [[g27]]\n28. preparare — congiuntivo imperfetto — voi → [[g28]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vendessi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "controllino"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vada"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "parlassimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avevate preso"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ascoltassi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "hanno ricevuto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avrei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "lavorereste"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avete controllato"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sarei"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "aveva invitato"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "avete detto"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "potessi"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "hai lavorato"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "vende"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "conservavamo"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "riceviamo"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "conservassi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "ha fatto"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "sarebbero"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "telefoni"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "telefoni"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "vendessero"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "lavorino"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "preparaste"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-146",
+  "title": "Una settimana senza programma",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Una settimana senza programma · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3146
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Caro Davide, ti scrivo [[g1]] (provenienza) una piccola isola dove mia zia vive da anni. Prima [[g2]] partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso capisco che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e [[g3]] (da + le) persone che si incontrano.\nIeri sono uscita presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. [[g4]] signora mi ha chiesto se conoscevo la strada per la scuola. Lei aveva abitato sull’isola da bambina, ma non riconosceva più [[g5]] quartiere. L’edificio era stato trasformato in una sala [[g6]] incontri.\nL’ho accompagnata e abbiamo trovato una mostra di disegni. Suo padre compariva [[g7]] una fotografia all’ingresso. La signora si è fermata a guardarla [[g8]] lungo; io aspettavo accanto alla porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato [[g9]] storia che nessuna guida avrebbe potuto conoscere.\nOggi piove, così resto in casa con i miei appunti. Non cerco [[g10]] ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia [[g11]] (in + il) suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. [[g12]] presto, Giada.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "dalle"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Una"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "A"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-153",
+  "title": "L’invito dell’orologiaio",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: riconoscere e comprendere · L’invito dell’orologiaio · livello difficile.",
+  "topics": [
+   "Passato remoto: riconoscere e comprendere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 19,
+  "grammar": {
+   "topic": "it11-remoto",
+   "topicTitle": "Passato remoto: riconoscere e comprendere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3153
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "L’orologiaio del paese mandò un invito a ogni abitante: domenica avrebbe aperto il laboratorio, ma nessuno doveva portare un orologio. La richiesta sorprese molti. Una vicina [[g1]] (pensare) che si trattasse di uno scherzo; un ragazzo immaginò una mostra segreta. Il maestro, che conosceva l’orologiaio da anni, [[g2]] (dire) soltanto che sarebbe andato.\nLa domenica il laboratorio [[g3]] pieno di sedie. Sul banco non c’erano strumenti, ma fogli e matite. L’orologiaio [[g4]] (chiedere) a ciascuno di raccontare un momento in cui il tempo [[g5]] sembrato passare in modo diverso. Una donna [[g6]] (parlare, passato remoto) di un’attesa alla stazione; un bambino descrisse una partita finita troppo presto. Nessuno misurava quei racconti con un cronometro.\nQuando arrivò il suo turno, il maestro [[g7]] (dire) che [[g8]] (ricordare) una lezione in cui nessuno [[g9]] (guardare, forma composta) l’ora. Non [[g10]] successo perché lui [[g11]] (essere, congiuntivo imperfetto) particolarmente brillante: gli studenti [[g12]] (trovare, forma composta) una domanda che interessava tutti. Avrebbe voluto ricordarla esattamente, ma gli restava soltanto la sensazione di quel pomeriggio. L’orologiaio gli rispose che poteva scrivere anche questo.\nAlla fine i fogli [[g13]] (essere, passato remoto) appesi alla parete. Non indicavano minuti o secondi e non sostituivano gli orologi. Mostravano semplicemente che raccontare un’esperienza richiede parole diverse da quelle necessarie per misurarne la durata. Il ragazzo che aspettava una mostra segreta non fu deluso. Tornando a casa [[g14]] (pensare) che avrebbe invitato suo nonno a raccontargli una giornata di scuola. Questa storia è originale e non riprende personaggi o vicende di un testo letterario pubblicato.\nIl ragazzo [[g15]] (conservare, passato remoto) i fogli che gli autori gli affidarono. Li mise in una cartella e la mostrò all’orologiaio. «Posso portarli a scuola?» domandò. L’uomo gli rispose di chiedere prima agli autori. Il ragazzo ne scelse soltanto due, perché quelle persone [[g16]] (avere) già dato il consenso. Gli altri non li copiò. Quando tornò a casa, si ricordò anche della domanda per il nonno e gli [[g17]] (telefonare, passato remoto).",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "pensò",
+       "prima",
+       "durante"
+      ],
+      "answer": "pensò"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "disse",
+       "prima",
+       "durante"
+      ],
+      "answer": "disse"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "è stato",
+       "sarà",
+       "era"
+      ],
+      "answer": "era"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "durante",
+       "prima",
+       "chiese"
+      ],
+      "answer": "chiese"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "era",
+       "è stato",
+       "sarà"
+      ],
+      "answer": "era"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "prima",
+       "durante",
+       "parlò"
+      ],
+      "answer": "parlò"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "disse",
+       "prima",
+       "durante"
+      ],
+      "answer": "disse"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ricordava",
+       "era",
+       "è stato"
+      ],
+      "answer": "ricordava"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "aveva osservato",
+       "ha osservato",
+       "aveva guardato"
+      ],
+      "answer": "aveva guardato"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "sarà",
+       "è stato",
+       "era"
+      ],
+      "answer": "era"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "è",
+       "sarà",
+       "fosse"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "ha osservato",
+       "avevano trovato",
+       "aveva osservato"
+      ],
+      "answer": "avevano trovato"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "furono",
+       "durante",
+       "prima"
+      ],
+      "answer": "furono"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "durante",
+       "prima",
+       "pensò"
+      ],
+      "answer": "pensò"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "conservò",
+       "durante",
+       "prima"
+      ],
+      "answer": "conservò"
+     },
+     {
+      "id": "g16",
+      "options": [
+       "avevano",
+       "era",
+       "è stato"
+      ],
+      "answer": "avevano"
+     },
+     {
+      "id": "g17",
+      "options": [
+       "telefonò",
+       "durante",
+       "prima"
+      ],
+      "answer": "telefonò"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. vendere — congiuntivo presente — io → [[g1]]\n2. temere — congiuntivo presente — lui/lei → [[g2]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "venda"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "tema"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-154",
+  "title": "La classe e il giornale incompleto",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · La classe e il giornale incompleto · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3154
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Nel suo ultimo anno di scuola, Teresa partecipò alla redazione di un giornale. Il primo numero uscì con una pagina bianca. Non [[g1]] una scelta artistica: il gruppo [[g2]] (aspettare, forma composta) un’intervista che non arrivò in tempo. Quando il professore vide il fascicolo, non disse subito che cosa ne [[g3]] (pensare). Chiese agli studenti di spiegare la decisione.\nTeresa [[g4]] (ricordare) bene la discussione. Qualcuno [[g5]] (volere) inventare alcune risposte plausibili; altri proponevano di copiare un vecchio articolo. Lei [[g6]] (suggerire, forma composta) di dichiarare il problema. [[g7]] (avere) quindi scritto una nota: l’intervista non [[g8]] disponibile e sarebbe stata pubblicata soltanto dopo il controllo della persona interessata. La pagina rimasta vuota mostrava un limite del lavoro, ma evitava di nasconderlo.\nIl professore prese il fascicolo e lo portò in un’altra classe. Chiese se quella pagina fosse inutile. Alcuni ragazzi dissero di sì; altri notarono che insegnava qualcosa sul modo in cui si produce un giornale. Una risposta mancata non autorizza a creare una voce falsa. Il dibattito durò più della lettura degli altri articoli.\nMolti anni dopo Teresa ritrovò il fascicolo. [[g9]] (dimenticare, forma composta) quasi tutti i titoli, ma [[g10]] (ricordare) la pagina vuota. La mostrò a sua nipote, che stava preparando un blog. La ragazza domandò se avessero poi ricevuto l’intervista. Teresa non lo [[g11]] (sapere) più: possedeva soltanto il primo numero. Non trasformò quel vuoto di memoria in un finale perfetto. Disse che avrebbe cercato gli altri fascicoli e, se li avesse trovati, le avrebbe raccontato il seguito. Anche una storia personale può restare incompleta. Il racconto è originale e interamente fittizio.\nLa nipote prese nota di quella distinzione: un ricordo sicuro, un dettaglio incerto e una domanda da controllare. Nel suo blog avrebbe potuto raccontare l’episodio della pagina bianca, ma avrebbe indicato che il seguito non [[g12]] noto. Non le sembrò una storia meno interessante. Le sembrò una storia in cui il lettore poteva capire meglio il confine fra testimonianza e ricostruzione.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aveva aspettato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "pensava"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ricordava"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "voleva"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva suggerito"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Avevano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Aveva dimenticato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ricordava"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "sapeva"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "era"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. ricevere — passato prossimo — lui/lei → [[g1]]\n2. vendere — imperfetto — loro → [[g2]]\n3. ricevere — imperfetto — lui/lei → [[g3]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ha ricevuto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vendevano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "riceveva"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-157",
+  "title": "Due accordi da chiarire (3)",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Due accordi da chiarire (3) · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3157
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Dialogo A — In una sala condivisa.\nNina: Avevamo prenotato questa stanza per le cinque. Vedo però che state ancora provando.\nLeo: [[g1]] (riconoscimento di un fatto), abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\nNina: [[g2]] (rettifica cortese), abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città.\nLeo: [[g3]] (accettazione), finiamo questo passaggio e liberiamo il tavolo. Dove preferite che mettiamo le sedie?\nNina: Lasciatele in cerchio. [[g4]] (correzione o precisazione), tenetene due vicino alla porta: ci serviranno per gli ospiti.\nLeo: Bene. [[g5]] (conseguenza pratica), vi avviso appena siamo pronti.\nNina: Grazie. [[g6]] (ritorno al punto principale), per la prossima volta controlliamo insieme il calendario.\n\nDialogo B — Prima di una consegna.\nMilo: Ho finito il testo, ma non so se mandarlo subito alla redazione.\nAda: [[g7]] (introduzione di un’opinione), manca ancora il controllo dei nomi. Non è un dettaglio.\nMilo: [[g8]] (accordo), hai ragione. Avevo chiesto una conferma e non è arrivata.\nAda: [[g9]] (azione durante l’attesa), possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\nMilo: Sì, ma il collegamento è molto lungo.\nAda: [[g10]] (introduzione di un caso), potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\nMilo: Capisco. [[g11]] (conclusione), aspettiamo i nomi e sistemiamo il resto.\nAda: Esatto. [[g12]] (riformulazione conclusiva), il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo.\nI due dialoghi sono originali e descrivono situazioni immaginarie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "In effetti",
+       "A dire il vero",
+       "D’accordo"
+      ],
+      "answer": "In effetti"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "In effetti",
+       "A dire il vero",
+       "D’accordo"
+      ],
+      "answer": "A dire il vero"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "A dire il vero",
+       "D’accordo",
+       "In effetti"
+      ],
+      "answer": "D’accordo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "A dire il vero",
+       "In effetti",
+       "Anzi"
+      ],
+      "answer": "Anzi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "In effetti",
+       "Allora",
+       "A dire il vero"
+      ],
+      "answer": "Allora"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "In effetti",
+       "A dire il vero",
+       "Comunque"
+      ],
+      "answer": "Comunque"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Secondo me",
+       "In effetti",
+       "A dire il vero"
+      ],
+      "answer": "Secondo me"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "A dire il vero",
+       "In effetti",
+       "Certo"
+      ],
+      "answer": "Certo"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "In effetti",
+       "A dire il vero",
+       "Intanto"
+      ],
+      "answer": "Intanto"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "A dire il vero",
+       "In effetti",
+       "Per esempio"
+      ],
+      "answer": "Per esempio"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "In effetti",
+       "A dire il vero",
+       "Quindi"
+      ],
+      "answer": "Quindi"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "In effetti",
+       "Insomma",
+       "A dire il vero"
+      ],
+      "answer": "Insomma"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-158",
+  "title": "Leggere una percentuale",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Leggere una percentuale · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Istat: Il volontariato in Italia – Anno 2023. 29.07.2025; Berichtsjahr 2023. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://www.istat.it/comunicato-stampa/il-volontariato-in-italia-anno-2023/",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3158
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "[[g1]] comunicato sul volontariato riferito al 2023, pubblicato [[g2]] luglio 2025, l’Istat stima che il 9,1% delle persone di almeno quindici anni abbia svolto attività gratuite [[g3]] volontariato nelle quattro settimane precedenti l’intervista: circa 4,7 milioni di persone. Il dato comprende attività organizzate e aiuti diretti. Alcune persone partecipano [[g4]] entrambe le forme; perciò i due gruppi non vanno semplicemente sommati. Il periodo osservato non coincide con un intero anno.\nDa questi dati nasce un’attività immaginaria [[g5]] redazione scolastica. Una studentessa propone il titolo «Quasi cinque milioni di volontari ogni settimana». Il compagno che controlla la fonte osserva che il titolo cambia il periodo di riferimento. Un’altra proposta dice che «tutti aiutano attraverso associazioni», ma neppure questa frase corrisponde [[g6]] definizione utilizzata. Il gruppo decide di riportare prima la popolazione osservata, poi il periodo e infine la percentuale.\nLa discussione continua quando qualcuno vuole trasformare il dato in una classifica [[g7]] classi. Un’insegnante ricorda che il comunicato nazionale non descrive la loro scuola. Per conoscere la situazione locale servirebbero domande adatte e una raccolta di informazioni rispettosa [[g8]] persone. Inoltre, non tutti hanno lo stesso tempo disponibile; un numero non permette di giudicare quanto una persona sia generosa.\nLa redazione prepara dunque un articolo breve e una pagina di domande. Che cosa viene contato? Chi resta fuori [[g9]] definizione? Il confronto riguarda periodi equivalenti? Quale differenza c’è fra un’esperienza raccontata e una stima ottenuta da un’indagine? Le risposte non rendono il testo meno leggibile: gli danno un significato più preciso.\n[[g10]] accompagnare l’articolo, gli studenti inventano due esempi dichiaratamente fittizi: un ragazzo che aiuta in un’associazione e una ragazza che porta la spesa a una vicina. Gli esempi illustrano forme diverse [[g11]] attività, ma non aggiungono risultati all’indagine. Separare dati e racconti permette al lettore di capire [[g12]] dove viene ogni affermazione.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Nel"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "alla"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "fra"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "delle"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dalla"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Per"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "da"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-159",
+  "title": "Una fotografia trovata in rete",
+  "language": "it",
+  "level": "B2",
+  "description": "Media, fonti e discorso pubblico · Una fotografia trovata in rete · livello difficile.",
+  "topics": [
+   "Media, fonti e discorso pubblico",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Europeana PRO: Understanding the rights statements used by Europeana. 06.02.2015; aktualisiert 11.10.2024. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://pro.europeana.eu/index.php/page/available-rights-statements",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Kompetenzen und Themen"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 3; 4; 5"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "it12-media",
+   "topicTitle": "Media, fonti e discorso pubblico",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3159
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Europeana accompagna gli oggetti digitali con indicazioni sui [[g1]], che aiutano a comprendere come [[g2]] essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non sostituisce la verifica del singolo oggetto.\nNel racconto che segue, una redazione scolastica trova una fotografia perfetta per il proprio [[g3]]. Mostra una piazza in un giorno di mercato e potrebbe [[g4]] un [[g5]] sulle trasformazioni del quartiere. Il primo impulso è scaricarla e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda [[g6]].\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato [[g7]]. I ragazzi capiscono che citare una fonte e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non trovando subito una risposta chiara per l’uso previsto, scelgono di non inserire la fotografia. Possono comunque descrivere la ricerca e offrire un collegamento alla scheda, senza ripubblicare il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato [[g8]] propria osservazione [[g9]] piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono [[g10]] semplificati. Nel testo, invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta richiede più tempo di un [[g11]] download, ma produce una domanda utile: quali informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale [[g12]] un piccolo riquadro con autore, istituzione, titolo e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né attribuiti permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il controllo: la scelta fatta per un oggetto non vale automaticamente per tutti gli altri.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "diritti"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "possano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "giornale"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "accompagnare"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "articolo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "completa"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "giuridico"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "stati"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "semplice"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "pubblica"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Europeana accompagna gli oggetti digitali con indicazioni sui diritti, che aiutano a comprendere come possano essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non sostituisce la verifica del singolo oggetto.\nNel racconto che segue, una redazione scolastica trova una fotografia perfetta per il proprio [[g1]]. Mostra una piazza in un giorno di mercato e potrebbe accompagnare un [[g2]] sulle trasformazioni del quartiere. Il primo impulso è scaricarla e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda [[g3]].\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato giuridico. I ragazzi capiscono che citare una fonte e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non trovando subito una risposta chiara per l’uso previsto, scelgono di non inserire la fotografia. Possono comunque descrivere la ricerca e offrire un collegamento alla scheda, senza ripubblicare il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato sulla propria osservazione [[g4]] piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono [[g5]] semplificati. Nel testo, invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta richiede più tempo di un semplice download, ma produce una domanda utile: quali informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale [[g6]] un piccolo riquadro con autore, istituzione, titolo e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né attribuiti permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il controllo: la scelta fatta per un oggetto non vale automaticamente per tutti gli altri.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "giornale"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "articolo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "completa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "stati"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "pubblica"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-160",
+  "title": "La scatola senza etichetta",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · La scatola senza etichetta · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3160
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Quando Nora [[g1]] (essere) piccola, suo nonno raccoglieva le fotografie del quartiere. Non scriveva quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone [[g2]] (sembrare) sconosciute anche a lui. Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e ha deciso di portarla alla biblioteca di zona.\nPrima di uscire, [[g3]] (telefonare) alla bibliotecaria e aveva chiesto se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora aveva preparato anche un quaderno, ma [[g4]] (dimenticare) la matita sul tavolo.\nIn biblioteca c’erano sei persone. Tutte guardavano una fotografia della piazza, che un visitatore [[g5]] (ingrandire). La donna con cui Nora ha parlato per prima abitava proprio lì. Mentre raccontava, un ragazzo ha notato un’insegna quasi invisibile. Nessuno [[g6]] (vedere) prima quel particolare.\nAlla fine il gruppo ha riconosciuto il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri [[g7]] (mettere) un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta ha chiesto ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora [[g8]] (aggiungere, forma composta) una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sembravano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveva telefonato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aveva dimenticato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva ingrandito"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva visto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha messo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha aggiunto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-161",
+  "title": "Chi decide se una parola esiste?",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Chi decide se una parola esiste? · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Accademia della Crusca: Parole nuove. 23.04.2012; Seite erläutert auch die seit November 2018 verwendete Struktur. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3161
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici [[g1]] nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una parola condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata dagli studenti. Alcuni dicono che è già italiana perché tutti la capiscono. [[g2]] pensano che debba comparire prima in un dizionario. La discussione sembra bloccata, finché una [[g3]] domanda: «Di quale gruppo stiamo parlando quando [[g4]] tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata altrove.\nGli studenti preparano tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella seconda raccolgono un termine già esistente che ha acquistato un significato nuovo. Nella terza osservano un prestito da un’altra lingua. Non cercano di dimostrare che una categoria sia migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario registra parole usate da molte persone. Un altro teme che una ricerca online dia risultati ingannevoli: cento copie dello stesso messaggio non sono cento esempi indipendenti. L’insegnante è d’accordo sul problema e chiede che ogni gruppo indichi la provenienza degli esempi. Nessuno deve raccogliere conversazioni [[g5]] o nomi di [[g6]] senza [[g7]].\nAlla fine non viene eletta la parola più bella. Ogni gruppo presenta un dubbio: forse il termine durerà, forse scomparirà, forse [[g8]] significato. Gli studenti sanno che la lingua cambia, ma non possono prevedere ogni cambiamento. È possibile che un’espressione rimanga [[g9]] a un ambiente; è altrettanto possibile che altre persone la adottino per una ragione nuova.\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un [[g10]] a chi aveva indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede [[g11]] e attenzione alle persone che la parlano. Il racconto della classe e tutte le sue battute sono originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la presentazione finale, ogni scheda distingue inoltre una definizione da un [[g12]]. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un [[g13]] esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco [[g14]], la riscrivono. Il lavoro non produce un dizionario completo: offre un piccolo esercizio di osservazione, con fonti dichiarate e limiti visibili. Anche chi non ama inventare parole può partecipare controllando gli esempi e formulando domande.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "osservati"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Altri"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ragazza"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "diciamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "private"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "compagni"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "consenso"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "cambierà"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "limitata"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "premio"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "curiosità"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "esempio"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "lettore"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "chiara"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-163",
+  "title": "Leggere una percentuale",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Leggere una percentuale · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "Istat: Il volontariato in Italia – Anno 2023. 29.07.2025; Berichtsjahr 2023. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://www.istat.it/comunicato-stampa/il-volontariato-in-italia-anno-2023/",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 24,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3163
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Nel comunicato sul volontariato riferito al 2023, pubblicato nel luglio 2025, l’Istat stima che il 9,1% delle persone di almeno quindici anni abbia svolto attività gratuite di volontariato nelle quattro settimane precedenti l’intervista: circa 4,7 milioni di persone. Il dato comprende attività organizzate e aiuti diretti. Alcune persone partecipano a entrambe le forme; perciò i due gruppi non vanno semplicemente sommati. Il periodo [[g1]] non [[g2]] con un intero anno.\nDa questi dati nasce un’attività immaginaria della redazione scolastica. Una studentessa [[g3]] il titolo «Quasi cinque milioni di volontari ogni settimana». Il compagno che controlla la [[g4]] osserva che il titolo cambia il periodo di [[g5]]. Un’altra proposta dice che «tutti aiutano attraverso associazioni», ma neppure questa frase corrisponde alla definizione utilizzata. Il gruppo decide di riportare prima la popolazione osservata, poi il periodo e infine la percentuale.\nLa [[g6]] continua quando qualcuno vuole trasformare il dato in una classifica fra classi. Un’insegnante ricorda che il comunicato nazionale non descrive la loro scuola. Per conoscere la situazione locale servirebbero domande adatte e una raccolta di [[g7]] rispettosa delle persone. Inoltre, non tutti [[g8]] lo stesso tempo disponibile; un numero non permette di giudicare quanto una persona sia generosa.\nLa redazione prepara dunque un articolo breve e una pagina di domande. Che cosa viene contato? Chi resta fuori dalla definizione? Il confronto riguarda periodi equivalenti? [[g9]] differenza c’è fra un’esperienza raccontata e una stima ottenuta da un’indagine? Le risposte non rendono il testo meno [[g10]]: gli danno un significato più preciso.\nPer accompagnare l’articolo, gli studenti inventano due esempi dichiaratamente fittizi: un ragazzo che aiuta in un’[[g11]] e una ragazza che porta la spesa a una vicina. Gli esempi illustrano forme diverse di attività, ma non aggiungono risultati all’indagine. Separare dati e racconti permette al [[g12]] di capire da dove viene ogni affermazione.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "osservato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "coincide"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "propone"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "fonte"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "riferimento"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "discussione"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "informazioni"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Quale"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "leggibile"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "associazione"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "lettore"
+      ]
+     }
+    ],
+    "wordBank": true
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. ascoltare — congiuntivo presente — voi → [[g1]]\n2. osservare — congiuntivo imperfetto — noi → [[g2]]\n3. avere — congiuntivo imperfetto — voi → [[g3]]\n4. ricevere — congiuntivo presente — lui/lei → [[g4]]\n5. fare — congiuntivo presente — loro → [[g5]]\n6. avere — congiuntivo presente — loro → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ascoltiate"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "osservassimo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveste"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "riceva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "facciano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "abbiano"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. lavorare — condizionale presente — io → [[g1]]\n2. potere — condizionale presente — lui/lei → [[g2]]\n3. essere — condizionale presente — tu → [[g3]]\n4. venire — condizionale presente — lui/lei → [[g4]]\n5. invitare — condizionale presente — tu → [[g5]]\n6. conservare — condizionale presente — tu → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "lavorerei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "saresti"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "verrebbe"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "inviteresti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "conserveresti"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-164",
+  "title": "Congiuntivo presente",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Congiuntivo presente · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 36,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3164
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. essere — congiuntivo presente — io → [[g1]]\n2. essere — congiuntivo presente — tu → [[g2]]\n3. essere — congiuntivo presente — lui/lei → [[g3]]\n4. essere — congiuntivo presente — noi → [[g4]]\n5. essere — congiuntivo presente — voi → [[g5]]\n6. essere — congiuntivo presente — loro → [[g6]]\n7. avere — congiuntivo presente — io → [[g7]]\n8. avere — congiuntivo presente — tu → [[g8]]\n9. avere — congiuntivo presente — lui/lei → [[g9]]\n10. avere — congiuntivo presente — noi → [[g10]]\n11. avere — congiuntivo presente — voi → [[g11]]\n12. avere — congiuntivo presente — loro → [[g12]]\n13. fare — congiuntivo presente — io → [[g13]]\n14. fare — congiuntivo presente — tu → [[g14]]\n15. fare — congiuntivo presente — lui/lei → [[g15]]\n16. fare — congiuntivo presente — noi → [[g16]]\n17. fare — congiuntivo presente — voi → [[g17]]\n18. fare — congiuntivo presente — loro → [[g18]]\n19. dire — congiuntivo presente — io → [[g19]]\n20. dire — congiuntivo presente — tu → [[g20]]\n21. dire — congiuntivo presente — lui/lei → [[g21]]\n22. dire — congiuntivo presente — noi → [[g22]]\n23. dire — congiuntivo presente — voi → [[g23]]\n24. dire — congiuntivo presente — loro → [[g24]]\n25. venire — congiuntivo presente — io → [[g25]]\n26. venire — congiuntivo presente — tu → [[g26]]\n27. venire — congiuntivo presente — lui/lei → [[g27]]\n28. venire — congiuntivo presente — noi → [[g28]]\n29. venire — congiuntivo presente — voi → [[g29]]\n30. venire — congiuntivo presente — loro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "siate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "siano"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "abbia"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "abbia"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "abbia"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "abbiamo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "abbiate"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "abbiano"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "faccia"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "faccia"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "faccia"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "facciate"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "facciano"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "dica"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "dica"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "dica"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "diciamo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "diciate"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "dicano"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "venga"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "venga"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "venga"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "veniamo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "veniate"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "vengano"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "31. potere — congiuntivo presente — io → [[g1]]\n32. potere — congiuntivo presente — tu → [[g2]]\n33. potere — congiuntivo presente — lui/lei → [[g3]]\n34. potere — congiuntivo presente — noi → [[g4]]\n35. potere — congiuntivo presente — voi → [[g5]]\n36. potere — congiuntivo presente — loro → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "possiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "possiate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "possano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-166",
+  "title": "Congiuntivo imperfetto (3)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Congiuntivo imperfetto (3) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 36,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3166
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. osservare — congiuntivo imperfetto — io → [[g1]]\n2. osservare — congiuntivo imperfetto — tu → [[g2]]\n3. osservare — congiuntivo imperfetto — lui/lei → [[g3]]\n4. osservare — congiuntivo imperfetto — noi → [[g4]]\n5. osservare — congiuntivo imperfetto — voi → [[g5]]\n6. osservare — congiuntivo imperfetto — loro → [[g6]]\n7. conservare — congiuntivo imperfetto — io → [[g7]]\n8. conservare — congiuntivo imperfetto — tu → [[g8]]\n9. conservare — congiuntivo imperfetto — lui/lei → [[g9]]\n10. conservare — congiuntivo imperfetto — noi → [[g10]]\n11. conservare — congiuntivo imperfetto — voi → [[g11]]\n12. conservare — congiuntivo imperfetto — loro → [[g12]]\n13. invitare — congiuntivo imperfetto — io → [[g13]]\n14. invitare — congiuntivo imperfetto — tu → [[g14]]\n15. invitare — congiuntivo imperfetto — lui/lei → [[g15]]\n16. invitare — congiuntivo imperfetto — noi → [[g16]]\n17. invitare — congiuntivo imperfetto — voi → [[g17]]\n18. invitare — congiuntivo imperfetto — loro → [[g18]]\n19. vendere — congiuntivo imperfetto — io → [[g19]]\n20. vendere — congiuntivo imperfetto — tu → [[g20]]\n21. vendere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. vendere — congiuntivo imperfetto — noi → [[g22]]\n23. vendere — congiuntivo imperfetto — voi → [[g23]]\n24. vendere — congiuntivo imperfetto — loro → [[g24]]\n25. temere — congiuntivo imperfetto — io → [[g25]]\n26. temere — congiuntivo imperfetto — tu → [[g26]]\n27. temere — congiuntivo imperfetto — lui/lei → [[g27]]\n28. temere — congiuntivo imperfetto — noi → [[g28]]\n29. temere — congiuntivo imperfetto — voi → [[g29]]\n30. temere — congiuntivo imperfetto — loro → [[g30]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "osservassi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "osservassi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "osservasse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "osservassimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "osservaste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "osservassero"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "conservassi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "conservassi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "conservasse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "conservassimo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "conservaste"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "conservassero"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "invitassi"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "invitassi"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "invitasse"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "invitassimo"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "invitaste"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "invitassero"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "vendessi"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "vendessi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "vendesse"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "vendessimo"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "vendeste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "vendessero"
+      ]
+     },
+     {
+      "id": "g25",
+      "acceptedAnswers": [
+       "temessi"
+      ]
+     },
+     {
+      "id": "g26",
+      "acceptedAnswers": [
+       "temessi"
+      ]
+     },
+     {
+      "id": "g27",
+      "acceptedAnswers": [
+       "temesse"
+      ]
+     },
+     {
+      "id": "g28",
+      "acceptedAnswers": [
+       "temessimo"
+      ]
+     },
+     {
+      "id": "g29",
+      "acceptedAnswers": [
+       "temeste"
+      ]
+     },
+     {
+      "id": "g30",
+      "acceptedAnswers": [
+       "temessero"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "31. lavorare — congiuntivo imperfetto — io → [[g1]]\n32. lavorare — congiuntivo imperfetto — tu → [[g2]]\n33. lavorare — congiuntivo imperfetto — lui/lei → [[g3]]\n34. lavorare — congiuntivo imperfetto — noi → [[g4]]\n35. lavorare — congiuntivo imperfetto — voi → [[g5]]\n36. lavorare — congiuntivo imperfetto — loro → [[g6]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "lavorassi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "lavorassi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "lavorasse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "lavorassimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lavoraste"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "lavorassero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-167",
+  "title": "La carta dei suoni (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · La carta dei suoni (2) · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3167
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "Nel nostro istituto [[g1]] (arrivare, forma composta; accordo con il soggetto) una classe di scambio. Invece di organizzare subito una visita ai monumenti, abbiamo proposto una [[g2]] (sostantivo nel contesto; iniziali pa…) dedicata ai suoni. Ogni gruppo doveva scegliere un luogo e descriverlo senza usare il suo nome. Gli altri avrebbero provato a riconoscerlo leggendo la [[g3]] (sostantivo nel contesto; iniziali de…). Non era una gara di velocità: serviva a notare dettagli che spesso ignoriamo.\nAll’inizio alcuni studenti [[g4]] (temere, imperfetto) di non conoscere abbastanza parole. Una ragazza ha suggerito di usare anche [[g5]] (sostantivo nel contesto; iniziali co…): un rumore poteva ricordare la pioggia, un cassetto o un foglio strappato. Chi non trovava un termine poteva spiegare il movimento che lo produceva. Un compagno [[g6]] (disegnare, forma composta) una porta; un altro [[g7]] (scrivere, forma composta) due righe nella propria lingua e poi le ha riformulate in italiano con l’aiuto del gruppo.\nLa prima descrizione riguardava una fontana. Sembrava facile, ma molti l’hanno confusa con il [[g8]] (sostantivo nel contesto; iniziali tr…) ascoltato da lontano. Per chiarire il testo, gli autori hanno aggiunto una pausa e una variazione di intensità. La seconda descrizione, invece, [[g9]] (essere) troppo dettagliata: il nome del negozio permetteva di indovinare senza leggere il resto. È stato necessario togliere un’informazione, non aggiungerla.\nAlla fine abbiamo costruito una carta dei suoni con brevi testi e simboli. Le registrazioni [[g10]] (essere) facoltative e non contenevano conversazioni riconoscibili. La carta non pretende di rappresentare tutta la città: raccoglie un percorso e un momento. Quando la rileggeremo in un’altra stagione, alcuni suoni saranno diversi. Anche questo farà parte del progetto, perché descrivere un luogo significa scegliere che cosa osservare e ricordare quando lo abbiamo osservato.\nAlla presentazione, ogni gruppo leggerà il testo di un altro. Questo passaggio servirà a verificare se la descrizione funziona anche senza la voce dell’autore. Se un [[g11]] (sostantivo nel contesto; iniziali de…) non sarà comprensibile, lo discuteremo prima di correggerlo. Una parola insolita non è automaticamente sbagliata: può richiedere un esempio o una spiegazione. L’obiettivo è costruire un testo che un lettore diverso da noi [[g12]] (potere, congiuntivo presente) seguire.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è arrivata"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "passeggiata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "descrizione"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "temevano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "confronti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha disegnato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha scritto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "traffico"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dettaglio"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-169",
+  "title": "Un segnale dallo spazio",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Un segnale dallo spazio · livello difficile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "European Space Agency (ESA): Satelliti. Kein Veröffentlichungsdatum in der konsultierten Ansicht. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 eA 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3169
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+    "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato nel 1957. [[g1]] (essere) un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva dalla pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti [[g2]] (vedere) immagini di satelliti, ma non [[g3]] (sapere) distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e [[g4]] (chiedere) di annotare la fonte di ogni data. Un gruppo [[g5]] (raccogliere) informazioni da pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione [[g6]] (mostrare, passato remoto) quanto fosse facile confondere un’immagine illustrativa con la documentazione di un evento. Gli studenti [[g7]] (decidere, passato remoto) allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate a persone reali.\nAlla fine il cartellone era più semplice di quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande sulle funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. [[g8]] (imparare, forma composta) a costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma da ciò che un lettore aggiunge. La scelta dei tempi verbali nel racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "avevano già visto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sapevano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ha chiesto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva raccolto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mostrò"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "decisero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Aveva imparato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-170",
+  "title": "Un segnale dallo spazio",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Un segnale dallo spazio · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "European Space Agency (ESA): Satelliti. Kein Veröffentlichungsdatum in der konsultierten Ansicht. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3170
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato [[g1]] 1957. Era un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva [[g2]] pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti avevano già visto immagini [[g3]] satelliti, ma non sapevano distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e ha chiesto [[g4]] annotare la fonte di ogni data. Un gruppo aveva raccolto informazioni [[g5]] pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione mostrò quanto fosse facile confondere un’immagine illustrativa con la documentazione [[g6]] un evento. Gli studenti decisero allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate [[g7]] persone reali.\nAlla fine il cartellone era più semplice [[g8]] quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande [[g9]] funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. Aveva imparato [[g10]] costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma [[g11]] ciò che un lettore aggiunge. La scelta dei tempi verbali [[g12]] racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "a",
+       "di",
+       "nel"
+      ],
+      "answer": "nel"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "dalla",
+       "a",
+       "di"
+      ],
+      "answer": "dalla"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "di",
+       "da",
+       "a"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "di",
+       "a",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "di",
+       "da",
+       "a"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "da",
+       "di",
+       "a"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "da",
+       "a",
+       "di"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "a",
+       "da",
+       "di"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "di",
+       "a",
+       "sulle"
+      ],
+      "answer": "sulle"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "a",
+       "di",
+       "da"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "a",
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "di",
+       "nel",
+       "a"
+      ],
+      "answer": "nel"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-174",
+  "title": "Il gruppo dei messaggi",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Il gruppo dei messaggi · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3174
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La [[g1]] famiglia usava un [[g2]] di messaggi per organizzare pranzi e visite. All’[[g3]] sembrava comodo, poi sono aumentate le fotografie e le [[g4]]. Mia zia cercava l’orario di un appuntamento e non riusciva a trovarlo. Un giorno ha scritto: «Potete mandarmi soltanto l’informazione che serve?».\nNessuno voleva escluderla. Mio cugino ha [[g5]] un secondo gruppo per gli [[g6]] pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna ha spiegato che leggeva i messaggi una volta al giorno, non [[g7]]. Le abbiamo chiesto quale [[g8]] preferisse e lei ha scelto una telefonata per gli accordi urgenti.\nDopo quella discussione abbiamo cambiato poche cose. Ogni [[g9]] [[g10]] con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi [[g11]] qualcosa lo comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. Tuttavia discutiamo meno, perché sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti [[g12]] stesso modo e nello stesso momento.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nostra"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "gruppo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "inizio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "battute"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "proposto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "avvisi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "continuamente"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sistema"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avviso"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "comincia"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "organizza"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "nello"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-179",
+  "title": "Forme verbali (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Strutture di base: ripasso e applicazione · Forme verbali (2) · livello difficile.",
+  "topics": [
+   "Strutture di base: ripasso e applicazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 24,
+  "grammar": {
+   "topic": "it11-ripasso",
+   "topicTitle": "Strutture di base: ripasso e applicazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3179
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
+    "text": "1. portare — condizionale presente — io → [[g1]]\n2. vendere — congiuntivo imperfetto — tu → [[g2]]\n3. avere — congiuntivo presente — lui/lei → [[g3]]\n4. volere — congiuntivo presente — lui/lei → [[g4]]\n5. potere — congiuntivo presente — io → [[g5]]\n6. preparare — trapassato prossimo — voi → [[g6]]\n7. portare — trapassato prossimo — io → [[g7]]\n8. lavorare — congiuntivo imperfetto — voi → [[g8]]\n9. conservare — congiuntivo presente — noi → [[g9]]\n10. vendere — presente — tu → [[g10]]\n11. ascoltare — condizionale presente — noi → [[g11]]\n12. temere — imperfetto — lui/lei → [[g12]]\n13. lavorare — trapassato prossimo — io → [[g13]]\n14. ricevere — presente — noi → [[g14]]\n15. dire — congiuntivo imperfetto — tu → [[g15]]\n16. volere — condizionale presente — lui/lei → [[g16]]\n17. fare — condizionale presente — tu → [[g17]]\n18. dire — condizionale presente — io → [[g18]]\n19. vendere — congiuntivo presente — loro → [[g19]]\n20. osservare — congiuntivo presente — lui/lei → [[g20]]\n21. lavorare — presente — lui/lei → [[g21]]\n22. partire — imperfetto — lui/lei → [[g22]]\n23. invitare — condizionale presente — voi → [[g23]]\n24. ascoltare — imperfetto — voi → [[g24]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "porterei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vendessi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "abbia"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "voglia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "possa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "avevate preparato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avevo portato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "lavoraste"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "conserviamo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "vendi"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ascolteremmo"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "temeva"
+      ]
+     },
+     {
+      "id": "g13",
+      "acceptedAnswers": [
+       "avevo lavorato"
+      ]
+     },
+     {
+      "id": "g14",
+      "acceptedAnswers": [
+       "riceviamo"
+      ]
+     },
+     {
+      "id": "g15",
+      "acceptedAnswers": [
+       "dicessi"
+      ]
+     },
+     {
+      "id": "g16",
+      "acceptedAnswers": [
+       "vorrebbe"
+      ]
+     },
+     {
+      "id": "g17",
+      "acceptedAnswers": [
+       "faresti"
+      ]
+     },
+     {
+      "id": "g18",
+      "acceptedAnswers": [
+       "direi"
+      ]
+     },
+     {
+      "id": "g19",
+      "acceptedAnswers": [
+       "vendano"
+      ]
+     },
+     {
+      "id": "g20",
+      "acceptedAnswers": [
+       "osservi"
+      ]
+     },
+     {
+      "id": "g21",
+      "acceptedAnswers": [
+       "lavora"
+      ]
+     },
+     {
+      "id": "g22",
+      "acceptedAnswers": [
+       "partiva"
+      ]
+     },
+     {
+      "id": "g23",
+      "acceptedAnswers": [
+       "invitereste"
+      ]
+     },
+     {
+      "id": "g24",
+      "acceptedAnswers": [
+       "ascoltavate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-181",
+  "title": "Il vestito che racconta un mestiere",
+  "language": "it",
+  "level": "B2",
+  "description": "Relativi, il/la cui e il che · Il vestito che racconta un mestiere · livello difficile.",
+  "topics": [
+   "Relativi, il/la cui e il che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-relativi",
+   "topicTitle": "Relativi, il/la cui e il che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3181
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Per la festa della scuola non volevamo comprare costumi da usare una sola volta. Abbiamo chiesto alle famiglie di prestare un abito [[g1]] (relativo soggetto) raccontasse qualcosa del loro lavoro. La proposta sembrava semplice, ma le prime risposte [[g2]] (a noi, gli studenti) hanno fatto cambiare idea. Non tutte le professioni hanno una divisa e non tutti vogliono essere riconosciuti attraverso il proprio mestiere.\nUna madre ha portato una giacca [[g3]] (relativo possessivo, femminile plurale) tasche erano piene di piccoli strumenti. Un nonno ha scelto un cappello [[g4]] (a + relativo) teneva molto, anche se non lo metteva più. Un’altra persona ha offerto soltanto una fotografia: l’abito [[g5]] (di + relativo) parlava non esisteva più. Abbiamo capito che avremmo dovuto ascoltare le storie, non limitare il progetto agli oggetti.\nLa mostra è stata organizzata in coppie: un oggetto o un’immagine e un breve testo. Gli autori hanno riletto le parole [[g6]] (con + relativo) li descrivevamo. Alcuni hanno chiesto di togliere il nome dell’azienda, altri hanno aggiunto una spiegazione. Una giacca macchiata di colore non raccontava soltanto fatica: per la proprietaria ricordava il primo lavoro realizzato da sola.\nIl giorno dell’apertura una visitatrice ha domandato quale fosse l’abito più importante. Non abbiamo saputo rispondere, perché il criterio non era il valore economico. Ci interessava il rapporto fra un oggetto e chi lo aveva usato. Una divisa può rendere visibile una funzione, ma non contiene tutta una persona.\nAlla fine abbiamo restituito ogni prestito con un’etichetta nuova, [[g7]] (su + relativo, femminile singolare) compariva il titolo scelto dal proprietario. La classe ha conservato soltanto i testi autorizzati. Nessuno ha sfilato travestito da qualcun altro: abbiamo preferito leggere le storie insieme, lasciando agli oggetti il loro contesto. La mostra e tutte le testimonianze sono immaginarie, create per questa attività.\nDopo la restituzione abbiamo riletto i testi senza guardare le immagini. Alcuni sembravano meno chiari: mancavano indicazioni che avevamo dato per scontate. Li abbiamo corretti, mantenendo le parole approvate dai proprietari. Anche questa revisione è entrata nel diario del progetto.\nLa classe ha capito [[g8]] (congiunzione: introduce il contenuto di ha capito) un oggetto richiede spiegazioni. [[g9]] (dimostrativo: l’aver bisogno di spiegazioni) non riduce il suo valore. [[g10]] (dimostrativo: gli oggetti) che sembravano più comuni hanno suscitato molte domande. Una persona ha detto [[g11]] (congiunzione: introduce il contenuto di ha detto) avrebbe preferito aggiungere una registrazione. Gli studenti hanno risposto [[g12]] (congiunzione: introduce il contenuto di hanno risposto) ne avrebbero discusso per una futura mostra.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "le cui"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "con cui"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sulla quale"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Questo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Quelli"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "che"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-184",
+  "title": "Due opinioni sul giornale di classe (1)",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Due opinioni sul giornale di classe (1) · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3184
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "A — Una pubblicazione lenta, di Irene. Preferirei un giornale che esce poche volte all’anno, ma che [[g1]] (avere, congiuntivo presente) il tempo di scegliere e verificare i contenuti. Se ogni giorno dovessimo pubblicare qualcosa, rischieremmo di scambiare la quantità per partecipazione. [[g2]] (volere, condizionale presente) che ciascuno [[g3]] (potere, congiuntivo imperfetto) lavorare su una domanda vera, anche quando la risposta richiede più di una settimana. Un’intervista preparata con cura mi interesserebbe più di dieci messaggi che ripetono un annuncio.\nNon sono contraria agli strumenti digitali. Li userei per raccogliere proposte e correggere bozze, purché [[g4]] (essere, congiuntivo imperfetto) chiaro quale versione stiamo leggendo. Mi preoccupa invece l’idea che tutto debba essere visibile immediatamente. Un testo non ancora controllato può contenere un nome sbagliato o una frase attribuita alla persona sbagliata. Se lo condividessimo troppo presto, la correzione potrebbe arrivare soltanto a una parte dei lettori.\nIo terrei un archivio delle versioni pubblicate e spiegherei gli eventuali cambiamenti. Non cancellerei un errore fingendo che non sia mai esistito. Inoltre sceglierei un formato stampabile: alcune persone leggono meglio su carta, altre preferiscono uno schermo. Un numero breve [[g5]] circolare in entrambi i modi. Il tempo risparmiato evitando aggiornamenti continui [[g6]] (essere) dedicato all’ascolto e alla revisione.\nLa mia proposta [[g7]] (avere) un limite: certe notizie arriverebbero tardi. Per gli avvisi urgenti userei quindi un canale separato, con poche informazioni essenziali. Il giornale [[g8]] (conservare, condizionale presente) un altro scopo: raccontare, discutere e lasciare una traccia leggibile anche dopo qualche mese. Se tutto [[g9]] (essere, congiuntivo imperfetto) costruito intorno all’urgenza, perderemmo questa possibilità.\n\nB — Un dialogo che continua, di Samuele. Capisco la proposta di Irene, ma [[g10]] (volere, condizionale presente) che il giornale [[g11]] (potere, congiuntivo imperfetto) ricevere risposte durante il lavoro. Un numero pubblicato soltanto alla fine rischia di sembrare concluso, mentre alcune domande cambiano grazie ai lettori. Creerei una sezione di progetti in corso, chiaramente distinta dagli articoli verificati. Non vi inserirei informazioni personali né citazioni non autorizzate: presenterei il tema e chiederei suggerimenti.\nPer esempio, se stessimo studiando l’uso del cortile, potremmo pubblicare le domande prima delle conclusioni. Un compagno che non partecipa alla redazione [[g12]] indicarci un problema trascurato. Questo non significherebbe trattare ogni commento come un dato affidabile. La redazione dovrebbe controllare, confrontare e spiegare le proprie scelte. Nessuno strumento elimina quella responsabilità.\nAnch’io [[g13]] (conservare, condizionale presente) le versioni e segnalerei le correzioni. Aggiungerei però una data di aggiornamento e un modo semplice per contattarci. Mi piacerebbe che chi trova un errore sapesse a chi scrivere, senza doverlo trasformare in una discussione pubblica. Non chiederei ai redattori di rispondere a qualsiasi ora: definirei turni e tempi ragionevoli.\nIl mio progetto richiederebbe più organizzazione e [[g14]] diventare dispersivo. Per questo lo proverei con un solo argomento. Se i commenti non aiutassero il lavoro, cambierei il sistema. Concordo con Irene sul punto principale: pubblicare non significa soltanto premere un pulsante. Divergiamo sul momento in cui coinvolgere i lettori. Forse [[g15]] (potere, condizionale presente) combinare un’edizione stabile con uno spazio limitato di confronto. Entrambi questi interventi sono originali e immaginari, non testimonianze raccolte in una scuola reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "è",
+       "sia",
+       "abbia"
+      ],
+      "answer": "abbia"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Vorrei",
+       "sarà",
+       "sarebbe"
+      ],
+      "answer": "Vorrei"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "è",
+       "fosse",
+       "potesse"
+      ],
+      "answer": "potesse"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "è",
+       "sarà",
+       "fosse"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sarà",
+       "sarebbe",
+       "potrebbe"
+      ],
+      "answer": "potrebbe"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sarà",
+       "era",
+       "sarebbe"
+      ],
+      "answer": "sarebbe"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "sarebbe",
+       "sarà",
+       "avrebbe"
+      ],
+      "answer": "avrebbe"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "sarà",
+       "sarebbe",
+       "conserverebbe"
+      ],
+      "answer": "conserverebbe"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "è",
+       "fosse",
+       "sarà"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "sarà",
+       "sarebbe",
+       "vorrei"
+      ],
+      "answer": "vorrei"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "fosse",
+       "potesse",
+       "è"
+      ],
+      "answer": "potesse"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "sarebbe",
+       "potrebbe",
+       "sarà"
+      ],
+      "answer": "potrebbe"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "sarebbe",
+       "sarà",
+       "conserverei"
+      ],
+      "answer": "conserverei"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "sarebbe",
+       "sarà",
+       "potrebbe"
+      ],
+      "answer": "potrebbe"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "sarà",
+       "potremmo",
+       "sarebbe"
+      ],
+      "answer": "potremmo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-185",
+  "title": "Il plastico in viaggio",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico, sinonimi e formazione delle parole · Il plastico in viaggio · livello difficile.",
+  "topics": [
+   "Lessico, sinonimi e formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-lessico",
+   "topicTitle": "Lessico, sinonimi e formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3185
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La [[g1]] della mostra la nostra classe aspettava il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato [[g2]] una scatola. Il cartone era resistente, ma le maniglie [[g3]] fragili. Per questo avevamo portato anche del [[g4]] adesivo.\nSul binario c’erano molti viaggiatori. Il tabellone annunciava dieci minuti di ritardo. La nostra coincidenza sembrava a rischio. Un addetto ci ha indicato un altro [[g5]] e abbiamo controllato gli orari sul telefono. I biglietti erano validi anche per quel collegamento.\nQuando il treno è arrivato, due compagni hanno sollevato la scatola. Una maniglia si è [[g6]], ma il plastico non è caduto: una viaggiatrice ha afferrato il bordo in tempo. Lei viaggiava con una valigia leggera e ci ha [[g7]] spazio [[g8]] alla porta.\nDurante il tragitto abbiamo riparato la confezione. La destinazione era ancora lontana, ma la preoccupazione era diminuita. All’arrivo, un volontario ci ha accompagnato all’[[g9]]. La mostra era [[g10]] da poco. Il nostro progetto ha trovato posto su un tavolo vicino all’ingresso. Abbiamo aggiunto una didascalia: «Questa città ha già fatto un viaggio».",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mattina"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "dentro"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sembravano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "nastro"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "percorso"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "staccata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "lasciato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "vicino"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "uscita"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "cominciata"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-190",
+  "title": "Due opinioni sul giornale di classe (2)",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Due opinioni sul giornale di classe (2) · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3190
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "A — Una pubblicazione lenta, di Irene. Preferirei un giornale che esce poche volte all’anno, ma che [[g1]] (avere, congiuntivo presente) il tempo di scegliere e verificare i contenuti. Se ogni giorno dovessimo pubblicare qualcosa, rischieremmo di scambiare la quantità per partecipazione. Vorrei che ciascuno [[g2]] (potere, congiuntivo imperfetto) lavorare su una domanda vera, anche quando la risposta richiede più di una settimana. Un’intervista preparata con cura mi interesserebbe più di dieci messaggi che ripetono un annuncio.\nNon [[g3]] (essere, presente) contraria agli strumenti digitali. Li userei per raccogliere proposte e correggere bozze, purché [[g4]] (essere, congiuntivo imperfetto) chiaro quale versione stiamo leggendo. Mi preoccupa invece l’idea che tutto debba essere visibile immediatamente. Un testo non ancora controllato può contenere un nome sbagliato o una frase attribuita alla persona sbagliata. Se lo condividessimo troppo presto, la correzione potrebbe arrivare soltanto a una parte dei lettori.\nIo terrei un archivio delle versioni pubblicate e spiegherei gli eventuali cambiamenti. Non cancellerei un errore fingendo che non sia mai esistito. Inoltre sceglierei un formato stampabile: alcune persone leggono meglio su carta, altre preferiscono uno schermo. Un numero breve potrebbe circolare in entrambi i modi. Il tempo risparmiato evitando aggiornamenti continui sarebbe dedicato all’ascolto e alla revisione.\nLa mia proposta avrebbe un limite: certe notizie arriverebbero tardi. Per gli avvisi urgenti userei quindi un canale separato, con poche informazioni essenziali. Il giornale conserverebbe un altro scopo: raccontare, discutere e lasciare una traccia leggibile anche dopo qualche mese. Se tutto [[g5]] (essere, congiuntivo imperfetto) costruito intorno all’urgenza, perderemmo questa possibilità.\n\nB — Un dialogo che continua, di Samuele. Capisco la proposta di Irene, ma vorrei che il giornale [[g6]] (potere, congiuntivo imperfetto) ricevere risposte durante il lavoro. Un numero pubblicato soltanto alla fine rischia di sembrare concluso, mentre alcune domande cambiano grazie ai lettori. Creerei una sezione di progetti in corso, chiaramente distinta dagli articoli verificati. Non vi inserirei informazioni personali né citazioni non autorizzate: presenterei il tema e chiederei suggerimenti.\nPer esempio, se stessimo studiando l’uso del cortile, potremmo pubblicare le domande prima delle conclusioni. Un compagno che non partecipa alla redazione potrebbe indicarci un problema trascurato. Questo non significherebbe trattare ogni commento come un dato affidabile. La redazione dovrebbe controllare, confrontare e spiegare le proprie scelte. Nessuno strumento elimina quella responsabilità.\nAnch’io conserverei le versioni e segnalerei le correzioni. Aggiungerei però una data di aggiornamento e un modo semplice per contattarci. Mi piacerebbe che chi trova un errore sapesse a chi scrivere, senza doverlo trasformare in una discussione pubblica. Non chiederei ai redattori di rispondere a qualsiasi ora: definirei turni e tempi ragionevoli.\nIl mio progetto richiederebbe più organizzazione e potrebbe diventare dispersivo. Per questo lo proverei con un solo argomento. Se i commenti non aiutassero il lavoro, cambierei il sistema. Concordo con Irene sul punto principale: pubblicare non significa soltanto premere un pulsante. Divergiamo sul momento in cui coinvolgere i lettori. Forse potremmo combinare un’edizione stabile con uno spazio limitato di confronto. Entrambi questi interventi [[g7]] (essere, presente) originali e immaginari, non testimonianze raccolte in una scuola reale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "è",
+       "sia",
+       "abbia"
+      ],
+      "answer": "abbia"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "potesse",
+       "è",
+       "fosse"
+      ],
+      "answer": "potesse"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "durante",
+       "prima",
+       "sono"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "è",
+       "sarà",
+       "fosse"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sarà",
+       "è",
+       "fosse"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "fosse",
+       "è",
+       "potesse"
+      ],
+      "answer": "potesse"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "prima",
+       "durante",
+       "sono"
+      ],
+      "answer": "sono"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "Completa le forme o le trasformazioni indicate.",
+    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
+    "text": "1. ascoltare — congiuntivo imperfetto — lui/lei → [[g1]]\n2. preparare — congiuntivo imperfetto — io → [[g2]]\n3. ascoltare — congiuntivo imperfetto — io → [[g3]]\n4. controllare — congiuntivo presente — noi → [[g4]]\n5. parlare — congiuntivo presente — io → [[g5]]\n6. vendere — congiuntivo imperfetto — voi → [[g6]]\n7. andare — congiuntivo imperfetto — loro → [[g7]]\n8. andare — congiuntivo imperfetto — voi → [[g8]]\n9. dire — congiuntivo presente — tu → [[g9]]\n10. telefonare — congiuntivo presente — voi → [[g10]]\n11. ascoltare — congiuntivo presente — lui/lei → [[g11]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ascoltasse"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "preparassi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ascoltassi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "controlliamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "parli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vendeste"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "andassero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "andaste"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dica"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "telefoniate"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ascolti"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-194",
+  "title": "Il gruppo dei messaggi",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Il gruppo dei messaggi · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3194
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "La nostra famiglia usava un gruppo di messaggi per organizzare pranzi e visite. All’inizio sembrava comodo, [[g1]] sono aumentate le fotografie e le battute. Mia zia cercava l’orario di un appuntamento e non riusciva a trovarlo. Un giorno ha scritto: «Potete mandarmi soltanto l’informazione che serve?».\nNessuno voleva escluderla. Mio cugino ha proposto un secondo gruppo per gli avvisi pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna ha spiegato che leggeva i messaggi una volta al giorno, non continuamente. Le abbiamo chiesto quale sistema preferisse e lei ha scelto una telefonata per gli accordi urgenti.\nDopo quella discussione abbiamo cambiato poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa lo comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. [[g2]] discutiamo meno, [[g3]] sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "poi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Tuttavia"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "perché"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-195",
+  "title": "Una visita che comincia con una domanda",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Una visita che comincia con una domanda · livello difficile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "own",
+    "citation": "UNESCO World Heritage Centre: Venice and its Lagoon. Welterbe-Einschreibung 1987; aktuelle Objektdarstellung am Abrufdatum. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+    "url": "https://whc.unesco.org/en/list/394/",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3195
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Completa il testo: scegli la forma giusta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text: Wähle die richtige Form.",
+    "text": "Venezia e la sua laguna fanno parte del Patrimonio mondiale UNESCO dal 1987. La scheda ufficiale presenta insieme la [[g1]] e l’ambiente lagunare, sottolineando il rapporto storico fra [[g2]] umani e territorio. Segnala [[g3]] la pressione del turismo e i cambiamenti nelle funzioni urbane. Questi elementi documentati offrono il punto di partenza per l’itinerario immaginario seguente; non costituiscono informazioni aggiornate su biglietti o prenotazioni.\nUn gruppo di studenti prepara una visita. La prima lista comprende soltanto monumenti famosi. Poi una ragazza chiede dove [[g4]] il pane gli [[g5]] e come raggiungano la [[g6]]. La domanda non elimina l’interesse per l’arte, ma allarga lo sguardo. Il gruppo decide di [[g7]] anche i servizi quotidiani e di evitare un programma che obblighi a correre da una fotografia all’altra.\nLa classe divide il lavoro in tre parti. Alcuni studiano una pianta, altri [[g8]] una testimonianza pubblicata da un’istituzione [[g9]], altri preparano domande sull’ambiente. Nessuno dovrà intervistare persone [[g10]] per strada senza chiedere prima il permesso. Nel diario di viaggio sarà sempre indicato se una frase è un’osservazione personale, un’informazione ricavata da una fonte o un’ipotesi.\nDurante la visita [[g11]], gli studenti si fermano davanti a un campo quasi vuoto. Non lo descrivono come «più autentico» soltanto perché ci sono meno visitatori: sarebbe un giudizio troppo rapido. Annotano ciò che vedono, ascoltano i suoni e controllano sulla mappa dove si trovano. Più tardi confrontano quell’esperienza con quella di uno spazio affollato.\nIl prodotto finale non è una classifica dei luoghi migliori. È una guida breve che propone domande e lascia il tempo di osservare. Il gruppo inserisce anche una pagina pratica, ma la [[g12]] prima di un viaggio reale. Una città non coincide con il percorso [[g13]] da chi la visita; ricordarlo può rendere il viaggio più interessante e più rispettoso. Il racconto degli studenti è interamente [[g14]].\nPrima della partenza ogni studente preparerà una piccola pagina del diario con tre spazi: informazione [[g15]], osservazione e domanda. Dopo il viaggio confronterà le tre sezioni con un compagno. Se una frase mescola un fatto e un’[[g16]], [[g17]] a separarla in due. Non servirà a eliminare le emozioni dal racconto, ma a permettere al lettore di [[g18]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "città",
+       "insediamenti",
+       "inoltre"
+      ],
+      "answer": "città"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "città",
+       "insediamenti",
+       "inoltre"
+      ],
+      "answer": "insediamenti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "città",
+       "inoltre",
+       "insediamenti"
+      ],
+      "answer": "inoltre"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "insediamenti",
+       "città",
+       "comprino"
+      ],
+      "answer": "comprino"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "abitanti",
+       "insediamenti",
+       "città"
+      ],
+      "answer": "abitanti"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "città",
+       "insediamenti",
+       "scuola"
+      ],
+      "answer": "scuola"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "insediamenti",
+       "città",
+       "osservare"
+      ],
+      "answer": "osservare"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "cercano",
+       "insediamenti",
+       "città"
+      ],
+      "answer": "cercano"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "città",
+       "insediamenti",
+       "culturale"
+      ],
+      "answer": "culturale"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "insediamenti",
+       "incontrate",
+       "città"
+      ],
+      "answer": "incontrate"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "immaginata",
+       "insediamenti",
+       "città"
+      ],
+      "answer": "immaginata"
+     },
+     {
+      "id": "g12",
+      "options": [
+       "città",
+       "insediamenti",
+       "aggiornerà"
+      ],
+      "answer": "aggiornerà"
+     },
+     {
+      "id": "g13",
+      "options": [
+       "città",
+       "scelto",
+       "insediamenti"
+      ],
+      "answer": "scelto"
+     },
+     {
+      "id": "g14",
+      "options": [
+       "insediamenti",
+       "inventato",
+       "città"
+      ],
+      "answer": "inventato"
+     },
+     {
+      "id": "g15",
+      "options": [
+       "città",
+       "controllata",
+       "insediamenti"
+      ],
+      "answer": "controllata"
+     },
+     {
+      "id": "g16",
+      "options": [
+       "insediamenti",
+       "impressione",
+       "città"
+      ],
+      "answer": "impressione"
+     },
+     {
+      "id": "g17",
+      "options": [
+       "proveranno",
+       "città",
+       "insediamenti"
+      ],
+      "answer": "proveranno"
+     },
+     {
+      "id": "g18",
+      "options": [
+       "insediamenti",
+       "riconoscerle",
+       "città"
+      ],
+      "answer": "riconoscerle"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-197",
+  "title": "La fotografia tagliata",
+  "language": "it",
+  "level": "B2",
+  "description": "Leggere, analizzare e riassumere · La fotografia tagliata · livello difficile.",
+  "topics": [
+   "Leggere, analizzare e riassumere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Kompetenzen und Themen"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.1 Leseverstehen; 3"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it11-lettura",
+   "topicTitle": "Leggere, analizzare e riassumere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3197
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Quando Lea aprì il vecchio album, trovò una [[g1]] tagliata a metà. Si [[g2]] un tavolo, una finestra e la mano di una persona. Il resto mancava. Sua zia disse che il bordo era già così quando l’album le era stato affidato. Non sapeva chi avesse tagliato l’immagine né per quale motivo. Lea immaginò subito un litigio, ma la zia le chiese su quali elementi basasse quella storia.\nLa ragazza guardò meglio. Sul tavolo c’era un piatto e [[g3]] alla finestra una tenda a fiori. Una scritta sul retro indicava un mese, ma l’anno era incompleto. Lea avrebbe [[g4]] trovare un indizio decisivo. Invece aveva soltanto dettagli che potevano [[g5]] a molte situazioni. Decise di cercare altre fotografie della stessa stanza.\nIn una scatola comparvero tre immagini. La tenda era simile, ma il tavolo aveva una forma diversa. La zia ricordò che la famiglia aveva cambiato casa. Questo aiutava a formulare una domanda nuova, non a risolvere tutto. Telefonarono a un cugino, che promise di controllare il proprio album. Disse che forse possedeva una copia completa, ma non ne era certo.\nLea preparò una scheda con ciò che vedeva, ciò che le era stato raccontato e ciò che immaginava. Nella terza colonna scrisse la storia del litigio, poi la barrò: non aveva prove. Al suo posto mise una domanda più semplice, «Esiste un’altra copia?». La ricerca divenne meno spettacolare e più concreta.\nQualche giorno dopo il cugino inviò una fotografia. Mostrava lo stesso tavolo, ma non era lo stesso momento. Lea provò delusione, poi notò un dettaglio utile: una lampada che nella fotografia tagliata compariva appena. La mostrò alla zia, che riconobbe finalmente la stanza di una vicina. Il mistero non era risolto, ma la direzione della ricerca era cambiata.\nLea conservò entrambe le immagini senza unirle artificialmente. Sotto quella incompleta scrisse che alcune informazioni restavano da verificare. Avrebbe potuto inventare un finale, ma preferì lasciare spazio a chi avrebbe guardato l’album dopo di lei. La storia è originale; non descrive una famiglia [[g6]] e non riproduce fotografie altrui.\nAccanto alla scheda lasciò anche la data della ricerca. In questo modo una scoperta futura avrebbe potuto essere aggiunta senza confondersi con ciò che sapevano allora.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "fotografia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vedevano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vicino"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "voluto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "appartenere"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "reale"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-200",
+  "title": "Il cartografo e il sentiero",
+  "language": "it",
+  "level": "B2",
+  "description": "Coesione, connettivi e segnali discorsivi · Il cartografo e il sentiero · livello difficile.",
+  "topics": [
+   "Coesione, connettivi e segnali discorsivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "4",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 11,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It11 1.2"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it11-coesione",
+   "topicTitle": "Coesione, connettivi e segnali discorsivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3200
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "text": "Quando era giovane, il [[g1]] ricevette l’[[g2]] di disegnare i [[g3]] di una valle. Partì con una borsa leggera e un quaderno. Il sindaco gli aveva mostrato una carta antica, ma molti nomi non erano più usati. [[g4]] prima casa il cartografo incontrò una donna che [[g5]] la valle meglio di chiunque altro.\nLei gli disse che il [[g6]] più breve non era sempre quello indicato sulle mappe. D’inverno il torrente cresceva e [[g7]] passaggi diventavano impraticabili. Il cartografo prese nota, poi chiese chi avesse costruito il ponte. La donna non ricordava un nome; ricordava invece un gruppo di persone e una primavera molto piovosa.\nIl giorno seguente lui andò al torrente. Qualcuno aveva sistemato nuove pietre vicino all’acqua. Il sentiero [[g8]] oltre un bosco e scompariva dietro una curva. Il cartografo capì che la sua carta avrebbe dovuto distinguere ciò che aveva visto da ciò che gli avevano raccontato.\nQuando tornò in paese, mostrò il lavoro agli abitanti. Alcuni corressero un nome, altri aggiunsero un passaggio. La carta non fu più soltanto sua. Anni dopo, un ragazzo la trovò in un [[g9]] e domandò perché accanto a certi sentieri ci fossero piccoli punti interrogativi. La donna sorrise: erano il [[g10]] che qualcuno aveva lasciato [[g11]] a un’altra visita. Questo racconto è [[g12]] e non deriva da un’opera letteraria esistente.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "cartografo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "incarico"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sentieri"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Nella"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "conosceva"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "percorso"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "alcuni"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "continuava"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "armadio"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "segno"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "spazio"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "originale"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-daje-b1b2-201",
+  "title": "Comunicare durante un progetto: due pagine",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Comunicare durante un progetto: due pagine · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje).",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "own",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "It12/13 1.2"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "order": 3201
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo.",
+    "explanation": "Controlla ogni forma nel contesto.",
+    "promptHelp": "Ergänze den Text.",
+    "text": "Pagina A — Il diario [[g1]] gruppo. Stiamo preparando una mostra e usiamo un gruppo di messaggi per dividerci i compiti. All’inizio ogni decisione finiva in mezzo a fotografie, battute e domande. Chi entrava nella conversazione dopo qualche ora non capiva quale versione del programma fosse valida. Abbiamo quindi scelto una persona che, alla fine [[g2]] giornata, scrive un riepilogo. Il ruolo cambia ogni settimana, così il lavoro non ricade sempre sullo stesso compagno.\nIl riepilogo contiene soltanto decisioni confermate, compiti e scadenze. Le proposte ancora aperte vengono indicate separatamente. Se una persona non risponde subito, non le assegniamo automaticamente un incarico. Prima chiediamo se può accettarlo. Inoltre conserviamo i documenti in uno spazio comune, con titoli che permettono di distinguere le versioni. Nessuno deve indovinare se un file chiamato «finale nuovo definitivo» sia davvero quello da usare.\nQuando lavoriamo nella stessa stanza, lasciamo un momento iniziale per leggere gli aggiornamenti. Poi scegliamo se i telefoni servano all’attività. Per registrare un’intervista possono essere utili; durante la discussione [[g3]] una bozza possono interrompere l’ascolto. Non trattiamo lo strumento come una soluzione automatica né come un problema identico in ogni situazione. Cerchiamo di spiegare quale uso ci aiuta e quale ci distrae.\n\nPagina B — La proposta alla classe. Vorremmo che queste abitudini diventassero un accordo scritto per il progetto, non una regola generale inventata da noi per tutta la scuola. Prima [[g4]] applicarle, dobbiamo confrontarle con le indicazioni dell’istituto e con gli insegnanti. Il nostro foglio riguarda il modo di organizzarci e non descrive norme ufficiali sull’uso dei dispositivi.\nProponiamo tre domande [[g5]] porci prima di inviare un messaggio: a chi serve, quanto è urgente e dove potrà essere ritrovato? Se il messaggio riguarda una sola persona, forse non occorre coinvolgere tutto il gruppo. Se contiene una decisione importante, non dovrebbe scomparire fra risposte non collegate. Se condividiamo una fotografia, dobbiamo avere chiaro chi vi compare e quale uso è stato concordato.\nAlla fine della mostra valuteremo l’accordo. Non conteremo soltanto i messaggi inviati, perché un numero più basso non dimostra necessariamente una comunicazione migliore. Chiederemo se le persone hanno trovato le informazioni, se i compiti erano chiari e se qualcuno è rimasto escluso. Una compagna propone anche un breve incontro senza schermi: potrebbe far emergere problemi che nessuno scriverebbe in una chat.\nLe due pagine descrivono un progetto immaginario. Non riportano uno studio scientifico né un regolamento reale. Presentano scelte discutibili e modificabili, con l’obiettivo [[g6]] rendere visibile il rapporto fra strumenti, persone e attività. La tecnologia resta sullo sfondo quando non serve; torna al centro quando offre una possibilità concreta che il gruppo sa spiegare.\nConserveremo infine l’accordo iniziale insieme alle modifiche approvate. Questo ci permetterà di ricordare perché una regola è stata introdotta e di discuterla senza ricominciare ogni volta [[g7]] impressioni diverse.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "da"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-a-in-l1",
   "title": "A o in?",
   "language": "it",

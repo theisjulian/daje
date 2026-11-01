@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-159",
+ "title": "La mia prima presentazione pubblica",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · La mia prima presentazione pubblica · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1159
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara zia, ieri [[g1]] (presentare, passato prossimo) il progetto della classe davanti a un pubblico e voglio raccontarti come [[g2]] (andare, passato prossimo). All’inizio ero molto nervosa. Avevo preparato le immagini, ma temevo di dimenticare le parole. La mia compagna Ilaria mi [[g3]] (aiutare, passato prossimo) a provare: mi ascoltava senza interrompere e poi mi faceva una domanda. Questo mi [[g4]] (permettere, passato prossimo) di capire quali passaggi non erano chiari.\nQuando [[g5]] (arrivare, passato prossimo) nella sala, il tecnico stava controllando il proiettore. Gli [[g6]] (consegnare, passato prossimo) il file e lui ci [[g7]] (mostrare, passato prossimo) il piccolo comando per cambiare le immagini. Io l’[[g8]] (provare, passato prossimo) due volte, poi l’[[g9]] (lasciare, passato prossimo) sul tavolo. Il pubblico entrava lentamente e parlava a bassa voce. Mia madre era seduta in fondo; l’[[g10]] (salutare, passato prossimo) con la mano, ma non [[g11]] (andare, passato prossimo) da lei perché mancavano pochi minuti.\nIl presentatore [[g12]] (chiamare, passato prossimo) il nostro gruppo. [[g13]] (alzarsi, passato prossimo), [[g14]] (prendere, passato prossimo) gli appunti e [[g15]] (raggiungere, passato prossimo) Ilaria. La prima frase [[g16]] (uscire, passato prossimo) un po’ piano. Un’insegnante mi ha fatto un gesto gentile per invitarmi a parlare più forte. Ho respirato, ho guardato il pubblico e ho continuato. A metà della presentazione una fotografia non si è aperta. Ilaria mi ha guardata; io le ho detto di passare alla successiva e ho spiegato a parole quello che mancava. Il problema non ha rovinato il lavoro.\nAlla fine abbiamo ricevuto tre domande. Non conoscevamo una risposta e lo abbiamo detto chiaramente. Il nostro insegnante ci ha ringraziate per l’onestà. La prossima volta prepareremo anche una copia stampata delle immagini. Io proverò ancora a parlare senza leggere ogni frase. Non è stato perfetto, ma sono contenta di averlo fatto. Ti mostrerò le fotografie domenica. Un abbraccio, Alina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho presentato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è andata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha aiutata"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha permesso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siamo arrivate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "abbiamo consegnato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha mostrato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho provato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ho lasciato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho salutata"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sono andata"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ha chiamato"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Mi sono alzata"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ho preso"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ho raggiunto"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "è uscita"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

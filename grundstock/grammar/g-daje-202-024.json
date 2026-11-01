@@ -1,0 +1,187 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-024",
+ "title": "Una casa per studiare insieme",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una casa per studiare insieme · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1024
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Ciao Lara, finalmente abbiamo trovato una casa per [[g1]] nostro periodo di studio! È al secondo piano di un edificio piccolo. Non è elegante, ma è luminosa e tranquilla. All’ingresso c’è uno specchio; sotto [[g2]] specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per [[g3]] scarpe. La cucina è grande: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. [[g4]] piatti sono bianchi, [[g5]] bicchieri sono trasparenti e [[g6]] tazze sono tutte diverse. Nella credenza troviamo anche pentole, posate e una tovaglia azzurra. [[g7]] soggiorno ha un divano comodo, due poltrone e una libreria. [[g8]] tappeto è vecchio, però è pulito. [[g9]] camere sono piccole. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. [[g10]] finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; [[g11]] asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. [[g12]] vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. [[g13]] sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "La"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. __ specchio è vicino alla porta. → [[g1]]\n2. __ armadi sono nuovi. → [[g2]]\n3. __ asciugamani sono puliti. → [[g3]]\n4. __ poltrone sono comode. → [[g4]]\n5. __ letto è vicino alla finestra. → [[g5]]\n6. __ cucina è luminosa. → [[g6]]\n7. __ scaffale è alto. → [[g7]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

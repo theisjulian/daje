@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-126",
+ "title": "La cartolina difficile da leggere",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La cartolina difficile da leggere · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3126
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Durante [[g1]] (articolo indeterminativo) laboratorio di scrittura abbiamo ricevuto una cartolina inventata dall’insegnante. [[g2]] messaggio era breve, ma alcune lettere si somigliavano. Prima abbiamo provato a leggerlo da soli; poi abbiamo confrontato le interpretazioni. In un punto qualcuno leggeva «casa», qualcun altro «cosa». [[g3]] contesto aiutava, ma non eliminava ogni dubbio.\nL’insegnante ci ha chiesto di non correggere subito la parola incerta. Dovevamo segnare [[g4]] alternative e spiegare perché ciascuna sembrasse possibile. Quando abbiamo letto il resto della frase, [[g5]] soluzione è diventata più probabile. Tuttavia abbiamo mantenuto il punto interrogativo finché non abbiamo visto l’originale stampato.\n[[g6]] studenti che scrivevano in modo molto ordinato pensavano di essere avvantaggiati. Invece leggere [[g7]] grafia diversa richiedeva un’attenzione nuova anche a loro. L’esercizio non serviva a scegliere [[g8]] quaderno più bello, bensì a distinguere osservazione e interpretazione.\nAlla fine ognuno ha scritto una breve istruzione per [[g9]] compagno. Se il destinatario non la capiva, l’autore doveva chiarirla senza irritarsi. Abbiamo scoperto che [[g10]] frase può essere difficile anche quando tutte le lettere sono leggibili. Perciò abbiamo rivisto sia la grafia sia le parole. Infine abbiamo conservato due versioni: quella iniziale e quella corretta. Il confronto mostrava [[g11]] lavoro svolto, non soltanto il risultato. Così [[g12]] cartolina fittizia è diventata un’occasione per pensare a chi legge.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "una"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

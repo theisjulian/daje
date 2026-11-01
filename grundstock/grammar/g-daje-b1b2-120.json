@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-120",
+ "title": "Il giardino dietro la mensa",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il giardino dietro la mensa · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3120
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Dietro la mensa scolastica c’era [[g1]] spazio che nessuno usava. L’erba cresceva fra le pietre e il cancello rimaneva quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in [[g2]] giardino, ma [[g3]] progetto era rimasto in un cassetto. Quando la nuova preside lo ha letto, ha invitato gli autori a discuterne.\nLa prima riunione non è stata semplice. [[g4]] gruppo voleva piantare fiori, [[g5]] altro preferiva gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato [[g6]] problema con l’acqua. Prima di comprare qualcosa, abbiamo misurato lo spazio e abbiamo osservato dove arrivava [[g7]] sole.\nIl sabato successivo sono venute anche alcune famiglie. [[g8]] madre aveva portato guanti di varie misure, mentre [[g9]] vicino aveva preparato due cassette di legno. Noi lavoravamo a piccoli gruppi. Chi non conosceva gli attrezzi chiedeva aiuto, e nessuno aveva fretta di finire.\nA giugno il giardino non era perfetto. Alcune piante sono cresciute, altre no. Abbiamo capito che [[g10]] fotografia del primo giorno non racconta tutto [[g11]] lavoro necessario dopo. Perciò abbiamo organizzato i turni estivi e abbiamo lasciato un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. [[g12]] giardino ci insegna soprattutto a tornare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Una"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-169",
+ "title": "Un segnale dallo spazio",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Un segnale dallo spazio · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "European Space Agency (ESA): Satelliti. Kein Veröffentlichungsdatum in der konsultierten Ansicht. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 eA 1.2"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3169
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato nel 1957. [[g1]] (essere) un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva dalla pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti [[g2]] (vedere) immagini di satelliti, ma non [[g3]] (sapere) distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e [[g4]] (chiedere) di annotare la fonte di ogni data. Un gruppo [[g5]] (raccogliere) informazioni da pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione [[g6]] (mostrare, passato remoto) quanto fosse facile confondere un’immagine illustrativa con la documentazione di un evento. Gli studenti [[g7]] (decidere, passato remoto) allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate a persone reali.\nAlla fine il cartellone era più semplice di quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande sulle funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. [[g8]] (imparare, forma composta) a costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma da ciò che un lettore aggiunge. La scelta dei tempi verbali nel racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avevano già visto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sapevano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aveva raccolto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mostrò"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "decisero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Aveva imparato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

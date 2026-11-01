@@ -1,0 +1,219 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-118",
+ "title": "La corsa a coppie",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La corsa a coppie · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3118
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "La squadra della scuola [[g1]] (preparare) una corsa a coppie nel parco. Il regolamento prevedeva che i compagni arrivassero insieme, non che uno aspettasse l’altro soltanto alla fine. Giulia [[g2]] (correre) più velocemente di Eva e all’inizio [[g3]] (pensare) che avrebbe dovuto rallentare senza ottenere nulla in cambio.\nPrima della partenza le due ragazze hanno parlato del percorso. Eva [[g4]] (osservare) bene la mappa e [[g5]] (individuare) alcuni punti in cui era facile sbagliare direzione. Giulia invece [[g6]] (provare) la salita e sapeva dove conveniva mantenere un ritmo regolare. Si sono divise i compiti senza fare una gara fra le proprie capacità.\nDurante la corsa Giulia [[g7]] (prendere) una curva troppo presto. Eva [[g8]] (chiamare con pronome diretto femminile singolare) e le due sono tornate sul percorso. Poco dopo Eva [[g9]] (rallentare). Giulia [[g10]] (adattare) il passo e ha proposto di ripartire insieme dopo una breve pausa. Nessuna delle due [[g11]] (accusare) l’altra.\nAll’arrivo non [[g12]] (essere) prime, ma avevano rispettato la regola che rendeva diversa quella corsa. L’organizzatore [[g13]] (chiedere) a ogni coppia che cosa avesse imparato. Giulia ha risposto che conoscere il percorso contava quanto essere veloci; Eva [[g14]] (aggiungere, forma composta) che chiedere di rallentare non significava rinunciare. La gara è immaginaria e non offre indicazioni per un allenamento reale.\nPrima di tornare a casa, le ragazze hanno riletto insieme il regolamento. All’inizio [[g15]] (notare, forma composta) soprattutto la distanza e l’orario di partenza. Ora vedevano la frase sull’arrivo in coppia in modo diverso. Non era un ostacolo aggiunto alla corsa: [[g16]] (essere) il motivo per cui l’attività richiedeva collaborazione.\nNel diario del gruppo [[g17]] (descrivere, forma composta) due decisioni concrete, evitando di scrivere soltanto che «è stato bello stare insieme». Hanno raccontato la curva sbagliata e il cambiamento di ritmo, perché quei passaggi mostravano come si erano aiutate. Al prossimo incontro avrebbero ascoltato le altre coppie. Forse qualcuno [[g18]] (trovare, forma composta) un modo diverso di organizzarsi e avrebbe potuto spiegarlo. Anche dopo l’arrivo restava qualcosa da imparare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha osservato",
+      "aveva preparato",
+      "aveva osservato"
+     ],
+     "answer": "aveva preparato"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "correva",
+      "era",
+      "è stato"
+     ],
+     "answer": "correva"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "pensava",
+      "è stato",
+      "era"
+     ],
+     "answer": "pensava"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "aveva osservato",
+      "ha osservato",
+      "osserverà"
+     ],
+     "answer": "aveva osservato"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "aveva osservato",
+      "aveva individuato",
+      "ha osservato"
+     ],
+     "answer": "aveva individuato"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ha osservato",
+      "aveva provato",
+      "aveva osservato"
+     ],
+     "answer": "aveva provato"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "osservava",
+      "ha preso",
+      "ha osservato"
+     ],
+     "answer": "ha preso"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "osservava",
+      "ha osservato",
+      "l’ha chiamata"
+     ],
+     "answer": "l’ha chiamata"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ha osservato",
+      "ha rallentato",
+      "osservava"
+     ],
+     "answer": "ha rallentato"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "ha adattato",
+      "ha osservato",
+      "osservava"
+     ],
+     "answer": "ha adattato"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "ha osservato",
+      "osservava",
+      "ha accusato"
+     ],
+     "answer": "ha accusato"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "erano",
+      "è stato",
+      "era"
+     ],
+     "answer": "erano"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "osservava",
+      "ha chiesto",
+      "ha osservato"
+     ],
+     "answer": "ha chiesto"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "ha osservato",
+      "osservava",
+      "ha aggiunto"
+     ],
+     "answer": "ha aggiunto"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "avevano notato",
+      "aveva osservato",
+      "ha osservato"
+     ],
+     "answer": "avevano notato"
+    },
+    {
+     "id": "g16",
+     "options": [
+      "era",
+      "sarà",
+      "è stato"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g17",
+     "options": [
+      "hanno descritto",
+      "osservava",
+      "ha osservato"
+     ],
+     "answer": "hanno descritto"
+    },
+    {
+     "id": "g18",
+     "options": [
+      "aveva trovato",
+      "aveva osservato",
+      "ha osservato"
+     ],
+     "answer": "aveva trovato"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-133",
+ "title": "Tu e Lei: ascoltare la situazione",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Tu e Lei: ascoltare la situazione · livello medio.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1133
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "In italiano possiamo rivolgerci a una [[g1]] con tu oppure con Lei. La scelta dipende dalla [[g2]], dal [[g3]] e dalle [[g4]] delle persone. Tra [[g5]] e [[g6]] di scuola si usa normalmente tu. In un [[g7]], con una persona che non conosciamo, Lei è spesso una scelta cortese per cominciare. Non basta osservare l’età: anche il [[g8]] e il [[g9]] hanno importanza. Se una persona propone di usare tu, possiamo accettare e continuare in modo naturale. Possiamo anche chiedere: «Possiamo darci del tu?».\nLa [[g10]] non dipende soltanto dal pronome. Il tono, l’ascolto e parole come per favore e grazie aiutano a rendere rispettoso uno scambio. Un messaggio breve può sembrare brusco anche quando contiene Lei. Al contrario, una conversazione con tu può essere molto rispettosa. Quando non siamo sicuri, ascoltiamo come parlano gli altri e chiediamo con semplicità. Non esiste una regola unica valida per tutte le famiglie, le scuole e le aziende. In questa attività osserviamo alcune situazioni e motiviamo la scelta, senza considerare scortese ogni uso diverso dal nostro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "persona"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "situazione"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "rapporto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abitudini"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "amici"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "compagni"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ufficio"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "contesto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ruolo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "cortesia"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

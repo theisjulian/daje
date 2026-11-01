@@ -1,0 +1,192 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-184",
+ "title": "Due opinioni sul giornale di classe (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Due opinioni sul giornale di classe (1) · livello difficile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 1.2"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3184
+ },
+ "estimatedMinutes": 15,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "A — Una pubblicazione lenta, di Irene. Preferirei un giornale che esce poche volte all’anno, ma che [[g1]] (avere, congiuntivo presente) il tempo di scegliere e verificare i contenuti. Se ogni giorno dovessimo pubblicare qualcosa, rischieremmo di scambiare la quantità per partecipazione. [[g2]] (volere, condizionale presente) che ciascuno [[g3]] (potere, congiuntivo imperfetto) lavorare su una domanda vera, anche quando la risposta richiede più di una settimana. Un’intervista preparata con cura mi interesserebbe più di dieci messaggi che ripetono un annuncio.\nNon sono contraria agli strumenti digitali. Li userei per raccogliere proposte e correggere bozze, purché [[g4]] (essere, congiuntivo imperfetto) chiaro quale versione stiamo leggendo. Mi preoccupa invece l’idea che tutto debba essere visibile immediatamente. Un testo non ancora controllato può contenere un nome sbagliato o una frase attribuita alla persona sbagliata. Se lo condividessimo troppo presto, la correzione potrebbe arrivare soltanto a una parte dei lettori.\nIo terrei un archivio delle versioni pubblicate e spiegherei gli eventuali cambiamenti. Non cancellerei un errore fingendo che non sia mai esistito. Inoltre sceglierei un formato stampabile: alcune persone leggono meglio su carta, altre preferiscono uno schermo. Un numero breve [[g5]] circolare in entrambi i modi. Il tempo risparmiato evitando aggiornamenti continui [[g6]] (essere) dedicato all’ascolto e alla revisione.\nLa mia proposta [[g7]] (avere) un limite: certe notizie arriverebbero tardi. Per gli avvisi urgenti userei quindi un canale separato, con poche informazioni essenziali. Il giornale [[g8]] (conservare, condizionale presente) un altro scopo: raccontare, discutere e lasciare una traccia leggibile anche dopo qualche mese. Se tutto [[g9]] (essere, congiuntivo imperfetto) costruito intorno all’urgenza, perderemmo questa possibilità.\n\nB — Un dialogo che continua, di Samuele. Capisco la proposta di Irene, ma [[g10]] (volere, condizionale presente) che il giornale [[g11]] (potere, congiuntivo imperfetto) ricevere risposte durante il lavoro. Un numero pubblicato soltanto alla fine rischia di sembrare concluso, mentre alcune domande cambiano grazie ai lettori. Creerei una sezione di progetti in corso, chiaramente distinta dagli articoli verificati. Non vi inserirei informazioni personali né citazioni non autorizzate: presenterei il tema e chiederei suggerimenti.\nPer esempio, se stessimo studiando l’uso del cortile, potremmo pubblicare le domande prima delle conclusioni. Un compagno che non partecipa alla redazione [[g12]] indicarci un problema trascurato. Questo non significherebbe trattare ogni commento come un dato affidabile. La redazione dovrebbe controllare, confrontare e spiegare le proprie scelte. Nessuno strumento elimina quella responsabilità.\nAnch’io [[g13]] (conservare, condizionale presente) le versioni e segnalerei le correzioni. Aggiungerei però una data di aggiornamento e un modo semplice per contattarci. Mi piacerebbe che chi trova un errore sapesse a chi scrivere, senza doverlo trasformare in una discussione pubblica. Non chiederei ai redattori di rispondere a qualsiasi ora: definirei turni e tempi ragionevoli.\nIl mio progetto richiederebbe più organizzazione e [[g14]] diventare dispersivo. Per questo lo proverei con un solo argomento. Se i commenti non aiutassero il lavoro, cambierei il sistema. Concordo con Irene sul punto principale: pubblicare non significa soltanto premere un pulsante. Divergiamo sul momento in cui coinvolgere i lettori. Forse [[g15]] (potere, condizionale presente) combinare un’edizione stabile con uno spazio limitato di confronto. Entrambi questi interventi sono originali e immaginari, non testimonianze raccolte in una scuola reale.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è",
+      "sia",
+      "abbia"
+     ],
+     "answer": "abbia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Vorrei",
+      "sarà",
+      "sarebbe"
+     ],
+     "answer": "Vorrei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "fosse",
+      "potesse"
+     ],
+     "answer": "potesse"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "è",
+      "sarà",
+      "fosse"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sarà",
+      "sarebbe",
+      "potrebbe"
+     ],
+     "answer": "potrebbe"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sarà",
+      "era",
+      "sarebbe"
+     ],
+     "answer": "sarebbe"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sarebbe",
+      "sarà",
+      "avrebbe"
+     ],
+     "answer": "avrebbe"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sarà",
+      "sarebbe",
+      "conserverebbe"
+     ],
+     "answer": "conserverebbe"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "è",
+      "fosse",
+      "sarà"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sarà",
+      "sarebbe",
+      "vorrei"
+     ],
+     "answer": "vorrei"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "fosse",
+      "potesse",
+      "è"
+     ],
+     "answer": "potesse"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "sarebbe",
+      "potrebbe",
+      "sarà"
+     ],
+     "answer": "potrebbe"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "sarebbe",
+      "sarà",
+      "conserverei"
+     ],
+     "answer": "conserverei"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "sarebbe",
+      "sarà",
+      "potrebbe"
+     ],
+     "answer": "potrebbe"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "sarà",
+      "potremmo",
+      "sarebbe"
+     ],
+     "answer": "potremmo"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

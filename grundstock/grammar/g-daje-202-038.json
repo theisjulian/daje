@@ -1,0 +1,142 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-038",
+ "title": "Una casa per studiare insieme",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Una casa per studiare insieme · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1038
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Ciao Lara, finalmente abbiamo trovato una casa per il [[g1]] periodo di studio! È al secondo piano di un edificio [[g2]]. Non è [[g3]], ma è [[g4]] e [[g5]]. All’ingresso c’è uno specchio; sotto lo specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per le scarpe. La cucina è [[g6]]: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. I piatti sono [[g7]], i bicchieri sono [[g8]] e le tazze sono tutte [[g9]]. Nella credenza troviamo anche pentole, posate e una tovaglia [[g10]]. Il soggiorno ha un divano [[g11]], due poltrone e una libreria. Il tappeto è [[g12]], però è [[g13]]. Le camere sono [[g14]]. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. Le finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; gli asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. I vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. La sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nostro"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "piccolo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "elegante"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "luminosa"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "tranquilla"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "grande"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "bianchi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "trasparenti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "diverse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "azzurra"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "comodo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "vecchio"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "pulito"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "piccole"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

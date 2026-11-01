@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-019",
+ "title": "La bacheca del centro culturale",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · La bacheca del centro culturale · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1019
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "A — SCAMBIO DI PIANTE. Sabato dalle dieci alle dodici [[g1]] cortile del centro culturale ospita uno scambio di piante. Porta una pianta piccola con [[g2]] suo nome. [[g3]] vasi devono essere puliti. Non si vendono prodotti. Se piove, l’incontro si svolge nella sala verde.\nB — CERCHIAMO VOCI. [[g4]] radio del quartiere cerca persone per leggere racconti brevi. [[g5]] registrazioni sono [[g6]] giovedì pomeriggio. Non occorre esperienza, ma è necessario partecipare a un incontro iniziale. [[g7]] interessati possono lasciare [[g8]] nome alla reception.\nC — SALA STUDIO. Da lunedì [[g9]] sala studio apre alle otto e chiude alle diciotto. [[g10]] mercoledì resta aperta fino alle venti. Le telefonate si fanno nel corridoio. [[g11]] tavoli vicino alle finestre sono riservati al lavoro individuale.\nD — OGGETTI TROVATI. Nell’armadio della reception ci sono una sciarpa, due borracce e un ombrello. Per ritirare un oggetto, descrivi [[g12]] colore e [[g13]] giorno in cui l’hai perso. [[g14]] oggetti restano qui per un mese. La reception è chiusa la domenica.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

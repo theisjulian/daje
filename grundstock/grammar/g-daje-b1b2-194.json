@@ -1,0 +1,76 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-194",
+ "title": "Il gruppo dei messaggi",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Il gruppo dei messaggi · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3194
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "La nostra famiglia usava un gruppo di messaggi per organizzare pranzi e visite. All’inizio sembrava comodo, [[g1]] sono aumentate le fotografie e le battute. Mia zia cercava l’orario di un appuntamento e non riusciva a trovarlo. Un giorno ha scritto: «Potete mandarmi soltanto l’informazione che serve?».\nNessuno voleva escluderla. Mio cugino ha proposto un secondo gruppo per gli avvisi pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna ha spiegato che leggeva i messaggi una volta al giorno, non continuamente. Le abbiamo chiesto quale sistema preferisse e lei ha scelto una telefonata per gli accordi urgenti.\nDopo quella discussione abbiamo cambiato poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa lo comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. [[g2]] discutiamo meno, [[g3]] sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "poi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Tuttavia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

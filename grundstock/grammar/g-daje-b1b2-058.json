@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-058",
+ "title": "Un colloquio diverso",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Un colloquio diverso · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3058
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa i pronomi e identifica il referente di ciascuno.",
+   "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. Nella candidatura ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile [[g1]] (a me, il narratore) ha invitato a un colloquio. Non [[g2]] (a me, il narratore) ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor [[g3]] (a me, il narratore) ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Pronomen und gib an, worauf sie sich beziehen."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa i termini del lavoro usando le definizioni.",
+   "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio [[g1]] (documento che riassume formazione ed esperienze) era breve: frequentavo ancora la scuola e non avevo un vero [[g2]] (lavoro retribuito) precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune [[g3]] (capacità utilizzabili in un’attività) utili. Nella [[g4]] (proposta di sé per un posto) ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi ha invitato a un [[g5]] (incontro per valutare un candidato). Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl [[g6]] (accordo che regola un rapporto di lavoro) indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "curriculum"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "impiego"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "competenze"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "candidatura"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "colloquio"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "contratto"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze die Begriffe aus der Arbeitswelt anhand der Erklärungen."
+  }
+ ]
+}

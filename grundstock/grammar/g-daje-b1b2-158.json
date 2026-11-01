@@ -1,0 +1,135 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-158",
+ "title": "Leggere una percentuale",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · Leggere una percentuale · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Istat: Il volontariato in Italia – Anno 2023. 29.07.2025; Berichtsjahr 2023. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://www.istat.it/comunicato-stampa/il-volontariato-in-italia-anno-2023/"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3158
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "[[g1]] comunicato sul volontariato riferito al 2023, pubblicato [[g2]] luglio 2025, l’Istat stima che il 9,1% delle persone di almeno quindici anni abbia svolto attività gratuite [[g3]] volontariato nelle quattro settimane precedenti l’intervista: circa 4,7 milioni di persone. Il dato comprende attività organizzate e aiuti diretti. Alcune persone partecipano [[g4]] entrambe le forme; perciò i due gruppi non vanno semplicemente sommati. Il periodo osservato non coincide con un intero anno.\nDa questi dati nasce un’attività immaginaria [[g5]] redazione scolastica. Una studentessa propone il titolo «Quasi cinque milioni di volontari ogni settimana». Il compagno che controlla la fonte osserva che il titolo cambia il periodo di riferimento. Un’altra proposta dice che «tutti aiutano attraverso associazioni», ma neppure questa frase corrisponde [[g6]] definizione utilizzata. Il gruppo decide di riportare prima la popolazione osservata, poi il periodo e infine la percentuale.\nLa discussione continua quando qualcuno vuole trasformare il dato in una classifica [[g7]] classi. Un’insegnante ricorda che il comunicato nazionale non descrive la loro scuola. Per conoscere la situazione locale servirebbero domande adatte e una raccolta di informazioni rispettosa [[g8]] persone. Inoltre, non tutti hanno lo stesso tempo disponibile; un numero non permette di giudicare quanto una persona sia generosa.\nLa redazione prepara dunque un articolo breve e una pagina di domande. Che cosa viene contato? Chi resta fuori [[g9]] definizione? Il confronto riguarda periodi equivalenti? Quale differenza c’è fra un’esperienza raccontata e una stima ottenuta da un’indagine? Le risposte non rendono il testo meno leggibile: gli danno un significato più preciso.\n[[g10]] accompagnare l’articolo, gli studenti inventano due esempi dichiaratamente fittizi: un ragazzo che aiuta in un’associazione e una ragazza che porta la spesa a una vicina. Gli esempi illustrano forme diverse [[g11]] attività, ma non aggiungono risultati all’indagine. Separare dati e racconti permette al lettore di capire [[g12]] dove viene ogni affermazione.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Nel"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "nel"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "alla"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fra"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dalla"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Per"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "da"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

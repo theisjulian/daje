@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-116",
+ "title": "Il messaggio della responsabile (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Il messaggio della responsabile (1) · livello medio.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1116
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao Rocco, sono uscita prima del previsto perché mi hanno chiamata dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g1]] (prendere + li) e [[g2]] (mettere + li) vicino alla parete, ma [[g3]] (non appendere + li) ancora. La colla è nell’armadio; [[g4]] (usare + la) soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g5]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g6]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, [[g7]] (preparare) i tavoli e [[g8]] (lasciare) libero il passaggio. [[g9]] (non spostare) la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; [[g10]] (scegliere) quelli con le immagini grandi e [[g11]] (portare + li) al gruppo. Se qualcuno ti chiede un foglio, [[g12]] (dare + gli) quelli nel primo cassetto. [[g13]] (ricordarsi) di fare una pausa e [[g14]] (non preoccuparsi) se non finite tutto. Mi interessa che tutti partecipino. [[g15]] (scrivere + mi) soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine [[g16]] (raccogliere) gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "prendili"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mettili"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "non appenderli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "usala"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Controllale"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "dille"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "prepara"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "lascia"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Non spostare"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "scegli"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "portali"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "dagli"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Ricordati"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "non preoccuparti"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "Scrivimi"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "raccogli"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-195",
+ "title": "Una visita che comincia con una domanda",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · Una visita che comincia con una domanda · livello difficile.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "UNESCO World Heritage Centre: Venice and its Lagoon. Welterbe-Einschreibung 1987; aktuelle Objektdarstellung am Abrufdatum. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://whc.unesco.org/en/list/394/"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 1.2"
+ },
+ "grammar": {
+  "topic": "it12-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3195
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Venezia e la sua laguna fanno parte del Patrimonio mondiale UNESCO dal 1987. La scheda ufficiale presenta insieme la [[g1]] e l’ambiente lagunare, sottolineando il rapporto storico fra [[g2]] umani e territorio. Segnala [[g3]] la pressione del turismo e i cambiamenti nelle funzioni urbane. Questi elementi documentati offrono il punto di partenza per l’itinerario immaginario seguente; non costituiscono informazioni aggiornate su biglietti o prenotazioni.\nUn gruppo di studenti prepara una visita. La prima lista comprende soltanto monumenti famosi. Poi una ragazza chiede dove [[g4]] il pane gli [[g5]] e come raggiungano la [[g6]]. La domanda non elimina l’interesse per l’arte, ma allarga lo sguardo. Il gruppo decide di [[g7]] anche i servizi quotidiani e di evitare un programma che obblighi a correre da una fotografia all’altra.\nLa classe divide il lavoro in tre parti. Alcuni studiano una pianta, altri [[g8]] una testimonianza pubblicata da un’istituzione [[g9]], altri preparano domande sull’ambiente. Nessuno dovrà intervistare persone [[g10]] per strada senza chiedere prima il permesso. Nel diario di viaggio sarà sempre indicato se una frase è un’osservazione personale, un’informazione ricavata da una fonte o un’ipotesi.\nDurante la visita [[g11]], gli studenti si fermano davanti a un campo quasi vuoto. Non lo descrivono come «più autentico» soltanto perché ci sono meno visitatori: sarebbe un giudizio troppo rapido. Annotano ciò che vedono, ascoltano i suoni e controllano sulla mappa dove si trovano. Più tardi confrontano quell’esperienza con quella di uno spazio affollato.\nIl prodotto finale non è una classifica dei luoghi migliori. È una guida breve che propone domande e lascia il tempo di osservare. Il gruppo inserisce anche una pagina pratica, ma la [[g12]] prima di un viaggio reale. Una città non coincide con il percorso [[g13]] da chi la visita; ricordarlo può rendere il viaggio più interessante e più rispettoso. Il racconto degli studenti è interamente [[g14]].\nPrima della partenza ogni studente preparerà una piccola pagina del diario con tre spazi: informazione [[g15]], osservazione e domanda. Dopo il viaggio confronterà le tre sezioni con un compagno. Se una frase mescola un fatto e un’[[g16]], [[g17]] a separarla in due. Non servirà a eliminare le emozioni dal racconto, ma a permettere al lettore di [[g18]].",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "città",
+      "insediamenti",
+      "inoltre"
+     ],
+     "answer": "città"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "città",
+      "insediamenti",
+      "inoltre"
+     ],
+     "answer": "insediamenti"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "città",
+      "inoltre",
+      "insediamenti"
+     ],
+     "answer": "inoltre"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "insediamenti",
+      "città",
+      "comprino"
+     ],
+     "answer": "comprino"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "abitanti",
+      "insediamenti",
+      "città"
+     ],
+     "answer": "abitanti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "città",
+      "insediamenti",
+      "scuola"
+     ],
+     "answer": "scuola"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "insediamenti",
+      "città",
+      "osservare"
+     ],
+     "answer": "osservare"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "cercano",
+      "insediamenti",
+      "città"
+     ],
+     "answer": "cercano"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "città",
+      "insediamenti",
+      "culturale"
+     ],
+     "answer": "culturale"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "insediamenti",
+      "incontrate",
+      "città"
+     ],
+     "answer": "incontrate"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "immaginata",
+      "insediamenti",
+      "città"
+     ],
+     "answer": "immaginata"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "città",
+      "insediamenti",
+      "aggiornerà"
+     ],
+     "answer": "aggiornerà"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "città",
+      "scelto",
+      "insediamenti"
+     ],
+     "answer": "scelto"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "insediamenti",
+      "inventato",
+      "città"
+     ],
+     "answer": "inventato"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "città",
+      "controllata",
+      "insediamenti"
+     ],
+     "answer": "controllata"
+    },
+    {
+     "id": "g16",
+     "options": [
+      "insediamenti",
+      "impressione",
+      "città"
+     ],
+     "answer": "impressione"
+    },
+    {
+     "id": "g17",
+     "options": [
+      "proveranno",
+      "città",
+      "insediamenti"
+     ],
+     "answer": "proveranno"
+    },
+    {
+     "id": "g18",
+     "options": [
+      "insediamenti",
+      "riconoscerle",
+      "città"
+     ],
+     "answer": "riconoscerle"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

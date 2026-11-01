@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-013",
+ "title": "Il prestito delle biciclette",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · Il prestito delle biciclette · livello medio.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3013
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Il centro giovani possiede quattro biciclette. I volontari [[g1]] (diretto, le biciclette) controllano ogni settimana e ne riparano una alla volta. Se un ragazzo vuole provarne una, deve rivolgersi a Silvia: [[g2]] (indiretto, a Silvia) comunica il proprio nome e l’orario di ritorno. Silvia prende una chiave e gliela consegna dopo aver registrato il prestito.\nIeri due amiche [[g3]] (arrivare, forma composta; accordo con il soggetto) insieme. Si erano già iscritte al centro, ma non conoscevano le regole. Un volontario [[g4]] (a loro + le regole) ha spiegate con calma. Le ragazze cercavano anche una cartina. Il volontario ne aveva soltanto una e [[g5]] (a loro + la cartina + ha) prestata. «Questa strada è tranquilla», ha detto. «[[g6]] (avverbio pronominale, su questa strada) passano poche auto».\nUna delle ragazze aveva dimenticato il casco. Il centro lo poteva fornire, ma lei preferiva usare il suo. [[g7]] (chiamare, forma composta) suo fratello: «Puoi portarmelo? Sono ancora qui». Lui [[g8]] (indiretto, alla sorella) ha risposto che sarebbe arrivato in dieci minuti. Quando è comparso, teneva il casco e una borraccia. «La borraccia non è mia», [[g9]] (dire, forma composta) la sorella. «Allora me la tengo», ha scherzato lui.\nLe due amiche [[g10]] (tornare, forma composta; accordo con il soggetto) puntuali. Silvia ha controllato le biciclette e [[g11]] (domandare, forma composta) se il percorso fosse chiaro. «Sì, lo abbiamo seguito senza problemi». Poi [[g12]] (restituire, forma composta) la cartina: un’altra persona avrebbe potuto usarla. Il prestito funziona così, con piccoli oggetti che passano di mano e con informazioni che devono arrivare insieme agli oggetti.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono arrivate"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "gliele"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "gliel’ha"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Ci"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ha chiamato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha detto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sono tornate"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ha domandato"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "hanno restituito"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

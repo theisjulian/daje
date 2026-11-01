@@ -45,18 +45,26 @@ function grTopics() {
   const map = new Map();
   for (const x of contentList('grammar')) {
     const g = x.grammar;
+    // Das Themenregister legt Lernjahr, Lektion, Abschnitt und Reihenfolge fest, nicht das zuerst geladene Paket.
+    const r = typeof GR_REGISTER !== 'undefined' && x.language === 'it' ? GR_REGISTER[g.topic] : null;
     if (!map.has(g.topic))
-      map.set(g.topic, { id: g.topic, title: g.topicTitle, band: grBand(x), unit: grUnitKey(x), section: x.catalog?.textbook?.section || '', series: x.catalog?.textbook?.series || '', order: g.order ?? 9999, rule: '', lang: x.language, items: [] });
+      map.set(
+        g.topic,
+        r
+          ? { id: g.topic, title: r.title, band: r.year, unit: r.unit, unitNo: r.unitNo, section: r.section, series: COURSE_SERIES, order: r.order, fixed: true, regCurriculum: r.curriculum, rule: '', lang: x.language, items: [] }
+          : { id: g.topic, title: g.topicTitle, band: grBand(x), unit: grUnitKey(x), section: x.catalog?.textbook?.section || '', series: x.catalog?.textbook?.series || '', order: g.order ?? 9999, rule: '', lang: x.language, items: [] }
+      );
     const t = map.get(g.topic);
     t.items.push(x);
     // Merkkasten des Themas: von der Übung mit der kleinsten Reihenfolge (Kernübungen vor später ergänzten)
     if (g.rule && (!t.rule || (g.order ?? 9999) < t.ruleOrder)) (t.rule = g.rule), (t.ruleHelp = g.ruleHelp || ''), (t.ruleOrder = g.order ?? 9999);
     if (!t.curriculum && x.catalog?.curriculum) t.curriculum = x.catalog.curriculum.replace(/^LehrplanPLUS Gymnasium Bayern, Italienisch \(3\. Fremdsprache\), /, '');
-    t.order = Math.min(t.order, g.order ?? 9999);
+    if (!t.fixed) t.order = Math.min(t.order, g.order ?? 9999);
   }
   const lv = { leicht: 0, mittel: 1, schwer: 2 };
+  map.forEach(t => !t.curriculum && t.regCurriculum && (t.curriculum = t.regCurriculum));
   map.forEach(t => t.items.sort((a, b) => lv[a.grammar.difficulty] - lv[b.grammar.difficulty] || (a.grammar.order ?? 0) - (b.grammar.order ?? 0) || a.title.localeCompare(b.title)));
-  return [...map.values()].sort((a, b) => a.band - b.band || grUnitNo(a.unit) - grUnitNo(b.unit) || a.order - b.order || a.title.localeCompare(b.title));
+  return [...map.values()].sort((a, b) => a.band - b.band || (a.unitNo ?? grUnitNo(a.unit)) - (b.unitNo ?? grUnitNo(b.unit)) || a.order - b.order || a.title.localeCompare(b.title));
 }
 const grDone = items => items.filter(x => lessonStatus(x).done).length;
 const grBar = (n, d) => `<div class="lcard-progress" aria-hidden="true"><i style="width:${n ? Math.round((100 * d) / n) : 0}%"></i></div>`;
@@ -92,7 +100,7 @@ function grOverview() {
     const done = grDone(items);
     return `<button class="gr-topic" data-gr-topic="${esc(t.id)}"><span class="gr-sec">${esc(t.section || t.unit)}</span><b>${esc(t.title)}</b><span class="gr-counts">${counts.map(([l, n, k]) => `<span class="gr-level gr-${k}">${l} ${n}</span>`).join('')}</span>${grBar(items.length, done)}<span class="gr-state">${done} von ${items.length} geübt</span></button>`;
   };
-  const bandSeg = `<div class="ws-seg gr-band" role="tablist" aria-label="Lernjahr">${[1, 2, 3, 0].filter(b => bands.includes(b) || b === 1).map(b => `<button role="tab" aria-selected="${GR_STATE.band === b}" data-gr-band="${b}">${b ? ANNO_NAMES[b] : 'Weitere'}</button>`).join('')}</div>`;
+  const bandSeg = `<div class="ws-seg gr-band" role="tablist" aria-label="Lernjahr">${[1, 2, 3, 4, 5, 6, 0].filter(b => bands.includes(b) || b === 1).map(b => `<button role="tab" aria-selected="${GR_STATE.band === b}" data-gr-band="${b}">${b ? ANNO_NAMES[b] : 'Weitere'}</button>`).join('')}</div>`;
   const lvlChips = `<div class="chip-row gr-filter" role="group" aria-label="Stufe">${[['alle', 'Alle Stufen'], ...GR_LEVELS].map(([k, l]) => `<button class="chip" data-gr-level="${k}" aria-pressed="${lvl === k}">${l}</button>`).join('')}</div>`;
   const body = units.length
     ? units

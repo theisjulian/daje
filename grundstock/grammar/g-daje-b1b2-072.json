@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-072",
+ "title": "Un cortile aperto dopo le lezioni?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Un cortile aperto dopo le lezioni? · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3072
+ },
+ "estimatedMinutes": 14,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Il consiglio degli studenti discute se aprire il cortile scolastico nel pomeriggio. La proposta nasce dal bisogno di un luogo gratuito per incontrarsi. Alcuni [[g1]] (volere, loro, condizionale) usarlo per giocare, altri preferirebbero studiare all’aperto. I vicini [[g2]] (chiedere, loro, condizionale) orari chiari e la scuola [[g3]] (dovere, condizionale) organizzare la sorveglianza.\nIo comincerei con due pomeriggi alla settimana. [[g4]] (lasciare, io, condizionale) libera una parte dello spazio e riserverei un angolo alle attività tranquille. Non [[g5]] (comprare, io, condizionale) subito nuove attrezzature: prima [[g6]] (osservare, io, condizionale) come vengono usati i luoghi. Un gruppo raccoglierebbe proposte, ma non [[g7]] (decidere, condizionale) da solo.\nAltri studenti aprirebbero il cortile tutti i giorni. [[g8]] (potere, loro, condizionale) avere ragione, però servirebbero risorse che non abbiamo ancora verificato. I rappresentanti [[g9]] (parlare, loro, condizionale) con la direzione e [[g10]] (confrontare, loro, condizionale) le diverse possibilità. Noi saremmo disponibili a preparare un calendario; non [[g11]] (avere, noi, condizionale) invece la competenza per assumere ogni responsabilità.\nAlla fine valuteremmo l’esperimento con criteri concordati. Non basterebbe dire che è piaciuto: occorrerebbe capire a chi è stato utile e quali difficoltà ha creato. Il cortile [[g12]] (potere) diventare un luogo migliore proprio grazie a una discussione precisa. Una proposta realistica non rinuncia ai desideri; prova a trasformarli in condizioni che tutti possano comprendere.\nPer preparare la discussione [[g13]] (potere, condizionale presente) usare una pianta del cortile. Ciascun gruppo segnerebbe dove immagina le attività e quali passaggi devono restare liberi. Le proposte non diventerebbero automaticamente decisioni: servirebbe il confronto con chi conosce gli spazi e le responsabilità della scuola. Anche una buona idea può richiedere modifiche.\nUn compagno suggerisce di chiedere un parere a chi non partecipa alle riunioni. Il questionario dovrebbe essere breve e disponibile anche su carta. Non domanderebbe informazioni private; chiederebbe soltanto quali usi interessano e quali orari sono possibili. I risultati sarebbero presentati insieme ai loro limiti: chi risponde non rappresenta necessariamente tutti. Il consiglio [[g14]] (potere) così spiegare meglio le scelte e lasciare aperta una revisione dopo la prova.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vorrebbero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "chiederebbero"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dovrebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Lascerei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "comprerei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "osserverei"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "deciderebbe"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Potrebbero"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "parlerebbero"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "confronterebbero"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avremmo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "potremmo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

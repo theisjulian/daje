@@ -1,0 +1,175 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-036",
+ "title": "La giornata delle idee",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · La giornata delle idee · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1036
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "[[g1]] nostra scuola prepara una giornata dedicata alle idee degli studenti. L’evento è inventato per questa attività. Si svolge [[g2]] diciotto maggio e dura dalle nove alle diciassette. Partecipano ventiquattro classi: dodici presentano un progetto scientifico e [[g3]] altre dodici un progetto artistico. Nel cortile lavorano quindici volontari. Sette persone sistemano [[g4]] tavoli e otto controllano [[g5]] ingressi. [[g6]] palestra ospita trentadue piccoli stand. Ogni gruppo ha due sedie, un cartello e uno spazio per [[g7]] materiali. [[g8]] programma comprende quattro concerti e sei incontri con [[g9]] autori dei progetti. [[g10]] visitatori ricevono una scheda con dieci domande. Alle undici comincia [[g11]] primo concerto; alle tredici c’è [[g12]] pausa. [[g13]] laboratori del pomeriggio iniziano alle quattordici. Sono disponibili novanta posti, divisi in tre turni di trenta persone. L’ultima presentazione termina alle sedici e trenta. Prima della chiusura, [[g14]] organizzatori raccolgono [[g15]] schede. Non viene scelto un vincitore: l’obiettivo è ascoltare [[g16]] proposte e conoscere [[g17]] lavoro delle altre classi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "il"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Completa con l’articolo determinativo: __ stand della classe è pronto. → [[g1]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

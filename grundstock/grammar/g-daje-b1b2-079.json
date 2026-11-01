@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-079",
+ "title": "La scatola senza etichetta (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · La scatola senza etichetta (2) · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3079
+ },
+ "estimatedMinutes": 14,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Quando Nora [[g1]] (essere) piccola, suo nonno raccoglieva le fotografie del quartiere. Non [[g2]] (scrivere) quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone [[g3]] (sembrare) sconosciute anche a lui. Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e [[g4]] (decidere) di portarla alla biblioteca di zona.\nPrima di uscire, aveva telefonato alla bibliotecaria e [[g5]] (chiedere) se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora [[g6]] (preparare) anche un quaderno, ma aveva dimenticato la matita sul tavolo.\nIn biblioteca [[g7]] (esserci) sei persone. Tutte [[g8]] (guardare) una fotografia della piazza, che un visitatore aveva ingrandito. La donna con cui Nora [[g9]] (parlare) per prima abitava proprio lì. Mentre raccontava, un ragazzo [[g10]] (notare) un’insegna quasi invisibile. Nessuno aveva visto prima quel particolare.\nAlla fine il gruppo [[g11]] (riconoscere) il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri [[g12]] (mettere) un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta [[g13]] (chiedere, forma composta) ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora [[g14]] (aggiungere, forma composta) una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "scriveva"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sembravano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha deciso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aveva chiesto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aveva preparato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "c’erano"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "guardavano"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha parlato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ha notato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ha riconosciuto"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ha messo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ha aggiunto"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

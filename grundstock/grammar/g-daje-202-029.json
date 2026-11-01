@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-029",
+ "title": "Una biblioteca, molte possibilità",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una biblioteca, molte possibilità · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1029
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "[[g1]] biblioteca non è soltanto [[g2]] stanza piena di libri. Nel nostro centro immaginario, [[g3]] biblioteca propone quattro servizi. [[g4]] primo è [[g5]] banco per [[g6]] prestito: [[g7]] bibliotecaria spiega come cercare [[g8]] titolo e controlla [[g9]] restituzioni. [[g10]] secondo è [[g11]] sala per leggere giornali e riviste. Qui [[g12]] persone parlano a voce bassa e lasciano i tavoli in ordine. Il terzo servizio è un laboratorio digitale. I partecipanti imparano a usare il catalogo, a scrivere un messaggio e a riconoscere informazioni poco affidabili. Non devono comunicare password o dati personali agli altri. Il quarto servizio è uno spazio per le lingue. Una volta alla settimana si incontrano piccoli gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come la casa, il tempo libero o il cibo. Una volontaria prepara le domande e aiuta chi non trova una parola. Gli incontri sono gratuiti; per partecipare occorre prenotare un posto. Le attività cambiano ogni mese. Gli orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-169",
+ "title": "Il passato prossimo con essere e i participi irregolari (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con essere e i participi irregolari · Il passato prossimo con essere e i participi irregolari (2) · livello medio.",
+ "topics": [
+  "Il passato prossimo con essere e i participi irregolari",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 20,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1169
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. perdere → participio passato maschile singolare → [[g1]]\n2. permettere → participio passato maschile singolare → [[g2]]\n3. piangere → participio passato maschile singolare → [[g3]]\n4. prendere → participio passato maschile singolare → [[g4]]\n5. rendere → participio passato maschile singolare → [[g5]]\n6. ridere → participio passato maschile singolare → [[g6]]\n7. rimanere → participio passato maschile singolare → [[g7]]\n8. rispondere → participio passato maschile singolare → [[g8]]\n9. rompere → participio passato maschile singolare → [[g9]]\n10. scegliere → participio passato maschile singolare → [[g10]]\n11. scendere → participio passato maschile singolare → [[g11]]\n12. scoprire → participio passato maschile singolare → [[g12]]\n13. scrivere → participio passato maschile singolare → [[g13]]\n14. smettere → participio passato maschile singolare → [[g14]]\n15. spegnere → participio passato maschile singolare → [[g15]]\n16. spendere → participio passato maschile singolare → [[g16]]\n17. vedere → participio passato maschile singolare → [[g17]]\n18. venire → participio passato maschile singolare → [[g18]]\n19. vivere → participio passato maschile singolare → [[g19]]\n20. tradurre → participio passato maschile singolare → [[g20]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "perso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "permesso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "pianto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "preso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "reso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "riso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "rimasto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "risposto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "rotto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "scelto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sceso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "scoperto"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "scritto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "smesso"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "spento"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "speso"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "visto"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "venuto"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "vissuto"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "tradotto"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
+   "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
+   "text": "1. perdere · io · passato prossimo → [[g1]]\n2. permettere · io · passato prossimo → [[g2]]\n3. piangere · io · passato prossimo → [[g3]]\n4. prendere · io · passato prossimo → [[g4]]\n5. rendere · io · passato prossimo → [[g5]]\n6. ridere · io · passato prossimo → [[g6]]\n7. rimanere · io · passato prossimo (maschile) → [[g7]]\n8. rispondere · io · passato prossimo → [[g8]]\n9. rompere · io · passato prossimo → [[g9]]\n10. scegliere · io · passato prossimo → [[g10]]\n11. scendere · io · passato prossimo (maschile, movimento intransitivo) → [[g11]]\n12. scoprire · io · passato prossimo → [[g12]]\n13. scrivere · io · passato prossimo → [[g13]]\n14. smettere · io · passato prossimo → [[g14]]\n15. spegnere · io · passato prossimo → [[g15]]\n16. spendere · io · passato prossimo → [[g16]]\n17. vedere · io · passato prossimo → [[g17]]\n18. venire · io · passato prossimo (maschile) → [[g18]]\n19. vivere · io · passato prossimo → [[g19]]\n20. tradurre · io · passato prossimo → [[g20]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho perso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho permesso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho pianto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho preso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ho reso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ho riso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono rimasto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho risposto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ho rotto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho scelto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sono sceso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ho scoperto"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "ho scritto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ho smesso"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ho spento"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ho speso"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "ho visto"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "sono venuto"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ho vissuto"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "ho tradotto"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

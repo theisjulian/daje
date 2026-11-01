@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-199",
+ "title": "Le scelte dopo la scuola",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Le scelte dopo la scuola · livello difficile.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1199
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara Mara, scusa se rispondo soltanto adesso. L’ultimo mese [[g1]] (essere, passato prossimo) impegnativo, perché nella nostra famiglia [[g2]] (parlare, passato prossimo) molto delle scelte per il prossimo anno. Mio fratello Luca [[g3]] (finire, passato prossimo) la scuola e non [[g4]] (sapere, imperfetto) se continuare a studiare oppure cercare un lavoro. Gli [[g5]] (piacere, imperfetto) le attività pratiche, ma [[g6]] (avere, imperfetto) paura di scegliere troppo in fretta. Un nostro vicino gli [[g7]] (proporre, passato prossimo) di visitare il suo laboratorio. Luca [[g8]] (andare, passato prossimo) con lui per due pomeriggi e [[g9]] (osservare, passato prossimo) il lavoro senza dover prendere una decisione immediata.\nNel frattempo mia sorella [[g10]] (cercare, imperfetto) un corso diverso da quello che [[g11]] (frequentare, imperfetto). Le lezioni [[g12]] (essere, imperfetto) interessanti, però l’orario non le [[g13]] (permettere, imperfetto) di partecipare alle prove del gruppo musicale. [[g14]] (pensare, imperfetto) di rinunciare alla musica, e questa idea la rendeva triste. Abbiamo controllato insieme altri programmi e abbiamo trovato un corso con incontri al mattino. Lei ha parlato con l’insegnante e si è iscritta.\nAnch’io dovevo organizzare meglio le mie attività. Avevo accettato troppi compiti per il giornale della scuola e lavoravo quasi ogni sera. Alla fine ho chiesto aiuto a due compagni. Abbiamo diviso gli articoli e abbiamo stabilito scadenze più chiare. Adesso il lavoro procede con meno ansia.\nNon abbiamo trovato una risposta perfetta per ogni problema. Luca sta ancora valutando le possibilità e forse cambierà idea. Però in casa è tornata un po’ di calma. Abbiamo capito che ascoltare una persona è più utile che scegliere al suo posto. La prossima settimana ci prenderemo una giornata libera e faremo una passeggiata insieme. Spero di vederti presto e di ascoltare anche le tue novità. Un caro saluto, Arianna.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è stato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "abbiamo parlato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha finito"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sapeva"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piacevano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha proposto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "è andato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha osservato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "cercava"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "frequentava"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "permetteva"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Pensava"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

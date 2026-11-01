@@ -1,0 +1,147 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-063",
+ "title": "Un invito per il fine settimana",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · Un invito per il fine settimana · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1063
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Cara Lia, ho finalmente [[g1]] programma della festa del nostro centro culturale. So che hai molti impegni, ma puoi venire anche soltanto per [[g2]] pomeriggio. [[g3]] festa è sabato e domenica; noi siamo liberi entrambi [[g4]] giorni. Tu vuoi partecipare al laboratorio di cucina oppure preferisci ascoltare [[g5]] racconti? [[g6]] tuoi fratelli hanno [[g7]] possibilità di provare alcuni strumenti musicali. Non devono portare nulla. [[g8]] laboratorio è gratuito, però dobbiamo prenotare [[g9]] posti. Io ho [[g10]] modulo e posso iscrivere anche voi. Mia sorella vuole preparare [[g11]] piccolo spettacolo: ha bisogno di qualcuno che legga due frasi. Tu sei brava a leggere e non hai paura del pubblico! Se vuoi, puoi aiutarla. Noi abbiamo anche [[g12]] stanza per gli ospiti, quindi non dovete tornare subito a casa. [[g13]] nostra cucina è piccola, ma [[g14]] giardino è grande e possiamo cenare fuori. [[g15]] vicini sono molto gentili e vogliono conoscere i nostri amici. Fammi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "I"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

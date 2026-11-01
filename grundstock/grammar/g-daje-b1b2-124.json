@@ -1,0 +1,139 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-124",
+ "title": "Il gruppo dei messaggi (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il gruppo dei messaggi (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3124
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "La nostra famiglia [[g1]] (usare) un gruppo di messaggi per organizzare pranzi e visite. All’inizio [[g2]] (sembrare) comodo, poi [[g3]] (aumentare, femminile plurale) le fotografie e le battute. Mia zia [[g4]] (cercare) l’orario di un appuntamento e non [[g5]] (riuscire) a trovarlo. Un giorno [[g6]] (scrivere): «Potete mandarmi soltanto l’informazione che serve?».\nNessuno [[g7]] (volere) escluderla. Mio cugino [[g8]] (proporre) un secondo gruppo per gli avvisi pratici. Gli abbiamo risposto che forse bastava usare un titolo chiaro. La nonna [[g9]] (spiegare) che leggeva i messaggi una volta al giorno, non continuamente. Le abbiamo chiesto quale sistema preferisse e lei [[g10]] (scegliere) una telefonata per gli accordi urgenti.\nDopo quella discussione [[g11]] (cambiare, noi) poche cose. Ogni avviso comincia con una data; le risposte importanti vengono ripetute in un messaggio conclusivo. Chi organizza qualcosa lo comunica anche a chi non usa il gruppo. Le fotografie rimangono, ma prima di condividere immagini di altre persone chiediamo se sono d’accordo.\nIl sistema non funziona sempre. A volte qualcuno dimentica il titolo o risponde a una domanda vecchia. Tuttavia discutiamo meno, perché sappiamo che una mancata risposta non significa automaticamente disinteresse. Un gruppo digitale è utile quando tiene conto delle abitudini reali delle persone. Non deve obbligarle tutte a essere presenti nello stesso modo e nello stesso momento.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "usava"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sembrava"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono aumentate"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cercava"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "riusciva"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha scritto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha proposto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha spiegato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ha scelto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "abbiamo cambiato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. vedere — passato prossimo — noi → [[g1]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abbiamo visto"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

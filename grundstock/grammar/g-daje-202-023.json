@@ -1,0 +1,259 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-023",
+ "title": "I numeri oltre cento",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · I numeri oltre cento · livello facile.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Wortschatz"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1023
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
+   "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
+   "text": "1. 28 → [[g1]]\n2. trentasette → [[g2]]\n3. 46 → [[g3]]\n4. cinquantanove → [[g4]]\n5. 61 → [[g5]]\n6. settantatré → [[g6]]\n7. 84 → [[g7]]\n8. novantasei → [[g8]]\n9. 100 → [[g9]]\n10. centootto → [[g10]]\n11. 117 → [[g11]]\n12. centoventiquattro → [[g12]]\n13. 238 → [[g13]]\n14. trecentoquarantanove → [[g14]]\n15. 456 → [[g15]]\n16. cinquecentosessantasette → [[g16]]\n17. 678 → [[g17]]\n18. settecentottantanove → [[g18]]\n19. 890 → [[g19]]\n20. novecentonovantanove → [[g20]]\n21. 1000 → [[g21]]\n22. milleuno → [[g22]]\n23. 1018 → [[g23]]\n24. millecentoventuno → [[g24]]\n25. 1250 → [[g25]]\n26. millequattrocentonovantadue → [[g26]]\n27. 1630 → [[g27]]\n28. millesettecentottantanove → [[g28]]\n29. 1861 → [[g29]]\n30. millenovecentoquarantasei → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ventotto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "37"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "quarantasei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "59"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sessantuno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "73"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ottantaquattro"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "96"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "cento"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "108"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "centodiciassette"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "124"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "duecentotrentotto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "349"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "quattrocentocinquantasei"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "567"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "seicentosettantotto"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "789"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ottocentonovanta"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "999"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "mille"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "1001"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "millediciotto"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "1121"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "milleduecentocinquanta"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "1492"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "milleseicentotrenta"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "1789"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "milleottocentosessantuno"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "1946"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
+   "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
+   "text": "31. 2008 → [[g1]]\n32. duemilaventisei → [[g2]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "duemilaotto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "2026"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

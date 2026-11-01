@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-006",
+ "title": "La prima sera alla residenza (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · La prima sera alla residenza (1) · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3006
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Sono arrivata alla residenza con [[g1]] valigia e [[g2]] zaino troppo pesante. [[g3]]ingresso era aperto, ma la reception era vuota. Sul banco c’era [[g4]] foglio: invitava [[g5]] ospiti a chiamare [[g6]] numero interno. Ho aspettato qualche minuto, poi è arrivata [[g7]]addetta con due chiavi.\nMi ha accompagnata al secondo piano e mi ha mostrato la cucina della residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava nella stanza accanto. [[g8]] frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima di dormire ho scritto ai miei amici. Gli ho raccontato del viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato [[g9]] foto; le interessava soprattutto la finestra. Dava su un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo di disturbare. Tuttavia sono tornata in cucina a prendere dell’acqua. La mia vicina stava preparando [[g10]] tisana e mi ha offerto [[g11]] tazza. Abbiamo parlato dei nostri corsi e delle cose che ci mancavano. Quando sono rientrata in camera, [[g12]] posto sembrava già meno estraneo.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "L’"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "un’"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "il"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

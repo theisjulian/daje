@@ -56,7 +56,7 @@ function withExtra(x) {
 }
 /* Eigene Gliederung der Wortlisten und Grammatik nach Lernjahren (früher nach Lehrwerk benannt). */
 const COURSE_SERIES = 'Corso daje';
-const ANNO_NAMES = { 1: 'Primo anno', 2: 'Secondo anno', 3: 'Terzo anno' };
+const ANNO_NAMES = { 1: 'Primo anno', 2: 'Secondo anno', 3: 'Terzo anno', 4: 'Quarto anno', 5: 'Quinto anno', 6: 'Sesto anno' };
 const isCourseSeries = s => s === COURSE_SERIES || /ecco/i.test(String(s || ''));
 function contentList(kind) {
   const reviewIds = new Set(LISTENING_REVIEW_SEEDS.map(x => x.id));

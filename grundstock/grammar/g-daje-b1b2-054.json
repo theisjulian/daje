@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-054",
+ "title": "Il laboratorio delle mappe",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Il laboratorio delle mappe · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3054
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "La studentessa incaricata del progetto [[g1]] (preparare) una mappa del quartiere prima dell’incontro. Voleva segnare i luoghi accessibili a piedi dalla scuola e [[g2]] (scegliere) tre percorsi. Quando è arrivata in aula, [[g3]] (scoprire) che la stampante non funzionava. Era preoccupata, perché [[g4]] (prevedere) un lavoro a coppie con una copia per gruppo.\nL’insegnante le ha proposto di usare il grande foglio appeso alla parete. La studentessa [[g5]] (disegnare) soltanto le strade principali e [[g6]] (invitare) i compagni ad aggiungere i punti che conoscevano. Alcuni indicavano negozi, altri ricordavano cortili e passaggi. Un ragazzo aveva notato una scala poco visibile e [[g7]] (segnalare con pronome la) con un colore diverso.\nDopo la passeggiata, la studentessa [[g8]] (tornare, femminile) sulla mappa. Ha corretto due distanze e [[g9]] (aggiungere) una nota: il percorso più breve non era comodo per tutti. Un tratto presentava gradini e un attraversamento richiedeva attenzione. La mappa [[g10]] (diventare, femminile) meno elegante, ma più utile.\nNel rapporto finale la studentessa ha spiegato come l’imprevisto avesse modificato il lavoro. Non ha nascosto il problema della stampante e non lo [[g11]] (presentare, forma composta) come una catastrofe. [[g12]] (descrivere, forma composta) la scelta fatta, i suoi limiti e ciò che sarebbe stato necessario controllare ancora. Il progetto è immaginario: i percorsi non indicano strade reali.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "aveva preparato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva scelto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha scoperto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "aveva previsto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha disegnato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha invitato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "l’ha segnalata"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "è tornata"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha aggiunto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "è diventata"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ha presentato"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Ha descritto"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

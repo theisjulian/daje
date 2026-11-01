@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-042",
+ "title": "Una mostra fatta di voci",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Una mostra fatta di voci · livello medio.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3042
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Nel nostro museo di quartiere una vecchia sala [[g1]] (usare, passivo imperfetto, sala) come deposito. Le finestre erano coperte da tende pesanti e gli oggetti [[g2]] (conservare, passivo imperfetto, oggetti) in scatole chiuse. L’anno scorso la sala è stata riaperta per un progetto scolastico.\nLa prima scelta [[g3]] (discutere, passivo passato prossimo, scelta) con gli abitanti: esporre oggetti preziosi oppure raccontare lavori quotidiani? Alla fine sono stati scelti oggetti comuni: un grembiule, un biglietto del tram, una radio rotta. Ogni oggetto [[g4]] (accompagnare, passivo imperfetto, oggetto) da una breve intervista registrata. Le fotografie sono state selezionate dai ragazzi insieme ai proprietari.\nLa radio apparteneva a una donna che l’aveva ricevuta da suo padre. Il biglietto era di un signore il cui primo lavoro era lontano da casa. Una sarta [[g5]] (prestare, forma composta) il grembiule con cui aveva imparato il mestiere. Nessuno di questi racconti pretendeva di rappresentare l’intero quartiere.\nPrima dell’apertura, le didascalie sono state rilette dalle persone intervistate. Alcune date [[g6]] (correggere, passivo passato prossimo, date); un nome non è stato pubblicato, su richiesta della famiglia. La mostra ora invita i visitatori a lasciare una domanda, non soltanto un commento. Il personale raccoglie le domande e le usa per preparare nuovi incontri. Anche un piccolo museo può cambiare quando ascolta chi gli sta intorno.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "veniva usata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "venivano conservati"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "è stata discussa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "veniva accompagnato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha prestato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono state corrette"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

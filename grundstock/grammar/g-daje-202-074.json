@@ -1,0 +1,159 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-074",
+ "title": "Una visita a Bologna",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Una visita a Bologna · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1074
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara Bea, oggi ti [[g1]] (scrivere, presente) da Bologna. [[g2]] (avere, presente) una bella notizia: questa mattina ho visitato Salaborsa. [[g3]] una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si [[g4]] (vedere, presente) tracce della storia della città. [[g5]] uno spazio interessante perché [[g6]] (permettere, presente) di osservare insieme un edificio attuale e resti del passato. Qui si [[g7]] (trovare, presente) libri, giornali, riviste e altri materiali.\nQueste informazioni [[g8]] (venire, presente) dal sito della biblioteca; il nostro itinerario, invece, [[g9]] un progetto immaginario per la classe. Noi [[g10]] (arrivare, presente) in treno, [[g11]] (lasciare, presente) le borse in albergo e [[g12]] (raggiungere, presente) il centro a piedi. Due compagni [[g13]] (cercare, presente) una guida della città; una compagna [[g14]] (preparare, presente) domande per il gruppo. Dopo la [[g15]] (visitare, presente) [[g16]] (fare, presente) una pausa in una piazza tranquilla. Io porto una piccola macchina fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il mio disegno rappresenta una grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "scrivo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ho"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "È"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vedono"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "È"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "permette"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "trovano"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vengono"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "arriviamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "lasciamo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "raggiungiamo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "cercano"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "prepara"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "visita"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

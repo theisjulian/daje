@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-157",
+ "title": "Due accordi da chiarire (3)",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Due accordi da chiarire (3) · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3157
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Dialogo A — In una sala condivisa.\nNina: Avevamo prenotato questa stanza per le cinque. Vedo però che state ancora provando.\nLeo: [[g1]] (riconoscimento di un fatto), abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\nNina: [[g2]] (rettifica cortese), abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città.\nLeo: [[g3]] (accettazione), finiamo questo passaggio e liberiamo il tavolo. Dove preferite che mettiamo le sedie?\nNina: Lasciatele in cerchio. [[g4]] (correzione o precisazione), tenetene due vicino alla porta: ci serviranno per gli ospiti.\nLeo: Bene. [[g5]] (conseguenza pratica), vi avviso appena siamo pronti.\nNina: Grazie. [[g6]] (ritorno al punto principale), per la prossima volta controlliamo insieme il calendario.\n\nDialogo B — Prima di una consegna.\nMilo: Ho finito il testo, ma non so se mandarlo subito alla redazione.\nAda: [[g7]] (introduzione di un’opinione), manca ancora il controllo dei nomi. Non è un dettaglio.\nMilo: [[g8]] (accordo), hai ragione. Avevo chiesto una conferma e non è arrivata.\nAda: [[g9]] (azione durante l’attesa), possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\nMilo: Sì, ma il collegamento è molto lungo.\nAda: [[g10]] (introduzione di un caso), potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\nMilo: Capisco. [[g11]] (conclusione), aspettiamo i nomi e sistemiamo il resto.\nAda: Esatto. [[g12]] (riformulazione conclusiva), il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo.\nI due dialoghi sono originali e descrivono situazioni immaginarie.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "In effetti",
+      "A dire il vero",
+      "D’accordo"
+     ],
+     "answer": "In effetti"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "In effetti",
+      "A dire il vero",
+      "D’accordo"
+     ],
+     "answer": "A dire il vero"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "A dire il vero",
+      "D’accordo",
+      "In effetti"
+     ],
+     "answer": "D’accordo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "A dire il vero",
+      "In effetti",
+      "Anzi"
+     ],
+     "answer": "Anzi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "In effetti",
+      "Allora",
+      "A dire il vero"
+     ],
+     "answer": "Allora"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "In effetti",
+      "A dire il vero",
+      "Comunque"
+     ],
+     "answer": "Comunque"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Secondo me",
+      "In effetti",
+      "A dire il vero"
+     ],
+     "answer": "Secondo me"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "A dire il vero",
+      "In effetti",
+      "Certo"
+     ],
+     "answer": "Certo"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "In effetti",
+      "A dire il vero",
+      "Intanto"
+     ],
+     "answer": "Intanto"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "A dire il vero",
+      "In effetti",
+      "Per esempio"
+     ],
+     "answer": "Per esempio"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "In effetti",
+      "A dire il vero",
+      "Quindi"
+     ],
+     "answer": "Quindi"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "In effetti",
+      "Insomma",
+      "A dire il vero"
+     ],
+     "answer": "Insomma"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

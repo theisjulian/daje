@@ -1,0 +1,199 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-062",
+ "title": "Imparare a restaurare: un’intervista immaginaria",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Imparare a restaurare: un’intervista immaginaria · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3062
+ },
+ "estimatedMinutes": 22,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Intervistatrice: Come [[g1]] (scegliere, tu) il tuo percorso?\nRestauratrice: Da ragazza [[g2]] (disegnare, io) molto, ma non pensavo al restauro. Un giorno [[g3]] (visitare, io) un laboratorio e [[g4]] (vedere, io) quanto tempo richiedeva osservare un oggetto prima di toccarlo. Mi [[g5]] (colpire) soprattutto quella pazienza.\nIntervistatrice: Che cosa fai all’inizio di un lavoro?\nRestauratrice: Esamino il materiale e raccolgo le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore apparentemente sporco può appartenere all’oggetto. Per questo documento ogni fase.\nIntervistatrice: Hai mai cambiato idea durante un intervento?\nRestauratrice: Certo. Una volta [[g6]] (preparare, io) un progetto molto dettagliato, poi un’analisi [[g7]] (rivelare) un materiale diverso da quello previsto. [[g8]] (fermare, noi) il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma sarebbe peggio continuare per orgoglio.\nIntervistatrice: Quale consiglio daresti a chi vuole imparare?\nRestauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo sono anche la lettura e il confronto. Nessuno dovrebbe promettere risultati prima di conoscere il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che possa essere spiegata anche a chi lavorerà dopo di noi. Questa intervista è originale e fittizia; non attribuisce dichiarazioni a una professionista reale.\nIntervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto?\nRestauratrice: Preparo una relazione con fotografie e descrizioni, quando le immagini sono autorizzate. Indico che cosa [[g9]] (osservare, forma composta), quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula difficile da capire.\nIntervistatrice: E quando il tempo disponibile è poco?\nRestauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "hai scelto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "disegnavo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho visitato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho visto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha colpito"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avevo preparato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha rivelato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Abbiamo fermato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ho osservato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. vedere — passato prossimo — lui/lei → [[g1]]\n2. partire — passato prossimo — noi (maschile) → [[g2]]\n3. partire — trapassato prossimo — io (maschile) → [[g3]]\n4. scrivere — passato prossimo — io → [[g4]]\n5. lavorare — passato prossimo — noi → [[g5]]\n6. leggere — passato prossimo — tu → [[g6]]\n7. dormire — trapassato prossimo — lui/lei → [[g7]]\n8. telefonare — trapassato prossimo — noi → [[g8]]\n9. partire — trapassato prossimo — noi (maschile) → [[g9]]\n10. avere — imperfetto — tu → [[g10]]\n11. fare — passato prossimo — io → [[g11]]\n12. visitare — trapassato prossimo — noi → [[g12]]\n13. ascoltare — trapassato prossimo — lui/lei → [[g13]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ha visto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "siamo partiti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ero partito"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho scritto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abbiamo lavorato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "hai letto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "aveva dormito"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avevamo telefonato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "eravamo partiti"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avevi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ho fatto"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avevamo visitato"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "aveva ascoltato"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

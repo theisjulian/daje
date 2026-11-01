@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-128",
+ "title": "Passato remoto",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Passato remoto · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 eA 1.2"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3128
+ },
+ "estimatedMinutes": 24,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. essere — passato remoto — io → [[g1]]\n2. essere — passato remoto — tu → [[g2]]\n3. essere — passato remoto — lui/lei → [[g3]]\n4. essere — passato remoto — noi → [[g4]]\n5. essere — passato remoto — voi → [[g5]]\n6. essere — passato remoto — loro → [[g6]]\n7. avere — passato remoto — io → [[g7]]\n8. avere — passato remoto — tu → [[g8]]\n9. avere — passato remoto — lui/lei → [[g9]]\n10. avere — passato remoto — noi → [[g10]]\n11. avere — passato remoto — voi → [[g11]]\n12. avere — passato remoto — loro → [[g12]]\n13. fare — passato remoto — io → [[g13]]\n14. fare — passato remoto — tu → [[g14]]\n15. fare — passato remoto — lui/lei → [[g15]]\n16. fare — passato remoto — noi → [[g16]]\n17. fare — passato remoto — voi → [[g17]]\n18. fare — passato remoto — loro → [[g18]]\n19. dire — passato remoto — io → [[g19]]\n20. dire — passato remoto — tu → [[g20]]\n21. dire — passato remoto — lui/lei → [[g21]]\n22. dire — passato remoto — noi → [[g22]]\n23. dire — passato remoto — voi → [[g23]]\n24. dire — passato remoto — loro → [[g24]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fui"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fosti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "fu"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fummo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "foste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "furono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ebbi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avesti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ebbe"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avemmo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "aveste"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ebbero"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "feci"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "facesti"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "fece"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "facemmo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "faceste"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "fecero"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "dissi"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "dicesti"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "disse"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "dicemmo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "diceste"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "dissero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

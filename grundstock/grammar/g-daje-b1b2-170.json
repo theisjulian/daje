@@ -1,0 +1,171 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-170",
+ "title": "Un segnale dallo spazio",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · Un segnale dallo spazio · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "European Space Agency (ESA): Satelliti. Kein Veröffentlichungsdatum in der konsultierten Ansicht. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3170
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato [[g1]] 1957. Era un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva [[g2]] pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti avevano già visto immagini [[g3]] satelliti, ma non sapevano distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e ha chiesto [[g4]] annotare la fonte di ogni data. Un gruppo aveva raccolto informazioni [[g5]] pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione mostrò quanto fosse facile confondere un’immagine illustrativa con la documentazione [[g6]] un evento. Gli studenti decisero allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate [[g7]] persone reali.\nAlla fine il cartellone era più semplice [[g8]] quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande [[g9]] funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. Aveva imparato [[g10]] costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma [[g11]] ciò che un lettore aggiunge. La scelta dei tempi verbali [[g12]] racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "a",
+      "di",
+      "nel"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dalla",
+      "a",
+      "di"
+     ],
+     "answer": "dalla"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "di",
+      "da",
+      "a"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "di",
+      "a",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "di",
+      "da",
+      "a"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "da",
+      "di",
+      "a"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "da",
+      "a",
+      "di"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "a",
+      "da",
+      "di"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "di",
+      "a",
+      "sulle"
+     ],
+     "answer": "sulle"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "a",
+      "di",
+      "da"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "a",
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "di",
+      "nel",
+      "a"
+     ],
+     "answer": "nel"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

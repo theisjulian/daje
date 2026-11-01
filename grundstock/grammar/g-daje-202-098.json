@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-098",
+ "title": "Preparare una piccola mostra (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo (tu, voi) e la negazione · Preparare una piccola mostra (1) · livello medio.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1098
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Vuoi organizzare una mostra con la tua classe? [[g1]] (cominciare) da un tema preciso. [[g2]] (scegliere) poche immagini e [[g3]] (controllare) se puoi usarle. [[g4]] (leggere) le indicazioni sulle fonti e [[g5]] (scrivere) il nome dell’autore quando è necessario. [[g6]] (non copiare) fotografie trovate per caso online. [[g7]] (preparare) un titolo chiaro e [[g8]] (aggiungere) una breve spiegazione per ogni oggetto. [[g9]] (prendere) un foglio grande e [[g10]] (disegnare) la disposizione dei tavoli. [[g11]] (lasciare) spazio tra gli oggetti e [[g12]] (non bloccare) le porte. Chiedi a un compagno di leggere i cartelli: se una frase non è chiara, riscrivila. Metti le informazioni principali all’inizio e usa parole comprensibili. Guarda la sala da diversi punti e verifica se tutti possono leggere. Porta il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, prova il percorso con due persone che non conoscono il progetto. Ascolta le loro domande, annota i problemi e correggi quello che serve. Durante la mostra saluta i visitatori, rispondi con calma e ammetti quando non conosci una risposta. Alla fine raccogli i commenti e conserva le idee utili per il prossimo lavoro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Comincia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Scegli"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "controlla"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Leggi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "scrivi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Non copiare"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Prepara"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "aggiungi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Prendi"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "disegna"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Lascia"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "non bloccare"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

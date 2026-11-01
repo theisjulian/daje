@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-018",
+ "title": "Una visita a Bologna",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Una visita a Bologna · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1018
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Cara Bea, oggi ti scrivo da Bologna. Ho una [[g1]] notizia: questa mattina ho visitato Salaborsa. È una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si vedono tracce della storia della città. È uno spazio [[g2]] perché permette di osservare insieme un edificio [[g3]] e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; il [[g4]] itinerario, invece, è un progetto [[g5]] per la classe. Noi arriviamo in treno, lasciamo le borse in albergo e raggiungiamo il centro a piedi. Due compagni cercano una guida della città; una compagna prepara domande per il gruppo. Dopo la visita facciamo una pausa in una piazza [[g6]]. Io porto una [[g7]] macchina fotografica, ma [[g8]] di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il [[g9]] disegno rappresenta una [[g10]] finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bella"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "interessante"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "attuale"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "nostro"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "immaginario"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tranquilla"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "prima"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mio"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "grande"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-172",
+ "title": "Una settimana tra paesi e biciclette",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Una settimana tra paesi e biciclette · livello difficile.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1172
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara Ada, [[g1]] (tornare, passato prossimo) dal viaggio e ho ancora la testa piena di immagini. Per una settimana [[g2]] (attraversare, passato prossimo) piccoli paesi con un gruppo di ciclisti principianti. Non [[g3]] una corsa: il programma prevedeva tappe brevi e molte soste. [[g4]] in dieci, con due accompagnatori che [[g5]] (conoscere, imperfetto) bene il percorso. Ogni mattina [[g6]] (controllare, imperfetto) le biciclette, [[g7]] (riempire, imperfetto) le borracce e [[g8]] (leggere, imperfetto) insieme la mappa. [[g9]] (partire, imperfetto) verso le nove e [[g10]] (seguire, imperfetto) strade tranquille. Quando qualcuno [[g11]] stanco, ci [[g12]] (fermare, imperfetto) senza fretta.\nIl primo giorno [[g13]] (avere, imperfetto) paura di non riuscire a tenere il ritmo. Gli altri mi [[g14]] (aspettare, imperfetto) e mi [[g15]] (dare, imperfetto) consigli semplici. Dopo due giorni mi [[g16]] (sentire, imperfetto) più sicura. A mezzogiorno compravamo pane e frutta; poi cercavamo un posto all’ombra. Nel pomeriggio visitavamo un paese oppure parlavamo con chi lavorava nelle botteghe. Dormivamo in piccole strutture diverse, ma non cambiavamo alloggio ogni notte. In un paese siamo rimasti due giorni per partecipare a un laboratorio.\nUna mattina è arrivata la pioggia. Abbiamo lasciato le biciclette al coperto e abbiamo preso un autobus. Nessuno si è lamentato: la pausa ci ha permesso di visitare un museo. L’ultimo giorno abbiamo percorso un tratto vicino al fiume e abbiamo scattato una fotografia tutti insieme. Non sono diventata un’atleta, ma ho scoperto un modo di viaggiare che mi piace. Il prossimo anno vorrei tornare con te. Prima, però, faremo qualche giro vicino a casa. Domenica porto le foto: ti va di incontrarci? Un abbraccio, Nina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono tornata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho attraversato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Eravamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "conoscevano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "controllavamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "riempivamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "leggevamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Partivamo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "seguivamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "fermavamo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "avevo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "aspettavano"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "davano"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "sentivo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

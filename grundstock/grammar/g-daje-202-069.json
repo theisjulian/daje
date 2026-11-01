@@ -1,0 +1,237 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-069",
+ "title": "Venire, sapere e i verbi modali (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (1) · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1069
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. vendere · io · presente → [[g1]]\n2. vendere · tu · presente → [[g2]]\n3. vendere · lui/lei · presente → [[g3]]\n4. vendere · noi · presente → [[g4]]\n5. vendere · voi · presente → [[g5]]\n6. vendere · loro · presente → [[g6]]\n7. scrivere · io · presente → [[g7]]\n8. scrivere · tu · presente → [[g8]]\n9. scrivere · lui/lei · presente → [[g9]]\n10. scrivere · noi · presente → [[g10]]\n11. scrivere · voi · presente → [[g11]]\n12. scrivere · loro · presente → [[g12]]\n13. aprire · io · presente → [[g13]]\n14. aprire · tu · presente → [[g14]]\n15. aprire · lui/lei · presente → [[g15]]\n16. aprire · noi · presente → [[g16]]\n17. aprire · voi · presente → [[g17]]\n18. aprire · loro · presente → [[g18]]\n19. capire · io · presente → [[g19]]\n20. capire · tu · presente → [[g20]]\n21. capire · lui/lei · presente → [[g21]]\n22. capire · noi · presente → [[g22]]\n23. capire · voi · presente → [[g23]]\n24. capire · loro · presente → [[g24]]\n25. essere · io · presente → [[g25]]\n26. essere · tu · presente → [[g26]]\n27. essere · lui/lei · presente → [[g27]]\n28. essere · noi · presente → [[g28]]\n29. essere · voi · presente → [[g29]]\n30. essere · loro · presente → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vendo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vendi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vende"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vendiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vendete"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vendono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scrivo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "scrivi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "scrive"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "scriviamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "scrivete"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "scrivono"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "apro"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "apri"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "apre"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "apriamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "aprite"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "aprono"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "capisco"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "capisci"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "capisce"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "capiamo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "capite"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "capiscono"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "sei"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "siamo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "siete"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

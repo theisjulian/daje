@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-200",
+ "title": "Il cartografo e il sentiero",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Il cartografo e il sentiero · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3200
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Quando era giovane, il [[g1]] ricevette l’[[g2]] di disegnare i [[g3]] di una valle. Partì con una borsa leggera e un quaderno. Il sindaco gli aveva mostrato una carta antica, ma molti nomi non erano più usati. [[g4]] prima casa il cartografo incontrò una donna che [[g5]] la valle meglio di chiunque altro.\nLei gli disse che il [[g6]] più breve non era sempre quello indicato sulle mappe. D’inverno il torrente cresceva e [[g7]] passaggi diventavano impraticabili. Il cartografo prese nota, poi chiese chi avesse costruito il ponte. La donna non ricordava un nome; ricordava invece un gruppo di persone e una primavera molto piovosa.\nIl giorno seguente lui andò al torrente. Qualcuno aveva sistemato nuove pietre vicino all’acqua. Il sentiero [[g8]] oltre un bosco e scompariva dietro una curva. Il cartografo capì che la sua carta avrebbe dovuto distinguere ciò che aveva visto da ciò che gli avevano raccontato.\nQuando tornò in paese, mostrò il lavoro agli abitanti. Alcuni corressero un nome, altri aggiunsero un passaggio. La carta non fu più soltanto sua. Anni dopo, un ragazzo la trovò in un [[g9]] e domandò perché accanto a certi sentieri ci fossero piccoli punti interrogativi. La donna sorrise: erano il [[g10]] che qualcuno aveva lasciato [[g11]] a un’altra visita. Questo racconto è [[g12]] e non deriva da un’opera letteraria esistente.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "cartografo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "incarico"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sentieri"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Nella"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "conosceva"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "percorso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "alcuni"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "continuava"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "armadio"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "segno"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "spazio"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "originale"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

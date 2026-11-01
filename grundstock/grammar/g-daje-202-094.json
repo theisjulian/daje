@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-094",
+ "title": "L’ultima giornata del progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · L’ultima giornata del progetto · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1094
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao Diego, mentre eri assente [[g1]] (preparare, passato prossimo) il programma dell’ultima giornata. [[g2]] (ascoltare, passato prossimo) le proposte di tutti e [[g3]] (scegliere, passato prossimo) un’attività che [[g4]] (potere, presente) fare insieme. La mattina presenteremo i nostri lavori nella sala grande. Ogni gruppo avrà dieci minuti e potrà usare immagini oppure oggetti. Non faremo una gara: raccoglieremo domande e consigli. Dopo le presentazioni andremo in giardino, se il tempo [[g5]] (essere, presente) bello. Porteremo qualcosa da mangiare e divideremo i tavoli in piccoli gruppi. La scuola [[g6]] (autorizzare, passato prossimo) l’uso dello spazio. Io [[g7]] (parlare, passato prossimo) con la responsabile e lei [[g8]] (avere, presente) confermato che ci saranno sedie sufficienti.\nNel pomeriggio incontreremo due ex studenti. Ci racconteranno come [[g9]] (continuare, passato prossimo) i loro [[g10]] (progettare, presente) fuori dalla scuola. Tu potrai fare le domande che hai preparato. Verso le quattro sistemeremo la sala e restituiremo gli strumenti. Alla fine scriveremo una breve valutazione: che cosa abbiamo imparato, che cosa è stato difficile e che cosa vorremmo cambiare. Sono contenta del programma perché lascia spazio anche a chi preferisce ascoltare. Fammi sapere se vuoi aggiungere una proposta. Ci vedremo domani all’intervallo. A presto, Micol.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abbiamo preparato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Abbiamo ascoltato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbiamo scelto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "possiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha già autorizzato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ho parlato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "hanno continuato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "progetti"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

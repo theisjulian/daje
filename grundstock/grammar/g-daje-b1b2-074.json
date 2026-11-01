@@ -1,0 +1,234 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-074",
+ "title": "Chi decide se una parola esiste?",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Chi decide se una parola esiste? · livello medio.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Accademia della Crusca: Parole nuove. 23.04.2012; Seite erläutert auch die seit November 2018 verwendete Struktur. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Methodische Kompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3074
+ },
+ "estimatedMinutes": 19,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici osservati nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una [[g1]] (sostantivo nel contesto; iniziali pa…) condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata dagli studenti. Alcuni dicono che [[g2]] (essere, indicativo presente) già italiana perché tutti la capiscono. Altri pensano che [[g3]] (dovere, congiuntivo presente) comparire prima in un dizionario. La discussione sembra bloccata, finché una ragazza domanda: «Di quale [[g4]] (sostantivo nel contesto; iniziali gr…) stiamo parlando quando diciamo tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata altrove.\nGli studenti [[g5]] (preparare, presente) tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella seconda raccolgono un termine già esistente che ha acquistato un significato [[g6]] (aggettivo nel contesto; iniziali nu…). Nella terza [[g7]] (osservare, presente) un prestito da un’altra lingua. Non cercano di dimostrare che una categoria sia migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario [[g8]] (registrare, indicativo presente) parole usate da molte persone. Un altro teme che una [[g9]] (sostantivo nel contesto; iniziali ri…) online dia risultati ingannevoli: cento copie dello stesso messaggio non [[g10]] (essere, presente) cento esempi [[g11]] (aggettivo nel contesto; iniziali in…). L’insegnante è d’accordo sul problema e chiede che ogni gruppo [[g12]] (indicare, congiuntivo presente) la provenienza degli esempi. Nessuno deve raccogliere conversazioni private o nomi di compagni senza consenso.\nAlla fine non viene eletta la parola più bella. Ogni gruppo presenta un dubbio: forse il termine durerà, forse scomparirà, forse cambierà significato. Gli studenti sanno che la lingua [[g13]] (cambiare, indicativo presente), ma non possono prevedere ogni cambiamento. È [[g14]] (aggettivo nel contesto; iniziali po…) che un’espressione rimanga limitata a un ambiente; è altrettanto possibile che altre persone [[g15]] (adottare, loro, congiuntivo presente con pronome) per una ragione [[g16]] (aggettivo nel contesto; iniziali nu…).\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un premio a chi aveva indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede curiosità e attenzione alle persone che la [[g17]] (parlare, presente). Il racconto della classe e tutte le sue battute [[g18]] (essere, presente) originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la presentazione finale, ogni scheda distingue inoltre una definizione da un esempio. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un lettore esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco [[g19]] (aggettivo nel contesto; iniziali ch…), la riscrivono. Il lavoro non produce un dizionario completo: offre un piccolo esercizio di osservazione, con fonti dichiarate e limiti visibili. Anche chi non ama inventare parole può partecipare controllando gli esempi e formulando domande.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "prima",
+      "parola",
+      "durante"
+     ],
+     "answer": "parola"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "prima",
+      "è",
+      "durante"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "sia",
+      "debba"
+     ],
+     "answer": "debba"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "durante",
+      "prima",
+      "gruppo"
+     ],
+     "answer": "gruppo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "durante",
+      "prima",
+      "preparano"
+     ],
+     "answer": "preparano"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "è",
+      "parola",
+      "nuovo"
+     ],
+     "answer": "nuovo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "durante",
+      "prima",
+      "osservano"
+     ],
+     "answer": "osservano"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "durante",
+      "registra",
+      "prima"
+     ],
+     "answer": "registra"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "durante",
+      "prima",
+      "ricerca"
+     ],
+     "answer": "ricerca"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "prima",
+      "durante",
+      "sono"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "indipendenti",
+      "parola",
+      "è"
+     ],
+     "answer": "indipendenti"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "è",
+      "sia",
+      "indichi"
+     ],
+     "answer": "indichi"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "cambia",
+      "durante",
+      "prima"
+     ],
+     "answer": "cambia"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "parola",
+      "è",
+      "possibile"
+     ],
+     "answer": "possibile"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "la adottino",
+      "è",
+      "sia"
+     ],
+     "answer": "la adottino"
+    },
+    {
+     "id": "g16",
+     "options": [
+      "è",
+      "parola",
+      "nuova"
+     ],
+     "answer": "nuova"
+    },
+    {
+     "id": "g17",
+     "options": [
+      "durante",
+      "prima",
+      "parlano"
+     ],
+     "answer": "parlano"
+    },
+    {
+     "id": "g18",
+     "options": [
+      "sono",
+      "durante",
+      "prima"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g19",
+     "options": [
+      "chiara",
+      "è",
+      "parola"
+     ],
+     "answer": "chiara"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

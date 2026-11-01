@@ -1,0 +1,196 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-190",
+ "title": "Due opinioni sul giornale di classe (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Due opinioni sul giornale di classe (2) · livello difficile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 1.2"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3190
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "A — Una pubblicazione lenta, di Irene. Preferirei un giornale che esce poche volte all’anno, ma che [[g1]] (avere, congiuntivo presente) il tempo di scegliere e verificare i contenuti. Se ogni giorno dovessimo pubblicare qualcosa, rischieremmo di scambiare la quantità per partecipazione. Vorrei che ciascuno [[g2]] (potere, congiuntivo imperfetto) lavorare su una domanda vera, anche quando la risposta richiede più di una settimana. Un’intervista preparata con cura mi interesserebbe più di dieci messaggi che ripetono un annuncio.\nNon [[g3]] (essere, presente) contraria agli strumenti digitali. Li userei per raccogliere proposte e correggere bozze, purché [[g4]] (essere, congiuntivo imperfetto) chiaro quale versione stiamo leggendo. Mi preoccupa invece l’idea che tutto debba essere visibile immediatamente. Un testo non ancora controllato può contenere un nome sbagliato o una frase attribuita alla persona sbagliata. Se lo condividessimo troppo presto, la correzione potrebbe arrivare soltanto a una parte dei lettori.\nIo terrei un archivio delle versioni pubblicate e spiegherei gli eventuali cambiamenti. Non cancellerei un errore fingendo che non sia mai esistito. Inoltre sceglierei un formato stampabile: alcune persone leggono meglio su carta, altre preferiscono uno schermo. Un numero breve potrebbe circolare in entrambi i modi. Il tempo risparmiato evitando aggiornamenti continui sarebbe dedicato all’ascolto e alla revisione.\nLa mia proposta avrebbe un limite: certe notizie arriverebbero tardi. Per gli avvisi urgenti userei quindi un canale separato, con poche informazioni essenziali. Il giornale conserverebbe un altro scopo: raccontare, discutere e lasciare una traccia leggibile anche dopo qualche mese. Se tutto [[g5]] (essere, congiuntivo imperfetto) costruito intorno all’urgenza, perderemmo questa possibilità.\n\nB — Un dialogo che continua, di Samuele. Capisco la proposta di Irene, ma vorrei che il giornale [[g6]] (potere, congiuntivo imperfetto) ricevere risposte durante il lavoro. Un numero pubblicato soltanto alla fine rischia di sembrare concluso, mentre alcune domande cambiano grazie ai lettori. Creerei una sezione di progetti in corso, chiaramente distinta dagli articoli verificati. Non vi inserirei informazioni personali né citazioni non autorizzate: presenterei il tema e chiederei suggerimenti.\nPer esempio, se stessimo studiando l’uso del cortile, potremmo pubblicare le domande prima delle conclusioni. Un compagno che non partecipa alla redazione potrebbe indicarci un problema trascurato. Questo non significherebbe trattare ogni commento come un dato affidabile. La redazione dovrebbe controllare, confrontare e spiegare le proprie scelte. Nessuno strumento elimina quella responsabilità.\nAnch’io conserverei le versioni e segnalerei le correzioni. Aggiungerei però una data di aggiornamento e un modo semplice per contattarci. Mi piacerebbe che chi trova un errore sapesse a chi scrivere, senza doverlo trasformare in una discussione pubblica. Non chiederei ai redattori di rispondere a qualsiasi ora: definirei turni e tempi ragionevoli.\nIl mio progetto richiederebbe più organizzazione e potrebbe diventare dispersivo. Per questo lo proverei con un solo argomento. Se i commenti non aiutassero il lavoro, cambierei il sistema. Concordo con Irene sul punto principale: pubblicare non significa soltanto premere un pulsante. Divergiamo sul momento in cui coinvolgere i lettori. Forse potremmo combinare un’edizione stabile con uno spazio limitato di confronto. Entrambi questi interventi [[g7]] (essere, presente) originali e immaginari, non testimonianze raccolte in una scuola reale.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è",
+      "sia",
+      "abbia"
+     ],
+     "answer": "abbia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "potesse",
+      "è",
+      "fosse"
+     ],
+     "answer": "potesse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "durante",
+      "prima",
+      "sono"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "è",
+      "sarà",
+      "fosse"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sarà",
+      "è",
+      "fosse"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "fosse",
+      "è",
+      "potesse"
+     ],
+     "answer": "potesse"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "prima",
+      "durante",
+      "sono"
+     ],
+     "answer": "sono"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. ascoltare — congiuntivo imperfetto — lui/lei → [[g1]]\n2. preparare — congiuntivo imperfetto — io → [[g2]]\n3. ascoltare — congiuntivo imperfetto — io → [[g3]]\n4. controllare — congiuntivo presente — noi → [[g4]]\n5. parlare — congiuntivo presente — io → [[g5]]\n6. vendere — congiuntivo imperfetto — voi → [[g6]]\n7. andare — congiuntivo imperfetto — loro → [[g7]]\n8. andare — congiuntivo imperfetto — voi → [[g8]]\n9. dire — congiuntivo presente — tu → [[g9]]\n10. telefonare — congiuntivo presente — voi → [[g10]]\n11. ascoltare — congiuntivo presente — lui/lei → [[g11]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ascoltasse"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "preparassi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ascoltassi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "controlliamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "parli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vendeste"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "andassero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "andaste"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dica"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "telefoniate"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ascolti"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

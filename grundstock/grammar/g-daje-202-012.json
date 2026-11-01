@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-012",
+ "title": "Un laboratorio aperto al quartiere",
+ "language": "it",
+ "level": "A1",
+ "description": "Il plurale: articolo e nome · Un laboratorio aperto al quartiere · livello medio.",
+ "topics": [
+  "Il plurale: articolo e nome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Il plurale: articolo e nome",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1012
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Nel nostro [[g1]] apre un [[g2]] di riparazione. Il locale è vicino alla biblioteca, ma l’[[g3]] si trova in una [[g4]] tranquilla. Dentro ci sono [[g5]] grandi, [[g6]] leggere, [[g7]] alti e [[g8]] nuove. Una [[g9]] dà sul [[g10]]. I volontari aiutano gli abitanti a riparare oggetti semplici: una borsa, un giocattolo, una cornice o una piccola sedia. Non riparano apparecchi elettrici. Ogni persona porta il proprio materiale e lavora insieme agli altri. Una sarta prepara le stoffe; un falegname controlla gli attrezzi. Le famiglie trovano anche uno spazio per disegnare. Sul tavolo dei bambini ci sono matite, fogli, colori e scatole vuote. Il sabato mattina il laboratorio ospita un incontro per nuovi partecipanti. La responsabile presenta il progetto e risponde alle domande. Non serve esperienza: servono curiosità, pazienza e voglia di collaborare. Prima di uscire, tutti puliscono i tavoli e mettono gli strumenti al loro posto. Così la stanza è pronta per il gruppo successivo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quartiere"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "laboratorio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ingresso"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "strada"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "tavoli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sedie"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scaffali"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "lampade"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "finestra"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "giardino"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

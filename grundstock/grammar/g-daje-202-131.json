@@ -1,0 +1,237 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-131",
+ "title": "L’imperfetto (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · L’imperfetto (1) · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1131
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. essere · io · imperfetto → [[g1]]\n2. essere · tu · imperfetto → [[g2]]\n3. essere · lui/lei · imperfetto → [[g3]]\n4. essere · noi · imperfetto → [[g4]]\n5. essere · voi · imperfetto → [[g5]]\n6. essere · loro · imperfetto → [[g6]]\n7. avere · io · imperfetto → [[g7]]\n8. avere · tu · imperfetto → [[g8]]\n9. avere · lui/lei · imperfetto → [[g9]]\n10. avere · noi · imperfetto → [[g10]]\n11. avere · voi · imperfetto → [[g11]]\n12. avere · loro · imperfetto → [[g12]]\n13. potere · io · imperfetto → [[g13]]\n14. potere · tu · imperfetto → [[g14]]\n15. potere · lui/lei · imperfetto → [[g15]]\n16. potere · noi · imperfetto → [[g16]]\n17. potere · voi · imperfetto → [[g17]]\n18. potere · loro · imperfetto → [[g18]]\n19. volere · io · imperfetto → [[g19]]\n20. volere · tu · imperfetto → [[g20]]\n21. volere · lui/lei · imperfetto → [[g21]]\n22. volere · noi · imperfetto → [[g22]]\n23. volere · voi · imperfetto → [[g23]]\n24. volere · loro · imperfetto → [[g24]]\n25. dovere · io · imperfetto → [[g25]]\n26. dovere · tu · imperfetto → [[g26]]\n27. dovere · lui/lei · imperfetto → [[g27]]\n28. dovere · noi · imperfetto → [[g28]]\n29. dovere · voi · imperfetto → [[g29]]\n30. dovere · loro · imperfetto → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "eri"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "eravamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "eravate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avevo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avevi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avevamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avevate"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avevano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "potevo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "potevi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "poteva"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "potevamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "potevate"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "potevano"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "volevo"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "volevi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "volevamo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "volevate"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "volevano"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "dovevo"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "dovevi"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "doveva"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "dovevamo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "dovevate"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "dovevano"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

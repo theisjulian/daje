@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-140",
+ "title": "L’imperfetto (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · L’imperfetto (2) · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 18,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1140
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. dire · io · imperfetto → [[g1]]\n2. dire · tu · imperfetto → [[g2]]\n3. dire · lui/lei · imperfetto → [[g3]]\n4. dire · noi · imperfetto → [[g4]]\n5. dire · voi · imperfetto → [[g5]]\n6. dire · loro · imperfetto → [[g6]]\n7. fare · io · imperfetto → [[g7]]\n8. fare · tu · imperfetto → [[g8]]\n9. fare · lui/lei · imperfetto → [[g9]]\n10. fare · noi · imperfetto → [[g10]]\n11. fare · voi · imperfetto → [[g11]]\n12. fare · loro · imperfetto → [[g12]]\n13. bere · io · imperfetto → [[g13]]\n14. bere · tu · imperfetto → [[g14]]\n15. bere · lui/lei · imperfetto → [[g15]]\n16. bere · noi · imperfetto → [[g16]]\n17. bere · voi · imperfetto → [[g17]]\n18. bere · loro · imperfetto → [[g18]]\n19. proporre · io · imperfetto → [[g19]]\n20. proporre · tu · imperfetto → [[g20]]\n21. proporre · lui/lei · imperfetto → [[g21]]\n22. proporre · noi · imperfetto → [[g22]]\n23. proporre · voi · imperfetto → [[g23]]\n24. proporre · loro · imperfetto → [[g24]]\n25. stare · io · imperfetto → [[g25]]\n26. stare · tu · imperfetto → [[g26]]\n27. stare · lui/lei · imperfetto → [[g27]]\n28. stare · noi · imperfetto → [[g28]]\n29. stare · voi · imperfetto → [[g29]]\n30. stare · loro · imperfetto → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dicevo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dicevi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diceva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dicevamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dicevate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "dicevano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "facevo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "facevi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "faceva"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "facevamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "facevate"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "facevano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "bevevo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "bevevi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "beveva"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "bevevamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "bevevate"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "bevevano"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "proponevo"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "proponevi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "proponeva"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "proponevamo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "proponevate"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "proponevano"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "stavo"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "stavi"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "stava"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "stavamo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "stavate"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "stavano"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "31. tradurre · io · imperfetto → [[g1]]\n32. tradurre · tu · imperfetto → [[g2]]\n33. tradurre · lui/lei · imperfetto → [[g3]]\n34. tradurre · noi · imperfetto → [[g4]]\n35. tradurre · voi · imperfetto → [[g5]]\n36. tradurre · loro · imperfetto → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "traducevo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "traducevi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "traduceva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "traducevamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "traducevate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "traducevano"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

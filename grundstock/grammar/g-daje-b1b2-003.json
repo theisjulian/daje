@@ -1,0 +1,193 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-003",
+ "title": "Il giardino dietro la mensa",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Il giardino dietro la mensa · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3003
+ },
+ "estimatedMinutes": 21,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Dietro la mensa scolastica [[g1]] (esserci) uno spazio che nessuno usava. L’erba [[g2]] (crescere) fra le pietre e il cancello [[g3]] (rimanere) quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in un giardino, ma il progetto era rimasto in un cassetto. Quando la nuova preside lo [[g4]] (leggere), [[g5]] (invitare) gli autori a discuterne.\nLa prima riunione non [[g6]] (essere) semplice. Un gruppo [[g7]] (volere) piantare fiori, un altro [[g8]] (preferire) gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato un problema con l’acqua. Prima di comprare qualcosa, [[g9]] (misurare, noi) lo spazio e [[g10]] (osservare, noi) dove arrivava il sole.\nIl sabato successivo [[g11]] (venire, femminile plurale) anche alcune famiglie. Una madre aveva portato guanti di varie misure, mentre un vicino aveva preparato due cassette di legno. Noi [[g12]] (lavorare) a piccoli gruppi. Chi non [[g13]] (conoscere) gli attrezzi chiedeva aiuto, e nessuno [[g14]] (avere) fretta di finire.\nA giugno il giardino non [[g15]] (essere) perfetto. Alcune piante [[g16]] (crescere), altre no. [[g17]] (capire, noi) che una fotografia del primo giorno non racconta tutto il lavoro necessario dopo. Perciò [[g18]] (organizzare, noi) i turni estivi e [[g19]] (lasciare, noi) un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. Il giardino ci insegna soprattutto a tornare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "c’era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cresceva"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "rimaneva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha letto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha invitato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "è stata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "preferiva"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "abbiamo misurato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abbiamo osservato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sono venute"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "lavoravamo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "conosceva"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "sono cresciute"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "Abbiamo capito"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "abbiamo organizzato"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "abbiamo lasciato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. parlare — imperfetto — io → [[g1]]\n2. temere — imperfetto — tu → [[g2]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "parlavo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "temevi"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-155",
+ "title": "Un materiale arrivato in ritardo (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Preposizioni nel racconto · Un materiale arrivato in ritardo (2) · livello medio.",
+ "topics": [
+  "Preposizioni nel racconto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-preposizioni-ripasso",
+  "topicTitle": "Preposizioni nel racconto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1155
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto [[g4]] conferma e ho comunicato [[g5]] data [[g6]] compagni. Giovedì, però, [[g7]] pacco non è arrivato. Ho controllato [[g8]] messaggio [[g9]] corriere: l’indirizzo era corretto, ma mancava [[g10]] numero dell’edificio. Mi sono accorto di [[g11]] errore [[g12]] modulo: mancava [[g13]] numero dell’edificio. Ho telefonato [[g14]] servizio clienti e ho spiegato [[g15]] problema. L’addetta ha corretto [[g16]] dati e ha confermato la consegna per [[g17]] giorno seguente.\n[[g18]] frattempo [[g19]] classe ha preparato [[g20]] soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g21]] scuola e abbiamo spostato [[g22]] lavoro più impegnativo [[g23]] pomeriggio di venerdì. Quando [[g24]] corriere è arrivato, due compagni hanno controllato [[g25]] contenuto [[g26]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Sul"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ai"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "nel"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "Nel"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "della"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

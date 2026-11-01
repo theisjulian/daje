@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-082",
+ "title": "Il sabato di un gruppo teatrale",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · Il sabato di un gruppo teatrale · livello medio.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1082
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Il sabato [[g1]] (svegliarsi) senza fretta, ma non resto a letto tutta la mattina. [[g2]] (alzarsi) alle otto, [[g3]] (lavarsi) e [[g4]] (vestirsi) con abiti comodi. Prima di uscire [[g5]] (prepararsi) un panino e controllo lo zaino. Alle nove [[g6]] (incontrarsi) con gli altri del gruppo teatrale. [[g7]] (salutarsi) nel cortile, poi [[g8]] (mettersi) in cerchio. La nostra insegnante [[g9]] (presentarsi) ai nuovi partecipanti e ci spiega il programma. Per cominciare [[g10]] (muoversi) nello spazio e [[g11]] (fermarsi) quando la musica finisce. Nessuno deve correre. In seguito [[g12]] (sedersi) e leggiamo alcune battute. Io [[g13]] (concentrarsi) sulle parole, mentre una compagna si occupa dei rumori. Quando sbaglio, non [[g14]] (arrabbiarsi): mi correggo e provo di nuovo. Durante la pausa ci riposiamo e ci raccontiamo le novità della settimana. Alla fine ci dividiamo i compiti per la prova successiva. Io mi offro di preparare una lista degli oggetti di scena. A casa mi sistemo alla scrivania e scrivo tutto prima di dimenticare i dettagli. La sera mi rilasso con un libro. Non tutti i sabati sono uguali, ma questo ritmo mi piace.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi sveglio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Mi alzo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mi lavo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mi vesto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "mi preparo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mi incontro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ci salutiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci mettiamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "si presenta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ci muoviamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ci fermiamo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ci sediamo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "mi concentro"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "mi arrabbio"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

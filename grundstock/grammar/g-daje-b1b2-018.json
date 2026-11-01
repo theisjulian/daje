@@ -1,0 +1,192 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-018",
+ "title": "La luce nella sala prove",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · La luce nella sala prove · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3018
+ },
+ "estimatedMinutes": 15,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Ogni giovedì il coro si riunisce in una sala al piano terra. La porta si apre su un cortile e chi arriva per primo accende la luce. Questa sera Elena entra alle sette, appoggia la borsa su una sedia e [[g1]] gli spartiti. Sul tavolo non c’è nulla. Controlla l’armadio, ma trova soltanto una scatola di cavi e [[g2]] programmi di [[g3]] concerti.\nNel frattempo arrivano gli altri. Fa [[g4]] e tutti tengono ancora il [[g5]]. Il [[g6]] ascolta la spiegazione di Elena, poi telefona al [[g7]]. Il custode ricorda che nel pomeriggio un gruppo di ragazzi usa la [[g8]] sala per un laboratorio. Forse i fogli sono stati spostati per liberare il tavolo. Due coristi escono e chiedono informazioni nell’aula vicina.\nUna ragazza li accompagna fino a un carrello. [[g9]] alcuni [[g10]] ci sono gli spartiti, raccolti con attenzione in una [[g11]]. Nessuno [[g12]] [[g13]]; mancava soltanto un biglietto che indicasse il nuovo posto. I coristi ringraziano e tornano nella sala.\nLa prova comincia con mezz’ora di ritardo. Il direttore propone un esercizio breve di ascolto, senza fogli. Elena chiude gli [[g14]] e riconosce le voci dei compagni una alla volta. Alla fine tutti [[g15]]: la serata che sembrava rovinata offre un modo diverso di cantare insieme. Prima di uscire, Elena scrive un avviso e lo attacca sull’armadio. La settimana prossima gli spartiti avranno finalmente un posto chiaro.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "alcuni",
+      "vecchi",
+      "cerca"
+     ],
+     "answer": "cerca"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "cerca",
+      "alcuni",
+      "vecchi"
+     ],
+     "answer": "alcuni"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "cerca",
+      "vecchi",
+      "alcuni"
+     ],
+     "answer": "vecchi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "alcuni",
+      "cerca",
+      "freddo"
+     ],
+     "answer": "freddo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "cerca",
+      "alcuni",
+      "cappotto"
+     ],
+     "answer": "cappotto"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "alcuni",
+      "direttore",
+      "cerca"
+     ],
+     "answer": "direttore"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "custode",
+      "cerca",
+      "alcuni"
+     ],
+     "answer": "custode"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "alcuni",
+      "stessa",
+      "cerca"
+     ],
+     "answer": "stessa"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "cerca",
+      "Sotto",
+      "alcuni"
+     ],
+     "answer": "Sotto"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "cartelloni",
+      "cerca",
+      "alcuni"
+     ],
+     "answer": "cartelloni"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "cerca",
+      "alcuni",
+      "cartella"
+     ],
+     "answer": "cartella"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "cerca",
+      "voleva",
+      "alcuni"
+     ],
+     "answer": "voleva"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "nasconderli",
+      "cerca",
+      "alcuni"
+     ],
+     "answer": "nasconderli"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "alcuni",
+      "cerca",
+      "occhi"
+     ],
+     "answer": "occhi"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "cerca",
+      "alcuni",
+      "ridono"
+     ],
+     "answer": "ridono"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

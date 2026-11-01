@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-032",
+ "title": "Il podcast che non avevamo previsto",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Il podcast che non avevamo previsto · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3032
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Gentili compagni, la settimana scorsa [[g1]] (incontrare, noi) la responsabile della biblioteca. Ci ha proposto di realizzare un breve podcast sui luoghi del quartiere. Noi [[g2]] (accettare) e [[g3]] (scegliere) tre possibili itinerari. Prima di registrare, però, dovremo chiedere il consenso alle persone intervistate.\nIl gruppo di Gianni [[g4]] (preparare, futuro) le domande; quello di Ada [[g5]] (controllare, futuro) i rumori di fondo. Io vorrei occuparmi del montaggio, ma [[g6]] (avere, io, condizionale) bisogno di un compagno. Qualcuno [[g7]] (potere, terza singolare, condizionale) lavorare con me martedì? Non occorre un’attrezzatura costosa: sarebbe più utile ascoltare con attenzione e lasciare alle persone il tempo di rispondere.\nAbbiamo già parlato di questo problema a una giornalista. Lei ci [[g8]] (consigliare, forma composta) di fare prima una prova da intervistatori. Anche chi non vuole parlare davanti al microfono [[g9]] (avere, futuro) un compito: cercare informazioni, verificare i nomi o scrivere la presentazione.\nAlla fine pubblicheremo soltanto le registrazioni autorizzate. Se una risposta [[g10]] (essere, futuro semplice) troppo lunga, [[g11]] (chiedere, noi, futuro) se possiamo tagliarla senza cambiarne il significato. Il progetto finirà con un ascolto collettivo. [[g12]] (piacere, a me, condizionale) che ogni persona riconoscesse la propria voce e il senso delle proprie parole. Una registrazione chiara serve; una relazione di fiducia serve ancora di più.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abbiamo incontrato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "abbiamo accettato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbiamo scelto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "preparerà"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "controllerà"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avrei"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha consigliato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrà"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sarà"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "chiederemo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Mi piacerebbe"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

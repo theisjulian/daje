@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-185",
+ "title": "Il plastico in viaggio",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · Il plastico in viaggio · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3185
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "La [[g1]] della mostra la nostra classe aspettava il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato [[g2]] una scatola. Il cartone era resistente, ma le maniglie [[g3]] fragili. Per questo avevamo portato anche del [[g4]] adesivo.\nSul binario c’erano molti viaggiatori. Il tabellone annunciava dieci minuti di ritardo. La nostra coincidenza sembrava a rischio. Un addetto ci ha indicato un altro [[g5]] e abbiamo controllato gli orari sul telefono. I biglietti erano validi anche per quel collegamento.\nQuando il treno è arrivato, due compagni hanno sollevato la scatola. Una maniglia si è [[g6]], ma il plastico non è caduto: una viaggiatrice ha afferrato il bordo in tempo. Lei viaggiava con una valigia leggera e ci ha [[g7]] spazio [[g8]] alla porta.\nDurante il tragitto abbiamo riparato la confezione. La destinazione era ancora lontana, ma la preoccupazione era diminuita. All’arrivo, un volontario ci ha accompagnato all’[[g9]]. La mostra era [[g10]] da poco. Il nostro progetto ha trovato posto su un tavolo vicino all’ingresso. Abbiamo aggiunto una didascalia: «Questa città ha già fatto un viaggio».",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mattina"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dentro"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sembravano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "nastro"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "percorso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "staccata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "lasciato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vicino"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "uscita"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "cominciata"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

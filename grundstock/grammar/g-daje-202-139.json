@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-139",
+ "title": "Il passato prossimo con avere (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · Il passato prossimo con avere (2) · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1139
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. venire · io · presente → [[g1]]\n2. venire · io · passato prossimo (maschile) → [[g2]]\n3. parlare · tu · presente → [[g3]]\n4. parlare · tu · passato prossimo (uso autonomo) → [[g4]]\n5. dare · lui/lei · presente → [[g5]]\n6. dare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. tornare · noi · presente → [[g7]]\n8. tornare · noi · passato prossimo (maschile) → [[g8]]\n9. provare · voi · presente → [[g9]]\n10. provare · voi · passato prossimo (uso autonomo) → [[g10]]\n11. volere · loro · presente → [[g11]]\n12. volere · loro · passato prossimo (uso autonomo) → [[g12]]\n13. dovere · io · presente → [[g13]]\n14. dovere · io · passato prossimo (uso autonomo) → [[g14]]\n15. sapere · tu · presente → [[g15]]\n16. sapere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. potere · lui/lei · presente → [[g17]]\n18. potere · lui/lei · passato prossimo (uso autonomo) → [[g18]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vengo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sono venuto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "parli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "hai parlato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dà"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha dato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "torniamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "siamo tornati"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "provate"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avete provato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "vogliono"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "hanno voluto"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "devo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ho dovuto"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "sai"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "hai saputo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "può"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "ha potuto"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

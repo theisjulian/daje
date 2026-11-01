@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-197",
+ "title": "Un nuovo equilibrio",
+ "language": "it",
+ "level": "A2",
+ "description": "Possessivi, tempo e quantità nel testo · Un nuovo equilibrio · livello medio.",
+ "topics": [
+  "Possessivi, tempo e quantità nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-tempo",
+  "topicTitle": "Possessivi, tempo e quantità nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1197
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Caro Leo, ho deciso che voglio organizzare meglio [[g1]]. In queste settimane studio molto e passo troppo tempo davanti allo schermo. [[g2]] manca una pausa vera. Quando finisco i compiti, controllo i messaggi e comincio subito un’altra attività. La sera sono stanca, ma ho la sensazione di non aver fatto quello che mi piace.\nDa lunedì cambierò alcune abitudini. Prima preparerò una lista breve e sceglierò le attività più importanti. Non riempirò ogni minuto. Due pomeriggi alla settimana uscirò per una passeggiata e lascerò il telefono nello zaino. Riprenderò anche [[g3]] di disegni. [[g4]] mi invitano spesso, però rispondo che non ho tempo; d’ora in poi accetterò qualche invito e proporrò incontri semplici. Non serve organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante [[g5]] leggerò qualcosa, se avrò voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana controllerò il programma della settimana successiva e lascerò spazio agli imprevisti. So che non riuscirò a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. [[g6]] non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi [[g7]]? Mi interessa conoscere [[g8]]. Scrivimi quando hai un momento. A presto, Eva.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il mio tempo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Nelle mie giornate"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "il mio quaderno"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "I miei amici"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "i miei spostamenti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Il mio obiettivo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le tue pause"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "le tue idee"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. La penna appartiene a me: è __ penna. (articolo + possessivo) → [[g1]]\n2. Vado nella stanza che appartiene a noi: vado __ stanza. (preposizione articolata + possessivo) → [[g2]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la mia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "nella nostra"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

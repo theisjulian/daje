@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-141",
+ "title": "Congiuntivo imperfetto (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Congiuntivo imperfetto (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3141
+ },
+ "estimatedMinutes": 36,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. fare — congiuntivo imperfetto — io → [[g1]]\n2. fare — congiuntivo imperfetto — tu → [[g2]]\n3. fare — congiuntivo imperfetto — lui/lei → [[g3]]\n4. fare — congiuntivo imperfetto — noi → [[g4]]\n5. fare — congiuntivo imperfetto — voi → [[g5]]\n6. fare — congiuntivo imperfetto — loro → [[g6]]\n7. dire — congiuntivo imperfetto — io → [[g7]]\n8. dire — congiuntivo imperfetto — tu → [[g8]]\n9. dire — congiuntivo imperfetto — lui/lei → [[g9]]\n10. dire — congiuntivo imperfetto — noi → [[g10]]\n11. dire — congiuntivo imperfetto — voi → [[g11]]\n12. dire — congiuntivo imperfetto — loro → [[g12]]\n13. potere — congiuntivo imperfetto — io → [[g13]]\n14. potere — congiuntivo imperfetto — tu → [[g14]]\n15. potere — congiuntivo imperfetto — lui/lei → [[g15]]\n16. potere — congiuntivo imperfetto — noi → [[g16]]\n17. potere — congiuntivo imperfetto — voi → [[g17]]\n18. potere — congiuntivo imperfetto — loro → [[g18]]\n19. volere — congiuntivo imperfetto — io → [[g19]]\n20. volere — congiuntivo imperfetto — tu → [[g20]]\n21. volere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. volere — congiuntivo imperfetto — noi → [[g22]]\n23. volere — congiuntivo imperfetto — voi → [[g23]]\n24. volere — congiuntivo imperfetto — loro → [[g24]]\n25. andare — congiuntivo imperfetto — io → [[g25]]\n26. andare — congiuntivo imperfetto — tu → [[g26]]\n27. andare — congiuntivo imperfetto — lui/lei → [[g27]]\n28. andare — congiuntivo imperfetto — noi → [[g28]]\n29. andare — congiuntivo imperfetto — voi → [[g29]]\n30. andare — congiuntivo imperfetto — loro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "facessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "facessi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "facesse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "facessimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "faceste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "facessero"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dicessi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dicessi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dicesse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dicessimo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "diceste"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "dicessero"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "potessi"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "potessi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "potesse"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "potessimo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "poteste"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "potessero"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "volessi"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "volessi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "volesse"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "volessimo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "voleste"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "volessero"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "andassi"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "andassi"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "andasse"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "andassimo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "andaste"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "andassero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "31. partire — congiuntivo imperfetto — io → [[g1]]\n32. partire — congiuntivo imperfetto — tu → [[g2]]\n33. partire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. partire — congiuntivo imperfetto — noi → [[g4]]\n35. partire — congiuntivo imperfetto — voi → [[g5]]\n36. partire — congiuntivo imperfetto — loro → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "partissi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "partissi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "partisse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "partissimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "partiste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "partissero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

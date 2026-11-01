@@ -1,0 +1,189 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-050",
+ "title": "Una visita a Bologna",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una visita a Bologna · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1050
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Cara Bea, oggi ti scrivo da Bologna. Ho [[g1]] bella notizia: questa mattina ho visitato Salaborsa. È [[g2]] biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. [[g3]] biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è [[g4]] pavimento di vetro: sotto si vedono tracce della storia della città. È [[g5]] spazio interessante perché permette di osservare insieme [[g6]] edificio attuale e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; [[g7]] nostro itinerario, invece, è [[g8]] progetto immaginario per [[g9]] classe. Noi arriviamo in treno, lasciamo [[g10]] borse in albergo e raggiungiamo [[g11]] centro a piedi. Due compagni cercano [[g12]] guida della città; [[g13]] compagna prepara domande per [[g14]] gruppo. Dopo la visita facciamo [[g15]] pausa in [[g16]] piazza tranquilla. Io porto [[g17]] piccola macchina fotografica, ma prima di fare fotografie dentro [[g18]] edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie [[g19]] dettaglio da disegnare. [[g20]] mio disegno rappresenta [[g21]] grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "una"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

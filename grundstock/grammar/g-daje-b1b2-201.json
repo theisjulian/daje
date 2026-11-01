@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-201",
+ "title": "Comunicare durante un progetto: due pagine",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Comunicare durante un progetto: due pagine · livello difficile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It12/13 1.2"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3201
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Pagina A — Il diario [[g1]] gruppo. Stiamo preparando una mostra e usiamo un gruppo di messaggi per dividerci i compiti. All’inizio ogni decisione finiva in mezzo a fotografie, battute e domande. Chi entrava nella conversazione dopo qualche ora non capiva quale versione del programma fosse valida. Abbiamo quindi scelto una persona che, alla fine [[g2]] giornata, scrive un riepilogo. Il ruolo cambia ogni settimana, così il lavoro non ricade sempre sullo stesso compagno.\nIl riepilogo contiene soltanto decisioni confermate, compiti e scadenze. Le proposte ancora aperte vengono indicate separatamente. Se una persona non risponde subito, non le assegniamo automaticamente un incarico. Prima chiediamo se può accettarlo. Inoltre conserviamo i documenti in uno spazio comune, con titoli che permettono di distinguere le versioni. Nessuno deve indovinare se un file chiamato «finale nuovo definitivo» sia davvero quello da usare.\nQuando lavoriamo nella stessa stanza, lasciamo un momento iniziale per leggere gli aggiornamenti. Poi scegliamo se i telefoni servano all’attività. Per registrare un’intervista possono essere utili; durante la discussione [[g3]] una bozza possono interrompere l’ascolto. Non trattiamo lo strumento come una soluzione automatica né come un problema identico in ogni situazione. Cerchiamo di spiegare quale uso ci aiuta e quale ci distrae.\n\nPagina B — La proposta alla classe. Vorremmo che queste abitudini diventassero un accordo scritto per il progetto, non una regola generale inventata da noi per tutta la scuola. Prima [[g4]] applicarle, dobbiamo confrontarle con le indicazioni dell’istituto e con gli insegnanti. Il nostro foglio riguarda il modo di organizzarci e non descrive norme ufficiali sull’uso dei dispositivi.\nProponiamo tre domande [[g5]] porci prima di inviare un messaggio: a chi serve, quanto è urgente e dove potrà essere ritrovato? Se il messaggio riguarda una sola persona, forse non occorre coinvolgere tutto il gruppo. Se contiene una decisione importante, non dovrebbe scomparire fra risposte non collegate. Se condividiamo una fotografia, dobbiamo avere chiaro chi vi compare e quale uso è stato concordato.\nAlla fine della mostra valuteremo l’accordo. Non conteremo soltanto i messaggi inviati, perché un numero più basso non dimostra necessariamente una comunicazione migliore. Chiederemo se le persone hanno trovato le informazioni, se i compiti erano chiari e se qualcuno è rimasto escluso. Una compagna propone anche un breve incontro senza schermi: potrebbe far emergere problemi che nessuno scriverebbe in una chat.\nLe due pagine descrivono un progetto immaginario. Non riportano uno studio scientifico né un regolamento reale. Presentano scelte discutibili e modificabili, con l’obiettivo [[g6]] rendere visibile il rapporto fra strumenti, persone e attività. La tecnologia resta sullo sfondo quando non serve; torna al centro quando offre una possibilità concreta che il gruppo sa spiegare.\nConserveremo infine l’accordo iniziale insieme alle modifiche approvate. Questo ci permetterà di ricordare perché una regola è stata introdotta e di discuterla senza ricominciare ogni volta [[g7]] impressioni diverse.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "da"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-161",
+ "title": "Il passato prossimo con essere e i participi irregolari (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con essere e i participi irregolari · Il passato prossimo con essere e i participi irregolari (1) · livello medio.",
+ "topics": [
+  "Il passato prossimo con essere e i participi irregolari",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 20,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1161
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. accendere → participio passato maschile singolare → [[g1]]\n2. aggiungere → participio passato maschile singolare → [[g2]]\n3. aprire → participio passato maschile singolare → [[g3]]\n4. bere → participio passato maschile singolare → [[g4]]\n5. chiedere → participio passato maschile singolare → [[g5]]\n6. chiudere → participio passato maschile singolare → [[g6]]\n7. decidere → participio passato maschile singolare → [[g7]]\n8. descrivere → participio passato maschile singolare → [[g8]]\n9. dire → participio passato maschile singolare → [[g9]]\n10. discutere → participio passato maschile singolare → [[g10]]\n11. dividere → participio passato maschile singolare → [[g11]]\n12. esprimere → participio passato maschile singolare → [[g12]]\n13. essere → participio passato maschile singolare → [[g13]]\n14. fare → participio passato maschile singolare → [[g14]]\n15. leggere → participio passato maschile singolare → [[g15]]\n16. muovere → participio passato maschile singolare → [[g16]]\n17. morire → participio passato maschile singolare → [[g17]]\n18. nascere → participio passato maschile singolare → [[g18]]\n19. vedere → participio passato maschile singolare → [[g19]]\n20. mettere → participio passato maschile singolare → [[g20]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "acceso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aggiunto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aperto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "bevuto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "chiesto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "chiuso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "deciso"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "descritto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "detto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "discusso"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "diviso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "espresso"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "stato"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "fatto"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "letto"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "mosso"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "morto"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "nato"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "visto"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "messo"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
+   "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
+   "text": "1. accendere · io · passato prossimo → [[g1]]\n2. aggiungere · io · passato prossimo → [[g2]]\n3. aprire · io · passato prossimo → [[g3]]\n4. bere · io · passato prossimo → [[g4]]\n5. chiedere · io · passato prossimo → [[g5]]\n6. chiudere · io · passato prossimo → [[g6]]\n7. decidere · io · passato prossimo → [[g7]]\n8. descrivere · io · passato prossimo → [[g8]]\n9. dire · io · passato prossimo → [[g9]]\n10. discutere · io · passato prossimo → [[g10]]\n11. dividere · io · passato prossimo → [[g11]]\n12. esprimere · io · passato prossimo → [[g12]]\n13. essere · io · passato prossimo (maschile) → [[g13]]\n14. fare · io · passato prossimo → [[g14]]\n15. leggere · io · passato prossimo → [[g15]]\n16. muovere · io · passato prossimo → [[g16]]\n17. morire · io · passato prossimo (maschile) → [[g17]]\n18. nascere · io · passato prossimo (maschile) → [[g18]]\n19. vedere · io · passato prossimo → [[g19]]\n20. mettere · io · passato prossimo → [[g20]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho acceso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho aggiunto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho aperto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho bevuto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ho chiesto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ho chiuso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ho deciso"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho descritto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ho detto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho discusso"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ho diviso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ho espresso"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "sono stato"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ho fatto"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ho letto"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ho mosso"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "sono morto"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "sono nato"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ho visto"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "ho messo"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

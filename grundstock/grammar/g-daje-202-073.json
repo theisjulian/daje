@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-073",
+ "title": "Venire, sapere e i verbi modali (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (2) · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1073
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. andare · io · presente → [[g1]]\n2. andare · tu · presente → [[g2]]\n3. andare · lui/lei · presente → [[g3]]\n4. andare · noi · presente → [[g4]]\n5. andare · voi · presente → [[g5]]\n6. andare · loro · presente → [[g6]]\n7. venire · io · presente → [[g7]]\n8. venire · tu · presente → [[g8]]\n9. venire · lui/lei · presente → [[g9]]\n10. venire · noi · presente → [[g10]]\n11. venire · voi · presente → [[g11]]\n12. venire · loro · presente → [[g12]]\n13. fare · io · presente → [[g13]]\n14. fare · tu · presente → [[g14]]\n15. fare · lui/lei · presente → [[g15]]\n16. fare · noi · presente → [[g16]]\n17. fare · voi · presente → [[g17]]\n18. fare · loro · presente → [[g18]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vado"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "va"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "andiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "andate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vanno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vengo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vieni"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "viene"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "veniamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "venite"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "vengono"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "faccio"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "fai"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "fate"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "fanno"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

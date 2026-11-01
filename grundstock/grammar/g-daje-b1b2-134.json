@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-134",
+ "title": "Congiuntivo imperfetto (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Congiuntivo imperfetto (1) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3134
+ },
+ "estimatedMinutes": 36,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. essere — congiuntivo imperfetto — io → [[g1]]\n2. essere — congiuntivo imperfetto — tu → [[g2]]\n3. essere — congiuntivo imperfetto — lui/lei → [[g3]]\n4. essere — congiuntivo imperfetto — noi → [[g4]]\n5. essere — congiuntivo imperfetto — voi → [[g5]]\n6. essere — congiuntivo imperfetto — loro → [[g6]]\n7. avere — congiuntivo imperfetto — io → [[g7]]\n8. avere — congiuntivo imperfetto — tu → [[g8]]\n9. avere — congiuntivo imperfetto — lui/lei → [[g9]]\n10. avere — congiuntivo imperfetto — noi → [[g10]]\n11. avere — congiuntivo imperfetto — voi → [[g11]]\n12. avere — congiuntivo imperfetto — loro → [[g12]]\n13. parlare — congiuntivo imperfetto — io → [[g13]]\n14. parlare — congiuntivo imperfetto — tu → [[g14]]\n15. parlare — congiuntivo imperfetto — lui/lei → [[g15]]\n16. parlare — congiuntivo imperfetto — noi → [[g16]]\n17. parlare — congiuntivo imperfetto — voi → [[g17]]\n18. parlare — congiuntivo imperfetto — loro → [[g18]]\n19. ricevere — congiuntivo imperfetto — io → [[g19]]\n20. ricevere — congiuntivo imperfetto — tu → [[g20]]\n21. ricevere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. ricevere — congiuntivo imperfetto — noi → [[g22]]\n23. ricevere — congiuntivo imperfetto — voi → [[g23]]\n24. ricevere — congiuntivo imperfetto — loro → [[g24]]\n25. dormire — congiuntivo imperfetto — io → [[g25]]\n26. dormire — congiuntivo imperfetto — tu → [[g26]]\n27. dormire — congiuntivo imperfetto — lui/lei → [[g27]]\n28. dormire — congiuntivo imperfetto — noi → [[g28]]\n29. dormire — congiuntivo imperfetto — voi → [[g29]]\n30. dormire — congiuntivo imperfetto — loro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fossi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fossi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fossimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "foste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "fossero"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avesse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avessimo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "aveste"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avessero"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "parlassi"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "parlassi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "parlasse"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "parlassimo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "parlaste"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "parlassero"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ricevessi"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "ricevessi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "ricevesse"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "ricevessimo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "riceveste"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "ricevessero"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "dormissi"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "dormissi"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "dormisse"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "dormissimo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "dormiste"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "dormissero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "31. venire — congiuntivo imperfetto — io → [[g1]]\n32. venire — congiuntivo imperfetto — tu → [[g2]]\n33. venire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. venire — congiuntivo imperfetto — noi → [[g4]]\n35. venire — congiuntivo imperfetto — voi → [[g5]]\n36. venire — congiuntivo imperfetto — loro → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "venissi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "venissi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "venisse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "venissimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "veniste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "venissero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

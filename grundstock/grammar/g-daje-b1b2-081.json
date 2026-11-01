@@ -1,0 +1,184 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-081",
+ "title": "Una fotografia trovata in rete",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Una fotografia trovata in rete · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Europeana PRO: Understanding the rights statements used by Europeana. 06.02.2015; aktualisiert 11.10.2024. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
+   "url": "https://pro.europeana.eu/index.php/page/available-rights-statements"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3081
+ },
+ "estimatedMinutes": 20,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "[[g1]] accompagna gli oggetti digitali con [[g2]] sui diritti, che aiutano a comprendere come possano essere riutilizzati. Un oggetto consultabile online non è automaticamente disponibile per qualsiasi uso. Le indicazioni distinguono situazioni diverse, comprese opere ancora protette e materiali il cui riuso è consentito soltanto a determinate condizioni. Questo breve quadro deriva dalla pagina informativa di Europeana PRO; non [[g3]] la verifica del singolo oggetto.\nNel racconto che segue, una [[g4]] scolastica [[g5]] una fotografia perfetta per il proprio giornale. Mostra una piazza in un giorno di mercato e potrebbe accompagnare un articolo sulle trasformazioni del quartiere. Il primo impulso è [[g6]] e aggiungere il nome del sito. Una studentessa propone invece di aprire la scheda completa.\nLa scheda contiene informazioni sull’istituzione che conserva l’immagine e sul suo stato giuridico. I ragazzi capiscono che citare una [[g7]] e avere il permesso di riprodurre un’immagine sono questioni collegate, ma diverse. Non [[g8]] subito una risposta [[g9]] per l’uso previsto, scelgono di non inserire la fotografia. Possono [[g10]] descrivere la ricerca e offrire un collegamento alla scheda, senza [[g11]] il file.\nPer illustrare l’articolo, preparano allora un disegno originale basato sulla [[g12]] osservazione della piazza attuale. Il disegno non viene presentato come una ricostruzione storica. Una didascalia precisa che è una rappresentazione realizzata dagli studenti e che alcuni dettagli sono stati [[g13]]. Nel [[g14]], invece, la fotografia d’archivio resta una fonte da consultare criticamente.\nLa scelta [[g15]] più tempo di un semplice download, ma produce una domanda utile: [[g16]] informazioni perdiamo quando un’immagine viene separata dalla sua scheda? Il giornale pubblica un piccolo riquadro con autore, istituzione, [[g17]] e collegamento quando questi dati sono disponibili. Il caso della redazione è inventato; non vengono riprodotte immagini né [[g18]] permessi a oggetti specifici.\nLa redazione conserva inoltre l’indirizzo della scheda e la data della consultazione. Se in futuro vorrà usare un’altra immagine, dovrà ripetere il [[g19]]: la scelta [[g20]] per un oggetto non vale automaticamente per tutti gli altri.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Europeana"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "indicazioni"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sostituisce"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "redazione"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "trova"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "scaricarla"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fonte"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "trovando"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "chiara"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "comunque"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "ripubblicare"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "propria"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "semplificati"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "testo"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "richiede"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "quali"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "titolo"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "attribuiti"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "controllo"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "fatta"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

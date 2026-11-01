@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-143",
+ "title": "Due lettere sulla biblioteca del sabato",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Due lettere sulla biblioteca del sabato · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3143
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "A — Lettera di Bianca. La biblioteca del nostro quartiere chiude [[g1]] sabato a mezzogiorno. Vorrei proporre un’apertura pomeridiana una volta al mese. Durante la settimana seguo un corso lontano da casa e riesco raramente a passarci. Non chiedo che il personale lavori senza pausa: immagino [[g2]] orario diverso, da discutere con chi organizza il servizio. Mi piacerebbe soprattutto partecipare a un incontro in cui i lettori presentino un libro senza dover preparare [[g3]] relazione lunga.\nHo parlato della proposta con mio fratello. Lui non legge molti romanzi, ma usa la biblioteca per studiare e cercare manuali. Gli ho chiesto se verrebbe; mi ha risposto che dipenderebbe dal programma. Questa risposta [[g4]] (a Bianca) sembra utile: un’apertura aggiuntiva non interessa automaticamente tutti. Per capire le esigenze, preparerei poche domande e le lascerei sia all’ingresso sia sul sito. Non userei soltanto un questionario online, perché rischierei di non ascoltare alcuni frequentatori.\nB — Risposta di Karim. L’idea di Bianca mi interessa, ma prima di cambiare gli orari guarderei come viene usato lo spazio. [[g5]] sabato mattina accompagno mia sorella alla sezione ragazzi e spesso non troviamo un posto tranquillo. Se aprissimo più a lungo senza organizzare meglio le sale, potremmo spostare il problema invece di risolverlo.\nPer questo proporrei [[g6]] periodo di prova. Un pomeriggio sarebbe dedicato allo studio, un altro agli incontri. Alla fine raccoglieremmo osservazioni dai lettori e dal personale. Chi non partecipa dovrebbe poter spiegare perché: forse l’orario non va bene, forse non conosce l’iniziativa, forse cerca [[g7]] servizio diverso. Non vorrei che il numero dei presenti diventasse l’unico criterio.\nSono disponibile ad aiutare nella comunicazione della prova, ma non a sostituire il lavoro di persone formate. Alla biblioteca chiediamo competenza, cura e continuità. Un progetto nato dai lettori può essere prezioso se riconosce queste esigenze. Le due lettere sono state scritte per l’esercizio e non riportano [[g8]] consultazione reale.\nNota comune dei due autori: «Abbiamo scritto le nostre proposte e le abbiamo rilette insieme. Alla responsabile le manderemo una copia. [[g9]] calendario non lo decidiamo noi; ne discuteremo con chi organizza [[g10]] servizio. I lettori possono darci suggerimenti. Se li raccogliamo con ordine, sarà più facile usarli. Nessuno dovrà giustificar[[g11]] (riflessivo) se non verrà. A chi chiede una risposta promettiamo di scrivergli dopo il confronto; le domande aperte non [[g12]] (diretto, le domande) dimenticheremo».",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

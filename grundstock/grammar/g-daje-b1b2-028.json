@@ -1,0 +1,172 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-028",
+ "title": "Una richiesta precisa",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Una richiesta precisa · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3028
+ },
+ "estimatedMinutes": 19,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+   "text": "Alla responsabile del centro civico: scrivo per segnalare un problema relativo al corso di fotografia iniziato lunedì. Nell’[[g1]] (testo che comunica un’offerta) erano indicati quattro incontri in presenza. Dopo il primo incontro abbiamo ricevuto una [[g2]] (messaggio ufficiale): le altre lezioni si sarebbero svolte online. Non discuto la competenza del docente; desidero però una [[g3]] (chiarimento dei motivi) del cambiamento.\nAvevo scelto il corso per usare insieme agli altri la camera oscura. Questa [[g4]] (lavoro previsto nel programma) non può essere sostituita da una videoconferenza. Inoltre, a casa non dispongo degli [[g5]] (mezzi necessari per un lavoro) necessari. Ho pagato la [[g6]] (somma richiesta per partecipare) entro la [[g7]] (ultimo termine utile) indicata e ho conservato la [[g8]] (documento che prova il pagamento).\nChiedo quindi se sia possibile mantenere il [[g9]] (insieme delle attività previste) oppure proporre un’[[g10]] (possibilità diversa) equivalente. In caso contrario vorrei conoscere le modalità di [[g11]] (restituzione di una somma pagata). Non mi sembra una [[g12]] (richiesta presentata come un diritto) eccessiva: il servizio offerto è diverso da quello descritto.\nResto disponibile a un [[g13]] (incontro per discutere) per trovare un [[g14]] (intesa fra le parti). Allego la copia dell’iscrizione e dell’offerta iniziale; vi chiedo di inviarmi una [[g15]] (comunicazione che risponde a una domanda) scritta entro una settimana. Vorrei evitare una [[g16]] (confronto acceso di opinioni) inutile e arrivare a una [[g17]] (modo di risolvere un problema) condivisa. Ringrazio per l’[[g18]] (interesse rivolto a una questione) e attendo un vostro [[g19]] (risposta formale a una comunicazione). Cordiali saluti, Andrea Riva. Questa lettera descrive una situazione inventata per l’attività.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "annuncio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "comunicazione"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "spiegazione"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "attività"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "strumenti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quota"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scadenza"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ricevuta"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "programma"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "alternativa"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "rimborso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "pretesa"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "colloquio"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "accordo"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "risposta"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "discussione"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "soluzione"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "attenzione"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "riscontro"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir."
+  }
+ ]
+}

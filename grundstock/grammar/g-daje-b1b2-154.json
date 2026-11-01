@@ -1,0 +1,157 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-154",
+ "title": "La classe e il giornale incompleto",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La classe e il giornale incompleto · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3154
+ },
+ "estimatedMinutes": 15,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Nel suo ultimo anno di scuola, Teresa partecipò alla redazione di un giornale. Il primo numero uscì con una pagina bianca. Non [[g1]] una scelta artistica: il gruppo [[g2]] (aspettare, forma composta) un’intervista che non arrivò in tempo. Quando il professore vide il fascicolo, non disse subito che cosa ne [[g3]] (pensare). Chiese agli studenti di spiegare la decisione.\nTeresa [[g4]] (ricordare) bene la discussione. Qualcuno [[g5]] (volere) inventare alcune risposte plausibili; altri proponevano di copiare un vecchio articolo. Lei [[g6]] (suggerire, forma composta) di dichiarare il problema. [[g7]] (avere) quindi scritto una nota: l’intervista non [[g8]] disponibile e sarebbe stata pubblicata soltanto dopo il controllo della persona interessata. La pagina rimasta vuota mostrava un limite del lavoro, ma evitava di nasconderlo.\nIl professore prese il fascicolo e lo portò in un’altra classe. Chiese se quella pagina fosse inutile. Alcuni ragazzi dissero di sì; altri notarono che insegnava qualcosa sul modo in cui si produce un giornale. Una risposta mancata non autorizza a creare una voce falsa. Il dibattito durò più della lettura degli altri articoli.\nMolti anni dopo Teresa ritrovò il fascicolo. [[g9]] (dimenticare, forma composta) quasi tutti i titoli, ma [[g10]] (ricordare) la pagina vuota. La mostrò a sua nipote, che stava preparando un blog. La ragazza domandò se avessero poi ricevuto l’intervista. Teresa non lo [[g11]] (sapere) più: possedeva soltanto il primo numero. Non trasformò quel vuoto di memoria in un finale perfetto. Disse che avrebbe cercato gli altri fascicoli e, se li avesse trovati, le avrebbe raccontato il seguito. Anche una storia personale può restare incompleta. Il racconto è originale e interamente fittizio.\nLa nipote prese nota di quella distinzione: un ricordo sicuro, un dettaglio incerto e una domanda da controllare. Nel suo blog avrebbe potuto raccontare l’episodio della pagina bianca, ma avrebbe indicato che il seguito non [[g12]] noto. Non le sembrò una storia meno interessante. Le sembrò una storia in cui il lettore poteva capire meglio il confine fra testimonianza e ricostruzione.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva aspettato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "pensava"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ricordava"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aveva suggerito"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Avevano"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Aveva dimenticato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ricordava"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sapeva"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "era"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. ricevere — passato prossimo — lui/lei → [[g1]]\n2. vendere — imperfetto — loro → [[g2]]\n3. ricevere — imperfetto — lui/lei → [[g3]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ha ricevuto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vendevano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "riceveva"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-085",
+ "title": "Intervista a una restauratrice",
+ "language": "it",
+ "level": "A2",
+ "description": "Venire, sapere e i verbi modali · Intervista a una restauratrice · livello medio.",
+ "topics": [
+  "Venire, sapere e i verbi modali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "Venire, sapere e i verbi modali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1085
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Intervistatore: Come ti [[g1]] (chiamare, presente) e che lavoro [[g2]] (fare, presente)?\nMarta: Mi [[g3]] (chiamare, presente) Marta e restauro oggetti di carta. Lavoro soprattutto con libri e vecchie fotografie.\nIntervistatore: Come [[g4]] (cominciare, passato prossimo)?\nMarta: [[g5]] (studiare, passato prossimo) arte, poi [[g6]] (frequentare, passato prossimo) un corso pratico. Durante il corso [[g7]] (conoscere, passato prossimo) una restauratrice che mi [[g8]] (invitare, passato prossimo) nel suo laboratorio. [[g9]] (rimanere, passato prossimo) con lei per alcuni mesi e [[g10]] (imparare, passato prossimo) a osservare i materiali con pazienza.\nIntervistatore: [[g11]] (lavorare, passato prossimo) subito da sola?\nMarta: No. [[g12]] (aiutare, passato prossimo) i colleghi, ho preparato gli strumenti e ho scritto le schede degli oggetti. All’inizio ho pulito soltanto materiali semplici. Poi ho ricevuto compiti più difficili.\nIntervistatore: Ti sei trasferita per lavorare?\nMarta: Sì, sono partita per un’altra città. Ho trovato una stanza vicino al laboratorio e sono tornata a casa nei fine settimana. Dopo due anni sono rientrata nella mia regione e ho aperto uno spazio con un’amica.\nIntervistatore: Che cosa ti piace del tuo lavoro?\nMarta: Ogni oggetto racconta una storia diversa. Non cerco di farlo sembrare nuovo: voglio conservarlo e permettere alle persone di usarlo ancora. La storia e l’intervista sono immaginarie.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "chiami"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "hai cominciato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Ho studiato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ho frequentato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ho conosciuto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha invitata"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Sono rimasta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho imparato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Hai lavorato"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Ho aiutato"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

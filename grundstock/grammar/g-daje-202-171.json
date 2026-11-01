@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-171",
+ "title": "La cortesia e l’imperativo formale",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · La cortesia e l’imperativo formale · livello medio.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1171
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. Scusa → [[g1]]\n2. Dimmi → [[g2]]\n3. Dammi → [[g3]]\n4. Senti → [[g4]]\n5. Guarda → [[g5]]\n6. Vieni → [[g6]]\n7. Entra → [[g7]]\n8. Aspetta → [[g8]]\n9. Leggi → [[g9]]\n10. Scrivi → [[g10]]\n11. Prendi → [[g11]]\n12. Scegli → [[g12]]\n13. Apri → [[g13]]\n14. Chiudi → [[g14]]\n15. Fa’ attenzione → [[g15]]\n16. Sii paziente → [[g16]]\n17. Abbi pazienza → [[g17]]\n18. Accomodati → [[g18]]\n19. Siediti → [[g19]]\n20. Non preoccuparti → [[g20]]\n21. Non correre → [[g21]]\n22. Non parlare → [[g22]]\n23. Lasciami un messaggio → [[g23]]\n24. Telefonami → [[g24]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Scusi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Mi dica"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Mi dia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Senta"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Guardi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Venga"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Entri"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Aspetti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Legga"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Scriva"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Prenda"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Scelga"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Apra"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Chiuda"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "Faccia attenzione"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "Sia paziente"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "Abbia pazienza"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "Si accomodi"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "Si sieda"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "Non si preoccupi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "Non corra"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "Non parli"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "Mi lasci un messaggio"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "Mi telefoni"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-017",
+ "title": "Costumi per una storia sul mare (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Costumi per una storia sul mare (1) · livello medio.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1017
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Nel laboratorio di teatro prepariamo i costumi per una storia sul mare. La protagonista indossa una giacca blu e una gonna [[g1]]. I due pescatori hanno pantaloni grigi e maglie [[g2]]. Le barche sono [[g3]], costruite con scatole [[g4]]. Per le onde usiamo stoffe [[g5]]; per il sole un disco [[g6]]. Una studentessa disegna pesci [[g7]] e stelle [[g8]]. Gli sfondi sono [[g9]], ma molto [[g10]]. Le scarpe nere degli attori non si vedono dietro alle onde. Sulla scena arriva anche una turista francese con una valigia rossa. Incontra un fotografo spagnolo, due musicisti italiani e alcune viaggiatrici tedesche. Non tutti parlano la stessa lingua, ma la musica li aiuta a capirsi. I personaggi indossano cappelli diversi: quello della turista è bianco, quello del fotografo è marrone. Alla fine della storia, le luci diventano viola e tutti cantano insieme. I costumi non sono costosi: vengono dal mercatino della scuola. Gli studenti trasformano vestiti usati in oggetti nuovi e originali.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "verde"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "bianche"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "piccole"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "leggere"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "azzurre"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "giallo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "rossi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "arancioni"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "semplici"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "colorati"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

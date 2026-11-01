@@ -1,0 +1,237 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-048",
+ "title": "Condizionale",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Condizionale · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3048
+ },
+ "estimatedMinutes": 30,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. fare — condizionale presente — io → [[g1]]\n2. fare — condizionale presente — tu → [[g2]]\n3. fare — condizionale presente — lui/lei → [[g3]]\n4. fare — condizionale presente — noi → [[g4]]\n5. fare — condizionale presente — voi → [[g5]]\n6. fare — condizionale presente — loro → [[g6]]\n7. dire — condizionale presente — io → [[g7]]\n8. dire — condizionale presente — tu → [[g8]]\n9. dire — condizionale presente — lui/lei → [[g9]]\n10. dire — condizionale presente — noi → [[g10]]\n11. dire — condizionale presente — voi → [[g11]]\n12. dire — condizionale presente — loro → [[g12]]\n13. venire — condizionale presente — io → [[g13]]\n14. venire — condizionale presente — tu → [[g14]]\n15. venire — condizionale presente — lui/lei → [[g15]]\n16. venire — condizionale presente — noi → [[g16]]\n17. venire — condizionale presente — voi → [[g17]]\n18. venire — condizionale presente — loro → [[g18]]\n19. potere — condizionale presente — io → [[g19]]\n20. potere — condizionale presente — tu → [[g20]]\n21. potere — condizionale presente — lui/lei → [[g21]]\n22. potere — condizionale presente — noi → [[g22]]\n23. potere — condizionale presente — voi → [[g23]]\n24. potere — condizionale presente — loro → [[g24]]\n25. andare — condizionale presente — io → [[g25]]\n26. andare — condizionale presente — tu → [[g26]]\n27. andare — condizionale presente — lui/lei → [[g27]]\n28. andare — condizionale presente — noi → [[g28]]\n29. andare — condizionale presente — voi → [[g29]]\n30. andare — condizionale presente — loro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "farei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "faresti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "farebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "faremmo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "fareste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "farebbero"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "direi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "diresti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "direbbe"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "diremmo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "direste"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "direbbero"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "verrei"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "verresti"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "verrebbe"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "verremmo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "verreste"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "verrebbero"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "potrei"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "potresti"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "potremmo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "potreste"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "potrebbero"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "andrei"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "andresti"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "andrebbe"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "andremmo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "andreste"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "andrebbero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

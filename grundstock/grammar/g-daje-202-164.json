@@ -1,0 +1,152 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-164",
+ "title": "Una visita a Bologna",
+ "language": "it",
+ "level": "A2",
+ "description": "Bello e la posizione degli aggettivi · Una visita a Bologna · livello medio.",
+ "topics": [
+  "Bello e la posizione degli aggettivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "own",
+   "rights": "own",
+   "citation": "Eigene Formulierung auf Faktenbasis der offiziellen Bibliothek: Biblioteca Salaborsa, Storia & missione. Abruf 29.10.2026.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-bello",
+  "topicTitle": "Bello e la posizione degli aggettivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1164
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Cara Bea, oggi ti scrivo [[g1]]. Ho [[g2]]: questa mattina ho visitato Salaborsa. È una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si vedono tracce della storia della città. È uno spazio interessante perché permette di osservare insieme un edificio attuale e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; [[g3]], invece, è un progetto immaginario per la classe. Noi arriviamo in treno, lasciamo le borse in albergo e raggiungiamo il centro a piedi. Due compagni cercano una guida della città; una compagna prepara domande per il gruppo. Dopo la visita facciamo una pausa in una piazza tranquilla. Io porto [[g4]] fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. [[g5]] rappresenta una grande finestra; [[g6]] preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto [[g7]]!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "da Bologna"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "una bella notizia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "il nostro itinerario"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "una piccola macchina"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Il mio disegno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "i tuoi amici"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dal nostro gruppo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Completa con bello: un __ quadro → [[g1]]\n2. Completa con bello: uno __ spettacolo (correggi anche l’articolo) → [[g2]]\n3. Completa con bello: dei __ disegni → [[g3]]\n4. Completa con bello: delle __ immagini → [[g4]]\n5. Completa con bello: dei __ zaini → [[g5]]\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bel"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un bello spettacolo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "bei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "belle"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "begli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un bell’edificio"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-099",
+ "title": "Grazie per il pomeriggio",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli aggettivi e la loro posizione · Grazie per il pomeriggio · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1099
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala era [[g1]], i tavoli erano ordinati e le fotografie erano davvero [[g2]]. Il programma era semplice, ma ogni attività aveva uno scopo [[g3]]. Le spiegazioni erano [[g4]] e [[g5]]. La musica era [[g6]] e il volume non era troppo [[g7]]. I volontari erano [[g8]]; anche le persone nuove si sentivano a proprio agio. La pausa era un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "luminosa"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "interessanti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiaro"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "brevi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "comprensibili"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "piacevole"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "alto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "disponibili"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

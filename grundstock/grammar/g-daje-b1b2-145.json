@@ -1,0 +1,225 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-145",
+ "title": "Forme verbali (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Forme verbali (1) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3145
+ },
+ "estimatedMinutes": 28,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. vendere — congiuntivo imperfetto — tu → [[g1]]\n2. controllare — congiuntivo presente — loro → [[g2]]\n3. andare — congiuntivo presente — io → [[g3]]\n4. parlare — congiuntivo imperfetto — noi → [[g4]]\n5. prendere — trapassato prossimo — voi → [[g5]]\n6. ascoltare — congiuntivo imperfetto — io → [[g6]]\n7. ricevere — passato prossimo — loro → [[g7]]\n8. avere — condizionale presente — io → [[g8]]\n9. lavorare — condizionale presente — voi → [[g9]]\n10. controllare — passato prossimo — voi → [[g10]]\n11. essere — condizionale presente — io → [[g11]]\n12. invitare — trapassato prossimo — lui/lei → [[g12]]\n13. dire — passato prossimo — voi → [[g13]]\n14. volere — condizionale presente — io → [[g14]]\n15. potere — congiuntivo imperfetto — tu → [[g15]]\n16. lavorare — passato prossimo — tu → [[g16]]\n17. vendere — presente — lui/lei → [[g17]]\n18. conservare — imperfetto — noi → [[g18]]\n19. ricevere — presente — noi → [[g19]]\n20. conservare — congiuntivo imperfetto — io → [[g20]]\n21. fare — passato prossimo — lui/lei → [[g21]]\n22. essere — condizionale presente — loro → [[g22]]\n23. telefonare — congiuntivo presente — io → [[g23]]\n24. telefonare — presente — tu → [[g24]]\n25. potere — condizionale presente — lui/lei → [[g25]]\n26. vendere — congiuntivo imperfetto — loro → [[g26]]\n27. lavorare — congiuntivo presente — loro → [[g27]]\n28. preparare — congiuntivo imperfetto — voi → [[g28]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vendessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "controllino"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vada"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "parlassimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avevate preso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ascoltassi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "hanno ricevuto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "lavorereste"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avete controllato"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sarei"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "aveva invitato"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "avete detto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "vorrei"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "potessi"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "hai lavorato"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "vende"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "conservavamo"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "riceviamo"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "conservassi"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "ha fatto"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "sarebbero"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "telefoni"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "telefoni"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "vendessero"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "lavorino"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "preparaste"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

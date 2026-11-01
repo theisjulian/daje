@@ -1,0 +1,199 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-154",
+ "title": "Un materiale arrivato in ritardo (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Preposizioni nel racconto · Un materiale arrivato in ritardo (1) · livello medio.",
+ "topics": [
+  "Preposizioni nel racconto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-preposizioni-ripasso",
+  "topicTitle": "Preposizioni nel racconto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1154
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data [[g4]] compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio [[g5]] corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. Mi sono accorto di un errore [[g6]] modulo: mancava il numero dell’edificio. Ho telefonato [[g7]] servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\n[[g8]] frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g9]] scuola e abbiamo spostato il lavoro più impegnativo [[g10]] pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto [[g11]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato [[g12]] negozio, che ha risposto subito. [[g13]] fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Sul"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "nel"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Nel"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Alla"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Il corso comincia (a + le) nove. → [[g1]]\n2. La chiave è (in + lo) zaino. → [[g2]]\n3. Il programma è (su + la) porta. → [[g3]]\n4. Torniamo (da + il) museo. → [[g4]]\n5. Scrivo (a + gli) organizzatori. → [[g5]]\n6. I colori (di + le) fotografie sono vivaci. → [[g6]]\n7. Metto i libri (su + lo) scaffale. → [[g7]]\n8. Parliamo (di + i) risultati. → [[g8]]\n9. Aspetto (in + la) sala. → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "alle"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "nello"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sulla"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dal"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "agli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sullo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-167",
+ "title": "La carta dei suoni (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · La carta dei suoni (2) · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3167
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Nel nostro istituto [[g1]] (arrivare, forma composta; accordo con il soggetto) una classe di scambio. Invece di organizzare subito una visita ai monumenti, abbiamo proposto una [[g2]] (sostantivo nel contesto; iniziali pa…) dedicata ai suoni. Ogni gruppo doveva scegliere un luogo e descriverlo senza usare il suo nome. Gli altri avrebbero provato a riconoscerlo leggendo la [[g3]] (sostantivo nel contesto; iniziali de…). Non era una gara di velocità: serviva a notare dettagli che spesso ignoriamo.\nAll’inizio alcuni studenti [[g4]] (temere, imperfetto) di non conoscere abbastanza parole. Una ragazza ha suggerito di usare anche [[g5]] (sostantivo nel contesto; iniziali co…): un rumore poteva ricordare la pioggia, un cassetto o un foglio strappato. Chi non trovava un termine poteva spiegare il movimento che lo produceva. Un compagno [[g6]] (disegnare, forma composta) una porta; un altro [[g7]] (scrivere, forma composta) due righe nella propria lingua e poi le ha riformulate in italiano con l’aiuto del gruppo.\nLa prima descrizione riguardava una fontana. Sembrava facile, ma molti l’hanno confusa con il [[g8]] (sostantivo nel contesto; iniziali tr…) ascoltato da lontano. Per chiarire il testo, gli autori hanno aggiunto una pausa e una variazione di intensità. La seconda descrizione, invece, [[g9]] (essere) troppo dettagliata: il nome del negozio permetteva di indovinare senza leggere il resto. È stato necessario togliere un’informazione, non aggiungerla.\nAlla fine abbiamo costruito una carta dei suoni con brevi testi e simboli. Le registrazioni [[g10]] (essere) facoltative e non contenevano conversazioni riconoscibili. La carta non pretende di rappresentare tutta la città: raccoglie un percorso e un momento. Quando la rileggeremo in un’altra stagione, alcuni suoni saranno diversi. Anche questo farà parte del progetto, perché descrivere un luogo significa scegliere che cosa osservare e ricordare quando lo abbiamo osservato.\nAlla presentazione, ogni gruppo leggerà il testo di un altro. Questo passaggio servirà a verificare se la descrizione funziona anche senza la voce dell’autore. Se un [[g11]] (sostantivo nel contesto; iniziali de…) non sarà comprensibile, lo discuteremo prima di correggerlo. Una parola insolita non è automaticamente sbagliata: può richiedere un esempio o una spiegazione. L’obiettivo è costruire un testo che un lettore diverso da noi [[g12]] (potere, congiuntivo presente) seguire.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è arrivata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "passeggiata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "descrizione"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "temevano"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "confronti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha disegnato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha scritto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "traffico"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "dettaglio"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

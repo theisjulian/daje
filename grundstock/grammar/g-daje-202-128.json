@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-128",
+ "title": "Grazie per il pomeriggio",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Grazie per il pomeriggio · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1128
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "promptHelp": "Ergänze den Text.",
+   "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala [[g1]] luminosa, i tavoli erano ordinati e le fotografie [[g2]] davvero interessanti. Il programma [[g3]] semplice, ma ogni attività aveva uno scopo chiaro. Le spiegazioni [[g4]] brevi e comprensibili. La musica [[g5]] piacevole e il volume non [[g6]] troppo alto. I volontari [[g7]] disponibili; anche le persone nuove si sentivano a proprio agio. La pausa [[g8]] un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "era"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-044",
+ "title": "Troppi impegni nel gruppo",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -ere al presente · Troppi impegni nel gruppo · livello medio.",
+ "topics": [
+  "I verbi in -ere al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "I verbi in -ere al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1044
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Cara redazione, [[g1]] (scrivere, presente) perché nel nostro gruppo di studio non [[g2]] (riuscire, presente) più a lavorare bene. [[g3]] (essere, presente) cinque amici e [[g4]] (preparare, presente) una presentazione comune. All’inizio tutti [[g5]] (partecipare, presente) con entusiasmo, ma adesso ognuno [[g6]] (seguire, presente) un orario diverso. Sara [[g7]] (frequentare, presente) un corso di musica e [[g8]] (arrivare, presente) sempre tardi. Davide [[g9]] (lavorare, presente) nel negozio dei genitori e [[g10]] (rispondere, presente) ai messaggi soltanto la sera. Io pratico atletica e [[g11]] (tornare, presente) a casa stanca. Gli altri due compagni [[g12]] (abitare, presente) lontano e prendono l’autobus prima delle cinque. Quando finalmente ci incontriamo, discutiamo dei compiti e perdiamo molto tempo. Nessuno vuole lasciare il progetto, però non troviamo una soluzione. Io penso che dobbiamo dividere meglio il lavoro, ma non so come proporlo senza sembrare autoritaria. Tutti hanno buone idee; il problema è l’organizzazione. Possiamo preparare una tabella comune? Dobbiamo scegliere un solo responsabile? Vorrei ascoltare un consiglio pratico. Grazie, Serena.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "scrivo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "riusciamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Siamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "prepariamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "partecipano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "segue"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "frequenta"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "arriva"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "lavora"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "risponde"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "torno"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "abitano"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

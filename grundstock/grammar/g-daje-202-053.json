@@ -1,0 +1,214 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-053",
+ "title": "Una biblioteca, molte possibilità",
+ "language": "it",
+ "level": "A1",
+ "description": "Il plurale: articolo e nome · Una biblioteca, molte possibilità · livello medio.",
+ "topics": [
+  "Il plurale: articolo e nome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Il plurale: articolo e nome",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1053
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Una biblioteca non è soltanto una stanza piena di libri. Nel [[g1]] centro [[g2]], [[g3]] biblioteca propone quattro servizi. [[g4]] [[g5]] è un banco per [[g6]] prestito: una bibliotecaria spiega come cercare un titolo e controlla [[g7]] restituzioni. [[g8]] secondo è una sala per [[g9]] giornali e riviste. Qui [[g10]] persone parlano a voce [[g11]] e lasciano [[g12]] tavoli in ordine. [[g13]] terzo servizio è un laboratorio digitale. [[g14]] partecipanti imparano a usare [[g15]] catalogo, a scrivere un messaggio e a riconoscere informazioni poco [[g16]]. Non devono comunicare password o dati personali agli altri. [[g17]] quarto servizio è uno spazio per [[g18]] lingue. Una volta alla settimana si incontrano [[g19]] gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come [[g20]] casa, [[g21]] tempo libero o [[g22]] cibo. Una volontaria prepara [[g23]] domande e aiuta chi non trova una parola. Gli incontri sono [[g24]]; per partecipare occorre prenotare un posto. [[g25]] attività cambiano ogni mese. [[g26]] orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nostro"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "immaginario"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "primo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "leggere"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "bassa"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "affidabili"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "Il"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "piccoli"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "gratuiti"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

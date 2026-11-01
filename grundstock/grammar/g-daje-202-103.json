@@ -1,0 +1,237 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-103",
+ "title": "Il futuro semplice (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Il futuro semplice (2) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1103
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. tornare · io · futuro → [[g1]]\n2. tornare · tu · futuro → [[g2]]\n3. tornare · lui/lei · futuro → [[g3]]\n4. tornare · noi · futuro → [[g4]]\n5. tornare · voi · futuro → [[g5]]\n6. tornare · loro · futuro → [[g6]]\n7. leggere · io · futuro → [[g7]]\n8. leggere · tu · futuro → [[g8]]\n9. leggere · lui/lei · futuro → [[g9]]\n10. leggere · noi · futuro → [[g10]]\n11. leggere · voi · futuro → [[g11]]\n12. leggere · loro · futuro → [[g12]]\n13. partire · io · futuro → [[g13]]\n14. partire · tu · futuro → [[g14]]\n15. partire · lui/lei · futuro → [[g15]]\n16. partire · noi · futuro → [[g16]]\n17. partire · voi · futuro → [[g17]]\n18. partire · loro · futuro → [[g18]]\n19. cercare · io · futuro → [[g19]]\n20. cercare · tu · futuro → [[g20]]\n21. cercare · lui/lei · futuro → [[g21]]\n22. cercare · noi · futuro → [[g22]]\n23. cercare · voi · futuro → [[g23]]\n24. cercare · loro · futuro → [[g24]]\n25. proporre · io · futuro → [[g25]]\n26. proporre · tu · futuro → [[g26]]\n27. proporre · lui/lei · futuro → [[g27]]\n28. proporre · noi · futuro → [[g28]]\n29. proporre · voi · futuro → [[g29]]\n30. proporre · loro · futuro → [[g30]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "tornerò"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tornerai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "tornerà"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "torneremo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "tornerete"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "torneranno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "leggerò"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "leggerai"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "leggerà"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "leggeremo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "leggerete"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "leggeranno"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "partirò"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "partirai"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "partirà"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "partiremo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "partirete"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "partiranno"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "cercherò"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "cercherai"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "cercherà"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "cercheremo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "cercherete"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "cercheranno"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "proporrò"
+     ]
+    },
+    {
+     "id": "g26",
+     "acceptedAnswers": [
+      "proporrai"
+     ]
+    },
+    {
+     "id": "g27",
+     "acceptedAnswers": [
+      "proporrà"
+     ]
+    },
+    {
+     "id": "g28",
+     "acceptedAnswers": [
+      "proporremo"
+     ]
+    },
+    {
+     "id": "g29",
+     "acceptedAnswers": [
+      "proporrete"
+     ]
+    },
+    {
+     "id": "g30",
+     "acceptedAnswers": [
+      "proporranno"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-035",
+ "title": "Una compagna per il progetto",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -are al presente · Una compagna per il progetto · livello medio.",
+ "topics": [
+  "I verbi in -are al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "I verbi in -are al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1035
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao Rami, [[g1]] (conoscere, presente) una persona che [[g2]] (potere, presente) aiutare il nostro gruppo: si [[g3]] (chiamare, presente) Elisa e [[g4]] (abitare, presente) vicino alla scuola. [[g5]] (studiare, presente) grafica e [[g6]] (disegnare, presente) molto bene. [[g7]] (parlare, presente) italiano e portoghese, [[g8]] (ascoltare, presente) con attenzione e [[g9]] (spiegare, presente) le sue idee in modo chiaro. Quando [[g10]] (lavorare, presente) con altri studenti, [[g11]] (preparare, presente) una lista delle attività e [[g12]] (controllare, presente) i tempi. Non [[g13]] (usare, presente) programmi complicati: prova soluzioni semplici e cerca materiali gratuiti. I suoi amici organizzano un piccolo festival ogni primavera. Lei cura i manifesti, fotografa gli spettacoli e racconta gli incontri sul giornale scolastico. Se tu desideri conoscerla, passa domani in biblioteca. Io arrivo alle quattro e porto i nostri disegni. Tu presenti il progetto, lei guarda il materiale e insieme decidiamo come continuare. Noi cerchiamo soprattutto una persona affidabile, e secondo me Elisa ha proprio questa qualità. Naturalmente anche lei deve capire se il lavoro le interessa. Non vogliamo assegnarle tutto: collaboriamo e dividiamo i compiti. Fammi sapere se vieni. A presto, Pietro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "conosco"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "può"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiama"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abita"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Studia"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "disegna"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Parla"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ascolta"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "spiega"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "lavora"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "prepara"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "controlla"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "usa"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

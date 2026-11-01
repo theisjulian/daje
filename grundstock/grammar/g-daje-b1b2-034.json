@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-034",
+ "title": "Imparare a restaurare: un’intervista immaginaria",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Imparare a restaurare: un’intervista immaginaria · livello medio.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3034
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Intervistatrice: Come [[g1]] (scegliere, tu) il tuo percorso?\nRestauratrice: Da ragazza disegnavo molto, ma non pensavo al restauro. Un giorno [[g2]] (visitare, io) un laboratorio e ho visto quanto tempo richiedeva osservare un oggetto prima di toccarlo. Mi [[g3]] (colpire) soprattutto quella pazienza.\nIntervistatrice: Che cosa [[g4]] (fare, tu) all’inizio di un lavoro?\nRestauratrice: Esamino il materiale e [[g5]] (raccogliere, io) le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore apparentemente sporco può appartenere all’oggetto. Per questo [[g6]] (documentare, io) ogni fase.\nIntervistatrice: Hai mai cambiato idea durante un intervento?\nRestauratrice: Certo. Una volta avevo preparato un progetto molto dettagliato, poi un’analisi [[g7]] (rivelare) un materiale diverso da quello previsto. Abbiamo fermato il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma [[g8]] (essere, condizionale) peggio continuare per orgoglio.\nIntervistatrice: Quale consiglio daresti a chi vuole imparare?\nRestauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo [[g9]] (essere, presente) anche la lettura e il confronto. Nessuno dovrebbe promettere risultati prima di conoscere il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che [[g10]] (potere, congiuntivo presente) essere spiegata anche a chi lavorerà dopo di noi. Questa intervista è originale e fittizia; non attribuisce dichiarazioni a una professionista reale.\nIntervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto?\nRestauratrice: [[g11]] (preparare, presente) una relazione con fotografie e descrizioni, quando le immagini sono autorizzate. Indico che cosa [[g12]] (osservare, forma composta), quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula difficile da capire.\nIntervistatrice: E quando il tempo disponibile è poco?\nRestauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "hai scelto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho visitato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha colpito"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "raccolgo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "documento"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha rivelato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Preparo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ho osservato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

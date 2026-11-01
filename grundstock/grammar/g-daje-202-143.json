@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-143",
+ "title": "Un nuovo equilibrio (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Un nuovo equilibrio (1) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1143
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Caro Leo, ho deciso che voglio organizzare meglio il mio tempo. In queste settimane studio molto e passo troppo tempo davanti allo schermo. Nelle mie giornate manca una pausa vera. Quando finisco i compiti, controllo i messaggi e comincio subito un’altra attività. La sera sono stanca, ma ho la sensazione di non aver fatto quello che mi piace.\nDa lunedì cambierò alcune abitudini. Prima [[g1]] (preparare, futuro) una lista breve e [[g2]] (scegliere, futuro) le attività più importanti. Non [[g3]] (riempire, futuro) ogni minuto. Due pomeriggi alla settimana [[g4]] (uscire, futuro) per una passeggiata e [[g5]] (lasciare, futuro) il telefono nello zaino. Riprenderò anche il mio quaderno di disegni. I miei amici mi invitano spesso, però rispondo che non ho tempo; d’ora in poi [[g6]] (accettare, futuro) qualche invito e [[g7]] (proporre, futuro) incontri semplici. Non serve organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante i miei spostamenti [[g8]] (leggere, futuro) qualcosa, se [[g9]] (avere, futuro) voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana [[g10]] (controllare, futuro) il programma della settimana successiva e [[g11]] (lasciare, futuro) spazio agli imprevisti. So che non [[g12]] (riuscire, futuro) a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. Il mio obiettivo non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi le tue pause? Mi interessa conoscere le tue idee. Scrivimi quando hai un momento. A presto, Eva.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "preparerò"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sceglierò"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "riempirò"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "uscirò"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lascerò"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "accetterò"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "proporrò"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "leggerò"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrò"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "controllerò"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "lascerò"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "riuscirò"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

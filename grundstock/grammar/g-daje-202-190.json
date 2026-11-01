@@ -1,0 +1,152 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-190",
+ "title": "Uno spazio anche per noi",
+ "language": "it",
+ "level": "A2",
+ "description": "Molto, poco, tanto, troppo · Uno spazio anche per noi · livello medio.",
+ "topics": [
+  "Molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Molto, poco, tanto, troppo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1190
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Siamo [[g1]] di studenti e vorremmo migliorare il cortile della scuola. Non chiediamo [[g2]]: ci basta un luogo dove incontrarci, leggere e parlare senza disturbare chi studia. Adesso ci sono soltanto [[g3]] e [[g4]] restano in piedi. [[g5]] hanno proposto nuovi tavoli; altri preferiscono [[g6]]. Noi vogliamo ascoltare [[g7]] prima di scegliere.\nLa rappresentante ci ha chiesto di preparare una proposta concreta. Le abbiamo mostrato una mappa e lei ci ha suggerito di indicare i passaggi che devono rimanere liberi. Un insegnante si è offerto di aiutarci a raccogliere le idee. Gli abbiamo spiegato che non vogliamo organizzare [[g8]] da soli: desideriamo coinvolgere anche le altre classi. Per questo vi invitiamo a lasciare un commento nella scatola vicino alla biblioteca. Scriveteci che cosa usate già, che cosa manca e quale piccolo cambiamento considerate più utile.\n[[g9]] saranno lette. Non possiamo promettere che tutto verrà realizzato, perché servono tempo, spazio e risorse. Possiamo però discutere in modo chiaro e rispettoso. Se una proposta non è possibile, cercheremo un’alternativa. Il nostro obiettivo è un cortile [[g10]] per tutti, non un luogo riservato a [[g11]]. Ci incontriamo venerdì dopo le lezioni: portate [[g12]] e ascoltate quelle degli altri.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "un gruppo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "uno spazio enorme"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "poche panchine"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "molte persone"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Alcuni compagni"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "più piante"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "tutti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tutto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Tutte le proposte"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "più accogliente"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "pochi amici"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "le vostre idee"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
+   "text": "1. Completa con tutto: __ le classi possono partecipare. → [[g1]]\n2. Completa con tanto: Abbiamo __ idee. → [[g2]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Tutte"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tante"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

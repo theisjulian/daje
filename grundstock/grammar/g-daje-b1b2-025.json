@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-025",
+ "title": "Domande prima di iscriversi",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Domande prima di iscriversi · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3025
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Gentile segreteria, ho letto la presentazione del vostro corso di racconti sonori e [[g1]] (volere, io, condizionale) ricevere alcune informazioni. Frequento l’ultimo anno della scuola secondaria e ho già realizzato brevi registrazioni con il telefono. Non possiedo però un microfono professionale. Sarebbe possibile partecipare utilizzando l’attrezzatura disponibile in sede?\nNel programma si [[g2]] (parlare, presente) di un lavoro in coppia. Io non conosco altre persone interessate: mi [[g3]] (piacere, condizionale) sapere se formerete i gruppi durante il primo incontro. Preferirei lavorare con qualcuno che abbia interessi diversi dai miei, perché penso che il confronto possa essere utile. Vi chiedo inoltre se siano previsti momenti di ascolto e revisione, oltre alla registrazione.\nAbito fuori città e l’ultimo autobus parte alle diciannove. [[g4]] (potere, io, condizionale) lasciare la sala dieci minuti prima quando necessario, senza perdere una parte importante del corso? In alternativa, [[g5]] (avere, io, condizionale) la possibilità di fermarmi soltanto negli incontri del sabato. Vorrei capire quale soluzione sia compatibile con il lavoro comune.\nInfine, mi interessa sapere come verranno utilizzati i prodotti finali. Saranno ascoltati soltanto dal gruppo o pubblicati sul sito? Desidero imparare a intervistare le persone, ma so che occorre spiegare loro dove apparirà la registrazione. Vi ringrazio per l’attenzione e resto in attesa di una risposta prima di completare l’iscrizione. Cordiali saluti, Dario Conti. Il corso e la richiesta [[g6]] (essere, presente) fittizi; non si tratta di un’offerta realmente prenotabile.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vorrei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "parla"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "piacerebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Potrei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Avrei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

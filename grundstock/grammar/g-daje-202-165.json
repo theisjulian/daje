@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-165",
+ "title": "Tre letture per il nostro giornale",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · Tre letture per il nostro giornale · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1165
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao a tutti, [[g1]] (preparare, passato prossimo) tre proposte di lettura per il giornale della scuola. [[g2]] testi immaginari, creati per questa attività, quindi non cercateli in libreria. Il primo si intitola La chiave del cortile. Racconta di una ragazza che [[g3]] (trovare, presente) un quaderno e [[g4]] (cercare, presente) il suo proprietario. I capitoli [[g5]] brevi e ogni capitolo [[g6]] (aggiungere, presente) un indizio. Se [[g7]] (amare, presente) le storie di amicizia, [[g8]] (potere, presente) cominciare da questo libro. Io l’[[g9]] (leggere, passato prossimo) in pochi giorni e [[g10]] (avere, presente) apprezzato soprattutto i dialoghi.\nIl secondo titolo [[g11]] Cento oggetti, cento storie. Ogni pagina [[g12]] (presentare, presente) un oggetto quotidiano e immagina il viaggio che [[g13]] (fare, passato prossimo) prima di arrivare in una casa. Le illustrazioni [[g14]] importanti: non [[g15]] (decorare, presente) soltanto il testo, ma [[g16]] (aggiungere, presente) informazioni. Le ho guardate a lungo e ho trovato nuovi dettagli.\nIl terzo testo è una breve commedia, Il microfono spento. Un gruppo prepara una trasmissione radio e deve risolvere molti piccoli problemi. Potete leggerla insieme e dividere le parti. Non serve un teatro: basta una stanza e un po’ di fantasia. Ho scelto queste proposte perché offrono modi diversi di leggere. Se ne inventate altre, scrivete un titolo, una descrizione e due motivi per consigliarle. Pubblicheremo le idee nel prossimo numero.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho preparato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Sono"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "trova"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cerca"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aggiunge"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "amate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "potete"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ho letto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "presenta"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "ha fatto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "decorano"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "aggiungono"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

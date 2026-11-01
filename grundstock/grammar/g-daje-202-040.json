@@ -1,0 +1,202 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-040",
+ "title": "Costumi per una storia sul mare (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Costumi per una storia sul mare (2) · livello medio.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1040
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "text": "Nel laboratorio di teatro prepariamo [[g1]] costumi per una storia sul mare. [[g2]] protagonista indossa una giacca blu e una gonna [[g3]]. [[g4]] due pescatori hanno pantaloni grigi e maglie [[g5]]. [[g6]] barche sono [[g7]], costruite con scatole [[g8]]. Per [[g9]] onde usiamo stoffe [[g10]]; per [[g11]] sole un disco [[g12]]. Una studentessa disegna pesci [[g13]] e stelle [[g14]]. [[g15]] sfondi sono [[g16]], ma molto [[g17]]. [[g18]] scarpe [[g19]] degli attori non si vedono dietro alle onde. Sulla scena arriva anche una turista [[g20]] con una valigia [[g21]]. Incontra un fotografo [[g22]], due musicisti [[g23]] e alcune viaggiatrici [[g24]]. Non tutti parlano la stessa lingua, ma la musica li aiuta a capirsi. I personaggi indossano cappelli diversi: quello della turista è bianco, quello del fotografo è marrone. Alla fine della storia, le luci diventano viola e tutti cantano insieme. I costumi non sono costosi: vengono dal mercatino della scuola. Gli studenti trasformano vestiti usati in oggetti nuovi e originali.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "i"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "verde"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "bianche"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "piccole"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "leggere"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "azzurre"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "il"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "giallo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "rossi"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "arancioni"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "semplici"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "colorati"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "nere"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "francese"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "rossa"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "spagnolo"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "italiani"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "tedesche"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
+   "wordBank": true
+  }
+ ]
+}

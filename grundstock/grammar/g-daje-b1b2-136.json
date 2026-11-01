@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-136",
+ "title": "Se potessimo scegliere: sei proposte",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Se potessimo scegliere: sei proposte · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3136
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io aprirei una piccola sala di registrazione. Non credo che tutti [[g1]] voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, potremmo registrare racconti in varie lingue. Ogni classe sceglierebbe un tema e qualcuno curerebbe il montaggio. Non comprerei subito strumenti [[g2]]: prima chiederei in prestito quelli disponibili. Sarebbe necessario stabilire chi conserva le [[g3]] e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce [[g4]] fuori».\nB — Bruno: «A me piacerebbe un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto verrebbe una volta al mese e noi impareremmo osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non sarebbe soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non sarebbe risolto: non tutti riescono a concentrarsi nello stesso modo. Io metterei pochi tavoli e una luce [[g5]] alla [[g6]]. Credo che sia [[g7]] non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio farebbero più rumore del resto. Non chiederei prenotazioni lunghe; [[g8]] l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un [[g9]] potrebbe lasciare un biglietto e chi sa rispondere fisserebbe un incontro. Vorrei che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo [[g10]] il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io inizierei con una sola materia e dopo un mese valuterei i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, controllerei che siano [[g11]] e complete. Sarebbe ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione [[g12]]. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni potrebbe essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi raccoglieremmo osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io scriverei un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abbiano"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "costosi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "registrazioni"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "restare"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "adatta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lettura"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "importante"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "limiterei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "argomento"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sostituisca"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "pulite"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "economica"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

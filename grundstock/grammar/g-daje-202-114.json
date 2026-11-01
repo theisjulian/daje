@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-114",
+ "title": "Un equivoco nel gruppo",
+ "language": "it",
+ "level": "A2",
+ "description": "Raccontare un’esperienza · Un equivoco nel gruppo · livello medio.",
+ "topics": [
+  "Raccontare un’esperienza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-raccontare",
+  "topicTitle": "Raccontare un’esperienza",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1114
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao redazione, mi [[g1]] (essere, presente) successa una cosa spiacevole. [[g2]] (leggere, passato prossimo) un messaggio del mio gruppo e [[g3]] (pensare, passato prossimo): «I compagni [[g4]] (volere, presente) lavorare senza di me». [[g5]] (arrabbiarsi, passato prossimo) e [[g6]] (rispondere, passato prossimo) troppo in fretta. [[g7]] (scrivere, passato prossimo) che il progetto non mi interessava più. Poi una compagna mi [[g8]] (telefonare, passato prossimo) e mi [[g9]] (spiegare, passato prossimo) la situazione: l’incontro era soltanto per chi doveva montare il video. Io, invece, dovevo preparare il testo con un altro compagno. Poi [[g10]] (leggere, passato prossimo) l’ultimo messaggio: i compiti erano indicati chiaramente.\nAdesso mi vergogno un po’. I miei amici mi [[g11]] (conoscere, presente) e [[g12]] (sapere, presente) che tengo molto al progetto, però le mie parole li [[g13]] (avere, presente) feriti. [[g14]] (chiedere, passato prossimo) scusa nella chat e ho proposto di parlarne a scuola. La mia compagna mi ha risposto con gentilezza. Mi ha detto che anche lei qualche volta interpreta male un messaggio breve. Domani incontrerò gli altri e ascolterò quello che vogliono dirmi. La prossima volta leggerò tutto con calma e farò una domanda prima di reagire. Non voglio decidere al posto degli altri che cosa pensano. Un saluto, Chiara.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ho letto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho pensato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vogliono"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Mi sono arrabbiata"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ho risposto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ho scritto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha telefonato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha spiegato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ho letto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "conoscono"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "sanno"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Ho chiesto"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

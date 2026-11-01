@@ -1,0 +1,232 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-153",
+ "title": "L’invito dell’orologiaio",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: riconoscere e comprendere · L’invito dell’orologiaio · livello difficile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3153
+ },
+ "estimatedMinutes": 19,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "L’orologiaio del paese mandò un invito a ogni abitante: domenica avrebbe aperto il laboratorio, ma nessuno doveva portare un orologio. La richiesta sorprese molti. Una vicina [[g1]] (pensare) che si trattasse di uno scherzo; un ragazzo immaginò una mostra segreta. Il maestro, che conosceva l’orologiaio da anni, [[g2]] (dire) soltanto che sarebbe andato.\nLa domenica il laboratorio [[g3]] pieno di sedie. Sul banco non c’erano strumenti, ma fogli e matite. L’orologiaio [[g4]] (chiedere) a ciascuno di raccontare un momento in cui il tempo [[g5]] sembrato passare in modo diverso. Una donna [[g6]] (parlare, passato remoto) di un’attesa alla stazione; un bambino descrisse una partita finita troppo presto. Nessuno misurava quei racconti con un cronometro.\nQuando arrivò il suo turno, il maestro [[g7]] (dire) che [[g8]] (ricordare) una lezione in cui nessuno [[g9]] (guardare, forma composta) l’ora. Non [[g10]] successo perché lui [[g11]] (essere, congiuntivo imperfetto) particolarmente brillante: gli studenti [[g12]] (trovare, forma composta) una domanda che interessava tutti. Avrebbe voluto ricordarla esattamente, ma gli restava soltanto la sensazione di quel pomeriggio. L’orologiaio gli rispose che poteva scrivere anche questo.\nAlla fine i fogli [[g13]] (essere, passato remoto) appesi alla parete. Non indicavano minuti o secondi e non sostituivano gli orologi. Mostravano semplicemente che raccontare un’esperienza richiede parole diverse da quelle necessarie per misurarne la durata. Il ragazzo che aspettava una mostra segreta non fu deluso. Tornando a casa [[g14]] (pensare) che avrebbe invitato suo nonno a raccontargli una giornata di scuola. Questa storia è originale e non riprende personaggi o vicende di un testo letterario pubblicato.\nIl ragazzo [[g15]] (conservare, passato remoto) i fogli che gli autori gli affidarono. Li mise in una cartella e la mostrò all’orologiaio. «Posso portarli a scuola?» domandò. L’uomo gli rispose di chiedere prima agli autori. Il ragazzo ne scelse soltanto due, perché quelle persone [[g16]] (avere) già dato il consenso. Gli altri non li copiò. Quando tornò a casa, si ricordò anche della domanda per il nonno e gli [[g17]] (telefonare, passato remoto).",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "pensò",
+      "prima",
+      "durante"
+     ],
+     "answer": "pensò"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "disse",
+      "prima",
+      "durante"
+     ],
+     "answer": "disse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è stato",
+      "sarà",
+      "era"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "durante",
+      "prima",
+      "chiese"
+     ],
+     "answer": "chiese"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "era",
+      "è stato",
+      "sarà"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "prima",
+      "durante",
+      "parlò"
+     ],
+     "answer": "parlò"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "disse",
+      "prima",
+      "durante"
+     ],
+     "answer": "disse"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ricordava",
+      "era",
+      "è stato"
+     ],
+     "answer": "ricordava"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "aveva osservato",
+      "ha osservato",
+      "aveva guardato"
+     ],
+     "answer": "aveva guardato"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sarà",
+      "è stato",
+      "era"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "è",
+      "sarà",
+      "fosse"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "ha osservato",
+      "avevano trovato",
+      "aveva osservato"
+     ],
+     "answer": "avevano trovato"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "furono",
+      "durante",
+      "prima"
+     ],
+     "answer": "furono"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "durante",
+      "prima",
+      "pensò"
+     ],
+     "answer": "pensò"
+    },
+    {
+     "id": "g15",
+     "options": [
+      "conservò",
+      "durante",
+      "prima"
+     ],
+     "answer": "conservò"
+    },
+    {
+     "id": "g16",
+     "options": [
+      "avevano",
+      "era",
+      "è stato"
+     ],
+     "answer": "avevano"
+    },
+    {
+     "id": "g17",
+     "options": [
+      "telefonò",
+      "durante",
+      "prima"
+     ],
+     "answer": "telefonò"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "1. vendere — congiuntivo presente — io → [[g1]]\n2. temere — congiuntivo presente — lui/lei → [[g2]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "venda"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tema"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

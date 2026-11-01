@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-028",
+ "title": "Come raggiungere il laboratorio",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -are al presente · Come raggiungere il laboratorio · livello medio.",
+ "topics": [
+  "I verbi in -are al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "I verbi in -are al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1028
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ciao Teo, ti [[g1]] (spiegare, presente) come arrivare al nostro laboratorio. Tu [[g2]] (partire, presente) dalla piazza della stazione e [[g3]] (attraversare, presente) il giardino. [[g4]] (camminare, presente) lungo il viale alberato e [[g5]] (osservare, presente) i cartelli blu. Al piccolo cinema [[g6]] (girare, presente) a sinistra, poi [[g7]] (continuare, presente) fino al ponte. Non [[g8]] (attraversare, presente) il ponte: prima del fiume trovi una strada sulla destra. Passi davanti a una panetteria e cerchi un cancello verde. Quando arrivi, suoni il campanello con il disegno di una ruota. Io lavoro nella stanza al piano terra e ti apro subito. Se non trovi l’ingresso, telefoni al centro e chiedi di me. Di solito il percorso dura quindici minuti. Porta il quaderno, perché oggi progettiamo una nuova insegna. Dopo il laboratorio prepariamo insieme una merenda. Se piove, aspetti nell’atrio della stazione: ti raggiungo lì. A presto, Elia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "spiego"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "parti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "attraversi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Cammini"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "osservi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "giri"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "continui"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "attraversi"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

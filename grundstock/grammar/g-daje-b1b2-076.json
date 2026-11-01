@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-076",
+ "title": "La chiave che non apriva nulla",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · La chiave che non apriva nulla · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3076
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa gli aggettivi nella forma giusta.",
+   "text": "Nella casa del farista c’era una chiave [[g1]] (piccolo, femminile singolare) legata a un filo [[g2]] (rosso, maschile singolare). Nessuna porta aveva una serratura adatta. Il farista diceva che era [[g3]] (prezioso, femminile singolare), ma non spiegava perché. Una visitatrice [[g4]] (curioso, femminile singolare) provò a immaginare un tesoro; lui rise e le mostrò un cassetto [[g5]] (vuoto, maschile singolare).\nUn pomeriggio arrivò una busta [[g6]] (giallo, femminile singolare). Dentro c’era una fotografia [[g7]] (sbiadito, femminile singolare): due bambini davanti a un cancello [[g8]] (chiuso, maschile singolare). Sul retro qualcuno aveva scritto soltanto un indirizzo. La visitatrice pensò che il mistero fosse [[g9]] (risolto, maschile singolare), ma il farista scosse la testa. Quel cancello non esisteva più.\nLa chiave, raccontò finalmente, apparteneva alla casa in cui aveva imparato a leggere. La porta era stata sostituita molti anni prima, eppure lui conservava l’oggetto. Non serviva a entrare in una stanza; gli ricordava la persona che gli aveva aperto quella stanza quando era bambino. Non c’erano documenti [[g10]] (segreto, maschile plurale) né monete [[g11]] (antico, femminile plurale).\nLa visitatrice osservò di nuovo il filo e notò un nodo [[g12]] (irregolare, maschile singolare). «Quello l’ho fatto io», disse il farista. Il mistero non aveva una soluzione spettacolare. Aveva una storia che diventava visibile soltanto quando qualcuno decideva di raccontarla. La visitatrice rinunciò al titolo che aveva preparato e ne scrisse uno più semplice: «Una chiave, una persona». Il racconto è originale.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "rosso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "preziosa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "curiosa"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vuoto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "gialla"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sbiadita"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "chiuso"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "risolto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "segreti"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "antiche"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "irregolare"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze die Adjektive in der richtigen Form."
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-183",
+ "title": "Il quartiere tra un mese (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Il quartiere tra un mese (2) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1183
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Il prossimo mese il nostro quartiere [[g1]] (ospitare, futuro) una giornata di scambio di competenze. L’iniziativa qui descritta [[g2]] (essere, presente) immaginaria. Gli abitanti [[g3]] (potere, futuro) insegnare qualcosa che [[g4]] (sapere, presente) fare: cucire un bottone, riparare una ruota, raccontare una storia o disegnare una mappa. Il centro culturale [[g5]] (aprire, futuro) le sale alle nove. I volontari [[g6]] (preparare, futuro) i tavoli e [[g7]] (distribuire, futuro) il programma. Ogni partecipante [[g8]] (scegliere, futuro) due attività e [[g9]] (ricevere, futuro) una scheda per gli appunti. Non ci [[g10]] (essere, futuro) una classifica. Le persone [[g11]] (lavorare, futuro) in piccoli gruppi e cambieranno stanza dopo un’ora.\nLa mattina una sarta [[g12]] (mostrare, futuro) alcune riparazioni semplici; due studenti [[g13]] (spiegare, futuro) come registrare un’intervista. Nel cortile un gruppo [[g14]] (costruire, futuro) cassette per le piante. Chi [[g15]] (preferire, futuro) leggere [[g16]] (trovare, futuro) uno spazio tranquillo con racconti brevi. A mezzogiorno tutti [[g17]] (fare, futuro) una pausa. Nel pomeriggio i gruppi [[g18]] (presentare, futuro) quello che hanno imparato. Gli organizzatori raccoglieranno le proposte e pubblicheranno un resoconto senza dati personali. Io parteciperò al laboratorio di mappe; mia sorella porterà vecchie stoffe e mio padre aiuterà a sistemare le sedie. Se pioverà, useremo soltanto gli spazi interni. Alla fine avremo nuove idee e forse conosceremo meglio i nostri vicini.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ospiterà"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "potranno"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sanno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aprirà"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "prepareranno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "distribuiranno"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sceglierà"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "riceverà"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sarà"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "lavoreranno"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "mostrerà"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "spiegheranno"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "costruirà"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "preferirà"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "troverà"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "faranno"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "presenteranno"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

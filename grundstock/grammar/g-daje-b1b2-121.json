@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-121",
+ "title": "Una lettera sulle luci accese",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · Una lettera sulle luci accese · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3121
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, ho notato che alcune aule vuote avevano ancora le luci accese. Io non so chi dovesse [[g1]] e non voglio accusare una persona senza conoscere l’organizzazione. Vorrei però capire se esista una procedura chiara.\nLa [[g2]] [[g3]] ha discusso il problema e ha preparato una [[g4]]. I rappresentanti potrebbero incontrare il personale e chiedere quali controlli siano già [[g5]]. Noi pensiamo che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti [[g6]] credere che lo farà qualcun altro.\nIl custode ci ha spiegato che alcuni locali [[g7]] usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse [[g8]] un calendario visibile. Lui ha risposto che lo avrebbe discusso con i colleghi.\nPer una settimana osserveremo soltanto le aree che [[g9]] autorizzati a controllare. Non toccheremo [[g10]] e non pubblicheremo nomi. Alla fine [[g11]] ciò che abbiamo [[g12]], distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma potrebbe essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "nostra",
+      "classe",
+      "spegnerle"
+     ],
+     "answer": "spegnerle"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "spegnerle",
+      "nostra",
+      "classe"
+     ],
+     "answer": "nostra"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "nostra",
+      "spegnerle",
+      "classe"
+     ],
+     "answer": "classe"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "nostra",
+      "proposta",
+      "spegnerle"
+     ],
+     "answer": "proposta"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "spegnerle",
+      "nostra",
+      "previsti"
+     ],
+     "answer": "previsti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "spegnerle",
+      "possono",
+      "nostra"
+     ],
+     "answer": "possono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "spegnerle",
+      "nostra",
+      "vengono"
+     ],
+     "answer": "vengono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "nostra",
+      "spegnerle",
+      "utile"
+     ],
+     "answer": "utile"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "siamo",
+      "spegnerle",
+      "nostra"
+     ],
+     "answer": "siamo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "impianti",
+      "spegnerle",
+      "nostra"
+     ],
+     "answer": "impianti"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "presenteremo",
+      "nostra",
+      "spegnerle"
+     ],
+     "answer": "presenteremo"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "nostra",
+      "visto",
+      "spegnerle"
+     ],
+     "answer": "visto"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

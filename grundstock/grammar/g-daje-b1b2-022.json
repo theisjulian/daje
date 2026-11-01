@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-022",
+ "title": "Condizionale presente: essere, avere, volere",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Condizionale presente: essere, avere, volere · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3022
+ },
+ "estimatedMinutes": 18,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "text": "1. essere — condizionale presente — io → [[g1]]\n2. essere — condizionale presente — tu → [[g2]]\n3. essere — condizionale presente — lui/lei → [[g3]]\n4. essere — condizionale presente — noi → [[g4]]\n5. essere — condizionale presente — voi → [[g5]]\n6. essere — condizionale presente — loro → [[g6]]\n7. avere — condizionale presente — io → [[g7]]\n8. avere — condizionale presente — tu → [[g8]]\n9. avere — condizionale presente — lui/lei → [[g9]]\n10. avere — condizionale presente — noi → [[g10]]\n11. avere — condizionale presente — voi → [[g11]]\n12. avere — condizionale presente — loro → [[g12]]\n13. volere — condizionale presente — io → [[g13]]\n14. volere — condizionale presente — tu → [[g14]]\n15. volere — condizionale presente — lui/lei → [[g15]]\n16. volere — condizionale presente — noi → [[g16]]\n17. volere — condizionale presente — voi → [[g17]]\n18. volere — condizionale presente — loro → [[g18]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sarei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "saresti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "saremmo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sareste"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sarebbero"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avrei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avresti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrebbe"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avremmo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avreste"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "avrebbero"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "vorrei"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "vorresti"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "vorrebbe"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "vorremmo"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "vorreste"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "vorrebbero"
+     ]
+    }
+   ],
+   "explanation": "Rispetta persona, modo e tempo richiesti.",
+   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-040",
+ "title": "Il forno nelle fotografie",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Il forno nelle fotografie · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3040
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "Nel nostro laboratorio di storia locale abbiamo osservato una serie di fotografie di un vecchio forno. Non conoscevamo tutte le persone ritratte e non volevamo inventare dettagli per completare il racconto. [[g1]] (conseguenza) abbiamo separato le informazioni scritte sul retro dalle nostre ipotesi. Una data era leggibile, [[g2]] (contrasto fra due fatti) un nome era quasi cancellato.\nNelle immagini il pane veniva disposto su lunghi ripiani. Le ceste erano trasportate a mano e i sacchi venivano conservati vicino alla parete. [[g3]] (contrasto) una fotografia non permette di ricostruire ogni fase del lavoro. Abbiamo cercato altri documenti, [[g4]] (causa) non bastava descrivere ciò che sembrava evidente.\nUn abitante ci ha prestato un quaderno. Alcune pagine sono state fotografate con il suo consenso e [[g5]] sono state confrontate con le immagini. Il quaderno conteneva quantità e nomi, ma non spiegava tutte le abbreviazioni. [[g6]] (conseguenza) abbiamo lasciato alcuni punti aperti.\nIl risultato è un pannello con tre sezioni: osservazioni, documenti e domande. [[g7]] (ordine temporale) abbiamo mostrato le fonti; [[g8]] (ordine temporale) abbiamo proposto una possibile ricostruzione. [[g9]] (ultimo passaggio) abbiamo invitato i visitatori a segnalarci altri materiali. La mostra è immaginaria e le fotografie non vengono riprodotte. Il suo obiettivo è mostrare un metodo: un racconto del passato diventa più affidabile quando rende visibile anche quello che ancora non sappiamo.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Tuttavia",
+      "Perciò",
+      "mentre"
+     ],
+     "answer": "Perciò"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "mentre",
+      "Tuttavia",
+      "Perciò"
+     ],
+     "answer": "mentre"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Perciò",
+      "Tuttavia",
+      "mentre"
+     ],
+     "answer": "Tuttavia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "mentre",
+      "Perciò",
+      "perché"
+     ],
+     "answer": "perché"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "mentre",
+      "poi",
+      "Perciò"
+     ],
+     "answer": "poi"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Quindi",
+      "mentre",
+      "Perciò"
+     ],
+     "answer": "Quindi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "mentre",
+      "Perciò",
+      "Prima"
+     ],
+     "answer": "Prima"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "mentre",
+      "poi",
+      "Perciò"
+     ],
+     "answer": "poi"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Infine",
+      "Perciò",
+      "mentre"
+     ],
+     "answer": "Infine"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  }
+ ]
+}

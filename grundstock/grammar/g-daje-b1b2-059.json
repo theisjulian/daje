@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-059",
+ "title": "Un colloquio diverso (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Un colloquio diverso (2) · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3059
+ },
+ "estimatedMinutes": 11,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Le definizioni ti aiutano.",
+   "text": "Quando ho letto l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio [[g1]] (documento che riassume formazione ed esperienze) era breve: frequentavo ancora la scuola e non avevo un vero [[g2]] (lavoro retribuito) precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune [[g3]] (capacità utilizzabili in un’attività) utili. Nella [[g4]] (proposta di sé per un posto) ho spiegato che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi ha invitato a un [[g5]] (incontro per valutare un candidato). Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito a un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl [[g6]] (accordo che regola un rapporto di lavoro) indicava l’[[g7]] (distribuzione delle ore di lavoro), il [[g8]] (somma pagata per un lavoro) e le [[g9]] (attività assegnate a un lavoratore). Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un [[g10]] (persona che guida chi sta imparando) mi ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le [[g11]] (termini entro cui completare un lavoro). È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "curriculum"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "impiego"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "competenze"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "candidatura"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "colloquio"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "contratto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "orario"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "compenso"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mansioni"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "tutor"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "scadenze"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Die Erklärungen helfen dir."
+  }
+ ]
+}

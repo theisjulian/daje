@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-101",
+ "title": "Il passato prossimo con avere (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · Il passato prossimo con avere (1) · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1101
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "text": "1. essere · io · presente → [[g1]]\n2. essere · io · passato prossimo (maschile) → [[g2]]\n3. andare · tu · presente → [[g3]]\n4. andare · tu · passato prossimo (maschile) → [[g4]]\n5. comprare · lui/lei · presente → [[g5]]\n6. comprare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. mangiare · noi · presente → [[g7]]\n8. mangiare · noi · passato prossimo (uso autonomo) → [[g8]]\n9. partire · voi · presente → [[g9]]\n10. partire · voi · passato prossimo (maschile) → [[g10]]\n11. dormire · loro · presente → [[g11]]\n12. dormire · loro · passato prossimo (uso autonomo) → [[g12]]\n13. uscire · io · presente → [[g13]]\n14. uscire · io · passato prossimo (maschile) → [[g14]]\n15. avere · tu · presente → [[g15]]\n16. avere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. arrivare · lui/lei · presente → [[g17]]\n18. arrivare · lui/lei · passato prossimo (maschile) → [[g18]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sono stato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vai"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sei andato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "compra"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha comprato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "mangiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "abbiamo mangiato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "partite"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "siete partiti"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "dormono"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "hanno dormito"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "esco"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "sono uscito"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "hai avuto"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "arriva"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "è arrivato"
+     ]
+    }
+   ],
+   "explanation": "Usa la persona, il tempo e il contesto indicati."
+  }
+ ]
+}

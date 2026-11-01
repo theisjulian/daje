@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-160",
+ "title": "La scatola senza etichetta",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La scatola senza etichetta · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3160
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Quando Nora [[g1]] (essere) piccola, suo nonno raccoglieva le fotografie del quartiere. Non scriveva quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone [[g2]] (sembrare) sconosciute anche a lui. Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e ha deciso di portarla alla biblioteca di zona.\nPrima di uscire, [[g3]] (telefonare) alla bibliotecaria e aveva chiesto se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora aveva preparato anche un quaderno, ma [[g4]] (dimenticare) la matita sul tavolo.\nIn biblioteca c’erano sei persone. Tutte guardavano una fotografia della piazza, che un visitatore [[g5]] (ingrandire). La donna con cui Nora ha parlato per prima abitava proprio lì. Mentre raccontava, un ragazzo ha notato un’insegna quasi invisibile. Nessuno [[g6]] (vedere) prima quel particolare.\nAlla fine il gruppo ha riconosciuto il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri [[g7]] (mettere) un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta ha chiesto ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora [[g8]] (aggiungere, forma composta) una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sembravano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aveva telefonato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "aveva dimenticato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aveva ingrandito"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aveva visto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha messo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha aggiunto"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

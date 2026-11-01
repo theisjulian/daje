@@ -1,0 +1,189 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-174",
+ "title": "Insalata di couscous per quattro",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo (tu, voi) e la negazione · Insalata di couscous per quattro · livello medio.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1174
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Ingredienti: 250 grammi di couscous precotto, acqua nella quantità indicata sulla confezione, due pomodori, un cetriolo, una carota, ceci già cotti, olio, succo di limone e qualche foglia di basilico.\n[[g1]] (leggere) prima le istruzioni sulla confezione del couscous e [[g2]] (seguire) le quantità e i tempi indicati. [[g3]] (versare) il couscous in una ciotola capiente. [[g4]] (aggiungere) l’acqua preparata come indicato e [[g5]] (coprire) la ciotola. [[g6]] (aspettare) il tempo necessario, poi [[g7]] (separare) i granelli con una forchetta. [[g8]] (lavare) le verdure e [[g9]] (asciugare + le). [[g10]] (tagliare) i pomodori a piccoli pezzi e [[g11]] (mettere + li) in un piatto. [[g12]] (pelare) il cetriolo se lo preferite senza buccia, [[g13]] (dividere + lo) in due e [[g14]] (tagliare + lo) a cubetti. [[g15]] (grattugiare) la carota. [[g16]] (scolare) i ceci e [[g17]] (aggiungere + li) al couscous. [[g18]] (unire) le verdure e [[g19]] (mescolare) delicatamente. [[g20]] (versare) poco olio, [[g21]] (aggiungere) il succo di limone secondo il vostro gusto e [[g22]] (controllare) il sapore. Lavate il basilico, spezzettatelo con le mani e distribuitelo sopra l’insalata. Dividete il piatto in quattro porzioni e servitelo. Per il laboratorio scolastico, preparate gli ingredienti con l’insegnante e usate gli utensili secondo le indicazioni ricevute. Questa ricetta è stata scritta per l’attività linguistica.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Leggete"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "seguite"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Versate"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Aggiungete"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "coprite"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Aspettate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "separate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Lavate"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "asciugatele"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Tagliate"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "metteteli"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Pelate"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "dividetelo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "tagliatelo"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "Grattugiate"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "Scolate"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "aggiungeteli"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "Unite"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "mescolate"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "Versate"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "aggiungete"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "controllate"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

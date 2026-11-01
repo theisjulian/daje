@@ -1,0 +1,208 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-100",
+ "title": "La chiave che non apriva nulla",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · La chiave che non apriva nulla · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3100
+ },
+ "estimatedMinutes": 25,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Nella casa del farista c’era una chiave piccola legata a un filo rosso. Nessuna [[g1]] aveva una serratura [[g2]]. Il farista [[g3]] che era [[g4]], ma non [[g5]] perché. Una visitatrice [[g6]] [[g7]] a immaginare un tesoro; lui rise e le [[g8]] un cassetto vuoto.\nUn pomeriggio [[g9]] una busta gialla. Dentro c’era una [[g10]] sbiadita: due bambini [[g11]] a un cancello chiuso. Sul retro qualcuno aveva [[g12]] soltanto un indirizzo. La visitatrice pensò che il mistero fosse risolto, ma il farista [[g13]] la testa. Quel cancello non esisteva più.\nLa chiave, [[g14]] finalmente, [[g15]] alla casa in cui aveva imparato a leggere. La porta era stata sostituita molti anni prima, eppure lui [[g16]] l’oggetto. Non serviva a entrare in una stanza; gli [[g17]] la persona che gli aveva [[g18]] quella stanza quando era [[g19]]. Non c’erano documenti [[g20]] né monete antiche.\nLa visitatrice [[g21]] di nuovo il filo e notò un nodo irregolare. «Quello l’ho [[g22]] io», [[g23]] il farista. Il mistero non aveva una soluzione spettacolare. Aveva una storia che diventava visibile soltanto quando qualcuno decideva di raccontarla. La visitatrice rinunciò al titolo che aveva preparato e ne scrisse uno più [[g24]]: «Una chiave, una persona». Il [[g25]] è originale.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "porta"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "adatta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diceva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "preziosa"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "spiegava"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "curiosa"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "provò"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "mostrò"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "arrivò"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "fotografia"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "davanti"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "scritto"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "scosse"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "raccontò"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "apparteneva"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "conservava"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "ricordava"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "aperto"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "bambino"
+     ]
+    },
+    {
+     "id": "g20",
+     "acceptedAnswers": [
+      "segreti"
+     ]
+    },
+    {
+     "id": "g21",
+     "acceptedAnswers": [
+      "osservò"
+     ]
+    },
+    {
+     "id": "g22",
+     "acceptedAnswers": [
+      "fatto"
+     ]
+    },
+    {
+     "id": "g23",
+     "acceptedAnswers": [
+      "disse"
+     ]
+    },
+    {
+     "id": "g24",
+     "acceptedAnswers": [
+      "semplice"
+     ]
+    },
+    {
+     "id": "g25",
+     "acceptedAnswers": [
+      "racconto"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

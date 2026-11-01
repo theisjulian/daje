@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-157",
+ "title": "Il cortile della mia infanzia (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Il cortile della mia infanzia (1) · livello difficile.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "own",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1157
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
+   "text": "Quando [[g1]] (essere, imperfetto) piccola, [[g2]] (abitare, imperfetto) in un edificio con un cortile grande. Non c’erano automobili nel cortile e noi bambini [[g3]] (avere, imperfetto) molto spazio. Ogni pomeriggio [[g4]] (scendere, imperfetto) dopo i compiti e [[g5]] (chiamare, imperfetto) gli amici dalle finestre. Mia nonna [[g6]] (sedere, imperfetto) su una panchina e [[g7]] (parlare, imperfetto) con i vicini. Alcune persone coltivavano piante in vecchi vasi; altre [[g8]] (riparare, imperfetto) oggetti davanti alle cantine. Io [[g9]] (portare, imperfetto) un quaderno e [[g10]] (disegnare, imperfetto) quello che [[g11]] (vedere, imperfetto). Mi [[g12]] (piacere, imperfetto) soprattutto le biciclette, perché ogni ruota [[g13]] (avere, imperfetto) forme difficili da riprodurre.\nD’estate [[g14]] (restare, imperfetto) fuori fino a tardi. Inventavamo giochi, dividevamo il cortile in piccoli territori e cambiavamo le regole quando arrivava qualcuno di nuovo. Se litigavamo, la nonna ci ascoltava e ci chiedeva di spiegare il problema. Non decideva subito chi aveva ragione. Una sera un vicino ha portato un vecchio proiettore e ha appeso un telo bianco. Abbiamo guardato fotografie del quartiere e abbiamo riconosciuto alcuni luoghi. Prima del nostro palazzo c’era un giardino: per me era una scoperta. Da quella sera ho cominciato a chiedere storie agli adulti. Oggi il cortile è cambiato, ma quando torno riconosco ancora la panchina. Mi ricorda un tempo in cui una piccola avventura poteva cominciare proprio sotto casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "abitavo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avevamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "scendevo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "chiamavo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sedeva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "parlava"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "riparavano"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "portavo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "disegnavo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "vedevo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "piacevano"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "restavamo"
+     ]
+    }
+   ],
+   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+  }
+ ]
+}

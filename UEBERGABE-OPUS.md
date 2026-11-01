@@ -264,6 +264,15 @@ Lernende ohne Login nur über Funktionen (SECURITY DEFINER, prüfen Code/Ablauf/
 - Tests: e2e 37 (Klassensitzung und Lehrer-Übersicht mit nachgebildetem Server, Schnellzusammenstellung), Einheiten-Tests inkl. APA.
 - Übersetzungen: `werkzeuge/i18n/rows_4.py`.
 
+## 6w. ChatGPT-Übungen, Themenregister Lernjahre 1–6, Arbeitsblatt-Anweisungen (01.11.2026)
+
+- **Themenregister** `portal/dist/themen-data.js` (`GR_REGISTER`, 179 Themen, Lernjahre 1–6): legt Lernjahr, Lektion, Abschnitt und Reihenfolge fest, nicht das zuerst geladene Paket. Erzeugt von `werkzeuge/gpt_import.py` aus dem Katalog der Übergabe (ohne Lehrwerknamen und Seiten). Lernjahr 1 behält die bisherige Reihenfolge (Unità 1–7, Extra); Lernjahr 2–3 nach Lektion und Abschnitt (Per cominciare, Parte A, Parte B, Ripasso, Laboratorio), innerhalb des Abschnitts nach Lehrwerksfolge. Lernjahre 4–6 (Quarto/Quinto/Sesto anno) nach Lehrplan (Sprachliche Mittel, Kompetenzen und Themen). Themen ohne Übungen werden nicht angezeigt.
+- **181 Übungen übernommen** (`g-daje-202-*` A1/A2, `g-daje-b1b2-*` B1/B2), bereinigt: Titel ohne Nummer/deutschen Zusatz, Hinweise direkt an der Lücke statt „Indizi“-Liste, kurze Anweisung in der Zielsprache plus Deutsch, Quellen ohne Buchnamen. Neu ausführen: `python3 -I werkzeuge/gpt_import.py <ordner-a1a2> <ordner-b1b2>`, dann `node werkzeuge/bundle_stock.cjs`.
+- **Noch nicht übernommen:** 223 Aufgaben im Redaktionsformat (Leseverstehen mit gemeinsamem Grundtext, Schreiben, Analyse, Umformung, Satzstellung). Dafür braucht es einen gemeinsamen Lesetext je Aufgabenblock und offene Antworten, die nicht schon durch Nichtleere als richtig zählen.
+- **Qualitätsprüfung:** lange Lückentexte (ab 600 Zeichen) brauchen mindestens 3 statt 8 Lücken.
+- **Arbeitsblatt:** genau eine Anweisung je Aufgabe (`hbHead` in hoerblatt.js). Grammatik: die Aufgabenanweisung, darunter klein der Hinweis zur Papierform nur bei Zuordnen, Ordnen, Sortieren, Fehler, Sprecher. „Zielsprache“ druckt keine deutsche Klammer, „Deutsch“ ersetzt die Anweisung.
+- **Keine Zeitangaben** mehr in App und Druck (`estimatedMinutes` bleibt nur als Datenfeld).
+
 ## 7. Offene Punkte
 - Supabase: Redirect-URL eintragen (siehe 6v); Klassensitzung einmal live mit zwei iPads durchspielen.
 - Bedienung Ziehen/Antippen auf echtem iPad prüfen (Safari, Stift).

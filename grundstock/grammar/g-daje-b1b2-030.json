@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-030",
+ "title": "Il cinema nel cortile",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Il cinema nel cortile · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3030
+ },
+ "estimatedMinutes": 16,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. Potremmo cominciare con una prova, [[g10]] (volere, noi, condizionale) ascoltare il parere di tutti: [[g11]] le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "cercava"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sembrava"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diceva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbiamo organizzato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avrebbe"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha suggerito"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha controllato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "prendevamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "confrontavamo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "vorremmo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "è stato"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "è rimasta"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

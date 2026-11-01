@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-108",
+ "title": "Una lettera sulle luci accese",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Una lettera sulle luci accese · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3108
+ },
+ "estimatedMinutes": 12,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, [[g1]] (notare, io) che alcune aule vuote [[g2]] (avere) ancora le luci accese. Io non [[g3]] (sapere, io) chi dovesse spegnerle e non voglio accusare una persona senza conoscere l’organizzazione. [[g4]] (volere, io, condizionale) però capire se esista una procedura chiara.\nLa nostra classe [[g5]] (discutere) il problema e [[g6]] (preparare) una proposta. I rappresentanti [[g7]] (potere, loro, condizionale) incontrare il personale e chiedere quali controlli siano già previsti. Noi [[g8]] (pensare, noi) che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti possono credere che lo farà qualcun altro.\nIl custode ci [[g9]] (spiegare) che alcuni locali vengono usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse utile un calendario visibile. Lui [[g10]] (rispondere) che lo [[g11]] (discutere, forma composta) con i colleghi.\nPer una settimana osserveremo soltanto le aree che siamo autorizzati a controllare. Non toccheremo impianti e non pubblicheremo nomi. Alla fine presenteremo ciò che abbiamo visto, distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma [[g12]] (potere) essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho notato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avevano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "so"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha discusso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha preparato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "potrebbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "pensiamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha spiegato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ha risposto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avrebbe discusso"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}

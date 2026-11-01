@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-063",
+ "title": "Il giardino dietro la mensa",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Il giardino dietro la mensa · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3063
+ },
+ "estimatedMinutes": 10,
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "text": "Dietro la mensa scolastica [[g1]] (esserci) uno spazio che nessuno usava. L’erba cresceva fra le pietre e il cancello rimaneva quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in un giardino, ma il progetto [[g2]] (rimanere) in un cassetto. Quando la nuova preside lo ha letto, ha invitato gli autori a discuterne.\nLa prima riunione non è stata semplice. Un gruppo [[g3]] (volere) piantare fiori, un altro preferiva gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato un problema con l’acqua. Prima di comprare qualcosa, [[g4]] (misurare, noi) lo spazio e abbiamo osservato dove arrivava il sole.\nIl sabato successivo sono venute anche alcune famiglie. Una madre aveva portato guanti di varie misure, mentre un vicino [[g5]] (preparare) due cassette di legno. Noi lavoravamo a piccoli gruppi. Chi non conosceva gli attrezzi chiedeva aiuto, e nessuno aveva fretta di finire.\nA giugno il giardino non [[g6]] (essere) perfetto. Alcune piante sono cresciute, altre no. Abbiamo capito che una fotografia del primo giorno non racconta tutto il lavoro necessario dopo. Perciò abbiamo organizzato i turni estivi e [[g7]] (lasciare, noi) un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. Il giardino ci insegna soprattutto a tornare.",
+   "explanation": "Controlla ogni forma nel contesto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "c’era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era rimasto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbiamo misurato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aveva preparato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbiamo lasciato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+  }
+ ]
+}
