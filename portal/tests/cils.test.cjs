@@ -1,0 +1,31 @@
+const assert = require('assert');
+const fs = require('fs');
+const { validatePackage, assessAnswer } = require('../dist/content-contract.js');
+const C = require('../dist/cils.js');
+const ai = JSON.parse(fs.readFileSync(__dirname + '/fixtures/cils-a1.json', 'utf8'));
+let n = 0;
+const r = C.build(ai, { level: 'A1', id: () => 'cils-test-' + ++n, set: 'x' });
+assert.equal(r.items.length, 11, 'drei Hör-, drei Lese-, drei Strukturteile, Schreiben, Sprechen');
+for (const { pkg, label } of r.items) {
+  delete pkg.set;
+  const v = validatePackage(pkg);
+  assert.ok(v.ok, label + ': ' + JSON.stringify(v.errors));
+}
+const a1 = r.items[0].pkg;
+assert.equal(a1.media.type, 'speech');
+assert.ok(!a1.media.text.includes('[['), 'Vorlesetext ohne Lückenmarken');
+assert.equal(a1.questions[0].gaps.length, 10);
+assert.ok(assessAnswer(a1.questions[0], JSON.stringify({ g1: 'gita' })) === false, 'unvollständig ist nicht richtig');
+const s1 = r.items.find(i => i.part === 'strutture' && i.prova === 1).pkg.questions[0];
+assert.deepEqual(s1.gaps[3].acceptedAnswers, ['L’']);
+const s3 = r.items.find(i => i.part === 'strutture' && i.prova === 3).pkg.questions[0];
+assert.equal(s3.gaps[0].answer, 'studiare');
+assert.equal(s3.gaps[0].options.length, 3);
+const l3 = r.items.find(i => i.part === 'lettura' && i.prova === 3).pkg.questions[0];
+assert.equal(l3.pairs[0].right, 'Vieni a giocare con noi sabato!');
+assert.equal(l3.distractors.length, 3);
+assert.ok(r.items.find(i => i.part === 'lettura' && i.prova === 1).pkg.reading.text.includes('maggio'));
+assert.throws(() => C.build({ abbruch: 'zu lang' }, { level: 'A1', id: () => 'x' }), /abgebrochen/);
+const p = C.promptFor('# Kommando', { level: 'A2', parts: ['ascolto'], theme: 'sport' });
+assert.ok(p.includes('A2 Adolescenti') && p.includes('ascolto (Hörverstehen)') && p.includes('sport'));
+console.log('CILS passed.');

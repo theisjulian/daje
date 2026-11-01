@@ -158,6 +158,12 @@
         a.estimatedMinutes > 90
       )
         fail('estimatedMinutes', 'ganze Zahl von 1 bis 90 erwartet');
+      // Gemeinsamer Lesetext (z. B. CILS-Lettura, Textblöcke): steht neben bzw. über den Aufgaben, wird mitgedruckt.
+      if (a.reading !== undefined) {
+        const r = obj(a.reading, 'reading');
+        out.reading = { text: str(r.text, 'reading.text', 8000) };
+        if (r.title !== undefined && r.title !== '') out.reading.title = str(r.title, 'reading.title', 160);
+      }
       if (a.kind === 'grammar') {
         // Grammatik: Thema (für den Katalog), Stufe, Merkkasten. origin „original“ = genau aus einem Buch übernommen:
         // nur privat (eigener Browser, Link an die Klasse), nie im öffentlichen Katalog.

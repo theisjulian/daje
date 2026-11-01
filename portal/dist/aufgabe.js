@@ -3,7 +3,7 @@
  * Klassenlink: Lehrkräfte geben die Unterrichtsmappe der Klasse frei.
  *  - Mit daje-Konto (konto.js): Die Sitzung liegt auf dem Server (Tabelle daje_lessons) und hat eine kurze,
  *    nicht erratbare Kennung (?k=…). Der QR-Code bleibt klein, auch mit vielen und eigenen Übungen.
- *    Lernende geben beim Öffnen Vorname und Kürzel ein; ihr Stand geht an die Lehrkraft (Übersicht „Klassensitzungen“).
+ *    Lernende geben beim Öffnen ihren Namen ein; ihr Stand geht an die Lehrkraft (Übersicht „Klassensitzungen“).
  *  - Ohne Konto: Link ohne Namen und ohne Übersicht (Titel und Übungskennungen im Link, ?aufgabe=…).
  * Frühere Links (?aufgabe=…) funktionieren weiter. Die Hausaufgaben-Funktion gibt es nicht mehr.
  */
@@ -138,8 +138,7 @@ function klPage() {
   if (!klCur.participant) {
     $('main').innerHTML = `<div class="page kl-join"><header class="page-head"><div class="eyebrow">Klassensitzung</div><h1>${esc(klCur.title || 'Aufgaben für die Stunde')}</h1><p><span>${plural(klCur.items.length, 'Aufgabe', 'Aufgaben')}${klCur.language ? ' · ' + esc(portalLang(klCur.language)) : ''}</span><br><span>Trag deinen Namen ein, damit deine Lehrkraft sieht, wie weit du bist.</span></p></header>
       <form id="kl-join" class="kl-form glass" novalidate>
-        <label class="field">Vorname<input id="kl-first" autocomplete="given-name" maxlength="30" required></label>
-        <label class="field">Kürzel <small>(z. B. Anfangsbuchstabe des Nachnamens)</small><input id="kl-short" maxlength="8" autocomplete="off" required></label>
+        <label class="field">Dein Name<input id="kl-first" autocomplete="name" maxlength="40" required></label>
         <button class="button primary large" type="submit">Los geht’s</button>
         <p class="small muted">Gespeichert werden nur dein Name und deine Ergebnisse in dieser Sitzung, für deine Lehrkraft. Nach 30 Tagen ist die Sitzung abgelaufen.</p>
         <p class="small" id="kl-msg" role="status"></p>
@@ -150,12 +149,12 @@ function klPage() {
   $('main').innerHTML = taskListHTML(rows, { title: klCur.title, name: klCur.name, extra: klCur.offline ? '<p class="muted small">Gerade keine Verbindung: Ergebnisse werden gesendet, sobald du wieder online bist.</p>' : '' });
 }
 async function klJoin() {
-  const first = $('kl-first').value.trim(), short = $('kl-short').value.trim();
+  const first = $('kl-first').value.trim().replace(/\s+/g, ' ');
   const msg = $('kl-msg');
-  if (!first || !short) return (msg.textContent = 'Bitte Vorname und Kürzel eintragen.');
+  if (!first) return (msg.textContent = 'Bitte deinen Namen eintragen.');
   msg.textContent = 'Einen Moment …';
   try {
-    const { data, error } = await sb.rpc('daje_lesson_join', { p_code: klCur.code, p_name: first + ' ' + short });
+    const { data, error } = await sb.rpc('daje_lesson_join', { p_code: klCur.code, p_name: first });
     if (error) throw error;
     Object.assign(klCur, { participant: data.participant, secret: data.secret, name: data.name, reported: {} });
     const s = klStore();
@@ -205,8 +204,9 @@ async function klReport(taskId, done) {
 }
 
 /* ---------- Lehrkraft: Klassenlink aus der Unterrichtsmappe ---------- */
+let klOverride = null; // { ids, title }: Klassenlink für eine feste Auswahl (z. B. CILS-Prüfung), Mappe bleibt unberührt
 function klKeysFromSheet() {
-  return wsAll()
+  return (klOverride ? klOverride.ids : wsAll())
     .map(id => findTask(id))
     .filter(Boolean)
     .map(x => (x.kind === 'grammar' ? 'g:' : 'l:') + x.id)
@@ -228,18 +228,19 @@ function klDialog() {
   }
   return d;
 }
-function klLinkDialog() {
+function klLinkDialog(ids, title0) {
+  klOverride = Array.isArray(ids) ? { ids, title: title0 } : null;
   const keys = klKeysFromSheet();
   if (!keys.length) return toast('Die Mappe ist noch leer.');
   const d = klDialog();
   const langs = [...new Set(keys.map(k => findTask(k.slice(2))?.language).filter(Boolean))];
-  const title = wsDraft.title || 'Aufgaben für die Stunde';
+  const title = klOverride?.title || wsDraft.title || 'Aufgaben für die Stunde';
   const head = `<div class="dialog-head"><h2 id="kl-title">Klassenlink</h2><button class="button secondary" data-close="kl-dialog">Schließen</button></div>
     <p><b>${esc(title)}</b> · ${plural(keys.length, 'Aufgabe', 'Aufgaben')} · ${langs.map(l => esc(portalLang(l))).join(', ')}${langs.length > 1 ? ' <span class="kl-warn">(mehrere Sprachen)</span>' : ''}</p>`;
   if (typeof ACC !== 'undefined' && ACC.user && sb) {
     d.innerHTML =
       head +
-      `<p class="muted small">Lernende öffnen den Link oder scannen den QR-Code am iPad, tragen Vorname und Kürzel ein und arbeiten die Aufgaben ab. Du siehst in der Übersicht, wer wie weit ist. Die Sitzung läuft 30 Tage.</p>
+      `<p class="muted small">Lernende öffnen den Link oder scannen den QR-Code am iPad, tragen ihren Namen ein und arbeiten die Aufgaben ab. Du siehst in der Übersicht, wer wie weit ist. Die Sitzung läuft 30 Tage.</p>
       <div class="kl-actions"><button class="button primary large" data-kl="create">Sitzung starten</button></div><p class="small" id="kl-msg" role="status"></p>`;
   } else {
     const url = hwURL({ title, items: keys });
@@ -260,7 +261,7 @@ async function klCreate() {
   const langs = [...new Set(keys.map(k => findTask(k.slice(2))?.language).filter(Boolean))];
   const { data, error } = await sb
     .from('daje_lessons')
-    .insert({ title: wsDraft.title || 'Aufgaben für die Stunde', language: langs.length === 1 ? langs[0] : null, items: keys, packages: klOwnPackages(keys) })
+    .insert({ title: klOverride?.title || wsDraft.title || 'Aufgaben für die Stunde', language: langs.length === 1 ? langs[0] : null, items: keys, packages: klOwnPackages(keys) })
     .select('code')
     .single();
   if (error) return (msg.textContent = 'Nicht angelegt: ' + (/Failed to fetch/i.test(error.message) ? 'keine Verbindung.' : error.message));
@@ -408,6 +409,85 @@ async function klDashPage() {
   </div>`;
   // Während die Übersicht offen ist, alle 20 Sekunden neu laden
   klTimer = setTimeout(() => view === 'sitzung' && klTeach === code && document.visibilityState === 'visible' && klDashPage(), 20000);
+}
+
+/* ---------- Lehrkräfte-Dashboard: Kennzahlen und laufende Sitzungen (Startseite) ---------- */
+let tdashBusy = false;
+async function tdashLoad() {
+  if (tdashBusy || !sb || !ACC.user || !$('tdash-live')) return;
+  tdashBusy = true;
+  try {
+    const now = new Date();
+    const { data, error } = await sb
+      .from('daje_lessons')
+      .select('id, code, title, items, created_at, expires_at, closed, daje_participants(id, name, last_seen, daje_results(task_id, done, correct, total, updated_at))')
+      .eq('closed', false)
+      .gt('expires_at', now.toISOString())
+      .order('created_at', { ascending: false })
+      .limit(6);
+    const live = $('tdash-live'), kpis = $('tdash-kpis');
+    if (!live) return;
+    if (error) {
+      live.innerHTML = '<p class="muted small">Gerade keine Verbindung zum Konto.</p>';
+      return;
+    }
+    const day = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+    const isToday = t => t && new Date(t).getTime() >= day;
+    let active = 0, doneToday = 0, sumPc = 0, nPc = 0;
+    data.forEach(l =>
+      (l.daje_participants || []).forEach(p => {
+        if (isToday(p.last_seen)) active++;
+        (p.daje_results || []).forEach(r => {
+          if (r.done && isToday(r.updated_at)) {
+            doneToday++;
+            if (r.total) (sumPc += r.correct / r.total), nPc++;
+          }
+        });
+      })
+    );
+    if (kpis)
+      kpis.innerHTML = [
+        [data.length, 'Laufende Sitzungen'],
+        [active, 'Heute aktiv'],
+        [doneToday, 'Heute erledigt'],
+        [nPc ? Math.round((100 * sumPc) / nPc) + ' %' : '–', 'Richtig im Schnitt']
+      ]
+        .map(([v, l]) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`)
+        .join('');
+    const seen = t => {
+      const m = Math.round((Date.now() - new Date(t).getTime()) / 60000);
+      return m < 2;
+    };
+    live.innerHTML = data.length
+      ? data
+          .map(l => {
+            const ps = l.daje_participants || [];
+            const n = l.items.length;
+            const doneOf = p => (p.daje_results || []).filter(r => r.done && l.items.some(k => k.slice(2) === r.task_id)).length;
+            const total = ps.length * n;
+            const done = ps.reduce((s, p) => s + doneOf(p), 0);
+            const pc = total ? Math.round((100 * done) / total) : 0;
+            const people = ps
+              .slice()
+              .sort((a, b) => doneOf(b) - doneOf(a) || a.name.localeCompare(b.name))
+              .slice(0, 12)
+              .map(p => {
+                const d = doneOf(p);
+                return `<li class="${d >= n ? 'is-done' : d ? 'is-busy' : ''}${seen(p.last_seen) ? ' is-online' : ''}" title="${esc(p.name)}: ${d} von ${n}"><span class="tp-av">${esc(p.name.trim().charAt(0).toUpperCase())}</span><span class="tp-name">${esc(p.name)}</span><span class="tp-n">${d}/${n}</span></li>`;
+              })
+              .join('');
+            return `<div class="tlive"><div class="tlive-head"><div><b>${esc(l.title || 'Sitzung')}</b><small>${plural(ps.length, 'Person', 'Personen')} · ${plural(n, 'Aufgabe', 'Aufgaben')} · Code ${esc(l.code)}</small></div><div class="tlive-act"><button class="button secondary" data-kl-beamer="${esc(l.code)}" title="QR-Code groß zeigen">QR</button><button class="button primary" data-kl-dash="${esc(l.code)}">Übersicht</button></div></div>
+              <div class="tlive-bar" role="img" aria-label="${pc} Prozent erledigt"><i style="width:${pc}%"></i></div><small class="tlive-pc">${ps.length ? pc + ' % der Aufgaben erledigt' : 'Noch niemand beigetreten'}</small>
+              ${people ? `<ul class="tpeople">${people}</ul>${ps.length > 12 ? `<p class="muted small">und ${ps.length - 12} weitere</p>` : ''}` : ''}</div>`;
+          })
+          .join('')
+      : '<div class="tlive-empty"><p>Keine laufende Sitzung.</p><p class="muted small">Übungen in die Mappe legen, dann „Klasse starten“: Die Lernenden scannen den QR-Code und tragen ihren Namen ein.</p><button class="button primary" data-ws-open="1">Stunde planen</button></div>';
+    // Während das Dashboard offen ist, regelmäßig auffrischen
+    clearTimeout(tdashLoad.t);
+    tdashLoad.t = setTimeout(() => view === 'start' && isTeacher() && document.visibilityState === 'visible' && tdashLoad(), 30000);
+  } finally {
+    tdashBusy = false;
+  }
 }
 
 /* ---------- Einbindung ---------- */

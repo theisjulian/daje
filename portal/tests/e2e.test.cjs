@@ -304,7 +304,7 @@ async function step(name, fn) {
     await dp.goto(base, { waitUntil: 'networkidle' });
     assert.equal(await dp.getAttribute('[data-audience="learn"]', 'aria-pressed'), 'true');
     await dp.click('[data-audience="teach"]');
-    assert.match(await dp.textContent('main'), /Unterricht vorbereiten/);
+    assert.match(await dp.textContent('main'), /Stunde vorbereiten, Klasse starten/);
     await dp.reload({ waitUntil: 'networkidle' });
     assert.equal(await dp.getAttribute('[data-audience="teach"]', 'aria-pressed'), 'true');
     await dp.goto(base + '?hoeren=it-torino-demo', { waitUntil: 'networkidle' });
@@ -463,8 +463,8 @@ async function step(name, fn) {
     await pp.click('[data-audience="teach"]');
     await pp.waitForTimeout(200);
     const cut = await pp.evaluate(() => {
-      const box = document.querySelector('.xhero').getBoundingClientRect();
-      return [...document.querySelectorAll('.xhero-copy *')].filter(
+      const box = document.querySelector('.tdash-hero').getBoundingClientRect();
+      return [...document.querySelectorAll('.tdash-hero *')].filter(
         el => !el.closest('.lern-switch') && el.getBoundingClientRect().right > box.right + 1
       ).length;
     });
@@ -558,11 +558,10 @@ async function step(name, fn) {
     await pp.evaluate(() => { localStorage.removeItem('daje-klasse-v1'); localStorage.removeItem('sprachtrainer-profiles-v2'); });
     await pp.goto(base + '?k=abc123def0', { waitUntil: 'networkidle' });
     await pp.waitForSelector('#kl-join');
-    await pp.fill('#kl-first', 'Lena');
-    await pp.fill('#kl-short', 'K.');
+    await pp.fill('#kl-first', 'Lena König');
     await pp.click('#kl-join [type=submit]');
     await pp.waitForSelector('.hw-tasks li');
-    assert.equal(joined.p_name, 'Lena K.');
+    assert.equal(joined.p_name, 'Lena König');
     assert.equal(await pp.locator('.hw-tasks li').count(), 2);
     await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
     await pp.waitForTimeout(200);
@@ -580,7 +579,7 @@ async function step(name, fn) {
     await pp.reload({ waitUntil: 'networkidle' });
     await pp.goto(base + '?k=abc123def0', { waitUntil: 'networkidle' });
     await pp.waitForSelector('.hw-tasks li');
-    assert.match(await pp.textContent('main'), /Lena K\./);
+    assert.match(await pp.textContent('main'), /Lena König/);
     await pp.unrouteAll({ behavior: 'ignoreErrors' });
     await pp.evaluate(() => localStorage.removeItem('daje-klasse-v1'));
   });

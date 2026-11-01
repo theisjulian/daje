@@ -333,6 +333,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
             const sec = `<li class="hb-phase hb-ex-title">${esc(x.title)}${x.grammar ? `<small>${esc(x.grammar.topicTitle)}</small>` : ''}</li>`;
             const r = rule && x.grammar?.rule && sol !== 2 && !ruleShown.has(x.grammar.topic) && ruleShown.add(x.grammar.topic) ? `<li class="hb-rule"><b>${esc(w[4])}</b>${ruleHTML(x.grammar.rule, x.language)}</li>` : '';
             const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<li class="hb-note"><b>${esc(w[3])}:</b> ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</li>` : '';
+            const reading = sol === 2 ? '' : hbReading(x);
             const qs = x.questions
               .map(q => {
                 no++;
@@ -343,7 +344,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
                 return `<li class="hb-q">${hbHead(x, q, no, t, prompt)}${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
               })
               .join('');
-            return sol === 2 ? '' : sec + r + link + qs;
+            return sol === 2 ? '' : sec + r + link + reading + qs;
           })
           .join('')
       );

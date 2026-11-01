@@ -17,6 +17,9 @@ const hbLetters = 'ABCDEFGHIJ';
 // Kopf einer Aufgabe auf dem Blatt: genau eine Anweisung.
 // Grammatik: die Aufgabenanweisung selbst; der Hinweis zur Papierform nur, wo das Blatt anders funktioniert als die App.
 // Zielsprache: keine deutsche Klammer. Deutsch: die deutsche Fassung ersetzt die zielsprachige.
+// Lesetext auf dem Blatt: vor den Aufgaben, als eigener Kasten (wird beim Seitenumbruch nicht geteilt, wenn möglich)
+const hbReading = x =>
+  x.reading ? `<li class="hb-reading">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</li>` : '';
 const HB_PAPER_HINT = new Set(['matching', 'ordering', 'categorize', 'error_correction', 'speaker_match']);
 function hbHead(x, q, no, t, prompt) {
   const de = instrFor(x.language) === 'de';
@@ -184,7 +187,7 @@ function hbHTML(x, sol) {
   <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
   ${sol ? '' : `<div class="hb-box"><div class="hb-box-t"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>` : ''}</div>${hbOpt.link && !local && !speech && typeof qrSVG === 'function' ? `<i class="hb-qr">${qrSVG(link, 'QR')}</i>` : ''}</div>`}
-  ${sol && hbOpt.compact ? hbKeyTable(x, t) : `<ol class="hb-list">${qs}</ol>`}
+  ${sol && hbOpt.compact ? hbKeyTable(x, t) : `<ol class="hb-list">${hbReading(x)}${qs}</ol>`}
   ${sol && hbOpt.transcript && x.transcript ? `<section class="hb-tr"><h3>${esc(t.tr)}</h3>${transcriptForDisplay(x.transcript).split(/\n+/).filter(l => l.trim()).map(l => `<p>${esc(l)}</p>`).join('')}</section>` : ''}
   <footer class="hb-src"><b>${esc(t.src)}</b> ${x.sources.map(s => esc(sol ? s.citation : visibleText(s.citation))).filter(Boolean).join(' · ')}${speech ? ' · ' + esc(t.demo) : ''}</footer>
   ${docFooter()}</div>`;

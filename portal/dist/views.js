@@ -258,40 +258,60 @@ function learnerHome(list, p) {
     </div>`;
 }
 
+/* Lehrkräfte: Dashboard. Oben Begrüßung und Schnellaktionen, dann Kennzahlen und laufende Klassensitzungen
+   (live aus dem Konto, tdashLoad in aufgabe.js), daneben Mappe, CILS-Training, eigene Übungen und Material. */
 function teacherHome(list, p) {
   const lang = lernSprache();
   const recent = p.history
     .map(h => findTask(h.id))
     .filter(x => x && x.language === lang)
     .slice(0, 4);
-  const n = typeof wsAll === 'function' ? wsAll().length : 0;
-  return `<section class="xhero teach">
-      <div class="xhero-copy">
-        <div class="eyebrow">Mein Unterricht</div>
-        <h1>Unterricht vorbereiten,<br><em>in wenigen Minuten.</em></h1>
-        <p>Grammatik, Wortschatz und Hörverstehen mit Lösungen. Daraus entstehen Arbeitsblätter und ein Klassenlink für die iPads, mit Übersicht, wer wie weit ist.</p>
-        ${lernSwitch()}
-        <form class="xsearch" data-home-search role="search">
-          <input id="home-search" type="search" placeholder="Hörmaterial suchen, zum Beispiel città" aria-label="Hörmaterial suchen">
-          <button class="button primary" type="submit">Suchen</button>
-        </form>
+  const ids = typeof wsAll === 'function' ? wsAll() : [];
+  const mappe = ids.map(id => findTask(id)).filter(Boolean);
+  const own = typeof editorState !== 'undefined' ? editorState.items.length : 0;
+  const user = typeof ACC !== 'undefined' ? ACC.user : null;
+  const first = user?.user_metadata?.first_name || '';
+  const h = new Date().getHours();
+  const hello = h < 11 ? 'Buongiorno' : h < 18 ? 'Buon pomeriggio' : 'Buonasera';
+  const today = new Date().toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' });
+  const cils = typeof cilsSetsHTML === 'function' ? cilsSetsHTML(1) : '';
+  if (user) setTimeout(() => typeof tdashLoad === 'function' && tdashLoad(), 0);
+  return `<section class="tdash">
+    <header class="tdash-hero">
+      <div class="tdash-hello"><div class="eyebrow">Mein Unterricht · ${esc(today)}</div><h1>${hello}${first ? ', ' + esc(first) : ''}.</h1><p>Stunde vorbereiten, Klasse starten, Ergebnisse im Blick.</p></div>
+      <div class="tdash-quick">
+        <button class="tq" data-ws-open="1">${icon('mappe')}<span><b>Stunde planen</b><small>Unterrichtsmappe</small></span></button>
+        <button class="tq" data-ws-link>${icon('qr')}<span><b>Klasse starten</b><small>QR-Code für die iPads</small></span></button>
+        <button class="tq" data-nav="cils">${icon('cils')}<span><b>CILS-Training</b><small>Übungsprüfung A1/A2</small></span></button>
+        <button class="tq" data-nav="redaktion">${icon('ki')}<span><b>Übung erstellen</b><small>mit KI oder selbst</small></span></button>
       </div>
-      <div class="xhero-art"><img src="assets/torino.jpg" alt="Piazza Castello in Turin am Abend"></div>
-    </section>
-    <div class="steps four">
-      ${stepCard({ kicker: '1', title: 'Material finden', text: 'Grammatikthemen nach Lernjahr, Hörübungen nach Niveau, Wortlisten nach Lektion.', action: '<div class="step-acts"><button class="button secondary" data-nav="grammatik">Grammatik</button><button class="button secondary" data-nav="hoeren">Hören</button><button class="button secondary" data-nav="vokabeln">Wortschatz</button></div>' })}
-      ${stepCard({ kicker: '2', title: 'Unterrichtsmappe', text: n ? `${plural(n, 'Übung', 'Übungen')} gesammelt. Ordnen, austauschen, ergänzen.` : 'Mit „In die Mappe“ sammeln oder fünf passende Übungen zufällig zusammenstellen.', action: '<button class="button primary" data-ws-open="1">Mappe öffnen</button>' })}
-      ${stepCard({ kicker: '3', title: 'Arbeitsblatt oder Klassenlink', text: 'Arbeitsblatt mit Lösungsblatt als PDF, oder Klassenlink mit QR-Code: Lernende tragen Vorname und Kürzel ein.', action: '<button class="button secondary" data-nav="klassen">Klassensitzungen</button>' })}
-      ${stepCard({ kicker: '4', title: 'Eigene Übungen', text: 'Mit KI aus Buchseiten oder Zeitungsartikeln, oder Katalogübungen anpassen.', action: '<button class="button secondary" data-nav="redaktion">Eigene Übungen</button>' })}
+    </header>
+    <div class="tdash-kpis" id="tdash-kpis">${
+      user
+        ? ['Laufende Sitzungen', 'Heute aktiv', 'Heute erledigt', 'Richtig im Schnitt'].map(l => `<div class="kpi is-loading"><b>–</b><span>${l}</span></div>`).join('')
+        : `<div class="kpi kpi-login"><div><b>Klasse live verfolgen</b><span>Mit einem kostenlosen daje-Konto siehst du hier, wer gerade arbeitet, was erledigt ist und wo es hakt.</span></div><button class="button primary" data-acc-open>Anmelden oder registrieren</button></div>`
+    }</div>
+    <div class="tdash-grid">
+      <article class="tdc tdc-live"><header><span class="tdc-ico">${icon('klassen')}</span><div><h2>Klassensitzungen</h2><small>Wer arbeitet woran?</small></div><button class="quiet" data-nav="klassen">Alle</button></header>
+        <div id="tdash-live">${user ? '<p class="muted small">Wird geladen …</p>' : '<p class="muted small">Nach der Anmeldung erscheinen hier deine laufenden Sitzungen mit dem Stand jeder Schülerin und jedes Schülers.</p>'}</div></article>
+      <article class="tdc tdc-mappe"><header><span class="tdc-ico">${icon('mappe')}</span><div><h2>Unterrichtsmappe</h2><small>${mappe.length ? plural(mappe.length, 'Übung', 'Übungen') : 'noch leer'}</small></div><button class="quiet" data-ws-open="1">Öffnen</button></header>
+        ${mappe.length ? `<ol class="tlist">${mappe.slice(0, 4).map(x => `<li><button class="quiet" data-lesson="${esc(x.id)}"><b>${esc(x.title)}</b><small>${esc(portalLang(x.language))} · ${esc(x.level)}${x.kind === 'grammar' ? ' · ' + esc(x.grammar.topicTitle) : ''}</small></button></li>`).join('')}${mappe.length > 4 ? `<li class="muted small">und ${mappe.length - 4} weitere</li>` : ''}</ol>` : '<p class="muted small">Sammle Übungen mit „In die Mappe“ oder lass dir fünf passende zusammenstellen.</p>'}
+        <div class="tdc-act">${mappe.length ? '<button class="button primary" data-ws-link>Klassenlink</button><button class="button secondary" data-ws-print="0">Arbeitsblatt</button>' : '<button class="button primary" data-ws-open="1">Fünf Übungen vorschlagen</button>'}</div></article>
+      <article class="tdc tdc-cils"><header><span class="tdc-ico">${icon('cils')}</span><div><h2>CILS-Training</h2><small>Hören, Lesen, Strukturen, Schreiben, Sprechen</small></div><button class="quiet" data-nav="cils">Neu</button></header>
+        ${cils || '<p class="muted small">Übungsprüfungen im Format CILS A1 und A2 Adolescenti: Die KI schreibt neue Texte, daje macht daraus Übungen mit Lösungen, Vorlesestimme und Prüfungsheft.</p><div class="tdc-act"><button class="button primary" data-nav="cils">Prüfung erstellen</button></div>'}</article>
+      <article class="tdc tdc-own"><header><span class="tdc-ico">${icon('ki')}</span><div><h2>Eigene Übungen</h2><small>${own ? plural(own, 'eigene Übung', 'eigene Übungen') : 'aus Text, Buchseite oder Video'}</small></div><button class="quiet" data-nav="redaktion">Alle</button></header>
+        <div class="tdc-chips"><button class="chip" data-nav="redaktion">Grammatik mit KI</button><button class="chip" data-nav="redaktion">Wortliste mit KI</button><button class="chip" data-nav="redaktion">Hörübung mit KI</button></div></article>
+      <article class="tdc tdc-material"><header><span class="tdc-ico">${icon('grammatik')}</span><div><h2>Material</h2><small>mit Lösungen und Druckfassung</small></div></header>
+        <div class="tdc-body">${lernSwitch()}
+        <form class="xsearch" data-home-search role="search"><input id="home-search" type="search" placeholder="Material suchen, zum Beispiel città" aria-label="Material suchen"><button class="button primary" type="submit">Suchen</button></form></div>
+        <div class="tdc-chips"><button class="chip" data-nav="grammatik">Grammatik</button><button class="chip" data-nav="vokabeln">Wortschatz</button><button class="chip" data-nav="hoeren">Hörverstehen</button><button class="chip" data-nav="verben">Verben</button><button class="chip" data-nav="wuerfeln">Neu würfeln</button></div></article>
+      ${
+        recent.length
+          ? `<article class="tdc tdc-recent"><header><span class="tdc-ico">${icon('verlauf')}</span><div><h2>Zuletzt angesehen</h2></div><button class="quiet" data-nav="verlauf">Verlauf</button></header><ol class="tlist">${recent.map(x => `<li><button class="quiet" data-lesson="${esc(x.id)}"><b>${esc(x.kind === 'grammar' ? x.grammar.topicTitle : x.title)}</b><small>${x.kind === 'grammar' ? esc(x.title) + ' · ' : ''}${esc(x.level)}</small></button></li>`).join('')}</ol></article>`
+          : ''
+      }
     </div>
-    ${sectionHead('', 'Bereiche')}
-    ${areaTiles(true)}
-    ${
-      recent.length
-        ? sectionHead('', 'Zuletzt angesehen', 'verlauf', 'Verlauf') +
-          `<div class="cards-grid">${recent.map(x => (x.kind === 'grammar' ? `<button class="next-card" data-lesson="${esc(x.id)}"><span class="eyebrow">Grammatik · ${esc(GRAMMAR_LEVELS[x.grammar.difficulty] || '')}</span><b lang="${x.language}">${esc(x.grammar.topicTitle)}</b><small lang="${x.language}">${esc(x.title)}</small></button>` : lessonCard(x))).join('')}</div>`
-        : ''
-    }`;
+  </section>`;
 }
 
 function portalHome() {
@@ -918,9 +938,18 @@ function ruleHTML(text, lang) {
     .join('');
 }
 const GRAMMAR_LEVELS = { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' };
+function readingHTML(x) {
+  const r = x.reading;
+  if (!r) return '';
+  const paras = String(r.text)
+    .split(/\n{2,}/)
+    .map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`)
+    .join('');
+  return `<section class="reading-card" lang="${x.language}"><span class="eyebrow">Testo</span>${r.title ? `<h3>${esc(r.title)}</h3>` : ''}<div class="reading-body">${paras}</div></section>`;
+}
 function grammarSideHTML(x) {
   const g = x.grammar;
-  return g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary>${ruleBodyHTML(g.rule, g.ruleHelp, x.language)}</details>` : '';
+  return readingHTML(x) + (g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary>${ruleBodyHTML(g.rule, g.ruleHelp, x.language)}</details>` : '');
 }
 function renderListening(preview = false) {
   const x = currentLesson();
@@ -953,7 +982,7 @@ function renderListening(preview = false) {
     ${seriesSwitcher(x)}
     <div class="listening-layout">
       <div class="l-side">
-        ${gram ? grammarSideHTML(x) : `<section class="media-box">${playerHTML(x)}</section>`}
+        ${gram ? grammarSideHTML(x) : `<section class="media-box">${playerHTML(x)}</section>${readingHTML(x)}`}
         ${warmupHTML(x)}
         <div class="l-tools">${toolsHTML(x, state, preview)}</div>
       </div>

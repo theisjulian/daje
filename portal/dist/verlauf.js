@@ -18,6 +18,7 @@
     'zahlen',
     'wuerfeln',
     'klassen',
+    'cils',
     'quellen',
     'wortschatz',
     'lernen',
