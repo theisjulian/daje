@@ -1,7 +1,11 @@
 'use strict';
 /* Lernsprache (Sprache der Inhalte), getrennt von der Sprache der Oberfläche. Standard: Italienisch. */
 const LERN_KEY = 'daje-lernsprache-v1';
-const LERN_NAMES = { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' };
+// daje ist vorerst nur für Italienisch. Weitere Sprachen (zuerst Englisch) hier wieder eintragen;
+// Inhalte und Code für andere Sprachen bleiben erhalten, sie werden nur ausgeblendet.
+const LERN_ALL = { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' };
+const LERN_ACTIVE = ['it'];
+const LERN_NAMES = Object.fromEntries(LERN_ACTIVE.map(l => [l, LERN_ALL[l]]));
 function lernSprache() {
   try {
     const v = localStorage.getItem(LERN_KEY);
@@ -91,7 +95,9 @@ function contentList(kind) {
   // Von der Lehrkraft per Link geteilte Übungen (studio.js) erscheinen bei Lernenden mit im Katalog.
   const shared = typeof sharedPackages === 'function' ? sharedPackages().filter(x => x.kind === kind) : [];
   const overridden = new Set([...local, ...shared].map(x => x.id));
-  return [...seeds.filter(x => !overridden.has(x.id)), ...shared.filter(x => !local.some(l => l.id === x.id)), ...local];
+  // Eigene Übungen bleiben in jeder Sprache sichtbar; mitgelieferte nur in den aktiven Lernsprachen
+  const ownIds = new Set(editorState.items.filter(x => x.updatedAt !== SEED_STAMP).map(x => x.payload?.id).filter(Boolean));
+  return [...seeds.filter(x => !overridden.has(x.id)), ...shared.filter(x => !local.some(l => l.id === x.id)), ...local].filter(x => !x.language || LERN_ACTIVE.includes(x.language) || ownIds.has(x.id));
 }
 function activityVocabularyPackage(x) {
   return {

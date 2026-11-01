@@ -36,7 +36,7 @@
       <section class="set-card">
         ${row('Oberfläche', pills('data-set-ui', UI_LANGS, base))}
         ${base !== 'de' ? row('Einfache Sprache', pills('data-set-simple', [['0', 'aus'], ['1', 'an']], simple ? '1' : '0')) : ''}
-        ${row('Ich lerne', pills('data-set-lern', Object.entries(LERN_NAMES), lernSprache()))}
+        ${Object.keys(LERN_NAMES).length > 1 ? row('Ich lerne', pills('data-set-lern', Object.entries(LERN_NAMES), lernSprache())) : ''}
         ${row('Arbeitsanweisungen', pills('data-set-instr', [['target', 'Zielsprache'], ['de', 'Deutsch']], instrPref))}
       </section>
       <h3 class="set-h">Üben</h3>

@@ -344,6 +344,7 @@ function filteredLessons() {
 
 /* Lernsprache als deutlich sichtbarer Bereich: Italiano · English · Français · Español (im Katalog auch „Alle Sprachen“). */
 function lernSwitch(langs, mode = 'home') {
+  if (Object.keys(LERN_NAMES).length < 2) return '';
   const cur = mode === 'filter' ? portalFilters.language : lernSprache();
   const list = Object.keys(LERN_NAMES).filter(l => !langs || langs.includes(l));
   const btn = (v, t) => `<button class="lern-opt" data-portal="${mode === 'filter' ? 'filter-set' : 'lern-set'}" data-key="language" data-value="${v}" aria-pressed="${cur === v}"><span lang="${v}">${t}</span></button>`;

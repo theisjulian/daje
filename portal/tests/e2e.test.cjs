@@ -138,9 +138,9 @@ async function step(name, fn) {
     // Standard: nur die Lernsprache (Italiano); „Alle Sprachen“ zeigt alles
     const itCount = await dp.evaluate(() => contentList('listening').filter(x => x.language === 'it').length);
     assert.match(await dp.textContent('#catalog-count'), new RegExp(itCount + ' Hörübung'));
-    await dp.click('.lern-switch [data-value="all"]');
-    assert.match(await dp.textContent('#catalog-count'), new RegExp(listenCount + ' Hörübungen'));
-    await dp.click('.lern-switch [data-value="it"]');
+    // daje ist vorerst nur Italienisch: keine Sprachauswahl, alle Übungen sind italienisch
+    assert.equal(itCount, listenCount);
+    assert.equal(await dp.locator('.lern-switch').count(), 0);
     await shot(dp, 'desk-katalog');
   });
 
@@ -277,15 +277,16 @@ async function step(name, fn) {
     );
     assert.ok(hasTeach);
     // Aufgabenblatt mit Abschnitten, Lösungen mit Kurzantwort-Lösung, kurzer Schlüssel als Tabelle.
-    await dp.goto(base + '?hoeren=en-voa-welcome', { waitUntil: 'networkidle' });
-    await dp.evaluate(() => { showTeaching('en-voa-welcome'); printTeaching(0); });
+    await dp.goto(base + '?hoeren=it-a2-cucina-tiramisu', { waitUntil: 'networkidle' });
+    await dp.evaluate(() => { showTeaching('it-a2-cucina-tiramisu'); printTeaching(0); });
     assert.ok((await dp.locator('#teaching-print .hb-phase').count()) >= 2);
+    const sheet = (await dp.textContent('#teaching-print .hb')).length;
     await dp.evaluate(() => printTeaching(1));
-    assert.match(await dp.textContent('#teaching-print .hb'), /1400/);
+    assert.ok((await dp.textContent('#teaching-print .hb')).length > sheet, 'Lösungsfassung enthält mehr als das Aufgabenblatt');
     await dp.evaluate(() => printTeaching(2));
-    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 11);
+    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), await dp.evaluate(() => findTask('it-a2-cucina-tiramisu').questions.length));
     // Echte A4-Seiten: Inhalt nie über die Fußzeile, Seitenzahl auf jeder Seite.
-    for (const id of ['it-a2-cucina-tiramisu', 'en-b2-secrets-learning-language'])
+    for (const id of ['it-a2-cucina-tiramisu', 'it-a2-tempo-libero-cinema'])
       for (const m of [0, 1, 2]) {
         const r = await dp.evaluate(([id, m]) => {
           showTeaching(id);
@@ -318,9 +319,8 @@ async function step(name, fn) {
   await step('Katalog: Filter und Suche aktualisieren die Karten', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('.nav-list [data-nav="hoeren"]');
-    await dp.click('[data-key="language"][data-value="it"]');
     const n = await dp.locator('#catalog-grid .lcard').count();
-    assert.ok(n > 0 && n < listenCount);
+    assert.ok(n > 0 && n <= listenCount);
     await dp.fill('#listen-search', 'gelato');
     assert.ok((await dp.locator('#catalog-grid .lcard').count()) < n);
   });
@@ -498,7 +498,7 @@ async function step(name, fn) {
     assert.equal(await pp.evaluate(() => view + ':' + openedListening), 'hoeruebung:it-torino-demo');
   });
   await step('Fokus-Modus: eine Aufgabe pro Bildschirm, Weiter/Zurück, Korrektur am Ende', async () => {
-    await pp.goto(base + '?hoeren=en-voa-welcome', { waitUntil: 'networkidle' });
+    await pp.goto(base + '?hoeren=it-a2-cucina-tiramisu', { waitUntil: 'networkidle' });
     assert.equal(await pp.locator('#listening-form fieldset.q:visible').count(), 1);
     await pp.click('[data-focus="next"]');
     assert.equal(await pp.textContent('.focus-count b'), '2');
@@ -551,6 +551,9 @@ async function step(name, fn) {
       joined = JSON.parse(r.request().postData());
       await r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ participant: '11111111-1111-1111-1111-111111111111', secret: '22222222-2222-2222-2222-222222222222', name: joined.p_name }) });
     });
+    // Live-Stand der Sitzung (alle 5 s): offen, nicht angehalten, gleiche Aufgaben
+    await pp.route('**/rest/v1/rpc/daje_lesson_state', r => r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ open: true, items: lesson.items, packages: [], title: lesson.title, locked: false, message: null, timer_end: null, blocked: false, block_reason: null, name: 'Lena König', hand: false }) }));
+    await pp.route('**/rest/v1/rpc/daje_lesson_hand', r => r.fulfill({ status: 204, body: '' }));
     await pp.route('**/rest/v1/rpc/daje_lesson_report', async r => {
       reports.push(JSON.parse(r.request().postData()));
       await r.fulfill({ status: 204, body: '' });
