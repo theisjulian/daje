@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-194",
+ "title": "Un laboratorio da condividere (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Un laboratorio da condividere (1) · livello medio.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1194
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nQuale parte del laboratorio seguirà Giada?",
+   "modelAnswer": "Le storie.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Dove ha conosciuto la responsabile?",
+   "modelAnswer": "Alla festa della scuola.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Ha accettato immediatamente?",
+   "modelAnswer": "No, temeva di non avere abbastanza esperienza.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Quante persone comprende il gruppo?",
+   "modelAnswer": "Sei.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Quante studiano musica?",
+   "modelAnswer": "Due.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Useranno tutti i racconti?",
+   "modelAnswer": "No, alcuni sono troppo lunghi o difficili.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Chi aiuterà a semplificarli?",
+   "modelAnswer": "La responsabile.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Quando saranno gli incontri?",
+   "modelAnswer": "Il sabato mattina.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "Il progetto impedisce a Giada di nuotare?",
+   "modelAnswer": "No, il suo corso è al pomeriggio.",
+   "lines": 3
+  },
+  {
+   "id": "q1r10",
+   "type": "open_answer",
+   "prompt": "Riceveranno denaro?",
+   "modelAnswer": "No.",
+   "lines": 3
+  },
+  {
+   "id": "q1r11",
+   "type": "open_answer",
+   "prompt": "Che cosa fornirà il centro?",
+   "modelAnswer": "Materiali e spazio per le prove.",
+   "lines": 3
+  },
+  {
+   "id": "q1r12",
+   "type": "open_answer",
+   "prompt": "Giada conosce la data del primo laboratorio?",
+   "modelAnswer": "No.",
+   "lines": 3
+  },
+  {
+   "id": "q1r13",
+   "type": "open_answer",
+   "prompt": "Quale aiuto chiede a Sofia?",
+   "modelAnswer": "Leggere una storia e indicare punti noiosi o poco chiari.",
+   "lines": 3
+  },
+  {
+   "id": "q1r14",
+   "type": "open_answer",
+   "prompt": "Dove propone di incontrarsi domenica?",
+   "modelAnswer": "In biblioteca.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Cara Sofia, ti scrivo una notizia che forse ti sorprenderà: ho deciso di partecipare al progetto del centro culturale. Non è un corso normale. Un piccolo gruppo preparerà un laboratorio per i bambini del quartiere e io mi occuperò delle storie. Ho conosciuto la responsabile durante la festa della scuola. Le ho raccontato che mi piace scrivere e lei mi ha invitata a un incontro. Non ho accettato subito, perché temevo di non avere abbastanza esperienza. Poi ho parlato con due partecipanti e ho capito che nessuno deve fare tutto da solo.\nIl gruppo comprende sei persone. Due studiano musica, una disegna, un ragazzo sa costruire piccoli oggetti e un’altra partecipante ha già lavorato con i bambini. Io porterò alcuni racconti brevi. Li leggeremo insieme e sceglieremo quelli più adatti. Non useremo tutte le storie: alcune sono troppo lunghe e altre hanno parole difficili. La responsabile ci aiuterà a semplificarle senza perdere il senso.\nGli incontri saranno il sabato mattina. Per me va bene, perché il mio corso di nuoto è al pomeriggio. Non riceveremo un compenso; il centro ci fornirà i materiali e uno spazio per le prove. Prima di cominciare faremo un incontro con gli educatori. Non conosco ancora la data del primo laboratorio, quindi non posso invitarti adesso. Quando avrò il programma definitivo, te lo manderò.\nMi piacerebbe sapere che cosa pensi delle mie storie. Puoi leggere quella che ti ho lasciato ieri e dirmi dove ti annoi oppure non capisci? Non voglio soltanto complimenti: mi servono osservazioni sincere. Se hai tempo, ci incontriamo domenica in biblioteca. Porterò il quaderno e prenderò appunti. Un abbraccio, Giada."
+ }
+}

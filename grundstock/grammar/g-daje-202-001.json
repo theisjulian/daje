@@ -1,0 +1,201 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-001",
+ "title": "Un laboratorio aperto al quartiere (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Il plurale: articolo e nome · Un laboratorio aperto al quartiere (1) · livello medio.",
+ "topics": [
+  "Il plurale: articolo e nome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Il plurale: articolo e nome",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1001
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica i nomi indicati per genere e numero. Usa il testo per capire il significato. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "maschile singolare"
+    },
+    {
+     "id": "c2",
+     "label": "maschile plurale"
+    },
+    {
+     "id": "c3",
+     "label": "femminile singolare"
+    },
+    {
+     "id": "c4",
+     "label": "femminile plurale"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "laboratorio",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "strada",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "quartiere",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "finestra",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "ingresso",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "sarta",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "locale",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "borsa",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "giardino",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "cornice",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica i nomi indicati per genere e numero. Usa il testo per capire il significato. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "maschile singolare"
+    },
+    {
+     "id": "c2",
+     "label": "maschile plurale"
+    },
+    {
+     "id": "c3",
+     "label": "femminile singolare"
+    },
+    {
+     "id": "c4",
+     "label": "femminile plurale"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "tavoli",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "sedie",
+     "category": "c4"
+    },
+    {
+     "id": "i3",
+     "text": "scaffali",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "lampade",
+     "category": "c4"
+    },
+    {
+     "id": "i5",
+     "text": "volontari",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "famiglie",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "oggetti",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "matite",
+     "category": "c4"
+    },
+    {
+     "id": "i9",
+     "text": "strumenti",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "scatole",
+     "category": "c4"
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Nel nostro quartiere apre un laboratorio di riparazione. Il locale è vicino alla biblioteca, ma l’ingresso si trova in una strada tranquilla. Dentro ci sono tavoli grandi, sedie leggere, scaffali alti e lampade nuove. Una finestra dà sul giardino. I volontari aiutano gli abitanti a riparare oggetti semplici: una borsa, un giocattolo, una cornice o una piccola sedia. Non riparano apparecchi elettrici. Ogni persona porta il proprio materiale e lavora insieme agli altri. Una sarta prepara le stoffe; un falegname controlla gli attrezzi. Le famiglie trovano anche uno spazio per disegnare. Sul tavolo dei bambini ci sono matite, fogli, colori e scatole vuote. Il sabato mattina il laboratorio ospita un incontro per nuovi partecipanti. La responsabile presenta il progetto e risponde alle domande. Non serve esperienza: servono curiosità, pazienza e voglia di collaborare. Prima di uscire, tutti puliscono i tavoli e mettono gli strumenti al loro posto. Così la stanza è pronta per il gruppo successivo."
+ }
+}

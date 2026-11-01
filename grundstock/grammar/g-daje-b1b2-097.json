@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-097",
+ "title": "Il cartografo e il sentiero",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: uso produttivo · Il cartografo e il sentiero · livello medio.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 eA 1.2"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3097
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Continua «Il cartografo e il sentiero» dal punto di vista del ragazzo che trova la carta. Mantieni i fatti del testo, ma inventa un seguito autonomo. 160–220 parole.",
+   "modelAnswer": "Il ragazzo chiese alla donna se poteva portare la carta alla biblioteca. Lei accettò, purché non venissero cancellati i punti interrogativi. «Non sono errori», disse. «Sono domande che aspettano qualcuno». Il ragazzo piegò il foglio con attenzione e lo mise in una cartella.\nIn biblioteca incontrò una compagna che conosceva un sentiero segnato sulla carta. Secondo lei arrivava a una casa abbandonata; secondo il ragazzo finiva al torrente. Decisero di non scegliere subito una versione. Cercarono prima altre mappe e trovarono un disegno più recente, nel quale il percorso era stato modificato.\nLa settimana seguente parteciparono a una passeggiata organizzata da una guida. Portarono copie dei documenti e confrontarono i nomi. Non attraversarono il torrente: il passaggio non era sicuro e non volevano dimostrare nulla rischiando. Da lontano videro però i resti di un vecchio muro.\nTornati in biblioteca, aggiunsero una nota su un foglio separato. La carta antica rimase com’era. Il ragazzo capì che continuare il lavoro del cartografo non significava correggerlo con sicurezza, ma rendere riconoscibile ciò che loro avevano osservato. Accanto alla nota lasciò la data e una nuova domanda.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

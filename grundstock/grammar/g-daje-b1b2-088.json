@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-088",
+ "title": "Analizza le forme: indica infinito, modo, tempo e persona (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Analizza le forme: indica infinito, modo, tempo e persona (2) · livello medio.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3088
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/2)\n1. tu: «venissi»\n2. lui/lei: «ha scritto»\n3. voi: «vendereste»\n4. tu: «prepareresti»\n5. lui/lei: «aveva telefonato»\n6. voi: «ascoltereste»\n7. lui/lei: «aveva ricevuto»\n8. tu: «hai temuto»\n9. tu: «ascolteresti»",
+   "modelAnswer": "1. venire — congiuntivo — imperfetto — tu\n2. scrivere — indicativo — passato prossimo — lui/lei\n3. vendere — condizionale — presente — voi\n4. preparare — condizionale — presente — tu\n5. telefonare — indicativo — trapassato prossimo — lui/lei\n6. ascoltare — condizionale — presente — voi\n7. ricevere — indicativo — trapassato prossimo — lui/lei\n8. temere — indicativo — passato prossimo — tu\n9. ascoltare — condizionale — presente — tu",
+   "lines": 10,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/2)\n1. lui/lei: «invitava»\n2. loro: «potessero»\n3. voi: «conservavate»\n4. voi: «temeste»\n5. voi: «ricevevate»\n6. noi: «abbiamo scelto»\n7. io: «vada»\n8. loro: «temano»\n9. io: «ho dormito»",
+   "modelAnswer": "1. invitare — indicativo — imperfetto — lui/lei\n2. potere — congiuntivo — imperfetto — loro\n3. conservare — indicativo — imperfetto — voi\n4. temere — congiuntivo — imperfetto — voi\n5. ricevere — indicativo — imperfetto — voi\n6. scegliere — indicativo — passato prossimo — noi\n7. andare — congiuntivo — presente — io\n8. temere — congiuntivo — presente — loro\n9. dormire — indicativo — passato prossimo — io",
+   "lines": 10
+  }
+ ]
+}

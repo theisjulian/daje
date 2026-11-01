@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-002",
+ "title": "La scatola senza etichetta (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · La scatola senza etichetta (1) · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3002
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «aveva telefonato» — telefonare\n2. «aveva chiesto» — chiedere\n3. «aveva suggerito» — suggerire\n4. «aveva preparato» — preparare\n5. «aveva dimenticato» — dimenticare\n6. «aveva ingrandito» — ingrandire\n7. «aveva visto» — vedere",
+   "modelAnswer": "1. indicativo trapassato prossimo\n2. indicativo trapassato prossimo\n3. indicativo trapassato prossimo\n4. indicativo trapassato prossimo\n5. indicativo trapassato prossimo\n6. indicativo trapassato prossimo\n7. indicativo trapassato prossimo",
+   "lines": 8,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Quando Nora era piccola, suo nonno raccoglieva le fotografie del quartiere. Non scriveva quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone sembravano sconosciute anche a lui. Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e ha deciso di portarla alla biblioteca di zona.\nPrima di uscire, aveva telefonato alla bibliotecaria e aveva chiesto se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora aveva preparato anche un quaderno, ma aveva dimenticato la matita sul tavolo.\nIn biblioteca c’erano sei persone. Tutte guardavano una fotografia della piazza, che un visitatore aveva ingrandito. La donna con cui Nora ha parlato per prima abitava proprio lì. Mentre raccontava, un ragazzo ha notato un’insegna quasi invisibile. Nessuno aveva visto prima quel particolare.\nAlla fine il gruppo ha riconosciuto il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri ha messo un punto interrogativo. Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte.\nNei giorni successivi Nora ha organizzato un secondo incontro. Questa volta ha chiesto ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora ha aggiunto una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita. Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.",
+  "title": "La scatola senza etichetta"
+ }
+}

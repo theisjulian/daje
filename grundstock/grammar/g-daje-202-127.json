@@ -1,0 +1,248 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-127",
+ "title": "Lessico in contesto (14)",
+ "language": "it",
+ "level": "A2",
+ "description": "Lessico in contesto · Lessico in contesto (14) · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1127
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Trova la parola che non appartiene al gruppo e spiega il criterio.\nGruppo 1",
+   "options": [
+    {
+     "id": "o1",
+     "text": "mela"
+    },
+    {
+     "id": "o2",
+     "text": "pera"
+    },
+    {
+     "id": "o3",
+     "text": "banana"
+    },
+    {
+     "id": "o4",
+     "text": "carota"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono frutti.",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Gruppo 2",
+   "options": [
+    {
+     "id": "o1",
+     "text": "pane"
+    },
+    {
+     "id": "o2",
+     "text": "riso"
+    },
+    {
+     "id": "o3",
+     "text": "pasta"
+    },
+    {
+     "id": "o4",
+     "text": "tonno"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono alimenti a base di cereali."
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Gruppo 3",
+   "options": [
+    {
+     "id": "o1",
+     "text": "salmone"
+    },
+    {
+     "id": "o2",
+     "text": "merluzzo"
+    },
+    {
+     "id": "o3",
+     "text": "orata"
+    },
+    {
+     "id": "o4",
+     "text": "pollo"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono pesci."
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Gruppo 4",
+   "options": [
+    {
+     "id": "o1",
+     "text": "latte"
+    },
+    {
+     "id": "o2",
+     "text": "yogurt"
+    },
+    {
+     "id": "o3",
+     "text": "formaggio"
+    },
+    {
+     "id": "o4",
+     "text": "olio"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri derivano dal latte."
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Gruppo 5",
+   "options": [
+    {
+     "id": "o1",
+     "text": "basilico"
+    },
+    {
+     "id": "o2",
+     "text": "rosmarino"
+    },
+    {
+     "id": "o3",
+     "text": "salvia"
+    },
+    {
+     "id": "o4",
+     "text": "zucchina"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono erbe aromatiche."
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Gruppo 6",
+   "options": [
+    {
+     "id": "o1",
+     "text": "cucchiaio"
+    },
+    {
+     "id": "o2",
+     "text": "coltello"
+    },
+    {
+     "id": "o3",
+     "text": "forchetta"
+    },
+    {
+     "id": "o4",
+     "text": "limone"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono posate."
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Gruppo 7",
+   "options": [
+    {
+     "id": "o1",
+     "text": "etto"
+    },
+    {
+     "id": "o2",
+     "text": "chilo"
+    },
+    {
+     "id": "o3",
+     "text": "grammo"
+    },
+    {
+     "id": "o4",
+     "text": "piatto"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono unità di massa."
+  },
+  {
+   "id": "q1r8",
+   "type": "single_choice",
+   "prompt": "Gruppo 8",
+   "options": [
+    {
+     "id": "o1",
+     "text": "bollire"
+    },
+    {
+     "id": "o2",
+     "text": "cuocere"
+    },
+    {
+     "id": "o3",
+     "text": "friggere"
+    },
+    {
+     "id": "o4",
+     "text": "leggere"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri riguardano la cottura."
+  }
+ ]
+}

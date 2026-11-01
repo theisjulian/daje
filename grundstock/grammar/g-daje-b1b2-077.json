@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-077",
+ "title": "Due modi di abitare",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Due modi di abitare · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3077
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Confronta le voci di «Due modi di abitare». Scegli dove vorresti vivere e valuta almeno un vantaggio e un limite di entrambe le possibilità. 180–240 parole.",
+   "modelAnswer": "Se dovessi scegliere adesso, preferirei vivere in una città di medie dimensioni. Per me sarebbe importante raggiungere la scuola, la biblioteca e gli amici senza dipendere sempre da qualcuno. Il messaggio di Livia mi ha fatto pensare proprio all’autonomia: un luogo può essere piacevole, ma difficile da vivere quando non ci sono collegamenti negli orari necessari.\nNon credo però che la città garantisca automaticamente una vita sociale migliore. Omar racconta che nel suo palazzo le persone si conoscevano poco. Anche io potrei sentirmi isolato in mezzo a molti abitanti. Per questo cercherei un quartiere con spazi in cui fermarsi e attività accessibili, non soltanto negozi.\nIl paese offrirebbe probabilmente un ambiente che conosco meglio e, in alcune situazioni, più tranquillità. Avrei però bisogno di verificare i servizi reali, senza immaginare una vita sempre silenziosa e semplice. Allo stesso modo dovrei considerare il costo della casa in città e il rumore vicino alle strade.\nSono d’accordo con Renata: visiterei il luogo durante una settimana normale. Guarderei come cambiano gli spostamenti e gli orari, non soltanto il paesaggio in una giornata di vacanza. La scelta dipenderebbe dalle mie esigenze del momento e potrebbe cambiare. Preferisco una decisione motivata a una classifica definitiva fra città e paese.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

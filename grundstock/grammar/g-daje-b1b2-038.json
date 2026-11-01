@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-038",
+ "title": "Due accordi da chiarire (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Due accordi da chiarire (2) · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3038
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "J"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "I"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis J im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Avevo chiesto una conferma e non è arrivata. Ada: Intanto, possiamo rileggere le altre parti. Hai indicato da dove vengono i dati?\n\nB — Anzi, tenetene due vicino alla porta: ci serviranno per gli ospiti. Allora, vi avviso appena siamo pronti. Comunque, per la prossima volta controlliamo insieme il calendario.\n\nC — Milo: Sì, ma il collegamento è molto lungo. Ada: Per esempio, potresti usare il titolo della pagina come testo del collegamento, mantenendo l’indirizzo completo.\n\nD — Dialogo B — Prima di una consegna. Milo: Ho finito il testo, ma non so se mandarlo subito alla redazione. Ada: Secondo me, manca ancora il controllo dei nomi.\n\nE — Dove preferite che mettiamo le sedie? Nina: Lasciatele in cerchio.\n\nF — Nina: A dire il vero, abbiamo confermato ieri. Possiamo aspettare dieci minuti, ma poi arriva una persona da fuori città. Leo: D’accordo, finiamo questo passaggio e liberiamo il tavolo.\n\nG — Dialogo A — In una sala condivisa. Nina: Avevamo prenotato questa stanza per le cinque. Vedo però che state ancora provando.\n\nH — Leo: In effetti, abbiamo cominciato in ritardo. Pensavo che il vostro incontro fosse domani.\n\nI — Quindi, aspettiamo i nomi e sistemiamo il resto. Insomma, il testo è quasi pronto, ma «quasi» non significa che possiamo pubblicarlo senza l’ultimo controllo. I due dialoghi sono originali e descrivono situazioni immaginarie.\n\nJ — Non è un dettaglio. Milo: Certo, hai ragione."
+ }
+}

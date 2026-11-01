@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-162",
+ "title": "La mia prima presentazione pubblica (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · La mia prima presentazione pubblica (1) · livello medio.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1162
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. raccontarti\n2. mi ha aiutata\n3. Gli abbiamo consegnato\n4. lui ci ha mostrato\n5. ci ha mostrato\n6. l’ho provato\n7. l’ho lasciato\n8. l’ho salutata",
+   "modelAnswer": "1. alla zia\n2. Alina\n3. al tecnico\n4. il tecnico\n5. ad Alina e Ilaria\n6. il comando\n7. il comando\n8. la madre",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. da lei\n2. Mi sono alzata\n3. mi ha fatto un gesto\n4. mi ha guardata\n5. le ho detto\n6. lo abbiamo detto\n7. ci ha ringraziate\n8. Ti mostrerò",
+   "modelAnswer": "1. dalla madre\n2. Alina\n3. ad Alina\n4. Alina\n5. a Ilaria\n6. che non conoscevamo una risposta\n7. Alina e Ilaria\n8. alla zia",
+   "lines": 9
+  }
+ ],
+ "reading": {
+  "text": "Cara zia, ieri ho presentato il progetto della classe davanti a un pubblico e voglio raccontarti come è andata. All’inizio ero molto nervosa. Avevo preparato le immagini, ma temevo di dimenticare le parole. La mia compagna Ilaria mi ha aiutata a provare: mi ascoltava senza interrompere e poi mi faceva una domanda. Questo mi ha permesso di capire quali passaggi non erano chiari.\nQuando siamo arrivate nella sala, il tecnico stava controllando il proiettore. Gli abbiamo consegnato il file e lui ci ha mostrato il piccolo comando per cambiare le immagini. Io l’ho provato due volte, poi l’ho lasciato sul tavolo. Il pubblico entrava lentamente e parlava a bassa voce. Mia madre era seduta in fondo; l’ho salutata con la mano, ma non sono andata da lei perché mancavano pochi minuti.\nIl presentatore ha chiamato il nostro gruppo. Mi sono alzata, ho preso gli appunti e ho raggiunto Ilaria. La prima frase è uscita un po’ piano. Un’insegnante mi ha fatto un gesto gentile per invitarmi a parlare più forte. Ho respirato, ho guardato il pubblico e ho continuato. A metà della presentazione una fotografia non si è aperta. Ilaria mi ha guardata; io le ho detto di passare alla successiva e ho spiegato a parole quello che mancava. Il problema non ha rovinato il lavoro.\nAlla fine abbiamo ricevuto tre domande. Non conoscevamo una risposta e lo abbiamo detto chiaramente. Il nostro insegnante ci ha ringraziate per l’onestà. La prossima volta prepareremo anche una copia stampata delle immagini. Io proverò ancora a parlare senza leggere ogni frase. Non è stato perfetto, ma sono contenta di averlo fatto. Ti mostrerò le fotografie domenica. Un abbraccio, Alina."
+ }
+}

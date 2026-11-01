@@ -1,0 +1,228 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-051",
+ "title": "Una mattina diversa",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Una mattina diversa · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1051
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Mi"
+    },
+    {
+     "id": "p2",
+     "text": "sveglio"
+    },
+    {
+     "id": "p3",
+     "text": "alle"
+    },
+    {
+     "id": "p4",
+     "text": "sei"
+    },
+    {
+     "id": "p5",
+     "text": "e"
+    },
+    {
+     "id": "p6",
+     "text": "mezza"
+    }
+   ],
+   "explanation": "Mi sveglio alle sei e mezza.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q2s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Prendo"
+    },
+    {
+     "id": "p2",
+     "text": "il"
+    },
+    {
+     "id": "p3",
+     "text": "treno"
+    },
+    {
+     "id": "p4",
+     "text": "per"
+    },
+    {
+     "id": "p5",
+     "text": "andare"
+    },
+    {
+     "id": "p6",
+     "text": "a"
+    },
+    {
+     "id": "p7",
+     "text": "scuola"
+    }
+   ],
+   "explanation": "Prendo il treno per andare a scuola."
+  },
+  {
+   "id": "q3s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Mio"
+    },
+    {
+     "id": "p2",
+     "text": "fratello"
+    },
+    {
+     "id": "p3",
+     "text": "dorme"
+    },
+    {
+     "id": "p4",
+     "text": "ancora"
+    }
+   ],
+   "explanation": "Mio fratello dorme ancora."
+  },
+  {
+   "id": "q4s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Il"
+    },
+    {
+     "id": "p2",
+     "text": "viaggio"
+    },
+    {
+     "id": "p3",
+     "text": "dura"
+    },
+    {
+     "id": "p4",
+     "text": "quaranta"
+    },
+    {
+     "id": "p5",
+     "text": "minuti"
+    }
+   ],
+   "explanation": "Il viaggio dura quaranta minuti."
+  },
+  {
+   "id": "q5s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "In"
+    },
+    {
+     "id": "p2",
+     "text": "treno"
+    },
+    {
+     "id": "p3",
+     "text": "ascolto"
+    },
+    {
+     "id": "p4",
+     "text": "un"
+    },
+    {
+     "id": "p5",
+     "text": "podcast"
+    }
+   ],
+   "explanation": "In treno ascolto un podcast."
+  },
+  {
+   "id": "q6s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Un"
+    },
+    {
+     "id": "p2",
+     "text": "tecnico"
+    },
+    {
+     "id": "p3",
+     "text": "ci"
+    },
+    {
+     "id": "p4",
+     "text": "spiega"
+    },
+    {
+     "id": "p5",
+     "text": "il"
+    },
+    {
+     "id": "p6",
+     "text": "lavoro"
+    }
+   ],
+   "explanation": "Un tecnico ci spiega il lavoro."
+  }
+ ]
+}

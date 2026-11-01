@@ -1,0 +1,187 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-150",
+ "title": "Una settimana tra paesi e biciclette (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Una settimana tra paesi e biciclette (1) · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1150
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 1/2)",
+   "text": "era → [[g1]]\nEravamo → [[g2]]\nconoscevano → [[g3]]\ncontrollavamo → [[g4]]\nriempivamo → [[g5]]\nleggevamo → [[g6]]\nPartivamo → [[g7]]\nseguivamo → [[g8]]\nera → [[g9]]\nfermavamo → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "essere; imperfetto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "essere; imperfetto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "conoscere; imperfetto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "controllare; imperfetto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "riempire; imperfetto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "leggere; imperfetto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "partire; imperfetto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "seguire; imperfetto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "essere; imperfetto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "fermare; imperfetto"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 2/2)",
+   "text": "avevo → [[g1]]\naspettavano → [[g2]]\ndavano → [[g3]]\nsentivo → [[g4]]\ncompravamo → [[g5]]\ncercavamo → [[g6]]\nvisitavamo → [[g7]]\nparlavamo → [[g8]]\nlavorava → [[g9]]\nDormivamo → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avere; imperfetto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aspettare; imperfetto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dare; imperfetto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sentire; imperfetto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "comprare; imperfetto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "cercare; imperfetto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "visitare; imperfetto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "parlare; imperfetto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "lavorare; imperfetto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dormire; imperfetto"
+     ]
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Cara Ada, sono tornata dal viaggio e ho ancora la testa piena di immagini. Per una settimana ho attraversato piccoli paesi con un gruppo di ciclisti principianti. Non era una corsa: il programma prevedeva tappe brevi e molte soste. Eravamo in dieci, con due accompagnatori che conoscevano bene il percorso. Ogni mattina controllavamo le biciclette, riempivamo le borracce e leggevamo insieme la mappa. Partivamo verso le nove e seguivamo strade tranquille. Quando qualcuno era stanco, ci fermavamo senza fretta.\nIl primo giorno avevo paura di non riuscire a tenere il ritmo. Gli altri mi aspettavano e mi davano consigli semplici. Dopo due giorni mi sentivo più sicura. A mezzogiorno compravamo pane e frutta; poi cercavamo un posto all’ombra. Nel pomeriggio visitavamo un paese oppure parlavamo con chi lavorava nelle botteghe. Dormivamo in piccole strutture diverse, ma non cambiavamo alloggio ogni notte. In un paese siamo rimasti due giorni per partecipare a un laboratorio.\nUna mattina è arrivata la pioggia. Abbiamo lasciato le biciclette al coperto e abbiamo preso un autobus. Nessuno si è lamentato: la pausa ci ha permesso di visitare un museo. L’ultimo giorno abbiamo percorso un tratto vicino al fiume e abbiamo scattato una fotografia tutti insieme. Non sono diventata un’atleta, ma ho scoperto un modo di viaggiare che mi piace. Il prossimo anno vorrei tornare con te. Prima, però, faremo qualche giro vicino a casa. Domenica porto le foto: ti va di incontrarci? Un abbraccio, Nina."
+ }
+}

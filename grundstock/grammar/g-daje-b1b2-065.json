@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-065",
+ "title": "Analizza le forme: indica infinito, modo, tempo e persona (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Analizza le forme: indica infinito, modo, tempo e persona (1) · livello medio.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3065
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/2)\n1. noi: «lavoriamo»\n2. tu: «avevi»\n3. tu: «facessi»\n4. tu: «dormissi»\n5. noi: «invitiamo»\n6. noi: «conserviamo»\n7. io: «parto»\n8. noi: «osservavamo»\n9. tu: «porteresti»",
+   "modelAnswer": "1. lavorare — congiuntivo — presente — noi\n2. avere — indicativo — imperfetto — tu\n3. fare — congiuntivo — imperfetto — tu\n4. dormire — congiuntivo — imperfetto — tu\n5. invitare — indicativo — presente — noi\n6. conservare — indicativo — presente — noi\n7. partire — indicativo — presente — io\n8. osservare — indicativo — imperfetto — noi\n9. portare — condizionale — presente — tu",
+   "lines": 10,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/2)\n1. lui/lei: «faccia»\n2. noi: «conservavamo»\n3. io: «avevo fatto»\n4. io: «ho parlato»\n5. voi: «andiate»\n6. tu: «andresti»\n7. voi: «controllavate»\n8. tu: «parlavi»\n9. lui/lei: «ha scelto»",
+   "modelAnswer": "1. fare — congiuntivo — presente — lui/lei\n2. conservare — indicativo — imperfetto — noi\n3. fare — indicativo — trapassato prossimo — io\n4. parlare — indicativo — passato prossimo — io\n5. andare — congiuntivo — presente — voi\n6. andare — condizionale — presente — tu\n7. controllare — indicativo — imperfetto — voi\n8. parlare — indicativo — imperfetto — tu\n9. scegliere — indicativo — passato prossimo — lui/lei",
+   "lines": 10
+  }
+ ]
+}

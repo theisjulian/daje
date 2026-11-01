@@ -1,0 +1,151 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-085",
+ "title": "Una lettera contro le classifiche",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo nelle subordinate · Una lettera contro le classifiche · livello medio.",
+ "topics": [
+  "Il congiuntivo nelle subordinate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-subordinate-congiuntivo",
+  "topicTitle": "Il congiuntivo nelle subordinate",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3085
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Cara redazione, ho letto la proposta di pubblicare ogni mese una classifica dei lettori più attivi della biblioteca scolastica. Capisco che l’idea [[g1]] (nascere, congiuntivo presente) dal desiderio di incoraggiare la lettura. Temo però che il numero dei prestiti [[g2]] (diventare, congiuntivo presente) una misura troppo semplice. È possibile che uno studente [[g3]] (leggere, congiuntivo presente) lentamente perché il libro è difficile; un altro potrebbe prendere molti volumi senza finirli.\nNon penso che una gara [[g4]] (essere, congiuntivo presente) sempre negativa. Chiedo soltanto che si [[g5]] (chiarire, congiuntivo presente) lo scopo. Se vogliamo condividere scoperte, sarebbe meglio che ciascuno [[g6]] (presentare, congiuntivo imperfetto) un passaggio interessante. Se invece desideriamo conoscere i bisogni dei lettori, vorrei che la biblioteca [[g7]] (ascoltare, congiuntivo imperfetto) anche chi non prende libri in prestito.\nMi auguro che nessuno [[g8]] (sentirsi, congiuntivo presente) escluso perché legge in un’altra lingua o usa un formato diverso. Sarebbe utile che gli insegnanti [[g9]] (spiegare, loro, congiuntivo imperfetto) come partecipare senza esporre informazioni personali. Non credo che tutti [[g10]] (avere, loro, congiuntivo presente) voglia di vedere il proprio nome in una graduatoria.\nPropongo quindi un muro di consigli anonimi. Ogni lettore potrebbe suggerire un libro e spiegare a chi lo consiglierebbe. Spero che questa alternativa [[g11]] (permettere, congiuntivo presente) di parlare delle letture senza ridurle a un punteggio. La lettera è inventata per il laboratorio: non si riferisce a una biblioteca reale e non descrive risultati di una ricerca.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nasca"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "diventi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "legga"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "chiarisca"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "presentasse"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ascoltasse"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si senta"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "spiegassero"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abbiano"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "permetta"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. conservare — congiuntivo presente — noi",
+   "modelAnswer": "1. conserviamo",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q3a",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/3)\n1. noi: «conserviamo»\n2. voi: «telefoniate»\n3. loro: «andassero»\n4. lui/lei: «telefoni»\n5. lui/lei: «tema»\n6. io: «vada»\n7. voi: «aveste»\n8. voi: «telefonaste»",
+   "modelAnswer": "1. conservare — congiuntivo — presente — noi\n2. telefonare — congiuntivo — presente — voi\n3. andare — congiuntivo — imperfetto — loro\n4. telefonare — congiuntivo — presente — lui/lei\n5. temere — congiuntivo — presente — lui/lei\n6. andare — congiuntivo — presente — io\n7. avere — congiuntivo — imperfetto — voi\n8. telefonare — congiuntivo — imperfetto — voi",
+   "lines": 9
+  },
+  {
+   "id": "q3b",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/3)\n1. io: «ascolti»\n2. tu: «conservassi»\n3. lui/lei: «inviti»\n4. noi: «andiamo»\n5. noi: «ricevessimo»\n6. loro: «telefonino»\n7. tu: «venga»\n8. noi: «possiamo»",
+   "modelAnswer": "1. ascoltare — congiuntivo — presente — io\n2. conservare — congiuntivo — imperfetto — tu\n3. invitare — congiuntivo — presente — lui/lei\n4. andare — congiuntivo — presente — noi\n5. ricevere — congiuntivo — imperfetto — noi\n6. telefonare — congiuntivo — presente — loro\n7. venire — congiuntivo — presente — tu\n8. potere — congiuntivo — presente — noi",
+   "lines": 9
+  },
+  {
+   "id": "q3c",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 3/3)\n1. tu: «parli»\n2. tu: «dormissi»\n3. voi: «osserviate»\n4. loro: «avessero»\n5. tu: «dicessi»\n6. lui/lei: «abbia»\n7. io: «partissi»\n8. loro: «facciano»",
+   "modelAnswer": "1. parlare — congiuntivo — presente — tu\n2. dormire — congiuntivo — imperfetto — tu\n3. osservare — congiuntivo — presente — voi\n4. avere — congiuntivo — imperfetto — loro\n5. dire — congiuntivo — imperfetto — tu\n6. avere — congiuntivo — presente — lui/lei\n7. partire — congiuntivo — imperfetto — io\n8. fare — congiuntivo — presente — loro",
+   "lines": 9
+  }
+ ]
+}

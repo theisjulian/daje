@@ -1,0 +1,248 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-009",
+ "title": "Una richiesta precisa",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Una richiesta precisa · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3009
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Alla responsabile del"
+    },
+    {
+     "id": "p2",
+     "text": "centro civico: scrivo"
+    },
+    {
+     "id": "p3",
+     "text": "per segnalare un"
+    },
+    {
+     "id": "p4",
+     "text": "problema relativo al"
+    },
+    {
+     "id": "p5",
+     "text": "corso di fotografia"
+    },
+    {
+     "id": "p6",
+     "text": "iniziato lunedì."
+    }
+   ],
+   "explanation": "Alla responsabile del centro civico: scrivo per segnalare un problema relativo al corso di fotografia iniziato lunedì.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q1s2",
+   "type": "ordering",
+   "prompt": "Frase 2: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Nell’annuncio erano"
+    },
+    {
+     "id": "p2",
+     "text": "indicati quattro"
+    },
+    {
+     "id": "p3",
+     "text": "incontri in"
+    },
+    {
+     "id": "p4",
+     "text": "presenza."
+    }
+   ],
+   "explanation": "Nell’annuncio erano indicati quattro incontri in presenza."
+  },
+  {
+   "id": "q1s3",
+   "type": "ordering",
+   "prompt": "Frase 3: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Dopo il primo"
+    },
+    {
+     "id": "p2",
+     "text": "incontro abbiamo ricevuto"
+    },
+    {
+     "id": "p3",
+     "text": "una comunicazione: le"
+    },
+    {
+     "id": "p4",
+     "text": "altre lezioni si"
+    },
+    {
+     "id": "p5",
+     "text": "sarebbero svolte online."
+    }
+   ],
+   "explanation": "Dopo il primo incontro abbiamo ricevuto una comunicazione: le altre lezioni si sarebbero svolte online."
+  },
+  {
+   "id": "q1s4",
+   "type": "ordering",
+   "prompt": "Frase 4: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Non discuto"
+    },
+    {
+     "id": "p2",
+     "text": "la competenza"
+    },
+    {
+     "id": "p3",
+     "text": "del docente;"
+    },
+    {
+     "id": "p4",
+     "text": "desidero però"
+    },
+    {
+     "id": "p5",
+     "text": "una spiegazione"
+    },
+    {
+     "id": "p6",
+     "text": "del cambiamento."
+    }
+   ],
+   "explanation": "Non discuto la competenza del docente; desidero però una spiegazione del cambiamento."
+  },
+  {
+   "id": "q1s5",
+   "type": "ordering",
+   "prompt": "Frase 5: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Avevo scelto"
+    },
+    {
+     "id": "p2",
+     "text": "il corso"
+    },
+    {
+     "id": "p3",
+     "text": "per usare"
+    },
+    {
+     "id": "p4",
+     "text": "insieme agli"
+    },
+    {
+     "id": "p5",
+     "text": "altri la"
+    },
+    {
+     "id": "p6",
+     "text": "camera oscura."
+    }
+   ],
+   "explanation": "Avevo scelto il corso per usare insieme agli altri la camera oscura."
+  },
+  {
+   "id": "q1s6",
+   "type": "ordering",
+   "prompt": "Frase 6: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Questa attività"
+    },
+    {
+     "id": "p2",
+     "text": "non può"
+    },
+    {
+     "id": "p3",
+     "text": "essere sostituita"
+    },
+    {
+     "id": "p4",
+     "text": "da una"
+    },
+    {
+     "id": "p5",
+     "text": "videoconferenza."
+    }
+   ],
+   "explanation": "Questa attività non può essere sostituita da una videoconferenza."
+  },
+  {
+   "id": "q1s7",
+   "type": "ordering",
+   "prompt": "Frase 7: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Inoltre, a"
+    },
+    {
+     "id": "p2",
+     "text": "casa non"
+    },
+    {
+     "id": "p3",
+     "text": "dispongo degli"
+    },
+    {
+     "id": "p4",
+     "text": "strumenti necessari."
+    }
+   ],
+   "explanation": "Inoltre, a casa non dispongo degli strumenti necessari."
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-182",
+ "title": "Informazioni al centro culturale (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Informazioni al centro culturale (2) · livello medio.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1182
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 1/2)",
+   "text": "Formula per chiedere attenzione in modo formale → [[g1]]\nContrario di tardi → [[g2]]\nPrima persona di lavorare al presente → [[g3]]\nTerza persona di cominciare al presente → [[g4]]\nPlurale di settimana → [[g5]]\nA + le → [[g6]]\nIn + la → [[g7]]\nPrendere, imperativo formale → [[g8]]\nSalire, imperativo formale → [[g9]]\nCompilare, imperativo formale → [[g10]]\nOggetto che si compila → [[g11]]\nLuogo dove si consegna il modulo → [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Senta"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "presto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lavoro"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "comincia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "settimane"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "alle"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "prenda"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "salga"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "compili"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "modulo"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "reception"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 2/2)",
+   "text": "Contrario di breve → [[g1]]\nPrima persona di leggere al presente → [[g2]]\nFuturo di essere, lui → [[g3]]\nImperfetto di essere, lui → [[g4]]\nGerundio di aspettare → [[g5]]\nStare, io, presente → [[g6]]\nFotografia, plurale → [[g7]]\nQuattro in cifre → [[g8]]\nSessanta in cifre → [[g9]]\nPotere, tu, presente → [[g10]]\nTelefono, plurale → [[g11]]\nProgramma, plurale → [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "lungo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "leggo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sarà"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aspettando"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fotografie"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "4"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "60"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "puoi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "telefoni"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "programmi"
+     ]
+    }
+   ]
+  }
+ ]
+}

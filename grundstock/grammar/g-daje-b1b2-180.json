@@ -1,0 +1,69 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-180",
+ "title": "Analizza le forme: indica infinito, modo, tempo e persona (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Analizza le forme: indica infinito, modo, tempo e persona (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3180
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/3)\n1. loro: «avevano venduto»\n2. noi: «abbiamo dormito»\n3. loro: «hanno fatto»\n4. noi: «avevamo temuto»\n5. tu: «osservi»\n6. loro: «vorrebbero»\n7. lui/lei: «aveva letto»\n8. loro: «osservavano»",
+   "modelAnswer": "1. vendere — indicativo — trapassato prossimo — loro\n2. dormire — indicativo — passato prossimo — noi\n3. fare — indicativo — passato prossimo — loro\n4. temere — indicativo — trapassato prossimo — noi\n5. osservare — congiuntivo — presente — tu\n6. volere — condizionale — presente — loro\n7. leggere — indicativo — trapassato prossimo — lui/lei\n8. osservare — indicativo — imperfetto — loro",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/3)\n1. tu: «visiti»\n2. loro: «hanno conservato»\n3. lui/lei: «visiti»\n4. lui/lei: «lavora»\n5. io: «venda»\n6. lui/lei: «volesse»\n7. loro: «invitassero»\n8. lui/lei: «avesse»",
+   "modelAnswer": "1. visitare — congiuntivo — presente — tu\n2. conservare — indicativo — passato prossimo — loro\n3. visitare — congiuntivo — presente — lui/lei\n4. lavorare — indicativo — presente — lui/lei\n5. vendere — congiuntivo — presente — io\n6. volere — congiuntivo — imperfetto — lui/lei\n7. invitare — congiuntivo — imperfetto — loro\n8. avere — congiuntivo — imperfetto — lui/lei",
+   "lines": 9
+  },
+  {
+   "id": "q1c",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 3/3)\n1. voi: «parlate»\n2. voi: «partiste»\n3. io: «parlerei»\n4. tu: «osservi»\n5. voi: «avete ricevuto»\n6. tu: «porteresti»\n7. noi: «temevamo»",
+   "modelAnswer": "1. parlare — indicativo — presente — voi\n2. partire — congiuntivo — imperfetto — voi\n3. parlare — condizionale — presente — io\n4. osservare — indicativo — presente — tu\n5. ricevere — indicativo — passato prossimo — voi\n6. portare — condizionale — presente — tu\n7. temere — indicativo — imperfetto — noi",
+   "lines": 8
+  }
+ ]
+}

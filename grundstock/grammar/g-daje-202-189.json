@@ -1,0 +1,175 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-189",
+ "title": "Imparare un mestiere creativo",
+ "language": "it",
+ "level": "A2",
+ "description": "Aggettivi, avverbi e formazione delle parole · Imparare un mestiere creativo · livello medio.",
+ "topics": [
+  "Aggettivi, avverbi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Wortschatz und Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-avverbi-formazione",
+  "topicTitle": "Aggettivi, avverbi e formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1189
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)",
+   "text": "iscrizione → [[g1]]\npreparazione → [[g2]]\nosservazione → [[g3]]\ncostruzione → [[g4]]\nriflessione → [[g5]]\ncollaborazione → [[g6]]\nesposizione → [[g7]]\nvalutazione → [[g8]]\ncomprensione → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "iscriversi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "preparare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "osservare"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "costruire"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "riflettere"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "collaborare"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "esporre"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "valutare"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "comprendere"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)",
+   "text": "lentamente → [[g1]]\nconcretamente → [[g2]]\nchiaramente → [[g3]]\ndirettamente → [[g4]]\nautonomamente → [[g5]]\nresponsabilmente → [[g6]]\ndisegno → [[g7]]\nfunzione → [[g8]]\nindicazioni → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "lento"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "concreto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiaro"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "diretto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "autonomo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "responsabile"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "disegnare"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "funzionare"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "indicare"
+     ]
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Nel nostro centro immaginario un laboratorio insegna a costruire semplici oggetti di carta. Il percorso non offre un titolo professionale: permette di conoscere materiali e tecniche di base. L’iscrizione comprende quattro incontri, una piccola raccolta di istruzioni e il materiale necessario per gli esercizi. La preparazione comincia con l’osservazione di oggetti comuni. Gli studenti confrontano forme diverse e discutono la funzione di ogni parte. Poi passano al disegno e alla costruzione.\nGli insegnanti spiegano lentamente i passaggi più difficili e mostrano concretamente come controllare le misure. La precisione è importante, ma non si cerca la perfezione al primo tentativo. Un errore può suggerire una soluzione nuova. Le attività pratiche si alternano a momenti di riflessione. Ogni partecipante descrive il procedimento e ascolta i commenti del gruppo. La collaborazione aiuta soprattutto quando un progetto richiede più mani.\nAlla fine si prepara una piccola esposizione. I cartelli presentano chiaramente i materiali, la durata del lavoro e le difficoltà incontrate. Le persone interessate possono fare domande direttamente agli autori. La valutazione riguarda la comprensione dei passaggi, la cura degli strumenti e la capacità di spiegare le scelte. Non basta avere un oggetto bello: conta anche sapere come è stato realizzato. Chi desidera continuare riceve indicazioni per esercitarsi autonomamente con materiali economici. Il laboratorio invita a usare le risorse responsabilmente e a conservare gli scarti che possono servire per altri progetti."
+ }
+}

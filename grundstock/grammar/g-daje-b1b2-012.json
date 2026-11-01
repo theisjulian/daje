@@ -1,0 +1,138 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-012",
+ "title": "Una stanza lasciata in ordine",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Una stanza lasciata in ordine · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3012
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara Elisa, quando leggerai questa lettera sarò già sul treno. Ti lascio [[g1]] chiavi nel cassetto; per favore, consegna [[g2]] alla nuova coinquilina. Ho incontrato Marta ieri e [[g3]] ho spiegato come funziona il riscaldamento. Se avrà altre domande, potrai aiutar[[g4]] tu.\nPrima di partire ho svuotato l’armadio. Quel maglione blu vicino alla finestra è tuo: [[g5]] avevi dimenticato in camera mia. Le piante sono [[g6]]; scegli tu dove sistemarle. Invece il vaso giallo appartiene a mia madre. Verrà a prenderlo domenica e ti avviserà prima.\nQuesti mesi sono stati [[g7]] del mio anno. La stanza era [[g8]], ma ci abbiamo fatto entrare amici, progetti e discussioni. La cucina era [[g9]] della casa; eppure era anche il luogo in cui parlavamo più volentieri.\nQuindi non voglio salutarti con un messaggio frettoloso. Ho conservato il quaderno delle nostre ricette e te ne manderò una copia. Se tornerò in città, mi piacerebbe cucinare ancora insieme. Intanto ti auguro una buona estate. Scrivimi quando avrai tempo, anche soltanto due righe: quelle saranno sufficienti per farmi sentire vicina. Un abbraccio, Ines.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "le mie"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "nostre"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "i più intensi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piccolissima"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "la meno ordinata"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "Sostituisci il programma: Abbiamo letto il programma. → [[g1]]\nSostituisci le risposte: Ho ricevuto le risposte. → [[g2]]\nSostituisci la mappa: Hai visto la mappa? → [[g3]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo abbiamo letto."
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Le ho ricevute."
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "L’hai vista?"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-112",
+ "title": "Organizzare una visita al Pantheon",
+ "language": "it",
+ "level": "A2",
+ "description": "Le preposizioni articolate · Organizzare una visita al Pantheon · livello medio.",
+ "topics": [
+  "Le preposizioni articolate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Ministero della Cultura – Pantheon e Basilica di Santa Maria ad Martyres (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://cultura.gov.it/luogo/pantheon",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Le preposizioni articolate",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1112
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Il Pantheon si trova [[g1]] Roma ed è anche una basilica. [[g2]] una visita, il Ministero della Cultura indica l’acquisto dei biglietti ufficiali [[g3]] portale Musei Italiani, nell’app oppure presso le casse e i distributori automatici sul posto. Non sono previsti biglietti ufficiali per saltare la fila. Le visite seguono l’ordine [[g4]] arrivo. Questa breve informazione è stata riformulata a partire dalla pagina ufficiale consultata il 29 ottobre 2026; prima di un viaggio reale occorre verificare le condizioni aggiornate.\nPer il nostro esercizio immaginiamo una classe che prepara una visita. Gli studenti divideranno il lavoro [[g5]] piccoli gruppi. Il primo gruppo cercherà le informazioni ufficiali, il secondo preparerà una mappa e il terzo raccoglierà le domande. Ogni gruppo avrà un portavoce. Prima della partenza, tutti confronteranno i risultati e controlleranno le fonti. La classe non userà messaggi pubblicitari come prova delle condizioni di ingresso. Durante la visita, gli studenti osserveranno l’edificio e prenderanno appunti. Dopo il ritorno, scriveranno un breve resoconto e distingueranno ciò che hanno visto dalle informazioni lette. Chi non parteciperà potrà lavorare sulle immagini autorizzate e sui materiali ufficiali disponibili online. Il programma scolastico qui descritto è inventato.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Per"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sul"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "in"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applica lo stesso punto linguistico in contesti nuovi.\n1. Completa: La classe viaggia __ treno. (mezzo di trasporto)",
+   "modelAnswer": "1. in",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

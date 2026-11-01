@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-119",
+ "title": "La corsa a coppie (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La corsa a coppie (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3119
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi «La corsa a coppie» con Giulio ed Elio al posto di Giulia ed Eva. Mantieni i tempi; cambia nomi, accordi e pronomi necessari.",
+   "modelAnswer": "La squadra della scuola aveva preparato una corsa a coppie nel parco. Il regolamento prevedeva che i compagni arrivassero insieme, non che uno aspettasse l’altro soltanto alla fine. Giulio correva più velocemente di Elio e all’inizio pensava che avrebbe dovuto rallentare senza ottenere nulla in cambio.\nPrima della partenza i due ragazzi hanno parlato del percorso. Elio aveva osservato bene la mappa e aveva individuato alcuni punti in cui era facile sbagliare direzione. Giulio invece aveva provato la salita e sapeva dove conveniva mantenere un ritmo regolare. Si sono divisi i compiti senza fare una gara fra le proprie capacità.\nDurante la corsa Giulio ha preso una curva troppo presto. Elio lo ha chiamato e i due sono tornati sul percorso. Poco dopo Elio ha rallentato. Giulio ha adattato il passo e ha proposto di ripartire insieme dopo una breve pausa. Nessuno dei due ha accusato l’altro.\nAll’arrivo non erano primi, ma avevano rispettato la regola che rendeva diversa quella corsa. L’organizzatore ha chiesto a ogni coppia che cosa avesse imparato. Giulio ha risposto che conoscere il percorso contava quanto essere veloci; Elio ha aggiunto che chiedere di rallentare non significava rinunciare. La gara è immaginaria e non offre indicazioni per un allenamento reale.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "La squadra della scuola aveva preparato una corsa a coppie nel parco. Il regolamento prevedeva che i compagni arrivassero insieme, non che uno aspettasse l’altro soltanto alla fine. Giulia correva più velocemente di Eva e all’inizio pensava che avrebbe dovuto rallentare senza ottenere nulla in cambio.\nPrima della partenza le due ragazze hanno parlato del percorso. Eva aveva osservato bene la mappa e aveva individuato alcuni punti in cui era facile sbagliare direzione. Giulia invece aveva provato la salita e sapeva dove conveniva mantenere un ritmo regolare. Si sono divise i compiti senza fare una gara fra le proprie capacità.\nDurante la corsa Giulia ha preso una curva troppo presto. Eva l’ha chiamata e le due sono tornate sul percorso. Poco dopo Eva ha rallentato. Giulia ha adattato il passo e ha proposto di ripartire insieme dopo una breve pausa. Nessuna delle due ha accusato l’altra.\nAll’arrivo non erano prime, ma avevano rispettato la regola che rendeva diversa quella corsa. L’organizzatore ha chiesto a ogni coppia che cosa avesse imparato. Giulia ha risposto che conoscere il percorso contava quanto essere veloci; Eva ha aggiunto che chiedere di rallentare non significava rinunciare. La gara è immaginaria e non offre indicazioni per un allenamento reale.\nPrima di tornare a casa, le ragazze hanno riletto insieme il regolamento. All’inizio avevano notato soprattutto la distanza e l’orario di partenza. Ora vedevano la frase sull’arrivo in coppia in modo diverso. Non era un ostacolo aggiunto alla corsa: era il motivo per cui l’attività richiedeva collaborazione.\nNel diario del gruppo hanno descritto due decisioni concrete, evitando di scrivere soltanto che «è stato bello stare insieme». Hanno raccontato la curva sbagliata e il cambiamento di ritmo, perché quei passaggi mostravano come si erano aiutate. Al prossimo incontro avrebbero ascoltato le altre coppie. Forse qualcuno aveva trovato un modo diverso di organizzarsi e avrebbe potuto spiegarlo. Anche dopo l’arrivo restava qualcosa da imparare.",
+  "title": "La corsa a coppie"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-037",
+ "title": "Due corsi, due ritmi",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Due corsi, due ritmi · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1037
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nQuale corso costa sessanta euro?",
+   "modelAnswer": "Officina Foto.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Quale corso si svolge il sabato?",
+   "modelAnswer": "Sguardi di sabato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Quale corso permette di usare una macchina fotografica?",
+   "modelAnswer": "Officina Foto.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Quale corso dura tre incontri?",
+   "modelAnswer": "Sguardi di sabato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Quale gruppo può avere quindici partecipanti?",
+   "modelAnswer": "Sguardi di sabato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Officina Foto offre una prova gratuita?",
+   "modelAnswer": "No.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "A — OFFICINA FOTO. Il corso per principianti si svolge il lunedì e il giovedì dalle diciotto alle diciannove e trenta. Dura quattro settimane e costa sessanta euro. Ogni gruppo ha al massimo dieci persone. È possibile usare una macchina fotografica o il telefono. La prima lezione presenta luce e inquadratura; le altre includono brevi esercizi all’aperto. In caso di pioggia si lavora nella sala del centro. Non sono previste lezioni di prova gratuite. I partecipanti ricevono una scheda con il programma.\nB — SGUARDI DI SABATO. Questo laboratorio gratuito comprende tre incontri di due ore, sempre il sabato mattina. Si lavora soltanto con il telefono. Non è necessario conoscere programmi di fotografia. Il gruppo può ospitare fino a quindici persone. Ogni partecipante sceglie un oggetto del quartiere e lo fotografa da punti di vista diversi. Nell’ultimo incontro, tutti presentano cinque immagini e spiegano la scelta. Per partecipare bisogna prenotare; chi non può venire è invitato ad avvisare il centro. I due corsi sono offerte immaginarie create per l’esercizio, non annunci reali."
+ }
+}

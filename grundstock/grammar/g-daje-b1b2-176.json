@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-176",
+ "title": "Due opinioni sul giornale di classe (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Confrontare posizioni e argomentare · Due opinioni sul giornale di classe (2) · livello difficile.",
+ "topics": [
+  "Confrontare posizioni e argomentare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it12-argomentare",
+  "topicTitle": "Confrontare posizioni e argomentare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3176
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Analizza il condizionale e distingui desiderio, proposta, possibilità e futuro nel passato.\n1. «Vorrei» — indica modo e valore nel contesto.\n2. «potrebbe» — indica modo e valore nel contesto.\n3. «potrebbe» — indica modo e valore nel contesto.\n4. «sarebbe» — indica modo e valore nel contesto.\n5. «avrebbe» — indica modo e valore nel contesto.\n6. «conserverebbe» — indica modo e valore nel contesto.\n7. «vorrei» — indica modo e valore nel contesto.\n8. «potremmo» — indica modo e valore nel contesto.\n9. «potrebbe» — indica modo e valore nel contesto.\n10. «conserverei» — indica modo e valore nel contesto.",
+   "modelAnswer": "1. condizionale presente. volere, condizionale presente\n2. condizionale presente. potere\n3. condizionale presente. potere\n4. condizionale presente. essere\n5. condizionale presente. avere\n6. condizionale presente. conservare, condizionale presente\n7. condizionale presente. volere, condizionale presente\n8. condizionale presente. potere, condizionale presente\n9. condizionale presente. potere\n10. condizionale presente. conservare, condizionale presente",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "A — Una pubblicazione lenta, di Irene. Preferirei un giornale che esce poche volte all’anno, ma che abbia il tempo di scegliere e verificare i contenuti. Se ogni giorno dovessimo pubblicare qualcosa, rischieremmo di scambiare la quantità per partecipazione. Vorrei che ciascuno potesse lavorare su una domanda vera, anche quando la risposta richiede più di una settimana. Un’intervista preparata con cura mi interesserebbe più di dieci messaggi che ripetono un annuncio.\nNon sono contraria agli strumenti digitali. Li userei per raccogliere proposte e correggere bozze, purché fosse chiaro quale versione stiamo leggendo. Mi preoccupa invece l’idea che tutto debba essere visibile immediatamente. Un testo non ancora controllato può contenere un nome sbagliato o una frase attribuita alla persona sbagliata. Se lo condividessimo troppo presto, la correzione potrebbe arrivare soltanto a una parte dei lettori.\nIo terrei un archivio delle versioni pubblicate e spiegherei gli eventuali cambiamenti. Non cancellerei un errore fingendo che non sia mai esistito. Inoltre sceglierei un formato stampabile: alcune persone leggono meglio su carta, altre preferiscono uno schermo. Un numero breve potrebbe circolare in entrambi i modi. Il tempo risparmiato evitando aggiornamenti continui sarebbe dedicato all’ascolto e alla revisione.\nLa mia proposta avrebbe un limite: certe notizie arriverebbero tardi. Per gli avvisi urgenti userei quindi un canale separato, con poche informazioni essenziali. Il giornale conserverebbe un altro scopo: raccontare, discutere e lasciare una traccia leggibile anche dopo qualche mese. Se tutto fosse costruito intorno all’urgenza, perderemmo questa possibilità.\n\nB — Un dialogo che continua, di Samuele. Capisco la proposta di Irene, ma vorrei che il giornale potesse ricevere risposte durante il lavoro. Un numero pubblicato soltanto alla fine rischia di sembrare concluso, mentre alcune domande cambiano grazie ai lettori. Creerei una sezione di progetti in corso, chiaramente distinta dagli articoli verificati. Non vi inserirei informazioni personali né citazioni non autorizzate: presenterei il tema e chiederei suggerimenti.\nPer esempio, se stessimo studiando l’uso del cortile, potremmo pubblicare le domande prima delle conclusioni. Un compagno che non partecipa alla redazione potrebbe indicarci un problema trascurato. Questo non significherebbe trattare ogni commento come un dato affidabile. La redazione dovrebbe controllare, confrontare e spiegare le proprie scelte. Nessuno strumento elimina quella responsabilità.\nAnch’io conserverei le versioni e segnalerei le correzioni. Aggiungerei però una data di aggiornamento e un modo semplice per contattarci. Mi piacerebbe che chi trova un errore sapesse a chi scrivere, senza doverlo trasformare in una discussione pubblica. Non chiederei ai redattori di rispondere a qualsiasi ora: definirei turni e tempi ragionevoli.\nIl mio progetto richiederebbe più organizzazione e potrebbe diventare dispersivo. Per questo lo proverei con un solo argomento. Se i commenti non aiutassero il lavoro, cambierei il sistema. Concordo con Irene sul punto principale: pubblicare non significa soltanto premere un pulsante. Divergiamo sul momento in cui coinvolgere i lettori. Forse potremmo combinare un’edizione stabile con uno spazio limitato di confronto. Entrambi questi interventi sono originali e immaginari, non testimonianze raccolte in una scuola reale.",
+  "title": "Due opinioni sul giornale di classe"
+ }
+}

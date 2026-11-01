@@ -1,0 +1,182 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-186",
+ "title": "Un cortile più verde: quattro interventi",
+ "language": "it",
+ "level": "B2",
+ "description": "Confrontare posizioni e argomentare · Un cortile più verde: quattro interventi · livello difficile.",
+ "topics": [
+  "Confrontare posizioni e argomentare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 13,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it13-argomentare",
+  "topicTitle": "Confrontare posizioni e argomentare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3186
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Questo forum è [[g1]]. I partecipanti discutono un progetto locale senza presentare le proprie opinioni come risultati scientifici.\nA — Marta. Nel cortile della nostra scuola ci sono pochi luoghi dove fermarsi all’ombra. Vorrei aggiungere piante, ma prima chiederei a una persona competente quali [[g2]] adatte allo spazio. Non mi [[g3]] [[g4]] scegliere soltanto quelle che appaiono belle in una fotografia. Occorre considerare la manutenzione, l’acqua disponibile e il passaggio delle persone. Mi piacerebbe che il progetto durasse oltre la giornata inaugurale. Per questo proporrei di [[g5]] i compiti prima di acquistare qualcosa. Chi seguirà le piante durante le vacanze? Dove saranno conservati gli attrezzi? Non sono domande contrarie all’idea: servono a renderla realizzabile.\nB — Enrico. Sono d’accordo con Marta sulla manutenzione, ma vorrei che ascoltassimo anche chi usa il cortile per muoversi. Un grande vaso collocato male può diventare un ostacolo. Dovremmo disegnare prima i percorsi e verificare che restino liberi. Inoltre non trasformerei ogni angolo in un’attività obbligatoria. A volte cerco semplicemente un posto [[g6]] dove [[g7]] con un amico. Il cortile dovrebbe offrire possibilità diverse, senza imporre a tutti lo stesso modo di trascorrere la pausa. Se avessimo pochi soldi, preferirei un intervento piccolo e ben seguito a un progetto grande che poi nessuno riesce a curare.\nC — Sara. Vorrei aggiungere una fase di osservazione. Per [[g8]] giorni potremmo annotare quali zone vengono usate e in quali orari. Non occorre registrare i nomi delle persone o [[g9]]. Potremmo descrivere soltanto gli usi dello spazio: passaggio, gioco, conversazione, riposo. Questi appunti non [[g10]] una ricerca completa, ma aiuterebbero a discutere su qualcosa di più preciso delle impressioni. Se scoprissimo che una zona resta vuota, dovremmo ancora chiederci perché. Forse è scomoda, forse è troppo esposta, forse manca una possibilità che non abbiamo immaginato. Un numero non [[g11]] da solo la spiegazione.\nD — [[g12]]. Io mi occuperei della comunicazione. Nel primo avviso eviterei frasi come «trasformeremo il cortile per tutti», perché non sappiamo ancora che cosa potremo fare. Scriverei che stiamo raccogliendo proposte e indicherei come partecipare anche senza parlare durante un’assemblea. Alcuni compagni hanno buone idee ma non amano intervenire davanti a molti. Alla fine pubblicherei una risposta alle proposte ricevute: quali sono state [[g13]], quali richiedono altri controlli e quali non sono possibili [[g14]] condizioni attuali. Non prometterei che ogni desiderio sarà soddisfatto. Mi sembra però giusto spiegare una scelta a chi ha dedicato tempo al confronto.\nConclusione della moderatrice. I quattro interventi non sono identici: Marta insiste sulla continuità, Enrico sui diversi usi, Sara sull’osservazione e Paolo sulla partecipazione. Prima della riunione prepareremo un [[g15]] che mantenga queste differenze. Non voteremo fra quattro persone, ma discuteremo i problemi che [[g16]] ha reso visibili. Un progetto condiviso non richiede che tutti dicano la stessa cosa. Richiede che le decisioni possano essere comprese e riviste quando emergono informazioni nuove.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "immaginario"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "siano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sembra"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "utile"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "definire"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tranquillo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "parlare"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "alcuni"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "fotografarle"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sarebbero"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "contiene"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Paolo"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "accolte"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "nelle"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "foglio"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "ciascuna"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2r1",
+   "type": "open_answer",
+   "prompt": "Confronta le quattro voci del forum.\nQuale priorità distingue Marta?",
+   "modelAnswer": "Continuità della manutenzione e risorse.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q2r2",
+   "type": "open_answer",
+   "prompt": "Quale priorità distingue Enrico?",
+   "modelAnswer": "Pluralità degli usi e passaggi liberi.",
+   "lines": 3
+  },
+  {
+   "id": "q2r3",
+   "type": "open_answer",
+   "prompt": "Quale priorità distingue Sara?",
+   "modelAnswer": "Osservazione prima delle conclusioni.",
+   "lines": 3
+  },
+  {
+   "id": "q2r4",
+   "type": "open_answer",
+   "prompt": "Quale priorità distingue Paolo?",
+   "modelAnswer": "Partecipazione e spiegazione delle scelte.",
+   "lines": 3
+  }
+ ]
+}

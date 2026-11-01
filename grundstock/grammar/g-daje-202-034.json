@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-034",
+ "title": "Una richiesta alla redazione (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Una richiesta alla redazione (2) · livello difficile.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1034
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Gentile redazione, mi chiamo Emma e frequento [[g1]] (articolo indeterminativo) scuola superiore. [[g2]] (articolo determinativo) nostra classe prepara [[g3]] (articolo indeterminativo) giornale in italiano e cerca [[g4]] (articolo indeterminativo) gruppo di coetanei con cui scambiare articoli. Ogni mese scegliamo [[g5]] (articolo indeterminativo) tema: [[g6]] (articolo determinativo) sport, [[g7]] (articolo determinativo) musica, [[g8]] (articolo determinativo) quartieri o le abitudini alimentari. Gli studenti scrivono testi brevi e l’insegnante ci aiuta a correggerli. Abbiamo anche una sezione di fotografie, ma pubblichiamo soltanto immagini nostre e chiediamo il permesso alle persone riconoscibili. Vorremmo conoscere le vostre modalità di partecipazione. È possibile inviare un numero di prova? Il progetto accetta anche classi che studiano l’italiano da poco? Ringrazio per l’attenzione e aspetto una risposta. Cordiali saluti, Emma.\nRisposta: Cara Emma, grazie per il tuo messaggio. Il vostro progetto ci interessa. Ti invio il modulo per presentare la classe. Non servono indirizzi privati: bastano il nome della scuola, la città, il contatto dell’insegnante e una breve descrizione delle attività. La prima scadenza è alla fine del mese. Per cominciare, proponete due argomenti e indicate quante persone lavorano al giornale. A presto, la redazione.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "i"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Compila il modulo per una classe immaginaria. Non inserire dati personali reali.\n– nome della scuola:\n– città:\n– nome inventato dell’insegnante:\n– numero di partecipanti:\n– due argomenti proposti:\n– breve descrizione del progetto:",
+   "modelAnswer": "nome della scuola: Scuola delle Idee\ncittà: Ferrara\nnome inventato dell’insegnante: professoressa Ada Riva\nnumero di partecipanti: 18\ndue argomenti proposti: sport e quartieri\nbreve descrizione del progetto: Un giornale mensile con articoli e fotografie degli studenti.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

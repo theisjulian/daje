@@ -1,0 +1,228 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-146",
+ "title": "L’imperfetto (3)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · L’imperfetto (3) · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1146
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 1/3)",
+   "text": "essere · imperfetto · io → [[g1]]\nessere · imperfetto · tu → [[g2]]\nessere · imperfetto · lui/lei → [[g3]]\nessere · imperfetto · noi → [[g4]]\nessere · imperfetto · voi → [[g5]]\nessere · imperfetto · loro → [[g6]]\navere · imperfetto · io → [[g7]]\navere · imperfetto · tu → [[g8]]\navere · imperfetto · lui/lei → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "eri"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "eravamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "eravate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avevo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avevi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 2/3)",
+   "text": "avere · imperfetto · noi → [[g1]]\navere · imperfetto · voi → [[g2]]\navere · imperfetto · loro → [[g3]]\nvolere · imperfetto · io → [[g4]]\nvolere · imperfetto · tu → [[g5]]\nvolere · imperfetto · lui/lei → [[g6]]\nvolere · imperfetto · noi → [[g7]]\nvolere · imperfetto · voi → [[g8]]\nvolere · imperfetto · loro → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avevamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avevate"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avevano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "volevo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "volevi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "voleva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "volevamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "volevate"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "volevano"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "type": "gap_fill",
+   "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 3/3)",
+   "text": "potere · imperfetto · io → [[g1]]\npotere · imperfetto · tu → [[g2]]\npotere · imperfetto · lui/lei → [[g3]]\npotere · imperfetto · noi → [[g4]]\npotere · imperfetto · voi → [[g5]]\npotere · imperfetto · loro → [[g6]]\nPronome diretto femminile plurale → [[g7]]\nPronome indiretto maschile singolare → [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "potevo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "potevi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "poteva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "potevamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "potevate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "potevano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-198",
+ "title": "Un nuovo equilibrio (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Possessivi, tempo e quantità nel testo · Un nuovo equilibrio (2) · livello medio.",
+ "topics": [
+  "Possessivi, tempo e quantità nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-tempo",
+  "topicTitle": "Possessivi, tempo e quantità nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1198
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. In queste settimane\n2. molto\n3. troppo tempo\n4. Quando finisco i compiti\n5. subito\n6. La sera\n7. Da lunedì\n8. Due pomeriggi alla settimana",
+   "modelAnswer": "1. quando\n2. quanto\n3. quanto\n4. quando\n5. quando\n6. quando\n7. quando\n8. quando / frequenza",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. spesso\n2. qualche invito\n3. a volte\n4. mezz’ora\n5. Nel fine settimana\n6. della settimana successiva\n7. ogni minuto\n8. tutto subito",
+   "modelAnswer": "1. quando / frequenza\n2. quanto\n3. quando / frequenza\n4. quanto / durata\n5. quando\n6. quando\n7. quanto / scansione temporale\n8. tutto: quantità / subito: tempo",
+   "lines": 9
+  }
+ ],
+ "reading": {
+  "text": "Caro Leo, ho deciso che voglio organizzare meglio il mio tempo. In queste settimane studio molto e passo troppo tempo davanti allo schermo. Nelle mie giornate manca una pausa vera. Quando finisco i compiti, controllo i messaggi e comincio subito un’altra attività. La sera sono stanca, ma ho la sensazione di non aver fatto quello che mi piace.\nDa lunedì cambierò alcune abitudini. Prima preparerò una lista breve e sceglierò le attività più importanti. Non riempirò ogni minuto. Due pomeriggi alla settimana uscirò per una passeggiata e lascerò il telefono nello zaino. Riprenderò anche il mio quaderno di disegni. I miei amici mi invitano spesso, però rispondo che non ho tempo; d’ora in poi accetterò qualche invito e proporrò incontri semplici. Non serve organizzare una giornata intera: a volte basta mezz’ora insieme.\nDurante i miei spostamenti leggerò qualcosa, se avrò voglia, ma non trasformerò ogni viaggio in un altro compito. Nel fine settimana controllerò il programma della settimana successiva e lascerò spazio agli imprevisti. So che non riuscirò a cambiare tutto subito. Se una scelta non funzionerà, la modificherò. Il mio obiettivo non è fare sempre di più: è capire che cosa conta per me. Tu come organizzi le tue pause? Mi interessa conoscere le tue idee. Scrivimi quando hai un momento. A presto, Eva."
+ }
+}

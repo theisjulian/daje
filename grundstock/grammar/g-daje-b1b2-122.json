@@ -1,0 +1,292 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-122",
+ "title": "La classe e il giornale incompleto",
+ "language": "it",
+ "level": "B2",
+ "description": "Leggere, analizzare e riassumere · La classe e il giornale incompleto · livello difficile.",
+ "topics": [
+  "Leggere, analizzare e riassumere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.1 Leseverstehen; 3"
+ },
+ "grammar": {
+  "topic": "it11-lettura",
+  "topicTitle": "Leggere, analizzare e riassumere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3122
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Scegli la risposta sostenuta dal testo, non quella soltanto possibile nella realtà.\nPerché il giornale contiene una pagina bianca?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "L’intervista attesa non arriva in tempo."
+    },
+    {
+     "id": "o2",
+     "text": "Il professore impone una scelta artistica."
+    },
+    {
+     "id": "o3",
+     "text": "Manca la carta per stampare."
+    }
+   ],
+   "correctOptionId": "o1",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Che cosa chiede inizialmente il professore?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il nome dell’intervistato."
+    },
+    {
+     "id": "o2",
+     "text": "Di distruggere tutte le copie."
+    },
+    {
+     "id": "o3",
+     "text": "Una spiegazione della decisione."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Quale proposta viene scartata?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Inventare risposte plausibili."
+    },
+    {
+     "id": "o2",
+     "text": "Dichiarare il problema."
+    },
+    {
+     "id": "o3",
+     "text": "Attendere un controllo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Che cosa suggerisce Teresa?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Scrivere una nota trasparente."
+    },
+    {
+     "id": "o2",
+     "text": "Copiare un articolo senza dirlo."
+    },
+    {
+     "id": "o3",
+     "text": "Nascondere il fascicolo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "A quale condizione si pubblicherà l’intervista?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Se contiene almeno dieci risposte."
+    },
+    {
+     "id": "o2",
+     "text": "Soltanto se la scrive il professore."
+    },
+    {
+     "id": "o3",
+     "text": "Dopo il controllo della persona interessata."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Dove porta il fascicolo il professore?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "In un’altra classe."
+    },
+    {
+     "id": "o2",
+     "text": "A casa della nipote di Teresa."
+    },
+    {
+     "id": "o3",
+     "text": "A una tipografia lontana."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Sono tutti d’accordo sul valore della pagina?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il testo non descrive alcun confronto."
+    },
+    {
+     "id": "o2",
+     "text": "No, alcuni la giudicano inutile e altri significativa."
+    },
+    {
+     "id": "o3",
+     "text": "Sì, tutti la considerano inutile."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r8",
+   "type": "single_choice",
+   "prompt": "Che cosa dura più della lettura degli altri articoli?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La stampa del secondo numero."
+    },
+    {
+     "id": "o2",
+     "text": "Il dibattito sulla pagina vuota."
+    },
+    {
+     "id": "o3",
+     "text": "La telefonata con l’intervistato."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r9",
+   "type": "single_choice",
+   "prompt": "Che cosa ritrova Teresa molti anni dopo?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Tutti i numeri del giornale."
+    },
+    {
+     "id": "o2",
+     "text": "L’intervista originale firmata."
+    },
+    {
+     "id": "o3",
+     "text": "Il primo fascicolo."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r10",
+   "type": "single_choice",
+   "prompt": "Che cosa sta preparando la nipote?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Un album di famiglia."
+    },
+    {
+     "id": "o2",
+     "text": "Una mostra di quadri."
+    },
+    {
+     "id": "o3",
+     "text": "Un blog."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r11",
+   "type": "single_choice",
+   "prompt": "Teresa sa se l’intervista sia arrivata?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "No, non lo ricorda più."
+    },
+    {
+     "id": "o2",
+     "text": "Sì, ricorda ogni dettaglio."
+    },
+    {
+     "id": "o3",
+     "text": "Sì, l’ha scritta lei stessa."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r12",
+   "type": "single_choice",
+   "prompt": "Quale comportamento conclude il racconto?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Teresa ammette un limite della propria memoria."
+    },
+    {
+     "id": "o2",
+     "text": "Teresa elimina la pagina dall’album."
+    },
+    {
+     "id": "o3",
+     "text": "Teresa inventa un finale perfetto."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ],
+ "reading": {
+  "text": "Nel suo ultimo anno di scuola, Teresa partecipò alla redazione di un giornale. Il primo numero uscì con una pagina bianca. Non era una scelta artistica: il gruppo aveva aspettato un’intervista che non arrivò in tempo. Quando il professore vide il fascicolo, non disse subito che cosa ne pensava. Chiese agli studenti di spiegare la decisione.\nTeresa ricordava bene la discussione. Qualcuno voleva inventare alcune risposte plausibili; altri proponevano di copiare un vecchio articolo. Lei aveva suggerito di dichiarare il problema. Avevano quindi scritto una nota: l’intervista non era disponibile e sarebbe stata pubblicata soltanto dopo il controllo della persona interessata. La pagina rimasta vuota mostrava un limite del lavoro, ma evitava di nasconderlo.\nIl professore prese il fascicolo e lo portò in un’altra classe. Chiese se quella pagina fosse inutile. Alcuni ragazzi dissero di sì; altri notarono che insegnava qualcosa sul modo in cui si produce un giornale. Una risposta mancata non autorizza a creare una voce falsa. Il dibattito durò più della lettura degli altri articoli.\nMolti anni dopo Teresa ritrovò il fascicolo. Aveva dimenticato quasi tutti i titoli, ma ricordava la pagina vuota. La mostrò a sua nipote, che stava preparando un blog. La ragazza domandò se avessero poi ricevuto l’intervista. Teresa non lo sapeva più: possedeva soltanto il primo numero. Non trasformò quel vuoto di memoria in un finale perfetto. Disse che avrebbe cercato gli altri fascicoli e, se li avesse trovati, le avrebbe raccontato il seguito. Anche una storia personale può restare incompleta. Il racconto è originale e interamente fittizio.\nLa nipote prese nota di quella distinzione: un ricordo sicuro, un dettaglio incerto e una domanda da controllare. Nel suo blog avrebbe potuto raccontare l’episodio della pagina bianca, ma avrebbe indicato che il seguito non era noto. Non le sembrò una storia meno interessante. Le sembrò una storia in cui il lettore poteva capire meglio il confine fra testimonianza e ricostruzione.",
+  "title": "La classe e il giornale incompleto"
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-014",
+ "title": "L’ora e i giorni della settimana (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "L’ora e i giorni della settimana · L’ora e i giorni della settimana (1) · livello facile.",
+ "topics": [
+  "L’ora e i giorni della settimana",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "L’ora e i giorni della settimana",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1014
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/3)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "giorni"
+    },
+    {
+     "id": "c2",
+     "label": "mesi"
+    },
+    {
+     "id": "c3",
+     "label": "stagioni"
+    },
+    {
+     "id": "c4",
+     "label": "numeri"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "sessantatré",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "autunno",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "sabato",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "dicembre",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "centodieci",
+     "category": "c4"
+    },
+    {
+     "id": "i6",
+     "text": "primavera",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "martedì",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "mercoledì",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "domenica",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "trentasei",
+     "category": "c4"
+    },
+    {
+     "id": "i11",
+     "text": "gennaio",
+     "category": "c2"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/3)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "giorni"
+    },
+    {
+     "id": "c2",
+     "label": "mesi"
+    },
+    {
+     "id": "c3",
+     "label": "stagioni"
+    },
+    {
+     "id": "c4",
+     "label": "numeri"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "maggio",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "ottantasette",
+     "category": "c4"
+    },
+    {
+     "id": "i3",
+     "text": "estate",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "giovedì",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "novembre",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "cinquantuno",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "novantanove",
+     "category": "c4"
+    },
+    {
+     "id": "i8",
+     "text": "settantacinque",
+     "category": "c4"
+    },
+    {
+     "id": "i9",
+     "text": "ventidue",
+     "category": "c4"
+    },
+    {
+     "id": "i10",
+     "text": "marzo",
+     "category": "c2"
+    },
+    {
+     "id": "i11",
+     "text": "ottobre",
+     "category": "c2"
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 3/3)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "giorni"
+    },
+    {
+     "id": "c2",
+     "label": "mesi"
+    },
+    {
+     "id": "c3",
+     "label": "stagioni"
+    },
+    {
+     "id": "c4",
+     "label": "numeri"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "lunedì",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "luglio",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "quarantotto",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "inverno",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "venerdì",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "aprile",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "settembre",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "giugno",
+     "category": "c2"
+    },
+    {
+     "id": "i9",
+     "text": "agosto",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "febbraio",
+     "category": "c2"
+    }
+   ]
+  }
+ ]
+}

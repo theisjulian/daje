@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-031",
+ "title": "La prima sera alla residenza (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · La prima sera alla residenza (2) · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3031
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Sono arrivata [[g1]] residenza con una valigia e uno zaino troppo pesante. L’ingresso era aperto, ma la reception era vuota. [[g2]] banco c’era un foglio: invitava gli ospiti a chiamare il numero interno. Ho aspettato qualche minuto, poi è arrivata un’addetta con due chiavi.\nMi ha accompagnata [[g3]] (a + il) secondo piano e mi ha mostrato la cucina [[g4]] (di + la) residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava [[g5]] stanza accanto. Il frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima di dormire ho scritto [[g6]] (a + i) miei amici. Gli ho raccontato [[g7]] viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato una foto; le interessava soprattutto la finestra. Dava su un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo di disturbare. Tuttavia sono tornata in cucina a prendere dell’acqua. La mia vicina stava preparando una tisana e mi ha offerto una tazza. Abbiamo parlato [[g8]] (di + i) nostri corsi e [[g9]] (di + le) cose che ci mancavano. Quando sono rientrata in camera, il posto sembrava già meno estraneo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "alla"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Sul"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "al"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ai"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "La proposta viene ___ gruppi. (da + i) → [[g1]]\nRaccogliamo le opinioni ___ lettori. (di + i) → [[g2]]\nL’avviso compare ___ sito. (su + il) → [[g3]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dai"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sul"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

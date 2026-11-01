@@ -1,0 +1,134 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-193",
+ "title": "Leggere una percentuale",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Leggere una percentuale · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Istat – Il volontariato in Italia – Anno 2023 (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.istat.it/comunicato-stampa/il-volontariato-in-italia-anno-2023/",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3193
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Trasforma al plurale le espressioni usate per discutere dati e fonti. Mantieni il tempo e la struttura; queste frasi sono applicazioni linguistiche, non nuovi risultati Istat.",
+   "text": "Il dato è stato pubblicato → I dati … → [[g1]]\nLa percentuale è precisa → Le percentuali … → [[g2]]\nL’attività è gratuita → Le attività … → [[g3]]\nIl periodo è breve → I periodi … → [[g4]]\nLa domanda è stata corretta → Le domande … → [[g5]]\nL’esempio è inventato → Gli esempi … → [[g6]]\nLa fonte è indicata → Le fonti … → [[g7]]\nIl gruppo è distinto → I gruppi … → [[g8]]\nL’informazione è verificata → Le informazioni … → [[g9]]\nIl titolo è ingannevole → I titoli … → [[g10]]\nLa risposta è stata raccolta → Le risposte … → [[g11]]\nIl confronto è utile → I confronti … → [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono stati pubblicati"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sono precise"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono gratuite"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sono brevi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sono state corrette"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono inventati"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono indicate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sono distinti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "sono verificate"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sono ingannevoli"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "sono state raccolte"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "sono utili"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  }
+ ]
+}

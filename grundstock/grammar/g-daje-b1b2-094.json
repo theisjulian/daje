@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-094",
+ "title": "Racconta un progetto in cui un imprevisto ti ha costretto a …",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Racconta un progetto in cui un imprevisto ti ha costretto a … · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3094
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Racconta un progetto in cui un imprevisto ti ha costretto a cambiare programma. Può essere inventato, ma dichiaralo. Usa passato prossimo, imperfetto e almeno due trapassati. 180–240 parole.",
+   "modelAnswer": "Questo episodio è inventato. La nostra classe aveva preparato una presentazione per gli studenti più giovani. Avevamo registrato brevi video e organizzato il lavoro in quattro gruppi. Il giorno dell’incontro eravamo emozionati e io controllavo continuamente il programma sul telefono.\nQuando siamo entrati nell’aula, abbiamo scoperto che il proiettore non funzionava. Un compagno ha cercato aiuto, ma non era possibile risolvere subito il problema. All’inizio nessuno parlava: ci sembrava di aver perso tutto il lavoro. Poi una ragazza ha proposto di usare le immagini stampate che avevamo portato come materiale di riserva.\nAbbiamo spostato le sedie e diviso i visitatori in piccoli gruppi. Invece di guardare i video, hanno ascoltato i nostri racconti e fatto domande. Io avevo paura di dimenticare le parole, ma le domande mi hanno aiutato a capire che cosa interessava davvero. Alcuni dettagli che nel video erano poco chiari sono diventati l’argomento principale della discussione.\nAlla fine abbiamo raccolto i commenti e promesso di inviare i collegamenti ai materiali autorizzati. Non direi che l’imprevisto sia stato una fortuna: ci ha creato una difficoltà concreta. Abbiamo però trovato una soluzione perché avevamo preparato bene i contenuti e ci siamo ascoltati. La volta successiva abbiamo provato anche un piano senza schermo.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

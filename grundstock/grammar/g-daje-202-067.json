@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-067",
+ "title": "Tre voci per la radio della scuola",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Tre voci per la radio della scuola · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1067
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "categorize",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella.",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "verbo"
+    },
+    {
+     "id": "c2",
+     "label": "sostantivo"
+    },
+    {
+     "id": "c3",
+     "label": "articolo indeterminativo"
+    },
+    {
+     "id": "c4",
+     "label": "aggettivo"
+    },
+    {
+     "id": "c5",
+     "label": "aggettivo possessivo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "sono Daria: sono",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "sedici anni: anni",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "una trasmissione: una",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "mi sento tranquilla: tranquilla",
+     "category": "c4"
+    },
+    {
+     "id": "i5",
+     "text": "ascolto musica: musica",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "i miei genitori: miei",
+     "category": "c5"
+    },
+    {
+     "id": "i7",
+     "text": "quando posso: posso",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "sono nuova: nuova",
+     "category": "c4"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  }
+ ],
+ "reading": {
+  "text": "A — Ciao, sono Daria. Ho sedici anni e vivo a Ferrara con mio padre e mia sorella. Frequento un istituto tecnico e studio informatica. Il mercoledì preparo una trasmissione per la radio della scuola. Cerco storie curiose, faccio domande e registro le risposte. Non parlo molto davanti a tante persone, ma con un microfono mi sento tranquilla. Amo i gatti e leggo fumetti. Nel fine settimana lavoro qualche ora nel negozio di mia zia.\nB — Mi chiamo Karim e abito a Modena. Sono un compagno di Daria, ma non studio nella sua scuola. Ho diciassette anni, suono il basso e ascolto musica di tanti paesi. Noi del gruppo proviamo il venerdì sera. I miei genitori hanno un piccolo ristorante. Quando posso, aiuto in cucina. Per la radio scelgo le canzoni e controllo il volume. Non canto: preferisco stare dietro al banco del suono.\nC — Io sono Viola, ho quindici anni e sono nuova nel gruppo. Vengo da una città sul mare, ma adesso abito vicino a Ferrara. Mi piacciono gli animali e le passeggiate. Scrivo brevi racconti e desidero leggere uno dei miei testi alla radio. Voi avete un consiglio per me? Siete esperti di registrazione? Io ho molte idee, ma ho ancora poca esperienza."
+ }
+}

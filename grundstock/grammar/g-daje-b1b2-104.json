@@ -1,0 +1,82 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-104",
+ "title": "Il cinema nel cortile",
+ "language": "it",
+ "level": "B2",
+ "description": "Relativi, il/la cui e il che · Il cinema nel cortile · livello difficile.",
+ "topics": [
+  "Relativi, il/la cui e il che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-relativi",
+  "topicTitle": "Relativi, il/la cui e il che",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3104
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Quando il nostro gruppo cercava un luogo per una rassegna, il cortile del centro civico sembrava perfetto. Alcuni vicini però temevano il rumore e il custode diceva che mancavano prese adatte. Prima di annunciare il programma, abbiamo organizzato un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente avrebbe creato troppe difficoltà.\nUna vicina ha suggerito due serate al mese. Un tecnico ha controllato l’impianto e ha spiegato quali attrezzature servivano. Noi prendevamo appunti e confrontavamo le possibilità. Potremmo cominciare con una prova, vorremmo ascoltare il parere di tutti: erano le frasi che ripetevamo più spesso.\nIl primo appuntamento è stato un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza [[g1]] (relativo soggetto) studiava suono ha regolato il volume. Il telo [[g2]] (relativo oggetto) avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona [[g3]] (relativo soggetto) inizialmente era contraria ci ha chiesto la data successiva. Non tutti i problemi erano risolti, ma il confronto aveva prodotto un programma possibile. La rassegna non è diventata enorme: è rimasta abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Unisci le frasi di applicazione al testo con il relativo che. Non cambiare il significato.\n1. La classe prepara una rassegna. La rassegna si svolge nel cortile.\n2. Abbiamo ascoltato una vicina. La vicina temeva il rumore.\n3. Il tecnico controlla l’impianto. L’impianto serve alla proiezione.\n4. Arriva una ragazza. La ragazza studia suono.\n5. Mostriamo un lavoro. Gli studenti hanno realizzato il lavoro.\n6. Leggiamo un avviso. La responsabile ha scritto l’avviso.\n7. Spostiamo il telo. Il vento muove il telo.\n8. Invitiamo i vicini. I vicini hanno partecipato alla riunione.\n9. Raccogliamo le domande. I visitatori hanno lasciato le domande.",
+   "modelAnswer": "1. La classe prepara una rassegna che si svolge nel cortile.\n2. Abbiamo ascoltato una vicina che temeva il rumore.\n3. Il tecnico controlla l’impianto che serve alla proiezione.\n4. Arriva una ragazza che studia suono.\n5. Mostriamo un lavoro che gli studenti hanno realizzato.\n6. Leggiamo un avviso che la responsabile ha scritto.\n7. Spostiamo il telo che il vento muove.\n8. Invitiamo i vicini che hanno partecipato alla riunione.\n9. Raccogliamo le domande che i visitatori hanno lasciato.",
+   "lines": 10,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

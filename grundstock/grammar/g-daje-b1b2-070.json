@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-070",
+ "title": "Se potessimo scegliere: sei proposte (4)",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se potessimo scegliere: sei proposte (4) · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3070
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Dopo le sei proposte di «Se potessimo scegliere», scrivi una settima proposta. Spiega uso della stanza, destinatari, condizioni e un limite. Usa almeno quattro condizionali e due ipotesi con se + congiuntivo imperfetto. 180–240 parole.",
+   "modelAnswer": "Se potessimo scegliere un’altra attività per la stanza libera, proporrei un piccolo laboratorio di giochi da tavolo creati dagli studenti. Non comprerei subito molti giochi: comincerei con materiali semplici e inviterei i compagni a inventare regole comprensibili. Chi non ama disegnare potrebbe scrivere le istruzioni o provare i giochi degli altri.\nLa stanza aprirebbe un pomeriggio alla settimana. Se avessimo un armadio, conserveremmo ogni progetto in una scatola con il nome del gruppo e la data dell’ultima revisione. Prima di usare un gioco, due persone che non lo conoscono dovrebbero leggere le istruzioni senza ricevere spiegazioni dagli autori. In questo modo scopriremmo quali regole sono poco chiare.\nIl progetto potrebbe aiutare a collaborare, ma non vorrei promettere che piacerebbe a tutti. Alcuni preferiscono attività più tranquille o non amano competere. Perciò proporrei anche giochi cooperativi, nei quali il gruppo cerca una soluzione comune. Nessuno sarebbe obbligato a partecipare a una gara.\nIl limite principale sarebbe il tempo necessario per seguire i progetti. Se mancasse una persona disponibile ad accompagnarci, inizierei con un solo gruppo e pochi incontri. Alla fine raccoglierei osservazioni e deciderei insieme agli altri se continuare. Mi interesserebbe soprattutto imparare a spiegare bene un’idea e a modificarla dopo aver ascoltato chi la prova.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

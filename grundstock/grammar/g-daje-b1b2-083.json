@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-083",
+ "title": "Il sentiero interrotto",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Il sentiero interrotto · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3083
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]] · 11. [[g11]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "K"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "J"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis K im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio.\n\nB — Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto.\n\nC — Una piccola esposizione raccontava la costruzione del vecchio acquedotto.\n\nD — Nel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno.\n\nE — Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo. All’uscita un volontario ha mostrato alcune fotografie.\n\nF — La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida.\n\nG — Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino.\n\nH — Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata. La guida ha proposto un itinerario diverso, lungo una strada accessibile.\n\nI — Il percorso previsto non era praticabile.\n\nJ — Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.\n\nK — Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci."
+ }
+}

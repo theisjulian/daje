@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-187",
+ "title": "Informazioni al centro culturale (3)",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Informazioni al centro culturale (3) · livello medio.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1187
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. avrei bisogno\n2. informazioni\n3. Mi dica\n4. serale\n5. Lavoro\n6. alle diciotto\n7. Quattro settimane\n8. Può usare",
+   "modelAnswer": "1. condizionale presente, io\n2. sostantivo femminile plurale\n3. disponibilità ad ascoltare\n4. aggettivo\n5. presente indicativo, io\n6. preposizione articolata a + le\n7. durata\n8. possibilità espressa con potere",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. Guardi\n2. Per favore\n3. salga\n4. prenda\n5. Compili\n6. lo consegni\n7. Non si preoccupi",
+   "modelAnswer": "1. imperativo formale\n2. espressione di cortesia\n3. imperativo formale di salire\n4. imperativo formale di prendere\n5. imperativo formale di compilare\n6. lo si riferisce al modulo\n7. invito a non preoccuparsi, registro formale",
+   "lines": 8
+  }
+ ],
+ "reading": {
+  "text": "Visitatore: Buongiorno, scusi, avrei bisogno di alcune informazioni sul corso di fotografia.\nAddetta: Mi dica. Cerca il corso del sabato o quello serale?\nVisitatore: Quello serale. Lavoro fino alle cinque e posso arrivare qui alle sei.\nAddetta: Allora va bene. Le lezioni cominciano alle diciotto e trenta.\nVisitatore: Quanto dura il corso?\nAddetta: Quattro settimane, con due incontri alla settimana. Ogni incontro dura un’ora e mezza.\nVisitatore: Devo portare una macchina fotografica?\nAddetta: Può usare anche il telefono. Guardi, nel programma trova tutte le informazioni.\nVisitatore: Grazie. E dove si svolgono le lezioni?\nAddetta: Nella sala al primo piano. Per favore, salga dalle scale a sinistra oppure prenda l’ascensore.\nVisitatore: Posso iscrivermi adesso?\nAddetta: Certo. Compili questo modulo e lo consegni alla reception. Non si preoccupi se non conosce ancora tutti i termini: il corso è per principianti.\nVisitatore: Bene, allora leggo il programma e torno fra poco.\nAddetta: Va bene. Siamo qui fino alle sette. Arrivederci!"
+ }
+}

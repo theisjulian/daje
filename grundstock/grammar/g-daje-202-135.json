@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-135",
+ "title": "Il cortile della mia infanzia (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Il cortile della mia infanzia (2) · livello difficile.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1135
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Raccontate l’infanzia di due sorelle: noi. I vicini e la nonna restano gli stessi.",
+   "modelAnswer": "Quando eravamo piccole, abitavamo in un edificio con un cortile grande. Non c’erano automobili nel cortile e noi bambini avevamo molto spazio. Ogni pomeriggio scendevamo dopo i compiti e chiamavamo gli amici dalle finestre. Nostra nonna sedeva su una panchina e parlava con i vicini. Alcune persone coltivavano piante in vecchi vasi; altre riparavano oggetti davanti alle cantine. Noi portavamo un quaderno e disegnavamo quello che vedevamo. Ci piacevano soprattutto le biciclette, perché ogni ruota aveva forme difficili da riprodurre.\nD’estate restavamo fuori fino a tardi. Inventavamo giochi, dividevamo il cortile in piccoli territori e cambiavamo le regole quando arrivava qualcuno di nuovo. Se litigavamo, la nonna ci ascoltava e ci chiedeva di spiegare il problema. Non decideva subito chi aveva ragione. Una sera un vicino ha portato un vecchio proiettore e ha appeso un telo bianco. Abbiamo guardato fotografie del quartiere e abbiamo riconosciuto alcuni luoghi. Prima del nostro palazzo c’era un giardino: per noi era una scoperta. Da quella sera abbiamo cominciato a chiedere storie agli adulti. Oggi il cortile è cambiato, ma quando torniamo riconosciamo ancora la panchina. Ci ricorda un tempo in cui una piccola avventura poteva cominciare proprio sotto casa.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Quando ero piccola, abitavo in un edificio con un cortile grande. Non c’erano automobili nel cortile e noi bambini avevamo molto spazio. Ogni pomeriggio scendevo dopo i compiti e chiamavo gli amici dalle finestre. Mia nonna sedeva su una panchina e parlava con i vicini. Alcune persone coltivavano piante in vecchi vasi; altre riparavano oggetti davanti alle cantine. Io portavo un quaderno e disegnavo quello che vedevo. Mi piacevano soprattutto le biciclette, perché ogni ruota aveva forme difficili da riprodurre.\nD’estate restavamo fuori fino a tardi. Inventavamo giochi, dividevamo il cortile in piccoli territori e cambiavamo le regole quando arrivava qualcuno di nuovo. Se litigavamo, la nonna ci ascoltava e ci chiedeva di spiegare il problema. Non decideva subito chi aveva ragione. Una sera un vicino ha portato un vecchio proiettore e ha appeso un telo bianco. Abbiamo guardato fotografie del quartiere e abbiamo riconosciuto alcuni luoghi. Prima del nostro palazzo c’era un giardino: per me era una scoperta. Da quella sera ho cominciato a chiedere storie agli adulti. Oggi il cortile è cambiato, ma quando torno riconosco ancora la panchina. Mi ricorda un tempo in cui una piccola avventura poteva cominciare proprio sotto casa."
+ }
+}

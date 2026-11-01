@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-067",
+ "title": "La biblioteca dopo il temporale",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · La biblioteca dopo il temporale · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3067
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "F"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis G im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Alla fine della giornata il volontario ha scritto un breve rapporto. Era contento di essere stato utile, ma non voleva trasformare il proprio intervento in una storia eroica. Il risultato dipendeva dal lavoro di molte persone e da istruzioni chiare.\n\nB — Ha preparato un elenco dei compiti autorizzati: spostare le sedie asciutte, aggiornare gli avvisi e rispondere alle domande dei visitatori. Non ha toccato i libri bagnati, che richiedevano indicazioni competenti.\n\nC — Alcuni lettori hanno offerto aiuto, ma prima di accettarlo era necessario capire quali attività potessero essere svolte senza rischi e senza danneggiare i materiali. Il volontario incaricato della comunicazione è arrivato nel pomeriggio. Era stanco dopo il lavoro, ma ha ascoltato con attenzione le indicazioni.\n\nD — Un bambino cercava un libro prenotato; il volontario ha controllato il numero e lo ha consegnato alla collega, che ha completato il prestito. Il bambino è andato via soddisfatto.\n\nE — Poi è uscito a comprare alcune cartelline. Quando è tornato, ha trovato una coda all’ingresso. Ha spiegato che parte della biblioteca rimaneva aperta e ha accompagnato i lettori al banco provvisorio.\n\nF — La settimana seguente è tornato per aiutare con gli avvisi aggiornati. La continuità, ha pensato, conta anche quando l’emergenza non fa più notizia.\n\nG — Dopo un temporale, una piccola biblioteca immaginaria ha trovato acqua vicino alla finestra della sala ragazzi. La responsabile ha chiuso la zona e ha chiesto un controllo dell’edificio."
+ }
+}

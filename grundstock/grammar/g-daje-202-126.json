@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-126",
+ "title": "Insalata di couscous per quattro (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo (tu, voi) e la negazione · Insalata di couscous per quattro (1) · livello medio.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1126
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci un ordine coerente. Usa domande, risposte e indicatori temporali. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "J"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis J im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Coprite e aspettate il tempo necessario.\n\nB — Condite con olio, limone e basilico secondo il vostro gusto.\n\nC — Lavate le verdure e asciugatele.\n\nD — Poi separate i granelli con una forchetta.\n\nE — Scolate i ceci e uniteli al couscous.\n\nF — Tagliate pomodori e cetriolo e grattugiate la carota.\n\nG — Versate il couscous in una ciotola e aggiungete l’acqua come indicato.\n\nH — Aggiungete le verdure e mescolate.\n\nI — Prima leggete le istruzioni sulla confezione del couscous.\n\nJ — Infine dividete in quattro porzioni e servite."
+ }
+}

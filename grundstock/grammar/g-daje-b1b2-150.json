@@ -1,0 +1,94 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-150",
+ "title": "La prima sera alla residenza",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · La prima sera alla residenza · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3150
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Indica a chi o a che cosa rinvia ciascuna espressione. Cita anche il contesto, non soltanto la parola isolata.\ngli ospiti",
+   "modelAnswer": "Le persone che soggiornano nella residenza.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "lo avremmo usato",
+   "modelAnswer": "Lo = il frigorifero.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "le potevamo scegliere",
+   "modelAnswer": "Le = le stoviglie.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Gli ho raccontato",
+   "modelAnswer": "Gli = a Paolo.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "le interessava",
+   "modelAnswer": "Le = alla sorella.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "mi ha offerto",
+   "modelAnswer": "Mi = alla narratrice.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Sono arrivata alla residenza con una valigia e uno zaino troppo pesante. L’ingresso era aperto, ma la reception era vuota. Sul banco c’era un foglio: invitava gli ospiti a chiamare il numero interno. Ho aspettato qualche minuto, poi è arrivata un’addetta con due chiavi.\nMi ha accompagnata al secondo piano e mi ha mostrato la cucina della residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava nella stanza accanto. Il frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima di dormire ho scritto ai miei amici. Gli ho raccontato del viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato una foto; le interessava soprattutto la finestra. Dava su un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo di disturbare. Tuttavia sono tornata in cucina a prendere dell’acqua. La mia vicina stava preparando una tisana e mi ha offerto una tazza. Abbiamo parlato dei nostri corsi e delle cose che ci mancavano. Quando sono rientrata in camera, il posto sembrava già meno estraneo.",
+  "title": "La prima sera alla residenza"
+ }
+}

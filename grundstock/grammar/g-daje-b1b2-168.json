@@ -1,0 +1,188 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-168",
+ "title": "Il sentiero interrotto",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Il sentiero interrotto · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3168
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "La mattina"
+    },
+    {
+     "id": "p2",
+     "text": "della passeggiata"
+    },
+    {
+     "id": "p3",
+     "text": "Marta controllava"
+    },
+    {
+     "id": "p4",
+     "text": "il cielo"
+    },
+    {
+     "id": "p5",
+     "text": "dalla finestra."
+    }
+   ],
+   "explanation": "La mattina della passeggiata Marta controllava il cielo dalla finestra.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q1s2",
+   "type": "ordering",
+   "prompt": "Frase 2: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Durante la notte"
+    },
+    {
+     "id": "p2",
+     "text": "aveva piovuto e"
+    },
+    {
+     "id": "p3",
+     "text": "il gruppo aveva"
+    },
+    {
+     "id": "p4",
+     "text": "ricevuto un messaggio"
+    },
+    {
+     "id": "p5",
+     "text": "dalla guida."
+    }
+   ],
+   "explanation": "Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida."
+  },
+  {
+   "id": "q1s3",
+   "type": "ordering",
+   "prompt": "Frase 3: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Il percorso"
+    },
+    {
+     "id": "p2",
+     "text": "previsto non"
+    },
+    {
+     "id": "p3",
+     "text": "era praticabile."
+    }
+   ],
+   "explanation": "Il percorso previsto non era praticabile."
+  },
+  {
+   "id": "q1s4",
+   "type": "ordering",
+   "prompt": "Frase 4: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Marta aveva preparato"
+    },
+    {
+     "id": "p2",
+     "text": "lo zaino la"
+    },
+    {
+     "id": "p3",
+     "text": "sera prima e"
+    },
+    {
+     "id": "p4",
+     "text": "era delusa, ma"
+    },
+    {
+     "id": "p5",
+     "text": "non voleva rinunciare"
+    },
+    {
+     "id": "p6",
+     "text": "all’intera giornata."
+    }
+   ],
+   "explanation": "Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata."
+  },
+  {
+   "id": "q1s5",
+   "type": "ordering",
+   "prompt": "Frase 5: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "La guida"
+    },
+    {
+     "id": "p2",
+     "text": "ha proposto"
+    },
+    {
+     "id": "p3",
+     "text": "un itinerario"
+    },
+    {
+     "id": "p4",
+     "text": "diverso, lungo"
+    },
+    {
+     "id": "p5",
+     "text": "una strada"
+    },
+    {
+     "id": "p6",
+     "text": "accessibile."
+    }
+   ],
+   "explanation": "La guida ha proposto un itinerario diverso, lungo una strada accessibile."
+  }
+ ]
+}

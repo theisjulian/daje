@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-149",
+ "title": "Due modi di abitare",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Due modi di abitare · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3149
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "A — Lettera di Livia. Vivo in un paese e raggiungo la scuola in autobus. [[g1]] (a Livia) piace conoscere i vicini: quando ho perso le chiavi, una signora [[g2]] (a Livia) ha fatto aspettare in casa sua. Però non vorrei che questo diventasse un’immagine troppo semplice della vita fuori città. La sera non passa nessun autobus e dipendo spesso dai miei genitori. Una biblioteca più vicina [[g3]] (a Livia) sarebbe utile quanto un giardino. Non sogno di andarmene per sempre; vorrei poter scegliere dove trascorrere un pomeriggio senza organizzarlo tre giorni prima.\nB — Risposta di Omar. Abito in città, sopra un negozio. Ho una fermata sotto casa e posso andare a piedi al cinema. La comodità, però, non rende automaticamente facile incontrare gli altri. Nel mio palazzo molte persone [[g4]] (forma reciproca, le persone) salutano senza sapere come si chiamano. Da qualche mese abbiamo cominciato a scambiarci libri nell’ingresso. Non è una grande iniziativa, ma ora ho un motivo per fermarmi a parlare. Il traffico mi disturba soprattutto quando studio. Se potessi cambiare una cosa, chiederei una strada meno rumorosa, non un centro commerciale nuovo.\nC — Messaggio di Renata. Ho vissuto in entrambi i luoghi. In campagna avevo spazio, ma lavoravo lontano; in città ho ridotto il viaggio e aumentato l’affitto. Le differenze dipendono anche dall’età e dalle esigenze. Mia madre ha bisogno di servizi raggiungibili, mio figlio cerca un campo dove giocare. Per questo diffido dei confronti che stabiliscono un vincitore assoluto. Prima di scegliere una casa, guarderei una settimana normale, non soltanto una bella domenica.\nD — Commento di Elia. Il nostro gruppo ha disegnato una mappa dei luoghi gratuiti dove stare insieme. Abbiamo scoperto che alcuni erano poco conosciuti e altri chiudevano proprio quando uscivamo da scuola. Chiederemo orari diversi, ma dobbiamo anche spiegare come useremmo gli spazi. Dire che non c’è niente è più facile che descrivere una proposta concreta. Mi interessa il confronto fra Livia e Omar perché mostra bisogni simili in ambienti diversi: autonomia, tranquillità e occasioni per incontrarsi. Queste quattro voci sono state create per l’esercizio; non sono interviste reali.\nElia aggiunge: «Le proposte [[g5]] (diretto, le proposte) presenteremo insieme. Il questionario [[g6]] (diretto, il questionario) prepareremo domani e ai vicini [[g7]] (a loro, ai vicini) chiederemo un parere. La mappa può aiutar[[g8]] (a noi); [[g9]] (di mappe) faremo alcune copie. Chi vuole partecipare può scriver[[g10]] (a me, Elia). Non [[g11]] (riflessivo) deve sentire obbligato a raccontare esperienze private».",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Mi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "si"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. Sostituisci le risposte: Ho ricevuto le risposte.",
+   "modelAnswer": "1. Le ho ricevute.",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

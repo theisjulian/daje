@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-005",
+ "title": "Un laboratorio che cambia idea",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Un laboratorio che cambia idea · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3005
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «legno» — materiale ricavato dagli alberi\n2. «cartone» — materiale spesso fatto di carta\n3. «metallo» — materiale come ferro o alluminio\n4. «stoffa» — materiale tessile\n5. «vetro» — materiale trasparente e fragile",
+   "modelAnswer": "1. nome di materiale\n2. nome di materiale\n3. nome di materiale\n4. nome di materiale\n5. nome di materiale",
+   "lines": 6,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "La nostra officina scolastica occupa un locale luminoso vicino alla palestra. All’inizio volevamo costruire soltanto oggetti piccoli, facili da trasportare. Poi una vicina ci ha chiesto una mensola per i suoi libri e il progetto è cambiato.\nSul banco ci sono pezzi di legno, fogli di cartone e vecchie scatole di metallo. Per le decorazioni usiamo ritagli di stoffa; evitiamo invece il vetro, perché non abbiamo strumenti adatti per lavorarlo. Ogni materiale richiede una scelta diversa.\nLuca procede lentamente, ma le sue misure sono precise. Sara disegna rapidamente e propone soluzioni originali. Nessuno lavora completamente da solo: prima di tagliare, controlliamo il disegno insieme. Un bordo irregolare può essere corretto; una mensola instabile non deve essere consegnata.\nI primi risultati erano modesti, però la vicina li ha osservati attentamente. Ci ha spiegato che preferiva una superficie naturale, senza colori vivaci. Abbiamo modificato il progetto e conservato gli avanzi in contenitori separati. Il lavoro più difficile non è stato usare gli attrezzi, ma ascoltare una richiesta senza pensare di averla già capita. La prossima volta inviteremo il destinatario prima di cominciare, non soltanto quando l’oggetto sarà pronto.",
+  "title": "Un laboratorio che cambia idea"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-133",
+ "title": "L’invito dell’orologiaio (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: riconoscere e comprendere · L’invito dell’orologiaio (1) · livello difficile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3133
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "categorize",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "indicativo passato remoto"
+    },
+    {
+     "id": "c2",
+     "label": "indicativo imperfetto"
+    },
+    {
+     "id": "c3",
+     "label": "indicativo trapassato prossimo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "«pensò» — pensare",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "«disse» — dire",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "«era» — essere",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "«chiese» — chiedere",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "«era» — essere",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "«parlò» — parlare, passato remoto",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "«disse» — dire",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "«ricordava» — ricordare",
+     "category": "c2"
+    },
+    {
+     "id": "i9",
+     "text": "«aveva guardato» — guardare, forma composta",
+     "category": "c3"
+    },
+    {
+     "id": "i10",
+     "text": "«era» — essere",
+     "category": "c2"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  }
+ ],
+ "reading": {
+  "text": "L’orologiaio del paese mandò un invito a ogni abitante: domenica avrebbe aperto il laboratorio, ma nessuno doveva portare un orologio. La richiesta sorprese molti. Una vicina pensò che si trattasse di uno scherzo; un ragazzo immaginò una mostra segreta. Il maestro, che conosceva l’orologiaio da anni, disse soltanto che sarebbe andato.\nLa domenica il laboratorio era pieno di sedie. Sul banco non c’erano strumenti, ma fogli e matite. L’orologiaio chiese a ciascuno di raccontare un momento in cui il tempo era sembrato passare in modo diverso. Una donna parlò di un’attesa alla stazione; un bambino descrisse una partita finita troppo presto. Nessuno misurava quei racconti con un cronometro.\nQuando arrivò il suo turno, il maestro disse che ricordava una lezione in cui nessuno aveva guardato l’ora. Non era successo perché lui fosse particolarmente brillante: gli studenti avevano trovato una domanda che interessava tutti. Avrebbe voluto ricordarla esattamente, ma gli restava soltanto la sensazione di quel pomeriggio. L’orologiaio gli rispose che poteva scrivere anche questo.\nAlla fine i fogli furono appesi alla parete. Non indicavano minuti o secondi e non sostituivano gli orologi. Mostravano semplicemente che raccontare un’esperienza richiede parole diverse da quelle necessarie per misurarne la durata. Il ragazzo che aspettava una mostra segreta non fu deluso. Tornando a casa pensò che avrebbe invitato suo nonno a raccontargli una giornata di scuola. Questa storia è originale e non riprende personaggi o vicende di un testo letterario pubblicato.\nIl ragazzo conservò i fogli che gli autori gli affidarono. Li mise in una cartella e la mostrò all’orologiaio. «Posso portarli a scuola?» domandò. L’uomo gli rispose di chiedere prima agli autori. Il ragazzo ne scelse soltanto due, perché quelle persone avevano già dato il consenso. Gli altri non li copiò. Quando tornò a casa, si ricordò anche della domanda per il nonno e gli telefonò.",
+  "title": "L’invito dell’orologiaio"
+ }
+}

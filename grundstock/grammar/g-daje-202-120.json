@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-120",
+ "title": "Un equivoco nel gruppo (3)",
+ "language": "it",
+ "level": "A2",
+ "description": "Raccontare un’esperienza · Un equivoco nel gruppo (3) · livello difficile.",
+ "topics": [
+  "Raccontare un’esperienza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-raccontare",
+  "topicTitle": "Raccontare un’esperienza",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1120
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Trasforma il messaggio in un resoconto su Chiara. Mantieni il presente per la situazione attuale.",
+   "modelAnswer": "A Chiara è successa una cosa spiacevole. Ha letto un messaggio del suo gruppo e ha pensato: «I compagni vogliono lavorare senza di me». Si è arrabbiata e ha risposto troppo in fretta. Ha scritto che il progetto non le interessava più. Poi una compagna le ha telefonato e le ha spiegato la situazione: l’incontro era soltanto per chi doveva montare il video. Chiara, invece, doveva preparare il testo con un altro compagno. Poi ha letto l’ultimo messaggio: i compiti erano indicati chiaramente.\nAdesso si vergogna un po’. I suoi amici la conoscono e sanno che tiene molto al progetto, però le sue parole li hanno feriti. Ha chiesto scusa nella chat e ha proposto di parlarne a scuola. La sua compagna le ha risposto con gentilezza. Le ha detto che anche lei qualche volta interpreta male un messaggio breve. Domani incontrerà gli altri e ascolterà quello che vogliono dirle. La prossima volta leggerà tutto con calma e farà una domanda prima di reagire. Non vuole decidere al posto degli altri che cosa pensano.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Ciao redazione, mi è successa una cosa spiacevole. Ho letto un messaggio del mio gruppo e ho pensato: «I compagni vogliono lavorare senza di me». Mi sono arrabbiata e ho risposto troppo in fretta. Ho scritto che il progetto non mi interessava più. Poi una compagna mi ha telefonato e mi ha spiegato la situazione: l’incontro era soltanto per chi doveva montare il video. Io, invece, dovevo preparare il testo con un altro compagno. Poi ho letto l’ultimo messaggio: i compiti erano indicati chiaramente.\nAdesso mi vergogno un po’. I miei amici mi conoscono e sanno che tengo molto al progetto, però le mie parole li hanno feriti. Ho chiesto scusa nella chat e ho proposto di parlarne a scuola. La mia compagna mi ha risposto con gentilezza. Mi ha detto che anche lei qualche volta interpreta male un messaggio breve. Domani incontrerò gli altri e ascolterò quello che vogliono dirmi. La prossima volta leggerò tutto con calma e farò una domanda prima di reagire. Non voglio decidere al posto degli altri che cosa pensano. Un saluto, Chiara."
+ }
+}

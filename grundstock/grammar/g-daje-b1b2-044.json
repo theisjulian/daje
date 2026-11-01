@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-044",
+ "title": "Un’amica ti invita all’inaugurazione di una mostra scolastica",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Un’amica ti invita all’inaugurazione di una mostra scolastica · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3044
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Un’amica ti invita all’inaugurazione di una mostra scolastica. Rispondi: ringrazia, accetta con un vincolo di orario, chiedi un’informazione e offri un aiuto concreto. 100–120 parole.",
+   "modelAnswer": "Ciao Viola,\ngrazie per l’invito alla mostra! Vengo volentieri: mi hai parlato così tanto del progetto che sono curioso di vedere il risultato. Sabato ho una lezione fino alle tre, quindi potrò arrivare soltanto verso le quattro. Spero di non perdere la presentazione del vostro gruppo.\nMi dici qual è l’ingresso giusto? Non conosco bene l’edificio e vorrei evitare di girare intorno alla scuola con lo zaino. Se vi serve una mano dopo l’apertura, posso restare per sistemare le sedie o distribuire i programmi. Non sono bravo a parlare al microfono, ma nei lavori pratici me la cavo.\nFammi sapere anche se devo prenotare un posto.\nA sabato, Matteo",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

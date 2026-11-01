@@ -1,0 +1,188 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-173",
+ "title": "Un avviso da leggere con attenzione",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Un avviso da leggere con attenzione · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1173
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "La"
+    },
+    {
+     "id": "p2",
+     "text": "biblioteca"
+    },
+    {
+     "id": "p3",
+     "text": "rimane"
+    },
+    {
+     "id": "p4",
+     "text": "aperta"
+    },
+    {
+     "id": "p5",
+     "text": "dalle"
+    },
+    {
+     "id": "p6",
+     "text": "nove"
+    },
+    {
+     "id": "p7",
+     "text": "alle"
+    },
+    {
+     "id": "p8",
+     "text": "diciassette"
+    }
+   ],
+   "explanation": "La biblioteca rimane aperta dalle nove alle diciassette.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q2s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "L’ingresso"
+    },
+    {
+     "id": "p2",
+     "text": "provvisorio"
+    },
+    {
+     "id": "p3",
+     "text": "è"
+    },
+    {
+     "id": "p4",
+     "text": "dal"
+    },
+    {
+     "id": "p5",
+     "text": "giardino"
+    }
+   ],
+   "explanation": "L’ingresso provvisorio è dal giardino."
+  },
+  {
+   "id": "q3s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Le"
+    },
+    {
+     "id": "p2",
+     "text": "attività"
+    },
+    {
+     "id": "p3",
+     "text": "del"
+    },
+    {
+     "id": "p4",
+     "text": "mattino"
+    },
+    {
+     "id": "p5",
+     "text": "sono"
+    },
+    {
+     "id": "p6",
+     "text": "nella"
+    },
+    {
+     "id": "p7",
+     "text": "sala"
+    },
+    {
+     "id": "p8",
+     "text": "verde"
+    }
+   ],
+   "explanation": "Le attività del mattino sono nella sala verde."
+  },
+  {
+   "id": "q4s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Sabato"
+    },
+    {
+     "id": "p2",
+     "text": "tutti"
+    },
+    {
+     "id": "p3",
+     "text": "i"
+    },
+    {
+     "id": "p4",
+     "text": "servizi"
+    },
+    {
+     "id": "p5",
+     "text": "riprendono"
+    },
+    {
+     "id": "p6",
+     "text": "normalmente"
+    }
+   ],
+   "explanation": "Sabato tutti i servizi riprendono normalmente."
+  }
+ ]
+}

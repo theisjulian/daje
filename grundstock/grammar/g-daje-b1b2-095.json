@@ -1,0 +1,163 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-095",
+ "title": "Due modi di abitare",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Due modi di abitare · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3095
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "A — Lettera di Livia. Vivo in un paese e raggiungo la scuola in autobus. [[g1]] piace conoscere i vicini: quando ho perso le chiavi, una signora [[g2]] ha fatto aspettare in casa sua. Però non vorrei che questo diventasse un’immagine troppo semplice della vita fuori città. La sera non passa nessun autobus e dipendo spesso dai miei genitori. Una biblioteca più vicina [[g3]] sarebbe utile quanto un giardino. Non sogno di andarmene per sempre; vorrei poter scegliere dove trascorrere un pomeriggio senza organizzarlo tre giorni prima.\nB — Risposta di Omar. Abito in città, sopra un negozio. Ho una fermata sotto casa e posso andare a piedi al cinema. La comodità, però, non rende automaticamente facile incontrare gli altri. Nel mio palazzo molte persone [[g4]] salutano senza sapere come si chiamano. Da qualche mese abbiamo cominciato a scambiarci libri nell’ingresso. Non è una grande iniziativa, ma ora ho un motivo per fermarmi a parlare. Il traffico mi disturba soprattutto quando studio. Se potessi cambiare una cosa, chiederei una strada meno rumorosa, non un centro commerciale nuovo.\nC — Messaggio di Renata. Ho vissuto in entrambi i luoghi. In campagna avevo spazio, ma lavoravo lontano; in città ho ridotto il viaggio e aumentato l’affitto. Le differenze dipendono anche dall’età e dalle esigenze. Mia madre ha bisogno di servizi raggiungibili, mio figlio cerca un campo dove giocare. Per questo diffido dei confronti che stabiliscono un vincitore assoluto. Prima di scegliere una casa, guarderei una settimana normale, non soltanto una bella domenica.\nD — Commento di Elia. Il nostro gruppo ha disegnato una mappa dei luoghi gratuiti dove stare insieme. Abbiamo scoperto che alcuni erano poco conosciuti e altri chiudevano proprio quando uscivamo da scuola. Chiederemo orari diversi, ma dobbiamo anche spiegare come useremmo gli spazi. Dire che non c’è niente è più facile che descrivere una proposta concreta. Mi interessa il confronto fra Livia e Omar perché mostra bisogni simili in ambienti diversi: autonomia, tranquillità e occasioni per incontrarsi. Queste quattro voci sono state create per l’esercizio; non sono interviste reali.\nElia aggiunge: «Le proposte [[g5]] presenteremo insieme. Il questionario [[g6]] prepareremo domani e ai vicini [[g7]] chiederemo un parere. La mappa può aiutar[[g8]]; [[g9]] faremo alcune copie. Chi vuole partecipare può scriver[[g10]]. Non [[g11]] deve sentire obbligato a raccontare esperienze private».",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Mi",
+      "Lo",
+      "Ne"
+     ],
+     "answer": "Mi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "si",
+      "mi",
+      "gli"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "mi",
+      "la",
+      "ne"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "si",
+      "ne",
+      "gli"
+     ],
+     "answer": "si"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "gli",
+      "le",
+      "li"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "la",
+      "lo",
+      "gli"
+     ],
+     "answer": "lo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ne",
+      "gli",
+      "li"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "gli",
+      "ne",
+      "ci"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "gli",
+      "ne",
+      "lo"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "mi",
+      "la",
+      "si"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "lo",
+      "si",
+      "ci"
+     ],
+     "answer": "si"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. Sostituisci a loro con gli: Parlo a loro dell’incontro.",
+   "modelAnswer": "1. Gli parlo dell’incontro.",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

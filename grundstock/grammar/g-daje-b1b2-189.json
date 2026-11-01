@@ -1,0 +1,178 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-189",
+ "title": "Guardare una città dall’alto (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Scienza e tecnologia · Guardare una città dall’alto (2) · livello difficile.",
+ "topics": [
+  "Scienza e tecnologia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: European Space Agency (ESA) – Osservazione della terra (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.esa.int/kids/it/imparare/Osservazione_della_terra",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 5"
+ },
+ "grammar": {
+  "topic": "it12-scienza",
+  "topicTitle": "Scienza e tecnologia",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3189
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Scegli la risposta sostenuta dal testo, non quella soltanto possibile nella realtà.\nChe cosa può mostrare il confronto delle immagini?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Le intenzioni personali degli abitanti."
+    },
+    {
+     "id": "o2",
+     "text": "Una trasformazione visibile del territorio."
+    },
+    {
+     "id": "o3",
+     "text": "Tutte le ragioni delle decisioni urbanistiche."
+    }
+   ],
+   "correctOptionId": "o2",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Perché una compagna contesta la prima conclusione?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Nessuna immagine può contenere informazioni."
+    },
+    {
+     "id": "o2",
+     "text": "L’immagine da sola non basta a giudicare tutte le conseguenze."
+    },
+    {
+     "id": "o3",
+     "text": "Conosce già tutte le risposte."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Quali colonne prepara il gruppo?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Osserviamo e vorremmo sapere."
+    },
+    {
+     "id": "o2",
+     "text": "Vincitori e perdenti."
+    },
+    {
+     "id": "o3",
+     "text": "Vero e falso senza spiegazioni."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Quale fattore può influire sul confronto?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La stagione in cui sono state riprese le immagini."
+    },
+    {
+     "id": "o2",
+     "text": "Il nome di chi stampa il cartellone."
+    },
+    {
+     "id": "o3",
+     "text": "Il colore delle cartelle scolastiche."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Perché si aggiungono altre fonti?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Devono tutte ripetere la stessa frase."
+    },
+    {
+     "id": "o2",
+     "text": "Offrono prospettive e informazioni diverse."
+    },
+    {
+     "id": "o3",
+     "text": "Servono a evitare la passeggiata."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Come si conclude il lavoro?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Con fatti documentati, possibili conseguenze e domande aperte."
+    },
+    {
+     "id": "o2",
+     "text": "Con una classifica degli abitanti."
+    },
+    {
+     "id": "o3",
+     "text": "Con un verdetto definitivo su ogni problema."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ],
+ "reading": {
+  "text": "Secondo la spiegazione divulgativa dell’ESA, i satelliti di osservazione della Terra aiutano a studiare fenomeni come l’espansione urbana, gli incendi e le variazioni dei ghiacci. Le immagini dallo spazio offrono quindi un punto di osservazione utile per confrontare luoghi e momenti diversi. La pagina consultata risale al 2010: qui ne riprendiamo il principio generale, non l’elenco delle missioni allora in preparazione.\nImmaginiamo ora una classe che confronta due immagini della stessa città. Nella prima si vede un grande terreno libero; nella seconda quel terreno ospita edifici e strade. Un ragazzo conclude subito che la città è peggiorata. Una compagna gli chiede quali informazioni permettano di sostenerlo. L’immagine mostra una trasformazione, ma non racconta da sola chi abita nei nuovi edifici, quali servizi siano disponibili o quali decisioni abbiano preceduto i lavori.\nIl gruppo prepara allora due colonne: «osserviamo» e «vorremmo sapere». Nella prima scrive soltanto ciò che riesce a distinguere; nella seconda raccoglie le domande. Alcune zone sembrano più scure, ma questo basta per dire che contengano alberi? Le immagini sono state riprese nella stessa stagione? L’ombra di un edificio potrebbe essere scambiata per un oggetto diverso? Prima di discutere le conseguenze, occorre capire quanto sia affidabile il confronto.\nGli studenti decidono di aggiungere una passeggiata nel quartiere. Portano una mappa, annotano i luoghi accessibili e osservano come le persone usano gli spazi. Non fotografano i passanti per identificarli. Parlano con un bibliotecario, che suggerisce di cercare vecchi giornali locali. Le fonti non offrono tutte la stessa prospettiva: una mappa aiuta a orientarsi, un articolo riporta una discussione, un’immagine mostra una configurazione visibile in un certo momento.\nAlla fine il cartellone non contiene un verdetto definitivo. Presenta una trasformazione documentata, alcune possibili conseguenze e domande ancora aperte. Una studentessa propone il titolo «Vedere di più non significa sapere tutto». Il titolo riassume il lavoro senza svalutare gli strumenti: una nuova prospettiva diventa utile quando sappiamo quali domande può aiutare a risolvere. L’attività scolastica è inventata; la fonte dell’ESA sostiene il breve quadro iniziale sulle applicazioni dell’osservazione terrestre.\nPrima di esporre il cartellone, ogni gruppo rilegge le conclusioni di un altro. Deve distinguere un fatto osservabile da una spiegazione possibile e suggerire quale documento potrebbe aiutare a controllarla. Il confronto rende alcune frasi meno sicure, ma più precise.",
+  "title": "Guardare una città dall’alto"
+ }
+}

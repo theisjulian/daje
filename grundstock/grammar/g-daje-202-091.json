@@ -1,0 +1,228 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-091",
+ "title": "Lessico in contesto (11)",
+ "language": "it",
+ "level": "A2",
+ "description": "Lessico in contesto · Lessico in contesto (11) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1091
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il nuovo pannello della mostra preparata nell’attività 90.\nQuali tre gruppi di parole presenta il pannello?",
+   "modelAnswer": "Parti della testa, del tronco e degli arti.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Perché mano richiede attenzione?",
+   "modelAnswer": "È femminile e il plurale è mani: una mano, due mani.",
+   "lines": 3
+  },
+  {
+   "id": "q2a",
+   "type": "categorize",
+   "prompt": "Ritrova nel pannello le parole e classificale in testa, tronco e arti. Usa il testo della stessa unità, non un elenco scollegato. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "testa"
+    },
+    {
+     "id": "c2",
+     "label": "tronco"
+    },
+    {
+     "id": "c3",
+     "label": "arti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "coscia",
+     "category": "c3"
+    },
+    {
+     "id": "i2",
+     "text": "fronte",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "petto",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "piede",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "guancia",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "schiena",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "mano",
+     "category": "c3"
+    },
+    {
+     "id": "i8",
+     "text": "orecchio",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "fianco",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "polso",
+     "category": "c3"
+    },
+    {
+     "id": "i11",
+     "text": "braccio",
+     "category": "c3"
+    },
+    {
+     "id": "i12",
+     "text": "caviglia",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q2b",
+   "type": "categorize",
+   "prompt": "Ritrova nel pannello le parole e classificale in testa, tronco e arti. Usa il testo della stessa unità, non un elenco scollegato. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "testa"
+    },
+    {
+     "id": "c2",
+     "label": "tronco"
+    },
+    {
+     "id": "c3",
+     "label": "arti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "pancia",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "gomito",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "naso",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "addome",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "ginocchio",
+     "category": "c3"
+    },
+    {
+     "id": "i6",
+     "text": "capelli",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "torace",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "dito",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "bocca",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "mento",
+     "category": "c1"
+    },
+    {
+     "id": "i11",
+     "text": "occhio",
+     "category": "c1"
+    },
+    {
+     "id": "i12",
+     "text": "gamba",
+     "category": "c3"
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Per la mostra prepariamo anche un pannello con ritratti e figure intere. Il pannello non dà consigli di ginnastica: presenta parole utili per descrivere le persone nei disegni. Nel primo ritratto vediamo la fronte, il naso, un occhio, un orecchio, la bocca, il mento, una guancia e i capelli. Il volto è disegnato di lato, quindi non tutte le parti sono visibili due volte.\nLa figura intera mostra anche il tronco. Sui cartellini compaiono petto, schiena, pancia, addome, fianco e torace. Alcune parole hanno significati vicini, ma non si usano sempre negli stessi contesti. Per questo non scriviamo che pancia e addome siano identici in ogni situazione.\nInfine osserviamo gli arti: un braccio, il gomito, una mano, un dito e il polso; poi una gamba, il ginocchio, un piede, la caviglia e la coscia. Prima di appendere il pannello, controlliamo gli articoli e i plurali. Il cartellino con mano richiede attenzione: una mano, due mani. Usiamo disegni originali della classe, senza fotografare i visitatori. Questo testo aggiuntivo collega il lessico del corpo al progetto della mostra e non riprende gli esercizi fisici del libro."
+ }
+}

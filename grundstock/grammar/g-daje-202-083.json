@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-083",
+ "title": "Il sabato di un gruppo teatrale (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "I verbi riflessivi · Il sabato di un gruppo teatrale (2) · livello medio.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1083
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Descrivi una giornata tipica in 130–170 parole. Usa almeno otto verbi riflessivi e cinque indicazioni temporali. Puoi inventare la persona.",
+   "modelAnswer": "Durante la settimana mi sveglio alle sette e mi alzo dopo pochi minuti. Mi lavo, mi vesto e faccio colazione con mia sorella. Prima di uscire mi preparo lo zaino e controllo il programma. Alle otto mi incontro con un compagno alla fermata. A scuola ci salutiamo nel cortile e poi ci sediamo in classe. Durante le lezioni mi concentro, ma qualche volta mi distraggo. All’intervallo mi rilasso e parlo con gli amici. Torno a casa verso le due. Dopo pranzo mi riposo per mezz’ora, poi studio. Il martedì mi alleno con la squadra. Quando rientro, mi faccio una doccia e preparo la cena con mio padre. La sera ci raccontiamo la giornata. Prima di dormire mi sistemo sul divano e leggo qualche pagina. Mi addormento intorno alle dieci e mezza.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuti richiesti presenti · Testo comprensibile e coerente · Forme coerenti con il livello · Lessico pertinente · Lunghezza indicata rispettata",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

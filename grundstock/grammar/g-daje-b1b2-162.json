@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-162",
+ "title": "Il quaderno sul banco (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Il quaderno sul banco (2) · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3162
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "A"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis H im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Il messaggio era breve, ma mostrava quanto potesse contare un gesto semplice: conservare una cosa senza trasformarla in una curiosità da condividere. Tutta la vicenda è inventata.\n\nB — La responsabile ha preparato un avviso: «È stato trovato un quaderno durante il laboratorio di sabato». Non ha descritto ogni particolare, così il proprietario avrebbe potuto riconoscerlo indicando un dettaglio. Ada ha portato l’avviso alla reception e ha spiegato l’accaduto al collega che iniziava il turno.\n\nC — Il collega ha scritto il luogo in cui conservavano l’oggetto. Il giorno seguente un ragazzo è tornato al centro.\n\nD — Cercava un quaderno e sembrava preoccupato. La responsabile gli ha chiesto di descriverlo.\n\nE — Ada ha aperto soltanto la prima pagina per cercare un recapito, poi ha richiuso il quaderno. Non voleva leggere appunti personali che non le appartenevano. Ha consegnato il quaderno alla responsabile del centro.\n\nF — Ada ha saputo soltanto che l’oggetto era stato riconsegnato. Non ha chiesto quali appunti contenesse e non ha pubblicato una fotografia delle pagine. Il ragazzo ha lasciato un ringraziamento alla reception.\n\nG — Il ragazzo ha ricordato una piccola etichetta all’interno della copertina e ha indicato il colore del filo che usava come segnalibro. La descrizione corrispondeva. La responsabile ha restituito il quaderno al ragazzo e gli ha suggerito di aggiungere un recapito, se lo desiderava.\n\nH — Alla fine del laboratorio, Ada ha trovato un quaderno sul banco vicino alla finestra. La copertina non aveva un nome."
+ }
+}

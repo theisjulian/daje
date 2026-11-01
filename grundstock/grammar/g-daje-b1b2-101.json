@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-101",
+ "title": "Il podcast che non avevamo previsto",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Il podcast che non avevamo previsto · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3101
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Gentili compagni, la settimana scorsa abbiamo incontrato la responsabile [[g1]] biblioteca. Ci ha proposto di realizzare un breve podcast [[g2]] luoghi del quartiere. Noi abbiamo accettato e abbiamo scelto tre possibili itinerari. Prima [[g3]] registrare, però, dovremo chiedere il consenso alle persone intervistate.\nIl gruppo [[g4]] Gianni preparerà le domande; quello di Ada controllerà i rumori [[g5]] fondo. Io vorrei occuparmi del montaggio, ma avrei bisogno [[g6]] un compagno. Qualcuno potrebbe lavorare con me martedì? Non occorre un’attrezzatura costosa: sarebbe più utile ascoltare [[g7]] attenzione e lasciare alle persone il tempo [[g8]] rispondere.\nAbbiamo già parlato di questo problema [[g9]] (destinatario) una giornalista. Lei ci ha consigliato di fare prima una prova [[g10]] (complemento con valore di ruolo) intervistatori. Anche chi non vuole parlare davanti al microfono avrà un compito: cercare informazioni, verificare i nomi o scrivere la presentazione.\n[[g11]] fine pubblicheremo soltanto le registrazioni autorizzate. Se una risposta sarà troppo lunga, chiederemo se possiamo tagliarla senza cambiarne il significato. Il progetto finirà con un ascolto collettivo. Mi piacerebbe che ogni persona riconoscesse la propria voce e il senso [[g12]] proprie parole. Una registrazione chiara serve; una relazione di fiducia serve ancora [[g13]] più.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "con"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Alla"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "di"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2r1",
+   "type": "open_answer",
+   "prompt": "Sposta anche e spiega come cambia il fuoco dell’aggiunta.\nAnche Gianni preparerà le domande.",
+   "modelAnswer": "Oltre ad altre persone, Gianni preparerà le domande.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q2r2",
+   "type": "open_answer",
+   "prompt": "Gianni preparerà anche le domande.",
+   "modelAnswer": "Oltre ad altre cose, Gianni preparerà le domande.",
+   "lines": 3
+  }
+ ]
+}

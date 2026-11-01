@@ -1,0 +1,180 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-060",
+ "title": "Lessico in contesto (6)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (6) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1060
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "frutta"
+    },
+    {
+     "id": "c2",
+     "label": "verdura"
+    },
+    {
+     "id": "c3",
+     "label": "carne o pesce"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "vitello",
+     "category": "c3"
+    },
+    {
+     "id": "i2",
+     "text": "zucchina",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "pera",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "salmone",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "lattuga",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "albicocca",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "merluzzo",
+     "category": "c3"
+    },
+    {
+     "id": "i8",
+     "text": "spinaci",
+     "category": "c2"
+    },
+    {
+     "id": "i9",
+     "text": "ciliegia",
+     "category": "c1"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "frutta"
+    },
+    {
+     "id": "c2",
+     "label": "verdura"
+    },
+    {
+     "id": "c3",
+     "label": "carne o pesce"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "kiwi",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "tacchino",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "carota",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "mela",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "pollo",
+     "category": "c3"
+    },
+    {
+     "id": "i6",
+     "text": "peperone",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "banana",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "orata",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "cavolfiore",
+     "category": "c2"
+    }
+   ]
+  }
+ ]
+}

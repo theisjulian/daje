@@ -1,0 +1,155 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-016",
+ "title": "Istruzioni per un pomeriggio in biblioteca",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Istruzioni per un pomeriggio in biblioteca · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3016
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]] · 11. [[g11]] · 12. [[g12]] · 13. [[g13]] · 14. [[g14]] · 15. [[g15]] · 16. [[g16]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "K"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "M"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "L"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "O"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "P"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "J"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "N"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "H"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis P im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Le forbici servono soltanto per il cartellone finale; tieni le sul tavolo grande.\n\nB — Non leggere subito la tua scelta: lascia che siano loro a proporre un ordine.\n\nC — Non occorre rispondere a tutte oggi.\n\nD — Ti scrivo le cose essenziali, così non dovrai cercare ogni informazione nei vecchi messaggi.\n\nE — Prima di aprire la sala, prendi le chiavi dalla reception. La responsabile te le consegnerà dopo aver controllato il registro.\n\nF — Chiedi gli di scegliere una sedia e di lasciare libero il passaggio.\n\nG — Se qualcuno si stanca, può sfogliare un altro volume nell’angolo tranquillo.\n\nH — A domani, Pietro.\n\nI — Ciao Nadia, grazie per sostituirmi al laboratorio di lettura.\n\nJ — Scrivi mi quali temi hanno interessato di più il gruppo e se manca qualche materiale. Prima di uscire, controlla le finestre, spegni la luce e restituisci le chiavi.\n\nK — Il cartellone con i nomi è nel mio armadio: appendi lo vicino alla porta.\n\nL — Le due ragazze nuove non conoscono ancora il gruppo: presenta le agli altri, senza obbligarle a raccontare subito qualcosa.\n\nM — I partecipanti arrivano alle quattro.\n\nN — Il laboratorio riesce anche quando il programma cambia: l’importante è che tutti trovino un modo per partecipare.\n\nO — I loro genitori verranno a prenderle alle cinque e mezza. Per cominciare, mostra tre copertine e domanda quale libro incuriosisce di più.\n\nP — Dopo la lettura, raccogli le domande in una busta."
+ }
+}

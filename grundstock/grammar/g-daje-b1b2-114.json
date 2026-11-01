@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-114",
+ "title": "La prima settimana al banco",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · La prima settimana al banco · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3114
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "matching",
+   "prompt": "Abbina ciascun termine alla definizione appropriata. Le definizioni distinguono significati usati nei testi del percorso. (parte 1/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "candidatura",
+     "right": "Proposta di sé per un incarico."
+    },
+    {
+     "id": "p2",
+     "left": "compenso",
+     "right": "Somma corrisposta per un lavoro."
+    },
+    {
+     "id": "p3",
+     "left": "scadenza",
+     "right": "Termine entro cui completare un’attività."
+    },
+    {
+     "id": "p4",
+     "left": "ricevuta",
+     "right": "Documento che prova un pagamento."
+    },
+    {
+     "id": "p5",
+     "left": "itinerario",
+     "right": "Percorso previsto per uno spostamento."
+    },
+    {
+     "id": "p6",
+     "left": "didascalia",
+     "right": "Breve testo che accompagna un’immagine."
+    },
+    {
+     "id": "p7",
+     "left": "archivio",
+     "right": "Raccolta ordinata di documenti."
+    },
+    {
+     "id": "p8",
+     "left": "bozza",
+     "right": "Versione provvisoria di un testo."
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  },
+  {
+   "id": "q1b",
+   "type": "matching",
+   "prompt": "Abbina ciascun termine alla definizione appropriata. Le definizioni distinguono significati usati nei testi del percorso. (parte 2/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "revisione",
+     "right": "Controllo e modifica di un lavoro."
+    },
+    {
+     "id": "p2",
+     "left": "recapito",
+     "right": "Informazione utile per contattare una persona."
+    },
+    {
+     "id": "p3",
+     "left": "prestito",
+     "right": "Cessione temporanea con restituzione prevista."
+    },
+    {
+     "id": "p4",
+     "left": "testimonianza",
+     "right": "Racconto di chi conosce o ha vissuto un fatto."
+    },
+    {
+     "id": "p5",
+     "left": "ipotesi",
+     "right": "Spiegazione possibile da verificare."
+    },
+    {
+     "id": "p6",
+     "left": "fonte",
+     "right": "Documento o persona da cui proviene un’informazione."
+    },
+    {
+     "id": "p7",
+     "left": "riscontro",
+     "right": "Risposta o elemento che permette una verifica."
+    }
+   ]
+  }
+ ]
+}

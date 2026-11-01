@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-165",
+ "title": "Il prestito delle biciclette",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il prestito delle biciclette · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3165
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Nel contesto del prestito, riscrivi evitando le ripetizioni con pronomi diretti, indiretti e combinati. Segui i complementi indicati. (parte 1/2)\n1. Sostituisci a Sara + il programma: Mando il programma a Sara.\n2. Sostituisci a Paolo + la mappa: Consegno la mappa a Paolo.\n3. Sostituisci a noi + i fogli: Portano i fogli a noi.\n4. Sostituisci a te + le chiavi: Lascio le chiavi a te.\n5. Sostituisci a me + il quaderno: Restituisci il quaderno a me?\n6. Sostituisci a loro + le istruzioni: Spieghiamo le istruzioni a loro.",
+   "modelAnswer": "1. Glielo mando.\n2. Gliela consegno.\n3. Ce li portano.\n4. Te le lascio.\n5. Me lo restituisci?\n6. Gliele spieghiamo.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Nel contesto del prestito, riscrivi evitando le ripetizioni con pronomi diretti, indiretti e combinati. Segui i complementi indicati. (parte 2/2)\n1. Sostituisci a lei + il libro: Ho prestato il libro a lei.\n2. Sostituisci a lui + la fotografia: Ho mostrato la fotografia a lui.\n3. Sostituisci a noi + due copie del testo: Danno due copie del testo a noi.\n4. Sostituisci a voi + tre biglietti: Porto tre biglietti a voi.\n5. Imperativo tu con a me + il testo: Porta il testo a me.\n6. Imperativo tu con a lei + la chiave: Consegna la chiave a lei.",
+   "modelAnswer": "1. Gliel’ho prestato.\n2. Gliel’ho mostrata.\n3. Ce ne danno due.\n4. Ve ne porto tre.\n5. Portamelo.\n6. Consegnagliela.",
+   "lines": 7
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-015",
+ "title": "Tre voci per la radio della scuola",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -are al presente · Tre voci per la radio della scuola · livello medio.",
+ "topics": [
+  "I verbi in -are al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "I verbi in -are al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1015
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "text": "sono → [[g1]]\nHo → [[g2]]\nvivo → [[g3]]\nFrequento → [[g4]]\npreparo → [[g5]]\nCerco → [[g6]]\nfaccio → [[g7]]\nregistro → [[g8]]\nparlo → [[g9]]\nsento → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "essere; presente"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avere; presente"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vivere; presente"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "frequentare; presente"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "preparare; presente"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "cercare; presente"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fare; presente"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "registrare; presente"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "parlare; presente"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sentire; presente"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  }
+ ],
+ "reading": {
+  "text": "A — Ciao, sono Daria. Ho sedici anni e vivo a Ferrara con mio padre e mia sorella. Frequento un istituto tecnico e studio informatica. Il mercoledì preparo una trasmissione per la radio della scuola. Cerco storie curiose, faccio domande e registro le risposte. Non parlo molto davanti a tante persone, ma con un microfono mi sento tranquilla. Amo i gatti e leggo fumetti. Nel fine settimana lavoro qualche ora nel negozio di mia zia.\nB — Mi chiamo Karim e abito a Modena. Sono un compagno di Daria, ma non studio nella sua scuola. Ho diciassette anni, suono il basso e ascolto musica di tanti paesi. Noi del gruppo proviamo il venerdì sera. I miei genitori hanno un piccolo ristorante. Quando posso, aiuto in cucina. Per la radio scelgo le canzoni e controllo il volume. Non canto: preferisco stare dietro al banco del suono.\nC — Io sono Viola, ho quindici anni e sono nuova nel gruppo. Vengo da una città sul mare, ma adesso abito vicino a Ferrara. Mi piacciono gli animali e le passeggiate. Scrivo brevi racconti e desidero leggere uno dei miei testi alla radio. Voi avete un consiglio per me? Siete esperti di registrazione? Io ho molte idee, ma ho ancora poca esperienza."
+ }
+}

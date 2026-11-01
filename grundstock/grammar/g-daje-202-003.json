@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-003",
+ "title": "Tre voci per la radio della scuola (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Tre voci per la radio della scuola (1) · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1003
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "text": "essere · io · presente → [[g1]]\nessere · tu · presente → [[g2]]\nessere · lui/lei · presente → [[g3]]\nessere · noi · presente → [[g4]]\nessere · voi · presente → [[g5]]\nessere · loro · presente → [[g6]]\navere · io · presente → [[g7]]\navere · tu · presente → [[g8]]\navere · lui/lei · presente → [[g9]]\navere · noi · presente → [[g10]]\navere · voi · presente → [[g11]]\navere · loro · presente → [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "siamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siete"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "avete"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern."
+  }
+ ]
+}

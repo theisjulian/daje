@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-176",
+ "title": "Una mostra salvata dal lavoro di gruppo",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · Una mostra salvata dal lavoro di gruppo · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1176
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 1/2)\n1. è rimasta\n2. ha fatto\n3. ha visto\n4. ha avvisato\n5. sono arrivati\n6. hanno raccolto\n7. hanno divisi\n8. ha deciso",
+   "modelAnswer": "1. rimanere; passato prossimo; participio irregolare\n2. fare; passato prossimo; participio irregolare\n3. vedere; passato prossimo; participio irregolare\n4. avvisare; passato prossimo; participio regolare\n5. arrivare; passato prossimo; participio regolare\n6. raccogliere; passato prossimo; participio irregolare\n7. dividere; passato prossimo; participio irregolare\n8. decidere; passato prossimo; participio irregolare",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 2/2)\n1. ha portato\n2. ha stampato\n3. ha chiesto\n4. ha prestato\n5. hanno lavorato\n6. hanno aggiunto\n7. hanno letto\n8. hanno fatto",
+   "modelAnswer": "1. portare; passato prossimo; participio regolare\n2. stampare; passato prossimo; participio regolare\n3. chiedere; passato prossimo; participio irregolare\n4. prestare; passato prossimo; participio regolare\n5. lavorare; passato prossimo; participio regolare\n6. aggiungere; passato prossimo; participio irregolare\n7. leggere; passato prossimo; participio irregolare\n8. fare; passato prossimo; participio irregolare",
+   "lines": 9
+  }
+ ],
+ "reading": {
+  "text": "La classe aveva preparato una mostra di disegni nel corridoio della scuola. La sera prima dell’apertura, una finestra è rimasta aperta e il vento ha fatto cadere alcuni cartelloni. Il giorno seguente la collaboratrice scolastica ha visto i fogli a terra e ha avvisato l’insegnante. Due studenti sono arrivati presto, hanno raccolto i materiali e li hanno divisi sul tavolo. Alcuni disegni erano intatti; altri avevano piccoli strappi. Il gruppo ha deciso di riparare soltanto quelli danneggiati e di cambiare la disposizione della mostra. Una compagna ha portato carta nuova, mentre un altro ha stampato i titoli. L’insegnante ha chiesto aiuto alla classe vicina, che ha prestato alcune mollette. Tutti hanno lavorato per un’ora. Prima dell’arrivo dei visitatori, i cartelloni erano di nuovo al loro posto. Gli studenti hanno aggiunto un breve avviso per raccontare l’imprevisto. Non volevano nascondere le riparazioni: anche quelle mostravano il lavoro del gruppo. I visitatori hanno letto la spiegazione e hanno fatto molte domande. Alla fine la classe ha fotografato la mostra e ha ringraziato chi aveva collaborato. Il racconto è immaginario."
+ }
+}

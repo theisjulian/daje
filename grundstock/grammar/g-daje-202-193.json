@@ -1,0 +1,206 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-193",
+ "title": "Lessico in contesto (15)",
+ "language": "it",
+ "level": "A2",
+ "description": "Lessico in contesto · Lessico in contesto (15) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1193
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "alloggi"
+    },
+    {
+     "id": "c2",
+     "label": "sport"
+    },
+    {
+     "id": "c3",
+     "label": "istruzione"
+    },
+    {
+     "id": "c4",
+     "label": "spazi urbani"
+    },
+    {
+     "id": "c5",
+     "label": "attività culturali"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "piazza",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "spettacolo",
+     "category": "c5"
+    },
+    {
+     "id": "i3",
+     "text": "ostello",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "tennis",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "laurea",
+     "category": "c3"
+    },
+    {
+     "id": "i6",
+     "text": "parco",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "lettura",
+     "category": "c5"
+    },
+    {
+     "id": "i8",
+     "text": "albergo",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "pallavolo",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "università",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "alloggi"
+    },
+    {
+     "id": "c2",
+     "label": "sport"
+    },
+    {
+     "id": "c3",
+     "label": "istruzione"
+    },
+    {
+     "id": "c4",
+     "label": "spazi urbani"
+    },
+    {
+     "id": "c5",
+     "label": "attività culturali"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "atletica",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "diploma",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "strada",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "mostra",
+     "category": "c5"
+    },
+    {
+     "id": "i5",
+     "text": "campeggio",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "nuoto",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "scuola",
+     "category": "c3"
+    },
+    {
+     "id": "i8",
+     "text": "quartiere",
+     "category": "c4"
+    },
+    {
+     "id": "i9",
+     "text": "concerto",
+     "category": "c5"
+    },
+    {
+     "id": "i10",
+     "text": "pensione",
+     "category": "c1"
+    }
+   ]
+  }
+ ]
+}

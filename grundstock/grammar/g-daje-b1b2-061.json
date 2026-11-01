@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-061",
+ "title": "Il laboratorio delle mappe",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Il laboratorio delle mappe · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3061
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi «Il laboratorio delle mappe» sostituendo la studentessa con le studentesse. Cambia solo le forme che dipendono dal nuovo soggetto; non trasformare anche l’insegnante o il ragazzo.",
+   "modelAnswer": "Le studentesse incaricate del progetto avevano preparato una mappa del quartiere prima dell’incontro. Volevano segnare i luoghi accessibili a piedi dalla scuola e avevano scelto tre percorsi. Quando sono arrivate in aula, hanno scoperto che la stampante non funzionava. Erano preoccupate, perché avevano previsto un lavoro a coppie con una copia per gruppo.\nL’insegnante ha proposto loro di usare il grande foglio appeso alla parete. Le studentesse hanno disegnato soltanto le strade principali e hanno invitato i compagni ad aggiungere i punti che conoscevano. Alcuni indicavano negozi, altri ricordavano cortili e passaggi. Un ragazzo aveva notato una scala poco visibile e l’ha segnalata con un colore diverso.\nDopo la passeggiata, le studentesse sono tornate sulla mappa. Hanno corretto due distanze e hanno aggiunto una nota: il percorso più breve non era comodo per tutti. Un tratto presentava gradini e un attraversamento richiedeva attenzione. La mappa è diventata meno elegante, ma più utile.\nNel rapporto finale le studentesse hanno spiegato come l’imprevisto avesse modificato il lavoro. Non hanno nascosto il problema della stampante e non lo hanno presentato come una catastrofe. Hanno descritto la scelta fatta, i suoi limiti e ciò che sarebbe stato necessario controllare ancora. Il progetto è immaginario: i percorsi non indicano strade reali.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "La studentessa incaricata del progetto aveva preparato una mappa del quartiere prima dell’incontro. Voleva segnare i luoghi accessibili a piedi dalla scuola e aveva scelto tre percorsi. Quando è arrivata in aula, ha scoperto che la stampante non funzionava. Era preoccupata, perché aveva previsto un lavoro a coppie con una copia per gruppo.\nL’insegnante le ha proposto di usare il grande foglio appeso alla parete. La studentessa ha disegnato soltanto le strade principali e ha invitato i compagni ad aggiungere i punti che conoscevano. Alcuni indicavano negozi, altri ricordavano cortili e passaggi. Un ragazzo aveva notato una scala poco visibile e l’ha segnalata con un colore diverso.\nDopo la passeggiata, la studentessa è tornata sulla mappa. Ha corretto due distanze e ha aggiunto una nota: il percorso più breve non era comodo per tutti. Un tratto presentava gradini e un attraversamento richiedeva attenzione. La mappa è diventata meno elegante, ma più utile.\nNel rapporto finale la studentessa ha spiegato come l’imprevisto avesse modificato il lavoro. Non ha nascosto il problema della stampante e non lo ha presentato come una catastrofe. Ha descritto la scelta fatta, i suoi limiti e ciò che sarebbe stato necessario controllare ancora. Il progetto è immaginario: i percorsi non indicano strade reali.",
+  "title": "Il laboratorio delle mappe"
+ }
+}

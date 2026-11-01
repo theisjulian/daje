@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-167",
+ "title": "Due compagni, un progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Essere und avere · Due compagni, un progetto · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1167
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "[[g1]] e Sami lavoriamo allo stesso giornale, ma affrontiamo i compiti in modo diverso. Io preparo una lista [[g2]] di cominciare; [[g3]] preferisce discutere le idee ad alta voce. [[g4]] [[g5]] siedo davanti al computer, voglio sapere [[g6]] testo scriverò. Sami, [[g7]], apre [[g8]] pagine, prende appunti e trova collegamenti inattesi. [[g9]] mi sorprende con una proposta molto [[g10]] che risolve un problema. Io [[g11]] ricordo le scadenze e [[g12]] mi aiuta a non fermarmi al primo errore.\nDurante le interviste, io mi occupo delle domande e lui registra. Mi preoccupo se una risposta è troppo breve; Sami mi suggerisce di aspettare e ascoltare. Spesso l’intervistato continua da solo. Quando rileggo il testo, mi accorgo di nuovi dettagli. A lui interessa soprattutto il ritmo del racconto, a me la chiarezza delle informazioni. Non siamo sempre d’accordo. Se una frase non funziona, la leggiamo a un terzo compagno e chiediamo che cosa capisce. Così la discussione non diventa una gara tra noi.\nFuori dalla redazione abbiamo interessi diversi, ma questo rende il lavoro più ricco. Sami conosce molti musicisti; io seguo le attività della biblioteca. Ci scambiamo notizie e scegliamo insieme che cosa raccontare. Non devo diventare come lui e lui non deve diventare come me. Dobbiamo soltanto imparare a usare bene le nostre differenze.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Io"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "prima"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Quando"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quale"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "invece"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "molte"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Qualche volta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "semplice"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

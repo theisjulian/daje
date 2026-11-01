@@ -1,0 +1,212 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-014",
+ "title": "Il vestito che racconta un mestiere",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Il vestito che racconta un mestiere · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3014
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Scegli la risposta sostenuta dal testo, non quella soltanto possibile nella realtà.\nPerché la classe avvia il progetto?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Per vendere divise nuove."
+    },
+    {
+     "id": "o2",
+     "text": "Per scegliere il mestiere migliore."
+    },
+    {
+     "id": "o3",
+     "text": "Per evitare costumi da usare una sola volta."
+    }
+   ],
+   "correctOptionId": "o3",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Che cosa cambia dopo le prime risposte?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La mostra viene annullata."
+    },
+    {
+     "id": "o2",
+     "text": "Gli studenti capiscono che devono ascoltare anche le storie."
+    },
+    {
+     "id": "o3",
+     "text": "Si accettano soltanto divise professionali."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Perché una persona offre una fotografia?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "L’abito di cui parla non esiste più."
+    },
+    {
+     "id": "o2",
+     "text": "Non vuole raccontare nulla."
+    },
+    {
+     "id": "o3",
+     "text": "Il regolamento vieta gli oggetti."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Chi rilegge i testi prima della mostra?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Soltanto un fotografo esterno."
+    },
+    {
+     "id": "o2",
+     "text": "Nessuno, per non perdere tempo."
+    },
+    {
+     "id": "o3",
+     "text": "Le persone di cui si racconta la storia."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Perché non scelgono l’abito più importante?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Nessun visitatore fa domande."
+    },
+    {
+     "id": "o2",
+     "text": "Il valore economico non è il criterio del progetto."
+    },
+    {
+     "id": "o3",
+     "text": "Gli abiti hanno tutti lo stesso prezzo."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Come vengono restituiti i prestiti?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Solo dopo una vendita pubblica."
+    },
+    {
+     "id": "o2",
+     "text": "Con un’etichetta dal titolo scelto dal proprietario."
+    },
+    {
+     "id": "o3",
+     "text": "Senza alcuna indicazione."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Che cosa conserva la classe?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Tutti gli abiti prestati."
+    },
+    {
+     "id": "o2",
+     "text": "Documenti personali delle famiglie."
+    },
+    {
+     "id": "o3",
+     "text": "Soltanto i testi autorizzati."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r8",
+   "type": "single_choice",
+   "prompt": "Che cosa emerge dalla rilettura senza immagini?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ogni spiegazione è superflua."
+    },
+    {
+     "id": "o2",
+     "text": "Alcuni testi richiedono chiarimenti."
+    },
+    {
+     "id": "o3",
+     "text": "Le autorizzazioni non servono più."
+    }
+   ],
+   "correctOptionId": "o2"
+  }
+ ],
+ "reading": {
+  "text": "Per la festa della scuola non volevamo comprare costumi da usare una sola volta. Abbiamo chiesto alle famiglie di prestare un abito che raccontasse qualcosa del loro lavoro. La proposta sembrava semplice, ma le prime risposte ci hanno fatto cambiare idea. Non tutte le professioni hanno una divisa e non tutti vogliono essere riconosciuti attraverso il proprio mestiere.\nUna madre ha portato una giacca le cui tasche erano piene di piccoli strumenti. Un nonno ha scelto un cappello a cui teneva molto, anche se non lo metteva più. Un’altra persona ha offerto soltanto una fotografia: l’abito di cui parlava non esisteva più. Abbiamo capito che avremmo dovuto ascoltare le storie, non limitare il progetto agli oggetti.\nLa mostra è stata organizzata in coppie: un oggetto o un’immagine e un breve testo. Gli autori hanno riletto le parole con cui li descrivevamo. Alcuni hanno chiesto di togliere il nome dell’azienda, altri hanno aggiunto una spiegazione. Una giacca macchiata di colore non raccontava soltanto fatica: per la proprietaria ricordava il primo lavoro realizzato da sola.\nIl giorno dell’apertura una visitatrice ha domandato quale fosse l’abito più importante. Non abbiamo saputo rispondere, perché il criterio non era il valore economico. Ci interessava il rapporto fra un oggetto e chi lo aveva usato. Una divisa può rendere visibile una funzione, ma non contiene tutta una persona.\nAlla fine abbiamo restituito ogni prestito con un’etichetta nuova, sulla quale compariva il titolo scelto dal proprietario. La classe ha conservato soltanto i testi autorizzati. Nessuno ha sfilato travestito da qualcun altro: abbiamo preferito leggere le storie insieme, lasciando agli oggetti il loro contesto. La mostra e tutte le testimonianze sono immaginarie, create per questa attività.\nDopo la restituzione abbiamo riletto i testi senza guardare le immagini. Alcuni sembravano meno chiari: mancavano indicazioni che avevamo dato per scontate. Li abbiamo corretti, mantenendo le parole approvate dai proprietari. Anche questa revisione è entrata nel diario del progetto.\nLa classe ha capito che un oggetto richiede spiegazioni. Questo non riduce il suo valore. Quelli che sembravano più comuni hanno suscitato molte domande. Una persona ha detto che avrebbe preferito aggiungere una registrazione. Gli studenti hanno risposto che ne avrebbero discusso per una futura mostra.",
+  "title": "Il vestito che racconta un mestiere"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-081",
+ "title": "Informazioni al centro culturale (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Informazioni al centro culturale (1) · livello difficile.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1081
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi le battute rivolte al visitatore usando tu invece di Lei. Mantieni invariati i dati sul corso.",
+   "modelAnswer": "Visitatore: Buongiorno, scusi, avrei bisogno di alcune informazioni sul corso di fotografia.\nAddetta: Dimmi. Cerchi il corso del sabato o quello serale?\nVisitatore: Quello serale. Lavoro fino alle cinque e posso arrivare qui alle sei.\nAddetta: Allora va bene. Le lezioni cominciano alle diciotto e trenta.\nVisitatore: Quanto dura il corso?\nAddetta: Quattro settimane, con due incontri alla settimana. Ogni incontro dura un’ora e mezza.\nVisitatore: Devo portare una macchina fotografica?\nAddetta: Puoi usare anche il telefono. Guarda, nel programma trovi tutte le informazioni.\nVisitatore: Grazie. E dove si svolgono le lezioni?\nAddetta: Nella sala al primo piano. Per favore, sali dalle scale a sinistra oppure prendi l’ascensore.\nVisitatore: Posso iscrivermi adesso?\nAddetta: Certo. Compila questo modulo e consegnalo alla reception. Non ti preoccupare se non conosci ancora tutti i termini: il corso è per principianti.\nVisitatore: Bene, allora leggo il programma e torno fra poco.\nAddetta: Va bene. Siamo qui fino alle sette. Arrivederci!",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Visitatore: Buongiorno, scusi, avrei bisogno di alcune informazioni sul corso di fotografia.\nAddetta: Mi dica. Cerca il corso del sabato o quello serale?\nVisitatore: Quello serale. Lavoro fino alle cinque e posso arrivare qui alle sei.\nAddetta: Allora va bene. Le lezioni cominciano alle diciotto e trenta.\nVisitatore: Quanto dura il corso?\nAddetta: Quattro settimane, con due incontri alla settimana. Ogni incontro dura un’ora e mezza.\nVisitatore: Devo portare una macchina fotografica?\nAddetta: Può usare anche il telefono. Guardi, nel programma trova tutte le informazioni.\nVisitatore: Grazie. E dove si svolgono le lezioni?\nAddetta: Nella sala al primo piano. Per favore, salga dalle scale a sinistra oppure prenda l’ascensore.\nVisitatore: Posso iscrivermi adesso?\nAddetta: Certo. Compili questo modulo e lo consegni alla reception. Non si preoccupi se non conosce ancora tutti i termini: il corso è per principianti.\nVisitatore: Bene, allora leggo il programma e torno fra poco.\nAddetta: Va bene. Siamo qui fino alle sette. Arrivederci!"
+ }
+}

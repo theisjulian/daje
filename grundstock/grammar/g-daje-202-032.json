@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-032",
+ "title": "Informazioni al centro culturale (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Informazioni al centro culturale (1) · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1032
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "ordering",
+   "prompt": "Ricostruisci un ordine coerente. Usa domande, risposte e indicatori temporali.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Visitatore: Buongiorno, vorrei informazioni sul corso serale."
+    },
+    {
+     "id": "p2",
+     "text": "Addetta: Certo. Le lezioni cominciano alle diciotto e trenta."
+    },
+    {
+     "id": "p3",
+     "text": "Visitatore: Bene, a quell’ora sono libero. Quanto dura il corso?"
+    },
+    {
+     "id": "p4",
+     "text": "Addetta: Dura quattro settimane, con due incontri alla settimana."
+    },
+    {
+     "id": "p5",
+     "text": "Visitatore: E devo portare una macchina fotografica?"
+    },
+    {
+     "id": "p6",
+     "text": "Addetta: No, può usare anche il telefono."
+    },
+    {
+     "id": "p7",
+     "text": "Visitatore: Perfetto. Dove posso iscrivermi?"
+    },
+    {
+     "id": "p8",
+     "text": "Addetta: Alla reception. Compili il modulo e lo consegni lì."
+    }
+   ],
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  }
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-046",
+ "title": "Lessico in contesto (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (2) · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1046
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Trova la parola che non appartiene al gruppo e spiega il criterio.\nGruppo 1",
+   "options": [
+    {
+     "id": "o1",
+     "text": "sedia"
+    },
+    {
+     "id": "o2",
+     "text": "poltrona"
+    },
+    {
+     "id": "o3",
+     "text": "sgabello"
+    },
+    {
+     "id": "o4",
+     "text": "forno"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri servono per sedersi.",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Gruppo 2",
+   "options": [
+    {
+     "id": "o1",
+     "text": "lenzuolo"
+    },
+    {
+     "id": "o2",
+     "text": "coperta"
+    },
+    {
+     "id": "o3",
+     "text": "cuscino"
+    },
+    {
+     "id": "o4",
+     "text": "lavello"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri si usano sul letto."
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Gruppo 3",
+   "options": [
+    {
+     "id": "o1",
+     "text": "cucina"
+    },
+    {
+     "id": "o2",
+     "text": "bagno"
+    },
+    {
+     "id": "o3",
+     "text": "camera"
+    },
+    {
+     "id": "o4",
+     "text": "marciapiede"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono ambienti interni della casa."
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Gruppo 4",
+   "options": [
+    {
+     "id": "o1",
+     "text": "forno"
+    },
+    {
+     "id": "o2",
+     "text": "frigorifero"
+    },
+    {
+     "id": "o3",
+     "text": "lavatrice"
+    },
+    {
+     "id": "o4",
+     "text": "tovaglia"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono elettrodomestici."
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Gruppo 5",
+   "options": [
+    {
+     "id": "o1",
+     "text": "coltello"
+    },
+    {
+     "id": "o2",
+     "text": "forchetta"
+    },
+    {
+     "id": "o3",
+     "text": "cucchiaio"
+    },
+    {
+     "id": "o4",
+     "text": "armadio"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono posate."
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Gruppo 6",
+   "options": [
+    {
+     "id": "o1",
+     "text": "balcone"
+    },
+    {
+     "id": "o2",
+     "text": "terrazza"
+    },
+    {
+     "id": "o3",
+     "text": "giardino"
+    },
+    {
+     "id": "o4",
+     "text": "cantina"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono spazi esterni."
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Gruppo 7",
+   "options": [
+    {
+     "id": "o1",
+     "text": "sapone"
+    },
+    {
+     "id": "o2",
+     "text": "shampoo"
+    },
+    {
+     "id": "o3",
+     "text": "dentifricio"
+    },
+    {
+     "id": "o4",
+     "text": "tappeto"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono prodotti per l’igiene personale."
+  },
+  {
+   "id": "q1r8",
+   "type": "single_choice",
+   "prompt": "Gruppo 8",
+   "options": [
+    {
+     "id": "o1",
+     "text": "piatto"
+    },
+    {
+     "id": "o2",
+     "text": "tazza"
+    },
+    {
+     "id": "o3",
+     "text": "bicchiere"
+    },
+    {
+     "id": "o4",
+     "text": "cuscino"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri si usano a tavola."
+  },
+  {
+   "id": "q1r9",
+   "type": "single_choice",
+   "prompt": "Gruppo 9",
+   "options": [
+    {
+     "id": "o1",
+     "text": "lampada"
+    },
+    {
+     "id": "o2",
+     "text": "lampadario"
+    },
+    {
+     "id": "o3",
+     "text": "torcia"
+    },
+    {
+     "id": "o4",
+     "text": "divano"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri producono luce."
+  }
+ ]
+}

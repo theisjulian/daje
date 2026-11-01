@@ -1,0 +1,178 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-086",
+ "title": "Chi decide se una parola esiste?",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Chi decide se una parola esiste? · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Accademia della Crusca – Parole nuove (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://accademiadellacrusca.it/it/contenuti/titolo/7092",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3086
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Scegli la risposta sostenuta dal testo, non quella soltanto possibile nella realtà.\nChe cosa non implica una scheda della Crusca?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "L’osservazione di un uso."
+    },
+    {
+     "id": "o2",
+     "text": "Un interesse per il lessico."
+    },
+    {
+     "id": "o3",
+     "text": "Un’approvazione ufficiale della parola."
+    }
+   ],
+   "correctOptionId": "o3",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Quale domanda cambia il lavoro della classe?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Quale gruppo intendiamo quando diciamo tutti?"
+    },
+    {
+     "id": "o2",
+     "text": "Quale parola contiene più lettere?"
+    },
+    {
+     "id": "o3",
+     "text": "Quale studente merita il voto più alto?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Perché cento copie di un messaggio non bastano?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sono sempre tutte false."
+    },
+    {
+     "id": "o2",
+     "text": "Non sono necessariamente esempi indipendenti."
+    },
+    {
+     "id": "o3",
+     "text": "Una parola deve comparire esattamente mille volte."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Che cosa devono indicare i gruppi?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La provenienza degli esempi."
+    },
+    {
+     "id": "o2",
+     "text": "Le conversazioni private dei compagni."
+    },
+    {
+     "id": "o3",
+     "text": "Un vincitore assoluto."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Perché rileggere le schede dopo un anno?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Per confrontare le ipotesi con gli usi effettivi."
+    },
+    {
+     "id": "o2",
+     "text": "Per cancellare tutte le parole nuove."
+    },
+    {
+     "id": "o3",
+     "text": "Per assegnare una licenza alle parole."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Qual è la differenza fra definizione ed esempio?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non esiste alcuna differenza."
+    },
+    {
+     "id": "o2",
+     "text": "La prima spiega un significato, il secondo mostra un uso."
+    },
+    {
+     "id": "o3",
+     "text": "La prima è sempre inventata, il secondo sempre storico."
+    }
+   ],
+   "correctOptionId": "o2"
+  }
+ ],
+ "reading": {
+  "text": "La sezione «Parole nuove» dell’Accademia della Crusca descrive usi linguistici osservati nei mezzi di comunicazione e segnalati dai lettori. Una creazione individuale non diventa automaticamente una parola condivisa: contano la diffusione e la continuità dell’uso. La presenza di una scheda non equivale a un’approvazione ufficiale. Questa è la base documentaria del laboratorio immaginario raccontato qui sotto.\nIn una classe, l’insegnante scrive alla lavagna una parola inventata dagli studenti. Alcuni dicono che è già italiana perché tutti la capiscono. Altri pensano che debba comparire prima in un dizionario. La discussione sembra bloccata, finché una ragazza domanda: «Di quale gruppo stiamo parlando quando diciamo tutti?». La domanda cambia il lavoro. Capire una parola in classe non significa sapere se viene usata altrove.\nGli studenti preparano tre schede. Nella prima annotano una creazione scherzosa, comprensibile soltanto agli amici. Nella seconda raccolgono un termine già esistente che ha acquistato un significato nuovo. Nella terza osservano un prestito da un’altra lingua. Non cercano di dimostrare che una categoria sia migliore delle altre. Vogliono capire quali esigenze esprimano le parole e in quali situazioni compaiano.\nUn gruppo sostiene che il dizionario registra parole usate da molte persone. Un altro teme che una ricerca online dia risultati ingannevoli: cento copie dello stesso messaggio non sono cento esempi indipendenti. L’insegnante è d’accordo sul problema e chiede che ogni gruppo indichi la provenienza degli esempi. Nessuno deve raccogliere conversazioni private o nomi di compagni senza consenso.\nAlla fine non viene eletta la parola più bella. Ogni gruppo presenta un dubbio: forse il termine durerà, forse scomparirà, forse cambierà significato. Gli studenti sanno che la lingua cambia, ma non possono prevedere ogni cambiamento. È possibile che un’espressione rimanga limitata a un ambiente; è altrettanto possibile che altre persone la adottino per una ragione nuova.\nIl laboratorio si conclude con una proposta: conservare le schede e rileggerle dopo un anno. Non per assegnare un premio a chi aveva indovinato, ma per confrontare le ipotesi con gli usi effettivi. Una lingua non è un elenco immobile né una gara in cui vince chi inventa di più. Osservarla richiede curiosità e attenzione alle persone che la parlano. Il racconto della classe e tutte le sue battute sono originali; soltanto il primo paragrafo riassume la fonte indicata.\nPer la presentazione finale, ogni scheda distingue inoltre una definizione da un esempio. La definizione prova a spiegare il significato; l’esempio mostra un uso in una situazione precisa. Gli studenti si scambiano le schede e verificano se un lettore esterno riesca a comprenderle. Quando una spiegazione contiene un’altra parola poco chiara, la riscrivono. Il lavoro non produce un dizionario completo: offre un piccolo esercizio di osservazione, con fonti dichiarate e limiti visibili. Anche chi non ama inventare parole può partecipare controllando gli esempi e formulando domande.",
+  "title": "Chi decide se una parola esiste?"
+ }
+}

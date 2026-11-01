@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-088",
+ "title": "Cerchiamo compagni di progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Essere und avere · Cerchiamo compagni di progetto · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1088
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "A — Sono Alessia e cerco [[g1]] curiosi per costruire una piccola [[g2]] del [[g3]]. Abito qui da due anni e conosco alcune [[g4]], ma voglio scoprire [[g5]] nuovi. Mi interessano le [[g6]], i [[g7]] e le [[g8]] degli abitanti. Lavoro il martedì [[g9]]; negli altri giorni sono libera dopo le quattro. Preferisco un [[g10]] piccolo. Tu hai una [[g11]] [[g12]]? Ti piace parlare con le persone? Scrivimi attraverso la bacheca della scuola.\nB — Noi siamo Tommaso e Nour. Frequentiamo il primo anno del liceo e prepariamo brevi video senza pubblicità. Abbiamo idee interessanti, però ci manca una persona esperta di suono. Non chiediamo strumenti professionali: basta un telefono e un ambiente silenzioso. Possiamo incontrarci il venerdì in biblioteca. Il progetto è gratuito e tutti possono proporre un argomento. Io, Nour, scrivo i testi; Tommaso controlla le immagini. Alla fine leggiamo insieme ogni frase. Vogliamo una guida chiara anche per le famiglie nuove del quartiere. Se non conosci ancora bene l’italiano, sei il benvenuto: le tue domande ci aiutano a migliorare.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "studenti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "guida"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "quartiere"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "strade"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "posti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "botteghe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "cortili"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "storie"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "pomeriggio"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "gruppo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "macchina"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "fotografica"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

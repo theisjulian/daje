@@ -1,0 +1,136 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-107",
+ "title": "Una lettera sulle luci accese (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Una lettera sulle luci accese (1) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3107
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Ricostruisci il soggetto delle azioni nel testo, anche quando è sottinteso.\nChi nota le luci accese?",
+   "modelAnswer": "L’autore della lettera.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Chi ha discusso il problema?",
+   "modelAnswer": "La classe dell’autore.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Chi potrebbe incontrare il personale?",
+   "modelAnswer": "I rappresentanti.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Chi spiega l’uso dopo le lezioni?",
+   "modelAnswer": "Il custode.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Chi chiede un calendario visibile?",
+   "modelAnswer": "Gli studenti.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Chi discuterà la proposta con i colleghi?",
+   "modelAnswer": "Il custode.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Chi non vuole accusare una persona?",
+   "modelAnswer": "L’autore della lettera.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Chi pensa che un cartello da solo non basti?",
+   "modelAnswer": "La classe, espressa da noi.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "Chi dice che ne discuterà con i colleghi?",
+   "modelAnswer": "Il custode.",
+   "lines": 3
+  },
+  {
+   "id": "q1r10",
+   "type": "open_answer",
+   "prompt": "Chi osserverà le aree autorizzate?",
+   "modelAnswer": "Gli studenti della classe.",
+   "lines": 3
+  },
+  {
+   "id": "q1r11",
+   "type": "open_answer",
+   "prompt": "Chi non toccherà gli impianti?",
+   "modelAnswer": "Gli studenti della classe.",
+   "lines": 3
+  },
+  {
+   "id": "q1r12",
+   "type": "open_answer",
+   "prompt": "Chi presenterà le osservazioni?",
+   "modelAnswer": "Gli studenti della classe.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, ho notato che alcune aule vuote avevano ancora le luci accese. Io non so chi dovesse spegnerle e non voglio accusare una persona senza conoscere l’organizzazione. Vorrei però capire se esista una procedura chiara.\nLa nostra classe ha discusso il problema e ha preparato una proposta. I rappresentanti potrebbero incontrare il personale e chiedere quali controlli siano già previsti. Noi pensiamo che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti possono credere che lo farà qualcun altro.\nIl custode ci ha spiegato che alcuni locali vengono usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse utile un calendario visibile. Lui ha risposto che lo avrebbe discusso con i colleghi.\nPer una settimana osserveremo soltanto le aree che siamo autorizzati a controllare. Non toccheremo impianti e non pubblicheremo nomi. Alla fine presenteremo ciò che abbiamo visto, distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma potrebbe essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+  "title": "Una lettera sulle luci accese"
+ }
+}

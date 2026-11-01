@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-170",
+ "title": "Due compagni, un progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Descrivere e confrontare persone · Due compagni, un progetto · livello medio.",
+ "topics": [
+  "Descrivere e confrontare persone",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-scrivere-a2",
+  "topicTitle": "Descrivere e confrontare persone",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1170
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Confronta due persone inventate in 180–220 parole. Descrivi abitudini, interessi, modo di lavorare, una differenza che crea difficoltà e una soluzione condivisa. Evita caricature e giudizi assoluti.",
+   "modelAnswer": "Lena e Amir preparano insieme il giornale della scuola. Lena ama programmare ogni attività. Scrive una lista, controlla le scadenze e comincia dal compito più urgente. Amir preferisce raccogliere molte idee e decidere soltanto dopo aver parlato con gli altri. Lei lavora bene in silenzio, mentre lui trova utile discutere ad alta voce. Anche i loro interessi sono diversi: Lena segue le attività sportive, Amir si occupa di musica e teatro. Questa differenza permette al giornale di raccontare più aspetti della vita scolastica. A volte, però, Lena pensa che Amir perda tempo, mentre lui teme che una lista troppo precisa limiti le idee. Per risolvere il problema hanno diviso il lavoro in due momenti. Prima parlano liberamente per venti minuti; poi scelgono una proposta e preparano un piano. Lena controlla le informazioni, Amir organizza le interviste. Alla fine leggono insieme gli articoli e chiedono un parere a una compagna. Non hanno cambiato completamente il proprio carattere, ma hanno imparato a spiegare quello di cui hanno bisogno. Il progetto funziona meglio perché entrambi possono contribuire in modo diverso.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuti richiesti presenti · Testo comprensibile e coerente · Forme coerenti con il livello · Lessico pertinente · Lunghezza indicata rispettata",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

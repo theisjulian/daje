@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-127",
+ "title": "La classe e il giornale incompleto",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: riconoscere e comprendere · La classe e il giornale incompleto · livello difficile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3127
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «uscì» — uscire\n2. «vide» — vedere\n3. «disse» — dire\n4. «Chiese» — chiedere\n5. «prese» — prendere\n6. «portò» — portare, passato remoto\n7. «Chiese» — chiedere\n8. «dissero» — dire, passato remoto\n9. «Disse» — dire\n10. «prese» — prendere",
+   "modelAnswer": "1. indicativo passato remoto\n2. indicativo passato remoto\n3. indicativo passato remoto\n4. indicativo passato remoto\n5. indicativo passato remoto\n6. indicativo passato remoto\n7. indicativo passato remoto\n8. indicativo passato remoto\n9. indicativo passato remoto\n10. indicativo passato remoto",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Nel suo ultimo anno di scuola, Teresa partecipò alla redazione di un giornale. Il primo numero uscì con una pagina bianca. Non era una scelta artistica: il gruppo aveva aspettato un’intervista che non arrivò in tempo. Quando il professore vide il fascicolo, non disse subito che cosa ne pensava. Chiese agli studenti di spiegare la decisione.\nTeresa ricordava bene la discussione. Qualcuno voleva inventare alcune risposte plausibili; altri proponevano di copiare un vecchio articolo. Lei aveva suggerito di dichiarare il problema. Avevano quindi scritto una nota: l’intervista non era disponibile e sarebbe stata pubblicata soltanto dopo il controllo della persona interessata. La pagina rimasta vuota mostrava un limite del lavoro, ma evitava di nasconderlo.\nIl professore prese il fascicolo e lo portò in un’altra classe. Chiese se quella pagina fosse inutile. Alcuni ragazzi dissero di sì; altri notarono che insegnava qualcosa sul modo in cui si produce un giornale. Una risposta mancata non autorizza a creare una voce falsa. Il dibattito durò più della lettura degli altri articoli.\nMolti anni dopo Teresa ritrovò il fascicolo. Aveva dimenticato quasi tutti i titoli, ma ricordava la pagina vuota. La mostrò a sua nipote, che stava preparando un blog. La ragazza domandò se avessero poi ricevuto l’intervista. Teresa non lo sapeva più: possedeva soltanto il primo numero. Non trasformò quel vuoto di memoria in un finale perfetto. Disse che avrebbe cercato gli altri fascicoli e, se li avesse trovati, le avrebbe raccontato il seguito. Anche una storia personale può restare incompleta. Il racconto è originale e interamente fittizio.\nLa nipote prese nota di quella distinzione: un ricordo sicuro, un dettaglio incerto e una domanda da controllare. Nel suo blog avrebbe potuto raccontare l’episodio della pagina bianca, ma avrebbe indicato che il seguito non era noto. Non le sembrò una storia meno interessante. Le sembrò una storia in cui il lettore poteva capire meglio il confine fra testimonianza e ricostruzione.",
+  "title": "La classe e il giornale incompleto"
+ }
+}

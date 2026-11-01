@@ -1,0 +1,243 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-090",
+ "title": "Preparare una piccola mostra (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo (tu, voi) e la negazione · Preparare una piccola mostra (1) · livello medio.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1090
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 1/3)",
+   "text": "Comincia → [[g1]]\nScegli → [[g2]]\ncontrolla → [[g3]]\nLeggi → [[g4]]\nscrivi → [[g5]]\nNon copiare → [[g6]]\nPrepara → [[g7]]\naggiungi → [[g8]]\nPrendi → [[g9]]\ndisegna → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "cominciare"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "scegliere"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "controllare"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "leggere"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "scrivere"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "non copiare"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "preparare"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "aggiungere"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "prendere"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "disegnare"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 2/3)",
+   "text": "Lascia → [[g1]]\nnon bloccare → [[g2]]\nChiedi → [[g3]]\nriscrivila → [[g4]]\nMetti → [[g5]]\nusa → [[g6]]\nGuarda → [[g7]]\nverifica → [[g8]]\nPorta → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "lasciare"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "non bloccare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiedere"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "riscrivere + la"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "mettere"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "usare"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "guardare"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "verificare"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "portare"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "type": "gap_fill",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 3/3)",
+   "text": "prova → [[g1]]\nAscolta → [[g2]]\nannota → [[g3]]\ncorreggi → [[g4]]\nsaluta → [[g5]]\nrispondi → [[g6]]\nammetti → [[g7]]\nraccogli → [[g8]]\nconserva → [[g9]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "provare"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ascoltare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "annotare"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "correggere"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "salutare"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "rispondere"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ammettere"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "raccogliere"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "conservare"
+     ]
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Vuoi organizzare una mostra con la tua classe? Comincia da un tema preciso. Scegli poche immagini e controlla se puoi usarle. Leggi le indicazioni sulle fonti e scrivi il nome dell’autore quando è necessario. Non copiare fotografie trovate per caso online. Prepara un titolo chiaro e aggiungi una breve spiegazione per ogni oggetto. Prendi un foglio grande e disegna la disposizione dei tavoli. Lascia spazio tra gli oggetti e non bloccare le porte. Chiedi a un compagno di leggere i cartelli: se una frase non è chiara, riscrivila. Metti le informazioni principali all’inizio e usa parole comprensibili. Guarda la sala da diversi punti e verifica se tutti possono leggere. Porta il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, prova il percorso con due persone che non conoscono il progetto. Ascolta le loro domande, annota i problemi e correggi quello che serve. Durante la mostra saluta i visitatori, rispondi con calma e ammetti quando non conosci una risposta. Alla fine raccogli i commenti e conserva le idee utili per il prossimo lavoro."
+ }
+}

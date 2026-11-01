@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-106",
+ "title": "Il forno nelle fotografie",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il forno nelle fotografie · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3106
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Nel nostro laboratorio di storia locale abbiamo osservato una serie di fotografie di un vecchio forno. Non conoscevamo tutte le persone ritratte e non volevamo inventare dettagli per completare il racconto. Perciò abbiamo separato le informazioni scritte sul retro dalle nostre ipotesi. Una data [[g1]] (essere) leggibile, mentre un nome [[g2]] (essere) quasi cancellato.\nNelle immagini il pane [[g3]] (disporre, passivo imperfetto, pane) su lunghi ripiani. Le ceste [[g4]] (trasportare, passivo imperfetto, ceste) a mano e i sacchi [[g5]] (conservare, passivo imperfetto, sacchi) vicino alla parete. Tuttavia una fotografia non permette di ricostruire ogni fase del lavoro. Abbiamo cercato altri documenti, perché non bastava descrivere ciò che sembrava evidente.\nUn abitante ci [[g6]] (prestare, forma composta) un quaderno. Alcune pagine [[g7]] (fotografare, passivo passato prossimo, pagine) con il suo consenso e poi [[g8]] (confrontare, passivo passato prossimo, pagine) con le immagini. Il quaderno conteneva quantità e nomi, ma non spiegava tutte le abbreviazioni. Quindi abbiamo lasciato alcuni punti aperti.\nIl risultato è un pannello con tre sezioni: osservazioni, documenti e domande. Prima abbiamo mostrato le fonti; poi abbiamo proposto una possibile ricostruzione. Infine abbiamo invitato i visitatori a segnalarci altri materiali. La mostra è immaginaria e le fotografie non vengono riprodotte. Il suo obiettivo è mostrare un metodo: un racconto del passato diventa più affidabile quando rende visibile anche quello che ancora non sappiamo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "veniva disposto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "erano trasportate"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "venivano conservati"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha prestato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono state fotografate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sono state confrontate"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. Presente passivo con venire: Il gruppo aggiorna il calendario.\n2. Attivo: La proposta è stata discussa dagli studenti.\n3. Passivo: La classe ha preparato la mostra.\n4. Passivo: I lettori hanno corretto le didascalie.",
+   "modelAnswer": "1. Il calendario viene aggiornato dal gruppo.\n2. Gli studenti hanno discusso la proposta.\n3. La mostra è stata preparata dalla classe.\n4. Le didascalie sono state corrette dai lettori.",
+   "lines": 5,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

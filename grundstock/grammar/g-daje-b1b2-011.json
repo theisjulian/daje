@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-011",
+ "title": "Il plastico in viaggio",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Il plastico in viaggio · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3011
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Indica a chi o a che cosa rinvia ciascuna espressione. Cita anche il contesto, non soltanto la parola isolata.\nLo avevamo costruito",
+   "modelAnswer": "Lo = il plastico.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "il nostro progetto",
+   "modelAnswer": "Il plastico della città preparato dalla classe.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Lei viaggiava",
+   "modelAnswer": "Lei = la viaggiatrice che aiuta.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "ci ha lasciato spazio",
+   "modelAnswer": "Ci = agli studenti del gruppo.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Questa città",
+   "modelAnswer": "La città rappresentata nel plastico, non una città che si sposta realmente.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "La mattina della mostra la nostra classe aspettava il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato dentro una scatola. Il cartone era resistente, ma le maniglie sembravano fragili. Per questo avevamo portato anche del nastro adesivo.\nSul binario c’erano molti viaggiatori. Il tabellone annunciava dieci minuti di ritardo. La nostra coincidenza sembrava a rischio. Un addetto ci ha indicato un altro percorso e abbiamo controllato gli orari sul telefono. I biglietti erano validi anche per quel collegamento.\nQuando il treno è arrivato, due compagni hanno sollevato la scatola. Una maniglia si è staccata, ma il plastico non è caduto: una viaggiatrice ha afferrato il bordo in tempo. Lei viaggiava con una valigia leggera e ci ha lasciato spazio vicino alla porta.\nDurante il tragitto abbiamo riparato la confezione. La destinazione era ancora lontana, ma la preoccupazione era diminuita. All’arrivo, un volontario ci ha accompagnato all’uscita. La mostra era cominciata da poco. Il nostro progetto ha trovato posto su un tavolo vicino all’ingresso. Abbiamo aggiunto una didascalia: «Questa città ha già fatto un viaggio».",
+  "title": "Il plastico in viaggio"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-156",
+ "title": "Un materiale arrivato in ritardo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Un materiale arrivato in ritardo · livello difficile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1156
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Trasforma il racconto al passato: eventi al passato prossimo, sfondo all’imperfetto, azione precedente al trapassato. Mantieni il punto di vista di Elena.",
+   "modelAnswer": "Elena ha ordinato i materiali per una mostra. La consegna era prevista per giovedì, ma il pacco non è arrivato. Lei ha controllato la conferma e si è accorta di un errore: aveva dimenticato il numero dell’edificio. Ha telefonato al negozio e ha spiegato il problema. L’addetta ha corretto i dati. Intanto i compagni aspettavano e preparavano una soluzione provvisoria. Hanno usato alcuni cartoncini della scuola e hanno spostato una parte del lavoro al giorno seguente. Venerdì il corriere è arrivato e due studenti hanno controllato il contenuto. Mancava un rotolo di carta. Il gruppo ha segnalato il problema al negozio e ha ricevuto una risposta. Alla fine la mostra era pronta. Elena ha capito che è meglio controllare tutti i dati prima di inviare un ordine.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Elena ordina i materiali per una mostra. La consegna è prevista per giovedì, ma il pacco non arriva. Lei controlla la conferma e si accorge di un errore: ha dimenticato il numero dell’edificio. Telefona al negozio e spiega il problema. L’addetta corregge i dati. Intanto i compagni aspettano e preparano una soluzione provvisoria. Usano alcuni cartoncini della scuola e spostano una parte del lavoro al giorno seguente. Venerdì il corriere arriva e due studenti controllano il contenuto. Manca un rotolo di carta. Il gruppo segnala il problema al negozio e riceve una risposta. Alla fine la mostra è pronta. Elena capisce che è meglio controllare tutti i dati prima di inviare un ordine."
+ }
+}

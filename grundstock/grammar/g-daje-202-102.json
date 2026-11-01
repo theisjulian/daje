@@ -1,0 +1,165 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-102",
+ "title": "Una settimana tra paesi e biciclette",
+ "language": "it",
+ "level": "A2",
+ "description": "Lessico in contesto · Una settimana tra paesi e biciclette · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1102
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara Ada, sono tornata dal [[g1]] e ho ancora la testa piena di immagini. Per una settimana ho attraversato piccoli [[g2]] con un gruppo di [[g3]] [[g4]]. Non era una [[g5]]: il programma prevedeva [[g6]] brevi e molte [[g7]]. Eravamo in dieci, con due [[g8]] che conoscevano bene il [[g9]]. Ogni mattina controllavamo le [[g10]], riempivamo le [[g11]] e leggevamo insieme la [[g12]]. Partivamo verso le nove e seguivamo [[g13]] tranquille. Quando qualcuno era stanco, ci fermavamo senza fretta.\nIl primo giorno avevo paura di non riuscire a tenere il [[g14]]. Gli altri mi aspettavano e mi davano consigli semplici. Dopo due giorni mi sentivo più sicura. A mezzogiorno compravamo pane e frutta; poi cercavamo un posto all’[[g15]]. Nel pomeriggio visitavamo un paese oppure parlavamo con chi lavorava nelle botteghe. Dormivamo in piccole strutture diverse, ma non cambiavamo [[g16]] ogni notte. In un paese siamo rimasti due giorni per partecipare a un [[g17]].\nUna mattina è arrivata la [[g18]]. Abbiamo lasciato le biciclette al coperto e abbiamo preso un autobus. Nessuno si è lamentato: la pausa ci ha permesso di visitare un museo. L’ultimo giorno abbiamo percorso un tratto vicino al fiume e abbiamo scattato una fotografia tutti insieme. Non sono diventata un’atleta, ma ho scoperto un modo di viaggiare che mi piace. Il prossimo anno vorrei tornare con te. Prima, però, faremo qualche giro vicino a casa. Domenica porto le foto: ti va di incontrarci? Un abbraccio, Nina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "viaggio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "paesi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ciclisti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "principianti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "corsa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tappe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "soste"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "accompagnatori"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "percorso"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "biciclette"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "borracce"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "mappa"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "strade"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ritmo"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ombra"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "alloggio"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "laboratorio"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "pioggia"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

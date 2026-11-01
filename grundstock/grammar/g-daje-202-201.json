@@ -1,0 +1,177 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-201",
+ "title": "Conoscere una città attraverso i suoi spazi (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Conoscere una città attraverso i suoi spazi (1) · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Biblioteca Salaborsa / Comune di Bologna – Biblioteca Salaborsa – Storia & missione (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+   "rights": "cleared"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Museo Galileo, Firenze – Museo Galileo – Gli strumenti di Galileo (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.museogalileo.it/it/galileo/strumenti.html",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1201
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Quando arriviamo in una città nuova, spesso cerchiamo subito i [[g1]] più famosi. Una [[g2]] o un [[g3]] possono però aiutarci a capire anche come una città conserva e racconta la propria [[g4]]. A Bologna, la Biblioteca Salaborsa si trova dentro Palazzo d’Accursio. La sua Piazza Coperta permette di osservare, attraverso il [[g5]] di vetro, [[g6]] del passato. La biblioteca raccoglie libri, giornali, riviste e altri [[g7]] della cultura contemporanea. Le [[g8]] su luogo e funzione provengono dalla pagina ufficiale della biblioteca.\nA Firenze, il Museo Galileo conserva [[g9]] legati alla storia della [[g10]]. Tra questi ci sono due [[g11]] costruiti da Galileo e arrivati fino a noi. Il museo presenta anche strumenti di calcolo e modelli che aiutano a comprendere le [[g12]] dello scienziato. Non è necessario capire ogni dettaglio tecnico per cominciare una visita: possiamo osservare un [[g13]], leggere la [[g14]] e formulare una [[g15]]. Le informazioni sugli strumenti sono ricavate dal sito ufficiale del museo.\nPer il nostro [[g16]] didattico immaginiamo di preparare una piccola guida. Ogni gruppo sceglie uno spazio culturale e controlla le informazioni sul sito dell’istituzione. Poi distingue i [[g17]] dalle proprie [[g18]]. Una frase come «Il museo conserva due cannocchiali» comunica un dato; «Questo oggetto mi sorprende» esprime una reazione personale. Entrambe possono essere utili, ma hanno funzioni diverse. Nel testo finale indichiamo le fonti, usiamo parole nostre e non copiamo fotografie senza verificare se possiamo pubblicarle. Infine leggiamo la guida a un compagno che non conosce il luogo. Le sue domande ci mostrano quali informazioni mancano e quali parole dobbiamo spiegare meglio.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "monumenti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "biblioteca"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "museo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "storia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "pavimento"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tracce"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "documenti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "informazioni"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "strumenti"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "scienza"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "cannocchiali"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ricerche"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "oggetto"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "descrizione"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "domanda"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "progetto"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "fatti"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "impressioni"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

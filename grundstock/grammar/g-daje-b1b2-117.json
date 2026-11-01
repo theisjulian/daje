@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-117",
+ "title": "Il vestito che racconta un mestiere (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Relativi, il/la cui e il che · Il vestito che racconta un mestiere (1) · livello difficile.",
+ "topics": [
+  "Relativi, il/la cui e il che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-relativi",
+  "topicTitle": "Relativi, il/la cui e il che",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3117
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Per la festa della scuola non volevamo comprare costumi da usare una sola volta. Abbiamo chiesto alle famiglie di prestare un abito [[g1]] (relativo soggetto) raccontasse qualcosa del loro lavoro. La proposta sembrava semplice, ma le prime risposte [[g2]] (a noi, gli studenti) hanno fatto cambiare idea. Non tutte le professioni hanno una divisa e non tutti vogliono essere riconosciuti attraverso il proprio mestiere.\nUna madre ha portato una giacca [[g3]] (relativo possessivo) tasche erano piene di piccoli strumenti. Un nonno ha scelto un cappello [[g4]] (a + relativo) teneva molto, anche se non lo metteva più. Un’altra persona ha offerto soltanto una fotografia: l’abito [[g5]] (di + relativo) parlava non esisteva più. Abbiamo capito che avremmo dovuto ascoltare le storie, non limitare il progetto agli oggetti.\nLa mostra è stata organizzata in coppie: un oggetto o un’immagine e un breve testo. Gli autori hanno riletto le parole [[g6]] (con + relativo) [[g7]] (le persone raccontate; qui maschile generico) descrivevamo. Alcuni hanno chiesto di togliere il nome dell’azienda, altri hanno aggiunto una spiegazione. Una giacca macchiata di colore non raccontava soltanto fatica: per la proprietaria ricordava il primo lavoro realizzato da sola.\nIl giorno dell’apertura una visitatrice ha domandato quale fosse l’abito più importante. Non abbiamo saputo rispondere, perché il criterio non era il valore economico. Ci interessava il rapporto fra un oggetto e chi lo aveva usato. Una divisa può rendere visibile una funzione, ma non contiene tutta una persona.\nAlla fine abbiamo restituito ogni prestito con un’etichetta nuova, [[g8]] (su + relativo) compariva il titolo scelto dal proprietario. La classe ha conservato soltanto i testi autorizzati. Nessuno ha sfilato travestito da qualcun altro: abbiamo preferito leggere le storie insieme, lasciando agli oggetti il loro contesto. La mostra e tutte le testimonianze sono immaginarie, create per questa attività.\nDopo la restituzione abbiamo riletto i testi senza guardare le immagini. Alcuni sembravano meno chiari: mancavano indicazioni che avevamo dato per scontate. Li abbiamo corretti, mantenendo le parole approvate dai proprietari. Anche questa revisione è entrata nel diario del progetto.\nLa classe ha capito che un oggetto richiede spiegazioni. Questo non riduce il suo valore. Quelli che sembravano più comuni hanno suscitato molte domande. Una persona ha detto che avrebbe preferito aggiungere una registrazione. Gli studenti hanno risposto che ne avrebbero discusso per una futura mostra.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "con cui"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sulla quale"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. Unisci con il cui: Conosco un ragazzo. Il padre del ragazzo lavora qui.\n2. Unisci con sulla quale: Guarda la mappa. Sulla mappa abbiamo segnato il percorso.\n3. Unisci con da cui: Questa è la fonte. Abbiamo ricavato il dato dalla fonte.",
+   "modelAnswer": "1. Conosco un ragazzo il cui padre lavora qui.\n2. Guarda la mappa sulla quale abbiamo segnato il percorso.\n3. Questa è la fonte da cui abbiamo ricavato il dato.",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-122",
+ "title": "La scatola ritrovata",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con essere e i participi irregolari · La scatola ritrovata · livello difficile.",
+ "topics": [
+  "Il passato prossimo con essere e i participi irregolari",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1122
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi il messaggio tre volte: A) Leo; B) Lea e Nora; C) Lea e Leo. Adegua anche le persone verbali.",
+   "modelAnswer": "Ciao! Sono arrivato al centro culturale alle nove. Ho incontrato il gruppo e ho preparato i cartelloni. Poi sono salito nella sala grande e sono rimasto lì fino a mezzogiorno. Ho fatto una pausa in giardino e ho mangiato un panino. Nel pomeriggio sono tornato in sala, ho controllato i materiali e ho parlato con la responsabile. Alla fine sono uscito con gli altri e ho fotografato la mostra. È stata una giornata intensa. A presto, Leo.\n\nCiao! Siamo arrivate al centro culturale alle nove. Abbiamo incontrato il gruppo e abbiamo preparato i cartelloni. Poi siamo salite nella sala grande e siamo rimaste lì fino a mezzogiorno. Abbiamo fatto una pausa in giardino e abbiamo mangiato un panino. Nel pomeriggio siamo tornate in sala, abbiamo controllato i materiali e abbiamo parlato con la responsabile. Alla fine siamo uscite con gli altri e abbiamo fotografato la mostra. È stata una giornata intensa. A presto, Lea e Nora.\n\nCiao! Siamo arrivati al centro culturale alle nove. Abbiamo incontrato il gruppo e abbiamo preparato i cartelloni. Poi siamo saliti nella sala grande e siamo rimasti lì fino a mezzogiorno. Abbiamo fatto una pausa in giardino e abbiamo mangiato un panino. Nel pomeriggio siamo tornati in sala, abbiamo controllato i materiali e abbiamo parlato con la responsabile. Alla fine siamo usciti con gli altri e abbiamo fotografato la mostra. È stata una giornata intensa. A presto, Lea e Leo.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "MESSAGGIO DI LEA\nCiao! Sono arrivata al centro culturale alle nove. Ho incontrato il gruppo e ho preparato i cartelloni. Poi sono salita nella sala grande e sono rimasta lì fino a mezzogiorno. Ho fatto una pausa in giardino e ho mangiato un panino. Nel pomeriggio sono tornata in sala, ho controllato i materiali e ho parlato con la responsabile. Alla fine sono uscita con gli altri e ho fotografato la mostra. È stata una giornata intensa. A presto, Lea."
+ }
+}

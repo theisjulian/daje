@@ -1,0 +1,168 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-079",
+ "title": "Piccole decisioni insieme",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Piccole decisioni insieme · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1079
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ti"
+    },
+    {
+     "id": "p2",
+     "text": "va"
+    },
+    {
+     "id": "p3",
+     "text": "di"
+    },
+    {
+     "id": "p4",
+     "text": "mangiare"
+    },
+    {
+     "id": "p5",
+     "text": "qualcosa"
+    },
+    {
+     "id": "p6",
+     "text": "dopo"
+    }
+   ],
+   "explanation": "Ti va di mangiare qualcosa dopo?",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q2s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Possiamo"
+    },
+    {
+     "id": "p2",
+     "text": "prendere"
+    },
+    {
+     "id": "p3",
+     "text": "una"
+    },
+    {
+     "id": "p4",
+     "text": "pizza"
+    },
+    {
+     "id": "p5",
+     "text": "e"
+    },
+    {
+     "id": "p6",
+     "text": "dividerla"
+    }
+   ],
+   "explanation": "Possiamo prendere una pizza e dividerla."
+  },
+  {
+   "id": "q3s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ci"
+    },
+    {
+     "id": "p2",
+     "text": "vediamo"
+    },
+    {
+     "id": "p3",
+     "text": "davanti"
+    },
+    {
+     "id": "p4",
+     "text": "all’ingresso"
+    }
+   ],
+   "explanation": "Ci vediamo davanti all’ingresso."
+  },
+  {
+   "id": "q4s1",
+   "type": "ordering",
+   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ti"
+    },
+    {
+     "id": "p2",
+     "text": "mando"
+    },
+    {
+     "id": "p3",
+     "text": "un"
+    },
+    {
+     "id": "p4",
+     "text": "messaggio"
+    },
+    {
+     "id": "p5",
+     "text": "quando"
+    },
+    {
+     "id": "p6",
+     "text": "arrivo"
+    }
+   ],
+   "explanation": "Ti mando un messaggio quando arrivo."
+  }
+ ]
+}

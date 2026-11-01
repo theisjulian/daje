@@ -1,0 +1,190 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-058",
+ "title": "L’ora e i giorni della settimana (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "L’ora e i giorni della settimana · L’ora e i giorni della settimana (2) · livello facile.",
+ "topics": [
+  "L’ora e i giorni della settimana",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "L’ora e i giorni della settimana",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1058
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "prima di oggi"
+    },
+    {
+     "id": "c2",
+     "label": "oggi"
+    },
+    {
+     "id": "c3",
+     "label": "dopo oggi"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "adesso",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "ieri",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "la prossima settimana",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "ora",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "il mese scorso",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "dopodomani",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "stamattina",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "la settimana scorsa",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "l’altro ieri",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "ieri sera",
+     "category": "c1"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "prima di oggi"
+    },
+    {
+     "id": "c2",
+     "label": "oggi"
+    },
+    {
+     "id": "c3",
+     "label": "dopo oggi"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "tra tre giorni",
+     "category": "c3"
+    },
+    {
+     "id": "i2",
+     "text": "stasera",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "tre giorni fa",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "domani",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "in questo momento",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "l’anno scorso",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "il mese prossimo",
+     "category": "c3"
+    },
+    {
+     "id": "i8",
+     "text": "l’anno prossimo",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "tra un mese",
+     "category": "c3"
+    },
+    {
+     "id": "i10",
+     "text": "domani sera",
+     "category": "c3"
+    }
+   ]
+  }
+ ]
+}

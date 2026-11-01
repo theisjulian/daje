@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-178",
+ "title": "Il quaderno sul banco",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il quaderno sul banco · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3178
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Riscrivi le frasi di applicazione al racconto usando i pronomi indicati. Le ultime frasi ampliano la situazione per esercitare le combinazioni. (parte 1/2)\n1. La responsabile restituisce il quaderno al ragazzo. Sostituisci entrambi.\n2. Ada consegna l’avviso al collega. Sostituisci entrambi.\n3. Il ragazzo descrive la copertina alla responsabile. Sostituisci entrambi.\n4. La responsabile mostra l’etichetta al ragazzo. Sostituisci entrambi.\n5. Ada porta il quaderno alla reception. Sostituisci il quaderno.\n6. La responsabile chiede al ragazzo un dettaglio. Sostituisci al ragazzo.",
+   "modelAnswer": "1. La responsabile glielo restituisce.\n2. Ada glielo consegna.\n3. Il ragazzo gliela descrive.\n4. La responsabile gliela mostra.\n5. Ada lo porta alla reception.\n6. La responsabile gli chiede un dettaglio.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Riscrivi le frasi di applicazione al racconto usando i pronomi indicati. Le ultime frasi ampliano la situazione per esercitare le combinazioni. (parte 2/2)\n1. Il ragazzo lascia un messaggio alle addette. Sostituisci alle addette con loro dopo il verbo.\n2. Ada non legge le pagine. Sostituisci le pagine.\n3. La responsabile ha restituito la cartella a me. Sostituisci entrambi.\n4. Il collega ha dato i fogli a noi. Sostituisci entrambi.\n5. Il ragazzo porta due copie del messaggio a voi. Sostituisci a voi + del messaggio.\n6. Tu consegni il quaderno a me. Imperativo con entrambi i pronomi.",
+   "modelAnswer": "1. Il ragazzo lascia loro un messaggio.\n2. Ada non le legge.\n3. La responsabile me l’ha restituita.\n4. Il collega ce li ha dati.\n5. Il ragazzo ve ne porta due copie.\n6. Consegnamelo.",
+   "lines": 7
+  }
+ ]
+}

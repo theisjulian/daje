@@ -1,0 +1,203 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-036",
+ "title": "Classifica le 21 parole: persone, parti del libro, generi e attività",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Classifica le 21 parole: persone, parti del libro, generi e attività · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3036
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le 21 parole: persone, parti del libro, generi e attività. Per editrice usa qui il significato di persona che dirige o cura l’edizione. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "persone"
+    },
+    {
+     "id": "c2",
+     "label": "parti del libro"
+    },
+    {
+     "id": "c3",
+     "label": "generi"
+    },
+    {
+     "id": "c4",
+     "label": "attività"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "autore",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "romanzo",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "editrice",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "racconto",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "traduttore",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "saggio",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "illustratrice",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "biografia",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "lettore",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "poesia",
+     "category": "c3"
+    },
+    {
+     "id": "i11",
+     "text": "bibliotecaria",
+     "category": "c1"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le 21 parole: persone, parti del libro, generi e attività. Per editrice usa qui il significato di persona che dirige o cura l’edizione. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "persone"
+    },
+    {
+     "id": "c2",
+     "label": "parti del libro"
+    },
+    {
+     "id": "c3",
+     "label": "generi"
+    },
+    {
+     "id": "c4",
+     "label": "attività"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "copertina",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "leggere",
+     "category": "c4"
+    },
+    {
+     "id": "i3",
+     "text": "indice",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "sfogliare",
+     "category": "c4"
+    },
+    {
+     "id": "i5",
+     "text": "capitolo",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "pubblicare",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "prefazione",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "tradurre",
+     "category": "c4"
+    },
+    {
+     "id": "i9",
+     "text": "pagina",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "recensire",
+     "category": "c4"
+    }
+   ]
+  }
+ ]
+}

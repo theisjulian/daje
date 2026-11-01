@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-175",
+ "title": "Una mostra salvata dal lavoro di gruppo",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Una mostra salvata dal lavoro di gruppo · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1175
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci un ordine coerente. Usa domande, risposte e indicatori temporali. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]] · 11. [[g11]] · 12. [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "J"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "K"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "L"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "D"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis L im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Una compagna ha portato carta nuova, mentre un altro ha stampato i titoli.\n\nB — La sera prima dell’apertura, una finestra è rimasta aperta e il vento ha fatto cadere alcuni cartelloni.\n\nC — L’insegnante ha chiesto aiuto alla classe vicina, che ha prestato alcune mollette.\n\nD — Alla fine la classe ha fotografato la mostra e ha ringraziato chi aveva collaborato. Il racconto è immaginario.\n\nE — Non volevano nascondere le riparazioni: anche quelle mostravano il lavoro del gruppo.\n\nF — Il gruppo ha deciso di riparare soltanto quelli danneggiati e di cambiare la disposizione della mostra.\n\nG — Il giorno seguente la collaboratrice scolastica ha visto i fogli a terra e ha avvisato l’insegnante.\n\nH — I visitatori hanno letto la spiegazione e hanno fatto molte domande.\n\nI — Gli studenti hanno aggiunto un breve avviso per raccontare l’imprevisto.\n\nJ — La classe aveva preparato una mostra di disegni nel corridoio della scuola.\n\nK — Due studenti sono arrivati presto, hanno raccolto i materiali e li hanno divisi sul tavolo. Alcuni disegni erano intatti; altri avevano piccoli strappi.\n\nL — Tutti hanno lavorato per un’ora. Prima dell’arrivo dei visitatori, i cartelloni erano di nuovo al loro posto."
+ }
+}

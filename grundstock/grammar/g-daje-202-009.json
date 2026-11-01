@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-009",
+ "title": "Un laboratorio aperto al quartiere",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Un laboratorio aperto al quartiere · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1009
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Inserisci gli spazi fra le parole e ricostruisci il testo. Conserva apostrofi e punteggiatura.",
+   "modelAnswer": "Nel nostro quartiere apre un laboratorio di riparazione. Il locale è vicino alla biblioteca, ma l’ingresso si trova in una strada tranquilla. Dentro ci sono tavoli grandi, sedie leggere, scaffali alti e lampade nuove. Una finestra dà sul giardino. I volontari aiutano gli abitanti a riparare oggetti semplici: una borsa, un giocattolo, una cornice o una piccola sedia. Non riparano apparecchi elettrici. Ogni persona porta il proprio materiale e lavora insieme agli altri. Una sarta prepara le stoffe; un falegname controlla gli attrezzi. Le famiglie trovano anche uno spazio per disegnare. Sul tavolo dei bambini ci sono matite, fogli, colori e scatole vuote. Il sabato mattina il laboratorio ospita un incontro per nuovi partecipanti. La responsabile presenta il progetto e risponde alle domande. Non serve esperienza: servono curiosità, pazienza e voglia di collaborare. Prima di uscire, tutti puliscono i tavoli e mettono gli strumenti al loro posto. Così la stanza è pronta per il gruppo successivo.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Nelnostroquartiereapreunlaboratoriodiriparazione.Illocaleèvicinoallabiblioteca,mal’ingressositrovainunastradatranquilla.Dentrocisonotavoligrandi,sedieleggere,scaffalialtielampadenuove.Unafinestradàsulgiardino.Ivolontariaiutanogliabitantiariparareoggettisemplici:unaborsa,ungiocattolo,unacorniceounapiccolasedia.Nonriparanoapparecchielettrici.Ognipersonaportailpropriomaterialeelavorainsiemeaglialtri.Unasartapreparalestoffe;unfalegnamecontrollagliattrezzi.Lefamiglietrovanoancheunospazioperdisegnare.Sultavolodeibambinicisonomatite,fogli,coloriescatolevuote.Ilsabatomattinaillaboratorioospitaunincontropernuovipartecipanti.Laresponsabilepresentailprogettoerispondealledomande.Nonserveesperienza:servonocuriosità,pazienzaevogliadicollaborare.Primadiuscire,tuttipulisconoitavoliemettonoglistrumentialloroposto.Cosìlastanzaèprontaperilgrupposuccessivo."
+ }
+}

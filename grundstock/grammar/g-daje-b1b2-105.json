@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-105",
+ "title": "Una visita che comincia con una domanda",
+ "language": "it",
+ "level": "B2",
+ "description": "Scrivere per uno scopo · Una visita che comincia con una domanda · livello difficile.",
+ "topics": [
+  "Scrivere per uno scopo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: UNESCO World Heritage Centre – Venice and its Lagoon (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://whc.unesco.org/en/list/394/",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it11-scrittura",
+  "topicTitle": "Scrivere per uno scopo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3105
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Usa il testo su Venezia come modello di viaggio consapevole. Proponi un itinerario immaginario nel tuo quartiere: tre tappe, motivi, tempi flessibili e informazioni da verificare. 180–240 parole.",
+   "modelAnswer": "Un quartiere da osservare con calma\nPropongo una passeggiata immaginaria nel quartiere in cui vivo. Non occorre vedere tutto: l’itinerario invita a fermarsi in tre luoghi e a osservare come vengono usati durante una giornata normale. Prima di organizzare una visita reale, bisognerebbe controllare gli orari e l’accessibilità dei percorsi.\nLa prima tappa è la piccola piazza vicino alla fermata. Qui osserverei i movimenti delle persone senza fotografarle: chi attraversa, chi aspetta e chi si ferma a parlare. Dedicherei circa venti minuti alla descrizione dello spazio, lasciando però libertà a chi vuole prendere più appunti.\nProseguirei verso la biblioteca. Se fosse aperta e il personale fosse d’accordo, chiederei informazioni sulla sua storia e sui servizi. Non darei per scontato che tutti conoscano le possibilità offerte. L’ultima tappa sarebbe il giardino dietro il centro civico, dove confronteremmo le nostre osservazioni.\nLa passeggiata non si concluderebbe con una classifica dei posti migliori. Ogni partecipante sceglierebbe una domanda da approfondire: perché una strada è così larga, come è cambiato un edificio o quali attività mancano? Le risposte richiederebbero fonti diverse. Il nostro primo compito sarebbe imparare a guardare, distinguendo ciò che vediamo da ciò che immaginiamo. La guida finale indicherebbe chiaramente la data delle informazioni raccolte.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

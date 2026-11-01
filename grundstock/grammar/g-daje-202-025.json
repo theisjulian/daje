@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-025",
+ "title": "Una casa per studiare insieme (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Una casa per studiare insieme (1) · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1025
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Trova nel testo i nomi di mobili e oggetti domestici. Completa la lista con almeno sedici parole.",
+   "modelAnswer": "specchio, cassettiera, lampade, scaffale, frigorifero, forno, credenza, tavolo, sedie, piatti, bicchieri, tazze, pentole, posate, tovaglia, divano, poltrone, libreria, tappeto, letto, armadio, scrivania, lavatrice, armadietto",
+   "lines": 6,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Ciao Lara, finalmente abbiamo trovato una casa per il nostro periodo di studio! È al secondo piano di un edificio piccolo. Non è elegante, ma è luminosa e tranquilla. All’ingresso c’è uno specchio; sotto lo specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per le scarpe. La cucina è grande: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. I piatti sono bianchi, i bicchieri sono trasparenti e le tazze sono tutte diverse. Nella credenza troviamo anche pentole, posate e una tovaglia azzurra. Il soggiorno ha un divano comodo, due poltrone e una libreria. Il tappeto è vecchio, però è pulito. Le camere sono piccole. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. Le finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; gli asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. I vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. La sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!"
+ }
+}

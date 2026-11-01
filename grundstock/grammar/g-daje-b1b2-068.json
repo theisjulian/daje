@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-068",
+ "title": "La biblioteca dopo il temporale",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · La biblioteca dopo il temporale · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3068
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi «La biblioteca dopo il temporale» sostituendo il volontario con le volontarie. Conserva gli altri personaggi e controlla participi, aggettivi e pronomi.",
+   "modelAnswer": "Dopo un temporale, una piccola biblioteca immaginaria ha trovato acqua vicino alla finestra della sala ragazzi. La responsabile ha chiuso la zona e ha chiesto un controllo dell’edificio. Alcuni lettori hanno offerto aiuto, ma prima di accettarlo era necessario capire quali attività potessero essere svolte senza rischi e senza danneggiare i materiali.\nLe volontarie incaricate della comunicazione sono arrivate nel pomeriggio. Erano stanche dopo il lavoro, ma hanno ascoltato con attenzione le indicazioni. Hanno preparato un elenco dei compiti autorizzati: spostare le sedie asciutte, aggiornare gli avvisi e rispondere alle domande dei visitatori. Non hanno toccato i libri bagnati, che richiedevano indicazioni competenti. Poi sono uscite a comprare alcune cartelline.\nQuando sono tornate, hanno trovato una coda all’ingresso. Hanno spiegato che parte della biblioteca rimaneva aperta e hanno accompagnato i lettori al banco provvisorio. Un bambino cercava un libro prenotato; le volontarie hanno controllato il numero e lo hanno consegnato alla collega, che ha completato il prestito. Il bambino è andato via soddisfatto.\nAlla fine della giornata le volontarie hanno scritto un breve rapporto. Erano contente di essere state utili, ma non volevano trasformare il proprio intervento in una storia eroica. Il risultato dipendeva dal lavoro di molte persone e da istruzioni chiare. La settimana seguente sono tornate per aiutare con gli avvisi aggiornati. La continuità, hanno pensato, conta anche quando l’emergenza non fa più notizia.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Dopo un temporale, una piccola biblioteca immaginaria ha trovato acqua vicino alla finestra della sala ragazzi. La responsabile ha chiuso la zona e ha chiesto un controllo dell’edificio. Alcuni lettori hanno offerto aiuto, ma prima di accettarlo era necessario capire quali attività potessero essere svolte senza rischi e senza danneggiare i materiali.\nIl volontario incaricato della comunicazione è arrivato nel pomeriggio. Era stanco dopo il lavoro, ma ha ascoltato con attenzione le indicazioni. Ha preparato un elenco dei compiti autorizzati: spostare le sedie asciutte, aggiornare gli avvisi e rispondere alle domande dei visitatori. Non ha toccato i libri bagnati, che richiedevano indicazioni competenti. Poi è uscito a comprare alcune cartelline.\nQuando è tornato, ha trovato una coda all’ingresso. Ha spiegato che parte della biblioteca rimaneva aperta e ha accompagnato i lettori al banco provvisorio. Un bambino cercava un libro prenotato; il volontario ha controllato il numero e lo ha consegnato alla collega, che ha completato il prestito. Il bambino è andato via soddisfatto.\nAlla fine della giornata il volontario ha scritto un breve rapporto. Era contento di essere stato utile, ma non voleva trasformare il proprio intervento in una storia eroica. Il risultato dipendeva dal lavoro di molte persone e da istruzioni chiare. La settimana seguente è tornato per aiutare con gli avvisi aggiornati. La continuità, ha pensato, conta anche quando l’emergenza non fa più notizia.",
+  "title": "La biblioteca dopo il temporale"
+ }
+}

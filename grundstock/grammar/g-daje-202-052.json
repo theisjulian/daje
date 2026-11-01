@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-052",
+ "title": "Due modi di costruire un lavoro",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Due modi di costruire un lavoro · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1052
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nChe cosa consegna Ines?",
+   "modelAnswer": "Libri.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Chi accompagna Ines quando piove molto?",
+   "modelAnswer": "Un collega.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Quando Ines non lavora?",
+   "modelAnswer": "Il sabato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Con chi cucina la sera?",
+   "modelAnswer": "Con sua figlia.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Chi ha insegnato ad Ayo a riparare biciclette?",
+   "modelAnswer": "Suo zio.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Con chi condivide l’officina?",
+   "modelAnswer": "Con una collega.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Quando spiegano il costo ai clienti?",
+   "modelAnswer": "Prima di cominciare.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Che cosa organizzano nei mesi tranquilli?",
+   "modelAnswer": "Lezioni di manutenzione.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "Perché Ayo non vuole un negozio più grande?",
+   "modelAnswer": "Preferisce migliorare il servizio e avere tempo per la famiglia.",
+   "lines": 3
+  },
+  {
+   "id": "q1r10",
+   "type": "open_answer",
+   "prompt": "Le testimonianze sono interviste reali?",
+   "modelAnswer": "No, sono immaginarie.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "A — Mi chiamo Ines e vivo in una città di provincia. Lavoro in una cooperativa che consegna libri alle persone che non possono andare in biblioteca. Ogni mattina controllo le richieste, preparo le borse e organizzo il percorso. Uso una bicicletta elettrica per le consegne vicine. Quando piove molto, un collega mi accompagna con il furgone. Il lavoro richiede attenzione: non tutti desiderano gli stessi libri e qualcuno preferisce caratteri grandi. Ho una figlia che frequenta la scuola media. La sera cuciniamo insieme e ci raccontiamo la giornata. Non guadagno molto, ma mi piace un lavoro che mi permette di conoscere le persone. Per risparmiare tempo, faccio la spesa due volte alla settimana. Il sabato non lavoro e spesso incontro i miei amici.\nB — Io sono Ayo e riparo biciclette. Ho imparato da mio zio, poi ho seguito un corso professionale. Adesso condivido un’officina con una collega. Lei controlla i freni e le ruote; io mi occupo soprattutto delle luci e delle trasmissioni. I clienti arrivano da quartieri diversi. Alcuni usano la bicicletta tutti i giorni, altri soltanto nel fine settimana. Noi spieghiamo sempre il costo prima di cominciare. Paghiamo l’affitto del locale e compriamo gli attrezzi insieme. D’estate abbiamo molto lavoro; nei mesi tranquilli organizziamo lezioni di manutenzione. Non voglio aprire un negozio più grande: preferisco migliorare il servizio e avere tempo per la mia famiglia. Queste due testimonianze sono immaginarie."
+ }
+}

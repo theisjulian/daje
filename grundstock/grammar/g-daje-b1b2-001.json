@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-001",
+ "title": "La scatola senza etichetta",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · La scatola senza etichetta · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3001
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "B"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis G im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Mentre raccontava, un ragazzo ha notato un’insegna quasi invisibile. Nessuno aveva visto prima quel particolare. Alla fine il gruppo ha riconosciuto il negozio, ma non tutte le persone. Nora ha scritto soltanto i nomi sicuri; accanto agli altri ha messo un punto interrogativo.\n\nB — Per pubblicare un’immagine sarebbe servito anche verificare i diritti e chiedere le autorizzazioni necessarie. Il gruppo ha quindi deciso di cominciare con una descrizione del lavoro, lasciando le fotografie nell’archivio familiare. Cercare insieme non significava rendere pubblico tutto.\n\nC — Questa volta ha chiesto ai partecipanti di portare un documento o una fotografia che aiutasse a controllare i ricordi. Non tutti ricordavano la stessa data e due persone attribuivano nomi diversi allo stesso negozio. La bibliotecaria ha suggerito di registrare entrambe le versioni, senza scegliere in fretta. Nora ha aggiunto una colonna al quaderno: accanto a ogni informazione compariva la persona che l’aveva fornita.\n\nD — In biblioteca c’erano sei persone. Tutte guardavano una fotografia della piazza, che un visitatore aveva ingrandito. La donna con cui Nora ha parlato per prima abitava proprio lì.\n\nE — Quando Nora era piccola, suo nonno raccoglieva le fotografie del quartiere. Non scriveva quasi mai i nomi sul retro, perché riconosceva tutti. Dopo il trasloco, quelle persone sembravano sconosciute anche a lui.\n\nF — Perciò il quaderno non è diventato un elenco di certezze, ma un invito a continuare la ricerca. Oggi la scatola resta in casa; in biblioteca si consultano le copie, accompagnate dalle domande ancora aperte. Nei giorni successivi Nora ha organizzato un secondo incontro.\n\nG — Un sabato Nora ha trovato una scatola sotto il tavolo della soffitta e ha deciso di portarla alla biblioteca di zona. Prima di uscire, aveva telefonato alla bibliotecaria e aveva chiesto se qualcuno potesse aiutarla. La signora le aveva suggerito di non separare le immagini dalle buste. Nora aveva preparato anche un quaderno, ma aveva dimenticato la matita sul tavolo."
+ }
+}

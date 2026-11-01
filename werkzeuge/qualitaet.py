@@ -59,7 +59,10 @@ def grammar_units(q):
     if t == 'matching': return len(q['pairs'])
     if t in ('categorize', 'speaker_match', 'sentence_completion'): return len(q['items'])
     if t == 'table_fill': return sum(1 for r in q['rows'] for c in r if isinstance(c, dict))
-    if t == 'ordering': return 3  # ein Satz zum Ordnen zählt wie drei Einheiten
+    if t == 'ordering':
+        # ein Satz zum Ordnen zählt wie drei Einheiten; einen ganzen Text aus Blöcken ordnen zählt je Block, plus zwei
+        items = q.get('items') or []
+        return len(items) + 2 if items and sum(len(i['text']) for i in items) / len(items) > 25 else 3
     if t == 'open_answer': return 8
     return 1
 
@@ -69,7 +72,8 @@ def check_grammar(p, f):
     q = p['questions']
     g = p.get('grammar', {})
     n = sum(grammar_units(x) for x in q)
-    long_text = sum(len(x.get('text') or '') for x in q) >= 600  # langer Lückentext: wenige, anspruchsvolle Lücken genügen
+    # langer Lückentext oder Lesetext: wenige, anspruchsvolle Aufgaben genügen
+    long_text = sum(len(x.get('text') or '') for x in q) + len((p.get('reading') or {}).get('text') or '') >= 600
     if n < (3 if long_text else MIN_UNITS): hard.append(f'{f}: zu kurz ({n} Einheiten, mindestens {MIN_UNITS})')
     for x in q:
         if not x.get('promptHelp'): soft.append(f'{f}/{x["id"]}: Anweisung ohne deutsche Hilfe')

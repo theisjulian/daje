@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-039",
+ "title": "Il plastico in viaggio",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Il plastico in viaggio · livello medio.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3039
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "La mattina della mostra la nostra classe [[g1]] (aspettare) il treno con un enorme plastico della città. Lo avevamo costruito durante l’inverno e lo avevamo sistemato dentro una scatola. Il cartone [[g2]] (essere) resistente, ma le maniglie sembravano fragili. Per questo [[g3]] (portare, noi) anche del nastro adesivo.\nSul binario c’erano molti viaggiatori. Il tabellone annunciava dieci minuti di ritardo. La nostra coincidenza sembrava a rischio. Un addetto ci ha indicato un altro percorso e abbiamo controllato gli orari sul telefono. I biglietti erano validi anche per quel collegamento.\nQuando il treno [[g4]] (arrivare), due compagni hanno sollevato la scatola. Una maniglia si è staccata, ma il plastico non [[g5]] (cadere): una viaggiatrice ha afferrato il bordo in tempo. Lei viaggiava con una valigia leggera e ci [[g6]] (lasciare) spazio vicino alla porta.\nDurante il tragitto abbiamo riparato la confezione. La destinazione era ancora lontana, ma la preoccupazione [[g7]] (essere) diminuita. All’arrivo, un volontario ci ha accompagnato all’uscita. La mostra era cominciata da poco. Il nostro progetto [[g8]] (trovare, forma composta) posto su un tavolo vicino all’ingresso. Abbiamo aggiunto una didascalia: «Questa città ha già fatto un viaggio».",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "aspettava"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avevamo portato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "è arrivato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è caduto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha lasciato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha trovato"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Completa o riscrivi come indicato. Queste frasi di applicazione riprendono il tema del testo.\n1. Passivo: La classe ha preparato la mostra.\n2. Passivo: I lettori hanno corretto le didascalie.\n3. Passivo: La bibliotecaria conservava i documenti.\n4. Passivo con venire: Il personale controllava le finestre.",
+   "modelAnswer": "1. La mostra è stata preparata dalla classe.\n2. Le didascalie sono state corrette dai lettori.\n3. I documenti erano conservati dalla bibliotecaria.\n4. Le finestre venivano controllate dal personale.",
+   "lines": 5,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

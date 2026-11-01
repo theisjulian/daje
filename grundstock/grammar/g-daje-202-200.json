@@ -1,0 +1,198 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-200",
+ "title": "Un laboratorio da condividere (3)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Un laboratorio da condividere (3) · livello difficile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1200
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara Sofia, [[g1]] scrivo una notizia che forse [[g2]] sorprenderà: ho deciso di partecipare al progetto del centro culturale. Non è un corso normale. Un piccolo gruppo preparerà un laboratorio per i bambini del quartiere e io [[g3]] occuperò delle storie. Ho conosciuto la responsabile durante la festa della scuola. [[g4]] raccontato che [[g5]] piace scrivere e [[g6]] [[g7]] ha invitata a un incontro. Non ho accettato subito, perché temevo di non avere abbastanza esperienza. Poi ho parlato con due partecipanti e ho capito che nessuno deve fare tutto da solo.\nIl gruppo comprende sei persone. Due studiano musica, una disegna, un ragazzo sa costruire piccoli oggetti e un’altra partecipante ha già lavorato con i bambini. Io porterò alcuni racconti brevi. [[g8]] insieme e sceglieremo quelli più adatti. Non useremo tutte le storie: alcune sono troppo lunghe e altre hanno parole difficili. La responsabile [[g9]] aiuterà a [[g10]] senza perdere il senso.\nGli incontri saranno il sabato mattina. Per [[g11]] va bene, perché il mio corso di nuoto è al pomeriggio. Non riceveremo un compenso; il centro [[g12]] fornirà i materiali e uno spazio per le prove. Prima di cominciare faremo un incontro con gli educatori. Non conosco ancora la data del primo laboratorio, quindi non posso invitarti adesso. Quando avrò il programma definitivo, [[g13]] manderò.\n[[g14]] piacerebbe sapere che cosa pensi delle mie storie. Puoi leggere quella che [[g15]] ho lasciato ieri e [[g16]] dove [[g17]] annoi oppure non capisci? Non voglio soltanto complimenti: [[g18]] servono osservazioni sincere. Se hai tempo, [[g19]] incontriamo domenica in biblioteca. Porterò il quaderno e prenderò appunti. Un abbraccio, Giada.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Le ho"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lei"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Li leggeremo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "semplificarle"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "me"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "te lo"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Mi"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g16",
+     "acceptedAnswers": [
+      "dirmi"
+     ]
+    },
+    {
+     "id": "g17",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g18",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g19",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Usa la stessa struttura in frasi nuove.",
+   "text": "Scelgo il racconto vicino a me: scelgo __ racconto. (questo / quello) → [[g1]]\nNon so __ storia leggere. (quale / quella) → [[g2]]\nLe storie sono interessanti: __ leggo volentieri. (le / gli) → [[g3]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "questo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "quale"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ],
+   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an."
+  }
+ ]
+}

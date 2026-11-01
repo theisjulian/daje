@@ -1,0 +1,146 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-033",
+ "title": "Una richiesta alla redazione (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Una richiesta alla redazione (1) · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1033
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Gentile redazione, mi [[g1]] (chiamare, presente) Emma e [[g2]] (frequentare, presente) una scuola superiore. La nostra classe [[g3]] (preparare, presente) un giornale in italiano e [[g4]] (cercare, presente) un gruppo di coetanei con cui scambiare articoli. Ogni mese [[g5]] (scegliere, presente) un tema: lo sport, la musica, i quartieri o le abitudini alimentari. Gli studenti [[g6]] (scrivere, presente) testi brevi e l’insegnante ci [[g7]] (aiutare, presente) a correggerli. [[g8]] (avere, presente) anche una sezione di fotografie, ma [[g9]] (pubblicare, presente) soltanto immagini nostre e [[g10]] (chiedere, presente) il permesso alle persone riconoscibili. Vorremmo conoscere le vostre modalità di partecipazione. [[g11]] (essere, presente) possibile inviare un numero di prova? Il progetto [[g12]] (accettare, presente) anche classi che [[g13]] (studiare, presente) l’italiano da poco? [[g14]] (ringraziare, presente) per l’attenzione e [[g15]] (aspettare, presente) una risposta. Cordiali saluti, Emma.\nRisposta: Cara Emma, grazie per il tuo messaggio. Il vostro progetto ci interessa. Ti invio il modulo per presentare la classe. Non servono indirizzi privati: bastano il nome della scuola, la città, il contatto dell’insegnante e una breve descrizione delle attività. La prima scadenza è alla fine del mese. Per cominciare, proponete due argomenti e indicate quante persone lavorano al giornale. A presto, la redazione.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "chiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "frequento"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "prepara"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cerca"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "scegliamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "scrivono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "aiuta"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Abbiamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "pubblichiamo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "chiediamo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "È"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "accetta"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "studiano"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "Ringrazio"
+     ]
+    },
+    {
+     "id": "g15",
+     "acceptedAnswers": [
+      "aspetto"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

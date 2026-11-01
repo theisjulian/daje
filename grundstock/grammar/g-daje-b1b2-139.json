@@ -1,0 +1,192 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-139",
+ "title": "Chi può partecipare davvero? (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Confrontare posizioni e argomentare · Chi può partecipare davvero? (1) · livello difficile.",
+ "topics": [
+  "Confrontare posizioni e argomentare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it12-argomentare",
+  "topicTitle": "Confrontare posizioni e argomentare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3139
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Scegli la risposta sostenuta dal testo, non quella soltanto possibile nella realtà.\nQuale distinzione propone la lettera?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Accessibile significa necessariamente costoso."
+    },
+    {
+     "id": "o2",
+     "text": "Un’attività gratuita non può essere utile."
+    },
+    {
+     "id": "o3",
+     "text": "Gratuito non significa automaticamente accessibile."
+    }
+   ],
+   "correctOptionId": "o3",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Che cosa chiede sugli incontri?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Un premio per i nuovi iscritti."
+    },
+    {
+     "id": "o2",
+     "text": "Il numero privato di ogni partecipante."
+    },
+    {
+     "id": "o3",
+     "text": "Informazioni concrete su orari, prenotazioni e accoglienza."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Chi dovrebbe essere ascoltato?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Anche chi non frequenta abitualmente il centro."
+    },
+    {
+     "id": "o2",
+     "text": "Solo chi parla durante l’assemblea."
+    },
+    {
+     "id": "o3",
+     "text": "Soltanto chi partecipa da anni."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Che cosa non dovrebbe essere obbligatorio?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Raccontare difficoltà personali per motivare una richiesta."
+    },
+    {
+     "id": "o2",
+     "text": "Leggere informazioni pubbliche."
+    },
+    {
+     "id": "o3",
+     "text": "Conoscere l’orario dell’incontro."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "A che cosa servirebbe un periodo di prova?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "A dimostrare subito che tutto funziona."
+    },
+    {
+     "id": "o2",
+     "text": "A correggere orari e materiali informativi."
+    },
+    {
+     "id": "o3",
+     "text": "A evitare qualsiasi commento critico."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Quale criterio non basta da solo?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La chiarezza delle informazioni."
+    },
+    {
+     "id": "o2",
+     "text": "Il numero delle presenze."
+    },
+    {
+     "id": "o3",
+     "text": "L’ascolto delle osservazioni."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Qual è il tono della lettera?",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Indifferente al progetto."
+    },
+    {
+     "id": "o2",
+     "text": "Offensivo e minaccioso."
+    },
+    {
+     "id": "o3",
+     "text": "Critico ma propositivo."
+    }
+   ],
+   "correctOptionId": "o3"
+  }
+ ],
+ "reading": {
+  "text": "Gentile redazione, il centro culturale ha proposto una serie di incontri gratuiti. È una notizia positiva, ma vorrei discutere che cosa significhi rendere un’attività accessibile. L’assenza di un prezzo non elimina tutte le difficoltà. Una persona può essere libera soltanto la sera, un’altra può avere bisogno di informazioni più chiare sul percorso per raggiungere la sala.\nNella presentazione si legge che l’iniziativa è «per tutti». È un’intenzione che condivido, ma mi sembra più utile descrivere le condizioni concrete. A che ora termina l’incontro? È necessario prenotare? Chi arriva per la prima volta trova qualcuno che spieghi come partecipare? Queste domande non sono obiezioni al progetto; possono aiutarlo a funzionare meglio.\nPropongo di coinvolgere alcuni possibili partecipanti prima di definire ogni dettaglio. Non basterebbe invitare soltanto le persone già abituate a frequentare il centro. Sarebbe interessante ascoltare anche chi non è mai venuto. Naturalmente nessuno dovrebbe essere obbligato a raccontare difficoltà personali per giustificare una richiesta.\nUn periodo di prova potrebbe permettere di correggere gli orari e i materiali informativi. Alla fine non conterei soltanto le presenze. Chiederei se le persone hanno capito la proposta, se si sono sentite accolte e se desiderano tornare. Non tutte le risposte saranno positive, ma un commento critico può essere più utile di un complimento generico.\nScrivo perché vorrei partecipare e aiutare nella preparazione. La cura di questi aspetti richiede lavoro; non intendo presentarla come una soluzione immediata a ogni problema. Credo però che parlare di accessibilità attraverso esempi concreti renda la discussione meno astratta. La lettera è fittizia e non descrive un centro realmente esistente.",
+  "title": "Chi può partecipare davvero?"
+ }
+}

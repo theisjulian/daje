@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-187",
+ "title": "Imparare a restaurare: un’intervista immaginaria",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Imparare a restaurare: un’intervista immaginaria · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3187
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "B"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "A"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis H im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Restauratrice: Ne parliamo prima. Non tutto può essere accelerato senza conseguenze. Preferisco chiarire un limite e concordare un lavoro più circoscritto, invece di promettere un risultato che non posso motivare. Anche imparare a dire «questo richiede un altro controllo» fa parte del mestiere.\n\nB — Intervistatrice: Come hai scelto il tuo percorso? Restauratrice: Da ragazza disegnavo molto, ma non pensavo al restauro. Un giorno ho visitato un laboratorio e ho visto quanto tempo richiedeva osservare un oggetto prima di toccarlo. Mi ha colpito soprattutto quella pazienza.\n\nC — Per questo documento ogni fase. Intervistatrice: Hai mai cambiato idea durante un intervento? Restauratrice: Certo.\n\nD — Intervistatrice: Che cosa fai all’inizio di un lavoro? Restauratrice: Esamino il materiale e raccolgo le informazioni disponibili. Non decido soltanto in base all’aspetto. Una crepa può avere una storia importante e un colore apparentemente sporco può appartenere all’oggetto.\n\nE — Restauratrice: Di osservare, fare domande e scrivere quello che non sa. Le mani sono importanti, ma lo sono anche la lettura e il confronto. Nessuno dovrebbe promettere risultati prima di conoscere il problema. Alla fine non cerchiamo di far sembrare nuovo ogni oggetto: cerchiamo una soluzione motivata, che possa essere spiegata anche a chi lavorerà dopo di noi.\n\nF — Una volta avevo preparato un progetto molto dettagliato, poi un’analisi ha rivelato un materiale diverso da quello previsto. Abbiamo fermato il lavoro e discusso altre possibilità. Non è piacevole modificare un piano, ma sarebbe peggio continuare per orgoglio. Intervistatrice: Quale consiglio daresti a chi vuole imparare?\n\nG — Indico che cosa ho osservato, quali possibilità abbiamo valutato e perché ne abbiamo scelta una. Se un dettaglio resta incerto, lo scrivo. Il destinatario non deve fidarsi soltanto di una formula difficile da capire. Intervistatrice: E quando il tempo disponibile è poco?\n\nH — Questa intervista è originale e fittizia; non attribuisce dichiarazioni a una professionista reale. Intervistatrice: Come spieghi una scelta a chi ti ha affidato un oggetto? Restauratrice: Preparo una relazione con fotografie e descrizioni, quando le immagini sono autorizzate."
+ }
+}

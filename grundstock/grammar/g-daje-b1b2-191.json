@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-191",
+ "title": "Scrivi una notizia inventata per il giornale scolastico su un …",
+ "language": "it",
+ "level": "B2",
+ "description": "Scrivere per uno scopo · Scrivi una notizia inventata per il giornale scolastico su un … · livello difficile.",
+ "topics": [
+  "Scrivere per uno scopo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it11-scrittura",
+  "topicTitle": "Scrivere per uno scopo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3191
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Scrivi una notizia inventata per il giornale scolastico su un oggetto ritrovato. Indica chiaramente che è fittizia. Rispondi a chi, che cosa, dove, quando e come, senza dati personali reali. 120–180 parole.",
+   "modelAnswer": "Notizia fittizia — Ritrovato il quaderno della mostra\nLunedì pomeriggio un quaderno utilizzato per preparare la mostra scolastica è stato riconsegnato alla redazione del progetto. Era rimasto nella sala riunioni dopo l’incontro del venerdì. Una studentessa lo ha trovato mentre sistemava le sedie e lo ha portato alla reception senza fotografarne le pagine.\nIl personale ha pubblicato un avviso breve, chiedendo al proprietario di descrivere l’oggetto. La mattina seguente un componente della redazione ha indicato il colore della copertina e un’etichetta interna. Dopo il controllo, il quaderno è stato restituito.\nIl gruppo ha ringraziato chi aveva segnalato il ritrovamento. Per evitare altri problemi, conserverà una copia dei materiali del progetto in uno spazio condiviso e aggiungerà un recapito ai quaderni di lavoro. Non saranno pubblicati nomi o appunti personali. La vicenda mostra come un oggetto possa essere restituito senza trasformare il suo contenuto in una curiosità da diffondere.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

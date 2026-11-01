@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-037",
+ "title": "Un cortile aperto dopo le lezioni?",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Un cortile aperto dopo le lezioni? · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3037
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Dopo «Un cortile aperto dopo le lezioni?», scrivi al consiglio degli studenti. Presenta una posizione, due motivi, un’obiezione e una proposta realizzabile. Usa il condizionale. 180–240 parole.",
+   "modelAnswer": "Al consiglio degli studenti,\nsono favorevole ad aprire il cortile nel pomeriggio, ma proporrei un periodo di prova invece di partire subito con tutti i giorni della settimana. Molti compagni cercano un luogo gratuito in cui incontrarsi e non tutti possono raggiungere facilmente un centro sportivo. Il cortile potrebbe offrire anche uno spazio tranquillo per leggere o lavorare insieme.\nComincerei con due pomeriggi e dividerei lo spazio in zone, lasciando liberi i passaggi. Prima di preparare un calendario, chiederei alla direzione quali condizioni siano necessarie e quali risorse siano disponibili. Gli studenti potrebbero aiutare a raccogliere proposte, ma non dovrebbero assumere compiti per cui non sono preparati.\nCapisco l’obiezione di chi teme rumore e disordine. Non la liquiderei dicendo che bisogna fidarsi di noi. Definirei orari, responsabilità e un modo semplice per segnalare problemi. Dopo un mese ascolterei anche i vicini e il personale, non soltanto chi ha usato il cortile.\nSe l’esperimento funzionasse, potremmo discutere un’apertura più ampia. Se emergessero difficoltà, avremmo informazioni concrete per cambiare il progetto. Preferirei una proposta piccola che continui nel tempo a un’inaugurazione molto partecipata seguita da una chiusura. Sono disponibile a collaborare alla preparazione del questionario e a raccogliere i suggerimenti della mia classe.\nUn saluto, Elena",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

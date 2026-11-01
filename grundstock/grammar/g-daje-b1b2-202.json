@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-202",
+ "title": "Il podcast che non avevamo previsto",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il podcast che non avevamo previsto · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3202
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "error_correction",
+   "prompt": "Correggi la mail sul podcast senza cambiare il progetto descritto. Il testo contiene 8 interventi da correggere.",
+   "text": "Gentili compagni, la settimana scorsa [[e1]] la responsabile della biblioteca. [[e2]] di realizzare un breve podcast sui luoghi del quartiere. Noi abbiamo accettato e abbiamo scelto tre possibili itinerari. Prima di registrare, però, [[e7]] il consenso alle persone intervistate.\nIl gruppo di Gianni preparerà le domande; quello di Ada controllerà i rumori di fondo. Io vorrei occuparmi del montaggio, ma [[e3]] di un compagno. Qualcuno potrebbe lavorare con me martedì? Non occorre un’attrezzatura costosa: [[e4]] ascoltare con attenzione e lasciare alle persone il tempo di rispondere.\nAbbiamo già parlato [[e5]] [[e6]]. Lei ci ha consigliato di fare prima una prova da intervistatori. Anche chi non vuole parlare davanti al microfono avrà un compito: cercare informazioni, verificare i nomi o scrivere la presentazione.\nAlla fine pubblicheremo soltanto le registrazioni autorizzate. Se una risposta sarà troppo lunga, chiederemo se possiamo tagliarla senza cambiarne il significato. Il progetto finirà con un ascolto collettivo. Mi piacerebbe che [[e8]] la propria voce e il senso delle proprie parole. Una registrazione chiara serve; una relazione di fiducia serve ancora di più.",
+   "errors": [
+    {
+     "id": "e1",
+     "wrong": "abbiamo incontrati",
+     "acceptedAnswers": [
+      "abbiamo incontrato"
+     ]
+    },
+    {
+     "id": "e2",
+     "wrong": "Ci hanno proposto",
+     "acceptedAnswers": [
+      "Ci ha proposto"
+     ]
+    },
+    {
+     "id": "e3",
+     "wrong": "avrebbe bisogno",
+     "acceptedAnswers": [
+      "avrei bisogno"
+     ]
+    },
+    {
+     "id": "e4",
+     "wrong": "sarebbero più utile",
+     "acceptedAnswers": [
+      "sarebbe più utile"
+     ]
+    },
+    {
+     "id": "e5",
+     "wrong": "a questo problema",
+     "acceptedAnswers": [
+      "di questo problema"
+     ]
+    },
+    {
+     "id": "e6",
+     "wrong": "di una giornalista",
+     "acceptedAnswers": [
+      "a una giornalista"
+     ]
+    },
+    {
+     "id": "e7",
+     "wrong": "dovremo chiesto",
+     "acceptedAnswers": [
+      "dovremo chiedere"
+     ]
+    },
+    {
+     "id": "e8",
+     "wrong": "ogni persona riconoscessero",
+     "acceptedAnswers": [
+      "ogni persona riconoscesse"
+     ]
+    }
+   ],
+   "explanation": "abbiamo incontrati → abbiamo incontrato: Participio con avere senza pronome oggetto precedente. · Ci hanno proposto → Ci ha proposto: La responsabile: soggetto singolare. · avrebbe bisogno → avrei bisogno: Il soggetto è io. · sarebbero più utile → sarebbe più utile: Costruzione impersonale singolare. · a questo problema → di questo problema: Parlare di un argomento. · di una giornalista → a una giornalista: Parlare a una destinataria. · dovremo chiesto → dovremo chiedere: Dovere regge l’infinito. · ogni persona riconoscessero → ogni persona riconoscesse: Soggetto singolare.",
+   "promptHelp": "Korrigiere die Fehler."
+  }
+ ]
+}

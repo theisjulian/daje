@@ -1,0 +1,308 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-056",
+ "title": "Lessico in contesto (4)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (4) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1056
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/4)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "per cucinare"
+    },
+    {
+     "id": "c2",
+     "label": "per apparecchiare"
+    },
+    {
+     "id": "c3",
+     "label": "per pulire il pavimento"
+    },
+    {
+     "id": "c4",
+     "label": "per lavare i vestiti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "tovaglia",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "cesto della biancheria",
+     "category": "c4"
+    },
+    {
+     "id": "i3",
+     "text": "piatto",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "lavatrice",
+     "category": "c4"
+    },
+    {
+     "id": "i5",
+     "text": "bicchiere",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "detersivo",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "tovagliolo",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "stendino",
+     "category": "c4"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/4)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "per cucinare"
+    },
+    {
+     "id": "c2",
+     "label": "per apparecchiare"
+    },
+    {
+     "id": "c3",
+     "label": "per pulire il pavimento"
+    },
+    {
+     "id": "c4",
+     "label": "per lavare i vestiti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "padella",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "scopa",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "forno",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "straccio",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "coltello da cucina",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "aspirapolvere",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "pentola",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "secchio",
+     "category": "c3"
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 3/4)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "per dormire"
+    },
+    {
+     "id": "c2",
+     "label": "per studiare"
+    },
+    {
+     "id": "c3",
+     "label": "per lavarsi"
+    },
+    {
+     "id": "c4",
+     "label": "per conservare gli alimenti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "penna",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "shampoo",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "lampada",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "asciugamano",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "quaderno",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "spugna",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "scrivania",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "sapone",
+     "category": "c3"
+    }
+   ]
+  },
+  {
+   "id": "q1d",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 4/4)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "per dormire"
+    },
+    {
+     "id": "c2",
+     "label": "per studiare"
+    },
+    {
+     "id": "c3",
+     "label": "per lavarsi"
+    },
+    {
+     "id": "c4",
+     "label": "per conservare gli alimenti"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "barattolo",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "coperta",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "congelatore",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "lenzuolo",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "frigorifero",
+     "category": "c4"
+    },
+    {
+     "id": "i6",
+     "text": "cuscino",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "contenitore",
+     "category": "c4"
+    },
+    {
+     "id": "i8",
+     "text": "letto",
+     "category": "c1"
+    }
+   ]
+  }
+ ]
+}

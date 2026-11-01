@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-024",
+ "title": "Racconta un’abitudine della tua infanzia e un episodio che l’ha …",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Racconta un’abitudine della tua infanzia e un episodio che l’ha … · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3024
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Racconta un’abitudine della tua infanzia e un episodio che l’ha cambiata. Distingui lo sfondo all’imperfetto dagli eventi al passato prossimo. Scrivi 160–220 parole.",
+   "modelAnswer": "Da bambino passavo quasi tutti i sabati dai miei nonni. Abitavano vicino a una piccola stazione e, dopo pranzo, andavamo a guardare i treni. Mio nonno conosceva gli orari a memoria, mentre io inventavo storie sulle persone che partivano. Pensavo che ogni viaggio dovesse portare molto lontano per essere interessante.\nUn sabato il nonno mi ha proposto di salire sul treno invece di osservarlo soltanto. Abbiamo comprato due biglietti per il paese successivo. Il viaggio è durato poco e all’inizio sono rimasto deluso: mi aspettavo montagne, gallerie e città sconosciute. Poi siamo scesi e abbiamo cercato un posto dove sederci.\nIn una piazza c’era un uomo che riparava una bicicletta. Gli abbiamo chiesto informazioni e lui ci ha raccontato la storia della fontana. Non era una storia straordinaria, ma io non l’avevo mai sentita. Abbiamo trascorso il pomeriggio parlando e osservando le strade.\nDa quel giorno ho continuato ad andare alla stazione, però guardavo anche i nomi delle fermate vicine. Avevo capito che la distanza non decide da sola quanto possa essere nuovo un luogo. A volte basta scendere dove prima passavamo senza fermarci.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

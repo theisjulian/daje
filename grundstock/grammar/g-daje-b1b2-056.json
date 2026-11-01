@@ -1,0 +1,154 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-056",
+ "title": "Se potessimo scegliere: sei proposte (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se potessimo scegliere: sei proposte (1) · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3056
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "speaker_match",
+   "prompt": "Attribuisci ogni proposta alla persona corretta. Cerca una prova nel suo intervento. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "Amina"
+    },
+    {
+     "id": "c2",
+     "label": "Bruno"
+    },
+    {
+     "id": "c3",
+     "label": "Chiara"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "propone registrazioni in varie lingue",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "richiede un proprietario e una data di ritiro per gli oggetti",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "difende il valore del silenzio",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "considera il diritto di non essere registrati",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "metterebbe pochi tavoli nella stanza",
+     "category": "c3"
+    },
+    {
+     "id": "i6",
+     "text": "coinvolgerebbe chi porta l’oggetto nel lavoro",
+     "category": "c2"
+    }
+   ],
+   "promptHelp": "Ordne jede Aussage der richtigen Person zu."
+  },
+  {
+   "id": "q1b",
+   "type": "speaker_match",
+   "prompt": "Attribuisci ogni proposta alla persona corretta. Cerca una prova nel suo intervento. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "Diego"
+    },
+    {
+     "id": "c2",
+     "label": "Emma"
+    },
+    {
+     "id": "c3",
+     "label": "Farid"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "vuole uno scambio di aiuto nelle materie",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "eviterebbe classifiche nello scambio di oggetti",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "proverebbe le proposte prima della scelta",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "non sostituirebbe gli insegnanti",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "valuterebbe anche bisogni poco numerosi",
+     "category": "c3"
+    },
+    {
+     "id": "i6",
+     "text": "aprirebbe soltanto due pomeriggi al mese",
+     "category": "c2"
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "text": "Sei studenti immaginano come usare una stanza libera della scuola. Le proposte e le persone sono inventate.\nA — Amina: «Io aprirei una piccola sala di registrazione. Non credo che tutti abbiano voglia di esibirsi davanti a un pubblico. Se avessimo un posto tranquillo, potremmo registrare racconti in varie lingue. Ogni classe sceglierebbe un tema e qualcuno curerebbe il montaggio. Non comprerei subito strumenti costosi: prima chiederei in prestito quelli disponibili. Sarebbe necessario stabilire chi conserva le registrazioni e per quanto tempo. Una bella voce non basta; mi interessa che il progetto rispetti anche chi preferisce restare fuori».\nB — Bruno: «A me piacerebbe un luogo dove riparare gli oggetti. Se una sedia fosse rotta, non la butteremmo immediatamente. Un esperto verrebbe una volta al mese e noi impareremmo osservandolo. Temo però che la stanza diventi presto un deposito. Per evitarlo, ogni oggetto dovrebbe avere un proprietario e una data di ritiro. Chi porta qualcosa non dovrebbe sparire: parteciperebbe al lavoro, anche solo preparando i materiali o pulendo il tavolo. Il risultato non sarebbe soltanto l’oggetto riparato, ma una capacità condivisa».\nC — Chiara: «Preferirei una stanza silenziosa. La biblioteca è piena e in corridoio si parla sempre. Se ciascuno portasse le proprie cuffie, il problema non sarebbe risolto: non tutti riescono a concentrarsi nello stesso modo. Io metterei pochi tavoli e una luce adatta alla lettura. Credo che sia importante non riempire ogni spazio di attività. Naturalmente servirebbero regole semplici, altrimenti le discussioni sul silenzio farebbero più rumore del resto. Non chiederei prenotazioni lunghe; limiterei l’uso nei giorni in cui molte persone vogliono studiare».\nD — Diego: «La mia proposta è una stanza delle domande. Chi non capisce un argomento potrebbe lasciare un biglietto e chi sa rispondere fisserebbe un incontro. Vorrei che gli studenti si aiutassero senza sentirsi giudicati. Non penso che questo sostituisca il lavoro degli insegnanti. Al contrario, le domande raccolte mostrerebbero dove abbiamo bisogno di spiegazioni migliori. Io inizierei con una sola materia e dopo un mese valuterei i risultati. Se il sistema funzionasse, lo estenderemmo gradualmente. Chi offre aiuto dovrebbe anche poter dire: non lo so».\nE — Emma: «Io organizzerei uno scambio di vestiti e materiali scolastici. Alcune cose sono ancora utili, ma a casa occupano spazio. Prima di accettarle, controllerei che siano pulite e complete. Sarebbe ingiusto trasformare lo scambio in una gara a chi porta l’oggetto più bello. Perciò non userei prezzi e non pubblicherei classifiche. Mi auguro che tutti possano scegliere senza dover raccontare la propria situazione economica. La stanza aprirebbe soltanto due pomeriggi al mese. Negli altri giorni potrebbe essere usata da altri gruppi, purché gli scaffali restassero in ordine».\nF — Farid: «Non sceglierei subito una sola proposta. Se la scuola accettasse, proveremmo ogni idea per due settimane. Poi raccoglieremmo osservazioni concrete: quante persone sono venute, che cosa ha funzionato, quali difficoltà sono rimaste. Non basterebbe contare i partecipanti; una stanza tranquilla può aiutare poche persone ma essere molto necessaria. Spero che la decisione finale tenga conto anche di chi parla poco nelle assemblee. Io scriverei un questionario breve e lascerei spazio a una proposta nuova. Scegliere insieme richiede tempo, ma lo userei volentieri».",
+  "title": "Se potessimo scegliere: sei proposte"
+ }
+}

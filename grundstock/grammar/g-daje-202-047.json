@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-047",
+ "title": "Presentarsi e scrivere messaggi",
+ "language": "it",
+ "level": "A1",
+ "description": "Presentarsi e scrivere messaggi · Presentarsi e scrivere messaggi · livello medio.",
+ "topics": [
+  "Presentarsi e scrivere messaggi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-scrivere-a1",
+  "topicTitle": "Presentarsi e scrivere messaggi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1047
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Scrivi un’e-mail di 90–120 parole all’insegnante: spiega un problema con il progetto, indica che cosa hai già fatto e chiedi un incontro. Usa dati inventati.",
+   "modelAnswer": "Gentile professoressa, Le scrivo perché ho una difficoltà con il progetto di classe. Il mio gruppo ha raccolto le informazioni e ha preparato una lista delle fonti. Abbiamo anche scelto alcune immagini nostre. Non sappiamo però come dividere il testo in parti chiare. Ogni persona propone una soluzione diversa e perdiamo molto tempo. Vorremmo mostrarLe il materiale e ascoltare un consiglio. È possibile incontrarLa giovedì dopo la lezione? Possiamo portare una copia stampata e spiegare brevemente il problema. Se questo momento non va bene, siamo disponibili anche venerdì durante l’intervallo. La ringrazio per l’aiuto. Cordiali saluti, Elisa",
+   "lines": 15,
+   "explanation": "Controlla: Contenuti richiesti presenti · Testo comprensibile e coerente · Forme coerenti con il livello · Lessico pertinente · Lunghezza indicata rispettata",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

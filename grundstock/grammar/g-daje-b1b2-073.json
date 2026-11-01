@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-073",
+ "title": "Istruzioni per un pomeriggio in biblioteca",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Istruzioni per un pomeriggio in biblioteca · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3073
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Trasforma la nota per Nadia in una comunicazione formale a una nuova collaboratrice. Usa Lei, formule di apertura e chiusura e richieste cortesi. Mantieni le informazioni pratiche.",
+   "modelAnswer": "Gentile signora,\nLa ringrazio per la disponibilità a sostituirmi nel laboratorio di lettura. Le riassumo le informazioni necessarie per il pomeriggio. Prima di aprire la sala, ritiri le chiavi alla reception: la responsabile gliele consegnerà dopo il controllo del registro. Troverà il cartellone con i nomi nel mio armadio; La prego di appenderlo vicino alla porta.\nI partecipanti arriveranno alle quattro. Chieda loro di scegliere una sedia e di lasciare libero il passaggio. Le due ragazze nuove non conoscono ancora il gruppo: le presenti agli altri senza obbligarle a parlare subito. I genitori verranno a prenderle alle cinque e mezza.\nPer cominciare, mostri tre copertine e domandi quale libro incuriosisce di più. Lasci ai partecipanti la possibilità di proporre un ordine. Chi si stanca può sfogliare un altro volume nell’angolo tranquillo. Le forbici servono soltanto per il cartellone finale e devono restare sul tavolo grande.\nDopo la lettura, raccolga le domande in una busta. Non è necessario rispondere a tutte nello stesso pomeriggio. Mi comunichi quali temi hanno interessato maggiormente il gruppo e se manca del materiale. Prima di uscire, controlli le finestre, spenga la luce e restituisca le chiavi. Il programma può cambiare: l’importante è offrire a tutti un modo per partecipare.\nCordiali saluti,\nPietro",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Ciao Nadia, grazie per sostituirmi al laboratorio di lettura. Ti scrivo le cose essenziali, così non dovrai cercare ogni informazione nei vecchi messaggi. Prima di aprire la sala, prendi le chiavi dalla reception. La responsabile te le consegnerà dopo aver controllato il registro. Il cartellone con i nomi è nel mio armadio: appendi lo vicino alla porta.\nI partecipanti arrivano alle quattro. Chiedi gli di scegliere una sedia e di lasciare libero il passaggio. Le due ragazze nuove non conoscono ancora il gruppo: presenta le agli altri, senza obbligarle a raccontare subito qualcosa. I loro genitori verranno a prenderle alle cinque e mezza.\nPer cominciare, mostra tre copertine e domanda quale libro incuriosisce di più. Non leggere subito la tua scelta: lascia che siano loro a proporre un ordine. Se qualcuno si stanca, può sfogliare un altro volume nell’angolo tranquillo. Le forbici servono soltanto per il cartellone finale; tieni le sul tavolo grande.\nDopo la lettura, raccogli le domande in una busta. Non occorre rispondere a tutte oggi. Scrivi mi quali temi hanno interessato di più il gruppo e se manca qualche materiale. Prima di uscire, controlla le finestre, spegni la luce e restituisci le chiavi. Il laboratorio riesce anche quando il programma cambia: l’importante è che tutti trovino un modo per partecipare. A domani, Pietro.",
+  "title": "Istruzioni per un pomeriggio in biblioteca"
+ }
+}

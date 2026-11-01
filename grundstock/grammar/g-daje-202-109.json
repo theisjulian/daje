@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-109",
+ "title": "Il messaggio della responsabile",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Il messaggio della responsabile · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1109
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nPerché Silvia è uscita prima?",
+   "modelAnswer": "Perché l’hanno chiamata dalla scuola.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Rocco deve appendere subito i cartelloni?",
+   "modelAnswer": "No.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Dove sono le forbici nuove?",
+   "modelAnswer": "Nella scatola blu.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Dove lavorerà il gruppo di Emma?",
+   "modelAnswer": "Vicino alla finestra.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "La pianta va spostata?",
+   "modelAnswer": "No.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Quali libri deve scegliere Rocco?",
+   "modelAnswer": "Quelli con le immagini grandi.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Quando deve scrivere a Silvia?",
+   "modelAnswer": "Se c’è un problema urgente.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "È indispensabile finire tutto?",
+   "modelAnswer": "No, conta che tutti partecipino.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "Che cosa deve fare con gli strumenti alla fine?",
+   "modelAnswer": "Raccoglierli, contarli e riporli nella scatola.",
+   "lines": 3
+  },
+  {
+   "id": "q1r10",
+   "type": "open_answer",
+   "prompt": "Dove deve lasciare la chiave?",
+   "modelAnswer": "Alla reception.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Ciao Rocco, sono uscita prima del previsto perché mi hanno chiamata dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: prendili e mettili vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; usala soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. Controllale prima di distribuirle. Se arriva Emma, dille che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia."
+ }
+}

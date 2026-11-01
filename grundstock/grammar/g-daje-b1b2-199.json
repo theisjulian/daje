@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-199",
+ "title": "Scrivi un invito formale a un incontro pubblico immaginario sul …",
+ "language": "it",
+ "level": "B2",
+ "description": "Scrivere per uno scopo · Scrivi un invito formale a un incontro pubblico immaginario sul … · livello difficile.",
+ "topics": [
+  "Scrivere per uno scopo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it11-scrittura",
+  "topicTitle": "Scrivere per uno scopo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3199
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Scrivi un invito formale a un incontro pubblico immaginario sul giornale scolastico: scopo, destinatari, programma, luogo fittizio, risposta richiesta. 130–180 parole.",
+   "modelAnswer": "Gentili lettrici e lettori,\nla redazione del giornale scolastico è lieta di invitarvi a un incontro dedicato alle proposte per il prossimo numero. L’appuntamento immaginario si terrà venerdì alle diciassette nella sala riunioni della scuola Aurora. L’incontro è aperto a studenti, famiglie e personale interessato; non è richiesta alcuna esperienza giornalistica.\nPresenteremo brevemente il lavoro svolto, poi raccoglieremo domande e suggerimenti in piccoli gruppi. Dedicheremo una parte della discussione alle correzioni e all’uso delle fonti: vorremmo spiegare come controlliamo le informazioni prima di pubblicarle. Chi preferisce non intervenire a voce potrà lasciare un contributo scritto.\nPer organizzare i posti, vi chiediamo di comunicare la partecipazione alla segreteria scolastica entro mercoledì. Segnalate anche eventuali esigenze relative all’accesso alla sala, senza inserire informazioni personali non necessarie. Al termine prepareremo una sintesi anonima delle proposte ricevute.\nVi ringraziamo per l’attenzione e speriamo di incontrarvi per costruire un giornale utile alla comunità scolastica.\nCordiali saluti,\nLa redazione",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

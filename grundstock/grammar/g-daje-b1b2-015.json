@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-015",
+ "title": "Due accordi da chiarire (1)",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Due accordi da chiarire (1) · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3015
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Dialogo A"
+    },
+    {
+     "id": "p2",
+     "text": "— In"
+    },
+    {
+     "id": "p3",
+     "text": "una sala"
+    },
+    {
+     "id": "p4",
+     "text": "condivisa."
+    }
+   ],
+   "explanation": "Dialogo A — In una sala condivisa.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q1s2",
+   "type": "ordering",
+   "prompt": "Frase 2: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Nina: Avevamo"
+    },
+    {
+     "id": "p2",
+     "text": "prenotato questa"
+    },
+    {
+     "id": "p3",
+     "text": "stanza per"
+    },
+    {
+     "id": "p4",
+     "text": "le cinque."
+    }
+   ],
+   "explanation": "Nina: Avevamo prenotato questa stanza per le cinque."
+  },
+  {
+   "id": "q1s3",
+   "type": "ordering",
+   "prompt": "Frase 3: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Vedo però"
+    },
+    {
+     "id": "p2",
+     "text": "che state"
+    },
+    {
+     "id": "p3",
+     "text": "ancora provando."
+    }
+   ],
+   "explanation": "Vedo però che state ancora provando."
+  },
+  {
+   "id": "q1s4",
+   "type": "ordering",
+   "prompt": "Frase 4: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Leo: In"
+    },
+    {
+     "id": "p2",
+     "text": "effetti, abbiamo"
+    },
+    {
+     "id": "p3",
+     "text": "cominciato in"
+    },
+    {
+     "id": "p4",
+     "text": "ritardo."
+    }
+   ],
+   "explanation": "Leo: In effetti, abbiamo cominciato in ritardo."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-021",
+ "title": "Una stanza lasciata in ordine (2)",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Una stanza lasciata in ordine (2) · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3021
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara Elisa, quando leggerai questa lettera sarò già sul treno. Ti lascio le mie chiavi nel cassetto; per favore, consegna le alla nuova coinquilina. Ho incontrato Marta ieri e le ho spiegato come funziona il riscaldamento. Se avrà altre domande, potrai aiutarla tu.\nPrima di partire ho svuotato l’armadio. Quel maglione blu vicino alla finestra è tuo: lo avevi dimenticato in camera mia. Le piante sono nostre; scegli tu dove sistemarle. Invece il vaso giallo appartiene a mia madre. Verrà a prenderlo domenica e ti avviserà prima.\nQuesti mesi sono stati [[g1]] del mio anno. La stanza era [[g2]], ma ci abbiamo fatto entrare amici, progetti e discussioni. La cucina era [[g3]] della casa; eppure era anche il luogo in cui parlavamo più volentieri.\nQuindi non voglio salutarti con un messaggio frettoloso. Ho conservato il quaderno delle nostre ricette e te ne manderò una copia. Se tornerò in città, mi piacerebbe cucinare ancora insieme. Intanto ti auguro una buona estate. Scrivimi quando avrai tempo, anche soltanto due righe: quelle saranno sufficienti per farmi sentire vicina. Un abbraccio, Ines.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "i più intensi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "piccolissima"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "la meno ordinata"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Forma e riconosci i superlativi, mantenendo il genere richiesto.\n1. molto piccolo → superlativo assoluto, maschile singolare\n2. molto intensa → superlativo assoluto, femminile singolare\n3. molto tranquille → superlativo assoluto, femminile plurale\n4. molto utili → superlativo assoluto, plurale\n5. La stanza più luminosa della casa: relativo o assoluto?\n6. Un armadio grandissimo: relativo o assoluto?\n7. Il luogo meno rumoroso del quartiere: relativo o assoluto?\n8. Completa: È la stanza più piccola ___ casa.\n9. Completa: È il più giovane ___ coinquilini.",
+   "modelAnswer": "1. piccolissimo\n2. intensissima\n3. tranquillissime\n4. utilissimi / utilissime, secondo il genere del nome\n5. Superlativo relativo di maggioranza.\n6. Superlativo assoluto.\n7. Superlativo relativo di minoranza.\n8. della\n9. dei",
+   "lines": 10,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-144",
+ "title": "Chi può partecipare davvero? (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Confrontare posizioni e argomentare · Chi può partecipare davvero? (2) · livello difficile.",
+ "topics": [
+  "Confrontare posizioni e argomentare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it12-argomentare",
+  "topicTitle": "Confrontare posizioni e argomentare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3144
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Rispondi formalmente alla lettera «Chi può partecipare davvero?». Accogli due osservazioni, chiarisci un limite e proponi un confronto. 180–240 parole.",
+   "modelAnswer": "Gentile lettrice,\nla ringraziamo per la lettera e per le domande concrete che ha posto. Condividiamo l’idea che un’attività gratuita non sia automaticamente accessibile a ogni persona. Nella prossima comunicazione indicheremo quindi con maggiore chiarezza gli orari, le modalità di prenotazione e il percorso per raggiungere la sala.\nAccogliamo anche la proposta di ascoltare chi non frequenta abitualmente il centro. Vorremmo preparare un breve incontro aperto e offrire la possibilità di inviare osservazioni per iscritto. Nessuno dovrà raccontare informazioni personali per motivare una richiesta. Ci interessa conoscere le condizioni che facilitano o rendono difficile la partecipazione.\nDobbiamo però precisare un limite: in questa fase non possiamo garantire aperture in tutte le fasce orarie. Il personale e gli spazi disponibili sono limitati. Potremmo sperimentare due orari diversi e verificare che cosa cambia, spiegando fin dall’inizio la durata della prova.\nAl termine raccoglieremo commenti dai partecipanti e da chi avrà scelto di non venire. Pubblicheremo poi una sintesi delle osservazioni, senza nomi, e indicheremo quali modifiche possiamo realizzare. Se desidera collaborare alla preparazione delle domande, saremo lieti di incontrarla insieme ad altri interessati.\nLa sua lettera ci aiuta a trasformare un’intenzione generale in un lavoro più preciso. Grazie per averla formulata in modo costruttivo.\nCordiali saluti,\nLa redazione del centro",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-059",
+ "title": "Lessico in contesto (5)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (5) · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1059
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Ordina dodici alimenti secondo le tue preferenze: mela, pera, pane, riso, pasta, ceci, carote, patate, yogurt, formaggio, pesce, uova. Poi scrivi 80–110 parole: indica tre preferenze, due alimenti che mangi raramente e un pasto che prepari volentieri. Non esiste una classifica corretta.",
+   "modelAnswer": "Mi piacciono molto la pasta, il pane e le mele. Mangio volentieri anche il riso con le verdure, soprattutto quando cuciniamo insieme in famiglia. Il pesce mi piace meno e lo mangio raramente. Anche il formaggio non è tra i miei alimenti preferiti. A colazione scelgo spesso yogurt e frutta. Quando ho tempo preparo un’insalata di ceci con carote e pane. È un piatto semplice e posso portarlo a scuola. Le mie preferenze cambiano con le stagioni: in inverno desidero piatti caldi, mentre in estate preferisco qualcosa di fresco.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuti richiesti presenti · Testo comprensibile e coerente · Forme coerenti con il livello · Lessico pertinente · Lunghezza indicata rispettata",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

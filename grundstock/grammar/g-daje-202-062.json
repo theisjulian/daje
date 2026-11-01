@@ -1,0 +1,79 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-062",
+ "title": "Un avviso da leggere con attenzione",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Un avviso da leggere con attenzione · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1062
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nDove si svolgono le attività del mattino durante i lavori?",
+   "modelAnswer": "Nella sala verde.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Quale corso serale continua online?",
+   "modelAnswer": "Il laboratorio di scrittura del giovedì.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "La biblioteca chiude per tutta la settimana?",
+   "modelAnswer": "No, rimane aperta dalle nove alle diciassette.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Dove si restituiscono i libri dopo le diciassette?",
+   "modelAnswer": "Nella cassetta accanto al cancello.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "AVVISO DIDATTICO — Il seguente servizio è immaginario. Da lunedì 12 a venerdì 16 aprile, la sala principale del centro culturale resta chiusa per lavori. Le attività del mattino si svolgono nella sala verde, al piano terra. I corsi serali sono sospesi, tranne il laboratorio di scrittura del giovedì, che si tiene online. La biblioteca rimane aperta dalle nove alle diciassette; l’ingresso provvisorio è dal giardino. Sabato 17 aprile tutti i servizi riprendono normalmente. Chi ha prenotato un incontro nella sala principale può scegliere un’altra data oppure chiedere informazioni alla reception. Non occorre prenotare di nuovo le attività trasferite nella sala verde. Il prestito dei libri continua durante tutta la settimana. Per restituire libri dopo le diciassette si può usare la cassetta accanto al cancello. Il parcheggio delle biciclette resta accessibile. Il centro ringrazia i visitatori per la pazienza e invita a controllare il cartello all’ingresso prima di raggiungere le sale."
+ }
+}

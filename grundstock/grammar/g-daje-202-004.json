@@ -1,0 +1,184 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-004",
+ "title": "Numeri e quantità",
+ "language": "it",
+ "level": "A1",
+ "description": "Numeri e quantità · Numeri e quantità · livello facile.",
+ "topics": [
+  "Numeri e quantità",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-numeri",
+  "topicTitle": "Numeri e quantità",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1004
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Calcola e scrivi il risultato in lettere. (parte 1/2)",
+   "text": "8 + 4 = ? → [[g1]]\n15 - 7 = ? → [[g2]]\n6 + 5 = ? → [[g3]]\n18 - 9 = ? → [[g4]]\n3 + 4 = ? → [[g5]]\n12 - 8 = ? → [[g6]]\n9 + 9 = ? → [[g7]]\n17 - 5 = ? → [[g8]]\n7 + 6 = ? → [[g9]]\n20 - 4 = ? → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dodici"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "otto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "undici"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "nove"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sette"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quattro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "diciotto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dodici"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "tredici"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sedici"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Calcola e scrivi il risultato in lettere. (parte 2/2)",
+   "text": "8 + 7 = ? → [[g1]]\n14 - 9 = ? → [[g2]]\n10 + 9 = ? → [[g3]]\n11 - 8 = ? → [[g4]]\n4 + 6 = ? → [[g5]]\n19 - 5 = ? → [[g6]]\n2 + 4 = ? → [[g7]]\n20 - 3 = ? → [[g8]]\n9 - 7 = ? → [[g9]]\n16 - 16 = ? → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quindici"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cinque"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diciannove"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "tre"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dieci"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quattordici"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "diciassette"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "due"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "zero"
+     ]
+    }
+   ]
+  }
+ ]
+}

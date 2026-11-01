@@ -1,0 +1,143 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-029",
+ "title": "Due lettere sulla biblioteca del sabato",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Due lettere sulla biblioteca del sabato · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3029
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Rispondi in base al testo. Usa parole tue e indica il passaggio che giustifica la risposta.\nChi ha difficoltà a frequentare la biblioteca durante la settimana?",
+   "modelAnswer": "Bianca, perché segue un corso lontano da casa.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Quale apertura propone Bianca?",
+   "modelAnswer": "Un pomeriggio di sabato una volta al mese.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Chiede lavoro senza pause al personale?",
+   "modelAnswer": "No; propone di discutere una diversa organizzazione dell’orario.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Quale incontro le piacerebbe?",
+   "modelAnswer": "Un incontro in cui i lettori presentino un libro senza una lunga relazione.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Come usa la biblioteca suo fratello?",
+   "modelAnswer": "Per studiare e cercare manuali.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "La risposta del fratello è un sì incondizionato?",
+   "modelAnswer": "No, dipende dal programma.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Perché evitare un questionario soltanto online?",
+   "modelAnswer": "Potrebbe escludere alcuni frequentatori.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Chi accompagna Karim in biblioteca?",
+   "modelAnswer": "Sua sorella.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "Quale problema nota Karim?",
+   "modelAnswer": "Spesso manca un posto tranquillo.",
+   "lines": 3
+  },
+  {
+   "id": "q1r10",
+   "type": "open_answer",
+   "prompt": "Perché cambiare soltanto l’orario potrebbe non bastare?",
+   "modelAnswer": "Senza organizzare meglio gli spazi si potrebbe solo spostare il problema.",
+   "lines": 3
+  },
+  {
+   "id": "q1r11",
+   "type": "open_answer",
+   "prompt": "Quale prova propone Karim?",
+   "modelAnswer": "Pomeriggi con usi diversi, poi raccolta di osservazioni.",
+   "lines": 3
+  },
+  {
+   "id": "q1r12",
+   "type": "open_answer",
+   "prompt": "Chi dovrebbe poter spiegare la propria scelta?",
+   "modelAnswer": "Anche chi non partecipa.",
+   "lines": 3
+  },
+  {
+   "id": "q1r13",
+   "type": "open_answer",
+   "prompt": "Quale aiuto offre Karim e quale esclude?",
+   "modelAnswer": "Aiuto nella comunicazione; non sostituirebbe il lavoro di persone formate.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "A — Lettera di Bianca. La biblioteca del nostro quartiere chiude il sabato a mezzogiorno. Vorrei proporre un’apertura pomeridiana una volta al mese. Durante la settimana seguo un corso lontano da casa e riesco raramente a passarci. Non chiedo che il personale lavori senza pausa: immagino un orario diverso, da discutere con chi organizza il servizio. Mi piacerebbe soprattutto partecipare a un incontro in cui i lettori presentino un libro senza dover preparare una relazione lunga.\nHo parlato della proposta con mio fratello. Lui non legge molti romanzi, ma usa la biblioteca per studiare e cercare manuali. Gli ho chiesto se verrebbe; mi ha risposto che dipenderebbe dal programma. Questa risposta mi sembra utile: un’apertura aggiuntiva non interessa automaticamente tutti. Per capire le esigenze, preparerei poche domande e le lascerei sia all’ingresso sia sul sito. Non userei soltanto un questionario online, perché rischierei di non ascoltare alcuni frequentatori.\nB — Risposta di Karim. L’idea di Bianca mi interessa, ma prima di cambiare gli orari guarderei come viene usato lo spazio. Il sabato mattina accompagno mia sorella alla sezione ragazzi e spesso non troviamo un posto tranquillo. Se aprissimo più a lungo senza organizzare meglio le sale, potremmo spostare il problema invece di risolverlo.\nPer questo proporrei un periodo di prova. Un pomeriggio sarebbe dedicato allo studio, un altro agli incontri. Alla fine raccoglieremmo osservazioni dai lettori e dal personale. Chi non partecipa dovrebbe poter spiegare perché: forse l’orario non va bene, forse non conosce l’iniziativa, forse cerca un servizio diverso. Non vorrei che il numero dei presenti diventasse l’unico criterio.\nSono disponibile ad aiutare nella comunicazione della prova, ma non a sostituire il lavoro di persone formate. Alla biblioteca chiediamo competenza, cura e continuità. Un progetto nato dai lettori può essere prezioso se riconosce queste esigenze. Le due lettere sono state scritte per l’esercizio e non riportano una consultazione reale.\nNota comune dei due autori: «Abbiamo scritto le nostre proposte e le abbiamo rilette insieme. Alla responsabile le manderemo una copia. Il calendario non lo decidiamo noi; ne discuteremo con chi organizza il servizio. I lettori possono darci suggerimenti. Se li raccogliamo con ordine, sarà più facile usarli. Nessuno dovrà giustificarsi se non verrà. A chi chiede una risposta promettiamo di scrivergli dopo il confronto; le domande aperte non le dimenticheremo».",
+  "title": "Due lettere sulla biblioteca del sabato"
+ }
+}

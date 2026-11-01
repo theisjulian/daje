@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-050",
+ "title": "Domande prima di iscriversi",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Domande prima di iscriversi · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3050
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riprendi «Domande prima di iscriversi». Scrivi una nuova richiesta per un laboratorio di fotografia: esperienza, attrezzatura, orari, uso delle immagini. Non copiare la lettera. 140–180 parole.",
+   "modelAnswer": "Gentile segreteria,\nho letto la presentazione del laboratorio di fotografia e vorrei ricevere alcune informazioni prima di iscrivermi. Frequento la scuola secondaria e fotografo soprattutto paesaggi con il telefono. Non ho mai partecipato a un corso, quindi desidererei sapere se il laboratorio è adatto anche a chi comincia.\nPossiedo una macchina fotografica semplice, ma non conosco tutte le sue funzioni. Sarebbe possibile usarla durante gli incontri? Vorrei inoltre capire se le attività si svolgeranno sempre nella vostra sede o se sono previste uscite. Il martedì potrei arrivare soltanto alle diciassette, mentre il sabato sarei disponibile per l’intero pomeriggio.\nMi interessa anche l’uso delle fotografie finali. Saranno mostrate soltanto ai partecipanti oppure pubblicate? Mi piacerebbe imparare a preparare una piccola esposizione, ma preferirei conoscere prima le condizioni e le autorizzazioni richieste.\nVi ringrazio per l’attenzione. Se esiste un programma dettagliato, potreste inviarmelo insieme alle informazioni sulle modalità di iscrizione?\nCordiali saluti,\nArianna Ferri",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

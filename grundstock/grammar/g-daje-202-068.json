@@ -1,0 +1,208 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-068",
+ "title": "L’ora e i giorni della settimana (3)",
+ "language": "it",
+ "level": "A1",
+ "description": "L’ora e i giorni della settimana · L’ora e i giorni della settimana (3) · livello facile.",
+ "topics": [
+  "L’ora e i giorni della settimana",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "L’ora e i giorni della settimana",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1068
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "come?"
+    },
+    {
+     "id": "c2",
+     "label": "dove?"
+    },
+    {
+     "id": "c3",
+     "label": "quando?"
+    },
+    {
+     "id": "c4",
+     "label": "quanto?"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "troppo",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "domani",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "un po’",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "oggi",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "abbastanza",
+     "category": "c4"
+    },
+    {
+     "id": "i6",
+     "text": "tardi",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "molto",
+     "category": "c4"
+    },
+    {
+     "id": "i8",
+     "text": "ieri",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "poco",
+     "category": "c4"
+    },
+    {
+     "id": "i10",
+     "text": "sempre",
+     "category": "c3"
+    },
+    {
+     "id": "i11",
+     "text": "presto",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "come?"
+    },
+    {
+     "id": "c2",
+     "label": "dove?"
+    },
+    {
+     "id": "c3",
+     "label": "quando?"
+    },
+    {
+     "id": "c4",
+     "label": "quanto?"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "velocemente",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "lì",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "lentamente",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "davanti",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "bene",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "fuori",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "con calma",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "qui",
+     "category": "c2"
+    },
+    {
+     "id": "i9",
+     "text": "male",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "dietro",
+     "category": "c2"
+    },
+    {
+     "id": "i11",
+     "text": "dentro",
+     "category": "c2"
+    }
+   ]
+  }
+ ]
+}

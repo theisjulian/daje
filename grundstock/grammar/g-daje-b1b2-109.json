@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-109",
+ "title": "Una lettera sulle luci accese (3)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Una lettera sulle luci accese (3) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3109
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Indica a chi o a che cosa rinvia ciascuna espressione. Cita anche il contesto, non soltanto la parola isolata.\nIo non so",
+   "modelAnswer": "Io = la persona che scrive la lettera.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "la nostra classe",
+   "modelAnswer": "La classe dell’autore della lettera.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "ci ha spiegato",
+   "modelAnswer": "Ci = agli studenti della classe.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Questo cambia",
+   "modelAnswer": "Questo = l’uso di alcuni locali dopo le lezioni.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Gli abbiamo chiesto",
+   "modelAnswer": "Gli = al custode.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "lo avrebbe discusso",
+   "modelAnswer": "Lo = il calendario visibile proposto.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Questa non è",
+   "modelAnswer": "Questa = la proposta descritta nella lettera.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "le nostre ipotesi",
+   "modelAnswer": "Le ipotesi degli studenti della classe.",
+   "lines": 3
+  },
+  {
+   "id": "q1r9",
+   "type": "open_answer",
+   "prompt": "chi dovesse spegnerle → le",
+   "modelAnswer": "Le luci accese nelle aule.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, ho notato che alcune aule vuote avevano ancora le luci accese. Io non so chi dovesse spegnerle e non voglio accusare una persona senza conoscere l’organizzazione. Vorrei però capire se esista una procedura chiara.\nLa nostra classe ha discusso il problema e ha preparato una proposta. I rappresentanti potrebbero incontrare il personale e chiedere quali controlli siano già previsti. Noi pensiamo che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti possono credere che lo farà qualcun altro.\nIl custode ci ha spiegato che alcuni locali vengono usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse utile un calendario visibile. Lui ha risposto che lo avrebbe discusso con i colleghi.\nPer una settimana osserveremo soltanto le aree che siamo autorizzati a controllare. Non toccheremo impianti e non pubblicheremo nomi. Alla fine presenteremo ciò che abbiamo visto, distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma potrebbe essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
+  "title": "Una lettera sulle luci accese"
+ }
+}

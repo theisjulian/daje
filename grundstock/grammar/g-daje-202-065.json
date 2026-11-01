@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-065",
+ "title": "Tre voci per la radio della scuola (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Tre voci per la radio della scuola (2) · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1065
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "A — Ciao, sono Daria. Ho sedici anni e vivo a Ferrara con mio padre e mia sorella. [[g1]] un istituto tecnico e [[g2]] informatica. Il mercoledì preparo una [[g3]] per la radio della scuola. Cerco storie curiose, faccio [[g4]] e registro le [[g5]]. Non parlo molto davanti a tante persone, ma con un [[g6]] mi sento tranquilla. Amo i gatti e leggo [[g7]]. Nel fine settimana lavoro qualche ora nel [[g8]] di mia zia.\nB — Mi chiamo Karim e abito a Modena. Sono un compagno di Daria, ma non studio nella sua scuola. Ho diciassette anni, suono il basso e ascolto musica di tanti paesi. Noi del gruppo proviamo il venerdì sera. I miei genitori hanno un piccolo ristorante. Quando posso, aiuto in cucina. Per la radio scelgo le canzoni e controllo il volume. Non canto: preferisco stare dietro al banco del suono.\nC — Io sono Viola, ho quindici anni e sono nuova nel gruppo. Vengo da una città sul mare, ma adesso abito vicino a Ferrara. Mi piacciono gli animali e le passeggiate. Scrivo brevi racconti e desidero leggere uno dei miei testi alla radio. Voi avete un consiglio per me? Siete esperti di registrazione? Io ho molte idee, ma ho ancora poca esperienza.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Frequento"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "studio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "trasmissione"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "domande"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "risposte"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "microfono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fumetti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "negozio"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

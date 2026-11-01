@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-173",
+ "title": "Due opinioni sul giornale di classe",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Due opinioni sul giornale di classe · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3173
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Nel resoconto distingue imperfetto di sfondo, futuro nel passato e desiderio non realizzato. Analizza le forme intere.\n1. preparavamo\n2. pensavamo\n3. avremmo pubblicato\n4. lavorava\n5. mancava\n6. controllava\n7. avrebbe raccolto\n8. avrebbe richiesto\n9. Avrei voluto\n10. sarebbe stato",
+   "modelAnswer": "1. Preparare, indicativo imperfetto: attività in corso nel passato.\n2. Pensare, indicativo imperfetto: stato mentale passato.\n3. Pubblicare, condizionale passato: futuro rispetto a pensavamo.\n4. Lavorare, indicativo imperfetto: situazione di sfondo.\n5. Mancare, indicativo imperfetto: situazione ripetuta.\n6. Controllare, indicativo imperfetto: attività nel passato.\n7. Raccogliere, condizionale passato: futuro rispetto a diceva.\n8. Richiedere, condizionale passato: futuro rispetto al momento di non sapevamo.\n9. Volere, condizionale passato: desiderio non realizzato, come chiarisce però non avevo ricevuto il consenso.\n10. Essere, condizionale passato: futuro rispetto a speravamo.",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Quando preparavamo il primo numero, pensavamo che avremmo pubblicato tutto entro venerdì. La redazione lavorava in una stanza piccola e spesso mancava un tavolo libero. Irene controllava le citazioni; Samuele diceva che avrebbe raccolto i commenti dei lettori. Avevamo molte idee, ma non sapevamo quanto tempo avrebbe richiesto la revisione. Avrei voluto aggiungere un’intervista, però non avevo ricevuto il consenso. Speravamo che il lavoro sarebbe stato utile anche alle altre classi. Alla fine abbiamo scelto un numero più breve. Questo resoconto è un’applicazione narrativa inventata a partire dal dibattito, non un fatto già affermato dai due interventi."
+ }
+}

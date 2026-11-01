@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-008",
+ "title": "Un laboratorio che cambia idea",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Un laboratorio che cambia idea · livello medio.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Methodische Kompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3008
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "La nostra officina scolastica occupa un locale [[g1]] vicino alla palestra. All’inizio volevamo costruire soltanto oggetti piccoli, facili da trasportare. Poi una vicina ci ha chiesto una mensola per i suoi libri e il progetto è cambiato.\nSul banco ci sono pezzi di legno, fogli di cartone e vecchie scatole di metallo. Per le decorazioni usiamo ritagli di stoffa; evitiamo invece il vetro, perché non abbiamo strumenti adatti per lavorarlo. Ogni materiale richiede una scelta [[g2]].\nLuca procede lentamente, ma le sue misure sono [[g3]]. Sara disegna rapidamente e propone soluzioni [[g4]]. Nessuno lavora completamente da solo: prima di tagliare, controlliamo il disegno insieme. Un bordo irregolare può essere corretto; una mensola [[g5]] non deve essere consegnata.\nI primi risultati erano modesti, però la vicina li ha osservati [[g6]]. Ci ha spiegato che preferiva una superficie naturale, senza colori [[g7]]. Abbiamo modificato il progetto e conservato gli avanzi in contenitori separati. Il lavoro più [[g8]] non è stato usare gli attrezzi, ma ascoltare una richiesta senza pensare di averla già capita. La prossima volta inviteremo il destinatario prima di cominciare, non soltanto quando l’oggetto sarà pronto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "luminoso"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "diversa"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "precise"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "originali"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "instabile"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "attentamente"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vivaci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "difficile"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa o riscrivi come indicato. Queste frasi di applicazione riprendono il tema del testo.",
+   "text": "Spiega in modo chiaro → spiega … → [[g1]]\nOsserva con attenzione → osserva … → [[g2]]\nRisponde in modo gentile → risponde … → [[g3]]\nLavora con regolarità → lavora … → [[g4]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "chiaramente"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "attentamente"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gentilmente"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "regolarmente"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-110",
+ "title": "Il quaderno sul banco (1)",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Il quaderno sul banco (1) · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3110
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "ordering",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Alla fine del laboratorio, Ada ha trovato un quaderno sul banco vicino alla finestra. La copertina non aveva un nome. Ada ha aperto soltanto la prima pagina per cercare un recapito, poi ha richiuso il quaderno."
+    },
+    {
+     "id": "p2",
+     "text": "Non voleva leggere appunti personali che non le appartenevano. Ha consegnato il quaderno alla responsabile del centro. La responsabile ha preparato un avviso: «È stato trovato un quaderno durante il laboratorio di sabato»."
+    },
+    {
+     "id": "p3",
+     "text": "Non ha descritto ogni particolare, così il proprietario avrebbe potuto riconoscerlo indicando un dettaglio. Ada ha portato l’avviso alla reception e ha spiegato l’accaduto al collega che iniziava il turno. Il collega ha scritto il luogo in cui conservavano l’oggetto."
+    },
+    {
+     "id": "p4",
+     "text": "Il giorno seguente un ragazzo è tornato al centro. Cercava un quaderno e sembrava preoccupato."
+    },
+    {
+     "id": "p5",
+     "text": "La responsabile gli ha chiesto di descriverlo. Il ragazzo ha ricordato una piccola etichetta all’interno della copertina e ha indicato il colore del filo che usava come segnalibro. La descrizione corrispondeva."
+    },
+    {
+     "id": "p6",
+     "text": "La responsabile ha restituito il quaderno al ragazzo e gli ha suggerito di aggiungere un recapito, se lo desiderava. Ada ha saputo soltanto che l’oggetto era stato riconsegnato. Non ha chiesto quali appunti contenesse e non ha pubblicato una fotografia delle pagine."
+    },
+    {
+     "id": "p7",
+     "text": "Il ragazzo ha lasciato un ringraziamento alla reception. Il messaggio era breve, ma mostrava quanto potesse contare un gesto semplice: conservare una cosa senza trasformarla in una curiosità da condividere. Tutta la vicenda è inventata."
+    }
+   ],
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  }
+ ]
+}

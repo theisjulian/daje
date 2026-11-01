@@ -1,0 +1,142 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-019",
+ "title": "Scrivi l’imperativo informale o formale come indicato",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Scrivi l’imperativo informale o formale come indicato · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3019
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Scrivi l’imperativo informale o formale come indicato. (parte 1/2)",
+   "text": "aprire la finestra — tu → [[g1]]\naprire la finestra — Lei → [[g2]]\nleggere l’avviso — tu → [[g3]]\nleggere l’avviso — Lei → [[g4]]\naspettare qui — tu → [[g5]]\naspettare qui — Lei → [[g6]]\nfare attenzione — tu → [[g7]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Apri la finestra."
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Apra la finestra."
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Leggi l’avviso."
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Legga l’avviso."
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Aspetta qui."
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Aspetti qui."
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Fa’ attenzione."
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Scrivi l’imperativo informale o formale come indicato. (parte 2/2)",
+   "text": "fare attenzione — Lei → [[g1]]\ndire il nome — tu → [[g2]]\ndire il nome — Lei → [[g3]]\nnon entrare — tu → [[g4]]\nnon entrare — Lei → [[g5]]\nvenire domani — Lei → [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Faccia attenzione."
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Di’ il nome."
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Dica il nome."
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Non entrare."
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Non entri."
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Venga domani."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-049",
+ "title": "Indica il valore del condizionale nelle sei situazioni",
+ "language": "it",
+ "level": "B1",
+ "description": "Ripasso delle strutture in testi B1 · Indica il valore del condizionale nelle sei situazioni · livello medio.",
+ "topics": [
+  "Ripasso delle strutture in testi B1",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-ripasso-strutture",
+  "topicTitle": "Ripasso delle strutture in testi B1",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3049
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Indica il valore del condizionale nelle sei situazioni. Una forma non ha sempre la stessa funzione.\n1. Vorrei un’informazione sul corso.\n2. Io sceglierei un programma più breve.\n3. Mi piacerebbe partecipare alla mostra.\n4. Senza una mappa ci perderemmo.\n5. Secondo una notizia non confermata, il centro aprirebbe sabato.\n6. Potresti inviarmi il documento?",
+   "modelAnswer": "1. Richiesta cortese.\n2. Consiglio o proposta, a seconda del contesto.\n3. Desiderio.\n4. Conseguenza ipotetica di una condizione implicita.\n5. Informazione riportata con riserva; non presentata come certa.\n6. Richiesta cortese, non domanda sulla capacità fisica.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-156",
+ "title": "La classe e il giornale incompleto",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · La classe e il giornale incompleto · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 eA 1.2"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3156
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Riscrivi le frasi di applicazione al passato remoto sostituendo soltanto il complemento indicato. Sono frasi ispirate al testo, non nuove affermazioni sulla vicenda. (parte 1/2)\n1. Teresa portò il fascicolo alla nipote. Sostituisci alla nipote.\n2. Il professore prese il giornale. Sostituisci il giornale.\n3. Gli studenti scrissero la nota. Sostituisci la nota.\n4. Il professore mostrò la pagina ai ragazzi. Sostituisci ai ragazzi con loro dopo il verbo.\n5. Teresa trovò i fascicoli. Sostituisci i fascicoli.\n6. La nipote chiese una spiegazione a Teresa. Sostituisci a Teresa.",
+   "modelAnswer": "1. Teresa le portò il fascicolo.\n2. Il professore lo prese.\n3. Gli studenti la scrissero.\n4. Il professore mostrò loro la pagina.\n5. Teresa li trovò.\n6. La nipote le chiese una spiegazione.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Riscrivi le frasi di applicazione al passato remoto sostituendo soltanto il complemento indicato. Sono frasi ispirate al testo, non nuove affermazioni sulla vicenda. (parte 2/2)\n1. Il gruppo non inventò le risposte. Sostituisci le risposte.\n2. Teresa disse la verità alla nipote. Sostituisci alla nipote.\n3. Il professore lesse gli articoli. Sostituisci gli articoli.\n4. I ragazzi rivolsero una domanda al professore. Sostituisci al professore.\n5. Teresa promise alla nipote un’altra ricerca. Sostituisci alla nipote.\n6. La redazione pubblicò il numero. Sostituisci il numero.",
+   "modelAnswer": "1. Il gruppo non le inventò.\n2. Teresa le disse la verità.\n3. Il professore li lesse.\n4. I ragazzi gli rivolsero una domanda.\n5. Teresa le promise un’altra ricerca.\n6. La redazione lo pubblicò.",
+   "lines": 7
+  }
+ ]
+}

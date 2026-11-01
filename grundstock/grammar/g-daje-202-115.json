@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-115",
+ "title": "Preparare una piccola mostra (4)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperativo (tu, voi) e la negazione · Preparare una piccola mostra (4) · livello difficile.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1115
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Rivolgi le istruzioni a un gruppo: usa voi e adegua i pronomi.",
+   "modelAnswer": "Volete organizzare una mostra con la vostra classe? Cominciate da un tema preciso. Scegliete poche immagini e controllate se potete usarle. Leggete le indicazioni sulle fonti e scrivete il nome dell’autore quando è necessario. Non copiate fotografie trovate per caso online. Preparate un titolo chiaro e aggiungete una breve spiegazione per ogni oggetto. Prendete un foglio grande e disegnate la disposizione dei tavoli. Lasciate spazio tra gli oggetti e non bloccate le porte. Chiedete a un compagno di leggere i cartelli: se una frase non è chiara, riscrivetela. Mettete le informazioni principali all’inizio e usate parole comprensibili. Guardate la sala da diversi punti e verificate se tutti possono leggere. Portate il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, provate il percorso con due persone che non conoscono il progetto. Ascoltate le loro domande, annotate i problemi e correggete quello che serve. Durante la mostra salutate i visitatori, rispondete con calma e ammettete quando non conoscete una risposta. Alla fine raccogliete i commenti e conservate le idee utili per il prossimo lavoro.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Vuoi organizzare una mostra con la tua classe? Comincia da un tema preciso. Scegli poche immagini e controlla se puoi usarle. Leggi le indicazioni sulle fonti e scrivi il nome dell’autore quando è necessario. Non copiare fotografie trovate per caso online. Prepara un titolo chiaro e aggiungi una breve spiegazione per ogni oggetto. Prendi un foglio grande e disegna la disposizione dei tavoli. Lascia spazio tra gli oggetti e non bloccare le porte. Chiedi a un compagno di leggere i cartelli: se una frase non è chiara, riscrivila. Metti le informazioni principali all’inizio e usa parole comprensibili. Guarda la sala da diversi punti e verifica se tutti possono leggere. Porta il materiale soltanto quando lo spazio è pronto. Prima dell’apertura, prova il percorso con due persone che non conoscono il progetto. Ascolta le loro domande, annota i problemi e correggi quello che serve. Durante la mostra saluta i visitatori, rispondi con calma e ammetti quando non conosci una risposta. Alla fine raccogli i commenti e conserva le idee utili per il prossimo lavoro."
+ }
+}

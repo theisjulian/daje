@@ -306,3 +306,11 @@ python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/ecco_import.py && node werk
 python3 werkzeuge/qualitaet.py --ipa
 ```
 Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
+
+### 6y · Übrige ChatGPT-Aufgaben (Redaktionsformat) eingebaut
+
+- `werkzeuge/gpt_redaktion.py` (aufgerufen von `gpt_import.py`) wandelt die 221 Redaktionsaufgaben in vorhandene Aufgabentypen um, IDs `g-daje-202-NNN` / `g-daje-b1b2-NNN` wie bei den nativen Paketen; A1/A2-Ersatz 091/160 aus dem Nachtrag ist berücksichtigt. Lesetexte über `reading` (Grundtext nur, wenn keine Lücken-/Ordnungs-/Korrekturaufgabe daran arbeitet), Tabellen als Gruppenzuordnung, Lückenliste oder offene Antwort; Ordnen langer Blöcke über Buchstaben im Lesetext; Schreiben/Umformen als offene Antworten mit vollständigem Mustertext.
+- Offene Antworten zählen weiter nicht in die Punktzahl; Übungen ganz ohne automatisch bewertbare Aufgaben zeigen „Gespeichert“ statt „Alles richtig“.
+- Sachquellen aus `quellen.json` (Grundtexte und `factual_reference`) erscheinen als externe Quelle mit Link.
+- Pronomen-Auswahllücken (b1b2-046, -095): Hinweise entfernt, Ablenker gleicher Art in `distraktoren.json`.
+- Zu dünn und nicht übernommen (202-184, b1b2-045) sowie entfernte Folgeaufgaben: `werkzeuge/gpt-nacharbeit.md`.

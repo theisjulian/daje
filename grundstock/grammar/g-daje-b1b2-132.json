@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-132",
+ "title": "L’invito dell’orologiaio",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · L’invito dell’orologiaio · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3132
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "L’orologiaio del paese mandò un invito a ogni abitante: domenica avrebbe aperto il laboratorio, ma nessuno doveva portare un orologio. La richiesta sorprese molti. Una vicina pensò che si trattasse di uno scherzo; un ragazzo immaginò una mostra segreta. Il maestro, che conosceva l’orologiaio da anni, disse soltanto che sarebbe andato.\nLa domenica il laboratorio era pieno di sedie. Sul banco non c’erano strumenti, ma fogli e matite. L’orologiaio chiese a ciascuno di raccontare un momento in cui il tempo era sembrato passare in modo diverso. Una donna parlò di un’attesa alla stazione; un bambino descrisse una partita finita troppo presto. Nessuno misurava quei racconti con un cronometro.\nQuando arrivò il suo turno, il maestro disse che ricordava una lezione in cui nessuno aveva guardato l’ora. Non era successo perché lui fosse particolarmente brillante: gli studenti avevano trovato una domanda che interessava tutti. Avrebbe voluto ricordarla esattamente, ma [[g1]] (al maestro) restava soltanto la sensazione di quel pomeriggio. L’orologiaio [[g2]] (al maestro) rispose che poteva scrivere anche questo.\nAlla fine i fogli furono appesi alla parete. Non indicavano minuti o secondi e non sostituivano gli orologi. Mostravano semplicemente che raccontare un’esperienza richiede parole diverse da quelle necessarie per misurarne la durata. Il ragazzo che aspettava una mostra segreta non fu deluso. Tornando a casa pensò che avrebbe invitato suo nonno a raccontargli una giornata di scuola. Questa storia è originale e non riprende personaggi o vicende di un testo letterario pubblicato.\nIl ragazzo conservò i fogli che gli autori gli affidarono. [[g3]] (diretto, i fogli) mise in una cartella e [[g4]] (diretto, la cartella) mostrò all’orologiaio. «Posso portar[[g5]] (diretto, i fogli) a scuola?» domandò. L’uomo [[g6]] (indiretto, al ragazzo) rispose di chiedere prima agli autori. Il ragazzo [[g7]] (di fogli) scelse soltanto due, perché quelle persone avevano già dato il consenso. Gli altri non [[g8]] (diretto, gli altri fogli) copiò. Quando tornò a casa, [[g9]] (riflessivo, il ragazzo) ricordò anche della domanda per il nonno e [[g10]] (indiretto, al nonno) telefonò.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  }
+ ]
+}

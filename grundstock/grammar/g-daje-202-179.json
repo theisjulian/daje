@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-179",
+ "title": "Uno spazio anche per noi",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi diretti (lo, la, li, le …) · Uno spazio anche per noi · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1179
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. ci basta\n2. ci ha chiesto\n3. Le abbiamo mostrato\n4. lei ci ha suggerito\n5. si è offerto\n6. aiutarci\n7. Gli abbiamo spiegato\n8. vi invitiamo",
+   "modelAnswer": "1. a noi studenti\n2. a noi studenti\n3. alla rappresentante\n4. la rappresentante / a noi\n5. il soggetto è l’insegnante, verbo offrirsi\n6. aiutare noi\n7. all’insegnante\n8. invitiamo voi lettori",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. Scriveteci\n2. Ci incontriamo\n3. risorse\n4. un’alternativa\n5. concreta\n6. coinvolgere\n7. realizzato\n8. accogliente",
+   "modelAnswer": "1. scrivete a noi\n2. noi, valore reciproco\n3. mezzi disponibili\n4. un’altra possibilità\n5. realistica e definita\n6. far partecipare\n7. messo in pratica\n8. che fa sentire benvenute le persone",
+   "lines": 9
+  }
+ ],
+ "reading": {
+  "text": "Siamo un gruppo di studenti e vorremmo migliorare il cortile della scuola. Non chiediamo uno spazio enorme: ci basta un luogo dove incontrarci, leggere e parlare senza disturbare chi studia. Adesso ci sono soltanto poche panchine e molte persone restano in piedi. Alcuni compagni hanno proposto nuovi tavoli; altri preferiscono più piante. Noi vogliamo ascoltare tutti prima di scegliere.\nLa rappresentante ci ha chiesto di preparare una proposta concreta. Le abbiamo mostrato una mappa e lei ci ha suggerito di indicare i passaggi che devono rimanere liberi. Un insegnante si è offerto di aiutarci a raccogliere le idee. Gli abbiamo spiegato che non vogliamo organizzare tutto da soli: desideriamo coinvolgere anche le altre classi. Per questo vi invitiamo a lasciare un commento nella scatola vicino alla biblioteca. Scriveteci che cosa usate già, che cosa manca e quale piccolo cambiamento considerate più utile.\nTutte le proposte saranno lette. Non possiamo promettere che tutto verrà realizzato, perché servono tempo, spazio e risorse. Possiamo però discutere in modo chiaro e rispettoso. Se una proposta non è possibile, cercheremo un’alternativa. Il nostro obiettivo è un cortile più accogliente per tutti, non un luogo riservato a pochi amici. Ci incontriamo venerdì dopo le lezioni: portate le vostre idee e ascoltate quelle degli altri."
+ }
+}

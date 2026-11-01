@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-095",
+ "title": "L’ultima giornata del progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · L’ultima giornata del progetto · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1095
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "ordering",
+   "prompt": "Ricostruisci un ordine coerente. Usa domande, risposte e indicatori temporali.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ciao Diego, ti mando il programma di sabato."
+    },
+    {
+     "id": "p2",
+     "text": "Prima ci incontreremo davanti alla scuola alle nove."
+    },
+    {
+     "id": "p3",
+     "text": "Da lì raggiungeremo insieme il centro culturale."
+    },
+    {
+     "id": "p4",
+     "text": "Quando saremo arrivati, sistemeremo i nostri lavori nella sala."
+    },
+    {
+     "id": "p5",
+     "text": "Dopo le presentazioni faremo una pausa in giardino."
+    },
+    {
+     "id": "p6",
+     "text": "Nel pomeriggio ascolteremo gli ospiti e faremo alcune domande."
+    },
+    {
+     "id": "p7",
+     "text": "Prima di andare via raccoglieremo tutto il materiale."
+    },
+    {
+     "id": "p8",
+     "text": "Fammi sapere se vieni. A presto, Micol."
+    }
+   ],
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  }
+ ]
+}

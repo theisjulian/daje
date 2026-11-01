@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-158",
+ "title": "Gli aggettivi e la loro posizione",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli aggettivi e la loro posizione · Gli aggettivi e la loro posizione · livello facile.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1158
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 1/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "una stanza luminosa",
+     "right": "buia"
+    },
+    {
+     "id": "p2",
+     "left": "un percorso facile",
+     "right": "difficile"
+    },
+    {
+     "id": "p3",
+     "left": "una borsa pesante",
+     "right": "leggera"
+    },
+    {
+     "id": "p4",
+     "left": "un tavolo pulito",
+     "right": "sporco"
+    },
+    {
+     "id": "p5",
+     "left": "una strada larga",
+     "right": "stretta"
+    },
+    {
+     "id": "p6",
+     "left": "un oggetto utile",
+     "right": "inutile"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  },
+  {
+   "id": "q1b",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 2/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "un bicchiere pieno",
+     "right": "vuoto"
+    },
+    {
+     "id": "p2",
+     "left": "una risposta corretta",
+     "right": "sbagliata"
+    },
+    {
+     "id": "p3",
+     "left": "un luogo rumoroso",
+     "right": "silenzioso"
+    },
+    {
+     "id": "p4",
+     "left": "un materiale rigido",
+     "right": "flessibile"
+    },
+    {
+     "id": "p5",
+     "left": "una persona paziente",
+     "right": "impaziente"
+    },
+    {
+     "id": "p6",
+     "left": "un ingresso aperto",
+     "right": "chiuso"
+    }
+   ]
+  }
+ ]
+}

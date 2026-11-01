@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-092",
+ "title": "Prima di partire per lo scambio (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Prima di partire per lo scambio (1) · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1092
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nLa scuola ha già confermato il viaggio?",
+   "modelAnswer": "Sì.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Elena deve cercare un albergo?",
+   "modelAnswer": "No, sarà ospitata da una famiglia.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Che cosa ha già consegnato?",
+   "modelAnswer": "Il modulo firmato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Che cosa visiterà il gruppo?",
+   "modelAnswer": "Un laboratorio di fotografia.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Quando comprerà il quaderno?",
+   "modelAnswer": "Venerdì.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Ha già preparato la valigia?",
+   "modelAnswer": "No, ha scritto una lista.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Quante borse chiede di portare la scuola?",
+   "modelAnswer": "Una.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Quale espressione introduce un altro argomento?",
+   "modelAnswer": "A proposito, cambiamo argomento.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Ciao Beni, ti aggiorno sul nostro scambio scolastico. La scuola ha confermato il viaggio, ma io sto ancora preparando alcune cose. Ho consegnato il modulo firmato e ho ricevuto il programma provvisorio. La famiglia che mi ospiterà mi ha già scritto: abita vicino alla scuola e ha una figlia della mia età. Non devo cercare un albergo. Ho chiesto quali attività faremo nel pomeriggio, perché vorrei portare il materiale giusto. Per adesso so che visiteremo un laboratorio di fotografia e prepareremo una presentazione sulle nostre città.\nQuesta settimana devo finire il lavoro di gruppo e controllare i documenti con i miei genitori. Non voglio lasciare tutto all’ultimo giorno. Domani andrò in biblioteca a prendere una guida; venerdì comprerò un piccolo quaderno per gli appunti. Non ho ancora preparato la valigia, ma ho scritto una lista. Porterò vestiti comodi e una giacca per la pioggia. La scuola ci chiede di viaggiare con una sola borsa.\nA proposito, cambiamo argomento: hai trovato il libro che cercavi? Se non lo trovi, posso prestarti il mio quando torno. Sono davvero contenta di partire, anche se ho un po’ paura di non capire tutto. Per fortuna possiamo chiedere di ripetere. Ti scriverò dopo il primo giorno. Un abbraccio, Elena."
+ }
+}

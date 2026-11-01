@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-047",
+ "title": "Due lettere sulla biblioteca del sabato",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Due lettere sulla biblioteca del sabato · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3047
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "error_correction",
+   "prompt": "Correggi le alterazioni lessicali confrontando questa versione con le due lettere lette nella stessa unità. Il testo contiene 8 interventi da correggere.",
+   "text": "A — Lettera di Bianca. La biblioteca del nostro quartiere [[e1]]. Vorrei proporre un’[[e2]] una volta al mese. Durante la settimana seguo un corso [[e3]] e riesco raramente a passarci. Non chiedo che il [[e8]] lavori senza pausa: immagino un orario diverso, da discutere con chi organizza il servizio. Mi piacerebbe soprattutto partecipare a un incontro in cui i lettori presentino un libro senza dover preparare una relazione lunga.\nHo parlato della proposta con mio fratello. Lui non legge molti romanzi, ma usa la biblioteca per studiare e cercare [[e4]]. Gli ho chiesto se verrebbe; mi ha risposto che dipenderebbe dal programma. Questa risposta mi sembra utile: un’apertura aggiuntiva non interessa automaticamente tutti. Per capire le esigenze, preparerei poche domande e le lascerei sia all’ingresso sia sul sito. Non userei soltanto un [[e5]], perché rischierei di non ascoltare alcuni frequentatori.\nB — Risposta di Karim. L’idea di Bianca mi interessa, ma prima di cambiare gli orari guarderei come viene usato lo spazio. Il sabato mattina accompagno mia sorella alla sezione ragazzi e spesso non troviamo un [[e6]]. Se aprissimo più a lungo senza organizzare meglio le sale, potremmo spostare il problema invece di risolverlo.\nPer questo proporrei un [[e7]]. Un pomeriggio sarebbe dedicato allo studio, un altro agli incontri. Alla fine raccoglieremmo osservazioni dai lettori e dal personale. Chi non partecipa dovrebbe poter spiegare perché: forse l’orario non va bene, forse non conosce l’iniziativa, forse cerca un servizio diverso. Non vorrei che il numero dei presenti diventasse l’unico criterio.\nSono disponibile ad aiutare nella comunicazione della prova, ma non a sostituire il lavoro di persone formate. Alla biblioteca chiediamo competenza, cura e continuità. Un progetto nato dai lettori può essere prezioso se riconosce queste esigenze. Le due lettere sono state scritte per l’esercizio e non riportano una consultazione reale.\nNota comune dei due autori: «Abbiamo scritto le nostre proposte e le abbiamo rilette insieme. Alla responsabile le manderemo una copia. Il calendario non lo decidiamo noi; ne discuteremo con chi organizza il servizio. I lettori possono darci suggerimenti. Se li raccogliamo con ordine, sarà più facile usarli. Nessuno dovrà giustificarsi se non verrà. A chi chiede una risposta promettiamo di scrivergli dopo il confronto; le domande aperte non le dimenticheremo».",
+   "errors": [
+    {
+     "id": "e1",
+     "wrong": "chiude il sabato a mezzanotte",
+     "acceptedAnswers": [
+      "chiude il sabato a mezzogiorno"
+     ]
+    },
+    {
+     "id": "e2",
+     "wrong": "chiusura pomeridiana",
+     "acceptedAnswers": [
+      "apertura pomeridiana"
+     ]
+    },
+    {
+     "id": "e3",
+     "wrong": "dentro casa",
+     "acceptedAnswers": [
+      "lontano da casa"
+     ]
+    },
+    {
+     "id": "e4",
+     "wrong": "manubri",
+     "acceptedAnswers": [
+      "manuali"
+     ]
+    },
+    {
+     "id": "e5",
+     "wrong": "questionario in forno",
+     "acceptedAnswers": [
+      "questionario online"
+     ]
+    },
+    {
+     "id": "e6",
+     "wrong": "posto rumorosamente",
+     "acceptedAnswers": [
+      "posto tranquillo"
+     ]
+    },
+    {
+     "id": "e7",
+     "wrong": "periodo di pioggia",
+     "acceptedAnswers": [
+      "periodo di prova"
+     ]
+    },
+    {
+     "id": "e8",
+     "wrong": "personaggio",
+     "acceptedAnswers": [
+      "personale"
+     ]
+    }
+   ],
+   "explanation": "chiude il sabato a mezzanotte → chiude il sabato a mezzogiorno: Ripristinare l’orario della lettera. · chiusura pomeridiana → apertura pomeridiana: Si propone di aprire. · dentro casa → lontano da casa: Il corso è lontano. · manubri → manuali: Manuali sono libri; manubri appartengono a biciclette o attrezzi. · questionario in forno → questionario online: Online indica il canale digitale. · posto rumorosamente → posto tranquillo: Serve un aggettivo appropriato al nome. · periodo di pioggia → periodo di prova: Si propone una sperimentazione. · personaggio → personale: Qui personale significa chi lavora nel servizio.",
+   "promptHelp": "Korrigiere die Fehler."
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-108",
+ "title": "Lessico in contesto (12)",
+ "language": "it",
+ "level": "A2",
+ "description": "Lessico in contesto · Lessico in contesto (12) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1108
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "fotografia"
+    },
+    {
+     "id": "c2",
+     "label": "musica"
+    },
+    {
+     "id": "c3",
+     "label": "scuola"
+    },
+    {
+     "id": "c4",
+     "label": "bicicletta"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "chitarra",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "intervallo",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "concerto",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "lavagna",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "spartito",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "classe",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "ritmo",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "compito",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "melodia",
+     "category": "c2"
+    },
+    {
+     "id": "i10",
+     "text": "insegnante",
+     "category": "c3"
+    },
+    {
+     "id": "i11",
+     "text": "cantante",
+     "category": "c2"
+    },
+    {
+     "id": "i12",
+     "text": "lezione",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "fotografia"
+    },
+    {
+     "id": "c2",
+     "label": "musica"
+    },
+    {
+     "id": "c3",
+     "label": "scuola"
+    },
+    {
+     "id": "c4",
+     "label": "bicicletta"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "ruota",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "obiettivo",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "catena",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "immagine",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "pedale",
+     "category": "c4"
+    },
+    {
+     "id": "i6",
+     "text": "ritratto",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "freno",
+     "category": "c4"
+    },
+    {
+     "id": "i8",
+     "text": "fotografo",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "sella",
+     "category": "c4"
+    },
+    {
+     "id": "i10",
+     "text": "inquadratura",
+     "category": "c1"
+    },
+    {
+     "id": "i11",
+     "text": "manubrio",
+     "category": "c4"
+    },
+    {
+     "id": "i12",
+     "text": "scatto",
+     "category": "c1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-051",
+ "title": "Domande prima di iscriversi",
+ "language": "it",
+ "level": "B1",
+ "description": "Collegare testi e gestire dialoghi · Domande prima di iscriversi · livello medio.",
+ "topics": [
+  "Collegare testi e gestire dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-coesione-dialoghi",
+  "topicTitle": "Collegare testi e gestire dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3051
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]] · 9. [[g9]] · 10. [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "A"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "G"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "H"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "J"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "E"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "C"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "F"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "D"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "I"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "B"
+     ]
+    }
+   ],
+   "promptHelp": "Lies die Blöcke A bis J im Text und trage die Buchstaben in der richtigen Reihenfolge ein."
+  }
+ ],
+ "reading": {
+  "text": "A — Gentile segreteria, ho letto la presentazione del vostro corso di racconti sonori e vorrei ricevere alcune informazioni. Frequento l’ultimo anno della scuola secondaria e ho già realizzato brevi registrazioni con il telefono.\n\nB — Cordiali saluti, Dario Conti. Il corso e la richiesta sono fittizi; non si tratta di un’offerta realmente prenotabile.\n\nC — Potrei lasciare la sala dieci minuti prima quando necessario, senza perdere una parte importante del corso? In alternativa, Avrei la possibilità di fermarmi soltanto negli incontri del sabato.\n\nD — Saranno ascoltati soltanto dal gruppo o pubblicati sul sito?\n\nE — Vi chiedo inoltre se siano previsti momenti di ascolto e revisione, oltre alla registrazione. Abito fuori città e l’ultimo autobus parte alle diciannove.\n\nF — Vorrei capire quale soluzione sia compatibile con il lavoro comune. Infine, mi interessa sapere come verranno utilizzati i prodotti finali.\n\nG — Non possiedo però un microfono professionale. Sarebbe possibile partecipare utilizzando l’attrezzatura disponibile in sede?\n\nH — Nel programma si parla di un lavoro in coppia.\n\nI — Desidero imparare a intervistare le persone, ma so che occorre spiegare loro dove apparirà la registrazione. Vi ringrazio per l’attenzione e resto in attesa di una risposta prima di completare l’iscrizione.\n\nJ — Io non conosco altre persone interessate: mi piacerebbe sapere se formerete i gruppi durante il primo incontro. Preferirei lavorare con qualcuno che abbia interessi diversi dai miei, perché penso che il confronto possa essere utile."
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-195",
+ "title": "Un laboratorio da condividere (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Un laboratorio da condividere (2) · livello medio.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1195
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/3)\n1. ti scrivo\n2. ti sorprenderà\n3. mi occuperò\n4. Le ho raccontato\n5. lei mi ha invitata\n6. Li leggeremo\n7. quelli più adatti\n8. semplificarle",
+   "modelAnswer": "1. a Sofia\n2. Sofia\n3. Giada\n4. alla responsabile\n5. la responsabile / Giada\n6. i racconti\n7. i racconti più adatti\n8. le storie",
+   "lines": 9,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/3)\n1. il mio corso\n2. ci fornirà\n3. te lo manderò\n4. le mie storie\n5. ti ho lasciato\n6. dirmi\n7. ti annoi",
+   "modelAnswer": "1. il corso di Giada\n2. al gruppo\n3. a Sofia / il programma definitivo\n4. le storie di Giada\n5. a Sofia\n6. a Giada\n7. Sofia",
+   "lines": 8
+  },
+  {
+   "id": "q1c",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 3/3)\n1. mi servono\n2. preparerà\n3. comprende\n4. studiano\n5. fornirà\n6. leggeremo\n7. Porterò",
+   "modelAnswer": "1. a Giada\n2. il piccolo gruppo\n3. il gruppo\n4. due partecipanti\n5. il centro\n6. Giada e il gruppo\n7. Giada",
+   "lines": 8
+  }
+ ],
+ "reading": {
+  "text": "Cara Sofia, ti scrivo una notizia che forse ti sorprenderà: ho deciso di partecipare al progetto del centro culturale. Non è un corso normale. Un piccolo gruppo preparerà un laboratorio per i bambini del quartiere e io mi occuperò delle storie. Ho conosciuto la responsabile durante la festa della scuola. Le ho raccontato che mi piace scrivere e lei mi ha invitata a un incontro. Non ho accettato subito, perché temevo di non avere abbastanza esperienza. Poi ho parlato con due partecipanti e ho capito che nessuno deve fare tutto da solo.\nIl gruppo comprende sei persone. Due studiano musica, una disegna, un ragazzo sa costruire piccoli oggetti e un’altra partecipante ha già lavorato con i bambini. Io porterò alcuni racconti brevi. Li leggeremo insieme e sceglieremo quelli più adatti. Non useremo tutte le storie: alcune sono troppo lunghe e altre hanno parole difficili. La responsabile ci aiuterà a semplificarle senza perdere il senso.\nGli incontri saranno il sabato mattina. Per me va bene, perché il mio corso di nuoto è al pomeriggio. Non riceveremo un compenso; il centro ci fornirà i materiali e uno spazio per le prove. Prima di cominciare faremo un incontro con gli educatori. Non conosco ancora la data del primo laboratorio, quindi non posso invitarti adesso. Quando avrò il programma definitivo, te lo manderò.\nMi piacerebbe sapere che cosa pensi delle mie storie. Puoi leggere quella che ti ho lasciato ieri e dirmi dove ti annoi oppure non capisci? Non voglio soltanto complimenti: mi servono osservazioni sincere. Se hai tempo, ci incontriamo domenica in biblioteca. Porterò il quaderno e prenderò appunti. Un abbraccio, Giada."
+ }
+}

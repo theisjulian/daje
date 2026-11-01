@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-137",
+ "title": "Due compagni, un progetto",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Due compagni, un progetto · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1137
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Io e Sami lavoriamo allo stesso giornale, ma affrontiamo i compiti in modo diverso. Io preparo [[g1]] prima di cominciare; lui preferisce discutere le idee [[g2]]. Quando mi siedo davanti al computer, voglio sapere [[g3]] scriverò. Sami, invece, apre molte pagine, prende appunti e trova collegamenti inattesi. [[g4]] mi sorprende con una proposta molto semplice che risolve un problema. Io gli ricordo [[g5]] e lui mi aiuta a non fermarmi al primo errore.\nDurante le interviste, io mi occupo [[g6]] e lui registra. Mi preoccupo se una risposta è troppo breve; Sami mi suggerisce [[g7]] e ascoltare. Spesso l’intervistato continua da solo. Quando rileggo il testo, mi accorgo di nuovi dettagli. A lui interessa soprattutto il ritmo del racconto, a me la chiarezza delle informazioni. Non siamo sempre d’accordo. Se una frase non funziona, la leggiamo a [[g8]] e chiediamo che cosa capisce. Così la discussione non diventa una gara tra noi.\nFuori dalla redazione abbiamo interessi diversi, ma questo rende il lavoro più ricco. Sami conosce molti musicisti; io seguo le attività della biblioteca. Ci scambiamo notizie e scegliamo insieme che cosa raccontare. Non devo diventare come lui e lui non deve diventare come me. Dobbiamo soltanto imparare a usare bene le nostre differenze.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "una lista"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ad alta voce"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "quale testo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Qualche volta"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "le scadenze"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "delle domande"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "di aspettare"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un terzo compagno"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

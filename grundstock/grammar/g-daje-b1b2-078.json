@@ -1,0 +1,134 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-078",
+ "title": "Una merenda da preparare insieme",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Una merenda da preparare insieme · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3078
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "error_correction",
+   "prompt": "Nel testo della merenda sono state sostituite parole del lessico quotidiano con parole incongrue. Ripristina una versione coerente. Il testo contiene 11 interventi da correggere.",
+   "text": "Per la merenda del laboratorio prepariamo un’insalata di frutta. Prima controlliamo quali ingredienti possono essere condivisi con il gruppo e teniamo disponibili le informazioni sui prodotti. Chi ha esigenze individuali concorda una soluzione con l’organizzatore; la ricetta non deve diventare un obbligo per partecipare.\nDisponiamo sul tavolo una [[e1]] grande, un [[e2]] pulito e gli [[e3]] necessari. [[e4]] la frutta, poi un adulto o una persona capace di usare gli strumenti si occupa dei tagli. Le mele vengono divise in piccoli [[e5]] e le banane in [[e6]]. Aggiungiamo qualche [[e7]] di mandarino, togliendo i [[e8]] quando ci sono. Non occorre ottenere forme identiche: serve che le porzioni siano comode da mangiare.\nMescoliamo con un [[e9]] e distribuiamo l’insalata in [[e10]]. Lasciamo a parte gli eventuali ingredienti aggiuntivi, con la loro confezione, invece di nasconderli nella preparazione. Ogni partecipante può scegliere se assaggiare. Prima di cominciare la lettura, rimettiamo in ordine il tavolo e puliamo le [[e11]] usate.\nUna persona annota quantità e osservazioni per il prossimo incontro. Se la frutta avanzata non può essere conservata nelle condizioni necessarie, chiediamo all’organizzatore come gestirla. Non scriviamo che la merenda è adatta a tutti: descriviamo ciò che contiene. Il progetto è immaginario e serve soprattutto a lavorare sul lessico degli oggetti e delle azioni quotidiane.",
+   "errors": [
+    {
+     "id": "e1",
+     "wrong": "cuscino",
+     "acceptedAnswers": [
+      "ciotola"
+     ]
+    },
+    {
+     "id": "e2",
+     "wrong": "calendario",
+     "acceptedAnswers": [
+      "tagliere"
+     ]
+    },
+    {
+     "id": "e3",
+     "wrong": "vestiti",
+     "acceptedAnswers": [
+      "utensili"
+     ]
+    },
+    {
+     "id": "e4",
+     "wrong": "Leggiamo",
+     "acceptedAnswers": [
+      "Laviamo"
+     ]
+    },
+    {
+     "id": "e5",
+     "wrong": "pagine",
+     "acceptedAnswers": [
+      "pezzi"
+     ]
+    },
+    {
+     "id": "e6",
+     "wrong": "finestre",
+     "acceptedAnswers": [
+      "rondelle"
+     ]
+    },
+    {
+     "id": "e7",
+     "wrong": "capitolo",
+     "acceptedAnswers": [
+      "spicchio"
+     ]
+    },
+    {
+     "id": "e8",
+     "wrong": "sedie",
+     "acceptedAnswers": [
+      "semi"
+     ]
+    },
+    {
+     "id": "e9",
+     "wrong": "quaderno",
+     "acceptedAnswers": [
+      "cucchiaio"
+     ]
+    },
+    {
+     "id": "e10",
+     "wrong": "scarpe",
+     "acceptedAnswers": [
+      "coppette"
+     ]
+    },
+    {
+     "id": "e11",
+     "wrong": "nuvole",
+     "acceptedAnswers": [
+      "superfici"
+     ]
+    }
+   ],
+   "explanation": "cuscino → ciotola: Per mescolare serve una ciotola. · calendario → tagliere: Superficie usata per tagliare. · vestiti → utensili: Strumenti di cucina. · Leggiamo → Laviamo: Azione adatta alla frutta. · pagine → pezzi: Parti della mela. · finestre → rondelle: Fette rotonde. · capitolo → spicchio: Parte del mandarino. · sedie → semi: Elementi che possono trovarsi nel frutto. · quaderno → cucchiaio: Utensile per mescolare. · scarpe → coppette: Recipienti per servire. · nuvole → superfici: Parti del tavolo da pulire.",
+   "promptHelp": "Korrigiere die Fehler."
+  }
+ ]
+}

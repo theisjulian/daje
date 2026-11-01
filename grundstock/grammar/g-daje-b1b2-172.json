@@ -1,0 +1,178 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-172",
+ "title": "Una richiesta precisa",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico, sinonimi e formazione delle parole · Una richiesta precisa · livello difficile.",
+ "topics": [
+  "Lessico, sinonimi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-lessico",
+  "topicTitle": "Lessico, sinonimi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3172
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "short_answer",
+   "prompt": "Trova e correggi le incongruenze lessicali; spiega la scelta.\nSostituisci con il contrario richiesto: «gratuito».",
+   "acceptedAnswers": [
+    "a pagamento"
+   ],
+   "modelAnswer": "a pagamento",
+   "explanation": "Coppia di significato contrario nel senso indicato.",
+   "promptHelp": "Schreibe den Satz richtig."
+  },
+  {
+   "id": "q1s2",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «chiaro».",
+   "acceptedAnswers": [
+    "confuso"
+   ],
+   "modelAnswer": "confuso",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s3",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «completo».",
+   "acceptedAnswers": [
+    "incompleto"
+   ],
+   "modelAnswer": "incompleto",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s4",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «utile».",
+   "acceptedAnswers": [
+    "inutile"
+   ],
+   "modelAnswer": "inutile",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s5",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «semplice».",
+   "acceptedAnswers": [
+    "complesso"
+   ],
+   "modelAnswer": "complesso",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s6",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «preciso».",
+   "acceptedAnswers": [
+    "impreciso"
+   ],
+   "modelAnswer": "impreciso",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s7",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «puntuale».",
+   "acceptedAnswers": [
+    "in ritardo"
+   ],
+   "modelAnswer": "in ritardo",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s8",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «pubblico».",
+   "acceptedAnswers": [
+    "privato"
+   ],
+   "modelAnswer": "privato",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s9",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «aperto».",
+   "acceptedAnswers": [
+    "chiuso"
+   ],
+   "modelAnswer": "chiuso",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s10",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «disponibile».",
+   "acceptedAnswers": [
+    "indisponibile"
+   ],
+   "modelAnswer": "indisponibile",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s11",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «iniziale».",
+   "acceptedAnswers": [
+    "finale"
+   ],
+   "modelAnswer": "finale",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s12",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «vicino».",
+   "acceptedAnswers": [
+    "lontano"
+   ],
+   "modelAnswer": "lontano",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  },
+  {
+   "id": "q1s13",
+   "type": "short_answer",
+   "prompt": "Sostituisci con il contrario richiesto: «possibile».",
+   "acceptedAnswers": [
+    "impossibile"
+   ],
+   "modelAnswer": "impossibile",
+   "explanation": "Coppia di significato contrario nel senso indicato."
+  }
+ ]
+}

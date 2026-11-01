@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-129",
+ "title": "Grazie per il pomeriggio (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli aggettivi e la loro posizione · Grazie per il pomeriggio (2) · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1129
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella.",
+   "text": "la sala: la → [[g1]]\nla sala: sala → [[g2]]\nera luminosa: luminosa → [[g3]]\nera luminosa: era → [[g4]]\nil nostro ospite: nostro → [[g5]]\nper il pomeriggio: per → [[g6]]\ni tavoli: i → [[g7]]\ni tavoli: tavoli → [[g8]]\nerano ordinati: ordinati → [[g9]]\nerano ordinati: erano → [[g10]]\ncon chi: con → [[g11]]\nmolti spunti: molti → [[g12]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "articolo determinativo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sostantivo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aggettivo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "verbo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aggettivo possessivo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "preposizione"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "articolo determinativo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sostantivo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aggettivo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "verbo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "preposizione"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "aggettivo indefinito"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  }
+ ],
+ "reading": {
+  "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala era luminosa, i tavoli erano ordinati e le fotografie erano davvero interessanti. Il programma era semplice, ma ogni attività aveva uno scopo chiaro. Le spiegazioni erano brevi e comprensibili. La musica era piacevole e il volume non era troppo alto. I volontari erano disponibili; anche le persone nuove si sentivano a proprio agio. La pausa era un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce."
+ }
+}

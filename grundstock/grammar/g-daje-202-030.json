@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-030",
+ "title": "Come raggiungere il laboratorio (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -are al presente · Come raggiungere il laboratorio (2) · livello difficile.",
+ "topics": [
+  "I verbi in -are al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "I verbi in -are al presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1030
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi il messaggio rivolgendoti a Teo e Nina: usa voi. Elia continua a parlare di sé in prima persona.",
+   "modelAnswer": "Ciao Teo e Nina, vi spiego come arrivare al nostro laboratorio. Voi partite dalla piazza della stazione e attraversate il giardino. Camminate lungo il viale alberato e osservate i cartelli blu. Al piccolo cinema girate a sinistra, poi continuate fino al ponte. Non attraversate il ponte: prima del fiume trovate una strada sulla destra. Passate davanti a una panetteria e cercate un cancello verde. Quando arrivate, suonate il campanello con il disegno di una ruota. Io lavoro nella stanza al piano terra e vi apro subito. Se non trovate l’ingresso, telefonate al centro e chiedete di me. Di solito il percorso dura quindici minuti. Portate il quaderno, perché oggi progettiamo una nuova insegna. Dopo il laboratorio prepariamo insieme una merenda. Se piove, aspettate nell’atrio della stazione: vi raggiungo lì. A presto, Elia.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Ciao Teo, ti spiego come arrivare al nostro laboratorio. Tu parti dalla piazza della stazione e attraversi il giardino. Cammini lungo il viale alberato e osservi i cartelli blu. Al piccolo cinema giri a sinistra, poi continui fino al ponte. Non attraversi il ponte: prima del fiume trovi una strada sulla destra. Passi davanti a una panetteria e cerchi un cancello verde. Quando arrivi, suoni il campanello con il disegno di una ruota. Io lavoro nella stanza al piano terra e ti apro subito. Se non trovi l’ingresso, telefoni al centro e chiedi di me. Di solito il percorso dura quindici minuti. Porta il quaderno, perché oggi progettiamo una nuova insegna. Dopo il laboratorio prepariamo insieme una merenda. Se piove, aspetti nell’atrio della stazione: ti raggiungo lì. A presto, Elia."
+ }
+}

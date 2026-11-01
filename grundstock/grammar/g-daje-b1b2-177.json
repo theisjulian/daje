@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-177",
+ "title": "Due opinioni sul giornale di classe",
+ "language": "it",
+ "level": "B2",
+ "description": "Confrontare posizioni e argomentare · Due opinioni sul giornale di classe · livello difficile.",
+ "topics": [
+  "Confrontare posizioni e argomentare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Kompetenzen und Themen",
+   "section": ""
+  },
+  "grade": 13,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 1.1 Schreiben; 3"
+ },
+ "grammar": {
+  "topic": "it13-argomentare",
+  "topicTitle": "Confrontare posizioni e argomentare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3177
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Dopo le due opinioni sul giornale di classe, argomenta una soluzione che tenga conto di entrambe. Esplicita un rischio e come valuteresti la prova. 200–260 parole.",
+   "modelAnswer": "Per il giornale di classe proporrei una soluzione che distingua gli articoli conclusi dai progetti ancora aperti. Irene ha ragione quando chiede tempo per verificare: un nome sbagliato o una citazione non autorizzata non diventano meno importanti soltanto perché il testo è pubblicato dagli studenti. Samuele, però, mostra un vantaggio reale del confronto durante il lavoro: i lettori possono suggerire domande che la redazione non aveva considerato.\nCreerei quindi un’edizione mensile con contenuti controllati e una piccola sezione dedicata a un solo progetto in corso. In quella sezione pubblicheremmo il tema, le domande e il modo per inviare osservazioni. Non inseriremmo bozze di interviste né informazioni personali. Ogni contributo sarebbe letto prima di essere eventualmente utilizzato.\nIl rischio principale sarebbe moltiplicare i compiti senza avere tempo sufficiente. Per evitarlo, stabilirei turni e limiti chiari. Nessuno dovrebbe rispondere a qualsiasi ora e il progetto potrebbe essere sospeso se mancassero persone disponibili. Le correzioni agli articoli pubblicati resterebbero visibili, con una breve spiegazione.\nDopo due mesi valuterei la prova. Non conterei soltanto i messaggi ricevuti: chiederei quali osservazioni abbiano migliorato gli articoli e quanto lavoro sia stato necessario per gestirle. Ascolterei anche chi non ha partecipato, per capire se il canale fosse chiaro e accessibile. Se i vantaggi fossero modesti, manterrei soltanto l’edizione stabile. Una soluzione digitale non deve continuare per forza: deve dimostrare di essere utile al progetto e alle persone.",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

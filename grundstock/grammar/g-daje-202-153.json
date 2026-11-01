@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-153",
+ "title": "La scatola ritrovata",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · La scatola ritrovata · livello medio.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1153
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "ordering",
+   "prompt": "Ricostruisci un ordine coerente. Usa domande, risposte e indicatori temporali.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ieri pomeriggio una classe ha visitato il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline."
+    },
+    {
+     "id": "p2",
+     "text": "Quando sono arrivati nella sala, mancava proprio la scatola. La professoressa ha chiesto a tutti di controllare le borse."
+    },
+    {
+     "id": "p3",
+     "text": "Due ragazzi sono tornati all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria ha ricordato che un gruppo precedente usava una scatola simile."
+    },
+    {
+     "id": "p4",
+     "text": "Ha telefonato al responsabile e gli ha spiegato il problema. Il responsabile ha guardato nel suo ufficio e ha trovato due scatole sullo scaffale."
+    },
+    {
+     "id": "p5",
+     "text": "Una conteneva fogli bianchi; l’altra era quella della classe. Un collega ha detto: «Ho spostato la scatola per liberare il passaggio»."
+    },
+    {
+     "id": "p6",
+     "text": "La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla."
+    },
+    {
+     "id": "p7",
+     "text": "Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta."
+    },
+    {
+     "id": "p8",
+     "text": "La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio."
+    }
+   ],
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  }
+ ]
+}

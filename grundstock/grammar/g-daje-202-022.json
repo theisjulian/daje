@@ -1,0 +1,78 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-022",
+ "title": "Una biblioteca, molte possibilità",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Una biblioteca, molte possibilità · livello facile.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1022
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "matching",
+   "prompt": "Abbina ogni servizio alla descrizione corretta.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Prestito dei libri",
+     "right": "Controllare le restituzioni e cercare un titolo"
+    },
+    {
+     "id": "p2",
+     "left": "Sala di lettura",
+     "right": "Leggere giornali e riviste parlando a voce bassa"
+    },
+    {
+     "id": "p3",
+     "left": "Laboratorio digitale",
+     "right": "Usare il catalogo e riconoscere informazioni poco affidabili"
+    },
+    {
+     "id": "p4",
+     "left": "Spazio per le lingue",
+     "right": "Conversare in piccoli gruppi su argomenti quotidiani"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  }
+ ],
+ "reading": {
+  "text": "Una biblioteca non è soltanto una stanza piena di libri. Nel nostro centro immaginario, la biblioteca propone quattro servizi. Il primo è un banco per il prestito: una bibliotecaria spiega come cercare un titolo e controlla le restituzioni. Il secondo è una sala per leggere giornali e riviste. Qui le persone parlano a voce bassa e lasciano i tavoli in ordine. Il terzo servizio è un laboratorio digitale. I partecipanti imparano a usare il catalogo, a scrivere un messaggio e a riconoscere informazioni poco affidabili. Non devono comunicare password o dati personali agli altri. Il quarto servizio è uno spazio per le lingue. Una volta alla settimana si incontrano piccoli gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come la casa, il tempo libero o il cibo. Una volontaria prepara le domande e aiuta chi non trova una parola. Gli incontri sono gratuiti; per partecipare occorre prenotare un posto. Le attività cambiano ogni mese. Gli orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee."
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-096",
+ "title": "L’ultima giornata del progetto (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · L’ultima giornata del progetto (1) · livello medio.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1096
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "text": "presenteremo → [[g1]]\navrà → [[g2]]\npotrà → [[g3]]\nfaremo → [[g4]]\nraccoglieremo → [[g5]]\nandremo → [[g6]]\nPorteremo → [[g7]]\ndivideremo → [[g8]]\nsaranno → [[g9]]\nincontreremo → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "presentare; futuro"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avere; futuro"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "potere; futuro"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fare; futuro"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "raccogliere; futuro"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "andare; futuro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "portare; futuro"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dividere; futuro"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "essere; futuro"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "incontrare; futuro"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  }
+ ],
+ "reading": {
+  "text": "Ciao Diego, mentre eri assente abbiamo preparato il programma dell’ultima giornata. Abbiamo ascoltato le proposte di tutti e abbiamo scelto un’attività che possiamo fare insieme. La mattina presenteremo i nostri lavori nella sala grande. Ogni gruppo avrà dieci minuti e potrà usare immagini oppure oggetti. Non faremo una gara: raccoglieremo domande e consigli. Dopo le presentazioni andremo in giardino, se il tempo è bello. Porteremo qualcosa da mangiare e divideremo i tavoli in piccoli gruppi. La scuola ha già autorizzato l’uso dello spazio. Io ho parlato con la responsabile e lei ha confermato che ci saranno sedie sufficienti.\nNel pomeriggio incontreremo due ex studenti. Ci racconteranno come hanno continuato i loro progetti fuori dalla scuola. Tu potrai fare le domande che hai preparato. Verso le quattro sistemeremo la sala e restituiremo gli strumenti. Alla fine scriveremo una breve valutazione: che cosa abbiamo imparato, che cosa è stato difficile e che cosa vorremmo cambiare. Sono contenta del programma perché lascia spazio anche a chi preferisce ascoltare. Fammi sapere se vuoi aggiungere una proposta. Ci vedremo domani all’intervallo. A presto, Micol."
+ }
+}

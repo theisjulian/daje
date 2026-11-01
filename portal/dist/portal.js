@@ -392,7 +392,9 @@ function checkListening() {
   renderListening();
   toast(
     ok
-      ? correct === graded.length
+      ? !graded.length
+        ? 'Gespeichert. Vergleiche jetzt mit der möglichen Lösung.'
+        : correct === graded.length
         ? 'Alles richtig. Bravo!'
         : `${correct} von ${graded.length} richtig. Ergebnis gespeichert.`
       : 'Speichern fehlgeschlagen. Sichere dein Profil.'

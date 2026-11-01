@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-192",
+ "title": "Una mostra fatta di voci",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Una mostra fatta di voci · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3192
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "error_correction",
+   "prompt": "Correggi gli accordi delle forme passive nel testo della mostra. Il testo contiene 5 interventi da correggere.",
+   "text": "Nel nostro museo di quartiere una vecchia sala [[e1]] come deposito. Le finestre [[e2]] da tende pesanti e gli oggetti [[e3]] in scatole chiuse. L’anno scorso la sala [[e4]] per un progetto scolastico.\nLa prima scelta è stata discussa con gli abitanti: esporre oggetti preziosi oppure raccontare lavori quotidiani? Alla fine sono stati scelti oggetti comuni: un grembiule, un biglietto del tram, una radio rotta. Ogni oggetto veniva accompagnato da una breve intervista registrata. Le fotografie [[e5]] dai ragazzi insieme ai proprietari.\nLa radio apparteneva a una donna che l’aveva ricevuta da suo padre. Il biglietto era di un signore il cui primo lavoro era lontano da casa. Una sarta ha prestato il grembiule con cui aveva imparato il mestiere. Nessuno di questi racconti pretendeva di rappresentare l’intero quartiere.\nPrima dell’apertura, le didascalie sono state rilette dalle persone intervistate. Alcune date sono state corrette; un nome non è stato pubblicato, su richiesta della famiglia. La mostra ora invita i visitatori a lasciare una domanda, non soltanto un commento. Il personale raccoglie le domande e le usa per preparare nuovi incontri. Anche un piccolo museo può cambiare quando ascolta chi gli sta intorno.",
+   "errors": [
+    {
+     "id": "e1",
+     "wrong": "venivano usata",
+     "acceptedAnswers": [
+      "veniva usata"
+     ]
+    },
+    {
+     "id": "e2",
+     "wrong": "era coperte",
+     "acceptedAnswers": [
+      "erano coperte"
+     ]
+    },
+    {
+     "id": "e3",
+     "wrong": "venivano conservate",
+     "acceptedAnswers": [
+      "venivano conservati"
+     ]
+    },
+    {
+     "id": "e4",
+     "wrong": "è stato riaperto",
+     "acceptedAnswers": [
+      "è stata riaperta"
+     ]
+    },
+    {
+     "id": "e5",
+     "wrong": "sono stati selezionati",
+     "acceptedAnswers": [
+      "sono state selezionate"
+     ]
+    }
+   ],
+   "explanation": "venivano usata → veniva usata: Sala: soggetto singolare. · era coperte → erano coperte: Finestre: soggetto plurale. · venivano conservate → venivano conservati: Oggetti: maschile plurale. · è stato riaperto → è stata riaperta: Sala: femminile singolare. · sono stati selezionati → sono state selezionate: Fotografie: femminile plurale.",
+   "promptHelp": "Korrigiere die Fehler."
+  }
+ ]
+}

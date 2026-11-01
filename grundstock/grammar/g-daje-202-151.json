@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-151",
+ "title": "Una settimana tra paesi e biciclette (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Una settimana tra paesi e biciclette (2) · livello medio.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1151
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "categorize",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella.",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "azione abituale"
+    },
+    {
+     "id": "c2",
+     "label": "azione ripetuta in una situazione ricorrente"
+    },
+    {
+     "id": "c3",
+     "label": "stato/sfondo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "controllavamo le biciclette",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "riempivamo le borracce",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "leggevamo insieme la mappa",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "Partivamo verso le nove",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "seguivamo strade tranquille",
+     "category": "c1"
+    },
+    {
+     "id": "i6",
+     "text": "ci fermavamo",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "avevo paura",
+     "category": "c3"
+    },
+    {
+     "id": "i8",
+     "text": "mi sentivo più sicura",
+     "category": "c3"
+    },
+    {
+     "id": "i9",
+     "text": "compravamo pane e frutta",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "cercavamo un posto",
+     "category": "c1"
+    },
+    {
+     "id": "i11",
+     "text": "visitavamo un paese",
+     "category": "c1"
+    },
+    {
+     "id": "i12",
+     "text": "Dormivamo in piccole strutture",
+     "category": "c1"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  }
+ ],
+ "reading": {
+  "text": "Cara Ada, sono tornata dal viaggio e ho ancora la testa piena di immagini. Per una settimana ho attraversato piccoli paesi con un gruppo di ciclisti principianti. Non era una corsa: il programma prevedeva tappe brevi e molte soste. Eravamo in dieci, con due accompagnatori che conoscevano bene il percorso. Ogni mattina controllavamo le biciclette, riempivamo le borracce e leggevamo insieme la mappa. Partivamo verso le nove e seguivamo strade tranquille. Quando qualcuno era stanco, ci fermavamo senza fretta.\nIl primo giorno avevo paura di non riuscire a tenere il ritmo. Gli altri mi aspettavano e mi davano consigli semplici. Dopo due giorni mi sentivo più sicura. A mezzogiorno compravamo pane e frutta; poi cercavamo un posto all’ombra. Nel pomeriggio visitavamo un paese oppure parlavamo con chi lavorava nelle botteghe. Dormivamo in piccole strutture diverse, ma non cambiavamo alloggio ogni notte. In un paese siamo rimasti due giorni per partecipare a un laboratorio.\nUna mattina è arrivata la pioggia. Abbiamo lasciato le biciclette al coperto e abbiamo preso un autobus. Nessuno si è lamentato: la pausa ci ha permesso di visitare un museo. L’ultimo giorno abbiamo percorso un tratto vicino al fiume e abbiamo scattato una fotografia tutti insieme. Non sono diventata un’atleta, ma ho scoperto un modo di viaggiare che mi piace. Il prossimo anno vorrei tornare con te. Prima, però, faremo qualche giro vicino a casa. Domenica porto le foto: ti va di incontrarci? Un abbraccio, Nina."
+ }
+}

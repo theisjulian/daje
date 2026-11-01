@@ -1,0 +1,180 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-188",
+ "title": "La mia prima presentazione pubblica (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · La mia prima presentazione pubblica (2) · livello difficile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1188
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Cara zia, ieri ho presentato il progetto della classe davanti a un pubblico e voglio raccontarti come è andata. All’inizio ero molto nervosa. Avevo preparato [[g1]] immagini, ma temevo di dimenticare le parole. La mia compagna Ilaria [[g2]] ha aiutata a provare: [[g3]] ascoltava senza interrompere e poi mi faceva una domanda. Questo mi ha permesso di capire quali passaggi non erano chiari.\nQuando siamo arrivate nella sala, il tecnico stava controllando il proiettore. [[g4]] abbiamo consegnato il file e [[g5]] [[g6]] ha mostrato il piccolo comando per cambiare le immagini. Io l’ho provato due volte, poi l’ho lasciato sul tavolo. Il pubblico entrava lentamente e parlava a bassa voce. Mia madre era seduta in fondo; l’ho salutata con la mano, ma non sono andata da [[g7]] perché mancavano pochi minuti.\nIl presentatore ha chiamato il nostro gruppo. Mi sono alzata, ho preso gli appunti e ho raggiunto Ilaria. La prima frase è uscita un po’ piano. Un’insegnante mi ha fatto un gesto gentile per invitarmi a parlare più forte. Ho respirato, ho guardato il pubblico e ho continuato. A metà della presentazione una fotografia non si è aperta. Ilaria mi ha guardata; io le ho detto di passare alla successiva e ho spiegato a parole quello che mancava. Il problema non ha rovinato il lavoro.\nAlla fine abbiamo ricevuto tre domande. Non conoscevamo una risposta e lo abbiamo detto chiaramente. Il nostro insegnante ci ha ringraziate per l’onestà. La prossima volta prepareremo anche una copia stampata delle immagini. Io proverò ancora a parlare senza leggere ogni frase. Non è stato perfetto, ma sono contenta di averlo fatto. [[g8]] mostrerò le fotografie domenica. Un abbraccio, Alina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "lei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Ti"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  },
+  {
+   "id": "q2a",
+   "type": "matching",
+   "prompt": "Trova un sinonimo o un contrario adatto al contesto. (parte 1/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "nervosa (contrario)",
+     "right": "tranquilla"
+    },
+    {
+     "id": "p2",
+     "left": "difficile (contrario)",
+     "right": "facile"
+    },
+    {
+     "id": "p3",
+     "left": "lentamente (contrario)",
+     "right": "velocemente"
+    },
+    {
+     "id": "p4",
+     "left": "forte (contrario)",
+     "right": "piano"
+    },
+    {
+     "id": "p5",
+     "left": "gentile (contrario)",
+     "right": "scortese"
+    },
+    {
+     "id": "p6",
+     "left": "continuare (contrario)",
+     "right": "fermarsi"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  },
+  {
+   "id": "q2b",
+   "type": "matching",
+   "prompt": "Trova un sinonimo o un contrario adatto al contesto. (parte 2/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "temevo (sinonimo)",
+     "right": "avevo paura"
+    },
+    {
+     "id": "p2",
+     "left": "inattesa (sinonimo)",
+     "right": "non prevista"
+    },
+    {
+     "id": "p3",
+     "left": "chiaramente (sinonimo)",
+     "right": "in modo chiaro"
+    },
+    {
+     "id": "p4",
+     "left": "raggiungere (sinonimo)",
+     "right": "arrivare da"
+    },
+    {
+     "id": "p5",
+     "left": "rovinare (sinonimo)",
+     "right": "danneggiare"
+    },
+    {
+     "id": "p6",
+     "left": "consegnare (sinonimo)",
+     "right": "dare al destinatario"
+    }
+   ]
+  }
+ ]
+}

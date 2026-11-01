@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-168",
+ "title": "Due compagni, un progetto (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Due compagni, un progetto (2) · livello difficile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Leseverstehen; Wiederholung It8 Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1168
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Sami racconta lo stesso lavoro dal proprio punto di vista. Conserva tutte le informazioni e distingui lui, mi, gli e si.",
+   "modelAnswer": "Io e il mio compagno lavoriamo allo stesso giornale, ma affrontiamo i compiti in modo diverso. Lui prepara una lista prima di cominciare; io preferisco discutere le idee ad alta voce. Quando si siede davanti al computer, vuole sapere quale testo scriverà. Io, invece, apro molte pagine, prendo appunti e trovo collegamenti inattesi. Qualche volta lo sorprendo con una proposta molto semplice che risolve un problema. Lui mi ricorda le scadenze e io lo aiuto a non fermarsi al primo errore.\nDurante le interviste, lui si occupa delle domande e io registro. Si preoccupa se una risposta è troppo breve; io gli suggerisco di aspettare e ascoltare. Spesso l’intervistato continua da solo. Quando rilegge il testo, si accorge di nuovi dettagli. A me interessa soprattutto il ritmo del racconto, a lui la chiarezza delle informazioni. Non siamo sempre d’accordo. Se una frase non funziona, la leggiamo a un terzo compagno e chiediamo che cosa capisce. Così la discussione non diventa una gara tra noi.\nFuori dalla redazione abbiamo interessi diversi, ma questo rende il lavoro più ricco. Io conosco molti musicisti; lui segue le attività della biblioteca. Ci scambiamo notizie e scegliamo insieme che cosa raccontare. Lui non deve diventare come me e io non devo diventare come lui. Dobbiamo soltanto imparare a usare bene le nostre differenze.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Io e Sami lavoriamo allo stesso giornale, ma affrontiamo i compiti in modo diverso. Io preparo una lista prima di cominciare; lui preferisce discutere le idee ad alta voce. Quando mi siedo davanti al computer, voglio sapere quale testo scriverò. Sami, invece, apre molte pagine, prende appunti e trova collegamenti inattesi. Qualche volta mi sorprende con una proposta molto semplice che risolve un problema. Io gli ricordo le scadenze e lui mi aiuta a non fermarmi al primo errore.\nDurante le interviste, io mi occupo delle domande e lui registra. Mi preoccupo se una risposta è troppo breve; Sami mi suggerisce di aspettare e ascoltare. Spesso l’intervistato continua da solo. Quando rileggo il testo, mi accorgo di nuovi dettagli. A lui interessa soprattutto il ritmo del racconto, a me la chiarezza delle informazioni. Non siamo sempre d’accordo. Se una frase non funziona, la leggiamo a un terzo compagno e chiediamo che cosa capisce. Così la discussione non diventa una gara tra noi.\nFuori dalla redazione abbiamo interessi diversi, ma questo rende il lavoro più ricco. Sami conosce molti musicisti; io seguo le attività della biblioteca. Ci scambiamo notizie e scegliamo insieme che cosa raccontare. Non devo diventare come lui e lui non deve diventare come me. Dobbiamo soltanto imparare a usare bene le nostre differenze."
+ }
+}

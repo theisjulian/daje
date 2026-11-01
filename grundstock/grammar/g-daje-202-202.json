@@ -1,0 +1,134 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-202",
+ "title": "Conoscere una città attraverso i suoi spazi (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "Leggere, collegare e riformulare · Conoscere una città attraverso i suoi spazi (2) · livello facile.",
+ "topics": [
+  "Leggere, collegare e riformulare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Biblioteca Salaborsa / Comune di Bologna – Biblioteca Salaborsa – Storia & missione (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.bibliotecasalaborsa.it/documents/storia",
+   "rights": "cleared"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Museo Galileo, Firenze – Museo Galileo – Gli strumenti di Galileo (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.museogalileo.it/it/galileo/strumenti.html",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Laboratorio testi"
+  },
+  "grade": 9,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 9 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a2",
+  "topicTitle": "Leggere, collegare e riformulare",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1202
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 1/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "conservare",
+     "right": "conservazione"
+    },
+    {
+     "id": "p2",
+     "left": "raccontare",
+     "right": "racconto"
+    },
+    {
+     "id": "p3",
+     "left": "osservare",
+     "right": "osservazione"
+    },
+    {
+     "id": "p4",
+     "left": "comprendere",
+     "right": "comprensione"
+    },
+    {
+     "id": "p5",
+     "left": "preparare",
+     "right": "preparazione"
+    },
+    {
+     "id": "p6",
+     "left": "controllare",
+     "right": "controllo"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  },
+  {
+   "id": "q1b",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 2/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "distinguere",
+     "right": "distinzione"
+    },
+    {
+     "id": "p2",
+     "left": "reagire",
+     "right": "reazione"
+    },
+    {
+     "id": "p3",
+     "left": "pubblicare",
+     "right": "pubblicazione"
+    },
+    {
+     "id": "p4",
+     "left": "spiegare",
+     "right": "spiegazione"
+    },
+    {
+     "id": "p5",
+     "left": "leggere",
+     "right": "lettura"
+    },
+    {
+     "id": "p6",
+     "left": "descrivere",
+     "right": "descrizione"
+    }
+   ]
+  }
+ ]
+}

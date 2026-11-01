@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-006",
+ "title": "Una merenda per il laboratorio",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Una merenda per il laboratorio · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1006
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta.",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "da mangiare"
+    },
+    {
+     "id": "c2",
+     "label": "da bere"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "strudel",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "arancia",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "insalata di riso",
+     "category": "c1"
+    },
+    {
+     "id": "i4",
+     "text": "yogurt",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "spremuta",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "acqua",
+     "category": "c2"
+    },
+    {
+     "id": "i7",
+     "text": "caffè",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "panino",
+     "category": "c1"
+    },
+    {
+     "id": "i9",
+     "text": "torta",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "succo",
+     "category": "c2"
+    },
+    {
+     "id": "i11",
+     "text": "focaccia",
+     "category": "c1"
+    },
+    {
+     "id": "i12",
+     "text": "tè",
+     "category": "c2"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-183",
+ "title": "Una mostra fatta di voci",
+ "language": "it",
+ "level": "B2",
+ "description": "Il passivo con andare · Una mostra fatta di voci · livello difficile.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3183
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Individua nelle trasformazioni soggetto, agente, tempo e ausiliare. Esegui la trasformazione richiesta; per andare spiega il valore di obbligo. (parte 1/2)\n1. Passivo: La classe ha preparato la mostra.\n2. Passivo: I lettori hanno corretto le didascalie.\n3. Passivo: La bibliotecaria conservava i documenti.\n4. Passivo con venire: Il personale controllava le finestre.\n5. Passivo: Il gruppo ha scelto gli oggetti.\n6. Passivo: La redazione pubblicava gli avvisi.",
+   "modelAnswer": "1. La mostra è stata preparata dalla classe.\n2. Le didascalie sono state corrette dai lettori.\n3. I documenti erano conservati dalla bibliotecaria.\n4. Le finestre venivano controllate dal personale.\n5. Gli oggetti sono stati scelti dal gruppo.\n6. Gli avvisi erano pubblicati dalla redazione.",
+   "lines": 7,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Individua nelle trasformazioni soggetto, agente, tempo e ausiliare. Esegui la trasformazione richiesta; per andare spiega il valore di obbligo. (parte 2/2)\n1. Passivo: I volontari hanno aperto la sala.\n2. Passivo: L’autrice ha riletto il testo.\n3. Valore di obbligo con andare: Bisogna controllare le fonti.\n4. Valore di obbligo con andare: Bisogna conservare il documento.\n5. Presente passivo con venire: Il gruppo aggiorna il calendario.\n6. Attivo: La proposta è stata discussa dagli studenti.",
+   "modelAnswer": "1. La sala è stata aperta dai volontari.\n2. Il testo è stato riletto dall’autrice.\n3. Le fonti vanno controllate.\n4. Il documento va conservato.\n5. Il calendario viene aggiornato dal gruppo.\n6. Gli studenti hanno discusso la proposta.",
+   "lines": 7
+  }
+ ]
+}

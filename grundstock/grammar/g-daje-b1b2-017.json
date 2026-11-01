@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-017",
+ "title": "La luce nella sala prove",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · La luce nella sala prove · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3017
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Racconta «La luce nella sala prove» come un episodio avvenuto giovedì scorso. Usa passato prossimo per gli eventi e imperfetto per sfondo e abitudini. Non trasformare meccanicamente ogni presente nello stesso tempo.",
+   "modelAnswer": "Ogni giovedì il coro si riuniva in una sala al piano terra. La porta si apriva su un cortile e chi arrivava per primo accendeva la luce. Giovedì scorso Elena è entrata alle sette, ha appoggiato la borsa su una sedia e ha cercato gli spartiti. Sul tavolo non c’era nulla. Ha controllato l’armadio, ma ha trovato soltanto una scatola di cavi e alcuni programmi di vecchi concerti.\nNel frattempo sono arrivati gli altri. Faceva freddo e tutti tenevano ancora il cappotto. Il direttore ha ascoltato la spiegazione di Elena, poi ha telefonato al custode. Il custode ha ricordato che nel pomeriggio un gruppo di ragazzi usava la stessa sala per un laboratorio. Forse i fogli erano stati spostati per liberare il tavolo. Due coristi sono usciti e hanno chiesto informazioni nell’aula vicina.\nUna ragazza li ha accompagnati fino a un carrello. Sotto alcuni cartelloni c’erano gli spartiti, raccolti con attenzione in una cartella. Nessuno voleva nasconderli; mancava soltanto un biglietto che indicasse il nuovo posto. I coristi hanno ringraziato e sono tornati nella sala.\nLa prova è cominciata con mezz’ora di ritardo. Il direttore ha proposto un esercizio breve di ascolto, senza fogli. Elena ha chiuso gli occhi e ha riconosciuto le voci dei compagni una alla volta. Alla fine tutti hanno riso: la serata che sembrava rovinata ha offerto un modo diverso di cantare insieme. Prima di uscire, Elena ha scritto un avviso e lo ha attaccato sull’armadio. La settimana successiva gli spartiti avrebbero finalmente avuto un posto chiaro.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Ogni giovedì il coro si riunisce in una sala al piano terra. La porta si apre su un cortile e chi arriva per primo accende la luce. Questa sera Elena entra alle sette, appoggia la borsa su una sedia e cerca gli spartiti. Sul tavolo non c’è nulla. Controlla l’armadio, ma trova soltanto una scatola di cavi e alcuni programmi di vecchi concerti.\nNel frattempo arrivano gli altri. Fa freddo e tutti tengono ancora il cappotto. Il direttore ascolta la spiegazione di Elena, poi telefona al custode. Il custode ricorda che nel pomeriggio un gruppo di ragazzi usa la stessa sala per un laboratorio. Forse i fogli sono stati spostati per liberare il tavolo. Due coristi escono e chiedono informazioni nell’aula vicina.\nUna ragazza li accompagna fino a un carrello. Sotto alcuni cartelloni ci sono gli spartiti, raccolti con attenzione in una cartella. Nessuno voleva nasconderli; mancava soltanto un biglietto che indicasse il nuovo posto. I coristi ringraziano e tornano nella sala.\nLa prova comincia con mezz’ora di ritardo. Il direttore propone un esercizio breve di ascolto, senza fogli. Elena chiude gli occhi e riconosce le voci dei compagni una alla volta. Alla fine tutti ridono: la serata che sembrava rovinata offre un modo diverso di cantare insieme. Prima di uscire, Elena scrive un avviso e lo attacca sull’armadio. La settimana prossima gli spartiti avranno finalmente un posto chiaro.",
+  "title": "La luce nella sala prove"
+ }
+}

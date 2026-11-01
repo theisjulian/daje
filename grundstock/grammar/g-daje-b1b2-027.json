@@ -1,0 +1,95 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-027",
+ "title": "Abbina ciascun termine alla definizione appropriata",
+ "language": "it",
+ "level": "B1",
+ "description": "Lessico, registri e significati nel contesto · Abbina ciascun termine alla definizione appropriata · livello medio.",
+ "topics": [
+  "Lessico, registri e significati nel contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3027
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "matching",
+   "prompt": "Abbina ciascun termine alla definizione appropriata. Le definizioni distinguono significati usati nei testi del percorso.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "candidatura",
+     "right": "Proposta di sé per un incarico."
+    },
+    {
+     "id": "p2",
+     "left": "compenso",
+     "right": "Somma corrisposta per un lavoro."
+    },
+    {
+     "id": "p3",
+     "left": "scadenza",
+     "right": "Termine entro cui completare un’attività."
+    },
+    {
+     "id": "p4",
+     "left": "ricevuta",
+     "right": "Documento che prova un pagamento."
+    },
+    {
+     "id": "p5",
+     "left": "itinerario",
+     "right": "Percorso previsto per uno spostamento."
+    },
+    {
+     "id": "p6",
+     "left": "didascalia",
+     "right": "Breve testo che accompagna un’immagine."
+    },
+    {
+     "id": "p7",
+     "left": "archivio",
+     "right": "Raccolta ordinata di documenti."
+    },
+    {
+     "id": "p8",
+     "left": "bozza",
+     "right": "Versione provvisoria di un testo."
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  }
+ ]
+}

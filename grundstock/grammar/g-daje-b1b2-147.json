@@ -1,0 +1,232 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-147",
+ "title": "Una stanza lasciata in ordine",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Una stanza lasciata in ordine · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3147
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Cara Elisa,"
+    },
+    {
+     "id": "p2",
+     "text": "quando leggerai"
+    },
+    {
+     "id": "p3",
+     "text": "questa lettera"
+    },
+    {
+     "id": "p4",
+     "text": "sarò già"
+    },
+    {
+     "id": "p5",
+     "text": "sul treno."
+    }
+   ],
+   "explanation": "Cara Elisa, quando leggerai questa lettera sarò già sul treno.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q1s2",
+   "type": "ordering",
+   "prompt": "Frase 2: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ti lascio le"
+    },
+    {
+     "id": "p2",
+     "text": "mie chiavi nel"
+    },
+    {
+     "id": "p3",
+     "text": "cassetto; per favore,"
+    },
+    {
+     "id": "p4",
+     "text": "consegna le alla"
+    },
+    {
+     "id": "p5",
+     "text": "nuova coinquilina."
+    }
+   ],
+   "explanation": "Ti lascio le mie chiavi nel cassetto; per favore, consegna le alla nuova coinquilina."
+  },
+  {
+   "id": "q1s3",
+   "type": "ordering",
+   "prompt": "Frase 3: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Ho incontrato"
+    },
+    {
+     "id": "p2",
+     "text": "Marta ieri"
+    },
+    {
+     "id": "p3",
+     "text": "e le"
+    },
+    {
+     "id": "p4",
+     "text": "ho spiegato"
+    },
+    {
+     "id": "p5",
+     "text": "come funziona"
+    },
+    {
+     "id": "p6",
+     "text": "il riscaldamento."
+    }
+   ],
+   "explanation": "Ho incontrato Marta ieri e le ho spiegato come funziona il riscaldamento."
+  },
+  {
+   "id": "q1s4",
+   "type": "ordering",
+   "prompt": "Frase 4: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Se avrà"
+    },
+    {
+     "id": "p2",
+     "text": "altre domande,"
+    },
+    {
+     "id": "p3",
+     "text": "potrai aiutarla"
+    },
+    {
+     "id": "p4",
+     "text": "tu."
+    }
+   ],
+   "explanation": "Se avrà altre domande, potrai aiutarla tu."
+  },
+  {
+   "id": "q1s5",
+   "type": "ordering",
+   "prompt": "Frase 5: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Prima di"
+    },
+    {
+     "id": "p2",
+     "text": "partire ho"
+    },
+    {
+     "id": "p3",
+     "text": "svuotato l’armadio."
+    }
+   ],
+   "explanation": "Prima di partire ho svuotato l’armadio."
+  },
+  {
+   "id": "q1s6",
+   "type": "ordering",
+   "prompt": "Frase 6: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Quel maglione blu"
+    },
+    {
+     "id": "p2",
+     "text": "vicino alla finestra"
+    },
+    {
+     "id": "p3",
+     "text": "è tuo: lo"
+    },
+    {
+     "id": "p4",
+     "text": "avevi dimenticato in"
+    },
+    {
+     "id": "p5",
+     "text": "camera mia."
+    }
+   ],
+   "explanation": "Quel maglione blu vicino alla finestra è tuo: lo avevi dimenticato in camera mia."
+  },
+  {
+   "id": "q1s7",
+   "type": "ordering",
+   "prompt": "Frase 7: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Le piante"
+    },
+    {
+     "id": "p2",
+     "text": "sono nostre;"
+    },
+    {
+     "id": "p3",
+     "text": "scegli tu"
+    },
+    {
+     "id": "p4",
+     "text": "dove sistemarle."
+    }
+   ],
+   "explanation": "Le piante sono nostre; scegli tu dove sistemarle."
+  }
+ ]
+}

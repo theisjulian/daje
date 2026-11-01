@@ -1,0 +1,178 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-013",
+ "title": "Lessico in contesto (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (1) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1013
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "strumenti musicali"
+    },
+    {
+     "id": "c2",
+     "label": "materiali scolastici"
+    },
+    {
+     "id": "c3",
+     "label": "indumenti"
+    },
+    {
+     "id": "c4",
+     "label": "mezzi di trasporto"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "matita",
+     "category": "c2"
+    },
+    {
+     "id": "i2",
+     "text": "violino",
+     "category": "c1"
+    },
+    {
+     "id": "i3",
+     "text": "gomma",
+     "category": "c2"
+    },
+    {
+     "id": "i4",
+     "text": "flauto",
+     "category": "c1"
+    },
+    {
+     "id": "i5",
+     "text": "quaderno",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "chitarra",
+     "category": "c1"
+    },
+    {
+     "id": "i7",
+     "text": "righello",
+     "category": "c2"
+    },
+    {
+     "id": "i8",
+     "text": "tamburo",
+     "category": "c1"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  },
+  {
+   "id": "q1b",
+   "type": "categorize",
+   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "strumenti musicali"
+    },
+    {
+     "id": "c2",
+     "label": "materiali scolastici"
+    },
+    {
+     "id": "c3",
+     "label": "indumenti"
+    },
+    {
+     "id": "c4",
+     "label": "mezzi di trasporto"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "bicicletta",
+     "category": "c4"
+    },
+    {
+     "id": "i2",
+     "text": "camicia",
+     "category": "c3"
+    },
+    {
+     "id": "i3",
+     "text": "treno",
+     "category": "c4"
+    },
+    {
+     "id": "i4",
+     "text": "maglietta",
+     "category": "c3"
+    },
+    {
+     "id": "i5",
+     "text": "tram",
+     "category": "c4"
+    },
+    {
+     "id": "i6",
+     "text": "cappotto",
+     "category": "c3"
+    },
+    {
+     "id": "i7",
+     "text": "autobus",
+     "category": "c4"
+    },
+    {
+     "id": "i8",
+     "text": "felpa",
+     "category": "c3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-020",
+ "title": "Synonyme im Kontext",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Synonyme im Kontext · livello facile.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1020
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "cominciare",
+     "right": "iniziare"
+    },
+    {
+     "id": "p2",
+     "left": "terminare",
+     "right": "finire"
+    },
+    {
+     "id": "p3",
+     "left": "abitare",
+     "right": "vivere"
+    },
+    {
+     "id": "p4",
+     "left": "capire",
+     "right": "comprendere"
+    },
+    {
+     "id": "p5",
+     "left": "usare",
+     "right": "utilizzare"
+    },
+    {
+     "id": "p6",
+     "left": "comprare",
+     "right": "acquistare"
+    },
+    {
+     "id": "p7",
+     "left": "spedire",
+     "right": "inviare"
+    },
+    {
+     "id": "p8",
+     "left": "ritornare",
+     "right": "tornare"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  }
+ ]
+}

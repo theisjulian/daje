@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-008",
+ "title": "La bacheca del centro culturale (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo determinativo singolare (il, lo, la, l’) · La bacheca del centro culturale (1) · livello medio.",
+ "topics": [
+  "L’articolo determinativo singolare (il, lo, la, l’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1008
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "categorize",
+   "prompt": "Indica genere e numero dei gruppi nominali. Poi distingui l’articolo determinativo da quello indeterminativo.",
+   "categories": [
+    {
+     "id": "c1",
+     "label": "maschile singolare"
+    },
+    {
+     "id": "c2",
+     "label": "femminile singolare"
+    },
+    {
+     "id": "c3",
+     "label": "maschile plurale"
+    },
+    {
+     "id": "c4",
+     "label": "femminile plurale"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "il cortile",
+     "category": "c1"
+    },
+    {
+     "id": "i2",
+     "text": "una pianta",
+     "category": "c2"
+    },
+    {
+     "id": "i3",
+     "text": "i vasi",
+     "category": "c3"
+    },
+    {
+     "id": "i4",
+     "text": "la sala",
+     "category": "c2"
+    },
+    {
+     "id": "i5",
+     "text": "la radio",
+     "category": "c2"
+    },
+    {
+     "id": "i6",
+     "text": "le registrazioni",
+     "category": "c4"
+    },
+    {
+     "id": "i7",
+     "text": "il nome",
+     "category": "c1"
+    },
+    {
+     "id": "i8",
+     "text": "le telefonate",
+     "category": "c4"
+    },
+    {
+     "id": "i9",
+     "text": "il corridoio",
+     "category": "c1"
+    },
+    {
+     "id": "i10",
+     "text": "i tavoli",
+     "category": "c3"
+    },
+    {
+     "id": "i11",
+     "text": "gli oggetti",
+     "category": "c3"
+    }
+   ],
+   "promptHelp": "Ordne die Wörter den Gruppen zu."
+  }
+ ],
+ "reading": {
+  "text": "A — SCAMBIO DI PIANTE. Sabato dalle dieci alle dodici il cortile del centro culturale ospita uno scambio di piante. Porta una pianta piccola con il suo nome. I vasi devono essere puliti. Non si vendono prodotti. Se piove, l’incontro si svolge nella sala verde.\nB — CERCHIAMO VOCI. La radio del quartiere cerca persone per leggere racconti brevi. Le registrazioni sono il giovedì pomeriggio. Non occorre esperienza, ma è necessario partecipare a un incontro iniziale. Gli interessati possono lasciare il nome alla reception.\nC — SALA STUDIO. Da lunedì la sala studio apre alle otto e chiude alle diciotto. Il mercoledì resta aperta fino alle venti. Le telefonate si fanno nel corridoio. I tavoli vicino alle finestre sono riservati al lavoro individuale.\nD — OGGETTI TROVATI. Nell’armadio della reception ci sono una sciarpa, due borracce e un ombrello. Per ritirare un oggetto, descrivi il colore e il giorno in cui l’hai perso. Gli oggetti restano qui per un mese. La reception è chiusa la domenica."
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-011",
+ "title": "La giornata delle idee",
+ "language": "it",
+ "level": "A1",
+ "description": "Numeri e quantità · La giornata delle idee · livello facile.",
+ "topics": [
+  "Numeri e quantità",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-numeri",
+  "topicTitle": "Numeri e quantità",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1011
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "gap_fill",
+   "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre. (parte 1/2)",
+   "text": "18 → [[g1]]\nventiquattro → [[g2]]\n12 → [[g3]]\nquindici → [[g4]]\n7 → [[g5]]\notto → [[g6]]\n32 → [[g7]]\ndue → [[g8]]\n4 → [[g9]]\nsei → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "diciotto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "24"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dodici"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "15"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sette"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "8"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "trentadue"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "2"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "quattro"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "6"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  },
+  {
+   "id": "q1b",
+   "type": "gap_fill",
+   "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre. (parte 2/2)",
+   "text": "10 → [[g1]]\nundici → [[g2]]\n13 → [[g3]]\nquattordici → [[g4]]\n90 → [[g5]]\ntre → [[g6]]\n30 → [[g7]]\nsedici → [[g8]]\n17 → [[g9]]\ndiciannove → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dieci"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "11"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "tredici"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "14"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "novanta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "3"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "trenta"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "16"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "diciassette"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "19"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-054",
+ "title": "Lessico in contesto (3)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (3) · livello medio.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1054
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "single_choice",
+   "prompt": "Trova la parola che non appartiene al gruppo e spiega il criterio.\nGruppo 1",
+   "options": [
+    {
+     "id": "o1",
+     "text": "gennaio"
+    },
+    {
+     "id": "o2",
+     "text": "aprile"
+    },
+    {
+     "id": "o3",
+     "text": "agosto"
+    },
+    {
+     "id": "o4",
+     "text": "giovedì"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono mesi.",
+   "promptHelp": "Wähle die richtige Antwort."
+  },
+  {
+   "id": "q1r2",
+   "type": "single_choice",
+   "prompt": "Gruppo 2",
+   "options": [
+    {
+     "id": "o1",
+     "text": "leggo"
+    },
+    {
+     "id": "o2",
+     "text": "scrivo"
+    },
+    {
+     "id": "o3",
+     "text": "dormo"
+    },
+    {
+     "id": "o4",
+     "text": "ieri"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono verbi."
+  },
+  {
+   "id": "q1r3",
+   "type": "single_choice",
+   "prompt": "Gruppo 3",
+   "options": [
+    {
+     "id": "o1",
+     "text": "noi"
+    },
+    {
+     "id": "o2",
+     "text": "voi"
+    },
+    {
+     "id": "o3",
+     "text": "loro"
+    },
+    {
+     "id": "o4",
+     "text": "sempre"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono pronomi."
+  },
+  {
+   "id": "q1r4",
+   "type": "single_choice",
+   "prompt": "Gruppo 4",
+   "options": [
+    {
+     "id": "o1",
+     "text": "lentamente"
+    },
+    {
+     "id": "o2",
+     "text": "bene"
+    },
+    {
+     "id": "o3",
+     "text": "qui"
+    },
+    {
+     "id": "o4",
+     "text": "felice"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono avverbi."
+  },
+  {
+   "id": "q1r5",
+   "type": "single_choice",
+   "prompt": "Gruppo 5",
+   "options": [
+    {
+     "id": "o1",
+     "text": "matita"
+    },
+    {
+     "id": "o2",
+     "text": "penna"
+    },
+    {
+     "id": "o3",
+     "text": "gomma"
+    },
+    {
+     "id": "o4",
+     "text": "camicia"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono materiali scolastici."
+  },
+  {
+   "id": "q1r6",
+   "type": "single_choice",
+   "prompt": "Gruppo 6",
+   "options": [
+    {
+     "id": "o1",
+     "text": "arriviamo"
+    },
+    {
+     "id": "o2",
+     "text": "partiamo"
+    },
+    {
+     "id": "o3",
+     "text": "leggiamo"
+    },
+    {
+     "id": "o4",
+     "text": "aprite"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono forme di noi."
+  },
+  {
+   "id": "q1r7",
+   "type": "single_choice",
+   "prompt": "Gruppo 7",
+   "options": [
+    {
+     "id": "o1",
+     "text": "alto"
+    },
+    {
+     "id": "o2",
+     "text": "basso"
+    },
+    {
+     "id": "o3",
+     "text": "largo"
+    },
+    {
+     "id": "o4",
+     "text": "libreria"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri sono aggettivi."
+  },
+  {
+   "id": "q1r8",
+   "type": "single_choice",
+   "prompt": "Gruppo 8",
+   "options": [
+    {
+     "id": "o1",
+     "text": "domani"
+    },
+    {
+     "id": "o2",
+     "text": "ieri"
+    },
+    {
+     "id": "o3",
+     "text": "oggi"
+    },
+    {
+     "id": "o4",
+     "text": "rosso"
+    }
+   ],
+   "correctOptionId": "o4",
+   "explanation": "Gli altri indicano il tempo."
+  }
+ ]
+}

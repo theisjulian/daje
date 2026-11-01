@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-084",
+ "title": "La scatola ritrovata (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con avere · La scatola ritrovata (1) · livello medio.",
+ "topics": [
+  "Il passato prossimo con avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Il passato prossimo con avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1084
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "text": "ha visitato → [[g1]]\nsono arrivati → [[g2]]\nha chiesto → [[g3]]\nsono tornati → [[g4]]\nha ricordato → [[g5]]\nHa telefonato → [[g6]]\nha spiegato → [[g7]]\nha guardato → [[g8]]\nha trovato → [[g9]]\nha detto → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "visitare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "arrivare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chiedere; passato prossimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "tornare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ricordare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "telefonare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "spiegare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "guardare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "trovare; passato prossimo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dire; passato prossimo"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die Lücken."
+  }
+ ],
+ "reading": {
+  "text": "Ieri pomeriggio una classe ha visitato il centro culturale per preparare una mostra. Gli studenti portavano fotografie, disegni e una scatola di vecchie cartoline. Quando sono arrivati nella sala, mancava proprio la scatola. La professoressa ha chiesto a tutti di controllare le borse. Due ragazzi sono tornati all’ingresso, mentre gli altri cercavano vicino ai tavoli. Una volontaria ha ricordato che un gruppo precedente usava una scatola simile. Ha telefonato al responsabile e gli ha spiegato il problema. Il responsabile ha guardato nel suo ufficio e ha trovato due scatole sullo scaffale. Una conteneva fogli bianchi; l’altra era quella della classe. Un collega ha detto: «Ho spostato la scatola per liberare il passaggio». La volontaria è scesa nella sala e ha consegnato le cartoline agli studenti. Tutti hanno controllato il contenuto: non mancava nulla. Prima di cominciare il lavoro, una studentessa ha scritto il nome della classe su un’etichetta. Alla fine del pomeriggio la mostra era pronta. La professoressa ha ringraziato i volontari e gli studenti hanno fotografato il loro lavoro. È un episodio inventato per l’esercizio."
+ }
+}

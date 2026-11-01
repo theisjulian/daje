@@ -1,0 +1,209 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-046",
+ "title": "Due lettere sulla biblioteca del sabato",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Due lettere sulla biblioteca del sabato · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3046
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_choice",
+   "prompt": "Completa il testo: scegli la forma giusta.",
+   "text": "A — Lettera di Bianca. La biblioteca del nostro quartiere chiude il sabato a mezzogiorno. Vorrei proporre un’apertura pomeridiana una volta al mese. Durante la settimana seguo un corso lontano da casa e riesco raramente a passarci. Non chiedo che il personale lavori senza pausa: immagino un orario diverso, da discutere con chi organizza il servizio. Mi piacerebbe soprattutto partecipare a un incontro in cui i lettori presentino un libro senza dover preparare una relazione lunga.\nHo parlato della proposta con mio fratello. Lui non legge molti romanzi, ma usa la biblioteca per studiare e cercare manuali. [[g1]] ho chiesto se verrebbe; [[g2]] ha risposto che dipenderebbe dal programma. Questa risposta [[g3]] sembra utile: un’apertura aggiuntiva non interessa automaticamente tutti. Per capire le esigenze, preparerei poche domande e le lascerei sia all’ingresso sia sul sito. Non userei soltanto un questionario online, perché rischierei di non ascoltare alcuni frequentatori.\nB — Risposta di Karim. L’idea di Bianca [[g4]] interessa, ma prima di cambiare gli orari guarderei come viene usato lo spazio. Il sabato mattina accompagno mia sorella alla sezione ragazzi e spesso non troviamo un posto tranquillo. Se aprissimo più a lungo senza organizzare meglio le sale, potremmo spostare il problema invece di risolverlo.\nPer questo proporrei un periodo di prova. Un pomeriggio sarebbe dedicato allo studio, un altro agli incontri. Alla fine raccoglieremmo osservazioni dai lettori e dal personale. Chi non partecipa dovrebbe poter spiegare perché: forse l’orario non va bene, forse non conosce l’iniziativa, forse cerca un servizio diverso. Non vorrei che il numero dei presenti diventasse l’unico criterio.\nSono disponibile ad aiutare nella comunicazione della prova, ma non a sostituire il lavoro di persone formate. Alla biblioteca chiediamo competenza, cura e continuità. Un progetto nato dai lettori può essere prezioso se riconosce queste esigenze. Le due lettere sono state scritte per l’esercizio e non riportano una consultazione reale.\nNota comune dei due autori: «Abbiamo scritto le nostre proposte e [[g5]] abbiamo rilette insieme. Alla responsabile [[g6]] manderemo una copia. Il calendario non [[g7]] decidiamo noi; [[g8]] discuteremo con chi organizza il servizio. I lettori possono dar[[g9]] suggerimenti. Se [[g10]] raccogliamo con ordine, sarà più facile usar[[g11]]. Nessuno dovrà giustificar[[g12]] se non verrà. A chi chiede una risposta promettiamo di scriver[[g13]] dopo il confronto; le domande aperte non [[g14]] dimenticheremo».",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Lo",
+      "Le",
+      "Gli"
+     ],
+     "answer": "Gli"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ti",
+      "mi",
+      "gli"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ti",
+      "si",
+      "mi"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "mi",
+      "la",
+      "ne"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "li",
+      "gli",
+      "le"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "le",
+      "gli",
+      "la"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "lo",
+      "gli",
+      "ne"
+     ],
+     "answer": "lo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "si",
+      "ne",
+      "gli"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ne",
+      "ci",
+      "li"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "li",
+      "gli",
+      "si"
+     ],
+     "answer": "li"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "li",
+      "gli",
+      "si"
+     ],
+     "answer": "li"
+    },
+    {
+     "id": "g12",
+     "options": [
+      "ne",
+      "gli",
+      "si"
+     ],
+     "answer": "si"
+    },
+    {
+     "id": "g13",
+     "options": [
+      "gli",
+      "lo",
+      "si"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g14",
+     "options": [
+      "li",
+      "gli",
+      "le"
+     ],
+     "answer": "le"
+    }
+   ],
+   "promptHelp": "Ergänze den Text: Wähle die richtige Form."
+  },
+  {
+   "id": "q2",
+   "type": "gap_fill",
+   "prompt": "Completa le forme o le trasformazioni indicate.",
+   "text": "Sostituisci il programma: Abbiamo letto il programma. → [[g1]]\nSostituisci le risposte: Ho ricevuto le risposte. → [[g2]]\nSostituisci la mappa: Hai visto la mappa? → [[g3]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo abbiamo letto."
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Le ho ricevute."
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "L’hai vista?"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
+  }
+ ]
+}

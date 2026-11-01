@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-076",
+ "title": "Organizzare una visita al Pantheon",
+ "language": "it",
+ "level": "A1",
+ "description": "Informazioni e dialoghi · Organizzare una visita al Pantheon · livello medio.",
+ "topics": [
+  "Informazioni e dialoghi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: Ministero della Cultura – Pantheon e Basilica di Santa Maria ad Martyres (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://cultura.gov.it/luogo/pantheon",
+   "rights": "cleared"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Laboratorio testi"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lettura-a1",
+  "topicTitle": "Informazioni e dialoghi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1076
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nIl testo promette un ingresso ufficiale per saltare la fila?",
+   "modelAnswer": "No.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Dove si possono comprare biglietti ufficiali?",
+   "modelAnswer": "Sul portale Musei Italiani, nell’app oppure sul posto alle casse o ai distributori automatici.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Il programma della classe è un evento reale?",
+   "modelAnswer": "No, è inventato.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Perché si devono verificare le condizioni prima di partire?",
+   "modelAnswer": "Perché possono cambiare dopo la data di consultazione.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Il Pantheon si trova a Roma ed è anche una basilica. Per una visita, il Ministero della Cultura indica l’acquisto dei biglietti ufficiali sul portale Musei Italiani, nell’app oppure presso le casse e i distributori automatici sul posto. Non sono previsti biglietti ufficiali per saltare la fila. Le visite seguono l’ordine di arrivo. Questa breve informazione è stata riformulata a partire dalla pagina ufficiale consultata il 29 ottobre 2026; prima di un viaggio reale occorre verificare le condizioni aggiornate.\nPer il nostro esercizio immaginiamo una classe che prepara una visita. Gli studenti divideranno il lavoro in piccoli gruppi. Il primo gruppo cercherà le informazioni ufficiali, il secondo preparerà una mappa e il terzo raccoglierà le domande. Ogni gruppo avrà un portavoce. Prima della partenza, tutti confronteranno i risultati e controlleranno le fonti. La classe non userà messaggi pubblicitari come prova delle condizioni di ingresso. Durante la visita, gli studenti osserveranno l’edificio e prenderanno appunti. Dopo il ritorno, scriveranno un breve resoconto e distingueranno ciò che hanno visto dalle informazioni lette. Chi non parteciperà potrà lavorare sulle immagini autorizzate e sui materiali ufficiali disponibili online. Il programma scolastico qui descritto è inventato."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-092",
+ "title": "Analizza le forme: indica infinito, modo, tempo e persona (3)",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Analizza le forme: indica infinito, modo, tempo e persona (3) · livello medio.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3092
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie.\n1. voi: «partiate»\n2. io: «avevo scelto»\n3. io: «conserverei»\n4. loro: «ascoltino»\n5. voi: «poteste»\n6. io: «venda»\n7. io: «ho scelto»\n8. loro: «temono»\n9. io: «ascolti»\n10. tu: «andresti»",
+   "modelAnswer": "1. partire — congiuntivo — presente — voi\n2. scegliere — indicativo — trapassato prossimo — io\n3. conservare — condizionale — presente — io\n4. ascoltare — congiuntivo — presente — loro\n5. potere — congiuntivo — imperfetto — voi\n6. vendere — congiuntivo — presente — io\n7. scegliere — indicativo — passato prossimo — io\n8. temere — indicativo — presente — loro\n9. ascoltare — congiuntivo — presente — io\n10. andare — condizionale — presente — tu",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-060",
+ "title": "Un colloquio diverso",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere, argomentare e verificare le fonti · Un colloquio diverso · livello medio.",
+ "topics": [
+  "Leggere, argomentare e verificare le fonti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Laboratorio"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10: Textarbeit / Grammatik / sprachliche Mittel"
+ },
+ "grammar": {
+  "topic": "daje3-lettura-argomentazione",
+  "topicTitle": "Leggere, argomentare e verificare le fonti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3060
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Leggi «Un colloquio diverso». Rispondi a un’offerta fittizia per aiutare un festival scolastico: motivazione, esperienze, disponibilità, una domanda. Usa un registro formale e non inventare titoli professionali. 140–200 parole.",
+   "modelAnswer": "Gentile responsabile,\nvorrei candidarmi per collaborare al festival scolastico di giugno. Mi interessa l’organizzazione degli eventi e desidererei fare un’esperienza concreta, lavorando con persone che possano guidarmi. Non ho ancora svolto un impiego, ma ho partecipato alla preparazione della giornata aperta della mia scuola.\nIn quell’occasione mi sono occupato degli avvisi e ho accompagnato i visitatori nelle aule. Ho imparato a controllare gli orari, a chiedere chiarimenti quando mancava un’informazione e a restare calmo quando il programma cambiava. So usare programmi semplici per preparare locandine e brevi video; non possiedo invece competenze tecniche per gestire da solo audio e luci.\nSarei disponibile nei pomeriggi dal lunedì al giovedì e durante il fine settimana del festival. Prima di confermare, vorrei conoscere gli orari, i compiti previsti e la persona a cui potrei rivolgermi in caso di difficoltà. Sarebbe possibile fissare un breve colloquio?\nAllego una presentazione delle attività scolastiche a cui ho collaborato. Vi ringrazio per il tempo dedicato alla mia candidatura e resto disponibile per ulteriori informazioni.\nCordiali saluti,\nLeonardo Sala",
+   "lines": 15,
+   "explanation": "Controlla: Contenuto: tutti i punti richiesti sono sviluppati con dettagli pertinenti (0–4). · Organizzazione: ordine comprensibile, paragrafi e collegamenti adeguati (0–4). · Lingua: lessico appropriato e strutture richieste comprensibili e sufficientemente corrette (0–4). · Registro e consegna: destinatario, scopo e lunghezza rispettati (0–4).",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

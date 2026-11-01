@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-070",
+ "title": "Lessico in contesto (8)",
+ "language": "it",
+ "level": "A1",
+ "description": "Lessico in contesto · Lessico in contesto (8) · livello facile.",
+ "topics": [
+  "Lessico in contesto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Lessico"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-lessico-contesto",
+  "topicTitle": "Lessico in contesto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 1070
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 1/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "decidere",
+     "right": "decisione"
+    },
+    {
+     "id": "p2",
+     "left": "partire",
+     "right": "partenza"
+    },
+    {
+     "id": "p3",
+     "left": "arrivare",
+     "right": "arrivo"
+    },
+    {
+     "id": "p4",
+     "left": "preparare",
+     "right": "preparazione"
+    },
+    {
+     "id": "p5",
+     "left": "leggere",
+     "right": "lettura"
+    }
+   ],
+   "promptHelp": "Ordne die passenden Paare zu."
+  },
+  {
+   "id": "q1b",
+   "type": "matching",
+   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 2/2)",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "scrivere",
+     "right": "scrittura"
+    },
+    {
+     "id": "p2",
+     "left": "costruire",
+     "right": "costruzione"
+    },
+    {
+     "id": "p3",
+     "left": "iscriversi",
+     "right": "iscrizione"
+    },
+    {
+     "id": "p4",
+     "left": "organizzare",
+     "right": "organizzazione"
+    },
+    {
+     "id": "p5",
+     "left": "spiegare",
+     "right": "spiegazione"
+    }
+   ]
+  }
+ ]
+}

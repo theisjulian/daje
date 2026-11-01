@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-053",
+ "title": "La prima settimana al banco",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · La prima settimana al banco · livello medio.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It9 Grammatik, Wiederholung in It10"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3053
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Indica a chi o a che cosa rinvia ciascuna espressione. Cita anche il contesto, non soltanto la parola isolata.\nLo aggiorno",
+   "modelAnswer": "Lo = il registro.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "ci annoto",
+   "modelAnswer": "Ci = nel registro.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Le ho chiesto",
+   "modelAnswer": "Le = alla cliente.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "gliel’ho scritto",
+   "modelAnswer": "Gliel’ = alla cliente + il recapito; ho appartiene al verbo.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Lui preferisce",
+   "modelAnswer": "Lui = il fratello.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Questo mi irritava",
+   "modelAnswer": "Questo = discutere sull’ordine dei libri.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Gli ho proposto",
+   "modelAnswer": "Gli = al fratello.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "Da quando gestisco il piccolo banco di libri usati, ho imparato che essere autonomi non significa fare tutto da soli. All’inizio pensavo di poter ricordare ogni prezzo e ogni richiesta. Dopo pochi giorni ho preparato un registro. Lo aggiorno la sera e ci annoto anche le domande rimaste senza risposta.\nUna cliente cercava un volume per sua figlia. Non lo avevo, ma conoscevo una collega che forse poteva aiutarla. Le ho chiesto se volesse il suo recapito. La cliente ha accettato e io gliel’ho scritto su un foglio. Il giorno seguente la collega mi ha ringraziato. Non avevo venduto niente, eppure il lavoro era stato utile.\nMio fratello viene il sabato. Lui preferisce sistemare gli scaffali; io parlo con i visitatori. A volte discutiamo sull’ordine dei libri. Questo mi irritava, poi ho capito che vedevamo problemi diversi. Gli ho proposto di provare la sua disposizione per una settimana e confrontare le richieste dei clienti.\nAdesso il banco è più ordinato, ma soprattutto sappiamo spiegare le nostre scelte. Quando manca un’informazione, non la inventiamo. Quando un libro è rovinato, lo diciamo prima della vendita. Il progetto resta piccolo e non so ancora se diventerà il mio lavoro principale. Intanto mi insegna a prendere decisioni e a riconoscere quando serve il consiglio di un’altra persona.",
+  "title": "La prima settimana al banco"
+ }
+}

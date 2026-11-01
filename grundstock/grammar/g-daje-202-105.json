@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-105",
+ "title": "Il sabato di un gruppo teatrale (3)",
+ "language": "it",
+ "level": "A2",
+ "description": "I verbi riflessivi · Il sabato di un gruppo teatrale (3) · livello difficile.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1105
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Racconta il sabato di Lucia in terza persona. Nei passaggi sul gruppo usa loro; conserva i rapporti fra le persone.",
+   "modelAnswer": "Il sabato Lucia si sveglia senza fretta, ma non resta a letto tutta la mattina. Si alza alle otto, si lava e si veste con abiti comodi. Prima di uscire si prepara un panino e controlla lo zaino. Alle nove si incontra con gli altri del gruppo teatrale. Si salutano nel cortile, poi si mettono in cerchio. La loro insegnante si presenta ai nuovi partecipanti e spiega loro il programma. Per cominciare si muovono nello spazio e si fermano quando la musica finisce. Nessuno deve correre. In seguito si siedono e leggono alcune battute. Lucia si concentra sulle parole, mentre una compagna si occupa dei rumori. Quando sbaglia, non si arrabbia: si corregge e prova di nuovo. Durante la pausa si riposano e si raccontano le novità della settimana. Alla fine si dividono i compiti per la prova successiva. Lucia si offre di preparare una lista degli oggetti di scena. A casa si sistema alla scrivania e scrive tutto prima di dimenticare i dettagli. La sera si rilassa con un libro. Non tutti i sabati sono uguali, ma questo ritmo le piace.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Il sabato mi sveglio senza fretta, ma non resto a letto tutta la mattina. Mi alzo alle otto, mi lavo e mi vesto con abiti comodi. Prima di uscire mi preparo un panino e controllo lo zaino. Alle nove mi incontro con gli altri del gruppo teatrale. Ci salutiamo nel cortile, poi ci mettiamo in cerchio. La nostra insegnante si presenta ai nuovi partecipanti e ci spiega il programma. Per cominciare ci muoviamo nello spazio e ci fermiamo quando la musica finisce. Nessuno deve correre. In seguito ci sediamo e leggiamo alcune battute. Io mi concentro sulle parole, mentre una compagna si occupa dei rumori. Quando sbaglio, non mi arrabbio: mi correggo e provo di nuovo. Durante la pausa ci riposiamo e ci raccontiamo le novità della settimana. Alla fine ci dividiamo i compiti per la prova successiva. Io mi offro di preparare una lista degli oggetti di scena. A casa mi sistemo alla scrivania e scrivo tutto prima di dimenticare i dettagli. La sera mi rilasso con un libro. Non tutti i sabati sono uguali, ma questo ritmo mi piace."
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-147",
+ "title": "Piccole decisioni insieme (2)",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi diretti (lo, la, li, le …) · Piccole decisioni insieme (2) · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1147
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella.\n1. l’ho letto\n2. Lo prenoto\n3. Le porti\n4. li ha Sara\n5. le telefono\n6. le chiedo\n7. dividerla\n8. li mangiamo\n9. il suo quaderno\n10. Glielo restituisco",
+   "modelAnswer": "1. il programma\n2. il primo incontro\n3. le fotografie\n4. i cartelloni\n5. a Sara\n6. a Sara\n7. la pizza\n8. i panini\n9. il quaderno di Sara\n10. a Sara / il quaderno",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "A: Hai visto il programma del festival?\nB: Sì, l’ho letto stamattina. Ci sono due incontri interessanti.\nA: Il primo comincia alle cinque. Lo prenoto per tutti e due?\nB: Sì, grazie. E le fotografie per il laboratorio? Le porti tu?\nA: Le porto io. I cartelloni invece li ha Sara.\nB: Allora le telefono e le chiedo di arrivare un po’ prima.\nA: Bene. Ti va di mangiare qualcosa dopo?\nB: Volentieri, ma non voglio tornare tardi. Domani mi alzo presto.\nA: Possiamo prendere una pizza e dividerla. Tu preferisci quella con le verdure?\nB: Sì. Se il locale è pieno, compriamo due panini e li mangiamo nel parco.\nA: D’accordo. Ci vediamo davanti all’ingresso alle quattro e mezza.\nB: Aspetta, a quell’ora sono ancora sul bus. Facciamo alle quattro e quarantacinque?\nA: Va bene. Ti mando un messaggio quando arrivo.\nB: Perfetto. Se incontri Sara, dille che ho trovato il suo quaderno. Glielo restituisco domani."
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-075",
+ "title": "Due modi di abitare",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Due modi di abitare · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3075
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Rispondi in base al testo. Usa parole tue e indica il passaggio che giustifica la risposta.\nQuale forma di dipendenza descrive Livia?",
+   "modelAnswer": "La sera dipende spesso dai genitori perché non passa l’autobus.",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Che cosa rende comoda la città per Omar?",
+   "modelAnswer": "La fermata sotto casa e il cinema raggiungibile a piedi.",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Perché comodità e socialità non coincidono?",
+   "modelAnswer": "Nel palazzo di Omar le persone si conoscevano poco.",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Quale iniziativa cambia questa situazione?",
+   "modelAnswer": "Uno scambio di libri nell’ingresso.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Quale confronto propone Renata?",
+   "modelAnswer": "Valutare una settimana normale e le esigenze concrete, non soltanto una domenica piacevole.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Che cosa rileva il gruppo di Elia?",
+   "modelAnswer": "Luoghi gratuiti poco conosciuti e orari non adatti all’uscita da scuola.",
+   "lines": 3
+  },
+  {
+   "id": "q1r7",
+   "type": "open_answer",
+   "prompt": "Quali bisogni accomunano le prime due voci?",
+   "modelAnswer": "Autonomia, tranquillità e occasioni d’incontro.",
+   "lines": 3
+  },
+  {
+   "id": "q1r8",
+   "type": "open_answer",
+   "prompt": "Qual è lo statuto delle quattro testimonianze?",
+   "modelAnswer": "Sono voci inventate, non interviste reali.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "A — Lettera di Livia. Vivo in un paese e raggiungo la scuola in autobus. Mi piace conoscere i vicini: quando ho perso le chiavi, una signora mi ha fatto aspettare in casa sua. Però non vorrei che questo diventasse un’immagine troppo semplice della vita fuori città. La sera non passa nessun autobus e dipendo spesso dai miei genitori. Una biblioteca più vicina mi sarebbe utile quanto un giardino. Non sogno di andarmene per sempre; vorrei poter scegliere dove trascorrere un pomeriggio senza organizzarlo tre giorni prima.\nB — Risposta di Omar. Abito in città, sopra un negozio. Ho una fermata sotto casa e posso andare a piedi al cinema. La comodità, però, non rende automaticamente facile incontrare gli altri. Nel mio palazzo molte persone si salutano senza sapere come si chiamano. Da qualche mese abbiamo cominciato a scambiarci libri nell’ingresso. Non è una grande iniziativa, ma ora ho un motivo per fermarmi a parlare. Il traffico mi disturba soprattutto quando studio. Se potessi cambiare una cosa, chiederei una strada meno rumorosa, non un centro commerciale nuovo.\nC — Messaggio di Renata. Ho vissuto in entrambi i luoghi. In campagna avevo spazio, ma lavoravo lontano; in città ho ridotto il viaggio e aumentato l’affitto. Le differenze dipendono anche dall’età e dalle esigenze. Mia madre ha bisogno di servizi raggiungibili, mio figlio cerca un campo dove giocare. Per questo diffido dei confronti che stabiliscono un vincitore assoluto. Prima di scegliere una casa, guarderei una settimana normale, non soltanto una bella domenica.\nD — Commento di Elia. Il nostro gruppo ha disegnato una mappa dei luoghi gratuiti dove stare insieme. Abbiamo scoperto che alcuni erano poco conosciuti e altri chiudevano proprio quando uscivamo da scuola. Chiederemo orari diversi, ma dobbiamo anche spiegare come useremmo gli spazi. Dire che non c’è niente è più facile che descrivere una proposta concreta. Mi interessa il confronto fra Livia e Omar perché mostra bisogni simili in ambienti diversi: autonomia, tranquillità e occasioni per incontrarsi. Queste quattro voci sono state create per l’esercizio; non sono interviste reali.\nElia aggiunge: «Le proposte le presenteremo insieme. Il questionario lo prepareremo domani e ai vicini gli chiederemo un parere. La mappa può aiutarci; ne faremo alcune copie. Chi vuole partecipare può scrivermi. Non si deve sentire obbligato a raccontare esperienze private».",
+  "title": "Due modi di abitare"
+ }
+}

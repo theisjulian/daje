@@ -854,6 +854,8 @@ const autoFocusOK = () => matchMedia('(hover: hover) and (pointer: fine)').match
 function resultBanner(x, state) {
   if (!state.checked || !state.lastResult) return '';
   const r = state.lastResult;
+  if (!r.total)
+    return `<section class="result-banner" role="status"><div class="result-score"><b>✓</b><span>abgegeben</span></div><div><h2>Gespeichert.</h2><p>Offene Aufgaben bewertet daje nicht automatisch. Vergleiche deine Antworten mit den möglichen Lösungen und den Prüfpunkten.</p></div></section>`;
   return `<section class="result-banner" role="status"><div class="result-score"><b>${r.correct}</b><span>von ${r.total}</span></div><div><h2>${x.kind === 'grammar' ? (r.correct === r.total ? 'Alles richtig.' : r.correct >= r.total / 2 ? 'Gut gemacht.' : 'Schau dir den Merkkasten noch einmal an.') : r.correct === r.total ? 'Alles erkannt.' : r.correct >= r.total / 2 ? 'Gut gehört.' : 'Hör noch einmal hin.'}</h2><p>${r.assisted ? 'Du hast das Transkript als Hilfe geöffnet. ' : ''}Prüfe die Erklärungen unter den ${x.kind === 'grammar' ? 'Aufgaben' : 'Fragen'} und versuche es bei Bedarf in einer neuen Runde.</p></div></section>`;
 }
 

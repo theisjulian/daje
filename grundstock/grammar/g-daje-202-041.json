@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-041",
+ "title": "Dal disegno alla bottega",
+ "language": "it",
+ "level": "A1",
+ "description": "Essere und avere · Dal disegno alla bottega · livello medio.",
+ "topics": [
+  "Essere und avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Ripasso"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "daje-testi-a2",
+  "topicTitle": "Essere und avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1041
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Questa è una [[g1]] immaginaria. La [[g2]] si chiama Miriam Riva e costruisce piccoli [[g3]] di legno. È nata in una [[g4]] di pianura, dove i suoi [[g5]] avevano un [[g6]]. Da bambina osservava le persone che lavoravano con le mani. Dopo la scuola ha seguito un [[g7]] di [[g8]] e ha cercato un impiego in un laboratorio. Ha cominciato preparando scatole e cornici; poi ha imparato a riparare mobili. Nel suo primo anno ha fatto molti errori, ma ha chiesto consigli e ha continuato a esercitarsi. Alcuni anni dopo ha aperto una bottega con due colleghi. Oggi il gruppo progetta oggetti per biblioteche e scuole. Miriam dice che un buon prodotto deve essere utile, resistente e facile da riparare. Non vuole produrre grandi quantità: preferisce conoscere chi userà gli oggetti. La bottega organizza anche incontri per ragazzi. Durante gli incontri, Miriam mostra come nasce un progetto e spiega perché sceglie un materiale invece di un altro. Ha ricevuto inviti da diverse scuole e ha raccontato il suo percorso agli studenti. Adesso prepara un nuovo laboratorio dedicato agli oggetti che durano nel tempo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "biografia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "protagonista"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "oggetti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "città"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "genitori"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "negozio"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "corso"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "disegno"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

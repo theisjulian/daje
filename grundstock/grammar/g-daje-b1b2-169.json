@@ -3,10 +3,10 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-daje-b1b2-169",
- "title": "Un segnale dallo spazio",
+ "title": "Un segnale dallo spazio (1)",
  "language": "it",
  "level": "B2",
- "description": "Passato remoto: uso produttivo · Un segnale dallo spazio · livello difficile.",
+ "description": "Passato remoto: uso produttivo · Un segnale dallo spazio (1) · livello difficile.",
  "topics": [
   "Passato remoto: uso produttivo",
   "Grammatik"
@@ -22,6 +22,12 @@
    "rights": "own",
    "citation": "European Space Agency (ESA): Satelliti. Kein Veröffentlichungsdatum in der konsultierten Ansicht. Abruf 29.10.2026. Eigene Formulierung auf Faktenbasis; erfundener Rahmen gekennzeichnet.",
    "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti"
+  },
+  {
+   "kind": "external",
+   "citation": "Sachinformationen: European Space Agency (ESA) – Satelliti (abgerufen 2026-10-29). Eigene Formulierung; Rahmenhandlung frei erfunden.",
+   "url": "https://www.esa.int/kids/it/imparare/Tecnologia/Lo_spazio_utile/Satelliti",
+   "rights": "cleared"
   }
  ],
  "catalog": {

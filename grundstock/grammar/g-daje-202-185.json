@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-185",
+ "title": "Il messaggio della responsabile (4)",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi diretti (lo, la, li, le …) · Il messaggio della responsabile (4) · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1185
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "text": "Ciao Rocco, sono uscita prima del previsto perché [[g1]] hanno chiamata dalla scuola. [[g2]] lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] e [[g4]] vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; [[g5]] soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g6]] prima di distribuirle. Se arriva Emma, [[g7]] che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri [[g8]] ho messi sullo scaffale; scegli quelli con le immagini grandi e [[g9]] al gruppo. Se qualcuno [[g10]] chiede un foglio, [[g11]] quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. [[g12]] interessa che tutti partecipino. [[g13]] soltanto se c’è un problema urgente; altrimenti [[g14]] sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "prendili"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mettili"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "usala"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Controllale"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dille"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "portali"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "dagli"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Mi"
+     ]
+    },
+    {
+     "id": "g13",
+     "acceptedAnswers": [
+      "Scrivimi"
+     ]
+    },
+    {
+     "id": "g14",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+  }
+ ]
+}

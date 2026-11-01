@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-118",
+ "title": "Intervista a una restauratrice",
+ "language": "it",
+ "level": "A2",
+ "description": "Il passato prossimo con essere e i participi irregolari · Intervista a una restauratrice · livello difficile.",
+ "topics": [
+  "Il passato prossimo con essere e i participi irregolari",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 1118
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "L’intervistato è Marco, un restauratore. Cambia soltanto i riferimenti a lui e le concordanze necessarie. La sua prima insegnante resta una restauratrice.",
+   "modelAnswer": "Intervistatore: Come ti chiami e che lavoro fai?\nMarco: Mi chiamo Marco e restauro oggetti di carta. Lavoro soprattutto con libri e vecchie fotografie.\nIntervistatore: Come hai cominciato?\nMarco: Ho studiato arte, poi ho frequentato un corso pratico. Durante il corso ho conosciuto una restauratrice che mi ha invitato nel suo laboratorio. Sono rimasto con lei per alcuni mesi e ho imparato a osservare i materiali con pazienza.\nIntervistatore: Hai lavorato subito da solo?\nMarco: No. Ho aiutato i colleghi, ho preparato gli strumenti e ho scritto le schede degli oggetti. All’inizio ho pulito soltanto materiali semplici. Poi ho ricevuto compiti più difficili.\nIntervistatore: Ti sei trasferito per lavorare?\nMarco: Sì, sono partito per un’altra città. Ho trovato una stanza vicino al laboratorio e sono tornato a casa nei fine settimana. Dopo due anni sono rientrato nella mia regione e ho aperto uno spazio con un’amica.\nIntervistatore: Che cosa ti piace del tuo lavoro?\nMarco: Ogni oggetto racconta una storia diversa. Non cerco di farlo sembrare nuovo: voglio conservarlo e permettere alle persone di usarlo ancora. La storia e l’intervista sono immaginarie.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "Intervistatore: Come ti chiami e che lavoro fai?\nMarta: Mi chiamo Marta e restauro oggetti di carta. Lavoro soprattutto con libri e vecchie fotografie.\nIntervistatore: Come hai cominciato?\nMarta: Ho studiato arte, poi ho frequentato un corso pratico. Durante il corso ho conosciuto una restauratrice che mi ha invitata nel suo laboratorio. Sono rimasta con lei per alcuni mesi e ho imparato a osservare i materiali con pazienza.\nIntervistatore: Hai lavorato subito da sola?\nMarta: No. Ho aiutato i colleghi, ho preparato gli strumenti e ho scritto le schede degli oggetti. All’inizio ho pulito soltanto materiali semplici. Poi ho ricevuto compiti più difficili.\nIntervistatore: Ti sei trasferita per lavorare?\nMarta: Sì, sono partita per un’altra città. Ho trovato una stanza vicino al laboratorio e sono tornata a casa nei fine settimana. Dopo due anni sono rientrata nella mia regione e ho aperto uno spazio con un’amica.\nIntervistatore: Che cosa ti piace del tuo lavoro?\nMarta: Ogni oggetto racconta una storia diversa. Non cerco di farlo sembrare nuovo: voglio conservarlo e permettere alle persone di usarlo ancora. La storia e l’intervista sono immaginarie."
+ }
+}

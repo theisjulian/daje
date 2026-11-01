@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-002",
+ "title": "Tre voci per la radio della scuola (1)",
+ "language": "it",
+ "level": "A1",
+ "description": "Presentarsi e scrivere messaggi · Tre voci per la radio della scuola (1) · livello medio.",
+ "topics": [
+  "Presentarsi e scrivere messaggi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-scrivere-a1",
+  "topicTitle": "Presentarsi e scrivere messaggi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1002
+ },
+ "questions": [
+  {
+   "id": "q1r1",
+   "type": "open_answer",
+   "prompt": "Leggi il testo e rispondi alle domande. Puoi usare parole tue.\nChi prepara una trasmissione il mercoledì?",
+   "modelAnswer": "Daria",
+   "lines": 3,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1r2",
+   "type": "open_answer",
+   "prompt": "Chi suona il basso?",
+   "modelAnswer": "Karim",
+   "lines": 3
+  },
+  {
+   "id": "q1r3",
+   "type": "open_answer",
+   "prompt": "Chi è nuova nel gruppo?",
+   "modelAnswer": "Viola",
+   "lines": 3
+  },
+  {
+   "id": "q1r4",
+   "type": "open_answer",
+   "prompt": "Dove vive Karim?",
+   "modelAnswer": "A Modena.",
+   "lines": 3
+  },
+  {
+   "id": "q1r5",
+   "type": "open_answer",
+   "prompt": "Che cosa vuole leggere Viola alla radio?",
+   "modelAnswer": "Uno dei suoi racconti.",
+   "lines": 3
+  },
+  {
+   "id": "q1r6",
+   "type": "open_answer",
+   "prompt": "Che cosa controlla Karim per la radio?",
+   "modelAnswer": "Il volume.",
+   "lines": 3
+  }
+ ],
+ "reading": {
+  "text": "A — Ciao, sono Daria. Ho sedici anni e vivo a Ferrara con mio padre e mia sorella. Frequento un istituto tecnico e studio informatica. Il mercoledì preparo una trasmissione per la radio della scuola. Cerco storie curiose, faccio domande e registro le risposte. Non parlo molto davanti a tante persone, ma con un microfono mi sento tranquilla. Amo i gatti e leggo fumetti. Nel fine settimana lavoro qualche ora nel negozio di mia zia.\nB — Mi chiamo Karim e abito a Modena. Sono un compagno di Daria, ma non studio nella sua scuola. Ho diciassette anni, suono il basso e ascolto musica di tanti paesi. Noi del gruppo proviamo il venerdì sera. I miei genitori hanno un piccolo ristorante. Quando posso, aiuto in cucina. Per la radio scelgo le canzoni e controllo il volume. Non canto: preferisco stare dietro al banco del suono.\nC — Io sono Viola, ho quindici anni e sono nuova nel gruppo. Vengo da una città sul mare, ma adesso abito vicino a Ferrara. Mi piacciono gli animali e le passeggiate. Scrivo brevi racconti e desidero leggere uno dei miei testi alla radio. Voi avete un consiglio per me? Siete esperti di registrazione? Io ho molte idee, ma ho ancora poca esperienza."
+ }
+}

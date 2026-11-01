@@ -1,0 +1,65 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-110",
+ "title": "Il messaggio della responsabile (1)",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi diretti (lo, la, li, le …) · Il messaggio della responsabile (1) · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It8 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1110
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 1/2)\n1. prendili\n2. mettili\n3. non appenderli\n4. usala\n5. Controllale\n6. dille\n7. prepara\n8. lascia\n9. Non spostare\n10. scegli",
+   "modelAnswer": "1. prendere + li\n2. mettere + li\n3. non appendere + li\n4. usare + la\n5. controllare + le\n6. dire + le\n7. preparare\n8. lasciare\n9. non spostare\n10. scegliere",
+   "lines": 11,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 2/2)\n1. portali\n2. dagli\n3. Ricordati\n4. non preoccuparti\n5. Scrivimi\n6. raccogli\n7. contali\n8. riponili\n9. Chiudi\n10. spegni",
+   "modelAnswer": "1. portare + li\n2. dare + gli\n3. ricordarsi\n4. non preoccuparsi\n5. scrivere + mi\n6. raccogliere\n7. contare + li\n8. riporre + li\n9. chiudere\n10. spegnere",
+   "lines": 11
+  }
+ ],
+ "reading": {
+  "text": "Ciao Rocco, sono uscita prima del previsto perché mi hanno chiamata dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: prendili e mettili vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; usala soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. Controllale prima di distribuirle. Se arriva Emma, dille che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia."
+ }
+}

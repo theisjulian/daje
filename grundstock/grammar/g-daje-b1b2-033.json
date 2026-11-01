@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-033",
+ "title": "Istruzioni per un pomeriggio in biblioteca",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · Istruzioni per un pomeriggio in biblioteca · livello medio.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 1.2 Grammatik"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3033
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "gap_fill",
+   "prompt": "Completa il testo.",
+   "text": "Ciao Nadia, grazie per sostituirmi al laboratorio di lettura. Ti scrivo le cose essenziali, così non dovrai cercare ogni informazione nei vecchi messaggi. Prima di aprire la sala, prendi le chiavi dalla reception. La responsabile [[g1]] (forma di ti davanti a le) le consegnerà dopo aver controllato il registro. Il cartellone con i nomi è nel mio armadio: appendi [[g2]] (diretto, il cartellone) vicino alla porta.\nI partecipanti arrivano alle quattro. Chiedi [[g3]] (indiretto, a loro) di scegliere una sedia e di lasciare libero il passaggio. Le due ragazze nuove non conoscono ancora il gruppo: presenta [[g4]] (diretto, le ragazze) agli altri, senza obbligarle a raccontare subito qualcosa. [[g5]] (possessivo, loro) genitori verranno a prenderle alle cinque e mezza.\nPer cominciare, mostra tre copertine e domanda quale libro incuriosisce di più. Non leggere subito [[g6]] (possessivo, tu) scelta: lascia che siano loro a proporre un ordine. Se qualcuno [[g7]] (riflessivo, qualcuno) stanca, può sfogliare un altro volume nell’angolo tranquillo. Le forbici servono soltanto per il cartellone finale; tieni [[g8]] (diretto, le forbici) sul tavolo grande.\nDopo la lettura, raccogli le domande in una busta. Non occorre rispondere a tutte oggi. Scrivi [[g9]] (indiretto, a me) quali temi hanno interessato di più il gruppo e se manca qualche materiale. Prima di uscire, controlla le finestre, spegni la luce e restituisci le chiavi. Il laboratorio riesce anche quando il programma cambia: l’importante è che tutti trovino un modo per partecipare. A domani, Pietro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "te"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "I loro"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "la tua"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    }
+   ],
+   "promptHelp": "Ergänze den Text."
+  },
+  {
+   "id": "q2",
+   "type": "open_answer",
+   "prompt": "Applicazione: completa le forme o le trasformazioni indicate dopo aver lavorato sul testo.\n1. Sostituisci una copia della lettera: Voglio una copia della lettera.\n2. Sostituisci il testo: Rileggo il testo prima dell’incontro.\n3. Sostituisci le domande: Preparo le domande per il gruppo.",
+   "modelAnswer": "1. Ne voglio una copia.\n2. Lo rileggo prima dell’incontro.\n3. Le preparo per il gruppo.",
+   "lines": 4,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

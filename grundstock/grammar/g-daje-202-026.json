@@ -1,0 +1,56 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-202-026",
+ "title": "Tre voci per la radio della scuola (2)",
+ "language": "it",
+ "level": "A1",
+ "description": "Presentarsi e scrivere messaggi · Tre voci per la radio della scuola (2) · livello medio.",
+ "topics": [
+  "Presentarsi e scrivere messaggi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "A1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch 8 (3. Fremdsprache), 1.1 kommunikative Fertigkeiten / 3 Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "daje-scrivere-a1",
+  "topicTitle": "Presentarsi e scrivere messaggi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 1026
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Scrivi una presentazione di 90–120 parole per il gruppo della radio. Includi nome inventato, età, luogo, studio, due interessi, un’attività e una domanda al gruppo.",
+   "modelAnswer": "Mi chiamo Emma e ho sedici anni. Abito in una piccola città vicino a Ferrara e frequento un istituto tecnico. Vivo con mia madre e mio fratello. Mi interessano la musica e le storie delle persone. Nel tempo libero suono la chitarra e leggo racconti brevi. Il sabato incontro i miei amici in biblioteca. Vorrei partecipare alla radio perché mi piace fare domande e ascoltare risposte diverse. Non conosco ancora gli strumenti, ma posso imparare. Preferisco lavorare in un piccolo gruppo e preparare bene gli incontri. Voi come scegliete gli argomenti delle trasmissioni?",
+   "lines": 15,
+   "explanation": "Controlla: Contenuti richiesti presenti · Testo comprensibile e coerente · Forme coerenti con il livello · Lessico pertinente · Lunghezza indicata rispettata",
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ]
+}

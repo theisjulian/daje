@@ -1,0 +1,80 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-198",
+ "title": "La fotografia tagliata",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · La fotografia tagliata · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 12,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It12/13 eA 1.2"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3198
+ },
+ "questions": [
+  {
+   "id": "q1a",
+   "type": "open_answer",
+   "prompt": "Analizza infinito, modo, tempo e persona: passato remoto. (parte 1/2)\n1. noi: «invitammo»\n2. io: «ricevei»\n3. tu: «osservasti»\n4. noi: «ascoltammo»\n5. voi: «vendeste»\n6. voi: «temeste»\n7. voi: «faceste»\n8. io: «venni»\n9. loro: «fecero»",
+   "modelAnswer": "1. invitare — indicativo — passato remoto — noi\n2. ricevere — indicativo — passato remoto — io\n3. osservare — indicativo — passato remoto — tu\n4. ascoltare — indicativo — passato remoto — noi\n5. vendere — indicativo — passato remoto — voi\n6. temere — indicativo — passato remoto — voi\n7. fare — indicativo — passato remoto — voi\n8. venire — indicativo — passato remoto — io\n9. fare — indicativo — passato remoto — loro",
+   "lines": 10,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  },
+  {
+   "id": "q1b",
+   "type": "open_answer",
+   "prompt": "Analizza infinito, modo, tempo e persona: passato remoto. (parte 2/2)\n1. voi: «aveste»\n2. noi: «lavorammo»\n3. tu: «avesti»\n4. lui/lei: «controllò»\n5. loro: «vennero»\n6. loro: «controllarono»\n7. io: «partii»\n8. noi: «osservammo»\n9. voi: «controllaste»",
+   "modelAnswer": "1. avere — indicativo — passato remoto — voi\n2. lavorare — indicativo — passato remoto — noi\n3. avere — indicativo — passato remoto — tu\n4. controllare — indicativo — passato remoto — lui/lei\n5. venire — indicativo — passato remoto — loro\n6. controllare — indicativo — passato remoto — loro\n7. partire — indicativo — passato remoto — io\n8. osservare — indicativo — passato remoto — noi\n9. controllare — indicativo — passato remoto — voi",
+   "lines": 10
+  },
+  {
+   "id": "q2a",
+   "type": "open_answer",
+   "prompt": "Analizza il condizionale presente e passato. Nelle forme composte considera l’intero gruppo verbale. (parte 1/2)\n1. voi: «potreste»\n2. lui/lei: «riceverebbe»\n3. loro: «direbbero»\n4. tu: «saresti»\n5. tu: «vorresti»\n6. noi: «lavoreremmo»\n7. loro: «conserverebbero»\n8. tu: «potresti»\n9. io: «parlerei»",
+   "modelAnswer": "1. potere — condizionale — presente — voi\n2. ricevere — condizionale — presente — lui/lei\n3. dire — condizionale — presente — loro\n4. essere — condizionale — presente — tu\n5. volere — condizionale — presente — tu\n6. lavorare — condizionale — presente — noi\n7. conservare — condizionale — presente — loro\n8. potere — condizionale — presente — tu\n9. parlare — condizionale — presente — io",
+   "lines": 10
+  },
+  {
+   "id": "q2b",
+   "type": "open_answer",
+   "prompt": "Analizza il condizionale presente e passato. Nelle forme composte considera l’intero gruppo verbale. (parte 2/2)\n1. io: «avrei letto»\n2. tu: «avresti scritto»\n3. lui: «avrebbe visto»\n4. noi: «avremmo scelto»\n5. voi: «avreste preso»\n6. loro: «avrebbero detto»\n7. io: «avrei fatto»\n8. noi: «avremmo letto»\n9. loro: «avrebbero scritto»",
+   "modelAnswer": "1. leggere — condizionale passato — io\n2. scrivere — condizionale passato — tu\n3. vedere — condizionale passato — lui\n4. scegliere — condizionale passato — noi\n5. prendere — condizionale passato — voi\n6. dire — condizionale passato — loro\n7. fare — condizionale passato — io\n8. leggere — condizionale passato — noi\n9. scrivere — condizionale passato — loro",
+   "lines": 10
+  }
+ ],
+ "reading": {
+  "text": "Quando Lea aprì il vecchio album, trovò una fotografia tagliata a metà. Si vedevano un tavolo, una finestra e la mano di una persona. Il resto mancava. Sua zia disse che il bordo era già così quando l’album le era stato affidato. Non sapeva chi avesse tagliato l’immagine né per quale motivo. Lea immaginò subito un litigio, ma la zia le chiese su quali elementi basasse quella storia.\nLa ragazza guardò meglio. Sul tavolo c’era un piatto e vicino alla finestra una tenda a fiori. Una scritta sul retro indicava un mese, ma l’anno era incompleto. Lea avrebbe voluto trovare un indizio decisivo. Invece aveva soltanto dettagli che potevano appartenere a molte situazioni. Decise di cercare altre fotografie della stessa stanza.\nIn una scatola comparvero tre immagini. La tenda era simile, ma il tavolo aveva una forma diversa. La zia ricordò che la famiglia aveva cambiato casa. Questo aiutava a formulare una domanda nuova, non a risolvere tutto. Telefonarono a un cugino, che promise di controllare il proprio album. Disse che forse possedeva una copia completa, ma non ne era certo.\nLea preparò una scheda con ciò che vedeva, ciò che le era stato raccontato e ciò che immaginava. Nella terza colonna scrisse la storia del litigio, poi la barrò: non aveva prove. Al suo posto mise una domanda più semplice, «Esiste un’altra copia?». La ricerca divenne meno spettacolare e più concreta.\nQualche giorno dopo il cugino inviò una fotografia. Mostrava lo stesso tavolo, ma non era lo stesso momento. Lea provò delusione, poi notò un dettaglio utile: una lampada che nella fotografia tagliata compariva appena. La mostrò alla zia, che riconobbe finalmente la stanza di una vicina. Il mistero non era risolto, ma la direzione della ricerca era cambiata.\nLea conservò entrambe le immagini senza unirle artificialmente. Sotto quella incompleta scrisse che alcune informazioni restavano da verificare. Avrebbe potuto inventare un finale, ma preferì lasciare spazio a chi avrebbe guardato l’album dopo di lei. La storia è originale; non descrive una famiglia reale e non riproduce fotografie altrui.\nAccanto alla scheda lasciò anche la data della ricerca. In questo modo una scoperta futura avrebbe potuto essere aggiunta senza confondersi con ciò che sapevano allora.",
+  "title": "La fotografia tagliata"
+ }
+}

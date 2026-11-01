@@ -1,0 +1,196 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-129",
+ "title": "Una richiesta precisa",
+ "language": "it",
+ "level": "B2",
+ "description": "Coesione, connettivi e segnali discorsivi · Una richiesta precisa · livello difficile.",
+ "topics": [
+  "Coesione, connettivi e segnali discorsivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-coesione",
+  "topicTitle": "Coesione, connettivi e segnali discorsivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3129
+ },
+ "questions": [
+  {
+   "id": "q1s1",
+   "type": "ordering",
+   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Alla responsabile del"
+    },
+    {
+     "id": "p2",
+     "text": "centro civico: scrivo"
+    },
+    {
+     "id": "p3",
+     "text": "per segnalare un"
+    },
+    {
+     "id": "p4",
+     "text": "problema relativo al"
+    },
+    {
+     "id": "p5",
+     "text": "corso di fotografia"
+    },
+    {
+     "id": "p6",
+     "text": "iniziato lunedì."
+    }
+   ],
+   "explanation": "Alla responsabile del centro civico: scrivo per segnalare un problema relativo al corso di fotografia iniziato lunedì.",
+   "promptHelp": "Bring die Teile in die richtige Reihenfolge."
+  },
+  {
+   "id": "q1s2",
+   "type": "ordering",
+   "prompt": "Frase 2: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Nell’annuncio erano"
+    },
+    {
+     "id": "p2",
+     "text": "indicati quattro"
+    },
+    {
+     "id": "p3",
+     "text": "incontri in"
+    },
+    {
+     "id": "p4",
+     "text": "presenza."
+    }
+   ],
+   "explanation": "Nell’annuncio erano indicati quattro incontri in presenza."
+  },
+  {
+   "id": "q1s3",
+   "type": "ordering",
+   "prompt": "Frase 3: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Dopo il primo"
+    },
+    {
+     "id": "p2",
+     "text": "incontro abbiamo ricevuto"
+    },
+    {
+     "id": "p3",
+     "text": "una comunicazione: le"
+    },
+    {
+     "id": "p4",
+     "text": "altre lezioni si"
+    },
+    {
+     "id": "p5",
+     "text": "sarebbero svolte online."
+    }
+   ],
+   "explanation": "Dopo il primo incontro abbiamo ricevuto una comunicazione: le altre lezioni si sarebbero svolte online."
+  },
+  {
+   "id": "q1s4",
+   "type": "ordering",
+   "prompt": "Frase 4: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Non discuto"
+    },
+    {
+     "id": "p2",
+     "text": "la competenza"
+    },
+    {
+     "id": "p3",
+     "text": "del docente;"
+    },
+    {
+     "id": "p4",
+     "text": "desidero però"
+    },
+    {
+     "id": "p5",
+     "text": "una spiegazione"
+    },
+    {
+     "id": "p6",
+     "text": "del cambiamento."
+    }
+   ],
+   "explanation": "Non discuto la competenza del docente; desidero però una spiegazione del cambiamento."
+  },
+  {
+   "id": "q1s5",
+   "type": "ordering",
+   "prompt": "Frase 5: riordina i gruppi di parole.",
+   "items": [
+    {
+     "id": "p1",
+     "text": "Avevo scelto"
+    },
+    {
+     "id": "p2",
+     "text": "il corso"
+    },
+    {
+     "id": "p3",
+     "text": "per usare"
+    },
+    {
+     "id": "p4",
+     "text": "insieme agli"
+    },
+    {
+     "id": "p5",
+     "text": "altri la"
+    },
+    {
+     "id": "p6",
+     "text": "camera oscura."
+    }
+   ],
+   "explanation": "Avevo scelto il corso per usare insieme agli altri la camera oscura."
+  }
+ ]
+}

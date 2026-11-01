@@ -1,0 +1,59 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-113",
+ "title": "Il sentiero interrotto (2)",
+ "language": "it",
+ "level": "B2",
+ "description": "Strutture di base: ripasso e applicazione · Il sentiero interrotto (2) · livello difficile.",
+ "topics": [
+  "Strutture di base: ripasso e applicazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B2",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel",
+   "section": ""
+  },
+  "grade": 11,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It11 1.2"
+ },
+ "grammar": {
+  "topic": "it11-ripasso",
+  "topicTitle": "Strutture di base: ripasso e applicazione",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 3113
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Riscrivi «Il sentiero interrotto» con Marta e Anna al posto di Marta. Non cambiare il numero di la guida o il gruppo.",
+   "modelAnswer": "La mattina della passeggiata Marta e Anna controllavano il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non era praticabile. Marta e Anna avevano preparato lo zaino la sera prima ed erano deluse, ma non volevano rinunciare all’intera giornata.\nLa guida ha proposto un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta e Anna conoscevano quel paese soltanto come un punto sulla carta; ora scoprivano un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta e Anna hanno annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta e Anna hanno scritto che il viaggio non era andato come previsto. Avevano però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non era praticabile. Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida ha proposto un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+  "title": "Il sentiero interrotto"
+ }
+}

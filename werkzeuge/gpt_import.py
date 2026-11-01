@@ -12,9 +12,12 @@ Was passiert:
 - Die Pakete aus import-grammatik/ werden bereinigt nach grundstock/grammar/ geschrieben: Titel ohne Nummer und ohne
   deutschen Zusatz, Hinweise („Indizi“) direkt an der Lücke, kurze Anweisung in der Zielsprache plus Deutsch,
   Quellen ohne Buchnamen, Einordnung (Lernjahr, Lektion, Abschnitt) aus dem Register. IDs bleiben unverändert.
-- Aufgaben im Redaktionsformat (Lesen, Schreiben, Analyse) werden hier nicht übernommen.
+- Aufgaben im Redaktionsformat (Lesen, Schreiben, Analyse, Umformen …) wandelt werkzeuge/gpt_redaktion.py in
+  vorhandene Aufgabentypen um (gleiches ID-Schema g-daje-…); zu dünne Aufgaben landen in werkzeuge/gpt-nacharbeit.md.
 Mehrfach ausführbar."""
 import json, re, sys, pathlib, collections, hashlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import gpt_redaktion  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'grammar'
@@ -178,6 +181,14 @@ def fix_question(q):
 
 def clean_title(d, texts, editorial):
     t = re.sub(r'^\d{3}\s*·\s*', '', d['title']).strip()
+    if d.get('_editorial') and d['id'].startswith('g-daje-b1b2-'):
+        e = editorial.get(d['id'][2:]) or {}
+        base = (texts.get(e.get('textId')) or {}).get('title')
+        if base:
+            return base
+        # ohne Grundtext: aus der Anweisung (z. B. Schreibaufgaben)
+        p = re.split(r'(?<=[.!?])\s', d['questions'][0]['prompt'].split('\n')[0])[0].rstrip('.')
+        return p if len(p) <= 70 else p[:68].rsplit(' ', 1)[0] + ' …'
     if d['id'].startswith('g-daje-b1b2-'):
         e = editorial.get(d['id'][2:]) or {}
         base = (texts.get(e.get('textId')) or {}).get('title')
@@ -187,15 +198,84 @@ def clean_title(d, texts, editorial):
     return d['grammar']['topicTitle']
 
 
-def clean_sources(srcs):
-    out = []
+QUELLEN = {}
+
+
+def source_entry(qid):
+    q = QUELLEN.get(qid)
+    if not q:
+        return None
+    who = q.get('institution') or q.get('publisher') or ''
+    cit = f"Sachinformationen: {who + ' – ' if who else ''}{q['title']} (abgerufen {q.get('accessed', '')}). Eigene Formulierung; Rahmenhandlung frei erfunden."
+    return {'kind': 'external', 'citation': cit.replace(' (abgerufen )', ''), 'url': q.get('url', ''), 'rights': 'cleared'}
+
+
+def clean_sources(srcs, extra_ids=()):
+    out, ids = [], list(extra_ids)
     for s in srcs:
+        if s.get('kind') == 'factual_reference':
+            ids += s.get('sourceIds') or []
+            continue
         c = s.get('citation', '')
-        if re.search(r'202 esercizi|Eigenständig für [Dd]aje|Übergabepaket', c):
+        if re.search(r'202 esercizi|Eigenständig für [Dd]aje|Übergabepaket|Eigene Übung \(daje\)', c):
             continue
         c = re.sub(r'\s*Keine Lizenzbehauptung[^.]*\.', '', c).strip()
         out.append({**s, 'citation': c})
+    for i in dict.fromkeys(ids):
+        e = source_entry(i)
+        if e:
+            out.append(e)
     return [{'kind': 'own', 'citation': 'Eigene Übung (daje).', 'rights': 'own'}] + out
+
+
+# Zu dünne Redaktionsaufgaben: nicht übernehmen, für ChatGPT notieren
+TOO_SHORT = {
+    'daje-202-184': 'nur 6 Paare „Completa le coppie“; bitte auf 10–12 Paare erweitern.',
+    'daje-b1b2-045': 'nur 2 Auswahlfragen zu einem langen Text; bitte 6–8 Fragen zum selben Text liefern.',
+}
+SKIPPED = []
+
+
+def editorial_packages(a_dir, b_dir, native, b_texts):
+    """Übrige Aufgaben im Redaktionsformat (Lesen, Schreiben, Analyse, Umformen …) als Grammatikpakete."""
+    a_list = json.loads((a_dir / 'alle-202-aufgaben.json').read_text(encoding='utf-8'))
+    repl = {e['id']: e for e in json.loads((b_dir / 'a1-a2-nachtrag' / 'ersatzaufgaben-091-160.json').read_text(encoding='utf-8'))}
+    a_list = [repl.get(e['id'], e) for e in a_list]
+    a_texts = {}
+    for f in (a_dir / 'texte').glob('*.json'):
+        t = json.loads(f.read_text(encoding='utf-8'))
+        a_texts[t['id']] = t
+    b_list = json.loads((b_dir / 'alle-202-aufgaben.json').read_text(encoding='utf-8'))
+    out = []
+    for e in a_list + b_list:
+        if e['id'] in native:
+            continue
+        if e['id'] in TOO_SHORT:
+            SKIPPED.append(f"- {e['id']}: {TOO_SHORT[e['id']]}")
+            (OUT / ('g-' + e['id'] + '.json')).unlink(missing_ok=True)
+            continue
+        b = e['id'].startswith('daje-b1b2-')
+        base = b_texts.get(e.get('textId')) if b else a_texts.get(e.get('sourceTextId'))
+        try:
+            qs, reading = gpt_redaktion.convert_questions(e, base)
+        except (ValueError, KeyError, IndexError) as err:
+            raise SystemExit(f"{e['id']}: {err}")
+        cat = e['catalog']
+        num = int(e['id'].rsplit('-', 1)[1])
+        cefr = cat.get('cefr') or ('B1' if b else 'A1')
+        d = {
+            'format': 'theis-learning-package', 'schemaVersion': '1.2', 'kind': 'grammar', 'id': 'g-' + e['id'],
+            'title': e['title'], 'language': 'it', 'level': cefr, 'description': '', 'topics': [],
+            'sources': e.get('sources') or [], 'estimatedMinutes': 15,
+            'catalog': {'origin': 'own', 'cefr': cefr, 'foreignLanguageNo': cat.get('foreignLanguageNo', 3)},
+            'grammar': {'topic': cat.get('topicId'), 'topicTitle': cat.get('topicTitle', ''), 'difficulty': e.get('difficulty') or ('schwer' if cefr == 'B2' else 'mittel'),
+                        'origin': 'own', 'order': (3000 if b else 1000) + num},
+            'questions': qs, '_editorial': True,
+        }
+        if reading:
+            d['reading'] = reading
+        out.append(d)
+    return out
 
 
 def main(a_dir, b_dir):
@@ -204,8 +284,22 @@ def main(a_dir, b_dir):
     reg = build_register(kat)
     texts = {t['id']: t for t in json.loads((b_dir / 'grundtexte.json').read_text(encoding='utf-8'))}
     editorial = {e['id']: e for e in json.loads((b_dir / 'alle-202-aufgaben.json').read_text(encoding='utf-8'))}
+    a_ed = {e['id']: e for e in json.loads((a_dir / 'alle-202-aufgaben.json').read_text(encoding='utf-8'))}
+    for qf in (a_dir / 'quellen.json', b_dir / 'quellen.json'):
+        for q in json.loads(qf.read_text(encoding='utf-8')):
+            QUELLEN[q['id']] = q
+    # Quellen eines Grundtexts: B1/B2 über grundtexte.json, A1/A2 über „usedIn“ in quellen.json
+    text_src = {tid: t.get('sources') or [] for tid, t in texts.items()}
+    for q in QUELLEN.values():
+        for tid in q.get('usedIn') or []:
+            text_src.setdefault(tid, []).append(q['id'])
+
+    def text_sources(pid):
+        e = editorial.get(pid) or a_ed.get(pid) or {}
+        return text_src.get(e.get('textId') or e.get('sourceTextId'), [])
     files = sorted((a_dir / 'import-grammatik').glob('g-daje-202-*.json')) + sorted((b_dir / 'import-grammatik').glob('g-daje-b1b2-*.json'))
     pkgs = [json.loads(f.read_text(encoding='utf-8')) for f in files]
+    pkgs += editorial_packages(a_dir, b_dir, {d['id'][2:] for d in pkgs}, texts)
     # Titel innerhalb eines Themas eindeutig halten
     titles = collections.defaultdict(list)
     for d in pkgs:
@@ -225,11 +319,12 @@ def main(a_dir, b_dir):
             raise SystemExit(f"{d['id']}: Thema {g['topic']} fehlt im Register")
         used.add(g['topic'])
         title = d.pop('_title')
+        d.pop('_editorial', None)
         g['topicTitle'] = r['title']
         d['title'] = title
         d['description'] = f"{r['title']} · {title} · {LIVELLO.get(g['difficulty'], '')}."
         d['topics'] = [r['title'], 'Grammatik']
-        d['sources'] = clean_sources(d.get('sources', []))
+        d['sources'] = clean_sources(d.get('sources', []), text_sources(d['id'][2:]))
         cat = d['catalog']
         cat['textbook'] = {'series': 'Corso daje', 'volume': str(r['year']), 'unit': r['unit'], 'section': r['section']}
         cat['grade'] = GRADE[r['year']]
@@ -251,8 +346,9 @@ def main(a_dir, b_dir):
                     used_distr.add(f"{d['id']}/{q['id']}/{g['id']}")
         # Folgeaufgaben mit nur ein oder zwei Lücken ergeben keine eigene Übung: weglassen und für ChatGPT notieren
         keep = [q for i, q in enumerate(qs) if i == 0 or len(q.get('gaps') or []) > 2 or q['type'] not in ('gap_fill', 'gap_choice')]
-        if len(keep) < len(qs):
-            thin.append(f"- {d['id']} „{title}“: Folgeaufgabe mit {len(qs[-1].get('gaps') or [])} Lücke(n) entfernt ({qs[-1]['prompt']})")
+        for q in qs:
+            if q not in keep:
+                thin.append(f"- {d['id']} „{title}“: Folgeaufgabe mit {len(q.get('gaps') or [])} Lücke(n) entfernt ({q['prompt'].splitlines()[0]})")
         d['questions'] = keep
         (OUT / (d['id'] + '.json')).write_text(json.dumps(d, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     # Register: nur Themen mit Material oder vorhandene Themen; leere Planungsthemen bleiben im Register für später
@@ -263,7 +359,8 @@ def main(a_dir, b_dir):
     (ROOT / 'werkzeuge' / 'gpt-nacharbeit.md').write_text(
         '# Nacharbeit für ChatGPT\n\nDiese Folgeaufgaben waren zu dünn (1–2 Lücken) und wurden beim Import weggelassen. '
         'Bitte je Übung eine vollwertige Anwendungsaufgabe mit 6–10 Lücken zum selben Thema liefern (gleiche ID, gleiches Format):\n\n'
-        + '\n'.join(thin) + '\n', encoding='utf-8')
+        + '\n'.join(thin) + '\n\nDiese Aufgaben im Redaktionsformat waren insgesamt zu kurz und wurden nicht übernommen:\n\n'
+        + '\n'.join(SKIPPED) + '\n', encoding='utf-8')
     missing = [k for k in DISTR if k not in used_distr]
     if missing:
         raise SystemExit('Ablenker ohne passende Lücke: ' + ', '.join(missing[:5]))

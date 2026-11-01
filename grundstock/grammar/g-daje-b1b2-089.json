@@ -1,0 +1,58 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-daje-b1b2-089",
+ "title": "Una settimana senza programma",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Una settimana senza programma · livello medio.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje).",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "own",
+  "cefr": "B1",
+  "foreignLanguageNo": 3,
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "It10 Schreiben / Text- und Medienkompetenzen"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 3089
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "open_answer",
+   "prompt": "Ripristina maiuscole e punteggiatura nel testo. Sono possibili soluzioni diverse: devono rendere chiari saluto, frasi e paragrafi.",
+   "modelAnswer": "Caro Davide, ti scrivo da una piccola isola dove mia zia vive da anni. Prima della partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso capisco che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e dalle persone che si incontrano.\nIeri sono uscita presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. Una signora mi ha chiesto se conoscevo la strada per la scuola. Lei aveva abitato sull’isola da bambina, ma non riconosceva più il quartiere. L’edificio era stato trasformato in una sala per incontri.\nL’ho accompagnata e abbiamo trovato una mostra di disegni. Suo padre compariva in una fotografia all’ingresso. La signora si è fermata a guardarla a lungo; io aspettavo accanto alla porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato una storia che nessuna guida avrebbe potuto conoscere.\nOggi piove, così resto in casa con i miei appunti. Non cerco di ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia nel suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. A presto, Giada.",
+   "lines": 15,
+   "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
+  }
+ ],
+ "reading": {
+  "text": "caro davide ti scrivo da una piccola isola dove mia zia vive da anni prima della partenza avevo preparato un programma preciso visite passeggiate e fotografie adesso capisco che quel foglio mi serve poco qui le giornate dipendono anche dal vento e dalle persone che si incontrano\nieri sono uscita presto il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche una signora mi ha chiesto se conoscevo la strada per la scuola lei aveva abitato sull’isola da bambina ma non riconosceva più il quartiere l’edificio era stato trasformato in una sala per incontri\nl’ho accompagnata e abbiamo trovato una mostra di disegni suo padre compariva in una fotografia all’ingresso la signora si è fermata a guardarla a lungo io aspettavo accanto alla porta poi abbiamo bevuto un caffè e lei mi ha raccontato una storia che nessuna guida avrebbe potuto conoscere\noggi piove così resto in casa con i miei appunti non cerco di ricordare tutto scelgo un dettaglio e lo descrivo domani forse andrò alla spiaggia oppure aiuterò mia zia nel suo negozio la tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole a presto giada"
+ }
+}
