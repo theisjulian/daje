@@ -19,7 +19,7 @@ try {
 } catch (e) {
   sb = null;
 }
-const accName = () => (ACC.user?.email || '').replace(/@.*/, '');
+const accName = () => ACC.user?.user_metadata?.first_name || (ACC.user?.email || '').replace(/@.*/, '');
 
 /* ---------- Lernstand abgleichen ---------- */
 // Diese Einträge im Browser bilden den Lernstand (Profile, Karteikarten, eigene Übungen, Mappe, Trainer).
@@ -262,39 +262,72 @@ const accProfilesHTML = () => {
   const p = typeof activeProfile === 'function' ? activeProfile() : null;
   return `<section class="acc-local"><h3>Lernprofil auf diesem Gerät</h3><p class="small muted">${p ? `Aktiv: <b>${esc(p.name)}</b>. ` : ''}Mehrere Profile helfen, wenn sich mehrere Lernende ein Gerät teilen. Mit Konto wird das aktive Profil gespeichert.</p><button class="button secondary" data-extra="profiles" data-close="acc-dialog">Profile verwalten, sichern oder wechseln</button></section>`;
 };
+const AUTH_PERKS = ['Lernstand auf allen Geräten', 'Stärken und Schwächen im Blick', 'Für Lehrkräfte: Klassensitzungen mit Live-Übersicht'];
+let accSentTo = '';
+const accMeta = () => ACC.user?.user_metadata || {};
+const accFullName = () => [accMeta().first_name, accMeta().last_name].filter(Boolean).join(' ');
+function accPwStrength(pw) {
+  let n = 0;
+  if (pw.length >= 8) n++;
+  if (pw.length >= 12) n++;
+  if (/[a-zäöüß]/.test(pw) && /[A-ZÄÖÜ]/.test(pw)) n++;
+  if (/\d/.test(pw)) n++;
+  if (/[^\wäöüßÄÖÜ]/.test(pw)) n++;
+  return Math.min(4, n);
+}
 function showTheisAccountSb() {
   const d = accDialog();
+  const close = '<button class="auth-x" data-close="acc-dialog" aria-label="Schließen">×</button>';
   const head = t => `<div class="dialog-head"><h2 id="acc-title">${t}</h2><button class="button secondary" data-close="acc-dialog">Schließen</button></div>`;
+  d.classList.toggle('is-auth', !!sb && !ACC.user);
   if (!sb) {
     d.innerHTML = head('Dein daje-Konto') + '<p>Die Anmeldung ist gerade nicht erreichbar. Du kannst wie gewohnt ohne Konto üben; dein Lernstand bleibt auf diesem Gerät.</p><button class="button secondary" data-extra="export">Lernstand als Datei sichern</button>';
   } else if (ACC.user) {
     const at = ACC.lastSync || syncMeta().at;
+    const md = accMeta();
+    const ini = ((md.first_name || ACC.user.email).charAt(0) + (md.last_name || '').charAt(0)).toUpperCase();
     d.innerHTML =
       head('Dein daje-Konto') +
-      `<p class="acc-who"><b>${esc(ACC.user.email)}</b>${ACC.admin ? '<span class="chip-solid">Administrator</span>' : ''}</p>
+      `<div class="acc-card"><div class="set-avatar" aria-hidden="true">${esc(ini)}</div><div class="set-who"><b>${esc(accFullName() || accName())}</b><small>${esc(ACC.user.email)}${md.role === 'teach' ? ' · Lehrkraft' : ''}</small></div>${ACC.admin ? '<span class="chip-solid">Administrator</span>' : ''}</div>
       <p class="acc-sync">${ACC.error ? esc(ACC.error) : ACC.syncing ? 'Wird gespeichert …' : at ? 'Lernstand gespeichert ✓ ' + new Date(at).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }) : 'Lernstand wird gespeichert.'}</p>
       <div class="acc-actions"><button class="button primary" data-acc="sync">Jetzt speichern</button><button class="button secondary" data-nav="fortschritt" data-close="acc-dialog">Stärken und Schwächen</button>${isTeacher() ? '<button class="button secondary" data-nav="klassen" data-close="acc-dialog">Meine Klassensitzungen</button>' : ''}</div>
+      <details class="acc-more"><summary>Name ändern</summary>
+        <form id="acc-name-form" class="auth-grid2" novalidate><label class="field">Vorname<input id="acc-first" autocomplete="given-name" maxlength="40" value="${esc(md.first_name || '')}" required></label><label class="field">Nachname<input id="acc-last" autocomplete="family-name" maxlength="60" value="${esc(md.last_name || '')}" required></label><button class="button secondary" type="submit">Speichern</button></form>
+      </details>
       <details class="acc-more"><summary>Abmelden</summary>
         <label class="dlg-check"><input type="checkbox" id="acc-wipe"><span>Lernstand von diesem Gerät entfernen (z. B. auf einem geteilten iPad)</span></label>
         <button class="button secondary" data-acc="logout">Abmelden</button>
         <p class="small muted">Lernstand im Konto löschen: <button class="quiet danger" data-acc="delete-progress">Gespeicherten Lernstand löschen</button></p>
       </details>${accProfilesHTML()}`;
+  } else if (accMode === 'sent') {
+    d.innerHTML = `<div class="auth auth-done">${close}<div class="auth-mail" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="5"/><path d="m8 14 16 12 16-12"/></svg></div>
+      <h2 id="acc-title">Fast geschafft!</h2><p>Wir haben dir eine E-Mail an <b>${esc(accSentTo)}</b> geschickt. Tippe auf <b>„E-Mail bestätigen“</b>, dann ist dein Konto bereit.</p>
+      <p class="small muted">Nichts angekommen? Schau im Spam-Ordner nach oder lass dir die E-Mail noch einmal schicken.</p>
+      <div class="auth-done-act"><button class="button secondary" data-acc="resend">E-Mail erneut senden</button><button class="button primary" data-acc-mode="login">Zur Anmeldung</button></div><p class="small" id="acc-msg" role="status"></p></div>`;
   } else {
     const reg = accMode === 'register';
     const reset = accMode === 'reset';
     const newpw = accMode === 'newpw';
-    d.innerHTML =
-      head(newpw ? 'Neues Passwort' : reset ? 'Passwort vergessen' : reg ? 'Konto anlegen' : 'Anmelden') +
-      `<p class="small muted">${newpw ? 'Lege ein neues Passwort fest.' : 'Üben geht auch ohne Konto. Mit Konto wird dein Lernstand gespeichert, du übst auf allen Geräten weiter und siehst deine Stärken und Schwächen. Lehrkräfte legen damit Klassensitzungen an.'}</p>
-      <form id="acc-form" class="acc-form" novalidate>
-        ${newpw ? '' : '<label class="field">E-Mail<input id="acc-mail" type="email" autocomplete="email" required></label>'}
-        ${reset ? '' : `<label class="field">${newpw ? 'Neues Passwort' : 'Passwort'}<input id="acc-pw" type="password" autocomplete="${reg || newpw ? 'new-password' : 'current-password'}" minlength="8" required></label>`}
-        ${reg ? '<p class="small muted">Mindestens 8 Zeichen. Du bekommst eine E-Mail zur Bestätigung.</p>' : ''}
-        <button class="button primary" type="submit">${newpw ? 'Passwort speichern' : reset ? 'Link zum Zurücksetzen senden' : reg ? 'Konto anlegen' : 'Anmelden'}</button>
-        <p class="small" id="acc-msg" role="status"></p>
-      </form>
-      ${newpw ? '' : `<div class="acc-links">${reg || reset ? '<button class="quiet" data-acc-mode="login">Ich habe schon ein Konto</button>' : '<button class="quiet" data-acc-mode="register">Neues Konto anlegen</button><button class="quiet" data-acc-mode="reset">Passwort vergessen?</button>'}</div>`}
-      <p class="small muted acc-privacy">Gespeichert werden nur E-Mail-Adresse und Lernstand, auf Servern in der EU. Du kannst den Lernstand jederzeit löschen.</p>${newpw ? '' : accProfilesHTML()}`;
+    const title = newpw ? 'Neues Passwort' : reset ? 'Passwort vergessen?' : reg ? 'Konto erstellen' : 'Willkommen zurück';
+    const sub = newpw ? 'Lege ein neues Passwort für dein Konto fest.' : reset ? 'Gib deine E-Mail-Adresse ein. Wir schicken dir einen Link zum Zurücksetzen.' : reg ? 'Kostenlos. Üben geht auch ohne Konto.' : 'Melde dich an, um deinen Lernstand zu speichern.';
+    d.innerHTML = `<div class="auth">${close}
+      <aside class="auth-side"><div class="auth-brand">${DAJE_MARK}<span>daje</span></div><h3>Sprachen lernen.<br>Auf allen Geräten.</h3><ul>${AUTH_PERKS.map(t => `<li>${esc(t)}</li>`).join('')}</ul><p class="auth-side-foot">Server in der EU · kein Tracking · jederzeit löschbar</p></aside>
+      <div class="auth-main">
+        ${newpw || reset ? '' : `<div class="auth-tabs" role="tablist"><button role="tab" aria-selected="${!reg}" data-acc-mode="login">Anmelden</button><button role="tab" aria-selected="${reg}" data-acc-mode="register">Registrieren</button></div>`}
+        <h2 id="acc-title">${title}</h2><p class="auth-sub">${sub}</p>
+        <form id="acc-form" class="acc-form" novalidate>
+          ${reg ? '<div class="auth-grid2"><label class="field">Vorname<input id="acc-first" autocomplete="given-name" maxlength="40" required></label><label class="field">Nachname<input id="acc-last" autocomplete="family-name" maxlength="60" required></label></div>' : ''}
+          ${newpw ? '' : '<label class="field">E-Mail-Adresse<input id="acc-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" required></label>'}
+          ${reset ? '' : `<label class="field">${newpw ? 'Neues Passwort' : 'Passwort'}<span class="auth-pw"><input id="acc-pw" type="password" autocomplete="${reg || newpw ? 'new-password' : 'current-password'}" minlength="8" required><button type="button" class="auth-eye" data-acc="eye" aria-label="Passwort zeigen">Zeigen</button></span></label>`}
+          ${reg || newpw ? '<div class="auth-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="small muted auth-hint" id="acc-pw-hint">Mindestens 8 Zeichen. Länger ist sicherer.</p>' : ''}
+          ${reg ? `<fieldset class="auth-role"><legend>Ich nutze daje als</legend><label><input type="radio" name="acc-role" value="learn" checked><span>Lernende*r</span></label><label><input type="radio" name="acc-role" value="teach"><span>Lehrkraft</span></label></fieldset>
+            <label class="dlg-check auth-consent"><input type="checkbox" id="acc-consent"><span>Ich bin einverstanden, dass daje Name, E-Mail-Adresse und Lernstand speichert, damit ich auf allen Geräten weiterüben kann. Löschen ist jederzeit möglich.</span></label>` : ''}
+          <button class="button primary large auth-submit" type="submit">${newpw ? 'Passwort speichern' : reset ? 'Link senden' : reg ? 'Konto erstellen' : 'Anmelden'}</button>
+          <p class="small" id="acc-msg" role="status"></p>
+        </form>
+        ${newpw ? '' : `<div class="acc-links">${reg ? '' : reset ? '<button class="quiet" data-acc-mode="login">Zurück zur Anmeldung</button>' : '<button class="quiet" data-acc-mode="reset">Passwort vergessen?</button>'}</div>`}
+        ${newpw || reg ? '' : accProfilesHTML()}
+      </div></div>`;
   }
   if (!d.open) d.showModal();
 }
@@ -304,13 +337,34 @@ async function accSubmit() {
   const pw = $('acc-pw')?.value || '';
   const redirectTo = location.origin + location.pathname;
   try {
+    if (accMode === 'register') {
+      const first = $('acc-first').value.trim(), last = $('acc-last').value.trim();
+      if (!first || !last) throw new Error('Bitte Vor- und Nachnamen eintragen.');
+    }
     if (accMode !== 'newpw' && !/^\S+@\S+\.\S+$/.test(mail || '')) throw new Error('Bitte eine gültige E-Mail-Adresse eingeben.');
     if (accMode !== 'reset' && pw.length < 8) throw new Error('Das Passwort braucht mindestens 8 Zeichen.');
+    if (accMode === 'register' && !$('acc-consent').checked) throw new Error('Bitte bestätige, dass deine Angaben gespeichert werden dürfen.');
     msg.textContent = 'Einen Moment …';
     if (accMode === 'register') {
-      const { data, error } = await sb.auth.signUp({ email: mail, password: pw, options: { emailRedirectTo: redirectTo } });
+      const first = $('acc-first').value.trim(), last = $('acc-last').value.trim();
+      const role = document.querySelector('input[name="acc-role"]:checked')?.value || 'learn';
+      const lang = (typeof uiLocale === 'string' ? uiLocale : 'de').split('-')[0];
+      const { data, error } = await sb.auth.signUp({
+        email: mail,
+        password: pw,
+        options: { emailRedirectTo: redirectTo, data: { first_name: first, last_name: last, full_name: first + ' ' + last, role, lang } }
+      });
       if (error) throw error;
-      msg.textContent = data.session ? 'Konto angelegt ✓' : 'Fast geschafft: Bitte bestätige deine E-Mail-Adresse über den Link, den wir dir geschickt haben. Danach anmelden.';
+      // Supabase meldet bei schon registrierter Adresse keinen Fehler, aber ohne Identitäten
+      if (data.user && Array.isArray(data.user.identities) && !data.user.identities.length) throw new Error('already registered');
+      if (data.session) {
+        $('acc-dialog')?.close();
+        toast('Willkommen bei daje, ' + first + '!');
+      } else {
+        accSentTo = mail;
+        accMode = 'sent';
+        showTheisAccountSb();
+      }
     } else if (accMode === 'reset') {
       const { error } = await sb.auth.resetPasswordForEmail(mail, { redirectTo });
       if (error) throw error;
@@ -335,13 +389,19 @@ async function accSubmit() {
         ? 'Bitte zuerst die E-Mail-Adresse über den Link in der Bestätigungs-E-Mail bestätigen.'
         : /already registered/i.test(m)
           ? 'Für diese Adresse gibt es schon ein Konto. Bitte anmelden.'
-          : /Failed to fetch|NetworkError/i.test(m)
-            ? 'Keine Verbindung. Bitte später noch einmal versuchen.'
-            : m;
+          : /rate limit|too many/i.test(m)
+            ? 'Gerade zu viele Versuche. Bitte in ein paar Minuten noch einmal.'
+            : /Failed to fetch|NetworkError/i.test(m)
+              ? 'Keine Verbindung. Bitte später noch einmal versuchen.'
+              : m;
   }
 }
 async function accAfterLogin(user) {
   ACC.user = user;
+  if (user.user_metadata?.role === 'teach' && !read('daje-lehrkraft-ok', false)) {
+    save('daje-lehrkraft-ok', true);
+    if (typeof setPortalAudience === 'function') setPortalAudience('teach');
+  }
   ACC.admin = false;
   try {
     const { data } = await sb.rpc('daje_is_admin');
@@ -376,6 +436,24 @@ function accRefresh() {
   if ($('acc-dialog')?.open && !$('acc-form')) showTheisAccountSb();
 }
 showTheisAccount = showTheisAccountSb;
+document.addEventListener('input', e => {
+  if (e.target.id !== 'acc-pw' || !document.querySelector('.auth-meter')) return;
+  const n = accPwStrength(e.target.value);
+  document.querySelector('.auth-meter').dataset.n = e.target.value ? n : 0;
+  $('acc-pw-hint').textContent = !e.target.value ? 'Mindestens 8 Zeichen. Länger ist sicherer.' : e.target.value.length < 8 ? 'Noch ' + (8 - e.target.value.length) + ' Zeichen.' : ['Schwach', 'Schwach', 'In Ordnung', 'Gut', 'Sehr gut'][n] + '.';
+});
+document.addEventListener('submit', async e => {
+  if (e.target.id !== 'acc-name-form') return;
+  e.preventDefault();
+  const first = $('acc-first').value.trim(), last = $('acc-last').value.trim();
+  if (!first || !last) return toast('Bitte Vor- und Nachnamen eintragen.');
+  const { data, error } = await sb.auth.updateUser({ data: { first_name: first, last_name: last, full_name: first + ' ' + last } });
+  if (error) return toast('Nicht gespeichert: ' + error.message);
+  ACC.user = data.user;
+  accRefresh();
+  showTheisAccountSb();
+  toast('Name gespeichert.');
+});
 document.addEventListener('submit', e => {
   if (e.target.id !== 'acc-form') return;
   e.preventDefault();
@@ -391,6 +469,21 @@ document.addEventListener('click', async e => {
   }
   if (b.dataset.sbLive) return sbLive(b.dataset.sbLive);
   const a = b.dataset.acc;
+  if (a === 'eye') {
+    const f = $('acc-pw');
+    const show = f.type === 'password';
+    f.type = show ? 'text' : 'password';
+    b.textContent = show ? 'Verbergen' : 'Zeigen';
+    return;
+  }
+  if (a === 'resend') {
+    const msg = $('acc-msg');
+    b.disabled = true;
+    const { error } = await sb.auth.resend({ type: 'signup', email: accSentTo, options: { emailRedirectTo: location.origin + location.pathname } });
+    msg.textContent = error ? (/rate|seconds/i.test(error.message) ? 'Bitte kurz warten und dann noch einmal versuchen.' : error.message) : 'Neue E-Mail ist unterwegs.';
+    setTimeout(() => (b.disabled = false), 30000);
+    return;
+  }
   if (a === 'sync') return syncPush();
   if (a === 'logout') {
     const wipe = $('acc-wipe')?.checked;
