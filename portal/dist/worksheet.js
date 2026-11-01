@@ -31,7 +31,7 @@ const wsAll = () => wsDraft.sheets.flat();
 function wsButton(id) {
   if (!isTeacher() || EMBED) return '';
   const on = wsAll().includes(id);
-  return `<button class="button secondary ws-add" data-ws-add="${esc(id)}" aria-pressed="${on}">${on ? 'Auf dem Arbeitsblatt' : 'Aufs Arbeitsblatt'}</button>`;
+  return `<button class="button secondary ws-add" data-ws-add="${esc(id)}" aria-pressed="${on}">${on ? 'In der Mappe ✓' : 'In die Mappe'}</button>`;
 }
 function wsToggle(id) {
   const at = wsDraft.sheets.findIndex(s => s.includes(id));
@@ -41,13 +41,13 @@ function wsToggle(id) {
     wsDraft.sheets[wsDraft.sheets.length - 1].push(id);
   }
   wsSave();
-  toast(at >= 0 ? 'Vom Arbeitsblatt entfernt.' : 'Aufs Arbeitsblatt gelegt.');
+  toast(at >= 0 ? 'Aus der Unterrichtsmappe genommen.' : 'In die Unterrichtsmappe gelegt.');
 }
 function wsRefresh() {
   document.querySelectorAll('[data-ws-add]').forEach(b => {
     const on = wsAll().includes(b.dataset.wsAdd);
     b.setAttribute('aria-pressed', String(on));
-    b.textContent = on ? 'Auf dem Arbeitsblatt' : 'Aufs Arbeitsblatt';
+    b.textContent = on ? 'In der Mappe ✓' : 'In die Mappe';
   });
   let pill = $('ws-pill');
   const n = wsAll().length;
@@ -59,8 +59,99 @@ function wsRefresh() {
     pill.dataset.wsOpen = '1';
     document.body.append(pill);
   }
-  pill.innerHTML = `Arbeitsblatt <b>${n}</b>`;
+  pill.innerHTML = `Mappe <b>${n}</b>`;
+  pill.setAttribute('aria-label', 'Unterrichtsmappe öffnen: ' + plural(n, 'Übung', 'Übungen'));
 }
+
+/* ---------- Schnell zusammenstellen: fünf passende Übungen zufällig ---------- */
+const WSQ_KEY = 'daje-mappe-schnell-v1';
+let wsQuick = Object.assign({ lang: 'it', kind: 'grammar', band: 1, level: '', query: '', picks: [] }, read(WSQ_KEY, {}));
+const wsqSave = () => save(WSQ_KEY, wsQuick);
+function wsqPool() {
+  const q = wsQuick.query.trim().toLocaleLowerCase();
+  const kinds = wsQuick.kind === 'both' ? ['grammar', 'listening'] : [wsQuick.kind];
+  return kinds
+    .flatMap(k => contentList(k))
+    .filter(x => x.language === wsQuick.lang)
+    .filter(x => x.kind !== 'grammar' || ((!wsQuick.band || grBand(x) === wsQuick.band) && (!wsQuick.level || x.grammar.difficulty === wsQuick.level)))
+    .filter(x => !q || [x.title, x.description, x.grammar?.topicTitle, x.catalog?.textbook?.unit, ...(x.topics || [])].join(' ').toLocaleLowerCase().includes(q))
+    .filter(x => !wsAll().includes(x.id));
+}
+function wsqShuffle(keep = []) {
+  const pool = wsqPool().filter(x => !keep.includes(x.id));
+  const pick = pool.map(x => [Math.random(), x.id]).sort((a, b) => a[0] - b[0]).map(z => z[1]);
+  wsQuick.picks = [...keep, ...pick].slice(0, 5);
+  wsqSave();
+}
+function wsQuickHTML(open) {
+  const topics = typeof grTopics === 'function' ? [...new Set(grTopics().filter(t => !wsQuick.band || t.band === wsQuick.band).map(t => t.title))] : [];
+  const seg = (k, list) => `<div class="chip-row" role="group">${list.map(([v, l]) => `<button type="button" class="chip" data-wsq="${k}" data-v="${v}" aria-pressed="${String(wsQuick[k]) === String(v)}">${l}</button>`).join('')}</div>`;
+  const picks = wsQuick.picks.map(id => findTask(id)).filter(Boolean);
+  const total = wsqPool().length;
+  return `<details class="ws-quick" ${open || picks.length ? 'open' : ''}><summary>5 Übungen schnell zusammenstellen</summary>
+    <div class="ws-quick-grid">
+      <div><span class="vb-label">Lernsprache</span>${seg('lang', Object.entries(TheisContent.LANGUAGES).filter(([k]) => ['it', 'en', 'fr', 'es'].includes(k)))}</div>
+      <div><span class="vb-label">Art</span>${seg('kind', [['grammar', 'Grammatik'], ['listening', 'Hören'], ['both', 'beides']])}</div>
+      ${wsQuick.kind !== 'listening' ? `<div><span class="vb-label">Lernjahr</span>${seg('band', [[1, 'Primo'], [2, 'Secondo'], [3, 'Terzo'], [0, 'alle']])}</div><div><span class="vb-label">Stufe</span>${seg('level', [['', 'alle'], ['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']])}</div>` : ''}
+      <label class="field">Thema oder Stichwort<input id="wsq-query" list="wsq-topics" value="${esc(wsQuick.query)}" placeholder="z. B. articolo, passato prossimo, città"></label>
+      <datalist id="wsq-topics">${topics.map(t => `<option value="${esc(t)}">`).join('')}</datalist>
+    </div>
+    <div class="ws-quick-act"><button type="button" class="button primary" data-wsq-go>${picks.length ? 'Neu mischen' : '5 Übungen zusammenstellen'}</button><span class="small muted">${plural(total, 'passende Übung', 'passende Übungen')}</span></div>
+    ${
+      picks.length
+        ? `<ol class="ws-quick-list">${picks
+            .map(x => `<li><span><b>${esc(x.title)}</b><small>${x.kind === 'grammar' ? 'Grammatik · ' + esc(x.grammar.topicTitle) + ' · ' + ({ leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' }[x.grammar.difficulty] || '') : 'Hörübung'} · ${esc(portalLang(x.language))} · ${esc(x.level)}</small></span><span class="ws-acts"><button type="button" class="quiet" data-wsq-swap="${esc(x.id)}" aria-label="Austauschen" title="Austauschen">↻</button><button type="button" class="quiet" data-wsq-drop="${esc(x.id)}" aria-label="Entfernen">✕</button></span></li>`)
+            .join('')}</ol><div class="ws-quick-act"><button type="button" class="button primary" data-wsq-take>In die Mappe übernehmen</button></div>`
+        : ''
+    }
+  </details>`;
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-wsq],[data-wsq-go],[data-wsq-swap],[data-wsq-drop],[data-wsq-take]');
+  if (!t) return;
+  if (t.dataset.wsq) {
+    const k = t.dataset.wsq;
+    wsQuick[k] = k === 'band' ? Number(t.dataset.v) : t.dataset.v;
+    wsQuick.picks = [];
+    wsqSave();
+    return wsComposer();
+  }
+  if (t.hasAttribute('data-wsq-go')) {
+    wsQuick.query = $('wsq-query')?.value || '';
+    wsqShuffle();
+    if (!wsQuick.picks.length) toast('Keine passenden Übungen. Bitte Thema oder Filter ändern.');
+    return wsComposer();
+  }
+  if (t.dataset.wsqSwap) {
+    const pool = wsqPool().filter(x => !wsQuick.picks.includes(x.id));
+    if (!pool.length) return toast('Keine weitere passende Übung.');
+    wsQuick.picks = wsQuick.picks.map(id => (id === t.dataset.wsqSwap ? pool[Math.floor(Math.random() * pool.length)].id : id));
+    wsqSave();
+    return wsComposer();
+  }
+  if (t.dataset.wsqDrop) {
+    wsQuick.picks = wsQuick.picks.filter(id => id !== t.dataset.wsqDrop);
+    wsqSave();
+    return wsComposer();
+  }
+  if (t.hasAttribute('data-wsq-take')) {
+    const room = 40 - wsAll().length;
+    const add = wsQuick.picks.filter(id => !wsAll().includes(id)).slice(0, room);
+    wsDraft.sheets[wsDraft.sheets.length - 1].push(...add);
+    if (!wsDraft.title && wsQuick.query) wsDraft.title = wsQuick.query;
+    wsQuick.picks = [];
+    wsqSave();
+    wsSave();
+    toast(plural(add.length, 'Übung', 'Übungen') + ' in die Mappe gelegt.');
+    return wsComposer();
+  }
+});
+document.addEventListener('input', e => {
+  if (e.target.id === 'wsq-query') {
+    wsQuick.query = e.target.value;
+    wsqSave();
+  }
+});
 
 /* ---------- Zusammenstellen ---------- */
 function wsComposer() {
@@ -78,17 +169,20 @@ function wsComposer() {
     if (!x) return '';
     const kind = x.kind === 'grammar' ? 'Grammatik · ' + ({ leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' }[x.grammar.difficulty] || '') : 'Hörübung';
     const move = wsDraft.sheets.length > 1 ? `<select class="ws-to" data-ws-to="${esc(id)}" aria-label="Auf Blatt verschieben">${wsDraft.sheets.map((_, j) => `<option value="${j}" ${j === k ? 'selected' : ''}>Blatt ${j + 1}</option>`).join('')}</select>` : '';
-    return `<li class="ws-item" data-id="${esc(id)}"><span class="ws-grip" aria-hidden="true" title="Ziehen zum Verschieben">⠿</span><span class="ws-text"><b>${esc(x.title)}</b><small>${esc(kind)} · ${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}${x.grammar ? ' · ' + esc(x.grammar.topicTitle) : ''}</small></span><span class="ws-acts">${move}<button class="quiet" data-ws-move="${esc(id)}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-ws-move="${esc(id)}" data-dir="1" aria-label="Nach unten" ${i === len - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-ws-add="${esc(id)}" aria-label="Entfernen">✕</button></span></li>`;
+    return `<li class="ws-item" data-id="${esc(id)}"><span class="ws-grip" aria-hidden="true" title="Ziehen zum Verschieben">⠿</span><span class="ws-text"><b>${esc(x.title)}</b><small>${esc(kind)} · ${esc(portalLang(x.language))} · ${esc(x.level)} · ${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}${x.grammar ? ' · ' + esc(x.grammar.topicTitle) : ''}</small></span><span class="ws-acts">${move}<button class="quiet" data-ws-move="${esc(id)}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-ws-move="${esc(id)}" data-dir="1" aria-label="Nach unten" ${i === len - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-ws-add="${esc(id)}" aria-label="Entfernen">✕</button></span></li>`;
   };
   const sheets = wsDraft.sheets
-    .map((s, k) => `<section class="ws-sheet"><div class="ws-sheet-h"><h3>Blatt ${k + 1}</h3><small>${plural(s.length, 'Übung', 'Übungen')}</small>${wsDraft.sheets.length > 1 && !s.length ? `<button class="quiet" data-ws-del="${k}">Blatt entfernen</button>` : ''}</div><ol class="ws-items" data-sheet="${k}">${s.map((id, i) => item(id, k, i, s.length)).join('') || '<li class="ws-empty">Leer. Ziehe Übungen hierher oder lege sie über „Aufs Arbeitsblatt“ ab.</li>'}</ol></section>`)
+    .map((s, k) => `<section class="ws-sheet"><div class="ws-sheet-h"><h3>Blatt ${k + 1}</h3><small>${plural(s.length, 'Übung', 'Übungen')}</small>${wsDraft.sheets.length > 1 && !s.length ? `<button class="quiet" data-ws-del="${k}">Blatt entfernen</button>` : ''}</div><ol class="ws-items" data-sheet="${k}">${s.map((id, i) => item(id, k, i, s.length)).join('') || '<li class="ws-empty">Leer. Ziehe Übungen hierher, lege sie mit „In die Mappe“ ab oder stelle oben fünf zusammen.</li>'}</ol></section>`)
     .join('');
   const n = wsAll().length;
-  d.innerHTML = `<div class="dialog-head"><h2 id="ws-title">Arbeitsblatt zusammenstellen</h2><button class="button secondary" data-close="ws-dialog">Schließen</button></div>
-    <p class="muted small">Lege Übungen über „Aufs Arbeitsblatt“ ab (Grammatik und Hörverstehen). Hier ordnest du sie: am Griff ⠿ ziehen oder mit den Pfeilen. Jedes Blatt beginnt auf einer neuen Seite.</p>
+  const langs = [...new Set(wsAll().map(id => findTask(id)?.language).filter(Boolean))];
+  d.innerHTML = `<div class="dialog-head"><h2 id="ws-title">Unterrichtsmappe</h2><button class="button secondary" data-close="ws-dialog">Schließen</button></div>
+    <p class="muted small">Hier sammelst du Material für die Stunde: mit „In die Mappe“ bei Grammatik- und Hörübungen oder unten mit „5 Übungen zusammenstellen“. Ordne die Übungen am Griff ⠿ oder mit den Pfeilen. Daraus entstehen ein Arbeitsblatt mit Lösungsblatt (PDF) oder ein Klassenlink für die iPads.</p>
+    ${n ? `<p class="ws-sum"><b>${plural(n, 'Übung', 'Übungen')}</b> · ${langs.map(l => esc(portalLang(l))).join(', ')}${langs.length > 1 ? ' <span class="kl-warn">Achtung: mehrere Sprachen in der Mappe</span>' : ''}</p>` : ''}
+    ${wsQuickHTML(!n)}
     <div class="ws-opts"><label class="field">Titel<input id="ws-name" maxlength="120" value="${esc(wsDraft.title)}" placeholder="z. B. Wiederholung Unità 2"></label><label class="dlg-check"><input type="checkbox" id="ws-rule" ${wsDraft.rule ? 'checked' : ''}><span>Merkkästen mitdrucken</span></label></div>
     <div class="ws-sheets">${sheets}</div>
-    <div class="ws-bar"><button class="button secondary" data-ws-new>+ Neues Blatt</button><span class="ws-sp"></span>${n ? '<button class="quiet danger" data-ws-clear>Alles leeren</button><button class="button secondary" data-ws-link>Als Link für die Klasse</button><button class="button secondary" data-ws-print="1">Lösungen</button><button class="button primary" data-ws-print="0">Vorschau und PDF</button>' : ''}</div>`;
+    <div class="ws-bar"><button class="button secondary" data-ws-new>+ Neues Blatt</button><span class="ws-sp"></span>${n ? '<button class="quiet danger" data-ws-clear>Alles leeren</button><button class="button secondary" data-ws-link>Klassenlink</button><button class="button secondary" data-ws-print="1">Lösungsblatt</button><button class="button primary" data-ws-print="0">Arbeitsblatt (PDF)</button>' : ''}</div>`;
   if (!d.open) d.showModal();
   d.querySelector('.ws-sheets').scrollTop = keepScroll;
 }
@@ -176,7 +270,7 @@ document.addEventListener('click', e => {
     return wsComposer();
   }
   if (t.hasAttribute('data-ws-clear')) {
-    if (!confirm('Alle Übungen von der Mappe nehmen?')) return;
+    if (!confirm('Alle Übungen aus der Unterrichtsmappe nehmen?')) return;
     wsDraft = { title: wsDraft.title, sheets: [[]], rule: wsDraft.rule };
     wsSave();
     return wsComposer();
@@ -271,7 +365,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
   ${docFooter()}</div>`;
 }
 function wsPrint(sol) {
-  if (!wsAll().length) return toast('Das Arbeitsblatt ist noch leer.');
+  if (!wsAll().length) return toast('Die Unterrichtsmappe ist noch leer.');
   docCurrent = { kind: 'worksheet', solutions: sol };
   const side =
     dlgBlock('Ausgabe', dlgSeg('data-ws-mode', 'ws-mode', [[0, 'Aufgabenblatt'], [1, 'Lösungen'], [2, 'Kurzer Schlüssel']], sol)) +

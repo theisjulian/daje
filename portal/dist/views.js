@@ -176,25 +176,58 @@ function stepCard({ kicker, title, text, action, media, progress }) {
   </article>`;
 }
 
+/* Nächste Grammatikübungen: erstes Thema des gewählten Lernjahrs mit offenen Übungen, einfach zuerst. */
+function nextGrammar(limit = 3) {
+  if (typeof grTopics !== 'function' || lernSprache() !== 'it') return [];
+  const band = typeof GR_STATE !== 'undefined' ? GR_STATE.band || 1 : 1;
+  const order = { leicht: 0, mittel: 1, schwer: 2 };
+  const out = [];
+  for (const t of grTopics().filter(t => t.band === band)) {
+    const open = t.items.filter(x => !lessonStatus(x).done).sort((a, b) => order[a.grammar.difficulty] - order[b.grammar.difficulty]);
+    if (open.length) out.push(open[0]);
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+/* Kachel für einen Lernbereich */
+const areaTile = (nav, title, text, extra = '') => `<button class="area" data-nav="${nav}">${icon(nav === 'wuerfeln' ? 'wuerfeln' : nav)}<span><b>${title}</b><small>${text}</small></span>${extra}</button>`;
+function areaTiles(teacher) {
+  const lang = lernSprache();
+  const it = lang === 'it';
+  const listen = contentList('listening').filter(x => x.language === lang).length;
+  const topics = it && typeof grTopics === 'function' ? grTopics().length : 0;
+  const due = dueWordCount();
+  return `<div class="areas">
+    ${it ? areaTile('grammatik', 'Grammatik', `${topics} Themen mit Merkkasten, drei Stufen`) : ''}
+    ${it ? areaTile('vokabeln', 'Wortschatz', teacher ? 'Wortlisten nach Lernjahr, zum Üben und Drucken' : due ? plural(due, 'Wort wartet', 'Wörter warten') + ' auf dich' : 'Karten, Schreiben, Zuordnen') : ''}
+    ${areaTile('hoeren', 'Hörverstehen', listen ? plural(listen, 'Übung', 'Übungen') + ' mit Video oder Audio' : 'In dieser Sprache noch im Aufbau')}
+    ${it ? areaTile('verben', 'Verben', 'Alle Zeiten, gestaffelt nach Lernjahr') : ''}
+    ${it ? areaTile('wuerfeln', 'Neu würfeln', 'Artikel, Plural, Endungen: jede Runde neue Wörter') : ''}
+    ${it ? areaTile('zahlen', 'Zahlen und Uhrzeit', 'Hören, lesen, schreiben') : ''}
+  </div>${it ? '' : `<p class="small muted">Grammatik, Wortschatz und Verben gibt es zurzeit für Italienisch.</p>`}`;
+}
 function learnerHome(list, p) {
-  const recent = p.history.find(h => list.some(l => l.id === h.id));
-  const resume = list.find(l => l.id === recent?.id && !lessonStatus(l).done);
+  const lang = lernSprache();
+  const inLang = list.filter(x => x.language === lang);
+  // Zuletzt geöffnet: Hörübung oder Grammatik, solange noch nicht fertig
+  const recent = p.history.map(h => findTask(h.id)).find(x => x && x.language === lang && !lessonStatus(x).done);
   const due = dueWordCount();
   const day = activeProfile().history[nowDate()];
   const goal = activeProfile().goal || 10;
   const doneToday = day?.ids.length || 0;
   const percent = Math.min(100, Math.round((100 * doneToday) / goal));
   const streak = learningStreak();
-  const suggestion = resume || nextLessons(list, 1)[0];
   const fresh = !p.history.length && !Object.keys(records).length;
-  const checked = Object.values(p.listening).filter(s => s.lastResult).length;
-  const more = nextLessons(list, 9).filter(x => x !== suggestion).slice(0, 8);
-  const st = suggestion && lessonStatus(suggestion);
+  const gram = nextGrammar(3).filter(x => x !== recent);
+  const more = nextLessons(inLang, 6).filter(x => x !== recent).slice(0, 6);
+  const st = recent && lessonStatus(recent);
+  const gramCard = x => `<button class="next-card" data-lesson="${esc(x.id)}"><span class="eyebrow">Grammatik · ${esc(GRAMMAR_LEVELS[x.grammar.difficulty] || '')}</span><b lang="${x.language}">${esc(x.grammar.topicTitle)}</b><small lang="${x.language}">${esc(x.title)} · ${x.estimatedMinutes} Min.</small></button>`;
   return `<section class="today">
       <div class="today-copy">
         <div class="eyebrow">Mein Lernbereich</div>
-        <h1>${fresh ? 'Hören, verstehen,<br><em>behalten.</em>' : 'Weiter geht’s.'}</h1>
-        <p>${fresh ? 'Kurze Hörübungen mit Rückmeldung und der passende Wortschatz dazu, in deinem Tempo.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
+        <h1>${fresh ? 'Sprachen lernen,<br><em>Schritt für Schritt.</em>' : 'Weiter geht’s.'}</h1>
+        <p>${fresh ? 'Grammatik mit Merkkasten, Wortschatz, Verben und Hörverstehen. Mit Rückmeldung, in deinem Tempo, ohne Anmeldung.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
+        ${lernSwitch()}
       </div>
       <div class="today-side">
         <button class="today-ring" data-nav="fortschritt" style="--p:${percent}" aria-label="Tagesziel: ${doneToday} von ${goal} Wörtern"><b>${doneToday}</b><small>von ${goal}</small></button>
@@ -202,79 +235,68 @@ function learnerHome(list, p) {
       </div>
     </section>
     ${
-      suggestion
+      recent
         ? `<article class="resume">
-      <button class="resume-media" data-lesson="${esc(suggestion.id)}" tabindex="-1" aria-hidden="true">${lessonCoverHTML(suggestion)}</button>
+      <button class="resume-media" data-lesson="${esc(recent.id)}" tabindex="-1" aria-hidden="true">${recent.kind === 'grammar' ? `<span class="resume-gram" lang="${recent.language}">${esc(recent.grammar.topicTitle)}</span>` : lessonCoverHTML(recent)}</button>
       <div class="resume-body">
-        <div class="eyebrow">${resume ? 'Weitermachen' : 'Zum Einstieg'}</div>
-        <h2 ${hasPhotoCover(suggestion) ? '' : 'class="sr-only"'}>${esc(suggestion.title)}</h2>
-        <p>${esc(portalLang(suggestion.language))} · ${esc(suggestion.level)} · ${suggestion.estimatedMinutes} Min. · ${plural(suggestion.questions.length, 'Aufgabe', 'Aufgaben')}</p>
+        <div class="eyebrow">Weitermachen · ${recent.kind === 'grammar' ? 'Grammatik' : 'Hörverstehen'}</div>
+        <h2>${esc(recent.title)}</h2>
+        <p>${esc(portalLang(recent.language))} · ${esc(recent.level)} · ${recent.estimatedMinutes} Min. · ${plural(recent.questions.length, 'Aufgabe', 'Aufgaben')}</p>
         ${st.percent ? `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>` : ''}
-        <button class="button primary large" data-lesson="${esc(suggestion.id)}">${resume ? 'Weiterhören' : 'Jetzt anhören'}</button>
+        <button class="button primary large" data-lesson="${esc(recent.id)}">Weitermachen</button>
       </div>
     </article>`
         : ''
     }
-    <div class="quick">
-      <button data-extra="recommend">${icon('vokabeln')}<b>${due ? plural(due, 'Wort', 'Wörter') + ' wiederholen' : 'Wörter üben'}</b><small>Karten, Schreiben, Zuordnen</small></button>
-      <button data-nav="hoeren">${icon('hoeren')}<b>Alle Hörübungen</b><small>${plural(list.length, 'Übung', 'Übungen')} nach Sprache und Niveau</small></button>
-      <button data-nav="verben">${icon('verben')}<b>Verben</b><small>Formen üben</small></button>
-    </div>
-    ${sectionHead('', 'Für dich', 'hoeren', 'Alle ansehen')}
-    <div class="cards-grid rail">${more.map(lessonCard).join('')}</div>
-    ${
-      p.favorites.length || checked
-        ? `<div class="stat-row" aria-label="Dein Lernstand">
+    ${sectionHead('', 'Was möchtest du üben?')}
+    ${areaTiles(false)}
+    ${gram.length ? sectionHead('', 'Als Nächstes in der Grammatik', 'grammatik', 'Alle Themen') + `<div class="next-grid">${gram.map(gramCard).join('')}</div>` : ''}
+    ${more.length ? sectionHead('', 'Hörverstehen für dich', 'hoeren', 'Alle ansehen') + `<div class="cards-grid rail">${more.map(lessonCard).join('')}</div>` : ''}
+    <div class="stat-row" aria-label="Dein Lernstand">
+      <button data-nav="fortschritt"><b>Stärken und Schwächen</b><span>Dein Überblick${typeof ACC !== 'undefined' && ACC.user ? ' · im Konto gespeichert' : ''}</span></button>
       <button data-nav="sammlung"><b>${p.favorites.length}</b><span>in der Merkliste</span></button>
-      <button data-nav="fortschritt"><b>${checked}</b><span>Hörübungen geprüft</span></button>
-      <button data-nav="verlauf"><b>${p.history.length}</b><span>zuletzt geöffnet</span></button>
-    </div>`
+    </div>`;
+}
+
+function teacherHome(list, p) {
+  const lang = lernSprache();
+  const recent = p.history
+    .map(h => findTask(h.id))
+    .filter(x => x && x.language === lang)
+    .slice(0, 4);
+  const n = typeof wsAll === 'function' ? wsAll().length : 0;
+  return `<section class="xhero teach">
+      <div class="xhero-copy">
+        <div class="eyebrow">Mein Unterricht</div>
+        <h1>Unterricht vorbereiten,<br><em>in wenigen Minuten.</em></h1>
+        <p>Grammatik, Wortschatz und Hörverstehen mit Lösungen. Daraus entstehen Arbeitsblätter und ein Klassenlink für die iPads, mit Übersicht, wer wie weit ist.</p>
+        ${lernSwitch()}
+        <form class="xsearch" data-home-search role="search">
+          <input id="home-search" type="search" placeholder="Hörmaterial suchen, zum Beispiel città" aria-label="Hörmaterial suchen">
+          <button class="button primary" type="submit">Suchen</button>
+        </form>
+      </div>
+      <div class="xhero-art"><img src="assets/torino.jpg" alt="Piazza Castello in Turin am Abend"></div>
+    </section>
+    <div class="steps four">
+      ${stepCard({ kicker: '1', title: 'Material finden', text: 'Grammatikthemen nach Lernjahr, Hörübungen nach Niveau, Wortlisten nach Lektion.', action: '<div class="step-acts"><button class="button secondary" data-nav="grammatik">Grammatik</button><button class="button secondary" data-nav="hoeren">Hören</button><button class="button secondary" data-nav="vokabeln">Wortschatz</button></div>' })}
+      ${stepCard({ kicker: '2', title: 'Unterrichtsmappe', text: n ? `${plural(n, 'Übung', 'Übungen')} gesammelt. Ordnen, austauschen, ergänzen.` : 'Mit „In die Mappe“ sammeln oder fünf passende Übungen zufällig zusammenstellen.', action: '<button class="button primary" data-ws-open="1">Mappe öffnen</button>' })}
+      ${stepCard({ kicker: '3', title: 'Arbeitsblatt oder Klassenlink', text: 'Arbeitsblatt mit Lösungsblatt als PDF, oder Klassenlink mit QR-Code: Lernende tragen Vorname und Kürzel ein.', action: '<button class="button secondary" data-nav="klassen">Klassensitzungen</button>' })}
+      ${stepCard({ kicker: '4', title: 'Eigene Übungen', text: 'Mit KI aus Buchseiten oder Zeitungsartikeln, oder Katalogübungen anpassen.', action: '<button class="button secondary" data-nav="redaktion">Eigene Übungen</button>' })}
+    </div>
+    ${sectionHead('', 'Bereiche')}
+    ${areaTiles(true)}
+    ${
+      recent.length
+        ? sectionHead('', 'Zuletzt angesehen', 'verlauf', 'Verlauf') +
+          `<div class="cards-grid">${recent.map(x => (x.kind === 'grammar' ? `<button class="next-card" data-lesson="${esc(x.id)}"><span class="eyebrow">Grammatik · ${esc(GRAMMAR_LEVELS[x.grammar.difficulty] || '')}</span><b lang="${x.language}">${esc(x.grammar.topicTitle)}</b><small lang="${x.language}">${esc(x.title)}</small></button>` : lessonCard(x))).join('')}</div>`
         : ''
     }`;
 }
 
-function teacherHome(list, p) {
-  const recent = p.history
-    .map(h => list.find(l => l.id === h.id))
-    .filter(Boolean)
-    .slice(0, 4);
-  const levels = LEVELS.filter(l => list.some(x => x.level === l));
-  return `<section class="xhero teach">
-      <div class="xhero-copy">
-        <div class="eyebrow">Mein Unterricht</div>
-        <h1>Hörmaterial, das im<br>Unterricht <em>funktioniert.</em></h1>
-        <p>Aufgaben mit Lösungen, Transkripte und druckfertige Blätter. Nach Sprache und Niveau gefunden.</p>
-        <form class="xsearch" data-home-search role="search">
-          <input id="home-search" type="search" placeholder="Thema oder Titel, zum Beispiel città" aria-label="Hörmaterial suchen">
-          <button class="button primary" type="submit">Suchen</button>
-        </form>
-        <div class="chip-row" role="group" aria-label="Niveau wählen">
-          ${levels.map(l => `<button class="chip" data-portal="home-level" data-value="${l}">${l}</button>`).join('')}
-        </div>
-      </div>
-      <div class="xhero-art"><img src="assets/torino.jpg" alt="Piazza Castello in Turin am Abend"><span class="xhero-cap">${plural(list.length, 'Hörübung', 'Hörübungen')} im Katalog</span></div>
-    </section>
-    <div class="steps three">
-      ${stepCard({ kicker: '1', title: 'Material finden', text: 'Filtern nach Sprache, Niveau und Medium.', action: '<button class="button secondary" data-nav="hoeren">Katalog öffnen</button>' })}
-      ${stepCard({ kicker: '2', title: 'Hausaufgabe geben', text: 'Bei Hörübungen und Wortlisten „Zur Hausaufgabe“ wählen, dann als Link oder QR-Code teilen.', action: '<button class="button secondary" data-hw-open="1">Hausaufgabe ansehen</button>' })}
-      ${stepCard({ kicker: '3', title: 'Eigene Übungen', text: 'Eigene Hörübungen und Wortlisten erstellen oder Katalogübungen anpassen.', action: '<button class="button secondary" data-nav="redaktion">Eigene Übungen</button>' })}
-    </div>
-    ${sectionHead('', 'Neu im Katalog', 'hoeren', 'Alle ansehen')}
-    <div class="cards-grid">${list.slice(-6).reverse().map(lessonCard).join('')}</div>
-    ${
-      recent.length
-        ? sectionHead('', 'Zuletzt angesehen', 'verlauf', 'Verlauf') +
-          `<div class="cards-grid">${recent.map(lessonCard).join('')}</div>`
-        : ''
-    }
-    <div class="stat-row">
-      <button data-nav="sammlung"><b>${p.favorites.length}</b><span>in meiner Sammlung</span></button>
-      <button data-nav="vokabeln"><b>${contentList('vocabulary').length + 1}</b><span>Wortlisten</span></button>
-    </div>`;
-}
-
 function portalHome() {
   $('breadcrumb').textContent = isTeacher() ? 'Mein Unterricht' : 'Mein Lernbereich';
+  if (portalFilters.language !== 'all') portalFilters.language = lernSprache();
   const list = contentList('listening'),
     p = portalProfile();
   $('main').innerHTML =
@@ -298,6 +320,13 @@ function filteredLessons() {
   );
 }
 
+/* Lernsprache als deutlich sichtbarer Bereich: Italiano · English · Français · Español (im Katalog auch „Alle Sprachen“). */
+function lernSwitch(langs, mode = 'home') {
+  const cur = mode === 'filter' ? portalFilters.language : lernSprache();
+  const list = Object.keys(LERN_NAMES).filter(l => !langs || langs.includes(l));
+  const btn = (v, t) => `<button class="lern-opt" data-portal="${mode === 'filter' ? 'filter-set' : 'lern-set'}" data-key="language" data-value="${v}" aria-pressed="${cur === v}"><span lang="${v}">${t}</span></button>`;
+  return `<div class="lern-switch" role="group" aria-label="Lernsprache"><span class="lern-label">Ich lerne</span>${list.map(l => btn(l, LERN_NAMES[l])).join('')}${mode === 'filter' ? btn('all', 'Alle Sprachen') : ''}</div>`;
+}
 function chipRow(label, key, options) {
   return `<div class="filter-group"><span class="filter-label" id="fl-${key}">${label}</span><div class="chip-row" role="group" aria-labelledby="fl-${key}">${options
     .map(
@@ -342,7 +371,7 @@ function listeningCatalog() {
     </header>
     <section class="filters">
       <label class="searchbox"><span class="sr-only">Thema oder Titel</span><input id="listen-search" type="search" placeholder="Thema oder Titel, zum Beispiel città" value="${esc(portalFilters.query)}" autocomplete="off"></label>
-      ${chipRow('Sprache', 'language', [['all', 'Alle'], ...languages.map(([k, v]) => [k, v])])}
+      ${lernSwitch(languages.map(([k]) => k), 'filter')}
       ${chipRow('Niveau', 'level', [['all', 'Alle'], ...LEVELS.map(l => [l, l, !all.some(x => x.level === l)])])}
       ${chipRow('Medium', 'media', [
         ['all', 'Alle'],

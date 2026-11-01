@@ -17,6 +17,7 @@
     'grammatik',
     'zahlen',
     'wuerfeln',
+    'klassen',
     'quellen',
     'wortschatz',
     'lernen',
@@ -29,15 +30,18 @@
     l: view === 'hoeruebung' ? openedListening : null,
     b: view === 'vokabeln' ? wsBook.get() : view === 'grammatik' ? grRoute.get() : null,
     a: view === 'aufgabe' && hwCurrent ? hwCurrent.code : null,
+    k: view === 'klasse' && klCur ? klCur.code : view === 'sitzung' ? klTeach : null,
     s: !!session
   });
   const same = (a, b) =>
-    !!a && a.v === b.v && a.l === b.l && a.b === b.b && a.a === b.a && a.s === b.s;
+    !!a && a.v === b.v && a.l === b.l && a.b === b.b && a.a === b.a && a.k === b.k && a.s === b.s;
   function urlOf(st) {
     const q = new URLSearchParams();
     if (st.a) q.set('aufgabe', st.a);
+    else if (st.k && st.v === 'klasse') q.set('k', st.k);
+    else if (st.k && st.v === 'sitzung') q.set('sitzung', st.k);
     else if (st.l) q.set('hoeren', st.l);
-    else if (st.v && !['start', 'hoeruebung', 'aufgabe'].includes(st.v)) q.set('seite', st.v);
+    else if (st.v && !['start', 'hoeruebung', 'aufgabe', 'klasse', 'sitzung'].includes(st.v)) q.set('seite', st.v);
     if (st.b) q.set('buch', st.b);
     if (EMBED) q.set('embed', '1');
     const s = q.toString();
@@ -114,6 +118,11 @@
     restoring = true;
     try {
       if (st.a) hwShow(st.a);
+      else if (st.k && st.v === 'klasse') klCur && klCur.code === st.k ? nav('klasse') : klOpen(st.k);
+      else if (st.k && st.v === 'sitzung') {
+        klTeach = st.k;
+        nav('sitzung');
+      }
       else if (st.l) openListening(st.l);
       else {
         if (st.v === 'vokabeln') wsBook.set(st.b || null);

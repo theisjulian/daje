@@ -35,9 +35,9 @@ const icon = name =>
 
 const PRIMARY_NAV = [
   ['start', 'Mein Lernbereich'],
-  ['hoeren', 'Hörverstehen'],
-  ['vokabeln', 'Wortschatz'],
   ['grammatik', 'Grammatik'],
+  ['vokabeln', 'Wortschatz'],
+  ['hoeren', 'Hörverstehen'],
   ['sammlung', 'Merkliste']
 ];
 // Handy: vier Bereiche unten, die Merkliste wandert ins „Mehr“-Blatt.
@@ -53,6 +53,9 @@ const NAV_GROUP = {
   verben: 'grammatik',
   zahlen: 'grammatik',
   wuerfeln: 'grammatik',
+  klassen: 'start',
+  sitzung: 'start',
+  klasse: 'start',
   hoeruebung: 'hoeren',
   verlauf: 'sammlung'
 };
@@ -95,7 +98,7 @@ function setupShell() {
   document.querySelector('.wordmark')?.remove();
   const appname = document.querySelector('.appname');
   appname.innerHTML =
-    '<a href="#start" data-nav="start">' + DAJE_MARK + 'daje</a><small>Hören und Wortschatz</small>';
+    '<a href="#start" data-nav="start">' + DAJE_MARK + 'daje</a><small>Sprachen lernen</small>';
   document.querySelector('.nav-list').innerHTML =
     PRIMARY_NAV.map(navButton).join('') +
     '<hr class="nav-sep">' +

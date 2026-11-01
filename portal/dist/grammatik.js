@@ -144,3 +144,7 @@ document.addEventListener('click', e => {
   grSave();
   grammarPage();
 });
+/* Die Startseite nennt Grammatikthemen; beim ersten Aufbau war dieses Skript noch nicht geladen. */
+addEventListener('DOMContentLoaded', () => {
+  if (view === 'start' && !session) render();
+});

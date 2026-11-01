@@ -135,8 +135,12 @@ async function step(name, fn) {
     assert.ok(listenCount >= 10, 'zu wenige Hörübungen: ' + listenCount);
     await dp.click('[data-nav="hoeren"]');
     await dp.waitForSelector('main article, main .listen-card, main [data-open-listening]');
-    const text = await dp.textContent('main');
-    assert.match(text, new RegExp(listenCount + ' Hörübungen'));
+    // Standard: nur die Lernsprache (Italiano); „Alle Sprachen“ zeigt alles
+    const itCount = await dp.evaluate(() => contentList('listening').filter(x => x.language === 'it').length);
+    assert.match(await dp.textContent('#catalog-count'), new RegExp(itCount + ' Hörübung'));
+    await dp.click('.lern-switch [data-value="all"]');
+    assert.match(await dp.textContent('#catalog-count'), new RegExp(listenCount + ' Hörübungen'));
+    await dp.click('.lern-switch [data-value="it"]');
     await shot(dp, 'desk-katalog');
   });
 
@@ -300,7 +304,7 @@ async function step(name, fn) {
     await dp.goto(base, { waitUntil: 'networkidle' });
     assert.equal(await dp.getAttribute('[data-audience="learn"]', 'aria-pressed'), 'true');
     await dp.click('[data-audience="teach"]');
-    assert.match(await dp.textContent('main'), /Hörmaterial/);
+    assert.match(await dp.textContent('main'), /Unterricht vorbereiten/);
     await dp.reload({ waitUntil: 'networkidle' });
     assert.equal(await dp.getAttribute('[data-audience="teach"]', 'aria-pressed'), 'true');
     await dp.goto(base + '?hoeren=it-torino-demo', { waitUntil: 'networkidle' });
@@ -506,21 +510,109 @@ async function step(name, fn) {
     await pp.click('[data-focus="on"]');
   });
 
-  await step('Hausaufgabe: Lehrkraft stellt zusammen, Lernende sehen die Liste', async () => {
+  await step('Unterrichtsmappe: 5 Übungen schnell zusammenstellen, austauschen, übernehmen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => { localStorage.removeItem('daje-arbeitsblatt-v1'); localStorage.removeItem('daje-mappe-schnell-v1'); });
+    await pp.reload({ waitUntil: 'networkidle' });
     await pp.click('[data-audience="teach"]');
-    await pp.click('.tabbar [data-nav="hoeren"]');
-    await pp.locator('[data-hw]').nth(0).click();
-    await pp.locator('[data-hw]').nth(1).click();
-    await pp.click('#hw-pill');
-    const url = await pp.getAttribute('#hw-dialog [data-qr-copy]', 'data-qr-copy');
-    await pp.click('#hw-dialog [data-hw-clear]');
-    await pp.click('#hw-dialog [data-close]');
+    await pp.click('[data-ws-open]');
+    await pp.fill('#wsq-query', 'articolo');
+    await pp.click('[data-wsq-go]');
+    assert.equal(await pp.locator('.ws-quick-list li').count(), 5);
+    const first = await pp.locator('.ws-quick-list li >> nth=0 >> b').textContent();
+    await pp.click('.ws-quick-list li >> nth=0 >> [data-wsq-swap]');
+    assert.notEqual(await pp.locator('.ws-quick-list li >> nth=0 >> b').textContent(), first);
+    await pp.click('.ws-quick-list li >> nth=4 >> [data-wsq-drop]');
+    await pp.click('[data-wsq-take]');
+    assert.equal(await pp.evaluate(() => wsAll().length), 4);
+    const langs = await pp.evaluate(() => [...new Set(wsAll().map(id => findTask(id).language))]);
+    assert.deepEqual(langs, ['it']);
+    // Ohne Anmeldung: Link ohne Namen; Lernende sehen die Liste
+    await pp.click('#ws-dialog [data-ws-link]');
+    await pp.waitForSelector('#kl-dialog[open]');
+    assert.ok(await pp.$('#kl-dialog [data-acc-open]'), 'Hinweis auf Anmeldung');
+    const url = await pp.getAttribute('#kl-dialog [data-qr-copy]', 'data-qr-copy');
+    await pp.click('#kl-dialog [data-close]');
+    await pp.click('#ws-dialog [data-close]');
     await pp.click('[data-audience="learn"]');
     await pp.goto(url, { waitUntil: 'networkidle' });
+    assert.equal(await pp.locator('.hw-tasks li').count(), 4);
+    await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
+    assert.match(await pp.textContent('.back-link'), /Zur Aufgabenliste/);
+    await pp.evaluate(() => localStorage.removeItem('daje-arbeitsblatt-v1'));
+  });
+
+  await step('Klassensitzung (Server nachgebildet): Name eintragen, Aufgabe lösen, Ergebnis geht an die Lehrkraft', async () => {
+    const reports = [];
+    let joined = null;
+    const lesson = { title: 'Stunde Artikel', language: 'it', items: ['g:g-ecco1-artikel-sg-l1', 'g:g-ecco1-artikel-sg-l2'], packages: [], expires_at: '2099-01-01T00:00:00Z' };
+    await pp.route('**/rest/v1/rpc/daje_lesson_get', r => r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(lesson) }));
+    await pp.route('**/rest/v1/rpc/daje_lesson_join', async r => {
+      joined = JSON.parse(r.request().postData());
+      await r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ participant: '11111111-1111-1111-1111-111111111111', secret: '22222222-2222-2222-2222-222222222222', name: joined.p_name }) });
+    });
+    await pp.route('**/rest/v1/rpc/daje_lesson_report', async r => {
+      reports.push(JSON.parse(r.request().postData()));
+      await r.fulfill({ status: 204, body: '' });
+    });
+    await pp.evaluate(() => { localStorage.removeItem('daje-klasse-v1'); localStorage.removeItem('sprachtrainer-profiles-v2'); });
+    await pp.goto(base + '?k=abc123def0', { waitUntil: 'networkidle' });
+    await pp.waitForSelector('#kl-join');
+    await pp.fill('#kl-first', 'Lena');
+    await pp.fill('#kl-short', 'K.');
+    await pp.click('#kl-join [type=submit]');
+    await pp.waitForSelector('.hw-tasks li');
+    assert.equal(joined.p_name, 'Lena K.');
     assert.equal(await pp.locator('.hw-tasks li').count(), 2);
-    await pp.click('.tabbar [data-nav="start"]');
-    assert.equal(await pp.locator('.hw-home').count(), 1);
+    await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
+    await pp.waitForTimeout(200);
+    const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
+    for (let i = 0; i < answers.length; i++) await pp.locator('.gc').nth(i).getByRole('button', { name: answers[i], exact: true }).click();
+    await pp.click('#listening-form [type=submit]');
+    await pp.waitForSelector('.hw-next');
+    await pp.waitForTimeout(300);
+    const done = reports.find(r => r.p_done);
+    assert.ok(reports.some(r => !r.p_done), 'begonnen gemeldet');
+    assert.ok(done && done.p_task === 'g-ecco1-artikel-sg-l1' && done.p_correct === done.p_total, 'Ergebnis gemeldet: ' + JSON.stringify(done));
+    assert.ok(Object.values(done.p_answers).every(v => v.ok === true));
+    await pp.click('.hw-next [data-lesson]');
+    assert.equal(await pp.evaluate(() => currentLesson().id), 'g-ecco1-artikel-sg-l2');
+    await pp.reload({ waitUntil: 'networkidle' });
+    await pp.goto(base + '?k=abc123def0', { waitUntil: 'networkidle' });
+    await pp.waitForSelector('.hw-tasks li');
+    assert.match(await pp.textContent('main'), /Lena K\./);
+    await pp.unrouteAll({ behavior: 'ignoreErrors' });
+    await pp.evaluate(() => localStorage.removeItem('daje-klasse-v1'));
+  });
+
+  await step('Lehrer-Übersicht einer Klassensitzung (Daten nachgebildet): Tabelle, Klasse, häufige Fehler', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => {
+      save('daje-lehrkraft-ok', true);
+      setPortalAudience('teach');
+      refreshAudience();
+      ACC.user = { id: 'u1', email: 'lehrer@example.org' };
+      const rows = {
+        daje_lessons: { id: 'L1', code: 'abc123def0', title: 'Stunde Artikel', items: ['g:g-ecco1-artikel-sg-l1', 'g:g-ecco1-artikel-sg-l2'], packages: [], expires_at: '2099-01-01T00:00:00Z', closed: false },
+        daje_participants: [
+          { id: 'p1', name: 'Lena K.', joined_at: new Date().toISOString(), last_seen: new Date().toISOString(), daje_results: [{ task_id: 'g-ecco1-artikel-sg-l1', correct: 6, total: 12, done: true, attempts: 1, answers: { q1: { ok: false, a: '{"g1":"lo"}' } }, updated_at: new Date().toISOString() }] },
+          { id: 'p2', name: 'Tom B.', joined_at: new Date().toISOString(), last_seen: new Date().toISOString(), daje_results: [{ task_id: 'g-ecco1-artikel-sg-l1', correct: 4, total: 12, done: true, attempts: 2, answers: { q1: { ok: false, a: '{"g1":"lo"}' } }, updated_at: new Date().toISOString() }, { task_id: 'g-ecco1-artikel-sg-l2', correct: 0, total: 1, done: false, attempts: 0, answers: {}, updated_at: new Date().toISOString() }] }
+        ]
+      };
+      const q = table => {
+        const b = { select: () => b, eq: () => b, order: () => b, limit: () => b, maybeSingle: async () => ({ data: rows[table], error: null }), then: (res, rej) => Promise.resolve({ data: rows[table], error: null }).then(res, rej) };
+        return b;
+      };
+      sb = { from: q, rpc: async () => ({ data: null, error: null }), auth: { signOut: async () => {} } };
+      klTeach = 'abc123def0';
+      nav('sitzung');
+    });
+    await pp.waitForSelector('.kl-table');
+    assert.equal(await pp.locator('.kl-table tbody tr').count(), 2);
+    assert.match(await pp.textContent('.kl-table'), /Lena K\./);
+    assert.match(await pp.textContent('.kl-table tbody tr >> nth=0'), /6\/12/);
+    assert.match(await pp.textContent('.kl-hard'), /häufig falsch/);
+    await pp.evaluate(() => { clearTimeout(klTimer); ACC.user = null; sb = null; setPortalAudience('learn'); refreshAudience(); });
   });
 
   await step('Grammatik: Katalog, Thema, alle Übungen öffnen, eine lösen', async () => {
@@ -538,7 +630,11 @@ async function step(name, fn) {
     // Eine Auswahl-Übung vollständig richtig lösen
     await pp.evaluate(() => openListening('g-ecco1-artikel-sg-l1'));
     const answers = await pp.evaluate(() => findTask('g-ecco1-artikel-sg-l1').questions[0].gaps.map(g => g.answer));
-    for (let i = 0; i < answers.length; i++) await pp.locator('.gc').nth(i).getByRole('button', { name: answers[i], exact: true }).click();
+    for (let i = 0; i < answers.length; i++) {
+      const gc = pp.locator('.gc').nth(i);
+      if (await gc.locator('.gc-pick').count()) await gc.locator('.gc-pick').click();
+      await gc.getByRole('button', { name: answers[i], exact: true }).click();
+    }
     // Satzbaukasten: Wörter antippen, eines per Ziehen umstellen
     const sb = await pp.evaluate(() => contentList('grammar').find(x => x.questions.some(q => q.type === 'ordering' && q.items.length >= 4 && new Set(q.items.map(i => i.text)).size === q.items.length && q.items.every(i => i.text.length <= 20))).id);
     await pp.evaluate(i => openListening(i), sb);
@@ -603,6 +699,7 @@ async function step(name, fn) {
     await pp.selectOption(`[data-ws-to="${last}"]`, '1');
     assert.deepEqual(await pp.evaluate(() => wsDraft.sheets.map(s => s.length)), [2, 1]);
     // Ziehen: zweite Übung von Blatt 1 nach oben
+    await pp.evaluate(() => document.querySelector('.ws-items[data-sheet="0"]').scrollIntoView({ block: 'center' }));
     const grip = await pp.$$('.ws-items[data-sheet="0"] .ws-grip');
     const first = await (await pp.$('.ws-items[data-sheet="0"] .ws-item')).boundingBox();
     const g = await grip[1].boundingBox();
@@ -630,52 +727,6 @@ async function step(name, fn) {
     await pp.waitForSelector('#teaching-print .hb-rule');
     await pp.click('[data-portal="close-print"]');
     await pp.evaluate(() => { localStorage.removeItem('daje-arbeitsblatt-v1'); wsDraft = { title: '', sheets: [[]], rule: true }; wsRefresh(); });
-  });
-
-  await step('Stunden-Link: Mappe als Link, Lernende arbeiten die Aufgaben der Reihe nach ab', async () => {
-    await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
-    await pp.evaluate(() => {
-      localStorage.setItem('daje-arbeitsblatt-v1', JSON.stringify({ title: 'Stunde Artikel', sheets: [['g-ecco1-artikel-sg-l1', 'g-ecco1-artikel-sg-l2', 'eigen-stunde1']], rule: true }));
-    });
-    await pp.reload({ waitUntil: 'networkidle' });
-    // Eigene Übung (z. B. Lückentext aus einem Artikel) reist gepackt im Link mit
-    await pp.evaluate(() => {
-      const p = JSON.parse(JSON.stringify(findTask('g-ecco1-artikel-sg-l3')));
-      Object.assign(p, { id: 'eigen-stunde1', title: 'Mein Zeitungstext' });
-      p.grammar = { ...p.grammar, origin: 'original' };
-      editorState.items.push({ payload: p, status: 'published', updatedAt: new Date().toISOString() });
-      saveEditorState();
-    });
-    await pp.click('[data-audience="teach"]');
-    await pp.click('#ws-pill');
-    await pp.click('#ws-dialog [data-ws-link]');
-    await pp.waitForSelector('#hw-dialog[open]');
-    const url = await pp.getAttribute('#hw-dialog [data-qr-copy]', 'data-qr-copy');
-    if (url.length <= 1800) {
-      await pp.click('#hw-dialog [data-hw-beamer]');
-      assert.ok(await pp.$('#hw-beamer[open] .hw-beamer-qr svg'), 'Beamer-QR');
-      await pp.click('#hw-beamer [data-close]');
-    } else assert.ok(await pp.$('#hw-dialog .hw-long'), 'Hinweis: Link zu lang für QR');
-    await pp.click('#hw-dialog [data-close]');
-    await pp.click('[data-audience="learn"]');
-    assert.match(url, /pakete=/);
-    await pp.evaluate(() => { editorState.items = editorState.items.filter(i => i.payload?.id !== 'eigen-stunde1'); saveEditorState(); localStorage.removeItem('daje-geteilt-v1'); });
-    await pp.goto(url, { waitUntil: 'networkidle' });
-    await pp.waitForSelector('.hw-tasks li');
-    assert.equal(await pp.locator('.hw-tasks li').count(), 3);
-    assert.match(await pp.textContent('.hw-tasks'), /Mein Zeitungstext/);
-    await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
-    const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
-    for (let i = 0; i < answers.length; i++) {
-      const gc = pp.locator('.gc').nth(i);
-      if (await gc.locator('.gc-pick').count()) await gc.locator('.gc-pick').click();
-      await gc.getByRole('button', { name: answers[i], exact: true }).click();
-    }
-    await pp.click('#listening-form [type=submit]');
-    await pp.waitForSelector('.hw-next');
-    await pp.click('.hw-next [data-lesson]');
-    assert.equal(await pp.evaluate(() => currentLesson().id), 'g-ecco1-artikel-sg-l2');
-    await pp.evaluate(() => localStorage.removeItem('daje-arbeitsblatt-v1'));
   });
 
   await step('Lückentext aus eigenem Text: Auftrag mit Text, C-Test anlegen und lösen', async () => {

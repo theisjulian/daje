@@ -1,5 +1,22 @@
 'use strict';
-let portalFilters = { language: 'all', level: 'all', media: 'all', hideWorking: false, query: '' },
+/* Lernsprache (Sprache der Inhalte), getrennt von der Sprache der Oberfläche. Standard: Italienisch. */
+const LERN_KEY = 'daje-lernsprache-v1';
+const LERN_NAMES = { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' };
+function lernSprache() {
+  try {
+    const v = localStorage.getItem(LERN_KEY);
+    return LERN_NAMES[v] ? v : 'it';
+  } catch (e) {
+    return 'it';
+  }
+}
+function setLernSprache(l) {
+  if (!LERN_NAMES[l]) return;
+  try {
+    localStorage.setItem(LERN_KEY, l);
+  } catch (e) {}
+}
+let portalFilters = { language: lernSprache(), level: 'all', media: 'all', hideWorking: false, query: '' },
   openedListening = null,
   studioSelection = null,
   studioTab = 'all',
@@ -557,7 +574,7 @@ function setupPortal() {
     if (item.payload?.kind === 'listening')
       item.payload.transcript = transcriptForDisplay(item.payload.transcript);
   }
-  document.querySelector('.appname small').textContent = 'Hören und Wortschatz';
+  document.querySelector('.appname small').textContent = 'Sprachen lernen';
   document.querySelector('.wordmark').dataset.nav = 'start';
   document.querySelector('.wordmark').href = '#start';
   portalAudience = portalProfile().audience === 'teach' ? 'teach' : 'learn';
@@ -677,7 +694,16 @@ function portalClick(e) {
   }
   if (a === 'filter-set') {
     portalFilters[b.dataset.key] = b.dataset.value;
+    if (b.dataset.key === 'language') {
+      setLernSprache(b.dataset.value);
+      document.querySelectorAll('[data-key="language"]').forEach(c => c.setAttribute('aria-pressed', String(c.dataset.value === b.dataset.value)));
+    }
     return refreshCatalog();
+  }
+  if (a === 'lern-set') {
+    setLernSprache(b.dataset.value);
+    portalFilters.language = b.dataset.value;
+    return render();
   }
   if (a === 'home-level') {
     portalFilters = { ...portalFilters, level: b.dataset.value, query: '' };

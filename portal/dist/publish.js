@@ -19,11 +19,13 @@ function liveSave(c) {
 function liveIsPublic(id) {
   return STOCK_PACKAGES.some(x => x.id === id) || [...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].some(x => x.id === id);
 }
-const liveAdmin = () => !!liveCfg().token;
+/* Betreiber: GitHub-Zugang in diesem Browser oder als Administrator im daje-Konto angemeldet (konto.js). */
+const liveAdmin = () => !!liveCfg().token || (typeof ACC !== 'undefined' && ACC.admin);
 /* Knopf für den Betreiber (GitHub-Zugang in diesem Browser): veröffentlichte Fassung bearbeiten. */
 function liveEditButton(id, cls = 'button secondary') {
-  return liveAdmin() && liveIsPublic(id) && !editorState.items.some(i => edId(i) === id)
-    ? `<button class="${cls}" data-live-edit="${esc(id)}">Veröffentlichte Fassung bearbeiten</button>`
+  const sbAdmin = typeof ACC !== 'undefined' && ACC.admin;
+  return liveAdmin() && (liveIsPublic(id) || sbAdmin) && !/^wf-/.test(id) && !editorState.items.some(i => edId(i) === id)
+    ? `<button class="${cls}" data-live-edit="${esc(id)}">${sbAdmin ? 'Bearbeiten' : 'Veröffentlichte Fassung bearbeiten'}</button>`
     : '';
 }
 function liveEdit(id) {
@@ -35,12 +37,17 @@ function liveEdit(id) {
   saveEditorState();
   studioSelection = id;
   edWork = null;
+  if (!isTeacher()) {
+    save('daje-lehrkraft-ok', true);
+    setPortalAudience('teach');
+    refreshAudience();
+  }
   nav('redaktion');
   setTimeout(() => {
     const b = $('live-box');
     if (b) b.open = true;
   }, 0);
-  toast('Veröffentlichte Fassung geöffnet. Nach dem Ändern unten „Live stellen“.');
+  toast(typeof ACC !== 'undefined' && ACC.admin ? 'Zum Bearbeiten geöffnet. Danach oben „Sofort für alle speichern“.' : 'Veröffentlichte Fassung geöffnet. Nach dem Ändern unten „Live stellen“.');
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-live-edit]');
