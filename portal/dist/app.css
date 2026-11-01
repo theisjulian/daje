@@ -9029,3 +9029,40 @@ body.kb-open .checkbar { position: static !important; }
 #kl-add-q { width: 100%; min-height: 42px; border-radius: 12px; border: 1px solid var(--hairline); background: var(--fill); color: inherit; font: inherit; padding: 0 12px; margin-bottom: 8px; }
 .tadmin-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0}.tadmin-row b{display:block}.tadmin-row small{color:var(--label-2);font-size:.8rem}.tdc-admin .tdc-ico{background:color-mix(in srgb,var(--red) 14%,transparent);color:var(--red)}
 body:has(.kl-livebar) .workspace{padding-bottom:calc(150px + env(safe-area-inset-bottom))!important}
+
+/* Anmeldepflicht: Willkommensseite für Gäste */
+html.is-gated .nav-list, html.is-gated .tabbar, html.is-gated .audience-switch, html.is-gated #share { display: none !important; }
+.gate { max-width: 860px; }
+.gate-hero { padding: 18px 0 10px; }
+.gate-hero h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); margin: 6px 0 12px; }
+.gate-hero p { font-size: 1.08rem; max-width: 620px; color: var(--label-2); }
+.gate-act { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.gate-card { margin-top: 26px; padding: 22px; border-radius: var(--r-xl); }
+.gate-card h2, .gate-try h2 { margin: 0 0 6px; font-size: 1.2rem; }
+.gate-code { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-top: 10px; }
+.gate-code .field { flex: 1 1 220px; margin: 0; }
+.gate-try { margin-top: 30px; }
+.gate-samples { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 10px; }
+.gate-sample { display: flex; flex-direction: column; gap: 4px; text-align: left; padding: 16px; border-radius: 18px; border: 1px solid var(--hairline); background: var(--fill); color: inherit; font: inherit; cursor: pointer; min-width: 0; }
+.gate-sample b { font-size: 1rem; }
+.gate-sample small { color: var(--label-2); font-size: .82rem; }
+.gate-kind { font-size: .72rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--blue); }
+.gate-foot { margin-top: 28px; }
+
+/* Prüfungstraining */
+.pt-levels { margin: 6px 0 18px; }
+.pt-teach { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 18px; border-radius: var(--r-lg); margin-bottom: 18px; }
+.pt-teach b { display: block; }
+.pt-teach small { color: var(--label-2); }
+.pt-part { margin-top: 22px; }
+.pt-part h2 { font-size: 1.1rem; margin: 0 0 10px; }
+.pt-part h2 small { font-weight: 500; font-size: .78rem; color: var(--label-2); margin-left: 6px; }
+.pt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.pt-card { display: flex; flex-direction: column; gap: 4px; text-align: left; padding: 14px 16px; border-radius: 16px; border: 1px solid var(--hairline); background: var(--fill); color: inherit; font: inherit; cursor: pointer; min-width: 0; }
+.pt-card b { font-size: .95rem; line-height: 1.3; }
+.pt-card small { color: var(--label-2); font-size: .8rem; }
+.pt-card.is-done { border-color: color-mix(in srgb, var(--green, #2a9d6a) 45%, transparent); }
+.pt-type { font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--orange); }
+.pt-type i { font-style: normal; color: var(--label-2); text-transform: none; letter-spacing: 0; }
+.pt-empty { padding: 22px; border-radius: var(--r-lg); margin-top: 10px; }
+.pt-empty h2 { font-size: 1.1rem; margin: 0 0 6px; }

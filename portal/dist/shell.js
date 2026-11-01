@@ -36,6 +36,7 @@ const ICONS = {
   einstellungen: '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>'
 };
 // Markenzeichen in der Kopfzeile: das App-Icon (Ohr) unverändert, klein neben dem Namen.
+ICONS.pruefung = ICONS.cils;
 const DAJE_MARK = '<img class="daje-mark" src="assets/daje-icon.svg" alt="" width="20" height="20">';
 const icon = name =>
   `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
@@ -45,10 +46,11 @@ const PRIMARY_NAV = [
   ['grammatik', 'Grammatik'],
   ['vokabeln', 'Wortschatz'],
   ['hoeren', 'Hörverstehen'],
+  ['pruefung', 'Prüfungstraining'],
   ['sammlung', 'Merkliste']
 ];
 // Handy: vier Bereiche unten, die Merkliste wandert ins „Mehr“-Blatt.
-const TAB_NAV = PRIMARY_NAV.filter(([r]) => r !== 'sammlung');
+const TAB_NAV = PRIMARY_NAV.filter(([r]) => r !== 'sammlung' && r !== 'pruefung');
 const SECONDARY_NAV = [
   ['fortschritt', 'Mein Fortschritt'],
   ['hilfe', 'Lerntipps'],
@@ -61,7 +63,7 @@ const NAV_GROUP = {
   zahlen: 'grammatik',
   wuerfeln: 'grammatik',
   klassen: 'start',
-  cils: 'start',
+  cils: 'pruefung',
   sitzung: 'start',
   klasse: 'start',
   hoeruebung: 'hoeren',
@@ -162,7 +164,7 @@ function setupShell() {
   sheet.className = 'sheet';
   sheet.setAttribute('aria-label', 'Weitere Bereiche');
   sheet.innerHTML = `<div class="sheet-grip" aria-hidden="true"></div>
-    <div class="sheet-grid">${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
+    <div class="sheet-grid">${navButton(['pruefung', 'Prüfungstraining'])}${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
     <div class="sheet-grid actions">
       <button data-sheet-click="look-open">${icon('look')}<span>Darstellung</span></button>
       <button data-acc-open>${icon('account')}<span>Konto und Lernprofil</span></button>

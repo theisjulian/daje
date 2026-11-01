@@ -1,44 +1,40 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>daje</title></head>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>daje</title></head>
 <body style="margin:0;padding:0;background:#f3f1fa">
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f3f1fa"><tr><td align="center" style="padding:28px 12px">
-<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:560px;background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 12px 40px rgba(40,30,90,.10)">
-<tr><td style="padding:26px 36px;background:#4f46e5;background-image:linear-gradient(135deg,#4f46e5 0%,#6d3fd9 50%,#c2187a 100%)">
-<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td style="vertical-align:middle"><img src="https://daje.theisapps.de/assets/apple-touch-icon.png" width="40" height="40" alt="" style="display:block;border-radius:11px;border:0"></td><td style="vertical-align:middle;padding-left:12px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:24px;font-weight:700;color:#ffffff;letter-spacing:-.01em">daje</td></tr></table>
-</td></tr>
-{{ if eq .Data.lang "it" }}<tr><td style="padding:34px 36px 8px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#14161a">
-<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;font-weight:700;color:#14161a">Benvenuta/o su daje</h1>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:560px;background:#ffffff;border-radius:24px">
+<tr><td style="padding:24px 36px;background:#5b3fd6;border-radius:24px 24px 0 0;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:24px;font-weight:700;color:#ffffff"><img src="https://daje.theisapps.de/assets/apple-touch-icon.png" width="40" height="40" alt="" style="vertical-align:middle;border-radius:11px;border:0;margin-right:12px">daje</td></tr>
+<tr><td style="padding:32px 36px 28px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#14161a">
+{{ if eq .Data.lang "it" }}
+<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;color:#14161a">Benvenuta/o su daje</h1>
 <p style="margin:0 0 6px;font-size:16px;line-height:1.6;color:#14161a"><b>{{ if .Data.first_name }}Ciao {{ .Data.first_name }},{{ else }}Ciao,{{ end }}</b></p>
 <p style="margin:0 0 26px;font-size:16px;line-height:1.6;color:#3b3f48">che bello averti con noi. Conferma il tuo indirizzo e-mail e il tuo account è pronto: i tuoi progressi vengono salvati e puoi continuare su tutti i dispositivi.</p>
-<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td style="border-radius:999px;background:#5b3fd6;background-image:linear-gradient(135deg,#4f46e5,#c2187a)">
-<a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px">Conferma l’e-mail</a></td></tr></table>
-<p style="margin:26px 0 0;font-size:13px;line-height:1.55;color:#6b6f78">Il link è valido 24 ore. Non ti sei registrata/o su daje? Ignora pure questa e-mail.</p>
-</td></tr>
-<tr><td style="padding:18px 36px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;color:#9a9ca3;border-top:1px solid #eeecf5">daje · Imparare le lingue · di theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></td></tr>{{ else if eq .Data.lang "en" }}<tr><td style="padding:34px 36px 8px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#14161a">
-<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;font-weight:700;color:#14161a">Welcome to daje</h1>
+<p style="margin:0 0 26px"><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;background:#5b3fd6;color:#ffffff;font-size:16px;font-weight:700;text-decoration:none;border-radius:999px">Conferma l’e-mail</a></p>
+<p style="margin:0 0 22px;font-size:13px;line-height:1.55;color:#6b6f78">Il link è valido 24 ore. Non ti sei registrata/o su daje? Ignora pure questa e-mail.</p>
+<p style="margin:0;padding-top:16px;border-top:1px solid #eeecf5;font-size:12px;color:#9a9ca3">daje · Imparare le lingue · di theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></p>
+{{ else if eq .Data.lang "en" }}
+<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;color:#14161a">Welcome to daje</h1>
 <p style="margin:0 0 6px;font-size:16px;line-height:1.6;color:#14161a"><b>{{ if .Data.first_name }}Ciao {{ .Data.first_name }},{{ else }}Ciao,{{ end }}</b></p>
 <p style="margin:0 0 26px;font-size:16px;line-height:1.6;color:#3b3f48">great to have you on board. Please confirm your email address and your account is ready: your progress is saved and you can keep practising on all your devices.</p>
-<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td style="border-radius:999px;background:#5b3fd6;background-image:linear-gradient(135deg,#4f46e5,#c2187a)">
-<a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px">Confirm email</a></td></tr></table>
-<p style="margin:26px 0 0;font-size:13px;line-height:1.55;color:#6b6f78">The link is valid for 24 hours. Didn’t sign up for daje? Just ignore this email.</p>
-</td></tr>
-<tr><td style="padding:18px 36px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;color:#9a9ca3;border-top:1px solid #eeecf5">daje · Language learning · by theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></td></tr>{{ else if eq .Data.lang "fr" }}<tr><td style="padding:34px 36px 8px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#14161a">
-<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;font-weight:700;color:#14161a">Bienvenue sur daje</h1>
+<p style="margin:0 0 26px"><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;background:#5b3fd6;color:#ffffff;font-size:16px;font-weight:700;text-decoration:none;border-radius:999px">Confirm email</a></p>
+<p style="margin:0 0 22px;font-size:13px;line-height:1.55;color:#6b6f78">The link is valid for 24 hours. Didn’t sign up for daje? Just ignore this email.</p>
+<p style="margin:0;padding-top:16px;border-top:1px solid #eeecf5;font-size:12px;color:#9a9ca3">daje · Language learning · by theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></p>
+{{ else if eq .Data.lang "fr" }}
+<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;color:#14161a">Bienvenue sur daje</h1>
 <p style="margin:0 0 6px;font-size:16px;line-height:1.6;color:#14161a"><b>{{ if .Data.first_name }}Ciao {{ .Data.first_name }},{{ else }}Ciao,{{ end }}</b></p>
 <p style="margin:0 0 26px;font-size:16px;line-height:1.6;color:#3b3f48">ravis de te compter parmi nous. Confirme ton adresse e-mail et ton compte est prêt : ta progression est enregistrée et tu continues sur tous tes appareils.</p>
-<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td style="border-radius:999px;background:#5b3fd6;background-image:linear-gradient(135deg,#4f46e5,#c2187a)">
-<a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px">Confirmer l’e-mail</a></td></tr></table>
-<p style="margin:26px 0 0;font-size:13px;line-height:1.55;color:#6b6f78">Le lien est valable 24 heures. Tu ne t’es pas inscrit·e sur daje ? Ignore simplement cet e-mail.</p>
-</td></tr>
-<tr><td style="padding:18px 36px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;color:#9a9ca3;border-top:1px solid #eeecf5">daje · Apprendre les langues · par theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></td></tr>{{ else }}<tr><td style="padding:34px 36px 8px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#14161a">
-<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;font-weight:700;color:#14161a">Willkommen bei daje</h1>
+<p style="margin:0 0 26px"><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;background:#5b3fd6;color:#ffffff;font-size:16px;font-weight:700;text-decoration:none;border-radius:999px">Confirmer l’e-mail</a></p>
+<p style="margin:0 0 22px;font-size:13px;line-height:1.55;color:#6b6f78">Le lien est valable 24 heures. Tu ne t’es pas inscrit·e sur daje ? Ignore simplement cet e-mail.</p>
+<p style="margin:0;padding-top:16px;border-top:1px solid #eeecf5;font-size:12px;color:#9a9ca3">daje · Apprendre les langues · par theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></p>
+{{ else }}
+<h1 style="margin:0 0 14px;font-size:24px;line-height:1.25;color:#14161a">Willkommen bei daje</h1>
 <p style="margin:0 0 6px;font-size:16px;line-height:1.6;color:#14161a"><b>{{ if .Data.first_name }}Ciao {{ .Data.first_name }},{{ else }}Ciao,{{ end }}</b></p>
 <p style="margin:0 0 26px;font-size:16px;line-height:1.6;color:#3b3f48">schön, dass du dabei bist. Bitte bestätige noch kurz deine E-Mail-Adresse, dann ist dein Konto bereit: Dein Lernstand wird gespeichert und du übst auf allen Geräten weiter.</p>
-<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td style="border-radius:999px;background:#5b3fd6;background-image:linear-gradient(135deg,#4f46e5,#c2187a)">
-<a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px">E-Mail bestätigen</a></td></tr></table>
-<p style="margin:26px 0 0;font-size:13px;line-height:1.55;color:#6b6f78">Der Link gilt 24 Stunden. Du hast dich nicht bei daje registriert? Dann ignoriere diese E-Mail einfach.</p>
+<p style="margin:0 0 26px"><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:15px 30px;background:#5b3fd6;color:#ffffff;font-size:16px;font-weight:700;text-decoration:none;border-radius:999px">E-Mail bestätigen</a></p>
+<p style="margin:0 0 22px;font-size:13px;line-height:1.55;color:#6b6f78">Der Link gilt 24 Stunden. Du hast dich nicht bei daje registriert? Dann ignoriere diese E-Mail einfach.</p>
+<p style="margin:0;padding-top:16px;border-top:1px solid #eeecf5;font-size:12px;color:#9a9ca3">daje · Sprachen lernen · von theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></p>
+{{ end }}
 </td></tr>
-<tr><td style="padding:18px 36px 30px;font-family:Inter,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;color:#9a9ca3;border-top:1px solid #eeecf5">daje · Sprachen lernen · von theis · <a href="https://daje.theisapps.de" style="color:#5b3fd6;text-decoration:none">daje.theisapps.de</a></td></tr>{{ end }}
 </table>
 </td></tr></table>
 </body></html>

@@ -88,7 +88,7 @@ async function step(name, fn) {
   const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
   const problems = [];
 
-  async function fresh(viewport) {
+  async function fresh(viewport, opts = {}) {
     const ctx = await browser.newContext({ viewport, locale: 'de-DE', reducedMotion: 'reduce' });
     // Die ausgelieferte App enthält keine synthetischen Demo-Hörübungen; für die Tests werden sie ergänzt.
     await ctx.route('**/listening-data.js', async route => {
@@ -96,6 +96,8 @@ async function step(name, fn) {
       const extra = require('fs').readFileSync(require('path').join(__dirname, 'fixtures', 'demo-seeds.js'), 'utf8');
       await route.fulfill({ response: res, body: (await res.text()) + '\n' + extra });
     });
+    // Die Inhalte sind nur für Angemeldete; die Tests laufen ohne Server-Konto, außer im eigenen Gast-Test.
+    if (!opts.guest) await ctx.addInitScript(() => (window.DAJE_E2E = true));
     const page = await ctx.newPage();
     page.on('dialog', d => d.accept()); // Rückfrage beim Wechsel zur Lehrkräfte-Ansicht
     page.on('pageerror', e => problems.push('Seitenfehler: ' + e.message));
@@ -957,6 +959,42 @@ async function step(name, fn) {
     assert.match(await pp.textContent('main h1'), /Test eigene Übung/);
   });
   await phone.ctx.close();
+
+  await step('Prüfungstraining: Niveaus, eigene CILS-Übung erscheint unter ihrem Prüfungsteil', async () => {
+    const pt = await fresh({ width: 1280, height: 900 });
+    const pp = pt.page;
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => {
+      const r = DajeCILS.build({ esercizi: [{ titolo: 'Un festival', testo: 'Testo del festival.', affermazioni: Array.from({ length: 14 }, (_, i) => ({ testo: 'Affermazione ' + (i + 1), presente: i % 2 === 0 })) }] }, { level: 'B1', type: 'let-info', id: edNewId, set: 'e2e' });
+      const v = TheisContent.validatePackage(r.items[0].pkg);
+      editorState.items.unshift({ payload: v.value, draft: r.items[0].pkg, status: 'published', updatedAt: new Date().toISOString() });
+      nav('pruefung');
+      document.querySelector('[data-pt-level="B1"]').click();
+    });
+    await pp.locator('.pt-card').first().waitFor();
+    assert.equal(await pp.locator('.pt-levels button').count(), 6);
+    assert.ok((await pp.locator('.pt-card b').first().textContent()).includes('Un festival'));
+    await pp.evaluate(() => nav('grammatik'));
+    assert.equal(await pp.locator('text=Un festival').count(), 0, 'CILS nicht in den Grammatikthemen');
+    await pt.ctx.close();
+  });
+
+  await step('Ohne Konto: Willkommensseite, Probeübung erlaubt, übrige Inhalte gesperrt', async () => {
+    const g = await fresh({ width: 390, height: 844 }, { guest: true });
+    const gp = g.page;
+    await gp.goto(base, { waitUntil: 'networkidle' });
+    await gp.locator('.gate-hero h1').waitFor();
+    assert.ok(!(await gp.locator('.tabbar').isVisible()), 'Leiste ohne Konto ausgeblendet');
+    assert.equal(await gp.locator('.gate-sample').count(), 3, 'drei Probeübungen');
+    await gp.locator('.gate-sample').first().click();
+    await gp.locator('.q').first().waitFor();
+    await gp.evaluate(() => nav('grammatik'));
+    await gp.locator('.gate-hero').waitFor();
+    await gp.evaluate(() => openListening('g-daje-202-001'));
+    assert.ok(await gp.locator('.gate-hero').isVisible(), 'nicht freigegebene Übung bleibt gesperrt');
+    assert.ok((await overflow(gp)) <= 1, 'kein seitlicher Überlauf');
+    await g.ctx.close();
+  });
 
   await step('Keine Seiten- oder Konsolenfehler während aller Tests', async () => {
     assert.deepEqual(problems, [], JSON.stringify(problems));

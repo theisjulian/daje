@@ -23,3 +23,23 @@ Ohne eigenen Mailserver kommen die Mails von einer Supabase-Adresse, und Supabas
 Für einen professionellen Absender (z. B. `daje <hallo@theisapps.de>`): *Authentication* → *Emails* → *SMTP Settings* →
 *Enable custom SMTP*, dort die Zugangsdaten deines Mailanbieters (z. B. Resend, Brevo oder der Mailserver von
 theisapps.de) eintragen. Danach unter *Rate Limits* die Zahl der Mails pro Stunde erhöhen.
+
+### IONOS als Mailserver
+
+| Feld | Wert |
+|---|---|
+| Host | `smtp.ionos.de` (nicht `ionos.smtp.com`) |
+| Port | `587` (STARTTLS) oder `465` (SSL) |
+| Benutzername | die vollständige Absenderadresse, z. B. `hallo@theisapps.de` |
+| Passwort | das Passwort dieses IONOS-Postfachs |
+| Absenderadresse | dieselbe Adresse wie der Benutzername |
+| Absendername | `daje` |
+
+Fehler „Error sending confirmation email“ bei der Registrierung bedeutet fast immer: Mailserver falsch eingetragen
+(Supabase-Protokoll: *Logs → Auth*).
+
+## Wichtig beim Einfügen
+
+Den Inhalt der Datei als **Quelltext** kopieren (Texteditor oder GitHub-Ansicht „Raw“), nicht aus einer im Browser
+geöffneten, gerenderten Seite. Die Sprachweichen `{{ if … }}` stehen nur innerhalb einer Tabellenzelle; sie dürfen nicht
+leer sein (`{{ if eq .Data.lang "it" }}{{ else … }}` ohne Text dazwischen heißt: kaputt kopiert).

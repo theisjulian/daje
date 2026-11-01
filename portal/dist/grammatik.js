@@ -44,6 +44,8 @@ const grUnitNo = u => (/^extra/i.test(u) ? 100 + (Number((u.match(/\d+/) || [0])
 function grTopics() {
   const map = new Map();
   for (const x of contentList('grammar')) {
+    // CILS-Übungen stehen im Prüfungstraining, nicht in den Grammatikthemen
+    if (x.catalog?.tags?.includes('cils')) continue;
     const g = x.grammar;
     // Das Themenregister legt Lernjahr, Lektion, Abschnitt und Reihenfolge fest, nicht das zuerst geladene Paket.
     const r = typeof GR_REGISTER !== 'undefined' && x.language === 'it' ? GR_REGISTER[g.topic] : null;

@@ -502,7 +502,7 @@ if (typeof document !== 'undefined') {
         const head = st.tema || (t ? t.it : 'Übungsprüfung');
         return `<article class="cils-set glass"><div class="cils-set-head"><span class="cils-badge">${esc(st.level)}</span><div><b>${esc(head)}</b><small>${t ? esc(DajeCILS.PARTS[t.part].de + ' · ' + t.it) + ' · ' : ''}${new Date(st.created).toLocaleDateString('de-DE', { dateStyle: 'medium' })} · ${plural(ids.length, 'Übung', 'Übungen')}</small></div></div>
           <ol class="cils-parts">${ids.map(id => `<li><button class="quiet" data-lesson="${esc(id)}">${esc(cilsPartName(id))}</button></li>`).join('')}</ol>
-          <div class="cils-set-act"><button class="button primary" data-cils-mappe="${esc(st.id)}">Drucken</button><button class="button secondary" data-cils-klasse="${esc(st.id)}">Klassensitzung</button><button class="quiet danger" data-cils-del="${esc(st.id)}">Löschen</button></div></article>`;
+          <div class="cils-set-act"><button class="button primary" data-cils-mappe="${esc(st.id)}">Drucken</button><button class="button secondary" data-cils-klasse="${esc(st.id)}">Klassensitzung</button>${typeof ACC !== 'undefined' && ACC.admin ? `<button class="button secondary" data-cils-publish="${esc(st.id)}">Für alle freigeben</button>` : ''}<button class="quiet danger" data-cils-del="${esc(st.id)}">Löschen</button></div></article>`;
       })
       .join('')}</div>`;
   }
@@ -544,7 +544,7 @@ if (typeof document !== 'undefined') {
     const t = DajeCILS.typeById(f.type);
     $('breadcrumb').textContent = 'CILS-Training';
     $('main').innerHTML = `<div class="page cils-page">
-      <button class="quiet back-link" data-nav="start">Mein Unterricht</button>
+      <button class="quiet back-link" data-nav="pruefung">Prüfungstraining</button>
       <header class="page-head"><div class="eyebrow">Prüfungsvorbereitung</div><h1>CILS-Training</h1><p>Wähle Niveau und einen Aufgabentyp der CILS-Prüfung. Die KI schreibt neue Übungen genau in diesem Format; daje macht daraus Übungen mit Lösungen, Druckfassung und Klassenlink.</p></header>
       <section class="cils-builder glass">
         <div class="cils-step"><span class="cils-n">1</span><div><h2>Niveau</h2>
