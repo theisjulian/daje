@@ -136,7 +136,7 @@ function klPage() {
   if (!klCur) return nav('start');
   $('breadcrumb').textContent = 'Klassensitzung';
   if (!klCur.participant) {
-    $('main').innerHTML = `<div class="page kl-join"><header class="page-head"><div class="eyebrow">Klassensitzung</div><h1>${esc(klCur.title || 'Aufgaben für die Stunde')}</h1><p>${plural(klCur.items.length, 'Aufgabe', 'Aufgaben')}${klCur.language ? ' · ' + esc(portalLang(klCur.language)) : ''}. Trag deinen Namen ein, damit deine Lehrkraft sieht, wie weit du bist.</p></header>
+    $('main').innerHTML = `<div class="page kl-join"><header class="page-head"><div class="eyebrow">Klassensitzung</div><h1>${esc(klCur.title || 'Aufgaben für die Stunde')}</h1><p><span>${plural(klCur.items.length, 'Aufgabe', 'Aufgaben')}${klCur.language ? ' · ' + esc(portalLang(klCur.language)) : ''}</span><br><span>Trag deinen Namen ein, damit deine Lehrkraft sieht, wie weit du bist.</span></p></header>
       <form id="kl-join" class="kl-form glass" novalidate>
         <label class="field">Vorname<input id="kl-first" autocomplete="given-name" maxlength="30" required></label>
         <label class="field">Kürzel <small>(z. B. Anfangsbuchstabe des Nachnamens)</small><input id="kl-short" maxlength="8" autocomplete="off" required></label>

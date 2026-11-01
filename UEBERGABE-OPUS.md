@@ -35,7 +35,8 @@ portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script 
   hoerblatt.js docs.js dialog.js   Druck/Word: Aufgabenblatt, Vokabeldokument, Dokumentdialog (Vorschau + Anpassen)
   wortschatz.js         Wortschatz-Hub (Buchcover-Kacheln, Lektions-/Seitenwahl, Auswahl)
   verlauf.js            Browserverlauf (Zurück-Taste/Wischgeste, ?seite=, ?buch=, ?hoeren=); zuletzt geladen, umhüllt nav/openListening/renderSession
-  aufgabe.js            Hausaufgabe: Lehrkraft bündelt Inhalte → ?aufgabe=<base64 {t,i:['l:id','v:id']}>, Lernende: Aufgabenliste
+  aufgabe.js            Klassenlink: Sitzung (Supabase, ?k=code) mit Namen und Übersicht; ohne Konto Link ?aufgabe=<base64 {t,i}> (alte Links gehen weiter)
+  konto.js              Optionales Konto (Supabase): Login, Lernstand-Sync, Admin-Bearbeiten (daje_overrides), Stärken/Schwächen
   verbs.js              Verbmaschine (VB_DATA [inf, de, gruppe, klasse, overrides] → vbBuild)
   studio.js             Redaktion „Eigene Übungen“: anlegen/bearbeiten (Entwurf in draft, gültiges Paket in payload), Teilen per ?eigene=<z|j+base64url> (deflate-raw), empfangene Pakete in daje-geteilt-v1
   shell.js extras2.js catalog.js instr.js publish.js qr.js   Navigation (Markenzeichen DAJE_MARK), Titelbildsuche/JSON-Bearbeitung, Live stellen (GitHub, nur Betreiber), QR, Anweisungstexte
@@ -237,7 +238,34 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Verben: rund 70 weitere (Primo/Secondo anno), Futur der Verben auf -iare korrigiert (sveglierò), Verben mit Fehlern kommen öfter dran (`daje-verben-fehler-v1`).
 - Neu würfeln (`wuerfel.js`, Ansicht `wuerfeln`): Artikel bestimmt/unbestimmt, Plural, Adjektivendungen, Verben; Wörter aus den Wortlisten des Lernjahrs bis zur gewählten Lektion; Plural nur für zählbare, heimische Nomen nach sicheren Regeln. Runde = Paket `wf-<übung>-<stufe>`, gespeichert in `daje-wuerfel-v1`.
 
+## 6v. Konto, Klassensitzungen, Admin-Bearbeiten (Supabase), Startseite (01.11.2026)
+
+**Backend:** Supabase-Projekt „forza“ (`holpayuwppblpupcgulo`, eu-central-1), eigene Tabellen mit Präfix `daje_`, getrennt von forza (forza: profiles, sessions, exercises … unberührt). Migrationen `daje_schema_v1`, `daje_is_admin_no_anon`. Öffentlicher Schlüssel (publishable) steht in `konto.js` (nur mit Zugriffsregeln nutzbar). Bibliothek lokal: `vendor/supabase-2.117.2.js`.
+
+| Tabelle | Inhalt | Zugriff (RLS) |
+|---|---|---|
+| `daje_admins` | Administratoren (user_id) | nur eigene Zeile lesbar; Pflege per SQL |
+| `daje_overrides` | bearbeitete/entfernte Übungen (id, kind, payload, removed) | lesen: alle; schreiben: `daje_is_admin()` |
+| `daje_progress` | Lernstand je Konto (Browser-Schlüssel siehe `SYNC_KEYS` in konto.js) | nur eigene Zeile |
+| `daje_lessons` | Klassensitzungen (code 10 Zeichen, items, packages, 30 Tage gültig, closed) | nur die Lehrkraft (teacher_id) |
+| `daje_participants` | Name (Vorname + Kürzel), secret | Lehrkraft der Sitzung lesen/löschen |
+| `daje_results` | je Person und Aufgabe: correct, total, done, answers {qid: {ok, a}} | Lehrkraft der Sitzung lesen |
+
+Lernende ohne Login nur über Funktionen (SECURITY DEFINER, prüfen Code/Ablauf/secret): `daje_lesson_get(code)`, `daje_lesson_join(code, name)` (gleiche Namen → „(2)“), `daje_lesson_report(participant, secret, task, correct, total, answers, done)`. Geprüft: falscher secret abgewiesen, fremde Konten sehen nichts, anonym keine Tabelle lesbar.
+
+**Einrichtung offen (Supabase-Dashboard, nur dort möglich):** Authentication → URL Configuration: `https://daje.theisapps.de` als Redirect-URL eintragen (Bestätigungs- und Passwort-Links). Optional: Leaked Password Protection einschalten. Weitere Administratoren: `insert into daje_admins(user_id) values ('<uuid>')`.
+
+**App:**
+- `konto.js`: Anmelden/Registrieren/Passwort vergessen (E-Mail + Passwort), Konto-Knopf oben. Sync: jede Änderung an `SYNC_KEYS` wird nach 4 s hochgeladen; beim Anmelden Abgleich, bei Konflikt Auswahl „Konto laden“ / „Gerät übernehmen“; Abmelden optional mit Löschen vom Gerät. Overrides werden beim Start aus dem Cache und dann frisch geladen und in `STOCK_PACKAGES`/`STOCK_REMOVED` angewendet. Admin: „Bearbeiten“ bei jeder Übung (auch Lernenden-Ansicht), im Editor „Sofort für alle speichern“, „Für alle entfernen“, „Zur ursprünglichen Fassung zurück“. „Stärken und Schwächen“ auf „Mein Fortschritt“.
+- `aufgabe.js`: Hausaufgabe entfernt. Unterrichtsmappe → „Klassenlink“: mit Konto Sitzung (kurzer QR, Beamer, Übersicht `?sitzung=code`, alle 20 s aktualisiert, Klassenschnitt, häufige Fehler, beenden/löschen), ohne Konto Link ohne Namen. Lernende: `?k=code`, Vorname + Kürzel, Liste, „Nächste Aufgabe“, Rückweg zur Liste, Ergebnisse offline gepuffert (`daje-klasse-queue-v1`).
+- `worksheet.js`: „Unterrichtsmappe“, „In die Mappe“, Sprache/Niveau je Übung, Warnung bei mehreren Sprachen, „5 Übungen schnell zusammenstellen“ (Sprache, Art, Lernjahr, Stufe, Stichwort; austauschen, entfernen, neu mischen).
+- Startseite (views.js `learnerHome`/`teacherHome`): alle Bereiche gleichwertig, Lernsprache (`daje-lernsprache-v1`, `lernSwitch`), Hörkatalog standardmäßig nur in der Lernsprache. Navigation: Start, Grammatik, Wortschatz, Hörverstehen.
+- Grammatik: Suche über alle Lernjahre. KI-Import ordnet in vorhandene Themen ein (`gkMatchTopic`). Lückentext-Quelle: URL/Autor:in/Titel/Medium/Datum → APA 7 (`DajeKI.apaCite`), `sources[].meta`, fehlende Angaben werden genannt.
+- Tests: e2e 37 (Klassensitzung und Lehrer-Übersicht mit nachgebildetem Server, Schnellzusammenstellung), Einheiten-Tests inkl. APA.
+- Übersetzungen: `werkzeuge/i18n/rows_4.py`.
+
 ## 7. Offene Punkte
+- Supabase: Redirect-URL eintragen (siehe 6v); Klassensitzung einmal live mit zwei iPads durchspielen.
 - Bedienung Ziehen/Antippen auf echtem iPad prüfen (Safari, Stift).
 - Grammatik Secondo/Terzo anno: Themen nach Inhaltsverzeichnis anlegen (Vorlage `werkzeuge/grammatik/anno1`).
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.

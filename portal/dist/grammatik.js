@@ -106,7 +106,7 @@ function grOverview() {
     <header class="page-head"><div class="eyebrow">Grammatik</div><h1>Regeln verstehen, Formen sicher anwenden.</h1><p>Zu jedem Thema ein kurzer Merkkasten und Übungen in drei Stufen. Fang einfach an und steigere dich.</p></header>
     ${grTrainers()}
     <label class="searchbox gr-search"><span class="sr-only">Grammatik durchsuchen</span><input id="gr-search" type="search" placeholder="Thema suchen, zum Beispiel articolo, passato prossimo, pronomi" value="${esc(GR_STATE.query || '')}" autocomplete="off"></label>
-    ${q ? `<p class="small muted">${plural(shown.length, 'Thema', 'Themen')} zu „${esc(GR_STATE.query)}“ in allen Lernjahren. <button class="quiet" data-gr-clear>Suche löschen</button></p>` : bandSeg}${lvlChips}
+    ${q ? `<p class="small muted"><span>${plural(shown.length, 'Thema gefunden', 'Themen gefunden')}, in allen Lernjahren.</span> <button class="quiet" data-gr-clear>Suche löschen</button></p>` : bandSeg}${lvlChips}
     ${body}
   </div>`;
 }
