@@ -397,12 +397,14 @@
     const topicId = inp.topicId || ('eigen-' + slug(topicTitle).slice(0, 20) + '-' + Math.random().toString(36).slice(2, 6));
     const book = [inp.series, inp.volume].filter(Boolean).join(' ');
     const where = [book && book + (inp.publisher ? ' (' + inp.publisher + ')' : ''), inp.unit, inp.pages ? 'S. ' + inp.pages : ''].filter(Boolean).join(', ');
-    const src = String(inp.sourceName || '').trim().slice(0, 200);
+    // Quelle des Ausgangstexts: strukturierte Angaben → APA 7; fehlende Angaben werden nicht erfunden.
+    const meta = sourceMeta(inp);
+    const apa = meta ? apaCite(meta).text : String(inp.sourceName || '').trim().slice(0, 300);
     const citation =
       inp.mode === 'text'
         ? origin === 'original'
-          ? 'Lückentext nach ' + (src || 'einem fremden Text') + '. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.'
-          : 'Eigener Lückentext' + (src ? ' nach ' + src : '') + '.'
+          ? 'Lückentext nach: ' + (apa || 'einem fremden Text (Quelle nicht angegeben)')
+          : 'Eigener Lückentext' + (apa ? ' nach: ' + apa : '.')
         : origin === 'original'
         ? 'Übung aus ' + (where || 'einem Schulbuch') + ', unverändert übernommen. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.'
         : origin === 'adapted'
@@ -442,7 +444,7 @@
         description: String(ex.description || topicTitle + ' · ' + { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' }[difficulty]).slice(0, 600),
         topics: [topicTitle, 'Grammatik'],
         estimatedMinutes: Math.max(3, Math.min(45, Math.round(qs.length * 3) + 2)),
-        sources: [{ kind: origin === 'own' ? 'own' : 'external', citation, rights: origin === 'original' ? 'cleared' : 'own' }],
+        sources: [{ kind: origin === 'own' ? 'own' : 'external', citation: citation.slice(0, 1000), url: inp.mode === 'text' && meta?.url ? meta.url : '', rights: origin === 'original' ? 'cleared' : 'own', ...(inp.mode === 'text' && meta ? { meta: { ...meta, style: 'APA 7' } } : {}) }],
         reviewNotes: n ? [] : arr(ai.reviewNotes).map(String).slice(0, 20),
         grammar: { topic: topicId, topicTitle, difficulty, origin, order: n },
         questions: qs
@@ -461,6 +463,68 @@
   }
 
   /* Auftrag Grammatik: Kommandodatei + Eingaben. */
+  /* Quellenangabe nach APA 7 (deutsche Fassung) für Onlineartikel:
+     Nachname, V. (Jahr, Tag. Monat). Titel. Medium. URL
+     Ohne Autor: Titel. (Jahr, …). Medium. URL · Ohne Datum: (o. J.). Nichts wird ergänzt, was fehlt. */
+  const MONTHS = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+  function sourceMeta(inp) {
+    const m = {};
+    ['url', 'author', 'title', 'site', 'date', 'manual'].forEach(k => {
+      const v = String(inp['source' + k[0].toUpperCase() + k.slice(1)] || '').trim().slice(0, 300);
+      if (v) m[k] = v;
+    });
+    return Object.keys(m).length ? m : null;
+  }
+  const initials = given =>
+    String(given)
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(p => p.split('-').map(x => x[0].toUpperCase() + '.').join('-'))
+      .join(' ');
+  function apaAuthor(name) {
+    const n = name.trim();
+    if (!n) return '';
+    if (n.includes(',')) {
+      const [last, given] = n.split(',', 2);
+      return last.trim() + (given && given.trim() ? ', ' + initials(given) : '');
+    }
+    const parts = n.split(/\s+/);
+    if (parts.length === 1) return n; // Redaktion oder Organisation
+    const last = parts.pop();
+    return last + ', ' + initials(parts.join(' '));
+  }
+  function apaDate(d) {
+    const s = String(d || '').trim();
+    let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/) || s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+    if (m) {
+      const [y, mo, da] = m[1].length === 4 ? [m[1], m[2], m[3]] : [m[3], m[2], m[1]];
+      return `${y}, ${Number(da)}. ${MONTHS[Number(mo) - 1] || mo}`;
+    }
+    m = s.match(/^(\d{4})$/);
+    return m ? m[1] : s ? s : '';
+  }
+  function apaCite(meta) {
+    const missing = [];
+    if (meta.manual) return { text: meta.manual, missing };
+    const authors = String(meta.author || '')
+      .split(/\s*;\s*|\s+(?:und|and|e|&)\s+/)
+      .map(apaAuthor)
+      .filter(Boolean);
+    const who = authors.length > 1 ? authors.slice(0, -1).join(', ') + ', & ' + authors[authors.length - 1] : authors[0] || '';
+    const date = apaDate(meta.date);
+    const title = (meta.title || '').replace(/[.]+$/, '');
+    if (!meta.author) missing.push('Autor:in');
+    if (!meta.date) missing.push('Datum');
+    if (!meta.title) missing.push('Titel');
+    if (!meta.site) missing.push('Medium');
+    if (!meta.url) missing.push('URL');
+    const when = '(' + (date || 'o. J.') + ').';
+    const whoDot = who && !/\.$/.test(who) ? who + '.' : who;
+    const parts = who ? [whoDot + ' ' + when, title ? title + '.' : '', meta.site ? meta.site + '.' : ''] : [title ? title + '. ' + when : when, meta.site ? meta.site + '.' : ''];
+    const text = [...parts, meta.url || ''].filter(Boolean).join(' ').replace(/\.\./g, '.').trim();
+    return { text, missing };
+  }
   const CLOZE_FOCUS = {
     verbi: 'Verben – alle konjugierten Verben werden Lücken, die Grundform steht in Klammern dahinter; gesucht ist die Form aus dem Text (richtige Zeit und Person)',
     articoli: 'Artikel – bestimmte und unbestimmte Artikel (auch l’, un’), ohne Hinweis in Klammern',
@@ -503,7 +567,9 @@
               : 'SCHWERPUNKT (Abschnitt 2 D, Art 3): ' + (inp.phaen === 'frei' ? String(inp.phaenFree || '').trim() : CLOZE_FOCUS[inp.phaen] || CLOZE_FOCUS.verbi))
         : null,
       inp.mode === 'text' && inp.cloze !== 'ctest' ? '- Wortkasten: ' + (inp.bank === 'ja' ? 'ja (wordBank: true)' : 'nein, frei schreiben') : null,
-      inp.mode === 'text' && inp.sourceName ? '- Quelle des Texts: ' + inp.sourceName : null,
+      inp.mode === 'text' && (sourceMeta(inp) || inp.sourceName)
+        ? '- Quelle des Texts (von daje im APA-7-Format erstellt, nicht verändern und nichts ergänzen): ' + (sourceMeta(inp) ? apaCite(sourceMeta(inp)).text : inp.sourceName)
+        : null,
       inp.wishes ? '- Wünsche der Lehrkraft: ' + inp.wishes : null,
       inp.mode === 'text' ? '\n## Text\n\n' + String(inp.sourceText || '').trim() : null,
       '',
@@ -523,7 +589,9 @@
     buildVocabulary,
     promptForVocab,
     buildGrammar,
-    promptForGrammar
+    promptForGrammar,
+    apaCite,
+    sourceMeta
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeKI = api;

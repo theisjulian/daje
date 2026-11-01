@@ -8594,3 +8594,6 @@ body.kb-open .checkbar { position: static !important; }
 .skill-list.weak .skill-bar i { background: var(--red); }
 .skill-list.mid .skill-bar i { background: var(--orange); }
 @media (max-width: 560px) { .skill-list li { grid-template-columns: 1fr auto; } .skill-bar { grid-column: 1 / -1; grid-row: 2; } }
+.gk-source { margin: 10px 0; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--hairline); }
+.gk-source legend { font-weight: 700; padding: 0 4px; }
+.gk-cite { margin: 8px 0 0; font-size: 14px; overflow-wrap: anywhere; }

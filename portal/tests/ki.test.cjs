@@ -129,9 +129,15 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.doesNotMatch(tp, /Stufen:/);
   assert.match(KI.promptForGrammar(cmd, { ...inp, mode: 'text', cloze: 'nth', nth: '7', sourceText: text }), /JEDES 7\. WORT/);
   assert.match(KI.promptForGrammar(cmd, { ...inp, mode: 'text', cloze: 'ctest', sourceText: text }), /C-TEST/);
-  const tf = KI.buildGrammar(ai, { ...inp, mode: 'text', textRights: 'fremd', sourceName: 'Il Fatto Quotidiano' }).pkgs[0].pkg;
+  const tf = KI.buildGrammar(ai, { ...inp, mode: 'text', textRights: 'fremd', sourceAuthor: 'Mario Rossi', sourceTitle: 'La scuola', sourceSite: 'Il Fatto Quotidiano', sourceDate: '2026-10-12', sourceUrl: 'https://www.ilfattoquotidiano.it/a' }).pkgs[0].pkg;
   assert.equal(tf.grammar.origin, 'original');
-  assert.match(tf.sources[0].citation, /Il Fatto Quotidiano.*nicht zur Veröffentlichung/);
+  assert.equal(tf.sources[0].citation, 'Lückentext nach: Rossi, M. (2026, 12. Oktober). La scuola. Il Fatto Quotidiano. https://www.ilfattoquotidiano.it/a');
+  assert.equal(tf.sources[0].url, 'https://www.ilfattoquotidiano.it/a');
+  assert.equal(tf.sources[0].meta.style, 'APA 7');
+  // Fehlende Angaben werden nicht erfunden
+  const c2 = KI.apaCite({ title: 'Notizia', site: 'ANSA' });
+  assert.equal(c2.text, 'Notizia. (o. J.). ANSA.');
+  assert.deepEqual(c2.missing, ['Autor:in', 'Datum', 'URL']);
   assert.equal(KI.buildGrammar(ai, { ...inp, mode: 'text', textRights: 'eigen' }).pkgs[0].pkg.grammar.origin, 'own');
   console.log('KI Grammatik passed.');
 }

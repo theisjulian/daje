@@ -1560,6 +1560,7 @@ document.addEventListener('input', e => {
   vkForm[k] = e.target.value;
   save(VK_KEY, vkForm);
   if (['mode', 'cloze', 'phaen', 'textRights'].includes(k)) renderStudio();
+  if (/^source(Url|Author|Title|Site|Date|Manual)$/.test(k) && $('gk-cite')) $('gk-cite').innerHTML = gkCiteHTML(gkForm);
   if (k === 'sourceText' && $('gk-text-count')) {
     const n = gkWords(gkForm.sourceText);
     $('gk-text-count').textContent = n + ' Wörter' + (n > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : '');
@@ -1594,7 +1595,7 @@ document.addEventListener('click', e => {
    „Genau“ ist die Ausnahme: solche Übungen bleiben privat (origin original), lassen sich weder einreichen
    noch live stellen. Eine Antwort der KI ergibt mehrere Übungen zu einem Thema, je Stufe. */
 const GK_KEY = 'daje-ki-grammatik-v1';
-const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Corso daje', volume: '1', publisher: '', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '', cloze: 'phaen', nth: '7', phaen: 'verbi', phaenFree: '', bank: 'nein', textRights: 'fremd', sourceName: '', sourceText: '' };
+const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Corso daje', volume: '1', publisher: '', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '', cloze: 'phaen', nth: '7', phaen: 'verbi', phaenFree: '', bank: 'nein', textRights: 'fremd', sourceName: '', sourceUrl: '', sourceAuthor: '', sourceTitle: '', sourceSite: '', sourceDate: '', sourceManual: '', sourceText: '' };
 /* Lückentext aus eigenem Text: Arten und grammatische Schwerpunkte (Werte gehen in den Auftrag). */
 const GK_CLOZE = [
   ['phaen', 'Grammatischer Schwerpunkt', 'Nur Wörter einer Art werden zu Lücken, z. B. alle Verben (Grundform in Klammern) oder alle Artikel.'],
@@ -1668,14 +1669,31 @@ function gkTextHTML(f, sel, inp) {
       ${f.cloze === 'phaen' ? `<label class="field">Schwerpunkt${sel('phaen', GK_PHAEN)}</label>${f.phaen === 'frei' ? inp('phaenFree', 'Eigener Schwerpunkt', 'z. B. passato prossimo und imperfetto') : ''}` : ''}
       ${f.cloze === 'ctest' ? '' : `<label class="field">Wortkasten${sel('bank', [['nein', 'ohne (frei schreiben)'], ['ja', 'mit Wortkasten']])}</label>`}
       <label class="field">Herkunft des Texts${sel('textRights', [['fremd', 'Fremder Text (Zeitung, Buch, Internet)'], ['eigen', 'Eigener oder frei nutzbarer Text']])}</label>
-      ${inp('sourceName', 'Quelle (optional)', 'z. B. Il Fatto Quotidiano, 12. Oktober 2026')}
     </div>
+    <fieldset class="gk-source"><legend>Quelle des Texts</legend>
+      <div class="ed-grid">
+        ${inp('sourceUrl', 'Adresse (URL)', 'https://…', 'type="url" inputmode="url"')}
+        ${inp('sourceAuthor', 'Autor:in', 'z. B. Mario Rossi; Anna Bianchi (mehrere mit ;)')}
+        ${inp('sourceTitle', 'Titel des Artikels', 'z. B. La nuova legge sulla scuola')}
+        ${inp('sourceSite', 'Medium', 'z. B. Il Fatto Quotidiano')}
+        ${inp('sourceDate', 'Datum', 'z. B. 2026-10-12 oder 12.10.2026')}
+      </div>
+      <details class="small" ${f.sourceManual ? 'open' : ''}><summary>Quellenangabe lieber selbst eingeben</summary>${inp('sourceManual', 'Vollständige Quellenangabe', 'ersetzt die automatische Angabe')}</details>
+      <p class="gk-cite" id="gk-cite">${gkCiteHTML(f)}</p>
+    </fieldset>
     <p class="ki-help">${f.textRights === 'fremd' ? 'Fremde Texte bleiben privat: für dich und deine Klasse (Link, Arbeitsblatt), nicht im öffentlichen Katalog.' : 'Eigene oder frei nutzbare Texte (z. B. mit CC-Lizenz) darfst du auch einreichen.'}</p>
     <label class="field">Dein Text<textarea data-gk="sourceText" rows="8" placeholder="Artikel oder Ausschnitt hier einfügen (Überschrift darf mit hinein).">${esc(f.sourceText)}</textarea></label>
     <p class="small muted" id="gk-text-count">${gkWords(f.sourceText)} Wörter${gkWords(f.sourceText) > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : ''}</p>
   </div>`;
 }
 const gkWords = t => (String(t || '').trim().match(/\S+/g) || []).length;
+/* Vorschau der Quellenangabe (APA 7); fehlende Angaben werden genannt, nicht erfunden. */
+function gkCiteHTML(f) {
+  const m = DajeKI.sourceMeta(f);
+  if (!m) return '<span class="muted">Noch keine Quelle. Mindestens Adresse (URL) und Medium angeben.</span>';
+  const c = DajeKI.apaCite(m);
+  return `<b>Quellenangabe (APA 7):</b> ${esc(c.text)}${c.missing.length && !m.manual ? `<br><span class="muted">Fehlt: ${c.missing.map(esc).join(', ')}${c.missing.includes('Datum') ? ' (wird als „o. J.“ angegeben)' : ''}.</span>` : ''}`;
+}
 function gkInputs() {
   const f = gkState();
   const t = f.topicTitle.trim().toLowerCase();
@@ -1690,7 +1708,8 @@ function gkInputs() {
     section: f.mode === 'thema' || f.mode === 'text' ? '' : f.section.trim(),
     pages: f.mode === 'thema' || f.mode === 'text' ? '' : f.pages.trim(),
     sourceText: f.mode === 'text' ? f.sourceText.trim() : '',
-    sourceName: f.mode === 'text' ? f.sourceName.trim() : '',
+    sourceName: f.mode === 'text' ? (f.sourceName || '').trim() : '',
+    ...Object.fromEntries(['sourceUrl', 'sourceAuthor', 'sourceTitle', 'sourceSite', 'sourceDate', 'sourceManual'].map(k => [k, f.mode === 'text' ? String(f[k] || '').trim() : ''])),
     publisher: '',
     levels: f.levels.split(',').filter(Boolean)
   };
@@ -1714,11 +1733,46 @@ async function gkCopy() {
     status.textContent = err.message;
   }
 }
+/* Neue Übungen in den vorhandenen Lernweg einordnen: zuerst das im Formular gewählte Thema, dann der
+   grammatische Schwerpunkt des Lückentexts (z. B. Artikel → erstes Lernjahr, erste Lektion), dann ein
+   ähnlich benanntes Thema. Nur wenn nichts passt, entsteht ein neues Thema. Der Inhalt des Ausgangstexts
+   (z. B. ein Zeitungsartikel) bestimmt die Einordnung nicht. */
+const GK_FOCUS_TOPIC = { articoli: 'ecco1-artikel-sg', preposizioni: 'ecco1-preposizioni-articolate', pronomi: 'ecco1-pronomi-diretti', aggettivi: 'ecco1-aggettivi', connettivi: 'ecco1-quando-perche' };
+const gkWordsOf = t =>
+  String(t || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[’'()\[\],.:;!?·–-]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 4 && !['con', 'della', 'delle', 'degli', 'dello', 'nella', 'verbi', 'verbo'].includes(w))
+    .map(w => w.slice(0, 6));
+function gkMatchTopic(ai, inp) {
+  if (typeof grTopics !== 'function') return null;
+  const topics = grTopics().filter(t => t.band && t.lang === inp.language);
+  if (inp.topicId) return topics.find(t => t.id === inp.topicId) || null;
+  if (inp.mode === 'text' && inp.cloze === 'phaen' && GK_FOCUS_TOPIC[inp.phaen]) {
+    const t = topics.find(z => z.id === GK_FOCUS_TOPIC[inp.phaen]);
+    if (t) return t;
+  }
+  const want = gkWordsOf([inp.topicTitle, ai?.topic?.title].filter(Boolean).join(' '));
+  if (!want.length) return null;
+  let best = null, score = 0;
+  topics.forEach(t => {
+    const have = new Set(gkWordsOf(t.title));
+    const hit = want.filter(w => have.has(w)).length / want.length;
+    if (hit > score) (best = t), (score = hit);
+  });
+  return score >= 0.5 ? best : null;
+}
 function gkBuild() {
   const out = $('gk-result');
   try {
     const ai = DajeKI.extractJSON(gkForm.answer);
-    const r = DajeKI.buildGrammar(ai, { ...gkInputs(), id: edNewId }, TheisContent.validatePackage);
+    const base = gkInputs();
+    const hit = gkMatchTopic(ai, base);
+    if (hit) Object.assign(base, { topicId: hit.id, topicTitle: hit.title, series: hit.series || base.series, volume: String(hit.band), unit: hit.unit, section: hit.section });
+    const r = DajeKI.buildGrammar(ai, { ...base, id: edNewId }, TheisContent.validatePackage);
     if (editorState.items.length + r.pkgs.length > 100) throw new Error('Höchstens 100 eigene Inhalte. Bitte zuerst alte löschen.');
     const now = new Date().toISOString();
     // In Reihenfolge einfach → schwer oben in der Liste; fertige Übungen gleich im eigenen Katalog zeigen.
@@ -1741,7 +1795,7 @@ function gkBuild() {
       gkForm.sourceText = '';
       save(GK_KEY, gkForm);
     }
-    toast(`${plural(r.pkgs.length, 'Übung', 'Übungen')} angelegt zum Thema „${r.pkgs[0].pkg.grammar.topicTitle}“.${ok < r.pkgs.length ? ` ${r.pkgs.length - ok} noch als Entwurf: bitte prüfen.` : ' Sie stehen in deinem Grammatikbereich.'}${orig ? (gkForm.mode === 'text' ? ' Fremder Text: bleibt privat.' : ' Unverändert übernommen: bleibt privat.') : ''}`);
+    toast(`${plural(r.pkgs.length, 'Übung', 'Übungen')} angelegt zum Thema „${r.pkgs[0].pkg.grammar.topicTitle}“${hit ? ` (${ANNO_NAMES[hit.band] || ''} · ${hit.unit})` : ' (neues Thema)'}.${ok < r.pkgs.length ? ` ${r.pkgs.length - ok} noch als Entwurf: bitte prüfen.` : ' Sie stehen in deinem Grammatikbereich.'}${orig ? (gkForm.mode === 'text' ? ' Fremder Text: bleibt privat.' : ' Unverändert übernommen: bleibt privat.') : ''}`);
   } catch (err) {
     out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
   }
@@ -1753,6 +1807,7 @@ document.addEventListener('input', e => {
   gkForm[k] = e.target.value;
   save(GK_KEY, gkForm);
   if (['mode', 'cloze', 'phaen', 'textRights'].includes(k)) renderStudio();
+  if (/^source(Url|Author|Title|Site|Date|Manual)$/.test(k) && $('gk-cite')) $('gk-cite').innerHTML = gkCiteHTML(gkForm);
   if (k === 'sourceText' && $('gk-text-count')) {
     const n = gkWords(gkForm.sourceText);
     $('gk-text-count').textContent = n + ' Wörter' + (n > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : '');

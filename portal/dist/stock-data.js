@@ -42379,15 +42379,30 @@ const STOCK_PACKAGES = [
    "Eingereicht am 29.10.2026; Einverständnis zur Veröffentlichung im daje-Katalog erteilt."
   ],
   "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "cefr": "A2",
+   "tags": [
+    "grammatik",
+    "lückentext"
+   ]
+  },
   "estimatedMinutes": 5,
   "grammar": {
-   "topic": "eigen-articoli-nor8",
-   "topicTitle": "Articoli",
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "L’articolo determinativo singolare (il, lo, la, l’)",
    "difficulty": "schwer",
    "origin": "own",
    "rule": "L’articolo va prima del nome o dell’aggettivo che lo accompagna.\nGli articoli **determinativi** indicano persone o cose già note: **il, lo, l’, la, i, gli, le**.\nGli articoli **indeterminativi** presentano una persona o una cosa: **un, uno, una, un’**.\n- Maschile: _il fratello, un fratello; lo stereotipo, uno stereotipo; l’attore, un attore_.\n- Femminile: _la guida, una guida; l’agenzia, un’agenzia_.\nDavanti a una vocale: **l’** al maschile e al femminile; **un** al maschile, **un’** al femminile.\nL’articolo concorda con il nome: _il regista, la regista; il nostro rapporto_.",
    "ruleHelp": "Der Artikel steht vor dem Nomen oder dem dazugehörigen Adjektiv.\n**Bestimmte Artikel** bezeichnen bereits bekannte Personen oder Dinge: **il, lo, l’, la, i, gli, le**.\n**Unbestimmte Artikel** führen eine Person oder eine Sache ein: **un, uno, una, un’**.\n- Maskulin: _il fratello, un fratello; lo stereotipo, uno stereotipo; l’attore, un attore_.\n- Feminin: _la guida, una guida; l’agenzia, un’agenzia_.\nVor einem Vokal steht **l’** bei beiden Geschlechtern; **un** steht bei maskulinen, **un’** bei femininen Nomen.\nDer Artikel richtet sich nach dem Nomen: _il regista, la regista; il nostro rapporto_.",
-   "order": 0
+   "order": 90
   },
   "vocabularyIds": [],
   "questions": [

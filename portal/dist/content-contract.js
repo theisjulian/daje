@@ -83,7 +83,15 @@
         kind: s.kind,
         citation: str(s.citation, 'sources[' + i + '].citation', 1000),
         url: s.url ? url(s.url, 'sources[' + i + '].url') : '',
-        rights: s.rights
+        rights: s.rights,
+        // Optional: strukturierte Quellenangaben (z. B. für APA 7), nur kurze Texte
+        ...(s.meta && typeof s.meta === 'object' && !Array.isArray(s.meta)
+          ? {
+              meta: Object.fromEntries(
+                ['url', 'author', 'title', 'site', 'date', 'manual', 'style'].filter(k => typeof s.meta[k] === 'string' && s.meta[k].trim()).map(k => [k, s.meta[k].trim().slice(0, 300)])
+              )
+            }
+          : {})
       };
     });
     out.reviewNotes =

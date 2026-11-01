@@ -92,7 +92,7 @@ const LISTEN_TIPS = [
     title: 'Lieber oft und kurz.',
     lead: 'Fünf Minuten an vier Tagen schlagen eine Stunde am Stück.',
     steps: ['Eine kurze Übung pro Tag', 'Nach ein paar Tagen dieselbe noch einmal', 'Merken, was jetzt leichter ist'],
-    teach: 'Kurze Höraufgaben als regelmäßige Hausaufgabe statt einer langen vor der Klassenarbeit.',
+    teach: 'Kurze Höraufgaben regelmäßig im Unterricht (Klassenlink am iPad) statt einer langen vor der Klassenarbeit.',
     visual: '<div class="tv-days"><i class="on"></i><i></i><i class="on"></i><i></i><i class="on"></i><i></i><i class="on"></i></div>',
     level: 'strong',
     sources: ['dunlosky', 'spacing'],

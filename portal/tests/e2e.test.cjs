@@ -738,7 +738,11 @@ async function step(name, fn) {
     const text = 'Il treno per Roma parte alle otto. La stazione è piena di turisti e studenti che tornano a casa per il fine settimana. '.repeat(3);
     await pp.fill('[data-gk="sourceText"]', text);
     assert.match(await pp.textContent('#gk-text-count'), /\d+ Wörter/);
-    await pp.fill('[data-gk="sourceName"]', 'Il Fatto Quotidiano');
+    await pp.fill('[data-gk="sourceSite"]', 'Il Fatto Quotidiano');
+    await pp.fill('[data-gk="sourceUrl"]', 'https://www.ilfattoquotidiano.it/articolo');
+    await pp.fill('[data-gk="sourceTitle"]', 'Il treno per Roma');
+    assert.match(await pp.textContent('#gk-cite'), /Il treno per Roma\. \(o\. J\.\)\. Il Fatto Quotidiano\. https/);
+    assert.match(await pp.textContent('#gk-cite'), /Fehlt: Autor:in, Datum/);
     const prompt = await pp.evaluate(() => DajeKI.promptForGrammar('CMD', gkInputs()));
     assert.match(prompt, /C-TEST/);
     assert.match(prompt, /## Text\n\nIl treno per Roma/);
@@ -750,7 +754,8 @@ async function step(name, fn) {
     await pp.click('[data-gk-build]');
     const it = await pp.evaluate(() => editorState.items.find(i => i.payload?.title === 'In stazione'));
     assert.equal(it.payload.grammar.origin, 'original');
-    assert.match(it.payload.sources[0].citation, /Il Fatto Quotidiano/);
+    assert.match(it.payload.sources[0].citation, /Lückentext nach: Il treno per Roma\. \(o\. J\.\)\. Il Fatto Quotidiano/);
+    assert.equal(it.payload.sources[0].url, 'https://www.ilfattoquotidiano.it/articolo');
     await pp.evaluate(id => openListening(id), it.payload.id);
     for (const [i, a] of ['ione', 'na', 'sti', 'enti', 'nano', 'sa', 'ne', 'eno'].entries()) await pp.fill(`#listening-form input[data-part="g${i + 1}"]`, a);
     await pp.click('#listening-form [type=submit]');

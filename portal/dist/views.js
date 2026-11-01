@@ -850,7 +850,7 @@ function toolsHTML(x, state, preview) {
   const sources = x.sources
     .map(
       s =>
-        `<p>${esc(teacher ? s.citation : visibleText(s.citation))}${s.url ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">Originalquelle</a>` : ''}</p>`
+        `<p>${esc(teacher ? s.citation : visibleText(s.citation))}${s.url ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">Originalquelle</a>` : ''}${teacher && s.meta && !s.meta.manual && typeof DajeKI !== 'undefined' && DajeKI.apaCite(s.meta).missing.length ? `<br><small class="muted">Angaben fehlen: ${esc(DajeKI.apaCite(s.meta).missing.join(', '))}</small>` : ''}</p>`
     )
     .join('');
   // Leere Karten zeigen wir nicht: keine Wortliste, kein Transkript (für Lernende) → keine Karte.

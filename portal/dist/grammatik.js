@@ -72,11 +72,15 @@ function grOverview() {
   const all = grTopics();
   const bands = [...new Set(all.map(t => t.band))];
   if (!bands.includes(GR_STATE.band) && bands.length) GR_STATE.band = bands.includes(1) ? 1 : bands[0];
-  const shown = all.filter(t => t.band === GR_STATE.band);
+  // Suche: Thema, Lektion, Abschnitt, Lehrplan und Übungstitel, über alle Lernjahre
+  const q = (GR_STATE.query || '').trim().toLocaleLowerCase();
+  const hit = t => !q || [t.title, t.unit, t.section, t.curriculum || '', ...t.items.map(x => x.title)].join(' ').toLocaleLowerCase().includes(q);
+  const shown = all.filter(t => (q ? true : t.band === GR_STATE.band) && hit(t));
   const units = [];
   shown.forEach(t => {
-    let u = units.find(z => z.key === t.unit);
-    if (!u) units.push((u = { key: t.unit, series: t.series, topics: [] }));
+    const key = q && t.band ? ANNO_NAMES[t.band] + ' · ' + t.unit : t.unit;
+    let u = units.find(z => z.key === key);
+    if (!u) units.push((u = { key, series: t.series, topics: [] }));
     u.topics.push(t);
   });
   const lvl = GR_STATE.level;
@@ -101,7 +105,8 @@ function grOverview() {
   $('main').innerHTML = `<div class="page gr-page">
     <header class="page-head"><div class="eyebrow">Grammatik</div><h1>Regeln verstehen, Formen sicher anwenden.</h1><p>Zu jedem Thema ein kurzer Merkkasten und Übungen in drei Stufen. Fang einfach an und steigere dich.</p></header>
     ${grTrainers()}
-    ${bandSeg}${lvlChips}
+    <label class="searchbox gr-search"><span class="sr-only">Grammatik durchsuchen</span><input id="gr-search" type="search" placeholder="Thema suchen, zum Beispiel articolo, passato prossimo, pronomi" value="${esc(GR_STATE.query || '')}" autocomplete="off"></label>
+    ${q ? `<p class="small muted">${plural(shown.length, 'Thema', 'Themen')} zu „${esc(GR_STATE.query)}“ in allen Lernjahren. <button class="quiet" data-gr-clear>Suche löschen</button></p>` : bandSeg}${lvlChips}
     ${body}
   </div>`;
 }
@@ -147,4 +152,22 @@ document.addEventListener('click', e => {
 /* Die Startseite nennt Grammatikthemen; beim ersten Aufbau war dieses Skript noch nicht geladen. */
 addEventListener('DOMContentLoaded', () => {
   if (view === 'start' && !session) render();
+});
+
+/* Grammatiksuche: Liste verkürzt sich beim Tippen, Eingabefeld bleibt aktiv. */
+document.addEventListener('input', e => {
+  if (e.target.id !== 'gr-search') return;
+  GR_STATE.query = e.target.value;
+  const pos = e.target.selectionStart;
+  grOverview();
+  const f = $('gr-search');
+  if (f) {
+    f.focus();
+    f.setSelectionRange(pos, pos);
+  }
+});
+document.addEventListener('click', e => {
+  if (!e.target.closest('[data-gr-clear]')) return;
+  GR_STATE.query = '';
+  grOverview();
 });
