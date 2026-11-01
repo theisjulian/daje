@@ -288,7 +288,7 @@ function showTheisAccountSb() {
     const ini = ((md.first_name || ACC.user.email).charAt(0) + (md.last_name || '').charAt(0)).toUpperCase();
     d.innerHTML =
       head('Dein daje-Konto') +
-      `<div class="acc-card"><div class="set-avatar" aria-hidden="true">${esc(ini)}</div><div class="set-who"><b>${esc(accFullName() || accName())}</b><small>${esc(ACC.user.email)}${md.role === 'teach' ? ' · Lehrkraft' : ''}</small></div>${ACC.admin ? '<span class="chip-solid">Administrator</span>' : ''}</div>
+      `<div class="acc-card"><div class="set-avatar" aria-hidden="true">${esc(ini)}</div><div class="set-who"><b>${esc(accFullName() || accName())}</b><small>${esc(ACC.user.email)}${ACC.admin ? '' : ACC.teacher === 'approved' ? ' · Lehrkraft' : ACC.teacher === 'pending' ? ' · Lehrkraft: Freischaltung ausstehend' : ''}</small></div>${ACC.admin ? '<span class="chip-solid">Administrator</span>' : ''}</div>
       <p class="acc-sync">${ACC.error ? esc(ACC.error) : ACC.syncing ? 'Wird gespeichert …' : at ? 'Lernstand gespeichert ✓ ' + new Date(at).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }) : 'Lernstand wird gespeichert.'}</p>
       <div class="acc-actions"><button class="button primary" data-acc="sync">Jetzt speichern</button><button class="button secondary" data-nav="fortschritt" data-close="acc-dialog">Stärken und Schwächen</button>${isTeacher() ? '<button class="button secondary" data-nav="klassen" data-close="acc-dialog">Meine Klassensitzungen</button>' : ''}</div>
       <details class="acc-more"><summary>Name ändern</summary>
@@ -396,6 +396,22 @@ async function accSubmit() {
               : m;
   }
 }
+/* Lehrkraft: Antrag bei Registrierung als Lehrkraft, Freigabe durch Admin (Tabelle daje_teachers) */
+async function accTeacherStatus(user) {
+  ACC.teacher = ACC.admin ? 'approved' : null;
+  if (ACC.admin) return;
+  try {
+    const { data } = await sb.from('daje_teachers').select('status').eq('user_id', user.id).maybeSingle();
+    if (data) ACC.teacher = data.status;
+    else if (user.user_metadata?.role === 'teach') ACC.teacher = await accTeacherRequest(user);
+  } catch (e) {}
+}
+async function accTeacherRequest(user, school) {
+  const md = user.user_metadata || {};
+  const { error } = await sb.from('daje_teachers').insert({ user_id: user.id, name: md.full_name || [md.first_name, md.last_name].filter(Boolean).join(' ') || null, email: user.email, school: school || null });
+  return error && !/duplicate/i.test(error.message) ? null : 'pending';
+}
+const accIsTeacher = () => !!ACC.user && (ACC.admin || ACC.teacher === 'approved');
 async function accAfterLogin(user) {
   ACC.user = user;
   if (user.user_metadata?.role === 'teach' && !read('daje-lehrkraft-ok', false)) {
@@ -407,6 +423,7 @@ async function accAfterLogin(user) {
     const { data } = await sb.rpc('daje_is_admin');
     ACC.admin = data === true;
   } catch (e) {}
+  await accTeacherStatus(user);
   accRefresh();
   syncPull();
   accRerender();

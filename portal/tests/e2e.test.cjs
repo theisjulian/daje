@@ -599,11 +599,12 @@ async function step(name, fn) {
         ]
       };
       const q = table => {
-        const b = { select: () => b, eq: () => b, order: () => b, limit: () => b, maybeSingle: async () => ({ data: rows[table], error: null }), then: (res, rej) => Promise.resolve({ data: rows[table], error: null }).then(res, rej) };
+        const b = { select: () => b, eq: () => b, gt: () => b, order: () => b, limit: () => b, maybeSingle: async () => ({ data: rows[table], error: null }), then: (res, rej) => Promise.resolve({ data: rows[table], error: null }).then(res, rej) };
         return b;
       };
       sb = { from: q, rpc: async () => ({ data: null, error: null }), auth: { signOut: async () => {} } };
       klTeach = 'abc123def0';
+      localStorage.setItem('daje-klasse-ansicht-v1', JSON.stringify({ mode: 'tabelle', sort: 'name' }));
       nav('sitzung');
     });
     await pp.waitForSelector('.kl-table');

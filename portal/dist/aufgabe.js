@@ -161,6 +161,7 @@ async function klJoin() {
     s.sessions[klCur.code] = { participant: data.participant, secret: data.secret, name: data.name, title: klCur.title, items: klCur.items, language: klCur.language, reported: {}, at: new Date().toISOString() };
     klSaveStore(s);
     klPage();
+    setTimeout(klCheckOpen, 300);
   } catch (e) {
     msg.textContent = /lesson_not_found/.test(e.message || '') ? 'Diese Sitzung ist beendet.' : /lesson_full/.test(e.message || '') ? 'Diese Sitzung ist voll.' : 'Keine Verbindung. Bitte noch einmal versuchen.';
   }
@@ -231,13 +232,18 @@ function klDialog() {
 function klLinkDialog(ids, title0) {
   klOverride = Array.isArray(ids) ? { ids, title: title0 } : null;
   const keys = klKeysFromSheet();
-  if (!keys.length) return toast('Die Mappe ist noch leer.');
+  if (!keys.length && !(typeof ACC !== 'undefined' && ACC.user && !accIsTeacher())) return toast('Die Mappe ist noch leer.');
   const d = klDialog();
   const langs = [...new Set(keys.map(k => findTask(k.slice(2))?.language).filter(Boolean))];
   const title = klOverride?.title || wsDraft.title || 'Aufgaben für die Stunde';
   const head = `<div class="dialog-head"><h2 id="kl-title">Klassenlink</h2><button class="button secondary" data-close="kl-dialog">Schließen</button></div>
     <p><b>${esc(title)}</b> · ${plural(keys.length, 'Aufgabe', 'Aufgaben')} · ${langs.map(l => esc(portalLang(l))).join(', ')}${langs.length > 1 ? ' <span class="kl-warn">(mehrere Sprachen)</span>' : ''}</p>`;
-  if (typeof ACC !== 'undefined' && ACC.user && sb) {
+  if (typeof ACC !== 'undefined' && ACC.user && sb && !accIsTeacher()) {
+    d.innerHTML =
+      head +
+      `<div class="kl-login"><b>Klassensitzungen sind für freigeschaltete Lehrkräfte.</b> ${ACC.teacher === 'pending' ? 'Dein Antrag liegt vor und wird geprüft; du bekommst die Funktion, sobald er freigeschaltet ist.' : 'Damit Schülerinnen und Schüler keine Sitzungen anlegen, schaltet die Redaktion Lehrkräfte einmalig frei.'}</div>
+      ${ACC.teacher === 'pending' ? '' : '<label class="field">Schule (hilft bei der Freischaltung)<input id="kl-school" maxlength="120" autocomplete="organization"></label><div class="kl-actions"><button class="button primary" data-kl="request">Als Lehrkraft freischalten lassen</button></div>'}<p class="small" id="kl-msg" role="status"></p>`;
+  } else if (typeof ACC !== 'undefined' && ACC.user && sb) {
     d.innerHTML =
       head +
       `<p class="muted small">Lernende öffnen den Link oder scannen den QR-Code am iPad, tragen ihren Namen ein und arbeiten die Aufgaben ab. Du siehst in der Übersicht, wer wie weit ist. Die Sitzung läuft 30 Tage.</p>
@@ -322,24 +328,41 @@ async function klSessionsPage() {
         .join('') || '<p class="muted">Noch keine Sitzungen.</p>'
     }</div></div>`;
 }
+const KL_VIEW_KEY = 'daje-klasse-ansicht-v1';
+const klView = () => ({ mode: 'kacheln', sort: 'name', ...read(KL_VIEW_KEY, {}) });
+let klDashData = null;
 async function klDashPage() {
   clearTimeout(klTimer);
   const code = klTeach;
-  $('breadcrumb').textContent = 'Klassensitzung · Übersicht';
+  $('breadcrumb').textContent = 'Klassensitzung · Unterricht';
   if (!sb || !ACC.user) return klSessionsPage();
-  const { data: l, error } = await sb.from('daje_lessons').select('id, code, title, items, packages, expires_at, closed').eq('code', code).maybeSingle();
+  const { data: l, error } = await sb.from('daje_lessons').select('id, code, title, items, packages, expires_at, closed, locked, message, timer_end, hide_names').eq('code', code).maybeSingle();
   if (view !== 'sitzung' || klTeach !== code) return;
   if (error || !l) {
     $('main').innerHTML = '<div class="page"><p>Sitzung nicht gefunden.</p><button class="button secondary" data-nav="klassen">Alle Sitzungen</button></div>';
     return;
   }
   klStorePackages(l.packages);
-  const { data: ps } = await sb.from('daje_participants').select('id, name, joined_at, last_seen, daje_results(task_id, correct, total, done, answers, attempts, updated_at)').eq('lesson_id', l.id).order('name');
+  const { data: ps } = await sb.from('daje_participants').select('id, name, joined_at, last_seen, blocked, block_reason, hand_at, daje_results(task_id, correct, total, done, answers, attempts, updated_at)').eq('lesson_id', l.id).order('name');
   if (view !== 'sitzung' || klTeach !== code) return;
+  klDashData = { l, ps: ps || [] };
+  const opt = klView();
   const tasks = l.items.map(k => ({ key: k, id: k.slice(2), x: findTask(k.slice(2)) }));
-  const people = ps || [];
+  const people = (ps || []).slice();
+  const res = (p, t) => (p.daje_results || []).find(z => z.task_id === t.id);
+  const doneOf = p => tasks.filter(t => res(p, t)?.done).length;
+  const pcOf = p => {
+    const rs = tasks.map(t => res(p, t)).filter(r => r && r.done && r.total);
+    return rs.length ? Math.round((100 * rs.reduce((s, r) => s + r.correct / r.total, 0)) / rs.length) : null;
+  };
+  const online = p => Date.now() - new Date(p.last_seen).getTime() < 40000;
+  if (opt.sort === 'fortschritt') people.sort((a, b) => doneOf(b) - doneOf(a) || (pcOf(b) ?? -1) - (pcOf(a) ?? -1));
+  else if (opt.sort === 'aktiv') people.sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen));
+  else people.sort((a, b) => a.name.localeCompare(b.name, 'de'));
+  const hide = !!l.hide_names;
+  const nm = (p, i) => (hide ? 'Person ' + (i + 1) : esc(p.name));
   const cell = (p, t) => {
-    const r = (p.daje_results || []).find(z => z.task_id === t.id);
+    const r = res(p, t);
     if (!r) return '<td class="kl-c none">–</td>';
     if (!r.done) return '<td class="kl-c started" title="begonnen">…</td>';
     const pc = r.total ? Math.round((100 * r.correct) / r.total) : 0;
@@ -351,7 +374,7 @@ async function klDashPage() {
   };
   // Je Aufgabe: erledigt, Durchschnitt und die schwierigsten Teilaufgaben mit häufigen falschen Antworten
   const sum = tasks.map(t => {
-    const rs = people.map(p => (p.daje_results || []).find(z => z.task_id === t.id)).filter(r => r && r.done);
+    const rs = people.map(p => res(p, t)).filter(r => r && r.done);
     const avg = rs.length ? Math.round((100 * rs.reduce((s, r) => s + (r.total ? r.correct / r.total : 0), 0)) / rs.length) : null;
     const qs = {};
     rs.forEach(r =>
@@ -365,56 +388,176 @@ async function klDashPage() {
     return { t, done: rs.length, avg, qs };
   });
   const hard = [];
-  sum.forEach(s =>
-    Object.entries(s.qs).forEach(([q, o]) => {
-      if (o.n >= 2 && o.ok / o.n < 0.6) hard.push({ s, q, rate: o.ok / o.n, o });
-    })
-  );
+  sum.forEach(sm => Object.entries(sm.qs).forEach(([q, o]) => o.n >= 2 && o.ok / o.n < 0.6 && hard.push({ s: sm, q, rate: o.ok / o.n, o })));
   hard.sort((a, b) => a.rate - b.rate);
   const qLabel = (t, qid) => {
     const i = t.x ? t.x.questions.findIndex(q => q.id === qid) : -1;
     return i >= 0 ? `Aufgabe ${i + 1}: ${esc(String(t.x.questions[i].prompt).slice(0, 80))}` : esc(qid);
   };
-  const wrongList = o =>
-    Object.entries(o.wrong)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3)
-      .map(([a, n]) => `<code>${esc(a.length > 60 ? a.slice(0, 60) + '…' : a)}</code>${n > 1 ? ' ×' + n : ''}`)
-      .join(' · ');
+  const wrongList = o => Object.entries(o.wrong).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([a, n]) => `<code>${esc(a.length > 60 ? a.slice(0, 60) + '…' : a)}</code>${n > 1 ? ' ×' + n : ''}`).join(' · ');
   const off = l.closed || new Date(l.expires_at).getTime() < Date.now();
-  $('main').innerHTML = `<div class="page kl-page">
+  const active = people.filter(p => !p.blocked);
+  const hands = active.filter(p => p.hand_at).sort((a, b) => new Date(a.hand_at) - new Date(b.hand_at));
+  const totalDone = active.reduce((s, p) => s + doneOf(p), 0);
+  const pcAll = active.length && tasks.length ? Math.round((100 * totalDone) / (active.length * tasks.length)) : 0;
+  const timerLeft = l.timer_end ? Math.round((new Date(l.timer_end).getTime() - Date.now()) / 1000) : 0;
+  const menu = (p, i) => `<details class="kl-pmenu"><summary aria-label="Aktionen für ${esc(p.name)}">⋯</summary><div class="kl-pmenu-in">${p.blocked ? `<button data-kl-p="unblock" data-id="${p.id}">Wieder zulassen</button>` : `<button data-kl-p="block" data-id="${p.id}">Sperren …</button>`}<button data-kl-p="rename" data-id="${p.id}" data-name="${esc(p.name)}">Umbenennen …</button>${p.hand_at ? `<button data-kl-p="hand" data-id="${p.id}">Meldung erledigt</button>` : ''}<button class="danger" data-kl-p="remove" data-id="${p.id}">Entfernen</button></div></details>`;
+  const tile = (p, i) => {
+    const d = doneOf(p), pc = pcOf(p);
+    return `<article class="kl-tile${p.blocked ? ' is-blocked' : ''}${p.hand_at ? ' has-hand' : ''}"><header><span class="kl-dot${online(p) ? ' on' : ''}" title="${online(p) ? 'gerade aktiv' : 'zuletzt ' + ago(p.last_seen)}"></span><b>${nm(p, i)}</b>${p.hand_at ? '<span class="kl-handicon" title="meldet sich">✋</span>' : ''}${menu(p, i)}</header>
+      ${p.blocked ? `<p class="kl-blocked">Gesperrt${p.block_reason ? ': ' + esc(p.block_reason) : ''}</p>` : `<div class="kl-steps">${tasks.map(t => { const r = res(p, t); const c = !r ? '' : !r.done ? 'started' : r.total && r.correct / r.total >= 0.8 ? 'good' : r.total && r.correct / r.total >= 0.5 ? 'mid' : 'low'; return `<i class="${c}" title="${esc(t.x?.title || t.id)}"></i>`; }).join('')}</div><small>${d} von ${tasks.length} erledigt${pc !== null ? ' · ' + pc + ' % richtig' : ''}</small>`}</article>`;
+  };
+  $('main').innerHTML = `<div class="page kl-page kl-live${hide ? ' is-anon' : ''}">
     <button class="quiet back-link" data-nav="klassen">Alle Sitzungen</button>
-    <header class="page-head"><div class="eyebrow">Klassensitzung · Code ${esc(l.code)}</div><h1>${esc(l.title || 'Sitzung')}</h1><p>${plural(people.length, 'Person', 'Personen')} · aktualisiert ${new Date().toLocaleTimeString('de-DE', { timeStyle: 'short' })}${off ? ' · beendet' : ''}</p>
+    <header class="kl-head"><div><div class="eyebrow">Klassensitzung · Code ${esc(l.code)}${off ? ' · beendet' : l.locked ? ' · angehalten' : ' · läuft'}</div><h1>${esc(l.title || 'Sitzung')}</h1>
+      <p class="kl-summary"><b>${active.length}</b> ${active.length === 1 ? 'Person' : 'Personen'} · <b>${people.filter(online).length}</b> gerade aktiv · <b>${pcAll} %</b> erledigt${hands.length ? ` · <b class="kl-hands-n">✋ ${hands.length}</b>` : ''}</p></div>
+      <div class="kl-bar-wrap"><div class="tlive-bar"><i style="width:${pcAll}%"></i></div></div></header>
+    ${
+      off
+        ? '<p class="muted">Die Sitzung ist beendet. Die Ergebnisse bleiben sichtbar.</p>'
+        : `<section class="kl-controls glass">
+      <button class="pill${l.locked ? ' is-strong' : ''}" data-kl-ctl="lock" aria-pressed="${l.locked}">${l.locked ? '▶ Weiterarbeiten lassen' : '⏸ Alle anhalten'}</button>
+      <button class="pill" data-kl-ctl="message">💬 ${l.message ? 'Nachricht ändern' : 'Nachricht an alle'}</button>${l.message ? '<button class="pill" data-kl-ctl="message-clear">Nachricht weg</button>' : ''}
+      <span class="kl-ctl-group">⏱ ${[3, 5, 10, 15].map(m => `<button class="pill" data-kl-ctl="timer" data-min="${m}">${m}′</button>`).join('')}${timerLeft > 0 ? `<button class="pill is-strong" data-kl-ctl="timer-stop">${Math.floor(timerLeft / 60)}:${String(timerLeft % 60).padStart(2, '0')} · stopp</button>` : ''}</span>
+      <button class="pill" data-kl-ctl="add">＋ Übung nachschieben</button>
+      <button class="pill${hide ? ' is-strong' : ''}" data-kl-ctl="names" aria-pressed="${hide}">${hide ? 'Namen zeigen' : 'Namen ausblenden'}</button>
+      <button class="pill" data-kl-beamer="${esc(l.code)}">QR groß</button>
+    </section>`
+    }
+    ${l.message && !off ? `<p class="kl-note">💬 Gerade angezeigt: „${esc(l.message)}“</p>` : ''}
+    ${hands.length ? `<section class="kl-hands"><h2>✋ Meldungen</h2><ul>${hands.map(p => `<li><b>${esc(hide ? 'Person' : p.name)}</b><small>seit ${ago(p.hand_at)}</small><button class="pill" data-kl-p="hand" data-id="${p.id}">erledigt</button></li>`).join('')}</ul></section>` : ''}
     ${off ? '' : `<details class="kl-joinbox glass" ${people.length ? '' : 'open'}><summary>So treten Lernende bei</summary><div class="kl-joinbox-in"><div class="kl-joinqr">${qrSVG(klLink(l.code), 'QR-Code zur Klassensitzung')}</div><div><p>QR-Code mit dem iPad scannen oder Adresse eingeben:</p><p class="kl-url"><b>${esc(klLink(l.code).replace(/^https?:\/\//, ''))}</b></p><div class="kl-row-act"><button class="button primary" data-kl-beamer="${esc(l.code)}">Groß zeigen (Beamer)</button><button class="button secondary" data-qr-copy="${esc(klLink(l.code))}">Link kopieren</button></div></div></div></details>`}
-    <div class="kl-row-act"><button class="button secondary" data-kl-refresh>Aktualisieren</button>${off ? '' : '<button class="button secondary" data-kl-close>Sitzung beenden</button>'}<button class="quiet danger" data-kl-delete>Sitzung und Ergebnisse löschen</button></div></header>
     ${
       people.length
-        ? `<div class="kl-table-wrap"><table class="kl-table"><thead><tr><th>Name</th>${tasks.map((t, i) => `<th title="${esc(t.x?.title || t.id)}">${i + 1}</th>`).join('')}<th>Zuletzt aktiv</th></tr></thead><tbody>${people
-            .map(p => {
-              const done = (p.daje_results || []).filter(r => r.done && l.items.some(k => k.slice(2) === r.task_id)).length;
-              return `<tr><th>${esc(p.name)}<small>${done} von ${tasks.length} erledigt</small></th>${tasks.map(t => cell(p, t)).join('')}<td class="kl-seen">${ago(p.last_seen)}</td></tr>`;
-            })
-            .join('')}</tbody><tfoot><tr><th>Klasse</th>${sum.map(s => `<td class="kl-c">${s.done}${s.avg !== null ? `<small>${s.avg} %</small>` : ''}</td>`).join('')}<td></td></tr></tfoot></table></div>
-      <ol class="kl-legend">${tasks.map((t, i) => `<li><b>${i + 1}</b> ${esc(t.x?.title || t.id)}</li>`).join('')}</ol>
+        ? `<div class="kl-viewbar"><div class="pills">${[['kacheln', 'Kacheln'], ['tabelle', 'Tabelle']].map(([k, t]) => `<button class="pill" data-kl-view="${k}" aria-pressed="${opt.mode === k}">${t}</button>`).join('')}</div><div class="pills">${[['name', 'Name'], ['fortschritt', 'Fortschritt'], ['aktiv', 'Zuletzt aktiv']].map(([k, t]) => `<button class="pill" data-kl-sort="${k}" aria-pressed="${opt.sort === k}">${t}</button>`).join('')}</div></div>
+      ${
+        opt.mode === 'tabelle'
+          ? `<div class="kl-table-wrap"><table class="kl-table"><thead><tr><th>Name</th>${tasks.map((t, i) => `<th title="${esc(t.x?.title || t.id)}">${i + 1}</th>`).join('')}<th>Zuletzt aktiv</th><th></th></tr></thead><tbody>${people
+              .map((p, i) => `<tr class="${p.blocked ? 'is-blocked' : ''}"><th><span class="kl-dot${online(p) ? ' on' : ''}"></span>${nm(p, i)}${p.hand_at ? ' ✋' : ''}<small>${p.blocked ? 'gesperrt' : doneOf(p) + ' von ' + tasks.length + ' erledigt'}</small></th>${tasks.map(t => cell(p, t)).join('')}<td class="kl-seen">${ago(p.last_seen)}</td><td>${menu(p, i)}</td></tr>`)
+              .join('')}</tbody><tfoot><tr><th>Klasse</th>${sum.map(x => `<td class="kl-c">${x.done}${x.avg !== null ? `<small>${x.avg} %</small>` : ''}</td>`).join('')}<td></td><td></td></tr></tfoot></table></div>`
+          : `<div class="kl-tiles">${people.map(tile).join('')}</div>`
+      }
+      <ol class="kl-legend">${tasks.map((t, i) => `<li><b>${i + 1}</b> ${esc(t.x?.title || t.id)} <span class="muted small">· ${sum[i].done} erledigt${sum[i].avg !== null ? ' · ' + sum[i].avg + ' %' : ''}</span></li>`).join('')}</ol>
       <section class="kl-hard"><h2>Hier gab es die meisten Fehler</h2>${
         hard.length
-          ? `<ul>${hard
-              .slice(0, 8)
-              .map(h => `<li><b>${esc(h.s.t.x?.title || h.s.t.id)}</b> · ${qLabel(h.s.t, h.q)}<br><span class="muted small">${Math.round(h.rate * 100)} % richtig (${h.o.n} Antworten)${Object.keys(h.o.wrong).length ? ' · häufig falsch: ' + wrongList(h.o) : ''}</span></li>`)
-              .join('')}</ul>`
+          ? `<ul>${hard.slice(0, 8).map(h => `<li><b>${esc(h.s.t.x?.title || h.s.t.id)}</b> · ${qLabel(h.s.t, h.q)}<br><span class="muted small">${Math.round(h.rate * 100)} % richtig (${h.o.n} Antworten)${Object.keys(h.o.wrong).length ? ' · häufig falsch: ' + wrongList(h.o) : ''}</span></li>`).join('')}</ul>`
           : '<p class="muted small">Noch keine auffälligen Fehler (gezeigt ab zwei Antworten, wenn weniger als 60 % richtig sind).</p>'
       }<p class="muted small">Beobachtete Antworten dieser Sitzung, keine Note und keine Leistungsdiagnose.</p></section>`
         : `<p class="muted">Noch niemand beigetreten. Zeig den QR-Code oder teile den Link: <b>${esc(klLink(l.code))}</b></p>`
     }
+    <div class="kl-row-act kl-end"><button class="button secondary" data-kl-refresh>Aktualisieren</button>${off ? '' : '<button class="button secondary" data-kl-close>Sitzung beenden</button>'}<button class="quiet danger" data-kl-delete>Sitzung und Ergebnisse löschen</button></div>
   </div>`;
-  // Während die Übersicht offen ist, alle 20 Sekunden neu laden
-  klTimer = setTimeout(() => view === 'sitzung' && klTeach === code && document.visibilityState === 'visible' && klDashPage(), 20000);
+  // Im Unterricht häufiger auffrischen (nicht, während ein Menü offen ist)
+  klTimer = setTimeout(function again() {
+    if (view !== 'sitzung' || klTeach !== code) return;
+    if (document.visibilityState !== 'visible' || document.querySelector('.kl-pmenu[open]') || document.querySelector('dialog[open]')) return (klTimer = setTimeout(again, 4000));
+    klDashPage();
+  }, 8000);
+}
+async function klUpdateLesson(patch) {
+  const { error } = await sb.from('daje_lessons').update({ ...patch, updated_at: new Date().toISOString() }).eq('code', klTeach);
+  if (error) toast('Nicht möglich: ' + error.message);
+  return klDashPage();
+}
+async function klUpdatePerson(id, patch) {
+  const { error } = await sb.from('daje_participants').update(patch).eq('id', id);
+  if (error) toast('Nicht möglich: ' + error.message);
+  return klDashPage();
+}
+// Übung nachschieben: aus der Mappe oder per Suche im Katalog
+function klAddDialog() {
+  const l = klDashData?.l;
+  if (!l) return;
+  const d = klDialog();
+  const inSession = new Set(l.items.map(k => k.slice(2)));
+  const fromMappe = (typeof wsAll === 'function' ? wsAll() : []).map(id => findTask(id)).filter(x => x && !inSession.has(x.id));
+  const row = x => `<li><button class="kl-add-row" data-kl-add="${esc(x.id)}"><b>${esc(x.title)}</b><small>${esc(portalLang(x.language))} · ${esc(x.level)}${x.kind === 'grammar' ? ' · ' + esc(x.grammar.topicTitle) : ' · Hören'}</small></button></li>`;
+  d.innerHTML = `<div class="dialog-head"><h2 id="kl-title">Übung nachschieben</h2><button class="button secondary" data-close="kl-dialog">Schließen</button></div>
+    <p class="muted small">Die Übung erscheint sofort bei allen Lernenden dieser Sitzung.</p>
+    ${fromMappe.length ? `<h3>Aus deiner Mappe</h3><ul class="kl-add-list">${fromMappe.map(row).join('')}</ul>` : ''}
+    <h3>Suchen</h3><input id="kl-add-q" type="search" placeholder="Thema oder Titel, z. B. passato prossimo" autocomplete="off"><ul class="kl-add-list" id="kl-add-res"></ul>`;
+  if (!d.open) d.showModal();
+  $('kl-add-q').focus();
+}
+document.addEventListener('input', e => {
+  if (e.target.id !== 'kl-add-q') return;
+  const q = e.target.value.trim().toLocaleLowerCase();
+  const inSession = new Set((klDashData?.l.items || []).map(k => k.slice(2)));
+  const hits = q.length < 2 ? [] : [...contentList('grammar'), ...contentList('listening')].filter(x => !inSession.has(x.id) && (x.title + ' ' + (x.grammar?.topicTitle || '') + ' ' + (x.topics || []).join(' ')).toLocaleLowerCase().includes(q)).slice(0, 12);
+  $('kl-add-res').innerHTML = hits.map(x => `<li><button class="kl-add-row" data-kl-add="${esc(x.id)}"><b>${esc(x.title)}</b><small>${esc(x.level)}${x.kind === 'grammar' ? ' · ' + esc(x.grammar.topicTitle) : ' · Hören'}</small></button></li>`).join('') || (q.length >= 2 ? '<li class="muted small">Nichts gefunden.</li>' : '');
+});
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-kl-ctl],[data-kl-p],[data-kl-view],[data-kl-sort],[data-kl-add]');
+  if (!b || !klDashData) return;
+  const l = klDashData.l;
+  if (b.dataset.klView || b.dataset.klSort) {
+    save(KL_VIEW_KEY, { ...klView(), ...(b.dataset.klView ? { mode: b.dataset.klView } : { sort: b.dataset.klSort }) });
+    return klDashPage();
+  }
+  if (b.dataset.klAdd) {
+    const x = findTask(b.dataset.klAdd);
+    if (!x) return;
+    const key = (x.kind === 'grammar' ? 'g:' : 'l:') + x.id;
+    const items = [...l.items, key];
+    const own = klOwnPackages([key]);
+    const packages = [...(Array.isArray(l.packages) ? l.packages : []), ...own];
+    $('kl-dialog')?.close();
+    toast('„' + x.title + '“ ist bei allen angekommen.');
+    return klUpdateLesson({ items, packages });
+  }
+  const c = b.dataset.klCtl;
+  if (c === 'lock') return klUpdateLesson({ locked: !l.locked });
+  if (c === 'message') {
+    const m = prompt('Nachricht an alle (erscheint auf allen Geräten):', l.message || '');
+    if (m === null) return;
+    return klUpdateLesson({ message: m.trim().slice(0, 200) || null });
+  }
+  if (c === 'message-clear') return klUpdateLesson({ message: null });
+  if (c === 'timer') return klUpdateLesson({ timer_end: new Date(Date.now() + Number(b.dataset.min) * 60000).toISOString() });
+  if (c === 'timer-stop') return klUpdateLesson({ timer_end: null });
+  if (c === 'names') return klUpdateLesson({ hide_names: !l.hide_names });
+  if (c === 'add') return klAddDialog();
+  const p = b.dataset.klP, id = b.dataset.id;
+  b.closest('details')?.removeAttribute('open');
+  if (p === 'block') {
+    const why = prompt('Sperren: Grund für die Person (wird ihr angezeigt, optional):', 'Bitte einen richtigen Namen verwenden.');
+    if (why === null) return;
+    return klUpdatePerson(id, { blocked: true, block_reason: why.trim().slice(0, 200) || null, hand_at: null });
+  }
+  if (p === 'unblock') return klUpdatePerson(id, { blocked: false, block_reason: null });
+  if (p === 'hand') return klUpdatePerson(id, { hand_at: null });
+  if (p === 'rename') {
+    const n = prompt('Neuer Name:', b.dataset.name || '');
+    if (!n || !n.trim()) return;
+    return klUpdatePerson(id, { name: n.trim().slice(0, 50) });
+  }
+  if (p === 'remove') {
+    if (!confirm('Diese Person mit ihren Ergebnissen aus der Sitzung entfernen? Sie kann mit einem neuen Namen wieder beitreten.')) return;
+    const { error } = await sb.from('daje_participants').delete().eq('id', id);
+    if (error) toast('Nicht möglich: ' + error.message);
+    return klDashPage();
+  }
+});
+
+/* ---------- Admin: Lehrkräfte freischalten (Karte im Dashboard) ---------- */
+async function tdashAdmin() {
+  const box = $('tdash-admin');
+  if (!box || !ACC.admin) return;
+  const { data, error } = await sb.from('daje_teachers').select('user_id, status, name, email, school, requested_at').order('requested_at', { ascending: false }).limit(50);
+  if (error) return (box.innerHTML = '<p class="muted small">Gerade nicht erreichbar.</p>');
+  const pend = data.filter(t => t.status === 'pending');
+  const done = data.filter(t => t.status !== 'pending');
+  box.innerHTML = `${pend.length ? `<ul class="tlist">${pend.map(t => `<li class="tadmin-row"><div><b>${esc(t.name || t.email)}</b><small>${esc(t.email || '')}${t.school ? ' · ' + esc(t.school) : ''}</small></div><div class="pills"><button class="pill is-strong" data-kl-approve="${t.user_id}">Freischalten</button><button class="pill" data-kl-reject="${t.user_id}">Ablehnen</button></div></li>`).join('')}</ul>` : '<p class="muted small">Keine offenen Anträge.</p>'}
+    ${done.length ? `<details class="acc-more"><summary>Entschieden (${done.length})</summary><ul class="tlist">${done.map(t => `<li class="tadmin-row"><div><b>${esc(t.name || t.email || 'Admin')}</b><small>${t.status === 'approved' ? 'freigeschaltet' : 'abgelehnt'}</small></div><div class="pills">${t.status === 'approved' ? `<button class="pill" data-kl-reject="${t.user_id}">Sperren</button>` : `<button class="pill" data-kl-approve="${t.user_id}">Freischalten</button>`}</div></li>`).join('')}</ul></details>` : ''}`;
+  const n = $('tdash-admin-n');
+  if (n) n.textContent = pend.length ? pend.length + ' offen' : 'alles erledigt';
 }
 
 /* ---------- Lehrkräfte-Dashboard: Kennzahlen und laufende Sitzungen (Startseite) ---------- */
 let tdashBusy = false;
 async function tdashLoad() {
   if (tdashBusy || !sb || !ACC.user || !$('tdash-live')) return;
+  if (ACC.admin) tdashAdmin();
   tdashBusy = true;
   try {
     const now = new Date();
@@ -580,11 +723,23 @@ document.addEventListener(
   true
 );
 document.addEventListener('click', async e => {
-  const b = e.target.closest('[data-hw-show],[data-kl],[data-kl-dash],[data-kl-show],[data-kl-beamer],[data-kl-refresh],[data-kl-close],[data-kl-delete],[data-kl-list],[data-kl-go],[data-ws-link]');
+  const b = e.target.closest('[data-kl-approve],[data-kl-reject],[data-hw-show],[data-kl],[data-kl-dash],[data-kl-show],[data-kl-beamer],[data-kl-refresh],[data-kl-close],[data-kl-delete],[data-kl-list],[data-kl-go],[data-ws-link]');
   if (!b) return;
   if (b.dataset.hwShow) return hwShow(b.dataset.hwShow);
   if (b.hasAttribute('data-ws-link')) return klLinkDialog();
   if (b.dataset.kl === 'create') return klCreate();
+  if (b.dataset.kl === 'request') {
+    ACC.teacher = await accTeacherRequest(ACC.user, $('kl-school')?.value.trim());
+    $('kl-msg').textContent = ACC.teacher === 'pending' ? 'Danke! Dein Antrag ist eingegangen.' : 'Gerade nicht möglich. Bitte später noch einmal.';
+    return;
+  }
+  if (b.dataset.klApprove || b.dataset.klReject) {
+    const ok = !!b.dataset.klApprove;
+    const { error } = await sb.from('daje_teachers').update({ status: ok ? 'approved' : 'rejected', decided_at: new Date().toISOString(), decided_by: ACC.user.id }).eq('user_id', b.dataset.klApprove || b.dataset.klReject);
+    if (error) return toast('Nicht möglich: ' + error.message);
+    toast(ok ? 'Lehrkraft freigeschaltet.' : 'Antrag abgelehnt.');
+    return tdashAdmin();
+  }
   if (b.dataset.klDash) {
     $('kl-dialog')?.close();
     klTeach = b.dataset.klDash;
@@ -642,20 +797,15 @@ addEventListener('online', () => {
 
 /* Lernende: Beendet die Lehrkraft die Sitzung, erscheint das nach wenigen Sekunden (Abfrage alle 10 s). */
 let klEnded = false;
-async function klCheckOpen() {
-  if (!klCur?.participant || klEnded || !sb || document.visibilityState !== 'visible') return;
-  if (view !== 'klasse' && !(view === 'hoeruebung' && klActive === 'klasse')) return;
-  try {
-    const { data, error } = await sb.rpc('daje_lesson_get', { p_code: klCur.code });
-    if (error || data) return;
-  } catch (e) {
-    return; // offline: nicht als beendet werten
-  }
+/* Live-Stand für Lernende (alle 5 s): beendet, gesperrt, angehalten, Nachricht, Countdown, neue Aufgaben, Meldung */
+let klLive = { locked: false, message: '', timer: null, hand: false, blocked: false, seenMsg: '' };
+function klEndedDialog() {
   klEnded = true;
   klCur.closed = true;
   const s = klStore();
   delete s.sessions[klCur.code];
   klSaveStore(s);
+  klOverlay(null);
   let d = $('kl-ended');
   if (!d) {
     d = document.createElement('dialog');
@@ -666,6 +816,105 @@ async function klCheckOpen() {
   document.querySelectorAll('dialog[open]').forEach(x => x !== d && x.close());
   d.showModal();
   klActive = null;
+  klLiveBar();
 }
-setInterval(klCheckOpen, 10000);
+// Vollbild-Hinweis: angehalten („Bitte nach vorne schauen“) oder gesperrt
+function klOverlay(kind, text) {
+  let o = $('kl-overlay');
+  if (!kind) return o && o.remove();
+  if (!o) {
+    o = document.createElement('div');
+    o.id = 'kl-overlay';
+    o.setAttribute('role', 'alertdialog');
+    o.setAttribute('aria-modal', 'true');
+    document.body.append(o);
+  }
+  o.className = 'kl-overlay ' + kind;
+  o.innerHTML =
+    kind === 'locked'
+      ? `<div class="kl-ov-in"><div class="kl-ov-ico" aria-hidden="true">👀</div><h2>Bitte nach vorne schauen</h2><p>${esc(text || 'Deine Lehrkraft möchte kurz etwas mit der ganzen Klasse besprechen. Gleich geht es weiter.')}</p></div>`
+      : `<div class="kl-ov-in"><div class="kl-ov-ico" aria-hidden="true">⛔</div><h2>Du bist nicht mehr in dieser Sitzung</h2><p>${text ? 'Grund: ' + esc(text) : 'Deine Lehrkraft hat dich aus der Klassensitzung genommen.'}</p><p class="small">Sprich bitte mit deiner Lehrkraft. Du kannst die Übungen weiterhin allein üben.</p><button class="button secondary" data-kl-leave>Verstanden</button></div>`;
+}
+// Schmale Leiste unten: Countdown, Nachricht der Lehrkraft, Melden
+function klLiveBar() {
+  let bar = $('kl-livebar');
+  const on = klCur?.participant && !klEnded && !klLive.blocked && (view === 'klasse' || (view === 'hoeruebung' && klActive === 'klasse'));
+  if (!on) return bar && bar.remove();
+  if (!bar) {
+    bar = document.createElement('div');
+    bar.id = 'kl-livebar';
+    bar.className = 'kl-livebar';
+    document.body.append(bar);
+  }
+  const left = klLive.timer ? Math.max(0, Math.round((new Date(klLive.timer).getTime() - Date.now()) / 1000)) : null;
+  bar.innerHTML = `${klLive.message ? `<span class="kl-msg">💬 ${esc(klLive.message)}</span>` : ''}${left !== null ? `<span class="kl-timer${left <= 60 ? ' is-low' : ''}">⏱ ${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')}</span>` : ''}<button class="kl-hand${klLive.hand ? ' is-up' : ''}" data-kl-hand aria-pressed="${klLive.hand}">✋ ${klLive.hand ? 'Gemeldet' : 'Melden'}</button>`;
+}
+setInterval(() => klLive.timer && klLiveBar(), 1000);
+async function klCheckOpen() {
+  if (!klCur?.participant || klEnded || !sb || document.visibilityState !== 'visible') return klLiveBar();
+  if (view !== 'klasse' && !(view === 'hoeruebung' && klActive === 'klasse')) return klLiveBar();
+  let st;
+  try {
+    const { data, error } = await sb.rpc('daje_lesson_state', { p_participant: klCur.participant, p_secret: klCur.secret });
+    if (error) return; // offline oder Server nicht erreichbar: nichts ändern
+    st = data;
+  } catch (e) {
+    return;
+  }
+  if (!st || st.gone || !st.open) return klEndedDialog();
+  if (st.blocked) {
+    klLive.blocked = true;
+    klOverlay('blocked', st.block_reason);
+    return klLiveBar();
+  }
+  klLive.blocked = false;
+  klOverlay(st.locked ? 'locked' : null, st.message);
+  klLive.locked = !!st.locked;
+  klLive.message = st.locked ? '' : st.message || '';
+  klLive.timer = st.timer_end && new Date(st.timer_end).getTime() > Date.now() ? st.timer_end : null;
+  klLive.hand = !!st.hand;
+  // Von der Lehrkraft nachgeschobene Aufgaben übernehmen
+  const items = Array.isArray(st.items) ? st.items : [];
+  const added = items.filter(k => !klCur.items.includes(k));
+  if (added.length || items.length !== klCur.items.length) {
+    klStorePackages(st.packages);
+    klCur.items = items;
+    const s = klStore();
+    if (s.sessions[klCur.code]) (s.sessions[klCur.code].items = items), klSaveStore(s);
+    if (added.length) toast(added.length === 1 ? 'Neue Aufgabe von deiner Lehrkraft.' : added.length + ' neue Aufgaben von deiner Lehrkraft.');
+    if (view === 'klasse') klPage();
+  }
+  if (klLive.message && klLive.message !== klLive.seenMsg) (klLive.seenMsg = klLive.message), toast('Nachricht: ' + klLive.message);
+  klLiveBar();
+}
+setInterval(klCheckOpen, 5000);
 document.addEventListener('visibilitychange', klCheckOpen);
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-kl-hand],[data-kl-leave]');
+  if (!b) return;
+  if (b.hasAttribute('data-kl-leave')) {
+    klOverlay(null);
+    const s = klStore();
+    delete s.sessions[klCur.code];
+    klSaveStore(s);
+    klCur = null;
+    klActive = null;
+    klLiveBar();
+    return nav('start');
+  }
+  klLive.hand = !klLive.hand;
+  klLiveBar();
+  try {
+    await sb.rpc('daje_lesson_hand', { p_participant: klCur.participant, p_secret: klCur.secret, p_up: klLive.hand });
+  } catch (err) {}
+});
+
+/* Live-Leiste der Klassensitzung nach jedem Seitenwechsel aktualisieren; nach dem Beitreten sofort Stand holen */
+{
+  const baseRender2 = render;
+  render = function () {
+    const r = baseRender2.apply(this, arguments);
+    setTimeout(klLiveBar, 0);
+    return r;
+  };
+}
