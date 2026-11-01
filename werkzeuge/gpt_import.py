@@ -150,7 +150,24 @@ def fix_question(q):
         it, de = PROMPTS[p]
         q['prompt'] = it or p
         q['promptHelp'] = de
+    # „1. Completa con bello: un __ quadro → [[g1]]“ → „1. un [[g1]] quadro (bello)“
+    if q.get('text') and '→ [[' in q['text']:
+        def inline(m):
+            num, body, gap = m.group(1), m.group(2), m.group(3)
+            hint = ''
+            h = re.match(r'^(?:Completa con (?:l’articolo determinativo|[^:]+)):\s*', body)
+            if h:
+                w = re.match(r'^Completa con ([^:]+):', body).group(1).strip()
+                body = body[h.end():]
+                hint = '' if 'articolo' in w else ' (' + w + ')'
+            if '__' in body:
+                return num + body.replace('__', gap, 1).rstrip() + hint
+            return m.group(0)
+        q['text'] = re.sub(r'^(\d+\.\s*)(.*?)\s*→\s*(\[\[g\d+\]\])\s*$', inline, q['text'], flags=re.M)
     ex = q.get('explanation', '')
+    if ex in ('Usa la persona, il tempo e il contesto indicati.', 'Rispetta persona, modo e tempo richiesti.'):
+        ex = ''
+        q.pop('explanation', None)
     ex = re.sub(r'\s*Il testo completo è comune al blocco\.?', '', ex).strip()
     ex = ex.replace('Confronta ogni forma con il contesto e con l’indizio.', 'Controlla ogni forma nel contesto.')
     if ex:
@@ -198,6 +215,7 @@ def main(a_dir, b_dir):
             for n, d in enumerate(sorted(group, key=lambda x: x['id']), 1):
                 d['_title'] = f'{t} ({n})'
     used = set()
+    thin = []
     for d in pkgs:
         g = d['grammar']
         r = reg.get(g['topic'])
@@ -217,13 +235,22 @@ def main(a_dir, b_dir):
         if r['curriculum']:
             cat['curriculum'] = r['curriculum']
         d.pop('reviewNotes', None)
-        d['questions'] = [fix_question(q) for q in d['questions']]
+        qs = [fix_question(q) for q in d['questions']]
+        # Folgeaufgaben mit nur ein oder zwei Lücken ergeben keine eigene Übung: weglassen und für ChatGPT notieren
+        keep = [q for i, q in enumerate(qs) if i == 0 or len(q.get('gaps') or []) > 2 or q['type'] not in ('gap_fill', 'gap_choice')]
+        if len(keep) < len(qs):
+            thin.append(f"- {d['id']} „{title}“: Folgeaufgabe mit {len(qs[-1].get('gaps') or [])} Lücke(n) entfernt ({qs[-1]['prompt']})")
+        d['questions'] = keep
         (OUT / (d['id'] + '.json')).write_text(json.dumps(d, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     # Register: nur Themen mit Material oder vorhandene Themen; leere Planungsthemen bleiben im Register für später
     js = ('/* Themenregister Grammatik, Lernjahre 1–6 (erzeugt von werkzeuge/gpt_import.py, nicht von Hand ändern).\n'
           '   Bestimmt Lernjahr, Lektion, Abschnitt und Reihenfolge eines Themas; nicht das zuerst geladene Paket. */\n'
           'const GR_REGISTER = ' + json.dumps(reg, ensure_ascii=False, separators=(',', ':')) + ';\n')
     (ROOT / 'portal' / 'dist' / 'themen-data.js').write_text(js, encoding='utf-8')
+    (ROOT / 'werkzeuge' / 'gpt-nacharbeit.md').write_text(
+        '# Nacharbeit für ChatGPT\n\nDiese Folgeaufgaben waren zu dünn (1–2 Lücken) und wurden beim Import weggelassen. '
+        'Bitte je Übung eine vollwertige Anwendungsaufgabe mit 6–10 Lücken zum selben Thema liefern (gleiche ID, gleiches Format):\n\n'
+        + '\n'.join(thin) + '\n', encoding='utf-8')
     print(f'{len(pkgs)} Pakete übernommen, {len(used)} Themen mit neuem Material, Register mit {len(reg)} Themen.')
 
 

@@ -124,22 +124,6 @@
     }
    ],
    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Usa la stessa struttura in frasi nuove.",
-   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. Domani io (visitare) il museo. Usa il futuro. → [[g1]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "visiterò"
-     ]
-    }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
   }
  ]
 }

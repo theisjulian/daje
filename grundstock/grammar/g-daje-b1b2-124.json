@@ -118,22 +118,6 @@
     }
    ],
    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Completa le forme o le trasformazioni indicate.",
-   "text": "1. vedere — passato prossimo — noi → [[g1]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "abbiamo visto"
-     ]
-    }
-   ],
-   "explanation": "Rispetta persona, modo e tempo richiesti.",
-   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
   }
  ]
 }

@@ -230,30 +230,7 @@
       "1946"
      ]
     }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
-   "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
-   "text": "31. 2008 → [[g1]]\n32. duemilaventisei → [[g2]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "duemilaotto"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "2026"
-     ]
-    }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
+   ]
   }
  ]
 }

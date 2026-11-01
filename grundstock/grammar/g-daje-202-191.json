@@ -202,7 +202,7 @@
    "type": "gap_fill",
    "prompt": "Scegli: e oppure che?",
    "promptHelp": "Wähle: e oder che?",
-   "text": "1. Ho deciso __ voglio cambiare ritmo. → [[g1]]\n2. Studio __ preparo i materiali. → [[g2]]\n3. So __ la pausa è utile. → [[g3]]\n4. Esco __ incontro gli amici. → [[g4]]",
+   "text": "1. Ho deciso [[g1]] voglio cambiare ritmo.\n2. Studio [[g2]] preparo i materiali.\n3. So [[g3]] la pausa è utile.\n4. Esco [[g4]] incontro gli amici.",
    "gaps": [
     {
      "id": "g1",
@@ -228,8 +228,7 @@
       "e"
      ]
     }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
+   ]
   }
  ]
 }

@@ -43380,7 +43380,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
     "text": "1. 28 → [[g1]]\n2. trentasette → [[g2]]\n3. 46 → [[g3]]\n4. cinquantanove → [[g4]]\n5. 61 → [[g5]]\n6. settantatré → [[g6]]\n7. 84 → [[g7]]\n8. novantasei → [[g8]]\n9. 100 → [[g9]]\n10. centootto → [[g10]]\n11. 117 → [[g11]]\n12. centoventiquattro → [[g12]]\n13. 238 → [[g13]]\n14. trecentoquarantanove → [[g14]]\n15. 456 → [[g15]]\n16. cinquecentosessantasette → [[g16]]\n17. 678 → [[g17]]\n18. settecentottantanove → [[g18]]\n19. 890 → [[g19]]\n20. novecentonovantanove → [[g20]]\n21. 1000 → [[g21]]\n22. milleuno → [[g22]]\n23. 1018 → [[g23]]\n24. millecentoventuno → [[g24]]\n25. 1250 → [[g25]]\n26. millequattrocentonovantadue → [[g26]]\n27. 1630 → [[g27]]\n28. millesettecentottantanove → [[g28]]\n29. 1861 → [[g29]]\n30. millenovecentoquarantasei → [[g30]]",
     "gaps": [
@@ -43565,28 +43565,6 @@ const STOCK_PACKAGES = [
       ]
      }
     ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Trasforma i numeri: dalle cifre alle lettere e dalle lettere alle cifre.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
-    "promptHelp": "Schreibe die Zahlen in Buchstaben bzw. in Ziffern.",
-    "text": "31. 2008 → [[g1]]\n32. duemilaventisei → [[g2]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "duemilaotto"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "2026"
-      ]
-     }
-    ]
    }
   ]
  },
@@ -43731,9 +43709,9 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. __ specchio è vicino alla porta. → [[g1]]\n2. __ armadi sono nuovi. → [[g2]]\n3. __ asciugamani sono puliti. → [[g3]]\n4. __ poltrone sono comode. → [[g4]]\n5. __ letto è vicino alla finestra. → [[g5]]\n6. __ cucina è luminosa. → [[g6]]\n7. __ scaffale è alto. → [[g7]]",
+    "text": "1. [[g1]] specchio è vicino alla porta.\n2. [[g2]] armadi sono nuovi.\n3. [[g3]] asciugamani sono puliti.\n4. [[g4]] poltrone sono comode.\n5. [[g5]] letto è vicino alla finestra.\n6. [[g6]] cucina è luminosa.\n7. [[g7]] scaffale è alto.",
     "gaps": [
      {
       "id": "g1",
@@ -43834,7 +43812,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. cantare · io · presente → [[g1]]\n2. cantare · tu · presente → [[g2]]\n3. cantare · lui/lei · presente → [[g3]]\n4. cantare · noi · presente → [[g4]]\n5. cantare · voi · presente → [[g5]]\n6. cantare · loro · presente → [[g6]]\n7. ascoltare · io · presente → [[g7]]\n8. ascoltare · tu · presente → [[g8]]\n9. ascoltare · lui/lei · presente → [[g9]]\n10. ascoltare · noi · presente → [[g10]]\n11. ascoltare · voi · presente → [[g11]]\n12. ascoltare · loro · presente → [[g12]]\n13. cercare · io · presente → [[g13]]\n14. cercare · tu · presente → [[g14]]\n15. cercare · lui/lei · presente → [[g15]]\n16. cercare · noi · presente → [[g16]]\n17. cercare · voi · presente → [[g17]]\n18. cercare · loro · presente → [[g18]]\n19. lavorare · io · presente → [[g19]]\n20. lavorare · tu · presente → [[g20]]\n21. lavorare · lui/lei · presente → [[g21]]\n22. lavorare · noi · presente → [[g22]]\n23. lavorare · voi · presente → [[g23]]\n24. lavorare · loro · presente → [[g24]]",
     "gaps": [
@@ -44281,7 +44259,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. vendere · io · presente → [[g1]]\n2. vendere · tu · presente → [[g2]]\n3. vendere · lui/lei · presente → [[g3]]\n4. vendere · noi · presente → [[g4]]\n5. vendere · voi · presente → [[g5]]\n6. vendere · loro · presente → [[g6]]\n7. ricevere · io · presente → [[g7]]\n8. ricevere · tu · presente → [[g8]]\n9. ricevere · lui/lei · presente → [[g9]]\n10. ricevere · noi · presente → [[g10]]\n11. ricevere · voi · presente → [[g11]]\n12. ricevere · loro · presente → [[g12]]\n13. scrivere · io · presente → [[g13]]\n14. scrivere · tu · presente → [[g14]]\n15. scrivere · lui/lei · presente → [[g15]]\n16. scrivere · noi · presente → [[g16]]\n17. scrivere · voi · presente → [[g17]]\n18. scrivere · loro · presente → [[g18]]\n19. leggere · io · presente → [[g19]]\n20. leggere · tu · presente → [[g20]]\n21. leggere · lui/lei · presente → [[g21]]\n22. leggere · noi · presente → [[g22]]\n23. leggere · voi · presente → [[g23]]\n24. leggere · loro · presente → [[g24]]",
     "gaps": [
@@ -44729,22 +44707,6 @@ const STOCK_PACKAGES = [
       "id": "g17",
       "acceptedAnswers": [
        "il"
-      ]
-     }
-    ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
-    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. Completa con l’articolo determinativo: __ stand della classe è pronto. → [[g1]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "Lo"
       ]
      }
     ]
@@ -45331,7 +45293,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. io → quaderno → [[g1]]\n2. io → penna → [[g2]]\n3. io → quaderni → [[g3]]\n4. io → penne → [[g4]]\n5. tu → quaderno → [[g5]]\n6. tu → penna → [[g6]]\n7. tu → quaderni → [[g7]]\n8. tu → penne → [[g8]]\n9. lui/lei → quaderno → [[g9]]\n10. lui/lei → penna → [[g10]]\n11. lui/lei → quaderni → [[g11]]\n12. lui/lei → penne → [[g12]]\n13. noi → quaderno → [[g13]]\n14. noi → penna → [[g14]]\n15. noi → quaderni → [[g15]]\n16. noi → penne → [[g16]]\n17. voi → quaderno → [[g17]]\n18. voi → penna → [[g18]]\n19. voi → quaderni → [[g19]]\n20. voi → penne → [[g20]]\n21. loro → quaderno → [[g21]]\n22. loro → penna → [[g22]]\n23. loro → quaderni → [[g23]]\n24. loro → penne → [[g24]]",
     "gaps": [
@@ -45536,7 +45498,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. partire · io · presente → [[g1]]\n2. partire · tu · presente → [[g2]]\n3. partire · lui/lei · presente → [[g3]]\n4. partire · noi · presente → [[g4]]\n5. partire · voi · presente → [[g5]]\n6. partire · loro · presente → [[g6]]\n7. aprire · io · presente → [[g7]]\n8. aprire · tu · presente → [[g8]]\n9. aprire · lui/lei · presente → [[g9]]\n10. aprire · noi · presente → [[g10]]\n11. aprire · voi · presente → [[g11]]\n12. aprire · loro · presente → [[g12]]\n13. dormire · io · presente → [[g13]]\n14. dormire · tu · presente → [[g14]]\n15. dormire · lui/lei · presente → [[g15]]\n16. dormire · noi · presente → [[g16]]\n17. dormire · voi · presente → [[g17]]\n18. dormire · loro · presente → [[g18]]\n19. capire · io · presente → [[g19]]\n20. capire · tu · presente → [[g20]]\n21. capire · lui/lei · presente → [[g21]]\n22. capire · noi · presente → [[g22]]\n23. capire · voi · presente → [[g23]]\n24. capire · loro · presente → [[g24]]\n25. pulire · io · presente → [[g25]]\n26. pulire · tu · presente → [[g26]]\n27. pulire · lui/lei · presente → [[g27]]\n28. pulire · noi · presente → [[g28]]\n29. pulire · voi · presente → [[g29]]\n30. pulire · loro · presente → [[g30]]",
     "gaps": [
@@ -45726,7 +45688,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "31. preferire · io · presente → [[g1]]\n32. preferire · tu · presente → [[g2]]\n33. preferire · lui/lei · presente → [[g3]]\n34. preferire · noi · presente → [[g4]]\n35. preferire · voi · presente → [[g5]]\n36. preferire · loro · presente → [[g6]]",
     "gaps": [
@@ -47273,7 +47235,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. vendere · io · presente → [[g1]]\n2. vendere · tu · presente → [[g2]]\n3. vendere · lui/lei · presente → [[g3]]\n4. vendere · noi · presente → [[g4]]\n5. vendere · voi · presente → [[g5]]\n6. vendere · loro · presente → [[g6]]\n7. scrivere · io · presente → [[g7]]\n8. scrivere · tu · presente → [[g8]]\n9. scrivere · lui/lei · presente → [[g9]]\n10. scrivere · noi · presente → [[g10]]\n11. scrivere · voi · presente → [[g11]]\n12. scrivere · loro · presente → [[g12]]\n13. aprire · io · presente → [[g13]]\n14. aprire · tu · presente → [[g14]]\n15. aprire · lui/lei · presente → [[g15]]\n16. aprire · noi · presente → [[g16]]\n17. aprire · voi · presente → [[g17]]\n18. aprire · loro · presente → [[g18]]\n19. capire · io · presente → [[g19]]\n20. capire · tu · presente → [[g20]]\n21. capire · lui/lei · presente → [[g21]]\n22. capire · noi · presente → [[g22]]\n23. capire · voi · presente → [[g23]]\n24. capire · loro · presente → [[g24]]\n25. essere · io · presente → [[g25]]\n26. essere · tu · presente → [[g26]]\n27. essere · lui/lei · presente → [[g27]]\n28. essere · noi · presente → [[g28]]\n29. essere · voi · presente → [[g29]]\n30. essere · loro · presente → [[g30]]",
     "gaps": [
@@ -47660,7 +47622,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. andare · io · presente → [[g1]]\n2. andare · tu · presente → [[g2]]\n3. andare · lui/lei · presente → [[g3]]\n4. andare · noi · presente → [[g4]]\n5. andare · voi · presente → [[g5]]\n6. andare · loro · presente → [[g6]]\n7. venire · io · presente → [[g7]]\n8. venire · tu · presente → [[g8]]\n9. venire · lui/lei · presente → [[g9]]\n10. venire · noi · presente → [[g10]]\n11. venire · voi · presente → [[g11]]\n12. venire · loro · presente → [[g12]]\n13. fare · io · presente → [[g13]]\n14. fare · tu · presente → [[g14]]\n15. fare · lui/lei · presente → [[g15]]\n16. fare · noi · presente → [[g16]]\n17. fare · voi · presente → [[g17]]\n18. fare · loro · presente → [[g18]]",
     "gaps": [
@@ -48808,7 +48770,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. essere · io · futuro → [[g1]]\n2. essere · tu · futuro → [[g2]]\n3. essere · lui/lei · futuro → [[g3]]\n4. essere · noi · futuro → [[g4]]\n5. essere · voi · futuro → [[g5]]\n6. essere · loro · futuro → [[g6]]\n7. avere · io · futuro → [[g7]]\n8. avere · tu · futuro → [[g8]]\n9. avere · lui/lei · futuro → [[g9]]\n10. avere · noi · futuro → [[g10]]\n11. avere · voi · futuro → [[g11]]\n12. avere · loro · futuro → [[g12]]\n13. potere · io · futuro → [[g13]]\n14. potere · tu · futuro → [[g14]]\n15. potere · lui/lei · futuro → [[g15]]\n16. potere · noi · futuro → [[g16]]\n17. potere · voi · futuro → [[g17]]\n18. potere · loro · futuro → [[g18]]\n19. volere · io · futuro → [[g19]]\n20. volere · tu · futuro → [[g20]]\n21. volere · lui/lei · futuro → [[g21]]\n22. volere · noi · futuro → [[g22]]\n23. volere · voi · futuro → [[g23]]\n24. volere · loro · futuro → [[g24]]\n25. dovere · io · futuro → [[g25]]\n26. dovere · tu · futuro → [[g26]]\n27. dovere · lui/lei · futuro → [[g27]]\n28. dovere · noi · futuro → [[g28]]\n29. dovere · voi · futuro → [[g29]]\n30. dovere · loro · futuro → [[g30]]",
     "gaps": [
@@ -49461,7 +49423,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. essere · io · presente → [[g1]]\n2. essere · io · passato prossimo (maschile) → [[g2]]\n3. andare · tu · presente → [[g3]]\n4. andare · tu · passato prossimo (maschile) → [[g4]]\n5. comprare · lui/lei · presente → [[g5]]\n6. comprare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. mangiare · noi · presente → [[g7]]\n8. mangiare · noi · passato prossimo (uso autonomo) → [[g8]]\n9. partire · voi · presente → [[g9]]\n10. partire · voi · passato prossimo (maschile) → [[g10]]\n11. dormire · loro · presente → [[g11]]\n12. dormire · loro · passato prossimo (uso autonomo) → [[g12]]\n13. uscire · io · presente → [[g13]]\n14. uscire · io · passato prossimo (maschile) → [[g14]]\n15. avere · tu · presente → [[g15]]\n16. avere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. arrivare · lui/lei · presente → [[g17]]\n18. arrivare · lui/lei · passato prossimo (maschile) → [[g18]]",
     "gaps": [
@@ -49630,7 +49592,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. tornare · io · futuro → [[g1]]\n2. tornare · tu · futuro → [[g2]]\n3. tornare · lui/lei · futuro → [[g3]]\n4. tornare · noi · futuro → [[g4]]\n5. tornare · voi · futuro → [[g5]]\n6. tornare · loro · futuro → [[g6]]\n7. leggere · io · futuro → [[g7]]\n8. leggere · tu · futuro → [[g8]]\n9. leggere · lui/lei · futuro → [[g9]]\n10. leggere · noi · futuro → [[g10]]\n11. leggere · voi · futuro → [[g11]]\n12. leggere · loro · futuro → [[g12]]\n13. partire · io · futuro → [[g13]]\n14. partire · tu · futuro → [[g14]]\n15. partire · lui/lei · futuro → [[g15]]\n16. partire · noi · futuro → [[g16]]\n17. partire · voi · futuro → [[g17]]\n18. partire · loro · futuro → [[g18]]\n19. cercare · io · futuro → [[g19]]\n20. cercare · tu · futuro → [[g20]]\n21. cercare · lui/lei · futuro → [[g21]]\n22. cercare · noi · futuro → [[g22]]\n23. cercare · voi · futuro → [[g23]]\n24. cercare · loro · futuro → [[g24]]\n25. proporre · io · futuro → [[g25]]\n26. proporre · tu · futuro → [[g26]]\n27. proporre · lui/lei · futuro → [[g27]]\n28. proporre · noi · futuro → [[g28]]\n29. proporre · voi · futuro → [[g29]]\n30. proporre · loro · futuro → [[g30]]",
     "gaps": [
@@ -50972,7 +50934,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. essere · io · imperfetto → [[g1]]\n2. essere · tu · imperfetto → [[g2]]\n3. essere · lui/lei · imperfetto → [[g3]]\n4. essere · noi · imperfetto → [[g4]]\n5. essere · voi · imperfetto → [[g5]]\n6. essere · loro · imperfetto → [[g6]]\n7. avere · io · imperfetto → [[g7]]\n8. avere · tu · imperfetto → [[g8]]\n9. avere · lui/lei · imperfetto → [[g9]]\n10. avere · noi · imperfetto → [[g10]]\n11. avere · voi · imperfetto → [[g11]]\n12. avere · loro · imperfetto → [[g12]]\n13. potere · io · imperfetto → [[g13]]\n14. potere · tu · imperfetto → [[g14]]\n15. potere · lui/lei · imperfetto → [[g15]]\n16. potere · noi · imperfetto → [[g16]]\n17. potere · voi · imperfetto → [[g17]]\n18. potere · loro · imperfetto → [[g18]]\n19. volere · io · imperfetto → [[g19]]\n20. volere · tu · imperfetto → [[g20]]\n21. volere · lui/lei · imperfetto → [[g21]]\n22. volere · noi · imperfetto → [[g22]]\n23. volere · voi · imperfetto → [[g23]]\n24. volere · loro · imperfetto → [[g24]]\n25. dovere · io · imperfetto → [[g25]]\n26. dovere · tu · imperfetto → [[g26]]\n27. dovere · lui/lei · imperfetto → [[g27]]\n28. dovere · noi · imperfetto → [[g28]]\n29. dovere · voi · imperfetto → [[g29]]\n30. dovere · loro · imperfetto → [[g30]]",
     "gaps": [
@@ -51621,7 +51583,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. venire · io · presente → [[g1]]\n2. venire · io · passato prossimo (maschile) → [[g2]]\n3. parlare · tu · presente → [[g3]]\n4. parlare · tu · passato prossimo (uso autonomo) → [[g4]]\n5. dare · lui/lei · presente → [[g5]]\n6. dare · lui/lei · passato prossimo (uso autonomo) → [[g6]]\n7. tornare · noi · presente → [[g7]]\n8. tornare · noi · passato prossimo (maschile) → [[g8]]\n9. provare · voi · presente → [[g9]]\n10. provare · voi · passato prossimo (uso autonomo) → [[g10]]\n11. volere · loro · presente → [[g11]]\n12. volere · loro · passato prossimo (uso autonomo) → [[g12]]\n13. dovere · io · presente → [[g13]]\n14. dovere · io · passato prossimo (uso autonomo) → [[g14]]\n15. sapere · tu · presente → [[g15]]\n16. sapere · tu · passato prossimo (uso autonomo) → [[g16]]\n17. potere · lui/lei · presente → [[g17]]\n18. potere · lui/lei · passato prossimo (uso autonomo) → [[g18]]",
     "gaps": [
@@ -51790,7 +51752,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. dire · io · imperfetto → [[g1]]\n2. dire · tu · imperfetto → [[g2]]\n3. dire · lui/lei · imperfetto → [[g3]]\n4. dire · noi · imperfetto → [[g4]]\n5. dire · voi · imperfetto → [[g5]]\n6. dire · loro · imperfetto → [[g6]]\n7. fare · io · imperfetto → [[g7]]\n8. fare · tu · imperfetto → [[g8]]\n9. fare · lui/lei · imperfetto → [[g9]]\n10. fare · noi · imperfetto → [[g10]]\n11. fare · voi · imperfetto → [[g11]]\n12. fare · loro · imperfetto → [[g12]]\n13. bere · io · imperfetto → [[g13]]\n14. bere · tu · imperfetto → [[g14]]\n15. bere · lui/lei · imperfetto → [[g15]]\n16. bere · noi · imperfetto → [[g16]]\n17. bere · voi · imperfetto → [[g17]]\n18. bere · loro · imperfetto → [[g18]]\n19. proporre · io · imperfetto → [[g19]]\n20. proporre · tu · imperfetto → [[g20]]\n21. proporre · lui/lei · imperfetto → [[g21]]\n22. proporre · noi · imperfetto → [[g22]]\n23. proporre · voi · imperfetto → [[g23]]\n24. proporre · loro · imperfetto → [[g24]]\n25. stare · io · imperfetto → [[g25]]\n26. stare · tu · imperfetto → [[g26]]\n27. stare · lui/lei · imperfetto → [[g27]]\n28. stare · noi · imperfetto → [[g28]]\n29. stare · voi · imperfetto → [[g29]]\n30. stare · loro · imperfetto → [[g30]]",
     "gaps": [
@@ -51980,7 +51942,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "31. tradurre · io · imperfetto → [[g1]]\n32. tradurre · tu · imperfetto → [[g2]]\n33. tradurre · lui/lei · imperfetto → [[g3]]\n34. tradurre · noi · imperfetto → [[g4]]\n35. tradurre · voi · imperfetto → [[g5]]\n36. tradurre · loro · imperfetto → [[g6]]",
     "gaps": [
@@ -52367,7 +52329,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. lavarsi · io · presente → [[g1]]\n2. lavarsi · io · passato prossimo (maschile) → [[g2]]\n3. alzarsi · tu · presente → [[g3]]\n4. alzarsi · tu · passato prossimo (maschile) → [[g4]]\n5. vestirsi · lui/lei · presente → [[g5]]\n6. vestirsi · lui/lei · passato prossimo (maschile) → [[g6]]\n7. prepararsi · noi · presente → [[g7]]\n8. prepararsi · noi · passato prossimo (maschile) → [[g8]]\n9. svegliarsi · voi · presente → [[g9]]\n10. svegliarsi · voi · passato prossimo (maschile) → [[g10]]\n11. sedersi · loro · presente → [[g11]]\n12. sedersi · loro · passato prossimo (maschile) → [[g12]]\n13. rilassarsi · io · presente → [[g13]]\n14. rilassarsi · io · passato prossimo (maschile) → [[g14]]\n15. fermarsi · tu · presente → [[g15]]\n16. fermarsi · tu · passato prossimo (maschile) → [[g16]]\n17. incontrarsi · lui/lei · presente → [[g17]]\n18. incontrarsi · lui/lei · passato prossimo (maschile) → [[g18]]\n19. occuparsi · noi · presente → [[g19]]\n20. occuparsi · noi · passato prossimo (maschile) → [[g20]]",
     "gaps": [
@@ -52622,22 +52584,6 @@ const STOCK_PACKAGES = [
       "id": "g11",
       "acceptedAnswers": [
        "potrà"
-      ]
-     }
-    ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
-    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. Domani io (visitare) il museo. Usa il futuro. → [[g1]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "visiterò"
       ]
      }
     ]
@@ -52918,7 +52864,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
     "text": "1. Il corso comincia (a + le) nove. → [[g1]]\n2. La chiave è (in + lo) zaino. → [[g2]]\n3. Il programma è (su + la) porta. → [[g3]]\n4. Torniamo (da + il) museo. → [[g4]]\n5. Scrivo (a + gli) organizzatori. → [[g5]]\n6. I colori (di + le) fotografie sono vivaci. → [[g6]]\n7. Metto i libri (su + lo) scaffale. → [[g7]]\n8. Parliamo (di + i) risultati. → [[g8]]\n9. Aspetto (in + la) sala. → [[g9]]",
     "gaps": [
@@ -53552,7 +53498,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. accendere → participio passato maschile singolare → [[g1]]\n2. aggiungere → participio passato maschile singolare → [[g2]]\n3. aprire → participio passato maschile singolare → [[g3]]\n4. bere → participio passato maschile singolare → [[g4]]\n5. chiedere → participio passato maschile singolare → [[g5]]\n6. chiudere → participio passato maschile singolare → [[g6]]\n7. decidere → participio passato maschile singolare → [[g7]]\n8. descrivere → participio passato maschile singolare → [[g8]]\n9. dire → participio passato maschile singolare → [[g9]]\n10. discutere → participio passato maschile singolare → [[g10]]\n11. dividere → participio passato maschile singolare → [[g11]]\n12. esprimere → participio passato maschile singolare → [[g12]]\n13. essere → participio passato maschile singolare → [[g13]]\n14. fare → participio passato maschile singolare → [[g14]]\n15. leggere → participio passato maschile singolare → [[g15]]\n16. muovere → participio passato maschile singolare → [[g16]]\n17. morire → participio passato maschile singolare → [[g17]]\n18. nascere → participio passato maschile singolare → [[g18]]\n19. vedere → participio passato maschile singolare → [[g19]]\n20. mettere → participio passato maschile singolare → [[g20]]",
     "gaps": [
@@ -53682,7 +53628,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
     "text": "1. accendere · io · passato prossimo → [[g1]]\n2. aggiungere · io · passato prossimo → [[g2]]\n3. aprire · io · passato prossimo → [[g3]]\n4. bere · io · passato prossimo → [[g4]]\n5. chiedere · io · passato prossimo → [[g5]]\n6. chiudere · io · passato prossimo → [[g6]]\n7. decidere · io · passato prossimo → [[g7]]\n8. descrivere · io · passato prossimo → [[g8]]\n9. dire · io · passato prossimo → [[g9]]\n10. discutere · io · passato prossimo → [[g10]]\n11. dividere · io · passato prossimo → [[g11]]\n12. esprimere · io · passato prossimo → [[g12]]\n13. essere · io · passato prossimo (maschile) → [[g13]]\n14. fare · io · passato prossimo → [[g14]]\n15. leggere · io · passato prossimo → [[g15]]\n16. muovere · io · passato prossimo → [[g16]]\n17. morire · io · passato prossimo (maschile) → [[g17]]\n18. nascere · io · passato prossimo (maschile) → [[g18]]\n19. vedere · io · passato prossimo → [[g19]]\n20. mettere · io · passato prossimo → [[g20]]",
     "gaps": [
@@ -54043,9 +53989,9 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. Completa con bello: un __ quadro → [[g1]]\n2. Completa con bello: uno __ spettacolo (correggi anche l’articolo) → [[g2]]\n3. Completa con bello: dei __ disegni → [[g3]]\n4. Completa con bello: delle __ immagini → [[g4]]\n5. Completa con bello: dei __ zaini → [[g5]]\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
+    "text": "1. un [[g1]] quadro (bello)\n2. uno [[g2]] spettacolo (correggi anche l’articolo) (bello)\n3. dei [[g3]] disegni (bello)\n4. delle [[g4]] immagini (bello)\n5. dei [[g5]] zaini (bello)\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
     "gaps": [
      {
       "id": "g1",
@@ -54418,7 +54364,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. perdere → participio passato maschile singolare → [[g1]]\n2. permettere → participio passato maschile singolare → [[g2]]\n3. piangere → participio passato maschile singolare → [[g3]]\n4. prendere → participio passato maschile singolare → [[g4]]\n5. rendere → participio passato maschile singolare → [[g5]]\n6. ridere → participio passato maschile singolare → [[g6]]\n7. rimanere → participio passato maschile singolare → [[g7]]\n8. rispondere → participio passato maschile singolare → [[g8]]\n9. rompere → participio passato maschile singolare → [[g9]]\n10. scegliere → participio passato maschile singolare → [[g10]]\n11. scendere → participio passato maschile singolare → [[g11]]\n12. scoprire → participio passato maschile singolare → [[g12]]\n13. scrivere → participio passato maschile singolare → [[g13]]\n14. smettere → participio passato maschile singolare → [[g14]]\n15. spegnere → participio passato maschile singolare → [[g15]]\n16. spendere → participio passato maschile singolare → [[g16]]\n17. vedere → participio passato maschile singolare → [[g17]]\n18. venire → participio passato maschile singolare → [[g18]]\n19. vivere → participio passato maschile singolare → [[g19]]\n20. tradurre → participio passato maschile singolare → [[g20]]",
     "gaps": [
@@ -54548,7 +54494,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa anche il passato prossimo. Per scendere intendi “scendere dal treno”.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Trage die verlangte Form bzw. Ergänzung rechts ein.",
     "text": "1. perdere · io · passato prossimo → [[g1]]\n2. permettere · io · passato prossimo → [[g2]]\n3. piangere · io · passato prossimo → [[g3]]\n4. prendere · io · passato prossimo → [[g4]]\n5. rendere · io · passato prossimo → [[g5]]\n6. ridere · io · passato prossimo → [[g6]]\n7. rimanere · io · passato prossimo (maschile) → [[g7]]\n8. rispondere · io · passato prossimo → [[g8]]\n9. rompere · io · passato prossimo → [[g9]]\n10. scegliere · io · passato prossimo → [[g10]]\n11. scendere · io · passato prossimo (maschile, movimento intransitivo) → [[g11]]\n12. scoprire · io · passato prossimo → [[g12]]\n13. scrivere · io · passato prossimo → [[g13]]\n14. smettere · io · passato prossimo → [[g14]]\n15. spegnere · io · passato prossimo → [[g15]]\n16. spendere · io · passato prossimo → [[g16]]\n17. vedere · io · passato prossimo → [[g17]]\n18. venire · io · passato prossimo (maschile) → [[g18]]\n19. vivere · io · passato prossimo → [[g19]]\n20. tradurre · io · passato prossimo → [[g20]]",
     "gaps": [
@@ -54729,7 +54675,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
     "text": "1. Scusa → [[g1]]\n2. Dimmi → [[g2]]\n3. Dammi → [[g3]]\n4. Senti → [[g4]]\n5. Guarda → [[g5]]\n6. Vieni → [[g6]]\n7. Entra → [[g7]]\n8. Aspetta → [[g8]]\n9. Leggi → [[g9]]\n10. Scrivi → [[g10]]\n11. Prendi → [[g11]]\n12. Scegli → [[g12]]\n13. Apri → [[g13]]\n14. Chiudi → [[g14]]\n15. Fa’ attenzione → [[g15]]\n16. Sii paziente → [[g16]]\n17. Abbi pazienza → [[g17]]\n18. Accomodati → [[g18]]\n19. Siediti → [[g19]]\n20. Non preoccuparti → [[g20]]\n21. Non correre → [[g21]]\n22. Non parlare → [[g22]]\n23. Lasciami un messaggio → [[g23]]\n24. Telefonami → [[g24]]",
     "gaps": [
@@ -55693,7 +55639,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
     "text": "1. Le attività sono (pratico). → [[g1]]\n2. I materiali sono (economico). → [[g2]]\n3. La spiegazione è (chiaro). → [[g3]]\n4. Gli oggetti sono (utile). → [[g4]]\n5. Le istruzioni sono (semplice). → [[g5]]\n6. Il risultato è (interessante). → [[g6]]",
     "gaps": [
@@ -56182,28 +56128,6 @@ const STOCK_PACKAGES = [
      }
     ],
     "wordBank": true
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
-    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. Completa con tutto: __ le classi possono partecipare. → [[g1]]\n2. Completa con tanto: Abbiamo __ idee. → [[g2]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "Tutte"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "tante"
-      ]
-     }
-    ]
    }
   ]
  },
@@ -56414,9 +56338,9 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Scegli: e oppure che?",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
+    "explanation": "",
     "promptHelp": "Wähle: e oder che?",
-    "text": "1. Ho deciso __ voglio cambiare ritmo. → [[g1]]\n2. Studio __ preparo i materiali. → [[g2]]\n3. So __ la pausa è utile. → [[g3]]\n4. Esco __ incontro gli amici. → [[g4]]",
+    "text": "1. Ho deciso [[g1]] voglio cambiare ritmo.\n2. Studio [[g2]] preparo i materiali.\n3. So [[g3]] la pausa è utile.\n4. Esco [[g4]] incontro gli amici.",
     "gaps": [
      {
       "id": "g1",
@@ -56698,28 +56622,6 @@ const STOCK_PACKAGES = [
      }
     ],
     "wordBank": true
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Usa la stessa struttura in frasi nuove.",
-    "explanation": "Usa la persona, il tempo e il contesto indicati.",
-    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-    "text": "1. La penna appartiene a me: è __ penna. (articolo + possessivo) → [[g1]]\n2. Vado nella stanza che appartiene a noi: vado __ stanza. (preposizione articolata + possessivo) → [[g2]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "la mia"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "nella nostra"
-      ]
-     }
-    ]
    }
   ]
  },
@@ -57037,28 +56939,6 @@ const STOCK_PACKAGES = [
       "id": "g19",
       "acceptedAnswers": [
        "abbiamo lasciato"
-      ]
-     }
-    ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
-    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
-    "text": "1. parlare — imperfetto — io → [[g1]]\n2. temere — imperfetto — tu → [[g2]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "parlavo"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "temevi"
       ]
      }
     ]
@@ -58012,7 +57892,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. essere — condizionale presente — io → [[g1]]\n2. essere — condizionale presente — tu → [[g2]]\n3. essere — condizionale presente — lui/lei → [[g3]]\n4. essere — condizionale presente — noi → [[g4]]\n5. essere — condizionale presente — voi → [[g5]]\n6. essere — condizionale presente — loro → [[g6]]\n7. avere — condizionale presente — io → [[g7]]\n8. avere — condizionale presente — tu → [[g8]]\n9. avere — condizionale presente — lui/lei → [[g9]]\n10. avere — condizionale presente — noi → [[g10]]\n11. avere — condizionale presente — voi → [[g11]]\n12. avere — condizionale presente — loro → [[g12]]\n13. volere — condizionale presente — io → [[g13]]\n14. volere — condizionale presente — tu → [[g14]]\n15. volere — condizionale presente — lui/lei → [[g15]]\n16. volere — condizionale presente — noi → [[g16]]\n17. volere — condizionale presente — voi → [[g17]]\n18. volere — condizionale presente — loro → [[g18]]",
     "gaps": [
@@ -59783,7 +59663,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. fare — condizionale presente — io → [[g1]]\n2. fare — condizionale presente — tu → [[g2]]\n3. fare — condizionale presente — lui/lei → [[g3]]\n4. fare — condizionale presente — noi → [[g4]]\n5. fare — condizionale presente — voi → [[g5]]\n6. fare — condizionale presente — loro → [[g6]]\n7. dire — condizionale presente — io → [[g7]]\n8. dire — condizionale presente — tu → [[g8]]\n9. dire — condizionale presente — lui/lei → [[g9]]\n10. dire — condizionale presente — noi → [[g10]]\n11. dire — condizionale presente — voi → [[g11]]\n12. dire — condizionale presente — loro → [[g12]]\n13. venire — condizionale presente — io → [[g13]]\n14. venire — condizionale presente — tu → [[g14]]\n15. venire — condizionale presente — lui/lei → [[g15]]\n16. venire — condizionale presente — noi → [[g16]]\n17. venire — condizionale presente — voi → [[g17]]\n18. venire — condizionale presente — loro → [[g18]]\n19. potere — condizionale presente — io → [[g19]]\n20. potere — condizionale presente — tu → [[g20]]\n21. potere — condizionale presente — lui/lei → [[g21]]\n22. potere — condizionale presente — noi → [[g22]]\n23. potere — condizionale presente — voi → [[g23]]\n24. potere — condizionale presente — loro → [[g24]]\n25. andare — condizionale presente — io → [[g25]]\n26. andare — condizionale presente — tu → [[g26]]\n27. andare — condizionale presente — lui/lei → [[g27]]\n28. andare — condizionale presente — noi → [[g28]]\n29. andare — condizionale presente — voi → [[g29]]\n30. andare — condizionale presente — loro → [[g30]]",
     "gaps": [
@@ -60783,7 +60663,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
     "text": "1. vedere — passato prossimo — lui/lei → [[g1]]\n2. partire — passato prossimo — noi (maschile) → [[g2]]\n3. partire — trapassato prossimo — io (maschile) → [[g3]]\n4. scrivere — passato prossimo — io → [[g4]]\n5. lavorare — passato prossimo — noi → [[g5]]\n6. leggere — passato prossimo — tu → [[g6]]\n7. dormire — trapassato prossimo — lui/lei → [[g7]]\n8. telefonare — trapassato prossimo — noi → [[g8]]\n9. partire — trapassato prossimo — noi (maschile) → [[g9]]\n10. avere — imperfetto — tu → [[g10]]\n11. fare — passato prossimo — io → [[g11]]\n12. visitare — trapassato prossimo — noi → [[g12]]\n13. ascoltare — trapassato prossimo — lui/lei → [[g13]]",
     "gaps": [
@@ -63768,7 +63648,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
     "text": "1. venire — congiuntivo imperfetto — voi → [[g1]]\n2. fare — congiuntivo imperfetto — noi → [[g2]]\n3. vendere — congiuntivo imperfetto — noi → [[g3]]\n4. temere — congiuntivo imperfetto — loro → [[g4]]\n5. vendere — congiuntivo imperfetto — tu → [[g5]]",
     "gaps": [
@@ -65329,22 +65209,6 @@ const STOCK_PACKAGES = [
       ]
      }
     ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
-    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
-    "text": "1. vedere — passato prossimo — noi → [[g1]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "abbiamo visto"
-      ]
-     }
-    ]
    }
   ]
  },
@@ -65664,7 +65528,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. essere — passato remoto — io → [[g1]]\n2. essere — passato remoto — tu → [[g2]]\n3. essere — passato remoto — lui/lei → [[g3]]\n4. essere — passato remoto — noi → [[g4]]\n5. essere — passato remoto — voi → [[g5]]\n6. essere — passato remoto — loro → [[g6]]\n7. avere — passato remoto — io → [[g7]]\n8. avere — passato remoto — tu → [[g8]]\n9. avere — passato remoto — lui/lei → [[g9]]\n10. avere — passato remoto — noi → [[g10]]\n11. avere — passato remoto — voi → [[g11]]\n12. avere — passato remoto — loro → [[g12]]\n13. fare — passato remoto — io → [[g13]]\n14. fare — passato remoto — tu → [[g14]]\n15. fare — passato remoto — lui/lei → [[g15]]\n16. fare — passato remoto — noi → [[g16]]\n17. fare — passato remoto — voi → [[g17]]\n18. fare — passato remoto — loro → [[g18]]\n19. dire — passato remoto — io → [[g19]]\n20. dire — passato remoto — tu → [[g20]]\n21. dire — passato remoto — lui/lei → [[g21]]\n22. dire — passato remoto — noi → [[g22]]\n23. dire — passato remoto — voi → [[g23]]\n24. dire — passato remoto — loro → [[g24]]",
     "gaps": [
@@ -66001,7 +65865,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. essere — congiuntivo imperfetto — io → [[g1]]\n2. essere — congiuntivo imperfetto — tu → [[g2]]\n3. essere — congiuntivo imperfetto — lui/lei → [[g3]]\n4. essere — congiuntivo imperfetto — noi → [[g4]]\n5. essere — congiuntivo imperfetto — voi → [[g5]]\n6. essere — congiuntivo imperfetto — loro → [[g6]]\n7. avere — congiuntivo imperfetto — io → [[g7]]\n8. avere — congiuntivo imperfetto — tu → [[g8]]\n9. avere — congiuntivo imperfetto — lui/lei → [[g9]]\n10. avere — congiuntivo imperfetto — noi → [[g10]]\n11. avere — congiuntivo imperfetto — voi → [[g11]]\n12. avere — congiuntivo imperfetto — loro → [[g12]]\n13. parlare — congiuntivo imperfetto — io → [[g13]]\n14. parlare — congiuntivo imperfetto — tu → [[g14]]\n15. parlare — congiuntivo imperfetto — lui/lei → [[g15]]\n16. parlare — congiuntivo imperfetto — noi → [[g16]]\n17. parlare — congiuntivo imperfetto — voi → [[g17]]\n18. parlare — congiuntivo imperfetto — loro → [[g18]]\n19. ricevere — congiuntivo imperfetto — io → [[g19]]\n20. ricevere — congiuntivo imperfetto — tu → [[g20]]\n21. ricevere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. ricevere — congiuntivo imperfetto — noi → [[g22]]\n23. ricevere — congiuntivo imperfetto — voi → [[g23]]\n24. ricevere — congiuntivo imperfetto — loro → [[g24]]\n25. dormire — congiuntivo imperfetto — io → [[g25]]\n26. dormire — congiuntivo imperfetto — tu → [[g26]]\n27. dormire — congiuntivo imperfetto — lui/lei → [[g27]]\n28. dormire — congiuntivo imperfetto — noi → [[g28]]\n29. dormire — congiuntivo imperfetto — voi → [[g29]]\n30. dormire — congiuntivo imperfetto — loro → [[g30]]",
     "gaps": [
@@ -66191,7 +66055,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "31. venire — congiuntivo imperfetto — io → [[g1]]\n32. venire — congiuntivo imperfetto — tu → [[g2]]\n33. venire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. venire — congiuntivo imperfetto — noi → [[g4]]\n35. venire — congiuntivo imperfetto — voi → [[g5]]\n36. venire — congiuntivo imperfetto — loro → [[g6]]",
     "gaps": [
@@ -66648,7 +66512,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. fare — congiuntivo imperfetto — io → [[g1]]\n2. fare — congiuntivo imperfetto — tu → [[g2]]\n3. fare — congiuntivo imperfetto — lui/lei → [[g3]]\n4. fare — congiuntivo imperfetto — noi → [[g4]]\n5. fare — congiuntivo imperfetto — voi → [[g5]]\n6. fare — congiuntivo imperfetto — loro → [[g6]]\n7. dire — congiuntivo imperfetto — io → [[g7]]\n8. dire — congiuntivo imperfetto — tu → [[g8]]\n9. dire — congiuntivo imperfetto — lui/lei → [[g9]]\n10. dire — congiuntivo imperfetto — noi → [[g10]]\n11. dire — congiuntivo imperfetto — voi → [[g11]]\n12. dire — congiuntivo imperfetto — loro → [[g12]]\n13. potere — congiuntivo imperfetto — io → [[g13]]\n14. potere — congiuntivo imperfetto — tu → [[g14]]\n15. potere — congiuntivo imperfetto — lui/lei → [[g15]]\n16. potere — congiuntivo imperfetto — noi → [[g16]]\n17. potere — congiuntivo imperfetto — voi → [[g17]]\n18. potere — congiuntivo imperfetto — loro → [[g18]]\n19. volere — congiuntivo imperfetto — io → [[g19]]\n20. volere — congiuntivo imperfetto — tu → [[g20]]\n21. volere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. volere — congiuntivo imperfetto — noi → [[g22]]\n23. volere — congiuntivo imperfetto — voi → [[g23]]\n24. volere — congiuntivo imperfetto — loro → [[g24]]\n25. andare — congiuntivo imperfetto — io → [[g25]]\n26. andare — congiuntivo imperfetto — tu → [[g26]]\n27. andare — congiuntivo imperfetto — lui/lei → [[g27]]\n28. andare — congiuntivo imperfetto — noi → [[g28]]\n29. andare — congiuntivo imperfetto — voi → [[g29]]\n30. andare — congiuntivo imperfetto — loro → [[g30]]",
     "gaps": [
@@ -66838,7 +66702,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "31. partire — congiuntivo imperfetto — io → [[g1]]\n32. partire — congiuntivo imperfetto — tu → [[g2]]\n33. partire — congiuntivo imperfetto — lui/lei → [[g3]]\n34. partire — congiuntivo imperfetto — noi → [[g4]]\n35. partire — congiuntivo imperfetto — voi → [[g5]]\n36. partire — congiuntivo imperfetto — loro → [[g6]]",
     "gaps": [
@@ -67258,7 +67122,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. vendere — congiuntivo imperfetto — tu → [[g1]]\n2. controllare — congiuntivo presente — loro → [[g2]]\n3. andare — congiuntivo presente — io → [[g3]]\n4. parlare — congiuntivo imperfetto — noi → [[g4]]\n5. prendere — trapassato prossimo — voi → [[g5]]\n6. ascoltare — congiuntivo imperfetto — io → [[g6]]\n7. ricevere — passato prossimo — loro → [[g7]]\n8. avere — condizionale presente — io → [[g8]]\n9. lavorare — condizionale presente — voi → [[g9]]\n10. controllare — passato prossimo — voi → [[g10]]\n11. essere — condizionale presente — io → [[g11]]\n12. invitare — trapassato prossimo — lui/lei → [[g12]]\n13. dire — passato prossimo — voi → [[g13]]\n14. volere — condizionale presente — io → [[g14]]\n15. potere — congiuntivo imperfetto — tu → [[g15]]\n16. lavorare — passato prossimo — tu → [[g16]]\n17. vendere — presente — lui/lei → [[g17]]\n18. conservare — imperfetto — noi → [[g18]]\n19. ricevere — presente — noi → [[g19]]\n20. conservare — congiuntivo imperfetto — io → [[g20]]\n21. fare — passato prossimo — lui/lei → [[g21]]\n22. essere — condizionale presente — loro → [[g22]]\n23. telefonare — congiuntivo presente — io → [[g23]]\n24. telefonare — presente — tu → [[g24]]\n25. potere — condizionale presente — lui/lei → [[g25]]\n26. vendere — congiuntivo imperfetto — loro → [[g26]]\n27. lavorare — congiuntivo presente — loro → [[g27]]\n28. preparare — congiuntivo imperfetto — voi → [[g28]]",
     "gaps": [
@@ -67776,28 +67640,6 @@ const STOCK_PACKAGES = [
       "answer": "telefonò"
      }
     ]
-   },
-   {
-    "id": "q2",
-    "type": "gap_fill",
-    "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
-    "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
-    "text": "1. vendere — congiuntivo presente — io → [[g1]]\n2. temere — congiuntivo presente — lui/lei → [[g2]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "venda"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "tema"
-      ]
-     }
-    ]
    }
   ]
  },
@@ -67935,7 +67777,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
     "text": "1. ricevere — passato prossimo — lui/lei → [[g1]]\n2. vendere — imperfetto — loro → [[g2]]\n3. ricevere — imperfetto — lui/lei → [[g3]]",
     "gaps": [
@@ -68853,7 +68695,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. ascoltare — congiuntivo presente — voi → [[g1]]\n2. osservare — congiuntivo imperfetto — noi → [[g2]]\n3. avere — congiuntivo imperfetto — voi → [[g3]]\n4. ricevere — congiuntivo presente — lui/lei → [[g4]]\n5. fare — congiuntivo presente — loro → [[g5]]\n6. avere — congiuntivo presente — loro → [[g6]]",
     "gaps": [
@@ -68899,7 +68741,7 @@ const STOCK_PACKAGES = [
     "id": "q3",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. lavorare — condizionale presente — io → [[g1]]\n2. potere — condizionale presente — lui/lei → [[g2]]\n3. essere — condizionale presente — tu → [[g3]]\n4. venire — condizionale presente — lui/lei → [[g4]]\n5. invitare — condizionale presente — tu → [[g5]]\n6. conservare — condizionale presente — tu → [[g6]]",
     "gaps": [
@@ -68995,7 +68837,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. essere — congiuntivo presente — io → [[g1]]\n2. essere — congiuntivo presente — tu → [[g2]]\n3. essere — congiuntivo presente — lui/lei → [[g3]]\n4. essere — congiuntivo presente — noi → [[g4]]\n5. essere — congiuntivo presente — voi → [[g5]]\n6. essere — congiuntivo presente — loro → [[g6]]\n7. avere — congiuntivo presente — io → [[g7]]\n8. avere — congiuntivo presente — tu → [[g8]]\n9. avere — congiuntivo presente — lui/lei → [[g9]]\n10. avere — congiuntivo presente — noi → [[g10]]\n11. avere — congiuntivo presente — voi → [[g11]]\n12. avere — congiuntivo presente — loro → [[g12]]\n13. fare — congiuntivo presente — io → [[g13]]\n14. fare — congiuntivo presente — tu → [[g14]]\n15. fare — congiuntivo presente — lui/lei → [[g15]]\n16. fare — congiuntivo presente — noi → [[g16]]\n17. fare — congiuntivo presente — voi → [[g17]]\n18. fare — congiuntivo presente — loro → [[g18]]\n19. dire — congiuntivo presente — io → [[g19]]\n20. dire — congiuntivo presente — tu → [[g20]]\n21. dire — congiuntivo presente — lui/lei → [[g21]]\n22. dire — congiuntivo presente — noi → [[g22]]\n23. dire — congiuntivo presente — voi → [[g23]]\n24. dire — congiuntivo presente — loro → [[g24]]\n25. venire — congiuntivo presente — io → [[g25]]\n26. venire — congiuntivo presente — tu → [[g26]]\n27. venire — congiuntivo presente — lui/lei → [[g27]]\n28. venire — congiuntivo presente — noi → [[g28]]\n29. venire — congiuntivo presente — voi → [[g29]]\n30. venire — congiuntivo presente — loro → [[g30]]",
     "gaps": [
@@ -69185,7 +69027,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "31. potere — congiuntivo presente — io → [[g1]]\n32. potere — congiuntivo presente — tu → [[g2]]\n33. potere — congiuntivo presente — lui/lei → [[g3]]\n34. potere — congiuntivo presente — noi → [[g4]]\n35. potere — congiuntivo presente — voi → [[g5]]\n36. potere — congiuntivo presente — loro → [[g6]]",
     "gaps": [
@@ -69281,7 +69123,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. osservare — congiuntivo imperfetto — io → [[g1]]\n2. osservare — congiuntivo imperfetto — tu → [[g2]]\n3. osservare — congiuntivo imperfetto — lui/lei → [[g3]]\n4. osservare — congiuntivo imperfetto — noi → [[g4]]\n5. osservare — congiuntivo imperfetto — voi → [[g5]]\n6. osservare — congiuntivo imperfetto — loro → [[g6]]\n7. conservare — congiuntivo imperfetto — io → [[g7]]\n8. conservare — congiuntivo imperfetto — tu → [[g8]]\n9. conservare — congiuntivo imperfetto — lui/lei → [[g9]]\n10. conservare — congiuntivo imperfetto — noi → [[g10]]\n11. conservare — congiuntivo imperfetto — voi → [[g11]]\n12. conservare — congiuntivo imperfetto — loro → [[g12]]\n13. invitare — congiuntivo imperfetto — io → [[g13]]\n14. invitare — congiuntivo imperfetto — tu → [[g14]]\n15. invitare — congiuntivo imperfetto — lui/lei → [[g15]]\n16. invitare — congiuntivo imperfetto — noi → [[g16]]\n17. invitare — congiuntivo imperfetto — voi → [[g17]]\n18. invitare — congiuntivo imperfetto — loro → [[g18]]\n19. vendere — congiuntivo imperfetto — io → [[g19]]\n20. vendere — congiuntivo imperfetto — tu → [[g20]]\n21. vendere — congiuntivo imperfetto — lui/lei → [[g21]]\n22. vendere — congiuntivo imperfetto — noi → [[g22]]\n23. vendere — congiuntivo imperfetto — voi → [[g23]]\n24. vendere — congiuntivo imperfetto — loro → [[g24]]\n25. temere — congiuntivo imperfetto — io → [[g25]]\n26. temere — congiuntivo imperfetto — tu → [[g26]]\n27. temere — congiuntivo imperfetto — lui/lei → [[g27]]\n28. temere — congiuntivo imperfetto — noi → [[g28]]\n29. temere — congiuntivo imperfetto — voi → [[g29]]\n30. temere — congiuntivo imperfetto — loro → [[g30]]",
     "gaps": [
@@ -69471,7 +69313,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "31. lavorare — congiuntivo imperfetto — io → [[g1]]\n32. lavorare — congiuntivo imperfetto — tu → [[g2]]\n33. lavorare — congiuntivo imperfetto — lui/lei → [[g3]]\n34. lavorare — congiuntivo imperfetto — noi → [[g4]]\n35. lavorare — congiuntivo imperfetto — voi → [[g5]]\n36. lavorare — congiuntivo imperfetto — loro → [[g6]]",
     "gaps": [
@@ -70120,7 +69962,7 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern.",
     "text": "1. portare — condizionale presente — io → [[g1]]\n2. vendere — congiuntivo imperfetto — tu → [[g2]]\n3. avere — congiuntivo presente — lui/lei → [[g3]]\n4. volere — congiuntivo presente — lui/lei → [[g4]]\n5. potere — congiuntivo presente — io → [[g5]]\n6. preparare — trapassato prossimo — voi → [[g6]]\n7. portare — trapassato prossimo — io → [[g7]]\n8. lavorare — congiuntivo imperfetto — voi → [[g8]]\n9. conservare — congiuntivo presente — noi → [[g9]]\n10. vendere — presente — tu → [[g10]]\n11. ascoltare — condizionale presente — noi → [[g11]]\n12. temere — imperfetto — lui/lei → [[g12]]\n13. lavorare — trapassato prossimo — io → [[g13]]\n14. ricevere — presente — noi → [[g14]]\n15. dire — congiuntivo imperfetto — tu → [[g15]]\n16. volere — condizionale presente — lui/lei → [[g16]]\n17. fare — condizionale presente — tu → [[g17]]\n18. dire — condizionale presente — io → [[g18]]\n19. vendere — congiuntivo presente — loro → [[g19]]\n20. osservare — congiuntivo presente — lui/lei → [[g20]]\n21. lavorare — presente — lui/lei → [[g21]]\n22. partire — imperfetto — lui/lei → [[g22]]\n23. invitare — condizionale presente — voi → [[g23]]\n24. ascoltare — imperfetto — voi → [[g24]]",
     "gaps": [
@@ -70846,7 +70688,7 @@ const STOCK_PACKAGES = [
     "id": "q2",
     "type": "gap_fill",
     "prompt": "Completa le forme o le trasformazioni indicate.",
-    "explanation": "Rispetta persona, modo e tempo richiesti.",
+    "explanation": "",
     "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen.",
     "text": "1. ascoltare — congiuntivo imperfetto — lui/lei → [[g1]]\n2. preparare — congiuntivo imperfetto — io → [[g2]]\n3. ascoltare — congiuntivo imperfetto — io → [[g3]]\n4. controllare — congiuntivo presente — noi → [[g4]]\n5. parlare — congiuntivo presente — io → [[g5]]\n6. vendere — congiuntivo imperfetto — voi → [[g6]]\n7. andare — congiuntivo imperfetto — loro → [[g7]]\n8. andare — congiuntivo imperfetto — voi → [[g8]]\n9. dire — congiuntivo presente — tu → [[g9]]\n10. telefonare — congiuntivo presente — voi → [[g10]]\n11. ascoltare — congiuntivo presente — lui/lei → [[g11]]",
     "gaps": [

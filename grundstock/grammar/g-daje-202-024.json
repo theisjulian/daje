@@ -136,7 +136,7 @@
    "type": "gap_fill",
    "prompt": "Usa la stessa struttura in frasi nuove.",
    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. __ specchio è vicino alla porta. → [[g1]]\n2. __ armadi sono nuovi. → [[g2]]\n3. __ asciugamani sono puliti. → [[g3]]\n4. __ poltrone sono comode. → [[g4]]\n5. __ letto è vicino alla finestra. → [[g5]]\n6. __ cucina è luminosa. → [[g6]]\n7. __ scaffale è alto. → [[g7]]",
+   "text": "1. [[g1]] specchio è vicino alla porta.\n2. [[g2]] armadi sono nuovi.\n3. [[g3]] asciugamani sono puliti.\n4. [[g4]] poltrone sono comode.\n5. [[g5]] letto è vicino alla finestra.\n6. [[g6]] cucina è luminosa.\n7. [[g7]] scaffale è alto.",
    "gaps": [
     {
      "id": "g1",
@@ -180,8 +180,7 @@
       "Lo"
      ]
     }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
+   ]
   }
  ]
 }

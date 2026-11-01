@@ -101,28 +101,6 @@
    ],
    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Usa la stessa struttura in frasi nuove.",
-   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. La penna appartiene a me: è __ penna. (articolo + possessivo) → [[g1]]\n2. Vado nella stanza che appartiene a noi: vado __ stanza. (preposizione articolata + possessivo) → [[g2]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "la mia"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "nella nostra"
-     ]
-    }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
   }
  ]
 }

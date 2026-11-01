@@ -125,28 +125,6 @@
    ],
    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Usa la stessa struttura in frasi nuove.",
-   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. Completa con tutto: __ le classi possono partecipare. → [[g1]]\n2. Completa con tanto: Abbiamo __ idee. → [[g2]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "Tutte"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "tante"
-     ]
-    }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
   }
  ]
 }

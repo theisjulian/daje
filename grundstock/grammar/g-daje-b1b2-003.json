@@ -166,28 +166,6 @@
     }
    ],
    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Completa le forme o le trasformazioni indicate.",
-   "text": "1. parlare — imperfetto — io → [[g1]]\n2. temere — imperfetto — tu → [[g2]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "parlavo"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "temevi"
-     ]
-    }
-   ],
-   "explanation": "Rispetta persona, modo e tempo richiesti.",
-   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
   }
  ]
 }

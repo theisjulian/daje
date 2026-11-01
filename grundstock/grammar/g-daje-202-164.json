@@ -107,7 +107,7 @@
    "type": "gap_fill",
    "prompt": "Usa la stessa struttura in frasi nuove.",
    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. Completa con bello: un __ quadro → [[g1]]\n2. Completa con bello: uno __ spettacolo (correggi anche l’articolo) → [[g2]]\n3. Completa con bello: dei __ disegni → [[g3]]\n4. Completa con bello: delle __ immagini → [[g4]]\n5. Completa con bello: dei __ zaini → [[g5]]\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
+   "text": "1. un [[g1]] quadro (bello)\n2. uno [[g2]] spettacolo (correggi anche l’articolo) (bello)\n3. dei [[g3]] disegni (bello)\n4. delle [[g4]] immagini (bello)\n5. dei [[g5]] zaini (bello)\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
    "gaps": [
     {
      "id": "g1",
@@ -145,8 +145,7 @@
       "un bell’edificio"
      ]
     }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
+   ]
   }
  ]
 }

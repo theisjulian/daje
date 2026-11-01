@@ -154,22 +154,6 @@
     }
    ],
    "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Usa la stessa struttura in frasi nuove.",
-   "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. Completa con l’articolo determinativo: __ stand della classe è pronto. → [[g1]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "Lo"
-     ]
-    }
-   ],
-   "explanation": "Usa la persona, il tempo e il contesto indicati."
   }
  ]
 }

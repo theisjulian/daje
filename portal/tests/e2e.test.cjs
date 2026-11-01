@@ -199,16 +199,16 @@ async function step(name, fn) {
   await step('Alle 6 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('#look-open');
-    const skins = await dp.$$eval('#theme-grid button', b => b.map(x => x.dataset.skin));
+    const skins = await dp.$$eval('.set-skins button', b => b.map(x => x.dataset.skin));
     assert.deepEqual(skins, ['daje', 'pop', 'heft', 'graphit', 'wald', 'tag']);
     assert.ok(skins.includes('tag'));
     // Tageslicht bestimmt Hell/Dunkel selbst und wird deshalb getrennt geprüft.
     const fixed = skins.filter(s => s !== 'tag');
     for (const mode of ['light', 'dark']) {
-      await dp.click('#theme-grid button[data-skin="daje"]');
-      await dp.selectOption('#appearance', mode);
+      await dp.click('.set-skins button[data-skin="daje"]');
+      await dp.click('[data-set-appearance="' + mode + '"]');
       for (const skin of fixed) {
-        await dp.click('#theme-grid button[data-skin="' + skin + '"]');
+        await dp.click('.set-skins button[data-skin="' + skin + '"]');
         assert.equal(await dp.getAttribute('html', 'data-skin'), skin);
         assert.equal(await dp.getAttribute('html', 'data-theme'), mode);
         if (SNAP) {
@@ -218,7 +218,7 @@ async function step(name, fn) {
         }
       }
     }
-    await dp.click('#theme-grid button[data-skin="tag"]');
+    await dp.click('.set-skins button[data-skin="tag"]');
     assert.equal(await dp.getAttribute('html', 'data-skin'), 'tag');
     await dp.evaluate(() => document.getElementById('look-dialog').close());
   });
@@ -327,7 +327,7 @@ async function step(name, fn) {
 
   await step('Schriftauswahl wirkt und wird gespeichert', async () => {
     await dp.click('#look-open');
-    await dp.click('#font-grid [data-font="lora"]');
+    await dp.click('.set-top [data-font="lora"]');
     assert.equal(await dp.getAttribute('html', 'data-font'), 'lora');
     await dp.evaluate(() => document.getElementById('look-dialog').close());
     await dp.waitForTimeout(400); // Schließen springt im Verlauf zurück; erst danach neu laden

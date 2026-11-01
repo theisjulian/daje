@@ -205,28 +205,6 @@
     }
    ],
    "promptHelp": "Ergänze den Text: Wähle die richtige Form."
-  },
-  {
-   "id": "q2",
-   "type": "gap_fill",
-   "prompt": "Completa le forme o le trasformazioni indicate.",
-   "text": "1. vendere — congiuntivo presente — io → [[g1]]\n2. temere — congiuntivo presente — lui/lei → [[g2]]",
-   "gaps": [
-    {
-     "id": "g1",
-     "acceptedAnswers": [
-      "venda"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "tema"
-     ]
-    }
-   ],
-   "explanation": "Rispetta persona, modo e tempo richiesti.",
-   "promptHelp": "Ergänze die angegebenen Formen bzw. Umformungen."
   }
  ]
 }

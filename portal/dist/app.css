@@ -8873,3 +8873,73 @@ body.kb-open .checkbar { position: static !important; }
   .tabbar button { transition: background 0.2s, transform 0.15s var(--spring); }
   .tabbar button:active { transform: scale(0.94); }
 }
+
+/* ================= Themes nachgeschärft (01.11.2026) ================= */
+/* Menüpunkte bleiben einzeilig, egal in welcher Farbwelt */
+.nav-list button { white-space: nowrap; }
+.nav-list .nav-label { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+/* Heft: Textmarker nur hinter dem Wort, nicht über den ganzen Knopf */
+:root[data-skin='heft'] { --nav-active-bg: var(--fill); }
+:root[data-skin='heft'] .nav-list [aria-current='page'] .nav-label {
+  background: linear-gradient(transparent 56%, color-mix(in srgb, #ffd23f 75%, transparent) 56% 92%, transparent 92%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 0 2px;
+}
+:root[data-skin='heft'][data-theme='dark'] .nav-list [aria-current='page'] .nav-label {
+  background: linear-gradient(transparent 56%, color-mix(in srgb, #f2d36b 45%, transparent) 56% 92%, transparent 92%);
+}
+/* Heft: Dashboard-Kopf und Anmeldung als linierte Heftseite mit Randlinie */
+:root[data-skin='heft'] .tdash-hero,
+:root[data-skin='heft'] .auth-side {
+  color: var(--label);
+  background:
+    linear-gradient(90deg, transparent 44px, rgba(214, 60, 60, 0.45) 44px 46px, transparent 46px),
+    repeating-linear-gradient(transparent 0 31px, color-mix(in srgb, #3b6fd1 18%, transparent) 31px 32px),
+    var(--sheet);
+  border: 1px solid var(--hairline);
+}
+:root[data-skin='heft'] .tdash-hero { padding-left: 64px; }
+:root[data-skin='heft'] .tdash-hero::after { display: none; }
+:root[data-skin='heft'] .tdash-hero h1,
+:root[data-skin='heft'] .auth-side h3 { color: var(--label); }
+:root[data-skin='heft'] .tdash-hero p,
+:root[data-skin='heft'] .auth-side li,
+:root[data-skin='heft'] .auth-side-foot { color: var(--label-2); }
+:root[data-skin='heft'] .tdash .tdash-hero .eyebrow { color: var(--label-2) !important; -webkit-text-fill-color: var(--label-2); }
+:root[data-skin='heft'] .tq { color: var(--label); background: var(--glass-solid); border: 1px solid var(--hairline); border-radius: var(--btn-r); backdrop-filter: none; }
+:root[data-skin='heft'] .tq:hover { background: var(--fill); }
+:root[data-skin='heft'] .tq .ico { color: var(--blue); }
+:root[data-skin='heft'] .auth-side li::before { background: var(--fill-2); }
+/* daje dunkel: leichter Neon-Schein auf Kopf, Kennzahlen und Hauptknöpfen */
+:root[data-skin='daje'][data-theme='dark'] .tdash-hero { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 18px 60px -18px color-mix(in srgb, var(--accent2) 70%, transparent), 0 0 80px -30px color-mix(in srgb, var(--blue) 80%, transparent); }
+:root[data-skin='daje'][data-theme='dark'] .kpi b { background: linear-gradient(90deg, #fff, color-mix(in srgb, var(--accent2) 60%, #fff)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+:root[data-skin='daje'][data-theme='dark'] .button.primary { box-shadow: 0 0 22px -6px color-mix(in srgb, var(--blue) 85%, transparent); }
+:root[data-skin='daje'][data-theme='dark'] .tlive-bar i { box-shadow: 0 0 12px color-mix(in srgb, var(--green) 70%, transparent); }
+
+/* ================= Einstellungen, schlicht mit Pillen ================= */
+#look-dialog.settings-dialog { width: min(560px, calc(100vw - 20px)); padding: 0; overflow: hidden; border-radius: 26px; }
+#look-dialog.settings-dialog > :not(.dialog-head):not(.set-top) { display: none !important; }
+#look-dialog.settings-dialog .dialog-head { position: sticky; top: 0; z-index: 2; padding: 18px 20px 10px; margin: 0; background: var(--glass-solid); }
+#look-dialog.settings-dialog .dialog-head h2 { font-size: 1.35rem; margin: 0; }
+.set-x { width: 34px; height: 34px; border-radius: 50%; border: 0; background: var(--fill); color: inherit; font-size: 20px; line-height: 1; cursor: pointer; }
+#look-dialog .set-top { display: block; padding: 4px 20px 22px; max-height: calc(100dvh - 120px); overflow: auto; margin: 0; }
+.set-card { display: flex; flex-direction: column; border-radius: 18px; background: var(--fill); padding: 4px 14px; }
+.set-card.set-account { flex-direction: row; align-items: center; gap: 12px; padding: 12px 14px; }
+.set-h { margin: 18px 4px 8px; font-size: .74rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--label-2); }
+.set-row { display: flex; align-items: center; justify-content: space-between; gap: 10px 14px; padding: 11px 0; flex-wrap: wrap; }
+.set-row + .set-row { border-top: 1px solid var(--hairline); }
+.set-label { display: flex; flex-direction: column; min-width: 0; }
+.set-label b { font-size: .93rem; font-weight: 600; }
+.set-label small { color: var(--label-2); font-size: .76rem; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.pill { border: 1px solid var(--hairline); background: var(--glass-solid); color: inherit; font: inherit; font-size: .84rem; font-weight: 600; min-height: 32px; padding: 0 13px; border-radius: 999px; cursor: pointer; transition: background .15s, color .15s, border-color .15s; }
+.pill:hover { border-color: color-mix(in srgb, var(--blue) 40%, var(--hairline)); }
+.pill[aria-pressed='true'], .pill.is-strong { background: var(--blue); border-color: var(--blue); color: var(--on-accent, #fff); }
+.set-skins { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 10px 0 8px; }
+.skin-pill { display: flex; align-items: center; gap: 10px; text-align: left; border: 1px solid var(--hairline); background: var(--glass-solid); color: inherit; font: inherit; border-radius: 999px; padding: 6px 12px 6px 6px; cursor: pointer; min-width: 0; }
+.skin-pill i { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--sb); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .08); position: relative; }
+.skin-pill i::after { content: ""; position: absolute; right: -2px; bottom: -2px; width: 12px; height: 12px; border-radius: 50%; background: var(--sa); border: 2px solid var(--glass-solid); }
+.skin-pill span { display: flex; flex-direction: column; min-width: 0; }
+.skin-pill b { font-size: .88rem; }
+.skin-pill small { font-size: .72rem; color: var(--label-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.skin-pill[aria-pressed='true'] { border-color: var(--blue); box-shadow: 0 0 0 2px color-mix(in srgb, var(--blue) 30%, transparent); }
+@media (max-width: 480px) { .set-row { flex-direction: column; align-items: flex-start; } .pills { justify-content: flex-start; } .set-skins { grid-template-columns: 1fr 1fr; } }
