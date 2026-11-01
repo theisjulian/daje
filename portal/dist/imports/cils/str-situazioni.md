@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Zu jeder kurzen Äußerung wählen die Lernenden die Situation, in der man sie sagt (4 Möglichkeiten). Geprüft wird, ob Funktion und Register einer Wendung verstanden werden.
+Wie im CILS-Heft (Strutture, Prova 4): 10 kurze Äußerungen (Anzeige, Nachricht, Frage, Hinweis, Werbung); zu jeder wählen die Lernenden aus 4 Situationen die passende.
 
 ## Was in `esercizi` steht
 
@@ -18,14 +18,14 @@ Zu jeder kurzen Äußerung wählen die Lernenden die Situation, in der man sie s
       "titolo": "…",
       "espressioni": [
         {
-          "espressione": "Mi scusi, potrebbe ripetere più lentamente?",
+          "espressione": "Professore, scusi, mi può ripetere i titoli dei libri che ha indicato durante la lezione?",
           "opzioni": [
-            "Uno studente chiede a un professore di spiegare di nuovo.",
-            "Un amico invita un altro amico al cinema.",
-            "Un cliente si lamenta del conto al ristorante.",
-            "Una madre sveglia il figlio."
+            "Chiedi a un compagno l’elenco dei libri.",
+            "A fine lezione dici al professore di non aver preso nota dei libri.",
+            "Chiedi alla biblioteca se ci sono alcuni libri.",
+            "Chiedi a tuo padre di ascoltarti mentre ripeti."
           ],
-          "giusta": "A"
+          "giusta": "B"
         }
       ]
     }
@@ -38,7 +38,7 @@ Zu jeder kurzen Äußerung wählen die Lernenden die Situation, in der man sie s
 
 ## Regeln für diesen Typ
 
-- Genau so viele `espressioni` wie verlangt, je 4 Situationen.
-- Ablenker-Situationen sind realistisch und nah dran (gleiches Umfeld, anderes Ziel oder anderes Register), aber nur eine passt zu Inhalt **und** Register (tu/Lei, informell/formell).
-- Ab C1 auch idiomatische und ironische Wendungen.
+- Genau so viele `espressioni` wie verlangt, je 4 Situationen in der Form „È l’annuncio …“, „Chiedi a …“, „Il professore …“.
+- Die Situationen unterscheiden sich in **Sprecher, Adressat, Textsorte oder Kanal** (Anzeige in der Schulbacheca, Website, SMS, Radio-Spot, mündlich). Alle passen zum Thema; nur eine passt zu Inhalt, Register (tu/Lei) und Textsorte.
+- Ab B2 auch Ironie, Höflichkeitsformen und indirekte Bitten.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.

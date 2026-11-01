@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Ein Text wird in Abschnitte zerlegt; die Lernenden bringen sie in die richtige Reihenfolge.
+Wie im CILS-Heft (Lettura, Prova 3): Ein Text ist in 11 Teile zerlegt. Teil A ist der Anfang und vorgegeben; die anderen Teile stehen mit gemischten Buchstaben da, die Lernenden schreiben die Reihenfolge auf. daje mischt die Teile und vergibt die Buchstaben selbst.
 
 ## Was in `esercizi` steht
 
@@ -15,11 +15,10 @@ Ein Text wird in Abschnitte zerlegt; die Lernenden bringen sie in die richtige R
   "tema": "…",
   "esercizi": [
     {
-      "titolo": "…",
-      "consegna": "Ricostruisci il testo: metti le parti nell’ordine giusto.",
+      "titolo": "Giovani promesse",
       "parti": [
-        "erster Abschnitt in richtiger Reihenfolge",
-        "zweiter Abschnitt",
+        "Anfang (wird Teil A)",
+        "zweiter Teil in richtiger Reihenfolge",
         "…"
       ]
     }
@@ -32,7 +31,7 @@ Ein Text wird in Abschnitte zerlegt; die Lernenden bringen sie in die richtige R
 
 ## Regeln für diesen Typ
 
-- `parti` in der **richtigen** Reihenfolge, genau so viele wie verlangt (höchstens 8), je 1–3 Sätze und höchstens 300 Zeichen.
-- Die Reihenfolge ist eindeutig erkennbar durch Inhalt **und** sprachliche Signale (Pronomen, Konnektoren wie poi, invece, infine, per questo; Zeitangaben; bestimmter Artikel für schon Genanntes).
-- Kein Abschnitt passt an zwei Stellen. Der erste Abschnitt führt ins Thema ein.
+- `parti` in der **richtigen** Reihenfolge, genau so viele wie verlangt; jeder Teil 1–2 Sätze (15–40 Wörter).
+- Die Reihenfolge ist eindeutig durch Inhalt **und** sprachliche Signale: Zeitangaben (all’inizio, poi, alla fine del 2013), Konnektoren (inoltre, infatti, ma), Pronomen und bestimmter Artikel für schon Genanntes („in questa società“).
+- Kein Teil passt an zwei Stellen; Personen und Dinge werden erst eingeführt, dann wieder aufgegriffen.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.

@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Ein zusammenhängender Text mit Lücken; zu jeder Lücke gibt es mehrere Möglichkeiten (A1/A2: 3, ab B1: 4). Geprüft werden Wortschatz und Strukturen im Kontext: Präpositionen, Konnektoren, Pronomen, Verbformen, feste Wendungen.
+Ein zusammenhängender Text mit Lücken; zu jeder Lücke gibt es mehrere Möglichkeiten (A1/A2: 3, ab B1: 4). Im CILS-Heft UNO-B1 und DUE-B2 (Prova 3): 15 Lücken, vor allem Wortschatz (edizione/occasione/celebrazione, competizione/gara, capacità/possibilità) und feste Verbindungen; die Optionen stehen in einer Tabelle A–D.
 
 ## Was in `esercizi` steht
 

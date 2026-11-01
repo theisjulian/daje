@@ -314,3 +314,9 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 - Sachquellen aus `quellen.json` (Grundtexte und `factual_reference`) erscheinen als externe Quelle mit Link.
 - Pronomen-Auswahllücken (b1b2-046, -095): Hinweise entfernt, Ablenker gleicher Art in `distraktoren.json`.
 - Zu dünn und nicht übernommen (202-184, b1b2-045) sowie entfernte Folgeaufgaben: `werkzeuge/gpt-nacharbeit.md`.
+
+### 6z · CILS nach Heften abgeglichen, Konto löschen
+
+- CILS-Katalog nach den Heften UNO-B1 Adolescenti (2016) und DUE-B2 Adolescenti (2024): Hören B1 Lückentext 28, Auswahl 7×4, vero/falso 12; Lesen Auswahl 7×4, vero/falso 14, Text ordnen 11 Teile (A vorgegeben, Buchstaben gemischt, Reihenfolge eintragen); Strutture B1 Artikel/Präpositionen 20, B2 Pronomen/Determinanten 20, Verben 20, Wortschatz-Auswahl 15×4, Situationen 10×4; Mündlich 4 Gesprächsthemen bzw. 4 Monologthemen. C1/C2 als Fortschreibung markiert (`DajeCILS.HEFT`). Kommandodateien erzeugt `werkzeuge/cils_kommandos.py`.
+- Konto löschen: RPC `daje_delete_account()` (SECURITY DEFINER). Löscht alle daje-Daten; den Login nur, wenn er nicht auch von der Fitness-App im selben Supabase-Projekt („forza“: profiles, sessions, …) genutzt wird. Admin-Konten ausgenommen. Oberfläche: Konto-Dialog ganz unten „Konto löschen“, Bestätigung per E-Mail-Adresse.
+- Registrierung: „Signups not allowed“ ist die Projekteinstellung in Supabase (Authentication → Sign In / Providers → „Allow new users to sign up“); gilt auch für die Fitness-App.

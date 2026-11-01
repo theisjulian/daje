@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `ora-dialogo`
 
-**Orale · Conversazione e gioco di ruolo** · Produzione orale · Niveaus A1–C2
+**Orale · Conversazione** · Produzione orale · Niveaus A1–C2
 
 ## Worum es geht
 
-Erster Teil der mündlichen Prüfung: Gespräch mit der Prüferin bzw. dem Prüfer. A1/A2 Rollenspiel in einer Alltagssituation; ab B1 Gespräch mit Meinungsaustausch; ab C1 Diskussion mit Begründen und Widersprechen.
+Erster Teil der mündlichen Prüfung. A1/A2: Rollenspiel in einer Alltagssituation. Ab UNO-B1: Gespräch mit der Prüferin bzw. dem Prüfer zu **einem von vier Themen**, das die Lernenden wählen; die Lehrkraft beginnt mit einer Frage und fragt nach (2–3 Minuten).
 
 ## Was in `esercizi` steht
 
@@ -17,12 +17,12 @@ Erster Teil der mündlichen Prüfung: Gespräch mit der Prüferin bzw. dem Prüf
     {
       "situazioni": [
         {
-          "situazione": "Sei in un negozio di abbigliamento e vuoi cambiare una maglietta troppo piccola. L’insegnante è il commesso o la commessa.",
+          "situazione": "Quale rapporto hai con lo smartphone? Pensi che possa sostituire la televisione?",
           "spunti": [
-            "Buongiorno, vorrei cambiare …",
-            "Ho lo scontrino.",
-            "Avete la taglia M?",
-            "Posso provarla?"
+            "Quante ore al giorno lo usi?",
+            "Che cosa fai di solito con lo smartphone?",
+            "Ci sono momenti in cui lo spegni?",
+            "Che cosa consiglieresti a un fratello più piccolo?"
           ]
         }
       ]
@@ -36,7 +36,6 @@ Erster Teil der mündlichen Prüfung: Gespräch mit der Prüferin bzw. dem Prüf
 
 ## Regeln für diesen Typ
 
-- Genau 3 `situazioni`, aus Sicht der Lernenden mit „tu“ formuliert, mit klarer Rollenverteilung (die Lehrkraft spielt die andere Rolle).
-- `spunti`: 4–6 Redemittel bzw. Satzanfänge auf Italienisch, auf Niveau.
-- Ab B1 enthält jede Situation ein kleines Problem oder einen Meinungsunterschied, den man aushandeln muss.
+- A1/A2: genau 2 `situazioni` als Rollenspiel, aus Sicht der Lernenden mit „tu“ (die Lehrkraft spielt die andere Rolle); `spunti` = 3–5 Redemittel.
+- Ab B1: genau 4 `situazioni` als Gesprächsthemen aus dem Alltag Jugendlicher bzw. Erwachsener, jeweils als ein bis zwei Leitfragen formuliert (B2: mit Meinung und Begründung: „Pensi che …? Perché?“). `spunti` = 4–6 Nachfragen für die Lehrkraft.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.

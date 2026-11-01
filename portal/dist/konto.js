@@ -298,7 +298,12 @@ function showTheisAccountSb() {
         <label class="dlg-check"><input type="checkbox" id="acc-wipe"><span>Lernstand von diesem Gerät entfernen (z. B. auf einem geteilten iPad)</span></label>
         <button class="button secondary" data-acc="logout">Abmelden</button>
         <p class="small muted">Lernstand im Konto löschen: <button class="quiet danger" data-acc="delete-progress">Gespeicherten Lernstand löschen</button></p>
-      </details>${accProfilesHTML()}`;
+      </details>${accProfilesHTML()}
+      ${ACC.admin ? '' : `<details class="acc-more acc-danger"><summary>Konto löschen</summary>
+        <p class="small">Dein daje-Konto wird endgültig gelöscht: Name, E-Mail-Adresse, gespeicherter Lernstand${isTeacher() ? ', deine Klassensitzungen mit allen Ergebnissen' : ''} und ein Antrag als Lehrkraft. Das lässt sich nicht rückgängig machen. Der Lernstand auf diesem Gerät bleibt, bis du ihn selbst entfernst.</p>
+        <label class="field">Zur Bestätigung deine E-Mail-Adresse eingeben<input id="acc-del-mail" type="email" autocomplete="off" placeholder="${esc(ACC.user.email)}"></label>
+        <button class="button danger" data-acc="delete-account">Konto endgültig löschen</button><p class="small" id="acc-del-msg" role="status"></p>
+      </details>`}`;
   } else if (accMode === 'sent') {
     d.innerHTML = `<div class="auth auth-done">${close}<div class="auth-mail" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="5"/><path d="m8 14 16 12 16-12"/></svg></div>
       <h2 id="acc-title">Fast geschafft!</h2><p>Wir haben dir eine E-Mail an <b>${esc(accSentTo)}</b> geschickt. Tippe auf <b>„E-Mail bestätigen“</b>, dann ist dein Konto bereit.</p>
@@ -391,6 +396,8 @@ async function accSubmit() {
           ? 'Für diese Adresse gibt es schon ein Konto. Bitte anmelden.'
           : /rate limit|too many/i.test(m)
             ? 'Gerade zu viele Versuche. Bitte in ein paar Minuten noch einmal.'
+            : /signups? not allowed|signup.*disabled/i.test(m)
+              ? 'Neue Konten können gerade nicht angelegt werden. Bitte später noch einmal versuchen oder an hallo@theisapps.de schreiben.'
             : /Failed to fetch|NetworkError/i.test(m)
               ? 'Keine Verbindung. Bitte später noch einmal versuchen.'
               : m;
@@ -511,6 +518,24 @@ document.addEventListener('click', async e => {
       localStorage.removeItem(SYNC_META);
       location.reload();
     }
+    return;
+  }
+  if (a === 'delete-account') {
+    const msg = $('acc-del-msg');
+    if (($('acc-del-mail')?.value || '').trim().toLowerCase() !== String(ACC.user.email).toLowerCase()) return (msg.textContent = 'Bitte genau deine E-Mail-Adresse eintragen.');
+    if (!confirm('Konto jetzt endgültig löschen?')) return;
+    b.disabled = true;
+    msg.textContent = 'Wird gelöscht …';
+    const { error } = await sb.rpc('daje_delete_account');
+    if (error) {
+      b.disabled = false;
+      msg.textContent = /admin_account/.test(error.message) ? 'Ein Administratorkonto lässt sich hier nicht löschen.' : 'Löschen hat nicht geklappt. Bitte später noch einmal versuchen.';
+      return;
+    }
+    syncMetaSave({});
+    await sb.auth.signOut().catch(() => {});
+    $('acc-dialog')?.close();
+    toast('Dein daje-Konto wurde gelöscht.');
     return;
   }
   if (a === 'delete-progress') {

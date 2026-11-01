@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Die Lernenden hören die Aufnahme der Lehrkraft (Transkript unten) und beantworten Fragen mit Auswahlantworten. In den CILS-Heften gibt es diese Form auf allen Niveaus: A1/A2 mit Satzanfängen und 3 Fortsetzungen, ab B1 mit Fragen und 4 Antworten.
+Die Lernenden hören die Aufnahme der Lehrkraft (Transkript unten) und beantworten Fragen mit Auswahlantworten. In den CILS-Heften gibt es diese Form auf allen Niveaus: A1/A2 mit Satzanfängen und 3 Fortsetzungen, ab B1 mit 7 Satzanfängen und je 4 Fortsetzungen (z. B. „Durante il Campo Arianna ha potuto …“).
 
 ## Was in `esercizi` steht
 

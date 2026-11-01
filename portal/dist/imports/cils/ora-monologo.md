@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Zweiter Teil der mündlichen Prüfung: zusammenhängendes Sprechen. In den CILS-Heften oft mit Bild; daje arbeitet ohne Bilder, deshalb mit Thema oder kurzem Textimpuls. A1/A2 über sich und den Alltag; ab B1 Erfahrungen und Meinungen; ab C1 Stellungnahme zu einem Impuls.
+Zweiter Teil der mündlichen Prüfung: zusammenhängendes Sprechen ohne Hilfe. Im Heft wählen die Lernenden eines von vier Themen, zwei davon sind Bilder („la situazione dell’immagine“). daje arbeitet ohne Bilder: alle Themen als Text; wer mag, ergänzt im Unterricht eigene Fotos. Dauer ab B1 etwa anderthalb Minuten.
 
 ## Was in `esercizi` steht
 
@@ -17,13 +17,11 @@ Zweiter Teil der mündlichen Prüfung: zusammenhängendes Sprechen. In den CILS-
     {
       "argomenti": [
         {
-          "argomento": "I social network nella vita dei giovani",
-          "stimolo": "«Passiamo più tempo a guardare la vita degli altri che a vivere la nostra.»",
+          "argomento": "Un’esperienza che ti ha fatto cambiare idea su qualcosa o su qualcuno",
           "spunti": [
-            "Quanto tempo passi sui social?",
-            "Che cosa ti piace e che cosa no?",
-            "Sei d’accordo con la frase? Perché?",
-            "Che cosa consiglieresti a un amico?"
+            "Che cosa pensavi prima?",
+            "Che cosa è successo?",
+            "Che cosa pensi adesso e perché?"
           ]
         }
       ]
@@ -37,7 +35,7 @@ Zweiter Teil der mündlichen Prüfung: zusammenhängendes Sprechen. In den CILS-
 
 ## Regeln für diesen Typ
 
-- Genau 3 `argomenti` zur Wahl. `stimolo` (optional, ab B1 empfohlen) ist ein selbst geschriebener Satz oder kurzer Impuls von höchstens 40 Wörtern, kein Zitat realer Personen.
-- `spunti`: 4–6 Leitfragen auf Italienisch, die vom Persönlichen zum Allgemeinen führen.
-- Keine Bildbeschreibung.
+- A1/A2: 3 `argomenti`; ab B1: 4 `argomenti` zur Wahl (B1 eher persönlich: „come trascorri la domenica“, „il tuo attore preferito“; B2 erlebnis- und meinungsbezogen: „un’esperienza che ti ha fatto cambiare idea“).
+- `stimolo` (optional): ein selbst geschriebener Satz als Impuls, kein Zitat realer Personen.
+- `spunti`: 3–6 Leitfragen auf Italienisch, die eine Gliederung nahelegen (Einstieg, Erlebnis/Beispiel, eigene Meinung).
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.

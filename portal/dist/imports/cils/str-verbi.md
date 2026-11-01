@@ -28,7 +28,7 @@ Ein zusammenhängender Text, in dem Verben in der passenden Zeit und im passende
 
 ## Regeln für diesen Typ
 
-- Genau so viele Lücken wie verlangt, mit den Zeiten und Modi aus der Vorgabe `tempi` gemischt.
+- Genau so viele Lücken wie verlangt (im Heft UNO-B1 und DUE-B2: 20), mit den Zeiten und Modi aus der Vorgabe `tempi` gemischt; ein zusammenhängender Bericht, in dem die Zeitenfolge zählt (passato prossimo/imperfetto, Vorzeitigkeit, Zukunft in der Vergangenheit).
 - Der Kontext entscheidet eindeutig über Zeit und Modus (Zeitangaben, Konjunktionen, Hauptsatzverb). Wo zwei Formen richtig sind, beide mit `/` angeben.
 - Ab B2 auch Konjunktiv nach Verben der Meinung, nach Konjunktionen (benché, affinché, prima che) und im periodo ipotetico; ab C1 implizite Formen, wo der Text sie verlangt (dann steht der Hinweis in der Klammer, z. B. `(uscire, gerundio)`).
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.

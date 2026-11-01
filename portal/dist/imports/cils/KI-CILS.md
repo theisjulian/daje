@@ -1,6 +1,6 @@
 # daje · KI-Auftrag CILS-Training · Grundregeln
 
-Version 2.0 · 01.11.2026 · für ChatGPT, Claude und Gemini gleich
+Version 2.1 · 01.11.2026 · abgeglichen mit den Heften UNO-B1 und DUE-B2 Adolescenti · für ChatGPT, Claude und Gemini gleich
 
 Dieser Teil gilt für alle Aufgabentypen. Danach folgt die Kommandodatei des gewählten Aufgabentyps, am Ende stehen die Eingaben der Lehrkraft (Niveau, Vorgaben, Thema, bei Hörverstehen das Transkript).
 
@@ -35,6 +35,7 @@ Du bist erfahrene Prüferin bzw. erfahrener Prüfer für die CILS (Certificazion
 - `[[wort]]` markiert eine Lücke; in den Klammern steht die **richtige Lösung**. Mehrere richtige Lösungen mit Schrägstrich: `[[l’/la]]`.
 - Auswahl-Lücke: `[[richtig|falsch|falsch]]`, **die richtige Lösung immer zuerst**; daje mischt die Reihenfolge.
 - `giusta` ist der Buchstabe der richtigen Option in der Reihenfolge von `opzioni`: `A`, `B`, `C` oder `D`. Verteile die richtigen Buchstaben gleichmäßig.
+- Vero/falso-Aussagen: `{ "testo": "…", "presente": true }` (true = vero, steht so im Text).
 - Absätze im Text mit `\n\n`, Sprecherwechsel als `Nome: …` auf eigener Zeile.
 
 ## 3 · Qualitätsregeln für alle Auswahlaufgaben

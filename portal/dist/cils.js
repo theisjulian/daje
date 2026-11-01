@@ -20,15 +20,19 @@
   const SHORT = { ascolto: 'Ascolto', lettura: 'Lettura', strutture: 'Strutture', scrittura: 'Scrittura', orale: 'Orale' };
   const by = (map, level) => map[level] ?? map['*'];
   const opts = { A1: 3, A2: 3, '*': 4 };
-  const domande = { A1: 4, A2: 4, B1: 6, B2: 6, C1: 7, C2: 8 };
-  const lungo = { A1: '100–140', A2: '150–200', B1: '250–350', B2: '350–450', C1: '450–600', C2: '600–750' };
-  const info = { B1: [10, 5], B2: [12, 6], C1: [12, 6], C2: [14, 7] };
+  // Zahlen nach den Prüfungsheften A1/A2 Adolescenti, UNO-B1 Adolescenti (Giugno 2016) und DUE-B2 Adolescenti
+  // (Dicembre 2024). C1/C2: Fortschreibung derselben Formate (keine Hefte ausgewertet), in der Oberfläche als Richtwert markiert.
+  const domande = { A1: 4, A2: 4, '*': 7 };
+  const lungo = { A1: '100–140', A2: '150–200', B1: '350–420', B2: '400–500', C1: '500–650', C2: '600–800' };
+  const vf = { '*': 12 };
+  const vfLettura = { '*': 14 };
+  const HEFT = ['A1', 'A2', 'B1', 'B2'];
   const TEMPI = {
     A1: 'presente indicativo, anche verbi irregolari frequenti (essere, avere, andare, fare, volere, potere, dovere, sapere, dire, venire, uscire)',
     A2: 'passato prossimo (scelta dell’ausiliare, accordo del participio, verbi riflessivi); qualche imperfetto in forme frequenti',
-    B1: 'passato prossimo, imperfetto, trapassato prossimo, futuro semplice, condizionale presente, imperativo; congiuntivo presente solo in forme frequenti',
-    B2: 'tutti i tempi dell’indicativo, condizionale presente e passato, congiuntivo presente, passato e imperfetto, periodo ipotetico',
-    C1: 'tutti i tempi e modi, anche congiuntivo trapassato, concordanza dei tempi, forme implicite (gerundio, participio, infinito passato), forma passiva',
+    B1: 'presente, passato prossimo (anche riflessivi: si sono conosciuti, si è laureata), imperfetto e il loro contrasto in un racconto, qualche futuro',
+    B2: 'tutti i tempi dell’indicativo con trapassato, condizionale passato (futuro nel passato: sarebbe diventata), congiuntivo presente e passato, infinito passato (aver sfruttato), alternanza passato prossimo/imperfetto',
+    C1: 'tutti i tempi e modi, anche congiuntivo imperfetto e trapassato, concordanza dei tempi, forme implicite (gerundio, participio, infinito passato), forma passiva',
     C2: 'tutti i tempi e modi, anche passato remoto e trapassato remoto, forme implicite e passive, concordanza complessa, registro formale e letterario'
   };
 
@@ -39,19 +43,19 @@
    */
   const TYPES = [
     {
+      id: 'asc-completa', part: 'ascolto', media: true, levels: ['A1', 'A2', 'B1'],
+      it: 'Completare il testo', de: 'Lückentext zum Gehörten: einzelne, gut hörbare Wörter ergänzen',
+      spec: l => ({ esercizi: 1, lacune: { A1: 10, A2: 14, B1: 28 }[l] })
+    },
+    {
       id: 'asc-scelta', part: 'ascolto', media: true, levels: LEVELS,
-      it: 'Scelta multipla', de: 'Fragen mit Auswahlantworten zum gehörten Text',
+      it: 'Scelta multipla', de: 'Satzanfänge oder Fragen mit Auswahlantworten zum gehörten Text',
       spec: l => ({ esercizi: 1, domande: by(domande, l), opzioni: by(opts, l) })
     },
     {
       id: 'asc-info', part: 'ascolto', media: true, levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Individuare le informazioni presenti', de: 'Aus einer Liste die Aussagen wählen, die im Hörtext vorkommen',
-      spec: l => ({ esercizi: 1, affermazioni: info[l][0], presenti: info[l][1] })
-    },
-    {
-      id: 'asc-completa', part: 'ascolto', media: true, levels: ['A1', 'A2'],
-      it: 'Completare il testo', de: 'Lückentext zum Gehörten: einzelne, gut hörbare Wörter ergänzen',
-      spec: l => ({ esercizi: 1, lacune: l === 'A1' ? 10 : 14 })
+      it: 'Informazioni presenti (vero o falso)', de: 'Zu jeder Aussage entscheiden: steht das im Hörtext (vero) oder nicht (falso)?',
+      spec: l => ({ esercizi: 1, affermazioni: by(vf, l), vere: 'circa la metà' })
     },
     {
       id: 'asc-brevi', part: 'ascolto', media: true, levels: ['A1', 'A2'],
@@ -60,18 +64,18 @@
     },
     {
       id: 'let-scelta', part: 'lettura', levels: LEVELS,
-      it: 'Testo con domande a scelta multipla', de: 'Lesetext mit Auswahlfragen',
+      it: 'Testo con domande a scelta multipla', de: 'Lesetext mit Satzanfängen und Auswahlantworten',
       spec: l => ({ parole: by(lungo, l), domande: by(domande, l), opzioni: by(opts, l) })
     },
     {
       id: 'let-info', part: 'lettura', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Individuare le informazioni presenti', de: 'Aus einer Liste die Aussagen wählen, die im Text stehen',
-      spec: l => ({ parole: by(lungo, l), affermazioni: info[l][0], presenti: info[l][1] })
+      it: 'Informazioni presenti (vero o falso)', de: 'Lesetext, dazu Aussagen: steht das im Text (vero) oder nicht (falso)?',
+      spec: l => ({ parole: by(lungo, l), affermazioni: by(vfLettura, l), vere: 'circa la metà' })
     },
     {
       id: 'let-ricostruisci', part: 'lettura', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Ricostruzione del testo', de: 'Textabschnitte in die richtige Reihenfolge bringen',
-      spec: l => ({ parole: by(lungo, l), parti: { B1: 6, B2: 7, C1: 8, C2: 8 }[l] })
+      it: 'Ricostruzione del testo', de: 'Text in 11 Teilen, der erste ist vorgegeben: die übrigen in die richtige Reihenfolge bringen',
+      spec: () => ({ parti: 11, 'parole per parte': '15–40', prima: 'la parte A è sempre l’inizio e resta al suo posto' })
     },
     {
       id: 'let-brevi', part: 'lettura', levels: ['A1', 'A2'],
@@ -84,9 +88,9 @@
       spec: () => ({ inizi: 4, fini: 8 })
     },
     {
-      id: 'str-articoli', part: 'strutture', levels: ['A1'],
-      it: 'Articoli determinativi', de: 'Lückentext mit bestimmten Artikeln',
-      spec: () => ({ lacune: 10 })
+      id: 'str-articoli', part: 'strutture', levels: ['A1', 'B1'],
+      it: 'Articoli e preposizioni articolate', de: 'A1: bestimmte Artikel; B1: Artikel und Präpositionen mit Artikel (Präposition in Klammern)',
+      spec: l => (l === 'A1' ? { lacune: 10, forme: 'il, lo, la, l’, i, gli, le' } : { lacune: 20, forme: 'articoli determinativi e indeterminativi; preposizioni articolate con la preposizione semplice tra parentesi: (di) [[della]]' })
     },
     {
       id: 'str-aggettivi', part: 'strutture', levels: ['A2'],
@@ -94,34 +98,29 @@
       spec: () => ({ lacune: 10 })
     },
     {
+      id: 'str-pronomi', part: 'strutture', levels: ['B2', 'C1', 'C2'],
+      it: 'Pronomi e determinanti', de: 'Offener Lückentext: Pronomen, Relativpronomen, Demonstrativa, Indefinita, Possessiva (je ein Wort)',
+      spec: l => ({ lacune: 20, forme: 'pronomi personali, relativi (che, chi, cui), dimostrativi (questo, quello, coloro), indefiniti (tutto, ogni, alcuni, qualcuno, nessuno, altro, tanto), possessivi (suo/proprio)' })
+    },
+    {
       id: 'str-verbi', part: 'strutture', levels: LEVELS,
       it: 'Forme verbali', de: 'Verben in der passenden Zeit und im passenden Modus (Infinitiv in Klammern)',
-      spec: l => ({ lacune: { A1: 10, A2: 10, B1: 12, B2: 12, C1: 14, C2: 15 }[l], tempi: TEMPI[l] })
+      spec: l => ({ lacune: { A1: 10, A2: 10, '*': 20 }[l] ?? 20, tempi: TEMPI[l] })
     },
     {
       id: 'str-scelta', part: 'strutture', levels: LEVELS,
-      it: 'Completamento a scelta multipla', de: 'Lückentext, je Lücke eine von mehreren Möglichkeiten',
-      spec: l => ({ lacune: { A1: 8, A2: 9, B1: 10, B2: 12, C1: 14, C2: 15 }[l], opzioni: by(opts, l) })
-    },
-    {
-      id: 'str-parola', part: 'strutture', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Completare con la parola mancante', de: 'Offener Lückentext: Präpositionen, Pronomen, Artikel, Konnektoren',
-      spec: l => ({ lacune: { B1: 10, B2: 12, C1: 14, C2: 15 }[l] })
-    },
-    {
-      id: 'str-pronomi', part: 'strutture', levels: ['A2', 'B1', 'B2'],
-      it: 'Pronomi', de: 'Pronomen ergänzen (direkt, indirekt, kombiniert, ci und ne, Relativpronomen)',
-      spec: l => ({ lacune: { A2: 8, B1: 10, B2: 12 }[l] })
+      it: 'Completamento a scelta multipla', de: 'Lückentext, je Lücke eine von mehreren Möglichkeiten (ab B1 vor allem Wortschatz)',
+      spec: l => ({ lacune: { A1: 8, A2: 9 }[l] ?? 15, opzioni: by(opts, l) })
     },
     {
       id: 'str-situazioni', part: 'strutture', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Espressioni e situazioni comunicative', de: 'Zu jeder Äußerung die passende Gesprächssituation wählen',
-      spec: l => ({ espressioni: { B1: 6, B2: 8, C1: 8, C2: 10 }[l], opzioni: 4 })
+      it: 'Espressioni e situazioni comunicative', de: 'Zu jeder Äußerung die passende Situation wählen',
+      spec: () => ({ espressioni: 10, opzioni: 4 })
     },
     {
-      id: 'str-trasforma', part: 'strutture', levels: ['B2', 'C1', 'C2'],
+      id: 'str-trasforma', part: 'strutture', levels: ['C1', 'C2'],
       it: 'Trasformazione di frasi', de: 'Sätze umformen (Passiv, indirekte Rede, implizit/explizit, Nominalisierung)',
-      spec: l => ({ frasi: { B2: 6, C1: 8, C2: 10 }[l] })
+      spec: l => ({ frasi: { C1: 8, C2: 10 }[l] })
     },
     {
       id: 'str-registro', part: 'strutture', levels: ['C1', 'C2'],
@@ -140,13 +139,13 @@
     },
     {
       id: 'ora-dialogo', part: 'orale', levels: LEVELS,
-      it: 'Conversazione e gioco di ruolo', de: 'Situationen für das Gespräch mit der Lehrkraft, mit Redemitteln',
-      spec: () => ({ situazioni: 3, spunti: '4–6' })
+      it: 'Conversazione', de: 'A1/A2 Rollenspiel; ab B1 Gespräch zu einem von vier Themen mit Fragen der Lehrkraft',
+      spec: l => (['A1', 'A2'].includes(l) ? { situazioni: 2, forma: 'gioco di ruolo', spunti: '3–5 espressioni utili' } : { situazioni: 4, forma: 'argomenti di conversazione, ognuno con una domanda iniziale', spunti: '4–6 domande di rilancio', durata: '2–3 minuti' })
     },
     {
       id: 'ora-monologo', part: 'orale', levels: LEVELS,
-      it: 'Monologo', de: 'Kurzvortrag zu einem Thema oder Impuls, mit Leitfragen',
-      spec: l => ({ argomenti: 3, spunti: '4–6', durata: ['A1', 'A2'].includes(l) ? '1–2 minuti' : ['B1', 'B2'].includes(l) ? '2–3 minuti' : '3–4 minuti' })
+      it: 'Monologo', de: 'Kurzvortrag zu einem von vier Themen (im Heft auch zu Bildern; daje ohne Bilder)',
+      spec: l => ({ argomenti: ['A1', 'A2'].includes(l) ? 3 : 4, spunti: '4–6', durata: ['A1', 'A2'].includes(l) ? '1 minuto circa' : ['B1', 'B2'].includes(l) ? '1 minuto e mezzo circa' : '2–3 minuti' })
     }
   ];
   const typeById = id => TYPES.find(t => t.id === id);
@@ -211,20 +210,13 @@
     need(qs.length, 'Keine Fragen (domande) gefunden.');
     return qs;
   };
-  function infoQ(list, verb) {
-    const a = arr(list).map(x => ({ text: tidy(x.testo || x), on: x.presente === true }));
-    need(a.length >= 4 && a.length <= 14, 'Bitte 4 bis 14 Aussagen (affermazioni).');
+  // Informazioni presenti: wie im Heft je Aussage vero/falso
+  function vfQs(list, help) {
+    const a = arr(list).map(x => ({ text: tidy(x.testo || x), on: x.presente === true || x.vero === true }));
+    need(a.length >= 4 && a.length <= 20, 'Bitte 4 bis 20 Aussagen (affermazioni).');
     const right = a.filter(x => x.on).length;
-    need(right >= 1 && right < a.length, 'Mindestens eine Aussage muss im Text vorkommen und mindestens eine nicht.');
-    const options = a.map((x, i) => ({ id: 'o' + (i + 1), text: x.text }));
-    return {
-      id: 'q1',
-      type: 'multiple_choice',
-      prompt: `${verb} Scegli le ${right} informazioni presenti nel testo.`,
-      promptHelp: `Wähle die ${right} Aussagen, die im Text vorkommen.`,
-      options,
-      correctOptionIds: options.filter((o, i) => a[i].on).map(o => o.id)
-    };
+    need(right >= 1 && right < a.length, 'Mindestens eine Aussage muss stimmen und mindestens eine nicht.');
+    return a.map((x, i) => help1({ id: 'q' + (i + 1), type: 'true_false', prompt: x.text, answer: x.on }, i, help));
   }
   function openGaps(x, c, help) {
     const g = gaps(x.testo, 'fill', c.seed);
@@ -252,7 +244,7 @@
   // Baustein je Typ: aus einer Übung der KI-Antwort die Felder des Pakets
   const BUILD = {
     'asc-scelta': x => ({ questions: mcList(x.domande, 'Hör den Text. Wähle jeweils die richtige Antwort.') }),
-    'asc-info': x => ({ questions: [infoQ(x.affermazioni, 'Ascolta il testo.')] }),
+    'asc-info': x => ({ questions: vfQs(x.affermazioni, 'Hör den Text. Steht die Information im Text (vero) oder nicht (falso)?') }),
     'asc-completa': (x, c) => {
       const g = gaps(x.testo, 'fill', c.seed);
       return { questions: [{ id: 'q1', type: 'gap_fill', prompt: tidy(x.consegna || 'Ascolta il testo e completa con le parole che mancano.'), promptHelp: 'Hör den Text. Ergänze die fehlenden Wörter.', text: g.text, gaps: g.gaps }] };
@@ -263,12 +255,30 @@
       return { questions: t.map((y, i) => help1(choice('q' + (i + 1), `Testo ${y.numero || i + 1}: scegli l’informazione presente nel testo.`, y.opzioni, y.giusta), i, 'Wähle zu jedem Text die Information, die vorkommt.')) };
     },
     'let-scelta': x => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: mcList(x.domande, 'Lies den Text. Wähle jeweils die richtige Antwort.') }),
-    'let-info': x => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: [infoQ(x.affermazioni, 'Leggi il testo.')] }),
-    'let-ricostruisci': x => {
+    'let-info': x => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: vfQs(x.affermazioni, 'Lies den Text. Steht die Information im Text (vero) oder nicht (falso)?') }),
+    'let-ricostruisci': (x, c) => {
       const p = arr(x.parti).map(tidy).filter(Boolean);
-      need(p.length >= 3 && p.length <= 8, 'Bitte 3 bis 8 Textabschnitte (parti).');
+      need(p.length >= 3 && p.length <= 14, 'Bitte 3 bis 14 Textabschnitte (parti).');
+      const head = tidy(x.consegna || 'Leggi il testo. Le parti non sono in ordine. Ricostruisci il testo.') + (x.titolo ? ` (${tidy(x.titolo)})` : '');
+      if (p.length <= 8 && p.every(t => t.length <= 300))
+        return { questions: [{ id: 'q1', type: 'ordering', prompt: head, promptHelp: 'Bring die Textabschnitte in die richtige Reihenfolge.', items: p.map((t, i) => ({ id: 'p' + (i + 1), text: t })) }] };
+      // wie im Heft: A ist der Anfang, die übrigen Teile tragen gemischte Buchstaben; die Reihenfolge wird eingetragen
+      const rest = shuffle(p.slice(1).map((t, i) => ({ t, pos: i + 2 })), c.seed);
+      const L = 'ABCDEFGHIJKLMNOP';
+      rest.forEach((r, i) => (r.letter = L[i + 1]));
+      const byPos = Object.fromEntries(rest.map(r => [r.pos, r.letter]));
       return {
-        questions: [{ id: 'q1', type: 'ordering', prompt: tidy(x.consegna || 'Ricostruisci il testo: metti le parti nell’ordine giusto.') + (x.titolo ? ` (${tidy(x.titolo)})` : ''), promptHelp: 'Bring die Textabschnitte in die richtige Reihenfolge.', items: p.map((t, i) => ({ id: 'p' + (i + 1), text: s(t, 300) })) }]
+        reading: { title: tidy(x.titolo || ''), text: [`A. ${p[0]}`, ...rest.map(r => `${r.letter}. ${r.t}`)].join('\n\n') },
+        questions: [
+          {
+            id: 'q1',
+            type: 'gap_fill',
+            prompt: head + ' La parte A è l’inizio. Scrivi la lettera giusta per ogni posizione.',
+            promptHelp: `Teil A ist der Anfang. Trage für die Plätze 2 bis ${p.length} jeweils den Buchstaben des passenden Teils ein.`,
+            text: ['1. A', ...p.slice(1).map((_, i) => `${i + 2}. [[g${i + 2}]]`)].join(' · '),
+            gaps: p.slice(1).map((_, i) => ({ id: 'g' + (i + 2), acceptedAnswers: [byPos[i + 2]] }))
+          }
+        ]
       };
     },
     'let-brevi': x => {
@@ -453,7 +463,7 @@
       .join('\n');
   }
 
-  const api = { LEVELS, EXAM, PARTS, TYPES, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
+  const api = { LEVELS, EXAM, PARTS, TYPES, HEFT, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeCILS = api;
 })(typeof window !== 'undefined' ? window : globalThis);
@@ -550,7 +560,7 @@ if (typeof document !== 'undefined') {
           <div class="studio-actions"><button class="button primary" data-cils-build>Übungen erstellen</button></div><div id="cils-result"></div></div></div>
       </section>
       ${CILS.sets.some(st => cilsLive(st).length) ? `<h2 class="cils-h">Deine CILS-Übungen</h2>${cilsSetsHTML()}` : ''}
-      <p class="small muted cils-note">Aufbau nach den veröffentlichten Prüfungsheften der CILS (Università per Stranieri di Siena). Längen und Anzahlen sind Richtwerte. Alle Texte sind neu und keine Originalaufgaben.</p>
+      <p class="small muted cils-note">${DajeCILS.HEFT.includes(f.level) ? 'Aufbau und Anzahlen nach den Prüfungsheften der CILS (A1/A2 Adolescenti, UNO-B1 Adolescenti, DUE-B2 Adolescenti).' : 'Für C1 und C2 lagen keine Prüfungshefte vor: Aufbau als Fortschreibung von DUE-B2, Längen und Anzahlen sind Richtwerte.'} Alle Texte sind neu und keine Originalaufgaben der Università per Stranieri di Siena.</p>
     </div>`;
   }
 

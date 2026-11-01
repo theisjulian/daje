@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `asc-completa`
 
-**Ascolto · Completare il testo** · Ascolto · Niveaus A1–A2
+**Ascolto · Completare il testo** · Ascolto · Niveaus A1–B1
 
 ## Worum es geht
 
-Die Lernenden hören eine Durchsage, Nachricht oder Ansage und ergänzen in einem Text die fehlenden Wörter. Im CILS-Heft: A1 mit 10, A2 mit 14 Lücken.
+Die Lernenden hören eine Durchsage, Nachricht oder Ansage und ergänzen in einem Text die fehlenden Wörter. Im CILS-Heft: A1 10, A2 14, UNO-B1 28 Lücken (z. B. Reportage eines Schul-TG).
 
 ## Was in `esercizi` steht
 

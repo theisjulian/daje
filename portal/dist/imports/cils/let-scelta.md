@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Ein zusammenhängender Lesetext mit Überschrift (A1/A2: Information zu Schulprojekt, Veranstaltung, Verein; ab B1 auch Zeitungsartikel, Blog, Erfahrungsbericht; ab C1 Kommentar, Essay, Sachtext). Dazu Fragen mit Auswahlantworten.
+Ein zusammenhängender Lesetext mit Überschrift (A1/A2: Information zu Schulprojekt, Veranstaltung, Verein; ab B1 auch Zeitungsartikel, Blog, Erfahrungsbericht; ab C1 Kommentar, Essay, Sachtext). Dazu Satzanfänge mit Auswahlantworten; im CILS-Heft ab B1: 7 Satzanfänge mit je 4 Fortsetzungen zu einem Text von etwa 400 Wörtern.
 
 ## Was in `esercizi` steht
 

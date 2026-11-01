@@ -8523,6 +8523,9 @@ body.kb-open .checkbar { position: static !important; }
 .acc-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
 .acc-more { margin-top: 10px; }
 .acc-more > * + * { margin-top: 8px; }
+.acc-danger { margin-top: 22px; }
+.acc-danger > summary { font-size: .82rem; color: var(--label-2); }
+.acc-danger .button.danger { background: #d93a4a; color: #fff; border-color: transparent; }
 .acc-choice { display: grid; gap: 4px; margin: 10px 0; }
 .acc-edit { align-self: flex-start; }
 
