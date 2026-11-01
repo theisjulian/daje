@@ -8597,3 +8597,46 @@ body.kb-open .checkbar { position: static !important; }
 .gk-source { margin: 10px 0; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--hairline); }
 .gk-source legend { font-weight: 700; padding: 0 4px; }
 .gk-cite { margin: 8px 0 0; font-size: 14px; overflow-wrap: anywhere; }
+
+/* Handy und Tablet hochkant: schwebende Leiste unten (abgerundet, mit Abstand zum Rand) */
+@media (max-width: 860px) {
+  .tabbar,
+  :root[data-skin] .tabbar {
+    left: 12px;
+    right: 12px;
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    padding: 6px;
+    border: 0.5px solid var(--hairline);
+    border-top: 0.5px solid var(--hairline);
+    border-radius: 26px;
+    box-shadow: 0 12px 32px -12px rgba(16, 24, 40, 0.38), 0 2px 6px rgba(16, 24, 40, 0.08);
+  }
+  .tabbar button { border-radius: 20px; min-height: 50px; }
+  .workspace { padding-bottom: calc(96px + env(safe-area-inset-bottom)) !important; }
+  .checkbar { bottom: calc(86px + env(safe-area-inset-bottom)) !important; }
+}
+/* Grammatikthema: ganzer Eintrag öffnet die Übung */
+.gr-ex-text { display: grid; gap: 2px; flex: 1; min-width: 0; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.gr-ex-text:hover b { color: var(--blue); }
+/* Konto: Lernprofile auf diesem Gerät */
+.acc-local { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--hairline); }
+.acc-local h3 { margin: 0 0 4px; font-size: 15px; }
+/* Redaktion: Knöpfe in zwei Gruppen */
+.ed-new { display: grid; gap: 10px; }
+.ed-new-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ed-new-label { min-width: 130px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--label-2); }
+/* Klassensitzung: Beitreten (QR) in der Übersicht */
+.kl-joinbox { margin: 12px 0; padding: 12px 16px; border-radius: 18px; }
+.kl-joinbox > summary { cursor: pointer; font-weight: 700; }
+.kl-joinbox-in { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin-top: 10px; }
+.kl-joinqr { width: 180px; background: #fff; padding: 8px; border-radius: 14px; }
+.kl-joinqr svg { width: 100%; height: auto; display: block; }
+.kl-url { font-size: 18px; overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .today-copy { min-width: 0; }
+  .lern-switch { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; min-width: 0; scrollbar-width: none; border-radius: 999px; }
+  .lern-switch::-webkit-scrollbar { display: none; }
+  .lern-opt { padding: 0 11px; flex: none; }
+  .lern-label { display: none; }
+  .ed-new-label { flex-basis: 100%; }
+}

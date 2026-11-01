@@ -264,7 +264,11 @@ async function klCreate() {
     .select('code')
     .single();
   if (error) return (msg.textContent = 'Nicht angelegt: ' + (/Failed to fetch/i.test(error.message) ? 'keine Verbindung.' : error.message));
-  klShowCode(data.code, wsDraft.title || 'Aufgaben für die Stunde', keys.length);
+  // Direkt in die Übersicht; dort stehen QR-Code und Link für die Klasse
+  $('kl-dialog')?.close();
+  $('ws-dialog')?.close();
+  klTeach = data.code;
+  nav('sitzung');
 }
 const klLink = code => location.origin + location.pathname + '?k=' + code;
 function klShowCode(code, title, n) {
@@ -380,7 +384,8 @@ async function klDashPage() {
   $('main').innerHTML = `<div class="page kl-page">
     <button class="quiet back-link" data-nav="klassen">Alle Sitzungen</button>
     <header class="page-head"><div class="eyebrow">Klassensitzung · Code ${esc(l.code)}</div><h1>${esc(l.title || 'Sitzung')}</h1><p>${plural(people.length, 'Person', 'Personen')} · aktualisiert ${new Date().toLocaleTimeString('de-DE', { timeStyle: 'short' })}${off ? ' · beendet' : ''}</p>
-    <div class="kl-row-act">${off ? '' : `<button class="button primary" data-kl-beamer="${esc(l.code)}">QR-Code zeigen</button>`}<button class="button secondary" data-kl-refresh>Aktualisieren</button>${off ? '' : '<button class="button secondary" data-kl-close>Sitzung beenden</button>'}<button class="quiet danger" data-kl-delete>Sitzung und Ergebnisse löschen</button></div></header>
+    ${off ? '' : `<details class="kl-joinbox glass" ${people.length ? '' : 'open'}><summary>So treten Lernende bei</summary><div class="kl-joinbox-in"><div class="kl-joinqr">${qrSVG(klLink(l.code), 'QR-Code zur Klassensitzung')}</div><div><p>QR-Code mit dem iPad scannen oder Adresse eingeben:</p><p class="kl-url"><b>${esc(klLink(l.code).replace(/^https?:\/\//, ''))}</b></p><div class="kl-row-act"><button class="button primary" data-kl-beamer="${esc(l.code)}">Groß zeigen (Beamer)</button><button class="button secondary" data-qr-copy="${esc(klLink(l.code))}">Link kopieren</button></div></div></div></details>`}
+    <div class="kl-row-act"><button class="button secondary" data-kl-refresh>Aktualisieren</button>${off ? '' : '<button class="button secondary" data-kl-close>Sitzung beenden</button>'}<button class="quiet danger" data-kl-delete>Sitzung und Ergebnisse löschen</button></div></header>
     ${
       people.length
         ? `<div class="kl-table-wrap"><table class="kl-table"><thead><tr><th>Name</th>${tasks.map((t, i) => `<th title="${esc(t.x?.title || t.id)}">${i + 1}</th>`).join('')}<th>Zuletzt aktiv</th></tr></thead><tbody>${people
@@ -554,3 +559,33 @@ addEventListener('online', () => {
   save('daje-klasse-queue-v1', []);
   q.forEach(b => sb.rpc('daje_lesson_report', b).then(({ error }) => error && save('daje-klasse-queue-v1', [...klQueue(), b])));
 });
+
+/* Lernende: Beendet die Lehrkraft die Sitzung, erscheint das nach wenigen Sekunden (Abfrage alle 10 s). */
+let klEnded = false;
+async function klCheckOpen() {
+  if (!klCur?.participant || klEnded || !sb || document.visibilityState !== 'visible') return;
+  if (view !== 'klasse' && !(view === 'hoeruebung' && klActive === 'klasse')) return;
+  try {
+    const { data, error } = await sb.rpc('daje_lesson_get', { p_code: klCur.code });
+    if (error || data) return;
+  } catch (e) {
+    return; // offline: nicht als beendet werten
+  }
+  klEnded = true;
+  klCur.closed = true;
+  const s = klStore();
+  delete s.sessions[klCur.code];
+  klSaveStore(s);
+  let d = $('kl-ended');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'kl-ended';
+    document.body.append(d);
+  }
+  d.innerHTML = `<div class="dialog-head"><h2>Sitzung beendet</h2></div><p><b>${esc(klCur.title || '')}</b></p><p>Deine Lehrkraft hat die Klassensitzung beendet. Deine Ergebnisse sind gespeichert. Du kannst die Übungen allein weiter üben.</p><button class="button primary" data-close="kl-ended" data-nav="start">Zur Startseite</button>`;
+  document.querySelectorAll('dialog[open]').forEach(x => x !== d && x.close());
+  d.showModal();
+  klActive = null;
+}
+setInterval(klCheckOpen, 10000);
+document.addEventListener('visibilitychange', klCheckOpen);

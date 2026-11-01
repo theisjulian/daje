@@ -176,3 +176,19 @@ ROWS = [
 ["Angaben fehlen:","Mancano dati:","Missing details:","Informations manquantes :","Mancano:"],
 ["Originalquelle","Fonte originale","Original source","Source originale","Fonte originale"],
 ]
+ROWS += [
+["Mit KI erstellen","Crea con l’IA","Create with AI","Créer avec l’IA","Con l’IA"],
+["Leer beginnen","Inizia da zero","Start empty","Commencer à vide","Da zero"],
+["Grammatikübung","Esercizio di grammatica","Grammar exercise","Exercice de grammaire","Grammatica"],
+["Hörübung","Ascolto","Listening exercise","Exercice d’écoute","Ascolto"],
+["Wortliste","Lista di parole","Word list","Liste de mots","Parole"],
+["Konto und Lernprofil","Account e profilo","Account and profile","Compte et profil","Account e profilo"],
+["Lernprofil auf diesem Gerät","Profilo su questo dispositivo","Profile on this device","Profil sur cet appareil","Profilo su questo dispositivo"],
+["Mehrere Profile helfen, wenn sich mehrere Lernende ein Gerät teilen. Mit Konto wird das aktive Profil gespeichert.","Più profili servono quando più studenti usano lo stesso dispositivo. Con l’account si salva il profilo attivo.","Several profiles help when learners share a device. With an account, the active profile is saved.","Plusieurs profils sont utiles quand plusieurs élèves partagent un appareil. Avec un compte, le profil actif est enregistré.","Più profili per un dispositivo condiviso."],
+["Profile verwalten, sichern oder wechseln","Gestisci, salva o cambia profilo","Manage, back up or switch profiles","Gérer, sauvegarder ou changer de profil","Gestisci profili"],
+["Aktiv:","Attivo:","Active:","Actif :","Attivo:"],
+["So treten Lernende bei","Come entrano gli studenti","How learners join","Comment les élèves rejoignent","Come entrare"],
+["QR-Code mit dem iPad scannen oder Adresse eingeben:","Scansiona il QR con l’iPad o scrivi l’indirizzo:","Scan the QR code with the iPad or enter the address:","Scanne le code QR avec l’iPad ou saisis l’adresse :","QR o indirizzo:"],
+["Sitzung beendet","Sessione chiusa","Session ended","Session terminée","Sessione chiusa"],
+["Deine Lehrkraft hat die Klassensitzung beendet. Deine Ergebnisse sind gespeichert. Du kannst die Übungen allein weiter üben.","L’insegnante ha chiuso la sessione. I tuoi risultati sono salvati. Puoi continuare a esercitarti da solo.","Your teacher has ended the class session. Your results are saved. You can keep practising on your own.","Ton enseignant a terminé la session. Tes résultats sont enregistrés. Tu peux continuer seul.","Sessione chiusa. Risultati salvati."],
+]

@@ -516,13 +516,17 @@ function renderStudio() {
   $('main').innerHTML = `<div class="page studio">
     <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen, Wortlisten und Grammatikübungen für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
     <div class="ed-new">
-      <button class="button primary" data-ki-open aria-expanded="${kiOpen}">Hörübung mit KI erstellen</button>
-      <button class="button primary" data-vk-open aria-expanded="${vkOpen}">Wortliste mit KI erstellen</button>
-      <button class="button secondary" data-ed-new="listening">Leere Hörübung</button>
-      <button class="button primary" data-gk-open aria-expanded="${gkOpen}">Grammatik mit KI einlesen</button>
-      <button class="button secondary" data-ed-new="vocabulary">Leere Wortliste</button>
-      <button class="button secondary" data-ed-new="grammar">Leere Grammatikübung</button>
-      <button class="quiet" data-portal="studio-load">Datei importieren</button><input id="studio-file" type="file" accept=".json,application/json" hidden>
+      <div class="ed-new-row"><span class="ed-new-label">Mit KI erstellen</span>
+        <button class="button primary" data-gk-open aria-expanded="${gkOpen}">Grammatik</button>
+        <button class="button primary" data-vk-open aria-expanded="${vkOpen}">Wortliste</button>
+        <button class="button primary" data-ki-open aria-expanded="${kiOpen}">Hörübung</button>
+      </div>
+      <div class="ed-new-row"><span class="ed-new-label">Leer beginnen</span>
+        <button class="button secondary" data-ed-new="grammar">Grammatikübung</button>
+        <button class="button secondary" data-ed-new="vocabulary">Wortliste</button>
+        <button class="button secondary" data-ed-new="listening">Hörübung</button>
+        <button class="quiet" data-portal="studio-load">Datei importieren</button><input id="studio-file" type="file" accept=".json,application/json" hidden>
+      </div>
     </div>
     ${kiOpen ? kiPanelHTML() : ''}
     ${vkOpen ? vkPanelHTML() : ''}

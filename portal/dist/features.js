@@ -427,6 +427,7 @@ function setupExtras() {
   const b = document.createElement('button');
   b.className = 'button secondary';
   b.id = 'profile-open';
+  b.hidden = true; // Lernprofile (für geteilte Geräte) sind über den Konto-Knopf erreichbar (konto.js)
   b.textContent = 'Lernprofil';
   document.querySelector('.top-actions').prepend(b);
   const dialog = document.createElement('dialog');

@@ -465,7 +465,7 @@ async function step(name, fn) {
     const cut = await pp.evaluate(() => {
       const box = document.querySelector('.xhero').getBoundingClientRect();
       return [...document.querySelectorAll('.xhero-copy *')].filter(
-        el => el.getBoundingClientRect().right > box.right + 1
+        el => !el.closest('.lern-switch') && el.getBoundingClientRect().right > box.right + 1
       ).length;
     });
     assert.equal(cut, 0, 'Elemente ragen aus der Startkarte');

@@ -157,7 +157,7 @@ function setupShell() {
     <div class="sheet-grid">${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
     <div class="sheet-grid actions">
       <button data-sheet-click="look-open">${icon('look')}<span>Darstellung</span></button>
-      <button data-sheet-click="profile-open">${icon('profile')}<span>Lernprofil</span></button>
+      <button data-acc-open>${icon('account')}<span>Konto und Lernprofil</span></button>
       <button data-sheet-click="share">${icon('share')}<span>Teilen</span></button>
     </div>
     <label class="field sheet-lang">Sprache der Oberfläche<select id="ui-language-m"></select></label>

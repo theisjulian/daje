@@ -257,6 +257,11 @@ function accDialog() {
   return d;
 }
 let accMode = 'login';
+/* Lernprofile auf diesem Gerät (mehrere Lernende an einem geteilten iPad, ohne Konto) */
+const accProfilesHTML = () => {
+  const p = typeof activeProfile === 'function' ? activeProfile() : null;
+  return `<section class="acc-local"><h3>Lernprofil auf diesem Gerät</h3><p class="small muted">${p ? `Aktiv: <b>${esc(p.name)}</b>. ` : ''}Mehrere Profile helfen, wenn sich mehrere Lernende ein Gerät teilen. Mit Konto wird das aktive Profil gespeichert.</p><button class="button secondary" data-extra="profiles" data-close="acc-dialog">Profile verwalten, sichern oder wechseln</button></section>`;
+};
 function showTheisAccountSb() {
   const d = accDialog();
   const head = t => `<div class="dialog-head"><h2 id="acc-title">${t}</h2><button class="button secondary" data-close="acc-dialog">Schließen</button></div>`;
@@ -273,7 +278,7 @@ function showTheisAccountSb() {
         <label class="dlg-check"><input type="checkbox" id="acc-wipe"><span>Lernstand von diesem Gerät entfernen (z. B. auf einem geteilten iPad)</span></label>
         <button class="button secondary" data-acc="logout">Abmelden</button>
         <p class="small muted">Lernstand im Konto löschen: <button class="quiet danger" data-acc="delete-progress">Gespeicherten Lernstand löschen</button></p>
-      </details>`;
+      </details>${accProfilesHTML()}`;
   } else {
     const reg = accMode === 'register';
     const reset = accMode === 'reset';
@@ -289,7 +294,7 @@ function showTheisAccountSb() {
         <p class="small" id="acc-msg" role="status"></p>
       </form>
       ${newpw ? '' : `<div class="acc-links">${reg || reset ? '<button class="quiet" data-acc-mode="login">Ich habe schon ein Konto</button>' : '<button class="quiet" data-acc-mode="register">Neues Konto anlegen</button><button class="quiet" data-acc-mode="reset">Passwort vergessen?</button>'}</div>`}
-      <p class="small muted acc-privacy">Gespeichert werden nur E-Mail-Adresse und Lernstand, auf Servern in der EU. Du kannst den Lernstand jederzeit löschen.</p>`;
+      <p class="small muted acc-privacy">Gespeichert werden nur E-Mail-Adresse und Lernstand, auf Servern in der EU. Du kannst den Lernstand jederzeit löschen.</p>${newpw ? '' : accProfilesHTML()}`;
   }
   if (!d.open) d.showModal();
 }

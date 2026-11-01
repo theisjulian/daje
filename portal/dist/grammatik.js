@@ -49,7 +49,8 @@ function grTopics() {
       map.set(g.topic, { id: g.topic, title: g.topicTitle, band: grBand(x), unit: grUnitKey(x), section: x.catalog?.textbook?.section || '', series: x.catalog?.textbook?.series || '', order: g.order ?? 9999, rule: '', lang: x.language, items: [] });
     const t = map.get(g.topic);
     t.items.push(x);
-    if (!t.rule && g.rule) (t.rule = g.rule), (t.ruleHelp = g.ruleHelp || '');
+    // Merkkasten des Themas: von der Übung mit der kleinsten Reihenfolge (Kernübungen vor später ergänzten)
+    if (g.rule && (!t.rule || (g.order ?? 9999) < t.ruleOrder)) (t.rule = g.rule), (t.ruleHelp = g.ruleHelp || ''), (t.ruleOrder = g.order ?? 9999);
     if (!t.curriculum && x.catalog?.curriculum) t.curriculum = x.catalog.curriculum.replace(/^LehrplanPLUS Gymnasium Bayern, Italienisch \(3\. Fremdsprache\), /, '');
     t.order = Math.min(t.order, g.order ?? 9999);
   }
@@ -121,7 +122,7 @@ function grTopicPage() {
   const row = x => {
     const st = lessonStatus(x);
     const state = st.done ? `${st.progress.lastResult.correct} von ${st.progress.lastResult.total} richtig` : st.answered ? 'Angefangen' : 'Noch nicht geübt';
-    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><span class="gr-ex-text"><b>${esc(x.title)}</b><small>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')} · ${x.estimatedMinutes} Min. · ${esc(state)}</small></span><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}${teacher && typeof liveEditButton === 'function' ? liveEditButton(x.id, 'quiet') : ''}${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">Bearbeiten</button>` : ''}<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button></span></li>`;
+    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><button class="gr-ex-text" data-lesson="${esc(x.id)}"><b>${esc(x.title)}</b><small>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')} · ${x.estimatedMinutes} Min. · ${esc(teacher ? GRAMMAR_LEVELS[x.grammar.difficulty] || '' : state)}</small></button><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}${teacher && typeof liveEditButton === 'function' ? liveEditButton(x.id, 'quiet') : ''}${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">Bearbeiten</button>` : ''}${teacher ? '' : `<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button>`}</span></li>`;
   };
   const levels = GR_LEVELS.map(([k, l]) => {
     const items = t.items.filter(x => x.grammar.difficulty === k);
