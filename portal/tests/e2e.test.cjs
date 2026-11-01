@@ -527,6 +527,24 @@ async function step(name, fn) {
     assert.equal(await pp.evaluate(() => wsAll().length), 4);
     const langs = await pp.evaluate(() => [...new Set(wsAll().map(id => findTask(id).language))]);
     assert.deepEqual(langs, ['it']);
+    // Mehrere Themen mit Komma: aus jedem Thema mindestens eine Übung
+    await pp.evaluate(() => document.querySelector('.ws-quick').setAttribute('open', ''));
+    await pp.fill('#wsq-query', 'articolo, passato prossimo');
+    await pp.click('[data-wsq-go]');
+    const picked = await pp.evaluate(() => wsQuick.picks.map(id => findTask(id).grammar.topicTitle.toLowerCase()));
+    assert.ok(picked.some(t => t.includes('articolo')) && picked.some(t => t.includes('passato prossimo')), picked.join(' | '));
+    // Wiederholung bis zu einem Thema: nur Themen bis dorthin, gemischt
+    await pp.click('[data-wsq="mode"][data-v="bis"]');
+    await pp.selectOption('#wsq-until', 'ecco1-ere-presente');
+    await pp.click('[data-wsq="count"][data-v="8"]');
+    await pp.click('[data-wsq-go]');
+    const until = await pp.evaluate(() => {
+      const ok = new Set(wsqUntilTopics().map(t => t.id));
+      return { n: wsQuick.picks.length, inside: wsQuick.picks.every(id => ok.has(findTask(id).grammar.topic)), topics: new Set(wsQuick.picks.map(id => findTask(id).grammar.topic)).size };
+    });
+    assert.equal(until.n, 8);
+    assert.ok(until.inside && until.topics >= 6, JSON.stringify(until));
+    await pp.click('[data-wsq="mode"][data-v="thema"]');
     // Ohne Anmeldung: Link ohne Namen; Lernende sehen die Liste
     await pp.click('#ws-dialog [data-ws-link]');
     await pp.waitForSelector('#kl-dialog[open]');

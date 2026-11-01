@@ -65,22 +65,56 @@ function wsRefresh() {
 
 /* ---------- Schnell zusammenstellen: fünf passende Übungen zufällig ---------- */
 const WSQ_KEY = 'daje-mappe-schnell-v1';
-let wsQuick = Object.assign({ lang: 'it', kind: 'grammar', band: 1, level: '', query: '', picks: [] }, read(WSQ_KEY, {}));
+let wsQuick = Object.assign({ lang: 'it', kind: 'grammar', band: 1, level: '', query: '', picks: [], mode: 'thema', until: '', count: 5 }, read(WSQ_KEY, {}));
 const wsqSave = () => save(WSQ_KEY, wsQuick);
-function wsqPool() {
-  const q = wsQuick.query.trim().toLocaleLowerCase();
+// Mehrere Themen: durch Komma oder Semikolon getrennt
+const wsqTerms = () => wsQuick.query.split(/[,;]+/).map(t => t.trim().toLocaleLowerCase()).filter(Boolean);
+const wsqHay = x => [x.title, x.description, x.grammar?.topicTitle, x.catalog?.textbook?.unit, ...(x.topics || [])].join(' ').toLocaleLowerCase();
+// Themen in Lehrwerksfolge bis einschließlich des gewählten Themas (alle Lernjahre davor eingeschlossen)
+function wsqUntilTopics() {
+  if (typeof grTopics !== 'function' || !wsQuick.until) return [];
+  const all = grTopics().filter(t => t.lang === wsQuick.lang && t.band);
+  const i = all.findIndex(t => t.id === wsQuick.until);
+  return i < 0 ? [] : all.slice(0, i + 1);
+}
+function wsqBase() {
   const kinds = wsQuick.kind === 'both' ? ['grammar', 'listening'] : [wsQuick.kind];
   return kinds
     .flatMap(k => contentList(k))
     .filter(x => x.language === wsQuick.lang)
-    .filter(x => x.kind !== 'grammar' || ((!wsQuick.band || grBand(x) === wsQuick.band) && (!wsQuick.level || x.grammar.difficulty === wsQuick.level)))
-    .filter(x => !q || [x.title, x.description, x.grammar?.topicTitle, x.catalog?.textbook?.unit, ...(x.topics || [])].join(' ').toLocaleLowerCase().includes(q))
+    .filter(x => x.kind !== 'grammar' || !wsQuick.level || x.grammar.difficulty === wsQuick.level)
     .filter(x => !wsAll().includes(x.id));
 }
+// Gruppen, aus denen gleichmäßig gezogen wird: je Thema (Komma-Liste) bzw. je Grammatikthema (Wiederholung)
+function wsqGroups() {
+  const base = wsqBase();
+  if (wsQuick.mode === 'bis') {
+    const ids = new Set(wsqUntilTopics().map(t => t.id));
+    const by = {};
+    base.filter(x => x.kind === 'grammar' && ids.has(x.grammar.topic)).forEach(x => (by[x.grammar.topic] ||= []).push(x));
+    return Object.values(by);
+  }
+  const inBand = base.filter(x => x.kind !== 'grammar' || !wsQuick.band || grBand(x) === wsQuick.band);
+  const terms = wsqTerms();
+  if (!terms.length) return [inBand];
+  return terms.map(t => inBand.filter(x => wsqHay(x).includes(t))).filter(g => g.length);
+}
+function wsqPool() {
+  return [...new Set(wsqGroups().flat())];
+}
 function wsqShuffle(keep = []) {
-  const pool = wsqPool().filter(x => !keep.includes(x.id));
-  const pick = pool.map(x => [Math.random(), x.id]).sort((a, b) => a[0] - b[0]).map(z => z[1]);
-  wsQuick.picks = [...keep, ...pick].slice(0, 5);
+  const rnd = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(z => z[1]);
+  const groups = rnd(wsqGroups().map(g => rnd(g.filter(x => !keep.includes(x.id)))));
+  const out = [...keep];
+  const n = Number(wsQuick.count) || 5;
+  // reihum aus jeder Gruppe eine Übung, bis die Anzahl erreicht ist
+  for (let round = 0; out.length < n && groups.some(g => g.length > round); round++)
+    for (const g of groups) {
+      if (out.length >= n) break;
+      const x = g[round];
+      if (x && !out.includes(x.id)) out.push(x.id);
+    }
+  wsQuick.picks = out.slice(0, n);
   wsqSave();
 }
 function wsQuickHTML(open) {
@@ -88,15 +122,29 @@ function wsQuickHTML(open) {
   const seg = (k, list) => `<div class="chip-row" role="group">${list.map(([v, l]) => `<button type="button" class="chip" data-wsq="${k}" data-v="${v}" aria-pressed="${String(wsQuick[k]) === String(v)}">${l}</button>`).join('')}</div>`;
   const picks = wsQuick.picks.map(id => findTask(id)).filter(Boolean);
   const total = wsqPool().length;
-  return `<details class="ws-quick" ${open || picks.length ? 'open' : ''}><summary>5 Übungen schnell zusammenstellen</summary>
+  const langs = Object.keys(LERN_NAMES);
+  const bis = wsQuick.mode === 'bis';
+  const allTopics = typeof grTopics === 'function' ? grTopics().filter(t => t.lang === wsQuick.lang && t.band) : [];
+  const untilSel = `<label class="field">Wiederholung bis einschließlich<select id="wsq-until"><option value="">Thema wählen …</option>${[...new Set(allTopics.map(t => t.band))]
+    .map(bd => `<optgroup label="${esc(ANNO_NAMES[bd] || '')}">${allTopics.filter(t => t.band === bd).map(t => `<option value="${esc(t.id)}" ${wsQuick.until === t.id ? 'selected' : ''}>${esc(t.unit.replace(/ · .*/, ''))} · ${esc(t.title)}</option>`).join('')}</optgroup>`)
+    .join('')}</select></label>`;
+  const nUntil = bis ? wsqUntilTopics().length : 0;
+  return `<details class="ws-quick" ${open || picks.length || wsQuick.touched ? 'open' : ''}><summary>Übungen schnell zusammenstellen</summary>
     <div class="ws-quick-grid">
-      <div><span class="vb-label">Lernsprache</span>${seg('lang', Object.entries(TheisContent.LANGUAGES).filter(([k]) => ['it', 'en', 'fr', 'es'].includes(k)))}</div>
-      <div><span class="vb-label">Art</span>${seg('kind', [['grammar', 'Grammatik'], ['listening', 'Hören'], ['both', 'beides']])}</div>
-      ${wsQuick.kind !== 'listening' ? `<div><span class="vb-label">Lernjahr</span>${seg('band', [[1, 'Primo'], [2, 'Secondo'], [3, 'Terzo'], [0, 'alle']])}</div><div><span class="vb-label">Stufe</span>${seg('level', [['', 'alle'], ['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']])}</div>` : ''}
-      <label class="field">Thema oder Stichwort<input id="wsq-query" list="wsq-topics" value="${esc(wsQuick.query)}" placeholder="z. B. articolo, passato prossimo, città"></label>
-      <datalist id="wsq-topics">${topics.map(t => `<option value="${esc(t)}">`).join('')}</datalist>
+      ${langs.length > 1 ? `<div><span class="vb-label">Lernsprache</span>${seg('lang', langs.map(l => [l, LERN_NAMES[l]]))}</div>` : ''}
+      <div><span class="vb-label">Auswahl</span>${seg('mode', [['thema', 'nach Thema'], ['bis', 'Wiederholung bis …']])}</div>
+      ${bis ? '' : `<div><span class="vb-label">Art</span>${seg('kind', [['grammar', 'Grammatik'], ['listening', 'Hören'], ['both', 'beides']])}</div>`}
+      ${!bis && wsQuick.kind !== 'listening' ? `<div><span class="vb-label">Lernjahr</span>${seg('band', [[1, 'Primo'], [2, 'Secondo'], [3, 'Terzo'], [0, 'alle']])}</div>` : ''}
+      ${wsQuick.kind !== 'listening' || bis ? `<div><span class="vb-label">Stufe</span>${seg('level', [['', 'alle'], ['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']])}</div>` : ''}
+      <div><span class="vb-label">Anzahl</span>${seg('count', [[5, '5'], [8, '8'], [10, '10']])}</div>
+      ${
+        bis
+          ? untilSel + (nUntil ? `<p class="small muted">Gemischt aus ${plural(nUntil, 'Thema', 'Themen')}, je Thema höchstens eine Übung, solange es reicht.</p>` : '')
+          : `<label class="field">Thema oder Stichwort <small class="muted">(mehrere mit Komma)</small><input id="wsq-query" list="wsq-topics" value="${esc(wsQuick.query)}" placeholder="z. B. articolo, passato prossimo, possessivi"></label>
+      <datalist id="wsq-topics">${topics.map(t => `<option value="${esc(t)}">`).join('')}</datalist>`
+      }
     </div>
-    <div class="ws-quick-act"><button type="button" class="button primary" data-wsq-go>${picks.length ? 'Neu mischen' : '5 Übungen zusammenstellen'}</button><span class="small muted">${plural(total, 'passende Übung', 'passende Übungen')}</span></div>
+    <div class="ws-quick-act"><button type="button" class="button primary" data-wsq-go>${picks.length ? 'Neu mischen' : (Number(wsQuick.count) || 5) + ' Übungen zusammenstellen'}</button><span class="small muted">${plural(total, 'passende Übung', 'passende Übungen')}</span></div>
     ${
       picks.length
         ? `<ol class="ws-quick-list">${picks
@@ -111,13 +159,15 @@ document.addEventListener('click', e => {
   if (!t) return;
   if (t.dataset.wsq) {
     const k = t.dataset.wsq;
-    wsQuick[k] = k === 'band' ? Number(t.dataset.v) : t.dataset.v;
+    wsQuick[k] = k === 'band' || k === 'count' ? Number(t.dataset.v) : t.dataset.v;
+    wsQuick.touched = true;
     wsQuick.picks = [];
     wsqSave();
     return wsComposer();
   }
   if (t.hasAttribute('data-wsq-go')) {
-    wsQuick.query = $('wsq-query')?.value || '';
+    if ($('wsq-query')) wsQuick.query = $('wsq-query').value || '';
+    if (wsQuick.mode === 'bis' && !wsQuick.until) return toast('Bitte zuerst das Thema wählen, bis zu dem wiederholt wird.');
     wsqShuffle();
     if (!wsQuick.picks.length) toast('Keine passenden Übungen. Bitte Thema oder Filter ändern.');
     return wsComposer();
@@ -138,13 +188,23 @@ document.addEventListener('click', e => {
     const room = 40 - wsAll().length;
     const add = wsQuick.picks.filter(id => !wsAll().includes(id)).slice(0, room);
     wsDraft.sheets[wsDraft.sheets.length - 1].push(...add);
-    if (!wsDraft.title && wsQuick.query) wsDraft.title = wsQuick.query;
+    if (!wsDraft.title && wsQuick.mode === 'bis' && wsQuick.until) wsDraft.title = 'Wiederholung bis ' + (grTopics().find(t => t.id === wsQuick.until)?.title || '');
+    else if (!wsDraft.title && wsQuick.query) wsDraft.title = wsQuick.query;
     wsQuick.picks = [];
+    wsQuick.touched = false;
     wsqSave();
     wsSave();
     toast(plural(add.length, 'Übung', 'Übungen') + ' in die Mappe gelegt.');
     return wsComposer();
   }
+});
+document.addEventListener('change', e => {
+  if (e.target.id !== 'wsq-until') return;
+  wsQuick.until = e.target.value;
+  wsQuick.touched = true;
+  wsQuick.picks = [];
+  wsqSave();
+  wsComposer();
 });
 document.addEventListener('input', e => {
   if (e.target.id === 'wsq-query') {
