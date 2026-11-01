@@ -282,7 +282,7 @@ function teacherHome(list, p) {
       <div class="tdash-quick">
         <button class="tq" data-ws-open="1">${icon('mappe')}<span><b>Stunde planen</b><small>Unterrichtsmappe</small></span></button>
         <button class="tq" data-ws-link>${icon('qr')}<span><b>Klasse starten</b><small>QR-Code für die iPads</small></span></button>
-        <button class="tq" data-nav="cils">${icon('cils')}<span><b>CILS-Training</b><small>Übungsprüfung A1/A2</small></span></button>
+        <button class="tq" data-nav="cils">${icon('cils')}<span><b>CILS-Training</b><small>Aufgabentypen A1 bis C2</small></span></button>
         <button class="tq" data-nav="redaktion">${icon('ki')}<span><b>Übung erstellen</b><small>mit KI oder selbst</small></span></button>
       </div>
     </header>
@@ -300,7 +300,7 @@ function teacherHome(list, p) {
         ${mappe.length ? `<ol class="tlist">${mappe.slice(0, 4).map(x => `<li><button class="quiet" data-lesson="${esc(x.id)}"><b>${esc(x.title)}</b><small>${esc(portalLang(x.language))} · ${esc(x.level)}${x.kind === 'grammar' ? ' · ' + esc(x.grammar.topicTitle) : ''}</small></button></li>`).join('')}${mappe.length > 4 ? `<li class="muted small">und ${mappe.length - 4} weitere</li>` : ''}</ol>` : '<p class="muted small">Sammle Übungen mit „In die Mappe“ oder lass dir fünf passende zusammenstellen.</p>'}
         <div class="tdc-act">${mappe.length ? '<button class="button primary" data-ws-link>Klassenlink</button><button class="button secondary" data-ws-print="0">Arbeitsblatt</button>' : '<button class="button primary" data-ws-open="1">Fünf Übungen vorschlagen</button>'}</div></article>
       <article class="tdc tdc-cils"><header><span class="tdc-ico">${icon('cils')}</span><div><h2>CILS-Training</h2><small>Hören, Lesen, Strukturen, Schreiben, Sprechen</small></div><button class="quiet" data-nav="cils">Neu</button></header>
-        ${cils || '<p class="muted small">Übungsprüfungen im Format CILS A1 und A2 Adolescenti: Die KI schreibt neue Texte, daje macht daraus Übungen mit Lösungen, Vorlesestimme und Prüfungsheft.</p><div class="tdc-act"><button class="button primary" data-nav="cils">Prüfung erstellen</button></div>'}</article>
+        ${cils || '<p class="muted small">Einzelne Aufgabentypen der CILS von A1 bis C2: Typ wählen, Auftrag an die KI kopieren, Antwort einfügen. Hörverstehen mit deiner eigenen Aufnahme.</p><div class="tdc-act"><button class="button primary" data-nav="cils">Übung erstellen</button></div>'}</article>
       <article class="tdc tdc-own"><header><span class="tdc-ico">${icon('ki')}</span><div><h2>Eigene Übungen</h2><small>${own ? plural(own, 'eigene Übung', 'eigene Übungen') : 'aus Text, Buchseite oder Video'}</small></div><button class="quiet" data-nav="redaktion">Alle</button></header>
         <div class="tdc-chips"><button class="chip" data-nav="redaktion">Grammatik mit KI</button><button class="chip" data-nav="redaktion">Wortliste mit KI</button><button class="chip" data-nav="redaktion">Hörübung mit KI</button></div></article>
       <article class="tdc tdc-material"><header><span class="tdc-ico">${icon('grammatik')}</span><div><h2>Material</h2><small>mit Lösungen und Druckfassung</small></div></header>

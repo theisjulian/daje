@@ -8738,11 +8738,27 @@ body.kb-open .checkbar { position: static !important; }
 .cils-step>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:10px}
 .cils-step h2{margin:2px 0 0;font-size:1.15rem}
 .cils-n{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700}
-.cils-checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
-.cils-check{display:flex;gap:10px;align-items:flex-start;padding:12px;border-radius:14px;background:var(--fill);cursor:pointer}
-.cils-check input{margin-top:3px;accent-color:var(--blue);width:18px;height:18px}
-.cils-check b{display:block;font-size:.92rem}
-.cils-check small{color:var(--label-2);font-size:.8rem}
+.cils-step h2 small{font-size:.8rem;font-weight:500;margin-left:6px}
+.cils-levels{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}
+.cils-levels button{display:flex;flex-direction:column;align-items:center;gap:1px;padding:10px 4px;border-radius:14px;border:1px solid var(--hairline);background:var(--fill);color:inherit;font:inherit;cursor:pointer}
+.cils-levels button b{font-size:1.05rem}
+.cils-levels button small{font-size:.7rem;color:var(--label-2);letter-spacing:.04em;text-transform:uppercase}
+.cils-levels button[aria-selected="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.cils-levels button[aria-selected="true"] small{color:rgba(255,255,255,.85)}
+.cils-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.cils-row>span{font-size:.85rem;color:var(--label-2);min-width:84px}
+.cils-group h3{margin:4px 0 8px;font-size:.95rem}
+.cils-group h3 small{font-weight:500;color:var(--label-2);font-size:.78rem;margin-left:6px}
+.cils-types{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.cils-type{position:relative;display:flex;flex-direction:column;gap:3px;text-align:left;padding:12px 14px;border-radius:14px;border:1.5px solid transparent;background:var(--fill);color:inherit;font:inherit;cursor:pointer;min-width:0}
+.cils-type b{font-size:.92rem;line-height:1.25}
+.cils-type small{color:var(--label-2);font-size:.8rem;line-height:1.35}
+.cils-type[aria-pressed="true"]{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 10%,var(--fill))}
+.cils-own{align-self:flex-start;margin-top:4px;font-style:normal;font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:99px;background:color-mix(in srgb,var(--orange) 16%,transparent);color:var(--orange)}
+.cils-hint{margin:0;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,var(--orange) 10%,transparent);font-size:.9rem}
+.cils-spec{margin:0;padding:10px 14px;list-style:none;display:flex;flex-wrap:wrap;gap:6px 16px;border-radius:14px;border:1px dashed var(--hairline);font-size:.82rem;color:var(--label-2)}
+.cils-spec b{color:var(--label);font-weight:600;margin-right:4px}
+.cils-step textarea:not(.cils-answer){width:100%;font:inherit;border-radius:14px;border:1px solid var(--hairline);padding:12px;background:var(--glass-solid);color:inherit;resize:vertical}
 .cils-answer{width:100%;font:inherit;font-family:ui-monospace,Menlo,monospace;font-size:.85rem;border-radius:14px;border:1px solid var(--hairline);padding:12px;background:var(--glass-solid);color:inherit;resize:vertical}
 .cils-h{margin:26px 0 10px}
 .cils-sets{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
@@ -8755,7 +8771,7 @@ body.kb-open .checkbar { position: static !important; }
 .cils-parts button{text-align:left;padding:2px 0}
 .cils-set-act{display:flex;flex-wrap:wrap;gap:8px}
 .cils-note{margin-top:18px}
-@media (max-width:560px){.cils-builder{padding:16px}.cils-step{gap:12px}.cils-parts{columns:1}}
+@media (max-width:560px){.cils-builder{padding:16px}.cils-step{gap:12px}.cils-parts{columns:1}.cils-levels{grid-template-columns:repeat(3,minmax(0,1fr))}.cils-n{width:28px;height:28px}}
 .tdash .tdash-hero .eyebrow{color:rgba(255,255,255,.85)!important;-webkit-text-fill-color:rgba(255,255,255,.85)}
 .tdash-grid{grid-auto-flow:row dense}
 .tdc-live{grid-row:auto}
