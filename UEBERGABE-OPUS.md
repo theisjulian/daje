@@ -273,6 +273,17 @@ Lernende ohne Login nur über Funktionen (SECURITY DEFINER, prüfen Code/Ablauf/
 - **Arbeitsblatt:** genau eine Anweisung je Aufgabe (`hbHead` in hoerblatt.js). Grammatik: die Aufgabenanweisung, darunter klein der Hinweis zur Papierform nur bei Zuordnen, Ordnen, Sortieren, Fehler, Sprecher. „Zielsprache“ druckt keine deutsche Klammer, „Deutsch“ ersetzt die Anweisung.
 - **Keine Zeitangaben** mehr in App und Druck (`estimatedMinutes` bleibt nur als Datenfeld).
 
+## 6x. CILS-Training, Lehrkräfte-Dashboard, Registrierung, Einstellungen (01.11.2026)
+
+- **CILS-Training** (`cils.js`, `imports/KI-CILS.md`, Ansicht `?seite=cils`): Übungsprüfungen im Format CILS A1/A2 Adolescenti. Lehrkraft wählt Niveau, Teile und Thema, kopiert den Auftrag, fügt die KI-Antwort ein. `DajeCILS.build` macht daraus normale Pakete: Ascolto 1–3 als Hörübungen mit Vorlesestimme (`media.type: speech`), Lettura 1–3 mit Lesetext (neues Paketfeld `reading`), Strutture 1–3, Produzione scritta und orale als offene Aufgaben. Sätze in `daje-cils-v1`; Druck als Prüfungsheft (mit Lösungen und Hörtexten), Klassensitzung direkt aus der Prüfung (Mappe bleibt unberührt, `klLinkDialog(ids, titel)`). Test: `tests/cils.test.cjs`.
+- **Lesetext** `reading: { title?, text }` im Vertrag (bis 8000 Zeichen), in der Übung links neben den Aufgaben und auf dem Arbeitsblatt als Kasten.
+- **Lehrkräfte-Start = Dashboard** (`teacherHome` in views.js, Live-Daten `tdashLoad` in aufgabe.js): Begrüßung, Schnellaktionen, Kennzahlen (laufende Sitzungen, heute aktiv, heute erledigt, richtig im Schnitt), laufende Sitzungen mit Fortschritt je Person (alle 30 s aktualisiert), Mappe, CILS, eigene Übungen, Material.
+- **Lernende geben nur ihren Namen ein** (kein Kürzel mehr); gleiche Namen bekommen „(2)“.
+- **Registrierung**: Vor- und Nachname, Rolle (Lernende/Lehrkraft), Passwortstärke, Einwilligung, Bestätigungsseite mit „erneut senden“. Metadaten im Konto: `first_name`, `last_name`, `full_name`, `role`, `lang`. Lehrkräfte landen nach der ersten Anmeldung in der Lehrkräfte-Ansicht.
+- **E-Mail-Vorlagen** `supabase/emails/confirm.html`, `recovery.html` (DE/IT/EN/FR nach `lang`). Einrichtung im Supabase-Dashboard: `supabase/emails/ANLEITUNG.md`.
+- **Einstellungen** (`einstellungen.js`, Zahnrad oben bzw. „Mehr“ am Handy): Konto, Oberflächensprache, Lernsprache, Arbeitsanweisungen, Fokus-Modus, Ansicht, Darstellung.
+- **CI**: `werkzeuge/grammatik.py` löscht beim vollständigen Lauf keine importierten Pakete (`g-daje-*`) mehr; das hatte die Prüfung seit dem Import scheitern lassen.
+
 ## 7. Offene Punkte
 - Supabase: Redirect-URL eintragen (siehe 6v); Klassensitzung einmal live mit zwei iPads durchspielen.
 - Bedienung Ziehen/Antippen auf echtem iPad prüfen (Safari, Stift).
