@@ -53,8 +53,8 @@
     {
      "id": "g1",
      "options": [
-      "è",
-      "sia",
+      "ha",
+      "avesse",
       "abbia"
      ],
      "answer": "abbia"
@@ -62,26 +62,26 @@
     {
      "id": "g2",
      "options": [
+      "Volessi",
       "Vorrei",
-      "sarà",
-      "sarebbe"
+      "Voglio"
      ],
      "answer": "Vorrei"
     },
     {
      "id": "g3",
      "options": [
-      "è",
-      "fosse",
-      "potesse"
+      "poteva",
+      "potesse",
+      "possa"
      ],
      "answer": "potesse"
     },
     {
      "id": "g4",
      "options": [
-      "è",
-      "sarà",
+      "sia",
+      "era",
       "fosse"
      ],
      "answer": "fosse"
@@ -89,35 +89,35 @@
     {
      "id": "g5",
      "options": [
-      "sarà",
-      "sarebbe",
-      "potrebbe"
+      "potrebbe",
+      "possa",
+      "potesse"
      ],
      "answer": "potrebbe"
     },
     {
      "id": "g6",
      "options": [
-      "sarà",
-      "era",
-      "sarebbe"
+      "sarebbe",
+      "fosse",
+      "sia"
      ],
      "answer": "sarebbe"
     },
     {
      "id": "g7",
      "options": [
-      "sarebbe",
-      "sarà",
-      "avrebbe"
+      "avrebbe",
+      "abbia",
+      "avesse"
      ],
      "answer": "avrebbe"
     },
     {
      "id": "g8",
      "options": [
-      "sarà",
-      "sarebbe",
+      "conservi",
+      "conservasse",
       "conserverebbe"
      ],
      "answer": "conserverebbe"
@@ -125,63 +125,63 @@
     {
      "id": "g9",
      "options": [
-      "è",
       "fosse",
-      "sarà"
+      "sarebbe",
+      "sia"
      ],
      "answer": "fosse"
     },
     {
      "id": "g10",
      "options": [
-      "sarà",
-      "sarebbe",
-      "vorrei"
+      "vorrei",
+      "voglio",
+      "volessi"
      ],
      "answer": "vorrei"
     },
     {
      "id": "g11",
      "options": [
-      "fosse",
-      "potesse",
-      "è"
+      "possa",
+      "potrebbe",
+      "potesse"
      ],
      "answer": "potesse"
     },
     {
      "id": "g12",
      "options": [
-      "sarebbe",
+      "potesse",
       "potrebbe",
-      "sarà"
+      "possa"
      ],
      "answer": "potrebbe"
     },
     {
      "id": "g13",
      "options": [
-      "sarebbe",
-      "sarà",
-      "conserverei"
+      "conserverei",
+      "conservassi",
+      "conservo"
      ],
      "answer": "conserverei"
     },
     {
      "id": "g14",
      "options": [
-      "sarebbe",
-      "sarà",
-      "potrebbe"
+      "potesse",
+      "potrebbe",
+      "possa"
      ],
      "answer": "potrebbe"
     },
     {
      "id": "g15",
      "options": [
-      "sarà",
       "potremmo",
-      "sarebbe"
+      "possiamo",
+      "potessimo"
      ],
      "answer": "potremmo"
     }

@@ -59,18 +59,18 @@
     {
      "id": "g1",
      "options": [
-      "a",
-      "di",
-      "nel"
+      "sul",
+      "nel",
+      "al"
      ],
      "answer": "nel"
     },
     {
      "id": "g2",
      "options": [
-      "dalla",
-      "a",
-      "di"
+      "sulla",
+      "alla",
+      "dalla"
      ],
      "answer": "dalla"
     },
@@ -78,8 +78,8 @@
      "id": "g3",
      "options": [
       "di",
-      "da",
-      "a"
+      "a",
+      "tra"
      ],
      "answer": "di"
     },
@@ -88,25 +88,25 @@
      "options": [
       "di",
       "a",
-      "da"
+      "per"
      ],
      "answer": "di"
     },
     {
      "id": "g5",
      "options": [
-      "di",
-      "da",
-      "a"
+      "a",
+      "con",
+      "da"
      ],
      "answer": "da"
     },
     {
      "id": "g6",
      "options": [
-      "da",
+      "a",
       "di",
-      "a"
+      "da"
      ],
      "answer": "di"
     },
@@ -114,16 +114,16 @@
      "id": "g7",
      "options": [
       "da",
-      "a",
-      "di"
+      "su",
+      "a"
      ],
      "answer": "a"
     },
     {
      "id": "g8",
      "options": [
+      "che",
       "a",
-      "da",
       "di"
      ],
      "answer": "di"
@@ -131,9 +131,9 @@
     {
      "id": "g9",
      "options": [
-      "di",
-      "a",
-      "sulle"
+      "dalle",
+      "sulle",
+      "alle"
      ],
      "answer": "sulle"
     },
@@ -142,7 +142,7 @@
      "options": [
       "a",
       "di",
-      "da"
+      "per"
      ],
      "answer": "a"
     },
@@ -150,17 +150,17 @@
      "id": "g11",
      "options": [
       "a",
-      "da",
-      "di"
+      "con",
+      "da"
      ],
      "answer": "da"
     },
     {
      "id": "g12",
      "options": [
-      "di",
-      "nel",
-      "a"
+      "al",
+      "dal",
+      "nel"
      ],
      "answer": "nel"
     }

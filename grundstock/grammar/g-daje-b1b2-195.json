@@ -59,36 +59,36 @@
     {
      "id": "g1",
      "options": [
+      "campagna",
       "città",
-      "insediamenti",
-      "inoltre"
+      "montagna"
      ],
      "answer": "città"
     },
     {
      "id": "g2",
      "options": [
-      "città",
+      "animali",
       "insediamenti",
-      "inoltre"
+      "monumenti"
      ],
      "answer": "insediamenti"
     },
     {
      "id": "g3",
      "options": [
-      "città",
       "inoltre",
-      "insediamenti"
+      "mai",
+      "neppure"
      ],
      "answer": "inoltre"
     },
     {
      "id": "g4",
      "options": [
-      "insediamenti",
-      "città",
-      "comprino"
+      "comprino",
+      "dimentichino",
+      "nascondano"
      ],
      "answer": "comprino"
     },
@@ -96,70 +96,70 @@
      "id": "g5",
      "options": [
       "abitanti",
-      "insediamenti",
-      "città"
+      "monumenti",
+      "canali"
      ],
      "answer": "abitanti"
     },
     {
      "id": "g6",
      "options": [
-      "città",
-      "insediamenti",
-      "scuola"
+      "pioggia",
+      "scuola",
+      "pizza"
      ],
      "answer": "scuola"
     },
     {
      "id": "g7",
      "options": [
-      "insediamenti",
-      "città",
-      "osservare"
+      "cancellare",
+      "osservare",
+      "ignorare"
      ],
      "answer": "osservare"
     },
     {
      "id": "g8",
      "options": [
-      "cercano",
-      "insediamenti",
-      "città"
+      "dormono",
+      "cucinano",
+      "cercano"
      ],
      "answer": "cercano"
     },
     {
      "id": "g9",
      "options": [
-      "città",
-      "insediamenti",
-      "culturale"
+      "culturale",
+      "giovane",
+      "veloce"
      ],
      "answer": "culturale"
     },
     {
      "id": "g10",
      "options": [
-      "insediamenti",
+      "spente",
       "incontrate",
-      "città"
+      "dimenticate"
      ],
      "answer": "incontrate"
     },
     {
      "id": "g11",
      "options": [
-      "immaginata",
-      "insediamenti",
-      "città"
+      "spenta",
+      "bagnata",
+      "immaginata"
      ],
      "answer": "immaginata"
     },
     {
      "id": "g12",
      "options": [
-      "città",
-      "insediamenti",
+      "dimenticherà",
+      "venderà",
       "aggiornerà"
      ],
      "answer": "aggiornerà"
@@ -167,54 +167,54 @@
     {
      "id": "g13",
      "options": [
-      "città",
       "scelto",
-      "insediamenti"
+      "dormito",
+      "piovuto"
      ],
      "answer": "scelto"
     },
     {
      "id": "g14",
      "options": [
-      "insediamenti",
-      "inventato",
-      "città"
+      "arrabbiato",
+      "piovoso",
+      "inventato"
      ],
      "answer": "inventato"
     },
     {
      "id": "g15",
      "options": [
-      "città",
+      "stanca",
       "controllata",
-      "insediamenti"
+      "arrabbiata"
      ],
      "answer": "controllata"
     },
     {
      "id": "g16",
      "options": [
-      "insediamenti",
-      "impressione",
-      "città"
+      "automobile",
+      "isola",
+      "impressione"
      ],
      "answer": "impressione"
     },
     {
      "id": "g17",
      "options": [
+      "canteranno",
       "proveranno",
-      "città",
-      "insediamenti"
+      "dormiranno"
      ],
      "answer": "proveranno"
     },
     {
      "id": "g18",
      "options": [
-      "insediamenti",
-      "riconoscerle",
-      "città"
+      "cancellarle",
+      "eliminarle",
+      "riconoscerle"
      ],
      "answer": "riconoscerle"
     }

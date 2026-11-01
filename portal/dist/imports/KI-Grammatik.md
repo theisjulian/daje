@@ -120,7 +120,7 @@ Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `promptHelp`, `explanatio
 
 Regeln:
 - `gap_fill`, `gap_choice`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; 8 bis 12 Lücken (Modus D: bis 30). In `acceptedAnswers` **alle** richtigen Varianten (z. B. „sono andato“ und „sono andata“, wenn das Subjekt offen ist; Apostroph als ’ und ' gleichwertig, daje gleicht das selbst ab). Die Grundform in Klammern hinter die Lücke schreiben, wenn sie gebildet werden muss: `Io [[g1]] (parlare) italiano.`
-- `gap_choice`: 2 bis 4 `options` je Lücke, `answer` ist eine davon; Ablenker sind echte Formen derselben Wortart.
+- `gap_choice`: 3 `options` je Lücke, `answer` ist eine davon. Die beiden Ablenker haben **dieselbe Wortart und dieselbe Form** wie die Lösung (gleiches Genus und gleicher Numerus, bei Verben gleiche Person), damit Endung oder Artikel die Lösung nicht verraten. Im Kontext darf **nur eine** Option passen: Ablenker sind entweder eine andere Zeit/ein anderer Modus bzw. ein falsches Hilfsverb (wenn die Klammer Zeit oder Modus nennt) oder ein Wort, das inhaltlich eindeutig nicht passt. Ablenker nie aus den Lösungen anderer Lücken nehmen. Bei vorgegebenen Anfangsbuchstaben beginnen auch die Ablenker so.
 - `table_fill`: Konjugations- oder Formentabellen; jede Zeile hat genau so viele Zellen wie `columns`; feste Zellen als Text.
 - `error_correction`: 6 bis 10 falsche Formen; `wrong` steht genau so im Satz, alles andere ist korrekt.
 - `categorize`: 2 bis 4 Kategorien, 8 bis 12 Einträge.

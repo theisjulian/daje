@@ -53,62 +53,62 @@
     {
      "id": "g1",
      "options": [
-      "Tuttavia",
+      "Eppure",
       "Perciò",
-      "mentre"
+      "Invece"
      ],
      "answer": "Perciò"
     },
     {
      "id": "g2",
      "options": [
-      "mentre",
-      "Tuttavia",
-      "Perciò"
+      "perché",
+      "quindi",
+      "mentre"
      ],
      "answer": "mentre"
     },
     {
      "id": "g3",
      "options": [
-      "Perciò",
+      "Inoltre",
       "Tuttavia",
-      "mentre"
+      "Quindi"
      ],
      "answer": "Tuttavia"
     },
     {
      "id": "g4",
      "options": [
-      "mentre",
-      "Perciò",
-      "perché"
+      "perché",
+      "sebbene",
+      "affinché"
      ],
      "answer": "perché"
     },
     {
      "id": "g5",
      "options": [
-      "mentre",
-      "poi",
-      "Perciò"
+      "prima",
+      "invece",
+      "poi"
      ],
      "answer": "poi"
     },
     {
      "id": "g6",
      "options": [
+      "Infatti",
       "Quindi",
-      "mentre",
-      "Perciò"
+      "Tuttavia"
      ],
      "answer": "Quindi"
     },
     {
      "id": "g7",
      "options": [
-      "mentre",
-      "Perciò",
+      "Infine",
+      "Intanto",
       "Prima"
      ],
      "answer": "Prima"
@@ -116,18 +116,18 @@
     {
      "id": "g8",
      "options": [
-      "mentre",
       "poi",
-      "Perciò"
+      "infine",
+      "prima"
      ],
      "answer": "poi"
     },
     {
      "id": "g9",
      "options": [
-      "Infine",
-      "Perciò",
-      "mentre"
+      "Prima",
+      "Intanto",
+      "Infine"
      ],
      "answer": "Infine"
     }

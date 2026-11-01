@@ -53,54 +53,54 @@
     {
      "id": "g1",
      "options": [
-      "alcuni",
-      "vecchi",
-      "cerca"
+      "cerca",
+      "regala",
+      "strappa"
      ],
      "answer": "cerca"
     },
     {
      "id": "g2",
      "options": [
-      "cerca",
+      "ogni",
       "alcuni",
-      "vecchi"
+      "qualche"
      ],
      "answer": "alcuni"
     },
     {
      "id": "g3",
      "options": [
-      "cerca",
-      "vecchi",
-      "alcuni"
+      "giovani",
+      "stanchi",
+      "vecchi"
      ],
      "answer": "vecchi"
     },
     {
      "id": "g4",
      "options": [
-      "alcuni",
-      "cerca",
-      "freddo"
+      "tardi",
+      "freddo",
+      "caldo"
      ],
      "answer": "freddo"
     },
     {
      "id": "g5",
      "options": [
-      "cerca",
-      "alcuni",
-      "cappotto"
+      "asciugamano",
+      "cappotto",
+      "costume"
      ],
      "answer": "cappotto"
     },
     {
      "id": "g6",
      "options": [
-      "alcuni",
       "direttore",
-      "cerca"
+      "silenzio",
+      "pavimento"
      ],
      "answer": "direttore"
     },
@@ -108,80 +108,80 @@
      "id": "g7",
      "options": [
       "custode",
-      "cerca",
-      "alcuni"
+      "concerto",
+      "cappotto"
      ],
      "answer": "custode"
     },
     {
      "id": "g8",
      "options": [
-      "alcuni",
-      "stessa",
-      "cerca"
+      "nessuna",
+      "ogni",
+      "stessa"
      ],
      "answer": "stessa"
     },
     {
      "id": "g9",
      "options": [
-      "cerca",
-      "Sotto",
-      "alcuni"
+      "Senza",
+      "Contro",
+      "Sotto"
      ],
      "answer": "Sotto"
     },
     {
      "id": "g10",
      "options": [
+      "custodi",
       "cartelloni",
-      "cerca",
-      "alcuni"
+      "concerti"
      ],
      "answer": "cartelloni"
     },
     {
      "id": "g11",
      "options": [
-      "cerca",
-      "alcuni",
-      "cartella"
+      "domanda",
+      "cartella",
+      "finestra"
      ],
      "answer": "cartella"
     },
     {
      "id": "g12",
      "options": [
-      "cerca",
+      "volesse",
       "voleva",
-      "alcuni"
+      "volevano"
      ],
      "answer": "voleva"
     },
     {
      "id": "g13",
      "options": [
-      "nasconderli",
-      "cerca",
-      "alcuni"
+      "nasconderla",
+      "nascondergli",
+      "nasconderli"
      ],
      "answer": "nasconderli"
     },
     {
      "id": "g14",
      "options": [
-      "alcuni",
-      "cerca",
-      "occhi"
+      "occhi",
+      "armadi",
+      "cavi"
      ],
      "answer": "occhi"
     },
     {
      "id": "g15",
      "options": [
-      "cerca",
-      "alcuni",
-      "ridono"
+      "ridono",
+      "piangono",
+      "litigano"
      ],
      "answer": "ridono"
     }

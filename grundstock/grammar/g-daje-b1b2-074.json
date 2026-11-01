@@ -59,89 +59,89 @@
     {
      "id": "g1",
      "options": [
-      "prima",
       "parola",
-      "durante"
+      "parata",
+      "pausa"
      ],
      "answer": "parola"
     },
     {
      "id": "g2",
      "options": [
-      "prima",
+      "era",
       "è",
-      "durante"
+      "sia"
      ],
      "answer": "è"
     },
     {
      "id": "g3",
      "options": [
-      "è",
-      "sia",
-      "debba"
+      "debba",
+      "deve",
+      "dovrebbe"
      ],
      "answer": "debba"
     },
     {
      "id": "g4",
      "options": [
-      "durante",
-      "prima",
-      "gruppo"
+      "gruppo",
+      "grano",
+      "grafico"
      ],
      "answer": "gruppo"
     },
     {
      "id": "g5",
      "options": [
-      "durante",
-      "prima",
-      "preparano"
+      "preparavano",
+      "preparano",
+      "preparino"
      ],
      "answer": "preparano"
     },
     {
      "id": "g6",
      "options": [
-      "è",
-      "parola",
-      "nuovo"
+      "nutriente",
+      "nuovo",
+      "numeroso"
      ],
      "answer": "nuovo"
     },
     {
      "id": "g7",
      "options": [
-      "durante",
-      "prima",
-      "osservano"
+      "osservano",
+      "osservino",
+      "osservavano"
      ],
      "answer": "osservano"
     },
     {
      "id": "g8",
      "options": [
-      "durante",
+      "registrerebbe",
       "registra",
-      "prima"
+      "registri"
      ],
      "answer": "registra"
     },
     {
      "id": "g9",
      "options": [
-      "durante",
-      "prima",
-      "ricerca"
+      "ricerca",
+      "risata",
+      "rinuncia"
      ],
      "answer": "ricerca"
     },
     {
      "id": "g10",
      "options": [
-      "prima",
-      "durante",
+      "siano",
+      "sarebbero",
       "sono"
      ],
      "answer": "sono"
@@ -150,34 +150,34 @@
      "id": "g11",
      "options": [
       "indipendenti",
-      "parola",
-      "è"
+      "identici",
+      "ripetuti"
      ],
      "answer": "indipendenti"
     },
     {
      "id": "g12",
      "options": [
-      "è",
-      "sia",
-      "indichi"
+      "indicasse",
+      "indichi",
+      "indica"
      ],
      "answer": "indichi"
     },
     {
      "id": "g13",
      "options": [
+      "cambiasse",
       "cambia",
-      "durante",
-      "prima"
+      "cambi"
      ],
      "answer": "cambia"
     },
     {
      "id": "g14",
      "options": [
-      "parola",
-      "è",
+      "povero",
+      "polare",
       "possibile"
      ],
      "answer": "possibile"
@@ -186,16 +186,16 @@
      "id": "g15",
      "options": [
       "la adottino",
-      "è",
-      "sia"
+      "la adottano",
+      "la adottasse"
      ],
      "answer": "la adottino"
     },
     {
      "id": "g16",
      "options": [
-      "è",
-      "parola",
+      "numerosa",
+      "nuvolosa",
       "nuova"
      ],
      "answer": "nuova"
@@ -203,27 +203,27 @@
     {
      "id": "g17",
      "options": [
-      "durante",
-      "prima",
-      "parlano"
+      "parlavano",
+      "parlano",
+      "parlino"
      ],
      "answer": "parlano"
     },
     {
      "id": "g18",
      "options": [
-      "sono",
-      "durante",
-      "prima"
+      "siano",
+      "erano",
+      "sono"
      ],
      "answer": "sono"
     },
     {
      "id": "g19",
      "options": [
-      "chiara",
-      "è",
-      "parola"
+      "chiusa",
+      "chimica",
+      "chiara"
      ],
      "answer": "chiara"
     }

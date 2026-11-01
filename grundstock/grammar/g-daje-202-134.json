@@ -54,22 +54,25 @@
      "id": "g1",
      "options": [
       "ha visitato",
-      "essere visitato"
+      "è visitato",
+      "visitava"
      ],
      "answer": "ha visitato"
     },
     {
      "id": "g2",
      "options": [
-      "avere arrivati",
-      "sono arrivati"
+      "sono arrivati",
+      "hanno arrivato",
+      "arrivavano"
      ],
      "answer": "sono arrivati"
     },
     {
      "id": "g3",
      "options": [
-      "essere chiesto",
+      "è chiesta",
+      "chiedeva",
       "ha chiesto"
      ],
      "answer": "ha chiesto"
@@ -77,7 +80,8 @@
     {
      "id": "g4",
      "options": [
-      "avere tornati",
+      "hanno tornato",
+      "tornavano",
       "sono tornati"
      ],
      "answer": "sono tornati"
@@ -85,8 +89,9 @@
     {
      "id": "g5",
      "options": [
-      "essere ricordato",
-      "ha ricordato"
+      "ricordava",
+      "ha ricordato",
+      "è ricordata"
      ],
      "answer": "ha ricordato"
     },
@@ -94,14 +99,16 @@
      "id": "g6",
      "options": [
       "Ha telefonato",
-      "essere telefonato"
+      "È telefonato",
+      "Telefonava"
      ],
      "answer": "Ha telefonato"
     },
     {
      "id": "g7",
      "options": [
-      "essere spiegato",
+      "è spiegato",
+      "spiegava",
       "ha spiegato"
      ],
      "answer": "ha spiegato"
@@ -110,23 +117,26 @@
      "id": "g8",
      "options": [
       "ha guardato",
-      "essere guardato"
+      "è guardato",
+      "guardava"
      ],
      "answer": "ha guardato"
     },
     {
      "id": "g9",
      "options": [
-      "essere trovato",
-      "ha trovato"
+      "trovava",
+      "ha trovato",
+      "è trovato"
      ],
      "answer": "ha trovato"
     },
     {
      "id": "g10",
      "options": [
+      "diceva",
       "ha detto",
-      "essere detto"
+      "è detto"
      ],
      "answer": "ha detto"
     }

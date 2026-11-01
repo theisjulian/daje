@@ -60,43 +60,43 @@
      "id": "g1",
      "options": [
       "fenomeni",
-      "pagina",
-      "terreno"
+      "strumenti",
+      "satelliti"
      ],
      "answer": "fenomeni"
     },
     {
      "id": "g2",
      "options": [
-      "fenomeni",
-      "terreno",
-      "pagina"
+      "pagina",
+      "stagione",
+      "missione"
      ],
      "answer": "pagina"
     },
     {
      "id": "g3",
      "options": [
-      "pagina",
       "terreno",
-      "fenomeni"
+      "edificio",
+      "ghiaccio"
      ],
      "answer": "terreno"
     },
     {
      "id": "g4",
      "options": [
-      "pagina",
+      "abitato",
       "libero",
-      "fenomeni"
+      "costruito"
      ],
      "answer": "libero"
     },
     {
      "id": "g5",
      "options": [
-      "fenomeni",
-      "pagina",
+      "ombre",
+      "nuvole",
       "decisioni"
      ],
      "answer": "decisioni"
@@ -104,26 +104,26 @@
     {
      "id": "g6",
      "options": [
-      "fenomeni",
+      "mappe",
       "colonne",
-      "pagina"
+      "fotografie"
      ],
      "answer": "colonne"
     },
     {
      "id": "g7",
      "options": [
-      "pagina",
+      "Cancelliamo",
       "osserviamo",
-      "fenomeni"
+      "Dimentichiamo"
      ],
      "answer": "osserviamo"
     },
     {
      "id": "g8",
      "options": [
-      "fenomeni",
-      "pagina",
+      "fatte",
+      "dette",
       "state"
      ],
      "answer": "state"
@@ -131,54 +131,54 @@
     {
      "id": "g9",
      "options": [
-      "ombra",
-      "pagina",
-      "fenomeni"
+      "orbita",
+      "età",
+      "ombra"
      ],
      "answer": "ombra"
     },
     {
      "id": "g10",
      "options": [
+      "felici",
       "vecchi",
-      "fenomeni",
-      "pagina"
+      "stanchi"
      ],
      "answer": "vecchi"
     },
     {
      "id": "g11",
      "options": [
-      "pagina",
-      "Vedere",
-      "fenomeni"
+      "Dormire",
+      "Pagare",
+      "Vedere"
      ],
      "answer": "Vedere"
     },
     {
      "id": "g12",
      "options": [
-      "pagina",
-      "fonte",
-      "fenomeni"
+      "foto",
+      "stazione",
+      "fonte"
      ],
      "answer": "fonte"
     },
     {
      "id": "g13",
      "options": [
-      "pagina",
-      "fenomeni",
-      "altro"
+      "nessuno",
+      "altro",
+      "solo"
      ],
      "answer": "altro"
     },
     {
      "id": "g14",
      "options": [
-      "possibile",
-      "fenomeni",
-      "pagina"
+      "visibile",
+      "presente",
+      "possibile"
      ],
      "answer": "possibile"
     }

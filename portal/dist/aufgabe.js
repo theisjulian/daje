@@ -861,7 +861,8 @@ async function klCheckOpen() {
   } catch (e) {
     return;
   }
-  if (!st || st.gone || !st.open) return klEndedDialog();
+  if (!st || typeof st !== 'object') return; // keine verwertbare Antwort: nichts ändern
+  if (st.gone || st.open === false) return klEndedDialog();
   if (st.blocked) {
     klLive.blocked = true;
     klOverlay('blocked', st.block_reason);

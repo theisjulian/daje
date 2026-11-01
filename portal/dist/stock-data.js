@@ -51305,22 +51305,25 @@ const STOCK_PACKAGES = [
       "id": "g1",
       "options": [
        "ha visitato",
-       "essere visitato"
+       "è visitato",
+       "visitava"
       ],
       "answer": "ha visitato"
      },
      {
       "id": "g2",
       "options": [
-       "avere arrivati",
-       "sono arrivati"
+       "sono arrivati",
+       "hanno arrivato",
+       "arrivavano"
       ],
       "answer": "sono arrivati"
      },
      {
       "id": "g3",
       "options": [
-       "essere chiesto",
+       "è chiesta",
+       "chiedeva",
        "ha chiesto"
       ],
       "answer": "ha chiesto"
@@ -51328,7 +51331,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "options": [
-       "avere tornati",
+       "hanno tornato",
+       "tornavano",
        "sono tornati"
       ],
       "answer": "sono tornati"
@@ -51336,8 +51340,9 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "options": [
-       "essere ricordato",
-       "ha ricordato"
+       "ricordava",
+       "ha ricordato",
+       "è ricordata"
       ],
       "answer": "ha ricordato"
      },
@@ -51345,14 +51350,16 @@ const STOCK_PACKAGES = [
       "id": "g6",
       "options": [
        "Ha telefonato",
-       "essere telefonato"
+       "È telefonato",
+       "Telefonava"
       ],
       "answer": "Ha telefonato"
      },
      {
       "id": "g7",
       "options": [
-       "essere spiegato",
+       "è spiegato",
+       "spiegava",
        "ha spiegato"
       ],
       "answer": "ha spiegato"
@@ -51361,23 +51368,26 @@ const STOCK_PACKAGES = [
       "id": "g8",
       "options": [
        "ha guardato",
-       "essere guardato"
+       "è guardato",
+       "guardava"
       ],
       "answer": "ha guardato"
      },
      {
       "id": "g9",
       "options": [
-       "essere trovato",
-       "ha trovato"
+       "trovava",
+       "ha trovato",
+       "è trovato"
       ],
       "answer": "ha trovato"
      },
      {
       "id": "g10",
       "options": [
+       "diceva",
        "ha detto",
-       "essere detto"
+       "è detto"
       ],
       "answer": "ha detto"
      }
@@ -57569,54 +57579,54 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "alcuni",
-       "vecchi",
-       "cerca"
+       "cerca",
+       "regala",
+       "strappa"
       ],
       "answer": "cerca"
      },
      {
       "id": "g2",
       "options": [
-       "cerca",
+       "ogni",
        "alcuni",
-       "vecchi"
+       "qualche"
       ],
       "answer": "alcuni"
      },
      {
       "id": "g3",
       "options": [
-       "cerca",
-       "vecchi",
-       "alcuni"
+       "giovani",
+       "stanchi",
+       "vecchi"
       ],
       "answer": "vecchi"
      },
      {
       "id": "g4",
       "options": [
-       "alcuni",
-       "cerca",
-       "freddo"
+       "tardi",
+       "freddo",
+       "caldo"
       ],
       "answer": "freddo"
      },
      {
       "id": "g5",
       "options": [
-       "cerca",
-       "alcuni",
-       "cappotto"
+       "asciugamano",
+       "cappotto",
+       "costume"
       ],
       "answer": "cappotto"
      },
      {
       "id": "g6",
       "options": [
-       "alcuni",
        "direttore",
-       "cerca"
+       "silenzio",
+       "pavimento"
       ],
       "answer": "direttore"
      },
@@ -57624,80 +57634,80 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "options": [
        "custode",
-       "cerca",
-       "alcuni"
+       "concerto",
+       "cappotto"
       ],
       "answer": "custode"
      },
      {
       "id": "g8",
       "options": [
-       "alcuni",
-       "stessa",
-       "cerca"
+       "nessuna",
+       "ogni",
+       "stessa"
       ],
       "answer": "stessa"
      },
      {
       "id": "g9",
       "options": [
-       "cerca",
-       "Sotto",
-       "alcuni"
+       "Senza",
+       "Contro",
+       "Sotto"
       ],
       "answer": "Sotto"
      },
      {
       "id": "g10",
       "options": [
+       "custodi",
        "cartelloni",
-       "cerca",
-       "alcuni"
+       "concerti"
       ],
       "answer": "cartelloni"
      },
      {
       "id": "g11",
       "options": [
-       "cerca",
-       "alcuni",
-       "cartella"
+       "domanda",
+       "cartella",
+       "finestra"
       ],
       "answer": "cartella"
      },
      {
       "id": "g12",
       "options": [
-       "cerca",
+       "volesse",
        "voleva",
-       "alcuni"
+       "volevano"
       ],
       "answer": "voleva"
      },
      {
       "id": "g13",
       "options": [
-       "nasconderli",
-       "cerca",
-       "alcuni"
+       "nasconderla",
+       "nascondergli",
+       "nasconderli"
       ],
       "answer": "nasconderli"
      },
      {
       "id": "g14",
       "options": [
-       "alcuni",
-       "cerca",
-       "occhi"
+       "occhi",
+       "armadi",
+       "cavi"
       ],
       "answer": "occhi"
      },
      {
       "id": "g15",
       "options": [
-       "cerca",
-       "alcuni",
-       "ridono"
+       "ridono",
+       "piangono",
+       "litigano"
       ],
       "answer": "ridono"
      }
@@ -59164,62 +59174,62 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "Tuttavia",
+       "Eppure",
        "Perciò",
-       "mentre"
+       "Invece"
       ],
       "answer": "Perciò"
      },
      {
       "id": "g2",
       "options": [
-       "mentre",
-       "Tuttavia",
-       "Perciò"
+       "perché",
+       "quindi",
+       "mentre"
       ],
       "answer": "mentre"
      },
      {
       "id": "g3",
       "options": [
-       "Perciò",
+       "Inoltre",
        "Tuttavia",
-       "mentre"
+       "Quindi"
       ],
       "answer": "Tuttavia"
      },
      {
       "id": "g4",
       "options": [
-       "mentre",
-       "Perciò",
-       "perché"
+       "perché",
+       "sebbene",
+       "affinché"
       ],
       "answer": "perché"
      },
      {
       "id": "g5",
       "options": [
-       "mentre",
-       "poi",
-       "Perciò"
+       "prima",
+       "invece",
+       "poi"
       ],
       "answer": "poi"
      },
      {
       "id": "g6",
       "options": [
+       "Infatti",
        "Quindi",
-       "mentre",
-       "Perciò"
+       "Tuttavia"
       ],
       "answer": "Quindi"
      },
      {
       "id": "g7",
       "options": [
-       "mentre",
-       "Perciò",
+       "Infine",
+       "Intanto",
        "Prima"
       ],
       "answer": "Prima"
@@ -59227,18 +59237,18 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "options": [
-       "mentre",
        "poi",
-       "Perciò"
+       "infine",
+       "prima"
       ],
       "answer": "poi"
      },
      {
       "id": "g9",
       "options": [
-       "Infine",
-       "Perciò",
-       "mentre"
+       "Prima",
+       "Intanto",
+       "Infine"
       ],
       "answer": "Infine"
      }
@@ -61655,89 +61665,89 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "prima",
        "parola",
-       "durante"
+       "parata",
+       "pausa"
       ],
       "answer": "parola"
      },
      {
       "id": "g2",
       "options": [
-       "prima",
+       "era",
        "è",
-       "durante"
+       "sia"
       ],
       "answer": "è"
      },
      {
       "id": "g3",
       "options": [
-       "è",
-       "sia",
-       "debba"
+       "debba",
+       "deve",
+       "dovrebbe"
       ],
       "answer": "debba"
      },
      {
       "id": "g4",
       "options": [
-       "durante",
-       "prima",
-       "gruppo"
+       "gruppo",
+       "grano",
+       "grafico"
       ],
       "answer": "gruppo"
      },
      {
       "id": "g5",
       "options": [
-       "durante",
-       "prima",
-       "preparano"
+       "preparavano",
+       "preparano",
+       "preparino"
       ],
       "answer": "preparano"
      },
      {
       "id": "g6",
       "options": [
-       "è",
-       "parola",
-       "nuovo"
+       "nutriente",
+       "nuovo",
+       "numeroso"
       ],
       "answer": "nuovo"
      },
      {
       "id": "g7",
       "options": [
-       "durante",
-       "prima",
-       "osservano"
+       "osservano",
+       "osservino",
+       "osservavano"
       ],
       "answer": "osservano"
      },
      {
       "id": "g8",
       "options": [
-       "durante",
+       "registrerebbe",
        "registra",
-       "prima"
+       "registri"
       ],
       "answer": "registra"
      },
      {
       "id": "g9",
       "options": [
-       "durante",
-       "prima",
-       "ricerca"
+       "ricerca",
+       "risata",
+       "rinuncia"
       ],
       "answer": "ricerca"
      },
      {
       "id": "g10",
       "options": [
-       "prima",
-       "durante",
+       "siano",
+       "sarebbero",
        "sono"
       ],
       "answer": "sono"
@@ -61746,34 +61756,34 @@ const STOCK_PACKAGES = [
       "id": "g11",
       "options": [
        "indipendenti",
-       "parola",
-       "è"
+       "identici",
+       "ripetuti"
       ],
       "answer": "indipendenti"
      },
      {
       "id": "g12",
       "options": [
-       "è",
-       "sia",
-       "indichi"
+       "indicasse",
+       "indichi",
+       "indica"
       ],
       "answer": "indichi"
      },
      {
       "id": "g13",
       "options": [
+       "cambiasse",
        "cambia",
-       "durante",
-       "prima"
+       "cambi"
       ],
       "answer": "cambia"
      },
      {
       "id": "g14",
       "options": [
-       "parola",
-       "è",
+       "povero",
+       "polare",
        "possibile"
       ],
       "answer": "possibile"
@@ -61782,16 +61792,16 @@ const STOCK_PACKAGES = [
       "id": "g15",
       "options": [
        "la adottino",
-       "è",
-       "sia"
+       "la adottano",
+       "la adottasse"
       ],
       "answer": "la adottino"
      },
      {
       "id": "g16",
       "options": [
-       "è",
-       "parola",
+       "numerosa",
+       "nuvolosa",
        "nuova"
       ],
       "answer": "nuova"
@@ -61799,27 +61809,27 @@ const STOCK_PACKAGES = [
      {
       "id": "g17",
       "options": [
-       "durante",
-       "prima",
-       "parlano"
+       "parlavano",
+       "parlano",
+       "parlino"
       ],
       "answer": "parlano"
      },
      {
       "id": "g18",
       "options": [
-       "sono",
-       "durante",
-       "prima"
+       "siano",
+       "erano",
+       "sono"
       ],
       "answer": "sono"
      },
      {
       "id": "g19",
       "options": [
-       "chiara",
-       "è",
-       "parola"
+       "chiusa",
+       "chimica",
+       "chiara"
       ],
       "answer": "chiara"
      }
@@ -64491,71 +64501,71 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "ha osservato",
-       "aveva preparato",
-       "aveva osservato"
+       "aveva preparata",
+       "era preparata",
+       "aveva preparato"
       ],
       "answer": "aveva preparato"
      },
      {
       "id": "g2",
       "options": [
+       "corresse",
        "correva",
-       "era",
-       "è stato"
+       "corse"
       ],
       "answer": "correva"
      },
      {
       "id": "g3",
       "options": [
+       "pensasse",
        "pensava",
-       "è stato",
-       "era"
+       "pensò"
       ],
       "answer": "pensava"
      },
      {
       "id": "g4",
       "options": [
+       "avesse osservato",
        "aveva osservato",
-       "ha osservato",
-       "osserverà"
+       "era osservata"
       ],
       "answer": "aveva osservato"
      },
      {
       "id": "g5",
       "options": [
-       "aveva osservato",
        "aveva individuato",
-       "ha osservato"
+       "era individuata",
+       "avesse individuato"
       ],
       "answer": "aveva individuato"
      },
      {
       "id": "g6",
       "options": [
-       "ha osservato",
+       "avesse provato",
        "aveva provato",
-       "aveva osservato"
+       "era provata"
       ],
       "answer": "aveva provato"
      },
      {
       "id": "g7",
       "options": [
-       "osservava",
        "ha preso",
-       "ha osservato"
+       "è presa",
+       "prendeva"
       ],
       "answer": "ha preso"
      },
      {
       "id": "g8",
       "options": [
-       "osservava",
-       "ha osservato",
+       "l’ha chiamato",
+       "le ha chiamata",
        "l’ha chiamata"
       ],
       "answer": "l’ha chiamata"
@@ -64563,53 +64573,53 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "options": [
-       "ha osservato",
        "ha rallentato",
-       "osservava"
+       "è rallentata",
+       "rallentava"
       ],
       "answer": "ha rallentato"
      },
      {
       "id": "g10",
       "options": [
+       "adattava",
        "ha adattato",
-       "ha osservato",
-       "osservava"
+       "è adattata"
       ],
       "answer": "ha adattato"
      },
      {
       "id": "g11",
       "options": [
-       "ha osservato",
-       "osservava",
-       "ha accusato"
+       "accusava",
+       "ha accusato",
+       "è accusata"
       ],
       "answer": "ha accusato"
      },
      {
       "id": "g12",
       "options": [
+       "sarebbero",
        "erano",
-       "è stato",
-       "era"
+       "fossero"
       ],
       "answer": "erano"
      },
      {
       "id": "g13",
       "options": [
-       "osservava",
+       "chiedeva",
        "ha chiesto",
-       "ha osservato"
+       "è chiesto"
       ],
       "answer": "ha chiesto"
      },
      {
       "id": "g14",
       "options": [
-       "ha osservato",
-       "osservava",
+       "è aggiunta",
+       "aggiungeva",
        "ha aggiunto"
       ],
       "answer": "ha aggiunto"
@@ -64617,36 +64627,36 @@ const STOCK_PACKAGES = [
      {
       "id": "g15",
       "options": [
-       "avevano notato",
-       "aveva osservato",
-       "ha osservato"
+       "erano notate",
+       "avessero notato",
+       "avevano notato"
       ],
       "answer": "avevano notato"
      },
      {
       "id": "g16",
       "options": [
-       "era",
-       "sarà",
-       "è stato"
+       "fosse",
+       "sarebbe",
+       "era"
       ],
       "answer": "era"
      },
      {
       "id": "g17",
       "options": [
-       "hanno descritto",
-       "osservava",
-       "ha osservato"
+       "sono descritte",
+       "descrivevano",
+       "hanno descritto"
       ],
       "answer": "hanno descritto"
      },
      {
       "id": "g18",
       "options": [
+       "avesse trovato",
        "aveva trovato",
-       "aveva osservato",
-       "ha osservato"
+       "era trovato"
       ],
       "answer": "aveva trovato"
      }
@@ -64845,8 +64855,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "nostra",
-       "classe",
+       "accenderle",
+       "comprarle",
        "spegnerle"
       ],
       "answer": "spegnerle"
@@ -64854,17 +64864,17 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "options": [
-       "spegnerle",
        "nostra",
-       "classe"
+       "vostra",
+       "prossima"
       ],
       "answer": "nostra"
      },
      {
       "id": "g3",
       "options": [
-       "nostra",
-       "spegnerle",
+       "palestra",
+       "finestra",
        "classe"
       ],
       "answer": "classe"
@@ -64872,35 +64882,35 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "options": [
-       "nostra",
-       "proposta",
-       "spegnerle"
+       "torta",
+       "merenda",
+       "proposta"
       ],
       "answer": "proposta"
      },
      {
       "id": "g5",
       "options": [
-       "spegnerle",
-       "nostra",
-       "previsti"
+       "previsti",
+       "rotti",
+       "stanchi"
       ],
       "answer": "previsti"
      },
      {
       "id": "g6",
       "options": [
-       "spegnerle",
+       "potevano",
        "possono",
-       "nostra"
+       "possano"
       ],
       "answer": "possono"
      },
      {
       "id": "g7",
       "options": [
-       "spegnerle",
-       "nostra",
+       "vengano",
+       "venissero",
        "vengono"
       ],
       "answer": "vengono"
@@ -64908,45 +64918,45 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "options": [
-       "nostra",
-       "spegnerle",
-       "utile"
+       "utile",
+       "stanco",
+       "felice"
       ],
       "answer": "utile"
      },
      {
       "id": "g9",
       "options": [
-       "siamo",
-       "spegnerle",
-       "nostra"
+       "fossimo",
+       "fummo",
+       "siamo"
       ],
       "answer": "siamo"
      },
      {
       "id": "g10",
       "options": [
-       "impianti",
-       "spegnerle",
-       "nostra"
+       "sorrisi",
+       "pensieri",
+       "impianti"
       ],
       "answer": "impianti"
      },
      {
       "id": "g11",
       "options": [
+       "presentiamo",
        "presenteremo",
-       "nostra",
-       "spegnerle"
+       "presenteremmo"
       ],
       "answer": "presenteremo"
      },
      {
       "id": "g12",
       "options": [
-       "nostra",
-       "visto",
-       "spegnerle"
+       "dormito",
+       "pianto",
+       "visto"
       ],
       "answer": "visto"
      }
@@ -66291,53 +66301,53 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "era",
+       "Abbiamo",
        "Avevamo",
-       "è stato"
+       "Avremmo"
       ],
       "answer": "Avevamo"
      },
      {
       "id": "g2",
       "options": [
-       "Ho finito",
-       "Avevamo",
-       "D’accordo"
+       "D’accordo",
+       "Peccato",
+       "Figurati"
       ],
       "answer": "D’accordo"
      },
      {
       "id": "g3",
       "options": [
+       "Ho finita",
        "Ho finito",
-       "osservava",
-       "ha osservato"
+       "Sono finito"
       ],
       "answer": "Ho finito"
      },
      {
       "id": "g4",
       "options": [
+       "Avevo chiesta",
        "Avevo chiesto",
-       "ha osservato",
-       "aveva osservato"
+       "Ero chiesto"
       ],
       "answer": "Avevo chiesto"
      },
      {
       "id": "g5",
       "options": [
-       "Avevamo",
        "Per esempio",
-       "D’accordo"
+       "Per fortuna",
+       "Per ora"
       ],
       "answer": "Per esempio"
      },
      {
       "id": "g6",
       "options": [
-       "durante",
-       "prima",
+       "siano",
+       "erano",
        "sono"
       ],
       "answer": "sono"
@@ -66405,54 +66415,54 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "era",
        "Avevamo",
-       "è stato"
+       "Avremmo",
+       "Abbiamo"
       ],
       "answer": "Avevamo"
      },
      {
       "id": "g2",
       "options": [
-       "Avevamo",
-       "D’accordo",
-       "Ho finito"
+       "Peccato",
+       "Figurati",
+       "D’accordo"
       ],
       "answer": "D’accordo"
      },
      {
       "id": "g3",
       "options": [
-       "Ho finito",
-       "osservava",
-       "ha osservato"
+       "Sono finito",
+       "Ho finita",
+       "Ho finito"
       ],
       "answer": "Ho finito"
      },
      {
       "id": "g4",
       "options": [
-       "Avevo chiesto",
-       "ha osservato",
-       "aveva osservato"
+       "Ero chiesto",
+       "Avevo chiesta",
+       "Avevo chiesto"
       ],
       "answer": "Avevo chiesto"
      },
      {
       "id": "g5",
       "options": [
-       "D’accordo",
        "Per esempio",
-       "Avevamo"
+       "Per fortuna",
+       "Per ora"
       ],
       "answer": "Per esempio"
      },
      {
       "id": "g6",
       "options": [
-       "durante",
-       "prima",
-       "sono"
+       "erano",
+       "sono",
+       "siano"
       ],
       "answer": "sono"
      }
@@ -66812,43 +66822,43 @@ const STOCK_PACKAGES = [
       "id": "g1",
       "options": [
        "fenomeni",
-       "pagina",
-       "terreno"
+       "strumenti",
+       "satelliti"
       ],
       "answer": "fenomeni"
      },
      {
       "id": "g2",
       "options": [
-       "fenomeni",
-       "terreno",
-       "pagina"
+       "pagina",
+       "stagione",
+       "missione"
       ],
       "answer": "pagina"
      },
      {
       "id": "g3",
       "options": [
-       "pagina",
        "terreno",
-       "fenomeni"
+       "edificio",
+       "ghiaccio"
       ],
       "answer": "terreno"
      },
      {
       "id": "g4",
       "options": [
-       "pagina",
+       "abitato",
        "libero",
-       "fenomeni"
+       "costruito"
       ],
       "answer": "libero"
      },
      {
       "id": "g5",
       "options": [
-       "fenomeni",
-       "pagina",
+       "ombre",
+       "nuvole",
        "decisioni"
       ],
       "answer": "decisioni"
@@ -66856,26 +66866,26 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "options": [
-       "fenomeni",
+       "mappe",
        "colonne",
-       "pagina"
+       "fotografie"
       ],
       "answer": "colonne"
      },
      {
       "id": "g7",
       "options": [
-       "pagina",
+       "Cancelliamo",
        "osserviamo",
-       "fenomeni"
+       "Dimentichiamo"
       ],
       "answer": "osserviamo"
      },
      {
       "id": "g8",
       "options": [
-       "fenomeni",
-       "pagina",
+       "fatte",
+       "dette",
        "state"
       ],
       "answer": "state"
@@ -66883,54 +66893,54 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "options": [
-       "ombra",
-       "pagina",
-       "fenomeni"
+       "orbita",
+       "età",
+       "ombra"
       ],
       "answer": "ombra"
      },
      {
       "id": "g10",
       "options": [
+       "felici",
        "vecchi",
-       "fenomeni",
-       "pagina"
+       "stanchi"
       ],
       "answer": "vecchi"
      },
      {
       "id": "g11",
       "options": [
-       "pagina",
-       "Vedere",
-       "fenomeni"
+       "Dormire",
+       "Pagare",
+       "Vedere"
       ],
       "answer": "Vedere"
      },
      {
       "id": "g12",
       "options": [
-       "pagina",
-       "fonte",
-       "fenomeni"
+       "foto",
+       "stazione",
+       "fonte"
       ],
       "answer": "fonte"
      },
      {
       "id": "g13",
       "options": [
-       "pagina",
-       "fenomeni",
-       "altro"
+       "nessuno",
+       "altro",
+       "solo"
       ],
       "answer": "altro"
      },
      {
       "id": "g14",
       "options": [
-       "possibile",
-       "fenomeni",
-       "pagina"
+       "visibile",
+       "presente",
+       "possibile"
       ],
       "answer": "possibile"
      }
@@ -67490,8 +67500,8 @@ const STOCK_PACKAGES = [
       "id": "g1",
       "options": [
        "pensò",
-       "prima",
-       "durante"
+       "pensasse",
+       "penserà"
       ],
       "answer": "pensò"
      },
@@ -67499,44 +67509,44 @@ const STOCK_PACKAGES = [
       "id": "g2",
       "options": [
        "disse",
-       "prima",
-       "durante"
+       "dicesse",
+       "dirà"
       ],
       "answer": "disse"
      },
      {
       "id": "g3",
       "options": [
-       "è stato",
-       "sarà",
-       "era"
+       "era",
+       "fosse",
+       "sarà"
       ],
       "answer": "era"
      },
      {
       "id": "g4",
       "options": [
-       "durante",
-       "prima",
-       "chiese"
+       "chiese",
+       "chiedesse",
+       "chiederà"
       ],
       "answer": "chiese"
      },
      {
       "id": "g5",
       "options": [
-       "era",
-       "è stato",
-       "sarà"
+       "ebbe",
+       "avesse",
+       "era"
       ],
       "answer": "era"
      },
      {
       "id": "g6",
       "options": [
-       "prima",
-       "durante",
-       "parlò"
+       "parlò",
+       "parlava",
+       "parlasse"
       ],
       "answer": "parlò"
      },
@@ -67544,53 +67554,53 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "options": [
        "disse",
-       "prima",
-       "durante"
+       "dicesse",
+       "dirà"
       ],
       "answer": "disse"
      },
      {
       "id": "g8",
       "options": [
-       "ricordava",
-       "era",
-       "è stato"
+       "ricordi",
+       "ricorderebbe",
+       "ricordava"
       ],
       "answer": "ricordava"
      },
      {
       "id": "g9",
       "options": [
-       "aveva osservato",
-       "ha osservato",
-       "aveva guardato"
+       "aveva guardato",
+       "era guardato",
+       "fu guardato"
       ],
       "answer": "aveva guardato"
      },
      {
       "id": "g10",
       "options": [
-       "sarà",
-       "è stato",
-       "era"
+       "era",
+       "aveva",
+       "ebbe"
       ],
       "answer": "era"
      },
      {
       "id": "g11",
       "options": [
-       "è",
-       "sarà",
-       "fosse"
+       "sia",
+       "fosse",
+       "era"
       ],
       "answer": "fosse"
      },
      {
       "id": "g12",
       "options": [
-       "ha osservato",
        "avevano trovato",
-       "aveva osservato"
+       "erano trovati",
+       "sono trovati"
       ],
       "answer": "avevano trovato"
      },
@@ -67598,44 +67608,44 @@ const STOCK_PACKAGES = [
       "id": "g13",
       "options": [
        "furono",
-       "durante",
-       "prima"
+       "erano",
+       "sono"
       ],
       "answer": "furono"
      },
      {
       "id": "g14",
       "options": [
-       "durante",
-       "prima",
-       "pensò"
+       "pensò",
+       "pensasse",
+       "penserà"
       ],
       "answer": "pensò"
      },
      {
       "id": "g15",
       "options": [
+       "conservasse",
        "conservò",
-       "durante",
-       "prima"
+       "conservava"
       ],
       "answer": "conservò"
      },
      {
       "id": "g16",
       "options": [
-       "avevano",
-       "era",
-       "è stato"
+       "abbiano",
+       "avessero",
+       "avevano"
       ],
       "answer": "avevano"
      },
      {
       "id": "g17",
       "options": [
-       "telefonò",
-       "durante",
-       "prima"
+       "telefonava",
+       "telefonasse",
+       "telefonò"
       ],
       "answer": "telefonò"
      }
@@ -67862,71 +67872,71 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
+       "Anzi",
        "In effetti",
-       "A dire il vero",
-       "D’accordo"
+       "Comunque"
       ],
       "answer": "In effetti"
      },
      {
       "id": "g2",
       "options": [
-       "In effetti",
+       "Insomma",
        "A dire il vero",
-       "D’accordo"
+       "In effetti"
       ],
       "answer": "A dire il vero"
      },
      {
       "id": "g3",
       "options": [
-       "A dire il vero",
+       "Peccato",
        "D’accordo",
-       "In effetti"
+       "Purtroppo"
       ],
       "answer": "D’accordo"
      },
      {
       "id": "g4",
       "options": [
-       "A dire il vero",
-       "In effetti",
-       "Anzi"
+       "Anzi",
+       "Infatti",
+       "Allora"
       ],
       "answer": "Anzi"
      },
      {
       "id": "g5",
       "options": [
-       "In effetti",
        "Allora",
-       "A dire il vero"
+       "Anzi",
+       "Invece"
       ],
       "answer": "Allora"
      },
      {
       "id": "g6",
       "options": [
-       "In effetti",
-       "A dire il vero",
-       "Comunque"
+       "Comunque",
+       "Infatti",
+       "Allora"
       ],
       "answer": "Comunque"
      },
      {
       "id": "g7",
       "options": [
+       "Del resto",
        "Secondo me",
-       "In effetti",
-       "A dire il vero"
+       "Per esempio"
       ],
       "answer": "Secondo me"
      },
      {
       "id": "g8",
       "options": [
-       "A dire il vero",
-       "In effetti",
+       "Magari",
+       "Anzi",
        "Certo"
       ],
       "answer": "Certo"
@@ -67934,26 +67944,26 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "options": [
-       "In effetti",
-       "A dire il vero",
-       "Intanto"
+       "Intanto",
+       "Infine",
+       "Quindi"
       ],
       "answer": "Intanto"
      },
      {
       "id": "g10",
       "options": [
-       "A dire il vero",
-       "In effetti",
-       "Per esempio"
+       "Insomma",
+       "Per esempio",
+       "In effetti"
       ],
       "answer": "Per esempio"
      },
      {
       "id": "g11",
       "options": [
-       "In effetti",
-       "A dire il vero",
+       "Intanto",
+       "Anzi",
        "Quindi"
       ],
       "answer": "Quindi"
@@ -67961,9 +67971,9 @@ const STOCK_PACKAGES = [
      {
       "id": "g12",
       "options": [
-       "In effetti",
        "Insomma",
-       "A dire il vero"
+       "Per esempio",
+       "Intanto"
       ],
       "answer": "Insomma"
      }
@@ -69668,18 +69678,18 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "a",
-       "di",
-       "nel"
+       "sul",
+       "nel",
+       "al"
       ],
       "answer": "nel"
      },
      {
       "id": "g2",
       "options": [
-       "dalla",
-       "a",
-       "di"
+       "sulla",
+       "alla",
+       "dalla"
       ],
       "answer": "dalla"
      },
@@ -69687,8 +69697,8 @@ const STOCK_PACKAGES = [
       "id": "g3",
       "options": [
        "di",
-       "da",
-       "a"
+       "a",
+       "tra"
       ],
       "answer": "di"
      },
@@ -69697,25 +69707,25 @@ const STOCK_PACKAGES = [
       "options": [
        "di",
        "a",
-       "da"
+       "per"
       ],
       "answer": "di"
      },
      {
       "id": "g5",
       "options": [
-       "di",
-       "da",
-       "a"
+       "a",
+       "con",
+       "da"
       ],
       "answer": "da"
      },
      {
       "id": "g6",
       "options": [
-       "da",
+       "a",
        "di",
-       "a"
+       "da"
       ],
       "answer": "di"
      },
@@ -69723,16 +69733,16 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "options": [
        "da",
-       "a",
-       "di"
+       "su",
+       "a"
       ],
       "answer": "a"
      },
      {
       "id": "g8",
       "options": [
+       "che",
        "a",
-       "da",
        "di"
       ],
       "answer": "di"
@@ -69740,9 +69750,9 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "options": [
-       "di",
-       "a",
-       "sulle"
+       "dalle",
+       "sulle",
+       "alle"
       ],
       "answer": "sulle"
      },
@@ -69751,7 +69761,7 @@ const STOCK_PACKAGES = [
       "options": [
        "a",
        "di",
-       "da"
+       "per"
       ],
       "answer": "a"
      },
@@ -69759,17 +69769,17 @@ const STOCK_PACKAGES = [
       "id": "g11",
       "options": [
        "a",
-       "da",
-       "di"
+       "con",
+       "da"
       ],
       "answer": "da"
      },
      {
       "id": "g12",
       "options": [
-       "di",
-       "nel",
-       "a"
+       "al",
+       "dal",
+       "nel"
       ],
       "answer": "nel"
      }
@@ -70306,8 +70316,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "è",
-       "sia",
+       "ha",
+       "avesse",
        "abbia"
       ],
       "answer": "abbia"
@@ -70315,26 +70325,26 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "options": [
+       "Volessi",
        "Vorrei",
-       "sarà",
-       "sarebbe"
+       "Voglio"
       ],
       "answer": "Vorrei"
      },
      {
       "id": "g3",
       "options": [
-       "è",
-       "fosse",
-       "potesse"
+       "poteva",
+       "potesse",
+       "possa"
       ],
       "answer": "potesse"
      },
      {
       "id": "g4",
       "options": [
-       "è",
-       "sarà",
+       "sia",
+       "era",
        "fosse"
       ],
       "answer": "fosse"
@@ -70342,35 +70352,35 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "options": [
-       "sarà",
-       "sarebbe",
-       "potrebbe"
+       "potrebbe",
+       "possa",
+       "potesse"
       ],
       "answer": "potrebbe"
      },
      {
       "id": "g6",
       "options": [
-       "sarà",
-       "era",
-       "sarebbe"
+       "sarebbe",
+       "fosse",
+       "sia"
       ],
       "answer": "sarebbe"
      },
      {
       "id": "g7",
       "options": [
-       "sarebbe",
-       "sarà",
-       "avrebbe"
+       "avrebbe",
+       "abbia",
+       "avesse"
       ],
       "answer": "avrebbe"
      },
      {
       "id": "g8",
       "options": [
-       "sarà",
-       "sarebbe",
+       "conservi",
+       "conservasse",
        "conserverebbe"
       ],
       "answer": "conserverebbe"
@@ -70378,63 +70388,63 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "options": [
-       "è",
        "fosse",
-       "sarà"
+       "sarebbe",
+       "sia"
       ],
       "answer": "fosse"
      },
      {
       "id": "g10",
       "options": [
-       "sarà",
-       "sarebbe",
-       "vorrei"
+       "vorrei",
+       "voglio",
+       "volessi"
       ],
       "answer": "vorrei"
      },
      {
       "id": "g11",
       "options": [
-       "fosse",
-       "potesse",
-       "è"
+       "possa",
+       "potrebbe",
+       "potesse"
       ],
       "answer": "potesse"
      },
      {
       "id": "g12",
       "options": [
-       "sarebbe",
+       "potesse",
        "potrebbe",
-       "sarà"
+       "possa"
       ],
       "answer": "potrebbe"
      },
      {
       "id": "g13",
       "options": [
-       "sarebbe",
-       "sarà",
-       "conserverei"
+       "conserverei",
+       "conservassi",
+       "conservo"
       ],
       "answer": "conserverei"
      },
      {
       "id": "g14",
       "options": [
-       "sarebbe",
-       "sarà",
-       "potrebbe"
+       "potesse",
+       "potrebbe",
+       "possa"
       ],
       "answer": "potrebbe"
      },
      {
       "id": "g15",
       "options": [
-       "sarà",
        "potremmo",
-       "sarebbe"
+       "possiamo",
+       "potessimo"
       ],
       "answer": "potremmo"
      }
@@ -70622,8 +70632,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
-       "è",
-       "sia",
+       "ha",
+       "avesse",
        "abbia"
       ],
       "answer": "abbia"
@@ -70631,26 +70641,26 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "options": [
-       "potesse",
-       "è",
-       "fosse"
+       "possa",
+       "potrebbe",
+       "potesse"
       ],
       "answer": "potesse"
      },
      {
       "id": "g3",
       "options": [
-       "durante",
-       "prima",
-       "sono"
+       "fossi",
+       "sono",
+       "sia"
       ],
       "answer": "sono"
      },
      {
       "id": "g4",
       "options": [
-       "è",
-       "sarà",
+       "sia",
+       "sarebbe",
        "fosse"
       ],
       "answer": "fosse"
@@ -70658,27 +70668,27 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "options": [
-       "sarà",
-       "è",
-       "fosse"
+       "sarebbe",
+       "fosse",
+       "sia"
       ],
       "answer": "fosse"
      },
      {
       "id": "g6",
       "options": [
-       "fosse",
-       "è",
-       "potesse"
+       "potesse",
+       "possa",
+       "potrebbe"
       ],
       "answer": "potesse"
      },
      {
       "id": "g7",
       "options": [
-       "prima",
-       "durante",
-       "sono"
+       "fossero",
+       "sono",
+       "siano"
       ],
       "answer": "sono"
      }
@@ -70906,36 +70916,36 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "options": [
+       "campagna",
        "città",
-       "insediamenti",
-       "inoltre"
+       "montagna"
       ],
       "answer": "città"
      },
      {
       "id": "g2",
       "options": [
-       "città",
+       "animali",
        "insediamenti",
-       "inoltre"
+       "monumenti"
       ],
       "answer": "insediamenti"
      },
      {
       "id": "g3",
       "options": [
-       "città",
        "inoltre",
-       "insediamenti"
+       "mai",
+       "neppure"
       ],
       "answer": "inoltre"
      },
      {
       "id": "g4",
       "options": [
-       "insediamenti",
-       "città",
-       "comprino"
+       "comprino",
+       "dimentichino",
+       "nascondano"
       ],
       "answer": "comprino"
      },
@@ -70943,70 +70953,70 @@ const STOCK_PACKAGES = [
       "id": "g5",
       "options": [
        "abitanti",
-       "insediamenti",
-       "città"
+       "monumenti",
+       "canali"
       ],
       "answer": "abitanti"
      },
      {
       "id": "g6",
       "options": [
-       "città",
-       "insediamenti",
-       "scuola"
+       "pioggia",
+       "scuola",
+       "pizza"
       ],
       "answer": "scuola"
      },
      {
       "id": "g7",
       "options": [
-       "insediamenti",
-       "città",
-       "osservare"
+       "cancellare",
+       "osservare",
+       "ignorare"
       ],
       "answer": "osservare"
      },
      {
       "id": "g8",
       "options": [
-       "cercano",
-       "insediamenti",
-       "città"
+       "dormono",
+       "cucinano",
+       "cercano"
       ],
       "answer": "cercano"
      },
      {
       "id": "g9",
       "options": [
-       "città",
-       "insediamenti",
-       "culturale"
+       "culturale",
+       "giovane",
+       "veloce"
       ],
       "answer": "culturale"
      },
      {
       "id": "g10",
       "options": [
-       "insediamenti",
+       "spente",
        "incontrate",
-       "città"
+       "dimenticate"
       ],
       "answer": "incontrate"
      },
      {
       "id": "g11",
       "options": [
-       "immaginata",
-       "insediamenti",
-       "città"
+       "spenta",
+       "bagnata",
+       "immaginata"
       ],
       "answer": "immaginata"
      },
      {
       "id": "g12",
       "options": [
-       "città",
-       "insediamenti",
+       "dimenticherà",
+       "venderà",
        "aggiornerà"
       ],
       "answer": "aggiornerà"
@@ -71014,54 +71024,54 @@ const STOCK_PACKAGES = [
      {
       "id": "g13",
       "options": [
-       "città",
        "scelto",
-       "insediamenti"
+       "dormito",
+       "piovuto"
       ],
       "answer": "scelto"
      },
      {
       "id": "g14",
       "options": [
-       "insediamenti",
-       "inventato",
-       "città"
+       "arrabbiato",
+       "piovoso",
+       "inventato"
       ],
       "answer": "inventato"
      },
      {
       "id": "g15",
       "options": [
-       "città",
+       "stanca",
        "controllata",
-       "insediamenti"
+       "arrabbiata"
       ],
       "answer": "controllata"
      },
      {
       "id": "g16",
       "options": [
-       "insediamenti",
-       "impressione",
-       "città"
+       "automobile",
+       "isola",
+       "impressione"
       ],
       "answer": "impressione"
      },
      {
       "id": "g17",
       "options": [
+       "canteranno",
        "proveranno",
-       "città",
-       "insediamenti"
+       "dormiranno"
       ],
       "answer": "proveranno"
      },
      {
       "id": "g18",
       "options": [
-       "insediamenti",
-       "riconoscerle",
-       "città"
+       "cancellarle",
+       "eliminarle",
+       "riconoscerle"
       ],
       "answer": "riconoscerle"
      }

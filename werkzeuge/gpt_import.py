@@ -14,7 +14,7 @@ Was passiert:
   Quellen ohne Buchnamen, Einordnung (Lernjahr, Lektion, Abschnitt) aus dem Register. IDs bleiben unverändert.
 - Aufgaben im Redaktionsformat (Lesen, Schreiben, Analyse) werden hier nicht übernommen.
 Mehrfach ausführbar."""
-import json, re, sys, pathlib, collections
+import json, re, sys, pathlib, collections, hashlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'grammar'
@@ -22,6 +22,7 @@ LIVELLO = {'leicht': 'livello facile', 'mittel': 'livello medio', 'schwer': 'liv
 SECTION_RANK = ['Per cominciare', 'Parte A', 'Parte B', 'Parte C', 'Grammatica', 'Modulo', 'Ripasso', 'Lessico',
                 'Laboratorio testi', 'Laboratorio integrativo daje', 'Lehrplanergänzung', 'Oberstufe']
 SECTION_SHOW = {'Oberstufe': '', 'Laboratorio integrativo daje': 'Laboratorio', 'Lehrplanergänzung': 'Approfondimento'}
+DISTR = {k: v for k, v in json.loads((pathlib.Path(__file__).resolve().parent / 'distraktoren.json').read_text(encoding='utf-8')).items() if not k.startswith('_')}
 GRADE = {1: 8, 2: 9, 3: 10, 4: 11, 5: 12, 6: 13}
 
 
@@ -216,6 +217,7 @@ def main(a_dir, b_dir):
                 d['_title'] = f'{t} ({n})'
     used = set()
     thin = []
+    used_distr = set()
     for d in pkgs:
         g = d['grammar']
         r = reg.get(g['topic'])
@@ -236,6 +238,17 @@ def main(a_dir, b_dir):
             cat['curriculum'] = r['curriculum']
         d.pop('reviewNotes', None)
         qs = [fix_question(q) for q in d['questions']]
+        # Auswahllücken: Alternativen gleicher Wortart und Form aus werkzeuge/distraktoren.json (sonst verrät Genus/Numerus die Lösung)
+        for q in qs:
+            if q['type'] != 'gap_choice':
+                continue
+            for g in q['gaps']:
+                alt = DISTR.get(f"{d['id']}/{q['id']}/{g['id']}")
+                if alt:
+                    opts = [g['answer']] + [a for a in alt if a != g['answer']][:2]
+                    k = int(hashlib.md5((d['id'] + g['id']).encode()).hexdigest(), 16) % len(opts)
+                    g['options'] = opts[k:] + opts[:k]
+                    used_distr.add(f"{d['id']}/{q['id']}/{g['id']}")
         # Folgeaufgaben mit nur ein oder zwei Lücken ergeben keine eigene Übung: weglassen und für ChatGPT notieren
         keep = [q for i, q in enumerate(qs) if i == 0 or len(q.get('gaps') or []) > 2 or q['type'] not in ('gap_fill', 'gap_choice')]
         if len(keep) < len(qs):
@@ -251,6 +264,10 @@ def main(a_dir, b_dir):
         '# Nacharbeit für ChatGPT\n\nDiese Folgeaufgaben waren zu dünn (1–2 Lücken) und wurden beim Import weggelassen. '
         'Bitte je Übung eine vollwertige Anwendungsaufgabe mit 6–10 Lücken zum selben Thema liefern (gleiche ID, gleiches Format):\n\n'
         + '\n'.join(thin) + '\n', encoding='utf-8')
+    missing = [k for k in DISTR if k not in used_distr]
+    if missing:
+        raise SystemExit('Ablenker ohne passende Lücke: ' + ', '.join(missing[:5]))
+    print(f'{len(used_distr)} Auswahllücken mit neuen Ablenkern.')
     print(f'{len(pkgs)} Pakete übernommen, {len(used)} Themen mit neuem Material, Register mit {len(reg)} Themen.')
 
 

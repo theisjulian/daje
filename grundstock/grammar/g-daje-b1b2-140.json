@@ -53,54 +53,54 @@
     {
      "id": "g1",
      "options": [
-      "era",
       "Avevamo",
-      "è stato"
+      "Avremmo",
+      "Abbiamo"
      ],
      "answer": "Avevamo"
     },
     {
      "id": "g2",
      "options": [
-      "Avevamo",
-      "D’accordo",
-      "Ho finito"
+      "Peccato",
+      "Figurati",
+      "D’accordo"
      ],
      "answer": "D’accordo"
     },
     {
      "id": "g3",
      "options": [
-      "Ho finito",
-      "osservava",
-      "ha osservato"
+      "Sono finito",
+      "Ho finita",
+      "Ho finito"
      ],
      "answer": "Ho finito"
     },
     {
      "id": "g4",
      "options": [
-      "Avevo chiesto",
-      "ha osservato",
-      "aveva osservato"
+      "Ero chiesto",
+      "Avevo chiesta",
+      "Avevo chiesto"
      ],
      "answer": "Avevo chiesto"
     },
     {
      "id": "g5",
      "options": [
-      "D’accordo",
       "Per esempio",
-      "Avevamo"
+      "Per fortuna",
+      "Per ora"
      ],
      "answer": "Per esempio"
     },
     {
      "id": "g6",
      "options": [
-      "durante",
-      "prima",
-      "sono"
+      "erano",
+      "sono",
+      "siano"
      ],
      "answer": "sono"
     }

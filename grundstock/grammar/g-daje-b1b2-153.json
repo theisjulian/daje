@@ -54,8 +54,8 @@
      "id": "g1",
      "options": [
       "pensò",
-      "prima",
-      "durante"
+      "pensasse",
+      "penserà"
      ],
      "answer": "pensò"
     },
@@ -63,44 +63,44 @@
      "id": "g2",
      "options": [
       "disse",
-      "prima",
-      "durante"
+      "dicesse",
+      "dirà"
      ],
      "answer": "disse"
     },
     {
      "id": "g3",
      "options": [
-      "è stato",
-      "sarà",
-      "era"
+      "era",
+      "fosse",
+      "sarà"
      ],
      "answer": "era"
     },
     {
      "id": "g4",
      "options": [
-      "durante",
-      "prima",
-      "chiese"
+      "chiese",
+      "chiedesse",
+      "chiederà"
      ],
      "answer": "chiese"
     },
     {
      "id": "g5",
      "options": [
-      "era",
-      "è stato",
-      "sarà"
+      "ebbe",
+      "avesse",
+      "era"
      ],
      "answer": "era"
     },
     {
      "id": "g6",
      "options": [
-      "prima",
-      "durante",
-      "parlò"
+      "parlò",
+      "parlava",
+      "parlasse"
      ],
      "answer": "parlò"
     },
@@ -108,53 +108,53 @@
      "id": "g7",
      "options": [
       "disse",
-      "prima",
-      "durante"
+      "dicesse",
+      "dirà"
      ],
      "answer": "disse"
     },
     {
      "id": "g8",
      "options": [
-      "ricordava",
-      "era",
-      "è stato"
+      "ricordi",
+      "ricorderebbe",
+      "ricordava"
      ],
      "answer": "ricordava"
     },
     {
      "id": "g9",
      "options": [
-      "aveva osservato",
-      "ha osservato",
-      "aveva guardato"
+      "aveva guardato",
+      "era guardato",
+      "fu guardato"
      ],
      "answer": "aveva guardato"
     },
     {
      "id": "g10",
      "options": [
-      "sarà",
-      "è stato",
-      "era"
+      "era",
+      "aveva",
+      "ebbe"
      ],
      "answer": "era"
     },
     {
      "id": "g11",
      "options": [
-      "è",
-      "sarà",
-      "fosse"
+      "sia",
+      "fosse",
+      "era"
      ],
      "answer": "fosse"
     },
     {
      "id": "g12",
      "options": [
-      "ha osservato",
       "avevano trovato",
-      "aveva osservato"
+      "erano trovati",
+      "sono trovati"
      ],
      "answer": "avevano trovato"
     },
@@ -162,44 +162,44 @@
      "id": "g13",
      "options": [
       "furono",
-      "durante",
-      "prima"
+      "erano",
+      "sono"
      ],
      "answer": "furono"
     },
     {
      "id": "g14",
      "options": [
-      "durante",
-      "prima",
-      "pensò"
+      "pensò",
+      "pensasse",
+      "penserà"
      ],
      "answer": "pensò"
     },
     {
      "id": "g15",
      "options": [
+      "conservasse",
       "conservò",
-      "durante",
-      "prima"
+      "conservava"
      ],
      "answer": "conservò"
     },
     {
      "id": "g16",
      "options": [
-      "avevano",
-      "era",
-      "è stato"
+      "abbiano",
+      "avessero",
+      "avevano"
      ],
      "answer": "avevano"
     },
     {
      "id": "g17",
      "options": [
-      "telefonò",
-      "durante",
-      "prima"
+      "telefonava",
+      "telefonasse",
+      "telefonò"
      ],
      "answer": "telefonò"
     }

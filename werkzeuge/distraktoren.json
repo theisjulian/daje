@@ -1,0 +1,763 @@
+{
+ "_hinweis": "Ablenker für Auswahllücken der ChatGPT-Pakete: je Lücke zwei Alternativen gleicher Wortart und gleicher Form (Genus/Numerus, bei Verben gleiche Person), die im Kontext nicht passen. Bei Angaben in Klammern (Zeit, Modus) entscheidet die Angabe; bei vorgegebenen Anfangsbuchstaben beginnen die Ablenker gleich. Wird von werkzeuge/gpt_import.py angewendet. Schlüssel: Paket/Frage/Lücke.",
+ "g-daje-202-134/q1/g1": [
+  "è visitato",
+  "visitava"
+ ],
+ "g-daje-202-134/q1/g2": [
+  "hanno arrivato",
+  "arrivavano"
+ ],
+ "g-daje-202-134/q1/g3": [
+  "è chiesta",
+  "chiedeva"
+ ],
+ "g-daje-202-134/q1/g4": [
+  "hanno tornato",
+  "tornavano"
+ ],
+ "g-daje-202-134/q1/g5": [
+  "è ricordata",
+  "ricordava"
+ ],
+ "g-daje-202-134/q1/g6": [
+  "È telefonato",
+  "Telefonava"
+ ],
+ "g-daje-202-134/q1/g7": [
+  "è spiegato",
+  "spiegava"
+ ],
+ "g-daje-202-134/q1/g8": [
+  "è guardato",
+  "guardava"
+ ],
+ "g-daje-202-134/q1/g9": [
+  "è trovato",
+  "trovava"
+ ],
+ "g-daje-202-134/q1/g10": [
+  "è detto",
+  "diceva"
+ ],
+ "g-daje-b1b2-018/q1/g1": [
+  "regala",
+  "strappa"
+ ],
+ "g-daje-b1b2-018/q1/g2": [
+  "qualche",
+  "ogni"
+ ],
+ "g-daje-b1b2-018/q1/g3": [
+  "giovani",
+  "stanchi"
+ ],
+ "g-daje-b1b2-018/q1/g4": [
+  "caldo",
+  "tardi"
+ ],
+ "g-daje-b1b2-018/q1/g5": [
+  "costume",
+  "asciugamano"
+ ],
+ "g-daje-b1b2-018/q1/g6": [
+  "silenzio",
+  "pavimento"
+ ],
+ "g-daje-b1b2-018/q1/g7": [
+  "concerto",
+  "cappotto"
+ ],
+ "g-daje-b1b2-018/q1/g8": [
+  "nessuna",
+  "ogni"
+ ],
+ "g-daje-b1b2-018/q1/g9": [
+  "Senza",
+  "Contro"
+ ],
+ "g-daje-b1b2-018/q1/g10": [
+  "concerti",
+  "custodi"
+ ],
+ "g-daje-b1b2-018/q1/g11": [
+  "finestra",
+  "domanda"
+ ],
+ "g-daje-b1b2-018/q1/g12": [
+  "volevano",
+  "volesse"
+ ],
+ "g-daje-b1b2-018/q1/g13": [
+  "nasconderla",
+  "nascondergli"
+ ],
+ "g-daje-b1b2-018/q1/g14": [
+  "armadi",
+  "cavi"
+ ],
+ "g-daje-b1b2-018/q1/g15": [
+  "piangono",
+  "litigano"
+ ],
+ "g-daje-b1b2-040/q1/g1": [
+  "Invece",
+  "Eppure"
+ ],
+ "g-daje-b1b2-040/q1/g2": [
+  "perché",
+  "quindi"
+ ],
+ "g-daje-b1b2-040/q1/g3": [
+  "Quindi",
+  "Inoltre"
+ ],
+ "g-daje-b1b2-040/q1/g4": [
+  "sebbene",
+  "affinché"
+ ],
+ "g-daje-b1b2-040/q1/g5": [
+  "prima",
+  "invece"
+ ],
+ "g-daje-b1b2-040/q1/g6": [
+  "Tuttavia",
+  "Infatti"
+ ],
+ "g-daje-b1b2-040/q1/g7": [
+  "Infine",
+  "Intanto"
+ ],
+ "g-daje-b1b2-040/q1/g8": [
+  "infine",
+  "prima"
+ ],
+ "g-daje-b1b2-040/q1/g9": [
+  "Prima",
+  "Intanto"
+ ],
+ "g-daje-b1b2-074/q1/g1": [
+  "parata",
+  "pausa"
+ ],
+ "g-daje-b1b2-074/q1/g2": [
+  "sia",
+  "era"
+ ],
+ "g-daje-b1b2-074/q1/g3": [
+  "deve",
+  "dovrebbe"
+ ],
+ "g-daje-b1b2-074/q1/g4": [
+  "grano",
+  "grafico"
+ ],
+ "g-daje-b1b2-074/q1/g5": [
+  "preparino",
+  "preparavano"
+ ],
+ "g-daje-b1b2-074/q1/g6": [
+  "numeroso",
+  "nutriente"
+ ],
+ "g-daje-b1b2-074/q1/g7": [
+  "osservino",
+  "osservavano"
+ ],
+ "g-daje-b1b2-074/q1/g8": [
+  "registri",
+  "registrerebbe"
+ ],
+ "g-daje-b1b2-074/q1/g9": [
+  "risata",
+  "rinuncia"
+ ],
+ "g-daje-b1b2-074/q1/g10": [
+  "siano",
+  "sarebbero"
+ ],
+ "g-daje-b1b2-074/q1/g11": [
+  "identici",
+  "ripetuti"
+ ],
+ "g-daje-b1b2-074/q1/g12": [
+  "indica",
+  "indicasse"
+ ],
+ "g-daje-b1b2-074/q1/g13": [
+  "cambi",
+  "cambiasse"
+ ],
+ "g-daje-b1b2-074/q1/g14": [
+  "povero",
+  "polare"
+ ],
+ "g-daje-b1b2-074/q1/g15": [
+  "la adottano",
+  "la adottasse"
+ ],
+ "g-daje-b1b2-074/q1/g16": [
+  "numerosa",
+  "nuvolosa"
+ ],
+ "g-daje-b1b2-074/q1/g17": [
+  "parlino",
+  "parlavano"
+ ],
+ "g-daje-b1b2-074/q1/g18": [
+  "siano",
+  "erano"
+ ],
+ "g-daje-b1b2-074/q1/g19": [
+  "chiusa",
+  "chimica"
+ ],
+ "g-daje-b1b2-118/q1/g1": [
+  "aveva preparata",
+  "era preparata"
+ ],
+ "g-daje-b1b2-118/q1/g2": [
+  "corse",
+  "corresse"
+ ],
+ "g-daje-b1b2-118/q1/g3": [
+  "pensò",
+  "pensasse"
+ ],
+ "g-daje-b1b2-118/q1/g4": [
+  "era osservata",
+  "avesse osservato"
+ ],
+ "g-daje-b1b2-118/q1/g5": [
+  "era individuata",
+  "avesse individuato"
+ ],
+ "g-daje-b1b2-118/q1/g6": [
+  "era provata",
+  "avesse provato"
+ ],
+ "g-daje-b1b2-118/q1/g7": [
+  "è presa",
+  "prendeva"
+ ],
+ "g-daje-b1b2-118/q1/g8": [
+  "l’ha chiamato",
+  "le ha chiamata"
+ ],
+ "g-daje-b1b2-118/q1/g9": [
+  "è rallentata",
+  "rallentava"
+ ],
+ "g-daje-b1b2-118/q1/g10": [
+  "è adattata",
+  "adattava"
+ ],
+ "g-daje-b1b2-118/q1/g11": [
+  "è accusata",
+  "accusava"
+ ],
+ "g-daje-b1b2-118/q1/g12": [
+  "fossero",
+  "sarebbero"
+ ],
+ "g-daje-b1b2-118/q1/g13": [
+  "è chiesto",
+  "chiedeva"
+ ],
+ "g-daje-b1b2-118/q1/g14": [
+  "è aggiunta",
+  "aggiungeva"
+ ],
+ "g-daje-b1b2-118/q1/g15": [
+  "erano notate",
+  "avessero notato"
+ ],
+ "g-daje-b1b2-118/q1/g16": [
+  "fosse",
+  "sarebbe"
+ ],
+ "g-daje-b1b2-118/q1/g17": [
+  "sono descritte",
+  "descrivevano"
+ ],
+ "g-daje-b1b2-118/q1/g18": [
+  "era trovato",
+  "avesse trovato"
+ ],
+ "g-daje-b1b2-121/q1/g1": [
+  "accenderle",
+  "comprarle"
+ ],
+ "g-daje-b1b2-121/q1/g2": [
+  "vostra",
+  "prossima"
+ ],
+ "g-daje-b1b2-121/q1/g3": [
+  "palestra",
+  "finestra"
+ ],
+ "g-daje-b1b2-121/q1/g4": [
+  "torta",
+  "merenda"
+ ],
+ "g-daje-b1b2-121/q1/g5": [
+  "rotti",
+  "stanchi"
+ ],
+ "g-daje-b1b2-121/q1/g6": [
+  "possano",
+  "potevano"
+ ],
+ "g-daje-b1b2-121/q1/g7": [
+  "vengano",
+  "venissero"
+ ],
+ "g-daje-b1b2-121/q1/g8": [
+  "stanco",
+  "felice"
+ ],
+ "g-daje-b1b2-121/q1/g9": [
+  "fossimo",
+  "fummo"
+ ],
+ "g-daje-b1b2-121/q1/g10": [
+  "sorrisi",
+  "pensieri"
+ ],
+ "g-daje-b1b2-121/q1/g11": [
+  "presenteremmo",
+  "presentiamo"
+ ],
+ "g-daje-b1b2-121/q1/g12": [
+  "dormito",
+  "pianto"
+ ],
+ "g-daje-b1b2-137/q1/g1": [
+  "Avremmo",
+  "Abbiamo"
+ ],
+ "g-daje-b1b2-137/q1/g2": [
+  "Peccato",
+  "Figurati"
+ ],
+ "g-daje-b1b2-137/q1/g3": [
+  "Sono finito",
+  "Ho finita"
+ ],
+ "g-daje-b1b2-137/q1/g4": [
+  "Ero chiesto",
+  "Avevo chiesta"
+ ],
+ "g-daje-b1b2-137/q1/g5": [
+  "Per fortuna",
+  "Per ora"
+ ],
+ "g-daje-b1b2-137/q1/g6": [
+  "siano",
+  "erano"
+ ],
+ "g-daje-b1b2-140/q1/g1": [
+  "Avremmo",
+  "Abbiamo"
+ ],
+ "g-daje-b1b2-140/q1/g2": [
+  "Peccato",
+  "Figurati"
+ ],
+ "g-daje-b1b2-140/q1/g3": [
+  "Sono finito",
+  "Ho finita"
+ ],
+ "g-daje-b1b2-140/q1/g4": [
+  "Ero chiesto",
+  "Avevo chiesta"
+ ],
+ "g-daje-b1b2-140/q1/g5": [
+  "Per fortuna",
+  "Per ora"
+ ],
+ "g-daje-b1b2-140/q1/g6": [
+  "siano",
+  "erano"
+ ],
+ "g-daje-b1b2-142/q1/g1": [
+  "strumenti",
+  "satelliti"
+ ],
+ "g-daje-b1b2-142/q1/g2": [
+  "stagione",
+  "missione"
+ ],
+ "g-daje-b1b2-142/q1/g3": [
+  "edificio",
+  "ghiaccio"
+ ],
+ "g-daje-b1b2-142/q1/g4": [
+  "costruito",
+  "abitato"
+ ],
+ "g-daje-b1b2-142/q1/g5": [
+  "ombre",
+  "nuvole"
+ ],
+ "g-daje-b1b2-142/q1/g6": [
+  "fotografie",
+  "mappe"
+ ],
+ "g-daje-b1b2-142/q1/g7": [
+  "Dimentichiamo",
+  "Cancelliamo"
+ ],
+ "g-daje-b1b2-142/q1/g8": [
+  "fatte",
+  "dette"
+ ],
+ "g-daje-b1b2-142/q1/g9": [
+  "orbita",
+  "età"
+ ],
+ "g-daje-b1b2-142/q1/g10": [
+  "stanchi",
+  "felici"
+ ],
+ "g-daje-b1b2-142/q1/g11": [
+  "Dormire",
+  "Pagare"
+ ],
+ "g-daje-b1b2-142/q1/g12": [
+  "foto",
+  "stazione"
+ ],
+ "g-daje-b1b2-142/q1/g13": [
+  "solo",
+  "nessuno"
+ ],
+ "g-daje-b1b2-142/q1/g14": [
+  "visibile",
+  "presente"
+ ],
+ "g-daje-b1b2-153/q1/g1": [
+  "pensasse",
+  "penserà"
+ ],
+ "g-daje-b1b2-153/q1/g2": [
+  "dicesse",
+  "dirà"
+ ],
+ "g-daje-b1b2-153/q1/g3": [
+  "fosse",
+  "sarà"
+ ],
+ "g-daje-b1b2-153/q1/g4": [
+  "chiedesse",
+  "chiederà"
+ ],
+ "g-daje-b1b2-153/q1/g5": [
+  "ebbe",
+  "avesse"
+ ],
+ "g-daje-b1b2-153/q1/g6": [
+  "parlava",
+  "parlasse"
+ ],
+ "g-daje-b1b2-153/q1/g7": [
+  "dicesse",
+  "dirà"
+ ],
+ "g-daje-b1b2-153/q1/g8": [
+  "ricordi",
+  "ricorderebbe"
+ ],
+ "g-daje-b1b2-153/q1/g9": [
+  "era guardato",
+  "fu guardato"
+ ],
+ "g-daje-b1b2-153/q1/g10": [
+  "aveva",
+  "ebbe"
+ ],
+ "g-daje-b1b2-153/q1/g11": [
+  "era",
+  "sia"
+ ],
+ "g-daje-b1b2-153/q1/g12": [
+  "erano trovati",
+  "sono trovati"
+ ],
+ "g-daje-b1b2-153/q1/g13": [
+  "erano",
+  "sono"
+ ],
+ "g-daje-b1b2-153/q1/g14": [
+  "pensasse",
+  "penserà"
+ ],
+ "g-daje-b1b2-153/q1/g15": [
+  "conservava",
+  "conservasse"
+ ],
+ "g-daje-b1b2-153/q1/g16": [
+  "abbiano",
+  "avessero"
+ ],
+ "g-daje-b1b2-153/q1/g17": [
+  "telefonava",
+  "telefonasse"
+ ],
+ "g-daje-b1b2-157/q1/g1": [
+  "Comunque",
+  "Anzi"
+ ],
+ "g-daje-b1b2-157/q1/g2": [
+  "In effetti",
+  "Insomma"
+ ],
+ "g-daje-b1b2-157/q1/g3": [
+  "Purtroppo",
+  "Peccato"
+ ],
+ "g-daje-b1b2-157/q1/g4": [
+  "Infatti",
+  "Allora"
+ ],
+ "g-daje-b1b2-157/q1/g5": [
+  "Anzi",
+  "Invece"
+ ],
+ "g-daje-b1b2-157/q1/g6": [
+  "Infatti",
+  "Allora"
+ ],
+ "g-daje-b1b2-157/q1/g7": [
+  "Per esempio",
+  "Del resto"
+ ],
+ "g-daje-b1b2-157/q1/g8": [
+  "Magari",
+  "Anzi"
+ ],
+ "g-daje-b1b2-157/q1/g9": [
+  "Infine",
+  "Quindi"
+ ],
+ "g-daje-b1b2-157/q1/g10": [
+  "In effetti",
+  "Insomma"
+ ],
+ "g-daje-b1b2-157/q1/g11": [
+  "Intanto",
+  "Anzi"
+ ],
+ "g-daje-b1b2-157/q1/g12": [
+  "Per esempio",
+  "Intanto"
+ ],
+ "g-daje-b1b2-170/q1/g1": [
+  "al",
+  "sul"
+ ],
+ "g-daje-b1b2-170/q1/g2": [
+  "sulla",
+  "alla"
+ ],
+ "g-daje-b1b2-170/q1/g3": [
+  "a",
+  "tra"
+ ],
+ "g-daje-b1b2-170/q1/g4": [
+  "a",
+  "per"
+ ],
+ "g-daje-b1b2-170/q1/g5": [
+  "a",
+  "con"
+ ],
+ "g-daje-b1b2-170/q1/g6": [
+  "da",
+  "a"
+ ],
+ "g-daje-b1b2-170/q1/g7": [
+  "da",
+  "su"
+ ],
+ "g-daje-b1b2-170/q1/g8": [
+  "che",
+  "a"
+ ],
+ "g-daje-b1b2-170/q1/g9": [
+  "alle",
+  "dalle"
+ ],
+ "g-daje-b1b2-170/q1/g10": [
+  "di",
+  "per"
+ ],
+ "g-daje-b1b2-170/q1/g11": [
+  "a",
+  "con"
+ ],
+ "g-daje-b1b2-170/q1/g12": [
+  "al",
+  "dal"
+ ],
+ "g-daje-b1b2-184/q1/g1": [
+  "ha",
+  "avesse"
+ ],
+ "g-daje-b1b2-184/q1/g2": [
+  "Voglio",
+  "Volessi"
+ ],
+ "g-daje-b1b2-184/q1/g3": [
+  "possa",
+  "poteva"
+ ],
+ "g-daje-b1b2-184/q1/g4": [
+  "sia",
+  "era"
+ ],
+ "g-daje-b1b2-184/q1/g5": [
+  "possa",
+  "potesse"
+ ],
+ "g-daje-b1b2-184/q1/g6": [
+  "fosse",
+  "sia"
+ ],
+ "g-daje-b1b2-184/q1/g7": [
+  "abbia",
+  "avesse"
+ ],
+ "g-daje-b1b2-184/q1/g8": [
+  "conservi",
+  "conservasse"
+ ],
+ "g-daje-b1b2-184/q1/g9": [
+  "sarebbe",
+  "sia"
+ ],
+ "g-daje-b1b2-184/q1/g10": [
+  "voglio",
+  "volessi"
+ ],
+ "g-daje-b1b2-184/q1/g11": [
+  "possa",
+  "potrebbe"
+ ],
+ "g-daje-b1b2-184/q1/g12": [
+  "possa",
+  "potesse"
+ ],
+ "g-daje-b1b2-184/q1/g13": [
+  "conservassi",
+  "conservo"
+ ],
+ "g-daje-b1b2-184/q1/g14": [
+  "possa",
+  "potesse"
+ ],
+ "g-daje-b1b2-184/q1/g15": [
+  "possiamo",
+  "potessimo"
+ ],
+ "g-daje-b1b2-190/q1/g1": [
+  "ha",
+  "avesse"
+ ],
+ "g-daje-b1b2-190/q1/g2": [
+  "possa",
+  "potrebbe"
+ ],
+ "g-daje-b1b2-190/q1/g3": [
+  "sia",
+  "fossi"
+ ],
+ "g-daje-b1b2-190/q1/g4": [
+  "sia",
+  "sarebbe"
+ ],
+ "g-daje-b1b2-190/q1/g5": [
+  "sia",
+  "sarebbe"
+ ],
+ "g-daje-b1b2-190/q1/g6": [
+  "possa",
+  "potrebbe"
+ ],
+ "g-daje-b1b2-190/q1/g7": [
+  "siano",
+  "fossero"
+ ],
+ "g-daje-b1b2-195/q1/g1": [
+  "montagna",
+  "campagna"
+ ],
+ "g-daje-b1b2-195/q1/g2": [
+  "monumenti",
+  "animali"
+ ],
+ "g-daje-b1b2-195/q1/g3": [
+  "mai",
+  "neppure"
+ ],
+ "g-daje-b1b2-195/q1/g4": [
+  "dimentichino",
+  "nascondano"
+ ],
+ "g-daje-b1b2-195/q1/g5": [
+  "monumenti",
+  "canali"
+ ],
+ "g-daje-b1b2-195/q1/g6": [
+  "pizza",
+  "pioggia"
+ ],
+ "g-daje-b1b2-195/q1/g7": [
+  "ignorare",
+  "cancellare"
+ ],
+ "g-daje-b1b2-195/q1/g8": [
+  "dormono",
+  "cucinano"
+ ],
+ "g-daje-b1b2-195/q1/g9": [
+  "giovane",
+  "veloce"
+ ],
+ "g-daje-b1b2-195/q1/g10": [
+  "dimenticate",
+  "spente"
+ ],
+ "g-daje-b1b2-195/q1/g11": [
+  "spenta",
+  "bagnata"
+ ],
+ "g-daje-b1b2-195/q1/g12": [
+  "dimenticherà",
+  "venderà"
+ ],
+ "g-daje-b1b2-195/q1/g13": [
+  "dormito",
+  "piovuto"
+ ],
+ "g-daje-b1b2-195/q1/g14": [
+  "arrabbiato",
+  "piovoso"
+ ],
+ "g-daje-b1b2-195/q1/g15": [
+  "arrabbiata",
+  "stanca"
+ ],
+ "g-daje-b1b2-195/q1/g16": [
+  "automobile",
+  "isola"
+ ],
+ "g-daje-b1b2-195/q1/g17": [
+  "dormiranno",
+  "canteranno"
+ ],
+ "g-daje-b1b2-195/q1/g18": [
+  "cancellarle",
+  "eliminarle"
+ ]
+}

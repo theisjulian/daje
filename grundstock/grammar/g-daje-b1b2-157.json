@@ -53,71 +53,71 @@
     {
      "id": "g1",
      "options": [
+      "Anzi",
       "In effetti",
-      "A dire il vero",
-      "D’accordo"
+      "Comunque"
      ],
      "answer": "In effetti"
     },
     {
      "id": "g2",
      "options": [
-      "In effetti",
+      "Insomma",
       "A dire il vero",
-      "D’accordo"
+      "In effetti"
      ],
      "answer": "A dire il vero"
     },
     {
      "id": "g3",
      "options": [
-      "A dire il vero",
+      "Peccato",
       "D’accordo",
-      "In effetti"
+      "Purtroppo"
      ],
      "answer": "D’accordo"
     },
     {
      "id": "g4",
      "options": [
-      "A dire il vero",
-      "In effetti",
-      "Anzi"
+      "Anzi",
+      "Infatti",
+      "Allora"
      ],
      "answer": "Anzi"
     },
     {
      "id": "g5",
      "options": [
-      "In effetti",
       "Allora",
-      "A dire il vero"
+      "Anzi",
+      "Invece"
      ],
      "answer": "Allora"
     },
     {
      "id": "g6",
      "options": [
-      "In effetti",
-      "A dire il vero",
-      "Comunque"
+      "Comunque",
+      "Infatti",
+      "Allora"
      ],
      "answer": "Comunque"
     },
     {
      "id": "g7",
      "options": [
+      "Del resto",
       "Secondo me",
-      "In effetti",
-      "A dire il vero"
+      "Per esempio"
      ],
      "answer": "Secondo me"
     },
     {
      "id": "g8",
      "options": [
-      "A dire il vero",
-      "In effetti",
+      "Magari",
+      "Anzi",
       "Certo"
      ],
      "answer": "Certo"
@@ -125,26 +125,26 @@
     {
      "id": "g9",
      "options": [
-      "In effetti",
-      "A dire il vero",
-      "Intanto"
+      "Intanto",
+      "Infine",
+      "Quindi"
      ],
      "answer": "Intanto"
     },
     {
      "id": "g10",
      "options": [
-      "A dire il vero",
-      "In effetti",
-      "Per esempio"
+      "Insomma",
+      "Per esempio",
+      "In effetti"
      ],
      "answer": "Per esempio"
     },
     {
      "id": "g11",
      "options": [
-      "In effetti",
-      "A dire il vero",
+      "Intanto",
+      "Anzi",
       "Quindi"
      ],
      "answer": "Quindi"
@@ -152,9 +152,9 @@
     {
      "id": "g12",
      "options": [
-      "In effetti",
       "Insomma",
-      "A dire il vero"
+      "Per esempio",
+      "Intanto"
      ],
      "answer": "Insomma"
     }

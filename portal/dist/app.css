@@ -9009,3 +9009,4 @@ body.kb-open .checkbar { position: static !important; }
 .kl-add-row small { color: var(--label-2); }
 #kl-add-q { width: 100%; min-height: 42px; border-radius: 12px; border: 1px solid var(--hairline); background: var(--fill); color: inherit; font: inherit; padding: 0 12px; margin-bottom: 8px; }
 .tadmin-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0}.tadmin-row b{display:block}.tadmin-row small{color:var(--label-2);font-size:.8rem}.tdc-admin .tdc-ico{background:color-mix(in srgb,var(--red) 14%,transparent);color:var(--red)}
+body:has(.kl-livebar) .workspace{padding-bottom:calc(150px + env(safe-area-inset-bottom))!important}

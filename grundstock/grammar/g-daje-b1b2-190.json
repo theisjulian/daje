@@ -53,8 +53,8 @@
     {
      "id": "g1",
      "options": [
-      "è",
-      "sia",
+      "ha",
+      "avesse",
       "abbia"
      ],
      "answer": "abbia"
@@ -62,26 +62,26 @@
     {
      "id": "g2",
      "options": [
-      "potesse",
-      "è",
-      "fosse"
+      "possa",
+      "potrebbe",
+      "potesse"
      ],
      "answer": "potesse"
     },
     {
      "id": "g3",
      "options": [
-      "durante",
-      "prima",
-      "sono"
+      "fossi",
+      "sono",
+      "sia"
      ],
      "answer": "sono"
     },
     {
      "id": "g4",
      "options": [
-      "è",
-      "sarà",
+      "sia",
+      "sarebbe",
       "fosse"
      ],
      "answer": "fosse"
@@ -89,27 +89,27 @@
     {
      "id": "g5",
      "options": [
-      "sarà",
-      "è",
-      "fosse"
+      "sarebbe",
+      "fosse",
+      "sia"
      ],
      "answer": "fosse"
     },
     {
      "id": "g6",
      "options": [
-      "fosse",
-      "è",
-      "potesse"
+      "potesse",
+      "possa",
+      "potrebbe"
      ],
      "answer": "potesse"
     },
     {
      "id": "g7",
      "options": [
-      "prima",
-      "durante",
-      "sono"
+      "fossero",
+      "sono",
+      "siano"
      ],
      "answer": "sono"
     }
