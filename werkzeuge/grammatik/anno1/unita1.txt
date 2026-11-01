@@ -817,7 +817,7 @@ Parlate tedesco? – {No*|Non}, {non*|no} parliamo tedesco.
 ! no = nein (da solo, all’inizio della risposta) · non = nicht (prima del verbo). || no = nein (allein, am Anfang der Antwort) · non = nicht (vor dem Verb).
 
 %übung leicht | Vero o no?
-?auswahl | Scegli la frase giusta per la foto: Marco è in piazza, non a scuola. || Wähle den passenden Satz: Marco ist auf dem Platz, nicht in der Schule.
+?auswahl | Marco è in piazza, non a scuola. Scegli la forma giusta. || Marco ist auf dem Platz, nicht in der Schule. Wähle die passende Form.
 Marco {non è*|è} a scuola.
 Marco {è*|non è} in piazza.
 Lui {non studia*|studia} in classe.
@@ -1028,8 +1028,8 @@ Vicino c’è [un=>un’] edicola.
 È [una=>un] albero molto vecchio.
 ! Maschile + vocale: un amico (senza apostrofo). Femminile + vocale: un’amica. || Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un’amica.
 
-%übung schwer | Descrivi la foto
-?ergaenzen | Che cosa c’è nella foto della città? Scrivi con l’articolo indeterminativo. || Was ist auf dem Stadtfoto? Schreibe mit unbestimmtem Artikel.
+%übung schwer | In città
+?ergaenzen | Che cosa c’è in città? Scrivi con l’articolo indeterminativo. || Was gibt es in der Stadt? Schreibe mit unbestimmtem Artikel.
 C’è … (Brücke) | un ponte | C’è un ponte.
 C’è … (Platz) | una piazza | C’è una piazza.
 C’è … (Stadion) | uno stadio | C’è uno stadio.

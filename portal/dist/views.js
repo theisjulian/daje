@@ -109,7 +109,7 @@ function lessonCard(x) {
       <span class="lcard-play" aria-hidden="true"></span>
     </button>
     <div class="lcard-body">
-      <div class="lcard-meta"><span>${x.estimatedMinutes} Min.</span><span>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}</span>${working ? '<span class="flag">Arbeitsfassung</span>' : ''}</div>
+      <div class="lcard-meta"><span>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}</span>${working ? '<span class="flag">Arbeitsfassung</span>' : ''}</div>
       <h3 ${hasPhotoCover(x) ? '' : 'class="sr-only"'}><button data-lesson="${esc(x.id)}">${esc(x.title)}</button></h3>
       <p>${esc(visibleText(x.description))}</p>
       ${teacher ? '' : `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>`}
@@ -221,7 +221,7 @@ function learnerHome(list, p) {
   const gram = nextGrammar(3).filter(x => x !== recent);
   const more = nextLessons(inLang, 6).filter(x => x !== recent).slice(0, 6);
   const st = recent && lessonStatus(recent);
-  const gramCard = x => `<button class="next-card" data-lesson="${esc(x.id)}"><span class="eyebrow">Grammatik · ${esc(GRAMMAR_LEVELS[x.grammar.difficulty] || '')}</span><b lang="${x.language}">${esc(x.grammar.topicTitle)}</b><small lang="${x.language}">${esc(x.title)} · ${x.estimatedMinutes} Min.</small></button>`;
+  const gramCard = x => `<button class="next-card" data-lesson="${esc(x.id)}"><span class="eyebrow">Grammatik · ${esc(GRAMMAR_LEVELS[x.grammar.difficulty] || '')}</span><b lang="${x.language}">${esc(x.grammar.topicTitle)}</b><small lang="${x.language}">${esc(x.title)}</small></button>`;
   return `<section class="today">
       <div class="today-copy">
         <div class="eyebrow">Mein Lernbereich</div>
@@ -241,7 +241,7 @@ function learnerHome(list, p) {
       <div class="resume-body">
         <div class="eyebrow">Weitermachen · ${recent.kind === 'grammar' ? 'Grammatik' : 'Hörverstehen'}</div>
         <h2>${esc(recent.title)}</h2>
-        <p>${esc(portalLang(recent.language))} · ${esc(recent.level)} · ${recent.estimatedMinutes} Min. · ${plural(recent.questions.length, 'Aufgabe', 'Aufgaben')}</p>
+        <p>${esc(portalLang(recent.language))} · ${esc(recent.level)} · ${plural(recent.questions.length, 'Aufgabe', 'Aufgaben')}</p>
         ${st.percent ? `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>` : ''}
         <button class="button primary large" data-lesson="${esc(recent.id)}">Weitermachen</button>
       </div>
@@ -944,7 +944,7 @@ function renderListening(preview = false) {
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
-        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}<span class="chip-plain">${x.estimatedMinutes} Min.</span>${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
+        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
         <h1>${esc(x.title)}</h1>
         <p>${esc(visibleText(x.description))}</p>
       </div>

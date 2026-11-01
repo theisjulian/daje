@@ -47939,10 +47939,10 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-articolo-indeterminativo-s3",
-  "title": "Descrivi la foto",
+  "title": "In città",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Descrivi la foto · livello difficile.",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · In città · livello difficile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47988,9 +47988,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Che cosa c’è nella foto della città? Scrivi con l’articolo indeterminativo.",
+    "prompt": "Che cosa c’è in città? Scrivi con l’articolo indeterminativo.",
     "explanation": "Pensa al genere e alla prima lettera.",
-    "promptHelp": "Was ist auf dem Stadtfoto? Schreibe mit unbestimmtem Artikel.",
+    "promptHelp": "Was gibt es in der Stadt? Schreibe mit unbestimmtem Artikel.",
     "explanationHelp": "Denk an das Geschlecht und den Anfangsbuchstaben.",
     "items": [
      {
@@ -75045,9 +75045,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Scegli la frase giusta per la foto: Marco è in piazza, non a scuola.",
+    "prompt": "Marco è in piazza, non a scuola. Scegli la forma giusta.",
     "explanation": "",
-    "promptHelp": "Wähle den passenden Satz: Marco ist auf dem Platz, nicht in der Schule.",
+    "promptHelp": "Marco ist auf dem Platz, nicht in der Schule. Wähle die passende Form.",
     "text": "Marco [[g1]] a scuola.\nMarco [[g2]] in piazza.\nLui [[g3]] in classe.\nLui [[g4]] un gelato.\nI suoi amici [[g5]] a casa.\nI suoi amici [[g6]] con lui.\nOggi Marco [[g7]] lezione.\nMarco [[g8]] bene.",
     "gaps": [
      {

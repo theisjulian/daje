@@ -13,6 +13,22 @@ const HB_TXT = {
 };
 let hbOpt = { link: true, transcript: false, solutions: false, compact: false };
 const hbLetters = 'ABCDEFGHIJ';
+
+// Kopf einer Aufgabe auf dem Blatt: genau eine Anweisung.
+// Grammatik: die Aufgabenanweisung selbst; der Hinweis zur Papierform nur, wo das Blatt anders funktioniert als die App.
+// Zielsprache: keine deutsche Klammer. Deutsch: die deutsche Fassung ersetzt die zielsprachige.
+const HB_PAPER_HINT = new Set(['matching', 'ordering', 'categorize', 'error_correction', 'speaker_match']);
+function hbHead(x, q, no, t, prompt) {
+  const de = instrFor(x.language) === 'de';
+  const p = de && q.promptHelp ? q.promptHelp : prompt;
+  const ins = (t.ins[q.type] || '').replace('{n}', q.items ? q.items.length : '');
+  if (x.kind === 'grammar') {
+    const hint = HB_PAPER_HINT.has(q.type) && ins ? `<div class="hb-hint">${esc(ins)}</div>` : '';
+    return `<div class="hb-qh g"><b class="n">${no}</b><div class="hb-p">${esc(p)}</div>${hint}</div>`;
+  }
+  return `<div class="hb-qh"><b class="n">${no}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(p)}</div></div>`;
+}
+
 function hbPoints(q) {
   if (q.type === 'matching') return q.pairs.length;
   if (q.type === 'gap_fill' || q.type === 'note_fill' || q.type === 'gap_choice') return q.gaps.length;
@@ -156,17 +172,16 @@ function hbHTML(x, sol) {
   // Abschnitte („Prima dell’ascolto: …“) werden als Zwischenüberschrift gedruckt, nicht in jeder Frage.
   let phase = '';
   const qs = x.questions.map((q, i) => {
-    const ins = (t.ins[q.type] || '').replace('{n}', q.items ? q.items.length : '');
     const m = q.prompt.match(QUESTION_PHASE);
     const head = m && m[1] !== phase ? `<li class="hb-phase">${esc(m[1])}</li>` : '';
     if (m) phase = m[1];
     const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-    return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+    return `${head}<li class="hb-q">${hbHead(x, q, i + 1, t, prompt)}${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
   const speech = x.media?.type === 'speech';
   return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
   <h1>${esc(x.title)}</h1>
-  <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span><span>${esc(t.min(x.estimatedMinutes))}</span></div>
+  <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
   ${sol ? '' : `<div class="hb-box"><div class="hb-box-t"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>` : ''}</div>${hbOpt.link && !local && !speech && typeof qrSVG === 'function' ? `<i class="hb-qr">${qrSVG(link, 'QR')}</i>` : ''}</div>`}
   ${sol && hbOpt.compact ? hbKeyTable(x, t) : `<ol class="hb-list">${qs}</ol>`}
