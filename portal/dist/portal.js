@@ -755,7 +755,7 @@ function portalClick(e) {
   if (a === 'load-youtube') {
     const x = currentLesson();
     $('youtube-container').innerHTML =
-      `<iframe title="${esc(x.title)}" src="https://www.youtube-nocookie.com/embed/${x.media.videoId}?rel=0${x.media.start ? '&start=' + x.media.start : ''}${x.media.end ? '&end=' + x.media.end : ''}" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      `<iframe title="${esc(x.title)}" src="https://www.youtube-nocookie.com/embed/${x.media.videoId}?rel=0&playsinline=1${x.media.start ? '&start=' + x.media.start : ''}${x.media.end ? '&end=' + x.media.end : ''}" allow="fullscreen; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   }
   if (a === 'reset-listening') {
     if (

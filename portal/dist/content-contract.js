@@ -525,16 +525,19 @@
     }
     return { ok: errors.length === 0, errors, value: errors.length ? null : out };
   }
+  /* Antwortvergleich überall gleich (Sofortmarkierung und Auswertung): Groß/klein egal, gerade und
+     typografische Apostrophe gleichwertig (un'amica = un’amica), Satzzeichen am Ende egal. */
+  const normAnswer = x =>
+    String(x ?? '')
+      .normalize('NFC')
+      .toLocaleLowerCase()
+      .replace(/[’‘ʼ´`]/g, "'")
+      .trim()
+      .replace(/[.!?]+$/g, '')
+      .trim()
+      .replace(/\s+/g, ' ');
   function assessAnswer(q, raw) {
-    const norm = x =>
-      String(x ?? '')
-        .normalize('NFC')
-        .toLocaleLowerCase()
-        .replace(/[’‘]/g, "'")
-        .trim()
-        .replace(/[.!?]+$/g, '')
-        .trim()
-        .replace(/\s+/g, ' ');
+    const norm = normAnswer;
     if (q.type === 'single_choice') return raw === q.correctOptionId;
     if (q.type === 'true_false') return raw === (q.answer ? 'true' : 'false');
     const parts = () => {
@@ -607,7 +610,7 @@
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;
     return q.acceptedAnswers.some(a => norm(a) === norm(raw));
   }
-  const api = { validatePackage, assessAnswer, LANGUAGES, QUESTION_TYPES };
+  const api = { validatePackage, assessAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

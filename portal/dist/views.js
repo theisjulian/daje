@@ -466,7 +466,7 @@ function gapHTML(text, fn) {
   }
   return html + esc(text.slice(last));
 }
-const sameAnswer = (list, v) => list.some(a => a.toLocaleLowerCase().trim() === String(v).toLocaleLowerCase().trim());
+const sameAnswer = (list, v) => list.some(a => TheisContent.normAnswer(a) === TheisContent.normAnswer(v));
 
 /* Leeres Aufgabenblatt für den Druck */
 function printBody(q) {
@@ -534,9 +534,7 @@ function questionHTML(x, q, index, state) {
     const gap = (id, n) => {
       const g = q.gaps.find(v => v.id === id);
       const val = ownPart(parts, id) ? parts[id] : '';
-      const ok = g.acceptedAnswers.some(
-        a => a.toLocaleLowerCase().trim() === String(val).toLocaleLowerCase().trim()
-      );
+      const ok = sameAnswer(g.acceptedAnswers, val);
       return `<input class="gap${gapSize(g.acceptedAnswers) === 3 ? ' gap-short' : ''}${mark(ok)}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${gapSize(g.acceptedAnswers)}" lang="${x.language}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
     };
     let n = 0;

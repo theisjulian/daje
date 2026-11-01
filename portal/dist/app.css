@@ -8048,7 +8048,7 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print .hb.dense .hb-box { margin-bottom: 10px; }
 @media print {
   /* Alle geteilten Seiten (Hörblatt und Wortliste): feste Höhe, Fußzeile immer unten. */
-  body.printing-teaching #teaching-print .paper.pg { display: flex !important; flex-direction: column !important; height: 266mm !important; overflow: hidden !important; }
+  body.printing-teaching #teaching-print .paper.pg { display: flex !important; flex-direction: column !important; }
   body.printing-teaching #teaching-print .paper.pg .doc-foot { margin-top: auto !important; }
 }
 #teaching-print .hb { line-height: 1.42; }
@@ -8454,7 +8454,10 @@ input.gap.is-over { outline: 3px solid color-mix(in srgb, var(--blue) 55%, trans
 #teaching-print .paper.pg > .doc-foot { margin-top: auto !important; flex: none; }
 @media print {
   /* Sichere Seitenhöhe: passt auch, wenn der Browser (z. B. Safari auf dem iPad) größere Ränder setzt. */
-  body.printing-teaching #teaching-print .paper.pg { height: 252mm !important; break-inside: avoid; page-break-inside: avoid; }
+  /* Keine feste Höhe: Browser wie Safari setzen beim Drucken eigene, größere Ränder (Kopf-/Fußzeile).
+     Eine feste Höhe lief dort über und erzeugte nach jeder Seite ein fast leeres Blatt. Mindesthöhe hält die
+     Fußzeile unten, wächst aber nie über die Seite: der Inhalt je Seite ist auf 235 mm berechnet (dialog.js). */
+  body.printing-teaching #teaching-print .paper.pg { height: auto !important; min-height: 235mm !important; max-height: none !important; overflow: visible !important; break-inside: avoid; page-break-inside: avoid; }
 }
 
 /* Aufgaben für die Klasse: Weiter nach der Korrektur, QR für den Beamer */
@@ -8486,3 +8489,22 @@ body.kb-open .checkbar { position: static !important; }
 .wf-levels small { font-weight: 400; font-size: 12px; opacity: 0.8; }
 .wf-upto { max-width: 420px; margin: 12px 0 2px; }
 .wf-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px; }
+@media print {
+  /* Gleiche Zeilenumbrüche wie in der Vorschau: feste Satzbreite (A4 minus 2 × 15 mm). */
+  body.printing-teaching #teaching-print .paper.pg { width: 180mm !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; padding: 0 !important; box-sizing: border-box; }
+}
+
+/* iPad quer (schmaler Arbeitsbereich mit Seitenleiste): Medium links mitlaufend, Aufgaben rechts */
+@media (orientation: landscape) and (min-width: 900px) and (max-width: 1100px) {
+  .listening-layout { grid-template-columns: minmax(280px, 4fr) minmax(0, 6fr); }
+  .l-side { position: sticky; top: 76px; max-height: calc(100vh - 90px); overflow: auto; order: 0; }
+}
+/* Querformat mit offener Tastatur: alles Entbehrliche einklappen, damit Aufgabe und Eingabe Platz haben */
+@media (orientation: landscape) and (max-height: 900px) and (pointer: coarse) {
+  body.kb-open .topbar { display: none; }
+  body.kb-open .lesson-head p, body.kb-open .lesson-chips, body.kb-open .back-link, body.kb-open .qsteps, body.kb-open .view-switch, body.kb-open .learn-note, body.kb-open .wf-bar { display: none; }
+  body.kb-open .lesson-head h1 { font-size: 20px; margin: 4px 0; }
+  body.kb-open .l-side { top: 8px; max-height: calc(var(--vvh, 100vh) - 16px); }
+  body.kb-open .sidebar { display: none; }
+  body.kb-open .app-shell { grid-template-columns: minmax(0, 1fr) !important; }
+}

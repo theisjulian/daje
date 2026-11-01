@@ -49,9 +49,9 @@ function dlgPaginate() {
   const pages = paper.parentElement;
   pages.style.zoom = 1;
   const cs = getComputedStyle(paper), padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
-  // Druckfläche: sichere 252 mm (A4 297 mm minus @page-Rand, mit Reserve für Safari/iPad); Breite 180 mm = 680 px entspricht
+  // Druckfläche: sichere 235 mm (A4 297 mm minus @page-Rand, mit Reserve für Safari/iPad); Breite 180 mm = 680 px entspricht
   // genau der Bildschirmseite (794 px minus 2 × 15 mm), daher stimmen die gemessenen Zeilenhöhen. 10 px Reserve.
-  const inner = Math.floor((252 * 96) / 25.4) - 10;
+  const inner = Math.floor((235 * 96) / 25.4) - 10;
   void padY;
   const foot = paper.querySelector('.doc-foot'), thead = table.tHead;
   const footH = (foot ? foot.offsetHeight : 0) + 30;
@@ -144,8 +144,8 @@ function hbPaginate() {
   if (!hb) return;
   hbFlatHTML = paper.innerHTML;
   pages.style.zoom = 1;
-  // Druckseite: 252 mm hoch (siehe app.css, sichere Höhe auch für Safari/iPad), davon Fußzeile; 6 px Reserve.
-  const INNER = Math.floor((252 * 96) / 25.4) - 6;
+  // Druckseite: 235 mm Inhalt (siehe app.css): passt auch bei den größeren Druckrändern von Safari; 6 px Reserve.
+  const INNER = Math.floor((235 * 96) / 25.4) - 6;
   const y = el => el.getBoundingClientRect().top;
   const list = hb.querySelector(':scope > .hb-list'), key = hb.querySelector(':scope > .hb-key');
   const tr = hb.querySelector(':scope > .hb-tr'), src = hb.querySelector(':scope > .hb-src'), foot = hb.querySelector(':scope > .doc-foot');

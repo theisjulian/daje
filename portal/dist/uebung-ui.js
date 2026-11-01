@@ -373,3 +373,34 @@ new MutationObserver(() => {
   if (document.querySelector('.mt-pool')) requestAnimationFrame(() => ixPoolFit());
 }).observe(document.getElementById('main') || document.body, { childList: true, subtree: true });
 addEventListener('resize', () => ixPoolFit());
+
+/* Video und Ton laufen weiter, wenn die Aufgabenseite neu aufgebaut wird (Prüfen, Fokus-Modus, Sprache):
+   der Player wird vor dem Neuaufbau herausgenommen und danach wieder eingesetzt. */
+{
+  const baseRender = renderListening;
+  renderListening = function () {
+    const lesson = openedListening;
+    const keep = ['youtube-container', 'listening-audio'].map(id => document.getElementById(id)).filter(el => el && (el.tagName === 'AUDIO' || el.querySelector('iframe')));
+    const r = baseRender.apply(this, arguments);
+    if (lesson === openedListening)
+      keep.forEach(el => {
+        const fresh = document.getElementById(el.id);
+        if (fresh && fresh !== el) fresh.replaceWith(el);
+      });
+    return r;
+  };
+}
+/* Sichtbare Höhe bei offener Bildschirmtastatur (iPad, iPhone): als CSS-Variable und aktives Feld sichtbar halten. */
+if (window.visualViewport) {
+  const vv = window.visualViewport;
+  const upd = () => {
+    document.documentElement.style.setProperty('--vvh', vv.height + 'px');
+    const a = document.activeElement;
+    if (document.body.classList.contains('kb-open') && a && a.matches?.('input,textarea')) {
+      const r = a.getBoundingClientRect();
+      if (r.bottom > vv.height - 12 || r.top < 8) a.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+  };
+  vv.addEventListener('resize', upd);
+  upd();
+}
