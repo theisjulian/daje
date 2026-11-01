@@ -9,6 +9,7 @@
   "lang": "de",
   "icons": [
     { "src": "assets/daje-icon.png", "sizes": "256x256", "type": "image/png" },
-    { "src": "assets/daje-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    { "src": "assets/daje-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/daje-icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
