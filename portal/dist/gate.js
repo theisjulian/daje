@@ -10,7 +10,7 @@
  */
 (function () {
   const SAMPLES = ['g-ecco1-articolo-indeterminativo-l2', 'g-daje-202-005', 'eigen-roma-monumenti-e-luoghi-fa-4c9x'];
-  const GUEST_VIEWS = new Set(['gate', 'klasse', 'aufgabe', 'quellen', 'impressum', 'datenschutz']);
+  const GUEST_VIEWS = new Set(['klasse', 'aufgabe', 'quellen', 'impressum', 'datenschutz']);
   // Eine gespeicherte Supabase-Sitzung zählt sofort als angemeldet (kein Aufblitzen der Willkommensseite beim Laden).
   const storedSession = () => {
     try {
@@ -75,6 +75,10 @@
 
   const baseRender = render;
   render = function () {
+    if (view === 'gate') {
+      if (!signedIn()) return gatePage();
+      view = 'start';
+    }
     if (!guestAllowed()) {
       // Ohne Konto in einer Klassensitzung: zurück zur Aufgabenliste statt zur Willkommensseite
       if (typeof klCur !== 'undefined' && klCur) {
