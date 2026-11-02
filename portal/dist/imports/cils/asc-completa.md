@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Die Lernenden hören eine Durchsage, Nachricht oder Ansage und ergänzen in einem Text die fehlenden Wörter. Im CILS-Heft: A1 10, A2 14, UNO-B1 28 Lücken (z. B. Reportage eines Schul-TG).
+Ascolto, Prova 1: Die Lernenden hören eine Durchsage, Nachricht oder einen Bericht und schreiben die fehlenden Wörter in den Text. Im Heft: A1 10, A2 14, UNO-B1 28 Lücken.
 
 ## Was in `esercizi` steht
 
@@ -16,7 +16,6 @@ Die Lernenden hören eine Durchsage, Nachricht oder Ansage und ergänzen in eine
   "esercizi": [
     {
       "titolo": "…",
-      "consegna": "Ascolta il testo e completa con le parole che mancano.",
       "testo": "Hai dai 10 ai 15 [[anni]]? Partecipa alla nostra [[gita]] …"
     }
   ],
@@ -28,7 +27,8 @@ Die Lernenden hören eine Durchsage, Nachricht oder Ansage und ergänzen in eine
 
 ## Regeln für diesen Typ
 
-- `testo` ist das **Transkript selbst** (wörtlich, ggf. gekürzt um Begrüßungen), in dem du genau so viele Lücken setzt wie verlangt.
-- Gelückt werden einzelne, gut hörbare Inhaltswörter (Nomen, Adjektive, Infinitive, Zahlwörter), nie Artikel oder Präpositionen, nie zwei Lücken hintereinander.
+- `testo` ist das **Transkript selbst** (wörtlich, ggf. um Begrüßungen gekürzt), in dem du **genau** so viele Lücken setzt wie verlangt.
+- Gelückt werden einzelne, gut hörbare Inhaltswörter (Nomen, Adjektive, Infinitive, Zahlwörter), nie Artikel oder Präpositionen, nie zwei Lücken hintereinander, gleichmäßig über den Text verteilt.
 - Das Wort in der Lücke steht genau so im Transkript.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

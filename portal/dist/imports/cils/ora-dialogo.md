@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `ora-dialogo`
 
-**Orale · Conversazione** · Produzione orale · Niveaus A1–C2
+**Orale · Prova 1** · Produzione orale · Niveaus A1–C2
 
 ## Worum es geht
 
-Erster Teil der mündlichen Prüfung. A1/A2: Rollenspiel in einer Alltagssituation. Ab UNO-B1: Gespräch mit der Prüferin bzw. dem Prüfer zu **einem von vier Themen**, das die Lernenden wählen; die Lehrkraft beginnt mit einer Frage und fragt nach (2–3 Minuten).
+Produzione orale, Prova 1. A1/A2: 2 einfache Rollenspiele („Il candidato dovrà dimostrare di saper interagire …“). B1/B2: 4 Gesprächsthemen mit Fragen, die Prüferin bzw. der Prüfer führt das Gespräch (2–3 Minuten). C1: 4 komplexe Situationen, in denen die Lernenden eine Rolle übernehmen („L’esaminatore assume il ruolo del …“), 3–4 Minuten. C2: 4 Thesen zur Diskussion („Esprimi la tua opinione.“), 3–4 Minuten.
 
 ## Was in `esercizi` steht
 
@@ -17,12 +17,11 @@ Erster Teil der mündlichen Prüfung. A1/A2: Rollenspiel in einer Alltagssituati
     {
       "situazioni": [
         {
-          "situazione": "Quale rapporto hai con lo smartphone? Pensi che possa sostituire la televisione?",
+          "situazione": "Sei il rappresentante degli studenti e devi convincere il preside a organizzare una settimana di attività sportive. L’esaminatore assume il ruolo del preside.",
           "spunti": [
-            "Quante ore al giorno lo usi?",
-            "Che cosa fai di solito con lo smartphone?",
-            "Ci sono momenti in cui lo spegni?",
-            "Che cosa consiglieresti a un fratello più piccolo?"
+            "Che cosa proponi esattamente?",
+            "Come rispondi all’obiezione dei costi?",
+            "Quali vantaggi porti come argomento?"
           ]
         }
       ]
@@ -36,6 +35,8 @@ Erster Teil der mündlichen Prüfung. A1/A2: Rollenspiel in einer Alltagssituati
 
 ## Regeln für diesen Typ
 
-- A1/A2: genau 2 `situazioni` als Rollenspiel, aus Sicht der Lernenden mit „tu“ (die Lehrkraft spielt die andere Rolle); `spunti` = 3–5 Redemittel.
-- Ab B1: genau 4 `situazioni` als Gesprächsthemen aus dem Alltag Jugendlicher bzw. Erwachsener, jeweils als ein bis zwei Leitfragen formuliert (B2: mit Meinung und Begründung: „Pensi che …? Perché?“). `spunti` = 4–6 Nachfragen für die Lehrkraft.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- **Genau** so viele `situazioni` wie verlangt, in der Form laut `forma`, aus Sicht der Lernenden mit „tu“ bzw. als Frage an sie.
+- A1/A2/C1: Die Rolle der Lehrkraft nennen („L’esaminatore è …“). B1/B2: ein bis zwei Leitfragen. C2: eine zugespitzte These plus „Esprimi la tua opinione.“
+- `spunti` = 3–6 Redemittel bzw. Nachfragen für die Lehrkraft.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `str-aggettivi`
 
-**Strutture · Accordo degli aggettivi** · Analisi delle strutture di comunicazione · Niveaus A2
+**Strutture · Aggettivi** · Analisi delle strutture di comunicazione · Niveaus A2
 
 ## Worum es geht
 
-Ein zusammenhängender Text mit Lücken für Adjektive. Die Grundform steht in Klammern direkt vor der Lücke.
+Strutture, Prova 1 (A2): ein zusammenhängender Text mit 10 Lücken für Adjektive. Die Grundform steht in Klammern direkt vor der Lücke.
 
 ## Was in `esercizi` steht
 
@@ -16,7 +16,7 @@ Ein zusammenhängender Text mit Lücken für Adjektive. Die Grundform steht in K
   "esercizi": [
     {
       "titolo": "…",
-      "consegna": "Completa il testo con la forma corretta degli aggettivi.",
+      "esempio": "(fedele) fedeli",
       "testo": "Ho due amiche (simpatico) [[simpatiche]] e un cane (vivace) [[vivace]] …"
     }
   ],
@@ -28,6 +28,8 @@ Ein zusammenhängender Text mit Lücken für Adjektive. Die Grundform steht in K
 
 ## Regeln für diesen Typ
 
-- Genau so viele Lücken wie verlangt; Mischung aus -o/-a/-i/-e, Adjektiven auf -e, unregelmäßigen Pluralformen (-co/-chi, -ca/-che) und bello/buono vor dem Nomen.
+- **Genau** so viele Lücken wie verlangt; Mischung aus -o/-a/-i/-e, Adjektiven auf -e, Pluralformen auf -co/-chi, -ca/-che, -go/-ghi.
+- `esempio`: Beispiel (0) wie im Heft, z. B. `"(fedele) fedeli"`.
 - Das Nomen, auf das sich das Adjektiv bezieht, ist im Satz eindeutig erkennbar.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

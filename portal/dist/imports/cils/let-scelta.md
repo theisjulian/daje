@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `let-scelta`
 
-**Lettura · Testo con domande a scelta multipla** · Comprensione della lettura · Niveaus A1–C2
+**Lettura · Testo e completa le frasi** · Comprensione della lettura · Niveaus A1–C2
 
 ## Worum es geht
 
-Ein zusammenhängender Lesetext mit Überschrift (A1/A2: Information zu Schulprojekt, Veranstaltung, Verein; ab B1 auch Zeitungsartikel, Blog, Erfahrungsbericht; ab C1 Kommentar, Essay, Sachtext). Dazu Satzanfänge mit Auswahlantworten; im CILS-Heft ab B1: 7 Satzanfänge mit je 4 Fortsetzungen zu einem Text von etwa 400 Wörtern.
+Lettura, Prova 1: ein Text mit Überschrift, dazu Satzanfänge mit Fortsetzungen. Im Heft: A1 kurzer Hinweis oder Info-Text (~110 Wörter), 4 Sätze × 3; A2 kurzes Interview oder Info-Text (~180 Wörter), 4 × 3; B1 Zeitungsartikel (~400 Wörter), 7 × 4; B2 Interview oder Artikel (~450 Wörter), 7 × 4; C1 Interview oder journalistischer Essay (~650 Wörter), 7 × 4; C2 anspruchsvoller Essay oder Feuilleton (~900 Wörter), 7 × 4.
 
 ## Was in `esercizi` steht
 
@@ -39,7 +39,8 @@ Ein zusammenhängender Lesetext mit Überschrift (A1/A2: Information zu Schulpro
 
 ## Regeln für diesen Typ
 
-- Textlänge in Wörtern laut Vorgabe `parole`, in Absätze gegliedert.
-- Genau so viele `domande` und `opzioni` wie verlangt; Fragen in der Reihenfolge des Textes.
-- Ab B1 prüft mindestens eine Frage die Hauptaussage oder Absicht des Textes, ab B2 mindestens eine eine Schlussfolgerung oder Haltung des Autors.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- Textlänge in Wörtern **genau im Bereich** der Vorgabe `parole`, Textsorte laut `genere`, in Absätze gegliedert. Interviews mit Fragen der Redaktion fett oder als eigene Absätze.
+- Genau so viele `domande` (Satzanfänge) und `opzioni` wie verlangt; Sätze in der Reihenfolge des Textes.
+- Ab B1 prüft mindestens ein Satz die Hauptaussage oder Absicht des Textes, ab B2 mindestens einer eine Schlussfolgerung oder Haltung, ab C1 auch Implizites und Wortbedeutung im Kontext.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

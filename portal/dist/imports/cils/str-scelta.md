@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `str-scelta`
 
-**Strutture · Completamento a scelta multipla** · Analisi delle strutture di comunicazione · Niveaus A1–C2
+**Strutture · Completa il testo (scelta multipla)** · Analisi delle strutture di comunicazione · Niveaus A1–C2
 
 ## Worum es geht
 
-Ein zusammenhängender Text mit Lücken; zu jeder Lücke gibt es mehrere Möglichkeiten (A1/A2: 3, ab B1: 4). Im CILS-Heft UNO-B1 und DUE-B2 (Prova 3): 15 Lücken, vor allem Wortschatz (edizione/occasione/celebrazione, competizione/gara, capacità/possibilità) und feste Verbindungen; die Optionen stehen in einer Tabelle A–D.
+Strutture, Prova 3: ein Text mit Lücken; zu jeder Lücke stehen in einer Tabelle mehrere Möglichkeiten. A1/A2: 8 Lücken mit A–C; ab B1: 15 Lücken mit A–D, vor allem Wortschatz (edizione/occasione/celebrazione, competizione/gara) und feste Verbindungen.
 
 ## Was in `esercizi` steht
 
@@ -16,7 +16,7 @@ Ein zusammenhängender Text mit Lücken; zu jeder Lücke gibt es mehrere Möglic
   "esercizi": [
     {
       "titolo": "…",
-      "consegna": "Completa il testo. Scegli una delle proposte.",
+      "esempio": "edizione",
       "testo": "Ho deciso di partire [[nonostante|poiché|finché|dato che]] il tempo fosse brutto …"
     }
   ],
@@ -28,8 +28,9 @@ Ein zusammenhängender Text mit Lücken; zu jeder Lücke gibt es mehrere Möglic
 
 ## Regeln für diesen Typ
 
-- Genau so viele Lücken und Optionen je Lücke wie verlangt; richtige Lösung zuerst.
-- **Ablenker gleicher Wortart und gleicher Form** wie die Lösung (Konnektor gegen Konnektor, Präposition gegen Präposition, gleiche Person und Zahl bei Verben). Nur eine Option passt in den Satz, grammatisch **und** inhaltlich.
-- Ab B1 darf die Lösung nicht allein an Genus, Numerus oder Artikel erkennbar sein.
-- Wechsle die Phänomene ab; nicht zweimal dieselbe Lösung.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- **Genau** so viele Lücken und **genau** so viele Möglichkeiten je Lücke wie verlangt; richtige Lösung zuerst.
+- `esempio`: Lösung der Beispiellücke (0), optional.
+- **Ablenker gleicher Wortart und gleicher Form** wie die Lösung. Nur eine Option passt in den Satz, grammatisch **und** inhaltlich.
+- Ab B1 darf die Lösung nicht allein an Genus, Numerus oder Artikel erkennbar sein; ab C1 feine Bedeutungsunterschiede und Kollokationen.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

@@ -14,7 +14,7 @@
   // Eine gespeicherte Supabase-Sitzung zählt sofort als angemeldet (kein Aufblitzen der Willkommensseite beim Laden).
   const storedSession = () => {
     try {
-      return Object.keys(localStorage).some(k => /^sb-[a-z0-9]+-auth-token$/.test(k) && localStorage.getItem(k));
+      return Object.keys(localStorage).some(k => (k === 'daje-auth-v1' || /^sb-[a-z0-9]+-auth-token$/.test(k)) && localStorage.getItem(k));
     } catch {
       return false;
     }

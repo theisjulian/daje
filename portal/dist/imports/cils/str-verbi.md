@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `str-verbi`
 
-**Strutture · Forme verbali** · Analisi delle strutture di comunicazione · Niveaus A1–C2
+**Strutture · Verbi** · Analisi delle strutture di comunicazione · Niveaus A1–C2
 
 ## Worum es geht
 
-Ein zusammenhängender Text, in dem Verben in der passenden Zeit und im passenden Modus ergänzt werden. Der Infinitiv steht in Klammern direkt vor der Lücke.
+Strutture, Prova 2: ein zusammenhängender Text, in dem Verben ergänzt werden. Der Infinitiv steht in Klammern direkt vor der Lücke. A1 Präsens (10), A2 passato prossimo (10), ab B1 20 Lücken mit den Zeiten und Modi aus `tempi`.
 
 ## Was in `esercizi` steht
 
@@ -16,7 +16,7 @@ Ein zusammenhängender Text, in dem Verben in der passenden Zeit und im passende
   "esercizi": [
     {
       "titolo": "…",
-      "consegna": "Completa il testo con i verbi al tempo e al modo giusti.",
+      "esempio": "(nascere) è nato",
       "testo": "Quando (arrivare) [[sono arrivata/sono arrivato]] a Bologna, non (conoscere) [[conoscevo]] nessuno …"
     }
   ],
@@ -28,7 +28,9 @@ Ein zusammenhängender Text, in dem Verben in der passenden Zeit und im passende
 
 ## Regeln für diesen Typ
 
-- Genau so viele Lücken wie verlangt (im Heft UNO-B1 und DUE-B2: 20), mit den Zeiten und Modi aus der Vorgabe `tempi` gemischt; ein zusammenhängender Bericht, in dem die Zeitenfolge zählt (passato prossimo/imperfetto, Vorzeitigkeit, Zukunft in der Vergangenheit).
-- Der Kontext entscheidet eindeutig über Zeit und Modus (Zeitangaben, Konjunktionen, Hauptsatzverb). Wo zwei Formen richtig sind, beide mit `/` angeben.
-- Ab B2 auch Konjunktiv nach Verben der Meinung, nach Konjunktionen (benché, affinché, prima che) und im periodo ipotetico; ab C1 implizite Formen, wo der Text sie verlangt (dann steht der Hinweis in der Klammer, z. B. `(uscire, gerundio)`).
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- **Genau** so viele Lücken wie verlangt, mit den Zeiten und Modi aus `tempi`; ein zusammenhängender Text (Biografie, Bericht, Erzählung), in dem die Zeitenfolge zählt.
+- `esempio`: Beispiel (0) wie im Heft, z. B. `"(nascere) è nato"`.
+- Der Kontext entscheidet eindeutig über Zeit und Modus. Wo zwei Formen richtig sind, beide mit `/` angeben.
+- C1/C2: auch passato remoto, Passiv, Konjunktiv (Imperfekt, Plusquamperfekt) und implizite Formen; verlangt der Text eine implizite Form, steht der Hinweis in der Klammer, z. B. `(uscire, gerundio)`.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

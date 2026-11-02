@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `str-situazioni`
 
-**Strutture · Espressioni e situazioni comunicative** · Analisi delle strutture di comunicazione · Niveaus B1–C2
+**Strutture · Espressioni e situazioni di comunicazione** · Analisi delle strutture di comunicazione · Niveaus B1–B2
 
 ## Worum es geht
 
-Wie im CILS-Heft (Strutture, Prova 4): 10 kurze Äußerungen (Anzeige, Nachricht, Frage, Hinweis, Werbung); zu jeder wählen die Lernenden aus 4 Situationen die passende.
+Strutture, Prova 4 (UNO-B1, DUE-B2): 10 kurze Äußerungen (Anzeige, Nachricht, Frage, Hinweis, Werbung); zu jeder wählen die Lernenden aus 4 Situationen die passende.
 
 ## Was in `esercizi` steht
 
@@ -38,7 +38,8 @@ Wie im CILS-Heft (Strutture, Prova 4): 10 kurze Äußerungen (Anzeige, Nachricht
 
 ## Regeln für diesen Typ
 
-- Genau so viele `espressioni` wie verlangt, je 4 Situationen in der Form „È l’annuncio …“, „Chiedi a …“, „Il professore …“.
-- Die Situationen unterscheiden sich in **Sprecher, Adressat, Textsorte oder Kanal** (Anzeige in der Schulbacheca, Website, SMS, Radio-Spot, mündlich). Alle passen zum Thema; nur eine passt zu Inhalt, Register (tu/Lei) und Textsorte.
-- Ab B2 auch Ironie, Höflichkeitsformen und indirekte Bitten.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- **Genau** 10 `espressioni`, je 4 Situationen in der Form „È l’annuncio …“, „Chiedi a …“, „Il professore …“.
+- Die Situationen unterscheiden sich in **Sprecher, Adressat, Textsorte oder Kanal**. Alle passen zum Thema; nur eine passt zu Inhalt, Register (tu/Lei) und Textsorte.
+- B2 auch Ironie, Höflichkeitsformen und indirekte Bitten.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

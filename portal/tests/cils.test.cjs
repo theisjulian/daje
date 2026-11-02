@@ -6,104 +6,162 @@ const C = require('../dist/cils.js');
 
 let n = 0;
 const id = () => 'cils-test-' + ++n;
-const mc = (k = 4) => ({ domanda: 'Perché Marco chiama Giulia?', opzioni: ['Per invitarla.', 'Per un libro.', 'Per un appuntamento.', 'Per un viaggio.'].slice(0, k), giusta: 'C' });
+const L4 = ['A', 'B', 'C', 'D'];
+const mc = (k = 4, i = 0) => ({ domanda: 'Marco chiama Giulia ' + i, opzioni: ['per invitarla.', 'per un libro.', 'per un appuntamento.', 'per un viaggio.'].slice(0, k), giusta: L4[i % k] });
 const transcript = 'Marco: Ciao Giulia, senti, domani non posso venire alle cinque. Possiamo vederci alle sei?\nGiulia: Va bene, alle sei davanti alla biblioteca.';
 const aff = (n, on) => Array.from({ length: n }, (_, i) => ({ testo: 'Affermazione numero ' + (i + 1) + '.', presente: i < on }));
-const SAMPLE = {
-  'asc-scelta': { domande: [mc(3), mc(3)] },
-  'asc-info': { affermazioni: aff(10, 5) },
-  'asc-completa': { testo: 'Ciao Giulia, domani non posso venire alle [[cinque]]. Vediamoci davanti alla [[biblioteca]].' },
-  'asc-brevi': { testi: [{ numero: 1, opzioni: ['a', 'b', 'c'], giusta: 'B' }, { numero: 2, opzioni: ['d', 'e', 'f'], giusta: 'A' }] },
-  'let-scelta': { titolo: 'Un’estate da volontari', testo: 'Primo paragrafo.\n\nSecondo paragrafo.', domande: [mc(), mc()] },
-  'let-info': { titolo: 'La biblioteca', testo: 'Testo lungo.', affermazioni: aff(12, 6) },
-  'let-ricostruisci': { titolo: 'Il viaggio', parti: Array.from({ length: 11 }, (_, i) => 'Parte numero ' + (i + 1) + ' del racconto.') },
-  'let-brevi': { testi: [1, 2, 3, 4].map(i => ({ titolo: 'Avviso ' + i, testo: 'Testo breve ' + i + '.', opzioni: ['x' + i, 'y' + i, 'z' + i], giusta: 'A' })) },
-  'let-abbina': { inizi: [{ titolo: 'Festa', testo: 'Sabato facciamo una festa.', fine: 'E' }, { titolo: 'Gita', testo: 'Lunedì andiamo al mare.', fine: 'A' }], fini: { A: 'Porta il costume!', B: 'b', C: 'c', D: 'd', E: 'Porta qualcosa da mangiare!', F: 'f' } },
-  'str-articoli': { testo: '[[La]] mia scuola è grande. [[Gli]] studenti (di) [[della]] classe. [[L’/L\']]aula è nuova.' },
-  'str-aggettivi': { testo: 'Ho due amiche (simpatico) [[simpatiche]] e un cane (vivace) [[vivace]].' },
-  'str-verbi': { testo: 'Quando (arrivare) [[sono arrivata/sono arrivato]] a Bologna, non (conoscere) [[conoscevo]] nessuno.' },
-  'str-scelta': { testo: 'Sono partito [[nonostante|poiché|finché|dato che]] piovesse e [[sono|ho|era|avevo]] arrivato tardi.' },
-  'str-pronomi': { testo: 'Ho letto [[tutta]] la storia. I libri? [[Li]] ho comprati usati. [[Chi]] legge molto impara.' },
-  'str-situazioni': { espressioni: [{ espressione: 'Mi scusi, potrebbe ripetere?', opzioni: ['Studente e professore.', 'Due amici.', 'Un cliente.', 'Una madre.'], giusta: 'A' }] },
-  'str-trasforma': { frasi: [{ istruzione: 'Volgi al passivo', frase: 'Il comune ha chiuso la piscina.', soluzioni: ['La piscina è stata chiusa dal comune.'] }] },
-  'str-registro': { frasi: [{ frase: 'Il direttore ha *messo in evidenza* i risultati.', opzioni: ['sottolineato', 'sottratto', 'sottoscritto', 'sottoposto'], giusta: 'A' }] },
-  'scr-testo': { compiti: [{ consegna: 'Racconta una gita.', parole: '100-120', modello: 'Testo modello.', criteri: ['ordine cronologico'] }] },
-  'scr-lettera': { compiti: [{ consegna: 'Scrivi un’e-mail.', modello: 'Gentile direttrice, …' }] },
-  'ora-dialogo': { situazioni: [{ situazione: 'Sei in un negozio.', spunti: ['Buongiorno, vorrei …'] }] },
-  'ora-monologo': { argomenti: [{ argomento: 'I social network', stimolo: 'Una frase.', spunti: ['Quanto tempo passi sui social?'] }] }
-};
+const fill = k => Array.from({ length: k }, (_, i) => `Frase ${i + 1} con [[parola${i + 1}]].`).join(' ');
+const choiceText = (k, o) => Array.from({ length: k }, (_, i) => `Frase ${i + 1} [[${['giusta', 'sbagliata', 'altra', 'quarta'].slice(0, o).map(w => w + i).join('|')}]].`).join(' ');
 
-// Jeder Typ hat Kommandodatei und Beispiel; jedes Paket besteht die Prüfung
+// Beispielantwort der KI für Typ und Niveau, genau mit den Zahlen aus dem Heft
+function sample(t, level) {
+  const c = t.spec(level);
+  switch (t.id) {
+    case 'asc-scelta':
+    case 'let-scelta':
+      return { titolo: 'Un’estate da volontari', testo: 'Primo paragrafo.\n\nSecondo paragrafo.', domande: Array.from({ length: c.frasi }, (_, i) => mc(c.opzioni, i)) };
+    case 'asc-info':
+    case 'let-info':
+      return { titolo: 'Il bando', testo: 'Testo lungo.', affermazioni: aff(c.affermazioni, c.presenti || 6) };
+    case 'asc-completa':
+    case 'str-articoli':
+    case 'str-aggettivi':
+    case 'str-verbi':
+    case 'str-pronomi':
+    case 'str-parola':
+      return { testo: fill(c.lacune), esempio: '(essere) è' };
+    case 'asc-brevi':
+    case 'let-brevi':
+      return { testi: [1, 2, 3, 4].map(i => ({ numero: i, titolo: 'Avviso ' + i, testo: 'Testo breve ' + i + '.', opzioni: ['x' + i, 'y' + i, 'z' + i], giusta: L4[i % 3] })) };
+    case 'let-ricostruisci':
+      return { titolo: 'Il viaggio', parti: Array.from({ length: c.parti }, (_, i) => 'Parte numero ' + (i + 1) + ' del racconto.') };
+    case 'let-abbina':
+      return { inizi: [{ titolo: 'Festa', testo: 'Sabato facciamo una festa.', fine: 'E' }, { titolo: 'Gita', testo: 'Lunedì andiamo al mare.', fine: 'A' }, { titolo: 'Sport', testo: 'Corso di nuoto.', fine: 'C' }, { titolo: 'Libri', testo: 'Scambio di libri.', fine: 'H' }], fini: { A: 'Porta il costume!', B: 'b', C: 'Iscriviti in piscina.', D: 'd', E: 'Porta qualcosa da mangiare!', F: 'f', G: 'g', H: 'Porta un libro.' } };
+    case 'str-scelta':
+      return { testo: choiceText(c.lacune, c.opzioni) };
+    case 'str-situazioni':
+      return { espressioni: Array.from({ length: 10 }, (_, i) => ({ espressione: 'Mi scusi, potrebbe ripetere? ' + i, opzioni: ['Studente e professore.', 'Due amici.', 'Un cliente.', 'Una madre.'], giusta: L4[i % 4] })) };
+    case 'str-trasforma':
+      return { frasi: Array.from({ length: 6 }, (_, i) => ({ frase: 'Il comune ha chiuso la piscina ' + i + '.', inizio: 'La piscina', soluzioni: ['La piscina è stata chiusa dal comune ' + i + '.'] })) };
+    case 'scr-testo':
+    case 'scr-lettera':
+      return { compiti: [{ consegna: 'Racconta una gita.', modello: 'Testo modello.', criteri: ['ordine cronologico'] }, { consegna: 'Scrivi un’e-mail.', modello: 'Gentile direttrice, …' }] };
+    case 'ora-dialogo':
+      return { situazioni: Array.from({ length: c.situazioni }, (_, i) => ({ situazione: 'Sei in un negozio ' + i + '.', spunti: ['Buongiorno, vorrei …'] })) };
+    case 'ora-monologo':
+      return { argomenti: Array.from({ length: c.argomenti }, (_, i) => ({ argomento: 'I social network ' + i, spunti: ['Quanto tempo passi sui social?'] })) };
+  }
+}
+const make = (type, level, x, extra = {}) => C.build({ livello: level, tipo: type, esercizi: [x || sample(C.typeById(type), level)], ...extra }, { level, type, id, set: 's', media: { source: 'speech', transcript } });
+
+// Jeder Typ hat Kommandodatei; jedes Paket besteht die Prüfung; die erste Aufgabe trägt die Heft-Anweisung
 for (const t of C.TYPES) {
   assert.ok(fs.existsSync(path.join(__dirname, '../dist/imports/cils', t.id + '.md')), 'Kommandodatei fehlt: ' + t.id);
-  assert.ok(SAMPLE[t.id], 'Testbeispiel fehlt: ' + t.id);
   for (const level of t.levels) {
-    const r = C.build({ livello: level, tipo: t.id, tema: 'Prova', esercizi: [SAMPLE[t.id]], noteDocente: ['Hinweis'] }, { level, type: t.id, id, set: 's', media: { source: 'speech', transcript } });
+    const r = make(t.id, level, null, { noteDocente: ['Hinweis'] });
     assert.equal(r.items.length, 1);
-    const v = validatePackage(r.items[0].pkg);
+    const pkg = r.items[0].pkg;
+    const v = validatePackage(pkg);
     assert.ok(v.ok, t.id + ' ' + level + ': ' + JSON.stringify(v.errors));
-    assert.equal(r.items[0].pkg.kind, t.media ? 'listening' : 'grammar');
+    assert.equal(pkg.kind, t.media ? 'listening' : 'grammar');
+    const consegna = t.consegna(level, null, t.spec(level).parti, t.spec(level));
+    assert.ok(pkg.questions[0].prompt.startsWith(consegna), t.id + ' ' + level + ': Anweisung fehlt');
+    assert.ok(Number(String(t.spec(level).prova)[0]) >= 1, 'Prova-Nummer');
   }
 }
 
-// Hören: Medium aus Angaben der Lehrkraft, Transkript bleibt erhalten
-const yt = C.build({ esercizi: [SAMPLE['asc-scelta']] }, { level: 'B1', type: 'asc-scelta', id, media: { source: 'youtube', url: 'https://youtu.be/dQw4w9WgXcQ?t=42', transcript } }).items[0].pkg;
-assert.deepEqual(yt.media, { type: 'youtube', videoId: 'dQw4w9WgXcQ', start: 42 });
-assert.equal(yt.transcript, transcript);
-assert.equal(yt.transcriptOrigin, 'own');
-assert.ok(validatePackage(yt).ok);
-const au = C.build({ esercizi: [SAMPLE['asc-info']] }, { level: 'C1', type: 'asc-info', id, media: { source: 'audio', url: 'https://example.org/a.mp3', transcript } }).items[0].pkg;
-assert.equal(au.media.type, 'audio');
-assert.throws(() => C.build({ esercizi: [SAMPLE['asc-scelta']] }, { level: 'A1', type: 'asc-scelta', id, media: { source: 'speech', transcript: 'kurz' } }), /Transkript/);
-assert.throws(() => C.build({ esercizi: [SAMPLE['asc-scelta']] }, { level: 'A1', type: 'asc-scelta', id, media: { source: 'youtube', url: 'https://example.org', transcript } }), /YouTube/);
+// Katalog nach den Heften A1–C2
+const ids = l => C.typesFor(l).map(t => t.id);
+assert.deepEqual(ids('A1').filter(i => i.startsWith('str')), ['str-articoli', 'str-verbi', 'str-scelta']);
+assert.deepEqual(ids('A2').filter(i => i.startsWith('str')), ['str-aggettivi', 'str-verbi', 'str-scelta']);
+assert.deepEqual(ids('B1').filter(i => i.startsWith('str')), ['str-articoli', 'str-verbi', 'str-scelta', 'str-situazioni']);
+assert.deepEqual(ids('B2').filter(i => i.startsWith('str')), ['str-pronomi', 'str-verbi', 'str-scelta', 'str-situazioni']);
+assert.deepEqual(ids('C1').filter(i => i.startsWith('str')), ['str-parola', 'str-verbi', 'str-scelta', 'str-trasforma']);
+assert.ok(!C.typeById('str-registro'));
+assert.ok(!ids('B2').includes('asc-completa') && ids('B1').includes('asc-completa'));
+assert.equal(C.typeById('asc-completa').spec('A2').lacune, 14);
+assert.equal(C.typeById('asc-completa').spec('B1').lacune, 28);
+assert.equal(C.typeById('str-scelta').spec('A1').lacune, 8);
+assert.equal(C.typeById('str-scelta').spec('C2').lacune, 15);
+assert.equal(C.typeById('let-ricostruisci').spec('C1').parti, 16);
+assert.equal(C.typeById('scr-testo').spec('C1').parole, '160–180');
+assert.equal(C.typeById('scr-lettera').spec('C1').parole, '100–120');
+assert.match(C.typeById('scr-testo').consegna('C1', null, 0, C.typeById('scr-testo').spec('C1')), /Devi scrivere da 160 a 180 parole\.$/);
+assert.equal(C.typeById('str-verbi').consegna('A1'), 'Completa il testo con le forme al presente indicativo dei verbi che sono tra parentesi.');
+assert.equal(C.typeById('asc-info').consegna('B2'), 'Ascolta il testo. Poi leggi le informazioni. Indica se le informazioni sono vere o false.');
 
-// Informazioni presenti: wie im Heft je Aussage vero/falso
-const info = C.build({ esercizi: [{ testo: 'x', affermazioni: aff(14, 7) }] }, { level: 'B1', type: 'let-info', id }).items[0].pkg.questions;
+// Informazioni presenti: B1/B2 vero/falso; C1/C2 die 6 bzw. 7 aus A–O
+const info = make('let-info', 'B1').items[0].pkg.questions;
 assert.equal(info.length, 14);
 assert.equal(info[0].type, 'true_false');
 assert.ok(assessAnswer(info[0], 'true') && !assessAnswer(info[13], 'true'));
-assert.throws(() => C.build({ esercizi: [{ affermazioni: aff(6, 6) }] }, { level: 'B1', type: 'let-info', id }), /mindestens eine/);
+const c1 = make('let-info', 'C1', { testo: 'x', affermazioni: aff(15, 7) }).items[0].pkg.questions;
+assert.equal(c1.length, 1);
+assert.equal(c1[0].type, 'multiple_choice');
+assert.equal(c1[0].options.length, 15);
+assert.equal(c1[0].options[14].text.slice(0, 2), 'O.');
+assert.equal(c1[0].correctOptionIds.length, 7);
+assert.throws(() => make('let-info', 'C1', { testo: 'x', affermazioni: aff(15, 6) }), /Genau 7/);
+assert.throws(() => make('asc-info', 'C2', { affermazioni: aff(12, 6) }), /genau 15/);
 
-// Ricostruzione mit 11 Teilen: A ist der Anfang, Buchstaben gemischt, Lesetext ohne Lösungsreihenfolge
-const ric = C.build({ esercizi: [SAMPLE['let-ricostruisci']] }, { level: 'B2', type: 'let-ricostruisci', id, set: 'r' }).items[0].pkg;
-assert.equal(ric.questions[0].gaps.length, 10);
+// Ricostruzione: A = 1, die übrigen Buchstaben gemischt; neben jeden Buchstaben die Positionsnummer
+const ric = make('let-ricostruisci', 'B2').items[0].pkg;
+const q = ric.questions[0];
+assert.equal(q.gaps.length, 10);
 assert.ok(ric.reading.text.startsWith('A. Parte numero 1 '));
-const order = ric.questions[0].gaps.map(g => g.acceptedAnswers[0]);
-assert.equal(new Set(order).size, 10);
-assert.notDeepEqual(order, ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']);
-const L = Object.fromEntries(ric.reading.text.split('\n\n').map(b => [b[0], b]));
-order.forEach((letter, i) => assert.ok(L[letter].includes('numero ' + (i + 2) + ' '), 'Buchstabe passt zur Position'));
+assert.ok(q.text.startsWith('A = 1 · B = [[b]]'));
+const blocks = Object.fromEntries(ric.reading.text.split('\n\n').map(b => [b[0], b]));
+q.gaps.forEach(g => assert.ok(blocks[g.id.toUpperCase()].includes('numero ' + g.acceptedAnswers[0] + ' '), 'Nummer passt zum Teil'));
+assert.notDeepEqual(q.gaps.map(g => g.acceptedAnswers[0]), ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11']);
+assert.throws(() => make('let-ricostruisci', 'C1', { parti: ['a', 'b', 'c'] }), /genau 16/);
 
-// Zahlen nach den Heften UNO-B1 / DUE-B2
-assert.equal(C.typeById('asc-completa').spec('B1').lacune, 28);
-assert.equal(C.typeById('str-verbi').spec('B2').lacune, 20);
-assert.equal(C.typeById('str-scelta').spec('B1').lacune, 15);
-assert.equal(C.typeById('str-situazioni').spec('B2').espressioni, 10);
-assert.equal(C.typeById('let-scelta').spec('B2').domande, 7);
-assert.equal(C.typeById('str-articoli').spec('B1').lacune, 20);
-assert.ok(C.HEFT.includes('B2') && !C.HEFT.includes('C1'));
-
-// Auswahl-Lücken: richtige Lösung zuerst, gemischt; doppelte Optionen abgelehnt
-const sc = C.build({ esercizi: [SAMPLE['str-scelta'], SAMPLE['str-scelta']] }, { level: 'B2', type: 'str-scelta', id }).items;
-assert.equal(sc.length, 2, 'bis zu drei Übungen je Auftrag');
-assert.equal(sc[0].pkg.questions[0].gaps[0].answer, 'nonostante');
-assert.equal(sc[0].pkg.questions[0].gaps[0].options.length, 4);
+// Lücken: Anzahl genau wie im Heft, Beispiel (0) in der Anweisung
+assert.throws(() => make('str-verbi', 'B1', { testo: fill(12) }), /verlangt sind 20/);
+const ex = make('str-verbi', 'A2').items[0].pkg.questions[0];
+assert.ok(ex.prompt.includes('Esempio: (0) (essere) è'));
+assert.throws(() => make('str-scelta', 'A1', { testo: choiceText(8, 4) }), /genau 3 Möglichkeiten/);
 assert.throws(() => C.build({ esercizi: [{ testo: 'a [[uno|uno|due]] b' }] }, { level: 'B1', type: 'str-scelta', id }), /doppelt/);
 
-// Ordnen (bis 8 kurze Teile): richtige Reihenfolge wird erkannt
-const ord = C.build({ esercizi: [{ parti: ['Prima parte.', 'Poi la seconda.', 'Infine la terza.', 'E la quarta.'] }] }, { level: 'B1', type: 'let-ricostruisci', id }).items[0].pkg.questions[0];
-assert.ok(assessAnswer(ord, JSON.stringify({ p1: 1, p2: 2, p3: 3, p4: 4 })));
+// Riscrivi: Satzanfang vorgegeben, mit oder ohne Anfang richtig
+const tr = make('str-trasforma', 'C1').items[0].pkg.questions[1];
+assert.ok(tr.prompt.includes('→ LA PISCINA …'));
+assert.ok(assessAnswer(tr, 'è stata chiusa dal comune 1.') && assessAnswer(tr, 'La piscina è stata chiusa dal comune 1.'));
+
+// Schreiben: zwei Themen zur Wahl, Anweisung mit Wortzahl
+const w = make('scr-testo', 'C1').items[0].pkg.questions;
+assert.equal(w.length, 2);
+assert.ok(w[0].prompt.startsWith('Puoi scegliere di trattare uno dei seguenti argomenti. Devi scrivere da 160 a 180 parole.'));
+
+// Hören: Medium aus Angaben der Lehrkraft, Transkript bleibt erhalten
+const yt = C.build({ esercizi: [sample(C.typeById('asc-scelta'), 'B1')] }, { level: 'B1', type: 'asc-scelta', id, media: { source: 'youtube', url: 'https://youtu.be/dQw4w9WgXcQ?t=42', transcript } }).items[0].pkg;
+assert.deepEqual(yt.media, { type: 'youtube', videoId: 'dQw4w9WgXcQ', start: 42 });
+assert.equal(yt.transcript, transcript);
+assert.ok(validatePackage(yt).ok);
+assert.throws(() => C.build({ esercizi: [{}] }, { level: 'A1', type: 'asc-scelta', id, media: { source: 'speech', transcript: 'kurz' } }), /Transkript/);
+assert.throws(() => C.build({ esercizi: [{}] }, { level: 'A1', type: 'asc-scelta', id, media: { source: 'youtube', url: 'https://example.org', transcript } }), /YouTube/);
+
+// Echter Ausgangstext: Quelle wird als externe Quelle mit ungeprüften Rechten gespeichert
+const web = make('let-scelta', 'B1', null, { fonte: { titolo: 'Il ritorno dei treni notturni', testata: 'Esempio Magazine', data: '2026-03-01', url: 'https://example.org/treni' } });
+const src = web.items[0].pkg.sources[1];
+assert.equal(src.kind, 'external');
+assert.equal(src.rights, 'needs_review');
+assert.ok(src.citation.includes('Esempio Magazine') && src.url === 'https://example.org/treni');
+assert.ok(validatePackage(web.items[0].pkg).ok);
+assert.ok(web.fonte);
 
 // Niveau und Typ müssen zusammenpassen; Abbruch und falscher Typ werden gemeldet
-assert.throws(() => C.build({ esercizi: [SAMPLE['str-articoli']] }, { level: 'B2', type: 'str-articoli', id }), /nicht auf Niveau/);
+assert.throws(() => C.build({ esercizi: [{}] }, { level: 'B2', type: 'str-articoli', id }), /nicht auf Niveau/);
 assert.throws(() => C.build({ abbruch: 'zu kurz' }, { level: 'A1', type: 'let-scelta', id }), /abgebrochen/);
 assert.throws(() => C.build({ tipo: 'let-info', esercizi: [{}] }, { level: 'B1', type: 'let-scelta', id }), /gehört zum Typ/);
-assert.equal(C.typesFor('A1').some(t => t.id === 'let-info'), false);
-assert.equal(C.typesFor('C2').some(t => t.id === 'str-registro'), true);
 
-// Auftrag: Grundregeln, Typdatei, Vorgaben des Niveaus; Hören mit Transkript statt Thema
-const p = C.promptFor('# Grundregeln', '# Typ', { level: 'B2', type: 'str-verbi', count: 2, theme: 'sport', audience: 'adulti' });
-assert.ok(p.includes('CILS DUE-B2') && p.includes('congiuntivo') && p.includes('Anzahl Übungen in „esercizi“: 2') && p.includes('sport') && p.includes('Erwachsene'));
+// Auftrag: Grundregeln, Typdatei, Vorgaben, Heft-Anweisung; Thema ohne Wunsch zufällig, nicht immer Schule
+const p = C.promptFor('# Grundregeln', '# Typ', { level: 'B2', type: 'str-verbi', count: 2, theme: 'sport', audience: 'adulti', textSource: 'frei' });
+assert.ok(p.includes('CILS DUE-B2') && p.includes('congiuntivo') && p.includes('Anzahl Übungen in „esercizi“: 2') && p.includes('Thema: sport') && p.includes('Erwachsene') && p.includes('Prova n. 2'));
+const themes = new Set([0, 0.2, 0.4, 0.6, 0.8, 0.99].map(r => C.promptFor('', '', { level: 'B1', type: 'let-scelta', random: r }).match(/- Thema: ([^(\n]+)/)[1].trim()));
+assert.ok(themes.size >= 5, 'Themen wechseln');
+assert.ok(C.promptFor('', '', { level: 'B1', type: 'let-scelta' }).includes('Suche im Internet'));
+const pe = C.promptFor('', '', { level: 'B1', type: 'let-scelta', textSource: 'eigen', sourceText: 'Il mio testo.', sourceUrl: 'https://example.org' });
+assert.ok(pe.includes('Il mio testo.') && pe.includes('Quelle: https://example.org'));
 const pa = C.promptFor('# Grundregeln', '# Typ', { level: 'A2', type: 'asc-completa', media: { transcript } });
-assert.ok(pa.includes('lacune: 14') && pa.includes('Giulia: Va bene') && !pa.includes('Themenwunsch'));
+assert.ok(pa.includes('lacune: 14') && pa.includes('Giulia: Va bene') && !pa.includes('- Thema:'));
 console.log('CILS passed.');

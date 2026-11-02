@@ -326,3 +326,28 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 - `gate.js` (letztes Skript): Ohne Konto zeigt daje eine Willkommensseite (Anmelden, Konto erstellen, Klassencode, drei Probeübungen `SAMPLES`). Erlaubt ohne Konto: Klassensitzung und Aufgabenlink mit genau den freigegebenen Übungen, Quellen. Angemeldet gilt auch eine gespeicherte Supabase-Sitzung (kein Aufblitzen). Die Sperre wirkt in der Oberfläche; die Übungsdateien sind weiterhin statisch. Echter Schutz: Inhalte aus der Datenbank laden (mit eigenem Supabase-Projekt für daje). Tests setzen `window.DAJE_E2E`.
 - `pruefung.js`: Bereich „Prüfungstraining“ (Navigation, Mehr-Blatt): CILS-Übungen (`catalog.tags` „cils“) nach Niveau A1–C2 und Prüfungsteil; eigene sind markiert. Admin: im CILS-Generator je Satz „Für alle freigeben“ (über `daje_overrides`). CILS-Übungen erscheinen nicht mehr in den Grammatikthemen.
 - E-Mail-Vorlagen neu: Sprachweichen nur innerhalb einer Tabellenzelle (robust beim Einfügen). SMTP-Fehler in den Logs: Host `ionos.smtp.com` existiert nicht, richtig `smtp.ionos.de` (Anleitung ergänzt).
+
+### 7b · CILS 1:1 nach den Heften, Registrierung (02.11.2026)
+
+- **Katalog** (`portal/dist/cils.js`, `TYPES[].cfg`): je Typ und Niveau Prova-Nummer, Originalanweisung (`consegna`, setzt daje
+  selbst ein) und Anzahlen nach den Heften A1/A2 Adolescenti, UNO-B1, DUE-B2, TRE-C1 (2023/2018), QUATTRO-C2 (2017).
+  Mechanik: B1/B2 „informazioni presenti“ je Aussage vero/falso, C1/C2 die 6 (Ascolto) bzw. 7 (Lettura) aus 15 (A–O) als
+  multiple_choice (Vertrag jetzt bis 15 Optionen); Ricostruzione 11 (B1/B2) bzw. 16 Teile (C1/C2), A = 1, Nummer je
+  Buchstabe; `str-parola` (C1/C2, offen), `str-trasforma` = „Riscrivi le frasi“ mit Satzanfang (`inizio`); `str-registro`
+  entfernt (nicht im Heft); `str-situazioni` nur B1/B2, `str-pronomi` nur B2. Zahlen werden **streng** geprüft
+  (Lücken, Teile, Optionen, Anzahl zutreffender Aussagen). Beispiel (0) über das Feld `esempio`.
+- **Schreiben:** Wortzahlen nur für C1 belegt (160–180 / 100–120); übrige Niveaus Richtwerte (in der Oberfläche markiert,
+  `SCRITTA_HEFT`).
+- **Thema:** ohne Wunsch zufällig aus `TEMI`, die letzten 8 werden übersprungen (`CILS.recent`).
+- **Textgrundlage** (`TEXTO`-Typen): „Echter Text aus dem Netz“ (KI sucht und adaptiert, liefert `fonte`), „Eigener Text
+  oder Link“, „Frei geschrieben“. `fonte` → Quelle `kind: external`, `rights: needs_review`, `catalog.origin: media`.
+- **Druck** `cilsSheetHTML`: Kopf „Sezione – Prova n. X“, Anweisung fett kursiv, Lesetext im grauen Kasten mit Titel in
+  Versalien, Nummerierung je Prova; Schlüssel mit Spalte Prova.
+- Kommandodateien: `python3 werkzeuge/cils_kommandos.py portal/dist/imports/cils`; Grundregeln `KI-CILS.md` v3.0.
+- **Sync:** `daje-cils-v1` und `daje-pruefung-v1` sind jetzt in `SYNC_KEYS` (CILS-Sätze geräteübergreifend).
+- **Registrierung:** Passwort wiederholen (Live-Abgleich), Augen-Symbol für beide Felder, Sprache der E-Mails
+  (`user_metadata.lang`, steuert die Vorlage), „Angemeldet bleiben“ bei der Anmeldung (abgewählt: `daje-auth-kurz` +
+  sessionStorage `daje-auth-tab`; beim nächsten Start ohne Tab-Markierung wird `daje-auth-v1` vor dem Verbinden gelöscht).
+  gate.js erkennt die gespeicherte Sitzung jetzt am richtigen Schlüssel `daje-auth-v1`.
+- **E-Mail:** iCloud-Ablehnung HM08 → SPF/DMARC prüfen (siehe `supabase/emails/ANLEITUNG.md`). forza und daje teilen
+  Vorlagen und Absender.

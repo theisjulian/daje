@@ -290,8 +290,8 @@
             fail(path + '.correctOptionId', 'verweist auf keine Antwort');
         } else if (q.type === 'multiple_choice') {
           let ids;
-          [z.options, ids] = options(3, 14);
-          z.correctOptionIds = arr(q.correctOptionIds, path + '.correctOptionIds', 1, 13).map(
+          [z.options, ids] = options(3, 15);
+          z.correctOptionIds = arr(q.correctOptionIds, path + '.correctOptionIds', 1, 14).map(
             (v, j) => id(v, path + '.correctOptionIds[' + j + ']')
           );
           if (new Set(z.correctOptionIds).size !== z.correctOptionIds.length)

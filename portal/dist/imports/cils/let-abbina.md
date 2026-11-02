@@ -1,10 +1,10 @@
 # daje · CILS-Aufgabentyp `let-abbina`
 
-**Lettura · Inizi e fini** · Comprensione della lettura · Niveaus A1–A2
+**Lettura · Testi da completare (A–H)** · Comprensione della lettura · Niveaus A1–A2
 
 ## Worum es geht
 
-Vier kurze Textanfänge mit Überschrift und acht Fortsetzungen (A–H). Vier Fortsetzungen passen eindeutig, vier passen thematisch, aber zu keinem Anfang.
+Lettura, Prova 3: vier Textanfänge (1–4) mit Überschrift und acht Fortsetzungen (A–H). Vier Fortsetzungen passen eindeutig, vier passen thematisch, aber zu keinem Anfang.
 
 ## Was in `esercizi` steht
 
@@ -44,4 +44,5 @@ Vier kurze Textanfänge mit Überschrift und acht Fortsetzungen (A–H). Vier Fo
 
 - Genau 4 `inizi` und 8 `fini` (A–H); jeder Buchstabe höchstens einmal als `fine`.
 - Jede Fortsetzung passt grammatisch an jeden Anfang; entscheidend ist der Inhalt.
-- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor.
+- Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
+- Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.

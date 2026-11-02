@@ -164,7 +164,7 @@ function setupShell() {
   sheet.className = 'sheet';
   sheet.setAttribute('aria-label', 'Weitere Bereiche');
   sheet.innerHTML = `<div class="sheet-grip" aria-hidden="true"></div>
-    <div class="sheet-grid">${navButton(['pruefung', 'Prüfungstraining'])}${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
+    <div class="sheet-grid">${navButton(['pruefung', 'Prüfungs&shy;training'])}${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
     <div class="sheet-grid actions">
       <button data-sheet-click="look-open">${icon('look')}<span>Darstellung</span></button>
       <button data-acc-open>${icon('account')}<span>Konto und Lernprofil</span></button>

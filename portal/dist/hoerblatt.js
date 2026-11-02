@@ -12,7 +12,7 @@ const HB_TXT = {
     ins: { single_choice: 'Kreuze die eine richtige Antwort an.', multiple_choice: 'Kreuze alle richtigen Antworten an.', true_false: 'Richtig oder falsch? Kreuze an.', matching: 'Ordne zu: Schreibe den passenden Buchstaben neben jede Zahl.', ordering: 'Bringe in die richtige Reihenfolge: Schreibe die Zahlen 1 bis {n}.', gap_fill: 'Ergänze die Lücken.', short_answer: 'Antworte kurz.', true_false_ng: 'Richtig, falsch oder nicht im Text? Kreuze an.', word_select: 'Kreuze alle Wörter an, die du hörst.', gap_choice: 'Kreise das richtige Wort ein.', note_fill: 'Ergänze die Notizen.', table_fill: 'Ergänze die Tabelle.', error_correction: 'Die unterstrichenen Wörter sind falsch. Schreibe das richtige Wort daneben.', categorize: 'Ordne zu: Kreuze die passende Spalte an.', speaker_match: 'Wer sagt das? Kreuze die passende Spalte an.', sentence_completion: 'Vervollständige die Sätze.', open_answer: 'Antworte in ganzen Sätzen.' }, NG: 'Nicht im Text', model: 'Mögliche Lösung', T: 'Richtig', F: 'Falsch', kKey: 'Lösungsschlüssel kurz', kNo: 'Nr.', kAns: 'Lösung', kPts: 'Punkte', kDown: 'von oben nach unten', kAlso: 'auch' }
 };
 let hbOpt = { link: true, transcript: false, solutions: false, compact: false };
-const hbLetters = 'ABCDEFGHIJ';
+const hbLetters = 'ABCDEFGHIJKLMNOP';
 
 // Kopf einer Aufgabe auf dem Blatt: genau eine Anweisung.
 // Grammatik: die Aufgabenanweisung selbst; der Hinweis zur Papierform nur, wo das Blatt anders funktioniert als die App.

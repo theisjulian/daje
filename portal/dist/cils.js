@@ -18,136 +18,103 @@
     orale: { label: 'Produzione orale', de: 'Sprechen' }
   };
   const SHORT = { ascolto: 'Ascolto', lettura: 'Lettura', strutture: 'Strutture', scrittura: 'Scrittura', orale: 'Orale' };
-  const by = (map, level) => map[level] ?? map['*'];
-  const opts = { A1: 3, A2: 3, '*': 4 };
-  // Zahlen nach den Prüfungsheften A1/A2 Adolescenti, UNO-B1 Adolescenti (Giugno 2016) und DUE-B2 Adolescenti
-  // (Dicembre 2024). C1/C2: Fortschreibung derselben Formate (keine Hefte ausgewertet), in der Oberfläche als Richtwert markiert.
-  const domande = { A1: 4, A2: 4, '*': 7 };
-  const lungo = { A1: '100–140', A2: '150–200', B1: '350–420', B2: '400–500', C1: '500–650', C2: '600–800' };
-  const vf = { '*': 12 };
-  const vfLettura = { '*': 14 };
-  const HEFT = ['A1', 'A2', 'B1', 'B2'];
-  const TEMPI = {
-    A1: 'presente indicativo, anche verbi irregolari frequenti (essere, avere, andare, fare, volere, potere, dovere, sapere, dire, venire, uscire)',
-    A2: 'passato prossimo (scelta dell’ausiliare, accordo del participio, verbi riflessivi); qualche imperfetto in forme frequenti',
-    B1: 'presente, passato prossimo (anche riflessivi: si sono conosciuti, si è laureata), imperfetto e il loro contrasto in un racconto, qualche futuro',
-    B2: 'tutti i tempi dell’indicativo con trapassato, condizionale passato (futuro nel passato: sarebbe diventata), congiuntivo presente e passato, infinito passato (aver sfruttato), alternanza passato prossimo/imperfetto',
-    C1: 'tutti i tempi e modi, anche congiuntivo imperfetto e trapassato, concordanza dei tempi, forme implicite (gerundio, participio, infinito passato), forma passiva',
-    C2: 'tutti i tempi e modi, anche passato remoto e trapassato remoto, forme implicite e passive, concordanza complessa, registro formale e letterario'
+  // Alle Angaben nach den Prüfungsheften: A1 Adolescenti (2017), A2 Adolescenti (Prototipo), UNO-B1 Adolescenti (2016),
+  // DUE-B2 Adolescenti (2024), TRE-C1 (2023), QUATTRO-C2 (2017) samt Produzione orale. Schreibaufgaben: Heft TRE-C1;
+  // für die übrigen Niveaus lagen keine Schreibbögen vor (Richtwerte, in der Oberfläche markiert).
+  const HEFT = LEVELS;
+  const SCRITTA_HEFT = ['C1'];
+  const C = {
+    ascT: 'Ascolta il testo.',
+    tre: 'Poi completa le frasi. Scegli una delle tre proposte di completamento.',
+    quattro: 'Poi completa le frasi. Scegli una delle quattro proposte di completamento.'
   };
+  const TEMI = ['viaggi e vacanze', 'sport e benessere', 'musica e concerti', 'cinema e serie TV', 'cucina e alimentazione', 'ambiente e natura', 'animali', 'tecnologia e internet', 'social network', 'volontariato', 'feste e tradizioni italiane', 'arte e musei', 'lavoro e orientamento', 'scienza e scoperte', 'città e quartieri', 'moda', 'lettura e libri', 'scambi e studio all’estero', 'salute', 'trasporti e mobilità', 'teatro', 'fotografia', 'giochi e videogiochi', 'patrimonio culturale italiano'];
+  const TEMPI = {
+    A1: 'presente indicativo (anche irregolari: essere, avere, andare, fare, volere, potere, dovere, sapere, dire, venire, uscire)',
+    A2: 'passato prossimo con essere e avere, accordo del participio, verbi riflessivi; qualche imperfetto e presente',
+    B1: 'presente, passato prossimo (anche riflessivi: si sono conosciuti, si è laureata), imperfetto e il loro contrasto in un racconto',
+    B2: 'indicativo (passato prossimo, imperfetto, trapassato), condizionale passato (sarebbe diventata), congiuntivo presente (possa), infinito passato (aver sfruttato), alternanza passato prossimo/imperfetto',
+    C1: 'tutti i tempi e modi: passato remoto, congiuntivo imperfetto e trapassato, condizionale passato, passivo (fu pubblicato, venne), forme implicite (gerundio, participio, infinito), concordanza dei tempi',
+    C2: 'tutti i tempi e modi, anche in registro letterario e forme rare: congiuntivo trapassato, condizionale passato, passivo, forme implicite, periodo ipotetico, concordanza complessa'
+  };
+  const V = (ids, cfg) => Object.fromEntries(ids.map(l => [l, cfg]));
+  const pick = (map, l) => map[l];
 
   /*
-   * Katalog der Aufgabentypen. levels: für welche Niveaus der Typ in den CILS-Heften vorkommt.
-   * spec(level): Vorgaben, die in den Auftrag an die KI wandern (eine Quelle für alle Zahlen).
-   * media: Hörtext kommt von der Lehrkraft (Transkript Pflicht).
+   * Katalog: je Typ und Niveau die Prova im Heft, die Originalanweisung (consegna) und die Anzahlen.
+   * Die consegna setzt daje selbst ein; die KI liefert nur Texte und Aufgaben.
    */
   const TYPES = [
-    {
-      id: 'asc-completa', part: 'ascolto', media: true, levels: ['A1', 'A2', 'B1'],
-      it: 'Completare il testo', de: 'Lückentext zum Gehörten: einzelne, gut hörbare Wörter ergänzen',
-      spec: l => ({ esercizi: 1, lacune: { A1: 10, A2: 14, B1: 28 }[l] })
-    },
-    {
-      id: 'asc-scelta', part: 'ascolto', media: true, levels: LEVELS,
-      it: 'Scelta multipla', de: 'Satzanfänge oder Fragen mit Auswahlantworten zum gehörten Text',
-      spec: l => ({ esercizi: 1, domande: by(domande, l), opzioni: by(opts, l) })
-    },
-    {
-      id: 'asc-info', part: 'ascolto', media: true, levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Informazioni presenti (vero o falso)', de: 'Zu jeder Aussage entscheiden: steht das im Hörtext (vero) oder nicht (falso)?',
-      spec: l => ({ esercizi: 1, affermazioni: by(vf, l), vere: 'circa la metà' })
-    },
-    {
-      id: 'asc-brevi', part: 'ascolto', media: true, levels: ['A1', 'A2'],
-      it: 'Testi brevi', de: 'Mehrere kurze Hörtexte, zu jedem genau eine zutreffende Aussage',
-      spec: () => ({ esercizi: 1, opzioni: 3 })
-    },
-    {
-      id: 'let-scelta', part: 'lettura', levels: LEVELS,
-      it: 'Testo con domande a scelta multipla', de: 'Lesetext mit Satzanfängen und Auswahlantworten',
-      spec: l => ({ parole: by(lungo, l), domande: by(domande, l), opzioni: by(opts, l) })
-    },
-    {
-      id: 'let-info', part: 'lettura', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Informazioni presenti (vero o falso)', de: 'Lesetext, dazu Aussagen: steht das im Text (vero) oder nicht (falso)?',
-      spec: l => ({ parole: by(lungo, l), affermazioni: by(vfLettura, l), vere: 'circa la metà' })
-    },
-    {
-      id: 'let-ricostruisci', part: 'lettura', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Ricostruzione del testo', de: 'Text in 11 Teilen, der erste ist vorgegeben: die übrigen in die richtige Reihenfolge bringen',
-      spec: () => ({ parti: 11, 'parole per parte': '15–40', prima: 'la parte A è sempre l’inizio e resta al suo posto' })
-    },
-    {
-      id: 'let-brevi', part: 'lettura', levels: ['A1', 'A2'],
-      it: 'Testi brevi', de: 'Vier kurze Gebrauchstexte, zu jedem genau eine zutreffende Aussage',
-      spec: () => ({ testi: 4, parole: '25–45 per testo', opzioni: 3 })
-    },
-    {
-      id: 'let-abbina', part: 'lettura', levels: ['A1', 'A2'],
-      it: 'Inizi e fini', de: 'Vier Textanfänge, acht Fortsetzungen: die passenden zuordnen',
-      spec: () => ({ inizi: 4, fini: 8 })
-    },
-    {
-      id: 'str-articoli', part: 'strutture', levels: ['A1', 'B1'],
-      it: 'Articoli e preposizioni articolate', de: 'A1: bestimmte Artikel; B1: Artikel und Präpositionen mit Artikel (Präposition in Klammern)',
-      spec: l => (l === 'A1' ? { lacune: 10, forme: 'il, lo, la, l’, i, gli, le' } : { lacune: 20, forme: 'articoli determinativi e indeterminativi; preposizioni articolate con la preposizione semplice tra parentesi: (di) [[della]]' })
-    },
-    {
-      id: 'str-aggettivi', part: 'strutture', levels: ['A2'],
-      it: 'Accordo degli aggettivi', de: 'Adjektive in der richtigen Form (Grundform in Klammern)',
-      spec: () => ({ lacune: 10 })
-    },
-    {
-      id: 'str-pronomi', part: 'strutture', levels: ['B2', 'C1', 'C2'],
-      it: 'Pronomi e determinanti', de: 'Offener Lückentext: Pronomen, Relativpronomen, Demonstrativa, Indefinita, Possessiva (je ein Wort)',
-      spec: l => ({ lacune: 20, forme: 'pronomi personali, relativi (che, chi, cui), dimostrativi (questo, quello, coloro), indefiniti (tutto, ogni, alcuni, qualcuno, nessuno, altro, tanto), possessivi (suo/proprio)' })
-    },
-    {
-      id: 'str-verbi', part: 'strutture', levels: LEVELS,
-      it: 'Forme verbali', de: 'Verben in der passenden Zeit und im passenden Modus (Infinitiv in Klammern)',
-      spec: l => ({ lacune: { A1: 10, A2: 10, '*': 20 }[l] ?? 20, tempi: TEMPI[l] })
-    },
-    {
-      id: 'str-scelta', part: 'strutture', levels: LEVELS,
-      it: 'Completamento a scelta multipla', de: 'Lückentext, je Lücke eine von mehreren Möglichkeiten (ab B1 vor allem Wortschatz)',
-      spec: l => ({ lacune: { A1: 8, A2: 9 }[l] ?? 15, opzioni: by(opts, l) })
-    },
-    {
-      id: 'str-situazioni', part: 'strutture', levels: ['B1', 'B2', 'C1', 'C2'],
-      it: 'Espressioni e situazioni comunicative', de: 'Zu jeder Äußerung die passende Situation wählen',
-      spec: () => ({ espressioni: 10, opzioni: 4 })
-    },
-    {
-      id: 'str-trasforma', part: 'strutture', levels: ['C1', 'C2'],
-      it: 'Trasformazione di frasi', de: 'Sätze umformen (Passiv, indirekte Rede, implizit/explizit, Nominalisierung)',
-      spec: l => ({ frasi: { C1: 8, C2: 10 }[l] })
-    },
-    {
-      id: 'str-registro', part: 'strutture', levels: ['C1', 'C2'],
-      it: 'Lessico e registro', de: 'Ausdruck durch gleichbedeutenden ersetzen (Synonyme, formelles Register)',
-      spec: l => ({ frasi: { C1: 8, C2: 10 }[l], opzioni: 4 })
-    },
-    {
-      id: 'scr-testo', part: 'scrittura', levels: LEVELS,
-      it: 'Testo descrittivo, narrativo o argomentativo', de: 'Schreibaufgabe 1: beschreiben, erzählen, ab B2 auch argumentieren',
-      spec: l => ({ compiti: '1–3', parole: { A1: '30–50', A2: '50–70', B1: '100–120', B2: '120–180', C1: '180–220', C2: '250–300' }[l] })
-    },
-    {
-      id: 'scr-lettera', part: 'scrittura', levels: LEVELS,
-      it: 'Lettera, e-mail o messaggio', de: 'Schreibaufgabe 2: Nachricht, Mail oder Brief (ab B2 auch formell)',
-      spec: l => ({ compiti: '1–3', parole: { A1: '20–40', A2: '35–50', B1: '50–80', B2: '80–100', C1: '120–150', C2: '150–200' }[l], registro: ['A1', 'A2', 'B1'].includes(l) ? 'informale' : 'informale o formale' })
-    },
-    {
-      id: 'ora-dialogo', part: 'orale', levels: LEVELS,
-      it: 'Conversazione', de: 'A1/A2 Rollenspiel; ab B1 Gespräch zu einem von vier Themen mit Fragen der Lehrkraft',
-      spec: l => (['A1', 'A2'].includes(l) ? { situazioni: 2, forma: 'gioco di ruolo', spunti: '3–5 espressioni utili' } : { situazioni: 4, forma: 'argomenti di conversazione, ognuno con una domanda iniziale', spunti: '4–6 domande di rilancio', durata: '2–3 minuti' })
-    },
-    {
-      id: 'ora-monologo', part: 'orale', levels: LEVELS,
-      it: 'Monologo', de: 'Kurzvortrag zu einem von vier Themen (im Heft auch zu Bildern; daje ohne Bilder)',
-      spec: l => ({ argomenti: ['A1', 'A2'].includes(l) ? 3 : 4, spunti: '4–6', durata: ['A1', 'A2'].includes(l) ? '1 minuto circa' : ['B1', 'B2'].includes(l) ? '1 minuto e mezzo circa' : '2–3 minuti' })
-    }
+    { id: 'asc-completa', part: 'ascolto', media: true, it: 'Completare il testo', de: 'Lückentext zum Gehörten: einzelne, gut hörbare Wörter ergänzen',
+      cfg: { A1: { prova: 1, lacune: 10 }, A2: { prova: 1, lacune: 14 }, B1: { prova: 1, lacune: 28 } },
+      consegna: () => 'Ascolta il testo. Completa il testo e scrivi le parole che mancano.' },
+    { id: 'asc-scelta', part: 'ascolto', media: true, it: 'Completa le frasi (scelta multipla)', de: 'Satzanfänge, je 3 (A1/A2) oder 4 Fortsetzungen zum Gehörten',
+      cfg: { A1: { prova: 2, frasi: 4, opzioni: 3 }, A2: { prova: 2, frasi: 4, opzioni: 3 }, B1: { prova: 2, frasi: 7, opzioni: 4 }, B2: { prova: '1 (7 testi brevi, una frase per testo) o 2 (un testo)', frasi: 7, opzioni: 4 }, ...V(['C1', 'C2'], { prova: '1 o 2', frasi: 7, opzioni: 4 }) },
+      consegna: (l, x) => (x && x.piuTesti ? 'Ascolta i testi.' : C.ascT) + ' ' + (['A1', 'A2'].includes(l) ? C.tre : C.quattro) },
+    { id: 'asc-brevi', part: 'ascolto', media: true, it: 'Testi brevi (una informazione per testo)', de: 'Vier kurze Hörtexte, zu jedem genau eine zutreffende Aussage',
+      cfg: V(['A1', 'A2'], { prova: 3, testi: 4, opzioni: 3 }),
+      consegna: l => (l === 'A1' ? 'Ascolta i testi. Poi leggi le informazioni. Scegli le informazioni presenti nel testo (una per testo).' : 'Ascolta i testi. Poi leggi le informazioni. Scegli le informazioni presenti nei testi (1 informazione per testo).') },
+    { id: 'asc-info', part: 'ascolto', media: true, it: 'Informazioni presenti', de: 'B1/B2: vero oder falso zu 12 Aussagen; C1/C2: die 6 zutreffenden von 15 Aussagen (A–O) wählen',
+      cfg: { B1: { prova: 3, affermazioni: 12, formato: 'vero/falso', vere: 'circa la metà' }, B2: { prova: 3, affermazioni: 12, formato: 'vero/falso', vere: 'circa la metà' }, ...V(['C1', 'C2'], { prova: 3, affermazioni: 15, formato: 'scegli le presenti (A–O)', presenti: 6 }) },
+      consegna: l => ({ B1: 'Ascolta i testi. Poi leggi le informazioni. Scegli le informazioni presenti nei testi.', B2: 'Ascolta il testo. Poi leggi le informazioni. Indica se le informazioni sono vere o false.', C1: 'Ascolta il testo. Poi leggi le informazioni. Scegli le 6 informazioni (da A a O) presenti nel testo.', C2: 'Ascolta i testi. Poi leggi le informazioni. Scegli le 6 informazioni (da A a O) presenti nei testi.' })[l] },
+    { id: 'let-scelta', part: 'lettura', it: 'Testo e completa le frasi', de: 'Lesetext mit Satzanfängen und 3 (A1/A2) bzw. 4 Fortsetzungen',
+      cfg: { A1: { prova: 1, parole: '90–130', frasi: 4, opzioni: 3, genere: 'avviso o testo informativo per ragazzi' }, A2: { prova: 1, parole: '150–200', frasi: 4, opzioni: 3, genere: 'intervista breve o testo informativo' }, B1: { prova: 1, parole: '380–420', frasi: 7, opzioni: 4, genere: 'articolo di giornale' }, B2: { prova: 1, parole: '450–500', frasi: 7, opzioni: 4, genere: 'intervista o articolo' }, C1: { prova: 1, parole: '600–700', frasi: 7, opzioni: 4, genere: 'intervista o saggio giornalistico' }, C2: { prova: 1, parole: '800–950', frasi: 7, opzioni: 4, genere: 'articolo di approfondimento o saggio' } },
+      consegna: l => (['A1', 'A2'].includes(l) ? 'Leggi il testo. Poi completa le frasi. Scegli una delle tre proposte di completamento.' : ['B1', 'B2'].includes(l) ? 'Completa le frasi. Scegli una delle quattro proposte di completamento.' : 'Completa le seguenti frasi. Scegli una delle quattro proposte di completamento che ti diamo per ogni frase.') },
+    { id: 'let-info', part: 'lettura', it: 'Informazioni presenti', de: 'B1/B2: vero oder falso zu 14 Aussagen; C1/C2: die 7 zutreffenden von 15 Aussagen (A–O) wählen',
+      cfg: { B1: { prova: 2, parole: '330–380', affermazioni: 14, formato: 'vero/falso', genere: 'presentazione di un festival, concorso o iniziativa' }, B2: { prova: 2, parole: '400–450', affermazioni: 14, formato: 'vero/falso', genere: 'regolamento (articoli numerati)' }, C1: { prova: 2, parole: '650–750', affermazioni: 15, presenti: 7, formato: 'scegli le presenti (A–O)', genere: 'bando o regolamento ufficiale con sezioni' }, C2: { prova: 2, parole: '800–950', affermazioni: 15, presenti: 7, formato: 'scegli le presenti (A–O)', genere: 'bando ufficiale con sezioni ed elenchi' } },
+      consegna: l => ({ B1: 'Leggi le seguenti informazioni. Scegli le informazioni presenti nel testo.', B2: 'Leggi le informazioni. Indica se le informazioni sono vere o false.', C1: 'Leggi le informazioni. Scegli le 7 informazioni (da A a O) presenti nel testo che hai letto.', C2: 'Leggi le informazioni. Scegli le 7 informazioni (da A a O) presenti nel testo.' })[l] },
+    { id: 'let-ricostruisci', part: 'lettura', it: 'Ricostruzione del testo', de: 'Text in 11 (B1/B2) bzw. 16 Teilen (C1/C2), A ist der Anfang: Nummer der Position neben jeden Teil schreiben',
+      cfg: { ...V(['B1', 'B2'], { prova: 3, parti: 11, 'parole per parte': '15–35' }), ...V(['C1', 'C2'], { prova: 3, parti: 16, 'parole per parte': '20–40' }) },
+      consegna: (l, x, n) => `Leggi il testo. Il testo è diviso in ${n} parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d’ordine accanto a ciascuna parte.` },
+    { id: 'let-brevi', part: 'lettura', it: 'Testi brevi (una informazione per testo)', de: 'Vier kurze Gebrauchstexte mit Überschrift, je genau eine zutreffende Aussage',
+      cfg: { A1: { prova: 2, testi: 4, parole: '20–40 per testo', opzioni: 3 }, A2: { prova: 2, testi: 4, parole: '30–50 per testo', opzioni: 3 } },
+      consegna: l => (l === 'A1' ? 'Leggi i testi. Poi leggi le informazioni. Scegli le informazioni presenti nei testi (una per testo).' : 'Leggi i testi. Poi leggi le informazioni. Scegli le informazioni presenti nei testi (1 informazione per testo).') },
+    { id: 'let-abbina', part: 'lettura', it: 'Testi da completare (A–H)', de: 'Vier Textanfänge, acht Fortsetzungen A–H: die vier passenden wählen',
+      cfg: V(['A1', 'A2'], { prova: 3, testi: 4, completamenti: 8 }),
+      consegna: () => 'Leggi i testi. Scegli tra i testi da A ad H i quattro che completano i testi da 1 a 4.' },
+    { id: 'str-articoli', part: 'strutture', it: 'Articoli (e preposizioni articolate)', de: 'A1: bestimmte Artikel (10); B1: Artikel und Präpositionen mit Artikel, Präposition in Klammern (20)',
+      cfg: { A1: { prova: 1, lacune: 10, forme: 'il, lo, la, l’, i, gli, le' }, B1: { prova: 1, lacune: 20, forme: 'articoli determinativi e indeterminativi; preposizioni articolate con la preposizione semplice tra parentesi: (di) [[della]]' } },
+      consegna: l => (l === 'A1' ? 'Completa il testo con gli articoli determinativi (il, lo, la, l’, i, gli, le).' : 'Completa il testo con gli articoli e le preposizioni articolate: utilizza le preposizioni fra parentesi.') },
+    { id: 'str-aggettivi', part: 'strutture', it: 'Aggettivi', de: 'Adjektive in der richtigen Form (Grundform in Klammern)',
+      cfg: { A2: { prova: 1, lacune: 10 } },
+      consegna: () => 'Completa il testo con le forme giuste degli aggettivi che sono tra parentesi.' },
+    { id: 'str-pronomi', part: 'strutture', it: 'Aggettivi e pronomi', de: 'Offener Lückentext: Possessiva, Demonstrativa, Indefinita, Pronomen (20)',
+      cfg: { B2: { prova: 1, lacune: 20, forme: 'possessivi (nostri, suo/proprio), dimostrativi (questo, quello, coloro), indefiniti (tutto, ogni, alcuni, qualcuno, nessuno, tanto, altro), pronomi personali e relativi (che, chi, cui)' } },
+      consegna: () => 'Completa il testo con gli aggettivi e i pronomi.' },
+    { id: 'str-parola', part: 'strutture', it: 'Completa il testo', de: 'Offener Lückentext: Konnektoren, Präpositionen, Relativ- und andere Pronomen (20)',
+      cfg: V(['C1', 'C2'], { prova: 1, lacune: 20, forme: 'connettivi e congiunzioni (ma, benché, affinché, sebbene, dunque, infatti, mentre, poiché), preposizioni e locuzioni (fino a, a causa di, in modo da), pronomi relativi e personali, avverbi' }),
+      consegna: () => 'Completa il testo.' },
+    { id: 'str-verbi', part: 'strutture', it: 'Verbi', de: 'Verben in der passenden Form; Infinitiv in Klammern (A1/A2: 10, ab B1: 20)',
+      cfg: { A1: { prova: 2, lacune: 10, tempi: TEMPI.A1 }, A2: { prova: 2, lacune: 10, tempi: TEMPI.A2 }, B1: { prova: 2, lacune: 20, tempi: TEMPI.B1 }, B2: { prova: 2, lacune: 20, tempi: TEMPI.B2 }, C1: { prova: 2, lacune: 20, tempi: TEMPI.C1 }, C2: { prova: 2, lacune: 20, tempi: TEMPI.C2 } },
+      consegna: l => (l === 'A1' ? 'Completa il testo con le forme al presente indicativo dei verbi che sono tra parentesi.' : ['C1', 'C2'].includes(l) ? 'Completa il testo. Inserisci i verbi.' : 'Completa il testo con le forme giuste dei verbi che sono tra parentesi.') },
+    { id: 'str-scelta', part: 'strutture', it: 'Completa il testo (scelta multipla)', de: 'Lückentext mit Auswahltabelle: A1/A2 8 Lücken mit A–C, ab B1 15 Lücken mit A–D (vor allem Wortschatz)',
+      cfg: { A1: { prova: 3, lacune: 8, opzioni: 3 }, A2: { prova: 3, lacune: 8, opzioni: 3 }, ...V(['B1', 'B2', 'C1', 'C2'], { prova: 3, lacune: 15, opzioni: 4 }) },
+      consegna: l => (l === 'A1' ? 'Completa il testo. Scegli una delle tre proposte di completamento.' : l === 'C2' ? 'Completa il testo. Scegli una delle proposte di completamento.' : 'Completa il testo. Scegli una delle proposte di completamento che ti diamo.') },
+    { id: 'str-situazioni', part: 'strutture', it: 'Espressioni e situazioni di comunicazione', de: 'Zu jeder Äußerung die passende von vier Situationen wählen (10)',
+      cfg: V(['B1', 'B2'], { prova: 4, espressioni: 10, opzioni: 4 }),
+      consegna: () => 'Scegli per ogni espressione una delle quattro situazioni di comunicazione che ti diamo.' },
+    { id: 'str-trasforma', part: 'strutture', it: 'Riscrivi le frasi', de: 'Sätze eines Regelwerks umformen; der Satzanfang ist vorgegeben, die Bedeutung bleibt gleich (6)',
+      cfg: V(['C1', 'C2'], { prova: 4, frasi: 6, genere: 'regolamento o bando (frasi da 25–50 parole)' }),
+      consegna: () => 'Riscrivi le frasi. Inizia dalle parole che ti diamo e cambia la struttura sintattica. Se necessario, usa anche parole non presenti nel testo. Ogni frase deve avere lo stesso significato della frase corrispondente nel testo.' },
+    { id: 'scr-testo', part: 'scrittura', it: 'Produzione scritta · Prova 1', de: 'Zwei Themen zur Wahl; C1: Stellungnahme 160–180 Wörter',
+      cfg: { A1: { prova: 1, argomenti: 2, parole: '30–50' }, A2: { prova: 1, argomenti: 2, parole: '50–70' }, B1: { prova: 1, argomenti: 2, parole: '100–120' }, B2: { prova: 1, argomenti: 2, parole: '120–150' }, C1: { prova: 1, argomenti: 2, parole: '160–180', genere: 'testo argomentativo: considerazioni, vantaggi e svantaggi, punto di vista' }, C2: { prova: 1, argomenti: 2, parole: '200–250', genere: 'testo argomentativo' } },
+      consegna: (l, x, n, c) => `Puoi scegliere di trattare uno dei seguenti argomenti. Devi scrivere da ${String(c.parole).split('–')[0]} a ${String(c.parole).split('–')[1]} parole.` },
+    { id: 'scr-lettera', part: 'scrittura', it: 'Produzione scritta · Prova 2', de: 'Zwei Situationen zur Wahl: Mail oder Brief; C1: formelle Mail 100–120 Wörter',
+      cfg: { A1: { prova: 2, argomenti: 2, parole: '20–40', registro: 'informale' }, A2: { prova: 2, argomenti: 2, parole: '35–50', registro: 'informale' }, B1: { prova: 2, argomenti: 2, parole: '50–80', registro: 'informale' }, B2: { prova: 2, argomenti: 2, parole: '80–100', registro: 'informale o formale' }, C1: { prova: 2, argomenti: 2, parole: '100–120', registro: 'email formale (reclamo, proposta, richiesta)' }, C2: { prova: 2, argomenti: 2, parole: '120–150', registro: 'formale' } },
+      consegna: (l, x, n, c) => `Puoi scegliere di trattare uno dei seguenti argomenti. Devi scrivere da ${String(c.parole).split('–')[0]} a ${String(c.parole).split('–')[1]} parole.` },
+    { id: 'ora-dialogo', part: 'orale', it: 'Produzione orale · Prova 1', de: 'A1/A2: zwei Rollenspiele; B1/B2: vier Gesprächsthemen; C1: vier Rollen; C2: vier Diskussionsthemen',
+      cfg: { A1: { prova: 1, situazioni: 2, durata: '2–3 minuti circa', forma: 'gioco di ruolo semplice' }, A2: { prova: 1, situazioni: 2, durata: '2–3 minuti circa', forma: 'gioco di ruolo semplice' }, ...V(['B1', 'B2'], { prova: 1, situazioni: 4, durata: '2–3 minuti circa', forma: 'argomento di conversazione con domande' }), C1: { prova: 1, situazioni: 4, durata: '3–4 minuti circa', forma: 'situazione complessa in cui assumere un ruolo' }, C2: { prova: 1, situazioni: 4, durata: '3–4 minuti circa', forma: 'tesi da discutere («Esprimi la tua opinione.»)' } },
+      consegna: l => ({ A1: 'Il candidato dovrà dimostrare di saper interagire in una delle seguenti situazioni:', A2: 'Il candidato dovrà dimostrare di saper interagire in una delle seguenti situazioni:', B1: 'L’esaminatore dovrà fare un dialogo con il candidato su uno dei seguenti argomenti:', B2: 'Il somministratore dovrà fare un dialogo con il candidato su uno dei seguenti argomenti:', C1: 'Il candidato dovrà dimostrare di saper assumere il ruolo richiesto in una delle seguenti situazioni:', C2: 'Il candidato dovrà sostenere una discussione con l’esaminatore, esprimendo le proprie opinioni in proposito, su uno dei seguenti argomenti:' })[l] },
+    { id: 'ora-monologo', part: 'orale', it: 'Produzione orale · Prova 2', de: 'Monolog zu einem Thema: A1/A2 drei, ab B1 vier Themen (im Heft teils Bilder, in daje als Text)',
+      cfg: { ...V(['A1', 'A2'], { prova: 2, argomenti: 3, durata: '1 minuto e mezzo circa' }), ...V(['B1', 'B2'], { prova: 2, argomenti: 4, durata: '1 minuto e mezzo circa' }), C1: { prova: 2, argomenti: 4, durata: '2–3 minuti circa', forma: 'spunto con dati o affermazione + domanda («Che cosa ne pensi?»)' }, C2: { prova: 2, argomenti: 4, durata: '2–3 minuti circa', forma: 'spunto argomentativo («Esprimi la tua opinione.»)' } },
+      consegna: l => (['A1', 'A2', 'B1', 'B2'].includes(l) ? 'L’esaminatore inviterà il candidato a parlare su uno dei seguenti argomenti:' : l === 'C1' ? 'Il candidato dovrà fare una breve esposizione ed esprimere le opinioni personali su uno dei seguenti temi:' : 'Il candidato dovrà dimostrare di essere in grado di fare un’esposizione sintetica, ma caratterizzata da completezza, su uno dei seguenti argomenti:') }
   ];
+  TYPES.forEach(t => {
+    t.levels = LEVELS.filter(l => t.cfg[l]);
+    t.spec = l => ({ ...t.cfg[l] });
+  });
+  // Typen mit Lese- bzw. Lückentext, für die ein echter Ausgangstext aus dem Netz taugt
+  const TEXTO = ['let-scelta', 'let-info', 'let-ricostruisci', 'str-articoli', 'str-aggettivi', 'str-pronomi', 'str-parola', 'str-verbi', 'str-scelta', 'str-trasforma'];
   const typeById = id => TYPES.find(t => t.id === id);
   const typesFor = level => TYPES.filter(t => t.levels.includes(level));
 
@@ -218,9 +185,22 @@
     need(right >= 1 && right < a.length, 'Mindestens eine Aussage muss stimmen und mindestens eine nicht.');
     return a.map((x, i) => help1({ id: 'q' + (i + 1), type: 'true_false', prompt: x.text, answer: x.on }, i, help));
   }
+  // B1/B2: je Aussage vero/falso; C1/C2: aus 15 Aussagen (A–O) genau die vorgegebene Zahl wählen
+  function infoQs(x, c, help) {
+    if (!c.spec.presenti) return vfQs(x.affermazioni, help);
+    const a = arr(x.affermazioni).map(y => ({ text: tidy(y.testo || y), on: y.presente === true || y.vero === true }));
+    need(a.length === c.spec.affermazioni, `Bitte genau ${c.spec.affermazioni} Aussagen (A–O), geliefert: ${a.length}.`);
+    need(a.filter(y => y.on).length === c.spec.presenti, `Genau ${c.spec.presenti} Aussagen müssen im Text stehen, geliefert: ${a.filter(y => y.on).length}.`);
+    const L = 'ABCDEFGHIJKLMNO';
+    const options = a.map((y, i) => ({ id: 'o' + (i + 1), text: `${L[i]}. ${y.text}` }));
+    return [{ id: 'q1', type: 'multiple_choice', prompt: c.consegna, promptHelp: help, options, correctOptionIds: options.filter((o, i) => a[i].on).map(o => o.id) }];
+  }
+  // Anweisung wie im Heft, auf Wunsch mit Beispiel (0)
+  const head = (c, x) => s(c.consegna + (x && x.esempio ? '\nEsempio: (0) ' + tidy(x.esempio) : ''), 1000);
   function openGaps(x, c, help) {
     const g = gaps(x.testo, 'fill', c.seed);
-    return { questions: [{ id: 'q1', type: 'gap_fill', prompt: tidy(x.consegna || 'Completa il testo.'), promptHelp: help, text: g.text, gaps: g.gaps }] };
+    need(!c.spec.lacune || g.gaps.length === c.spec.lacune, `Der Text hat ${g.gaps.length} Lücken, verlangt sind ${c.spec.lacune}.`);
+    return { questions: [{ id: 'q1', type: 'gap_fill', prompt: head(c, x), promptHelp: help, text: g.text, gaps: g.gaps }] };
   }
   function writing(x, c) {
     const w = arr(x.compiti);
@@ -231,65 +211,63 @@
         const q = {
           id: 'q' + (i + 1),
           type: 'open_answer',
-          prompt: s(`${tidy(y.consegna)} (${words} parole)`, 1000),
+          prompt: s(`${i === 0 ? c.consegna + '\n\n' : ''}Argomento ${i + 1}: ${tidy(y.consegna)}`, 1000),
           modelAnswer: s(tidy(y.modello), 2000),
           lines: Math.min(15, Math.max(6, Math.round((parseInt(words.split('–').pop(), 10) || 80) / 10)))
         };
         if (arr(y.criteri).length) q.explanation = s('Controlla: ' + arr(y.criteri).map(tidy).join(' · '), 1500);
-        return help1(q, i, 'Schreibe den Text. Vergleiche danach mit dem Mustertext und der Checkliste.');
+        return help1(q, i, `Wähle eines der Themen und schreib ${words} Wörter. Vergleiche danach mit dem Mustertext und der Checkliste.`);
       })
     };
   }
 
+  // Die erste Teilaufgabe trägt die Anweisung des Hefts; Einzelfragen behalten ihren Satzanfang
+  const first = (qs, c) => qs.map((q, i) => (i === 0 && q.type !== 'multiple_choice' ? { ...q, prompt: s(c.consegna + '\n\n' + q.prompt, 1000) } : q));
+
   // Baustein je Typ: aus einer Übung der KI-Antwort die Felder des Pakets
   const BUILD = {
-    'asc-scelta': x => ({ questions: mcList(x.domande, 'Hör den Text. Wähle jeweils die richtige Antwort.') }),
-    'asc-info': x => ({ questions: vfQs(x.affermazioni, 'Hör den Text. Steht die Information im Text (vero) oder nicht (falso)?') }),
-    'asc-completa': (x, c) => {
-      const g = gaps(x.testo, 'fill', c.seed);
-      return { questions: [{ id: 'q1', type: 'gap_fill', prompt: tidy(x.consegna || 'Ascolta il testo e completa con le parole che mancano.'), promptHelp: 'Hör den Text. Ergänze die fehlenden Wörter.', text: g.text, gaps: g.gaps }] };
-    },
-    'asc-brevi': x => {
+    'asc-scelta': (x, c) => ({ questions: first(mcList(x.domande, 'Hör den Text. Wähle jeweils die richtige Fortsetzung.'), c) }),
+    'asc-info': (x, c) => ({ questions: first(infoQs(x, c, c.spec.presenti ? `Hör den Text. Kreuze die ${c.spec.presenti} Aussagen an, die im Text vorkommen.` : 'Hör den Text. Stimmt die Aussage (vero) oder nicht (falso)?'), c) }),
+    'asc-completa': (x, c) => openGaps(x, c, 'Hör den Text. Ergänze die fehlenden Wörter.'),
+    'asc-brevi': (x, c) => {
       const t = arr(x.testi);
       need(t.length >= 2, 'Bitte mindestens zwei Kurztexte (testi).');
-      return { questions: t.map((y, i) => help1(choice('q' + (i + 1), `Testo ${y.numero || i + 1}: scegli l’informazione presente nel testo.`, y.opzioni, y.giusta), i, 'Wähle zu jedem Text die Information, die vorkommt.')) };
+      return { questions: first(t.map((y, i) => help1(choice('q' + (i + 1), `Testo ${y.numero || i + 1}`, y.opzioni, y.giusta), i, 'Wähle zu jedem Text die Information, die vorkommt.')), c) };
     },
-    'let-scelta': x => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: mcList(x.domande, 'Lies den Text. Wähle jeweils die richtige Antwort.') }),
-    'let-info': x => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: vfQs(x.affermazioni, 'Lies den Text. Steht die Information im Text (vero) oder nicht (falso)?') }),
+    'let-scelta': (x, c) => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: first(mcList(x.domande, 'Lies den Text. Wähle jeweils die richtige Fortsetzung.'), c) }),
+    'let-info': (x, c) => ({ reading: { title: tidy(x.titolo), text: tidy(x.testo) }, questions: first(infoQs(x, c, c.spec.presenti ? `Lies den Text. Kreuze die ${c.spec.presenti} Aussagen an, die im Text stehen.` : 'Lies den Text. Stimmt die Aussage (vero) oder nicht (falso)?'), c) }),
     'let-ricostruisci': (x, c) => {
       const p = arr(x.parti).map(tidy).filter(Boolean);
-      need(p.length >= 3 && p.length <= 14, 'Bitte 3 bis 14 Textabschnitte (parti).');
-      const head = tidy(x.consegna || 'Leggi il testo. Le parti non sono in ordine. Ricostruisci il testo.') + (x.titolo ? ` (${tidy(x.titolo)})` : '');
-      if (p.length <= 8 && p.every(t => t.length <= 300))
-        return { questions: [{ id: 'q1', type: 'ordering', prompt: head, promptHelp: 'Bring die Textabschnitte in die richtige Reihenfolge.', items: p.map((t, i) => ({ id: 'p' + (i + 1), text: t })) }] };
-      // wie im Heft: A ist der Anfang, die übrigen Teile tragen gemischte Buchstaben; die Reihenfolge wird eingetragen
+      need(p.length === c.spec.parti, `Bitte genau ${c.spec.parti} Textteile (parti), geliefert: ${p.length}.`);
+      // wie im Heft: A ist der Anfang (Position 1), die übrigen Teile tragen gemischte Buchstaben B, C, …;
+      // neben jeden Buchstaben kommt die Nummer seiner Position
       const rest = shuffle(p.slice(1).map((t, i) => ({ t, pos: i + 2 })), c.seed);
       const L = 'ABCDEFGHIJKLMNOP';
       rest.forEach((r, i) => (r.letter = L[i + 1]));
-      const byPos = Object.fromEntries(rest.map(r => [r.pos, r.letter]));
+      rest.sort((u, v) => u.letter.localeCompare(v.letter));
       return {
         reading: { title: tidy(x.titolo || ''), text: [`A. ${p[0]}`, ...rest.map(r => `${r.letter}. ${r.t}`)].join('\n\n') },
         questions: [
           {
             id: 'q1',
             type: 'gap_fill',
-            prompt: head + ' La parte A è l’inizio. Scrivi la lettera giusta per ogni posizione.',
-            promptHelp: `Teil A ist der Anfang. Trage für die Plätze 2 bis ${p.length} jeweils den Buchstaben des passenden Teils ein.`,
-            text: ['1. A', ...p.slice(1).map((_, i) => `${i + 2}. [[g${i + 2}]]`)].join(' · '),
-            gaps: p.slice(1).map((_, i) => ({ id: 'g' + (i + 2), acceptedAnswers: [byPos[i + 2]] }))
+            prompt: c.consegna,
+            promptHelp: `Teil A ist der Anfang (1). Schreib neben jeden Buchstaben die Nummer seiner Position (2 bis ${p.length}).`,
+            text: ['A = 1', ...rest.map(r => `${r.letter} = [[${r.letter.toLowerCase()}]]`)].join(' · '),
+            gaps: rest.map(r => ({ id: r.letter.toLowerCase(), acceptedAnswers: [String(r.pos)] }))
           }
         ]
       };
     },
-    'let-brevi': x => {
+    'let-brevi': (x, c) => {
       const t = arr(x.testi);
       need(t.length >= 2, 'Bitte mindestens zwei Kurztexte (testi).');
       return {
         reading: { title: tidy(x.titolo || ''), text: t.map((y, i) => `${i + 1}. ${tidy(y.titolo)}\n${tidy(y.testo)}`).join('\n\n') },
-        questions: t.map((y, i) => help1(choice('q' + (i + 1), `Testo ${i + 1}${y.titolo ? ' · ' + tidy(y.titolo) : ''}: scegli l’informazione presente nel testo.`, y.opzioni, y.giusta), i, 'Wähle zu jedem Text die Information, die darin steht.'))
+        questions: first(t.map((y, i) => help1(choice('q' + (i + 1), `Testo ${i + 1}${y.titolo ? ' · ' + tidy(y.titolo) : ''}`, y.opzioni, y.giusta), i, 'Wähle zu jedem Text die Information, die darin steht.')), c)
       };
     },
-    'let-abbina': x => {
+    'let-abbina': (x, c) => {
       const fini = x.fini || {};
       const used = new Set();
       const pairs = arr(x.inizi).map((y, i) => {
@@ -302,50 +280,54 @@
       need(pairs.length >= 2, 'Bitte mindestens zwei Textanfänge (inizi).');
       const distractors = Object.keys(fini).filter(k => !used.has(k)).slice(0, 4).map(k => s(tidy(fini[k]), 300));
       return {
-        questions: [{ id: 'q1', type: 'matching', prompt: ('Leggi i testi. Scegli la parte che completa ogni testo. ' + (distractors.length ? distractors.length + ' parti non servono.' : '')).trim(), promptHelp: 'Ordne jedem Textanfang die passende Fortsetzung zu. Einige Fortsetzungen bleiben übrig.', pairs, distractors }]
+        questions: [{ id: 'q1', type: 'matching', prompt: c.consegna, promptHelp: 'Ordne jedem Textanfang die passende Fortsetzung zu. Einige Fortsetzungen bleiben übrig.', pairs, distractors }]
       };
     },
-    'str-articoli': (x, c) => openGaps(x, c, 'Ergänze die bestimmten Artikel.'),
+    'str-articoli': (x, c) => openGaps(x, c, c.level === 'A1' ? 'Ergänze die bestimmten Artikel.' : 'Ergänze Artikel und Präpositionen mit Artikel (Präposition in Klammern).'),
     'str-aggettivi': (x, c) => openGaps(x, c, 'Ergänze die Adjektive in der richtigen Form.'),
     'str-verbi': (x, c) => openGaps(x, c, 'Ergänze die Verben in der passenden Form.'),
     'str-parola': (x, c) => openGaps(x, c, 'Ergänze jeweils ein passendes Wort.'),
     'str-pronomi': (x, c) => openGaps(x, c, 'Ergänze die passenden Pronomen.'),
     'str-scelta': (x, c) => {
       const g = gaps(x.testo, 'choice', c.seed);
-      return { questions: [{ id: 'q1', type: 'gap_choice', prompt: tidy(x.consegna || 'Completa il testo. Scegli una delle proposte.'), promptHelp: 'Ergänze den Text. Wähle jeweils die passende Möglichkeit.', text: g.text, gaps: g.gaps }] };
+      need(g.gaps.length === c.spec.lacune, `Der Text hat ${g.gaps.length} Lücken, verlangt sind ${c.spec.lacune}.`);
+      need(g.gaps.every(y => y.options.length === c.spec.opzioni), `Jede Lücke braucht genau ${c.spec.opzioni} Möglichkeiten.`);
+      return { questions: [{ id: 'q1', type: 'gap_choice', prompt: head(c, x), promptHelp: 'Ergänze den Text. Wähle jeweils die passende Möglichkeit.', text: g.text, gaps: g.gaps }] };
     },
-    'str-situazioni': x => {
+    'str-situazioni': (x, c) => {
       const e = arr(x.espressioni);
       need(e.length, 'Keine Äußerungen (espressioni) gefunden.');
-      return { questions: e.map((y, i) => help1(choice('q' + (i + 1), `«${tidy(y.espressione).replace(/^[«"“]+|[»"”]+$/g, '')}»`, y.opzioni, y.giusta), i, 'In welcher Situation sagt man das? Wähle die passende Situation.')) };
+      return { questions: first(e.map((y, i) => help1(choice('q' + (i + 1), `«${tidy(y.espressione).replace(/^[«"“]+|[»"”]+$/g, '')}»`, y.opzioni, y.giusta), i, 'In welcher Situation sagt man das? Wähle die passende Situation.')), c) };
     },
-    'str-trasforma': x => {
+    'str-trasforma': (x, c) => {
       const f = arr(x.frasi);
       need(f.length, 'Keine Sätze (frasi) gefunden.');
       return {
-        questions: f.map((y, i) => {
-          const sol = arr(y.soluzioni).map(tidy).filter(Boolean);
-          need(sol.length, `Satz ${i + 1}: Lösung (soluzioni) fehlt.`);
-          return help1({ id: 'q' + (i + 1), type: 'short_answer', prompt: s(`${tidy(y.istruzione)}: ${tidy(y.frase)}`, 1000), acceptedAnswers: sol.slice(0, 8), modelAnswer: sol[0] }, i, 'Forme den Satz wie angegeben um.');
-        })
+        questions: first(
+          f.map((y, i) => {
+            const start = tidy(y.inizio).replace(/[\s.…]+$/, '');
+            need(start, `Satz ${i + 1}: Satzanfang (inizio) fehlt.`);
+            // Lösungen ohne den vorgegebenen Anfang; wer ihn mitschreibt, wird trotzdem richtig bewertet
+            const cut = t => (t.toLowerCase().startsWith(start.toLowerCase()) ? t.slice(start.length).trim() : t);
+            const sol = [...new Set(arr(y.soluzioni).map(tidy).filter(Boolean).flatMap(t => [cut(t), start + ' ' + cut(t)]))];
+            need(sol.length, `Satz ${i + 1}: Lösung (soluzioni) fehlt.`);
+            return help1({ id: 'q' + (i + 1), type: 'short_answer', prompt: s(`${i + 1}. ${tidy(y.frase)}\n→ ${start.toUpperCase()} …`, 1000), acceptedAnswers: sol.slice(0, 8), modelAnswer: start + ' ' + cut(sol[0]) }, i, 'Schreib den Satz mit dem vorgegebenen Anfang weiter. Die Bedeutung bleibt gleich.');
+          }),
+          c
+        )
       };
-    },
-    'str-registro': x => {
-      const f = arr(x.frasi);
-      need(f.length, 'Keine Sätze (frasi) gefunden.');
-      return { questions: f.map((y, i) => help1(choice('q' + (i + 1), tidy(y.frase).replace(/\*([^*]+)\*/g, '«$1»'), y.opzioni, y.giusta), i, 'Wähle den Ausdruck, der den markierten am besten ersetzt.')) };
     },
     'scr-testo': writing,
     'scr-lettera': writing,
-    'ora-dialogo': x => {
+    'ora-dialogo': (x, c) => {
       const t = arr(x.situazioni);
       need(t.length, 'Keine Situationen (situazioni) gefunden.');
-      return { questions: t.slice(0, 4).map((y, i) => help1({ id: 'q' + (i + 1), type: 'open_answer', prompt: s(`Situazione ${i + 1}: ${tidy(y.situazione || y)}`, 1000), modelAnswer: s(arr(y.spunti).map(tidy).join('\n'), 2000), lines: 4 }, i, 'Rollenspiel: Die Lehrkraft übernimmt die andere Rolle.')) };
+      return { questions: t.slice(0, 4).map((y, i) => help1({ id: 'q' + (i + 1), type: 'open_answer', prompt: s(`${i === 0 ? c.consegna + '\n\n' : ''}${i + 1}. ${tidy(y.situazione || y)}`, 1000), modelAnswer: s(arr(y.spunti).map(tidy).join('\n'), 2000), lines: 4 }, i, `Wähle eine Situation (${c.spec.durata.replace(' circa', '').replace('minuti', 'Minuten')}). Die Lehrkraft übernimmt die andere Rolle.`)) };
     },
     'ora-monologo': (x, c) => {
       const t = arr(x.argomenti);
       need(t.length, 'Keine Themen (argomenti) gefunden.');
-      return { questions: t.slice(0, 4).map((y, i) => help1({ id: 'q' + (i + 1), type: 'open_answer', prompt: s(`Argomento ${i + 1}: ${tidy(y.argomento || y)}${y.stimolo ? '\n' + tidy(y.stimolo) : ''}\nParla per ${c.spec.durata}.`, 1000), modelAnswer: s(arr(y.spunti).map(tidy).join('\n'), 2000), lines: 4 }, i, 'Kurzvortrag: Bereite dich mit den Leitfragen vor und sprich frei.')) };
+      return { questions: t.slice(0, 4).map((y, i) => help1({ id: 'q' + (i + 1), type: 'open_answer', prompt: s(`${i === 0 ? c.consegna + '\n\n' : ''}${i + 1}. ${tidy(y.argomento || y)}${y.stimolo ? '\n' + tidy(y.stimolo) : ''}`, 1000), modelAnswer: s(arr(y.spunti).map(tidy).join('\n'), 2000), lines: 4 }, i, `Wähle ein Thema und sprich frei (${c.spec.durata.replace(' circa', '').replace('minuti', 'Minuten').replace('1 minuto e mezzo', 'anderthalb Minuten')}).`)) };
     }
   };
 
@@ -390,9 +372,22 @@
     list = list.slice(0, type.media || type.part === 'scrittura' || type.part === 'orale' ? 1 : 3);
     const notes = arr(ai.noteDocente).map(x => s(x, 300)).filter(Boolean).slice(0, 10);
     const part = PARTS[type.part];
+    // Adaptierter Text aus dem Netz: Quelle festhalten, Rechte gelten als ungeprüft
+    const f = ai.fonte && typeof ai.fonte === 'object' ? ai.fonte : null;
+    const furl = f && /^https:\/\/\S+$/.test(String(f.url || '').trim()) ? String(f.url).trim().slice(0, 500) : '';
+    const fonte =
+      f && (f.testata || f.titolo || furl)
+        ? {
+            kind: 'external',
+            citation: s(`Testo adattato da: ${[f.autore, f.titolo ? '«' + f.titolo + '»' : '', f.testata, f.data].map(v => s(v, 200)).filter(Boolean).join(', ')}. Kürzung und Bearbeitung für daje.`, 1000),
+            ...(furl ? { url: furl } : {}),
+            rights: 'needs_review',
+            meta: Object.fromEntries([['url', furl], ['author', s(f.autore, 300)], ['title', s(f.titolo, 300)], ['site', s(f.testata, 300)], ['date', s(f.data, 300)]].filter(([, v]) => v))
+          }
+        : null;
     const items = list.map((x, n) => {
       x = x && typeof x === 'object' ? x : {};
-      const fields = BUILD[type.id](x, { level, spec, seed: set + type.id + n });
+      const fields = BUILD[type.id](x, { level, spec, seed: set + type.id + n, consegna: type.consegna(level, x, spec.parti, spec) });
       const title = tidy(x.titolo || '');
       const pkg = {
         format: 'theis-learning-package',
@@ -412,9 +407,10 @@
               ? 'Aufnahme und Transkript von der Lehrkraft; Aufgaben im Format ' + EXAM[level] + ' mit KI-Unterstützung für daje erstellt. Keine Originalaufgabe der Università per Stranieri di Siena.'
               : 'Übung im Format ' + EXAM[level] + ', mit KI-Unterstützung für daje erstellt. Keine Originalaufgabe der Università per Stranieri di Siena.',
             rights: 'own'
-          }
+          },
+          ...(fonte ? [fonte] : [])
         ],
-        catalog: { origin: 'own', cefr: level, tags: ['cils', 'cils-' + level.toLowerCase(), type.part, type.id], textbook: { series: 'CILS', volume: level, unit: EXAM[level], section: part.label } },
+        catalog: { origin: fonte ? 'media' : 'own', cefr: level, tags: ['cils', 'cils-' + level.toLowerCase(), type.part, type.id], textbook: { series: 'CILS', volume: level, unit: EXAM[level], section: part.label } },
         ...(media || {}),
         ...fields
       };
@@ -431,7 +427,7 @@
       if (notes.length) pkg.teacherNotes = { tips: notes };
       return { part: type.part, label: `${part.label} · ${type.it}`, pkg };
     });
-    return { level, type: type.id, tema, items };
+    return { level, type: type.id, tema, fonte: fonte ? fonte.citation : '', items };
   }
 
   /* command: allgemeine Kommandodatei, typeCommand: Datei des Aufgabentyps */
@@ -440,6 +436,12 @@
     const level = inp.level;
     const spec = type.spec(level);
     const many = !type.media && !['scrittura', 'orale'].includes(type.part);
+    // Ohne Themenwunsch: zufällig aus einer breiten Liste, damit nicht jedes Mal Schule herauskommt
+    const pool = TEMI.filter(t => !(inp.recent || []).includes(t));
+    const own = String(inp.theme || '').trim() && !inp.themeAuto;
+    const theme = String(inp.theme || '').trim() || pool[Math.floor((inp.random ?? Math.random()) * pool.length)] || TEMI[0];
+    const reading = !type.media && TEXTO.includes(type.id);
+    const src = reading ? inp.textSource || 'web' : null;
     return [
       String(command).trim(),
       '',
@@ -447,7 +449,9 @@
       '',
       '## Eingaben',
       '',
-      `- Prüfung und Niveau: ${EXAM[level]} (GER ${level})`,
+      `- Prüfung und Niveau: ${EXAM[level]} (GER ${level}). Halte Wortschatz und Grammatik genau auf diesem Niveau (Abschnitt 4).`,
+      `- Prova im Heft: ${PARTS[type.part].label}, Prova n. ${spec.prova}`,
+      `- Anweisung im Heft (setzt daje selbst ein, nicht ausgeben): ${type.consegna(level, null, spec.parti, spec)}`,
       `- Aufgabentyp: ${type.id} · ${type.it} (${PARTS[type.part].label})`,
       `- Zielgruppe: ${inp.audience === 'adulti' ? 'Erwachsene' : 'Jugendliche von 12 bis 17 Jahren (Adolescenti)'}`,
       '- Vorgaben für dieses Niveau:',
@@ -455,15 +459,23 @@
         .map(([k, v]) => `  - ${k}: ${v}`)
         .join('\n'),
       many ? `- Anzahl Übungen in „esercizi“: ${Math.min(3, Math.max(1, Number(inp.count) || 1))}` : null,
-      type.media ? null : '- Themenwunsch: ' + (String(inp.theme || '').trim() || 'frei wählen, abwechslungsreich'),
+      type.media ? null : '- Thema: ' + theme + (own ? '' : ' (zufällig gewählt; nicht Schule, außer es passt ausdrücklich)'),
+      src === 'web'
+        ? '- Textgrundlage: Suche im Internet einen echten, aktuellen italienischen Text zum Thema (Zeitung, Zeitschrift, Institution, Kulturportal) und adaptiere ihn wie die CILS-Autoren: kürzen, vereinfachen, auf Niveau und Länge bringen, Aufgaben dazu schreiben. Gib die Quelle in „fonte“ an (Abschnitt 2). Findest du keinen passenden Text, schreib einen eigenen und lass „fonte“ weg.'
+        : src === 'eigen'
+          ? '- Textgrundlage: der Text unten von der Lehrkraft. Kürze und adaptiere ihn auf Niveau und Länge; gib in „fonte“ die Quelle an, soweit bekannt.'
+          : src === 'frei'
+            ? '- Textgrundlage: eigener, neu geschriebener Text (kein „fonte“).'
+            : null,
       inp.note ? '- Hinweise der Lehrkraft: ' + String(inp.note).trim() : null,
+      src === 'eigen' ? '\n## Text der Lehrkraft (Grundlage)\n\n' + (inp.sourceUrl ? 'Quelle: ' + String(inp.sourceUrl).trim() + '\n\n' : '') + String(inp.sourceText || '').trim() : null,
       type.media ? '\n## Transkript der Aufnahme (von der Lehrkraft, nicht verändern)\n\n' + String((inp.media && inp.media.transcript) || '').trim() : null
     ]
       .filter(x => x !== null)
       .join('\n');
   }
 
-  const api = { LEVELS, EXAM, PARTS, TYPES, HEFT, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
+  const api = { LEVELS, EXAM, PARTS, TYPES, HEFT, SCRITTA_HEFT, TEMI, TEXTO, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeCILS = api;
 })(typeof window !== 'undefined' ? window : globalThis);
@@ -471,7 +483,7 @@
 /* ---------- Oberfläche (nur im Browser) ---------- */
 if (typeof document !== 'undefined') {
   const CILS_KEY = 'daje-cils-v1';
-  const FORM0 = { level: 'B1', type: 'let-scelta', audience: 'adolescenti', count: 1, theme: '', note: '', answer: '', source: 'youtube', url: '', transcript: '' };
+  const FORM0 = { level: 'B1', type: 'let-scelta', audience: 'adolescenti', count: 1, theme: '', note: '', answer: '', source: 'youtube', url: '', transcript: '', textSource: 'web', sourceText: '', sourceUrl: '' };
   const cilsState = () => {
     const d = read(CILS_KEY, null);
     const st = d && Array.isArray(d.sets) ? d : { sets: [] };
@@ -486,9 +498,14 @@ if (typeof document !== 'undefined') {
   const cilsSave = () => save(CILS_KEY, CILS);
   const cilsLive = set => set.ids.filter(id => findTask(id));
   const cilsStrip = t => String(t).replace(/^CILS [^·]+ · /, '');
-  const cilsPartName = id => {
+  // Name einer Übung im Satz: ohne Prüfung, Teil und Typ (stehen schon im Kopf der Karte)
+  const cilsPartName = (id, i) => {
     const x = findTask(id);
-    return x ? cilsStrip(x.title) : id;
+    if (!x) return id;
+    const t = DajeCILS.TYPES.find(y => x.catalog?.tags?.includes(y.id));
+    let n = cilsStrip(x.title).replace(/^[^·]+ · /, '');
+    if (t && n.startsWith(t.it)) n = n.slice(t.it.length).replace(/^ · /, '').trim();
+    return n || 'Übung ' + (i + 1);
   };
   const cilsTypeFile = id => 'imports/cils/' + id + '.md';
 
@@ -500,11 +517,31 @@ if (typeof document !== 'undefined') {
         const ids = cilsLive(st);
         const t = st.type && DajeCILS.typeById(st.type);
         const head = st.tema || (t ? t.it : 'Übungsprüfung');
-        return `<article class="cils-set glass"><div class="cils-set-head"><span class="cils-badge">${esc(st.level)}</span><div><b>${esc(head)}</b><small>${t ? esc(DajeCILS.PARTS[t.part].de + ' · ' + t.it) + ' · ' : ''}${new Date(st.created).toLocaleDateString('de-DE', { dateStyle: 'medium' })} · ${plural(ids.length, 'Übung', 'Übungen')}</small></div></div>
-          <ol class="cils-parts">${ids.map(id => `<li><button class="quiet" data-lesson="${esc(id)}">${esc(cilsPartName(id))}</button></li>`).join('')}</ol>
+        const prova = t && t.cfg[st.level] ? ' · Prova ' + String(t.cfg[st.level].prova).replace(/ \(.*$/, '').replace(' o ', '/') : '';
+        return `<article class="cils-set glass"><div class="cils-set-head"><span class="cils-badge">${esc(st.level)}</span><div><b>${esc(head)}</b><small>${t ? esc(DajeCILS.PARTS[t.part].de + prova + ' · ' + t.it) + ' · ' : ''}${new Date(st.created).toLocaleDateString('de-DE', { dateStyle: 'medium' })} · ${plural(ids.length, 'Übung', 'Übungen')}</small></div></div>
+          <div class="cils-parts">${ids.map((id, i) => `<button class="cils-part" data-lesson="${esc(id)}"><span class="cils-pn">${i + 1}</span><span>${esc(cilsPartName(id, i))}</span></button>`).join('')}</div>
           <div class="cils-set-act"><button class="button primary" data-cils-mappe="${esc(st.id)}">Drucken</button><button class="button secondary" data-cils-klasse="${esc(st.id)}">Klassensitzung</button>${typeof ACC !== 'undefined' && ACC.admin ? `<button class="button secondary" data-cils-publish="${esc(st.id)}">Für alle freigeben</button>` : ''}<button class="quiet danger" data-cils-del="${esc(st.id)}">Löschen</button></div></article>`;
       })
       .join('')}</div>`;
+  }
+
+  // Kurzbeschreibung für das gewählte Niveau: Prova und Umfang wie im Heft
+  function cilsSummary(t, l) {
+    const c = t.cfg[l];
+    const n = [];
+    const pv = String(c.prova).replace(/ \(.*$/, '').replace(' o ', ' oder ');
+    if (c.lacune) n.push(`${c.lacune} Lücken${c.opzioni ? ' mit ' + 'ABCD'.slice(0, c.opzioni).split('').join('/') : ''}`);
+    if (c.frasi && t.id !== 'str-trasforma') n.push(`${c.frasi} Sätze mit je ${c.opzioni} Fortsetzungen`);
+    if (t.id === 'str-trasforma') n.push(`${c.frasi} Sätze umformen, Anfang vorgegeben`);
+    if (c.testi) n.push(`${c.testi} kurze Texte${c.completamenti ? ', ' + c.completamenti + ' Fortsetzungen A–H' : ', je 3 Informationen'}`);
+    if (c.affermazioni) n.push(c.presenti ? `${c.presenti} von ${c.affermazioni} Aussagen (A–O) wählen` : `${c.affermazioni} Aussagen vero/falso`);
+    if (c.parti) n.push(`${c.parti} Textteile ordnen`);
+    if (c.espressioni) n.push(`${c.espressioni} Äußerungen, je 4 Situationen`);
+    if (c.parole && t.part === 'scrittura') n.push(`2 Themen zur Wahl, ${c.parole} Wörter`);
+    else if (c.parole && t.part === 'lettura' && !c.testi) n.push(`Text mit ${c.parole} Wörtern`);
+    if (c.situazioni) n.push(`${c.situazioni} ${l === 'A1' || l === 'A2' || l === 'C1' ? 'Rollenspiele' : 'Gesprächsthemen'}, ${c.durata.replace(' circa', '').replace('minuti', 'Min.')}`);
+    if (c.argomenti && t.part === 'orale') n.push(`${c.argomenti} Themen zur Wahl, ${c.durata.replace(' circa', '').replace('1 minuto e mezzo', '1,5 Min.').replace('minuti', 'Min.')}`);
+    return `Prova ${pv} · ${n.join(' · ')}`;
   }
 
   function cilsTypesHTML(f) {
@@ -514,17 +551,32 @@ if (typeof document !== 'undefined') {
         const ts = list.filter(t => t.part === k);
         if (!ts.length) return '';
         return `<div class="cils-group"><h3>${esc(p.de)} <small>${esc(p.label)}</small></h3><div class="cils-types">${ts
-          .map(t => `<button type="button" class="cils-type" data-cils-type="${t.id}" aria-pressed="${f.type === t.id}"><b>${esc(t.it)}</b><small>${esc(t.de)}</small>${t.media ? '<i class="cils-own">eigene Aufnahme</i>' : ''}</button>`)
+          .map(t => `<button type="button" class="cils-type" data-cils-type="${t.id}" aria-pressed="${f.type === t.id}"><b>${esc(t.it)}</b><small>${esc(cilsSummary(t, f.level))}</small>${t.media ? '<i class="cils-own">eigene Aufnahme</i>' : ''}</button>`)
           .join('')}</div></div>`;
       })
       .join('');
   }
 
   function cilsDetailsHTML(f, t) {
-    const spec = Object.entries(t.spec(f.level))
-      .filter(([k]) => k !== 'esercizi')
-      .map(([k, v]) => `<li><b>${esc(k)}</b> ${esc(String(v))}</li>`)
-      .join('');
+    const c = t.spec(f.level);
+    const LBL = { prova: 'Prova n.', lacune: 'Lücken', frasi: 'Sätze', opzioni: 'Möglichkeiten', testi: 'Texte', affermazioni: 'Aussagen', presenti: 'davon zutreffend', vere: 'zutreffend', formato: 'Form', parole: 'Wörter', genere: 'Textsorte', parti: 'Teile', 'parole per parte': 'Wörter je Teil', completamenti: 'Fortsetzungen', forme: 'Formen', tempi: 'Zeiten und Modi', espressioni: 'Äußerungen', argomenti: 'Themen zur Wahl', registro: 'Register', situazioni: 'Situationen', durata: 'Dauer', forma: 'Form' };
+    const spec =
+      `<li class="cils-cons"><b>Anweisung im Heft</b> <i lang="it">${esc(t.consegna(f.level, null, c.parti, c))}</i></li>` +
+      Object.entries(c)
+        .map(([k, v]) => `<li><b>${esc(LBL[k] || k)}</b> ${esc(String(v))}</li>`)
+        .join('') +
+      (t.part === 'scrittura' && !DajeCILS.SCRITTA_HEFT.includes(f.level) ? '<li><b>Hinweis</b> Wortzahl als Richtwert (Schreibbogen dieses Niveaus lag nicht vor)</li>' : '');
+    const textSrc = DajeCILS.TEXTO.includes(t.id)
+      ? `<div class="cils-row"><span>Text</span><div class="pills">${[['web', 'Echter Text aus dem Netz'], ['eigen', 'Eigener Text oder Link'], ['frei', 'Frei geschrieben']].map(([v, l]) => `<button type="button" class="pill" data-cils-tsrc="${v}" aria-pressed="${f.textSource === v}">${l}</button>`).join('')}</div></div>
+        <p class="small muted cils-tsrc-hint">${
+          f.textSource === 'web'
+            ? 'Wie bei den CILS-Autoren: Die KI sucht einen echten Artikel zum Thema, kürzt und adaptiert ihn und nennt die Quelle. Das klappt nur mit Websuche (z. B. ChatGPT mit Suche, Gemini, Claude mit Websuche). Für den Unterricht in Ordnung; vor „Für alle freigeben“ Rechte prüfen.'
+            : f.textSource === 'eigen'
+              ? 'Füge einen Text oder Ausschnitt ein, den die KI kürzt und auf Niveau bringt.'
+              : 'Die KI schreibt einen eigenen, neuen Text.'
+        }</p>
+        ${f.textSource === 'eigen' ? `<label class="field">Ausgangstext<textarea data-cils-f="sourceText" rows="5" placeholder="Artikel oder Ausschnitt hier einfügen">${esc(f.sourceText)}</textarea></label><label class="field">Quelle (Link, optional)<input data-cils-f="sourceUrl" value="${esc(f.sourceUrl)}" placeholder="https://…" inputmode="url"></label>` : ''}`
+      : '';
     const many = !t.media && !['scrittura', 'orale'].includes(t.part);
     if (t.media)
       return `<p class="cils-hint">Für das Hörverstehen schreibt die KI <b>keine Hörtexte</b>. Du bringst deine Aufnahme mit (Video, Audio oder ein Transkript, das du vorlesen lässt); die KI erstellt nur die Aufgaben dazu.</p>
@@ -533,7 +585,8 @@ if (typeof document !== 'undefined') {
         <label class="field">Transkript der Aufnahme<textarea data-cils-f="transcript" rows="6" placeholder="Den gesprochenen Text hier einfügen. Bei mehreren Kurztexten: Testo 1, Testo 2 … jeweils davor schreiben.">${esc(f.transcript)}</textarea></label>
         <ul class="cils-spec">${spec}</ul>`;
     return `${many ? `<div class="cils-row"><span>Übungen</span><div class="pills">${[1, 2, 3].map(n => `<button type="button" class="pill" data-cils-count="${n}" aria-pressed="${Number(f.count) === n}">${n}</button>`).join('')}</div></div>` : ''}
-      <label class="field">Thema (optional)<input data-cils-f="theme" value="${esc(f.theme)}" placeholder="z. B. Schule und Freizeit, Umwelt, Arbeit und Studium"></label>
+      <label class="field">Thema (optional)<input data-cils-f="theme" value="${esc(f.theme)}" placeholder="leer lassen: daje wählt jedes Mal ein anderes Thema"></label>
+      ${textSrc}
       <label class="field">Hinweise für die KI (optional)<input data-cils-f="note" value="${esc(f.note)}" placeholder="z. B. Wortschatz aus Lektion 4, besonders congiuntivo üben"></label>
       <ul class="cils-spec">${spec}</ul>`;
   }
@@ -560,13 +613,13 @@ if (typeof document !== 'undefined') {
           <div class="studio-actions"><button class="button primary" data-cils-build>Übungen erstellen</button></div><div id="cils-result"></div></div></div>
       </section>
       ${CILS.sets.some(st => cilsLive(st).length) ? `<h2 class="cils-h">Deine CILS-Übungen</h2>${cilsSetsHTML()}` : ''}
-      <p class="small muted cils-note">${DajeCILS.HEFT.includes(f.level) ? 'Aufbau und Anzahlen nach den Prüfungsheften der CILS (A1/A2 Adolescenti, UNO-B1 Adolescenti, DUE-B2 Adolescenti).' : 'Für C1 und C2 lagen keine Prüfungshefte vor: Aufbau als Fortschreibung von DUE-B2, Längen und Anzahlen sind Richtwerte.'} Alle Texte sind neu und keine Originalaufgaben der Università per Stranieri di Siena.</p>
+      <p class="small muted cils-note">Aufbau, Anweisungen und Anzahlen nach den Prüfungsheften der CILS (A1 und A2 Adolescenti, UNO-B1 und DUE-B2 Adolescenti, TRE-C1, QUATTRO-C2). Schreibaufgaben: Wortzahlen nach TRE-C1, auf den anderen Niveaus Richtwerte. Keine Originalaufgaben der Università per Stranieri di Siena.</p>
     </div>`;
   }
 
   const cilsInput = () => {
     const f = CILS.form;
-    return { level: f.level, type: f.type, audience: f.audience, count: f.count, theme: f.theme, note: f.note, media: { source: f.source, url: f.url, transcript: f.transcript } };
+    return { level: f.level, type: f.type, audience: f.audience, count: f.count, theme: f.theme, note: f.note, textSource: f.textSource, sourceText: f.sourceText, sourceUrl: f.sourceUrl, media: { source: f.source, url: f.url, transcript: f.transcript } };
   };
 
   async function cilsCopy() {
@@ -584,7 +637,17 @@ if (typeof document !== 'undefined') {
     const job = Promise.all([kiLoad('imports/cils/KI-CILS.md', cilsCmd.base), kiLoad(cilsTypeFile(t.id), cilsCmd[t.id])]).then(([a, b]) => {
       cilsCmd.base = a;
       cilsCmd[t.id] = b;
-      return DajeCILS.promptFor(a, b, cilsInput());
+      // Ohne Themenwunsch: ein Thema, das zuletzt nicht dran war
+      const inp = cilsInput();
+      if (!String(f.theme).trim()) {
+        const recent = CILS.recent || [];
+        const pool = DajeCILS.TEMI.filter(x => !recent.includes(x));
+        inp.theme = pool[Math.floor(Math.random() * pool.length)];
+        inp.themeAuto = true;
+        CILS.recent = [inp.theme, ...recent].slice(0, 8);
+        cilsSave();
+      }
+      return DajeCILS.promptFor(a, b, inp);
     });
     const ok = await copyLater(job);
     const text = await job;
@@ -612,7 +675,7 @@ if (typeof document !== 'undefined') {
         ids.push(pkg.id);
       });
       saveEditorState();
-      CILS.sets.unshift({ id: setId, level: r.level, type: r.type, tema: r.tema, created: now, ids });
+      CILS.sets.unshift({ id: setId, level: r.level, type: r.type, tema: r.tema, fonte: r.fonte || '', created: now, ids });
       CILS.form.answer = '';
       cilsSave();
       cilsPage();
@@ -623,26 +686,75 @@ if (typeof document !== 'undefined') {
     }
   }
 
-  // Druck: alle Übungen eines Satzes als ein Heft (Aufgaben, Lösungen mit Transkripten oder Kurzschlüssel)
+  /*
+   * Druck im Aufbau der CILS-Hefte: Kopf „Sezione – Prova n. X“ mit Linie, Anweisung fett und kursiv,
+   * Lesetext im grauen Kasten mit Titel in Großbuchstaben, Aufgaben je Prova neu nummeriert.
+   * sol 0: Aufgaben, 1: Lösungen und Transkripte, 2: kurzer Schlüssel.
+   */
+  function cilsSheetHTML(ids, sol, title) {
+    const xs = ids.map(id => findTask(id)).filter(Boolean);
+    if (!xs.length) return '<div class="hb"><p>Keine Übungen.</p></div>';
+    const t = HB_TXT.it;
+    const de = instrFor('it') === 'de';
+    instrCtx = 'it';
+    const keys = [];
+    const body = xs
+      .map(x => {
+        const ty = DajeCILS.TYPES.find(y => x.catalog?.tags?.includes(y.id));
+        const lvl = x.level;
+        const cfg = ty && ty.cfg[lvl];
+        const prova = cfg ? String(cfg.prova).replace(/ \(.*$/, '').replace(' o ', '/') : '';
+        const cons = ty ? ty.consegna(lvl, null, cfg.parti, cfg) : '';
+        const first = x.questions[0];
+        const ex = (first.prompt.match(/\nEsempio: \(0\) .*/) || [''])[0].trim();
+        const strip = p => (cons && p.startsWith(cons) ? p.slice(cons.length).replace(/^\s*(Esempio: \(0\) [^\n]*)?\s*/, '') : p);
+        const instr = de ? first.promptHelp || cons : cons;
+        let n = 0;
+        const qs = x.questions
+          .map(q => {
+            n++;
+            q = q.type === 'multiple_choice' ? { ...q, options: q.options.map(o => ({ ...o, text: o.text.replace(/^[A-O]\. /, '') })) } : q;
+            if (sol === 2) {
+              keys.push(`<tr><td>${esc(prova ? ty.part.slice(0, 3).toUpperCase() + ' ' + prova : '')}</td><td>${n}</td><td>${hbAnswer(q, t)}</td></tr>`);
+              return '';
+            }
+            const p = strip(q.prompt).trim();
+            const one = x.questions.length === 1;
+            return `<li class="cs-q${one ? ' one' : ''}">${one ? '' : `<b class="cs-n">${n}</b>`}<div>${p ? `<p class="cs-p">${esc(p).replace(/\n/g, '<br>')}</p>` : ''}${hbBody(q, t, !!sol)}</div></li>`;
+          })
+          .join('');
+        if (sol === 2) return '';
+        const reading = x.reading
+          ? `<div class="cs-text">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</div>`
+          : '';
+        const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<p class="cs-link">Ascolto online: ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</p>` : '';
+        const tr = sol === 1 && (x.transcript || x.media?.type === 'speech') ? `<div class="cs-tr"><b>Trascrizione</b>${String(x.transcript || x.media.text).split(/\n+/).map(l => `<p>${esc(l)}</p>`).join('')}</div>` : '';
+        const src = (x.sources || []).filter(z => z.kind === 'external').map(z => `<p class="cs-src">${esc(visibleText(z.citation))}</p>`).join('');
+        return `<section class="cs-prova"><header class="cs-h">${esc(ty ? DajeCILS.PARTS[ty.part].label : 'CILS')}${prova ? ` – Prova n. ${esc(prova)}` : ''}</header>
+          <p class="cs-cons">${esc(instr)}</p>${ex && !de ? `<p class="cs-ex">${esc(ex)}</p>` : ''}${link}${reading}${src}<ol class="cs-qs">${qs}</ol>${tr}</section>`;
+      })
+      .join('');
+    const lv = [...new Set(xs.map(x => x.level))];
+    return `<div class="hb cs${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? 'Chiavi' : 'Allenamento CILS')}</span></header>
+      <h1>${esc(title)}</h1>
+      <div class="hb-meta"><span>${esc(lv.map(l => DajeCILS.EXAM[l]).join(', '))}</span><span>Esercitazione · non è una prova ufficiale</span></div>
+      ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
+      ${sol === 2 ? `<table class="hb-key"><thead><tr><th>Prova</th><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th></tr></thead><tbody>${keys.join('')}</tbody></table>` : body}
+      ${docFooter()}</div>`;
+  }
+
   function cilsPrint(st, sol) {
     const ids = cilsLive(st);
     docCurrent = { kind: 'cils', solutions: sol, set: st.id };
     const t = st.type && DajeCILS.typeById(st.type);
     const title = (DajeCILS.EXAM[st.level] || 'CILS ' + st.level) + (t ? ' · ' + t.it : '') + (st.tema ? ' · ' + st.tema : '');
-    const texts =
-      sol === 1
-        ? ids
-            .map(id => findTask(id))
-            .filter(x => x && (x.transcript || x.media?.type === 'speech'))
-            .map(x => `<section class="hb-tr"><h3>Trascrizione · ${esc(cilsStrip(x.title))}</h3>${String(x.transcript || x.media.text).split(/\n+/).map(l => `<p>${esc(l)}</p>`).join('')}</section>`)
-            .join('')
-        : '';
     const side =
       dlgBlock('Ausgabe', dlgSeg('data-cils-mode', 'cils-mode', [[0, 'Aufgaben'], [1, 'Lösungen und Transkripte'], [2, 'Kurzer Schlüssel']], sol)) +
-      dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Zielsprache'], ['de', 'Deutsch']], instrPref)) +
+      dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Italienisch (wie im Heft)'], ['de', 'Deutsch']], instrPref)) +
       dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents());
-    dlgShow({ title, side, paper: wsSheetHTML([ids], sol, { title, rule: false }).replace(/(<\/div>)\s*$/, texts + '$1') });
+    dlgShow({ title, side, paper: cilsSheetHTML(ids, sol, title) });
   }
+  window.cilsSheetHTML = cilsSheetHTML;
 
   document.addEventListener('click', e => {
     const b = e.target.closest('button');
@@ -662,6 +774,7 @@ if (typeof document !== 'undefined') {
     if (b.dataset.cilsAud) return set('audience', b.dataset.cilsAud);
     if (b.dataset.cilsCount) return set('count', Number(b.dataset.cilsCount));
     if (b.dataset.cilsSource) return set('source', b.dataset.cilsSource);
+    if (b.dataset.cilsTsrc) return set('textSource', b.dataset.cilsTsrc);
     if (b.hasAttribute('data-cils-copy')) return cilsCopy();
     if (b.hasAttribute('data-cils-build')) return cilsBuild();
     const st = id => CILS.sets.find(x => x.id === id);

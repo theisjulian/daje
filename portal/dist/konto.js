@@ -11,6 +11,14 @@ const SB_URL = 'https://holpayuwppblpupcgulo.supabase.co';
 const SB_KEY = 'sb_publishable_XTGeidk-j1CEWZT6cxpR2w_QVwoYAbo'; // öffentlicher Schlüssel (nur mit Zugriffsregeln nutzbar)
 const ACC = { user: null, admin: false, syncing: false, lastSync: null, error: '' };
 let sb = null;
+// „Angemeldet bleiben“ abgewählt: Die Sitzung gilt nur, solange der Browser-Tab offen ist.
+// Beim nächsten Start ohne Tab-Markierung wird die gespeicherte Sitzung vor dem Verbinden entfernt.
+try {
+  if (localStorage.getItem('daje-auth-kurz') === '1' && !sessionStorage.getItem('daje-auth-tab')) {
+    localStorage.removeItem('daje-auth-v1');
+    localStorage.removeItem('daje-auth-kurz');
+  }
+} catch (e) {}
 try {
   if (window.supabase && !EMBED)
     sb = window.supabase.createClient(SB_URL, SB_KEY, {
@@ -23,7 +31,7 @@ const accName = () => ACC.user?.user_metadata?.first_name || (ACC.user?.email ||
 
 /* ---------- Lernstand abgleichen ---------- */
 // Diese Einträge im Browser bilden den Lernstand (Profile, Karteikarten, eigene Übungen, Mappe, Trainer).
-const SYNC_KEYS = ['sprachtrainer-profiles-v2', 'ecco-progress-v1', 'ripassa-editor-v1', 'daje-arbeitsblatt-v1', 'daje-geteilt-v1', 'daje-verben-fehler-v1', 'daje-zahlen-v1', 'daje-wuerfel-v1', 'daje-klasse-v1'];
+const SYNC_KEYS = ['sprachtrainer-profiles-v2', 'ecco-progress-v1', 'ripassa-editor-v1', 'daje-arbeitsblatt-v1', 'daje-geteilt-v1', 'daje-verben-fehler-v1', 'daje-zahlen-v1', 'daje-wuerfel-v1', 'daje-klasse-v1', 'daje-cils-v1', 'daje-pruefung-v1'];
 const SYNC_META = 'daje-sync-v1';
 const syncMeta = () => {
   try {
@@ -314,7 +322,7 @@ function showTheisAccountSb() {
     const reset = accMode === 'reset';
     const newpw = accMode === 'newpw';
     const title = newpw ? 'Neues Passwort' : reset ? 'Passwort vergessen?' : reg ? 'Konto erstellen' : 'Willkommen zurück';
-    const sub = newpw ? 'Lege ein neues Passwort für dein Konto fest.' : reset ? 'Gib deine E-Mail-Adresse ein. Wir schicken dir einen Link zum Zurücksetzen.' : reg ? 'Kostenlos. Üben geht auch ohne Konto.' : 'Melde dich an, um deinen Lernstand zu speichern.';
+    const sub = newpw ? 'Lege ein neues Passwort für dein Konto fest.' : reset ? 'Gib deine E-Mail-Adresse ein. Wir schicken dir einen Link zum Zurücksetzen.' : reg ? 'Kostenlos. Mit Konto hast du alle Inhalte von daje.' : 'Melde dich an, um deinen Lernstand zu speichern.';
     d.innerHTML = `<div class="auth">${close}
       <aside class="auth-side"><div class="auth-brand">${DAJE_MARK}<span>daje</span></div><h3>Sprachen lernen.<br>Auf allen Geräten.</h3><ul>${AUTH_PERKS.map(t => `<li>${esc(t)}</li>`).join('')}</ul><p class="auth-side-foot">Server in der EU · kein Tracking · jederzeit löschbar</p></aside>
       <div class="auth-main">
@@ -323,8 +331,11 @@ function showTheisAccountSb() {
         <form id="acc-form" class="acc-form" novalidate>
           ${reg ? '<div class="auth-grid2"><label class="field">Vorname<input id="acc-first" autocomplete="given-name" maxlength="40" required></label><label class="field">Nachname<input id="acc-last" autocomplete="family-name" maxlength="60" required></label></div>' : ''}
           ${newpw ? '' : '<label class="field">E-Mail-Adresse<input id="acc-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" required></label>'}
-          ${reset ? '' : `<label class="field">${newpw ? 'Neues Passwort' : 'Passwort'}<span class="auth-pw"><input id="acc-pw" type="password" autocomplete="${reg || newpw ? 'new-password' : 'current-password'}" minlength="8" required><button type="button" class="auth-eye" data-acc="eye" aria-label="Passwort zeigen">Zeigen</button></span></label>`}
-          ${reg || newpw ? '<div class="auth-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="small muted auth-hint" id="acc-pw-hint">Mindestens 8 Zeichen. Länger ist sicherer.</p>' : ''}
+          ${reset ? '' : `<div class="field auth-pwf"><label for="acc-pw">${newpw ? 'Neues Passwort' : 'Passwort'}</label><span class="auth-pw"><input id="acc-pw" type="password" autocomplete="${reg || newpw ? 'new-password' : 'current-password'}" minlength="8" required><button type="button" class="auth-eye" data-acc="eye" aria-label="Passwort zeigen" aria-pressed="false">${AUTH_EYE}</button></span>
+            ${reg || newpw ? '<div class="auth-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="small muted auth-hint" id="acc-pw-hint">Mindestens 8 Zeichen. Länger ist sicherer.</p>' : ''}</div>`}
+          ${reg || newpw ? '<div class="field auth-pwf"><label for="acc-pw2">Passwort wiederholen</label><span class="auth-pw"><input id="acc-pw2" type="password" autocomplete="new-password" minlength="8" required></span><p class="small muted auth-hint" id="acc-pw2-hint" aria-live="polite"></p></div>' : ''}
+          ${reg ? `<div class="auth-row"><span>Sprache der E-Mails</span><div class="pills" role="radiogroup" aria-label="Sprache der E-Mails">${AUTH_LANGS.map(([v, l]) => `<button type="button" class="pill" data-acc-lang="${v}" aria-pressed="${accLang === v}">${l}</button>`).join('')}</div></div>` : ''}
+          ${!reg && !reset && !newpw ? `<label class="dlg-check auth-stay"><input type="checkbox" id="acc-stay" ${accStay() ? 'checked' : ''}><span>Angemeldet bleiben</span></label>` : ''}
           ${reg ? `<fieldset class="auth-role"><legend>Ich nutze daje als</legend><label><input type="radio" name="acc-role" value="learn" checked><span>Lernende*r</span></label><label><input type="radio" name="acc-role" value="teach"><span>Lehrkraft</span></label></fieldset>
             <label class="dlg-check auth-consent"><input type="checkbox" id="acc-consent"><span>Ich bin einverstanden, dass daje Name, E-Mail-Adresse und Lernstand speichert, damit ich auf allen Geräten weiterüben kann. Löschen ist jederzeit möglich.</span></label>` : ''}
           <button class="button primary large auth-submit" type="submit">${newpw ? 'Passwort speichern' : reset ? 'Link senden' : reg ? 'Konto erstellen' : 'Anmelden'}</button>
@@ -335,6 +346,37 @@ function showTheisAccountSb() {
       </div></div>`;
   }
   if (!d.open) d.showModal();
+}
+const AUTH_EYE = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+const AUTH_EYE_OFF = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10.6 10.6 0 0 1 12 5c6.4 0 10 7 10 7a17 17 0 0 1-3.2 4.1M6.6 6.6C3.9 8.4 2 12 2 12s3.6 7 10 7a9.7 9.7 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
+const AUTH_LANGS = [['de', 'Deutsch'], ['it', 'Italiano'], ['en', 'English'], ['fr', 'Français']];
+let accLang = (() => {
+  const l = (typeof uiLocale === 'string' ? uiLocale : 'de').split('-')[0];
+  return AUTH_LANGS.some(([v]) => v === l) ? l : 'de';
+})();
+const accStay = () => {
+  try {
+    return localStorage.getItem('daje-auth-kurz') !== '1';
+  } catch (e) {
+    return true;
+  }
+};
+function accSetStay(stay) {
+  try {
+    if (stay) localStorage.removeItem('daje-auth-kurz');
+    else {
+      localStorage.setItem('daje-auth-kurz', '1');
+      sessionStorage.setItem('daje-auth-tab', '1');
+    }
+  } catch (e) {}
+}
+function accPw2Check() {
+  const a = $('acc-pw'), b = $('acc-pw2'), h = $('acc-pw2-hint');
+  if (!a || !b || !h) return;
+  const ok = b.value && b.value === a.value;
+  h.textContent = !b.value ? '' : ok ? 'Passwörter stimmen überein.' : 'Die Passwörter stimmen noch nicht überein.';
+  h.classList.toggle('ok', !!ok);
+  b.setAttribute('aria-invalid', b.value && !ok ? 'true' : 'false');
 }
 async function accSubmit() {
   const msg = $('acc-msg');
@@ -348,12 +390,13 @@ async function accSubmit() {
     }
     if (accMode !== 'newpw' && !/^\S+@\S+\.\S+$/.test(mail || '')) throw new Error('Bitte eine gültige E-Mail-Adresse eingeben.');
     if (accMode !== 'reset' && pw.length < 8) throw new Error('Das Passwort braucht mindestens 8 Zeichen.');
+    if ((accMode === 'register' || accMode === 'newpw') && pw !== ($('acc-pw2')?.value || '')) throw new Error('Die beiden Passwörter stimmen nicht überein.');
     if (accMode === 'register' && !$('acc-consent').checked) throw new Error('Bitte bestätige, dass deine Angaben gespeichert werden dürfen.');
     msg.textContent = 'Einen Moment …';
     if (accMode === 'register') {
       const first = $('acc-first').value.trim(), last = $('acc-last').value.trim();
       const role = document.querySelector('input[name="acc-role"]:checked')?.value || 'learn';
-      const lang = (typeof uiLocale === 'string' ? uiLocale : 'de').split('-')[0];
+      const lang = accLang;
       const { data, error } = await sb.auth.signUp({
         email: mail,
         password: pw,
@@ -381,6 +424,7 @@ async function accSubmit() {
       toast('Neues Passwort gespeichert.');
       showTheisAccountSb();
     } else {
+      accSetStay($('acc-stay') ? $('acc-stay').checked : true);
       const { error } = await sb.auth.signInWithPassword({ email: mail, password: pw });
       if (error) throw error;
       $('acc-dialog')?.close();
@@ -461,6 +505,7 @@ function accRefresh() {
 }
 showTheisAccount = showTheisAccountSb;
 document.addEventListener('input', e => {
+  if (e.target.id === 'acc-pw' || e.target.id === 'acc-pw2') accPw2Check();
   if (e.target.id !== 'acc-pw' || !document.querySelector('.auth-meter')) return;
   const n = accPwStrength(e.target.value);
   document.querySelector('.auth-meter').dataset.n = e.target.value ? n : 0;
@@ -484,8 +529,13 @@ document.addEventListener('submit', e => {
   accSubmit();
 });
 document.addEventListener('click', async e => {
-  const b = e.target.closest('[data-acc],[data-acc-mode],[data-sb-live],[data-acc-open]');
+  const b = e.target.closest('[data-acc],[data-acc-mode],[data-sb-live],[data-acc-open],[data-acc-lang]');
   if (!b) return;
+  if (b.dataset.accLang) {
+    accLang = b.dataset.accLang;
+    document.querySelectorAll('[data-acc-lang]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    return;
+  }
   if (b.dataset.accOpen !== undefined) return showTheisAccountSb();
   if (b.dataset.accMode) {
     accMode = b.dataset.accMode;
@@ -494,10 +544,11 @@ document.addEventListener('click', async e => {
   if (b.dataset.sbLive) return sbLive(b.dataset.sbLive);
   const a = b.dataset.acc;
   if (a === 'eye') {
-    const f = $('acc-pw');
-    const show = f.type === 'password';
-    f.type = show ? 'text' : 'password';
-    b.textContent = show ? 'Verbergen' : 'Zeigen';
+    const show = $('acc-pw').type === 'password';
+    ['acc-pw', 'acc-pw2'].forEach(id => $(id) && ($(id).type = show ? 'text' : 'password'));
+    b.innerHTML = show ? AUTH_EYE_OFF : AUTH_EYE;
+    b.setAttribute('aria-label', show ? 'Passwort verbergen' : 'Passwort zeigen');
+    b.setAttribute('aria-pressed', String(show));
     return;
   }
   if (a === 'resend') {
