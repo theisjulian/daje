@@ -115,6 +115,8 @@
   });
   // Typen mit Lese- bzw. Lückentext, für die ein echter Ausgangstext aus dem Netz taugt
   const TEXTO = ['let-scelta', 'let-info', 'let-ricostruisci', 'str-articoli', 'str-aggettivi', 'str-pronomi', 'str-parola', 'str-verbi', 'str-scelta', 'str-trasforma'];
+  // Prova-Nummer als kurzer Text („2“, bei B2-Hören „1/2“)
+  const provaNo = (t, l) => String(t.cfg[l]?.prova ?? '').replace(/ \(.*$/, '').replace(' o ', '/');
   const typeById = id => TYPES.find(t => t.id === id);
   const typesFor = level => TYPES.filter(t => t.levels.includes(level));
 
@@ -195,11 +197,18 @@
     const options = a.map((y, i) => ({ id: 'o' + (i + 1), text: `${L[i]}. ${y.text}` }));
     return [{ id: 'q1', type: 'multiple_choice', prompt: c.consegna, promptHelp: help, options, correctOptionIds: options.filter((o, i) => a[i].on).map(o => o.id) }];
   }
+  // Lückenzahl: kleine Abweichungen (etwa 10 %) werden angenommen und gemeldet, größere abgelehnt
+  const gapTol = want => Math.max(1, Math.round(want / 10));
+  function gapCount(c, have, want) {
+    const tol = gapTol(want);
+    need(Math.abs(have - want) <= tol, `Der Text hat ${have} Lücken, verlangt sind ${want} (angenommen werden ${want - tol} bis ${want + tol}).`);
+    if (have !== want && c.warn) c.warn.push(`Der Text hat ${have} statt ${want} Lücken (im Heft ${want}).`);
+  }
   // Anweisung wie im Heft, auf Wunsch mit Beispiel (0)
   const head = (c, x) => s(c.consegna + (x && x.esempio ? '\nEsempio: (0) ' + tidy(x.esempio) : ''), 1000);
   function openGaps(x, c, help) {
     const g = gaps(x.testo, 'fill', c.seed);
-    need(!c.spec.lacune || g.gaps.length === c.spec.lacune, `Der Text hat ${g.gaps.length} Lücken, verlangt sind ${c.spec.lacune}.`);
+    if (c.spec.lacune) gapCount(c, g.gaps.length, c.spec.lacune);
     return { questions: [{ id: 'q1', type: 'gap_fill', prompt: head(c, x), promptHelp: help, text: g.text, gaps: g.gaps }] };
   }
   function writing(x, c) {
@@ -290,7 +299,7 @@
     'str-pronomi': (x, c) => openGaps(x, c, 'Ergänze die passenden Pronomen.'),
     'str-scelta': (x, c) => {
       const g = gaps(x.testo, 'choice', c.seed);
-      need(g.gaps.length === c.spec.lacune, `Der Text hat ${g.gaps.length} Lücken, verlangt sind ${c.spec.lacune}.`);
+      gapCount(c, g.gaps.length, c.spec.lacune);
       need(g.gaps.every(y => y.options.length === c.spec.opzioni), `Jede Lücke braucht genau ${c.spec.opzioni} Möglichkeiten.`);
       return { questions: [{ id: 'q1', type: 'gap_choice', prompt: head(c, x), promptHelp: 'Ergänze den Text. Wähle jeweils die passende Möglichkeit.', text: g.text, gaps: g.gaps }] };
     },
@@ -385,19 +394,23 @@
             meta: Object.fromEntries([['url', furl], ['author', s(f.autore, 300)], ['title', s(f.titolo, 300)], ['site', s(f.testata, 300)], ['date', s(f.data, 300)]].filter(([, v]) => v))
           }
         : null;
+    const warnings = [];
     const items = list.map((x, n) => {
       x = x && typeof x === 'object' ? x : {};
-      const fields = BUILD[type.id](x, { level, spec, seed: set + type.id + n, consegna: type.consegna(level, x, spec.parti, spec) });
-      const title = tidy(x.titolo || '');
+      const fields = BUILD[type.id](x, { level, spec, seed: set + type.id + n, consegna: type.consegna(level, x, spec.parti, spec), warn: warnings });
+      // Titel: Prüfung · Teil und Prova · Aufgabentyp · Titel des Textes (oder Thema); Teilnamen als „Titel“ der KI werden übergangen
+      let title = tidy(x.titolo || '');
+      if (/strutture di comunicazione|comprensione|^ascolto|^produzione|^lettura|^strutture|^scrittura/i.test(title) || title.toLowerCase() === type.it.toLowerCase()) title = '';
+      title = title || tema;
       const pkg = {
         format: 'theis-learning-package',
         schemaVersion: '1.2',
         kind: type.media ? 'listening' : 'grammar',
         id: inp.id(),
-        title: s(`${EXAM[level]} · ${SHORT[type.part]} · ${type.it}${title ? ' · ' + title : list.length > 1 ? ' ' + (n + 1) : ''}`, 120),
+        title: s(`${EXAM[level]} · ${SHORT[type.part]} ${provaNo(type, level)} · ${type.it}${title ? ' · ' + title : ''}${list.length > 1 ? ' (' + (n + 1) + ')' : ''}`, 120),
         language: 'it',
         level,
-        description: s(`Allenamento ${EXAM[level]} · ${part.label} · ${type.it}${tema ? ' · ' + tema : ''}.`, 600),
+        description: s(`Allenamento ${EXAM[level]} · ${part.label}, prova ${provaNo(type, level)} · ${type.it}${tema ? ' · ' + tema : ''}.`, 600),
         topics: ['CILS', EXAM[level], part.de],
         estimatedMinutes: 10,
         sources: [
@@ -427,7 +440,7 @@
       if (notes.length) pkg.teacherNotes = { tips: notes };
       return { part: type.part, label: `${part.label} · ${type.it}`, pkg };
     });
-    return { level, type: type.id, tema, fonte: fonte ? fonte.citation : '', items };
+    return { level, type: type.id, tema, fonte: fonte ? fonte.citation : '', items, warnings };
   }
 
   /* command: allgemeine Kommandodatei, typeCommand: Datei des Aufgabentyps */
@@ -475,7 +488,7 @@
       .join('\n');
   }
 
-  const api = { LEVELS, EXAM, PARTS, TYPES, HEFT, SCRITTA_HEFT, TEMI, TEXTO, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
+  const api = { LEVELS, EXAM, PARTS, SHORT, TYPES, HEFT, SCRITTA_HEFT, TEMI, TEXTO, provaNo, typeById, typesFor, build, promptFor, gaps, spoken, mediaFrom };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeCILS = api;
 })(typeof window !== 'undefined' ? window : globalThis);
@@ -499,13 +512,14 @@ if (typeof document !== 'undefined') {
   const cilsLive = set => set.ids.filter(id => findTask(id));
   const cilsStrip = t => String(t).replace(/^CILS [^·]+ · /, '');
   // Name einer Übung im Satz: ohne Prüfung, Teil und Typ (stehen schon im Kopf der Karte)
+  // Name einer Übung im Satz: Titel des Textes bzw. Thema, ohne Prüfung, Teil und Typ (stehen im Kopf der Karte)
   const cilsPartName = (id, i) => {
     const x = findTask(id);
     if (!x) return id;
     const t = DajeCILS.TYPES.find(y => x.catalog?.tags?.includes(y.id));
-    let n = cilsStrip(x.title).replace(/^[^·]+ · /, '');
-    if (t && n.startsWith(t.it)) n = n.slice(t.it.length).replace(/^ · /, '').trim();
-    return n || 'Übung ' + (i + 1);
+    const rest = cilsStrip(x.title).split(' · ').slice(1).filter(p => !t || p !== t.it);
+    const n = rest.filter(p => !/strutture di comunicazione|comprensione della lettura|^produzione/i.test(p)).join(' · ');
+    return x.reading?.title || n || 'Übung ' + (i + 1);
   };
   const cilsTypeFile = id => 'imports/cils/' + id + '.md';
 
@@ -680,7 +694,8 @@ if (typeof document !== 'undefined') {
       cilsSave();
       cilsPage();
       toast(`${plural(ids.length - bad.length, 'Übung', 'Übungen')} erstellt${bad.length ? `, ${bad.length} als Entwurf (bitte in „Eigene Übungen“ prüfen)` : ''}.`);
-      if (bad.length) $('cils-result').innerHTML = `<div class="validation-errors"><b>Noch zu prüfen</b><ul>${bad.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>`;
+      const notes = [...(r.warnings || []), ...bad];
+      if (notes.length) $('cils-result').innerHTML = `<div class="validation-errors cils-warn"><b>${bad.length ? 'Noch zu prüfen' : 'Übernommen, mit Hinweis'}</b><ul>${notes.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>`;
     } catch (err) {
       out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
     }
@@ -743,11 +758,12 @@ if (typeof document !== 'undefined') {
       ${docFooter()}</div>`;
   }
 
+  // st: CILS-Satz oder Prüfung ({ ids, level, type?, tema?, title? })
   function cilsPrint(st, sol) {
     const ids = cilsLive(st);
-    docCurrent = { kind: 'cils', solutions: sol, set: st.id };
+    docCurrent = { kind: 'cils', solutions: sol, st };
     const t = st.type && DajeCILS.typeById(st.type);
-    const title = (DajeCILS.EXAM[st.level] || 'CILS ' + st.level) + (t ? ' · ' + t.it : '') + (st.tema ? ' · ' + st.tema : '');
+    const title = st.title || (DajeCILS.EXAM[st.level] || 'CILS ' + st.level) + (t ? ' · ' + t.it : '') + (st.tema ? ' · ' + st.tema : '');
     const side =
       dlgBlock('Ausgabe', dlgSeg('data-cils-mode', 'cils-mode', [[0, 'Aufgaben'], [1, 'Lösungen und Transkripte'], [2, 'Kurzer Schlüssel']], sol)) +
       dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Italienisch (wie im Heft)'], ['de', 'Deutsch']], instrPref)) +
@@ -755,6 +771,13 @@ if (typeof document !== 'undefined') {
     dlgShow({ title, side, paper: cilsSheetHTML(ids, sol, title) });
   }
   window.cilsSheetHTML = cilsSheetHTML;
+  window.cilsPrint = cilsPrint;
+  window.cilsSetForm = (level, type) => {
+    CILS = CILS || cilsState();
+    CILS.form.level = level;
+    CILS.form.type = type;
+    cilsSave();
+  };
 
   document.addEventListener('click', e => {
     const b = e.target.closest('button');
@@ -795,8 +818,8 @@ if (typeof document !== 'undefined') {
     }
   });
   document.addEventListener('change', e => {
-    if (docCurrent?.kind === 'cils' && CILS && (e.target.matches('input[data-cils-mode]') || e.target.matches('input[data-instr="pref"]'))) {
-      const s = CILS.sets.find(x => x.id === docCurrent.set);
+    if (docCurrent?.kind === 'cils' && (e.target.matches('input[data-cils-mode]') || e.target.matches('input[data-instr="pref"]'))) {
+      const s = docCurrent.st;
       if (s) setTimeout(() => cilsPrint(s, e.target.matches('[data-cils-mode]') ? Number(e.target.value) : docCurrent.solutions), 0);
     }
   });
@@ -810,7 +833,7 @@ if (typeof document !== 'undefined') {
   {
     const relayout = dlgRelayout;
     dlgRelayout = function () {
-      const s = docCurrent?.kind === 'cils' && CILS && CILS.sets.find(x => x.id === docCurrent.set);
+      const s = docCurrent?.kind === 'cils' && docCurrent.st;
       return s ? cilsPrint(s, docCurrent.solutions) : relayout.apply(this, arguments);
     };
     const baseRender = render;

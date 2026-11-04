@@ -521,9 +521,10 @@ async function step(name, fn) {
     await pp.fill('#wsq-query', 'articolo');
     await pp.click('[data-wsq-go]');
     assert.equal(await pp.locator('.ws-quick-list li').count(), 5);
-    const first = await pp.locator('.ws-quick-list li >> nth=0 >> b').textContent();
+    // nach ID vergleichen: verschiedene Übungen können gleich heißen
+    const first = await pp.evaluate(() => wsQuick.picks[0]);
     await pp.click('.ws-quick-list li >> nth=0 >> [data-wsq-swap]');
-    assert.notEqual(await pp.locator('.ws-quick-list li >> nth=0 >> b').textContent(), first);
+    assert.notEqual(await pp.evaluate(() => wsQuick.picks[0]), first);
     await pp.click('.ws-quick-list li >> nth=4 >> [data-wsq-drop]');
     await pp.click('[data-wsq-take]');
     assert.equal(await pp.evaluate(() => wsAll().length), 4);

@@ -117,6 +117,15 @@ assert.throws(() => make('let-ricostruisci', 'C1', { parti: ['a', 'b', 'c'] }), 
 
 // Lücken: Anzahl genau wie im Heft, Beispiel (0) in der Anweisung
 assert.throws(() => make('str-verbi', 'B1', { testo: fill(12) }), /verlangt sind 20/);
+// Kleine Abweichung (±10 %) wird angenommen und gemeldet
+const tol = make('str-verbi', 'B1', { testo: fill(19) });
+assert.equal(tol.items[0].pkg.questions[0].gaps.length, 19);
+assert.ok(tol.warnings.some(w => /19 statt 20/.test(w)));
+assert.throws(() => make('str-verbi', 'B1', { testo: fill(17) }), /18 bis 22/);
+assert.equal(make('str-verbi', 'B1').warnings.length, 0);
+// Titel: Prüfung · Teil und Prova · Typ · Thema; Teilname als „titolo“ wird übergangen
+const named = C.build({ tema: 'Lo sport', esercizi: [{ ...sample(C.typeById('str-verbi'), 'C1'), titolo: 'Analisi delle strutture di comunicazione' }] }, { level: 'C1', type: 'str-verbi', id }).items[0].pkg;
+assert.equal(named.title, 'CILS TRE-C1 · Strutture 2 · Verbi · Lo sport');
 const ex = make('str-verbi', 'A2').items[0].pkg.questions[0];
 assert.ok(ex.prompt.includes('Esempio: (0) (essere) è'));
 assert.throws(() => make('str-scelta', 'A1', { testo: choiceText(8, 4) }), /genau 3 Möglichkeiten/);

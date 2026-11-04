@@ -351,3 +351,12 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
   gate.js erkennt die gespeicherte Sitzung jetzt am richtigen Schlüssel `daje-auth-v1`.
 - **E-Mail:** iCloud-Ablehnung HM08 → SPF/DMARC prüfen (siehe `supabase/emails/ANLEITUNG.md`). forza und daje teilen
   Vorlagen und Absender.
+
+### 7c · CILS-Übungsprüfungen, Toleranz, Navigation, Konto-Fenster (04.11.2026)
+
+- Lückenzahl: Abweichung bis etwa 10 % (mind. 1) wird angenommen und als Hinweis gezeigt (`gapCount`, `build().warnings`).
+- Titel: `EXAM · Teil Prova · Typ · Texttitel oder Thema`; Teilnamen als „titolo“ der KI werden ignoriert.
+- CILS-Übungen: Zurück führt ins Prüfungstraining (Niveau bleibt), Hinweis „Arbeitsfassung“ für adaptierte Netztexte.
+- Übungsprüfung (Simulazione) in `pruefung.js`: je Prova des Hefts eine Übung, Speicher `daje-esami-v1` (in SYNC_KEYS),
+  Druck über `window.cilsPrint`, Klassensitzung über `klLinkDialog`. Leere Prove verlinken in den Generator (`cilsSetForm`).
+- Konto-Fenster: gruppierte Liste (Lernen, Konto mit Name/E-Mail-Sprache/Passwort, Daten, Abmelden, Konto löschen).

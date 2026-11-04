@@ -31,7 +31,7 @@ const accName = () => ACC.user?.user_metadata?.first_name || (ACC.user?.email ||
 
 /* ---------- Lernstand abgleichen ---------- */
 // Diese Einträge im Browser bilden den Lernstand (Profile, Karteikarten, eigene Übungen, Mappe, Trainer).
-const SYNC_KEYS = ['sprachtrainer-profiles-v2', 'ecco-progress-v1', 'ripassa-editor-v1', 'daje-arbeitsblatt-v1', 'daje-geteilt-v1', 'daje-verben-fehler-v1', 'daje-zahlen-v1', 'daje-wuerfel-v1', 'daje-klasse-v1', 'daje-cils-v1', 'daje-pruefung-v1'];
+const SYNC_KEYS = ['sprachtrainer-profiles-v2', 'ecco-progress-v1', 'ripassa-editor-v1', 'daje-arbeitsblatt-v1', 'daje-geteilt-v1', 'daje-verben-fehler-v1', 'daje-zahlen-v1', 'daje-wuerfel-v1', 'daje-klasse-v1', 'daje-cils-v1', 'daje-pruefung-v1', 'daje-esami-v1'];
 const SYNC_META = 'daje-sync-v1';
 const syncMeta = () => {
   try {
@@ -294,24 +294,51 @@ function showTheisAccountSb() {
     const at = ACC.lastSync || syncMeta().at;
     const md = accMeta();
     const ini = ((md.first_name || ACC.user.email).charAt(0) + (md.last_name || '').charAt(0)).toUpperCase();
+    const role = ACC.admin ? 'Administrator' : ACC.teacher === 'approved' ? 'Lehrkraft' : ACC.teacher === 'pending' ? 'Lehrkraft · Freischaltung ausstehend' : 'Lernende*r';
+    const syncTxt = ACC.error ? esc(ACC.error) : ACC.syncing ? 'wird gespeichert …' : at ? 'gespeichert · ' + new Date(at).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }) : 'wird automatisch gespeichert';
+    const langName = (AUTH_LANGS.find(([v]) => v === (md.lang || 'de')) || AUTH_LANGS[0])[1];
+    const chev = '<span class="acc-chev" aria-hidden="true">›</span>';
+    const row = (attrs, label, value = '') => `<button class="acc-row" ${attrs}><span>${label}</span><span class="acc-val">${value}${chev}</span></button>`;
     d.innerHTML =
-      head('Dein daje-Konto') +
-      `<div class="acc-card"><div class="set-avatar" aria-hidden="true">${esc(ini)}</div><div class="set-who"><b>${esc(accFullName() || accName())}</b><small>${esc(ACC.user.email)}${ACC.admin ? '' : ACC.teacher === 'approved' ? ' · Lehrkraft' : ACC.teacher === 'pending' ? ' · Lehrkraft: Freischaltung ausstehend' : ''}</small></div>${ACC.admin ? '<span class="chip-solid">Administrator</span>' : ''}</div>
-      <p class="acc-sync">${ACC.error ? esc(ACC.error) : ACC.syncing ? 'Wird gespeichert …' : at ? 'Lernstand gespeichert ✓ ' + new Date(at).toLocaleString('de-DE', { dateStyle: 'short', timeStyle: 'short' }) : 'Lernstand wird gespeichert.'}</p>
-      <div class="acc-actions"><button class="button primary" data-acc="sync">Jetzt speichern</button><button class="button secondary" data-nav="fortschritt" data-close="acc-dialog">Stärken und Schwächen</button>${isTeacher() ? '<button class="button secondary" data-nav="klassen" data-close="acc-dialog">Meine Klassensitzungen</button>' : ''}</div>
-      <details class="acc-more"><summary>Name ändern</summary>
-        <form id="acc-name-form" class="auth-grid2" novalidate><label class="field">Vorname<input id="acc-first" autocomplete="given-name" maxlength="40" value="${esc(md.first_name || '')}" required></label><label class="field">Nachname<input id="acc-last" autocomplete="family-name" maxlength="60" value="${esc(md.last_name || '')}" required></label><button class="button secondary" type="submit">Speichern</button></form>
-      </details>
-      <details class="acc-more"><summary>Abmelden</summary>
-        <label class="dlg-check"><input type="checkbox" id="acc-wipe"><span>Lernstand von diesem Gerät entfernen (z. B. auf einem geteilten iPad)</span></label>
-        <button class="button secondary" data-acc="logout">Abmelden</button>
-        <p class="small muted">Lernstand im Konto löschen: <button class="quiet danger" data-acc="delete-progress">Gespeicherten Lernstand löschen</button></p>
-      </details>${accProfilesHTML()}
+      head('Dein Konto') +
+      `<div class="acc-card"><div class="set-avatar" aria-hidden="true">${esc(ini)}</div><div class="set-who"><b>${esc(accFullName() || accName())}</b><small>${esc(ACC.user.email)}</small></div><span class="acc-role${ACC.admin ? ' is-admin' : ''}">${esc(role)}</span></div>
+      <div class="acc-syncline${ACC.error ? ' is-error' : ''}"><span class="acc-dot" aria-hidden="true"></span><span>Lernstand ${syncTxt}</span><button class="quiet" data-acc="sync">Jetzt abgleichen</button></div>
+      <h3 class="acc-gh">Lernen</h3>
+      <div class="acc-group">
+        ${row('data-nav="fortschritt" data-close="acc-dialog"', 'Stärken und Schwächen')}
+        ${isTeacher() ? row('data-nav="klassen" data-close="acc-dialog"', 'Meine Klassensitzungen') : ''}
+        ${row('data-extra="profiles" data-close="acc-dialog"', 'Lernprofile auf diesem Gerät', esc(typeof activeProfile === 'function' ? activeProfile()?.name || '' : ''))}
+      </div>
+      <h3 class="acc-gh">Konto</h3>
+      <div class="acc-group">
+        <details class="acc-det"><summary><span>Name</span><span class="acc-val">${esc(accFullName() || '–')}${chev}</span></summary>
+          <form id="acc-name-form" class="auth-grid2" novalidate><label class="field">Vorname<input id="acc-first" autocomplete="given-name" maxlength="40" value="${esc(md.first_name || '')}" required></label><label class="field">Nachname<input id="acc-last" autocomplete="family-name" maxlength="60" value="${esc(md.last_name || '')}" required></label><button class="button secondary" type="submit">Speichern</button></form>
+        </details>
+        <details class="acc-det"><summary><span>Sprache der E-Mails</span><span class="acc-val">${esc(langName)}${chev}</span></summary>
+          <div class="pills" role="radiogroup" aria-label="Sprache der E-Mails">${AUTH_LANGS.map(([v, l]) => `<button type="button" class="pill" data-acc-setlang="${v}" aria-pressed="${(md.lang || 'de') === v}">${l}</button>`).join('')}</div>
+          <p class="small muted">Für Bestätigungs- und Passwort-E-Mails.</p>
+        </details>
+        <details class="acc-det"><summary><span>Passwort ändern</span><span class="acc-val">${chev}</span></summary>
+          <form id="acc-pwchange" class="acc-pwchange" novalidate><label class="field">Neues Passwort<input id="acc-newpw" type="password" autocomplete="new-password" minlength="8" required></label><label class="field">Neues Passwort wiederholen<input id="acc-newpw2" type="password" autocomplete="new-password" minlength="8" required></label><button class="button secondary" type="submit">Passwort speichern</button><p class="small" id="acc-pw-msg" role="status"></p></form>
+        </details>
+      </div>
+      <h3 class="acc-gh">Daten</h3>
+      <div class="acc-group">
+        ${row('data-extra="export" data-close="acc-dialog"', 'Lernstand als Datei sichern')}
+        <button class="acc-row" data-acc="delete-progress"><span class="acc-red">Gespeicherten Lernstand im Konto löschen</span></button>
+      </div>
+      <div class="acc-group acc-out">
+        <details class="acc-det"><summary><span>Abmelden</span><span class="acc-val">${chev}</span></summary>
+          <label class="dlg-check"><input type="checkbox" id="acc-wipe"><span>Lernstand von diesem Gerät entfernen (z. B. auf einem geteilten iPad)</span></label>
+          <button class="button secondary" data-acc="logout">Abmelden</button>
+        </details>
+      </div>
       ${ACC.admin ? '' : `<details class="acc-more acc-danger"><summary>Konto löschen</summary>
         <p class="small">Dein daje-Konto wird endgültig gelöscht: Name, E-Mail-Adresse, gespeicherter Lernstand${isTeacher() ? ', deine Klassensitzungen mit allen Ergebnissen' : ''} und ein Antrag als Lehrkraft. Das lässt sich nicht rückgängig machen. Der Lernstand auf diesem Gerät bleibt, bis du ihn selbst entfernst.</p>
         <label class="field">Zur Bestätigung deine E-Mail-Adresse eingeben<input id="acc-del-mail" type="email" autocomplete="off" placeholder="${esc(ACC.user.email)}"></label>
         <button class="button danger" data-acc="delete-account">Konto endgültig löschen</button><p class="small" id="acc-del-msg" role="status"></p>
-      </details>`}`;
+      </details>`}
+      <p class="acc-foot small muted">Server in der EU · kein Tracking · <a href="https://theisapps.de/datenschutz" target="_blank" rel="noopener">Datenschutz</a></p>`;
   } else if (accMode === 'sent') {
     d.innerHTML = `<div class="auth auth-done">${close}<div class="auth-mail" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="5"/><path d="m8 14 16 12 16-12"/></svg></div>
       <h2 id="acc-title">Fast geschafft!</h2><p>Wir haben dir eine E-Mail an <b>${esc(accSentTo)}</b> geschickt. Tippe auf <b>„E-Mail bestätigen“</b>, dann ist dein Konto bereit.</p>
@@ -523,14 +550,34 @@ document.addEventListener('submit', async e => {
   showTheisAccountSb();
   toast('Name gespeichert.');
 });
+document.addEventListener('submit', async e => {
+  if (e.target.id !== 'acc-pwchange') return;
+  e.preventDefault();
+  const msg = $('acc-pw-msg');
+  const pw = $('acc-newpw').value;
+  if (pw.length < 8) return (msg.textContent = 'Das Passwort braucht mindestens 8 Zeichen.');
+  if (pw !== $('acc-newpw2').value) return (msg.textContent = 'Die beiden Passwörter stimmen nicht überein.');
+  msg.textContent = 'Einen Moment …';
+  const { error } = await sb.auth.updateUser({ password: pw });
+  if (error) return (msg.textContent = /same|different/i.test(error.message) ? 'Das neue Passwort muss sich vom alten unterscheiden.' : 'Nicht gespeichert: ' + error.message);
+  e.target.reset();
+  msg.textContent = 'Neues Passwort gespeichert.';
+});
 document.addEventListener('submit', e => {
   if (e.target.id !== 'acc-form') return;
   e.preventDefault();
   accSubmit();
 });
 document.addEventListener('click', async e => {
-  const b = e.target.closest('[data-acc],[data-acc-mode],[data-sb-live],[data-acc-open],[data-acc-lang]');
+  const b = e.target.closest('[data-acc],[data-acc-mode],[data-sb-live],[data-acc-open],[data-acc-lang],[data-acc-setlang]');
   if (!b) return;
+  if (b.dataset.accSetlang) {
+    const { data, error } = await sb.auth.updateUser({ data: { lang: b.dataset.accSetlang } });
+    if (error) return toast('Nicht gespeichert: ' + error.message);
+    ACC.user = data.user;
+    showTheisAccountSb();
+    return toast('Sprache der E-Mails gespeichert.');
+  }
   if (b.dataset.accLang) {
     accLang = b.dataset.accLang;
     document.querySelectorAll('[data-acc-lang]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));

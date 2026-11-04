@@ -964,7 +964,8 @@ function renderListening(preview = false) {
   const teacher = isTeacher();
   const count = x.questions.filter(q => String(state.answers[q.id] ?? '').trim()).length;
   const gram = x.kind === 'grammar';
-  $('breadcrumb').textContent = (gram ? 'Grammatik · ' : 'Hörverstehen · ') + x.title;
+  const cils = !!x.catalog?.tags?.includes('cils');
+  $('breadcrumb').textContent = (cils ? 'Prüfungstraining · ' : gram ? 'Grammatik · ' : 'Hörverstehen · ') + x.title;
   const working = teacher && isWorkingLesson(x);
   const focus = !teacher && focusMode() && x.questions.length > 1;
   if (focusLesson !== x.id) {
@@ -973,12 +974,12 @@ function renderListening(preview = false) {
   }
   focusIndex = Math.min(focusIndex, x.questions.length - 1);
   $('main').innerHTML = `<div class="page lesson-page">
-    ${EMBED ? '' : gram ? `<button class="quiet back-link" data-gr-topic="${esc(x.grammar.topic)}">${esc(x.grammar.topicTitle)}</button>` : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
-    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : ''}</div>` : ''}
+    ${EMBED ? '' : cils ? `<button class="quiet back-link" data-pt-back="${esc(x.level)}">Prüfungstraining · ${esc(x.level)}</button>` : gram ? `<button class="quiet back-link" data-gr-topic="${esc(x.grammar.topic)}">${esc(x.grammar.topicTitle)}</button>` : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
+    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>${cils ? 'Der Text beruht auf einem Artikel aus dem Netz. Für den eigenen Unterricht in Ordnung; vor „Für alle freigeben“ bitte die Nutzungsrechte prüfen.' : `Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!gram && !x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}`}</span>${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : ''}</div>` : ''}
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
-        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
+        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${cils ? `<span class="chip-plain">${esc(x.catalog.textbook.unit || 'CILS')}</span>` : x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
         <h1>${esc(x.title)}</h1>
         <p>${esc(visibleText(x.description))}</p>
       </div>
