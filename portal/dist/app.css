@@ -8467,7 +8467,7 @@ input.gap.is-over { outline: 3px solid color-mix(in srgb, var(--blue) 55%, trans
   /* Keine feste Höhe: Browser wie Safari setzen beim Drucken eigene, größere Ränder (Kopf-/Fußzeile).
      Eine feste Höhe lief dort über und erzeugte nach jeder Seite ein fast leeres Blatt. Mindesthöhe hält die
      Fußzeile unten, wächst aber nie über die Seite: der Inhalt je Seite ist auf 235 mm berechnet (dialog.js). */
-  body.printing-teaching #teaching-print .paper.pg { height: auto !important; min-height: 235mm !important; max-height: none !important; overflow: visible !important; break-inside: avoid; page-break-inside: avoid; }
+  body.printing-teaching #teaching-print .paper.pg { height: auto !important; min-height: 240mm !important; max-height: none !important; overflow: visible !important; break-inside: avoid; page-break-inside: avoid; }
 }
 
 /* Aufgaben für die Klasse: Weiter nach der Korrektur, QR für den Beamer */
@@ -9151,3 +9151,180 @@ html.is-gated .nav-list, html.is-gated .tabbar, html.is-gated .audience-switch, 
 .acc-out{margin-top:16px}
 .acc-out .acc-det > summary{color:var(--red,#d93a4a);font-weight:600}
 .acc-foot{margin:14px 4px 0;text-align:center}
+
+/* ===================== Glas (Liquid Glass) =====================
+   Wie Namo und theisapps.de: farbige Lichtflecken im Hintergrund, durchscheinende Flächen mit Weichzeichner,
+   heller Glanzrand oben, runde Knöpfe mit sanftem Leuchten. Hell und dunkel. */
+:root[data-skin='glas'] {
+  --canvas: #eef1f8;
+  --wash-a: rgba(125, 150, 255, 0.42);
+  --wash-b: rgba(192, 139, 255, 0.36);
+  --wash-c: rgba(255, 156, 204, 0.34);
+  --glass: rgba(255, 255, 255, 0.56);
+  --glass-solid: rgba(255, 255, 255, 0.9);
+  --sheet: rgba(255, 255, 255, 0.82);
+  --glass-hi: rgba(255, 255, 255, 0.95);
+  --hairline: rgba(255, 255, 255, 0.78);
+  --tile: rgba(255, 255, 255, 0.5);
+  --label: #10131c;
+  --label-2: rgba(16, 19, 28, 0.64);
+  --label-3: rgba(16, 19, 28, 0.36);
+  --fill: rgba(61, 92, 255, 0.07);
+  --fill-2: rgba(61, 92, 255, 0.13);
+  --track: rgba(16, 19, 28, 0.12);
+  --blue: #3d5cff;
+  --on-accent: #fff;
+  --accent2: #a855f7;
+  --green: #12925a;
+  --orange: #d0670f;
+  --red: #d8344a;
+  --lift: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 2px rgba(25, 32, 80, 0.05), 0 22px 44px -28px rgba(25, 32, 80, 0.38);
+  --lift-2: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 30px 60px -30px rgba(25, 32, 80, 0.45);
+  --blur: saturate(170%) blur(22px);
+  --sk-r: 24px;
+  --sk-border: 1px solid rgba(255, 255, 255, 0.78);
+  --sk-shadow: var(--lift);
+  --sk-img: linear-gradient(160deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.08));
+  --btn-r: 999px;
+  --opt-r: 16px;
+  --nav-r: 999px;
+  --nav-active-bg: rgba(255, 255, 255, 0.72);
+  --nav-active-color: var(--label);
+  color-scheme: light;
+}
+:root[data-skin='glas'][data-theme='dark'] {
+  --canvas: #0a0c15;
+  --wash-a: rgba(61, 92, 255, 0.3);
+  --wash-b: rgba(125, 90, 255, 0.28);
+  --wash-c: rgba(255, 90, 170, 0.18);
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-solid: rgba(24, 27, 44, 0.92);
+  --sheet: rgba(24, 27, 44, 0.86);
+  --glass-hi: rgba(255, 255, 255, 0.12);
+  --hairline: rgba(255, 255, 255, 0.12);
+  --tile: rgba(255, 255, 255, 0.05);
+  --label: #eef0f8;
+  --label-2: rgba(238, 240, 248, 0.68);
+  --label-3: rgba(238, 240, 248, 0.38);
+  --fill: rgba(142, 160, 255, 0.1);
+  --fill-2: rgba(142, 160, 255, 0.18);
+  --track: rgba(255, 255, 255, 0.14);
+  --blue: #8ea0ff;
+  --on-accent: #0a0c15;
+  --accent2: #d6a2ff;
+  --green: #5fe0a6;
+  --orange: #ffb067;
+  --red: #ff7b8f;
+  --lift: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 24px 48px -28px rgba(0, 0, 0, 0.8);
+  --lift-2: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 30px 60px -28px rgba(0, 0, 0, 0.85);
+  --sk-border: 1px solid rgba(255, 255, 255, 0.12);
+  --sk-img: linear-gradient(160deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.015));
+  --nav-active-bg: rgba(255, 255, 255, 0.1);
+  color-scheme: dark;
+}
+/* Hintergrund: vier weiche Lichtflecken, fest stehend */
+:root[data-skin='glas'] {
+  background-image:
+    radial-gradient(60vmax 42vmax at 92% -8%, var(--wash-b), transparent 70%),
+    radial-gradient(50vmax 40vmax at -8% 34%, var(--wash-a), transparent 70%),
+    radial-gradient(52vmax 36vmax at 64% 108%, var(--wash-c), transparent 70%),
+    radial-gradient(40vmax 30vmax at 30% 70%, rgba(127, 227, 212, 0.16), transparent 70%);
+}
+:root[data-skin='glas'][data-theme='dark'] {
+  background-image:
+    radial-gradient(60vmax 42vmax at 92% -8%, var(--wash-b), transparent 70%),
+    radial-gradient(50vmax 40vmax at -8% 34%, var(--wash-a), transparent 70%),
+    radial-gradient(52vmax 36vmax at 64% 108%, var(--wash-c), transparent 70%);
+}
+/* Glasflächen */
+:root[data-skin='glas'] :is(.glass, .q, .lcard, .set-card, .tcard, .tool-card, .panel, .reading-card, .pt-card, .cils-type, .gr-card, .history-row) {
+  background-color: var(--glass);
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+}
+:root[data-skin='glas'] :is(.reading-card, .pt-card, .cils-type) {
+  border: var(--sk-border);
+  box-shadow: var(--sk-shadow);
+  border-radius: var(--sk-r);
+}
+:root[data-skin='glas'] .sidebar {
+  background: color-mix(in srgb, var(--glass) 70%, transparent);
+  -webkit-backdrop-filter: saturate(180%) blur(26px);
+  backdrop-filter: saturate(180%) blur(26px);
+  border-right: 1px solid var(--hairline);
+}
+:root[data-skin='glas'] :is(.topbar, .tabbar) {
+  background: color-mix(in srgb, var(--canvas) 52%, transparent);
+  -webkit-backdrop-filter: saturate(180%) blur(22px);
+  backdrop-filter: saturate(180%) blur(22px);
+}
+:root[data-skin='glas'] .tabbar {
+  border-top: 1px solid var(--hairline);
+}
+:root[data-skin='glas'] .nav-list button[aria-current='page'] {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px -14px rgba(25, 32, 80, 0.45);
+}
+:root[data-skin='glas'][data-theme='dark'] .nav-list button[aria-current='page'] {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+/* Knöpfe: Glanzkante oben, Leuchten in der Akzentfarbe */
+:root[data-skin='glas'] .button.primary {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--blue) 80%, #fff), var(--blue));
+  border-color: transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 10px 24px -12px color-mix(in srgb, var(--blue) 80%, transparent);
+}
+:root[data-skin='glas'] .button.secondary,
+:root[data-skin='glas'] .pill {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), 0 0 0 1px rgba(16, 19, 28, 0.04);
+}
+:root[data-skin='glas'][data-theme='dark'] .button.secondary,
+:root[data-skin='glas'][data-theme='dark'] .pill {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+:root[data-skin='glas'] .pill[aria-pressed='true'] {
+  background: var(--blue);
+  color: var(--on-accent);
+  border-color: transparent;
+}
+:root[data-skin='glas'] :is(input, select, textarea):not([type='checkbox']):not([type='radio']):not([type='range']) {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+:root[data-skin='glas'][data-theme='dark'] :is(input, select, textarea):not([type='checkbox']):not([type='radio']):not([type='range']) {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+/* Dialoge und Blätter */
+:root[data-skin='glas'] dialog:not(#teaching-print) {
+  background: color-mix(in srgb, var(--glass-solid) 82%, transparent);
+  -webkit-backdrop-filter: blur(28px) saturate(170%);
+  backdrop-filter: blur(28px) saturate(170%);
+  border: 1px solid var(--hairline);
+}
+:root[data-skin='glas'] dialog::backdrop {
+  background: rgba(20, 24, 48, 0.22);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+:root[data-skin='glas'] :is(.eyebrow, .page-head h1 em, .xhero h1 em, .today h1 em) {
+  background: linear-gradient(120deg, var(--blue), var(--accent2) 60%, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media (prefers-reduced-transparency: reduce) {
+  :root[data-skin='glas'] { --glass: rgba(255, 255, 255, 0.92); }
+  :root[data-skin='glas'][data-theme='dark'] { --glass: rgba(24, 27, 44, 0.95); }
+}
+/* Auszeichnungen in Übungstexten (App und Druck) */
+:is(.q, .reading-card, .rule, .listen-feedback, .hb, .cs, .tq) mark {
+  background: color-mix(in srgb, var(--marker, #ffe94a) 70%, transparent);
+  color: inherit;
+  padding: 0 0.15em;
+  border-radius: 3px;
+}
+#teaching-print mark { background: #fff1a8; color: inherit; padding: 0 .12em; }
+:is(.q, .reading-card, .rule, .listen-feedback, .hb, .cs) u { text-decoration-thickness: 1.5px; text-underline-offset: 0.15em; }
+:is(.q-prompt, .opt-text, .reading-body, .hb-p, .cs-p) i { font-style: italic; }

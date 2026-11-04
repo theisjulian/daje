@@ -198,11 +198,11 @@ async function step(name, fn) {
     assert.deepEqual(r, ['hint', 'hint', 'correct']);
   });
 
-  await step('Alle 6 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
+  await step('Alle 7 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('#look-open');
     const skins = await dp.$$eval('.set-skins button', b => b.map(x => x.dataset.skin));
-    assert.deepEqual(skins, ['daje', 'pop', 'heft', 'graphit', 'wald', 'tag']);
+    assert.deepEqual(skins, ['daje', 'pop', 'glas', 'heft', 'graphit', 'wald', 'tag']);
     assert.ok(skins.includes('tag'));
     // Tageslicht bestimmt Hell/Dunkel selbst und wird deshalb getrennt geprüft.
     const fixed = skins.filter(s => s !== 'tag');

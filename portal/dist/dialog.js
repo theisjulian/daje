@@ -165,8 +165,8 @@ function hbPaginate() {
   if (!hb) return;
   hbFlatHTML = paper.innerHTML;
   pages.style.zoom = 1;
-  // Druckseite: 235 mm Inhalt (siehe app.css): passt auch bei den größeren Druckrändern von Safari; 6 px Reserve.
-  const INNER = Math.floor((235 * 96) / 25.4) - 6;
+  // Druckseite: 240 mm Inhalt (siehe app.css): passt auch bei den größeren Druckrändern von Safari; 6 px Reserve.
+  const INNER = Math.floor((240 * 96) / 25.4) - 6;
   const y = el => el.getBoundingClientRect().top;
   const list = hb.querySelector(':scope > .hb-list'), key = hb.querySelector(':scope > .hb-key');
   const tr = hb.querySelector(':scope > .hb-tr'), src = hb.querySelector(':scope > .hb-src'), foot = hb.querySelector(':scope > .doc-foot');

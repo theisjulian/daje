@@ -400,7 +400,8 @@
       x = x && typeof x === 'object' ? x : {};
       const fields = BUILD[type.id](x, { level, spec, seed: set + type.id + n, consegna: type.consegna(level, x, spec.parti, spec), warn: warnings });
       // Titel: Prüfung · Teil und Prova · Aufgabentyp · Titel des Textes (oder Thema); Teilnamen als „Titel“ der KI werden übergangen
-      let title = tidy(x.titolo || '');
+      // Im Titel keine Auszeichnungszeichen (Überschriften, Listen, Kopfzeilen)
+      let title = tidy(x.titolo || '').replace(/\*\*|__|~~|==/g, '').replace(/(^|[\s(])[*_]([^*_\n]+)[*_]/g, '$1$2');
       if (/strutture di comunicazione|comprensione|^ascolto|^produzione|^lettura|^strutture|^scrittura/i.test(title) || title.toLowerCase() === type.it.toLowerCase()) title = '';
       title = title || tema;
       const pkg = {
@@ -736,12 +737,12 @@ if (typeof document !== 'undefined') {
             }
             const p = strip(q.prompt).trim();
             const one = x.questions.length === 1;
-            return `<li class="cs-q${one ? ' one' : ''}">${one ? '' : `<b class="cs-n">${n}</b>`}<div>${p ? `<p class="cs-p">${esc(p).replace(/\n/g, '<br>')}</p>` : ''}${hbBody(q, t, !!sol)}</div></li>`;
+            return `<li class="cs-q${one ? ' one' : ''}">${one ? '' : `<b class="cs-n">${n}</b>`}<div>${p ? `<p class="cs-p">${rich(p)}</p>` : ''}${hbBody(q, t, !!sol)}</div></li>`;
           })
           .join('');
         if (sol === 2) return '';
         const reading = x.reading
-          ? `<div class="cs-text">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</div>`
+          ? `<div class="cs-text">${x.reading.title ? `<h3>${rich(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</div>`
           : '';
         const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<p class="cs-link">Ascolto online: ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</p>` : '';
         const tr = sol === 1 && (x.transcript || x.media?.type === 'speech') ? `<div class="cs-tr"><b>Trascrizione</b>${String(x.transcript || x.media.text).split(/\n+/).map(l => `<p>${esc(l)}</p>`).join('')}</div>` : '';

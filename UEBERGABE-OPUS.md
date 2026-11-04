@@ -360,3 +360,17 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 - Übungsprüfung (Simulazione) in `pruefung.js`: je Prova des Hefts eine Übung, Speicher `daje-esami-v1` (in SYNC_KEYS),
   Druck über `window.cilsPrint`, Klassensitzung über `klLinkDialog`. Leere Prove verlinken in den Generator (`cilsSetForm`).
 - Konto-Fenster: gruppierte Liste (Lernen, Konto mit Name/E-Mail-Sprache/Passwort, Daten, Abmelden, Konto löschen).
+
+### 7d · Glas-Farbwelt, Auszeichnungen, Druck (04.11.2026)
+
+- Farbwelt **Glas** (Liquid Glass wie Namo/theisapps.de): `:root[data-skin='glas']` hell und dunkel in app.css, Eintrag in
+  `themeList` (app.js) und `SKIN_NOTE` (einstellungen.js). Respektiert `prefers-reduced-transparency`.
+- Auszeichnungen: `rich()` in views.js (**fett**, *kursiv*/_kursiv_, __unterstrichen__, ~~durchgestrichen~~, ==markiert==),
+  ohne Lookbehind (ältere Safari). Eingesetzt in Lesetext, Aufgabenstellung, Optionen, Lückentexten (`gapHTML` mit
+  Platzhaltern, Auszeichnung über Lücken hinweg), Erklärungen, Merkkästen und allen Druckfassungen. `plainRich()` für
+  Titel und Bildschirmleser. KI-Kommandodateien nennen die erlaubten Auszeichnungen.
+- CILS: Auswahlantworten fest gemischt (`choice` → `shuffle(o, id + prompt)`); vorher stand die Lösung oft bei A.
+- Druck: Lesetext wird an Absätzen geteilt (`hbSplitter` für `.hb-reading`, fette Zwischenüberschrift bleibt beim Absatz);
+  Druckfläche 240 mm (Reserve für Safari mit Kopf-/Fußzeile); drei Designs (Schlicht, Klassisch, Heft);
+  Quellen bei CILS nur die echte Textquelle, Standardsätze auf Italienisch (`printSources`).
+- Fortschrittsbalken der Aufgaben springen zur Aufgabe (vorher Anker-Link → Router → falsche Seite).

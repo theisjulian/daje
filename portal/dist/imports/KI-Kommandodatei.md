@@ -171,3 +171,7 @@ Wenn die Lehrkraft Vorschläge für neue Medien möchte (statt Aufgaben): Liste 
 - 2.1 (Oktober 2026): Neun weitere Aufgabentypen (true_false_ng, word_select, gap_choice, note_fill, table_fill, error_correction, speaker_match, categorize, open_answer), nach Gruppen geordnet.
 
 - 2.0 (Oktober 2026): Neu zusammengefasst und widerspruchsfrei. Transkript ist Pflichtgrundlage, `evidence` je Aufgabe, technische Felder ergänzt daje. Ersetzt Version 1.2 und den „Gemini-Folgeprompt“.
+
+## Auszeichnungen im Text
+
+In Aufgabenstellungen, Sätzen, Texten, Antworten und Erklärungen sind sparsam erlaubt: `**fett**` (z. B. Fragen in einem Interview, ein Signalwort), `*kursiv*` (Titel von Büchern, Filmen, Zeitungen; Fremdwörter), `__unterstrichen__`. daje stellt sie in App und Druck dar. Keine anderen Formatierungen, kein HTML.

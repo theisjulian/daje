@@ -7,6 +7,7 @@
   const SKIN_NOTE = {
     daje: 'Verlauf und Neon',
     pop: 'bunt und verspielt',
+    glas: 'Liquid Glass, durchscheinend',
     heft: 'liniert, mit Textmarker',
     graphit: 'klar, schwarz-weiß',
     wald: 'ruhiges Grün',

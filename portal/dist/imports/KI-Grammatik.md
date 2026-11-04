@@ -154,3 +154,7 @@ Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varian
 - 1.2 (Oktober 2026): Modus D · TEXT (Lückentext aus einem Text: jedes n-te Wort, C-Test, grammatischer Schwerpunkt); bis zu 30 Lücken je Aufgabe.
 - 1.1 (Oktober 2026): alles für Lernende in der Zielsprache mit deutscher Hilfe (`promptHelp`, `ruleHelp`, `explanationHelp`); Mindestlänge 8 Einheiten je Übung; mehr Formate zum Tippen.
 - 1.0 (Oktober 2026): erste Fassung.
+
+## Auszeichnungen im Text
+
+In Aufgabenstellungen, Sätzen, Texten, Antworten und Erklärungen sind sparsam erlaubt: `**fett**` (z. B. Fragen in einem Interview, ein Signalwort), `*kursiv*` (Titel von Büchern, Filmen, Zeitungen; Fremdwörter), `__unterstrichen__`. daje stellt sie in App und Druck dar. Keine anderen Formatierungen, kein HTML.

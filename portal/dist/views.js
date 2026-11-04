@@ -511,12 +511,11 @@ const gapSize = answers => {
   return n <= 3 ? 3 : Math.max(8, Math.min(24, n + 3));
 };
 function gapHTML(text, fn) {
-  let html = '', last = 0, n = 0;
-  for (const m of text.matchAll(GAP_MARK)) {
-    html += esc(text.slice(last, m.index)) + fn(m[1], ++n);
-    last = m.index + m[0].length;
-  }
-  return html + esc(text.slice(last));
+  // Lücken erst durch Platzhalter ersetzen, damit Auszeichnungen auch über eine Lücke hinweg reichen dürfen
+  const parts = [];
+  const marked = String(text).replace(GAP_MARK, (m, id) => '\uE000' + parts.push(id) + '\uE001');
+  let n = 0;
+  return rich(marked).replace(/\uE000(\d+)\uE001/g, (m, k) => fn(parts[k - 1], ++n));
 }
 const sameAnswer = (list, v) => list.some(a => TheisContent.normAnswer(a) === TheisContent.normAnswer(v));
 
@@ -525,16 +524,16 @@ function printBody(q) {
   switch (q.type) {
     case 'single_choice':
     case 'multiple_choice':
-      return q.options.map(o => `<p>□ ${esc(o.text)}</p>`).join('');
+      return q.options.map(o => `<p>□ ${rich(o.text)}</p>`).join('');
     case 'true_false':
       return '<p>□ Richtig &nbsp; □ Falsch</p>';
     case 'matching': {
       const right = seededOrder([...q.pairs.map(p => p.right), ...q.distractors], q.id);
-      return `<p>${q.pairs.map((p, i) => `${i + 1}. ${esc(p.left)} → ____`).join('<br>')}</p><p>${right.map((t, i) => `${String.fromCharCode(65 + i)}) ${esc(t)}`).join('<br>')}</p>`;
+      return `<p>${q.pairs.map((p, i) => `${i + 1}. ${rich(p.left)} → ____`).join('<br>')}</p><p>${right.map((t, i) => `${String.fromCharCode(65 + i)}) ${rich(t)}`).join('<br>')}</p>`;
     }
     case 'ordering':
       return `<p>${seededOrder(q.items, q.id)
-        .map(it => `□ ${esc(it.text)}`)
+        .map(it => `□ ${rich(it.text)}`)
         .join('<br>')}</p><p>Reihenfolge: ____ ____ ____</p>`;
     case 'gap_fill':
       return `<p>${esc(q.text).replace(GAP_MARK, '________')}</p>`;
@@ -558,7 +557,7 @@ function questionHTML(x, q, index, state) {
     return value === id ? 'is-wrong' : '';
   };
   const option = (id, text) =>
-    `<label class="opt ${optionState(id)}"><input type="radio" name="${q.id}" value="${id}" data-listen-answer="${q.id}" ${value === id ? 'checked' : ''}><span class="opt-mark" aria-hidden="true"></span><span class="opt-text">${esc(text)}</span></label>`;
+    `<label class="opt ${optionState(id)}"><input type="radio" name="${q.id}" value="${id}" data-listen-answer="${q.id}" ${value === id ? 'checked' : ''}><span class="opt-mark" aria-hidden="true"></span><span class="opt-text">${rich(text)}</span></label>`;
   const parts = answerParts(value);
   const mark = ok => (state.checked ? (ok ? ' is-correct' : ' is-wrong') : '');
   let field;
@@ -577,7 +576,7 @@ function questionHTML(x, q, index, state) {
                 ? ' is-wrong'
                 : ''
             : '';
-          return `<label class="opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span class="opt-mark box" aria-hidden="true"></span><span class="opt-text">${esc(o.text)}</span></label>`;
+          return `<label class="opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span class="opt-mark box" aria-hidden="true"></span><span class="opt-text">${rich(o.text)}</span></label>`;
         })
         .join('');
   } else if (q.type === 'matching') field = ixMatchingHTML(x, q, parts, state);
@@ -608,7 +607,7 @@ function questionHTML(x, q, index, state) {
       q.options
         .map(o => {
           const st = state.checked ? (q.correctOptionIds.includes(o.id) ? ' is-correct' : chosen.includes(o.id) ? ' is-wrong' : '') : '';
-          return `<label class="chip-opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span lang="${x.language}">${esc(o.text)}</span></label>`;
+          return `<label class="chip-opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span lang="${x.language}">${rich(o.text)}</span></label>`;
         })
         .join('') +
       '</div>';
@@ -650,7 +649,7 @@ function questionHTML(x, q, index, state) {
     field = (q.type === 'categorize' ? seededOrder(q.items, q.id) : q.items)
       .map(it => {
         const val = ownPart(parts, it.id) ? parts[it.id] : '';
-        return `<div class="cat-row${mark(val === it.category)}"><span class="cat-text" lang="${x.language}">${esc(it.text)}</span><span class="cat-opts">${q.categories
+        return `<div class="cat-row${mark(val === it.category)}"><span class="cat-text" lang="${x.language}">${rich(it.text)}</span><span class="cat-opts">${q.categories
           .map(c => `<label class="cat-opt"><input type="radio" name="${q.id}-${it.id}" value="${c.id}" data-listen-part="${q.id}" data-part="${it.id}" ${val === c.id ? 'checked' : ''}><span>${esc(c.label)}</span></label>`)
           .join('')}</span></div>`;
       })
@@ -673,14 +672,14 @@ function questionHTML(x, q, index, state) {
       ? `<div class="q-key"><b>Lösung:</b> ${esc(solutionText(q))}${q.type === 'short_answer' ? `<br><span class="muted">Weitere Varianten: ${esc(q.acceptedAnswers.join(' / '))}</span>` : ''}</div>`
       : '';
   const feedback = state.checked && q.type === 'open_answer'
-    ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${esc(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(esc(visibleText(q.explanation)))}</p>` : ''}${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}</div>`
+    ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${rich(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(rich(visibleText(q.explanation)))}</p>` : ''}${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}</div>`
     : state.checked
-    ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p${q.explanationHelp ? ` lang="${x.language}"` : ''}>${timeLinks(esc(visibleText(q.explanation)))}</p>${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
+    ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p${q.explanationHelp ? ` lang="${x.language}"` : ''}>${timeLinks(rich(visibleText(q.explanation)))}</p>${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
     : '';
   const phase = q.prompt.match(QUESTION_PHASE);
   const prompt = phase ? q.prompt.slice(phase[0].length) : q.prompt;
-  return `<fieldset class="q${index === focusIndex ? ' is-current' : ''}" id="q-${esc(q.id)}" data-index="${index}"><legend class="sr-only">Frage ${index + 1}: ${esc(q.prompt)}</legend>
-    <div class="q-head" aria-hidden="true"><span class="q-num">${index + 1}</span><div><div class="q-type">${phase ? `<span class="q-phase">${esc(phase[1])}</span>` : ''}${LISTENING_FORMAT_LABELS[q.type]}</div><div class="q-prompt">${esc(prompt)}</div></div></div>
+  return `<fieldset class="q${index === focusIndex ? ' is-current' : ''}" id="q-${esc(q.id)}" data-index="${index}"><legend class="sr-only">Frage ${index + 1}: ${esc(plainRich(q.prompt))}</legend>
+    <div class="q-head" aria-hidden="true"><span class="q-num">${index + 1}</span><div><div class="q-type">${phase ? `<span class="q-phase">${esc(phase[1])}</span>` : ''}${LISTENING_FORMAT_LABELS[q.type]}</div><div class="q-prompt">${rich(prompt)}</div></div></div>
     ${q.promptHelp ? helpToggleHTML(q.promptHelp) : ''}<div class="q-options">${field}</div>${key}${feedback}</fieldset>`;
 }
 /* Hilfe in der Muttersprache: Anweisung bzw. Merkkasten bleiben in der Zielsprache, ein Tipp zeigt die deutsche Fassung. */
@@ -921,7 +920,7 @@ function followHTML(x) {
 }
 /* Merkkasten einer Grammatikübung: Absätze, Listen („- “), Tabellen („| a | b |“), **fett**, _kursiv_. */
 function ruleHTML(text, lang) {
-  const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[\s(])_(.+?)_(?=[\s.,;:)!?]|$)/g, '$1<i>$2</i>');
+  const inline = rich; // gleiche Auszeichnungen wie in den Übungen
   // Zeilen nach Art gruppieren (Text, Liste, Tabelle), auch ohne Leerzeile dazwischen.
   const kind = l => (/^\s*\|/.test(l) ? 't' : /^\s*- /.test(l) ? 'l' : 'p');
   const blocks = [];
@@ -946,13 +945,23 @@ function ruleHTML(text, lang) {
     .join('');
 }
 const GRAMMAR_LEVELS = { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' };
-// Lesetext: **fett** und *kursiv* aus den KI-Texten als Auszeichnung, sonst reiner Text
-function readingInline(p) {
-  return esc(p)
-    .replace(/\*\*([^*\n]+?)\*\*/g, '<b>$1</b>')
-    .replace(/(^|[\s(«"„])\*([^*\n]+?)\*(?=[\s.,;:!?)»"“]|$)/g, '$1<i>$2</i>')
-    .replace(/\n/g, '<br>');
+/* Auszeichnungen in Übungstexten (Lesetext, Aufgabenstellung, Antworten, Lücken, Erklärungen, Druck):
+   **fett**, *kursiv* oder _kursiv_, __unterstrichen__, ~~durchgestrichen~~, ==markiert==. Alles andere bleibt reiner Text.
+   Ohne Lookbehind, damit auch ältere iPads (Safari vor 16.4) die Datei laden. */
+const RICH = [
+  [/\*\*([^\s*](?:[^*\n]*[^\s*])?)\*\*/g, '<b>$1</b>'],
+  [/__([^\s_](?:[^_\n]*[^\s_])?)__/g, '<u>$1</u>'],
+  [/~~([^\s~](?:[^~\n]*[^\s~])?)~~/g, '<s>$1</s>'],
+  [/==([^\s=](?:[^=\n]*[^\s=])?)==/g, '<mark>$1</mark>'],
+  [/(^|[\s(«"„'’\[—–\/-])\*([^\s*](?:[^*\n]*[^\s*])?)\*(?=[\s.,;:!?)»"“'’\]—–\/-]|$)/g, '$1<i>$2</i>'],
+  [/(^|[\s(«"„'’\[—–\/-])_([^\s_](?:[^_\n]*[^\s_])?)_(?=[\s.,;:!?)»"“'’\]—–\/-]|$)/g, '$1<i>$2</i>']
+];
+function rich(t) {
+  return RICH.reduce((h, [re, to]) => h.replace(re, to), esc(String(t ?? ''))).replace(/\n/g, '<br>');
 }
+// Für Vorlesen, Bildschirmleser und Vergleiche: Auszeichnungszeichen entfernen
+const plainRich = t => String(t ?? '').replace(/\*\*|__|~~|==/g, '').replace(/(^|[\s(])[*_]([^\s*_](?:[^*_\n]*[^\s*_])?)[*_]/g, '$1$2');
+const readingInline = rich;
 function readingHTML(x) {
   const r = x.reading;
   if (!r) return '';
@@ -960,7 +969,7 @@ function readingHTML(x) {
     .split(/\n{2,}/)
     .map(p => `<p>${readingInline(p)}</p>`)
     .join('');
-  return `<section class="reading-card" lang="${x.language}"><span class="eyebrow">Testo</span>${r.title ? `<h3>${esc(r.title)}</h3>` : ''}<div class="reading-body">${paras}</div></section>`;
+  return `<section class="reading-card" lang="${x.language}"><span class="eyebrow">Testo</span>${r.title ? `<h3>${rich(r.title)}</h3>` : ''}<div class="reading-body">${paras}</div></section>`;
 }
 function grammarSideHTML(x) {
   const g = x.grammar;
@@ -990,8 +999,8 @@ function renderListening(preview = false) {
     <header class="lesson-head">
       <div>
         <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${cils ? `<span class="chip-plain">${esc(x.catalog.textbook.unit || 'CILS')}</span>` : x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
-        <h1>${esc(x.title)}</h1>
-        <p>${esc(visibleText(x.description))}</p>
+        <h1>${esc(plainRich(x.title))}</h1>
+        <p>${esc(plainRich(visibleText(x.description)))}</p>
       </div>
       ${favoriteButton('listening', x.id)}
     </header>

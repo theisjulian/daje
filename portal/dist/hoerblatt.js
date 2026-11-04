@@ -19,7 +19,7 @@ const hbLetters = 'ABCDEFGHIJKLMNOP';
 // Zielsprache: keine deutsche Klammer. Deutsch: die deutsche Fassung ersetzt die zielsprachige.
 // Lesetext auf dem Blatt: vor den Aufgaben, als eigener Kasten (wird beim Seitenumbruch nicht geteilt, wenn möglich)
 const hbReading = x =>
-  x.reading ? `<li class="hb-reading">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</li>` : '';
+  x.reading ? `<li class="hb-reading">${x.reading.title ? `<h3>${rich(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</li>` : '';
 const HB_PAPER_HINT = new Set(['matching', 'ordering', 'categorize', 'error_correction', 'speaker_match']);
 function hbHead(x, q, no, t, prompt) {
   const de = instrFor(x.language) === 'de';
@@ -27,9 +27,9 @@ function hbHead(x, q, no, t, prompt) {
   const ins = (t.ins[q.type] || '').replace('{n}', q.items ? q.items.length : '');
   if (x.kind === 'grammar') {
     const hint = HB_PAPER_HINT.has(q.type) && ins ? `<div class="hb-hint">${esc(ins)}</div>` : '';
-    return `<div class="hb-qh g"><b class="n">${no}</b><div class="hb-p">${esc(p)}</div>${hint}</div>`;
+    return `<div class="hb-qh g"><b class="n">${no}</b><div class="hb-p">${rich(p)}</div>${hint}</div>`;
   }
-  return `<div class="hb-qh"><b class="n">${no}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(p)}</div></div>`;
+  return `<div class="hb-qh"><b class="n">${no}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${rich(p)}</div></div>`;
 }
 
 function hbPoints(q) {
@@ -54,16 +54,16 @@ function hbBody(q, t, sol) {
     case 'single_choice':
     case 'multiple_choice':
       // Kurze Antworten zweispaltig: spart Platz, ohne die Lesbarkeit zu verlieren.
-      return `<div class="hb-opts${q.options.length >= 3 && q.options.every(op => op.text.length <= 34) ? ' cols2' : ''}">${q.options.map((op, i) => `<div class="hb-o ${sol && (q.correctOptionId === op.id || (q.correctOptionIds || []).includes(op.id)) ? 'ok' : ''}"><i class="bx"></i><span><b>${hbLetters[i]}</b> ${esc(op.text)}</span></div>`).join('')}</div>`;
+      return `<div class="hb-opts${q.options.length >= 3 && q.options.every(op => op.text.length <= 34) ? ' cols2' : ''}">${q.options.map((op, i) => `<div class="hb-o ${sol && (q.correctOptionId === op.id || (q.correctOptionIds || []).includes(op.id)) ? 'ok' : ''}"><i class="bx"></i><span><b>${hbLetters[i]}</b> ${rich(op.text)}</span></div>`).join('')}</div>`;
     case 'true_false':
       return `<div class="hb-tf"><div class="hb-o ${sol && q.answer ? 'ok' : ''}"><i class="bx"></i><span>${esc(t.T)}</span></div><div class="hb-o ${sol && !q.answer ? 'ok' : ''}"><i class="bx"></i><span>${esc(t.F)}</span></div></div>`;
     case 'matching': {
       const right = seededOrder([...q.pairs.map(p => ({ id: p.id, text: p.right })), ...q.distractors.map((d, i) => ({ id: 'x' + i, text: d }))], q.id);
       const letter = id => hbLetters[right.findIndex(r => r.id === id)];
-      return `<div class="hb-match"><div>${q.pairs.map((p, i) => `<div class="hb-m"><b>${i + 1}</b><span>${esc(p.left)}</span><em class="${sol ? 'filled' : ''}">${sol ? letter(p.id) : ''}</em></div>`).join('')}</div><div>${right.map((r, i) => `<div class="hb-r"><b>${hbLetters[i]}</b><span>${esc(r.text)}</span></div>`).join('')}</div></div>`;
+      return `<div class="hb-match"><div>${q.pairs.map((p, i) => `<div class="hb-m"><b>${i + 1}</b><span>${rich(p.left)}</span><em class="${sol ? 'filled' : ''}">${sol ? letter(p.id) : ''}</em></div>`).join('')}</div><div>${right.map((r, i) => `<div class="hb-r"><b>${hbLetters[i]}</b><span>${rich(r.text)}</span></div>`).join('')}</div></div>`;
     }
     case 'ordering':
-      return seededOrder(q.items, q.id).map(it => `<div class="hb-o"><i class="bx num ${sol ? 'filled' : ''}">${sol ? q.items.findIndex(z => z.id === it.id) + 1 : ''}</i><span>${esc(it.text)}</span></div>`).join('');
+      return seededOrder(q.items, q.id).map(it => `<div class="hb-o"><i class="bx num ${sol ? 'filled' : ''}">${sol ? q.items.findIndex(z => z.id === it.id) + 1 : ''}</i><span>${rich(it.text)}</span></div>`).join('');
     case 'gap_fill': {
       let html = '', last = 0, n = 0;
       for (const m of q.text.matchAll(GAP_MARK)) {
@@ -78,7 +78,7 @@ function hbBody(q, t, sol) {
     case 'true_false_ng':
       return `<div class="hb-tf">${[['true', t.T], ['false', t.F], ['not_given', t.NG]].map(([v, l]) => `<div class="hb-o ${sol && q.answer === v ? 'ok' : ''}"><i class="bx"></i><span>${esc(l)}</span></div>`).join('')}</div>`;
     case 'word_select':
-      return `<div class="hb-words">${q.options.map(o => `<div class="hb-o ${sol && q.correctOptionIds.includes(o.id) ? 'ok' : ''}"><i class="bx"></i><span>${esc(o.text)}</span></div>`).join('')}</div>`;
+      return `<div class="hb-words">${q.options.map(o => `<div class="hb-o ${sol && q.correctOptionIds.includes(o.id) ? 'ok' : ''}"><i class="bx"></i><span>${rich(o.text)}</span></div>`).join('')}</div>`;
     case 'gap_choice':
       return `<p class="hb-gap">${gapHTML(q.text, id => {
         const g = q.gaps.find(v => v.id === id);
@@ -99,7 +99,7 @@ function hbBody(q, t, sol) {
     case 'speaker_match': {
       const items = q.type === 'categorize' ? seededOrder(q.items, q.id) : q.items;
       return `<table class="hb-grid"><thead><tr><th></th>${q.categories.map(c => `<th>${esc(c.label)}</th>`).join('')}</tr></thead><tbody>${items
-        .map((it, i) => `<tr><td><b>${i + 1}</b> ${esc(it.text)}</td>${q.categories.map(c => `<td class="c"><i class="bx ${sol && it.category === c.id ? 'on' : ''}"></i></td>`).join('')}</tr>`)
+        .map((it, i) => `<tr><td><b>${i + 1}</b> ${rich(it.text)}</td>${q.categories.map(c => `<td class="c"><i class="bx ${sol && it.category === c.id ? 'on' : ''}"></i></td>`).join('')}</tr>`)
         .join('')}</tbody></table>`;
     }
     case 'sentence_completion':
@@ -136,7 +136,7 @@ function hbAnswer(q, t) {
     case 'true_false_ng':
       return `<b>${esc({ true: t.T, false: t.F, not_given: t.NG }[q.answer])}</b>`;
     case 'word_select':
-      return q.options.filter(o => q.correctOptionIds.includes(o.id)).map(o => `<b>${esc(o.text)}</b>`).join(' · ');
+      return q.options.filter(o => q.correctOptionIds.includes(o.id)).map(o => `<b>${rich(o.text)}</b>`).join(' · ');
     case 'gap_choice':
       return q.gaps.map((g, i) => `(${i + 1}) <b>${esc(g.answer)}</b>`).join(' · ');
     case 'error_correction':
@@ -160,7 +160,7 @@ function hbAnswer(q, t) {
 }
 function hbKeyTable(x, t) {
   return `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th></tr></thead><tbody>${x.questions
-    .map((q, i) => `<tr><td>${i + 1}</td><td>${hbAnswer(q, t)}${q.explanation ? `<small>${esc(visibleText(q.explanation))}</small>` : ''}</td></tr>`)
+    .map((q, i) => `<tr><td>${i + 1}</td><td>${hbAnswer(q, t)}${q.explanation ? `<small>${rich(visibleText(q.explanation))}</small>` : ''}</td></tr>`)
     .join('')}</tbody></table>`;
 }
 function hbHTML(x, sol) {
@@ -179,7 +179,7 @@ function hbHTML(x, sol) {
     const head = m && m[1] !== phase ? `<li class="hb-phase">${esc(m[1])}</li>` : '';
     if (m) phase = m[1];
     const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-    return `${head}<li class="hb-q">${hbHead(x, q, i + 1, t, prompt)}${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+    return `${head}<li class="hb-q">${hbHead(x, q, i + 1, t, prompt)}${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${rich(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
   const speech = x.media?.type === 'speech';
   return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theisapps · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
