@@ -65,7 +65,7 @@ const saveDocState = () => {
 };
 
 function docFooter() {
-  const logo = $('brand-logo')?.innerHTML || 'theis';
+  const logo = $('brand-logo')?.innerHTML || 'theisapps';
   return `<footer class="doc-foot"><span>© 2026</span><span class="doc-logo">${logo}</span></footer>`;
 }
 function docColumnsFor(x) {

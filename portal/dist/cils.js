@@ -735,7 +735,7 @@ if (typeof document !== 'undefined') {
       })
       .join('');
     const lv = [...new Set(xs.map(x => x.level))];
-    return `<div class="hb cs${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? 'Chiavi' : 'Allenamento CILS')}</span></header>
+    return `<div class="hb cs${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theisapps · ${DOC_BRAND}</b><span>${esc(sol ? 'Chiavi' : 'Allenamento CILS')}</span></header>
       <h1>${esc(title)}</h1>
       <div class="hb-meta"><span>${esc(lv.map(l => DajeCILS.EXAM[l]).join(', '))}</span><span>Esercitazione · non è una prova ufficiale</span></div>
       ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}

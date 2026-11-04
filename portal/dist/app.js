@@ -723,7 +723,7 @@ fetch('assets/theis.svg')
       if ($('brand-logo-m')) $('brand-logo-m').innerHTML = s;
     }
   })
-  .catch(() => ($('brand-logo').textContent = 'theis'));
+  .catch(() => ($('brand-logo').textContent = 'theisapps'));
 setupExtras();
 setupPortal();
 setupShell();

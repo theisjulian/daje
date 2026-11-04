@@ -182,7 +182,7 @@ function hbHTML(x, sol) {
     return `${head}<li class="hb-q">${hbHead(x, q, i + 1, t, prompt)}${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
   const speech = x.media?.type === 'speech';
-  return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
+  return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theisapps · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
   <h1>${esc(x.title)}</h1>
   <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}

@@ -117,7 +117,7 @@ function setupShell() {
   bottom.innerHTML =
     '<div class="privacy-note">Dein Lernstand bleibt auf diesem Gerät.</div>' +
     `<button class="quiet" data-nav="quellen">Quellen und Bildnachweise</button>` +
-    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theis · theisapps.de"><span>© 2026</span><span id="brand-logo"></span></a>';
+    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theisapps · theisapps.de"><span>© 2026</span><span id="brand-logo"></span></a>';
 
   // Kopfzeile: Logo (Handy), Titel, Umschalter, Aktionen
   const top = document.querySelector('.topbar');
@@ -147,7 +147,7 @@ function setupShell() {
   // Fußzeile: Redaktion nur hier
   const foot = document.querySelector('.foot');
   foot.innerHTML =
-    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theis · theisapps.de"><span>© 2026</span><span id="brand-logo-m"></span></a><span class="foot-links"><button class="quiet" data-nav="quellen">Quellen</button></span>';
+    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theisapps · theisapps.de"><span>© 2026</span><span id="brand-logo-m"></span></a><span class="foot-links"><button class="quiet" data-nav="quellen">Quellen</button></span>';
 
   // Handy: Tab-Leiste und „Mehr“-Blatt
   const tabs = document.createElement('nav');

@@ -416,7 +416,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
       : '';
   const levels = [...new Set(all.map(x => x.level))].join(', ');
   const sources = [...new Set(all.flatMap(x => x.sources.map(s => visibleText(s.citation))).filter(Boolean))];
-  return `<div class="hb${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? w[1] : w[0])}</span></header>
+  return `<div class="hb${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theisapps · ${DOC_BRAND}</b><span>${esc(sol ? w[1] : w[0])}</span></header>
   <h1>${esc(title || (all.length === 1 ? all[0].title : w[0]))}</h1>
   <div class="hb-meta"><span>${esc(L === 'de' ? portalLang(lang) : { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' }[lang] || portalLang(lang))}</span><span>${esc(levels)}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
