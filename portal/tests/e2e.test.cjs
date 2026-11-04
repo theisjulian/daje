@@ -974,7 +974,8 @@ async function step(name, fn) {
     });
     await pp.locator('.pt-card').first().waitFor();
     assert.equal(await pp.locator('.pt-levels button').count(), 6);
-    assert.ok((await pp.locator('.pt-card b').first().textContent()).includes('Un festival'));
+    // Freigegebene CILS-Übungen aus der Datenbank können dazukommen: die eigene muss unter Leseverstehen stehen
+    assert.equal(await pp.locator('.pt-part', { hasText: 'Leseverstehen' }).locator('.pt-card', { hasText: 'Un festival' }).count(), 1);
     await pp.evaluate(() => nav('grammatik'));
     assert.equal(await pp.locator('text=Un festival').count(), 0, 'CILS nicht in den Grammatikthemen');
     await pt.ctx.close();
