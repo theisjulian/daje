@@ -4,16 +4,11 @@
  * mit wählbaren Spalten und Dokument-Designs.
  */
 const DOC_BRAND = 'daje';
+// Drei Designs, die sich im Druck klar unterscheiden (die übrigen Stile bleiben im CSS für alte Einstellungen)
 const DOC_DESIGNS = [
-  ['schlicht', 'Schlicht', 'Nüchtern, schwarz-weiß'],
-  ['modern', 'Modern', 'Akzentfarbe deines Designs'],
-  ['klassisch', 'Klassisch', 'Schwarz-weiß, sparsam im Druck'],
-  ['heft', 'Heft', 'Linien und Marker'],
-  ['kontrast', 'Kontrast', 'Kräftig, gut lesbar'],
-  ['schulbuch', 'Schulbuch', 'Klare Bänder, nüchtern'],
-  ['pastell', 'Pastell', 'Weiche Kärtchen'],
-  ['elegant', 'Elegant', 'Zentriert, feine Linien'],
-  ['minimal', 'Minimal', 'Sparsam, tintensparend']
+  ['schlicht', 'Schlicht', 'Serifenlos, schwarz-weiß, sparsam im Druck'],
+  ['klassisch', 'Klassisch', 'Serifenschrift wie im Buch'],
+  ['heft', 'Heft', 'Farbige Marker und Linien']
 ];
 const DOC_FONTS = [
   ['auto', 'Passend zum Design', 'inherit'],
@@ -56,6 +51,7 @@ try {
   /* ohne Speicher */
 }
 docState.layout = 'list';
+if (!DOC_DESIGNS.some(d => d[0] === docState.design)) docState.design = 'schlicht';
 const saveDocState = () => {
   try {
     localStorage.setItem('ripassa-doc-v1', JSON.stringify(docState));

@@ -796,9 +796,12 @@ document.addEventListener('click', e => {
   const go = e.target.closest('[data-focus-go]');
   if (go) return showFocus(Number(go.dataset.focusGo));
   const step = e.target.closest('.qstep');
-  if (step && $('listening-form')?.classList.contains('focus')) {
+  if (step) {
+    // Kein Seitenwechsel über den Anker: im Fokus-Modus zur Aufgabe wechseln, sonst hinscrollen
     e.preventDefault();
-    showFocus([...document.querySelectorAll('.qstep')].indexOf(step));
+    const i = [...document.querySelectorAll('.qstep')].indexOf(step);
+    if ($('listening-form')?.classList.contains('focus')) return showFocus(i);
+    document.querySelector(`#listening-form fieldset.q[data-index="${i}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 });
 /* Eingabetaste in einer Lücke: zur nächsten Lücke springen (auch in die nächste Aufgabe), nie abgeben.
@@ -943,12 +946,19 @@ function ruleHTML(text, lang) {
     .join('');
 }
 const GRAMMAR_LEVELS = { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' };
+// Lesetext: **fett** und *kursiv* aus den KI-Texten als Auszeichnung, sonst reiner Text
+function readingInline(p) {
+  return esc(p)
+    .replace(/\*\*([^*\n]+?)\*\*/g, '<b>$1</b>')
+    .replace(/(^|[\s(«"„])\*([^*\n]+?)\*(?=[\s.,;:!?)»"“]|$)/g, '$1<i>$2</i>')
+    .replace(/\n/g, '<br>');
+}
 function readingHTML(x) {
   const r = x.reading;
   if (!r) return '';
   const paras = String(r.text)
     .split(/\n{2,}/)
-    .map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`)
+    .map(p => `<p>${readingInline(p)}</p>`)
     .join('');
   return `<section class="reading-card" lang="${x.language}"><span class="eyebrow">Testo</span>${r.title ? `<h3>${esc(r.title)}</h3>` : ''}<div class="reading-body">${paras}</div></section>`;
 }
@@ -1001,7 +1011,7 @@ function renderListening(preview = false) {
         ${teacher && !preview ? teacherNotesHTML(x) : ''}
         <div class="tasks-head"><h2>${teacher || gram ? 'Aufgaben' : 'Was hast du verstanden?'}</h2><span id="listen-answer-count">${count} / ${x.questions.length} beantwortet</span></div>
         ${!teacher && x.questions.length > 1 ? `<div class="view-switch" role="group" aria-label="Darstellung der Aufgaben"><button type="button" data-focus="on" aria-pressed="${focus}">Eine nach der anderen</button><button type="button" data-focus="off" aria-pressed="${!focus}">Alle auf einmal</button></div>` : ''}
-        <div class="qsteps" id="qsteps" aria-hidden="true">${stepsHTML(x, state)}</div>
+        <div class="qsteps" id="qsteps" role="navigation" aria-label="Zu einer Aufgabe springen">${stepsHTML(x, state)}</div>
         ${resultBanner(x, state)}
         <form id="listening-form" class="${focus ? 'focus' : ''}${focus && focusIndex === x.questions.length - 1 ? ' at-end' : ''}" novalidate>
           ${(() => {

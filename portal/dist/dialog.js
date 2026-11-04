@@ -101,6 +101,27 @@ let hbFlatHTML = '';
 /* Teilbare Aufgabe: Zeilen eines Lückentexts, Zeilen von Tabellen und Satzlisten, Antwortzeilen.
    make(a, b) liefert eine Kopie mit den Zeilen a … b−1; Fortsetzungen ohne Kopf, Wortkasten und Erklärung. */
 function hbSplitter(li) {
+  // Lesetext: an Absatzgrenzen teilen; die Fortsetzung ohne Überschrift
+  if (li.matches('.hb-reading')) {
+    const n = li.querySelectorAll(':scope > p').length;
+    if (n < 2) return null;
+    const ps = [...li.querySelectorAll(':scope > p')];
+    // Eine Zwischenüberschrift (Absatz nur aus Fettdruck, z. B. Interviewfrage) bleibt bei ihrem Absatz
+    const head = p => p.children.length === 1 && p.firstElementChild.tagName === 'B' && p.textContent.trim() === p.firstElementChild.textContent.trim();
+    return {
+      n,
+      bad: k => head(ps[k - 1]),
+      make(a, b) {
+        const c = li.cloneNode(true);
+        [...c.querySelectorAll(':scope > p')].forEach((el, i) => (i < a || i >= b) && el.remove());
+        if (a > 0) {
+          c.classList.add('hb-reading-cont');
+          c.querySelector(':scope > h3')?.remove();
+        }
+        return c;
+      }
+    };
+  }
   const rowsOf = el => {
     if (el.matches('p.hb-gap')) return { kind: 'lines', n: el.innerHTML.split('\n').length };
     if (el.matches('table')) return { kind: 'rows', n: el.tBodies[0]?.rows.length || 0 };
@@ -198,8 +219,9 @@ function hbPaginate() {
     if (!sp || sp.n < 2) return null;
     let k = 0;
     for (let i = 1; i < sp.n; i++) {
-      if (hOf(sp.make(0, i)) <= room) k = i;
-      else break;
+      if (hOf(sp.make(0, i)) <= room) {
+        if (!sp.bad?.(i)) k = i;
+      } else break;
     }
     if (!k) return null;
     const a = sp.make(0, k), b = sp.make(k, sp.n);
@@ -214,7 +236,7 @@ function hbPaginate() {
       let bh = b.reduce((s, x) => s + x.h, 0);
       // Passt die Aufgabe nicht mehr, aber ist noch viel Platz (oder ist sie länger als eine Seite)? Dann teilen.
       const last = b[b.length - 1];
-      if (list && used + bh > cap && last.box === 'list' && last.node.classList?.contains('hb-q') && !b[0].brk) {
+      if (list && used + bh > cap && last.box === 'list' && (last.node.classList?.contains('hb-q') || last.node.classList?.contains('hb-reading')) && !b[0].brk) {
         const pre = b.slice(0, -1).reduce((s, x) => s + x.h, 0);
         const room = cap - used - pre;
         if (room > Math.max(90, cap * 0.18) || bh > cap * 0.9) {

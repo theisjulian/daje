@@ -19,7 +19,7 @@ const hbLetters = 'ABCDEFGHIJKLMNOP';
 // Zielsprache: keine deutsche Klammer. Deutsch: die deutsche Fassung ersetzt die zielsprachige.
 // Lesetext auf dem Blatt: vor den Aufgaben, als eigener Kasten (wird beim Seitenumbruch nicht geteilt, wenn möglich)
 const hbReading = x =>
-  x.reading ? `<li class="hb-reading">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</li>` : '';
+  x.reading ? `<li class="hb-reading">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</li>` : '';
 const HB_PAPER_HINT = new Set(['matching', 'ordering', 'categorize', 'error_correction', 'speaker_match']);
 function hbHead(x, q, no, t, prompt) {
   const de = instrFor(x.language) === 'de';

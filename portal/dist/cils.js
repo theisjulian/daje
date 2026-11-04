@@ -172,7 +172,8 @@
     const label = '„' + String(prompt).slice(0, 40) + '“';
     need(o.length >= 2 && k >= 0 && k < o.length, 'Auswahlfrage ' + label + ': Optionen oder Lösung fehlen.');
     need(new Set(o.map(x => x.text.toLowerCase())).size === o.length, 'Auswahlfrage ' + label + ': zwei gleiche Optionen.');
-    return { id, type: 'single_choice', prompt: tidy(prompt), options: o, correctOptionId: o[k].id };
+    // Reihenfolge fest gemischt (gleiche Übung, gleiche Reihenfolge): die Lösung steht nie immer an derselben Stelle
+    return { id, type: 'single_choice', prompt: tidy(prompt), options: shuffle(o, id + prompt), correctOptionId: o[k].id };
   }
   const mcList = (list, help) => {
     const qs = arr(list).map((d, i) => help1(choice('q' + (i + 1), d.domanda || d.inizio, d.opzioni, d.giusta), i, help));
@@ -388,7 +389,7 @@
       f && (f.testata || f.titolo || furl)
         ? {
             kind: 'external',
-            citation: s(`Testo adattato da: ${[f.autore, f.titolo ? '«' + f.titolo + '»' : '', f.testata, f.data].map(v => s(v, 200)).filter(Boolean).join(', ')}. Kürzung und Bearbeitung für daje.`, 1000),
+            citation: s(`Testo tratto da: ${[f.autore, f.titolo ? '«' + f.titolo + '»' : '', f.testata, f.data].map(v => s(v, 200)).filter(Boolean).join(', ')}; ridotto e adattato per daje.`, 1000),
             ...(furl ? { url: furl } : {}),
             rights: 'needs_review',
             meta: Object.fromEntries([['url', furl], ['author', s(f.autore, 300)], ['title', s(f.titolo, 300)], ['site', s(f.testata, 300)], ['date', s(f.data, 300)]].filter(([, v]) => v))
@@ -417,8 +418,8 @@
           {
             kind: 'own',
             citation: type.media
-              ? 'Aufnahme und Transkript von der Lehrkraft; Aufgaben im Format ' + EXAM[level] + ' mit KI-Unterstützung für daje erstellt. Keine Originalaufgabe der Università per Stranieri di Siena.'
-              : 'Übung im Format ' + EXAM[level] + ', mit KI-Unterstützung für daje erstellt. Keine Originalaufgabe der Università per Stranieri di Siena.',
+              ? 'Registrazione e trascrizione dell’insegnante; esercizi nel formato ' + EXAM[level] + ' realizzati per daje con il supporto dell’IA. Non è una prova originale dell’Università per Stranieri di Siena.'
+              : 'Esercizio nel formato ' + EXAM[level] + ', realizzato per daje con il supporto dell’IA. Non è una prova originale dell’Università per Stranieri di Siena.',
             rights: 'own'
           },
           ...(fonte ? [fonte] : [])
@@ -740,11 +741,11 @@ if (typeof document !== 'undefined') {
           .join('');
         if (sol === 2) return '';
         const reading = x.reading
-          ? `<div class="cs-text">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</div>`
+          ? `<div class="cs-text">${x.reading.title ? `<h3>${esc(x.reading.title)}</h3>` : ''}${String(x.reading.text).split(/\n{2,}/).map(p => `<p>${readingInline(p)}</p>`).join('')}</div>`
           : '';
         const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<p class="cs-link">Ascolto online: ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</p>` : '';
         const tr = sol === 1 && (x.transcript || x.media?.type === 'speech') ? `<div class="cs-tr"><b>Trascrizione</b>${String(x.transcript || x.media.text).split(/\n+/).map(l => `<p>${esc(l)}</p>`).join('')}</div>` : '';
-        const src = (x.sources || []).filter(z => z.kind === 'external').map(z => `<p class="cs-src">${esc(visibleText(z.citation))}</p>`).join('');
+        const src = (x.sources || []).some(z => z.kind === 'external') ? printSources(x, de ? 'de' : 'it').map(c => `<p class="cs-src">${esc(c)}</p>`).join('') : '';
         return `<section class="cs-prova"><header class="cs-h">${esc(ty ? DajeCILS.PARTS[ty.part].label : 'CILS')}${prova ? ` – Prova n. ${esc(prova)}` : ''}</header>
           <p class="cs-cons">${esc(instr)}</p>${ex && !de ? `<p class="cs-ex">${esc(ex)}</p>` : ''}${link}${reading}${src}<ol class="cs-qs">${qs}</ol>${tr}</section>`;
       })

@@ -371,6 +371,20 @@ document.addEventListener('input', e => {
 
 /* ---------- Druck ---------- */
 /* sheets: [[id, …], …]; sol: 0 Aufgabenblatt, 1 Lösungen, 2 kurzer Schlüssel */
+/* Quellenzeile im Druck: bei CILS nur die echte Textquelle (falls vorhanden); Standardsätze in der Sprache des Blatts */
+const SRC_IT = [
+  [/Übung im Format (CILS [^,]+), mit KI-Unterstützung für daje erstellt\. Keine Originalaufgabe der Università per Stranieri di Siena\./, 'Esercizio nel formato $1, realizzato per daje con il supporto dell’IA. Non è una prova originale dell’Università per Stranieri di Siena.'],
+  [/Aufnahme und Transkript von der Lehrkraft; Aufgaben im Format (CILS \S+) mit KI-Unterstützung für daje erstellt\. Keine Originalaufgabe der Università per Stranieri di Siena\./, 'Registrazione e trascrizione dell’insegnante; esercizi nel formato $1 realizzati per daje con il supporto dell’IA. Non è una prova originale dell’Università per Stranieri di Siena.'],
+  [/\. Kürzung und Bearbeitung für daje\./, '; ridotto e adattato per daje.']
+];
+function printSources(x, L) {
+  let list = x.sources || [];
+  if (x.catalog?.tags?.includes('cils') && list.some(s => s.kind === 'external')) list = list.filter(s => s.kind === 'external');
+  return list
+    .map(s => visibleText(s.citation))
+    .filter(Boolean)
+    .map(c => (L === 'it' ? SRC_IT.reduce((t, [re, to]) => t.replace(re, to), c) : c));
+}
 function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
   const lists = sheets.map(s => s.map(id => (typeof id === 'string' ? findTask(id) : id)).filter(Boolean)).filter(s => s.length);
   const all = lists.flat();
@@ -390,7 +404,8 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
         head +
         items
           .map(x => {
-            const sec = `<li class="hb-phase hb-ex-title">${esc(x.title)}${x.grammar ? `<small>${esc(x.grammar.topicTitle)}</small>` : ''}</li>`;
+            // Nur eine Übung: deren Titel steht schon als Überschrift oben, kein zweiter Abschnittstitel
+            const sec = all.length === 1 ? '' : `<li class="hb-phase hb-ex-title">${esc(x.title)}${x.grammar ? `<small>${esc(x.grammar.topicTitle)}</small>` : ''}</li>`;
             const r = rule && x.grammar?.rule && sol !== 2 && !ruleShown.has(x.grammar.topic) && ruleShown.add(x.grammar.topic) ? `<li class="hb-rule"><b>${esc(w[4])}</b>${ruleHTML(x.grammar.rule, x.language)}</li>` : '';
             const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<li class="hb-note"><b>${esc(w[3])}:</b> ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</li>` : '';
             const reading = sol === 2 ? '' : hbReading(x);
@@ -415,7 +430,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
       ? `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th></tr></thead><tbody>${keyRows.map(({ no: n, q }) => `<tr><td>${n}</td><td>${hbAnswer(q, t)}</td></tr>`).join('')}</tbody></table>`
       : '';
   const levels = [...new Set(all.map(x => x.level))].join(', ');
-  const sources = [...new Set(all.flatMap(x => x.sources.map(s => visibleText(s.citation))).filter(Boolean))];
+  const sources = [...new Set(all.flatMap(x => printSources(x, L)))];
   return `<div class="hb${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theisapps · ${DOC_BRAND}</b><span>${esc(sol ? w[1] : w[0])}</span></header>
   <h1>${esc(title || (all.length === 1 ? all[0].title : w[0]))}</h1>
   <div class="hb-meta"><span>${esc(L === 'de' ? portalLang(lang) : { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' }[lang] || portalLang(lang))}</span><span>${esc(levels)}</span></div>
