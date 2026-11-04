@@ -42,3 +42,4 @@ Ascolto, Prova 3. **B1/B2:** 12 Aussagen, bei jeder entscheiden die Lernenden ve
 - C1/C2: Aussagen als kurze, sachliche Sätze im Stil „Il relatore sostiene che …“, „Secondo l’intervistata …“.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

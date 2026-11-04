@@ -163,6 +163,9 @@ add('ora-monologo','Orale · Prova 2','Produzione orale','A1–C2',
 - `spunti`: 3–6 Leitfragen auf Italienisch, die eine Gliederung nahelegen.""")
 
 for id,(title,part,levels,intro,example,rules) in T.items():
+    extra = ('- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.'
+             if id in ('asc-completa','str-articoli','str-aggettivi','str-pronomi','str-parola','str-verbi') else
+             '- `soluzioni`: **alle** gleichwertig richtigen Fortsetzungen angeben (auch mit Synonymen); nur diese wertet daje als richtig.' if id=='str-trasforma' else '')
     ex = json.dumps({"livello":"…","tipo":id,"tema":"…",**example,"noteDocente":["…"]}, ensure_ascii=False, indent=2)
     md = f"""# daje · CILS-Aufgabentyp `{id}`
 
@@ -183,6 +186,7 @@ for id,(title,part,levels,intro,example,rules) in T.items():
 {rules}
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+{extra}
 """
     open(os.path.join(out, id + '.md'),'w').write(md)
 print(len(T))

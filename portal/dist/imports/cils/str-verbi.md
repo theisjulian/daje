@@ -34,3 +34,4 @@ Strutture, Prova 2: ein zusammenhängender Text, in dem Verben ergänzt werden. 
 - C1/C2: auch passato remoto, Passiv, Konjunktiv (Imperfekt, Plusquamperfekt) und implizite Formen; verlangt der Text eine implizite Form, steht der Hinweis in der Klammer, z. B. `(uscire, gerundio)`.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.

@@ -33,3 +33,4 @@ Strutture, Prova 1 (A2): ein zusammenhängender Text mit 10 Lücken für Adjekti
 - Das Nomen, auf das sich das Adjektiv bezieht, ist im Satz eindeutig erkennbar.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.

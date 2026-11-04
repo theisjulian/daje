@@ -32,3 +32,4 @@ Ascolto, Prova 1: Die Lernenden hören eine Durchsage, Nachricht oder einen Beri
 - Das Wort in der Lücke steht genau so im Transkript.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.

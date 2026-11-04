@@ -41,3 +41,4 @@ Lettura, Prova 2: vier kurze Gebrauchstexte mit Überschrift (Anzeige, Hinweis, 
 - Die richtige Information gibt eine Aussage des Textes mit anderen Worten wieder; die anderen beiden nutzen Textwörter, stimmen aber nicht.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

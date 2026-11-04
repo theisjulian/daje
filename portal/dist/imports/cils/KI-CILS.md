@@ -38,6 +38,8 @@ Du bist erfahrene Prüferin bzw. erfahrener Prüfer für die CILS (Certificazion
 ### Schreibweisen, die daje versteht
 
 - `[[wort]]` markiert eine Lücke; in den Klammern steht die **richtige Lösung**. Mehrere richtige Lösungen mit Schrägstrich: `[[l’/la]]`.
+- **Offene Lücken: alle richtigen Lösungen angeben.** daje wertet nur als richtig, was in den Klammern steht. Prüfe deshalb bei jeder offenen Lücke, welche Wörter im Satz genauso korrekt und auf dem Niveau üblich wären, und schreib sie alle hinein: Synonyme bei Konnektoren (`[[benché/sebbene/nonostante/malgrado/quantunque]]`), gleichwertige Pronomen (`[[che/il quale]]`), Präpositionen (`[[con il/col]]`), Zeitformen, die der Kontext beide zulässt (`[[sono arrivata/sono arrivato]]`, `[[fosse/sia]]` nur wenn wirklich beides geht). Wenn sich nicht eindeutig sagen lässt, was alles passt, formuliere den Satz so um, dass die Lücke eindeutig wird.
+- Auswahl-Lücken und Auswahlfragen dagegen haben **genau eine** richtige Option; kein Ablenker darf ein Synonym der Lösung sein.
 - Auswahl-Lücke: `[[richtig|falsch|falsch]]`, **die richtige Lösung immer zuerst**; daje mischt die Reihenfolge.
 - `giusta` ist der Buchstabe der richtigen Option in der Reihenfolge von `opzioni`: `A`, `B`, `C` oder `D`. Verteile die richtigen Buchstaben gleichmäßig.
 - Vero/falso-Aussagen: `{ "testo": "…", "presente": true }` (true = vero, steht so im Text).
@@ -67,6 +69,7 @@ Richtschnur sind die Prüfungshefte. Schreib **nicht über** dem Niveau: lieber 
 1. Stimmen alle Anzahlen aus „Vorgaben für dieses Niveau“ **genau** (Lücken, Sätze, Optionen, Aussagen, Teile, Themen)? daje lehnt abweichende Antworten ab.
 2. Ist bei jeder Auswahl genau eine Option eindeutig richtig (bei „informazioni presenti“ C1/C2: genau die angegebene Zahl `presenti`)?
 3. Steht beim Lesen und Hören jede richtige Information wirklich im Text, und keine falsche?
+3a. Hat jede offene Lücke **alle** gleichwertig richtigen Lösungen (mit `/`)? Lies jeden Lückensatz einmal mit jeder denkbaren Alternative.
 4. Ist das Niveau eingehalten (Abschnitt 4, Textlänge laut `parole`), und sind die Ablenker gleich gebaut wie die Lösung?
 5. Ist das JSON gültig (doppelte Anführungszeichen, keine Kommentare, keine abschließenden Kommas)?
 

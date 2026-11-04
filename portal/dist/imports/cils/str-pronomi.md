@@ -33,3 +33,4 @@ Strutture, Prova 1 (DUE-B2): offener Lückentext mit 20 Lücken, je ein Wort: Po
 - Keine Lücke darf allein durch Genus oder Numerus lösbar sein; entscheidend sind Bezug und Funktion.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.

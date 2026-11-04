@@ -34,3 +34,4 @@ Strutture, Prova 3: ein Text mit Lücken; zu jeder Lücke stehen in einer Tabell
 - Ab B1 darf die Lösung nicht allein an Genus, Numerus oder Artikel erkennbar sein; ab C1 feine Bedeutungsunterschiede und Kollokationen.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

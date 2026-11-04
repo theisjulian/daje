@@ -40,3 +40,4 @@ Produzione orale, Prova 2: zusammenhängendes Sprechen zu einem Thema, ohne Unte
 - `spunti`: 3–6 Leitfragen auf Italienisch, die eine Gliederung nahelegen.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

@@ -40,3 +40,4 @@ Produzione orale, Prova 1. A1/A2: 2 einfache Rollenspiele („Il candidato dovr�
 - `spunti` = 3–6 Redemittel bzw. Nachfragen für die Lehrkraft.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

@@ -36,3 +36,4 @@ Lettura, Prova 3: Ein Text ist in Teile zerlegt (B1/B2: 11, C1/C2: 16). Teil A i
 - Kein Teil passt an zwei Stellen; Personen und Dinge werden erst eingeführt, dann wieder aufgegriffen.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

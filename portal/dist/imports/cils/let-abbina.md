@@ -46,3 +46,4 @@ Lettura, Prova 3: vier Textanfänge (1–4) mit Überschrift und acht Fortsetzun
 - Jede Fortsetzung passt grammatisch an jeden Anfang; entscheidend ist der Inhalt.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

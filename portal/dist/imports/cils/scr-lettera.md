@@ -48,3 +48,4 @@ Produzione scritta, Prova 2: zwei Situationen zur Wahl, in denen die Lernenden e
 - `criteri` 3–5 Prüfpunkte auf Italienisch.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

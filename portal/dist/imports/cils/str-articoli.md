@@ -33,3 +33,4 @@ Strutture, Prova 1. A1: Lückentext mit 10 bestimmten Artikeln. UNO-B1: 20 Lück
 - Auch schwierige Fälle: gli/lo vor s+Konsonant, z, ps; l’ vor Vokal; nel/negli; sul; dall’; con il/col (beide Lösungen: `[[con il/col]]`).
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- Offene Lücken: **alle** gleichwertig richtigen Lösungen mit `/` angeben (Synonyme, gleichwertige Formen), z. B. `[[benché/sebbene/nonostante]]`. Nur was in den Klammern steht, wertet daje als richtig.

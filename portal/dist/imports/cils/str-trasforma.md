@@ -41,3 +41,4 @@ Strutture, Prova 4 (TRE-C1, QUATTRO-C2): 6 Sätze aus einem Regelwerk oder einer
 - Nur Umformungen mit wenigen eindeutigen Lösungen wählen; Arten der Umformung abwechseln.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+- `soluzioni`: **alle** gleichwertig richtigen Fortsetzungen angeben (auch mit Synonymen); nur diese wertet daje als richtig.

@@ -47,3 +47,4 @@ Wie im Heft: Die Lernenden hören die Aufnahme (Transkript unten) und vervollst�
 - Keine Fragen zu Details, die man beim einmaligen Hören nicht verstehen kann.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

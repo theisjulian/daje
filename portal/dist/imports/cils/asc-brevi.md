@@ -41,3 +41,4 @@ Ascolto, Prova 3: Die Aufnahme besteht aus 4 kurzen Hörtexten (Nachricht auf de
 - Je 3 kurze Informationen, genau eine trifft zu. Die anderen beiden nehmen Wörter aus demselben Text auf, stimmen aber nicht.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

@@ -43,3 +43,4 @@ Strutture, Prova 4 (UNO-B1, DUE-B2): 10 kurze Äußerungen (Anzeige, Nachricht, 
 - B2 auch Ironie, Höflichkeitsformen und indirekte Bitten.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

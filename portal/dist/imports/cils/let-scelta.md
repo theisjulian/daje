@@ -44,3 +44,4 @@ Lettura, Prova 1: ein Text mit Überschrift, dazu Satzanfänge mit Fortsetzungen
 - Ab B1 prüft mindestens ein Satz die Hauptaussage oder Absicht des Textes, ab B2 mindestens einer eine Schlussfolgerung oder Haltung, ab C1 auch Implizites und Wortbedeutung im Kontext.
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+

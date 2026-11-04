@@ -43,3 +43,4 @@ Lettura, Prova 2. **B1:** Vorstellung eines Festivals, Wettbewerbs oder Projekts
 - Falsche Aussagen sind plausibel und nah am Text (Detail vertauscht, Bedingung weggelassen, Verallgemeinerung wie „tutti“, „solo“, „direttamente“, Frist oder Betrag verändert).
 - Zahlen (Wörter, Fragen, Lücken, Aussagen) stehen unter „Vorgaben für dieses Niveau“ in den Eingaben; sie gehen vor und müssen **genau** stimmen, sonst lehnt daje die Antwort ab.
 - Die Anweisung des Hefts (consegna) setzt daje selbst ein. Gib sie nicht aus.
+
