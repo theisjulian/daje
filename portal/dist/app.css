@@ -9328,3 +9328,8 @@ html.is-gated .nav-list, html.is-gated .tabbar, html.is-gated .audience-switch, 
 #teaching-print mark { background: #fff1a8; color: inherit; padding: 0 .12em; }
 :is(.q, .reading-card, .rule, .listen-feedback, .hb, .cs) u { text-decoration-thickness: 1.5px; text-underline-offset: 0.15em; }
 :is(.q-prompt, .opt-text, .reading-body, .hb-p, .cs-p) i { font-style: italic; }
+/* Offener Dialog: Seite dahinter steht still, gescrollt wird nur im Dialog */
+html.dlg-lock, html.dlg-lock body { overflow: hidden; }
+dialog, #look-dialog .set-top, .sheet { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+dialog[tabindex='-1']:focus { outline: none; }
+.sheet-grid button { align-content: center; min-height: 92px; }
