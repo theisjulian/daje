@@ -563,7 +563,8 @@ document.addEventListener('click', async e => {
   if (a === 'logout') {
     const wipe = $('acc-wipe')?.checked;
     await syncPush();
-    await sb.auth.signOut();
+    // Nur daje auf diesem Gerät abmelden: dieselbe Anmeldung nutzt auch forza, die bleibt aktiv
+    await sb.auth.signOut({ scope: 'local' });
     if (wipe) {
       SYNC_KEYS.forEach(k => localStorage.removeItem(k));
       localStorage.removeItem(SYNC_META);
@@ -584,7 +585,7 @@ document.addEventListener('click', async e => {
       return;
     }
     syncMetaSave({});
-    await sb.auth.signOut().catch(() => {});
+    await sb.auth.signOut({ scope: 'local' }).catch(() => {});
     $('acc-dialog')?.close();
     toast('Dein daje-Konto wurde gelöscht.');
     return;
