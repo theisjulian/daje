@@ -50,7 +50,7 @@
    "prompt": "Scrivi mi, ti, gli, le, ci o vi.",
    "promptHelp": "Ergänze mi, ti, gli, le, ci oder vi.",
    "type": "gap_fill",
-   "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!\nMamma, [[g6]] dai dieci euro?\nSara? Domani [[g7]] scrivo una mail.\nLeo? [[g8]] telefono stasera.",
+   "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta di noi: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!\nMamma, [[g6]] dai dieci euro?\nSara? Domani [[g7]] scrivo una mail.\nLeo? [[g8]] telefono stasera.",
    "gaps": [
     {
      "id": "g1",

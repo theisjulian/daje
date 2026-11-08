@@ -50,7 +50,7 @@
    "prompt": "Scrivi i verbi al passato prossimo.",
    "promptHelp": "Setze die Verben ins passato prossimo.",
    "type": "gap_fill",
-   "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
+   "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare, io) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
    "gaps": [
     {
      "id": "g1",

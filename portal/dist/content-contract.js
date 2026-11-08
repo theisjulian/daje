@@ -550,6 +550,31 @@
       .replace(/[.!?]+$/g, '')
       .trim()
       .replace(/\s+/g, ' ');
+  // Fehlerkorrektur: Unterscheidet sich das falsche Wort nur durch Groß-/Kleinschreibung („Dicembre“ → „dicembre“),
+  // zählt die Großschreibung mit; sonst wäre das unveränderte falsche Wort „richtig“.
+  // Satzergänzung: Die Lösung muss als ganzes Wort bzw. ganze Wortfolge vorkommen („le“ steckt nicht in „telefono“, „sta“ nicht in „stai“),
+  // nicht verneint sein („non mi piace“ ≠ „mi piace“) und nicht in eine andere Uhrzeit übergehen („alle nove e mezza“ ≠ „alle nove“).
+  const PHRASE_CONT = /^ (e (mezz[ao]|un quarto|quindici|dieci|venti|venticinque|trenta|quaranta|quarantacinque|cinquanta|cinque)|meno )/;
+  const phraseLoose = x => normAnswer(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+  function phraseHas(given, key) {
+    const g = phraseLoose(given), k = phraseLoose(key);
+    if (!k) return false;
+    for (let i = g.indexOf(k); i !== -1; i = g.indexOf(k, i + 1)) {
+      const before = g.slice(0, i), after = g.slice(i + k.length);
+      if (/[\p{L}\p{N}]$/u.test(before) || /^[\p{L}\p{N}]/u.test(after)) continue;
+      if (!/^non\b/.test(k) && /(^|\s)non\s$/.test(before)) continue;
+      if (PHRASE_CONT.test(after) && !PHRASE_CONT.test(' ' + k)) continue;
+      return true;
+    }
+    return false;
+  }
+  const sameFix = (g, v) =>
+    g.acceptedAnswers.some(a => {
+      if (normAnswer(a) !== normAnswer(v)) return false;
+      if (normAnswer(a) !== normAnswer(g.wrong)) return true;
+      const plain = x => String(x ?? '').normalize('NFC').replace(/[’‘ʼ´`]/g, "'").trim().replace(/[.!?]+$/g, '').trim();
+      return plain(a) === plain(v);
+    });
   function assessAnswer(q, raw) {
     const norm = normAnswer;
     if (q.type === 'single_choice') return raw === q.correctOptionId;
@@ -573,7 +598,9 @@
     }
     if (q.type === 'matching') {
       const v = parts();
-      return q.pairs.every(p => has(v, p.id) && v[p.id] === p.id);
+      // Gleich lautende Karten (zweimal „abbiamo“) sind austauschbar.
+      const text = id => (q.pairs.find(y => y.id === id) || {}).right;
+      return q.pairs.every(p => has(v, p.id) && (v[p.id] === p.id || (text(v[p.id]) !== undefined && norm(text(v[p.id])) === norm(p.right))));
     }
     if (q.type === 'ordering') {
       const v = parts();
@@ -601,7 +628,7 @@
     }
     if (q.type === 'error_correction') {
       const v = parts();
-      return q.errors.every(g => has(v, g.id) && g.acceptedAnswers.some(a => norm(a) === norm(v[g.id])));
+      return q.errors.every(g => has(v, g.id) && sameFix(g, v[g.id]));
     }
     if (q.type === 'table_fill') {
       const v = parts();
@@ -616,15 +643,14 @@
       const v = parts();
       {
         // Satzzeichen zählen beim Ergänzen nicht: „No non sono di Roma“ = „No, non sono di Roma.“
-        const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-        return q.items.every(it => has(v, it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))));
+        return q.items.every(it => has(v, it.id) && phraseLoose(v[it.id]) && it.acceptedAnswers.some(a => phraseHas(v[it.id], a)));
       }
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;
     return q.acceptedAnswers.some(a => norm(a) === norm(raw));
   }
-  const api = { validatePackage, assessAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
+  const api = { validatePackage, assessAnswer, normAnswer, sameFix, phraseHas, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

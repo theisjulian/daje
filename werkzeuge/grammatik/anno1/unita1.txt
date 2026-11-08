@@ -171,9 +171,9 @@ Il mio posto preferito è … (Park) | il parco | Il mio posto preferito è il p
 In centro c’è … (Platz) | la piazza | In centro c’è la piazza.
 Vicino a casa mia c’è … (Fluss) | il fiume | Vicino a casa mia c’è il fiume.
 Nella mia città c’è … (Krankenhaus) | l’ospedale | Nella mia città c’è l’ospedale.
-Mio fratello gioca … (Stadion) | stadio | Mio fratello gioca nello stadio.
+Vicino al parco c’è … (Stadion) | lo stadio | Vicino al parco c’è lo stadio.
 Davanti alla scuola c’è … (Baum) | l’albero | Davanti alla scuola c’è l’albero.
-Il sabato vado … (Eisdiele) | gelateria | Il sabato vado in gelateria.
+Vicino alla scuola c’è … (Eisdiele) | la gelateria | Vicino alla scuola c’è la gelateria.
 Prendo sempre … (Rucksack) | lo zaino | Prendo sempre lo zaino.
 ! Scrivi sempre il nome con l’articolo. || Schreibe das Nomen immer mit Artikel.
 
@@ -239,8 +239,8 @@ voi = ascoltate
 i ragazzi = studiano
 Marco e io = guardiamo
 tu e Sara = arrivate
-+ studia
-+ cerco
++ cerci
++ mangiiamo
 ! cercare → tu cerchi (con h), giocare → gioca; con mangiare e studiare c’è una sola i: mangiamo, studiano. || cercare → tu cerchi (mit h), giocare → gioca; bei mangiare und studiare fällt ein i weg: mangiamo, studiano.
 
 %übung leicht | Sabato in centro
@@ -504,7 +504,7 @@ Noi [siamo] amiche da un mese, che bello!
 %übung schwer | Frasi da costruire
 ?ergaenzen | Scrivi la frase con essere o stare. || Bilde den Satz mit essere oder stare.
 (io / di Monaco) | Sono di Monaco | Sono di Monaco.
-(Marco / bene oggi) | Marco sta bene oggi | Marco sta bene oggi.
+(Marco / bene oggi) | Marco sta bene oggi/Oggi Marco sta bene/Marco oggi sta bene | Marco sta bene oggi.
 (noi / in centro) | Siamo in centro | Siamo in centro.
 (tu / male?) | Stai male | Stai male?
 (la piazza / grande) | La piazza è grande | La piazza è grande.
@@ -618,7 +618,7 @@ La sera resto [in=>a] casa.
 ! Città → a, paese → in, via → in, a scuola, a casa, in biblioteca, in centro. || Stadt → a, Land → in, Straße → in, a scuola, a casa, in biblioteca, in centro.
 
 %übung schwer | Un viaggio
-?fehler | Correggi le otto preposizioni sbagliate. || Korrigiere die acht falschen Präpositionen.
+?fehler | Correggi le nove preposizioni sbagliate. || Korrigiere die neun falschen Präpositionen.
 In estate andiamo [a=>in] Italia.
 Prima siamo [in=>a] Milano, poi [a=>in] Toscana.
 A Firenze la nostra casa è [a=>in] via dei Neri.
@@ -817,7 +817,7 @@ Parlate tedesco? – {No*|Non}, {non*|no} parliamo tedesco.
 ! no = nein (da solo, all’inizio della risposta) · non = nicht (prima del verbo). || no = nein (allein, am Anfang der Antwort) · non = nicht (vor dem Verb).
 
 %übung leicht | Vero o no?
-?auswahl | Marco è in piazza, non a scuola. Scegli la forma giusta. || Marco ist auf dem Platz, nicht in der Schule. Wähle die passende Form.
+?auswahl | Marco è in piazza con gli amici. Mangia un gelato e sta bene. Non è a scuola e oggi non ha lezione. Scegli la forma giusta. || Marco ist mit seinen Freunden auf dem Platz. Er isst ein Eis und es geht ihm gut. Er ist nicht in der Schule und hat heute keinen Unterricht. Wähle die passende Form.
 Marco {non è*|è} a scuola.
 Marco {è*|non è} in piazza.
 Lui {non studia*|studia} in classe.
@@ -832,7 +832,7 @@ Marco {sta*|non sta} bene.
 Abito a Torino. → … | Non abito a Torino | Non abito a Torino.
 Luca parla inglese. → … | Luca non parla inglese | Luca non parla inglese.
 Siamo di Milano. → … | Non siamo di Milano | Non siamo di Milano.
-Oggi sto bene. → … | Oggi non sto bene | Oggi non sto bene.
+Oggi sto bene. → … | Oggi non sto bene/Non sto bene oggi | Oggi non sto bene.
 Anna è a scuola. → … | Anna non è a scuola | Anna non è a scuola.
 Prendo l’autobus. → … | Non prendo l’autobus | Non prendo l’autobus.
 I ragazzi guardano la TV. → … | I ragazzi non guardano la TV | I ragazzi non guardano la TV.
@@ -1017,7 +1017,7 @@ Paolo è [uno] studente di Lecce.
 ! uno con s + consonante e z; un’ solo con parole femminili + vocale. || uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.
 
 %übung schwer | Apostrofo o no?
-?fehler | In otto parole l’articolo è sbagliato. Correggi. || Bei acht Wörtern stimmt der Artikel nicht. Korrigiere.
+?fehler | In nove parole l’articolo è sbagliato. Correggi. || Bei neun Wörtern stimmt der Artikel nicht. Korrigiere.
 Ho [un’=>un] amico a Roma.
 Lei è [un=>un’] amica di Sara.
 C’è [un=>uno] zaino sotto il banco.
@@ -1219,8 +1219,8 @@ voi = vendete
 loro = leggono
 Marco e io = prendiamo
 tu e Anna = scrivete
-+ legge
-+ scriviamo
++ prendere
++ vedeno
 
 %übung leicht | -are o -ere?
 ?sortieren | È un verbo in -are o in -ere? || Ist das ein Verb auf -are oder auf -ere?

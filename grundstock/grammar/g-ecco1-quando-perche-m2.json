@@ -50,7 +50,7 @@
    "prompt": "Completa con quando o perché.",
    "promptHelp": "Ergänze quando oder perché.",
    "type": "gap_fill",
-   "text": "[[g1]] ho tempo libero, vado allo skatepark con i miei amici.\nMi piace lo skateboard [[g2]] è uno sport veloce.\n[[g3]] piove, invece, gioco ai videogiochi.\nNon vado in piscina [[g4]] non so nuotare bene.\nIl sabato sera esco [[g5]] i miei genitori dicono di sì.\nStudio la chitarra [[g6]] voglio suonare in una band.\n[[g7]] fa freddo, resto a casa.\nLeggo molto [[g8]] i libri mi piacciono.",
+   "text": "[[g1]] ho tempo libero, vado allo skatepark con i miei amici.\nMi piace lo skateboard [[g2]] è uno sport veloce.\n[[g3]] piove, invece, gioco ai videogiochi.\nNon vado in piscina [[g4]] non so nuotare bene.\n[[g5]] i miei genitori dicono di sì, il sabato sera esco.\nStudio la chitarra [[g6]] voglio suonare in una band.\n[[g7]] fa freddo, resto a casa.\nLeggo molto [[g8]] i libri mi piacciono.",
    "gaps": [
     {
      "id": "g1",
@@ -79,7 +79,7 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "quando"
+      "Quando"
      ]
     },
     {

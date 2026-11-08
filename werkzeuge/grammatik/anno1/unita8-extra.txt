@@ -144,11 +144,11 @@ Non gioco più a calcio. = Ich spiele nicht mehr Fußball.
 %übung leicht | Niente, nessuno, mai o più?
 ?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
 Ho fame, ma in frigo non c’è {niente*|nessuno|mai}.
-La piazza è vuota: non c’è {nessuno*|niente|più}.
+La piazza è vuota: non c’è {nessuno*|niente|mai} a giocare.
 Odio il pesce: non lo mangio {mai*|nessuno|niente}.
 Da ottobre non abito {più*|nessuno|niente} a Torino.
-Sono al buio, non vedo {niente*|nessuno|più}.
-Sono nuovo, non conosco {nessuno*|niente|mai}.
+Ho perso gli occhiali: non vedo {niente*|nessuno|mai} sul libro.
+Sono nuovo, non conosco {nessuno*|niente|mai} in classe.
 Mio padre non beve {mai*|nessuno|niente} la Coca-Cola.
 Non gioco {più*|mai|nessuno} a tennis, ora faccio nuoto.
 
@@ -190,12 +190,12 @@ Non gioco {più*|mai|nessuno} a tennis, ora faccio nuoto.
 ?ergaenzen | Rispondi con la doppia negazione. || Antworte mit doppelter Verneinung.
 Vedi qualcosa? (niente) – No, … | non vedo niente | No, non vedo niente.
 C’è qualcuno? (nessuno) – No, … | non c’è nessuno | No, non c’è nessuno.
-Vai spesso al cinema? (mai) – No, … | non vado mai al cinema | No, non vado mai al cinema.
-Abiti ancora a Roma? (più) – No, … | non abito più a Roma | No, non abito più a Roma.
+Vai spesso al cinema? (mai) – No, … | non vado mai | No, non vado mai al cinema.
+Abiti ancora a Roma? (più) – No, … | non abito più | No, non abito più a Roma.
 Mangi qualcosa? (niente) – No, … | non mangio niente | No, non mangio niente.
 Conosci qualcuno qui? (nessuno) – No, … | non conosco nessuno | No, non conosco nessuno.
-Bevi il caffè? (mai) – No, … | non bevo mai il caffè | No, non bevo mai il caffè.
-Giochi ancora a tennis? (più) – No, … | non gioco più a tennis | No, non gioco più a tennis.
+Bevi il caffè? (mai) – No, … | non bevo mai | No, non bevo mai il caffè.
+Giochi ancora a tennis? (più) – No, … | non gioco più | No, non gioco più a tennis.
 ! non prima del verbo, niente / nessuno / mai / più dopo. || non vor dem Verb, niente / nessuno / mai / più danach.
 
 %übung mittel | Una giornata storta
@@ -205,9 +205,9 @@ Telefono a Marta, ma non risponde [nessuno].
 Vado alla fermata, ma l’autobus non arriva [più]: è passato!
 A scuola non capisco [niente] di matematica.
 In mensa non c’è [nessuno] dei miei amici.
-La sera mio fratello dice: «Non mi aiuti [mai]!»
+La sera mio fratello dice: «Non mi aiuti [mai], neanche una volta!»
 Io rispondo: «Non è vero!» Ma non dico [niente] di più.
-Stasera non voglio vedere [nessuno]: vado a letto presto!
+Stasera non voglio vedere [nessuno] dei miei amici: vado a letto presto!
 + qualcosa, sempre
 
 %übung mittel | Il contrario
@@ -237,8 +237,8 @@ Non compro [nessuno=>niente].
 %übung schwer | Un vecchio paese
 ?luecke | Completa il testo con non e niente / nessuno / mai / più. || Ergänze mit non und niente / nessuno / mai / più.
 Il nonno racconta: «Oggi nel mio paese [non] abita [più] nessuno.
-I giovani [non] tornano [mai].
-In piazza [non] c’è [nessuno], la sera.
+I giovani [non] tornano [mai], nemmeno a Natale.
+In piazza [non] c’è [nessuno]: tutte le persone sono partite.
 Il negozio è chiuso: [non] vende [più] niente.
 Ma io [non] voglio andare via: è casa mia!»
 
@@ -442,14 +442,14 @@ Scrivo a Marco? – Sì, … | scrivigli | Sì, scrivigli!
 
 %übung mittel | No, non farlo!
 ?ergaenzen | Rispondi al negativo: non + infinito + pronome. || Verneinter Imperativ.
-Mangio la torta? – No, … | non mangiarla | No, non mangiarla!
-Prendo l’autobus? – No, … | non prenderlo | No, non prenderlo!
-Compro le scarpe? – No, … | non comprarle | No, non comprarle!
-Chiamo Luca? – No, … | non chiamarlo | No, non chiamarlo!
-Bevo il latte? – No, … | non berlo | No, non berlo!
-Apro la porta? – No, … | non aprirla | No, non aprirla!
-Invito Sara e Ada? – No, … | non invitarle | No, non invitarle!
-Faccio la foto? – No, … | non farla | No, non farla!
+Mangio la torta? – No, … | non mangiarla/non la mangiare | No, non mangiarla!
+Prendo l’autobus? – No, … | non prenderlo/non lo prendere | No, non prenderlo!
+Compro le scarpe? – No, … | non comprarle/non le comprare | No, non comprarle!
+Chiamo Luca? – No, … | non chiamarlo/non lo chiamare | No, non chiamarlo!
+Bevo il latte? – No, … | non berlo/non lo bere | No, non berlo!
+Apro la porta? – No, … | non aprirla/non la aprire | No, non aprirla!
+Invito Sara e Ada? – No, … | non invitarle/non le invitare | No, non invitarle!
+Faccio la foto? – No, … | non farla/non la fare | No, non farla!
 ! non + infinito senza -e + pronome: non mangiar-la. || Infinitiv ohne -e + Pronomen.
 
 %übung mittel | In cucina con il nonno
@@ -483,7 +483,7 @@ Le cartoline? (scrivere, le) [Scrivile] ai nonni.
 Il gelato? (mangiare, lo) [Mangialo] in Piazza Navona.
 La metro? (prendere, la) [Prendila], è comoda.
 E quando arrivi, (chiamare, mi) [chiamami]!
-E non (dimenticare, mi) [dimenticarmi]: (mandare, mi) [mandami] una foto!
+E non (dimenticare, mi) [dimenticarmi/mi dimenticare]: (mandare, mi) [mandami] una foto!
 
 %übung schwer | Istruzioni
 ?frei | Scrivi a un compagno nuovo 5 consigli per la vostra scuola. Usa l’imperativo con i pronomi. || 5 Tipps für einen neuen Mitschüler mit Imperativ + Pronomen.
@@ -551,27 +551,27 @@ di dove? = woher?
 – [Perché] sei in Germania? – Perché mio padre lavora qui.
 – [Che cosa] fai nel tempo libero? – Gioco a pallavolo.
 – [Quando] vai in Italia? – In estate.
-– [Qual] è il tuo piatto preferito? – Gli arancini!
+– [Qual/Quale] è il tuo piatto preferito? – Gli arancini!
 + chi, quale
 
 %übung mittel | Fai la domanda
 ?ergaenzen | Leggi la risposta e scrivi la domanda. || Lies die Antwort und schreibe die Frage.
 Mi chiamo Sara. | Come ti chiami | Come ti chiami?
 Ho quindici anni. | Quanti anni hai | Quanti anni hai?
-Abito a Napoli. | Dove abiti | Dove abiti?
-Sono di Genova. | Di dove sei | Di dove sei?
+Abito a Napoli. | Dove abiti/Dove vivi | Dove abiti?
+Sono di Genova. | Di dove sei/Di dov’è/Da dove vieni | Di dove sei?
 Il film comincia alle otto. | A che ora comincia il film | A che ora comincia il film?
 Il gelato costa due euro. | Quanto costa il gelato | Quanto costa il gelato?
-Domani vado al cinema. | Che cosa fai domani | Che cosa fai domani?
+Domani vado al cinema. | Che cosa fai domani/Cosa fai domani/Dove vai domani | Che cosa fai domani?
 Vado a casa perché sono stanca. | Perché vai a casa | Perché vai a casa?
 
 %übung mittel | Quale o quali?
 ?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
-{Qual*|Quale|Qual’} è il tuo colore preferito?
-{Quali*|Quale|Qual} sport fai?
+{Qual*|Quali|Qual’} è il tuo colore preferito?
+{Quali*|Quale|Qual} materie ti piacciono?
 {Quale*|Quali|Qual} zaino compri, il rosso o il blu?
 {Quali*|Quale|Qual} lingue parli?
-{Qual*|Quale|Quali} è la tua materia preferita?
+{Qual*|Quali|Qual’} è la tua materia preferita?
 {Quale*|Quali|Qual} giorno vieni?
 {Quali*|Quale|Qual} sono i tuoi film preferiti?
 {Quale*|Quali|Qual} gusto vuoi?
@@ -586,17 +586,17 @@ Vado a casa perché sono stanca. | Perché vai a casa | Perché vai a casa?
 [Quanti=>Quanto] costa la maglietta?
 [Come=>Quando] parti? – Domani.
 [Quale=>Quali] lingue parli?
-[Quando=>A che ora] arriva il treno? – Alle 10.
+[Quando=>Dove] vai in vacanza? – In Sicilia.
 
 %übung schwer | Un nuovo compagno
 ?ergaenzen | Un compagno nuovo arriva da Firenze. Scrivi le domande. || Schreibe die Fragen.
 (nome) | Come ti chiami | Come ti chiami?
 (età) | Quanti anni hai | Quanti anni hai?
-(città di origine) | Di dove sei | Di dove sei?
-(fratelli) | Hai fratelli | Hai fratelli?
-(sport) | Quale sport fai | Quale sport fai?
+(città di origine) | Di dove sei/Da dove vieni | Di dove sei?
+(fratelli) | Hai fratelli/Quanti fratelli hai/Hai fratelli o sorelle | Hai fratelli?
+(sport) | Quale sport fai/Che sport fai/Quale sport pratichi/Fai sport | Quale sport fai?
 (perché in Germania) | Perché sei in Germania | Perché sei in Germania?
-(materia preferita) | Qual è la tua materia preferita | Qual è la tua materia preferita?
+(materia preferita) | Qual è la tua materia preferita/Quale è la tua materia preferita | Qual è la tua materia preferita?
 (tempo libero) | Che cosa fai nel tempo libero | Che cosa fai nel tempo libero?
 
 %übung schwer | Intervista una star
@@ -677,12 +677,12 @@ poco → {pochissimo*|pocissimo}
 ?zuordnen | Abbina la ripetizione al significato. || Verbinde.
 piano piano = sehr langsam / ganz allmählich
 presto presto = ganz schnell
-pian pianino = ganz sachte
 caldo caldo = ganz warm
 vicino vicino = ganz nah
-zitto zitto = ganz still
 bello bello = richtig schön
 forte forte = ganz fest
+zitto zitto = ganz still
+solo solo = ganz allein
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
@@ -811,7 +811,7 @@ Le vacanze mi sono [piaciuti=>piaciute].
 
 %übung schwer | Una gita a Verona
 ?luecke | Racconta al passato prossimo. || Erzähle im passato prossimo.
-Sabato io e la mia classe (svegliarsi) [ci siamo svegliati] prestissimo.
+Sabato io e la mia classe (svegliarsi) [ci siamo svegliati/ci siamo svegliate] prestissimo.
 Il pullman (partire) [è partito] alle sei.
 Durante il viaggio Luca (addormentarsi) [si è addormentato].
 A Verona (noi, vedere) [abbiamo visto] l’Arena.
@@ -861,8 +861,8 @@ Hai {qualcosa*|qualcuno} per il mal di testa?
 {Qualcuno*|Qualcosa} ha preso la mia penna!
 Ho comprato {qualcosa*|qualcuno} per la mamma.
 Conosci {qualcuno*|qualcosa} a Milano?
-Dimmi {qualcosa*|qualcuno} di bello!
-Cerco {qualcuno*|qualcosa} per giocare a tennis.
+Dimmi {qualcosa*|qualcuno}: che cosa è successo?
+Cerco {qualcuno*|qualcosa} con cui giocare a tennis.
 
 %übung leicht | Ogni o ognuno?
 ?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
@@ -895,7 +895,7 @@ Io porto una torta: la faccio [ogni] anno.
 Matteo chiede: «C’è [qualcuno] che porta la musica?»
 Lia dice: «Io! Ho [qualcosa] di nuovo da ascoltare.»
 Alla festa [qualcuno] suona la chitarra.
-Alle undici [ognuno] torna a casa, stanco ma felice.
+Alle undici [ognuno/qualcuno] torna a casa, stanco ma felice.
 Matteo dice: «Facciamo una festa [ogni] mese!»
 + nessuno, niente
 

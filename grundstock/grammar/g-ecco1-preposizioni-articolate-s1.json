@@ -52,7 +52,7 @@
    "explanation": "scaffale → lo scaffale, gli scaffali → sugli; stadio → lo stadio → allo.",
    "explanationHelp": "scaffale → lo scaffale, gli scaffali → sugli; stadio → lo stadio → allo.",
    "type": "error_correction",
-   "text": "Il gatto dorme [[g1]] letto, non sotto.\nI vestiti sono [[g2]] armadio.\nIl pallone è [[g3]] sedia.\nTorno [[g4]] mercato.\nLa foto [[g5]] cantante è bellissima.\nI libri sono [[g6]] scaffali.\nVado [[g7]] stadio con mio padre.\nLe chiavi sono [[g8]] borsa.",
+   "text": "Il computer è [[g1]] tavolo, non per terra.\nI vestiti sono [[g2]] armadio.\nIl pallone è [[g3]] sedia.\nTorno [[g4]] mercato.\nLa foto [[g5]] cantante è bellissima.\nI libri sono [[g6]] scaffali.\nVado [[g7]] stadio con mio padre.\nLe chiavi sono [[g8]] borsa.",
    "errors": [
     {
      "id": "g1",

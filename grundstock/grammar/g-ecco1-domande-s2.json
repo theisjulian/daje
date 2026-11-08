@@ -71,7 +71,8 @@
      "id": "s3",
      "start": "(città di origine)",
      "acceptedAnswers": [
-      "Di dove sei"
+      "Di dove sei",
+      "Da dove vieni"
      ],
      "modelAnswer": "Di dove sei?"
     },
@@ -79,7 +80,9 @@
      "id": "s4",
      "start": "(fratelli)",
      "acceptedAnswers": [
-      "Hai fratelli"
+      "Hai fratelli",
+      "Quanti fratelli hai",
+      "Hai fratelli o sorelle"
      ],
      "modelAnswer": "Hai fratelli?"
     },
@@ -87,7 +90,10 @@
      "id": "s5",
      "start": "(sport)",
      "acceptedAnswers": [
-      "Quale sport fai"
+      "Quale sport fai",
+      "Che sport fai",
+      "Quale sport pratichi",
+      "Fai sport"
      ],
      "modelAnswer": "Quale sport fai?"
     },
@@ -103,7 +109,8 @@
      "id": "s7",
      "start": "(materia preferita)",
      "acceptedAnswers": [
-      "Qual è la tua materia preferita"
+      "Qual è la tua materia preferita",
+      "Quale è la tua materia preferita"
      ],
      "modelAnswer": "Qual è la tua materia preferita?"
     },

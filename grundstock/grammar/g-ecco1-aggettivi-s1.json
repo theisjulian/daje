@@ -47,7 +47,7 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Metti le parole in ordine: „Filippo hat einen neuen Computer.“",
+   "prompt": "Metti le parole in ordine: „Filippo hat einen roten Computer.“",
    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
@@ -69,7 +69,7 @@
     },
     {
      "id": "i5",
-     "text": "nuovo"
+     "text": "rosso"
     }
    ]
   },

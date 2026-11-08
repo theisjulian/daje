@@ -52,7 +52,7 @@
    "explanation": "Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere.",
    "explanationHelp": "Das folgende Verb entscheidet.",
    "type": "gap_choice",
-   "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nMarco [[g6]] potuto venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
+   "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nSara [[g6]] potuta venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
    "gaps": [
     {
      "id": "g1",

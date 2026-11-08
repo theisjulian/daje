@@ -65,31 +65,36 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "La"
+      "La",
+      "Una"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "un"
+      "un",
+      "il"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "uno"
+      "uno",
+      "lo"
      ]
     },
     {
@@ -101,19 +106,22 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "un"
+      "un",
+      "il"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "la"
+      "la",
+      "una"
      ]
     },
     {
@@ -125,43 +133,50 @@
     {
      "id": "g11",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g13",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g14",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     },
     {
      "id": "g15",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g16",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g17",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
@@ -173,19 +188,22 @@
     {
      "id": "g19",
      "acceptedAnswers": [
-      "un"
+      "un",
+      "il"
      ]
     },
     {
      "id": "g20",
      "acceptedAnswers": [
-      "Il"
+      "Il",
+      "Un"
      ]
     },
     {
      "id": "g21",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     }
    ],

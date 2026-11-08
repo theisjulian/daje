@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo. Usa gli articoli determinativi.",
+   "promptHelp": "Ergänze den Text. Verwende bestimmte Artikel.",
    "text": "Ciao Lara, finalmente abbiamo trovato una casa per [[g1]] nostro periodo di studio! È al secondo piano di un edificio piccolo. Non è elegante, ma è luminosa e tranquilla. All’ingresso c’è uno specchio; sotto [[g2]] specchio c’è una cassettiera. Nel corridoio ci sono due lampade e uno scaffale per [[g3]] scarpe. La cucina è grande: ci sono un frigorifero, un forno, una credenza, un tavolo e quattro sedie. [[g4]] piatti sono bianchi, [[g5]] bicchieri sono trasparenti e [[g6]] tazze sono tutte diverse. Nella credenza troviamo anche pentole, posate e una tovaglia azzurra. [[g7]] soggiorno ha un divano comodo, due poltrone e una libreria. [[g8]] tappeto è vecchio, però è pulito. [[g9]] camere sono piccole. In ogni camera ci sono un letto, un armadio, una scrivania e una sedia. [[g10]] finestre danno su un cortile silenzioso. Nel bagno c’è una lavatrice nuova; [[g11]] asciugamani sono nell’armadietto. Sul balcone ci sono tre vasi vuoti: vogliamo comprare alcune piante. [[g12]] vicini sono gentili e ci salutano sempre. Non c’è un televisore, ma per noi non è un problema. [[g13]] sera cuciniamo, leggiamo e parliamo dei nostri corsi. Vieni a trovarci quando vuoi!",
    "gaps": [
     {

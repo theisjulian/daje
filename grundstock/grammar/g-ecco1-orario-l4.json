@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Che cosa fa Marta e quando?",
-   "promptHelp": "Was macht Marta wann?",
+   "prompt": "Marta racconta: «Il lunedì ho matematica alle otto. Il martedì vado in piscina. Il mercoledì ho un’interrogazione di storia. Il giovedì suono la chitarra. Il venerdì mangio la pizza con gli amici. Il sabato dormo fino alle dieci. La domenica pranzo dai nonni. Ogni giorno faccio i compiti alle quattro.» Che cosa fa Marta e quando?",
+   "promptHelp": "Marta erzählt (siehe Text). Was macht Marta wann?",
    "type": "matching",
    "pairs": [
     {
@@ -93,7 +93,7 @@
     }
    ],
    "distractors": [
-    "il lunedì sera"
+    "gioca a calcio alle sei"
    ]
   }
  ]

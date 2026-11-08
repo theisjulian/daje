@@ -53,18 +53,18 @@
    "pairs": [
     {
      "id": "p1",
-     "left": "Ho un cugino",
-     "right": "che abita a Roma."
+     "left": "Ho un cane",
+     "right": "che abbaia di notte."
     },
     {
      "id": "p2",
      "left": "Ecco il libro",
-     "right": "che mi piace tanto."
+     "right": "che leggo per la scuola."
     },
     {
      "id": "p3",
-     "left": "Questa è la ragazza",
-     "right": "che parla tre lingue."
+     "left": "Questi sono i ragazzi",
+     "right": "che giocano a calcio."
     },
     {
      "id": "p4",
@@ -73,23 +73,23 @@
     },
     {
      "id": "p5",
-     "left": "Ho un cane",
-     "right": "che si chiama Rex."
+     "left": "È un film",
+     "right": "che comincia alle otto."
     },
     {
      "id": "p6",
-     "left": "Questi sono i ragazzi",
-     "right": "che giocano a calcio."
+     "left": "Conosco una signora",
+     "right": "che ha novant’anni."
     },
     {
      "id": "p7",
-     "left": "È un film",
-     "right": "che mi piace molto."
+     "left": "Ho una sorella",
+     "right": "che ha otto anni."
     },
     {
      "id": "p8",
-     "left": "Conosco una signora",
-     "right": "che ha novant’anni."
+     "left": "Ecco la torta",
+     "right": "che prepara mia nonna."
     }
    ]
   }

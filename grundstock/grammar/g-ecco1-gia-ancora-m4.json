@@ -47,7 +47,7 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+   "prompt": "Metti le parole in ordine: „Ich habe das Buch noch nicht gelesen.“",
    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
@@ -65,11 +65,11 @@
     },
     {
      "id": "i4",
-     "text": "fatto"
+     "text": "letto"
     },
     {
      "id": "i5",
-     "text": "i compiti."
+     "text": "il libro."
     }
    ]
   },

@@ -42,16 +42,16 @@ tu e Sara = vi alzate
 
 %übung leicht | La giornata in ordine
 ?ordnen | Metti in ordine la mattina di Anna. || Ordne Annas Morgen.
-Si sveglia alle sette.
-Si alza dal letto.
-Si lava la faccia.
-Si veste.
-Fa colazione.
+Alle sette si sveglia.
+Alle sette e cinque si alza dal letto.
+Alle sette e dieci si lava la faccia.
+Alle sette e un quarto si veste.
+Alle sette e mezza fa colazione.
 ?ordnen | E la sera? || Und am Abend?
-Torna a casa.
-Si fa la doccia.
-Si mette il pigiama.
-Si addormenta.
+Alle sei torna a casa.
+Alle otto si fa la doccia.
+Alle dieci si mette il pigiama.
+Alle dieci e mezza si addormenta.
 ?ordnen | Metti le parole in ordine: „Wir amüsieren uns am Strand.“ || Bringe die Wörter in die richtige Reihenfolge.
 Ci
 divertiamo
@@ -207,7 +207,7 @@ ogni giorno | tutti i giorni | tutti i giorni
 ogni sera | tutte le sere | tutte le sere
 ogni mattina | tutte le mattine | tutte le mattine
 ogni settimana | tutte le settimane | tutte le settimane
-ogni estate | tutte le estati | tutte le estati
+ogni notte | tutte le notti | tutte le notti
 ogni domenica | tutte le domeniche | tutte le domeniche
 ogni mese | tutti i mesi | tutti i mesi
 ogni anno | tutti gli anni | tutti gli anni

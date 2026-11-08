@@ -52,7 +52,7 @@
    "explanation": "Dopo la quantità: di senza articolo (un pezzo di parmigiano).",
    "explanationHelp": "Nach der Menge: di ohne Artikel.",
    "type": "gap_fill",
-   "text": "Commessa: Buongiorno! Che cosa desidera?\nCliente: Buongiorno, vorrei un [[g1]] [[g2]] mele.\nCommessa: Ecco. Altro?\nCliente: Sì, due [[g3]] [[g4]] prosciutto e un pezzo [[g5]] parmigiano.\nCommessa: Benissimo. Nient’altro?\nCliente: Ah sì, una [[g6]] [[g7]] acqua e un [[g8]] [[g9]] biscotti.\nCommessa: Sono dodici euro.",
+   "text": "Commessa: Buongiorno! Che cosa desidera?\nCliente: Buongiorno, vorrei un [[g1]] [[g2]] mele (1 kg).\nCommessa: Ecco. Altro?\nCliente: Sì, due [[g3]] [[g4]] prosciutto (200 g) e un pezzo [[g5]] parmigiano (Stück).\nCommessa: Benissimo. Nient’altro?\nCliente: Ah sì, una [[g6]] [[g7]] acqua (Flasche) e un [[g8]] [[g9]] biscotti (Packung).\nCommessa: Sono dodici euro.",
    "gaps": [
     {
      "id": "g1",

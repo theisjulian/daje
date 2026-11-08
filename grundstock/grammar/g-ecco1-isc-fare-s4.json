@@ -52,7 +52,7 @@
    "explanation": "dormire non ha -isc-: lui dorme.",
    "explanationHelp": "dormire hat kein -isc-: lui dorme.",
    "type": "gap_fill",
-   "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?\nI miei compagni (preferire) [[g8]] il basket.",
+   "text": "Ciao Lena! Oggi a scuola noi (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?\nI miei compagni (preferire) [[g8]] il basket.",
    "gaps": [
     {
      "id": "g1",

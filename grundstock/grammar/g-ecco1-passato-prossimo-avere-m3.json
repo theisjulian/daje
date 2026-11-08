@@ -52,7 +52,7 @@
    "explanation": "avere → avuto, ricevere → ricevuto.",
    "explanationHelp": "avere → avuto, ricevere → ricevuto.",
    "type": "gap_fill",
-   "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.\nLei (raccontare) [[g8]] una storia divertente.",
+   "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere, io) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.\nLei (raccontare) [[g8]] una storia divertente.",
    "gaps": [
     {
      "id": "g1",

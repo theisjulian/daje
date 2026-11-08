@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Correggi le otto preposizioni sbagliate.",
-   "promptHelp": "Korrigiere die acht falschen Präpositionen.",
+   "prompt": "Correggi le nove preposizioni sbagliate.",
+   "promptHelp": "Korrigiere die neun falschen Präpositionen.",
    "explanation": "Paese e regione → in Italia, in Toscana · città → a Milano · a casa.",
    "explanationHelp": "Land und Region → in Italia, in Toscana · Stadt → a Milano · casa → a casa.",
    "type": "error_correction",

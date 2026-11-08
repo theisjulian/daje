@@ -50,7 +50,7 @@
    "prompt": "Correggi le forme segnate.",
    "promptHelp": "Korrigiere die markierten Formen.",
    "type": "error_correction",
-   "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.\nNoi [[g4]] dovuti partire presto.\nIo [[g5]] voluto vedere il film.\nLe mie amiche sono [[g6]] venire.\nTu [[g7]] dovuto studiare tanto?\nMio fratello [[g8]] voluto restare a casa.",
+   "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.\nNoi [[g4]] dovuti partire presto.\nIo [[g5]] voluto vedere il film.\nLe mie amiche sono [[g6]] venire.\nTu [[g7]] dovuto studiare tanto?\nMia sorella [[g8]] voluta restare a casa.",
    "errors": [
     {
      "id": "g1",

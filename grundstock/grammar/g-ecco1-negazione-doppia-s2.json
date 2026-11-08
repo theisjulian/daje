@@ -50,7 +50,7 @@
    "prompt": "Completa il testo con non e niente / nessuno / mai / più.",
    "promptHelp": "Ergänze mit non und niente / nessuno / mai / più.",
    "type": "gap_fill",
-   "text": "Il nonno racconta: «Oggi nel mio paese [[g1]] abita [[g2]] nessuno.\nI giovani [[g3]] tornano [[g4]].\nIn piazza [[g5]] c’è [[g6]], la sera.\nIl negozio è chiuso: [[g7]] vende [[g8]] niente.\nMa io [[g9]] voglio andare via: è casa mia!»",
+   "text": "Il nonno racconta: «Oggi nel mio paese [[g1]] abita [[g2]] nessuno.\nI giovani [[g3]] tornano [[g4]], nemmeno a Natale.\nIn piazza [[g5]] c’è [[g6]]: tutte le persone sono partite.\nIl negozio è chiuso: [[g7]] vende [[g8]] niente.\nMa io [[g9]] voglio andare via: è casa mia!»",
    "gaps": [
     {
      "id": "g1",

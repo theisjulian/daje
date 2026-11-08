@@ -53,43 +53,43 @@
    "pairs": [
     {
      "id": "p1",
-     "left": "Suono la chitarra",
-     "right": "quando ho tempo libero."
-    },
-    {
-     "id": "p2",
      "left": "Vado in montagna",
      "right": "perché mi piace sciare."
     },
     {
-     "id": "p3",
-     "left": "Resto a casa",
+     "id": "p2",
+     "left": "Prendo l’ombrello",
      "right": "perché piove."
     },
     {
+     "id": "p3",
+     "left": "Vado a letto presto",
+     "right": "perché sono stanco."
+    },
+    {
      "id": "p4",
-     "left": "Ascolto musica",
-     "right": "quando faccio i compiti."
-    },
-    {
-     "id": "p5",
-     "left": "Non vado alla festa",
-     "right": "perché sono stanca."
-    },
-    {
-     "id": "p6",
-     "left": "Mangio un gelato",
-     "right": "quando fa caldo."
-    },
-    {
-     "id": "p7",
      "left": "Studio molto",
      "right": "perché domani ho un test."
     },
     {
+     "id": "p5",
+     "left": "Vado in piscina",
+     "right": "quando fa caldo."
+    },
+    {
+     "id": "p6",
+     "left": "Facciamo un pupazzo di neve",
+     "right": "quando nevica."
+    },
+    {
+     "id": "p7",
+     "left": "Bevo un bicchiere d’acqua",
+     "right": "quando ho sete."
+    },
+    {
      "id": "p8",
-     "left": "Telefono a Sara",
-     "right": "quando sono triste."
+     "left": "Mangio un panino",
+     "right": "quando ho fame."
     }
    ]
   }

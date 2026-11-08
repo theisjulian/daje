@@ -49,15 +49,16 @@
    "id": "q1",
    "prompt": "Scrivi i verbi al passato prossimo (essere o avere).",
    "promptHelp": "Setze die Verben ins passato prossimo (essere oder avere).",
-   "explanation": "io e mia sorella = noi (femminile) → siamo andate, siamo arrivate.",
-   "explanationHelp": "io e mia sorella = noi (weiblich) → siamo andate.",
+   "explanation": "io e mia sorella = noi: se parla una ragazza → siamo andate, se parla un ragazzo → siamo andati.",
+   "explanationHelp": "io e mia sorella = noi: spricht ein Mädchen → siamo andate, spricht ein Junge → siamo andati.",
    "type": "gap_fill",
    "text": "Domenica io e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "siamo andate"
+      "siamo andate",
+      "siamo andati"
      ]
     },
     {
@@ -69,7 +70,8 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "Siamo arrivate"
+      "Siamo arrivate",
+      "Siamo arrivati"
      ]
     },
     {
@@ -93,13 +95,15 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "siamo rimaste"
+      "siamo rimaste",
+      "siamo rimasti"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "siamo tornate"
+      "siamo tornate",
+      "siamo tornati"
      ]
     }
    ]

@@ -47,53 +47,53 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Abbina la quantità al prodotto.",
-   "promptHelp": "Was passt zusammen?",
+   "prompt": "Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet die Mengenangabe?",
    "type": "matching",
    "pairs": [
     {
      "id": "p1",
-     "left": "un litro di",
-     "right": "latte"
+     "left": "un etto",
+     "right": "100 Gramm"
     },
     {
      "id": "p2",
-     "left": "un chilo di",
-     "right": "mele"
+     "left": "un chilo",
+     "right": "1 Kilogramm"
     },
     {
      "id": "p3",
-     "left": "un etto di",
-     "right": "prosciutto"
+     "left": "un litro",
+     "right": "1 Liter"
     },
     {
      "id": "p4",
-     "left": "una bottiglia di",
-     "right": "acqua"
+     "left": "una bottiglia",
+     "right": "eine Flasche"
     },
     {
      "id": "p5",
-     "left": "un pacco di",
-     "right": "pasta"
+     "left": "un pacco",
+     "right": "eine Packung"
     },
     {
      "id": "p6",
-     "left": "una scatola di",
-     "right": "biscotti"
+     "left": "una scatola",
+     "right": "eine Schachtel"
     },
     {
      "id": "p7",
-     "left": "una fetta di",
-     "right": "torta"
+     "left": "una fetta",
+     "right": "eine Scheibe"
     },
     {
      "id": "p8",
-     "left": "un mazzo di",
-     "right": "basilico"
+     "left": "un mazzo",
+     "right": "ein Bund"
     }
    ],
    "distractors": [
-    "un litro di pane"
+    "un secchio = ein Eimer"
    ]
   }
  ]

@@ -71,7 +71,8 @@
      "id": "s3",
      "start": "Abito a Napoli.",
      "acceptedAnswers": [
-      "Dove abiti"
+      "Dove abiti",
+      "Dove vivi"
      ],
      "modelAnswer": "Dove abiti?"
     },
@@ -79,7 +80,9 @@
      "id": "s4",
      "start": "Sono di Genova.",
      "acceptedAnswers": [
-      "Di dove sei"
+      "Di dove sei",
+      "Di dov’è",
+      "Da dove vieni"
      ],
      "modelAnswer": "Di dove sei?"
     },
@@ -103,7 +106,9 @@
      "id": "s7",
      "start": "Domani vado al cinema.",
      "acceptedAnswers": [
-      "Che cosa fai domani"
+      "Che cosa fai domani",
+      "Cosa fai domani",
+      "Dove vai domani"
      ],
      "modelAnswer": "Che cosa fai domani?"
     },

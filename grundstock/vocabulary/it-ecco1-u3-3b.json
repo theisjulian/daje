@@ -190,7 +190,7 @@
    "id": "u3-3b-014",
    "target": "la lettrice",
    "translations": [
-    "die Fremdsprachenassistentin"
+    "die Fremdsprachenassistentin / Lektorin"
    ],
    "definition": "Persona di madrelingua che aiuta a insegnare una lingua straniera.",
    "example": "La lettrice parla con la classe.",
@@ -587,8 +587,7 @@
    "id": "u3-3b-046",
    "target": "il caffè",
    "translations": [
-    "der Kaffee",
-    "das Kaffee(-haus)"
+    "der Kaffee / das Café"
    ],
    "definition": "Bevanda scura e calda; anche il locale dove la si beve.",
    "example": "Prendiamo un caffè?",

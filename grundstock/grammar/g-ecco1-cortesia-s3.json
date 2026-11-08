@@ -80,7 +80,9 @@
      "start": "Können Sie mir helfen? → …",
      "acceptedAnswers": [
       "Può aiutarmi",
-      "Potrebbe aiutarmi"
+      "Potrebbe aiutarmi",
+      "Mi può aiutare",
+      "Mi potrebbe aiutare"
      ],
      "modelAnswer": "Può aiutarmi?"
     },
@@ -89,7 +91,8 @@
      "start": "Ich hätte gern ein Wasser. → …",
      "acceptedAnswers": [
       "Vorrei un’acqua",
-      "Vorrei una bottiglia d’acqua"
+      "Vorrei una bottiglia d’acqua",
+      "Vorrei dell’acqua"
      ],
      "modelAnswer": "Vorrei un’acqua."
     }

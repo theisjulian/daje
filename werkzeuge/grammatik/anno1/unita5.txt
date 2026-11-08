@@ -135,11 +135,11 @@ Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, s
 **Con l’articolo** il possessivo sta
 - al **plurale**: _i miei fratelli, le sue cugine_
 - con **loro**: _il loro padre_
-- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_
+- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_
 - con _famiglia_: _la mia famiglia_
 #regel-de
 Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._
-**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).
+**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).
 
 %übung leicht | Con o senza articolo?
 ?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
@@ -174,8 +174,8 @@ vostro fratello = euer Bruder
 {Le sue*|Sue} cugine abitano a Napoli.
 {Il loro*|Loro} figlio si chiama Matteo.
 {Nostro*|Il nostro} nonno racconta sempre storie.
-{La mia*|Mia} sorella piccola va all’asilo.
-! Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo. || Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.
+{La mia*|Mia} piccola sorella va all’asilo.
+! Parole affettuose (mamma, papà) e con aggettivo davanti al nome (piccola sorella) → con articolo. || Koseform (mamma, papà) und Adjektiv vor dem Nomen (piccola sorella) → mit Artikel.
 
 %übung mittel | La famiglia di Giulia
 ?luecke | Scrivi i possessivi (con o senza articolo). || Ergänze die Possessivbegleiter (mit oder ohne Artikel).
@@ -205,7 +205,7 @@ Come si chiama tua madre? (Laura) – … | Mia madre si chiama Laura | Mia madr
 Dove abitano i tuoi nonni? (a Roma) – … | I miei nonni abitano a Roma | I miei nonni abitano a Roma.
 Quanti anni ha tuo fratello? (12) – … | Mio fratello ha dodici anni | Mio fratello ha dodici anni.
 Com’è la tua famiglia? (grande) – … | La mia famiglia è grande | La mia famiglia è grande.
-Che lavoro fa vostro padre? (medico) – … | Nostro padre è medico/Nostro padre fa il medico | Nostro padre è medico.
+Che lavoro fa vostro padre? (medico) – … | Nostro padre è medico/Nostro padre è un medico/Nostro padre fa il medico | Nostro padre è medico.
 Come si chiamano le tue sorelle? (Ada e Bea) – … | Le mie sorelle si chiamano Ada e Bea | Le mie sorelle si chiamano Ada e Bea.
 Dove abita tua zia? (a Bari) – … | Mia zia abita a Bari | Mia zia abita a Bari.
 Com’è il tuo papà? (simpatico) – … | Il mio papà è simpatico | Il mio papà è simpatico.
@@ -229,7 +229,7 @@ Zeilen: 6
 [La mia] famiglia abita a Monaco.
 [Mia] madre lavora in un ospedale.
 [I miei] nonni abitano in campagna.
-[Il mio] fratello piccolo ha sei anni.
+[Il mio/Mio] fratello piccolo ha sei anni.
 
 %übung schwer | Il compleanno della nonna
 ?luecke | Scrivi i possessivi (con o senza articolo). || Ergänze die Possessivbegleiter.
@@ -268,14 +268,14 @@ cugine | [le mie cugine]
 
 %übung leicht | Unire le frasi
 ?zuordnen | Abbina le parti della frase. || Was passt zusammen?
-Ho un cugino = che abita a Roma.
-Ecco il libro = che mi piace tanto.
-Questa è la ragazza = che parla tre lingue.
-Il ristorante = che preferisco è in centro.
-Ho un cane = che si chiama Rex.
+Ho un cane = che abbaia di notte.
+Ecco il libro = che leggo per la scuola.
 Questi sono i ragazzi = che giocano a calcio.
-È un film = che mi piace molto.
+Il ristorante = che preferisco è in centro.
+È un film = che comincia alle otto.
 Conosco una signora = che ha novant’anni.
+Ho una sorella = che ha otto anni.
+Ecco la torta = che prepara mia nonna.
 
 %übung leicht | Quale frase relativa?
 ?auswahl | Scegli la frase relativa giusta. || Wähle den passenden Relativsatz.
@@ -344,12 +344,12 @@ Ecco la torta … (fa mia nonna) | che fa mia nonna | Ecco la torta che fa mia n
 %übung schwer | Indovinelli
 ?ergaenzen | Scrivi l’indovinello con che: «È un animale che …». || Schreibe das Rätsel mit che.
 (il gatto: dice «miao») | è un animale che dice miao | È un animale che dice «miao».
-(il frigorifero: tiene fresco il cibo) | è una cosa che tiene fresco il cibo | È una cosa che tiene fresco il cibo.
+(il frigorifero: tiene fresco il cibo) | è una cosa che tiene fresco il cibo/è un oggetto che tiene fresco il cibo/è un elettrodomestico che tiene fresco il cibo | È una cosa che tiene fresco il cibo.
 (la prof: insegna a scuola) | è una persona che insegna a scuola | È una persona che insegna a scuola.
-(la penna: serve per scrivere) | è una cosa che serve per scrivere | È una cosa che serve per scrivere.
+(la penna: serve per scrivere) | è una cosa che serve per scrivere/è un oggetto che serve per scrivere | È una cosa che serve per scrivere.
 (il cane: abbaia) | è un animale che abbaia | È un animale che abbaia.
 (il medico: lavora in ospedale) | è una persona che lavora in ospedale | È una persona che lavora in ospedale.
-(il letto: usiamo per dormire) | è una cosa che usiamo per dormire | È una cosa che usiamo per dormire.
+(il letto: usiamo per dormire) | è una cosa che usiamo per dormire/è un mobile che usiamo per dormire/è un oggetto che usiamo per dormire | È una cosa che usiamo per dormire.
 (il pesce: vive nell’acqua) | è un animale che vive nell’acqua | È un animale che vive nell’acqua.
 
 %übung schwer | Trova gli errori
@@ -360,7 +360,7 @@ Il libro [cosa=>che] leggo è bello.
 È un film che [piacciono=>piace] a tutti.
 Ho due gatti che [dorme=>dormono] sempre.
 La ragazza [quale=>che] parla è mia cugina.
-Le scarpe che [compro=>compro] sono nuove.
+Ho un cane che [abbaio=>abbaia] sempre.
 Il nonno che [raccontano=>racconta] storie è simpatico.
 ! che non cambia mai; il verbo va con il nome. || che bleibt gleich; das Verb richtet sich nach dem Nomen.
 
@@ -383,7 +383,7 @@ Giulia {è*|ha} voluta partire presto.
 Non {abbiamo*|siamo} potuto comprare i biglietti.
 I ragazzi {sono*|hanno} dovuti tornare a casa.
 {Ho*|Sono} voluto mangiare una pizza.
-Marco {è*|ha} potuto venire alla festa.
+Sara {è*|ha} potuta venire alla festa.
 Noi {abbiamo*|siamo} voluto vedere il museo.
 Le ragazze {sono*|hanno} dovute uscire.
 ! Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere. || Das folgende Verb entscheidet.
@@ -429,25 +429,25 @@ Mia madre {è voluta*|ha voluta|è voluto} partire presto.
 %übung mittel | Che pasticcio!
 ?luecke | Scrivi i verbi modali al passato prossimo. || Setze die Verben ins passato prossimo.
 Ieri io (dovere) [ho dovuto] prendere l’autobus.
-Il treno era in ritardo e noi non (potere) [siamo potuti/siamo potute] partire.
+Il treno era in ritardo e noi non (potere) [siamo potuti/siamo potute/abbiamo potuto] partire.
 Mia sorella (volere) [ha voluto] comprare un biglietto nuovo.
 Alla fine (noi, dovere) [abbiamo dovuto] aspettare due ore.
-Mio padre (dovere) [è dovuto] tornare a casa a piedi.
+Mio padre (dovere) [è dovuto/ha dovuto] tornare a casa a piedi.
 Io (volere) [ho voluto] mangiare un panino.
-I miei amici non (potere) [sono potuti] venire.
-Che giornata! (Noi, dovere) [Siamo dovuti/Siamo dovute] andare a letto presto.
+I miei amici non (potere) [sono potuti/hanno potuto] venire.
+Che giornata! (Noi, dovere) [Siamo dovuti/Siamo dovute/Abbiamo dovuto] andare a letto presto.
 ! partire, tornare, venire, andare → essere; prendere, comprare, aspettare, mangiare → avere. || partire, tornare, venire, andare → essere; sonst avere.
 
 %übung mittel | Una giornata difficile
 ?luecke | Scrivi i verbi modali al passato prossimo. || Setze die Modalverben ins passato prossimo.
 Ieri mio padre (dovere) [ha dovuto] lavorare fino alle otto.
-Mia madre (dovere) [è dovuta] andare a Milano.
+Mia madre (dovere) [è dovuta/ha dovuto] andare a Milano.
 Io (volere) [ho voluto] cucinare la cena.
 Ma non (potere, io) [ho potuto] comprare le uova: il negozio era chiuso!
-Allora io e mio fratello (dovere) [siamo dovuti] uscire di nuovo.
+Allora io e mio fratello (dovere) [siamo dovuti/abbiamo dovuto] uscire di nuovo.
 Alla fine (potere, noi) [abbiamo potuto] mangiare alle nove.
 Mia sorella non (volere) [ha voluto] mangiare la pasta.
-Lei (volere) [è voluta] andare a letto subito.
+Lei (volere) [è voluta/ha voluto] andare a letto subito.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
@@ -458,27 +458,27 @@ Noi [abbiamo=>siamo] dovuti partire presto.
 Io [sono=>ho] voluto vedere il film.
 Le mie amiche sono [potuto=>potute] venire.
 Tu [sei=>hai] dovuto studiare tanto?
-Mio fratello [ha=>è] voluto restare a casa.
+Mia sorella [ha=>è] voluta restare a casa.
 
 %übung schwer | Scuse
 ?ergaenzen | Spiega perché non è stato possibile (passato prossimo del modale). || Erkläre, warum es nicht ging.
 Perché non sei venuto alla festa? (dovere studiare) – … | Ho dovuto studiare | Ho dovuto studiare.
 Perché Sara non ha telefonato? (non potere usare il cellulare) – … | Non ha potuto usare il cellulare | Non ha potuto usare il cellulare.
 Perché siete arrivati tardi? (dovere aspettare l’autobus) – … | Abbiamo dovuto aspettare l’autobus | Abbiamo dovuto aspettare l’autobus.
-Perché Marco non è a scuola? (dovere andare dal medico) – … | È dovuto andare dal medico | È dovuto andare dal medico.
-Perché le ragazze non sono qui? (volere restare a casa) – … | Sono volute restare a casa | Sono volute restare a casa.
+Perché Marco non è a scuola? (dovere andare dal medico) – … | È dovuto andare dal medico/Ha dovuto andare dal medico | È dovuto andare dal medico.
+Perché le ragazze non sono qui? (volere restare a casa) – … | Sono volute restare a casa/Hanno voluto restare a casa | Sono volute restare a casa.
 Perché non hai fatto i compiti? (non potere, ero malato) – … | Non ho potuto | Non ho potuto, ero malato.
 Perché tua madre non è venuta? (dovere lavorare) – … | Ha dovuto lavorare | Ha dovuto lavorare.
-Perché siete tornati presto? (dovere tornare per cena) – … | Siamo dovuti tornare | Siamo dovuti tornare per cena.
+Perché siete tornati presto? (dovere tornare per cena) – … | Siamo dovuti tornare/Siamo dovute tornare/Abbiamo dovuto tornare | Siamo dovuti tornare per cena.
 
 %übung schwer | Una mail di scuse
 ?frei | Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo. || Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.
 Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!
 Zeilen: 5
 ?luecke | E adesso completa. || Und jetzt ergänze.
-Sabato non (potere) [sono potuto/sono potuta] venire alla festa.
+Sabato non (potere) [sono potuto/sono potuta/ho potuto] venire alla festa.
 (Dovere) [Ho dovuto] aiutare mio padre.
-Poi (dovere) [sono dovuto/sono dovuta] andare dai nonni.
+Poi (dovere) [sono dovuto/sono dovuta/ho dovuto] andare dai nonni.
 (Volere) [Ho voluto] telefonarti.
 
 @thema imperativo-noi | 5 · Famiglia e gite | Parte B | L’imperativo della prima persona plurale | 5

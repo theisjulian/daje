@@ -67,7 +67,7 @@ function ixMatchingHTML(x, q, parts, state) {
         .map(p => {
           const v = ownPart(parts, p.id) ? parts[p.id] : '';
           const r = rights.find(y => y.id === v);
-          const m = state.checked ? (v === p.id ? ' is-correct' : ' is-wrong') : '';
+          const m = state.checked ? (v === p.id || (r && String(r.text).trim().toLowerCase() === String(p.right).trim().toLowerCase()) ? ' is-correct' : ' is-wrong') : '';
           return `<div class="mt-row${m}"><span class="mt-left">${esc(p.left)}</span><span class="mt-slot" data-ix-slot="${esc(p.id)}" role="button" tabindex="0" aria-label="${esc(p.left)} →">${r ? chip(r) : '<span class="mt-ph">…</span>'}</span></div>`;
         })
         .join('')}</div>

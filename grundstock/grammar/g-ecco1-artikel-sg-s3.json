@@ -87,11 +87,11 @@
     },
     {
      "id": "s5",
-     "start": "Mio fratello gioca … (Stadion)",
+     "start": "Vicino al parco c’è … (Stadion)",
      "acceptedAnswers": [
-      "stadio"
+      "lo stadio"
      ],
-     "modelAnswer": "Mio fratello gioca nello stadio."
+     "modelAnswer": "Vicino al parco c’è lo stadio."
     },
     {
      "id": "s6",
@@ -103,11 +103,11 @@
     },
     {
      "id": "s7",
-     "start": "Il sabato vado … (Eisdiele)",
+     "start": "Vicino alla scuola c’è … (Eisdiele)",
      "acceptedAnswers": [
-      "gelateria"
+      "la gelateria"
      ],
-     "modelAnswer": "Il sabato vado in gelateria."
+     "modelAnswer": "Vicino alla scuola c’è la gelateria."
     },
     {
      "id": "s8",

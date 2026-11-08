@@ -93,11 +93,11 @@
     },
     {
      "id": "s6",
-     "start": "(loro / casa / vicino)",
+     "start": "(loro / casa / grande)",
      "acceptedAnswers": [
-      "La loro casa è vicino"
+      "La loro casa è grande"
      ],
-     "modelAnswer": "La loro casa è vicino."
+     "modelAnswer": "La loro casa è grande."
     },
     {
      "id": "s7",

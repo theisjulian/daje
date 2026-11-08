@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Marco è in piazza, non a scuola. Scegli la forma giusta.",
-   "promptHelp": "Marco ist auf dem Platz, nicht in der Schule. Wähle die passende Form.",
+   "prompt": "Marco è in piazza con gli amici. Mangia un gelato e sta bene. Non è a scuola e oggi non ha lezione. Scegli la forma giusta.",
+   "promptHelp": "Marco ist mit seinen Freunden auf dem Platz. Er isst ein Eis und es geht ihm gut. Er ist nicht in der Schule und hat heute keinen Unterricht. Wähle die passende Form.",
    "type": "gap_choice",
    "text": "Marco [[g1]] a scuola.\nMarco [[g2]] in piazza.\nLui [[g3]] in classe.\nLui [[g4]] un gelato.\nI suoi amici [[g5]] a casa.\nI suoi amici [[g6]] con lui.\nOggi Marco [[g7]] lezione.\nMarco [[g8]] bene.",
    "gaps": [

@@ -50,7 +50,7 @@
    "prompt": "Scegli la parola giusta.",
    "promptHelp": "Wähle das passende Wort.",
    "type": "gap_choice",
-   "text": "Hai fame? Vuoi [[g1]] da mangiare?\nAscolta! C’è [[g2]] alla porta.\nHai [[g3]] per il mal di testa?\n[[g4]] ha preso la mia penna!\nHo comprato [[g5]] per la mamma.\nConosci [[g6]] a Milano?\nDimmi [[g7]] di bello!\nCerco [[g8]] per giocare a tennis.",
+   "text": "Hai fame? Vuoi [[g1]] da mangiare?\nAscolta! C’è [[g2]] alla porta.\nHai [[g3]] per il mal di testa?\n[[g4]] ha preso la mia penna!\nHo comprato [[g5]] per la mamma.\nConosci [[g6]] a Milano?\nDimmi [[g7]]: che cosa è successo?\nCerco [[g8]] con cui giocare a tennis.",
    "gaps": [
     {
      "id": "g1",

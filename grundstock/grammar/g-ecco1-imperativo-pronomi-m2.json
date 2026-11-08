@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Mangio la torta? – No, …",
      "acceptedAnswers": [
-      "non mangiarla"
+      "non mangiarla",
+      "non la mangiare"
      ],
      "modelAnswer": "No, non mangiarla!"
     },
@@ -65,7 +66,8 @@
      "id": "s2",
      "start": "Prendo l’autobus? – No, …",
      "acceptedAnswers": [
-      "non prenderlo"
+      "non prenderlo",
+      "non lo prendere"
      ],
      "modelAnswer": "No, non prenderlo!"
     },
@@ -73,7 +75,8 @@
      "id": "s3",
      "start": "Compro le scarpe? – No, …",
      "acceptedAnswers": [
-      "non comprarle"
+      "non comprarle",
+      "non le comprare"
      ],
      "modelAnswer": "No, non comprarle!"
     },
@@ -81,7 +84,8 @@
      "id": "s4",
      "start": "Chiamo Luca? – No, …",
      "acceptedAnswers": [
-      "non chiamarlo"
+      "non chiamarlo",
+      "non lo chiamare"
      ],
      "modelAnswer": "No, non chiamarlo!"
     },
@@ -89,7 +93,8 @@
      "id": "s5",
      "start": "Bevo il latte? – No, …",
      "acceptedAnswers": [
-      "non berlo"
+      "non berlo",
+      "non lo bere"
      ],
      "modelAnswer": "No, non berlo!"
     },
@@ -97,7 +102,8 @@
      "id": "s6",
      "start": "Apro la porta? – No, …",
      "acceptedAnswers": [
-      "non aprirla"
+      "non aprirla",
+      "non la aprire"
      ],
      "modelAnswer": "No, non aprirla!"
     },
@@ -105,7 +111,8 @@
      "id": "s7",
      "start": "Invito Sara e Ada? – No, …",
      "acceptedAnswers": [
-      "non invitarle"
+      "non invitarle",
+      "non le invitare"
      ],
      "modelAnswer": "No, non invitarle!"
     },
@@ -113,7 +120,8 @@
      "id": "s8",
      "start": "Faccio la foto? – No, …",
      "acceptedAnswers": [
-      "non farla"
+      "non farla",
+      "non la fare"
      ],
      "modelAnswer": "No, non farla!"
     }

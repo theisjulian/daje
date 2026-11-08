@@ -205,3 +205,23 @@ console.log('Optional transcriptOrigin is validated and kept.');
   if (r.ok || r.errors.length < 3) throw new Error('Fehlerhafte neue Typen nicht abgewiesen: ' + r.errors.join('; '));
   console.log('Weitere Aufgabentypen: Prüfung und Bewertung passed.');
 }
+
+// Prüfer für Satzergänzung, Zuordnung und Fehlerkorrektur: Mehrfachlösungen und falsche Treffer
+{
+  const { assessAnswer, sameFix } = require('../' + dir + '/content-contract.js');
+  const sc = (key, given) => assessAnswer({ type: 'sentence_completion', items: [{ id: 'a', acceptedAnswers: Array.isArray(key) ? key : [key] }] }, JSON.stringify({ a: given }));
+  assert.ok(sc('Le', 'Le telefono'));
+  assert.ok(!sc('Le', 'Gli telefono'), 'le steckt nicht in telefono');
+  assert.ok(!sc('sta', 'Stai'), 'sta ≠ stai');
+  assert.ok(!sc('mi piace', 'Non mi piace'), 'Verneinung ist keine Lösung für „mi piace“');
+  assert.ok(sc('non mi piace', 'No, non mi piace.'));
+  assert.ok(sc('alle nove', 'Ho inglese alle nove.'));
+  assert.ok(!sc('alle nove', 'Alle nove e mezza'), 'andere Uhrzeit');
+  assert.ok(sc('l’aspetto', "L'aspetto."));
+  const mt = (right, a, b) => ({ type: 'matching', pairs: [{ id: 'p1', left: 'noi', right }, { id: 'p2', left: 'Marco e io', right }], distractors: [] });
+  assert.ok(assessAnswer(mt('abbiamo'), JSON.stringify({ p1: 'p2', p2: 'p1' })), 'gleich lautende Karten sind austauschbar');
+  const ec = { id: 'g1', wrong: 'Dicembre', acceptedAnswers: ['dicembre'] };
+  assert.ok(!sameFix(ec, 'Dicembre'), 'nur Großschreibung falsch: unverändert ist falsch');
+  assert.ok(sameFix(ec, 'dicembre'));
+  console.log('Satzergänzung, Zuordnung und Fehlerkorrektur: Mehrfachlösungen passed.');
+}

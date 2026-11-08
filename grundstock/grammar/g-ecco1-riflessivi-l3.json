@@ -53,23 +53,23 @@
    "items": [
     {
      "id": "i1",
-     "text": "Si sveglia alle sette."
+     "text": "Alle sette si sveglia."
     },
     {
      "id": "i2",
-     "text": "Si alza dal letto."
+     "text": "Alle sette e cinque si alza dal letto."
     },
     {
      "id": "i3",
-     "text": "Si lava la faccia."
+     "text": "Alle sette e dieci si lava la faccia."
     },
     {
      "id": "i4",
-     "text": "Si veste."
+     "text": "Alle sette e un quarto si veste."
     },
     {
      "id": "i5",
-     "text": "Fa colazione."
+     "text": "Alle sette e mezza fa colazione."
     }
    ]
   },
@@ -81,19 +81,19 @@
    "items": [
     {
      "id": "i1",
-     "text": "Torna a casa."
+     "text": "Alle sei torna a casa."
     },
     {
      "id": "i2",
-     "text": "Si fa la doccia."
+     "text": "Alle otto si fa la doccia."
     },
     {
      "id": "i3",
-     "text": "Si mette il pigiama."
+     "text": "Alle dieci si mette il pigiama."
     },
     {
      "id": "i4",
-     "text": "Si addormenta."
+     "text": "Alle dieci e mezza si addormenta."
     }
    ]
   },

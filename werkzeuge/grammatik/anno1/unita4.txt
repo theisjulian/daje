@@ -27,12 +27,12 @@ Resto a casa {perché*|quando} piove.
 
 %übung leicht | Quando …
 ?zuordnen | Abbina le parti della frase. || Verbinde die Satzhälften.
-Quando piove, = guardo un film a casa.
+Quando piove, = prendo l’ombrello.
 Quando fa caldo, = vado in piscina.
 Quando ho fame, = mangio un panino.
 Quando nevica, = facciamo un pupazzo di neve.
 Quando sono triste, = telefono alla mia migliore amica.
-Quando ho tempo libero, = leggo fumetti.
+Quando ho un compito domani, = studio molto.
 Quando sono stanco, = vado a letto presto.
 Quando ho sete, = bevo un bicchiere d’acqua.
 + perché mi piace.
@@ -41,7 +41,7 @@ Quando ho sete, = bevo un bicchiere d’acqua.
 ?auswahl | Quale risposta va bene? || Welche Antwort passt?
 Perché resti a casa? – {Perché sono malato.*|Quando sono malato.|Perché resto a casa.}
 Perché studi tanto? – {Perché domani ho un test.*|Quando domani ho un test.|Perché studio.}
-Perché vai in montagna? – {Perché mi piace sciare.*|Quando mi piace sciare.|Perché sciare mi piace.}
+Perché vai in montagna? – {Perché mi piace sciare.*|Quando mi piace sciare.|Perché piace mi sciare.}
 Perché non vieni? – {Perché devo aiutare la mamma.*|Perché la mamma aiutare devo.|Quando devo aiutare.}
 Perché sei contento? – {Perché ho un bel voto.*|Perché un bel voto ho.|Quando ho un bel voto.}
 Perché prendi l’autobus? – {Perché piove.*|Quando piove io.|Perché l’autobus.}
@@ -51,14 +51,14 @@ Perché ascolti musica? – {Perché mi rilassa.*|Perché rilassa mi.|Quando mus
 
 %übung mittel | Unire le frasi
 ?zuordnen | Abbina le parti della frase. || Was passt zusammen?
-Suono la chitarra = quando ho tempo libero.
 Vado in montagna = perché mi piace sciare.
-Resto a casa = perché piove.
-Ascolto musica = quando faccio i compiti.
-Non vado alla festa = perché sono stanca.
-Mangio un gelato = quando fa caldo.
+Prendo l’ombrello = perché piove.
+Vado a letto presto = perché sono stanco.
 Studio molto = perché domani ho un test.
-Telefono a Sara = quando sono triste.
+Vado in piscina = quando fa caldo.
+Facciamo un pupazzo di neve = quando nevica.
+Bevo un bicchiere d’acqua = quando ho sete.
+Mangio un panino = quando ho fame.
 
 %übung mittel | Il mio tempo libero
 ?luecke wortkasten | Completa con quando o perché. || Ergänze quando oder perché.
@@ -66,7 +66,7 @@ Telefono a Sara = quando sono triste.
 Mi piace lo skateboard [perché] è uno sport veloce.
 [Quando] piove, invece, gioco ai videogiochi.
 Non vado in piscina [perché] non so nuotare bene.
-Il sabato sera esco [quando] i miei genitori dicono di sì.
+[Quando] i miei genitori dicono di sì, il sabato sera esco.
 Studio la chitarra [perché] voglio suonare in una band.
 [Quando] fa freddo, resto a casa.
 Leggo molto [perché] i libri mi piacciono.
@@ -188,10 +188,10 @@ Mamma, {posso*|può|possono} uscire stasera?
 {So*|Posso} suonare il pianoforte, ho imparato da piccolo.
 Oggi non {posso*|so} uscire, devo studiare.
 {Sai*|Puoi} sciare? – Sì, ho imparato l’anno scorso.
-{Puoi*|Sai} aiutarmi con i compiti?
+{Puoi*|Sai} aprire la finestra, per favore?
 Mia sorella {sa*|può} parlare tre lingue.
 Non {posso*|so} venire, sono malato.
-Mio fratello non {sa*|può} nuotare, ha paura dell’acqua.
+Mio fratello non {sa*|può} nuotare, non ha mai imparato.
 {Possiamo*|Sappiamo} entrare? – Sì, prego.
 ! sapere: hai imparato a fare una cosa. potere: è possibile o hai il permesso. || sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.
 
@@ -338,7 +338,7 @@ Mio padre {ha lavorato*|è lavorato|ha lavorata} tutto il giorno.
 %übung mittel | Sabato scorso
 ?luecke | Scrivi i verbi al passato prossimo. || Setze die Verben ins passato prossimo.
 Sabato scorso io (giocare) [ho giocato] a pallavolo.
-Poi (mangiare) [ho mangiato] una pizza con Luca.
+Poi (mangiare, io) [ho mangiato] una pizza con Luca.
 Luca (suonare) [ha suonato] il pianoforte.
 La sera noi (guardare) [abbiamo guardato] un film.
 E voi? Che cosa (organizzare) [avete organizzato]?
@@ -361,7 +361,7 @@ Ogni giorno Marco {lavora*|ha lavorato} in negozio.
 %übung mittel | Il diario di Giulia
 ?luecke | Scrivi i verbi al passato prossimo. || Setze die Verben ins passato prossimo.
 Caro diario, oggi (avere) [ho avuto] una giornata fantastica!
-La mattina (ricevere) [ho ricevuto] un bel voto in matematica.
+La mattina (ricevere, io) [ho ricevuto] un bel voto in matematica.
 A pranzo mia madre (cucinare) [ha cucinato] le lasagne.
 Nel pomeriggio io e Marta (giocare) [abbiamo giocato] a tennis.
 Poi (ascoltare, noi) [abbiamo ascoltato] musica nella mia camera.
@@ -388,16 +388,16 @@ Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizz
 Zeilen: 5
 ?luecke | E adesso completa. || Und jetzt ergänze.
 Sabato io (dormire) [ho dormito] fino alle nove.
-Poi (giocare) [ho giocato] ai videogiochi.
+Poi (giocare, io) [ho giocato] ai videogiochi.
 I miei genitori (lavorare) [hanno lavorato] in giardino.
 La sera noi (mangiare) [abbiamo mangiato] insieme.
 
 %übung schwer | Presente o passato prossimo?
 ?luecke | Scrivi il verbo al presente o al passato prossimo. Guarda le parole del tempo. || Setze die Verben im Präsens oder im passato prossimo ein.
 Di solito il sabato io (giocare) [gioco] a calcio.
-Ma sabato scorso (giocare) [ho giocato] a tennis.
+Ma sabato scorso (giocare, io) [ho giocato] a tennis.
 Ogni giorno mia sorella (ascoltare) [ascolta] la radio.
-Ieri però (ascoltare) [ha ascoltato] un podcast.
+Ieri però (ascoltare, lei) [ha ascoltato] un podcast.
 Adesso noi (mangiare) [mangiamo] in cucina.
 Ieri sera (mangiare, noi) [abbiamo mangiato] in pizzeria.
 L’anno scorso voi (studiare) [avete studiato] il francese?
@@ -459,7 +459,7 @@ perdere = perso
 leggere = letto
 essere = stato
 + prenduto
-+ veduto
++ vedito
 
 %übung leicht | L’ausiliare essere
 ?auswahl | Scegli la forma giusta di essere. || Wähle die richtige Form von essere.
@@ -522,15 +522,15 @@ Tu (Giulia) sei rimast[a] a casa?
 
 %übung mittel | Una gita a Milano
 ?luecke | Scrivi i verbi al passato prossimo (essere o avere). || Setze die Verben ins passato prossimo (essere oder avere).
-Domenica io e mia sorella (andare) [siamo andate] a Milano.
+Domenica io e mia sorella (andare) [siamo andate/siamo andati] a Milano.
 (Prendere, noi) [Abbiamo preso] il treno alle otto.
-(Arrivare, noi) [Siamo arrivate] alle nove e mezza.
+(Arrivare, noi) [Siamo arrivate/Siamo arrivati] alle nove e mezza.
 Prima (vedere, noi) [abbiamo visto] il Duomo.
 Poi (fare, noi) [abbiamo fatto] shopping in Galleria.
 Mia sorella (perdere) [ha perso] il biglietto del treno!
-Per fortuna (rimanere, noi) [siamo rimaste] calme.
-La sera (tornare, noi) [siamo tornate] a casa stanche ma felici.
-! io e mia sorella = noi (femminile) → siamo andate, siamo arrivate. || io e mia sorella = noi (weiblich) → siamo andate.
+Per fortuna (rimanere, noi) [siamo rimaste/siamo rimasti] calme.
+La sera (tornare, noi) [siamo tornate/siamo tornati] a casa stanche ma felici.
+! io e mia sorella = noi: se parla una ragazza → siamo andate, se parla un ragazzo → siamo andati. || io e mia sorella = noi: spricht ein Mädchen → siamo andate, spricht ein Junge → siamo andati.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
@@ -541,7 +541,7 @@ Le ragazze sono [tornato=>tornate] alle sei.
 Abbiamo [vedito=>visto] un bel film.
 Marco [ha partito=>è partito] alle otto.
 Ho [leggiuto=>letto] un libro.
-Voi siete [stato=>stati] al mare?
+Voi siete [stato=>stati/state] al mare?
 
 %übung schwer | Avere o essere?
 ?auswahl | Scegli l’ausiliare e la desinenza giusta. || Wähle das richtige Hilfsverb und die richtige Endung.
@@ -656,12 +656,12 @@ Non avete {ancora*|già} finito?
 
 %übung mittel | Rispondi
 ?ergaenzen | Rispondi con già (sì) o non … ancora (no). || Antworte mit già (sì) oder non … ancora (no).
-Hai fatto i compiti? (sì) – Sì, … | ho già fatto i compiti | Sì, ho già fatto i compiti.
-Hai visto il film? (no) – No, … | non ho ancora visto il film | No, non ho ancora visto il film.
+Hai fatto i compiti? (sì) – Sì, … | ho già fatto i compiti/li ho già fatti | Sì, ho già fatto i compiti.
+Hai visto il film? (no) – No, … | non ho ancora visto il film/non l’ho ancora visto | No, non ho ancora visto il film.
 Marco è tornato? (sì) – Sì, … | è già tornato | Sì, Marco è già tornato.
 Avete mangiato? (no) – No, … | non abbiamo ancora mangiato | No, non abbiamo ancora mangiato.
 Le ragazze sono partite? (sì) – Sì, … | sono già partite | Sì, sono già partite.
-Hai comprato il pane? (no) – No, … | non ho ancora comprato il pane | No, non ho ancora comprato il pane.
+Hai comprato il pane? (no) – No, … | non ho ancora comprato il pane/non l’ho ancora comprato | No, non ho ancora comprato il pane.
 Avete finito? (sì) – Sì, … | abbiamo già finito | Sì, abbiamo già finito.
 Sara è arrivata? (no) – No, … | non è ancora arrivata | No, Sara non è ancora arrivata.
 ! già e ancora vanno tra l’ausiliare e il participio. || già und ancora stehen zwischen Hilfsverb und Partizip.
@@ -720,12 +720,12 @@ Non hai [già=>ancora] telefonato? Telefona adesso!
 
 @mehr gia-ancora
 %übung mittel | Già o non ancora?
-?ordnen | Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“ || Bringe die Wörter in die richtige Reihenfolge.
+?ordnen | Metti le parole in ordine: „Ich habe das Buch noch nicht gelesen.“ || Bringe die Wörter in die richtige Reihenfolge.
 Non
 ho
 ancora
-fatto
-i compiti.
+letto
+il libro.
 ?ordnen | Metti le parole in ordine: „Hast du schon gegessen?“ || Bringe die Wörter in die richtige Reihenfolge.
 Hai
 già

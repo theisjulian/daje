@@ -52,7 +52,7 @@
    "explanation": "sapere: hai imparato a fare una cosa. potere: è possibile o hai il permesso.",
    "explanationHelp": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
    "type": "gap_choice",
-   "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l’anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.\nNon [[g6]] venire, sono malato.\nMio fratello non [[g7]] nuotare, ha paura dell’acqua.\n[[g8]] entrare? – Sì, prego.",
+   "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l’anno scorso.\n[[g4]] aprire la finestra, per favore?\nMia sorella [[g5]] parlare tre lingue.\nNon [[g6]] venire, sono malato.\nMio fratello non [[g7]] nuotare, non ha mai imparato.\n[[g8]] entrare? – Sì, prego.",
    "gaps": [
     {
      "id": "g1",

@@ -65,7 +65,9 @@
      "id": "s2",
      "start": "(Marco / bene oggi)",
      "acceptedAnswers": [
-      "Marco sta bene oggi"
+      "Marco sta bene oggi",
+      "Oggi Marco sta bene",
+      "Marco oggi sta bene"
      ],
      "modelAnswer": "Marco sta bene oggi."
     },

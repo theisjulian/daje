@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo. Usa gli articoli indeterminativi.",
+   "promptHelp": "Ergänze den Text. Verwende unbestimmte Artikel.",
    "text": "A: Buongiorno, organizziamo [[g1]] merenda per i partecipanti al laboratorio. Possiamo ordinare qualcosa qui?\nB: Certamente. Prendo [[g2]] matita e [[g3]] foglio. Quante persone siete?\nA: Siamo dodici. Vorrei [[g4]] succo di pera, [[g5]] spremuta e [[g6]] tè freddo per tre persone. Per gli altri vanno bene acqua naturale e caffè.\nB: Da mangiare che cosa desiderate?\nA: [[g7]] panino con le verdure, [[g8]] focaccia al rosmarino, [[g9]]’insalata di riso e [[g10]] yogurt bianco. Poi [[g11]] torta semplice da dividere e [[g12]]’arancia per chi preferisce la frutta.\nB: Abbiamo anche uno strudel senza crema.\nA: Bene, aggiunga una porzione. Serve un contenitore per portare tutto.\nB: Nessun problema. Volete una borsa di carta?\nA: Sì, grazie. E anche un cucchiaio per lo yogurt e un tovagliolo per ogni persona.\nB: Potete tornare tra mezz’ora. Per il pagamento prepariamo un conto unico.\nA: Perfetto. La merenda comincia alle quattro, quindi abbiamo tempo. Grazie e a dopo!",
    "gaps": [
     {

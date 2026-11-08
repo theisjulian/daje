@@ -53,13 +53,15 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "uno"
+      "uno",
+      "lo"
      ]
     },
     {
@@ -71,7 +73,8 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "un"
+      "un",
+      "il"
      ]
     },
     {
@@ -83,7 +86,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     },
     {
@@ -95,31 +99,36 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "Il"
+      "Il",
+      "Un"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g11",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     }
    ],

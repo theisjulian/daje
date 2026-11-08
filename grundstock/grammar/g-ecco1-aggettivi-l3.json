@@ -47,48 +47,48 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Abbina nome e aggettivo.",
-   "promptHelp": "Verbinde Nomen und Adjektiv.",
+   "prompt": "Scrivi la forma giusta: nuovo (neu) o vecchio (alt).",
+   "promptHelp": "Verbinde Nomen und passende Form von nuovo (neu) oder vecchio (alt).",
    "type": "matching",
    "pairs": [
     {
      "id": "p1",
-     "left": "una camera",
-     "right": "piccola"
+     "left": "una camera (neu)",
+     "right": "nuova"
     },
     {
      "id": "p2",
-     "left": "un letto",
-     "right": "piccolo"
+     "left": "un letto (neu)",
+     "right": "nuovo"
     },
     {
      "id": "p3",
-     "left": "due letti",
-     "right": "piccoli"
+     "left": "due zaini (neu)",
+     "right": "nuovi"
     },
     {
      "id": "p4",
-     "left": "due camere",
-     "right": "piccole"
+     "left": "due borse (neu)",
+     "right": "nuove"
     },
     {
      "id": "p5",
-     "left": "una borsa",
-     "right": "grande"
+     "left": "una foto (alt)",
+     "right": "vecchia"
     },
     {
      "id": "p6",
-     "left": "due zaini",
-     "right": "grandi"
-    },
-    {
-     "id": "p7",
-     "left": "un poster",
+     "left": "un poster (alt)",
      "right": "vecchio"
     },
     {
+     "id": "p7",
+     "left": "due libri (alt)",
+     "right": "vecchi"
+    },
+    {
      "id": "p8",
-     "left": "le riviste",
+     "left": "due riviste (alt)",
      "right": "vecchie"
     }
    ]

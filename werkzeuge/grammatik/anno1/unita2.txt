@@ -327,10 +327,10 @@ sedia > a
 camera > a
 scrivania > a
 libri > i
-poster > i
+zaini > i
 riviste > e
 scarpe > e
-! poster è maschile (il poster → i poster): questi poster. || poster ist männlich (il poster → i poster): questi poster.
+! libri e zaini sono maschili plurali: questi libri, questi zaini. || libri und zaini sind männlich im Plural: questi libri, questi zaini.
 
 %übung leicht | Che cos’è?
 ?auswahl | Scegli questo o questi, questa o queste. || Wähle die passende Form.
@@ -436,7 +436,7 @@ La borsa è {sulla*|sul|sulle} sedia.
 Lo zaino è {nel*|nella|nello} corridoio.
 Il fon è {nella*|nel|nelle} vasca da bagno.
 Le riviste sono {sullo*|sul|sulla} scaffale.
-Le scarpe sono {sotto il*|sotto al|sotto nel} letto.
+Le scarpe sono {sotto il*|sotto del|sotto nel} letto.
 Il gatto dorme {sul*|sulla|sullo} divano.
 Il pallone è {nell’*|nella|nello} armadio.
 I libri sono {sugli*|sui|sulle} scaffali.
@@ -515,7 +515,7 @@ Dove metti la lampada? (accanto a + il letto) | accanto al letto | Accanto al le
 
 %übung schwer | Errori nella camera
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
-Il gatto dorme [nel=>sul] letto, non sotto.
+Il computer è [nel=>sul] tavolo, non per terra.
 I vestiti sono [nella=>nell’] armadio.
 Il pallone è [sul=>sulla] sedia.
 Torno [dalla=>dal] mercato.
@@ -667,7 +667,7 @@ I nostri genitori dicono: «Ragazzi, [la vostra] camera è un caos!»
 (Marco / bici / rossa) | La sua bici è rossa | La sua bici è rossa.
 (noi / gatto / nero) | Il nostro gatto è nero | Il nostro gatto è nero.
 (voi / scarpe / qui) | Le vostre scarpe sono qui | Le vostre scarpe sono qui.
-(loro / casa / vicino) | La loro casa è vicino | La loro casa è vicino.
+(loro / casa / grande) | La loro casa è grande | La loro casa è grande.
 (Giulia / zaino / pesante) | Il suo zaino è pesante | Il suo zaino è pesante.
 (io / amici / simpatici) | I miei amici sono simpatici | I miei amici sono simpatici.
 
@@ -844,15 +844,15 @@ I ragazzi sono {contenti*|contente|contento}.
 ! simpatico → simpatici (m. plur.), simpatica → simpatiche (f. plur.). || simpatico → simpatici (m. Pl.), simpatica → simpatiche (w. Pl.).
 
 %übung leicht | Maschile o femminile, singolare o plurale?
-?zuordnen | Abbina nome e aggettivo. || Verbinde Nomen und Adjektiv.
-una camera = piccola
-un letto = piccolo
-due letti = piccoli
-due camere = piccole
-una borsa = grande
-due zaini = grandi
-un poster = vecchio
-le riviste = vecchie
+?zuordnen | Scrivi la forma giusta: nuovo (neu) o vecchio (alt). || Verbinde Nomen und passende Form von nuovo (neu) oder vecchio (alt).
+una camera (neu) = nuova
+un letto (neu) = nuovo
+due zaini (neu) = nuovi
+due borse (neu) = nuove
+una foto (alt) = vecchia
+un poster (alt) = vecchio
+due libri (alt) = vecchi
+due riviste (alt) = vecchie
 
 %übung mittel | La mia camera
 ?luecke | Scrivi gli aggettivi nella forma giusta. || Ergänze die Adjektive in der richtigen Form.
@@ -910,12 +910,12 @@ vecchio | [vecchia] | [vecchi] | [vecchie]
 - È una ragazza simpatico.
 
 %übung schwer | Metti in ordine
-?ordnen | Metti le parole in ordine: „Filippo hat einen neuen Computer.“ || Bringe die Wörter in die richtige Reihenfolge.
+?ordnen | Metti le parole in ordine: „Filippo hat einen roten Computer.“ || Bringe die Wörter in die richtige Reihenfolge.
 Filippo
 ha
 un
 computer
-nuovo
+rosso
 ?ordnen | Metti le parole in ordine: „Die Mädchen haben rote Schuhe.“ || Bringe die Wörter in die richtige Reihenfolge.
 Le ragazze
 hanno
@@ -983,10 +983,10 @@ scarpe
 italiane
 sono
 belle.
-?ordnen | Metti le parole in ordine: „Wir wohnen in einem großen Haus.“ || Bringe die Wörter in die richtige Reihenfolge.
+?ordnen | Metti le parole in ordine: „Wir wohnen in einem modernen Haus.“ || Bringe die Wörter in die richtige Reihenfolge.
 Abitiamo
 in
 una
-grande
-casa.
+casa
+moderna.
 ! Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima. || Adjektive meist nach dem Nomen; bello, grande, buono auch davor.

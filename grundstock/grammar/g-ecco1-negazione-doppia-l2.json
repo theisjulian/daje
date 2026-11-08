@@ -50,7 +50,7 @@
    "prompt": "Scegli la parola giusta.",
    "promptHelp": "Wähle das passende Wort.",
    "type": "gap_choice",
-   "text": "Ho fame, ma in frigo non c’è [[g1]].\nLa piazza è vuota: non c’è [[g2]].\nOdio il pesce: non lo mangio [[g3]].\nDa ottobre non abito [[g4]] a Torino.\nSono al buio, non vedo [[g5]].\nSono nuovo, non conosco [[g6]].\nMio padre non beve [[g7]] la Coca-Cola.\nNon gioco [[g8]] a tennis, ora faccio nuoto.",
+   "text": "Ho fame, ma in frigo non c’è [[g1]].\nLa piazza è vuota: non c’è [[g2]] a giocare.\nOdio il pesce: non lo mangio [[g3]].\nDa ottobre non abito [[g4]] a Torino.\nHo perso gli occhiali: non vedo [[g5]] sul libro.\nSono nuovo, non conosco [[g6]] in classe.\nMio padre non beve [[g7]] la Coca-Cola.\nNon gioco [[g8]] a tennis, ora faccio nuoto.",
    "gaps": [
     {
      "id": "g1",
@@ -66,7 +66,7 @@
      "options": [
       "nessuno",
       "niente",
-      "più"
+      "mai"
      ],
      "answer": "nessuno"
     },
@@ -93,7 +93,7 @@
      "options": [
       "niente",
       "nessuno",
-      "più"
+      "mai"
      ],
      "answer": "niente"
     },

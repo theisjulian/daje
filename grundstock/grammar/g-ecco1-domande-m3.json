@@ -52,13 +52,13 @@
    "explanation": "qual è senza apostrofo; quali al plurale.",
    "explanationHelp": "qual è ohne Apostroph.",
    "type": "gap_choice",
-   "text": "[[g1]] è il tuo colore preferito?\n[[g2]] sport fai?\n[[g3]] zaino compri, il rosso o il blu?\n[[g4]] lingue parli?\n[[g5]] è la tua materia preferita?\n[[g6]] giorno vieni?\n[[g7]] sono i tuoi film preferiti?\n[[g8]] gusto vuoi?",
+   "text": "[[g1]] è il tuo colore preferito?\n[[g2]] materie ti piacciono?\n[[g3]] zaino compri, il rosso o il blu?\n[[g4]] lingue parli?\n[[g5]] è la tua materia preferita?\n[[g6]] giorno vieni?\n[[g7]] sono i tuoi film preferiti?\n[[g8]] gusto vuoi?",
    "gaps": [
     {
      "id": "g1",
      "options": [
       "Qual",
-      "Quale",
+      "Quali",
       "Qual’"
      ],
      "answer": "Qual"
@@ -94,8 +94,8 @@
      "id": "g5",
      "options": [
       "Qual",
-      "Quale",
-      "Quali"
+      "Quali",
+      "Qual’"
      ],
      "answer": "Qual"
     },

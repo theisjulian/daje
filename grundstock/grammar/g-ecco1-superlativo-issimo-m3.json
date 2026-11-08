@@ -63,33 +63,33 @@
     },
     {
      "id": "p3",
-     "left": "pian pianino",
-     "right": "ganz sachte"
-    },
-    {
-     "id": "p4",
      "left": "caldo caldo",
      "right": "ganz warm"
     },
     {
-     "id": "p5",
+     "id": "p4",
      "left": "vicino vicino",
      "right": "ganz nah"
     },
     {
-     "id": "p6",
-     "left": "zitto zitto",
-     "right": "ganz still"
-    },
-    {
-     "id": "p7",
+     "id": "p5",
      "left": "bello bello",
      "right": "richtig schön"
     },
     {
-     "id": "p8",
+     "id": "p6",
      "left": "forte forte",
      "right": "ganz fest"
+    },
+    {
+     "id": "p7",
+     "left": "zitto zitto",
+     "right": "ganz still"
+    },
+    {
+     "id": "p8",
+     "left": "solo solo",
+     "right": "ganz allein"
     }
    ]
   }

@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "In otto parole l’articolo è sbagliato. Correggi.",
-   "promptHelp": "Bei acht Wörtern stimmt der Artikel nicht. Korrigiere.",
+   "prompt": "In nove parole l’articolo è sbagliato. Correggi.",
+   "promptHelp": "Bei neun Wörtern stimmt der Artikel nicht. Korrigiere.",
    "explanation": "Maschile + vocale: un amico (senza apostrofo). Femminile + vocale: un’amica.",
    "explanationHelp": "Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un’amica.",
    "type": "error_correction",

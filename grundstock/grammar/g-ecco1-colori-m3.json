@@ -57,7 +57,10 @@
      "id": "s1",
      "start": "Luca porta … (Hose, blau)",
      "acceptedAnswers": [
-      "i pantaloni blu"
+      "i pantaloni blu",
+      "dei pantaloni blu",
+      "pantaloni blu",
+      "un paio di pantaloni blu"
      ],
      "modelAnswer": "Luca porta i pantaloni blu."
     },
@@ -65,7 +68,8 @@
      "id": "s2",
      "start": "Sara porta … (Rock, rot)",
      "acceptedAnswers": [
-      "una gonna rossa"
+      "una gonna rossa",
+      "la gonna rossa"
      ],
      "modelAnswer": "Sara porta una gonna rossa."
     },
@@ -82,7 +86,8 @@
      "id": "s4",
      "start": "Anna porta … (Pullover, grau)",
      "acceptedAnswers": [
-      "un maglione grigio"
+      "un maglione grigio",
+      "il maglione grigio"
      ],
      "modelAnswer": "Anna porta un maglione grigio."
     },
@@ -90,7 +95,8 @@
      "id": "s5",
      "start": "Marco porta … (Mütze, grün)",
      "acceptedAnswers": [
-      "un cappello verde"
+      "un cappello verde",
+      "il cappello verde"
      ],
      "modelAnswer": "Marco porta un cappello verde."
     },
@@ -107,7 +113,8 @@
      "id": "s7",
      "start": "La prof porta … (Jacke, weiß)",
      "acceptedAnswers": [
-      "una giacca bianca"
+      "una giacca bianca",
+      "la giacca bianca"
      ],
      "modelAnswer": "La prof porta una giacca bianca."
     },
@@ -115,7 +122,11 @@
      "id": "s8",
      "start": "Il nonno porta … (Hemden, hellblau)",
      "acceptedAnswers": [
-      "camicie azzurre"
+      "camicie azzurre",
+      "le camicie azzurre",
+      "delle camicie azzurre",
+      "camicie celesti",
+      "le camicie celesti"
      ],
      "modelAnswer": "Il nonno porta camicie azzurre."
     }

@@ -52,7 +52,7 @@
    "explanation": "di solito, ogni giorno, adesso, quest’anno → presente · ieri, scorso → passato prossimo.",
    "explanationHelp": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l’anno scorso → passato prossimo.",
    "type": "gap_fill",
-   "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
+   "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare, io) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare, lei) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
    "gaps": [
     {
      "id": "g1",

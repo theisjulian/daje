@@ -73,7 +73,7 @@
      "id": "s3",
      "start": "Vai spesso al cinema? (mai) – No, …",
      "acceptedAnswers": [
-      "non vado mai al cinema"
+      "non vado mai"
      ],
      "modelAnswer": "No, non vado mai al cinema."
     },
@@ -81,7 +81,7 @@
      "id": "s4",
      "start": "Abiti ancora a Roma? (più) – No, …",
      "acceptedAnswers": [
-      "non abito più a Roma"
+      "non abito più"
      ],
      "modelAnswer": "No, non abito più a Roma."
     },
@@ -105,7 +105,7 @@
      "id": "s7",
      "start": "Bevi il caffè? (mai) – No, …",
      "acceptedAnswers": [
-      "non bevo mai il caffè"
+      "non bevo mai"
      ],
      "modelAnswer": "No, non bevo mai il caffè."
     },
@@ -113,7 +113,7 @@
      "id": "s8",
      "start": "Giochi ancora a tennis? (più) – No, …",
      "acceptedAnswers": [
-      "non gioco più a tennis"
+      "non gioco più"
      ],
      "modelAnswer": "No, non gioco più a tennis."
     }

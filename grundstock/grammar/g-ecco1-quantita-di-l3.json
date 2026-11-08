@@ -93,7 +93,7 @@
      "options": [
       "pacco",
       "litro",
-      "etto"
+      "mazzo"
      ],
      "answer": "pacco"
     },
@@ -111,7 +111,7 @@
      "options": [
       "mazzo",
       "litro",
-      "etto"
+      "bottiglia"
      ],
      "answer": "mazzo"
     },

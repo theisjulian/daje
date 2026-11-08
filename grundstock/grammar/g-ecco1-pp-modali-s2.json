@@ -79,7 +79,8 @@
      "id": "s4",
      "start": "Perché Marco non è a scuola? (dovere andare dal medico) – …",
      "acceptedAnswers": [
-      "È dovuto andare dal medico"
+      "È dovuto andare dal medico",
+      "Ha dovuto andare dal medico"
      ],
      "modelAnswer": "È dovuto andare dal medico."
     },
@@ -87,7 +88,8 @@
      "id": "s5",
      "start": "Perché le ragazze non sono qui? (volere restare a casa) – …",
      "acceptedAnswers": [
-      "Sono volute restare a casa"
+      "Sono volute restare a casa",
+      "Hanno voluto restare a casa"
      ],
      "modelAnswer": "Sono volute restare a casa."
     },
@@ -111,7 +113,9 @@
      "id": "s8",
      "start": "Perché siete tornati presto? (dovere tornare per cena) – …",
      "acceptedAnswers": [
-      "Siamo dovuti tornare"
+      "Siamo dovuti tornare",
+      "Siamo dovute tornare",
+      "Abbiamo dovuto tornare"
      ],
      "modelAnswer": "Siamo dovuti tornare per cena."
     }

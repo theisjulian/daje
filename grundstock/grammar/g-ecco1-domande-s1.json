@@ -50,7 +50,7 @@
    "prompt": "Correggi gli otto errori.",
    "promptHelp": "Korrigiere die acht Fehler.",
    "type": "error_correction",
-   "text": "[[g1]] il tuo nome?\n[[g2]] fratelli hai?\n[[g3]] mangi a pranzo?\n[[g4]] sei? – Sono di Torino.\n[[g5]] costa la maglietta?\n[[g6]] parti? – Domani.\n[[g7]] lingue parli?\n[[g8]] arriva il treno? – Alle 10.",
+   "text": "[[g1]] il tuo nome?\n[[g2]] fratelli hai?\n[[g3]] mangi a pranzo?\n[[g4]] sei? – Sono di Torino.\n[[g5]] costa la maglietta?\n[[g6]] parti? – Domani.\n[[g7]] lingue parli?\n[[g8]] vai in vacanza? – In Sicilia.",
    "errors": [
     {
      "id": "g1",
@@ -105,7 +105,7 @@
      "id": "g8",
      "wrong": "Quando",
      "acceptedAnswers": [
-      "A che ora"
+      "Dove"
      ]
     }
    ]

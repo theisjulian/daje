@@ -131,7 +131,7 @@
   },
   {
    "id": "q4",
-   "prompt": "Metti le parole in ordine: „Wir wohnen in einem großen Haus.“",
+   "prompt": "Metti le parole in ordine: „Wir wohnen in einem modernen Haus.“",
    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
    "explanation": "Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima.",
    "explanationHelp": "Adjektive meist nach dem Nomen; bello, grande, buono auch davor.",
@@ -151,11 +151,11 @@
     },
     {
      "id": "i4",
-     "text": "grande"
+     "text": "casa"
     },
     {
      "id": "i5",
-     "text": "casa."
+     "text": "moderna."
     }
    ]
   }

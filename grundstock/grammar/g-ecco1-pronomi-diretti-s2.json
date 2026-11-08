@@ -79,7 +79,7 @@
     },
     {
      "id": "s4",
-     "start": "Prova le scarpe! (Lei: prova) → …",
+     "start": "Lei prova le scarpe. → …",
      "acceptedAnswers": [
       "Le prova"
      ],

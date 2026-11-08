@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo. Usa gli articoli determinativi.",
+   "promptHelp": "Ergänze den Text. Verwende bestimmte Artikel.",
    "text": "[[g1]] nostra scuola prepara una giornata dedicata alle idee degli studenti. L’evento è inventato per questa attività. Si svolge [[g2]] diciotto maggio e dura dalle nove alle diciassette. Partecipano ventiquattro classi: dodici presentano un progetto scientifico e [[g3]] altre dodici un progetto artistico. Nel cortile lavorano quindici volontari. Sette persone sistemano [[g4]] tavoli e otto controllano [[g5]] ingressi. [[g6]] palestra ospita trentadue piccoli stand. Ogni gruppo ha due sedie, un cartello e uno spazio per [[g7]] materiali. [[g8]] programma comprende quattro concerti e sei incontri con [[g9]] autori dei progetti. [[g10]] visitatori ricevono una scheda con dieci domande. Alle undici comincia [[g11]] primo concerto; alle tredici c’è [[g12]] pausa. [[g13]] laboratori del pomeriggio iniziano alle quattordici. Sono disponibili novanta posti, divisi in tre turni di trenta persone. L’ultima presentazione termina alle sedici e trenta. Prima della chiusura, [[g14]] organizzatori raccolgono [[g15]] schede. Non viene scelto un vincitore: l’obiettivo è ascoltare [[g16]] proposte e conoscere [[g17]] lavoro delle altre classi.",
    "gaps": [
     {

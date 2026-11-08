@@ -50,7 +50,7 @@
    "prompt": "Completa con niente, nessuno, mai o più.",
    "promptHelp": "Ergänze niente, nessuno, mai oder più.",
    "type": "gap_fill",
-   "text": "Oggi è una giornata storta. Apro il frigo: non c’è [[g1]].\nTelefono a Marta, ma non risponde [[g2]].\nVado alla fermata, ma l’autobus non arriva [[g3]]: è passato!\nA scuola non capisco [[g4]] di matematica.\nIn mensa non c’è [[g5]] dei miei amici.\nLa sera mio fratello dice: «Non mi aiuti [[g6]]!»\nIo rispondo: «Non è vero!» Ma non dico [[g7]] di più.\nStasera non voglio vedere [[g8]]: vado a letto presto!",
+   "text": "Oggi è una giornata storta. Apro il frigo: non c’è [[g1]].\nTelefono a Marta, ma non risponde [[g2]].\nVado alla fermata, ma l’autobus non arriva [[g3]]: è passato!\nA scuola non capisco [[g4]] di matematica.\nIn mensa non c’è [[g5]] dei miei amici.\nLa sera mio fratello dice: «Non mi aiuti [[g6]], neanche una volta!»\nIo rispondo: «Non è vero!» Ma non dico [[g7]] di più.\nStasera non voglio vedere [[g8]] dei miei amici: vado a letto presto!",
    "gaps": [
     {
      "id": "g1",
