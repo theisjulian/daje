@@ -497,7 +497,7 @@ Oggi non [sto] bene, ho mal di testa.
 Mio fratello Paolo [è] molto simpatico.
 Lui [sta] bene, ma [è] stanco.
 I miei genitori [sono] al lavoro.
-E tu come [stai]? [Sei] a casa oggi?
+E tu come [stai]? [Sei/Stai] a casa oggi?
 Noi [siamo] amiche da un mese, che bello!
 ! Stanco, simpatico, al lavoro → essere. Solo bene, male, così così → stare. || stanco, simpatico, al lavoro → essere. Nur bene/male/così così → stare.
 

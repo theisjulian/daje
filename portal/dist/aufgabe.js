@@ -409,7 +409,7 @@ async function klDashPage() {
   };
   $('main').innerHTML = `<div class="page kl-page kl-live${hide ? ' is-anon' : ''}">
     <button class="quiet back-link" data-nav="klassen">Alle Sitzungen</button>
-    <header class="kl-head"><div><div class="eyebrow">Klassensitzung · Code ${esc(l.code)}${off ? ' · beendet' : l.locked ? ' · angehalten' : ' · läuft'}</div><h1>${esc(l.title || 'Sitzung')}</h1>
+    <header class="kl-head"><div><div class="eyebrow">Klassensitzung · Code ${esc(l.code)}${off ? ' · beendet' : l.locked ? ' · angehalten' : ' · läuft'}</div><h1>${esc(l.title || 'Sitzung')}</h1><button class="quiet" data-kl-ctl="rename">✎ Umbenennen</button>
       <p class="kl-summary"><b>${active.length}</b> ${active.length === 1 ? 'Person' : 'Personen'} · <b>${people.filter(online).length}</b> gerade aktiv · <b>${pcAll} %</b> erledigt${hands.length ? ` · <b class="kl-hands-n">✋ ${hands.length}</b>` : ''}</p></div>
       <div class="kl-bar-wrap"><div class="tlive-bar"><i style="width:${pcAll}%"></i></div></div></header>
     ${
@@ -507,6 +507,11 @@ document.addEventListener('click', async e => {
   }
   const c = b.dataset.klCtl;
   if (c === 'lock') return klUpdateLesson({ locked: !l.locked });
+  if (c === 'rename') {
+    const t = prompt('Neuer Name der Sitzung:', l.title || '');
+    if (t === null || !t.trim()) return;
+    return klUpdateLesson({ title: t.trim().slice(0, 120) });
+  }
   if (c === 'message') {
     const m = prompt('Nachricht an alle (erscheint auf allen Geräten):', l.message || '');
     if (m === null) return;

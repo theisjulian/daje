@@ -125,7 +125,7 @@ function hbSplitter(li) {
   const rowsOf = el => {
     if (el.matches('p.hb-gap')) return { kind: 'lines', n: el.innerHTML.split('\n').length };
     if (el.matches('table')) return { kind: 'rows', n: el.tBodies[0]?.rows.length || 0 };
-    if (el.matches('.hb-sc, .hb-notes, .hb-opts')) return { kind: 'kids', n: el.children.length };
+    if (el.matches('.hb-sc, .hb-notes')) return { kind: 'kids', n: el.children.length };
     return null;
   };
   const kids = [...li.children];
@@ -133,7 +133,8 @@ function hbSplitter(li) {
   let info = body && rowsOf(body);
   // Ordnen und Antwortzeilen: mehrere gleichartige Kinder direkt in der Aufgabe
   if (!body) {
-    const run = kids.filter(el => el.matches('.hb-o, .hb-line'));
+    // Auswahl und Reihenfolge („Scrivi i numeri da 1 a 5“) bleiben ungeteilt: sonst fehlen auf der Seite Kästchen und Nummern.
+    const run = kids.filter(el => el.matches('.hb-line'));
     if (run.length > 1) info = { kind: 'direct', n: run.length };
   }
   if (!info || info.n < 2) return null;
@@ -143,7 +144,7 @@ function hbSplitter(li) {
     make(a, b) {
       const c = li.cloneNode(true);
       const ck = [...c.children];
-      if (info.kind === 'direct') ck.filter(el => el.matches('.hb-o, .hb-line')).forEach((el, i) => (i < a || i >= b) && el.remove());
+      if (info.kind === 'direct') ck.filter(el => el.matches('.hb-line')).forEach((el, i) => (i < a || i >= b) && el.remove());
       else {
         const cb = ck[idx];
         if (info.kind === 'lines') cb.innerHTML = cb.innerHTML.split('\n').slice(a, b).join('\n');

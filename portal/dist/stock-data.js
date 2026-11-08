@@ -119169,7 +119169,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "acceptedAnswers": [
-       "Sei"
+       "Sei",
+       "Stai"
       ]
      },
      {
