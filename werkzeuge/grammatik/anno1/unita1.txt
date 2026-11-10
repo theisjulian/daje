@@ -218,27 +218,27 @@ I ragazzi {studiano*|studia|studiamo} in biblioteca.
 
 %übung leicht | Persona e desinenza
 ?zuordnen | Abbina la persona e la forma del verbo. || Was gehört zusammen?
-io = parlo
-tu = parli
-lui / lei = parla
-noi = parliamo
-voi = parlate
-loro = parlano
-Giulia e io = abitiamo
-tu e Marco = abitate
+io (parlare) = parlo
+tu (parlare) = parli
+lui / lei (parlare) = parla
+noi (parlare) = parliamo
+voi (parlare) = parlate
+loro (parlare) = parlano
+Giulia e io (abitare) = abitiamo
+tu e Marco (abitare) = abitate
 + parlare
-! Giulia e io = noi, tu e Marco = voi. || Giulia e io = noi, tu e Marco = voi.
+! Giulia e io = noi, tu e Marco = voi. Il verbo tra parentesi indica quale forma serve. || Giulia e io = noi, tu e Marco = voi. Das Verb in Klammern zeigt, welche Form gemeint ist.
 
 %übung leicht | Chi fa che cosa?
 ?zuordnen | Abbina la persona e la forma. || Verbinde Person und Verbform.
-io = lavoro
-tu = cerchi
-Giulia = gioca
-noi = mangiamo
-voi = ascoltate
-i ragazzi = studiano
-Marco e io = guardiamo
-tu e Sara = arrivate
+io (lavorare) = lavoro
+tu (cercare) = cerchi
+Giulia (giocare) = gioca
+noi (mangiare) = mangiamo
+voi (ascoltare) = ascoltate
+i ragazzi (studiare) = studiano
+Marco e io (guardare) = guardiamo
+tu e Sara (arrivare) = arrivate
 + studia
 + cerco
 ! cercare → tu cerchi (con h), giocare → gioca; con mangiare e studiare c’è una sola i: mangiamo, studiano. || cercare → tu cerchi (mit h), giocare → gioca; bei mangiare und studiare fällt ein i weg: mangiamo, studiano.
@@ -1211,14 +1211,14 @@ Loro {scrivono*|scrive|scrivete} un messaggio.
 
 %übung leicht | -ere: persona e forma
 ?zuordnen | Abbina persona e forma. || Was gehört zusammen?
-io = leggo
-tu = scrivi
-lui / lei = prende
-noi = vediamo
-voi = vendete
-loro = leggono
-Marco e io = prendiamo
-tu e Anna = scrivete
+io (leggere) = leggo
+tu (scrivere) = scrivi
+lui / lei (prendere) = prende
+noi (vedere) = vediamo
+voi (vendere) = vendete
+loro (leggere) = leggono
+Marco e io (prendere) = prendiamo
+tu e Anna (scrivere) = scrivete
 + legge
 + scriviamo
 

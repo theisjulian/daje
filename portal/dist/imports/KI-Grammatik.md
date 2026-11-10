@@ -158,3 +158,9 @@ Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varian
 ## Auszeichnungen im Text
 
 In Aufgabenstellungen, Sätzen, Texten, Antworten und Erklärungen sind sparsam erlaubt: `**fett**` (z. B. Fragen in einem Interview, ein Signalwort), `*kursiv*` (Titel von Büchern, Filmen, Zeitungen; Fremdwörter), `__unterstrichen__`. daje stellt sie in App und Druck dar. Keine anderen Formatierungen, kein HTML.
+
+## Eindeutigkeit (hat Vorrang)
+
+- Jede Aufgabe muss **genau eine** richtige Lösung haben, oder alle richtigen Lösungen stehen in `acceptedAnswers`.
+- **Zuordnen (`matching`):** Jede rechte Karte darf zu genau **einer** linken passen. Keine zwei linken Seiten mit derselben Person oder Bedeutung (z. B. „voi“ und „tu e Marco“), wenn rechts Formen verschiedener Verben stehen. Bei Konjugationen das Verb in Klammern dazuschreiben: `noi (parlare)`, `tu e Marco (abitare)`.
+- Prüfe vor der Ausgabe jede Aufgabe: Gibt es eine andere Antwort, die genauso richtig wäre? Dann umformulieren oder als Lösung ergänzen.

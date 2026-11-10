@@ -400,23 +400,30 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
   const body = lists
     .map((items, k) => {
       const head = lists.length > 1 ? `<li class="hb-phase hb-sheet">${esc(w[2])} ${k + 1}</li>` : '';
+      // Nummerierung: mehrere Übungen → jede Übung eine Nummer, ihre Teilaufgaben a, b, c (je Blatt neu);
+      // eine einzige Übung → Aufgaben 1, 2, 3
+      const multi = all.length > 1;
+      let exN = 0;
       return (
         head +
         items
           .map(x => {
+            exN++;
             // Nur eine Übung: deren Titel steht schon als Überschrift oben, kein zweiter Abschnittstitel
-            const sec = all.length === 1 ? '' : `<li class="hb-phase hb-ex-title">${esc(x.title)}${x.grammar ? `<small>${esc(x.grammar.topicTitle)}</small>` : ''}</li>`;
+            const sec = all.length === 1 ? '' : `<li class="hb-phase hb-ex-title"><span class="hb-exn">${exN}</span>${esc(plainRich(x.title))}${x.grammar ? `<small>${esc(x.grammar.topicTitle)}</small>` : ''}</li>`;
             const r = rule && x.grammar?.rule && sol !== 2 && !ruleShown.has(x.grammar.topic) && ruleShown.add(x.grammar.topic) ? `<li class="hb-rule"><b>${esc(w[4])}</b>${ruleHTML(x.grammar.rule, x.language)}</li>` : '';
             const link = x.kind === 'listening' && x.media?.type !== 'speech' ? `<li class="hb-note"><b>${esc(w[3])}:</b> ${esc(location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id))}</li>` : '';
             const reading = sol === 2 ? '' : hbReading(x);
             const qs = x.questions
-              .map(q => {
+              .map((q, qi) => {
                 no++;
                 total += hbPoints(q);
-                if (sol === 2) keyRows.push({ no, q });
+                // Teilaufgabe: a, b, c … (bei nur einer Aufgabe in der Übung keine eigene Marke)
+                const sub = multi ? (x.questions.length > 1 ? 'abcdefghijklmnopqrstuvwxyz'[qi] || String(qi + 1) : '') : String(no);
+                if (sol === 2) keyRows.push({ no: multi ? exN + sub : no, q });
                 const m = q.prompt.match(QUESTION_PHASE);
                 const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-                return `<li class="hb-q">${hbHead(x, q, no, t, prompt)}${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+                return `<li class="hb-q${multi && !sub ? ' hb-q-solo' : ''}">${hbHead(x, q, sub, t, prompt)}${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
               })
               .join('');
             return sol === 2 ? '' : sec + r + link + reading + qs;

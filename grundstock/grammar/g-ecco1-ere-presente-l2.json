@@ -53,42 +53,42 @@
    "pairs": [
     {
      "id": "p1",
-     "left": "io",
+     "left": "io (leggere)",
      "right": "leggo"
     },
     {
      "id": "p2",
-     "left": "tu",
+     "left": "tu (scrivere)",
      "right": "scrivi"
     },
     {
      "id": "p3",
-     "left": "lui / lei",
+     "left": "lui / lei (prendere)",
      "right": "prende"
     },
     {
      "id": "p4",
-     "left": "noi",
+     "left": "noi (vedere)",
      "right": "vediamo"
     },
     {
      "id": "p5",
-     "left": "voi",
+     "left": "voi (vendere)",
      "right": "vendete"
     },
     {
      "id": "p6",
-     "left": "loro",
+     "left": "loro (leggere)",
      "right": "leggono"
     },
     {
      "id": "p7",
-     "left": "Marco e io",
+     "left": "Marco e io (prendere)",
      "right": "prendiamo"
     },
     {
      "id": "p8",
-     "left": "tu e Anna",
+     "left": "tu e Anna (scrivere)",
      "right": "scrivete"
     }
    ],

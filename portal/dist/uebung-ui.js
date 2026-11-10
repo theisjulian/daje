@@ -59,7 +59,7 @@ function ixOrderSave(box) {
 function ixMatchingHTML(x, q, parts, state) {
   const rights = seededOrder([...q.pairs.map(p => ({ id: p.id, text: p.right })), ...(q.distractors || []).map((t, i) => ({ id: 'x' + i, text: t }))], q.id);
   const used = new Set(q.pairs.map(p => (ownPart(parts, p.id) ? parts[p.id] : '')).filter(Boolean));
-  const chip = r => `<button type="button" class="ix-chip" data-ix-right="${esc(r.id)}">${esc(r.text)}</button>`;
+  const chip = r => `<button type="button" class="ix-chip" data-ix-right="${esc(r.id)}">${rich(r.text)}</button>`;
   return `<p class="q-hint">Tippe eine Karte an und dann das passende Feld. Du kannst die Karten auch ziehen.</p>
     <div class="mt" data-ix-match="${esc(q.id)}" lang="${x.language}">
       <div class="mt-pool" data-ix-zone="pool" aria-label="Karten">${rights.filter(r => !used.has(r.id)).map(chip).join('')}</div>
@@ -67,8 +67,8 @@ function ixMatchingHTML(x, q, parts, state) {
         .map(p => {
           const v = ownPart(parts, p.id) ? parts[p.id] : '';
           const r = rights.find(y => y.id === v);
-          const m = state.checked ? (v === p.id ? ' is-correct' : ' is-wrong') : '';
-          return `<div class="mt-row${m}"><span class="mt-left">${esc(p.left)}</span><span class="mt-slot" data-ix-slot="${esc(p.id)}" role="button" tabindex="0" aria-label="${esc(p.left)} →">${r ? chip(r) : '<span class="mt-ph">…</span>'}</span></div>`;
+          const m = state.checked ? (r && r.text.trim().toLowerCase() === p.right.trim().toLowerCase() ? ' is-correct' : ' is-wrong') : '';
+          return `<div class="mt-row${m}"><span class="mt-left">${rich(p.left)}</span><span class="mt-slot" data-ix-slot="${esc(p.id)}" role="button" tabindex="0" aria-label="${esc(p.left)} →">${r ? chip(r) : '<span class="mt-ph">…</span>'}</span></div>`;
         })
         .join('')}</div>
     </div>`;

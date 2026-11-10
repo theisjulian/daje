@@ -181,6 +181,13 @@ console.log('Optional transcriptOrigin is validated and kept.');
   assert.equal(validatePackage(embedded).ok, true);
   embedded.coverImage = 'data:text/html;base64,AAAA';
   assert.equal(validatePackage(embedded).ok, false);
+  // Zuordnen: gleich lautende Karten dürfen die Plätze tauschen (Bewertung nach Text)
+  {
+    const mq = { id: 'mq', type: 'matching', prompt: 'x', pairs: [{ id: 'p1', left: 'noi', right: 'facciamo' }, { id: 'p2', left: 'Giulia e io', right: 'facciamo' }, { id: 'p3', left: 'voi', right: 'fate' }], distractors: ['fo'] };
+    assert.equal(assessAnswer(mq, JSON.stringify({ p1: 'p2', p2: 'p1', p3: 'p3' })), true);
+    assert.equal(assessAnswer(mq, JSON.stringify({ p1: 'p3', p2: 'p2', p3: 'p1' })), false);
+    assert.equal(assessAnswer(mq, JSON.stringify({ p1: 'x0', p2: 'p2', p3: 'p3' })), false);
+  }
   console.log(
     'New task types (multiple choice, matching, ordering, gap fill) and coverImage are validated and graded.'
   );

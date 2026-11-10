@@ -573,7 +573,14 @@
     }
     if (q.type === 'matching') {
       const v = parts();
-      return q.pairs.every(p => has(v, p.id) && v[p.id] === p.id);
+      // Nach Text vergleichen: gleich lautende Karten (zweimal „facciamo“) dürfen die Plätze tauschen
+      const textOf = id => {
+        const pr = q.pairs.find(z => z.id === id);
+        if (pr) return pr.right;
+        const m = /^x(\d+)$/.exec(String(id));
+        return m && q.distractors ? q.distractors[Number(m[1])] : undefined;
+      };
+      return q.pairs.every(p => has(v, p.id) && textOf(v[p.id]) !== undefined && norm(textOf(v[p.id])) === norm(p.right));
     }
     if (q.type === 'ordering') {
       const v = parts();

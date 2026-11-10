@@ -55,42 +55,42 @@
    "pairs": [
     {
      "id": "p1",
-     "left": "io",
+     "left": "io (lavorare)",
      "right": "lavoro"
     },
     {
      "id": "p2",
-     "left": "tu",
+     "left": "tu (cercare)",
      "right": "cerchi"
     },
     {
      "id": "p3",
-     "left": "Giulia",
+     "left": "Giulia (giocare)",
      "right": "gioca"
     },
     {
      "id": "p4",
-     "left": "noi",
+     "left": "noi (mangiare)",
      "right": "mangiamo"
     },
     {
      "id": "p5",
-     "left": "voi",
+     "left": "voi (ascoltare)",
      "right": "ascoltate"
     },
     {
      "id": "p6",
-     "left": "i ragazzi",
+     "left": "i ragazzi (studiare)",
      "right": "studiano"
     },
     {
      "id": "p7",
-     "left": "Marco e io",
+     "left": "Marco e io (guardare)",
      "right": "guardiamo"
     },
     {
      "id": "p8",
-     "left": "tu e Sara",
+     "left": "tu e Sara (arrivare)",
      "right": "arrivate"
     }
    ],

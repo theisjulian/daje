@@ -9333,3 +9333,9 @@ html.dlg-lock, html.dlg-lock body { overflow: hidden; }
 dialog, #look-dialog .set-top, .sheet { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 dialog[tabindex='-1']:focus { outline: none; }
 .sheet-grid button { align-content: center; min-height: 92px; }
+/* Arbeitsblatt mit mehreren Übungen: Übungsnummer im Titel, Teilaufgaben a, b, c */
+#teaching-print .hb-ex-title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+#teaching-print .hb-ex-title small { flex-basis: 100%; margin-left: 38px; }
+#teaching-print .hb-exn { flex: none; display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 6px; border-radius: 8px; background: var(--ac, #111); color: #fff; font-size: 11pt; font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#teaching-print[data-design='klassisch'] .hb-exn { background: #fff; color: #111; border: 1.5px solid #111; border-radius: 2px; }
+#teaching-print .hb-q-solo .hb-qh .n { visibility: hidden; }

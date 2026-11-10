@@ -101825,48 +101825,48 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "matching",
     "prompt": "Abbina la persona e la forma del verbo.",
-    "explanation": "Giulia e io = noi, tu e Marco = voi.",
+    "explanation": "Giulia e io = noi, tu e Marco = voi. Il verbo tra parentesi indica quale forma serve.",
     "promptHelp": "Was gehört zusammen?",
-    "explanationHelp": "Giulia e io = noi, tu e Marco = voi.",
+    "explanationHelp": "Giulia e io = noi, tu e Marco = voi. Das Verb in Klammern zeigt, welche Form gemeint ist.",
     "pairs": [
      {
       "id": "p1",
-      "left": "io",
+      "left": "io (parlare)",
       "right": "parlo"
      },
      {
       "id": "p2",
-      "left": "tu",
+      "left": "tu (parlare)",
       "right": "parli"
      },
      {
       "id": "p3",
-      "left": "lui / lei",
+      "left": "lui / lei (parlare)",
       "right": "parla"
      },
      {
       "id": "p4",
-      "left": "noi",
+      "left": "noi (parlare)",
       "right": "parliamo"
      },
      {
       "id": "p5",
-      "left": "voi",
+      "left": "voi (parlare)",
       "right": "parlate"
      },
      {
       "id": "p6",
-      "left": "loro",
+      "left": "loro (parlare)",
       "right": "parlano"
      },
      {
       "id": "p7",
-      "left": "Giulia e io",
+      "left": "Giulia e io (abitare)",
       "right": "abitiamo"
      },
      {
       "id": "p8",
-      "left": "tu e Marco",
+      "left": "tu e Marco (abitare)",
       "right": "abitate"
      }
     ],
@@ -101937,42 +101937,42 @@ const STOCK_PACKAGES = [
     "pairs": [
      {
       "id": "p1",
-      "left": "io",
+      "left": "io (lavorare)",
       "right": "lavoro"
      },
      {
       "id": "p2",
-      "left": "tu",
+      "left": "tu (cercare)",
       "right": "cerchi"
      },
      {
       "id": "p3",
-      "left": "Giulia",
+      "left": "Giulia (giocare)",
       "right": "gioca"
      },
      {
       "id": "p4",
-      "left": "noi",
+      "left": "noi (mangiare)",
       "right": "mangiamo"
      },
      {
       "id": "p5",
-      "left": "voi",
+      "left": "voi (ascoltare)",
       "right": "ascoltate"
      },
      {
       "id": "p6",
-      "left": "i ragazzi",
+      "left": "i ragazzi (studiare)",
       "right": "studiano"
      },
      {
       "id": "p7",
-      "left": "Marco e io",
+      "left": "Marco e io (guardare)",
       "right": "guardiamo"
      },
      {
       "id": "p8",
-      "left": "tu e Sara",
+      "left": "tu e Sara (arrivare)",
       "right": "arrivate"
      }
     ],
@@ -116808,42 +116808,42 @@ const STOCK_PACKAGES = [
     "pairs": [
      {
       "id": "p1",
-      "left": "io",
+      "left": "io (leggere)",
       "right": "leggo"
      },
      {
       "id": "p2",
-      "left": "tu",
+      "left": "tu (scrivere)",
       "right": "scrivi"
      },
      {
       "id": "p3",
-      "left": "lui / lei",
+      "left": "lui / lei (prendere)",
       "right": "prende"
      },
      {
       "id": "p4",
-      "left": "noi",
+      "left": "noi (vedere)",
       "right": "vediamo"
      },
      {
       "id": "p5",
-      "left": "voi",
+      "left": "voi (vendere)",
       "right": "vendete"
      },
      {
       "id": "p6",
-      "left": "loro",
+      "left": "loro (leggere)",
       "right": "leggono"
      },
      {
       "id": "p7",
-      "left": "Marco e io",
+      "left": "Marco e io (prendere)",
       "right": "prendiamo"
      },
      {
       "id": "p8",
-      "left": "tu e Anna",
+      "left": "tu e Anna (scrivere)",
       "right": "scrivete"
      }
     ],

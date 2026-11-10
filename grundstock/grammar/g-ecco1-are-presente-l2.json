@@ -49,48 +49,48 @@
    "id": "q1",
    "prompt": "Abbina la persona e la forma del verbo.",
    "promptHelp": "Was gehört zusammen?",
-   "explanation": "Giulia e io = noi, tu e Marco = voi.",
-   "explanationHelp": "Giulia e io = noi, tu e Marco = voi.",
+   "explanation": "Giulia e io = noi, tu e Marco = voi. Il verbo tra parentesi indica quale forma serve.",
+   "explanationHelp": "Giulia e io = noi, tu e Marco = voi. Das Verb in Klammern zeigt, welche Form gemeint ist.",
    "type": "matching",
    "pairs": [
     {
      "id": "p1",
-     "left": "io",
+     "left": "io (parlare)",
      "right": "parlo"
     },
     {
      "id": "p2",
-     "left": "tu",
+     "left": "tu (parlare)",
      "right": "parli"
     },
     {
      "id": "p3",
-     "left": "lui / lei",
+     "left": "lui / lei (parlare)",
      "right": "parla"
     },
     {
      "id": "p4",
-     "left": "noi",
+     "left": "noi (parlare)",
      "right": "parliamo"
     },
     {
      "id": "p5",
-     "left": "voi",
+     "left": "voi (parlare)",
      "right": "parlate"
     },
     {
      "id": "p6",
-     "left": "loro",
+     "left": "loro (parlare)",
      "right": "parlano"
     },
     {
      "id": "p7",
-     "left": "Giulia e io",
+     "left": "Giulia e io (abitare)",
      "right": "abitiamo"
     },
     {
      "id": "p8",
-     "left": "tu e Marco",
+     "left": "tu e Marco (abitare)",
      "right": "abitate"
     }
    ],
