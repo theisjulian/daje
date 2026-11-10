@@ -102,19 +102,48 @@ let hbFlatHTML = '';
 /* Teilbare Aufgabe: Zeilen eines Lückentexts, Zeilen von Tabellen und Satzlisten, Antwortzeilen.
    make(a, b) liefert eine Kopie mit den Zeilen a … b−1; Fortsetzungen ohne Kopf, Wortkasten und Erklärung. */
 function hbSplitter(li) {
-  // Lesetext: an Absatzgrenzen teilen; die Fortsetzung ohne Überschrift
+  // Lesetext: an Satzgrenzen teilen (auch mitten im Absatz, sonst läuft ein langer Absatz über die Seite);
+  // die Fortsetzung ohne Überschrift, ein angeschnittener Absatz läuft ohne Abstand weiter.
   if (li.matches('.hb-reading')) {
-    const n = li.querySelectorAll(':scope > p').length;
-    if (n < 2) return null;
     const ps = [...li.querySelectorAll(':scope > p')];
+    if (!ps.length) return null;
+    const esc = t => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     // Eine Zwischenüberschrift (Absatz nur aus Fettdruck, z. B. Interviewfrage) bleibt bei ihrem Absatz
     const head = p => p.children.length === 1 && p.firstElementChild.tagName === 'B' && p.textContent.trim() === p.firstElementChild.textContent.trim();
+    const units = [];
+    ps.forEach((p, pi) => {
+      const parts = [];
+      let cur = '';
+      p.childNodes.forEach(nd => {
+        if (nd.nodeType !== 3) return void (cur += nd.outerHTML || '');
+        (nd.textContent.match(/[^.!?…]*[.!?…]+["»”’)\]]*\s*|[^.!?…]+$/g) || []).forEach(t => {
+          cur += esc(t);
+          if (/[.!?…]["»”’)\]]*\s+$/.test(t)) parts.push(cur), (cur = '');
+        });
+      });
+      if (cur.trim() || !parts.length) parts.push(cur);
+      parts.forEach((html, si) => units.push({ pi, html, first: si === 0, last: si === parts.length - 1, head: head(p) }));
+    });
+    if (units.length < 2) return null;
     return {
-      n,
-      bad: k => head(ps[k - 1]),
+      n: units.length,
+      // nicht nach einer Zwischenüberschrift trennen
+      bad: k => units[k - 1].head && units[k - 1].last,
       make(a, b) {
         const c = li.cloneNode(true);
-        [...c.querySelectorAll(':scope > p')].forEach((el, i) => (i < a || i >= b) && el.remove());
+        const tpl = [...c.querySelectorAll(':scope > p')];
+        tpl.forEach(el => el.remove());
+        const anchor = c.querySelector(':scope > .hb-src, :scope > figcaption') || null;
+        let p = null, pi = -1;
+        units.slice(a, b).forEach((u, i) => {
+          if (u.pi !== pi) {
+            pi = u.pi;
+            p = tpl[pi].cloneNode(false);
+            if (i === 0 && !u.first) p.classList.add('hb-p-cont');
+            c.insertBefore(p, anchor);
+          }
+          p.insertAdjacentHTML('beforeend', u.html);
+        });
         if (a > 0) {
           c.classList.add('hb-reading-cont');
           c.querySelector(':scope > h3')?.remove();
