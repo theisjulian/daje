@@ -730,10 +730,14 @@ function portalClick(e) {
     // sonst wird nur die erste Seite (Bildschirmhöhe) erfasst.
     const body = document.body;
     body.classList.add('printing-teaching');
+    // Der Seitentitel wird im Druckdialog als Dateiname vorgeschlagen („Als PDF sichern“)
+    const oldTitle = document.title;
+    if (typeof dlgFileName === 'function' && $('teaching-print')?.dataset.title) document.title = dlgFileName();
     let done = false;
     const finish = () => {
       if (done) return;
       done = true;
+      document.title = oldTitle;
       body.classList.remove('printing-teaching');
       window.removeEventListener('afterprint', finish);
       document.removeEventListener('pointerdown', onTouch, true);

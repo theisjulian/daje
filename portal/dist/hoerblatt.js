@@ -54,7 +54,7 @@ function hbBody(q, t, sol) {
     case 'single_choice':
     case 'multiple_choice':
       // Kurze Antworten zweispaltig: spart Platz, ohne die Lesbarkeit zu verlieren.
-      return `<div class="hb-opts${q.options.length >= 3 && q.options.every(op => op.text.length <= 34) ? ' cols2' : ''}">${q.options.map((op, i) => `<div class="hb-o ${sol && (q.correctOptionId === op.id || (q.correctOptionIds || []).includes(op.id)) ? 'ok' : ''}"><i class="bx"></i><span><b>${hbLetters[i]}</b> ${rich(op.text)}</span></div>`).join('')}</div>`;
+      return `<div class="hb-opts${q.options.length >= 3 && q.options.every(op => op.text.length <= 34) ? ' cols2' : ''}">${optOrder(q).map((op, i) => `<div class="hb-o ${sol && (q.correctOptionId === op.id || (q.correctOptionIds || []).includes(op.id)) ? 'ok' : ''}"><i class="bx"></i><span><b>${hbLetters[i]}</b> ${rich(op.text)}</span></div>`).join('')}</div>`;
     case 'true_false':
       return `<div class="hb-tf"><div class="hb-o ${sol && q.answer ? 'ok' : ''}"><i class="bx"></i><span>${esc(t.T)}</span></div><div class="hb-o ${sol && !q.answer ? 'ok' : ''}"><i class="bx"></i><span>${esc(t.F)}</span></div></div>`;
     case 'matching': {
@@ -116,7 +116,7 @@ function hbBody(q, t, sol) {
 }
 /* Kurzer Lösungsschlüssel: eine Zeile pro Aufgabe, so wie Lehrkräfte ihn zum Korrigieren neben das Blatt legen. */
 function hbAnswer(q, t) {
-  const letter = id => hbLetters[q.options.findIndex(o => o.id === id)];
+  const letter = id => hbLetters[(q.options ? optOrder(q) : []).findIndex(o => o.id === id)];
   switch (q.type) {
     case 'single_choice':
       return `<b>${letter(q.correctOptionId)}</b> ${esc(q.options.find(o => o.id === q.correctOptionId).text)}`;

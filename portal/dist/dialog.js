@@ -23,9 +23,10 @@ function dlgShow({ title, side, paper }) {
   let sheet = $('teaching-print');
   if (!sheet) { sheet = document.createElement('section'); sheet.id = 'teaching-print'; document.body.append(sheet); }
   sheet.className = 'dlg-mode';
+  sheet.dataset.title = title;
   dlgStyle(sheet);
   const keepScroll = sheet.querySelector('.dlg-prev')?.scrollTop || 0;
-  sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link dlg-tune" data-dlg-side aria-expanded="false">Anpassen</button><button class="dlg-link" data-doc="word">Word<span class="hide-m">-Datei</span></button><button class="dlg-link strong" data-portal="do-print">PDF<span class="hide-m"> speichern</span></button></span></div>
+  sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link dlg-tune" data-dlg-side aria-expanded="false">Anpassen</button><button class="dlg-link" data-doc="word">Word<span class="hide-m">-Datei</span></button><button class="dlg-link" data-portal="do-print">Drucken</button><button class="dlg-link strong" data-dlg-pdf>PDF<span class="hide-m"> speichern</span></button></span></div>
   <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="pages"><div class="paper">${paper}</div></div></div>`;
   document.body.classList.add('previewing-teaching');
   dlgPaginate();
@@ -260,6 +261,20 @@ function hbPaginate() {
           used += phase.h;
         }
       }
+      // Auch auf einer frischen Seite zu lang (z. B. Überschrift + langer Lesetext): hier teilen,
+      // sonst schiebt der Drucker den Block weiter und lässt eine fast leere Seite zurück.
+      {
+        const tail = b[b.length - 1];
+        if (list && used + bh > cap && tail.box === 'list' && (tail.node.classList?.contains('hb-q') || tail.node.classList?.contains('hb-reading'))) {
+          const pre = b.slice(0, -1).reduce((acc, x) => acc + x.h, 0);
+          const parts = splitQ(tail, cap - used - pre);
+          if (parts) {
+            b = [...b.slice(0, -1), parts[0]];
+            blocks.splice(bi + 1, 0, [parts[1]]);
+            bh = b.reduce((acc, x) => acc + x.h, 0);
+          }
+        }
+      }
       for (const x of b) if (x.box === 'list' && x.glue) phase = x;
       cur.push(...b);
       used += bh;
@@ -354,4 +369,91 @@ document.addEventListener('change', e => {
     docState.accent = t.value; saveDocState(); dlgStyle($('teaching-print'));
   } else if (t.matches('input[data-hb="mode"]')) printTeaching(Number(t.value));
   else if (t.matches('input[data-instr="pref"]')) { setInstrPref(t.value); printTeaching(docCurrent && docCurrent.solutions); }
+});
+
+/* Dateiname für PDF und Druck: „daje – Titel – Art.pdf“ (Art: Aufgabenblatt, Lösungen …) */
+function dlgFileName() {
+  const sheet = $('teaching-print');
+  const title = (sheet?.dataset.title || 'Arbeitsblatt').trim();
+  const kind = (sheet?.querySelector('.hb-top span, .doc-head span')?.textContent || '').trim();
+  const name = ['daje', title, kind && !title.includes(kind) ? kind : ''].filter(Boolean).join(' - ');
+  return name.replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 140);
+}
+const dlgLoad = src =>
+  new Promise((ok, fail) => {
+    if (document.querySelector(`script[data-lib="${src}"]`)) return ok();
+    const s = document.createElement('script');
+    s.src = src;
+    s.dataset.lib = src;
+    s.onload = ok;
+    s.onerror = () => fail(new Error('Laden fehlgeschlagen: ' + src));
+    document.head.append(s);
+  });
+/* PDF direkt speichern, ohne Druckdialog: jede A4-Seite der Vorschau wird als Bild in hoher Auflösung
+   in eine PDF übernommen (gleiches Aussehen wie die Vorschau; Text nicht markierbar). */
+async function dlgSavePdf(btn) {
+  const sheet = $('teaching-print');
+  const wrap = sheet && sheet.querySelector('.pages');
+  if (!wrap) return;
+  const label = btn ? btn.innerHTML : '';
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = 'PDF wird erstellt …';
+  }
+  const zoom = wrap.style.zoom;
+  try {
+    await Promise.all([dlgLoad('vendor/html2canvas-pro-2.4.5.min.js'), dlgLoad('vendor/jspdf-2.5.2.umd.min.js')]);
+    if (document.fonts && document.fonts.ready) await document.fonts.ready;
+    wrap.style.zoom = 1;
+    const pdf = new window.jspdf.jsPDF({ orientation: 'p', unit: 'mm', format: 'a4', compress: true });
+    const papers = [...wrap.querySelectorAll(':scope > .paper')];
+    const paged = papers.every(p => p.classList.contains('pg'));
+    let first = true;
+    const addCanvas = c => {
+      if (!first) pdf.addPage();
+      first = false;
+      pdf.addImage(c.toDataURL('image/jpeg', 0.85), 'JPEG', 0, 0, 210, 297, undefined, 'FAST');
+    };
+    for (const p of papers) {
+      const c = await window.html2canvas(p, { scale: 2, backgroundColor: '#ffffff', useCORS: true, logging: false });
+      if (paged) addCanvas(c);
+      else {
+        // Ohne Seitenaufteilung: in A4-hohe Abschnitte schneiden
+        const pageH = Math.round((c.width * 297) / 210);
+        for (let y = 0; y < c.height; y += pageH) {
+          const part = document.createElement('canvas');
+          part.width = c.width;
+          part.height = pageH;
+          const g = part.getContext('2d');
+          g.fillStyle = '#fff';
+          g.fillRect(0, 0, part.width, part.height);
+          g.drawImage(c, 0, -y);
+          addCanvas(part);
+        }
+      }
+    }
+    // Selbst speichern (fester Dateiname, auch in Safari und auf dem iPad)
+    const blob = pdf.output('blob');
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = dlgFileName() + '.pdf';
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
+  } catch (err) {
+    toast('PDF konnte nicht erstellt werden. Bitte „Drucken“ und dort „Als PDF sichern“ verwenden.');
+    console.warn(err);
+  } finally {
+    wrap.style.zoom = zoom;
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = label;
+    }
+  }
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-dlg-pdf]');
+  if (b) dlgSavePdf(b);
 });

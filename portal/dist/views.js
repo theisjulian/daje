@@ -454,6 +454,11 @@ function seededOrder(list, seed) {
   if (out.length > 1 && out.every((v, i) => v === list[i])) out.push(out.shift());
   return out;
 }
+/* Reihenfolge der Antworten bei Ankreuzaufgaben: fest gemischt je Frage (App, Arbeitsblatt und Schlüssel gleich).
+   Viele Pakete speichern die richtige Antwort zuerst; ohne Mischen stünde sie immer bei A. Bewertet wird über die ID. */
+const optOrder = q =>
+  // Ausnahme: Antworten mit eigenem Buchstaben im Text („A. …“, wie bei CILS C1/C2) bleiben in ihrer Reihenfolge
+  (q.options || []).every(o => /^[A-Z]\. /.test(o.text)) ? q.options : seededOrder(q.options, 'opt|' + q.id + '|' + q.prompt);
 function answerParts(value) {
   try {
     const v = JSON.parse(value);
@@ -524,7 +529,7 @@ function printBody(q) {
   switch (q.type) {
     case 'single_choice':
     case 'multiple_choice':
-      return q.options.map(o => `<p>□ ${rich(o.text)}</p>`).join('');
+      return optOrder(q).map(o => `<p>□ ${rich(o.text)}</p>`).join('');
     case 'true_false':
       return '<p>□ Richtig &nbsp; □ Falsch</p>';
     case 'matching': {
@@ -561,13 +566,13 @@ function questionHTML(x, q, index, state) {
   const parts = answerParts(value);
   const mark = ok => (state.checked ? (ok ? ' is-correct' : ' is-wrong') : '');
   let field;
-  if (q.type === 'single_choice') field = q.options.map(o => option(o.id, o.text)).join('');
+  if (q.type === 'single_choice') field = optOrder(q).map(o => option(o.id, o.text)).join('');
   else if (q.type === 'true_false') field = option('true', 'Richtig') + option('false', 'Falsch');
   else if (q.type === 'multiple_choice') {
     const chosen = String(value).split(',').filter(Boolean);
     field =
       '<p class="q-hint">Mehrere Antworten sind richtig.</p>' +
-      q.options
+      optOrder(q)
         .map(o => {
           const st = state.checked
             ? q.correctOptionIds.includes(o.id)
