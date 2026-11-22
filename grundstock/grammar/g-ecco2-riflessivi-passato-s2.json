@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-s2",
+ "title": "Le estati di Sara",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Le estati di Sara · livello difficile.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sara racconta. Imperfetto (abitudine) o passato prossimo (azione unica)?",
+   "promptHelp": "Sara erzählt. Imperfetto (Gewohnheit) oder passato prossimo (einmalige Handlung)?",
+   "explanation": "Sara e sua cugina → -e (preparate); con Leo e Dario → -i (divertiti).",
+   "explanationHelp": "Sara und ihre Cousine → -e (preparate); mit Leo und Dario → -i (divertiti).",
+   "type": "gap_fill",
+   "text": "Mi chiamo Sara. Da piccola, in vacanza, (svegliarsi) [[g1]] sempre prestissimo.\nIo e mia cugina (divertirsi) [[g2]] tutto il giorno in spiaggia.\nLa sera (addormentarsi, noi) [[g3]] sempre subito.\nL’estate scorsa, invece, il primo giorno di vacanza (svegliarsi, io) [[g4]] a mezzogiorno!\nMia cugina (arrabbiarsi) [[g5]] e (mettersi) [[g6]] a gridare: «Alzati!»\nAllora (alzarsi, io) [[g7]] e (prepararsi, noi) [[g8]] in cinque minuti.\nIn spiaggia (incontrarsi, noi due) [[g9]] con due vecchi amici, Leo e Dario.\nQuel giorno noi quattro (divertirsi) [[g10]] come una volta.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi svegliavo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ci divertivamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ci addormentavamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mi sono svegliata"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si è arrabbiata"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si è messa"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "mi sono alzata"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci siamo preparate"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ci siamo incontrate"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ci siamo divertiti"
+     ]
+    }
+   ]
+  }
+ ]
+}

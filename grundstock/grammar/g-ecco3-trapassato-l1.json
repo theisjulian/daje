@@ -1,0 +1,144 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-l1",
+ "title": "Essere o avere?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Essere o avere? · livello facile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli l’ausiliare giusto.",
+   "promptHelp": "Wähle das richtige Hilfsverb.",
+   "explanation": "L’ausiliare è lo stesso del passato prossimo: _è partito → era partito_, _ho mangiato → avevo mangiato_.",
+   "explanationHelp": "Das Hilfsverb ist dasselbe wie im passato prossimo.",
+   "type": "gap_choice",
+   "text": "Quando sono arrivato alla stazione, il treno [[g1]] già partito.\nNon avevo fame perché [[g2]] già mangiato a scuola.\nSara era triste perché i suoi amici [[g3]] tornati in Germania.\nHo ritrovato il passaporto che [[g4]] perso all’aeroporto.\nQuando la mamma ha chiamato, noi [[g5]] appena usciti.\nLuca non conosceva Dublino: non ci [[g6]] mai stato prima.\nI miei genitori mi hanno chiesto se [[g7]] già conosciuto la famiglia ospitante.\nAlle sette Marta [[g8]] già alzata.\nRagazzi, perché non [[g9]] detto niente alla prof?\nLe mie amiche [[g10]] rimaste a casa perché avevano la febbre.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "era",
+      "aveva",
+      "erano"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "avevo",
+      "ero"
+     ],
+     "answer": "avevo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "erano",
+      "avevano",
+      "era"
+     ],
+     "answer": "erano"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "avevo",
+      "ero"
+     ],
+     "answer": "avevo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "eravamo",
+      "avevamo"
+     ],
+     "answer": "eravamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "era",
+      "aveva"
+     ],
+     "answer": "era"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "avevo",
+      "ero"
+     ],
+     "answer": "avevo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "si era",
+      "si aveva",
+      "si erano"
+     ],
+     "answer": "si era"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "avevate",
+      "eravate"
+     ],
+     "answer": "avevate"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "erano",
+      "avevano",
+      "era"
+     ],
+     "answer": "erano"
+    }
+   ]
+  }
+ ]
+}

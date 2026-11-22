@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parti in ordine: „Wenn ich von dem Fest gewusst hätte, hätte ich einen Kuchen mitgebracht.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se avessi"
+    },
+    {
+     "id": "i2",
+     "text": "saputo della festa,"
+    },
+    {
+     "id": "i3",
+     "text": "avrei portato"
+    },
+    {
+     "id": "i4",
+     "text": "una torta."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parti in ordine: „Wenn Sara früher losgefahren wäre, hätte sie den Zug nicht verpasst.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se Sara"
+    },
+    {
+     "id": "i2",
+     "text": "fosse partita prima,"
+    },
+    {
+     "id": "i3",
+     "text": "non avrebbe"
+    },
+    {
+     "id": "i4",
+     "text": "perso il treno."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parti in ordine: „Wenn ihr die Schlüssel nicht vergessen hättet, wären wir sofort hineingegangen.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se non aveste"
+    },
+    {
+     "id": "i2",
+     "text": "dimenticato le chiavi,"
+    },
+    {
+     "id": "i3",
+     "text": "saremmo"
+    },
+    {
+     "id": "i4",
+     "text": "entrati subito."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parti in ordine: „Wenn sie uns um Hilfe gebeten hätten, hätten wir ihnen gern geholfen.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se ci avessero"
+    },
+    {
+     "id": "i2",
+     "text": "chiesto aiuto,"
+    },
+    {
+     "id": "i3",
+     "text": "li avremmo"
+    },
+    {
+     "id": "i4",
+     "text": "aiutati volentieri."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · Trova gli errori · livello difficile.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i nove errori.",
+   "promptHelp": "Korrigiere die neun Fehler.",
+   "type": "error_correction",
+   "text": "Abito al [[g1]] piano.\nÈ la [[g2]] canzone dell’album.\nSiamo arrivati al [[g3]] posto.\nOggi è il [[g4]] anniversario della nostra band.\nIl [[g5]] concerto del coro è a Bari.\nViviamo nel [[g6]] secolo.\nStasera va in onda la [[g7]] puntata del programma.\n«Papa Giovanni XXIII» si legge «Giovanni [[g8]]».\nLe ragazze sono arrivate [[g9]].",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "dodici",
+     "acceptedAnswers": [
+      "dodicesimo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "undicesimo",
+     "acceptedAnswers": [
+      "undicesima"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "ventitresimo",
+     "acceptedAnswers": [
+      "ventitreesimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ventesima",
+     "acceptedAnswers": [
+      "ventesimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ventiseesimo",
+     "acceptedAnswers": [
+      "ventiseiesimo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ventiunesimo",
+     "acceptedAnswers": [
+      "ventunesimo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "centoesima",
+     "acceptedAnswers": [
+      "centesima"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "ventitré",
+     "acceptedAnswers": [
+      "ventitreesimo"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "quindicesimi",
+     "acceptedAnswers": [
+      "quindicesime"
+     ]
+    }
+   ]
+  }
+ ]
+}

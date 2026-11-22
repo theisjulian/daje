@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-negazione-ripasso-m3",
+ "title": "Tutto il contrario",
+ "language": "it",
+ "level": "A2",
+ "description": "La doppia negazione: ripasso · Tutto il contrario · livello medio.",
+ "topics": [
+  "La doppia negazione: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Verneinung (Wiederholung und Erweiterung: ancora, neanche, né … né)"
+ },
+ "grammar": {
+  "topic": "ecco2-negazione-ripasso",
+  "topicTitle": "La doppia negazione: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "In italiano la negazione è **doppia**: **non** prima del verbo, la seconda parola dopo il verbo.\n| non … **mai** | nie | _Non gioco mai online._ |\n| non … **niente** (nulla) | nichts | _Non capisco niente._ |\n| non … **nessuno** | niemand | _Non conosco nessuno._ |\n| non … **più** | nicht mehr | _Non uso più quell’app._ |\n| non … **ancora** | noch nicht | _Non ho ancora finito._ |\n| non … **neanche** | auch nicht, nicht einmal | _Non viene neanche Luca._ |\n| non … **né … né** | weder … noch | _Non ho né tempo né voglia._ |\n**Passato prossimo:** _mai, più, ancora_ stanno di solito tra ausiliare e participio: _Non ho **mai** visto questo film._ **Niente** e **nessuno** stanno dopo il participio: _Non ho visto **niente**. Non ho visto **nessuno**._\n**All’inizio della frase** non c’è _non_: _**Nessuno** risponde. **Niente** funziona. **Neanche** io ho un tablet._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb, das zweite Wort nach dem Verb: mai (nie), niente (nichts), nessuno (niemand), più (nicht mehr), ancora (noch nicht), neanche (auch nicht), né … né (weder … noch).\nIm passato prossimo stehen _mai, più, ancora_ meist zwischen Hilfsverb und Partizip (_Non ho mai visto …_), _niente_ und _nessuno_ nach dem Partizip (_Non ho visto niente_).\nSteht _nessuno, niente, neanche_ am Satzanfang, fällt **non** weg: _Nessuno risponde._ Anders als im Deutschen ist die doppelte Verneinung kein Fehler, sondern Pflicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il contrario con una negazione.",
+   "promptHelp": "Schreibe das Gegenteil mit einer Verneinung.",
+   "explanation": "tutti / qualcuno ↔ nessuno · già ↔ non … ancora · sempre ↔ non … mai · ancora ↔ non … più · tutto ↔ non … niente · anche ↔ neanche · e ↔ né … né.",
+   "explanationHelp": "Gegensatzpaare: già ↔ non … ancora, ancora ↔ non … più usw.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Tutti conoscono questo sito. → …",
+     "acceptedAnswers": [
+      "Nessuno conosce questo sito"
+     ],
+     "modelAnswer": "Nessuno conosce questo sito."
+    },
+    {
+     "id": "s2",
+     "start": "Ho già letto la mail. → …",
+     "acceptedAnswers": [
+      "Non ho ancora letto la mail"
+     ],
+     "modelAnswer": "Non ho ancora letto la mail."
+    },
+    {
+     "id": "s3",
+     "start": "Ho sempre usato questa password. → …",
+     "acceptedAnswers": [
+      "Non ho mai usato questa password"
+     ],
+     "modelAnswer": "Non ho mai usato questa password."
+    },
+    {
+     "id": "s4",
+     "start": "Gioco ancora a quel videogioco. → …",
+     "acceptedAnswers": [
+      "Non gioco più a quel videogioco"
+     ],
+     "modelAnswer": "Non gioco più a quel videogioco."
+    },
+    {
+     "id": "s5",
+     "start": "Ho capito tutto. → …",
+     "acceptedAnswers": [
+      "Non ho capito niente",
+      "Non ho capito nulla"
+     ],
+     "modelAnswer": "Non ho capito niente. (Anche: Non ho capito nulla.)"
+    },
+    {
+     "id": "s6",
+     "start": "Anch’io ho un profilo. → …",
+     "acceptedAnswers": [
+      "Neanch’io ho un profilo",
+      "Neanche io ho un profilo"
+     ],
+     "modelAnswer": "Neanch’io ho un profilo. (Anche: Neanche io ho un profilo.)"
+    },
+    {
+     "id": "s7",
+     "start": "Ho il telefono e il tablet. → …",
+     "acceptedAnswers": [
+      "Non ho né il telefono né il tablet"
+     ],
+     "modelAnswer": "Non ho né il telefono né il tablet."
+    },
+    {
+     "id": "s8",
+     "start": "Qualcuno ha commentato la foto. → …",
+     "acceptedAnswers": [
+      "Nessuno ha commentato la foto"
+     ],
+     "modelAnswer": "Nessuno ha commentato la foto."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-l2",
+ "title": "Prima della partenza",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Prima della partenza · livello facile.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "La famiglia ospitante scrive a Lena. Scegli la forma giusta.",
+   "promptHelp": "Die Gastfamilie schreibt an Lena. Wähle die richtige Form.",
+   "explanation": "Dopo **se**: presente o futuro, mai il condizionale. Nella frase principale: presente, futuro o imperativo.",
+   "explanationHelp": "Nach **se**: Präsens oder Futur, nie Konditional. Im Hauptsatz: Präsens, Futur oder Imperativ.",
+   "type": "gap_choice",
+   "text": "Se [[g1]] paura di volare, possiamo prendere il treno.\nSe la nostra casa [[g2]] troppo lontana dalla scuola, ti prestiamo una bici.\nSe non [[g3]] il tuo gate, chiedi a qualcuno dell’aeroporto.\nSe l’aereo [[g4]] in ritardo, ti aspettiamo lo stesso.\nSe [[g5]], puoi chiamare i tuoi genitori ogni sera.\nSe domenica [[g6]] bel tempo, andremo tutti insieme al mare.\nSe ti [[g7]] cucinare, una sera puoi preparare tu la cena.\nSe arrivi prima delle otto, [[g8]] tutti insieme.\nSe avrai bisogno di aiuto, noi ti [[g9]] volentieri.\nSe hai freddo, [[g10]] una felpa: qui il tempo cambia in fretta!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "hai",
+      "avresti",
+      "abbia"
+     ],
+     "answer": "hai"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è",
+      "sarebbe",
+      "sia"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "trovi",
+      "troveresti",
+      "trovare"
+     ],
+     "answer": "trovi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "arriva",
+      "arriverebbe",
+      "arrivare"
+     ],
+     "answer": "arriva"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "vuoi",
+      "vorresti",
+      "voglia"
+     ],
+     "answer": "vuoi"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "farà",
+      "farebbe",
+      "faccia"
+     ],
+     "answer": "farà"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "piace",
+      "piacerebbe",
+      "piaccia"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ceniamo",
+      "cenassimo",
+      "cenare"
+     ],
+     "answer": "ceniamo"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "aiuteremo",
+      "aiutassimo",
+      "aiutando"
+     ],
+     "answer": "aiuteremo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "metti",
+      "mettessi",
+      "mettendo"
+     ],
+     "answer": "metti"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-s3",
+ "title": "Un messaggio per Pietro",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Un messaggio per Pietro · livello difficile.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Telefona la signora Riva dell’agenzia. Pietro non è a casa, così sua sorella prende il messaggio. Completa con che, se, di, quando o con il verbo al presente.",
+   "promptHelp": "Frau Riva von der Agentur ruft an. Pietro ist nicht da, seine Schwester nimmt die Nachricht entgegen. Ergänze che, se, di, quando oder das Verb im Präsens.",
+   "type": "gap_fill",
+   "text": "La signora Riva dice [[g1]] il colloquio di Pietro è giovedì alle dieci.\nChiede [[g2]] Pietro (potere) [[g3]] portare il suo curriculum.\nDice anche [[g4]] non dimenticare un documento.\nPoi chiede [[g5]] finisce la scuola: a giugno o a luglio?\nAlla fine dice che Pietro (dovere) [[g6]] richiamare domani mattina.\nIo rispondo che mio fratello (essere) [[g7]] ancora a scuola e che la (richiamare) [[g8]] più tardi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "se"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "può"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "quando"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "deve"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "richiama"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Un amico italiano ti scrive: «Ciao! Come stai? Ho trovato un tirocinio in una pizzeria. Il lavoro mi piace. Vieni a trovarmi in estate? Scrivimi presto!» Racconta ai tuoi genitori che cosa dice e che cosa chiede (5 frasi).",
+   "promptHelp": "Ein italienischer Freund schreibt dir. Erzähle deinen Eltern in 5 Sätzen, was er sagt und was er fragt.",
+   "type": "open_answer",
+   "modelAnswer": "Marco chiede come sto. Dice che ha trovato un tirocinio in una pizzeria. Dice che il lavoro gli piace. Chiede se vengo a trovarlo in estate. Dice di scrivergli presto.",
+   "lines": 5
+  }
+ ]
+}

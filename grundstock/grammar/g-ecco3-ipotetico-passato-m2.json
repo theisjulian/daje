@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-m2",
+ "title": "E se invece …?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · E se invece …? · livello medio.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi che cosa è successo e completa la frase ipotetica.",
+   "promptHelp": "Lies, was passiert ist, und ergänze den Bedingungssatz.",
+   "explanation": "Realtà: non ho studiato → ipotesi: se avessi studiato. Attenzione alla negazione!",
+   "explanationHelp": "Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Achte auf die Verneinung!",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Non ho studiato, quindi ho preso quattro. → Se avessi studiato, …",
+     "acceptedAnswers": [
+      "non avrei preso quattro"
+     ],
+     "modelAnswer": "Se avessi studiato, non avrei preso quattro."
+    },
+    {
+     "id": "s2",
+     "start": "Luca non è venuto, quindi non ha conosciuto Amina. → Se Luca fosse venuto, …",
+     "acceptedAnswers": [
+      "avrebbe conosciuto Amina"
+     ],
+     "modelAnswer": "Se Luca fosse venuto, avrebbe conosciuto Amina."
+    },
+    {
+     "id": "s3",
+     "start": "Avete fatto tardi, quindi avete perso il film. → Se non aveste fatto tardi, …",
+     "acceptedAnswers": [
+      "non avreste perso il film"
+     ],
+     "modelAnswer": "Se non aveste fatto tardi, non avreste perso il film."
+    },
+    {
+     "id": "s4",
+     "start": "Pioveva, quindi i ragazzi non sono usciti. → Se non avesse piovuto, i ragazzi …",
+     "acceptedAnswers": [
+      "sarebbero usciti"
+     ],
+     "modelAnswer": "Se non avesse piovuto, i ragazzi sarebbero usciti."
+    },
+    {
+     "id": "s5",
+     "start": "Non mi hai chiamato, quindi non ti ho aiutato. → Se tu …, ti avrei aiutato.",
+     "acceptedAnswers": [
+      "mi avessi chiamato"
+     ],
+     "modelAnswer": "Se tu mi avessi chiamato, ti avrei aiutato."
+    },
+    {
+     "id": "s6",
+     "start": "I ragazzi non hanno letto l’avviso, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi.",
+     "acceptedAnswers": [
+      "avessero letto l’avviso"
+     ],
+     "modelAnswer": "Se i ragazzi avessero letto l’avviso, non sarebbero arrivati tardi."
+    },
+    {
+     "id": "s7",
+     "start": "Giulia non ha messo la crema, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata.",
+     "acceptedAnswers": [
+      "avesse messo la crema"
+     ],
+     "modelAnswer": "Se Giulia avesse messo la crema, non si sarebbe bruciata."
+    },
+    {
+     "id": "s8",
+     "start": "Luca e Paolo non sono partiti presto, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico.",
+     "acceptedAnswers": [
+      "fossero partiti presto"
+     ],
+     "modelAnswer": "Se Luca e Paolo fossero partiti presto, non avrebbero trovato traffico."
+    }
+   ]
+  }
+ ]
+}

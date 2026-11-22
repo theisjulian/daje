@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-m1",
+ "title": "Com’è andata?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Com’è andata? · livello medio.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Il giorno dopo il concerto della scuola. Scrivi il congiuntivo passato.",
+   "promptHelp": "Am Tag nach dem Schulkonzert. Setze den congiuntivo passato ein.",
+   "explanation": "Con essere il participio concorda con il soggetto: la serata sia piaciuta, i genitori siano venuti.",
+   "explanationHelp": "Mit essere richtet sich das Partizip nach dem Subjekt: la serata sia piaciuta, i genitori siano venuti.",
+   "type": "gap_fill",
+   "text": "– Com’è andato il concerto ieri sera?\n– Bene! Credo che la serata (piacere) [[g1]] a tutti.\n– Penso che Davide (suonare) [[g2]] la batteria meglio del solito.\n– Mi dispiace che i tuoi genitori non (venire) [[g3]].\n– Sono contenta che Chiara (cantare) [[g4]] da sola.\n– Spero che voi (fare) [[g5]] un video!\n– Peccato che la prof di musica (andare) [[g6]] via prima della fine.\n– È strano che Luca e Matteo (arrivare) [[g7]] in ritardo.\n– Non credo che il pubblico (sentire) [[g8]] i nostri errori.\n– Spero che anche tua sorella (divertirsi) [[g9]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia piaciuta"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "abbia suonato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "siano venuti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbia cantato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abbiate fatto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sia andata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "siano arrivati"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "abbia sentito"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "si sia divertita"
+     ]
+    }
+   ]
+  }
+ ]
+}

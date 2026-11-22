@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase indiretta c’è un errore. Correggi.",
+   "promptHelp": "In jedem indirekten Satz steckt ein Fehler. Korrigiere ihn.",
+   "explanation": "Attenzione a tre cose: che / se / di, la persona del verbo, i possessivi e i pronomi.",
+   "explanationHelp": "Achte auf drei Dinge: che / se / di, die Person des Verbs, Possessive und Pronomen.",
+   "type": "error_correction",
+   "text": "«Hai tempo?» → Marta chiede [[g1]] ho tempo.\n«Chiudi la porta!» → Il capo dice [[g2]] chiudere la porta.\n«Sono in ritardo.» → Luca dice che [[g3]] in ritardo.\n«Il mio lavoro è duro.» → Anna dice che il [[g4]] lavoro è duro.\n«Dove abiti?» → Paolo chiede [[g5]] abito.\n«Mi piace questo lavoro.» → Sara dice che [[g6]] piace questo lavoro.\n«Aspettate un momento!» → La segretaria dice di [[g7]] un momento.\n«Non parlare troppo!» → La mamma dice di non [[g8]] troppo.\n«Vogliamo lavorare all’estero.» → I ragazzi dicono che [[g9]] lavorare all’estero.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "se"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "sono",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "mio",
+     "acceptedAnswers": [
+      "suo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "se",
+     "acceptedAnswers": [
+      "dove"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "mi",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "aspettate",
+     "acceptedAnswers": [
+      "aspettare"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "parla",
+     "acceptedAnswers": [
+      "parlare"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "vogliamo",
+     "acceptedAnswers": [
+      "vogliono"
+     ]
+    }
+   ]
+  }
+ ]
+}

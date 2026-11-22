@@ -33,7 +33,7 @@
     "der Engel"
    ],
    "definition": "Essere con le ali nelle storie religiose.",
-   "example": "Un angelo veglia su di te.",
+   "example": "Grazie per l’aiuto, sei un angelo!",
    "related": "E angel; F l’ange"
   },
   {
@@ -78,8 +78,8 @@
     "der/die Verwandte"
    ],
    "definition": "Persona della stessa famiglia.",
-   "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
-   "usage": "pl. i parenti",
+   "example": "Alla festa vengono tutti i parenti.",
+   "usage": "pl. i parenti. Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -111,7 +111,7 @@
    ],
    "definition": "Piccola parola che introduce una frase.",
    "example": "La nonna, che ha 82 anni, ha ballato.",
-   "related": "F qui/-e",
+   "related": "F qui/que",
    "usage": "pron. rel. Das Wort che hat verschiedene Verwendungen: Che lingue parli? – Welche Sprachen sprichst du? / Che buono! – Wie lecker! / Che fortuna! – Was für ein Glück! / Che cosa ti piace? – Was gefällt dir? / Sappiamo che è così. – Wir wissen, dass es so ist. / Che ore sono? – Wieviel Uhr ist es? / Il ragazzo che vedi è Khalid. – Der Junge, den du siehst, ist Khalid."
   },
   {
@@ -431,7 +431,7 @@
    "translations": [
     "arm"
    ],
-   "definition": "Che ha pochi soldi.",
+   "definition": "Che ha pochi soldi; anche: che fa compassione.",
    "example": "Il povero cane è bagnato.",
    "related": "E poor; F pauvre; L pauper/-eris"
   },
@@ -656,7 +656,7 @@
    ],
    "definition": "Parola o gesto per dire “ciao”.",
    "example": "Tanti saluti a tutti!",
-   "related": "F le salut; L salut",
+   "related": "F le salut; L salus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

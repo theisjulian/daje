@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-pronomi-combinati-l3",
+ "title": "A chi? Che cosa?",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · A chi? Che cosa? · livello facile.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · kombinierte Objektpronomen (me lo, te la, glielo, ce ne …)"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Pronome **indiretto** + pronome **diretto** (o **ne**): prima l’indiretto, poi il diretto. **mi, ti, ci, vi** diventano **me, te, ce, ve**; **gli** e **le** diventano **glie-** (una parola sola).\n| | lo | la | li | le | ne |\n| mi | me lo | me la | me li | me le | me ne |\n| ti | te lo | te la | te li | te le | te ne |\n| gli / le | glielo | gliela | glieli | gliele | gliene |\n| ci | ce lo | ce la | ce li | ce le | ce ne |\n| vi | ve lo | ve la | ve li | ve le | ve ne |\n**Posizione:**\n- prima del verbo: _**Te lo** presto. **Glielo** dico._\n- attaccati all’infinito e all’imperativo: _Voglio dir**glielo**. Dam**melo**! Di**glielo**! Porta**glieli**!_\n- con dovere, potere, volere due posizioni: _**Te lo** posso dare. = Posso dar**telo**._\n**Passato prossimo:** il participio concorda con lo, la, li, le: _Gliel’ho dat**o**. Gliel’ho dat**a**. Glieli ho dat**i**. Gliele ho dat**e**._",
+  "ruleHelp": "Treffen **indirektes** und **direktes Pronomen** (oder **ne**) zusammen, steht zuerst das indirekte: mi, ti, ci, vi werden zu **me, te, ce, ve** (_me lo, te la, ce li, ve ne_); gli und le (ihm, ihr, ihnen) werden beide zu **glie-** und zusammengeschrieben (_glielo, gliela, glieli, gliele, gliene_).\nStellung: vor dem konjugierten Verb (_Te lo presto_), aber angehängt an Infinitiv und Imperativ (_dirglielo, dammelo, diglielo_). Mit Modalverb geht beides: _Te lo posso dare = Posso dartelo._\nIm passato prossimo richtet sich das Partizip nach dem direkten Pronomen: _Gliel’ho data_ (la), _Glieli ho dati_ (li). Anders als im Deutschen (ich gebe **es ihm**) steht im Italienischen der Dativ zuerst."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "«Gliela porto domani.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Porto la torta alla zia."
+    },
+    {
+     "id": "o2",
+     "text": "Porto il vino alla zia."
+    },
+    {
+     "id": "o3",
+     "text": "Porto la torta a te."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "«Te li presto.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Presto le mie scarpe a te."
+    },
+    {
+     "id": "o2",
+     "text": "Presto i miei guanti a te."
+    },
+    {
+     "id": "o3",
+     "text": "Presto i miei guanti a lui."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q3",
+   "prompt": "«Ce lo ha regalato la nonna.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La nonna ha regalato il gioco a voi."
+    },
+    {
+     "id": "o2",
+     "text": "La nonna ha regalato la bambola a noi."
+    },
+    {
+     "id": "o3",
+     "text": "La nonna ha regalato il gioco a noi."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q4",
+   "prompt": "«Me le ha mandate Sara.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sara ha mandato le foto a me."
+    },
+    {
+     "id": "o2",
+     "text": "Sara ha mandato i messaggi a me."
+    },
+    {
+     "id": "o3",
+     "text": "Sara ha mandato le foto a lui."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "«Ve lo spiego dopo.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Spiego la regola a voi."
+    },
+    {
+     "id": "o2",
+     "text": "Spiego il gioco a voi."
+    },
+    {
+     "id": "o3",
+     "text": "Spiego il gioco a loro."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q6",
+   "prompt": "«Glieli ho dati ieri.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho dato le chiavi a Marco."
+    },
+    {
+     "id": "o2",
+     "text": "Ho dato i biglietti a te."
+    },
+    {
+     "id": "o3",
+     "text": "Ho dato i biglietti a Marco."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q7",
+   "prompt": "«Gliene regalo tre.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Regalo tre maschere ai bambini."
+    },
+    {
+     "id": "o2",
+     "text": "Regalo tre maschere a voi."
+    },
+    {
+     "id": "o3",
+     "text": "Regalo una maschera ai bambini."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "«Te la racconto stasera.» Che cosa può significare?",
+   "promptHelp": "Was kann der Satz bedeuten?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Racconto il film a te."
+    },
+    {
+     "id": "o2",
+     "text": "Racconto la storia a te."
+    },
+    {
+     "id": "o3",
+     "text": "Racconto la storia a lei."
+    }
+   ],
+   "correctOptionId": "o2"
+  }
+ ]
+}

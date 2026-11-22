@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. raccontarti\n2. mi ha aiutata\n3. Gli abbiamo consegnato\n4. lui ci ha mostrato\n5. ci ha mostrato\n6. l’ho provato\n7. l’ho lasciato\n8. l’ho salutata",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 1/2)\n1. raccontarti\n2. mi ha aiutata\n3. Gli abbiamo consegnato\n4. lui ci ha mostrato\n5. ci ha mostrato\n6. l’ho provato\n7. l’ho lasciato\n8. l’ho salutata",
    "modelAnswer": "1. alla zia\n2. Alina\n3. al tecnico\n4. il tecnico\n5. ad Alina e Ilaria\n6. il comando\n7. il comando\n8. la madre",
    "lines": 9,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
@@ -54,7 +54,7 @@
   {
    "id": "q1b",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. da lei\n2. Mi sono alzata\n3. mi ha fatto un gesto\n4. mi ha guardata\n5. le ho detto\n6. lo abbiamo detto\n7. ci ha ringraziate\n8. Ti mostrerò",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 2/2)\n1. da lei\n2. Mi sono alzata\n3. mi ha fatto un gesto\n4. mi ha guardata\n5. le ho detto\n6. lo abbiamo detto\n7. ci ha ringraziate\n8. Ti mostrerò",
    "modelAnswer": "1. dalla madre\n2. Alina\n3. ad Alina\n4. Alina\n5. a Ilaria\n6. che non conoscevamo una risposta\n7. Alina e Ilaria\n8. alla zia",
    "lines": 9
   }

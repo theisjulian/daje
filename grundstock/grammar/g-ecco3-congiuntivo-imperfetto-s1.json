@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen -assi / -essi / -issi, -assi …, -asse …, -assimo, -aste, -assero. io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i nove errori.",
+   "promptHelp": "Korrigiere die neun Fehler.",
+   "type": "error_correction",
+   "text": "Pensavo che tu [[g1]] già a casa.\nVorrei che voi [[g2]] alla sagra con noi.\nMagari [[g3]] più tempo per le feste!\nCredevo che la nonna [[g4]] il tiramisù.\nVolevo che Luca mi [[g5]] una mano.\nSperavamo che i ragazzi [[g6]] più attenti.\nMio cugino parla come se [[g7]] il re del Carnevale.\nMi piacerebbe che tu [[g8]] sempre la verità.\nMi sembrava che i bambini [[g9]] già.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "fossi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "venite",
+     "acceptedAnswers": [
+      "veniste"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "avrei",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "fasse",
+     "acceptedAnswers": [
+      "facesse"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "dasse",
+     "acceptedAnswers": [
+      "desse"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "stassero",
+     "acceptedAnswers": [
+      "stessero"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "è",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "dici",
+     "acceptedAnswers": [
+      "dicessi"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "dormissino",
+     "acceptedAnswers": [
+      "dormissero"
+     ]
+    }
+   ]
+  }
+ ]
+}

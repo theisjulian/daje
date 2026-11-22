@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-l3",
+ "title": "Aver o essere?",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Aver o essere? · livello facile.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Dopo aver … o dopo essere …?",
+   "promptHelp": "Dopo aver … oder dopo essere …?",
+   "explanation": "L’ausiliare è lo stesso del passato prossimo: ho mangiato → dopo aver mangiato; sono arrivato → dopo essere arrivato.",
+   "explanationHelp": "Das Hilfsverb ist dasselbe wie im passato prossimo.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "dopo aver …"
+    },
+    {
+     "id": "e",
+     "label": "dopo essere …"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "… mangiato la pizza",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "… arrivati a Torino",
+     "category": "e"
+    },
+    {
+     "id": "i3",
+     "text": "… letto il messaggio",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "… tornata a casa",
+     "category": "e"
+    },
+    {
+     "id": "i5",
+     "text": "… visto il film",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "… uscite da scuola",
+     "category": "e"
+    },
+    {
+     "id": "i7",
+     "text": "… fatto i compiti",
+     "category": "a"
+    },
+    {
+     "id": "i8",
+     "text": "… andato in palestra",
+     "category": "e"
+    },
+    {
+     "id": "i9",
+     "text": "… scritto la mail",
+     "category": "a"
+    },
+    {
+     "id": "i10",
+     "text": "… rimasti a casa",
+     "category": "e"
+    }
+   ]
+  }
+ ]
+}

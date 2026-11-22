@@ -52,7 +52,7 @@
   {
    "id": "q1",
    "type": "categorize",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
+   "prompt": "Classifica le parole tratte dal testo secondo la loro categoria grammaticale.",
    "categories": [
     {
      "id": "c1",
@@ -70,42 +70,42 @@
    "items": [
     {
      "id": "i1",
-     "text": "«della» — preposizione semplice o articolata",
+     "text": "«della»",
      "category": "c1"
     },
     {
      "id": "i2",
-     "text": "«nei» — preposizione semplice o articolata",
+     "text": "«nei»",
      "category": "c1"
     },
     {
      "id": "i3",
-     "text": "«di» — preposizione semplice o articolata",
+     "text": "«di»",
      "category": "c1"
     },
     {
      "id": "i4",
-     "text": "«dai» — preposizione semplice o articolata",
+     "text": "«dai»",
      "category": "c1"
     },
     {
      "id": "i5",
-     "text": "«Una» — articolo: scegli genere e numero in base al nome",
+     "text": "«Una» (in: Una creazione individuale)",
      "category": "c2"
     },
     {
      "id": "i6",
-     "text": "«una» — articolo: scegli genere e numero in base al nome",
+     "text": "«una» (in: una parola condivisa)",
      "category": "c2"
     },
     {
      "id": "i7",
-     "text": "«parola» — sostantivo nel contesto; iniziali pa…",
+     "text": "«parola»",
      "category": "c3"
     },
     {
      "id": "i8",
-     "text": "«uso» — sostantivo nel contesto; iniziali us…",
+     "text": "«uso»",
      "category": "c3"
     }
    ],

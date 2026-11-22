@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-s3",
+ "title": "Una mail della nonna",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Una mail della nonna · livello difficile.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Dopo la Befana la nonna scrive a Giulia. Congiuntivo presente o passato? Decidi tu.",
+   "promptHelp": "Nach dem Dreikönigsfest schreibt die Oma an Giulia. Congiuntivo presente oder passato? Entscheide selbst.",
+   "type": "gap_fill",
+   "text": "Cara Giulia, spero che ieri sera tu (arrivare) [[g1]] bene a Monaco.\nPenso che il viaggio (essere) [[g2]] lungo.\nMi dispiace che le vacanze (finire) [[g3]] così presto!\nCredo che adesso tu (avere) [[g4]] molto da studiare.\nÈ bello che per la Befana noi (stare) [[g5]] tutti insieme.\nSpero che la calza con i dolci ti (piacere) [[g6]].\nNon credo però che tuo fratello (mangiare) [[g7]] il carbone dolce!\nMi sembra che lui (preferire) [[g8]] il cioccolato.\nSpero che voi (tornare) [[g9]] presto: vi aspetto a Pasqua! Un abbraccio, la nonna",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia arrivata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sia stato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "siano finite"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siamo stati"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sia piaciuta"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbia mangiato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "preferisca"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "torniate"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -83,7 +83,7 @@
     "die Gasse"
    ],
    "definition": "Strada stretta di una città antica.",
-   "example": "Al centro storico ci sono tanti vicoli.",
+   "example": "Nel centro storico ci sono tanti vicoli.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -228,7 +228,7 @@
     "der Parkplatz"
    ],
    "definition": "Posto dove si lascia l’auto.",
-   "example": "Metto la macchina sul parcheggio.",
+   "example": "Lascio la macchina nel parcheggio.",
    "usage": "pl. i parcheggi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -334,7 +334,7 @@
    "translations": [
     "im + Monatsnamen"
    ],
-   "definition": "Piccola parola che indica luogo o direzione.",
+   "definition": "Piccola parola che, davanti al nome di un mese, indica quando succede qualcosa.",
    "example": "A luglio vado in Italia."
   },
   {

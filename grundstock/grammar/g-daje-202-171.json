@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "prompt": "Trasforma l’imperativo informale (tu) nella forma di cortesia (Lei).",
+   "promptHelp": "Forme den Imperativ der du-Form in die Höflichkeitsform (Lei) um.",
    "text": "1. Scusa → [[g1]]\n2. Dimmi → [[g2]]\n3. Dammi → [[g3]]\n4. Senti → [[g4]]\n5. Guarda → [[g5]]\n6. Vieni → [[g6]]\n7. Entra → [[g7]]\n8. Aspetta → [[g8]]\n9. Leggi → [[g9]]\n10. Scrivi → [[g10]]\n11. Prendi → [[g11]]\n12. Scegli → [[g12]]\n13. Apri → [[g13]]\n14. Chiudi → [[g14]]\n15. Fa’ attenzione → [[g15]]\n16. Sii paziente → [[g16]]\n17. Abbi pazienza → [[g17]]\n18. Accomodati → [[g18]]\n19. Siediti → [[g19]]\n20. Non preoccuparti → [[g20]]\n21. Non correre → [[g21]]\n22. Non parlare → [[g22]]\n23. Lasciami un messaggio → [[g23]]\n24. Telefonami → [[g24]]",
    "gaps": [
     {
@@ -161,7 +161,8 @@
     {
      "id": "g19",
      "acceptedAnswers": [
-      "Si sieda"
+      "Si sieda",
+      "Si segga"
      ]
     },
     {

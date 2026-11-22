@@ -42,7 +42,7 @@
     "Städtereise"
    ],
    "definition": "Vacanze in una grande città.",
-   "example": "Facciamo vacanze in città."
+   "example": "Quest’anno facciamo le vacanze in città."
   },
   {
    "id": "u5-per-parlare-003",
@@ -51,7 +51,7 @@
     "Urlaub am Meer"
    ],
    "definition": "Vacanze sulla costa.",
-   "example": "Passiamo vacanze al mare."
+   "example": "Passiamo le vacanze al mare."
   },
   {
    "id": "u5-per-parlare-004",
@@ -60,7 +60,7 @@
     "Urlaub in den Bergen"
    ],
    "definition": "Vacanze tra le montagne.",
-   "example": "Faccio vacanze in montagna."
+   "example": "Faccio le vacanze in montagna."
   },
   {
    "id": "u5-per-parlare-005",
@@ -78,7 +78,7 @@
     "Urlaub auf dem Campingplatz"
    ],
    "definition": "Vacanze dormendo in tenda.",
-   "example": "Facciamo vacanze in campeggio."
+   "example": "Facciamo le vacanze in campeggio."
   },
   {
    "id": "u5-per-parlare-007",
@@ -309,7 +309,7 @@
     "der (mit Schirmen und Liegen) ausgestattete Strand"
    ],
    "definition": "Riva del mare con ombrelloni e lettini da usare.",
-   "example": "Prendiamo una spiaggia attrezzata.",
+   "example": "Andiamo in una spiaggia attrezzata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -409,7 +409,7 @@
     "das Wandern im Grünen"
    ],
    "definition": "Camminata nella natura.",
-   "example": "Mi piace la passeggiata nel verde.",
+   "example": "Facciamo una passeggiata nel verde.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

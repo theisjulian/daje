@@ -1,0 +1,158 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-m1",
+ "title": "Le forme",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Le forme · livello medio.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con il congiuntivo passato.",
+   "promptHelp": "Ergänze die Tabelle mit dem congiuntivo passato.",
+   "type": "table_fill",
+   "columns": [
+    "persona",
+    "fare",
+    "andare"
+   ],
+   "rows": [
+    [
+     "che io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "abbia fatto"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "sia andato",
+       "sia andata"
+      ]
+     }
+    ],
+    [
+     "che tu",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "abbia fatto"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "sia andato",
+       "sia andata"
+      ]
+     }
+    ],
+    [
+     "che lui / lei",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "abbia fatto"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "sia andato",
+       "sia andata"
+      ]
+     }
+    ],
+    [
+     "che noi",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "abbiamo fatto"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "siamo andati",
+       "siamo andate"
+      ]
+     }
+    ],
+    [
+     "che voi",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "abbiate fatto"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "siate andati",
+       "siate andate"
+      ]
+     }
+    ],
+    [
+     "che loro",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "abbiano fatto"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "siano andati",
+       "siano andate"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

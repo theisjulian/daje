@@ -49,10 +49,10 @@
    "id": "q1",
    "prompt": "Scrivi i possessivi con l’articolo.",
    "promptHelp": "Ergänze die Possessivbegleiter mit Artikel.",
-   "explanation": "Della cosa dipende la forma: il suo letto, i suoi fumetti, le sue scarpe.",
+   "explanation": "La forma dipende dalla cosa: il suo letto, i suoi fumetti, le sue scarpe.",
    "explanationHelp": "Die Form hängt vom Ding ab: il suo letto, i suoi fumetti, le sue scarpe.",
    "type": "gap_fill",
-   "text": "Io e mio fratello abbiamo una camera insieme. [[g1]] camera è grande.\n[[g2]] letto è vicino alla finestra, [[g3]] letto è vicino alla porta.\n[[g4]] libri sono sullo scaffale, [[g5]] fumetti sono per terra!\n[[g6]] scarpe sono sempre sotto [[g7]] letto.\nI nostri genitori dicono: «Ragazzi, [[g8]] camera è un caos!»\n[[g9]] amici però amano [[g10]] camera.",
+   "text": "Io e mio fratello abbiamo una camera insieme. (noi) [[g1]] camera è grande.\n(io) [[g2]] letto è vicino alla finestra, (lui) [[g3]] letto è vicino alla porta.\n(io) [[g4]] libri sono sullo scaffale, (lui) [[g5]] fumetti sono per terra!\n(lui) [[g6]] scarpe sono sempre sotto (io) [[g7]] letto.\nI nostri genitori dicono: «Ragazzi, (voi) [[g8]] camera è un caos!»\n(noi) [[g9]] amici però amano (noi) [[g10]] camera.",
    "gaps": [
     {
      "id": "g1",

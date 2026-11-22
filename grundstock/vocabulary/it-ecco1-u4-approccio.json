@@ -236,8 +236,7 @@
    ],
    "definition": "Andare o suonare insieme a qualcuno.",
    "example": "Accompagno mia sorella a scuola.",
-   "related": "F accompagner; E to accompany",
-   "contrast": "Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht."
+   "related": "F accompagner; E to accompany"
   },
   {
    "id": "u4-approccio-016",
@@ -266,7 +265,7 @@
    "translations": [
     "leicht"
    ],
-   "definition": "Che pesa poco.",
+   "definition": "Che pesa poco; musica leggera: musica pop, facile da ascoltare.",
    "example": "La musica pop è musica leggera.",
    "related": "F léger, légère"
   },
@@ -304,7 +303,7 @@
    "translations": [
     "eislaufen"
    ],
-   "definition": "Scivolare sul ghiaccio con speciali scarpe.",
+   "definition": "Scivolare sul ghiaccio con scarpe speciali.",
    "example": "D’inverno vado a pattinare.",
    "contrast": "pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen."
   },
@@ -424,7 +423,7 @@
     "die Rock-Gruppe"
    ],
    "definition": "Insieme di musicisti che suonano musica rock.",
-   "example": "Suono la chitarra in un gruppo.",
+   "example": "Suono la chitarra in un gruppo rock.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -443,7 +442,8 @@
    ],
    "definition": "Parola che introduce la causa.",
    "example": "Sono felice perché è sabato.",
-   "family": "perché?"
+   "family": "perché?",
+   "contrast": "Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht."
   },
   {
    "id": "u4-approccio-032",

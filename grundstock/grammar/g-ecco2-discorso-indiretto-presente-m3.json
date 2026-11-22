@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Die Lehrerin fragt, ob wir den Lebenslauf schon geschrieben haben.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "La professoressa"
+    },
+    {
+     "id": "i2",
+     "text": "chiede"
+    },
+    {
+     "id": "i3",
+     "text": "se"
+    },
+    {
+     "id": "i4",
+     "text": "abbiamo già scritto"
+    },
+    {
+     "id": "i5",
+     "text": "il curriculum."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Mein Bruder sagt, dass sein Chef sehr nett ist.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Mio fratello"
+    },
+    {
+     "id": "i2",
+     "text": "dice che"
+    },
+    {
+     "id": "i3",
+     "text": "il suo capo"
+    },
+    {
+     "id": "i4",
+     "text": "è molto simpatico."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Der Direktor sagt, wir sollen pünktlich um acht kommen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il direttore"
+    },
+    {
+     "id": "i2",
+     "text": "dice di"
+    },
+    {
+     "id": "i3",
+     "text": "arrivare"
+    },
+    {
+     "id": "i4",
+     "text": "alle otto in punto."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Giulia fragt, wohin sie den Lebenslauf schicken soll.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Giulia"
+    },
+    {
+     "id": "i2",
+     "text": "chiede"
+    },
+    {
+     "id": "i3",
+     "text": "dove"
+    },
+    {
+     "id": "i4",
+     "text": "deve mandare"
+    },
+    {
+     "id": "i5",
+     "text": "il curriculum."
+    }
+   ]
+  }
+ ]
+}

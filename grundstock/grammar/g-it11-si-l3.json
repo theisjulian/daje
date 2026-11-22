@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-si-l3",
+ "title": "Tre tipi di si",
+ "language": "it",
+ "level": "B1",
+ "description": "Si impersonale e si passivante · Tre tipi di si · livello facile.",
+ "topics": [
+  "Si impersonale e si passivante",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · si impersonale und si passivante"
+ },
+ "grammar": {
+  "topic": "it11-si",
+  "topicTitle": "Si impersonale e si passivante",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "**si** = «la gente, tutti» (tedesco: _man_).\n- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._\n- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._\n- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._\n- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._\nTempi composti: sempre con **essere**.\n| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |\n| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |\n| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |",
+  "ruleHelp": "**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).\nAdjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).\nZusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che tipo di si è?",
+   "promptHelp": "Welches si ist das?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "si impersonale (senza oggetto: „man“)"
+    },
+    {
+     "id": "b",
+     "label": "si passivante (con oggetto: il verbo concorda)"
+    },
+    {
+     "id": "c",
+     "label": "si riflessivo (lui, lei, loro)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "In Italia si cena tardi.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Qui si vendono biglietti.",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "Marco si alza alle sette.",
+     "category": "c"
+    },
+    {
+     "id": "i4",
+     "text": "In questo ristorante si mangia bene.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "A scuola si studiano le lingue.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Giulia si prepara per l’esame.",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "Da qui si vede il mare.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "In treno si viaggia comodi.",
+     "category": "a"
+    },
+    {
+     "id": "i9",
+     "text": "I ragazzi si divertono alla festa.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "In Svizzera si parlano quattro lingue.",
+     "category": "b"
+    },
+    {
+     "id": "i11",
+     "text": "Con questo caldo si dorme male.",
+     "category": "a"
+    },
+    {
+     "id": "i12",
+     "text": "Mio fratello si è laureato a Pisa.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

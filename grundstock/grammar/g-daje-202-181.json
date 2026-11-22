@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
-   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+   "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
    "text": "Nel [[g1]] centro [[g2]] un laboratorio insegna a costruire [[g3]] oggetti di carta. Il percorso non offre un titolo [[g4]]: permette di conoscere materiali e tecniche di base. L’iscrizione comprende quattro incontri, una [[g5]] raccolta di istruzioni e il materiale [[g6]] per gli esercizi. La preparazione comincia con l’osservazione di oggetti [[g7]]. Gli studenti confrontano forme [[g8]] e discutono la funzione di ogni parte. Poi passano al disegno e alla costruzione.\nGli insegnanti spiegano lentamente i passaggi più [[g9]] e mostrano concretamente come controllare le misure. La precisione è [[g10]], ma non si cerca la perfezione al [[g11]] tentativo. Un errore può suggerire una soluzione [[g12]]. Le attività [[g13]] si alternano a momenti di riflessione. Ogni partecipante descrive il procedimento e ascolta i commenti del gruppo. La collaborazione aiuta soprattutto quando un progetto richiede più mani.\nAlla fine si prepara una [[g14]] esposizione. I cartelli presentano chiaramente i materiali, la durata del lavoro e le difficoltà incontrate. Le persone interessate possono fare domande direttamente agli autori. La valutazione riguarda la comprensione dei passaggi, la cura degli strumenti e la capacità di spiegare le scelte. Non basta avere un oggetto [[g15]]: conta anche sapere come è stato realizzato. Chi desidera continuare riceve indicazioni per esercitarsi autonomamente con materiali [[g16]]. Il laboratorio invita a usare le risorse responsabilmente e a conservare gli scarti che possono servire per altri progetti.",
    "gaps": [
     {
@@ -65,7 +65,8 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "semplici"
+      "semplici",
+      "comuni"
      ]
     },
     {
@@ -89,7 +90,8 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "comuni"
+      "comuni",
+      "semplici"
      ]
     },
     {
@@ -143,7 +145,9 @@
     {
      "id": "g16",
      "acceptedAnswers": [
-      "economici"
+      "economici",
+      "semplici",
+      "comuni"
      ]
     }
    ],

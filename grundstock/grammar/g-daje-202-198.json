@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. In queste settimane\n2. molto\n3. troppo tempo\n4. Quando finisco i compiti\n5. subito\n6. La sera\n7. Da lunedì\n8. Due pomeriggi alla settimana",
+   "prompt": "Analizza le espressioni nel contesto. Indica se ogni espressione risponde alla domanda «quando?» (tempo, frequenza) o «quanto?» (quantità, durata). (parte 1/2)\n1. In queste settimane\n2. molto\n3. troppo tempo\n4. Quando finisco i compiti\n5. subito\n6. La sera\n7. Da lunedì\n8. Due pomeriggi alla settimana",
    "modelAnswer": "1. quando\n2. quanto\n3. quanto\n4. quando\n5. quando\n6. quando\n7. quando\n8. quando / frequenza",
    "lines": 9,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
@@ -54,7 +54,7 @@
   {
    "id": "q1b",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. spesso\n2. qualche invito\n3. a volte\n4. mezz’ora\n5. Nel fine settimana\n6. della settimana successiva\n7. ogni minuto\n8. tutto subito",
+   "prompt": "Analizza le espressioni nel contesto. Indica se ogni espressione risponde alla domanda «quando?» (tempo, frequenza) o «quanto?» (quantità, durata). (parte 2/2)\n1. spesso\n2. qualche invito\n3. a volte\n4. mezz’ora\n5. Nel fine settimana\n6. della settimana successiva\n7. ogni minuto\n8. tutto subito",
    "modelAnswer": "1. quando / frequenza\n2. quanto\n3. quando / frequenza\n4. quanto / durata\n5. quando\n6. quando\n7. quanto / scansione temporale\n8. tutto: quantità / subito: tempo",
    "lines": 9
   }

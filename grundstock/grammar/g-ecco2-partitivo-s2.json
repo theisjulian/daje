@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-partitivo-s2",
+ "title": "Quanto? Non si sa!",
+ "language": "it",
+ "level": "A2",
+ "description": "L’articolo partitivo · Quanto? Non si sa! · livello difficile.",
+ "topics": [
+  "L’articolo partitivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco2-partitivo",
+  "topicTitle": "L’articolo partitivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "L’**articolo partitivo** = **di + articolo**. Indica una quantità **non precisa**.\n| | singolare = un po’ di | plurale = alcuni / alcune |\n| maschile | **del** pane, **dello** zucchero, **dell’**olio | **dei** biglietti, **degli** amici |\n| femminile | **della** musica, **dell’**acqua | **delle** canzoni |\n- _Compro **del** pane._ = _Compro **un po’ di** pane._\n- _Ho **degli** amici a Roma._ = _Ho **alcuni** amici / **qualche** amic**o** a Roma._ (qualche + **singolare**!)\n**Attenzione:**\n- Dopo **non** niente partitivo: _**Non** ho soldi. **Non** mangio carne._\n- Dopo una quantità solo **di**: _un chilo **di** mele, una bottiglia **di** acqua, un po’ **di** tempo_. Con **molto, poco, troppo, tanto** niente di: _molti amici, poca acqua_.",
+  "ruleHelp": "Der **Teilungsartikel** (di + bestimmter Artikel: del, dello, dell’, della, dei, degli, delle) bezeichnet eine **unbestimmte Menge**. Im Deutschen steht dann meist gar kein Artikel oder „etwas / einige“: _Compro del pane_ = Ich kaufe (etwas) Brot. _Ho degli amici_ = Ich habe (einige) Freunde.\nGleichbedeutend: Singular **un po’ di**, Plural **alcuni/alcune** oder **qualche + Singular** (_qualche amico_).\nNach **Verneinung** steht kein Teilungsartikel (_Non ho soldi_ = Ich habe kein Geld), nach **Mengenangaben** nur **di** (_un chilo di mele_); molto/poco/troppo/tanto stehen ohne di (_molti amici_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "qualche + singolare; alcuni / alcune + plurale; un po’ di + singolare; molto, poco, troppo senza di.",
+   "explanationHelp": "qualche + Singular; alcuni / alcune + Plural; un po’ di + Singular; molto, poco, troppo ohne di.",
+   "type": "gap_choice",
+   "text": "Ho [[g1]] amico che va al festival.\nConosco [[g2]] canzoni a memoria.\nMi dai [[g3]] acqua?\nNon abbiamo [[g4]] per provare ancora.\nCompriamo due chili [[g5]] patate.\nC’è [[g6]] sedia libera in prima fila?\nCi sono [[g7]] sedie libere in prima fila?\nAlla festa c’era [[g8]] gente.\nVorrei [[g9]] formaggio, per favore.\nPorto [[g10]] dischi di mio padre.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "qualche",
+      "alcuni",
+      "dei"
+     ],
+     "answer": "qualche"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "alcune",
+      "qualche",
+      "degli"
+     ],
+     "answer": "alcune"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "un po’ di",
+      "qualche",
+      "alcuni"
+     ],
+     "answer": "un po’ di"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "tempo",
+      "del tempo",
+      "dei tempi"
+     ],
+     "answer": "tempo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "di",
+      "delle",
+      "dei"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "qualche",
+      "alcune",
+      "delle"
+     ],
+     "answer": "qualche"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "delle",
+      "qualche",
+      "della"
+     ],
+     "answer": "delle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "molta",
+      "molta della",
+      "molta di"
+     ],
+     "answer": "molta"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "del",
+      "qualche",
+      "alcuni"
+     ],
+     "answer": "del"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "alcuni",
+      "qualche",
+      "un po’"
+     ],
+     "answer": "alcuni"
+    }
+   ]
+  }
+ ]
+}

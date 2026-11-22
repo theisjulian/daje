@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-m1",
+ "title": "La storia dei miei nonni",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · La storia dei miei nonni · livello medio.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i verbi al passato prossimo.",
+   "promptHelp": "Setze die Verben ins passato prossimo.",
+   "explanation": "Verbi riflessivi e reciproci: sempre essere, il participio concorda con il soggetto.",
+   "explanationHelp": "Reflexive und reziproke Verben: immer essere, das Partizip gleicht sich an das Subjekt an.",
+   "type": "gap_fill",
+   "text": "I miei nonni (conoscersi) [[g1]] a Napoli, a una festa.\n(innamorarsi) [[g2]] subito.\nDue anni dopo (sposarsi) [[g3]].\nPoi la nonna (laurearsi) [[g4]] in lettere.\nIl nonno invece (trasferirsi) [[g5]] a Monaco per lavoro.\nAll’inizio la nonna non (trovarsi) [[g6]] bene in Germania.\nMa poi (abituarsi) [[g7]] alla nuova vita.\nMia madre e mia zia (iscriversi) [[g8]] a una scuola tedesca.\nE oggi i nonni dicono che in tutti questi anni (divertirsi) [[g9]] tantissimo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "si sono conosciuti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Si sono innamorati"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "si sono sposati"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "si è laureata"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si è trasferito"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si è trovata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "si è abituata"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si sono iscritte"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "si sono divertiti"
+     ]
+    }
+   ]
+  }
+ ]
+}

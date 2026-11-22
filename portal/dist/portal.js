@@ -379,10 +379,13 @@ function checkListening() {
   s.checked = true;
   // Offene Antworten zählen nicht in die Punktzahl (keine automatische Bewertung).
   const graded = x.questions.filter(GRADED);
-  const correct = graded.filter(q => TheisContent.assessAnswer(q, s.answers[q.id])).length;
+  // Teilpunkte: jede Lücke, jedes Paar, jeder Satz zählt einzeln (eine falsche Lücke macht nicht die ganze Aufgabe falsch).
+  const scores = graded.map(q => TheisContent.scoreAnswer(q, s.answers[q.id]));
+  const correct = scores.reduce((n, r) => n + r.got, 0),
+    total = scores.reduce((n, r) => n + r.max, 0);
   s.lastResult = {
     correct,
-    total: graded.length,
+    total,
     at: new Date().toISOString(),
     assisted: !!s.usedTranscript
   };
@@ -394,9 +397,9 @@ function checkListening() {
     ok
       ? !graded.length
         ? 'Gespeichert. Vergleiche jetzt mit der möglichen Lösung.'
-        : correct === graded.length
+        : correct === total
         ? 'Alles richtig. Bravo!'
-        : `${correct} von ${graded.length} richtig. Ergebnis gespeichert.`
+        : `${correct} von ${total} richtig. Ergebnis gespeichert.`
       : 'Speichern fehlgeschlagen. Sichere dein Profil.'
   );
 }

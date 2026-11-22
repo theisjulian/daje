@@ -50,12 +50,12 @@
    "prompt": "Scrivi i pronomi giusti (indiretti o tonici).",
    "promptHelp": "Ergänze die richtigen Pronomen.",
    "type": "gap_fill",
-   "text": "Domani è Natale. A mio padre [[g1]] regalo una sciarpa.\nPer mia madre ho un libro: lo compro per [[g2]] in libreria.\nMia sorella? [[g3]] piacciono i braccialetti.\nE i nonni? Per [[g4]] faccio una torta.\nIl mio amico Leo viene con [[g5]] al mercatino.\n[[g6]] piace la musica: [[g7]] regalo un CD.\nE a me? Chi pensa a [[g8]]?",
+   "text": "Domani è Natale. Mio padre? [[g1]] regalo una sciarpa.\nPer mia madre ho un libro: lo compro per [[g2]] in libreria.\nMia sorella? [[g3]] piacciono i braccialetti.\nE i nonni? Per [[g4]] faccio una torta.\nIl mio amico Leo viene con [[g5]] al mercatino.\n[[g6]] piace la musica: [[g7]] regalo un CD.\nE a me? Chi pensa a [[g8]]?",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "gli"
+      "Gli"
      ]
     },
     {

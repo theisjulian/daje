@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-presente-s3",
+ "title": "Un post sul forum della scuola",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo presente · Un post sul forum della scuola · livello difficile.",
+ "topics": [
+  "Il congiuntivo presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-presente",
+  "topicTitle": "Il congiuntivo presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._\n| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |\n| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |\n| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |\n| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |\n| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |\n**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**\n**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.\n**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._\n**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._",
+  "ruleHelp": "Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).\nDie drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.\nUnregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.\n**Indikativ** nach _secondo me, so che, è vero che, vedo che_.\nGleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Indicativo, congiuntivo o infinito? Scrivi la forma giusta del verbo.",
+   "promptHelp": "Indikativ, congiuntivo oder Infinitiv? Schreibe die richtige Verbform.",
+   "explanation": "secondo me, so che, è vero che → indicativo · pensate di + infinito (stesso soggetto).",
+   "explanationHelp": "secondo me, so che, è vero che → Indikativ · pensate di + Infinitiv (gleiches Subjekt).",
+   "type": "gap_fill",
+   "text": "Secondo me, molti ragazzi non (sapere) [[g1]] proteggere i loro dati.\nPenso che la privacy (essere) [[g2]] molto importante.\nSo che tanti miei compagni (usare) [[g3]] la stessa password per tutto.\nCredo che questo (essere) [[g4]] un errore.\nÈ necessario che ognuno (avere) [[g5]] password diverse.\nÈ vero che non (essere) [[g6]] facile ricordarle tutte.\nMa spero che voi (capire) [[g7]] il problema.\nMi sembra che anche i prof (dovere) [[g8]] parlare di questo tema in classe.\nIo voglio che la nostra scuola (fare) [[g9]] un corso sulla sicurezza online.\nE voi? Pensate di (essere) [[g10]] al sicuro?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sanno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "usano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "capiate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "debbano"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "essere"
+     ]
+    }
+   ]
+  }
+ ]
+}

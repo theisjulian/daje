@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Trova gli errori · livello difficile.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un errore. Correggilo.",
+   "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+   "explanation": "Doppia consonante con mi, ci, lo, la, li, le – ma mai con gli. Negativo: non + infinito (non dirlo).",
+   "explanationHelp": "Doppelkonsonant bei mi, ci, lo, la, li, le – nie bei gli. Verneint: non + Infinitiv.",
+   "type": "error_correction",
+   "text": "[[g1]] che cosa è successo!\n[[g2]] il mio numero di telefono.\n[[g3]] adesso, non domani!\n[[g4]] il tablet, per favore!\nÈ un segreto: non [[g5]] a nessuno!\n[[g6]] tu, io non ho tempo.\nSara è triste: [[g7]] qualcosa di gentile!\n[[g8]] sapere quando arrivi.\nAbbiamo sete: [[g9]] un po’ d’acqua!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Dimi",
+     "acceptedAnswers": [
+      "Dimmi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Daggli",
+     "acceptedAnswers": [
+      "Dagli"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Falo",
+     "acceptedAnswers": [
+      "Fallo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Mi da’",
+     "acceptedAnswers": [
+      "Dammi"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "dillo",
+     "acceptedAnswers": [
+      "dirlo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Vaci",
+     "acceptedAnswers": [
+      "Vacci"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "dile",
+     "acceptedAnswers": [
+      "dille"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Fami",
+     "acceptedAnswers": [
+      "Fammi"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "daci",
+     "acceptedAnswers": [
+      "dacci"
+     ]
+    }
+   ]
+  }
+ ]
+}

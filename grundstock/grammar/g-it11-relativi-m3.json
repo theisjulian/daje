@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-relativi-m3",
+ "title": "Una frase sola",
+ "language": "it",
+ "level": "B1",
+ "description": "Relativi, il/la cui e il che · Una frase sola · livello medio.",
+ "topics": [
+  "Relativi, il/la cui e il che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Relativpronomen (che, cui, il quale, il cui, il che, chi)"
+ },
+ "grammar": {
+  "topic": "it11-relativi",
+  "topicTitle": "Relativi, il/la cui e il che",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "| **che** | soggetto o oggetto diretto | _il libro **che** leggo_ |\n| preposizione + **cui** | di cui, a cui, con cui, in cui, per cui, da cui, su cui | _l’amico **con cui** esco_ |\n| preposizione + **il quale / la quale / i quali / le quali** | più formale; concorda con il nome | _l’amica **con la quale** esco_ · _il tema **del quale** parliamo_ |\n| **il cui / la cui / i cui / le cui** | possesso (dessen, deren) | _la scrittrice **i cui** romanzi amo_ |\n| **il che** | = e questo (tutta la frase prima) | _Arriva sempre tardi, **il che** mi dà fastidio._ |\n| **chi** | = la persona che (verbo al singolare) | _**Chi** arriva tardi non trova posto._ |\n| **colui che / colei che / coloro che** | formale: quello che / quella che / quelli che | _**Coloro che** vogliono possono restare._ |\nAttenzione: l’articolo davanti a **cui** concorda con la cosa **posseduta**, non con il possessore: _un ragazzo **la cui** sorell**a** …_, _una ragazza **il cui** padr**e** …_",
+  "ruleHelp": "**che** = der/die/das (Subjekt oder direktes Objekt); nach **Präposition** steht **cui** (unveränderlich) oder förmlicher **il quale / la quale / i quali / le quali** (angeglichen, mit verschmolzener Präposition: del quale, alla quale, nei quali).\n**il cui / la cui / i cui / le cui** = dessen/deren. Anders als im Deutschen richtet sich der Artikel nach dem **Besitz**, nicht nach dem Besitzer: _un ragazzo la cui sorella …_ (ein Junge, dessen Schwester …).\n**il che** = „was“ mit Bezug auf den ganzen Satz: _Arriva sempre tardi, il che mi dà fastidio._\n**chi** = „wer / derjenige, der“ (Verb im Singular); förmlich **colui che, colei che, coloro che**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi con il relativo tra parentesi. Scrivi la frase relativa.",
+   "promptHelp": "Verbinde die zwei Sätze mit dem Relativpronomen in Klammern. Schreibe den Relativsatz.",
+   "explanation": "suo / sua / suoi / sue → il cui / la cui / i cui / le cui (senza suo!).",
+   "explanationHelp": "suo / sua / suoi / sue → il cui / la cui / i cui / le cui (ohne suo!).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho un’amica. Suo padre è medico. (cui) → Ho un’amica …",
+     "acceptedAnswers": [
+      "il cui padre è medico"
+     ],
+     "modelAnswer": "Ho un’amica il cui padre è medico."
+    },
+    {
+     "id": "s2",
+     "start": "Questo è il libro. Ti ho parlato di questo libro. (cui) → Questo è il libro …",
+     "acceptedAnswers": [
+      "di cui ti ho parlato"
+     ],
+     "modelAnswer": "Questo è il libro di cui ti ho parlato."
+    },
+    {
+     "id": "s3",
+     "start": "Conosco un ragazzo. Le sue sorelle giocano a pallavolo. (cui) → Conosco un ragazzo …",
+     "acceptedAnswers": [
+      "le cui sorelle giocano a pallavolo"
+     ],
+     "modelAnswer": "Conosco un ragazzo le cui sorelle giocano a pallavolo."
+    },
+    {
+     "id": "s4",
+     "start": "Sara è arrivata in ritardo. Questo ha irritato il professore. (il che) → Sara è arrivata in ritardo, …",
+     "acceptedAnswers": [
+      "il che ha irritato il professore"
+     ],
+     "modelAnswer": "Sara è arrivata in ritardo, il che ha irritato il professore."
+    },
+    {
+     "id": "s5",
+     "start": "Ecco la collega. Lavoro con lei. (la quale) → Ecco la collega …",
+     "acceptedAnswers": [
+      "con la quale lavoro"
+     ],
+     "modelAnswer": "Ecco la collega con la quale lavoro."
+    },
+    {
+     "id": "s6",
+     "start": "È uno scrittore. I suoi libri hanno molto successo. (cui) → È uno scrittore …",
+     "acceptedAnswers": [
+      "i cui libri hanno molto successo"
+     ],
+     "modelAnswer": "È uno scrittore i cui libri hanno molto successo."
+    },
+    {
+     "id": "s7",
+     "start": "Abbiamo visitato una città. La sua piazza è famosa. (cui) → Abbiamo visitato una città …",
+     "acceptedAnswers": [
+      "la cui piazza è famosa"
+     ],
+     "modelAnswer": "Abbiamo visitato una città la cui piazza è famosa."
+    },
+    {
+     "id": "s8",
+     "start": "Sono gli amici. Esco spesso con loro. (i quali) → Sono gli amici …",
+     "acceptedAnswers": [
+      "con i quali esco spesso",
+      "coi quali esco spesso"
+     ],
+     "modelAnswer": "Sono gli amici con i quali esco spesso. (anche: coi quali esco spesso)"
+    },
+    {
+     "id": "s9",
+     "start": "Matteo non ha studiato niente. Questo non mi sorprende. (il che) → Matteo non ha studiato niente, …",
+     "acceptedAnswers": [
+      "il che non mi sorprende"
+     ],
+     "modelAnswer": "Matteo non ha studiato niente, il che non mi sorprende."
+    }
+   ]
+  }
+ ]
+}

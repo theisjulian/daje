@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
+   "prompt": "Completa il testo con le preposizioni (semplici o articolate).",
    "text": "Gentili compagni, la settimana scorsa abbiamo incontrato la responsabile [[g1]] biblioteca. Ci ha proposto di realizzare un breve podcast [[g2]] luoghi del quartiere. Noi abbiamo accettato e abbiamo scelto tre possibili itinerari. Prima [[g3]] registrare, però, dovremo chiedere il consenso alle persone intervistate.\nIl gruppo [[g4]] Gianni preparerà le domande; quello di Ada controllerà i rumori [[g5]] fondo. Io vorrei occuparmi del montaggio, ma avrei bisogno [[g6]] un compagno. Qualcuno potrebbe lavorare con me martedì? Non occorre un’attrezzatura costosa: sarebbe più utile ascoltare [[g7]] attenzione e lasciare alle persone il tempo [[g8]] rispondere.\nAbbiamo già parlato di questo problema [[g9]] (destinatario) una giornalista. Lei ci ha consigliato di fare prima una prova [[g10]] (complemento con valore di ruolo) intervistatori. Anche chi non vuole parlare davanti al microfono avrà un compito: cercare informazioni, verificare i nomi o scrivere la presentazione.\n[[g11]] fine pubblicheremo soltanto le registrazioni autorizzate. Se una risposta sarà troppo lunga, chiederemo se possiamo tagliarla senza cambiarne il significato. Il progetto finirà con un ascolto collettivo. Mi piacerebbe che ogni persona riconoscesse la propria voce e il senso [[g12]] proprie parole. Una registrazione chiara serve; una relazione di fiducia serve ancora [[g13]] più.",
    "gaps": [
     {
@@ -94,19 +94,22 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "di"
+      "di",
+      "per"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "a"
+      "a",
+      "con"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "da"
+      "da",
+      "come"
      ]
     },
     {
@@ -128,7 +131,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze den Text."
+   "promptHelp": "Ergänze den Text mit den Präpositionen (einfach oder mit Artikel verschmolzen)."
   },
   {
    "id": "q2r1",

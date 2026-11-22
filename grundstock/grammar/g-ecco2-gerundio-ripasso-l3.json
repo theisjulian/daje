@@ -1,0 +1,219 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-l3",
+ "title": "Dove va il pronome?",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · Dove va il pronome? · livello facile.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Lo sto facendo adesso."
+    },
+    {
+     "id": "o2",
+     "text": "Sto lo facendo adesso."
+    },
+    {
+     "id": "o3",
+     "text": "Sto facendo lo adesso."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sto scrivendole un messaggio."
+    },
+    {
+     "id": "o2",
+     "text": "Sto le scrivendo un messaggio."
+    },
+    {
+     "id": "o3",
+     "text": "Sto scrivendo le un messaggio."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ti stavo cercando!"
+    },
+    {
+     "id": "o2",
+     "text": "Stavo ti cercando!"
+    },
+    {
+     "id": "o3",
+     "text": "Stavo cercando ti!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Marco si sta preparando."
+    },
+    {
+     "id": "o2",
+     "text": "Marco sta si preparando."
+    },
+    {
+     "id": "o3",
+     "text": "Marco sta preparando si."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Che cosa mi stai dicendo?"
+    },
+    {
+     "id": "o2",
+     "text": "Che cosa stai mi dicendo?"
+    },
+    {
+     "id": "o3",
+     "text": "Che cosa stai dicendo mi?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ci stiamo divertendo molto."
+    },
+    {
+     "id": "o2",
+     "text": "Stiamo ci divertendo molto."
+    },
+    {
+     "id": "o3",
+     "text": "Stiamo divertendo ci molto."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Vi stavamo aspettando."
+    },
+    {
+     "id": "o2",
+     "text": "Stavamo vi aspettando."
+    },
+    {
+     "id": "o3",
+     "text": "Stavamo aspettando vi."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "explanation": "Il pronome sta prima di stare (lo sto facendo) o attaccato al gerundio (sto facendolo), mai in mezzo.",
+   "explanationHelp": "Das Pronomen steht vor stare oder am Gerundium – nie dazwischen und nie getrennt dahinter.",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Le foto? Le sto guardando."
+    },
+    {
+     "id": "o2",
+     "text": "Le foto? Sto le guardando."
+    },
+    {
+     "id": "o3",
+     "text": "Le foto? Sto guardando le."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

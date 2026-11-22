@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-l4",
+ "title": "Era già successo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Era già successo · livello facile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 34,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’inizio e la fine della frase.",
+   "promptHelp": "Verbinde Satzanfang und Satzende.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Quando siamo arrivati al cinema,",
+     "right": "il film era già cominciato."
+    },
+    {
+     "id": "p2",
+     "left": "Non ho potuto pagare il biglietto perché",
+     "right": "avevo lasciato il portafoglio a casa."
+    },
+    {
+     "id": "p3",
+     "left": "Ero stanchissima perché",
+     "right": "non avevo dormito durante il volo."
+    },
+    {
+     "id": "p4",
+     "left": "Quando ho chiamato la nonna,",
+     "right": "era già andata a letto."
+    },
+    {
+     "id": "p5",
+     "left": "Ho finalmente letto il libro che",
+     "right": "mi avevi regalato per il compleanno."
+    },
+    {
+     "id": "p6",
+     "left": "Conoscevo già un po’ Dublino perché",
+     "right": "ci ero stata con la mia classe."
+    },
+    {
+     "id": "p7",
+     "left": "Paolo non è venuto in gita perché",
+     "right": "si era rotto una gamba."
+    },
+    {
+     "id": "p8",
+     "left": "La prof era arrabbiata perché",
+     "right": "nessuno aveva fatto i compiti."
+    }
+   ]
+  }
+ ]
+}

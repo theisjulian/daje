@@ -46,20 +46,23 @@
   {
    "id": "q1s1",
    "type": "short_answer",
-   "prompt": "Trova e correggi le incongruenze lessicali; spiega la scelta.\nSostituisci con il contrario richiesto: «gratuito».",
+   "prompt": "Scrivi il contrario della parola indicata.\nSostituisci con il contrario richiesto: «gratuito».",
    "acceptedAnswers": [
     "a pagamento"
    ],
    "modelAnswer": "a pagamento",
    "explanation": "Coppia di significato contrario nel senso indicato.",
-   "promptHelp": "Schreibe den Satz richtig."
+   "promptHelp": "Schreibe das Gegenteil des angegebenen Wortes."
   },
   {
    "id": "q1s2",
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «chiaro».",
    "acceptedAnswers": [
-    "confuso"
+    "confuso",
+    "scuro",
+    "oscuro",
+    "poco chiaro"
    ],
    "modelAnswer": "confuso",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -69,7 +72,8 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «completo».",
    "acceptedAnswers": [
-    "incompleto"
+    "incompleto",
+    "parziale"
    ],
    "modelAnswer": "incompleto",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -89,7 +93,9 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «semplice».",
    "acceptedAnswers": [
-    "complesso"
+    "complesso",
+    "complicato",
+    "difficile"
    ],
    "modelAnswer": "complesso",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -99,7 +105,9 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «preciso».",
    "acceptedAnswers": [
-    "impreciso"
+    "impreciso",
+    "vago",
+    "approssimativo"
    ],
    "modelAnswer": "impreciso",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -109,7 +117,9 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «puntuale».",
    "acceptedAnswers": [
-    "in ritardo"
+    "in ritardo",
+    "ritardatario",
+    "non puntuale"
    ],
    "modelAnswer": "in ritardo",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -139,7 +149,9 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «disponibile».",
    "acceptedAnswers": [
-    "indisponibile"
+    "indisponibile",
+    "non disponibile",
+    "occupato"
    ],
    "modelAnswer": "indisponibile",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -149,7 +161,8 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «iniziale».",
    "acceptedAnswers": [
-    "finale"
+    "finale",
+    "conclusivo"
    ],
    "modelAnswer": "finale",
    "explanation": "Coppia di significato contrario nel senso indicato."
@@ -159,7 +172,8 @@
    "type": "short_answer",
    "prompt": "Sostituisci con il contrario richiesto: «vicino».",
    "acceptedAnswers": [
-    "lontano"
+    "lontano",
+    "distante"
    ],
    "modelAnswer": "lontano",
    "explanation": "Coppia di significato contrario nel senso indicato."

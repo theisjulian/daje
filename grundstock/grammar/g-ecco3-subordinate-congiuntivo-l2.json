@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-subordinate-congiuntivo-l2",
+ "title": "Congiuntivo o indicativo?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo nelle subordinate · Congiuntivo o indicativo? · livello facile.",
+ "topics": [
+  "Il congiuntivo nelle subordinate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo nach Konjunktionen (benché, affinché, prima che, a meno che, purché …)"
+ },
+ "grammar": {
+  "topic": "ecco3-subordinate-congiuntivo",
+  "topicTitle": "Il congiuntivo nelle subordinate",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Dopo alcune **congiunzioni** usiamo sempre il **congiuntivo**:\n| **benché, sebbene, nonostante** | _Benché **piova**, usciamo._ |\n| **affinché, perché** (scopo) | _Parlo piano affinché tutti **capiscano**._ |\n| **prima che** | _Torno prima che **faccia** buio._ |\n| **a meno che (non)** | _Vengo, a meno che non **sia** malato._ |\n| **a patto che, purché** | _Ti aiuto, purché tu **stia** attento._ |\n| **senza che** | _Esce senza che i genitori lo **sappiano**._ |\n| **nel caso che** | _Porto l’ombrello nel caso che **piova**._ |\n**Attenzione!** Con queste parole usiamo l’**indicativo**:\n- **anche se**: _Anche se **piove**, usciamo._\n- **dopo che**: _Dopo che **ha mangiato**, esce._\n- **perché** (causa): _Resto a casa perché **sono** stanco._\nSe il **soggetto è lo stesso**, usiamo l’**infinito**: _**prima di** uscire, **senza** salutare, **per** capire_.",
+  "ruleHelp": "Nach bestimmten **Konjunktionen** steht immer der **congiuntivo**: _benché / sebbene / nonostante_ (obwohl), _affinché / perché_ (damit), _prima che_ (bevor), _a meno che (non)_ (es sei denn), _a patto che / purché_ (vorausgesetzt, dass), _senza che_ (ohne dass), _nel caso che_ (falls).\n**Aber Indikativ** nach _anche se_ (auch wenn / obwohl), _dopo che_ (nachdem) und _perché_ = weil. Achtung: _perché_ + Indikativ = weil, _perché_ + congiuntivo = damit.\nBei **gleichem Subjekt** steht der Infinitiv: _prima di uscire_ (bevor ich gehe), _senza salutare_ (ohne zu grüßen), _per capire_ (um zu verstehen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che modo c’è dopo queste parole?",
+   "promptHelp": "Welcher Modus steht nach diesen Wörtern?",
+   "explanation": "Attenzione: anche se, dopo che e perché (= weil) vogliono l’indicativo.",
+   "explanationHelp": "Achtung: anche se, dopo che und perché (= weil) verlangen den Indikativ.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "c",
+     "label": "+ congiuntivo"
+    },
+    {
+     "id": "i",
+     "label": "+ indicativo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "benché",
+     "category": "c"
+    },
+    {
+     "id": "i2",
+     "text": "sebbene",
+     "category": "c"
+    },
+    {
+     "id": "i3",
+     "text": "anche se",
+     "category": "i"
+    },
+    {
+     "id": "i4",
+     "text": "prima che",
+     "category": "c"
+    },
+    {
+     "id": "i5",
+     "text": "dopo che",
+     "category": "i"
+    },
+    {
+     "id": "i6",
+     "text": "affinché",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "a meno che",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "purché",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "senza che",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "perché (= weil)",
+     "category": "i"
+    },
+    {
+     "id": "i11",
+     "text": "nel caso che",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

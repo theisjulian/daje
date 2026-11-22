@@ -50,13 +50,13 @@
    "prompt": "Correggi gli otto errori.",
    "promptHelp": "Korrigiere die acht Fehler.",
    "type": "error_correction",
-   "text": "C’è [[g1]] alla porta?\nVuoi qualcosa [[g2]] bere?\nHo visto qualcosa [[g3]] strano.\n[[g4]] giorno vado a scuola.\n[[g5]] porta un panino.\nVado al cinema ogni [[g6]].\nHai mangiato qualcosa? – No, [[g7]].\nC’è qualcuno? – No, non c’è [[g8]].",
+   "text": "[[g1]] ha telefonato: era la nonna.\nVuoi qualcosa [[g2]] bere?\nHo visto qualcosa [[g3]] strano.\n[[g4]] giorno vado a scuola.\n[[g5]] porta un panino.\nVado al cinema ogni [[g6]].\nHai mangiato qualcosa? – No, [[g7]].\nC’è qualcuno? – No, non c’è [[g8]].",
    "errors": [
     {
      "id": "g1",
-     "wrong": "qualcosa",
+     "wrong": "Qualcosa",
      "acceptedAnswers": [
-      "qualcuno"
+      "Qualcuno"
      ]
     },
     {

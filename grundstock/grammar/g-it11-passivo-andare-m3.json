@@ -1,0 +1,148 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-m3",
+ "title": "Costruisci la regola",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · Costruisci la regola · livello medio.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Das Formular muss in Druckbuchstaben ausgefüllt werden.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il modulo"
+    },
+    {
+     "id": "i2",
+     "text": "va"
+    },
+    {
+     "id": "i3",
+     "text": "compilato"
+    },
+    {
+     "id": "i4",
+     "text": "in stampatello."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Diese Medikamente dürfen nicht auf nüchternen Magen eingenommen werden.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Queste medicine"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "vanno"
+    },
+    {
+     "id": "i4",
+     "text": "prese"
+    },
+    {
+     "id": "i5",
+     "text": "a stomaco vuoto."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Der Antrag hätte bis gestern eingereicht werden müssen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "La domanda"
+    },
+    {
+     "id": "i2",
+     "text": "andava"
+    },
+    {
+     "id": "i3",
+     "text": "presentata"
+    },
+    {
+     "id": "i4",
+     "text": "entro ieri."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Die Handys müssen während der Prüfung ausgeschaltet werden.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "I telefoni"
+    },
+    {
+     "id": "i2",
+     "text": "vanno"
+    },
+    {
+     "id": "i3",
+     "text": "spenti"
+    },
+    {
+     "id": "i4",
+     "text": "durante l’esame."
+    }
+   ]
+  }
+ ]
+}

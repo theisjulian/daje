@@ -210,7 +210,7 @@
     "Sport (Schulfach)"
    ],
    "definition": "Materia in cui si fa ginnastica e sport.",
-   "example": "L’educazione fisica è il mio corso preferito.",
+   "example": "L’educazione fisica è la mia materia preferita.",
    "related": "E physical education",
    "usage": "f."
   },
@@ -223,7 +223,7 @@
    "definition": "Materia che si occupa di pittura e disegno.",
    "example": "L’arte è la mia passione.",
    "related": "E art; F l’art",
-   "usage": "m."
+   "usage": "f."
   },
   {
    "id": "u3-approccio-013",
@@ -460,7 +460,7 @@
     "das Viertel"
    ],
    "definition": "Una delle quattro parti uguali.",
-   "example": "Il quarto d’ora ha quindici minuti.",
+   "example": "Un quarto d’ora sono quindici minuti.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

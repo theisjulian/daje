@@ -47,12 +47,12 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Correggi le otto preposizioni sbagliate.",
-   "promptHelp": "Korrigiere die acht falschen Präpositionen.",
+   "prompt": "Correggi le nove preposizioni sbagliate.",
+   "promptHelp": "Korrigiere die neun falschen Präpositionen.",
    "explanation": "Paese e regione → in Italia, in Toscana · città → a Milano · a casa.",
    "explanationHelp": "Land und Region → in Italia, in Toscana · Stadt → a Milano · casa → a casa.",
    "type": "error_correction",
-   "text": "In estate andiamo [[g1]] Italia.\nPrima siamo [[g2]] Milano, poi [[g3]] Toscana.\nA Firenze la nostra casa è [[g4]] via dei Neri.\nIl pomeriggio andiamo [[g5]] centro.\nLa sera siamo stanchi e restiamo [[g6]] casa.\nDomenica andiamo [[g7]] montagna.\nPoi torniamo [[g8]] Monaco, [[g9]] Germania.",
+   "text": "In estate andiamo [[g1]] Italia.\nPrima siamo [[g2]] Milano, poi [[g3]] Toscana.\nA Firenze la nostra casa è [[g4]] via dei Neri.\nIl pomeriggio andiamo [[g5]] centro.\nLa sera siamo stanchi e andiamo [[g6]] casa.\nDomenica andiamo [[g7]] montagna.\nPoi torniamo [[g8]] Monaco, [[g9]] Germania.",
    "errors": [
     {
      "id": "g1",

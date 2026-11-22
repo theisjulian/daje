@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-l3",
+ "title": "Prima del mercatino",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Prima del mercatino · livello facile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il dialogo con le parole del riquadro.",
+   "promptHelp": "Ergänze den Dialog mit den Wörtern aus dem Kasten.",
+   "explanation": "Diretto: lo, la, li, le. Indiretto: gli (a lui), le (a lei). Quantità: ne. Luogo: ci.",
+   "explanationHelp": "Direkt: lo, la, li, le. Indirekt: gli (ihm), le (ihr). Menge: ne. Ort: ci.",
+   "type": "gap_fill",
+   "text": "– Chiara, hai i volantini? – Sì, [[g1]] ho qui nello zaino.\n– E la lista dei nomi? – [[g2]] porta Davide.\n– Hai scritto a Matteo? – Sì, [[g3]] ho scritto ieri sera.\n– E alla professoressa Conti? – [[g4]] ho mandato una mail stamattina.\n– Le torte, chi [[g5]] porta? – Mia nonna: [[g6]] ha fatte quattro!\n– Andiamo al mercato insieme? – Sì, [[g7]] andiamo in bici.\n– E il tavolo? – Non preoccuparti, [[g8]] chiede Luca al bidello.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "si"
+   ]
+  }
+ ]
+}

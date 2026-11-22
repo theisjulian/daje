@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-m3",
+ "title": "Penso che …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Penso che … · livello medio.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Non sei sicuro/a: trasforma la frase con il congiuntivo passato.",
+   "promptHelp": "Du bist nicht sicher: Forme den Satz mit dem congiuntivo passato um.",
+   "explanation": "ha → abbia, è → sia, hanno → abbiano, sono → siano; il participio non cambia.",
+   "explanationHelp": "ha → abbia, è → sia, hanno → abbiano, sono → siano; das Partizip bleibt gleich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Marta è già partita. – Penso che …",
+     "acceptedAnswers": [
+      "Marta sia già partita"
+     ],
+     "modelAnswer": "Penso che Marta sia già partita."
+    },
+    {
+     "id": "s2",
+     "start": "I ragazzi hanno visto la sfilata. – Credo che …",
+     "acceptedAnswers": [
+      "i ragazzi abbiano visto la sfilata"
+     ],
+     "modelAnswer": "Credo che i ragazzi abbiano visto la sfilata."
+    },
+    {
+     "id": "s3",
+     "start": "Luca ha dimenticato il costume. – Ho paura che …",
+     "acceptedAnswers": [
+      "Luca abbia dimenticato il costume"
+     ],
+     "modelAnswer": "Ho paura che Luca abbia dimenticato il costume."
+    },
+    {
+     "id": "s4",
+     "start": "Le zie sono arrivate ieri. – Mi sembra che …",
+     "acceptedAnswers": [
+      "le zie siano arrivate ieri"
+     ],
+     "modelAnswer": "Mi sembra che le zie siano arrivate ieri."
+    },
+    {
+     "id": "s5",
+     "start": "Avete mangiato bene. – Spero che …",
+     "acceptedAnswers": [
+      "abbiate mangiato bene"
+     ],
+     "modelAnswer": "Spero che abbiate mangiato bene."
+    },
+    {
+     "id": "s6",
+     "start": "Sei stato al Palio. – È possibile che tu …",
+     "acceptedAnswers": [
+      "sia stato al Palio"
+     ],
+     "modelAnswer": "È possibile che tu sia stato al Palio."
+    },
+    {
+     "id": "s7",
+     "start": "La festa è finita tardi. – È probabile che …",
+     "acceptedAnswers": [
+      "la festa sia finita tardi"
+     ],
+     "modelAnswer": "È probabile che la festa sia finita tardi."
+    },
+    {
+     "id": "s8",
+     "start": "Nessuno ha fatto foto. – È strano che …",
+     "acceptedAnswers": [
+      "nessuno abbia fatto foto"
+     ],
+     "modelAnswer": "È strano che nessuno abbia fatto foto."
+    }
+   ]
+  }
+ ]
+}

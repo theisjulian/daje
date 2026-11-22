@@ -246,7 +246,7 @@
     "der Stolz"
    ],
    "definition": "Sentimento di soddisfazione.",
-   "example": "Ho molto orgoglio del mio lavoro."
+   "example": "Parla con orgoglio del suo lavoro."
   },
   {
    "id": "u5-5b-017",
@@ -343,7 +343,7 @@
     "der Aberglaube"
    ],
    "definition": "Credenza irrazionale sulla fortuna.",
-   "example": "Il gatto nero è una superstizione.",
+   "example": "Il gatto nero porta sfortuna? È solo una superstizione.",
    "related": "E superstition",
    "grammar": {
     "partOfSpeech": "noun",
@@ -416,7 +416,7 @@
     "alt",
     "betagt"
    ],
-   "definition": "Persona di età avanzata.",
+   "definition": "Che ha un’età avanzata.",
    "example": "La nonna è anziana.",
    "synonyms": "vecchio/-a",
    "usage": "= vecchio/-a"
@@ -548,7 +548,7 @@
    ],
    "definition": "Dare una buona impressione.",
    "example": "Voglio fare bella figura.",
-   "usage": "Abc"
+   "usage": "≠ fare brutta figura"
   },
   {
    "id": "u5-5b-038",

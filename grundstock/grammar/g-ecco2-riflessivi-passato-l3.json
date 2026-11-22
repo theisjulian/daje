@@ -1,0 +1,100 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-l3",
+ "title": "Chi ha fatto che cosa?",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Chi ha fatto che cosa? · livello facile.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il soggetto al resto della frase. Guarda bene il pronome e il participio!",
+   "promptHelp": "Verbinde das Subjekt mit dem Rest des Satzes. Achte auf Pronomen und Partizip!",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Giulia",
+     "right": "si è svegliata tardi."
+    },
+    {
+     "id": "p2",
+     "left": "Paolo",
+     "right": "si è arrabbiato con me."
+    },
+    {
+     "id": "p3",
+     "left": "I ragazzi",
+     "right": "si sono divertiti al concerto."
+    },
+    {
+     "id": "p4",
+     "left": "Le mie sorelle",
+     "right": "si sono preparate per la festa."
+    },
+    {
+     "id": "p5",
+     "left": "Io e Marco",
+     "right": "ci siamo incontrati in piazza."
+    },
+    {
+     "id": "p6",
+     "left": "Anna e Lia, voi",
+     "right": "vi siete perse in centro?"
+    },
+    {
+     "id": "p7",
+     "left": "Luca, tu",
+     "right": "ti sei fatto male?"
+    },
+    {
+     "id": "p8",
+     "left": "Io, Chiara,",
+     "right": "mi sono addormentata sul divano."
+    }
+   ],
+   "distractors": [
+    "ci siamo incontrate in piazza."
+   ]
+  }
+ ]
+}

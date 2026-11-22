@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-si-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Si impersonale e si passivante · Trova gli errori · livello difficile.",
+ "topics": [
+  "Si impersonale e si passivante",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · si impersonale und si passivante"
+ },
+ "grammar": {
+  "topic": "it11-si",
+  "topicTitle": "Si impersonale e si passivante",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "**si** = «la gente, tutti» (tedesco: _man_).\n- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._\n- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._\n- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._\n- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._\nTempi composti: sempre con **essere**.\n| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |\n| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |\n| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |",
+  "ruleHelp": "**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).\nAdjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).\nZusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i nove errori.",
+   "promptHelp": "Korrigiere die neun Fehler.",
+   "explanation": "„man“ non è «uomo»! Tempi composti: si è ballato (ballare → avere), si è tornati (tornare → essere), si sono visti i monumenti (con oggetto).",
+   "explanationHelp": "„man“ heißt nicht „uomo“! Zusammengesetzte Zeiten: si è ballato, si è tornati, si sono visti i monumenti.",
+   "type": "error_correction",
+   "text": "In questo negozio si [[g1]] scarpe sportive.\nQuando si è [[g2]], si hanno molti sogni.\nIn vacanza [[g3]] alza tardi.\nIeri sera si [[g4]] mangiato benissimo.\nIn Italia si [[g5]] molto caffè.\nAlla festa si è [[g6]] fino a mezzanotte.\nDopo la gita si è [[g7]] a casa tardi.\nA Roma si sono [[g8]] molti monumenti.\n[[g9]] dice che questo film sia bellissimo.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "vende",
+     "acceptedAnswers": [
+      "vendono"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "giovane",
+     "acceptedAnswers": [
+      "giovani"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "si si",
+     "acceptedAnswers": [
+      "ci si"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "bevono",
+     "acceptedAnswers": [
+      "beve"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ballati",
+     "acceptedAnswers": [
+      "ballato"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "tornato",
+     "acceptedAnswers": [
+      "tornati"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "visto",
+     "acceptedAnswers": [
+      "visti"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "Uomo",
+     "acceptedAnswers": [
+      "Si"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -46,14 +46,15 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo con gli articoli (determinativi o indeterminativi).",
+   "promptHelp": "Ergänze den Text mit den Artikeln (bestimmt oder unbestimmt).",
    "text": "[[g1]] biblioteca non è soltanto [[g2]] stanza piena di libri. Nel nostro centro immaginario, [[g3]] biblioteca propone quattro servizi. [[g4]] primo è [[g5]] banco per [[g6]] prestito: [[g7]] bibliotecaria spiega come cercare [[g8]] titolo e controlla [[g9]] restituzioni. [[g10]] secondo è [[g11]] sala per leggere giornali e riviste. Qui [[g12]] persone parlano a voce bassa e lasciano i tavoli in ordine. Il terzo servizio è un laboratorio digitale. I partecipanti imparano a usare il catalogo, a scrivere un messaggio e a riconoscere informazioni poco affidabili. Non devono comunicare password o dati personali agli altri. Il quarto servizio è uno spazio per le lingue. Una volta alla settimana si incontrano piccoli gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come la casa, il tempo libero o il cibo. Una volontaria prepara le domande e aiuta chi non trova una parola. Gli incontri sono gratuiti; per partecipare occorre prenotare un posto. Le attività cambiano ogni mese. Gli orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "Una"
+      "Una",
+      "La"
      ]
     },
     {
@@ -89,7 +90,8 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {

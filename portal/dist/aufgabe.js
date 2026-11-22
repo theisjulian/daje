@@ -183,7 +183,7 @@ async function klReport(taskId, done) {
     p_secret: klCur.secret,
     p_task: taskId,
     p_correct: done ? st.lastResult?.correct || 0 : 0,
-    p_total: graded.length,
+    p_total: done && st.lastResult?.total ? st.lastResult.total : graded.reduce((n, q) => n + TheisContent.scoreAnswer(q, '').max, 0),
     p_answers: done ? per : {},
     p_done: !!done
   };

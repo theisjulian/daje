@@ -58,13 +58,15 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "visto"
+      "visto",
+      "letto"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "letto"
+      "letto",
+      "visto"
      ]
     },
     {

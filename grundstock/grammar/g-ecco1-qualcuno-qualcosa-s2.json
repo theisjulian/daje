@@ -50,7 +50,7 @@
    "prompt": "Completa la storia.",
    "promptHelp": "Ergänze die Geschichte.",
    "type": "gap_fill",
-   "text": "Lunedì mattina in classe c’è [[g1]] di strano: la lavagna è piena di disegni.\n«Chi è stato? [[g2]] è entrato di notte!», dice la prof.\nNessuno sa [[g3]].\n[[g4]] guarda il compagno vicino.\nPoi Pietro dice: «Ho visto [[g5]] con un cappello nero ieri sera.»\nLa prof chiama il bidello: anche lui non ha visto [[g6]].\nAlla fine si scopre: è il nuovo professore di arte! Ha fatto [[g7]] di bello per la classe.\nE da allora disegna sulla lavagna [[g8]] lunedì.",
+   "text": "Lunedì mattina in classe c’è [[g1]] di strano: la lavagna è piena di disegni.\n«Chi è stato? [[g2]] è entrato di notte!», dice la prof.\nNessuno sa [[g3]].\n[[g4]] guarda il compagno vicino.\nPoi Pietro dice: «Ho visto [[g5]] con un cappello nero ieri sera.»\nLa prof chiama il bidello: neanche lui ha visto [[g6]].\nAlla fine si scopre: è il nuovo professore di arte! Ha fatto [[g7]] di bello per la classe.\nE da allora disegna sulla lavagna [[g8]] lunedì.",
    "gaps": [
     {
      "id": "g1",
@@ -85,7 +85,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "nessuno"
+      "nessuno",
+      "niente"
      ]
     },
     {

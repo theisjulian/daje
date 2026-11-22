@@ -52,8 +52,8 @@
   {
    "id": "q1",
    "type": "open_answer",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «debba» — dovere, congiuntivo presente\n2. «sia» — essere, congiuntivo presente\n3. «dia» — dare, congiuntivo presente\n4. «indichi» — indicare, congiuntivo presente\n5. «rimanga» — rimanere, congiuntivo presente\n6. «la adottino» — adottare, loro, congiuntivo presente con pronome",
-   "modelAnswer": "1. congiuntivo presente\n2. congiuntivo presente\n3. congiuntivo presente\n4. congiuntivo presente\n5. congiuntivo presente\n6. congiuntivo presente",
+   "prompt": "Classifica le forme verbali evidenziate nel loro contesto: indica infinito, modo e tempo. Spiega quale indizio ti aiuta.\n1. «debba»\n2. «sia»\n3. «dia»\n4. «indichi»\n5. «rimanga»\n6. «la adottino»",
+   "modelAnswer": "1. dovere — congiuntivo presente (dopo «pensano che»)\n2. essere — congiuntivo presente (dopo «dimostrare che»)\n3. dare — congiuntivo presente (dopo «teme che»)\n4. indicare — congiuntivo presente (dopo «chiede che»)\n5. rimanere — congiuntivo presente (dopo «è possibile che»)\n6. adottare — congiuntivo presente, con pronome «la» (dopo «è altrettanto possibile che»)",
    "lines": 7,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
   }

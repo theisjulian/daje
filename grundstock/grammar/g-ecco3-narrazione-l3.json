@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-narrazione-l3",
+ "title": "Descrizione, fatto o «prima»?",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Descrizione, fatto o «prima»? · livello facile.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Erlebnisse erzählen: Erzähltempora und Konnektoren"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Per **raccontare** un’esperienza usiamo tre tempi:\n| **imperfetto** | descrizione, abitudine, azione in corso | _Ogni mattina **prendevo** l’autobus. **Faceva** freddo._ |\n| **passato prossimo** | fatto unico e finito | _Il primo giorno **ho conosciuto** la mia classe._ |\n| **trapassato prossimo** | fatto successo prima | _Prima di partire **avevo studiato** l’italiano._ |\nI **connettivi** mettono in ordine il racconto:\n| **all’inizio** → **poi** → **dopo un po’** → **a un certo punto** → **alla fine** | l’ordine nel tempo |\n| **mentre** + imperfetto | due azioni insieme: _**Mentre** aspettavo, è arrivata Sara._ |\n| **siccome** (all’inizio della frase) | la causa: _**Siccome** pioveva, sono rimasto a casa._ |\n| **quindi** | la conseguenza: _Pioveva, **quindi** sono rimasto a casa._ |\n| **però** | il contrasto: _Ero stanco, **però** felice._ |\n| **infatti** | conferma, esempio: _Era bravo: **infatti** ha vinto._ |",
+  "ruleHelp": "Beim **Erzählen**: **imperfetto** für Beschreibung, Gewohnheit, Hintergrund; **passato prossimo** für einmalige, abgeschlossene Ereignisse; **trapassato prossimo** für das, was vorher schon geschehen war.\n**Konnektoren**: all’inizio (am Anfang), poi (dann), dopo un po’ (nach einer Weile), a un certo punto (irgendwann), alla fine (am Ende), mentre (während), siccome (da/weil – am Satzanfang), quindi (deshalb), però (aber), infatti (tatsächlich, nämlich)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Perché questo tempo? Metti le frasi nel gruppo giusto.",
+   "promptHelp": "Warum diese Zeitform? Ordne die Sätze der richtigen Gruppe zu.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "d",
+     "label": "Descrizione o abitudine (imperfetto)"
+    },
+    {
+     "id": "f",
+     "label": "Fatto unico (passato prossimo)"
+    },
+    {
+     "id": "p",
+     "label": "Fatto successo prima (trapassato prossimo)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "La casa della famiglia ospitante era grande e luminosa.",
+     "category": "d"
+    },
+    {
+     "id": "i2",
+     "text": "Ogni mattina prendevo l’autobus alle sette.",
+     "category": "d"
+    },
+    {
+     "id": "i3",
+     "text": "Il 2 settembre sono arrivata a Lione.",
+     "category": "f"
+    },
+    {
+     "id": "i4",
+     "text": "Quel giorno ho conosciuto la mia classe.",
+     "category": "f"
+    },
+    {
+     "id": "i5",
+     "text": "Di solito cenavamo tutti insieme alle otto.",
+     "category": "d"
+    },
+    {
+     "id": "i6",
+     "text": "Una sera ho cucinato i canederli per tutti.",
+     "category": "f"
+    },
+    {
+     "id": "i7",
+     "text": "Prima della partenza avevo seguito un corso di francese.",
+     "category": "p"
+    },
+    {
+     "id": "i8",
+     "text": "Faceva freddo e pioveva spesso.",
+     "category": "d"
+    },
+    {
+     "id": "i9",
+     "text": "A Natale sono tornata a casa per una settimana.",
+     "category": "f"
+    },
+    {
+     "id": "i10",
+     "text": "Non avevo mai vissuto così lontano dai miei.",
+     "category": "p"
+    },
+    {
+     "id": "i11",
+     "text": "I miei genitori mi avevano regalato una valigia nuova per il viaggio.",
+     "category": "p"
+    },
+    {
+     "id": "i12",
+     "text": "All’improvviso è entrato il preside.",
+     "category": "f"
+    }
+   ]
+  }
+ ]
+}

@@ -58,73 +58,85 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "sono stati pubblicati"
+      "sono stati pubblicati",
+      "I dati sono stati pubblicati"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "sono precise"
+      "sono precise",
+      "Le percentuali sono precise"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "sono gratuite"
+      "sono gratuite",
+      "Le attività sono gratuite"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "sono brevi"
+      "sono brevi",
+      "I periodi sono brevi"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "sono state corrette"
+      "sono state corrette",
+      "Le domande sono state corrette"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "sono inventati"
+      "sono inventati",
+      "Gli esempi sono inventati"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "sono indicate"
+      "sono indicate",
+      "Le fonti sono indicate"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "sono distinti"
+      "sono distinti",
+      "I gruppi sono distinti"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "sono verificate"
+      "sono verificate",
+      "Le informazioni sono verificate"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "sono ingannevoli"
+      "sono ingannevoli",
+      "I titoli sono ingannevoli"
      ]
     },
     {
      "id": "g11",
      "acceptedAnswers": [
-      "sono state raccolte"
+      "sono state raccolte",
+      "Le risposte sono state raccolte"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "sono utili"
+      "sono utili",
+      "I confronti sono utili"
      ]
     }
    ],

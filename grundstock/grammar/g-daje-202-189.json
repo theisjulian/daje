@@ -46,13 +46,14 @@
   {
    "id": "q1a",
    "type": "gap_fill",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)",
+   "prompt": "Scrivi la parola di base: per i nomi il verbo all’infinito, per gli avverbi in -mente l’aggettivo (maschile singolare). (parte 1/2)",
    "text": "iscrizione → [[g1]]\npreparazione → [[g2]]\nosservazione → [[g3]]\ncostruzione → [[g4]]\nriflessione → [[g5]]\ncollaborazione → [[g6]]\nesposizione → [[g7]]\nvalutazione → [[g8]]\ncomprensione → [[g9]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "iscriversi"
+      "iscriversi",
+      "iscrivere"
      ]
     },
     {
@@ -104,12 +105,12 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Schreibe das Grundwort: zum Nomen das Verb im Infinitiv, zum Adverb auf -mente das Adjektiv (maskulin Singular)."
   },
   {
    "id": "q1b",
    "type": "gap_fill",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)",
+   "prompt": "Scrivi la parola di base: per i nomi il verbo all’infinito, per gli avverbi in -mente l’aggettivo (maschile singolare). (parte 2/2)",
    "text": "lentamente → [[g1]]\nconcretamente → [[g2]]\nchiaramente → [[g3]]\ndirettamente → [[g4]]\nautonomamente → [[g5]]\nresponsabilmente → [[g6]]\ndisegno → [[g7]]\nfunzione → [[g8]]\nindicazioni → [[g9]]",
    "gaps": [
     {

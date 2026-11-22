@@ -273,7 +273,7 @@
     "der Aufzug"
    ],
    "definition": "Cabina che porta ai piani di un palazzo.",
-   "example": "Prendo l’ascensore al quinto piano.",
+   "example": "Prendo l’ascensore per salire al quinto piano.",
    "related": "F l’ascenseur (m.)",
    "usage": "m."
   },
@@ -323,7 +323,7 @@
    ],
    "definition": "Treno sotterraneo di una città.",
    "example": "Prendo la metro per andare a scuola.",
-   "related": "F le métropolitain",
+   "related": "F le métro",
    "acceptedAnswers": [
     "la metro"
    ],
@@ -394,7 +394,7 @@
    ],
    "definition": "Per una sola persona.",
    "example": "Compro un biglietto singolo.",
-   "related": "E single; F singulier"
+   "related": "E single"
   },
   {
    "id": "u3-approccio-025",

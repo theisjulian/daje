@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-presente-m4",
+ "title": "Fatto o opinione?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo presente · Fatto o opinione? · livello medio.",
+ "topics": [
+  "Il congiuntivo presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-presente",
+  "topicTitle": "Il congiuntivo presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 24,
+  "rule": "Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._\n| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |\n| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |\n| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |\n| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |\n| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |\n**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**\n**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.\n**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._\n**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._",
+  "ruleHelp": "Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).\nDie drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.\nUnregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.\n**Indikativ** nach _secondo me, so che, è vero che, vedo che_.\nGleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Indicativo o congiuntivo? Guarda bene l’inizio della frase.",
+   "promptHelp": "Indikativ oder congiuntivo? Achte auf den Satzanfang.",
+   "explanation": "so che, è vero che, vedo che, secondo me → indicativo · penso che, credo che, spero che, mi sembra che, è possibile che → congiuntivo.",
+   "explanationHelp": "Sicheres Wissen und secondo me → Indikativ; Meinung, Hoffnung, Möglichkeit → congiuntivo.",
+   "type": "gap_choice",
+   "text": "Secondo me, i videogiochi [[g1]] divertenti.\nPenso che i videogiochi [[g2]] divertenti.\nSo che Marta [[g3]] un nuovo profilo.\nCredo che Marta [[g4]] un nuovo profilo.\nÈ vero che Internet [[g5]] essere pericoloso.\nÈ possibile che Internet [[g6]] essere pericoloso.\nSpero che il Wi-Fi [[g7]] anche in giardino.\nVedo che il Wi-Fi [[g8]] anche in giardino.\nMi sembra che tu [[g9]] troppo al telefono.\nAnche secondo mia madre [[g10]] troppo al telefono.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono",
+      "siano"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "siano",
+      "sono"
+     ],
+     "answer": "siano"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ha",
+      "abbia"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "abbia",
+      "ha"
+     ],
+     "answer": "abbia"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "può",
+      "possa"
+     ],
+     "answer": "può"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "possa",
+      "può"
+     ],
+     "answer": "possa"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "funzioni",
+      "funziona"
+     ],
+     "answer": "funzioni"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "funziona",
+      "funzioni"
+     ],
+     "answer": "funziona"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "stia",
+      "stai"
+     ],
+     "answer": "stia"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sto",
+      "stia"
+     ],
+     "answer": "sto"
+    }
+   ]
+  }
+ ]
+}

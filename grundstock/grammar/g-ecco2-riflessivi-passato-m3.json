@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-m3",
+ "title": "Sì o no?",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Sì o no? · livello medio.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con una frase completa al passato prossimo.",
+   "promptHelp": "Antworte mit einem ganzen Satz im passato prossimo.",
+   "explanation": "ti sei …? → mi sono …; vi siete …? → ci siamo …",
+   "explanationHelp": "ti sei …? → mi sono …; vi siete …? → ci siamo …",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca, ti sei divertito alla festa? – Sì, …",
+     "acceptedAnswers": [
+      "mi sono divertito"
+     ],
+     "modelAnswer": "Sì, mi sono divertito."
+    },
+    {
+     "id": "s2",
+     "start": "Ragazze, vi siete annoiate al museo? – No, non …",
+     "acceptedAnswers": [
+      "ci siamo annoiate"
+     ],
+     "modelAnswer": "No, non ci siamo annoiate."
+    },
+    {
+     "id": "s3",
+     "start": "Signora Rossi, si è riposata un po’? – Sì, grazie, …",
+     "acceptedAnswers": [
+      "mi sono riposata"
+     ],
+     "modelAnswer": "Sì, grazie, mi sono riposata."
+    },
+    {
+     "id": "s4",
+     "start": "I bambini si sono lavati le mani? – Sì, …",
+     "acceptedAnswers": [
+      "si sono lavati"
+     ],
+     "modelAnswer": "Sì, si sono lavati le mani."
+    },
+    {
+     "id": "s5",
+     "start": "Anna, ti sei fatta male? – No, non …",
+     "acceptedAnswers": [
+      "mi sono fatta male"
+     ],
+     "modelAnswer": "No, non mi sono fatta male."
+    },
+    {
+     "id": "s6",
+     "start": "Ragazzi, vi siete persi in città? – Sì, …",
+     "acceptedAnswers": [
+      "ci siamo persi"
+     ],
+     "modelAnswer": "Sì, ci siamo persi."
+    },
+    {
+     "id": "s7",
+     "start": "Marco e Lia, vi siete conosciuti a scuola? – Sì, …",
+     "acceptedAnswers": [
+      "ci siamo conosciuti"
+     ],
+     "modelAnswer": "Sì, ci siamo conosciuti a scuola."
+    },
+    {
+     "id": "s8",
+     "start": "Le tue amiche si sono iscritte al corso? – Sì, …",
+     "acceptedAnswers": [
+      "si sono iscritte"
+     ],
+     "modelAnswer": "Sì, si sono iscritte al corso."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-l1",
+ "title": "Diretto e indiretto",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Diretto e indiretto · livello facile.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il discorso diretto al discorso indiretto.",
+   "promptHelp": "Verbinde die direkte Rede mit der indirekten Rede.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "«Sono stanco.»",
+     "right": "Dice che è stanco."
+    },
+    {
+     "id": "p2",
+     "left": "«Sei stanco?»",
+     "right": "Chiede se sono stanco."
+    },
+    {
+     "id": "p3",
+     "left": "«Perché sei stanco?»",
+     "right": "Chiede perché sono stanco."
+    },
+    {
+     "id": "p4",
+     "left": "«Lavoro in banca.»",
+     "right": "Dice che lavora in banca."
+    },
+    {
+     "id": "p5",
+     "left": "«Dove lavori?»",
+     "right": "Chiede dove lavoro."
+    },
+    {
+     "id": "p6",
+     "left": "«Quando cominci?»",
+     "right": "Chiede quando comincio."
+    },
+    {
+     "id": "p7",
+     "left": "«Lavora di più!»",
+     "right": "Dice di lavorare di più."
+    },
+    {
+     "id": "p8",
+     "left": "«Non lavorare troppo!»",
+     "right": "Dice di non lavorare troppo."
+    }
+   ]
+  }
+ ]
+}

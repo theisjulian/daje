@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-pronomi-combinati-s2",
+ "title": "Dopo le feste",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · Dopo le feste · livello difficile.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · kombinierte Objektpronomen (me lo, te la, glielo, ce ne …)"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "Pronome **indiretto** + pronome **diretto** (o **ne**): prima l’indiretto, poi il diretto. **mi, ti, ci, vi** diventano **me, te, ce, ve**; **gli** e **le** diventano **glie-** (una parola sola).\n| | lo | la | li | le | ne |\n| mi | me lo | me la | me li | me le | me ne |\n| ti | te lo | te la | te li | te le | te ne |\n| gli / le | glielo | gliela | glieli | gliele | gliene |\n| ci | ce lo | ce la | ce li | ce le | ce ne |\n| vi | ve lo | ve la | ve li | ve le | ve ne |\n**Posizione:**\n- prima del verbo: _**Te lo** presto. **Glielo** dico._\n- attaccati all’infinito e all’imperativo: _Voglio dir**glielo**. Dam**melo**! Di**glielo**! Porta**glieli**!_\n- con dovere, potere, volere due posizioni: _**Te lo** posso dare. = Posso dar**telo**._\n**Passato prossimo:** il participio concorda con lo, la, li, le: _Gliel’ho dat**o**. Gliel’ho dat**a**. Glieli ho dat**i**. Gliele ho dat**e**._",
+  "ruleHelp": "Treffen **indirektes** und **direktes Pronomen** (oder **ne**) zusammen, steht zuerst das indirekte: mi, ti, ci, vi werden zu **me, te, ce, ve** (_me lo, te la, ce li, ve ne_); gli und le (ihm, ihr, ihnen) werden beide zu **glie-** und zusammengeschrieben (_glielo, gliela, glieli, gliele, gliene_).\nStellung: vor dem konjugierten Verb (_Te lo presto_), aber angehängt an Infinitiv und Imperativ (_dirglielo, dammelo, diglielo_). Mit Modalverb geht beides: _Te lo posso dare = Posso dartelo._\nIm passato prossimo richtet sich das Partizip nach dem direkten Pronomen: _Gliel’ho data_ (la), _Glieli ho dati_ (li). Anders als im Deutschen (ich gebe **es ihm**) steht im Italienischen der Dativ zuerst."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi al passato prossimo con il pronome combinato. Attenzione al participio!",
+   "promptHelp": "Antworte im passato prossimo mit dem kombinierten Pronomen. Achte auf das Partizip!",
+   "explanation": "Il participio concorda con lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Con ne + numero: gliene ho dati tre.",
+   "explanationHelp": "Das Partizip richtet sich nach lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Mit ne + Zahl: gliene ho dati tre.",
+   "type": "gap_fill",
+   "text": "– Hai dato il regalo a Matteo? – Sì, [[g1]] ieri.\n– Hai mandato la cartolina ai nonni? – Sì, [[g2]] lunedì.\n– Avete portato i dolci alla zia? – Sì, [[g3]] domenica.\n– Chi vi ha preparato le lasagne? – [[g4]] la nonna.\n– Chi ti ha fatto questa foto? – [[g5]] mio cugino.\n– Luca ti ha restituito i guanti? – No, non [[g6]] ancora.\n– Hai detto la verità a tua madre? – Sì, [[g7]].\n– Quanti cioccolatini hai dato a tuo fratello? – [[g8]] tre.\n– Vi hanno spiegato le regole del gioco? – Sì, [[g9]] bene.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "gliel’ho dato",
+      "glielo ho dato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "gliel’ho mandata",
+      "gliela ho mandata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "glieli abbiamo portati"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Ce le ha preparate"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Me l’ha fatta",
+      "Me la ha fatta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "me li ha restituiti"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "gliel’ho detta",
+      "gliela ho detta"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Gliene ho dati"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ce le hanno spiegate"
+     ]
+    }
+   ]
+  }
+ ]
+}

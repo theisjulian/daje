@@ -82,13 +82,15 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "tappe"
+      "tappe",
+      "soste"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "soste"
+      "soste",
+      "tappe"
      ]
     },
     {

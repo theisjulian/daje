@@ -47,12 +47,12 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Scrivi articolo e nome al plurale.",
-   "promptHelp": "Setze Artikel und Nomen in den Plural.",
+   "prompt": "Scrivi le parole tra parentesi al plurale (con l’articolo se c’è).",
+   "promptHelp": "Setze die Wörter in Klammern in den Plural (mit Artikel, wenn einer dabeisteht).",
    "explanation": "il banco → i banchi (h!) · l’insegnante può essere maschile o femminile.",
    "explanationHelp": "il banco → i banchi (mit h) · l’insegnante kann m oder f sein.",
    "type": "gap_fill",
-   "text": "In classe ci sono venti (il banco) [[g1]].\nSul tavolo ci sono (il libro) [[g2]] di Marco.\n(La finestra) [[g3]] sono grandi.\n(Lo zaino) [[g4]] sono sotto i banchi.\n(L’amica) [[g5]] di Sara sono in classe 3B.\nCi sono anche due (la lavagna) [[g6]].\n(L’insegnante) [[g7]] sono simpatici.\n(Il quaderno) [[g8]] sono nello zaino.",
+   "text": "In classe ci sono venti (banco) [[g1]].\nSul tavolo ci sono (il libro) [[g2]] di Marco.\n(La finestra) [[g3]] sono grandi.\n(Lo zaino) [[g4]] sono sotto i banchi.\n(L’amica) [[g5]] di Sara sono in classe 3B.\nCi sono anche due (lavagna) [[g6]].\n(L’insegnante) [[g7]] sono gentili.\n(Il quaderno) [[g8]] sono nello zaino.",
    "gaps": [
     {
      "id": "g1",

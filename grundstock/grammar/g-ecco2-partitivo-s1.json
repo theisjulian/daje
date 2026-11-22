@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-partitivo-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "L’articolo partitivo · Trova gli errori · livello difficile.",
+ "topics": [
+  "L’articolo partitivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco2-partitivo",
+  "topicTitle": "L’articolo partitivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "L’**articolo partitivo** = **di + articolo**. Indica una quantità **non precisa**.\n| | singolare = un po’ di | plurale = alcuni / alcune |\n| maschile | **del** pane, **dello** zucchero, **dell’**olio | **dei** biglietti, **degli** amici |\n| femminile | **della** musica, **dell’**acqua | **delle** canzoni |\n- _Compro **del** pane._ = _Compro **un po’ di** pane._\n- _Ho **degli** amici a Roma._ = _Ho **alcuni** amici / **qualche** amic**o** a Roma._ (qualche + **singolare**!)\n**Attenzione:**\n- Dopo **non** niente partitivo: _**Non** ho soldi. **Non** mangio carne._\n- Dopo una quantità solo **di**: _un chilo **di** mele, una bottiglia **di** acqua, un po’ **di** tempo_. Con **molto, poco, troppo, tanto** niente di: _molti amici, poca acqua_.",
+  "ruleHelp": "Der **Teilungsartikel** (di + bestimmter Artikel: del, dello, dell’, della, dei, degli, delle) bezeichnet eine **unbestimmte Menge**. Im Deutschen steht dann meist gar kein Artikel oder „etwas / einige“: _Compro del pane_ = Ich kaufe (etwas) Brot. _Ho degli amici_ = Ich habe (einige) Freunde.\nGleichbedeutend: Singular **un po’ di**, Plural **alcuni/alcune** oder **qualche + Singular** (_qualche amico_).\nNach **Verneinung** steht kein Teilungsartikel (_Non ho soldi_ = Ich habe kein Geld), nach **Mengenangaben** nur **di** (_un chilo di mele_); molto/poco/troppo/tanto stehen ohne di (_molti amici_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Dopo non: niente partitivo. Dopo una quantità (un litro, tre pacchi): solo di. qualche + singolare.",
+   "explanationHelp": "Nach non: kein Teilungsartikel. Nach Mengenangaben (un litro, tre pacchi): nur di. qualche + Singular.",
+   "type": "error_correction",
+   "text": "Non ho [[g1]] per il biglietto.\nVorrei un litro [[g2]] latte, per favore.\nHo qualche [[g3]] che suona la chitarra.\nVuoi [[g4]] zucchero nel caffè?\nAbbiamo ascoltato [[g5]] canzoni bellissime.\nConosco [[g6]] canzoni di questo gruppo.\nIn frigo c’è [[g7]] formaggio.\nNon mangio [[g8]]: sono vegetariana.\nStasera vengono [[g9]] amici di mio fratello.\nPer la cena compriamo tre pacchi [[g10]] pasta.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "dei soldi",
+     "acceptedAnswers": [
+      "soldi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "del",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "amici",
+     "acceptedAnswers": [
+      "amico"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "del",
+     "acceptedAnswers": [
+      "dello"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "dei",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "alcuni",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "dei",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "della carne",
+     "acceptedAnswers": [
+      "carne"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "dei",
+     "acceptedAnswers": [
+      "degli"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "della",
+     "acceptedAnswers": [
+      "di"
+     ]
+    }
+   ]
+  }
+ ]
+}

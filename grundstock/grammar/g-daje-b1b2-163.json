@@ -141,7 +141,7 @@
   {
    "id": "q2",
    "type": "gap_fill",
-   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "prompt": "Scrivi le forme richieste. Sono indicati il verbo, il modo e il tempo, la persona.",
    "text": "1. ascoltare — congiuntivo presente — voi → [[g1]]\n2. osservare — congiuntivo imperfetto — noi → [[g2]]\n3. avere — congiuntivo imperfetto — voi → [[g3]]\n4. ricevere — congiuntivo presente — lui/lei → [[g4]]\n5. fare — congiuntivo presente — loro → [[g5]]\n6. avere — congiuntivo presente — loro → [[g6]]",
    "gaps": [
     {
@@ -181,12 +181,12 @@
      ]
     }
    ],
-   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+   "promptHelp": "Bilde die verlangten Formen. Angegeben sind Verb, Modus und Zeit sowie die Person."
   },
   {
    "id": "q3",
    "type": "gap_fill",
-   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "prompt": "Scrivi le forme richieste. Sono indicati il verbo, il modo e il tempo, la persona.",
    "text": "1. lavorare — condizionale presente — io → [[g1]]\n2. potere — condizionale presente — lui/lei → [[g2]]\n3. essere — condizionale presente — tu → [[g3]]\n4. venire — condizionale presente — lui/lei → [[g4]]\n5. invitare — condizionale presente — tu → [[g5]]\n6. conservare — condizionale presente — tu → [[g6]]",
    "gaps": [
     {
@@ -226,7 +226,7 @@
      ]
     }
    ],
-   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+   "promptHelp": "Bilde die verlangten Formen. Angegeben sind Verb, Modus und Zeit sowie die Person."
   }
  ]
 }

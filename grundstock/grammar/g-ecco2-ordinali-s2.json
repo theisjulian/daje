@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-s2",
+ "title": "Note in piazza",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · Note in piazza · livello difficile.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo: scrivi in lettere gli ordinali e le frazioni.",
+   "promptHelp": "Ergänze den Text: Schreibe Ordnungszahlen und Brüche in Buchstaben.",
+   "explanation": "Noi suoniamo per diciassettesimi / arriviamo quinti: l’ordinale concorda con il soggetto (noi → -i). Frazioni: un terzo, tre quarti.",
+   "explanationHelp": "Die Ordnungszahl richtet sich nach dem Subjekt (noi → -i). Brüche: un terzo (ein Drittel), tre quarti (drei Viertel).",
+   "type": "gap_fill",
+   "text": "Il festival del nostro paese comincia sempre il (1º) [[g1]] sabato di luglio.\nQuest’anno è la (25ª) [[g2]] edizione.\nIl palco è davanti a una chiesa del (XVI) [[g3]] secolo.\nSul palco salgono venti gruppi: noi suoniamo per (17º) [[g4]].\nLa (3ª) [[g5]] canzone la cantiamo in dialetto.\nL’anno scorso siamo arrivati al (10º) [[g6]] posto; quest’anno speriamo di arrivare almeno (5º) [[g7]].\nGià adesso (3/4) [[g8]] dei biglietti sono venduti.\nSolo (1/3) [[g9]] delle nostre canzoni è in inglese: le altre sono in italiano.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "primo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "venticinquesima"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sedicesimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "diciassettesimi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "terza"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "decimo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "quinti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tre quarti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "un terzo"
+     ]
+    }
+   ]
+  }
+ ]
+}

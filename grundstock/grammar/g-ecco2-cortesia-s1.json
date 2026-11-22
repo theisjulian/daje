@@ -1,0 +1,139 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cortesia-s1",
+ "title": "Dammi del Lei!",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Dammi del Lei! · livello difficile.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ der Höflichkeitsform (Lei), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "Con **Lei** (forma di cortesia) l’imperativo ha le forme del congiuntivo:\n| -are → **-i** | scusare → **scusi** · aspettare → **aspetti** · guardare → **guardi** |\n| -ere → **-a** | prendere → **prenda** · scrivere → **scriva** |\n| -ire → **-a** | sentire → **senta** · finire → **finisca** |\n**Irregolari:** andare → **vada** · venire → **venga** · dire → **dica** · fare → **faccia** · dare → **dia** · stare → **stia**\nI **pronomi** stanno **prima** del verbo: _**Mi** dica! · **Si** accomodi! · **Lo** prenda pure!_\nNegativo: _**Non** si preoccupi! · **Non** lo dica a nessuno!_\n| tu | Lei |\n| Scusa! | Scusi! |\n| Dimmi! | Mi dica! |\n| Accomodati! | Si accomodi! |\n| Non preoccuparti! | Non si preoccupi! |",
+  "ruleHelp": "Der **Imperativ der Höflichkeitsform (Lei)** hat die Formen des congiuntivo: -are → **-i** (scusi, aspetti), -ere / -ire → **-a** (prenda, senta). Unregelmäßig: vada, venga, dica, faccia, dia, stia.\nWichtig: Beim Lei-Imperativ stehen die Pronomen **vor** dem Verb (_Mi dica! Si accomodi!_), beim tu-Imperativ hängen sie am Verb (_Dimmi! Accomodati!_). Verneint: _Non si preoccupi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma le frasi dal tu al Lei. Attenzione ai pronomi!",
+   "promptHelp": "Forme die Sätze von tu in Lei um. Achte auf die Pronomen!",
+   "explanation": "tu: pronome dopo il verbo (dimmi, scrivilo) · Lei: pronome prima del verbo (mi dica, lo scriva).",
+   "explanationHelp": "tu: Pronomen hinter dem Verb · Lei: Pronomen vor dem Verb.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Entra e accomodati! → …",
+     "acceptedAnswers": [
+      "Entri e si accomodi"
+     ],
+     "modelAnswer": "Entri e si accomodi!"
+    },
+    {
+     "id": "s2",
+     "start": "Dimmi tutto! → …",
+     "acceptedAnswers": [
+      "Mi dica tutto"
+     ],
+     "modelAnswer": "Mi dica tutto!"
+    },
+    {
+     "id": "s3",
+     "start": "Non preoccuparti! → …",
+     "acceptedAnswers": [
+      "Non si preoccupi"
+     ],
+     "modelAnswer": "Non si preoccupi!"
+    },
+    {
+     "id": "s4",
+     "start": "Dammi il telefono, per favore! → …",
+     "acceptedAnswers": [
+      "Mi dia il telefono"
+     ],
+     "modelAnswer": "Mi dia il telefono, per favore!"
+    },
+    {
+     "id": "s5",
+     "start": "Fammi vedere lo schermo! → …",
+     "acceptedAnswers": [
+      "Mi faccia vedere lo schermo"
+     ],
+     "modelAnswer": "Mi faccia vedere lo schermo!"
+    },
+    {
+     "id": "s6",
+     "start": "Aspettami qui! → …",
+     "acceptedAnswers": [
+      "Mi aspetti qui"
+     ],
+     "modelAnswer": "Mi aspetti qui!"
+    },
+    {
+     "id": "s7",
+     "start": "Va’ dritto e poi gira a destra! → …",
+     "acceptedAnswers": [
+      "Vada dritto e poi giri a destra"
+     ],
+     "modelAnswer": "Vada dritto e poi giri a destra!"
+    },
+    {
+     "id": "s8",
+     "start": "Vieni domani e porta il caricabatterie! → …",
+     "acceptedAnswers": [
+      "Venga domani e porti il caricabatterie"
+     ],
+     "modelAnswer": "Venga domani e porti il caricabatterie!"
+    },
+    {
+     "id": "s9",
+     "start": "Scrivilo qui! → …",
+     "acceptedAnswers": [
+      "Lo scriva qui"
+     ],
+     "modelAnswer": "Lo scriva qui!"
+    },
+    {
+     "id": "s10",
+     "start": "Non dirlo a nessuno! → …",
+     "acceptedAnswers": [
+      "Non lo dica a nessuno"
+     ],
+     "modelAnswer": "Non lo dica a nessuno!"
+    }
+   ]
+  }
+ ]
+}

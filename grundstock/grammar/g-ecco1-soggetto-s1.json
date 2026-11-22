@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Completa con pronome e verbo, come nell’esempio: Io abito a Torino, lui … a Milano.",
-   "promptHelp": "Ergänze mit Pronomen und Verb, wie im Beispiel.",
+   "prompt": "Completa con il verbo, come nell’esempio: Io abito a Torino, lui abita a Milano.",
+   "promptHelp": "Ergänze das Verb wie im Beispiel: Io abito a Torino, lui abita a Milano.",
    "explanation": "Nel contrasto il pronome serve.",
    "explanationHelp": "Beim Gegensatz braucht man das Pronomen.",
    "type": "sentence_completion",
@@ -71,11 +71,11 @@
     },
     {
      "id": "s3",
-     "start": "Lui sta bene, lei … male.",
+     "start": "Lui sta bene, noi … male.",
      "acceptedAnswers": [
-      "sta"
+      "stiamo"
      ],
-     "modelAnswer": "Lui sta bene, lei sta male."
+     "modelAnswer": "Lui sta bene, noi stiamo male."
     },
     {
      "id": "s4",
@@ -103,11 +103,11 @@
     },
     {
      "id": "s7",
-     "start": "Lei (Anna) abita in centro, lui (Marco) … in periferia.",
+     "start": "Lei (Anna) abita in centro, io … in periferia.",
      "acceptedAnswers": [
-      "abita"
+      "abito"
      ],
-     "modelAnswer": "Lui abita in periferia."
+     "modelAnswer": "Lei abita in centro, io abito in periferia."
     },
     {
      "id": "s8",

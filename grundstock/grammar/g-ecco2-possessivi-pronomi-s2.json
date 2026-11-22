@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-possessivi-pronomi-s2",
+ "title": "Una mail dallo stage",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi possessivi · Una mail dallo stage · livello difficile.",
+ "topics": [
+  "I pronomi possessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-pronomi",
+  "topicTitle": "I pronomi possessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)\n| | singolare | plurale |\n| io | il mio · la mia | i miei · le mie |\n| tu | il tuo · la tua | i tuoi · le tue |\n| lui / lei | il suo · la sua | i suoi · le sue |\n| noi | il nostro · la nostra | i nostri · le nostre |\n| voi | il vostro · la vostra | i vostri · le vostre |\n| loro | il loro · la loro | i loro · le loro |\nIl pronome ha **sempre l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_\nDopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._\n**Loro** non cambia mai: _il loro, la loro, i loro, le loro._",
+  "ruleHelp": "Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.\nAls Pronomen steht es **immer mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).\nNach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il possessivo. Attenzione: con l’articolo o senza?",
+   "promptHelp": "Ergänze das Possessivum. Achtung: mit oder ohne Artikel?",
+   "explanation": "mia madre, mio cugino, tua sorella: senza articolo. Ma il pronome: la mia.",
+   "explanationHelp": "mia madre, mio cugino, tua sorella: ohne Artikel. Aber das Pronomen: la mia.",
+   "type": "gap_fill",
+   "text": "Ciao Davide, come va (tu) [[g1]] stage?\n(io) [[g2]] è cominciato lunedì.\n(io) [[g3]] madre dice che è un’esperienza importante.\nLavoro con (io) [[g4]] cugino Paolo: (noi) [[g5]] capo è molto gentile.\nPaolo ha già (lui) [[g6]] scrivania; (io) [[g7]] arriva domani.\nI colleghi mangiano in mensa con (loro) [[g8]] amici.\nE (voi) [[g9]] colleghi come sono? (noi) [[g10]] sono simpatici.\n(tu) [[g11]] sorella lavora ancora in farmacia? (io) [[g12]] ha cambiato lavoro.\nA presto, Matteo",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il tuo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Il mio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Mia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mio"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "il nostro"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "la sua"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "la mia"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "i loro"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "i vostri"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "I nostri"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "Tua"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "La mia"
+     ]
+    }
+   ]
+  }
+ ]
+}

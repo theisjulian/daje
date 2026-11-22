@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-s1",
+ "title": "Domanda o relativo?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Domanda o relativo? · livello difficile.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 71,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | wer? | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Chi è una parola interrogativa (wer?) o un pronome relativo (= la persona che)?",
+   "promptHelp": "Ist chi ein Fragewort (wer?) oder ein Relativpronomen (= derjenige, der)?",
+   "explanation": "Anche nella domanda indiretta (Non so chi …, Dimmi chi …) chi è interrogativo.",
+   "explanationHelp": "Auch in der indirekten Frage (Non so chi …, Dimmi chi …) ist chi ein Fragewort.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "chi interrogativo (wer?)"
+    },
+    {
+     "id": "b",
+     "label": "chi relativo (= la persona che)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Chi ha scritto questa mail?",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Chi ha scritto questa mail deve firmarla.",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "Non so chi viene alla riunione.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Chi viene alla riunione riceve il programma.",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "Con chi lavori quest’estate?",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "Lavoro bene con chi è puntuale.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "Dimmi chi ti ha aiutato.",
+     "category": "a"
+    },
+    {
+     "id": "i8",
+     "text": "Ringrazio chi mi ha aiutato.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "Di chi è questo curriculum?",
+     "category": "a"
+    },
+    {
+     "id": "i10",
+     "text": "Chi dorme non piglia pesci.",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

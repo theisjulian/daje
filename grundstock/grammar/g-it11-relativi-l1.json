@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-relativi-l1",
+ "title": "Che, cui o chi?",
+ "language": "it",
+ "level": "B1",
+ "description": "Relativi, il/la cui e il che · Che, cui o chi? · livello facile.",
+ "topics": [
+  "Relativi, il/la cui e il che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Relativpronomen (che, cui, il quale, il cui, il che, chi)"
+ },
+ "grammar": {
+  "topic": "it11-relativi",
+  "topicTitle": "Relativi, il/la cui e il che",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "| **che** | soggetto o oggetto diretto | _il libro **che** leggo_ |\n| preposizione + **cui** | di cui, a cui, con cui, in cui, per cui, da cui, su cui | _l’amico **con cui** esco_ |\n| preposizione + **il quale / la quale / i quali / le quali** | più formale; concorda con il nome | _l’amica **con la quale** esco_ · _il tema **del quale** parliamo_ |\n| **il cui / la cui / i cui / le cui** | possesso (dessen, deren) | _la scrittrice **i cui** romanzi amo_ |\n| **il che** | = e questo (tutta la frase prima) | _Arriva sempre tardi, **il che** mi dà fastidio._ |\n| **chi** | = la persona che (verbo al singolare) | _**Chi** arriva tardi non trova posto._ |\n| **colui che / colei che / coloro che** | formale: quello che / quella che / quelli che | _**Coloro che** vogliono possono restare._ |\nAttenzione: l’articolo davanti a **cui** concorda con la cosa **posseduta**, non con il possessore: _un ragazzo **la cui** sorell**a** …_, _una ragazza **il cui** padr**e** …_",
+  "ruleHelp": "**che** = der/die/das (Subjekt oder direktes Objekt); nach **Präposition** steht **cui** (unveränderlich) oder förmlicher **il quale / la quale / i quali / le quali** (angeglichen, mit verschmolzener Präposition: del quale, alla quale, nei quali).\n**il cui / la cui / i cui / le cui** = dessen/deren. Anders als im Deutschen richtet sich der Artikel nach dem **Besitz**, nicht nach dem Besitzer: _un ragazzo la cui sorella …_ (ein Junge, dessen Schwester …).\n**il che** = „was“ mit Bezug auf den ganzen Satz: _Arriva sempre tardi, il che mi dà fastidio._\n**chi** = „wer / derjenige, der“ (Verb im Singular); förmlich **colui che, colei che, coloro che**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome giusto.",
+   "promptHelp": "Wähle das richtige Pronomen.",
+   "explanation": "Dopo una preposizione: cui. Senza preposizione: che. Chi = la persona che (senza nome prima).",
+   "explanationHelp": "Nach Präposition: cui. Ohne Präposition: che. Chi = „wer“ (ohne Bezugswort davor).",
+   "type": "gap_choice",
+   "text": "Il film [[g1]] abbiamo visto ieri era lunghissimo.\nLa ragazza con [[g2]] divido la stanza viene da Bari.\nÈ un problema di [[g3]] si parla molto.\nIl professore [[g4]] insegna storia è molto giovane.\nLa città in [[g5]] sono nata è piccola.\n[[g6]] arriva tardi non trova posto.\nEcco il motivo per [[g7]] non ti ho scritto.\nGli amici [[g8]] ho invitato arrivano alle otto.\nÈ una persona a [[g9]] voglio molto bene.\nIl sito da [[g10]] ho scaricato la canzone non funziona più.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "cui",
+      "che",
+      "quale"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "che",
+      "cui",
+      "il cui"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Chi",
+      "Che",
+      "Cui"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "cui",
+      "che",
+      "quale"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    }
+   ]
+  }
+ ]
+}

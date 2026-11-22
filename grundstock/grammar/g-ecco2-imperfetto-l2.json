@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperfetto-l2",
+ "title": "Da bambini",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Da bambini · livello facile.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · imperfetto: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Con l’**imperfetto** raccontiamo **abitudini** e facciamo **descrizioni** nel passato.\n| | parl**are** | legg**ere** | dorm**ire** | **essere** |\n| io | parl**avo** | legg**evo** | dorm**ivo** | **ero** |\n| tu | parl**avi** | legg**evi** | dorm**ivi** | **eri** |\n| lui / lei | parl**ava** | legg**eva** | dorm**iva** | **era** |\n| noi | parl**avamo** | legg**evamo** | dorm**ivamo** | **eravamo** |\n| voi | parl**avate** | legg**evate** | dorm**ivate** | **eravate** |\n| loro | parl**avano** | legg**evano** | dorm**ivano** | **erano** |\n**Irregolari:** fare → **facevo**, dire → **dicevo**, bere → **bevevo**. C’è → **c’era**, ci sono → **c’erano**.\n_Da bambino **giocavo** sempre in cortile. La casa **era** piccola e **aveva** un giardino._\nParole tipiche: _da bambino, da piccola, di solito, sempre, ogni estate, una volta_.",
+  "ruleHelp": "Das **imperfetto** steht für **Gewohnheiten** und **Beschreibungen** in der Vergangenheit (wie war es früher? was machte man immer?).\nEndungen: -**avo**, -**avi**, -**ava**, -**avamo**, -**avate**, -**avano** (ebenso -evo …, -ivo …). **essere:** ero, eri, era, eravamo, eravate, erano.\nUnregelmäßig: fare → facevo, dire → dicevo, bere → bevevo.\nSignalwörter: da bambino, di solito, sempre, ogni estate, una volta (früher)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta dell’imperfetto.",
+   "promptHelp": "Wähle die richtige Form des imperfetto.",
+   "explanation": "fare → facevo, dire → dicevo, bere → bevevo.",
+   "explanationHelp": "fare → facevo, dire → dicevo, bere → bevevo.",
+   "type": "gap_choice",
+   "text": "Da bambino io [[g1]] sempre in cortile.\nMia sorella [[g2]] un gatto bianco.\nNoi [[g3]] in una casa piccola.\nI nonni [[g4]] molto gentili.\nE tu, dove [[g5]] in vacanza?\nOgni domenica la mamma [[g6]] una torta.\nTu e Luca [[g7]] nella stessa classe?\nIl nonno [[g8]] sempre: «Piano piano!»\nD’estate io e i miei cugini [[g9]] tanta limonata.\nLe maestre [[g10]] una storia ogni mattina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "giocavo",
+      "giocava",
+      "giocavi"
+     ],
+     "answer": "giocavo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "aveva",
+      "avevo",
+      "avevano"
+     ],
+     "answer": "aveva"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "abitavamo",
+      "abitavate",
+      "abitavano"
+     ],
+     "answer": "abitavamo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "erano",
+      "era",
+      "eravamo"
+     ],
+     "answer": "erano"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "andavi",
+      "andavo",
+      "andava"
+     ],
+     "answer": "andavi"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "faceva",
+      "facevo",
+      "fava"
+     ],
+     "answer": "faceva"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "eravate",
+      "eravamo",
+      "erano"
+     ],
+     "answer": "eravate"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "diceva",
+      "dicevo",
+      "direva"
+     ],
+     "answer": "diceva"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "bevevamo",
+      "bevavamo",
+      "bevevano"
+     ],
+     "answer": "bevevamo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "leggevano",
+      "leggeva",
+      "leggevamo"
+     ],
+     "answer": "leggevano"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-subordinate-congiuntivo-s2",
+ "title": "Unisci le frasi",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo nelle subordinate · Unisci le frasi · livello difficile.",
+ "topics": [
+  "Il congiuntivo nelle subordinate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo nach Konjunktionen (benché, affinché, prima che, a meno che, purché …)"
+ },
+ "grammar": {
+  "topic": "ecco3-subordinate-congiuntivo",
+  "topicTitle": "Il congiuntivo nelle subordinate",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Dopo alcune **congiunzioni** usiamo sempre il **congiuntivo**:\n| **benché, sebbene, nonostante** | _Benché **piova**, usciamo._ |\n| **affinché, perché** (scopo) | _Parlo piano affinché tutti **capiscano**._ |\n| **prima che** | _Torno prima che **faccia** buio._ |\n| **a meno che (non)** | _Vengo, a meno che non **sia** malato._ |\n| **a patto che, purché** | _Ti aiuto, purché tu **stia** attento._ |\n| **senza che** | _Esce senza che i genitori lo **sappiano**._ |\n| **nel caso che** | _Porto l’ombrello nel caso che **piova**._ |\n**Attenzione!** Con queste parole usiamo l’**indicativo**:\n- **anche se**: _Anche se **piove**, usciamo._\n- **dopo che**: _Dopo che **ha mangiato**, esce._\n- **perché** (causa): _Resto a casa perché **sono** stanco._\nSe il **soggetto è lo stesso**, usiamo l’**infinito**: _**prima di** uscire, **senza** salutare, **per** capire_.",
+  "ruleHelp": "Nach bestimmten **Konjunktionen** steht immer der **congiuntivo**: _benché / sebbene / nonostante_ (obwohl), _affinché / perché_ (damit), _prima che_ (bevor), _a meno che (non)_ (es sei denn), _a patto che / purché_ (vorausgesetzt, dass), _senza che_ (ohne dass), _nel caso che_ (falls).\n**Aber Indikativ** nach _anche se_ (auch wenn / obwohl), _dopo che_ (nachdem) und _perché_ = weil. Achtung: _perché_ + Indikativ = weil, _perché_ + congiuntivo = damit.\nBei **gleichem Subjekt** steht der Infinitiv: _prima di uscire_ (bevor ich gehe), _senza salutare_ (ohne zu grüßen), _per capire_ (um zu verstehen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Fai una sola frase con la congiunzione tra parentesi.",
+   "promptHelp": "Bilde einen einzigen Satz mit der Konjunktion in Klammern.",
+   "explanation": "Tutte con il congiuntivo, solo anche se con l’indicativo.",
+   "explanationHelp": "Alle mit congiuntivo, nur anche se mit Indikativ.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Piove. La processione parte lo stesso. (benché)",
+     "acceptedAnswers": [
+      "Benché piova"
+     ],
+     "modelAnswer": "Benché piova, la processione parte lo stesso."
+    },
+    {
+     "id": "s2",
+     "start": "Il museo è chiuso. I turisti aspettano davanti alla porta. (sebbene)",
+     "acceptedAnswers": [
+      "Sebbene il museo sia chiuso"
+     ],
+     "modelAnswer": "Sebbene il museo sia chiuso, i turisti aspettano davanti alla porta."
+    },
+    {
+     "id": "s3",
+     "start": "La guida parla lentamente. Così i turisti capiscono tutto. (affinché)",
+     "acceptedAnswers": [
+      "affinché i turisti capiscano tutto"
+     ],
+     "modelAnswer": "La guida parla lentamente affinché i turisti capiscano tutto."
+    },
+    {
+     "id": "s4",
+     "start": "Gli ospiti arrivano. Prima la nonna apparecchia la tavola. (prima che)",
+     "acceptedAnswers": [
+      "prima che arrivino gli ospiti",
+      "prima che gli ospiti arrivino"
+     ],
+     "modelAnswer": "La nonna apparecchia la tavola prima che arrivino gli ospiti. (anche: prima che gli ospiti arrivino)"
+    },
+    {
+     "id": "s5",
+     "start": "Luca può venire alla festa. Condizione: porta un dolce. (a patto che)",
+     "acceptedAnswers": [
+      "a patto che porti un dolce"
+     ],
+     "modelAnswer": "Luca può venire alla festa a patto che porti un dolce."
+    },
+    {
+     "id": "s6",
+     "start": "Domani facciamo il picnic di Pasquetta. Solo la pioggia può fermarci. (a meno che non)",
+     "acceptedAnswers": [
+      "a meno che non piova"
+     ],
+     "modelAnswer": "Domani facciamo il picnic di Pasquetta, a meno che non piova."
+    },
+    {
+     "id": "s7",
+     "start": "Sara esce di casa. I genitori non lo sanno. (senza che)",
+     "acceptedAnswers": [
+      "senza che i genitori lo sappiano"
+     ],
+     "modelAnswer": "Sara esce di casa senza che i genitori lo sappiano."
+    },
+    {
+     "id": "s8",
+     "start": "Forse fa freddo. Porto una giacca. (nel caso che)",
+     "acceptedAnswers": [
+      "nel caso che faccia freddo"
+     ],
+     "modelAnswer": "Porto una giacca nel caso che faccia freddo."
+    },
+    {
+     "id": "s9",
+     "start": "Il biglietto costa molto. Vado al concerto lo stesso. (anche se)",
+     "acceptedAnswers": [
+      "Anche se il biglietto costa molto"
+     ],
+     "modelAnswer": "Anche se il biglietto costa molto, vado al concerto lo stesso."
+    }
+   ]
+  }
+ ]
+}

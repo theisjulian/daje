@@ -9340,3 +9340,10 @@ dialog[tabindex='-1']:focus { outline: none; }
 #teaching-print .hb-exn { flex: none; display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 6px; border-radius: 8px; background: var(--ac, #111); color: #fff; font-size: 11pt; font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 #teaching-print[data-design='klassisch'] .hb-exn { background: #fff; color: #111; border: 1.5px solid #111; border-radius: 2px; }
 #teaching-print .hb-q-solo .hb-qh .n { visibility: hidden; }
+
+/* Teilpunkte: Rückmeldung je Aufgabe mit Punktzahl; Lösungen nur zu den falschen Stellen als Liste */
+.listen-feedback.partial { border-color: var(--amber, #c9891a); background: color-mix(in srgb, var(--amber, #c9891a) 10%, transparent); }
+.listen-feedback .fb-score { display: inline-block; margin-left: 0.35em; padding: 0.05em 0.55em; border-radius: 999px; font-size: 0.82em; font-weight: 700; font-variant-numeric: tabular-nums; background: color-mix(in srgb, currentColor 10%, transparent); }
+.listen-feedback .sol-list { margin: 0.3em 0 0.5em; padding-left: 1.7em; display: grid; gap: 0.2em; }
+.listen-feedback ul.sol-list { padding-left: 1.2em; }
+.listen-feedback .sol-list li { padding-left: 0.15em; }

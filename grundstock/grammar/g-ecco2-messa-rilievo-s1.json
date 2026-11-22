@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · Trova gli errori · livello difficile.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Con lo, la, li, le prima di avere il participio concorda: le ho mandate.",
+   "explanationHelp": "Stehen lo, la, li, le vor avere, wird das Partizip angeglichen: le ho mandate.",
+   "type": "error_correction",
+   "text": "[[g1]] io che pago.\nSiete voi che [[g2]].\nIl libro, [[g3]] già letto.\nA Maria, [[g4]] ho scritto ieri.\nDi questo, [[g5]] parliamo dopo.\nÈ Marco [[g6]] ha chiamato.\n[[g7]] piace il jazz, a lei no.\nLe foto, le ho [[g8]] a tutti.\nA Roma, [[g9]] vado domani.\nI biglietti, [[g10]] compro io.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "È",
+     "acceptedAnswers": [
+      "Sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "decide",
+     "acceptedAnswers": [
+      "decidete"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "ho",
+     "acceptedAnswers": [
+      "l’ho"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "la",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "lo",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Me",
+     "acceptedAnswers": [
+      "A me"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "mandato",
+     "acceptedAnswers": [
+      "mandate"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "ne",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "lo",
+     "acceptedAnswers": [
+      "li"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-l3",
+ "title": "Quale forma?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · Quale forma? · livello facile.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Dopo se: congiuntivo trapassato (avessi, fossi …). Nella frase principale: condizionale composto (avrei, sarei …).",
+   "explanationHelp": "Nach se: congiuntivo trapassato; im Hauptsatz: condizionale composto.",
+   "type": "gap_choice",
+   "text": "Se [[g1]] della raccolta di libri, avrei portato i miei.\nSe fossimo arrivati prima, [[g2]] posto.\nSe tu [[g3]] con noi, ti saresti divertita.\nSe non avesse nevicato, i volontari [[g4]] alle sei.\nSe Matteo [[g5]] aiuto, lo avremmo aiutato.\nSe aveste letto l’avviso, [[g6]] tutto.\nSe i ragazzi [[g7]] più attenti, non avrebbero rotto il vetro.\nSe me lo avessi detto, [[g8]] a casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avessi saputo",
+      "avrei saputo",
+      "abbia saputo"
+     ],
+     "answer": "avessi saputo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "avremmo trovato",
+      "avessimo trovato",
+      "troveremo"
+     ],
+     "answer": "avremmo trovato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "fossi venuta",
+      "saresti venuta",
+      "sei venuta"
+     ],
+     "answer": "fossi venuta"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sarebbero partiti",
+      "fossero partiti",
+      "partiranno"
+     ],
+     "answer": "sarebbero partiti"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avesse chiesto",
+      "avrebbe chiesto",
+      "chiederebbe"
+     ],
+     "answer": "avesse chiesto"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "avreste capito",
+      "aveste capito",
+      "capirete"
+     ],
+     "answer": "avreste capito"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "fossero stati",
+      "sarebbero stati",
+      "siano stati"
+     ],
+     "answer": "fossero stati"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sarei rimasto",
+      "fossi rimasto",
+      "rimarrò"
+     ],
+     "answer": "sarei rimasto"
+    }
+   ]
+  }
+ ]
+}

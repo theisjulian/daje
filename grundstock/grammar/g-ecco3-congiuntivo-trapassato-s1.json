@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "Dopo pensavo che, credevo che, era strano che, avevo paura che, magari, come se: congiuntivo, non indicativo o condizionale.",
+   "explanationHelp": "Nach diesen Ausdrücken steht der congiuntivo, nicht Indikativ oder Konditional.",
+   "type": "error_correction",
+   "text": "Pensavo che Marta [[g1]] già tornata dal campo di lavoro.\nCredevamo che i ragazzi [[g2]] partiti il giorno prima.\nMagari [[g3]] ascoltato i tuoi consigli!\nMi guardava come se [[g4]] detto una cosa strana.\nEra strano che le ragazze non fossero [[g5]] alla riunione.\nNon pensavo che tu [[g6]] già letto il mio articolo.\nAvevo paura che voi vi [[g7]] dimenticati di me.\nTeneva la scopa in mano come se non ne [[g8]] mai vista una.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "era",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "avessero",
+     "acceptedAnswers": [
+      "fossero"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "avrei",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ho",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "venuto",
+     "acceptedAnswers": [
+      "venute"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "eravate",
+     "acceptedAnswers": [
+      "foste"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "fosse",
+     "acceptedAnswers": [
+      "avesse"
+     ]
+    }
+   ]
+  }
+ ]
+}

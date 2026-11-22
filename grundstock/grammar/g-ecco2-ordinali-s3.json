@@ -1,0 +1,238 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-s3",
+ "title": "Secoli, re e frazioni",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · Secoli, re e frazioni · livello difficile.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 25,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Come si legge «il XXI secolo»?",
+   "promptHelp": "Wie liest man „il XXI secolo“?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "il ventunesimo secolo"
+    },
+    {
+     "id": "o2",
+     "text": "il ventuno secolo"
+    },
+    {
+     "id": "o3",
+     "text": "il ventiunesimo secolo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "L’anno 1850 è nel …",
+   "promptHelp": "Das Jahr 1850 liegt im …",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "diciannovesimo secolo"
+    },
+    {
+     "id": "o2",
+     "text": "diciottesimo secolo"
+    },
+    {
+     "id": "o3",
+     "text": "ventesimo secolo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Come si legge «Luigi XIV»?",
+   "promptHelp": "Wie liest man „Luigi XIV“?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Luigi quattordicesimo"
+    },
+    {
+     "id": "o2",
+     "text": "Luigi quattordicesima"
+    },
+    {
+     "id": "o3",
+     "text": "Luigi quattordiciesimo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Gli anni dal 1501 al 1600 sono …",
+   "promptHelp": "Die Jahre von 1501 bis 1600 sind …",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "il sedicesimo secolo"
+    },
+    {
+     "id": "o2",
+     "text": "il quindicesimo secolo"
+    },
+    {
+     "id": "o3",
+     "text": "il diciassettesimo secolo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Come si dice 3/4?",
+   "promptHelp": "Wie sagt man 3/4?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "tre quarti"
+    },
+    {
+     "id": "o2",
+     "text": "tre quarto"
+    },
+    {
+     "id": "o3",
+     "text": "terzo quattro"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Come si dice 1/3?",
+   "promptHelp": "Wie sagt man 1/3?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "un terzo"
+    },
+    {
+     "id": "o2",
+     "text": "un tre"
+    },
+    {
+     "id": "o3",
+     "text": "uno terzi"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Dopo il ventesimo viene il …",
+   "promptHelp": "Nach dem zwanzigsten kommt der …",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "ventunesimo"
+    },
+    {
+     "id": "o2",
+     "text": "ventiduesimo"
+    },
+    {
+     "id": "o3",
+     "text": "diciannovesimo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Le nostre amiche sono arrivate dodicesime."
+    },
+    {
+     "id": "o2",
+     "text": "Le nostre amiche sono arrivate dodicesimi."
+    },
+    {
+     "id": "o3",
+     "text": "Le nostre amiche sono arrivate dodicesimo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q9",
+   "prompt": "Come si legge «la 33ª edizione»?",
+   "promptHelp": "Wie liest man „la 33ª edizione“?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "la trentatreesima edizione"
+    },
+    {
+     "id": "o2",
+     "text": "la trentatresima edizione"
+    },
+    {
+     "id": "o3",
+     "text": "la trentatreesimo edizione"
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Trova gli errori · livello difficile.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i nove errori.",
+   "promptHelp": "Korrigiere die neun Fehler.",
+   "explanation": "„sich bedanken“ = ringraziare qualcuno; „sich ereignen“ = succedere; „sich ändern“ = cambiare: senza pronome riflessivo! accorgersi **di** qualcosa.",
+   "explanationHelp": "ringraziare, succedere, cambiare: ohne Reflexivpronomen! accorgersi di.",
+   "type": "error_correction",
+   "text": "Ieri mi [[g1]] svegliato tardi.\nGiulia si è [[g2]] a Bologna.\nVorrei [[g3]] per il vostro aiuto.\nChe cosa [[g4]] ieri sera?\nNegli ultimi anni il clima [[g5]] molto.\nLuca e Sara [[g6]] conosciuti in vacanza.\nNon mi sono accorta [[g7]].\nStamattina mi [[g8]] dovuto alzare prestissimo.\nMio fratello [[g9]] Davide.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "ho",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "laureato",
+     "acceptedAnswers": [
+      "laureata"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "ringraziarmi",
+     "acceptedAnswers": [
+      "ringraziarvi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "si è successo",
+     "acceptedAnswers": [
+      "è successo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "si è cambiato",
+     "acceptedAnswers": [
+      "è cambiato"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "si hanno",
+     "acceptedAnswers": [
+      "si sono"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "l’errore",
+     "acceptedAnswers": [
+      "dell’errore"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "ho",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "chiama",
+     "acceptedAnswers": [
+      "si chiama"
+     ]
+    }
+   ]
+  }
+ ]
+}

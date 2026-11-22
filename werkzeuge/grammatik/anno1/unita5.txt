@@ -51,14 +51,14 @@ inverno
 
 %übung leicht | Feste in Italia
 ?auswahl | Scegli la data giusta. || Wähle das richtige Datum.
-Capodanno: {il primo gennaio*|l’uno gennaio|il uno gennaio}
+Capodanno: {il primo gennaio*|la prima gennaio|il uno gennaio}
 La festa della donna: {l’otto marzo*|il otto marzo|lo otto marzo}
 La festa della Repubblica: {il due giugno*|il secondo giugno|i due giugno}
 Ferragosto: {il quindici agosto*|la quindici agosto|il quindicesimo agosto}
 San Martino: {l’undici novembre*|il undici novembre|l’undicesimo novembre}
 Natale: {il venticinque dicembre*|il venticinquesimo dicembre|la venticinque dicembre}
 Santo Stefano: {il ventisei dicembre*|il ventiseiesimo dicembre|l’ventisei dicembre}
-La festa dei lavoratori: {il primo maggio*|l’uno maggio|il uno maggio}
+La festa dei lavoratori: {il primo maggio*|il un maggio|il uno maggio}
 ! Solo il primo giorno con il numero ordinale (il primo). Gli altri: il + numero, davanti a vocale l’ (l’otto, l’undici). || Nur der Erste mit Ordnungszahl. Sonst il + Grundzahl, vor Vokal l’.
 
 %übung mittel | Quando è il compleanno?
@@ -108,25 +108,25 @@ Zeilen: 4
 ?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
 Il mio compleanno è [il otto=>l’otto] marzo.
 Oggi è il [uno=>primo] maggio.
-Natale è il venticinque [Dicembre=>dicembre].
+Natale è [la=>il] venticinque dicembre.
 La festa è [l’undicesimo=>l’undici] giugno.
 Il mio compleanno è [lo=>il] tre aprile.
 Oggi è [il=>l’] undici novembre.
 La gita è [il secondo=>il due] ottobre.
 Ci vediamo [il sabato 14 marzo=>sabato 14 marzo].
-! I mesi minuscoli, il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data. || Monate klein, il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.
+! il + numero (il venticinque), il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data. || il + Zahl (il venticinque), il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.
 
 %übung schwer | Il calendario di Khalid
-?luecke | Scrivi la data con o senza articolo. || Setze das Datum mit oder ohne Artikel ein.
+?luecke | Scrivi la data in lettere, con o senza articolo. || Schreibe das Datum in Worten, mit oder ohne Artikel.
 Il mio compleanno è (19.4.) [il diciannove aprile].
-Ma festeggio (sabato 20.4.) [sabato venti aprile].
+Ma festeggio (sabato 25.4.) [sabato venticinque aprile].
 Il compleanno di Anna è (1.4.) [il primo aprile].
 La sua festa è (venerdì 3.4.) [venerdì tre aprile].
 Lunedì (6.4.) [sei aprile] gioca la Juve.
 Il compleanno del nonno è (24.4.) [il ventiquattro aprile].
 La festa del nonno è (domenica 26.4.) [domenica ventisei aprile].
 La mia festa è (25.4.) [il venticinque aprile].
-! Con il giorno della settimana: niente articolo (sabato venti aprile). || Mit Wochentag kein Artikel.
+! Con il giorno della settimana: niente articolo (sabato venticinque aprile). || Mit Wochentag kein Artikel.
 
 @thema possessivi-2 | 5 · Famiglia e gite | Parte A | I possessivi con i nomi di famiglia | 2
 #lehrplan Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen
@@ -203,12 +203,12 @@ E questa è (meine) [mia] cugina Sofia con (ihre) [sua] madre.
 ?ergaenzen | Rispondi con una frase completa e il possessivo giusto. || Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.
 Come si chiama tua madre? (Laura) – … | Mia madre si chiama Laura | Mia madre si chiama Laura.
 Dove abitano i tuoi nonni? (a Roma) – … | I miei nonni abitano a Roma | I miei nonni abitano a Roma.
-Quanti anni ha tuo fratello? (12) – … | Mio fratello ha dodici anni | Mio fratello ha dodici anni.
+Quanti anni ha tuo fratello? (12) – … | Mio fratello ha dodici anni/Mio fratello ha 12 anni | Mio fratello ha dodici anni.
 Com’è la tua famiglia? (grande) – … | La mia famiglia è grande | La mia famiglia è grande.
 Che lavoro fa vostro padre? (medico) – … | Nostro padre è medico/Nostro padre fa il medico | Nostro padre è medico.
 Come si chiamano le tue sorelle? (Ada e Bea) – … | Le mie sorelle si chiamano Ada e Bea | Le mie sorelle si chiamano Ada e Bea.
 Dove abita tua zia? (a Bari) – … | Mia zia abita a Bari | Mia zia abita a Bari.
-Com’è il tuo papà? (simpatico) – … | Il mio papà è simpatico | Il mio papà è simpatico.
+Com’è il tuo papà? (simpatico) – … | Il mio papà è simpatico/Mio papà è simpatico | Il mio papà è simpatico.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi le parole segnate. || Korrigiere die markierten Ausdrücke.
@@ -250,7 +250,7 @@ madre | [mia madre]
 fratelli | [i miei fratelli]
 sorelle | [le mie sorelle]
 famiglia | [la mia famiglia]
-mamma | [la mia mamma]
+mamma | [la mia mamma/mia mamma]
 zio | [mio zio]
 cugine | [le mie cugine]
 
@@ -268,13 +268,13 @@ cugine | [le mie cugine]
 
 %übung leicht | Unire le frasi
 ?zuordnen | Abbina le parti della frase. || Was passt zusammen?
-Ho un cugino = che abita a Roma.
-Ecco il libro = che mi piace tanto.
-Questa è la ragazza = che parla tre lingue.
+Ho un cugino = che è molto alto e sportivo.
+Ecco il libro = che leggo a scuola.
+Questa è la ragazza = che è nuova nella nostra classe.
 Il ristorante = che preferisco è in centro.
-Ho un cane = che si chiama Rex.
+Ho un cane = che abbaia sempre.
 Questi sono i ragazzi = che giocano a calcio.
-È un film = che mi piace molto.
+È un film = che guardiamo al cinema.
 Conosco una signora = che ha novant’anni.
 
 %übung leicht | Quale frase relativa?
@@ -360,7 +360,7 @@ Il libro [cosa=>che] leggo è bello.
 È un film che [piacciono=>piace] a tutti.
 Ho due gatti che [dorme=>dormono] sempre.
 La ragazza [quale=>che] parla è mia cugina.
-Le scarpe che [compro=>compro] sono nuove.
+Le scarpe che compro [è=>sono] nuove.
 Il nonno che [raccontano=>racconta] storie è simpatico.
 ! che non cambia mai; il verbo va con il nome. || che bleibt gleich; das Verb richtet sich nach dem Nomen.
 
@@ -563,10 +563,10 @@ Giochiamo a pallavolo? → … | Giochiamo a pallavolo | Giochiamo a pallavolo!
 (alla classe, tu sei con loro) {Andiamo*|Andate|Va’} in palestra!
 (a Sara e Paolo) {Ascoltate*|Ascoltiamo|Ascolta}!
 (a Marco, negativo) Non {correre*|correte|corriamo}!
-(a te e ai tuoi amici) {Facciamo*|Fate|Fa’} una foto!
+(ai tuoi amici, tu sei con loro) {Facciamo*|Fate|Fa’} una foto!
 (ai bambini, negativo) Non {gridate*|gridare|gridiamo}!
 (a Giulia) {Chiudi*|Chiudiamo|Chiudete} la porta!
-(a te e a tua sorella) {Puliamo*|Pulite|Pulisci} la camera!
+(a tua sorella, tu lavori con lei) {Puliamo*|Pulite|Pulisci} la camera!
 ! noi = proposta (faccio anch’io) · voi = ordine a più persone · tu negativo: non + infinito. || noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.
 
 %übung schwer | Programmare un fine settimana

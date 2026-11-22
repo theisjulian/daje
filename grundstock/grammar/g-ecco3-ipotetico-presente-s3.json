@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-s3",
+ "title": "Reale o no?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Reale o no? · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Guarda l’altro verbo della frase: realtà o possibilità? Completa con la forma giusta.",
+   "promptHelp": "Sieh dir das andere Verb im Satz an: reale oder nur mögliche Bedingung? Ergänze die passende Form.",
+   "explanation": "Condizionale nella frase principale → se + congiuntivo imperfetto. Presente, futuro o imperativo → se + presente / futuro.",
+   "explanationHelp": "Konditional im Hauptsatz → se + congiuntivo imperfetto. Präsens, Futur oder Imperativ → se + Präsens / Futur.",
+   "type": "gap_fill",
+   "text": "Non ho la patente. Ma se (avere, io) [[g1]] la macchina, ti accompagnerei all’aeroporto.\nDomani sono libera: se (fare) [[g2]] bel tempo, andiamo al lago?\nSe tu studiassi un po’ di più, (passare, tu) [[g3]] l’esame senza problemi.\nSe perdi il treno delle otto, (prendere, tu) [[g4]] quello delle nove.\nMio fratello vive a Londra. Se (abitare, lui) [[g5]] più vicino, lo vedrei più spesso.\nSe vieni a Monaco a fine settembre, ti (portare, io) [[g6]] all’Oktoberfest.\nSe i voli costassero meno, i miei nonni (venire) [[g7]] a trovarci ogni estate.\nSe (essere, noi) [[g8]] ricchi, faremmo il giro del mondo.\nSe (volere, voi) [[g9]] vedere le foto del mio anno in Irlanda, ve le mando stasera.\nSe non (esserci) [[g10]] Internet, sentirei molto di più la nostalgia di casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fa",
+      "farà"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "passeresti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "prendi",
+      "prenderai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abitasse"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "porto",
+      "porterò"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "verrebbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "fossimo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "volete",
+      "vorrete"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ci fosse"
+     ]
+    }
+   ]
+  }
+ ]
+}

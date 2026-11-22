@@ -70,7 +70,9 @@
      "id": "g3",
      "wrong": "Chi",
      "acceptedAnswers": [
-      "Che cosa"
+      "Che cosa",
+      "Cosa",
+      "Che"
      ]
     },
     {
@@ -103,9 +105,10 @@
     },
     {
      "id": "g8",
-     "wrong": "Quando",
+     "wrong": "Chi",
      "acceptedAnswers": [
-      "A che ora"
+      "A che ora",
+      "Quando"
      ]
     }
    ]

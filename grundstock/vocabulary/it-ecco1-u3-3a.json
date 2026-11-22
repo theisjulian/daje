@@ -432,7 +432,7 @@
    "translations": [
     "die Note"
    ],
-   "definition": "Numero che indica come ti sei comportato in una prova.",
+   "definition": "Numero che indica come sei andato in una prova.",
    "example": "Che voto hai preso, Khalid?",
    "grammar": {
     "partOfSpeech": "noun",

@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-l2",
+ "title": "Tipo I, II o III?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · Tipo I, II o III? · livello facile.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che tipo di periodo ipotetico è?",
+   "promptHelp": "Welcher Typ von Bedingungssatz ist das?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "tipo I (realtà)"
+    },
+    {
+     "id": "b",
+     "label": "tipo II (possibilità)"
+    },
+    {
+     "id": "c",
+     "label": "tipo III (irrealtà nel passato)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se domani c’è il sole, puliamo la spiaggia.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Se avrò tempo, verrò alla riunione.",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "Se hai bisogno di aiuto, chiamami.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Se avessi più tempo, farei volontariato.",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "Se fossi il sindaco, costruirei più piste ciclabili.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Se tutti usassero la bici, l’aria sarebbe più pulita.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "Se avessi saputo della raccolta, avrei portato dei vestiti.",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "Se fossimo partiti prima, non avremmo perso il treno.",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "Se non avesse piovuto, la festa sarebbe stata in piazza.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

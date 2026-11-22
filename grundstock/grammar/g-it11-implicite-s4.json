@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-implicite-s4",
+ "title": "Come ho imparato …",
+ "language": "it",
+ "level": "B1",
+ "description": "Gerundio e participi · Come ho imparato … · livello difficile.",
+ "topics": [
+  "Gerundio e participi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)"
+ },
+ "grammar": {
+  "topic": "it11-implicite",
+  "topicTitle": "Gerundio e participi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 14,
+  "rule": "Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.\n| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |\n| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |\n\n| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |\n| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |\n| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |\n| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |\n| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |\n**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).\nI **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.\nIl **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.",
+  "ruleHelp": "**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.\ngerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.\nPartizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.\nPronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta come hai imparato qualcosa (uno sport, uno strumento, una lingua). Usa almeno tre gerundi (anche uno con pur) e un participio passato all’inizio della frase (Finito …, Arrivata …).",
+   "promptHelp": "Erzähle, wie du etwas gelernt hast (Sport, Instrument, Sprache). Verwende mindestens drei Gerundien (eines mit pur) und ein Partizip Perfekt am Satzanfang.",
+   "type": "open_answer",
+   "modelAnswer": "Ho imparato a suonare la chitarra guardando video su Internet. Non avendo un insegnante, all’inizio facevo molti errori. Pur esercitandomi ogni giorno, per mesi non sono riuscito a suonare una canzone intera. Finito il primo anno, però, ho suonato alla festa della scuola. Avendo superato la paura, adesso suono in un gruppo.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Il participio presente: abbina le espressioni con lo stesso significato.",
+   "promptHelp": "Das Partizip Präsens: Verbinde die Ausdrücke mit gleicher Bedeutung.",
+   "explanation": "Il participio presente (-ante, -ente) corrisponde a una frase relativa con che.",
+   "explanationHelp": "Das Partizip Präsens (-ante, -ente) entspricht einem Relativsatz mit che.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "un film divertente",
+     "right": "un film che diverte"
+    },
+    {
+     "id": "p2",
+     "left": "gli studenti partecipanti",
+     "right": "gli studenti che partecipano"
+    },
+    {
+     "id": "p3",
+     "left": "una storia commovente",
+     "right": "una storia che commuove"
+    },
+    {
+     "id": "p4",
+     "left": "l’acqua bollente",
+     "right": "l’acqua che bolle"
+    },
+    {
+     "id": "p5",
+     "left": "i paesi confinanti",
+     "right": "i paesi che confinano"
+    },
+    {
+     "id": "p6",
+     "left": "una persona sorridente",
+     "right": "una persona che sorride"
+    },
+    {
+     "id": "p7",
+     "left": "il sole nascente",
+     "right": "il sole che nasce"
+    },
+    {
+     "id": "p8",
+     "left": "un libro interessante",
+     "right": "un libro che interessa"
+    }
+   ]
+  }
+ ]
+}

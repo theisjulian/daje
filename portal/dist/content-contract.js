@@ -302,7 +302,7 @@
             fail(path + '.correctOptionIds', 'mindestens eine Antwort muss falsch sein');
         } else if (q.type === 'matching') {
           const ids = new Set();
-          z.pairs = arr(q.pairs, path + '.pairs', 2, 8).map((v, j) => {
+          z.pairs = arr(q.pairs, path + '.pairs', 2, 10).map((v, j) => {
             v = obj(v, path + '.pairs[' + j + ']');
             const p = {
               id: id(v.id, path + '.pairs[' + j + '].id'),
@@ -415,7 +415,7 @@
           });
         } else if (q.type === 'sentence_completion') {
           const ids = new Set();
-          z.items = arr(q.items, path + '.items', 1, 8).map((v, j) => {
+          z.items = arr(q.items, path + '.items', 1, 12).map((v, j) => {
             const ip = path + '.items[' + j + ']';
             v = obj(v, ip);
             const o = { id: id(v.id, ip + '.id'), start: str(v.start, ip + '.start', 300), acceptedAnswers: strings(v.acceptedAnswers, ip + '.acceptedAnswers') };
@@ -631,7 +631,43 @@
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;
     return q.acceptedAnswers.some(a => norm(a) === norm(raw));
   }
-  const api = { validatePackage, assessAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
+  /* Teilpunkte: je Lücke, Paar, Satz oder Zuordnung ein Punkt; Auswahl-, Kurzantwort- und Ordnungsaufgaben zählen als ein Punkt.
+     Ergebnis { got, max, units: { id: true|false } }; offene Antworten haben max 0 (keine automatische Bewertung). */
+  function scoreAnswer(q, raw) {
+    const norm = normAnswer;
+    let v = {};
+    try {
+      const j = JSON.parse(raw);
+      if (j && typeof j === 'object' && !Array.isArray(j)) v = j;
+    } catch {}
+    const has = k => Object.prototype.hasOwnProperty.call(v, k);
+    const some = (g, k) => has(k) && g.acceptedAnswers.some(a => norm(a) === norm(v[k]));
+    let list = null;
+    if (q.type === 'gap_fill' || q.type === 'note_fill') list = q.gaps.map(g => [g.id, some(g, g.id)]);
+    else if (q.type === 'gap_choice') list = q.gaps.map(g => [g.id, has(g.id) && v[g.id] === g.answer]);
+    else if (q.type === 'error_correction') list = q.errors.map(g => [g.id, some(g, g.id)]);
+    else if (q.type === 'table_fill') list = q.rows.flat().filter(c => typeof c === 'object').map(g => [g.id, some(g, g.id)]);
+    else if (q.type === 'categorize' || q.type === 'speaker_match') list = q.items.map(it => [it.id, has(it.id) && v[it.id] === it.category]);
+    else if (q.type === 'matching') {
+      const textOf = id => {
+        const pr = q.pairs.find(z => z.id === id);
+        if (pr) return pr.right;
+        const m = /^x(\d+)$/.exec(String(id));
+        return m && q.distractors ? q.distractors[Number(m[1])] : undefined;
+      };
+      list = q.pairs.map(p => [p.id, has(p.id) && textOf(v[p.id]) !== undefined && norm(textOf(v[p.id])) === norm(p.right)]);
+    } else if (q.type === 'sentence_completion') {
+      const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+      list = q.items.map(it => [it.id, !!(has(it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))))]);
+    }
+    if (q.type === 'open_answer') return { got: 0, max: 0, units: {} };
+    if (!list) {
+      const ok = !!assessAnswer(q, raw);
+      return { got: ok ? 1 : 0, max: 1, units: {} };
+    }
+    return { got: list.filter(x => x[1]).length, max: list.length, units: Object.fromEntries(list) };
+  }
+  const api = { validatePackage, assessAnswer, scoreAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

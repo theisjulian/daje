@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-implicite-s2",
+ "title": "Dalla frase esplicita al gerundio",
+ "language": "it",
+ "level": "B1",
+ "description": "Gerundio e participi · Dalla frase esplicita al gerundio · livello difficile.",
+ "topics": [
+  "Gerundio e participi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)"
+ },
+ "grammar": {
+  "topic": "it11-implicite",
+  "topicTitle": "Gerundio e participi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.\n| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |\n| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |\n\n| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |\n| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |\n| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |\n| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |\n| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |\n**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).\nI **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.\nIl **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.",
+  "ruleHelp": "**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.\ngerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.\nPartizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.\nPronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la parte in corsivo in una frase con il gerundio (semplice o composto; _anche se_ → pur + gerundio).",
+   "promptHelp": "Forme den kursiven Teil in einen Gerundium-Satz um (einfach oder zusammengesetzt; _anche se_ → pur + Gerundium).",
+   "explanation": "Stesso momento → gerundio semplice; azione precedente (aveva visto, era arrivata) → gerundio composto.",
+   "explanationHelp": "Gleichzeitig → gerundio semplice; vorzeitig (aveva visto, era arrivata) → gerundio composto.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "_Siccome non aveva la patente_, Davide andava al lavoro in bici.",
+     "acceptedAnswers": [
+      "Non avendo la patente"
+     ],
+     "modelAnswer": "Non avendo la patente, Davide andava al lavoro in bici."
+    },
+    {
+     "id": "s2",
+     "start": "_Mentre aspettavo l’autobus_, ho letto le notizie sul cellulare.",
+     "acceptedAnswers": [
+      "Aspettando l’autobus"
+     ],
+     "modelAnswer": "Aspettando l’autobus, ho letto le notizie sul cellulare."
+    },
+    {
+     "id": "s3",
+     "start": "_Se usi meno la macchina_, inquini di meno.",
+     "acceptedAnswers": [
+      "Usando meno la macchina"
+     ],
+     "modelAnswer": "Usando meno la macchina, inquini di meno."
+    },
+    {
+     "id": "s4",
+     "start": "_Anche se abita lontano_, Sara viene sempre a piedi.",
+     "acceptedAnswers": [
+      "Pur abitando lontano"
+     ],
+     "modelAnswer": "Pur abitando lontano, Sara viene sempre a piedi."
+    },
+    {
+     "id": "s5",
+     "start": "_Poiché aveva già visto il film_, Luca è rimasto a casa.",
+     "acceptedAnswers": [
+      "Avendo già visto il film"
+     ],
+     "modelAnswer": "Avendo già visto il film, Luca è rimasto a casa."
+    },
+    {
+     "id": "s6",
+     "start": "_Siccome era arrivata troppo presto_, Chiara ha fatto un giro in centro.",
+     "acceptedAnswers": [
+      "Essendo arrivata troppo presto"
+     ],
+     "modelAnswer": "Essendo arrivata troppo presto, Chiara ha fatto un giro in centro."
+    },
+    {
+     "id": "s7",
+     "start": "_Se lo leggi con attenzione_, capirai l’articolo.",
+     "acceptedAnswers": [
+      "Leggendolo con attenzione"
+     ],
+     "modelAnswer": "Leggendolo con attenzione, capirai l’articolo."
+    },
+    {
+     "id": "s8",
+     "start": "_Anche se aveva studiato tutta la notte_, Matteo non ricordava niente.",
+     "acceptedAnswers": [
+      "Pur avendo studiato tutta la notte"
+     ],
+     "modelAnswer": "Pur avendo studiato tutta la notte, Matteo non ricordava niente."
+    },
+    {
+     "id": "s9",
+     "start": "_Dato che conosce bene l’inglese_, Giulia ha trovato subito uno stage.",
+     "acceptedAnswers": [
+      "Conoscendo bene l’inglese"
+     ],
+     "modelAnswer": "Conoscendo bene l’inglese, Giulia ha trovato subito uno stage."
+    }
+   ]
+  }
+ ]
+}

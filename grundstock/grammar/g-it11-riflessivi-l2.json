@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-l2",
+ "title": "Con o senza pronome?",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Con o senza pronome? · livello facile.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "alzarsi, chiamarsi, laurearsi, addormentarsi, dimenticarsi, fermarsi: riflessivi (con essere). ringraziare, succedere, cambiare („sich ändern“): senza pronome riflessivo.",
+   "explanationHelp": "Reflexiv (mit essere): alzarsi, chiamarsi, laurearsi … Ohne Reflexivpronomen: ringraziare, succedere, cambiare („sich ändern“).",
+   "type": "gap_choice",
+   "text": "La mattina [[g1]] alle sette.\nMia sorella [[g2]] Elena.\nL’anno scorso mio cugino [[g3]] in medicina.\nTi [[g4]] per il regalo!\nChe cosa [[g5]] ieri a scuola?\nCon gli anni la città [[g6]] molto.\nIeri sera [[g7]] sul divano.\nScusa, [[g8]] del tuo compleanno!\nL’autobus [[g9]] davanti alla scuola.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "mi alzo",
+      "alzo",
+      "alzo mi"
+     ],
+     "answer": "mi alzo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "si chiama",
+      "chiama",
+      "chiama sé"
+     ],
+     "answer": "si chiama"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "si è laureato",
+      "ha laureato",
+      "si ha laureato"
+     ],
+     "answer": "si è laureato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ringrazio",
+      "mi ringrazio",
+      "ringrazio mi"
+     ],
+     "answer": "ringrazio"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "è successo",
+      "si è successo",
+      "ha successo"
+     ],
+     "answer": "è successo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "è cambiata",
+      "si è cambiata",
+      "ha cambiata"
+     ],
+     "answer": "è cambiata"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "mi sono addormentato",
+      "ho addormentato",
+      "sono addormentato"
+     ],
+     "answer": "mi sono addormentato"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "mi sono dimenticato",
+      "mi ho dimenticato",
+      "sono dimenticato"
+     ],
+     "answer": "mi sono dimenticato"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "si ferma",
+      "ferma si",
+      "si ferme"
+     ],
+     "answer": "si ferma"
+    }
+   ]
+  }
+ ]
+}

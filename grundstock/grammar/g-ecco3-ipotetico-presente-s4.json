@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-s4",
+ "title": "Un anno a Lisbona?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Un anno a Lisbona? · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 24,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il diario di Chiara: congiuntivo imperfetto o condizionale presente.",
+   "promptHelp": "Ergänze Chiaras Tagebuch: congiuntivo imperfetto oder condizionale presente.",
+   "type": "gap_fill",
+   "text": "La prof mi ha proposto un anno a Lisbona. Che cosa farei?\nSe i miei genitori mi (dare) [[g1]] il permesso, (partire, io) [[g2]] subito.\nSe la mia migliore amica (venire) [[g3]] con me, (essere) [[g4]] tutto più facile.\nMa se noi due (stare) [[g5]] sempre insieme, non (imparare, noi) [[g6]] mai il portoghese!\nSe la famiglia ospitante (fare) [[g7]] molte gite, io (vedere) [[g8]] tutto il paese.\nE se qualcuno mi (dire) [[g9]] che è troppo difficile, io (rispondere) [[g10]]: «Ci provo lo stesso!»",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dessero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "partirei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "venisse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "stessimo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "impareremmo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "facesse"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vedrei"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dicesse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "risponderei"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "E tu? Che cosa faresti se potessi vivere un anno all’estero? Scrivi 5 frasi con se + congiuntivo imperfetto e il condizionale.",
+   "promptHelp": "Und du? Was würdest du tun, wenn du ein Jahr im Ausland leben könntest? Schreibe 5 Sätze mit se + congiuntivo imperfetto und Konditional.",
+   "type": "open_answer",
+   "modelAnswer": "Se potessi vivere un anno all’estero, andrei in Italia. Se abitassi a Bologna, frequenterei un liceo linguistico. Se la mia famiglia ospitante avesse un cane, lo porterei fuori ogni giorno. Se avessi nostalgia di casa, chiamerei i miei genitori. Se i miei amici venissero a trovarmi, gli mostrerei tutta la città.",
+   "lines": 6
+  }
+ ]
+}

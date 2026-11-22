@@ -63,11 +63,11 @@
     },
     {
      "id": "s2",
-     "start": "Telefono a Sara. → … telefono.",
+     "start": "Do un libro a Sara. → … do un libro.",
      "acceptedAnswers": [
       "Le"
      ],
-     "modelAnswer": "Le telefono."
+     "modelAnswer": "Le do un libro."
     },
     {
      "id": "s3",

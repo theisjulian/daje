@@ -46,67 +46,145 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo (esempio: andare; presente). Osserva il contesto del testo.",
    "text": "sono → [[g1]]\nHo → [[g2]]\nvivo → [[g3]]\nFrequento → [[g4]]\npreparo → [[g5]]\nCerco → [[g6]]\nfaccio → [[g7]]\nregistro → [[g8]]\nparlo → [[g9]]\nsento → [[g10]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "essere; presente"
+      "essere; presente",
+      "essere, presente",
+      "essere presente",
+      "essere - presente",
+      "essere (presente)",
+      "essere;presente",
+      "essere,presente",
+      "essere – presente"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "avere; presente"
+      "avere; presente",
+      "avere, presente",
+      "avere presente",
+      "avere - presente",
+      "avere (presente)",
+      "avere;presente",
+      "avere,presente",
+      "avere – presente"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "vivere; presente"
+      "vivere; presente",
+      "vivere, presente",
+      "vivere presente",
+      "vivere - presente",
+      "vivere (presente)",
+      "vivere;presente",
+      "vivere,presente",
+      "vivere – presente"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "frequentare; presente"
+      "frequentare; presente",
+      "frequentare, presente",
+      "frequentare presente",
+      "frequentare - presente",
+      "frequentare (presente)",
+      "frequentare;presente",
+      "frequentare,presente",
+      "frequentare – presente"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "preparare; presente"
+      "preparare; presente",
+      "preparare, presente",
+      "preparare presente",
+      "preparare - presente",
+      "preparare (presente)",
+      "preparare;presente",
+      "preparare,presente",
+      "preparare – presente"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "cercare; presente"
+      "cercare; presente",
+      "cercare, presente",
+      "cercare presente",
+      "cercare - presente",
+      "cercare (presente)",
+      "cercare;presente",
+      "cercare,presente",
+      "cercare – presente"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "fare; presente"
+      "fare; presente",
+      "fare, presente",
+      "fare presente",
+      "fare - presente",
+      "fare (presente)",
+      "fare;presente",
+      "fare,presente",
+      "fare – presente"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "registrare; presente"
+      "registrare; presente",
+      "registrare, presente",
+      "registrare presente",
+      "registrare - presente",
+      "registrare (presente)",
+      "registrare;presente",
+      "registrare,presente",
+      "registrare – presente"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "parlare; presente"
+      "parlare; presente",
+      "parlare, presente",
+      "parlare presente",
+      "parlare - presente",
+      "parlare (presente)",
+      "parlare;presente",
+      "parlare,presente",
+      "parlare – presente"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "sentire; presente"
+      "sentire; presente",
+      "sentire, presente",
+      "sentire presente",
+      "sentire - presente",
+      "sentire (presente)",
+      "sentire;presente",
+      "sentire,presente",
+      "sentire – presente",
+      "sentirsi; presente",
+      "sentirsi, presente",
+      "sentirsi presente",
+      "sentirsi - presente",
+      "sentirsi (presente)",
+      "sentirsi;presente",
+      "sentirsi,presente",
+      "sentirsi – presente"
      ]
     }
    ],

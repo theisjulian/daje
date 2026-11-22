@@ -1,0 +1,152 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-partitivo-m3",
+ "title": "Tre modi per dire «einige»",
+ "language": "it",
+ "level": "A2",
+ "description": "L’articolo partitivo · Tre modi per dire «einige» · livello medio.",
+ "topics": [
+  "L’articolo partitivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco2-partitivo",
+  "topicTitle": "L’articolo partitivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "L’**articolo partitivo** = **di + articolo**. Indica una quantità **non precisa**.\n| | singolare = un po’ di | plurale = alcuni / alcune |\n| maschile | **del** pane, **dello** zucchero, **dell’**olio | **dei** biglietti, **degli** amici |\n| femminile | **della** musica, **dell’**acqua | **delle** canzoni |\n- _Compro **del** pane._ = _Compro **un po’ di** pane._\n- _Ho **degli** amici a Roma._ = _Ho **alcuni** amici / **qualche** amic**o** a Roma._ (qualche + **singolare**!)\n**Attenzione:**\n- Dopo **non** niente partitivo: _**Non** ho soldi. **Non** mangio carne._\n- Dopo una quantità solo **di**: _un chilo **di** mele, una bottiglia **di** acqua, un po’ **di** tempo_. Con **molto, poco, troppo, tanto** niente di: _molti amici, poca acqua_.",
+  "ruleHelp": "Der **Teilungsartikel** (di + bestimmter Artikel: del, dello, dell’, della, dei, degli, delle) bezeichnet eine **unbestimmte Menge**. Im Deutschen steht dann meist gar kein Artikel oder „etwas / einige“: _Compro del pane_ = Ich kaufe (etwas) Brot. _Ho degli amici_ = Ich habe (einige) Freunde.\nGleichbedeutend: Singular **un po’ di**, Plural **alcuni/alcune** oder **qualche + Singular** (_qualche amico_).\nNach **Verneinung** steht kein Teilungsartikel (_Non ho soldi_ = Ich habe kein Geld), nach **Mengenangaben** nur **di** (_un chilo di mele_); molto/poco/troppo/tanto stehen ohne di (_molti amici_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella: qualche + singolare = alcuni / alcune + plurale = partitivo + plurale.",
+   "promptHelp": "Ergänze die Tabelle: qualche + Singular = alcuni / alcune + Plural = Teilungsartikel + Plural.",
+   "type": "table_fill",
+   "columns": [
+    "qualche",
+    "alcuni / alcune",
+    "partitivo"
+   ],
+   "rows": [
+    [
+     "qualche canzone",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "alcune canzoni"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "delle canzoni"
+      ]
+     }
+    ],
+    [
+     "qualche amico",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "alcuni amici"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "degli amici"
+      ]
+     }
+    ],
+    [
+     "qualche biglietto",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "alcuni biglietti"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "dei biglietti"
+      ]
+     }
+    ],
+    [
+     "qualche chitarra",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "alcune chitarre"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "delle chitarre"
+      ]
+     }
+    ],
+    [
+     "qualche strumento",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "alcuni strumenti"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "degli strumenti"
+      ]
+     }
+    ],
+    [
+     "qualche idea",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "alcune idee"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "delle idee"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

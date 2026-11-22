@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-s3",
+ "title": "Prima … poi …",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Prima … poi … · livello difficile.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma le frasi con dopo + infinito passato.",
+   "promptHelp": "Forme die Sätze mit dopo + Infinitiv der Vergangenheit um.",
+   "explanation": "ho fatto → dopo aver fatto; è arrivata → dopo essere arrivata; sono usciti → dopo essere usciti.",
+   "explanationHelp": "ho fatto → dopo aver fatto; è arrivata → dopo essere arrivata.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Prima faccio i compiti, poi esco. → Dopo …",
+     "acceptedAnswers": [
+      "aver fatto i compiti",
+      "avere fatto i compiti"
+     ],
+     "modelAnswer": "Dopo aver fatto i compiti, esco."
+    },
+    {
+     "id": "s2",
+     "start": "Prima Sara è arrivata a casa, poi ha cenato. → Dopo …",
+     "acceptedAnswers": [
+      "essere arrivata a casa"
+     ],
+     "modelAnswer": "Dopo essere arrivata a casa, Sara ha cenato."
+    },
+    {
+     "id": "s3",
+     "start": "Prima i ragazzi hanno provato la canzone, poi l’hanno registrata. → Dopo …",
+     "acceptedAnswers": [
+      "aver provato la canzone",
+      "avere provato la canzone"
+     ],
+     "modelAnswer": "Dopo aver provato la canzone, i ragazzi l’hanno registrata."
+    },
+    {
+     "id": "s4",
+     "start": "Prima ho letto il messaggio, poi l’ho cancellato. → Dopo …",
+     "acceptedAnswers": [
+      "aver letto il messaggio",
+      "avere letto il messaggio"
+     ],
+     "modelAnswer": "Dopo aver letto il messaggio, l’ho cancellato."
+    },
+    {
+     "id": "s5",
+     "start": "Prima Luca e Davide sono usciti, poi hanno chiamato Matteo. → Dopo …",
+     "acceptedAnswers": [
+      "essere usciti"
+     ],
+     "modelAnswer": "Dopo essere usciti, Luca e Davide hanno chiamato Matteo."
+    },
+    {
+     "id": "s6",
+     "start": "Prima Giulia e Chiara sono tornate da scuola, poi hanno mangiato. → Dopo …",
+     "acceptedAnswers": [
+      "essere tornate da scuola"
+     ],
+     "modelAnswer": "Dopo essere tornate da scuola, Giulia e Chiara hanno mangiato."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Racconta la tua giornata di ieri in 5 frasi. Usa prima di, dopo aver / dopo essere, per, senza e invece di + infinito.",
+   "promptHelp": "Erzähle in 5 Sätzen von deinem gestrigen Tag. Verwende prima di, dopo aver / dopo essere, per, senza und invece di + Infinitiv.",
+   "type": "open_answer",
+   "modelAnswer": "Prima di andare a scuola ho fatto colazione. Sono uscito senza prendere la giacca. Dopo essere tornato a casa, ho mangiato. Dopo aver fatto i compiti, sono andato al parco per giocare a basket. La sera, invece di guardare la TV, ho letto un fumetto.",
+   "lines": 5
+  }
+ ]
+}

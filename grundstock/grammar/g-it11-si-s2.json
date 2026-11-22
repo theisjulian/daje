@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-si-s2",
+ "title": "Com’è andata la gita?",
+ "language": "it",
+ "level": "B1",
+ "description": "Si impersonale e si passivante · Com’è andata la gita? · livello difficile.",
+ "topics": [
+  "Si impersonale e si passivante",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · si impersonale und si passivante"
+ },
+ "grammar": {
+  "topic": "it11-si",
+  "topicTitle": "Si impersonale e si passivante",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "**si** = «la gente, tutti» (tedesco: _man_).\n- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._\n- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._\n- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._\n- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._\nTempi composti: sempre con **essere**.\n| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |\n| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |\n| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |",
+  "ruleHelp": "**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).\nAdjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).\nZusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta la gita con si al passato prossimo.",
+   "promptHelp": "Erzähle den Ausflug mit si im passato prossimo.",
+   "explanation": "Verbo con avere senza oggetto: participio in -o (si è dormito). Verbo con essere o riflessivo: participio in -i (si è partiti, ci si è divertiti). Con oggetto: il participio concorda con il nome (si sono viste molte piazze).",
+   "explanationHelp": "avere-Verb ohne Objekt: Partizip auf -o. essere-Verb oder reflexiv: Partizip auf -i. Mit Objekt: Angleichung an das Nomen.",
+   "type": "gap_fill",
+   "text": "Ieri (partire) [[g1]] alle sei di mattina.\nIn pullman (dormire) [[g2]] poco.\nA Torino (visitare) [[g3]] il Museo Egizio.\nPoi (vedere) [[g4]] molte piazze eleganti.\nA pranzo (mangiare) [[g5]] benissimo.\nNel pomeriggio (fare) [[g6]] tante foto.\n(camminare) [[g7]] per ore.\nLa sera (tornare) [[g8]] a casa stanchi.\nInsomma, (divertirsi) [[g9]] molto!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "si è partiti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "si è dormito"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "si è visitato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "si sono viste"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si è mangiato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si sono fatte"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Si è camminato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si è tornati"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ci si è divertiti"
+     ]
+    }
+   ]
+  }
+ ]
+}

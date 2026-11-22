@@ -61,7 +61,7 @@
     },
     {
      "id": "o3",
-     "text": "Ho visto già il film."
+     "text": "Ho visto il già film."
     }
    ],
    "correctOptionId": "o1"
@@ -103,7 +103,7 @@
     },
     {
      "id": "o3",
-     "text": "Marco è partito già."
+     "text": "Marco già partito è."
     }
    ],
    "correctOptionId": "o1"
@@ -141,7 +141,7 @@
     },
     {
      "id": "o2",
-     "text": "Hai fatto già i compiti?"
+     "text": "Hai fatto i già compiti?"
     },
     {
      "id": "o3",
@@ -187,7 +187,7 @@
     },
     {
      "id": "o3",
-     "text": "Ho letto già il libro."
+     "text": "Ho letto il già libro."
     }
    ],
    "correctOptionId": "o1"

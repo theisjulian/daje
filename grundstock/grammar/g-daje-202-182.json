@@ -47,12 +47,15 @@
    "id": "q1a",
    "type": "gap_fill",
    "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 1/2)",
-   "text": "Formula per chiedere attenzione in modo formale → [[g1]]\nContrario di tardi → [[g2]]\nPrima persona di lavorare al presente → [[g3]]\nTerza persona di cominciare al presente → [[g4]]\nPlurale di settimana → [[g5]]\nA + le → [[g6]]\nIn + la → [[g7]]\nPrendere, imperativo formale → [[g8]]\nSalire, imperativo formale → [[g9]]\nCompilare, imperativo formale → [[g10]]\nOggetto che si compila → [[g11]]\nLuogo dove si consegna il modulo → [[g12]]",
+   "text": "Formula per chiedere attenzione in modo formale → [[g1]]\nContrario di tardi → [[g2]]\nPrima persona singolare di lavorare al presente → [[g3]]\nTerza persona singolare di cominciare al presente → [[g4]]\nPlurale di settimana → [[g5]]\nA + le → [[g6]]\nIn + la → [[g7]]\nPrendere, imperativo formale → [[g8]]\nSalire, imperativo formale → [[g9]]\nCompilare, imperativo formale → [[g10]]\nOggetto che si compila → [[g11]]\nLuogo dove si consegna il modulo → [[g12]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "Senta"
+      "Senta",
+      "Scusi",
+      "Mi scusi",
+      "Senta, scusi"
      ]
     },
     {
@@ -128,12 +131,13 @@
    "id": "q1b",
    "type": "gap_fill",
    "prompt": "Risolvi il laboratorio di parole e forme. Le definizioni sono autonome; scrivi una risposta per riga. (parte 2/2)",
-   "text": "Contrario di breve → [[g1]]\nPrima persona di leggere al presente → [[g2]]\nFuturo di essere, lui → [[g3]]\nImperfetto di essere, lui → [[g4]]\nGerundio di aspettare → [[g5]]\nStare, io, presente → [[g6]]\nFotografia, plurale → [[g7]]\nQuattro in cifre → [[g8]]\nSessanta in cifre → [[g9]]\nPotere, tu, presente → [[g10]]\nTelefono, plurale → [[g11]]\nProgramma, plurale → [[g12]]",
+   "text": "Contrario di breve → [[g1]]\nPrima persona singolare di leggere al presente → [[g2]]\nFuturo di essere, lui → [[g3]]\nImperfetto di essere, lui → [[g4]]\nGerundio di aspettare → [[g5]]\nStare, io, presente → [[g6]]\nFotografia, plurale → [[g7]]\nQuattro in cifre → [[g8]]\nSessanta in cifre → [[g9]]\nPotere, tu, presente → [[g10]]\nTelefono, plurale → [[g11]]\nProgramma, plurale → [[g12]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "lungo"
+      "lungo",
+      "lunga"
      ]
     },
     {

@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-m1",
+ "title": "Dopo …",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Dopo … · livello medio.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi l’infinito passato (aver / essere + participio).",
+   "promptHelp": "Setze den Infinitiv der Vergangenheit ein (aver / essere + Partizip).",
+   "explanation": "Con essere il participio concorda con il soggetto: Chiara → arrivata, Luca e Davide → tornati, Giulia e Sara → uscite.",
+   "explanationHelp": "Mit essere richtet sich das Partizip nach dem Subjekt.",
+   "type": "gap_fill",
+   "text": "Dopo (mangiare) [[g1]], facciamo una passeggiata in centro.\nDopo (arrivare) [[g2]] a Milano, Chiara ha cercato l’ostello.\nDopo (vedere) [[g3]] il concerto, i ragazzi hanno preso l’ultimo autobus.\nDopo (tornare) [[g4]] a casa, Luca e Davide hanno guardato le foto.\nDopo (fare) [[g5]] la spesa, la nonna prepara il pranzo.\nDopo (uscire) [[g6]] da scuola, Giulia e Sara sono andate al parco.\nDopo (leggere) [[g7]] il libro, Matteo ha visto anche il film.\nDopo (partire) [[g8]] da Bologna, mio padre mi ha telefonato.\nDopo (scrivere) [[g9]] la canzone, il gruppo l’ha registrata.\nDopo (stare) [[g10]] due ore al museo, Sara era stanca.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "aver mangiato",
+      "avere mangiato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "essere arrivata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aver visto",
+      "avere visto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "essere tornati"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aver fatto",
+      "avere fatto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "essere uscite"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "aver letto",
+      "avere letto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "essere partito"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aver scritto",
+      "avere scritto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "essere stata"
+     ]
+    }
+   ]
+  }
+ ]
+}

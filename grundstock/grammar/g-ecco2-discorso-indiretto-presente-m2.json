@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-m2",
+ "title": "Le domande del colloquio",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Le domande del colloquio · livello medio.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Dopo il colloquio racconti a un’amica che cosa chiede il direttore. Completa.",
+   "promptHelp": "Nach dem Vorstellungsgespräch erzählst du einer Freundin, was der Direktor fragt. Ergänze.",
+   "explanation": "Domanda senza parola interrogativa → chiede se. Con dove, quando, perché, come … → la parola interrogativa resta.",
+   "explanationHelp": "Frage ohne Fragewort → chiede se (ob). Mit Fragewort → das Fragewort bleibt.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "«Come ti chiami?» → Il direttore chiede …",
+     "acceptedAnswers": [
+      "come mi chiamo"
+     ],
+     "modelAnswer": "Il direttore chiede come mi chiamo."
+    },
+    {
+     "id": "s2",
+     "start": "«Quanti anni hai?» → Chiede …",
+     "acceptedAnswers": [
+      "quanti anni ho"
+     ],
+     "modelAnswer": "Chiede quanti anni ho."
+    },
+    {
+     "id": "s3",
+     "start": "«Dove abiti?» → Chiede …",
+     "acceptedAnswers": [
+      "dove abito"
+     ],
+     "modelAnswer": "Chiede dove abito."
+    },
+    {
+     "id": "s4",
+     "start": "«Parli inglese?» → Chiede …",
+     "acceptedAnswers": [
+      "se parlo inglese"
+     ],
+     "modelAnswer": "Chiede se parlo inglese."
+    },
+    {
+     "id": "s5",
+     "start": "«Perché vuoi lavorare in un albergo?» → Chiede …",
+     "acceptedAnswers": [
+      "perché voglio lavorare in un albergo"
+     ],
+     "modelAnswer": "Chiede perché voglio lavorare in un albergo."
+    },
+    {
+     "id": "s6",
+     "start": "«Hai già esperienza?» → Chiede …",
+     "acceptedAnswers": [
+      "se ho già esperienza"
+     ],
+     "modelAnswer": "Chiede se ho già esperienza."
+    },
+    {
+     "id": "s7",
+     "start": "«Quando puoi cominciare?» → Chiede …",
+     "acceptedAnswers": [
+      "quando posso cominciare"
+     ],
+     "modelAnswer": "Chiede quando posso cominciare."
+    },
+    {
+     "id": "s8",
+     "start": "«Sai usare il computer?» → Chiede …",
+     "acceptedAnswers": [
+      "se so usare il computer"
+     ],
+     "modelAnswer": "Chiede se so usare il computer."
+    },
+    {
+     "id": "s9",
+     "start": "«Che cosa fai nel tempo libero?» → Chiede …",
+     "acceptedAnswers": [
+      "cosa faccio nel tempo libero"
+     ],
+     "modelAnswer": "Chiede che cosa faccio nel tempo libero."
+    }
+   ]
+  }
+ ]
+}

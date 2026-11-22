@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 1/2)",
    "categories": [
     {
      "id": "c1",
@@ -127,7 +127,7 @@
   {
    "id": "q1b",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 2/2)",
    "categories": [
     {
      "id": "c1",

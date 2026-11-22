@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-s2",
+ "title": "Quale forma?",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · Quale forma? · livello difficile.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abitudine, adesso o in quel momento nel passato? Scegli la forma giusta.",
+   "promptHelp": "Gewohnheit, jetzt gerade oder in jenem Moment in der Vergangenheit? Wähle die richtige Form.",
+   "explanation": "di solito, ogni estate, il lunedì → presente; da piccola … tutti i giorni → imperfetto; ieri alle dieci, quando mi hai chiamato → stavo + gerundio.",
+   "explanationHelp": "Gewohnheit → Präsens bzw. imperfetto; bestimmter Moment in der Vergangenheit → stavo + Gerundium.",
+   "type": "gap_choice",
+   "text": "Di solito [[g1]] la sera, dopo i compiti.\nZitti! Il gruppo [[g2]] a suonare.\nIeri alle dieci di sera [[g3]].\nOgni estate [[g4]] a un festival di musica.\nQuando mi hai chiamato, [[g5]] di casa.\nGuarda quel ragazzo: che cosa [[g6]] sul muro?\nDa piccola [[g7]] a scuola a piedi tutti i giorni.\nScusa, non ti sento bene: dove [[g8]]?\nMentre noi [[g9]] la canzone, è entrata la prof.\nIl lunedì Chiara [[g10]] lezione di pianoforte.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "disegno",
+      "sto disegnando",
+      "stavo disegnando"
+     ],
+     "answer": "disegno"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sta cominciando",
+      "stava cominciando",
+      "cominciava"
+     ],
+     "answer": "sta cominciando"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "stavo già dormendo",
+      "sto già dormendo",
+      "dormo già"
+     ],
+     "answer": "stavo già dormendo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "andiamo",
+      "stiamo andando",
+      "stavamo andando"
+     ],
+     "answer": "andiamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "stavo uscendo",
+      "sto uscendo",
+      "esco"
+     ],
+     "answer": "stavo uscendo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sta facendo",
+      "stava facendo",
+      "faceva"
+     ],
+     "answer": "sta facendo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "andavo",
+      "stavo andando",
+      "sto andando"
+     ],
+     "answer": "andavo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "stai andando",
+      "stavi andando",
+      "andavi"
+     ],
+     "answer": "stai andando"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "stavamo provando",
+      "stiamo provando",
+      "proviamo"
+     ],
+     "answer": "stavamo provando"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "ha",
+      "sta avendo",
+      "stava avendo"
+     ],
+     "answer": "ha"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-s3",
+ "title": "Dal giornalino della scuola",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Dal giornalino della scuola · livello difficile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa l’articolo con il passivo nel tempo indicato.",
+   "promptHelp": "Ergänze den Artikel mit dem Passiv in der angegebenen Zeit.",
+   "explanation": "Nei tempi semplici vanno bene essere e venire; nel passato prossimo solo essere.",
+   "explanationHelp": "In den einfachen Zeiten sind essere und venire richtig; im passato prossimo nur essere.",
+   "type": "gap_fill",
+   "text": "Sabato scorso la «Giornata della solidarietà» (organizzare, passato prossimo) [[g1]] per la terza volta dal nostro liceo.\nOgni anno la giornata (preparare, presente) [[g2]] dagli studenti delle terze.\nQuest’anno più di duecento pacchi di cibo (raccogliere, passato prossimo) [[g3]].\nI pacchi (portare, passato prossimo) [[g4]] alla mensa del quartiere dai genitori.\nDurante la festa (vendere, imperfetto) [[g5]] torte fatte in casa.\nLa musica (suonare, passato prossimo) [[g6]] dalla band della scuola.\nAlla fine tutti i volontari (ringraziare, passato prossimo) [[g7]] dalla preside.\nI soldi (usare, futuro) [[g8]] per comprare libri per il doposcuola.\nIl prossimo anno anche le altre scuole della città (invitare, futuro) [[g9]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è stata organizzata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è preparata",
+      "viene preparata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono stati raccolti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sono stati portati"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "erano vendute",
+      "venivano vendute"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "è stata suonata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono stati ringraziati"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "saranno usati",
+      "verranno usati"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "saranno invitate",
+      "verranno invitate"
+     ]
+    }
+   ]
+  }
+ ]
+}

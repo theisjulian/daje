@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-m1",
+ "title": "Una giornata andata storta",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · Una giornata andata storta · livello medio.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il congiuntivo trapassato (dopo se) e il condizionale composto.",
+   "promptHelp": "Ergänze den congiuntivo trapassato (nach se) und das condizionale composto.",
+   "type": "gap_fill",
+   "text": "Che disastro, la nostra giornata ecologica!\nSe (noi, guardare) [[g1]] le previsioni, (portare) [[g2]] gli ombrelli.\nSe Davide non (dimenticare) [[g3]] i guanti a casa, (noi, cominciare) [[g4]] subito.\nSe le ragazze (arrivare) [[g5]] in orario, il gruppo (essere) [[g6]] completo.\nSe io (leggere) [[g7]] bene la mail, non (sbagliare) [[g8]] parco.\nSe il prof (venire) [[g9]] con noi, tutto (andare) [[g10]] meglio.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avessimo guardato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avremmo portato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avesse dimenticato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "avremmo cominciato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "fossero arrivate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sarebbe stato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avessi letto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrei sbagliato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "fosse venuto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sarebbe andato"
+     ]
+    }
+   ]
+  }
+ ]
+}

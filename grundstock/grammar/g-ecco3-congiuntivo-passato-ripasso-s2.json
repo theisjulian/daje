@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-s2",
+ "title": "Adesso o prima?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Adesso o prima? · livello difficile.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente o passato? Guarda le espressioni di tempo.",
+   "promptHelp": "Congiuntivo presente oder passato? Achte auf die Zeitangaben.",
+   "explanation": "Fatto di adesso o del futuro → congiuntivo presente; fatto già successo → congiuntivo passato.",
+   "explanationHelp": "Geschehen jetzt oder in der Zukunft → congiuntivo presente; schon vorbei → congiuntivo passato.",
+   "type": "gap_choice",
+   "text": "Penso che domani Luca [[g1]] alla festa.\nPenso che ieri Luca [[g2]] in ritardo.\nCredo che in questo momento la nonna [[g3]] cucinando.\nSpero che la settimana scorsa tu [[g4]] un bel Ferragosto.\nMi sembra che l’anno scorso la sagra [[g5]] più grande.\nÈ probabile che stasera [[g6]] i fuochi d’artificio.\nNon credo che ieri Sara [[g7]] i compiti.\nSono felice che ieri sera voi [[g8]] a cena da noi.\nTemo che adesso Marco [[g9]] ancora.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "venga",
+      "sia venuto"
+     ],
+     "answer": "venga"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sia arrivato",
+      "arrivi"
+     ],
+     "answer": "sia arrivato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "stia",
+      "sia stata"
+     ],
+     "answer": "stia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "abbia passato",
+      "passi"
+     ],
+     "answer": "abbia passato"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sia stata",
+      "sia"
+     ],
+     "answer": "sia stata"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ci siano",
+      "ci siano stati"
+     ],
+     "answer": "ci siano"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "abbia finito",
+      "finisca"
+     ],
+     "answer": "abbia finito"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "siate venuti",
+      "veniate"
+     ],
+     "answer": "siate venuti"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "dorma",
+      "abbia dormito"
+     ],
+     "answer": "dorma"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-m3",
+ "title": "In chat con Matteo",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · In chat con Matteo · livello medio.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la chat con l’imperativo (tu) e il pronome.",
+   "promptHelp": "Ergänze den Chat mit dem Imperativ (tu) und dem Pronomen.",
+   "type": "gap_fill",
+   "text": "– Ciao Sara! (dire, mi) [[g1]] una cosa: hai capito i compiti di matematica?\n– Più o meno. (fare, mi) [[g2]] vedere l’esercizio.\n– Ecco la foto. E (dare, mi) [[g3]] un consiglio per il numero 3!\n– Il numero 3 è facile: (fare, lo) [[g4]] come il numero 2.\n– Grazie! Anche Luca ha dei problemi: (dire, gli) [[g5]] di guardare la chat.\n– Va bene. E tu (dare, gli) [[g6]] il mio numero di telefono.\n– Domani c’è il torneo in biblioteca: (andare, ci) [[g7]] anche tu!\n– Volentieri! Ma (dire, lo) [[g8]] anche a Chiara.\n– Certo. Ciao e (stare, mi) [[g9]] bene!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Dimmi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Fammi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dammi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fallo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "digli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "dagli"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vacci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dillo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "stammi"
+     ]
+    }
+   ]
+  }
+ ]
+}

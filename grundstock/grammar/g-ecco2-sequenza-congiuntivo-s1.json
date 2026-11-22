@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-sequenza-congiuntivo-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "La sequenza dei tempi nel congiuntivo · Trova gli errori · livello difficile.",
+ "topics": [
+  "La sequenza dei tempi nel congiuntivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Zeitenfolge im congiuntivo (Hauptsatz im Präsens), Indikativ oder congiuntivo, Infinitivkonstruktion"
+ },
+ "grammar": {
+  "topic": "ecco2-sequenza-congiuntivo",
+  "topicTitle": "La sequenza dei tempi nel congiuntivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché: _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché; **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Tempo: prima → congiuntivo passato, adesso / dopo → congiuntivo presente. Modo: so che, secondo me, anche se + indicativo. Stesso soggetto: di + infinito.",
+   "explanationHelp": "Zeit: vorher → congiuntivo passato, jetzt / später → congiuntivo presente. Modus: so che, secondo me, anche se + Indikativ. Gleiches Subjekt: di + Infinitiv.",
+   "type": "error_correction",
+   "text": "So che il concerto [[g1]] alle nove.\nPenso che ieri Sara [[g2]] in ritardo.\nBenché [[g3]] tardi, restiamo ancora un po’.\nSpero che domani [[g4]] bel tempo.\nSecondo me la band [[g5]] bravissima.\nPenso [[g6]] sbagliato la prima nota.\nTi scrivo il testo affinché tu lo [[g7]] imparare.\nAnche se [[g8]] stanco, Luca viene alle prove.\nTorniamo a casa prima che [[g9]] a piovere.\nCredo che l’anno scorso il festival [[g10]] tre giorni.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "cominci",
+     "acceptedAnswers": [
+      "comincia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "arrivi",
+     "acceptedAnswers": [
+      "sia arrivata"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "è",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "abbia fatto",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "che io abbia",
+     "acceptedAnswers": [
+      "di aver",
+      "di avere"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "puoi",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "comincia",
+     "acceptedAnswers": [
+      "cominci"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "duri",
+     "acceptedAnswers": [
+      "sia durato"
+     ]
+    }
+   ]
+  }
+ ]
+}

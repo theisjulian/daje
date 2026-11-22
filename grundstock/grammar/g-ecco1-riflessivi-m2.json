@@ -95,7 +95,11 @@
      "id": "s6",
      "start": "Quando vi riposate? (il pomeriggio) – …",
      "acceptedAnswers": [
-      "Ci riposiamo il pomeriggio"
+      "Ci riposiamo il pomeriggio",
+      "Ci riposiamo nel pomeriggio",
+      "Ci riposiamo di pomeriggio",
+      "Il pomeriggio ci riposiamo",
+      "Nel pomeriggio ci riposiamo"
      ],
      "modelAnswer": "Ci riposiamo il pomeriggio."
     },

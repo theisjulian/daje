@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-m2",
+ "title": "Con chi? Con il collega che …",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Con chi? Con il collega che … · livello medio.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 72,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | wer? | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con chi o che.",
+   "promptHelp": "Ergänze chi oder che.",
+   "explanation": "preposizione + chi (con chi, a chi, per chi, di chi, da chi) = senza nome. Preposizione + nome + che.",
+   "explanationHelp": "Präposition + chi = ohne Bezugswort. Präposition + Nomen + che.",
+   "type": "gap_fill",
+   "text": "Esco con [[g1]] mi è simpatico.\nEsco con gli amici [[g2]] mi sono simpatici.\nRegalo questi libri a [[g3]] li vuole leggere.\nRegalo questi libri alla collega [[g4]] ama leggere.\nQuesto corso è per [[g5]] cerca il primo lavoro.\nQuesto corso è per i giovani [[g6]] cercano il primo lavoro.\nMi fido solo di [[g7]] dice la verità.\nMi fido solo delle persone [[g8]] dicono la verità.\nHo imparato molto da [[g9]] lavora qui da tanti anni.\nHo imparato molto dal cuoco [[g10]] lavora qui da tanti anni.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -113,7 +113,7 @@
    "type": "gap_fill",
    "prompt": "Usa la stessa struttura in frasi nuove.",
    "promptHelp": "Wende dieselbe Struktur in neuen Sätzen an.",
-   "text": "1. un [[g1]] quadro (bello)\n2. uno [[g2]] spettacolo (correggi anche l’articolo) (bello)\n3. dei [[g3]] disegni (bello)\n4. delle [[g4]] immagini (bello)\n5. dei [[g5]] zaini (bello)\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
+   "text": "1. un [[g1]] quadro (bello)\n2. bello + spettacolo: scrivi il gruppo con l’articolo indeterminativo. → [[g2]]\n3. dei [[g3]] disegni (bello)\n4. delle [[g4]] immagini (bello)\n5. dei [[g5]] zaini (bello)\n6. bello + edificio: scrivi il gruppo con un. → [[g6]]",
    "gaps": [
     {
      "id": "g1",

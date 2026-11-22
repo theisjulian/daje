@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-condizionale-ripasso-s3",
+ "title": "Più gentile, per favore!",
+ "language": "it",
+ "level": "A2",
+ "description": "Il condizionale semplice: ripasso · Più gentile, per favore! · livello difficile.",
+ "topics": [
+  "Il condizionale semplice: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · condizionale presente (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco2-condizionale-ripasso",
+  "topicTitle": "Il condizionale semplice: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **condizionale** si forma dall’infinito senza **-e**. Attenzione: nei verbi in **-are** la **a** diventa **e**.\n| | lavor**are** | prend**ere** | dorm**ire** |\n| io | lavor**erei** | prend**erei** | dorm**irei** |\n| tu | lavor**eresti** | prend**eresti** | dorm**iresti** |\n| lui / lei / Lei | lavor**erebbe** | prend**erebbe** | dorm**irebbe** |\n| noi | lavor**eremmo** | prend**eremmo** | dorm**iremmo** |\n| voi | lavor**ereste** | prend**ereste** | dorm**ireste** |\n| loro | lavor**erebbero** | prend**erebbero** | dorm**irebbero** |\n**Ortografia:** cercare → cer**ch**erei, pagare → pa**gh**erei · cominciare → comin**c**erei, mangiare → man**g**erei.\n**Irregolari:** essere → **sarei**, avere → **avrei**, andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**, volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**, fare → **farei**, dire → **direi**, stare → **starei**, dare → **darei**.\n**Uso:**\n- desiderio: _**Mi piacerebbe** fare il medico._\n- richiesta gentile: _**Potrebbe** ripetere, per favore?_\n- consiglio: _Al posto tuo **parlerei** con il prof._\n- ipotesi: _**Sarebbe** un lavoro perfetto per te._",
+  "ruleHelp": "Das **Konditional** bildet man vom Infinitiv ohne **-e**; bei Verben auf **-are** wird das **a** zu **e**: _lavorare → lavorerei_. Endungen: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\nSchreibung: _cercherei, pagherei_ (mit h), _comincerei, mangerei_ (ohne i).\nUnregelmäßige Stämme: sar-, avr-, andr-, potr-, dovr-, sapr-, vedr-, vivr-, vorr-, verr-, berr-, rimarr-, terr-, far-, dir-, star-, dar-.\nGebrauch: Wunsch (_mi piacerebbe_ = ich würde gern), höfliche Bitte (_potrebbe …?_), Rat (_al posto tuo …_ = an deiner Stelle würde ich …), Vermutung. Das Deutsche braucht meist „würde“ + Infinitiv, das Italienische nur **eine** Verbform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi le frasi in modo più gentile: metti il verbo al condizionale.",
+   "promptHelp": "Formuliere höflicher: Setze das Verb ins Konditional.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Voglio un’informazione.",
+     "acceptedAnswers": [
+      "Vorrei un’informazione"
+     ],
+     "modelAnswer": "Vorrei un’informazione."
+    },
+    {
+     "id": "s2",
+     "start": "Mi può aiutare?",
+     "acceptedAnswers": [
+      "Mi potrebbe aiutare"
+     ],
+     "modelAnswer": "Mi potrebbe aiutare?"
+    },
+    {
+     "id": "s3",
+     "start": "Devi studiare di più.",
+     "acceptedAnswers": [
+      "Dovresti studiare di più"
+     ],
+     "modelAnswer": "Dovresti studiare di più."
+    },
+    {
+     "id": "s4",
+     "start": "Mi dai il tuo numero?",
+     "acceptedAnswers": [
+      "Mi daresti il tuo numero"
+     ],
+     "modelAnswer": "Mi daresti il tuo numero?"
+    },
+    {
+     "id": "s5",
+     "start": "Sa dirmi l’ora?",
+     "acceptedAnswers": [
+      "Saprebbe dirmi l’ora"
+     ],
+     "modelAnswer": "Saprebbe dirmi l’ora?"
+    },
+    {
+     "id": "s6",
+     "start": "Preferisco il turno di mattina.",
+     "acceptedAnswers": [
+      "Preferirei il turno di mattina"
+     ],
+     "modelAnswer": "Preferirei il turno di mattina."
+    },
+    {
+     "id": "s7",
+     "start": "Ci fate vedere l’ufficio?",
+     "acceptedAnswers": [
+      "Ci fareste vedere l’ufficio"
+     ],
+     "modelAnswer": "Ci fareste vedere l’ufficio?"
+    },
+    {
+     "id": "s8",
+     "start": "Potete aspettare un momento?",
+     "acceptedAnswers": [
+      "Potreste aspettare un momento"
+     ],
+     "modelAnswer": "Potreste aspettare un momento?"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Il tuo lavoro dei sogni: che cosa faresti? Dove vivresti? Con chi lavoreresti? Scrivi 5 frasi con il condizionale.",
+   "promptHelp": "Dein Traumberuf: Was würdest du machen? Wo würdest du leben? Mit wem würdest du arbeiten? Schreibe 5 Sätze im Konditional.",
+   "type": "open_answer",
+   "modelAnswer": "Mi piacerebbe fare la fotografa. Vivrei in una grande città, per esempio a Milano. Lavorerei con persone creative. Viaggerei molto e vedrei tanti paesi. Con i primi soldi comprerei una macchina fotografica nuova.",
+   "lines": 5
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cortesia-l3",
+ "title": "Nel negozio di telefoni",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Nel negozio di telefoni · livello facile.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ der Höflichkeitsform (Lei), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Con **Lei** (forma di cortesia) l’imperativo ha le forme del congiuntivo:\n| -are → **-i** | scusare → **scusi** · aspettare → **aspetti** · guardare → **guardi** |\n| -ere → **-a** | prendere → **prenda** · scrivere → **scriva** |\n| -ire → **-a** | sentire → **senta** · finire → **finisca** |\n**Irregolari:** andare → **vada** · venire → **venga** · dire → **dica** · fare → **faccia** · dare → **dia** · stare → **stia**\nI **pronomi** stanno **prima** del verbo: _**Mi** dica! · **Si** accomodi! · **Lo** prenda pure!_\nNegativo: _**Non** si preoccupi! · **Non** lo dica a nessuno!_\n| tu | Lei |\n| Scusa! | Scusi! |\n| Dimmi! | Mi dica! |\n| Accomodati! | Si accomodi! |\n| Non preoccuparti! | Non si preoccupi! |",
+  "ruleHelp": "Der **Imperativ der Höflichkeitsform (Lei)** hat die Formen des congiuntivo: -are → **-i** (scusi, aspetti), -ere / -ire → **-a** (prenda, senta). Unregelmäßig: vada, venga, dica, faccia, dia, stia.\nWichtig: Beim Lei-Imperativ stehen die Pronomen **vor** dem Verb (_Mi dica! Si accomodi!_), beim tu-Imperativ hängen sie am Verb (_Dimmi! Accomodati!_). Verneint: _Non si preoccupi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Il commesso e i clienti si danno del Lei. Scegli la forma giusta.",
+   "promptHelp": "Der Verkäufer und die Kunden siezen sich. Wähle die richtige Form.",
+   "explanation": "Con Lei: -are → -i (scusi, guardi), -ere / -ire → -a (senta); i pronomi stanno prima del verbo (mi dica, si accomodi, lo provi).",
+   "explanationHelp": "Bei Lei: -are → -i, -ere / -ire → -a; Pronomen stehen vor dem Verb.",
+   "type": "gap_choice",
+   "text": "Buongiorno, signora, [[g1]]!\n[[g2]], signore, dov’è il reparto dei telefoni?\nSignora Bianchi, [[g3]]: che cosa cerca?\n[[g4]] questo modello, signore: è nuovo.\nPer pagare [[g5]] alla cassa, per favore, signora.\nSignor Rossi, [[g6]]: ripariamo tutto noi.\n[[g7]], signora, ha dimenticato lo scontrino!\nDottor Neri, [[g8]] pure domani a prendere il tablet.\nEcco il telefono, signora: [[g9]] pure!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "si accomodi",
+      "accomodati",
+      "accomodi si"
+     ],
+     "answer": "si accomodi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Scusi",
+      "Scusa",
+      "Scusate"
+     ],
+     "answer": "Scusi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "mi dica",
+      "dimmi",
+      "dica mi"
+     ],
+     "answer": "mi dica"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Guardi",
+      "Guarda",
+      "Guardare"
+     ],
+     "answer": "Guardi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "vada",
+      "va’",
+      "vai"
+     ],
+     "answer": "vada"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "non si preoccupi",
+      "non preoccuparti",
+      "non ti preoccupare"
+     ],
+     "answer": "non si preoccupi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Senta",
+      "Senti",
+      "Sentire"
+     ],
+     "answer": "Senta"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "venga",
+      "vieni",
+      "venire"
+     ],
+     "answer": "venga"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "lo provi",
+      "provalo",
+      "provilo"
+     ],
+     "answer": "lo provi"
+    }
+   ]
+  }
+ ]
+}

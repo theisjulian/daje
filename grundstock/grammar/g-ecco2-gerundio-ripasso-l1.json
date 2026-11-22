@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-l1",
+ "title": "Qual è il gerundio?",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · Qual è il gerundio? · livello facile.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il gerundio giusto.",
+   "promptHelp": "Wähle das richtige Gerundium.",
+   "explanation": "-are → -ando; -ere e -ire → -endo. Irregolari: facendo, dicendo, bevendo, traducendo.",
+   "explanationHelp": "-are → -ando; -ere und -ire → -endo. Unregelmäßig: facendo, dicendo, bevendo, traducendo.",
+   "type": "gap_choice",
+   "text": "fare → [[g1]]\ndire → [[g2]]\nbere → [[g3]]\ntradurre → [[g4]]\ndipingere → [[g5]]\nsuonare → [[g6]]\nfinire → [[g7]]\nleggere → [[g8]]\nuscire → [[g9]]\ndisegnare → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "facendo",
+      "fando",
+      "faccendo"
+     ],
+     "answer": "facendo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dicendo",
+      "direndo",
+      "diciendo"
+     ],
+     "answer": "dicendo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "bevendo",
+      "berendo",
+      "beando"
+     ],
+     "answer": "bevendo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "traducendo",
+      "tradurendo",
+      "traducando"
+     ],
+     "answer": "traducendo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "dipingendo",
+      "dipingando",
+      "dipinto"
+     ],
+     "answer": "dipingendo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "suonando",
+      "suonendo",
+      "suonato"
+     ],
+     "answer": "suonando"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "finendo",
+      "finando",
+      "finiscendo"
+     ],
+     "answer": "finendo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "leggendo",
+      "leggiando",
+      "letto"
+     ],
+     "answer": "leggendo"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "uscendo",
+      "escendo",
+      "uscando"
+     ],
+     "answer": "uscendo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "disegnando",
+      "disegnendo",
+      "disegnato"
+     ],
+     "answer": "disegnando"
+    }
+   ]
+  }
+ ]
+}

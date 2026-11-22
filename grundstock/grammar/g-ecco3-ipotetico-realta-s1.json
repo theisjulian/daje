@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-s1",
+ "title": "La lettera di Jonas",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · La lettera di Jonas · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Jonas scrive a un’amica italiana, ma dopo **se** sbaglia sempre. Correggi i nove errori.",
+   "promptHelp": "Jonas schreibt einer italienischen Freundin, macht aber nach **se** immer denselben Fehler. Korrigiere die neun Fehler.",
+   "explanation": "Dopo **se** mai il condizionale: _se ho, se è, se posso, se vieni_ …",
+   "explanationHelp": "Nach **se** nie Konditional – anders als das deutsche „wenn ich … würde“.",
+   "type": "error_correction",
+   "text": "Cara Giulia, ad agosto parto per la Sicilia!\nSe [[g1]] tempo, ti scrivo ogni settimana.\nSe la mia famiglia ospitante [[g2]] simpatica, resterò tutto l’anno.\nSe [[g3]], verrò a trovarti a Roma.\nSe tu [[g4]] a Palermo, ti porterò al mare.\nSe i miei compagni [[g5]] troppo in fretta, chiederò di ripetere.\nSe mi [[g6]] la scuola, forse resterò anche un secondo anno.\nSe [[g7]] troppo caldo, studierò in biblioteca.\nSe [[g8]] scegliere uno sport, sceglierò la vela.\nE se tu [[g9]] sapere di più, chiamami!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "avrei",
+     "acceptedAnswers": [
+      "ho",
+      "avrò"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "sarebbe",
+     "acceptedAnswers": [
+      "è",
+      "sarà"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "potrei",
+     "acceptedAnswers": [
+      "posso",
+      "potrò"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "verresti",
+     "acceptedAnswers": [
+      "vieni",
+      "verrai"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "parlerebbero",
+     "acceptedAnswers": [
+      "parlano",
+      "parleranno"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "piacerebbe",
+     "acceptedAnswers": [
+      "piace",
+      "piacerà"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "farebbe",
+     "acceptedAnswers": [
+      "fa",
+      "farà"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "dovrei",
+     "acceptedAnswers": [
+      "devo",
+      "dovrò"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "vorresti",
+     "acceptedAnswers": [
+      "vuoi",
+      "vorrai"
+     ]
+    }
+   ]
+  }
+ ]
+}

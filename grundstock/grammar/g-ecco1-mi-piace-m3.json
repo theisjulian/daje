@@ -55,7 +55,7 @@
      "id": "s1",
      "start": "Ti piace la scuola? (☺) – …",
      "acceptedAnswers": [
-      "mi piace"
+      "Sì, mi piace"
      ],
      "modelAnswer": "Sì, mi piace."
     },
@@ -71,7 +71,7 @@
      "id": "s3",
      "start": "Ti piace cantare? (☺) – …",
      "acceptedAnswers": [
-      "mi piace"
+      "Sì, mi piace"
      ],
      "modelAnswer": "Sì, mi piace."
     },
@@ -79,7 +79,7 @@
      "id": "s4",
      "start": "Ti piacciono i cani? (☺) – …",
      "acceptedAnswers": [
-      "mi piacciono"
+      "Sì, mi piacciono"
      ],
      "modelAnswer": "Sì, mi piacciono."
     },
@@ -95,7 +95,7 @@
      "id": "s6",
      "start": "Ti piacciono le lingue? (☺) – …",
      "acceptedAnswers": [
-      "mi piacciono"
+      "Sì, mi piacciono"
      ],
      "modelAnswer": "Sì, mi piacciono."
     },
@@ -111,7 +111,7 @@
      "id": "s8",
      "start": "Ti piacciono i videogiochi? (☺) – …",
      "acceptedAnswers": [
-      "mi piacciono"
+      "Sì, mi piacciono"
      ],
      "modelAnswer": "Sì, mi piacciono."
     }

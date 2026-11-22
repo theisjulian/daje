@@ -1,0 +1,133 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-s2",
+ "title": "Sì, ma solo se …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Sì, ma solo se … · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con una condizione. Attenzione alla persona del verbo!",
+   "promptHelp": "Antworte mit einer Bedingung. Achte auf die Person des Verbs!",
+   "explanation": "Dopo **se** va bene il presente o il futuro, ma non il condizionale.",
+   "explanationHelp": "Nach **se** passt Präsens oder Futur, aber kein Konditional.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "– Vieni al concerto sabato? – (io / finire i compiti) Sì, se …",
+     "acceptedAnswers": [
+      "finisco i compiti",
+      "finirò i compiti"
+     ],
+     "modelAnswer": "Sì, se finisco i compiti."
+    },
+    {
+     "id": "s2",
+     "start": "– Posso usare il tuo computer? – (tu / non cambiare la password) Sì, se …",
+     "acceptedAnswers": [
+      "non cambi la password",
+      "non cambierai la password"
+     ],
+     "modelAnswer": "Sì, se non cambi la password."
+    },
+    {
+     "id": "s3",
+     "start": "– Venite a trovarmi in Irlanda? – (noi / trovare un volo economico) Certo, se …",
+     "acceptedAnswers": [
+      "troviamo un volo economico",
+      "troveremo un volo economico"
+     ],
+     "modelAnswer": "Certo, se troviamo un volo economico."
+    },
+    {
+     "id": "s4",
+     "start": "– I tuoi genitori ti lasciano partire? – (io / avere buoni voti) Sì, se …",
+     "acceptedAnswers": [
+      "ho buoni voti",
+      "avrò buoni voti"
+     ],
+     "modelAnswer": "Sì, se ho buoni voti."
+    },
+    {
+     "id": "s5",
+     "start": "– Restate un anno intero? – (la scuola / piacerci) Sì, se …",
+     "acceptedAnswers": [
+      "la scuola ci piace",
+      "ci piace la scuola",
+      "la scuola ci piacerà",
+      "ci piacerà la scuola"
+     ],
+     "modelAnswer": "Sì, se la scuola ci piace."
+    },
+    {
+     "id": "s6",
+     "start": "– Mi chiami stasera? – (io / non tornare troppo tardi) Sì, se …",
+     "acceptedAnswers": [
+      "non torno troppo tardi",
+      "non tornerò troppo tardi"
+     ],
+     "modelAnswer": "Sì, se non torno troppo tardi."
+    },
+    {
+     "id": "s7",
+     "start": "– Luca viene con noi a Londra? – (i suoi genitori / essere d’accordo) Sì, se …",
+     "acceptedAnswers": [
+      "i suoi genitori sono d’accordo",
+      "i suoi genitori saranno d’accordo"
+     ],
+     "modelAnswer": "Sì, se i suoi genitori sono d’accordo."
+    },
+    {
+     "id": "s8",
+     "start": "– Andiamo al lago domenica? – (fare bel tempo) Volentieri, se …",
+     "acceptedAnswers": [
+      "fa bel tempo",
+      "farà bel tempo"
+     ],
+     "modelAnswer": "Volentieri, se fa bel tempo."
+    }
+   ]
+  }
+ ]
+}

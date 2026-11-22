@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-remoto-m1",
+ "title": "Due grandi italiani",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: riconoscere e comprendere · Due grandi italiani · livello medio.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · passato remoto (rezeptiv: erkennen und verstehen)"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Il **passato remoto** si trova nei **testi scritti**: fiabe, romanzi, biografie, testi di storia. Ha lo stesso significato del passato prossimo: _Dante **nacque** a Firenze._ = _Dante **è nato** a Firenze._ Devi solo **riconoscerlo**.\n**Verbi regolari** (lui/lei · loro): parl**ò** · parl**arono** – cred**é** · cred**erono** – part**ì** · part**irono**\n| infinito | lui / lei | loro |\n| essere | **fu** | **furono** |\n| avere | **ebbe** | **ebbero** |\n| fare | **fece** | **fecero** |\n| dire | **disse** | **dissero** |\n| venire | **venne** | **vennero** |\n| vedere | **vide** | **videro** |\n| nascere | **nacque** | **nacquero** |\n| vivere | **visse** | **vissero** |\n| scrivere | **scrisse** | **scrissero** |\n| prendere | **prese** | **presero** |\n| mettere | **mise** | **misero** |\n_C’era una volta un re che **ebbe** tre figli. … E **vissero** tutti felici e contenti._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit **geschriebener Texte** (Märchen, Romane, Biografien, Geschichte). Es bedeutet dasselbe wie das passato prossimo: _nacque_ = _è nato_. Du musst die Formen nur **erkennen** und dem Infinitiv zuordnen, nicht selbst bilden.\nRegelmäßig (3. Person): parlò / parlarono, credé / crederono, partì / partirono. Wichtige unregelmäßige Formen: fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), vide (vedere), nacque (nascere), visse (vivere), scrisse (scrivere), prese (prendere), mise (mettere); Plural auf -ero: furono, ebbero, fecero, dissero …"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi le due biografie. Scrivi il passato prossimo che corrisponde al passato remoto in grassetto.",
+   "promptHelp": "Lies die zwei Biografien. Schreibe das passato prossimo, das dem fett gedruckten passato remoto entspricht.",
+   "explanation": "nacque → è nato, visse → è vissuto, fu → è stato, ebbe → ha avuto, fece → ha fatto.",
+   "explanationHelp": "Die wichtigsten Entsprechungen: nacque → è nato, visse → è vissuto, fu → è stato.",
+   "type": "gap_fill",
+   "text": "Dante Alighieri **nacque** (= [[g1]]) a Firenze nel 1265.\nDa giovane **scrisse** (= [[g2]]) poesie d’amore per Beatrice.\n**Ebbe** (= [[g3]]) anche un ruolo politico nella sua città.\nNel 1302 i suoi nemici lo **condannarono** (= [[g4]]) all’esilio e Dante non **tornò** (= [[g5]]) mai più a Firenze.\nNegli anni dell’esilio **lavorò** (= [[g6]]) alla Divina Commedia.\n**Visse** (= [[g7]]) gli ultimi anni a Ravenna, dove **morì** (= [[g8]]) nel 1321.\nLeonardo da Vinci, nato nel 1452, **fu** (= [[g9]]) pittore, scienziato e inventore.\n**Fece** (= [[g10]]) moltissimi disegni di macchine e del corpo umano.\nAlla fine della sua vita **andò** (= [[g11]]) in Francia, dove morì nel 1519.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è nato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ha scritto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha avuto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "hanno condannato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è tornato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha lavorato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "è vissuto",
+      "ha vissuto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "è morto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "è stato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ha fatto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "è andato"
+     ]
+    }
+   ]
+  }
+ ]
+}

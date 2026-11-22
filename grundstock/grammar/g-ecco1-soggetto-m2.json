@@ -52,7 +52,7 @@
    "explanation": "Il pronome serve per confrontare e sottolineare. Lei maiuscolo = forma di cortesia.",
    "explanationHelp": "Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.",
    "type": "gap_fill",
-   "text": "[[g1]] parlo tedesco, ma [[g2]] parla italiano. (Marco)\nLuca? [[g3]] abita a Torino, [[g4]] a Berlino.\nVoi siete di Roma? No, [[g5]] siamo di Milano.\nSignora, [[g6]] è di Torino?\nGiulia e Sara? [[g7]] arrivano alle tre.\nE [[g8]]? Tu dove abiti?\nAnna? [[g9]] studia in biblioteca.\nRagazzi, [[g10]] venite in centro?",
+   "text": "[[g1]] parlo tedesco, ma [[g2]] parla italiano. (Marco)\nLuca? [[g3]] abita a Torino, [[g4]] abito a Berlino.\nVoi siete di Roma? No, [[g5]] siamo di Milano.\nSignora, [[g6]] è di Torino?\nGiulia e Sara? [[g7]] arrivano alle tre.\nE [[g8]]? Tu dove abiti?\nAnna? [[g9]] studia in biblioteca.\nRagazzi, [[g10]] venite in centro?",
    "gaps": [
     {
      "id": "g1",

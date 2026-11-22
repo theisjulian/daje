@@ -216,7 +216,7 @@
     "das Fernsehprogramm"
    ],
    "definition": "Trasmissione che va in onda in TV.",
-   "example": "Il mio programma televisivo preferito è la sera.",
+   "example": "Il mio programma televisivo preferito va in onda la sera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -274,7 +274,7 @@
    ],
    "definition": "Conversazione fatta per raccogliere informazioni.",
    "example": "Il giornalista fa un’intervista al cantante.",
-   "related": "E the interview; F le interview"
+   "related": "E interview; F l’interview"
   },
   {
    "id": "u2-per-parlare-017",

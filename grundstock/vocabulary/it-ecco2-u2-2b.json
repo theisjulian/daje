@@ -99,7 +99,7 @@
     "hier: der Pater (Kirche)"
    ],
    "definition": "Sacerdote cattolico, in alcuni casi.",
-   "example": "Il padre parla alla messa.",
+   "example": "Il padre celebra la messa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -222,7 +222,7 @@
    ],
    "definition": "Di un altro paese.",
    "example": "Ho amici stranieri.",
-   "related": "E strange; F étranger"
+   "related": "E stranger; F étranger"
   },
   {
    "id": "u2-2b-017",
@@ -263,7 +263,7 @@
    ],
    "definition": "Dedicarsi con serietà a qualcosa.",
    "example": "Mi impegno nel volontariato.",
-   "synonyms": "l’impegno",
+   "synonyms": "darsi da fare",
    "acceptedAnswers": [
     "impegnarsi"
    ]
@@ -298,7 +298,7 @@
     "erfordern",
     "verlangen"
    ],
-   "definition": "Domandare con forza.",
+   "definition": "Avere bisogno di qualcosa; anche domandare con forza.",
    "example": "Questo lavoro richiede tempo.",
    "usage": "p.p. richiesto"
   },
@@ -322,7 +322,7 @@
     "das Mahl"
    ],
    "definition": "Pasto di mezzogiorno.",
-   "example": "Il pranzo è alle una.",
+   "example": "Il pranzo è all’una.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -484,8 +484,8 @@
    "translations": [
     "gelten"
    ],
-   "definition": "Avere un certo valore.",
-   "example": "Questa moneta vale due euro.",
+   "definition": "Essere valido; anche avere un certo valore.",
+   "example": "Questa regola vale per tutti.",
    "acceptedAnswers": [
     "valere, valso"
    ],

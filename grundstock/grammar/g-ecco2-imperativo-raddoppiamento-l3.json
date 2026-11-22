@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-l3",
+ "title": "Raddoppia o no?",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Raddoppia o no? · livello facile.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "La consonante del pronome raddoppia o no?",
+   "promptHelp": "Verdoppelt sich der Konsonant des Pronomens oder nicht?",
+   "explanation": "Solo con gli non c’è la doppia consonante: dagli, digli, fagli.",
+   "explanationHelp": "Nur bei gli gibt es keine Verdopplung: dagli, digli, fagli.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "d",
+     "label": "raddoppia (dimmi)"
+    },
+    {
+     "id": "s",
+     "label": "non raddoppia (digli)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "di’ + mi",
+     "category": "d"
+    },
+    {
+     "id": "i2",
+     "text": "da’ + gli",
+     "category": "s"
+    },
+    {
+     "id": "i3",
+     "text": "fa’ + lo",
+     "category": "d"
+    },
+    {
+     "id": "i4",
+     "text": "di’ + gli",
+     "category": "s"
+    },
+    {
+     "id": "i5",
+     "text": "va’ + ci",
+     "category": "d"
+    },
+    {
+     "id": "i6",
+     "text": "fa’ + gli",
+     "category": "s"
+    },
+    {
+     "id": "i7",
+     "text": "da’ + le",
+     "category": "d"
+    },
+    {
+     "id": "i8",
+     "text": "sta’ + mi",
+     "category": "d"
+    },
+    {
+     "id": "i9",
+     "text": "da’ + ci",
+     "category": "d"
+    },
+    {
+     "id": "i10",
+     "text": "fa’ + la",
+     "category": "d"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-m1",
+ "title": "Essere e venire",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Essere e venire · livello medio.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con il passivo di pulire. Attenzione al soggetto!",
+   "promptHelp": "Ergänze die Tabelle mit dem Passiv von pulire. Achte auf das Subjekt!",
+   "type": "table_fill",
+   "columns": [
+    "soggetto e tempo",
+    "con essere",
+    "con venire"
+   ],
+   "rows": [
+    [
+     "il parco – presente",
+     "è pulito",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "viene pulito"
+      ]
+     }
+    ],
+    [
+     "il parco – imperfetto",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "era pulito"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "veniva pulito"
+      ]
+     }
+    ],
+    [
+     "il parco – futuro",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "sarà pulito"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "verrà pulito"
+      ]
+     }
+    ],
+    [
+     "il parco – passato prossimo",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "è stato pulito"
+      ]
+     },
+     "–"
+    ],
+    [
+     "le strade – presente",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "sono pulite"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "vengono pulite"
+      ]
+     }
+    ],
+    [
+     "le strade – futuro",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "saranno pulite"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "verranno pulite"
+      ]
+     }
+    ],
+    [
+     "le strade – condizionale presente",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "sarebbero pulite"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "verrebbero pulite"
+      ]
+     }
+    ],
+    [
+     "le strade – passato prossimo",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "sono state pulite"
+      ]
+     },
+     "–"
+    ]
+   ]
+  }
+ ]
+}

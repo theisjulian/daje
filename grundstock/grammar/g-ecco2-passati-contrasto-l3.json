@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-passati-contrasto-l3",
+ "title": "Quale frase è giusta?",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Quale frase è giusta? · livello facile.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Gebrauch von passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "| **imperfetto** | **passato prossimo** |\n| abitudine: _Ogni estate **andavamo** al mare._ | azione unica e finita: _Ieri **siamo andati** al mare._ |\n| descrizione (tempo, età, persone, luoghi): _**Faceva** caldo. **Avevo** dieci anni._ | azioni una dopo l’altra: _**Sono uscito**, **ho preso** l’autobus e **sono andato** in centro._ |\n| azione in corso: _Mentre **dormivo**, …_ | azione nuova, improvvisa: _… **è suonata** la sveglia._ |\nParole tipiche per l’imperfetto: _da bambino, di solito, sempre, ogni estate, mentre_.\nParole tipiche per il passato prossimo: _ieri, sabato scorso, nel 2020, all’improvviso, a un certo punto, tre volte_.\n_**Mentre** tornavo a casa, **ho incontrato** Marta._",
+  "ruleHelp": "**imperfetto:** Gewohnheit, Beschreibung (Wetter, Alter, Aussehen, Gefühle), Handlung, die gerade im Gang war (**mentre** + imperfetto).\n**passato prossimo:** einmalige, abgeschlossene Handlung; Handlungen nacheinander; etwas Neues, das plötzlich passiert (ieri, sabato scorso, all’improvviso, tre volte).\nDas Deutsche macht diesen Unterschied nicht (beides „ich ging / ich bin gegangen“). Frage dich: „Wie war es? Was machte man immer?“ → imperfetto. „Was ist dann passiert?“ → passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Mentre mangiavo, è arrivato Paolo."
+    },
+    {
+     "id": "o2",
+     "text": "Mentre ho mangiato, arrivava Paolo."
+    },
+    {
+     "id": "o3",
+     "text": "Mentre ho mangiato, è arrivato Paolo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Da piccola andavo ogni estate al mare."
+    },
+    {
+     "id": "o2",
+     "text": "Da piccola sono andata ogni estate al mare."
+    },
+    {
+     "id": "o3",
+     "text": "Da piccola vado ogni estate al mare."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ieri sono uscito alle otto e sono tornato alle dieci."
+    },
+    {
+     "id": "o2",
+     "text": "Ieri uscivo alle otto e sono tornato alle dieci."
+    },
+    {
+     "id": "o3",
+     "text": "Ieri sono uscito alle otto e tornavo alle dieci."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ieri faceva freddo, così ho messo la giacca."
+    },
+    {
+     "id": "o2",
+     "text": "Ieri ha fatto freddo, così mettevo la giacca."
+    },
+    {
+     "id": "o3",
+     "text": "Ieri faceva freddo, così mettevo la giacca."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Quando avevo cinque anni, abitavo a Bari."
+    },
+    {
+     "id": "o2",
+     "text": "Quando ho avuto cinque anni, ho abitato a Bari."
+    },
+    {
+     "id": "o3",
+     "text": "Quando ho avuto cinque anni, abitavo a Bari."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Parlavamo tutti, ma all’improvviso è entrato il preside."
+    },
+    {
+     "id": "o2",
+     "text": "Abbiamo parlato tutti, ma all’improvviso entrava il preside."
+    },
+    {
+     "id": "o3",
+     "text": "Parlavamo tutti, ma all’improvviso entrava il preside."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Di solito pranzavamo a casa, ma quel giorno abbiamo mangiato fuori."
+    },
+    {
+     "id": "o2",
+     "text": "Di solito abbiamo pranzato a casa, ma quel giorno mangiavamo fuori."
+    },
+    {
+     "id": "o3",
+     "text": "Di solito pranzavamo a casa, ma quel giorno mangiavamo fuori."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Mentre Sara leggeva, suo fratello ascoltava la musica."
+    },
+    {
+     "id": "o2",
+     "text": "Mentre Sara ha letto, suo fratello ascoltava la musica."
+    },
+    {
+     "id": "o3",
+     "text": "Mentre Sara ha letto, suo fratello ha ascoltato la musica."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

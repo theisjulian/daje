@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-l1",
+ "title": "Una gita in montagna",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Una gita in montagna · livello facile.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Verbi riflessivi: sempre essere; il participio concorda con il soggetto.",
+   "explanationHelp": "Reflexive Verben: immer essere; das Partizip richtet sich nach dem Subjekt.",
+   "type": "gap_choice",
+   "text": "Sabato mattina Giulia si [[g1]] svegliata alle sei.\nSuo fratello Tommaso, invece, si è [[g2]] tardi.\nI due ragazzi si [[g3]] preparati in fretta.\nAlla stazione Giulia e la sua amica Ada si sono [[g4]].\n«Ragazzi, vi [[g5]] messi le scarpe da montagna?» ha chiesto la guida.\nIn montagna tutti si sono [[g6]].\nAda ha detto: «Io mi [[g7]] stancata molto!»\nTommaso si è [[g8]] su un sasso.\nLe due ragazze si sono [[g9]] vicino al lago.\n«E tu, Tommaso, ti [[g10]] divertito?» – «Sì, tantissimo!»",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "alzato",
+      "alzata",
+      "alzati"
+     ],
+     "answer": "alzato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sono",
+      "hanno",
+      "siamo"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "incontrate",
+      "incontrati",
+      "incontrata"
+     ],
+     "answer": "incontrate"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "siete",
+      "avete",
+      "siamo"
+     ],
+     "answer": "siete"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "divertiti",
+      "divertito",
+      "divertite"
+     ],
+     "answer": "divertiti"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sono",
+      "ho",
+      "sei"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "seduto",
+      "seduta",
+      "sedito"
+     ],
+     "answer": "seduto"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "riposate",
+      "riposati",
+      "riposata"
+     ],
+     "answer": "riposate"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sei",
+      "hai",
+      "è"
+     ],
+     "answer": "sei"
+    }
+   ]
+  }
+ ]
+}

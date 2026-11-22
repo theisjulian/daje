@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-s3",
+ "title": "Chi ama la musica …",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Chi ama la musica … · livello difficile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** venire?_\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma le frasi: usa chi.",
+   "promptHelp": "Forme die Sätze um: Verwende chi.",
+   "explanation": "chi = le persone che, ma il verbo è al singolare.",
+   "explanationHelp": "chi = die Leute, die …; das Verb steht aber im Singular.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Le persone che amano la musica vengono qui.",
+     "acceptedAnswers": [
+      "Chi ama la musica viene qui"
+     ],
+     "modelAnswer": "Chi ama la musica viene qui."
+    },
+    {
+     "id": "s2",
+     "start": "Le persone che non hanno il biglietto non entrano.",
+     "acceptedAnswers": [
+      "Chi non ha il biglietto non entra"
+     ],
+     "modelAnswer": "Chi non ha il biglietto non entra."
+    },
+    {
+     "id": "s3",
+     "start": "Le persone che arrivano presto trovano posto.",
+     "acceptedAnswers": [
+      "Chi arriva presto trova posto"
+     ],
+     "modelAnswer": "Chi arriva presto trova posto."
+    },
+    {
+     "id": "s4",
+     "start": "Le persone che vogliono dipingere portano i colori.",
+     "acceptedAnswers": [
+      "Chi vuole dipingere porta i colori"
+     ],
+     "modelAnswer": "Chi vuole dipingere porta i colori."
+    },
+    {
+     "id": "s5",
+     "start": "Le persone che abitano in centro vanno a piedi.",
+     "acceptedAnswers": [
+      "Chi abita in centro va a piedi"
+     ],
+     "modelAnswer": "Chi abita in centro va a piedi."
+    },
+    {
+     "id": "s6",
+     "start": "Le persone che fanno sport stanno meglio.",
+     "acceptedAnswers": [
+      "Chi fa sport sta meglio"
+     ],
+     "modelAnswer": "Chi fa sport sta meglio."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Descrivi il tuo quartiere o la tua città. Scrivi 5 frasi con che, preposizione + cui, dove, chi e quello che.",
+   "promptHelp": "Beschreibe dein Viertel oder deine Stadt. Schreibe 5 Sätze mit che, Präposition + cui, dove, chi und quello che.",
+   "type": "open_answer",
+   "modelAnswer": "Abito in un quartiere che è molto verde. La via in cui abito è tranquilla. Vicino a casa c’è un parco dove gioco a basket. Chi ama lo sport qui sta bene. Quello che mi manca è un cinema.",
+   "lines": 5
+  }
+ ]
+}

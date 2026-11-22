@@ -46,14 +46,15 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "prompt": "Completa il testo con le preposizioni (semplici o articolate). Dove ci sono, segui le indicazioni tra parentesi.",
    "text": "Sono arrivata [[g1]] residenza con una valigia e uno zaino troppo pesante. L’ingresso era aperto, ma la reception era vuota. [[g2]] banco c’era un foglio: invitava gli ospiti a chiamare il numero interno. Ho aspettato qualche minuto, poi è arrivata un’addetta [[g3]] due chiavi.\nMi ha accompagnata [[g4]] (a + il) secondo piano e mi ha mostrato la cucina della residenza. «Questi ripiani sono tuoi; gli altri sono nostri», ha spiegato la ragazza che abitava [[g5]] stanza accanto. Il frigorifero era piccolo: lo avremmo usato in quattro. Le stoviglie, invece, erano numerose e le potevamo scegliere liberamente.\nPrima [[g6]] dormire ho scritto ai miei amici. Gli ho raccontato [[g7]] viaggio: Paolo voleva sapere tutto. A mia sorella ho mandato una foto; le interessava soprattutto la finestra. Dava [[g8]] (preposizione semplice) un cortile pieno di biciclette.\nNon conoscevo ancora nessuno e temevo [[g9]] disturbare. Tuttavia sono tornata [[g10]] cucina a prendere dell’acqua. La mia vicina stava preparando una tisana e mi ha offerto una tazza. Abbiamo parlato [[g11]] (di + i) nostri corsi e delle cose che ci mancavano. Quando sono rientrata [[g12]] camera, il posto sembrava già meno estraneo.",
    "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "alla"
+      "alla",
+      "nella"
      ]
     },
     {
@@ -123,7 +124,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+   "promptHelp": "Ergänze den Text mit den Präpositionen (einfach oder mit Artikel verschmolzen). Wo Angaben in Klammern stehen, beachte sie."
   }
  ]
 }

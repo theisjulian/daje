@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-s2",
+ "title": "Un anno a Dublino",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Un anno a Dublino · livello difficile.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Davide scrive a Giulia. Usa il futuro anteriore per l’azione che viene prima (anche dopo «entro») e per le supposizioni sul passato; negli altri casi il futuro semplice.",
+   "promptHelp": "Davide schreibt an Giulia. Verwende das futuro anteriore für die Handlung, die vorher abgeschlossen ist (auch nach „entro“), und für Vermutungen über Vergangenes; sonst das futuro semplice.",
+   "explanation": "Prima → futuro anteriore, dopo → futuro semplice: Appena avrò trovato una stanza, ti manderò l’indirizzo.",
+   "explanationHelp": "Zuerst → futuro anteriore, danach → futuro semplice.",
+   "type": "gap_fill",
+   "text": "Cara Giulia, ad agosto (partire, io) [[g1]] per Dublino.\nAppena (trovare, io) [[g2]] una stanza, ti (mandare) [[g3]] l’indirizzo.\nEntro Natale (imparare, io) [[g4]] bene l’inglese, spero!\nDopo che (finire, io) [[g5]] il corso di lingua, (cercare) [[g6]] un lavoro in un bar.\nTu intanto (fare) [[g7]] la maturità.\nQuando (dare, tu) [[g8]] l’ultimo esame, (venire) [[g9]] a trovarmi, vero?\nLa scuola di lingue non mi ha ancora risposto: forse (perdere, loro) [[g10]] la mia mail.\nA presto, Davide",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "partirò"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avrò trovato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "manderò"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "avrò imparato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avrò finito"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "cercherò"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "farai"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrai dato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "verrai"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avranno perso"
+     ]
+    }
+   ]
+  }
+ ]
+}

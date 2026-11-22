@@ -70,19 +70,23 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "a cui"
+      "a cui",
+      "cui",
+      "al quale"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "di cui"
+      "di cui",
+      "del quale"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "con cui"
+      "con cui",
+      "con le quali"
      ]
     },
     {
@@ -94,7 +98,8 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "sulla quale"
+      "sulla quale",
+      "su cui"
      ]
     }
    ],

@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-possessivi-pronomi-s3",
+ "title": "La mia vita e la sua",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi possessivi · La mia vita e la sua · livello difficile.",
+ "topics": [
+  "I pronomi possessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-pronomi",
+  "topicTitle": "I pronomi possessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)\n| | singolare | plurale |\n| io | il mio · la mia | i miei · le mie |\n| tu | il tuo · la tua | i tuoi · le tue |\n| lui / lei | il suo · la sua | i suoi · le sue |\n| noi | il nostro · la nostra | i nostri · le nostre |\n| voi | il vostro · la vostra | i vostri · le vostre |\n| loro | il loro · la loro | i loro · le loro |\nIl pronome ha **sempre l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_\nDopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._\n**Loro** non cambia mai: _il loro, la loro, i loro, le loro._",
+  "ruleHelp": "Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.\nAls Pronomen steht es **immer mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).\nNach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Confronta la tua vita con la vita di un amico o di un’amica (scuola, famiglia, orari, sogni). Usa almeno 5 pronomi possessivi.",
+   "promptHelp": "Vergleiche dein Leben mit dem eines Freundes oder einer Freundin (Schule, Familie, Zeiten, Träume). Verwende mindestens 5 Possessivpronomen.",
+   "type": "open_answer",
+   "modelAnswer": "La mia scuola comincia alle otto, la sua alle otto e mezza. I miei genitori lavorano in ufficio, i suoi hanno un negozio. Mio fratello è piccolo, il suo è già grande. Le mie materie preferite sono inglese e arte, le sue sono matematica e fisica. Il mio sogno è fare il medico, il suo è fare la giornalista.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Prüfe: welche Form?",
+   "explanation": "Come soggetto il pronome ha sempre l’articolo: il suo, i suoi, la sua.",
+   "explanationHelp": "Als Subjekt hat das Pronomen immer den Artikel: il suo, i suoi, la sua.",
+   "type": "gap_choice",
+   "text": "Mio fratello è piccolo, [[g1]] è già grande.\nI miei genitori lavorano in ufficio, [[g2]] hanno un negozio.\nLa mia scuola comincia alle otto, [[g3]] alle otto e mezza.\n[[g4]] sorella studia a Pisa.\nLe mie materie preferite sono inglese e arte, [[g5]] sono matematica e fisica.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "il suo",
+      "suo",
+      "la sua"
+     ],
+     "answer": "il suo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "i suoi",
+      "le sue",
+      "suoi"
+     ],
+     "answer": "i suoi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "la sua",
+      "il suo",
+      "sua"
+     ],
+     "answer": "la sua"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Mia",
+      "La mia",
+      "Il mio"
+     ],
+     "answer": "Mia"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "le sue",
+      "i suoi",
+      "la sua"
+     ],
+     "answer": "le sue"
+    }
+   ]
+  }
+ ]
+}

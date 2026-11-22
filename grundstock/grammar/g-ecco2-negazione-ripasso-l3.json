@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-negazione-ripasso-l3",
+ "title": "La frase giusta",
+ "language": "it",
+ "level": "A2",
+ "description": "La doppia negazione: ripasso · La frase giusta · livello facile.",
+ "topics": [
+  "La doppia negazione: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Verneinung (Wiederholung und Erweiterung: ancora, neanche, né … né)"
+ },
+ "grammar": {
+  "topic": "ecco2-negazione-ripasso",
+  "topicTitle": "La doppia negazione: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "In italiano la negazione è **doppia**: **non** prima del verbo, la seconda parola dopo il verbo.\n| non … **mai** | nie | _Non gioco mai online._ |\n| non … **niente** (nulla) | nichts | _Non capisco niente._ |\n| non … **nessuno** | niemand | _Non conosco nessuno._ |\n| non … **più** | nicht mehr | _Non uso più quell’app._ |\n| non … **ancora** | noch nicht | _Non ho ancora finito._ |\n| non … **neanche** | auch nicht, nicht einmal | _Non viene neanche Luca._ |\n| non … **né … né** | weder … noch | _Non ho né tempo né voglia._ |\n**Passato prossimo:** _mai, più, ancora_ stanno di solito tra ausiliare e participio: _Non ho **mai** visto questo film._ **Niente** e **nessuno** stanno dopo il participio: _Non ho visto **niente**. Non ho visto **nessuno**._\n**All’inizio della frase** non c’è _non_: _**Nessuno** risponde. **Niente** funziona. **Neanche** io ho un tablet._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb, das zweite Wort nach dem Verb: mai (nie), niente (nichts), nessuno (niemand), più (nicht mehr), ancora (noch nicht), neanche (auch nicht), né … né (weder … noch).\nIm passato prossimo stehen _mai, più, ancora_ meist zwischen Hilfsverb und Partizip (_Non ho mai visto …_), _niente_ und _nessuno_ nach dem Partizip (_Non ho visto niente_).\nSteht _nessuno, niente, neanche_ am Satzanfang, fällt **non** weg: _Nessuno risponde._ Anders als im Deutschen ist die doppelte Verneinung kein Fehler, sondern Pflicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho mai avuto un tablet."
+    },
+    {
+     "id": "o2",
+     "text": "Ho mai avuto un tablet."
+    },
+    {
+     "id": "o3",
+     "text": "Mai non ho avuto un tablet."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Nessuno ha letto il mio messaggio."
+    },
+    {
+     "id": "o2",
+     "text": "Nessuno non ha letto il mio messaggio."
+    },
+    {
+     "id": "o3",
+     "text": "Non nessuno ha letto il mio messaggio."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho visto niente."
+    },
+    {
+     "id": "o2",
+     "text": "Non ho niente visto."
+    },
+    {
+     "id": "o3",
+     "text": "Ho visto niente."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho ancora scaricato l’app."
+    },
+    {
+     "id": "o2",
+     "text": "Ho ancora non scaricato l’app."
+    },
+    {
+     "id": "o3",
+     "text": "Non ancora ho scaricato l’app."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho incontrato nessuno."
+    },
+    {
+     "id": "o2",
+     "text": "Non ho nessuno incontrato."
+    },
+    {
+     "id": "o3",
+     "text": "Ho incontrato nessuno."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Niente è gratis su questo sito."
+    },
+    {
+     "id": "o2",
+     "text": "Niente non è gratis su questo sito."
+    },
+    {
+     "id": "o3",
+     "text": "Non niente è gratis su questo sito."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho né tempo né voglia."
+    },
+    {
+     "id": "o2",
+     "text": "Ho né tempo né voglia."
+    },
+    {
+     "id": "o3",
+     "text": "Non ho né tempo non voglia."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non guardo più la TV."
+    },
+    {
+     "id": "o2",
+     "text": "Non più guardo la TV."
+    },
+    {
+     "id": "o3",
+     "text": "Guardo non più la TV."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

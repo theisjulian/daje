@@ -81,7 +81,9 @@
      "acceptedAnswers": [
       "alle dodici e mezza",
       "alle dodici e mezzo",
-      "a mezzogiorno e mezzo"
+      "alle dodici e trenta",
+      "a mezzogiorno e mezzo",
+      "a mezzogiorno e mezza"
      ],
      "modelAnswer": "Mangio a mezzogiorno e mezzo."
     },
@@ -108,7 +110,8 @@
      "start": "Che ore sono? (1.30) – …",
      "acceptedAnswers": [
       "l’una e mezza",
-      "l’una e mezzo"
+      "l’una e mezzo",
+      "l’una e trenta"
      ],
      "modelAnswer": "È l’una e mezza."
     },

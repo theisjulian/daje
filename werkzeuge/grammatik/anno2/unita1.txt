@@ -1,0 +1,760 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Unità 1 · Ricordi. Eigene Übungen.
+
+@thema bello | 1 · Ricordi | Per cominciare | Bello e la posizione degli aggettivi | 1
+#lehrplan Jgst. 9 · Adjektiv bello vor dem Nomen, Stellung der Adjektive
+#regel
+Davanti al nome **bello** cambia come l’articolo determinativo:
+| il libro → un **bel** libro | i libri → due **bei** libri |
+| lo zaino → un **bello** zaino | gli zaini → due **begli** zaini |
+| l’albero → un **bell’**albero | gli alberi → due **begli** alberi |
+| la casa → una **bella** casa | le case → due **belle** case |
+| l’idea → una **bell’**idea | le idee → due **belle** idee |
+Dopo il nome o dopo **essere**: bello, bella, belli, belle. _Il film è **bello**. I libri sono **belli**._
+**Posizione:** di solito l’aggettivo sta **dopo** il nome (colore, nazionalità, forma): _una maglietta **rossa**, un amico **tedesco**, un tavolo **rotondo**_.
+Alcuni aggettivi corti e frequenti stanno spesso **prima** del nome: bello, brutto, buono, bravo, grande, piccolo, nuovo, vecchio. _Una **piccola** casa, un **vecchio** amico._
+#regel-de
+Vor dem Nomen verhält sich **bello** wie der bestimmte Artikel: il → **bel**, lo → **bello**, l’ → **bell’**, la → **bella**; i → **bei**, gli → **begli**, le → **belle**. _Un bel libro, un bello zaino, un bell’albero, due begli occhi._
+Nach dem Nomen oder nach essere bleibt es regelmäßig: _I libri sono belli._
+**Stellung:** Anders als im Deutschen steht das Adjektiv meist **nach** dem Nomen (Farbe, Nationalität, Form): _una maglietta rossa_. Einige kurze, häufige Adjektive (bello, buono, grande, piccolo, nuovo, vecchio …) stehen oft davor.
+
+%übung leicht | Bel, bello, bell’, bei o begli?
+?sortieren | Quale forma di bello va davanti a questi nomi? || Welche Form von bello steht vor diesen Nomen?
+Kategorien: a=bel; b=bello; c=bell’; d=bei; e=begli
+un … libro > a
+un … giardino > a
+un … zaino > b
+un … spettacolo > b
+un … albero > c
+un … orologio > c
+due … ricordi > d
+due … posti > d
+due … occhi > e
+due … stivali > e
+due … alberghi > e
+! bello cambia come l’articolo: il → bel, lo → bello, l’ → bell’, i → bei, gli → begli. || bello verhält sich wie der Artikel: il → bel, lo → bello, l’ → bell’, i → bei, gli → begli.
+
+%übung leicht | Una cartolina dalla Puglia
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Cara Lea, che {bel*|bello|bell’} posto!
+Abbiamo trovato {un bell’albergo*|un bel albergo|un bello albergo} vicino al mare.
+Dalla finestra vedo un {bel*|bello|bei} giardino.
+Ieri abbiamo visto un {bello*|bel|bell’} spettacolo in piazza.
+Qui ci sono tanti {bei*|begli|belli} negozi.
+Il bagnino ha due {begli*|bei|belli} occhi verdi!
+Le spiagge sono {belle*|bei|bella}.
+Anche i paesi qui vicino sono {belli*|bei|begli}.
+Oggi è una {bella*|bel|bello} giornata di sole.
+Ti mando tre {belle*|bei|begli} foto. Un abbraccio, Mia
+! Davanti al nome: bel, bello, bell’, bei, begli. Dopo essere: bello, bella, belli, belle. || Vor dem Nomen: bel, bello, bell’, bei, begli. Nach essere: bello, bella, belli, belle.
+
+%übung leicht | Prima o dopo il nome?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Ho una maglietta rossa.
+- Ho una rossa maglietta.
+- Ho rossa una maglietta.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Marta ha un amico tedesco.
+- Marta ha un tedesco amico.
+- Marta ha tedesco un amico.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Che bel film!
+- Che bello film!
+- Che film bel!
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* In cucina c’è un tavolo rotondo.
+- In cucina c’è un rotondo tavolo.
+- In cucina c’è rotondo un tavolo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* È un bell’albergo.
+- È un bel albergo.
+- È un albergo bel.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Ho visto due begli spettacoli.
+- Ho visto due bei spettacoli.
+- Ho visto due belli spettacoli.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Questi fiori sono belli.
+- Questi fiori sono bei.
+- Questi fiori sono begli.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Leggo un libro italiano.
+- Leggo un italiano libro.
+- Leggo italiano un libro.
+
+%übung mittel | Le foto delle vacanze
+?luecke | Completa con la forma giusta di bello. || Ergänze die richtige Form von bello.
+Guarda, nonna! Questo è un [bel] paese vicino a Lecce.
+Qui siamo davanti a un [bell’]albergo del centro.
+In questa foto c’è un [bello] stadio, vero?
+Che [bei] colori ha il mare!
+E guarda che [begli] alberi in questo parco!
+Questa è una [bella] piazza con una fontana.
+Qui abbiamo due [begli] zaini nuovi: li abbiamo comprati al mercato.
+Abbiamo passato due [belle] settimane.
+Il tramonto è proprio [bello], no?
+E questo è un [bel] gelato al pistacchio!
+! Guarda l’inizio del nome: s + consonante o z → bello / begli; vocale → bell’ / begli. || Achte auf den Anfang des Nomens: s + Konsonant oder z → bello / begli; Vokal → bell’ / begli.
+
+%übung mittel | Uno e due
+?tabelle | Scrivi un / una + bello + nome e poi due + bello + nome, come nell’esempio. || Schreibe un / una + bello + Nomen und dann due + bello + Nomen wie im Beispiel.
+Spalten: nome | singolare | plurale
+il libro | un bel libro | due bei libri
+il posto | [un bel posto] | [due bei posti]
+lo zaino | [un bello zaino] | [due begli zaini]
+l’albergo | [un bell’albergo] | [due begli alberghi]
+la canzone | [una bella canzone] | [due belle canzoni]
+l’isola | [una bell’isola/una bella isola] | [due belle isole]
+
+%übung schwer | Caccia all’errore
+?fehler | In ogni frase c’è un errore: la forma di bello o la posizione dell’aggettivo. Correggi. || In jedem Satz steckt ein Fehler: die Form von bello oder die Stellung des Adjektivs. Korrigiere.
+Che [bello=>bel] tempo oggi!
+A Roma abbiamo visto un [bel=>bello] spettacolo.
+Sara ha due [bei=>begli] occhi azzurri.
+Ho passato dieci [belli=>bei] giorni in Sicilia.
+Che [bel albero=>bell’albero]!
+Ho comprato una [nera giacca=>giacca nera].
+Questi posti sono davvero [bei=>belli].
+Abbiamo conosciuto due [tedeschi ragazzi=>ragazzi tedeschi].
+Che [bel=>bella] sorpresa!
+Il lago è proprio [bel=>bello] di sera.
+! bel, bei, begli solo davanti al nome. Colore e nazionalità: dopo il nome. || bel, bei, begli nur vor dem Nomen. Farbe und Nationalität: nach dem Nomen.
+
+%übung schwer | Che bello!
+?ergaenzen | Trasforma in un’esclamazione con che + bello + nome. || Forme in einen Ausruf mit che + bello + Nomen um.
+Il panorama è bello. → Che … | bel panorama | Che bel panorama!
+L’albergo è bello. → Che … | bell’albergo | Che bell’albergo!
+Lo zaino è bello. → Che … | bello zaino | Che bello zaino!
+Gli occhi sono belli. → Che … | begli occhi | Che begli occhi!
+I colori sono belli. → Che … | bei colori | Che bei colori!
+La spiaggia è bella. → Che … | bella spiaggia | Che bella spiaggia!
+Le canzoni sono belle. → Che … | belle canzoni | Che belle canzoni!
+Lo spettacolo è bello. → Che … | bello spettacolo | Che bello spettacolo!
+Gli stivali sono belli. → Che … | begli stivali | Che begli stivali!
+L’orologio è bello. → Che … | bell’orologio | Che bell’orologio!
+
+%übung schwer | Un bel ricordo
+?luecke | Attenzione al genere dei nomi! Completa con la forma giusta di bello. || Achte auf das Geschlecht der Nomen! Ergänze die richtige Form von bello.
+Hai un [bel] problema, amico mio!
+In centro c’è un [bel] cinema.
+Queste due foto sono molto [belle].
+Che [belle] mani ha la pianista!
+Ho un [bel] programma per sabato.
+! il problema, il cinema, il programma sono maschili; la foto e la mano sono femminili. || il problema, il cinema, il programma sind maskulin; la foto und la mano sind feminin.
+?frei | Descrivi un bel ricordo delle vacanze. Usa almeno 4 forme di bello davanti al nome e 3 aggettivi dopo il nome. || Beschreibe eine schöne Ferienerinnerung. Verwende mindestens 4 Formen von bello vor dem Nomen und 3 Adjektive nach dem Nomen.
+L’estate scorsa ho passato due belle settimane in Toscana con la mia famiglia. Abbiamo trovato un bell’albergo con un bel giardino. Ho conosciuto due ragazzi italiani e una ragazza francese. Abbiamo visitato tanti bei paesi e ho comprato una maglietta rossa. È stato un bel viaggio!
+Zeilen: 6
+
+@thema numeri-grandi | 1 · Ricordi | Per cominciare | I numeri oltre cento | 2
+#lehrplan Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise
+#regel
+| 100 | **cento** | 1.000 | **mille** |
+| 200 | due**cento** | 2.000 | due**mila** |
+| 350 | trecentocinquanta | 10.000 | dieci**mila** |
+| 999 | novecentonovantanove | 100.000 | cento**mila** |
+| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |
+- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.
+- I numeri si scrivono in una sola parola: _millenovecentonovanta_.
+- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.
+- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).
+- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.
+#regel-de
+**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.
+**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.
+Jahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.
+Preise: _tre euro e cinquanta_; **euro** hat keine Pluralform.
+
+%übung leicht | Cifre e parole
+?zuordnen | Abbina il numero alla parola. || Verbinde die Zahl mit dem Zahlwort.
+200 = duecento
+350 = trecentocinquanta
+999 = novecentonovantanove
+1.000 = mille
+1.500 = millecinquecento
+2.000 = duemila
+10.000 = diecimila
+100.000 = centomila
+1.000.000 = un milione
+2.000.000 = due milioni
++ duemille
++ due milione
+
+%übung leicht | Mille o mila?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+300 = {trecento*|trecenti|trecentoni}
+2.000 = {duemila*|duemille|duemili}
+1.000 = {mille*|un mille|unmila}
+600 = {seicento*|seicenti|seiscento}
+1.200 = {milleduecento*|milladuecento|milleduecenti}
+20.000 = {ventimila*|ventimille|ventemila}
+5.000.000 = {cinque milioni*|cinque milione|cinque mila}
+La città ha un milione {di abitanti*|abitanti|degli abitanti}.
+Il biglietto costa 150 {euro*|euri|euros}.
+Mia sorella è nata {nel*|in|a} 2010.
+! cento non cambia; mille → -mila; un milione di …; nel + anno. || cento bleibt gleich; mille → -mila; un milione di …; nel + Jahr.
+
+%übung mittel | Al mercatino dell’usato
+?luecke | Scrivi i prezzi in lettere. || Schreibe die Preise in Buchstaben.
+La bici da corsa costa 120 euro: [centoventi] euro.
+Il vecchio motorino costa 950 euro: [novecentocinquanta] euro.
+La chitarra costa 275 euro: [duecentosettantacinque] euro.
+Il computer costa 430 euro: [quattrocentotrenta] euro.
+Il divano costa 600 euro: [seicento] euro.
+Il pianoforte costa 1.300 euro: [milletrecento] euro.
+La macchina del nonno costa 2.500 euro: [duemilacinquecento] euro.
+La barca costa 15.000 euro: [quindicimila] euro.
+Un fumetto costa 3,50 euro: tre euro e [cinquanta].
+E una casa con giardino? 200.000 euro: [duecentomila] euro! Ma non è al mercatino …
+! I numeri si scrivono in una sola parola: duemilacinquecento. || Zahlen schreibt man in einem Wort: duemilacinquecento.
+
+%übung mittel | Cifre o lettere?
+?tabelle | Completa la tabella: scrivi il numero in cifre o in lettere. || Ergänze die Tabelle: Schreibe die Zahl in Ziffern oder in Buchstaben.
+Spalten: in cifre | in lettere
+400 | [quattrocento]
+[750] | settecentocinquanta
+1.200 | [milleduecento]
+[3000/3.000] | tremila
+6.500 | [seimilacinquecento]
+[20000/20.000] | ventimila
+90.000 | [novantamila]
+[500000/500.000] | cinquecentomila
+1.000.000 | [un milione]
+[4000000/4.000.000] | quattro milioni
+
+%übung mittel | Dal più piccolo al più grande
+?ordnen | Metti i numeri in ordine, dal più piccolo al più grande. || Ordne die Zahlen von der kleinsten zur größten.
+novanta
+novecento
+novemila
+novantamila
+novecentomila
+?ordnen | Metti i numeri in ordine, dal più piccolo al più grande. || Ordne die Zahlen von der kleinsten zur größten.
+centoventi
+duecentodieci
+milleduecento
+duemilacento
+dodicimila
+?ordnen | Metti i numeri in ordine, dal più piccolo al più grande. || Ordne die Zahlen von der kleinsten zur größten.
+mille
+diecimila
+centomila
+un milione
+due milioni
+?ordnen | Metti gli anni in ordine: comincia con l’anno più lontano da oggi. || Ordne die Jahre: Beginne mit dem Jahr, das am weitesten zurückliegt.
+millequattrocentonovantadue
+milleottocentosessantuno
+millenovecentoquarantasei
+millenovecentonovanta
+duemilasei
+
+%übung schwer | Dieci errori con i numeri
+?fehler | Correggi l’errore in ogni frase. || Korrigiere den Fehler in jedem Satz.
+La mia scuola ha [ottocenti=>ottocento] studenti.
+Il motorino costa [duemille=>duemila] euro.
+Milano ha più di un milione [abitanti=>di abitanti].
+Ho pagato [un mille=>mille] euro per il computer.
+Il libro ha [tre cento=>trecento] pagine.
+Mia nonna è nata [in=>nel] 1950.
+In Italia abitano circa 59 [milione=>milioni] di persone.
+Questo telefono costa trecento [euri=>euro].
+Lo stadio ha [cinquantamille=>cinquantamila] posti.
+Mio bisnonno ha [un cento=>cento] anni!
+! cento e mille senza un; mille → -mila; un milione di, due milioni di; euro non cambia. || cento und mille ohne un; mille → -mila; un milione di, due milioni di; euro bleibt unverändert.
+
+%übung schwer | L’Italia in numeri
+?luecke | Scrivi i numeri in lettere. || Schreibe die Zahlen in Buchstaben.
+Il Po è lungo 652 chilometri: [seicentocinquantadue] chilometri.
+Roma ha quasi 3.000.000 di abitanti: quasi [tre milioni] di abitanti.
+L’Italia è unita dal 1861: dal [milleottocentosessantuno].
+L’Italia è una repubblica dal 1946: dal [millenovecentoquarantasei].
+Colombo è arrivato in America nel 1492: nel [millequattrocentonovantadue].
+Il Colosseo ha quasi 2.000 anni: quasi [duemila] anni.
+In Italia ci sono 20 regioni e quasi 8.000 comuni: quasi [ottomila] comuni.
+Il Monte Bianco è alto più di 4.800 metri: più di [quattromilaottocento] metri.
+Nel 1990 i Mondiali di calcio sono stati in Italia: nel [millenovecentonovanta].
+L’Italia ha vinto i Mondiali nel 2006: nel [duemilasei].
+
+%übung schwer | Fai i conti
+?ergaenzen | Leggi, fai il conto e scrivi il risultato in lettere. || Lies, rechne und schreibe das Ergebnis in Buchstaben.
+Un biglietto per il concerto costa cinquanta euro. Quanto costano quattro biglietti? … euro | duecento | duecento euro
+Il paese ha novecento abitanti. Arrivano cento persone nuove. Quanti abitanti ha adesso? | mille | mille abitanti
+Il motorino costa mille euro. Marta ha già settecento euro. Quanti euro mancano? | trecento | trecento euro
+Lo stadio ha diecimila posti. Oggi ci sono ottomila persone. Quanti posti sono liberi? | duemila | duemila posti
+Una città ha cinquecentomila abitanti e un’altra città anche. Quanti abitanti hanno insieme? | un milione | un milione di abitanti
+La nonna è nata nel millenovecentocinquanta. In che anno ha compiuto cinquant’anni? Nel … | duemila | Nel duemila.
+Un telefono costa trecento euro. Quanto costano tre telefoni? … euro | novecento | novecento euro
+Il viaggio è lungo milleduecento chilometri. Abbiamo già fatto settecento chilometri. Quanti chilometri mancano? | cinquecento | cinquecento chilometri
+Un milione di persone guarda la partita in TV e due milioni la guardano online. Quante persone guardano la partita? | tre milioni | tre milioni di persone
+
+@thema imperfetto | 1 · Ricordi | Parte A | L’imperfetto | 3
+#lehrplan Jgst. 9 · imperfetto: Formen und Gebrauch
+#regel
+Con l’**imperfetto** raccontiamo **abitudini** e facciamo **descrizioni** nel passato.
+| | parl**are** | legg**ere** | dorm**ire** | **essere** |
+| io | parl**avo** | legg**evo** | dorm**ivo** | **ero** |
+| tu | parl**avi** | legg**evi** | dorm**ivi** | **eri** |
+| lui / lei | parl**ava** | legg**eva** | dorm**iva** | **era** |
+| noi | parl**avamo** | legg**evamo** | dorm**ivamo** | **eravamo** |
+| voi | parl**avate** | legg**evate** | dorm**ivate** | **eravate** |
+| loro | parl**avano** | legg**evano** | dorm**ivano** | **erano** |
+**Irregolari:** fare → **facevo**, dire → **dicevo**, bere → **bevevo**. C’è → **c’era**, ci sono → **c’erano**.
+_Da bambino **giocavo** sempre in cortile. La casa **era** piccola e **aveva** un giardino._
+Parole tipiche: _da bambino, da piccola, di solito, sempre, ogni estate, una volta_.
+#regel-de
+Das **imperfetto** steht für **Gewohnheiten** und **Beschreibungen** in der Vergangenheit (wie war es früher? was machte man immer?).
+Endungen: -**avo**, -**avi**, -**ava**, -**avamo**, -**avate**, -**avano** (ebenso -evo …, -ivo …). **essere:** ero, eri, era, eravamo, eravate, erano.
+Unregelmäßig: fare → facevo, dire → dicevo, bere → bevevo.
+Signalwörter: da bambino, di solito, sempre, ogni estate, una volta (früher).
+
+%übung leicht | Chi è?
+?sortieren | Quale persona è? Metti le forme al posto giusto. || Welche Person ist das? Ordne die Formen zu.
+Kategorien: a=io; b=tu; c=lui / lei; d=noi; e=voi; f=loro
+giocavo > a
+ero > a
+avevi > b
+dicevi > b
+faceva > c
+dormiva > c
+andavamo > d
+bevevamo > d
+eravate > e
+leggevate > e
+erano > f
+uscivano > f
+! -vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro). || -vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro).
+
+%übung leicht | Da bambini
+?auswahl | Scegli la forma giusta dell’imperfetto. || Wähle die richtige Form des imperfetto.
+Da bambino io {giocavo*|giocava|giocavi} sempre in cortile.
+Mia sorella {aveva*|avevo|avevano} un gatto bianco.
+Noi {abitavamo*|abitavate|abitavano} in una casa piccola.
+I nonni {erano*|era|eravamo} molto gentili.
+E tu, dove {andavi*|andavo|andava} in vacanza?
+Ogni domenica la mamma {faceva*|facevo|fava} una torta.
+Tu e Luca {eravate*|eravamo|erano} nella stessa classe?
+Il nonno {diceva*|dicevo|direva} sempre: «Piano piano!»
+D’estate io e i miei cugini {bevevamo*|bevavamo|bevevano} tanta limonata.
+Le maestre {leggevano*|leggeva|leggevamo} una storia ogni mattina.
+! fare → facevo, dire → dicevo, bere → bevevo. || fare → facevo, dire → dicevo, bere → bevevo.
+
+%übung leicht | La scuola della nonna
+?luecke wortkasten | La nonna racconta. Completa con i verbi giusti. || Die Oma erzählt. Ergänze die passenden Verben.
+Quando [ero] piccola, abitavo in un paese di montagna.
+La nostra casa [aveva] solo tre stanze.
+Io e mio fratello [andavamo] a scuola a piedi.
+In classe [c’erano] trenta bambini.
+La maestra [scriveva] tutto alla lavagna.
+Il pomeriggio i miei amici [giocavano] in piazza.
+D’inverno [faceva] molto freddo.
+Io [portavo] sempre un vestito blu.
++ giocavi, avevate
+
+%übung schwer | Com’era una volta?
+?fehler | Correggi la forma sbagliata dell’imperfetto. || Korrigiere die falsche Form des imperfetto.
+Da piccolo io [era=>ero] molto timido.
+Mio nonno [fava=>faceva] il contadino.
+Noi [andavano=>andavamo] al mare ogni estate.
+I miei cugini [bevavano=>bevevano] sempre latte e cacao.
+La nonna [direva=>diceva] sempre: «Mangia!»
+Tu e Anna [eravamo=>eravate] sempre insieme.
+In quella casa non [c’era=>c’erano] i termosifoni.
+! essere: ero, eri, era, eravamo, eravate, erano. fare → faceva, dire → diceva, bere → beveva. || essere: ero, eri, era, eravamo, eravate, erano. fare → faceva, dire → diceva, bere → beveva.
+?ergaenzen | Oggi e una volta: scrivi il verbo all’imperfetto. || Heute und früher: Schreibe das Verb im imperfetto.
+Oggi leggo molto. → Da bambino … poco. | leggevo | Da bambino leggevo poco.
+Oggi siamo in città. → Una volta … in campagna. | eravamo | Una volta eravamo in campagna.
+Oggi i ragazzi fanno sport in palestra. → Una volta … sport in strada. | facevano | Una volta facevano sport in strada.
+Oggi bevi il caffè. → Da piccolo … il latte. | bevevi | Da piccolo bevevi il latte.
+
+@thema si-ripasso | 1 · Ricordi | Parte A | Si impersonale e si passivante: ripasso | 4
+#lehrplan Jgst. 9 · si impersonale und si passivante (Wiederholung)
+#regel
+Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).
+- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._
+- Con un nome il verbo **concorda** con il nome (si passivante):
+| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |
+| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |
+- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._
+- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._
+- Anche al passato: _Una volta **si scrivevano** molte lettere._
+#regel-de
+**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)
+Achtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.
+**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase alla traduzione. || Verbinde den Satz mit der Übersetzung.
+In Italia si cena tardi. = In Italien isst man spät zu Abend.
+Qui si parla italiano. = Hier spricht man Italienisch.
+Come si dice? = Wie sagt man?
+Come si scrive? = Wie schreibt man das?
+Non si sa mai. = Man weiß nie.
+Qui non si può entrare. = Hier darf man nicht hinein.
+Si vendono biglietti. = Es werden Karten verkauft.
+Si vede il mare. = Man sieht das Meer.
+Si sta bene qui. = Hier fühlt man sich wohl.
+
+%übung leicht | Singolare o plurale?
+?auswahl | Scegli la forma giusta del verbo. || Wähle die richtige Verbform.
+A Napoli si {mangia*|mangiano} una pizza buonissima.
+In Italia si {mangiano*|mangia} molti tipi di pasta.
+A scuola si {studiano*|studia} due lingue straniere.
+In biblioteca si {parla*|parlano} a voce bassa.
+A Natale si {fanno*|fa} i regali.
+In estate si {va*|vanno} al mare.
+Al mercato si {vendono*|vende} le fragole.
+In questo negozio si {vende*|vendono} solo pane.
+In Svizzera si {parlano*|parla} quattro lingue.
+A colazione si {beve*|bevono} il caffellatte.
+! Nome plurale → verbo al plurale. Senza nome → verbo al singolare. || Nomen im Plural → Verb im Plural. Ohne Nomen → Verb im Singular.
+
+%übung leicht | Con o senza nome?
+?sortieren | C’è un nome che concorda con il verbo (si passivante) o no (si impersonale)? || Gibt es ein Nomen, nach dem sich das Verb richtet (si passivante), oder nicht (si impersonale)?
+Kategorien: a=si impersonale (senza nome); b=si passivante (con un nome)
+In Italia si cena tardi. > a
+In questa pizzeria si mangia bene. > a
+D’estate si va al mare. > a
+Qui si lavora molto. > a
+In montagna si dorme bene. > a
+A Natale si mangia il panettone. > b
+In Svizzera si parlano quattro lingue. > b
+Al mercato si vendono le fragole. > b
+A scuola si studia la storia. > b
+Qui si fanno foto bellissime. > b
+! il panettone, quattro lingue, le fragole, la storia, foto bellissime: il verbo concorda con questi nomi. || il panettone, quattro lingue, le fragole, la storia, foto bellissime: Das Verb richtet sich nach diesen Nomen.
+
+%übung mittel | Una giornata in Italia
+?luecke | Scrivi si + verbo al presente. Attenzione: singolare o plurale? || Schreibe si + Verb im Präsens. Achtung: Singular oder Plural?
+In molte scuole italiane (andare) [si va] a lezione anche il sabato.
+La mattina (entrare) [si entra] alle otto.
+A scuola (studiare) [si studiano] molte materie.
+In classe non (usare) [si usa] il telefonino.
+Durante l’intervallo (mangiare) [si mangiano] panini e pizzette.
+Dopo la scuola (tornare) [si torna] a casa per pranzo.
+Il pomeriggio (fare) [si fanno] i compiti.
+La sera (cenare) [si cena] tardi, verso le otto.
+E la domenica (vedere) [si vedono] i nonni.
+
+%übung mittel | La gente, tutti … si!
+?ergaenzen | Riscrivi la frase con si. || Schreibe den Satz mit si neu.
+In Italia la gente beve molto caffè. → In Italia … | si beve | In Italia si beve molto caffè.
+In Germania la gente mangia molte patate. → In Germania … | si mangiano | In Germania si mangiano molte patate.
+A scuola tutti rispettano le regole. → A scuola … | si rispettano | A scuola si rispettano le regole.
+In montagna la gente va a letto presto. → In montagna … | si va | In montagna si va a letto presto.
+In questo bar la gente paga alla cassa. → In questo bar … | si paga | In questo bar si paga alla cassa.
+In Italia la gente compra i biglietti dell’autobus in tabaccheria. → In Italia … | si comprano | In Italia si comprano i biglietti dell’autobus in tabaccheria.
+A casa mia tutti parlano italiano. → A casa mia … | si parla | A casa mia si parla italiano.
+D’estate la gente fa molte feste in piazza. → D’estate … | si fanno | D’estate si fanno molte feste in piazza.
+! la gente / tutti + verbo → si + verbo; con un nome plurale il verbo va al plurale. || la gente / tutti + Verb → si + Verb; bei einem Nomen im Plural steht das Verb im Plural.
+
+%übung mittel | Metti in ordine
+?ordnen | Metti le parole in ordine: „In Italien isst man viel Pasta.“ || Bringe die Wörter in die richtige Reihenfolge.
+In Italia
+si
+mangia
+molta pasta.
+?ordnen | Metti le parole in ordine: „Hier darf man nicht parken.“ || Bringe die Wörter in die richtige Reihenfolge.
+Qui
+non
+si
+può
+parcheggiare.
+?ordnen | Metti le parole in ordine: „In der Klasse benutzt man keine Handys.“ || Bringe die Wörter in die richtige Reihenfolge.
+In classe
+non
+si
+usano
+i telefonini.
+?ordnen | Metti le parole in ordine: „Wo kauft man die Fahrkarten?“ || Bringe die Wörter in die richtige Reihenfolge.
+Dove
+si
+comprano
+i biglietti?
+?ordnen | Metti le parole in ordine: „Wie sagt man ‚Danke‘ auf Italienisch?“ || Bringe die Wörter in die richtige Reihenfolge.
+Come
+si
+dice
+«Danke»
+in italiano?
+
+%übung schwer | Dieci errori con si
+?fehler | Correggi l’errore in ogni frase. || Korrigiere den Fehler in jedem Satz.
+In Italia si [mangiano=>mangia] molta pasta.
+In questa scuola si [studia=>studiano] tre lingue.
+A Ferragosto [si vanno=>si va] al mare.
+Qui [si non=>non si] parla tedesco.
+D’inverno si [fa=>fanno] molte gite sulla neve.
+Come [si dicono=>si dice] «grazie» in tedesco?
+In biblioteca [si devono=>si deve] parlare piano.
+Al mercato si [compra=>comprano] i pomodori freschi.
+Una volta in paese si [giocavano=>giocava] per strada.
+Una volta si [scriveva=>scrivevano] molte lettere.
+! Nome singolare o nessun nome → verbo al singolare; nome plurale → verbo al plurale; non sta prima di si. || Nomen im Singular oder kein Nomen → Verb im Singular; Nomen im Plural → Verb im Plural; non steht vor si.
+
+%übung schwer | Una volta e oggi
+?luecke | Il nonno racconta. Scrivi si + verbo: una volta → imperfetto, oggi → presente. || Der Opa erzählt. Schreibe si + Verb: una volta → imperfetto, oggi → Präsens.
+Una volta (viaggiare) [si viaggiava] poco.
+Per trovare la strada (usare) [si usavano] le cartine.
+La sera (guardare) [si guardava] la TV tutti insieme.
+Agli amici lontani (scrivere) [si scrivevano] lettere e cartoline.
+Oggi invece (mandare) [si mandano] messaggi vocali.
+Oggi (viaggiare) [si viaggia] molto in aereo.
+Una volta (comprare) [si compravano] i dischi.
+Oggi la musica (ascoltare) [si ascolta] online.
+Una volta la domenica (andare) [si andava] dai nonni.
+E oggi? Anche oggi, per fortuna, la domenica (mangiare) [si mangiano] le lasagne della nonna!
+
+%übung schwer | Regole e abitudini
+?ergaenzen | Rispondi con si + verbo al presente. || Antworte mit si + Verb im Präsens.
+I biglietti del treno? … alla stazione. (comprare) | si comprano | Si comprano alla stazione.
+Il tiramisù? … con il mascarpone. (fare) | si fa | Si fa con il mascarpone.
+Le lasagne? … calde. (mangiare) | si mangiano | Si mangiano calde.
+La parola «perché»? … con l’accento. (scrivere) | si scrive | Si scrive con l’accento.
+?frei | Un ragazzo italiano arriva nella tua scuola. Spiega 5 regole o abitudini con si. || Ein italienischer Junge kommt an deine Schule. Erkläre 5 Regeln oder Gewohnheiten mit si.
+Nella mia scuola si entra alle otto. In classe non si usa il telefonino. A mezzogiorno si mangia in mensa. Si studiano due o tre lingue straniere. Il sabato non si va a scuola.
+Zeilen: 5
+
+@thema passati-contrasto | 1 · Ricordi | Parte B | Passato prossimo e imperfetto | 5
+#lehrplan Jgst. 9 · Gebrauch von passato prossimo und imperfetto
+#regel
+| **imperfetto** | **passato prossimo** |
+| abitudine: _Ogni estate **andavamo** al mare._ | azione unica e finita: _Ieri **siamo andati** al mare._ |
+| descrizione (tempo, età, persone, luoghi): _**Faceva** caldo. **Avevo** dieci anni._ | azioni una dopo l’altra: _**Sono uscito**, **ho preso** l’autobus e **sono andato** in centro._ |
+| azione in corso: _Mentre **dormivo**, …_ | azione nuova, improvvisa: _… **è suonata** la sveglia._ |
+Parole tipiche per l’imperfetto: _da bambino, di solito, sempre, ogni estate, mentre_.
+Parole tipiche per il passato prossimo: _ieri, sabato scorso, nel 2020, all’improvviso, a un certo punto, tre volte_.
+_**Mentre** tornavo a casa, **ho incontrato** Marta._
+#regel-de
+**imperfetto:** Gewohnheit, Beschreibung (Wetter, Alter, Aussehen, Gefühle), Handlung, die gerade im Gang war (**mentre** + imperfetto).
+**passato prossimo:** einmalige, abgeschlossene Handlung; Handlungen nacheinander; etwas Neues, das plötzlich passiert (ieri, sabato scorso, all’improvviso, tre volte).
+Das Deutsche macht diesen Unterschied nicht (beides „ich ging / ich bin gegangen“). Frage dich: „Wie war es? Was machte man immer?“ → imperfetto. „Was ist dann passiert?“ → passato prossimo.
+
+%übung leicht | Abitudine, descrizione o azione unica?
+?sortieren | Che cosa esprime la frase? || Was drückt der Satz aus?
+Kategorien: a=abitudine (imperfetto); b=descrizione (imperfetto); c=azione unica e finita (passato prossimo)
+Ogni domenica andavamo dai nonni. > a
+Di solito mi alzavo alle sette. > a
+D’estate giocavamo sempre in cortile. > a
+La casa era piccola e bianca. > b
+Faceva caldo e c’era il sole. > b
+Avevo dieci anni ed ero molto timido. > b
+Ieri ho comprato un libro. > c
+Nel 2020 siamo andati in Sardegna. > c
+All’improvviso è arrivato un cane. > c
+Sabato scorso Marta ha vinto la gara. > c
+
+%übung leicht | Guarda le parole chiave
+?auswahl | Scegli il tempo giusto. Le parole chiave ti aiutano. || Wähle die richtige Zeit. Die Signalwörter helfen dir.
+Da bambino {andavo*|sono andato} ogni estate dai nonni.
+Ieri alle otto Luca {è uscito*|usciva} di casa.
+Mentre {facevo*|ho fatto} i compiti, è arrivato un messaggio.
+Mentre dormivamo, all’improvviso {è entrato*|entrava} il gatto.
+Sabato scorso {abbiamo vinto*|vincevamo} la partita 3 a 1.
+Di solito la nonna {preparava*|ha preparato} la pasta fatta in casa.
+Nel 2019 la mia famiglia {ha cambiato*|cambiava} casa.
+Quando avevo sei anni, {avevo*|ho avuto} paura del buio.
+Era una bella giornata: {c’era*|c’è stato} il sole e faceva caldo.
+Chiara racconta: «L’anno scorso {sono stata*|ero} tre volte a Roma.»
+! da bambino, di solito, mentre, descrizione → imperfetto; ieri alle otto, sabato scorso, nel 2019, all’improvviso, tre volte → passato prossimo. || da bambino, di solito, mentre, Beschreibung → imperfetto; ieri alle otto, sabato scorso, nel 2019, all’improvviso, tre volte → passato prossimo.
+
+%übung leicht | Quale frase è giusta?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Mentre mangiavo, è arrivato Paolo.
+- Mentre ho mangiato, arrivava Paolo.
+- Mentre ho mangiato, è arrivato Paolo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Da piccola andavo ogni estate al mare.
+- Da piccola sono andata ogni estate al mare.
+- Da piccola vado ogni estate al mare.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Ieri sono uscito alle otto e sono tornato alle dieci.
+- Ieri uscivo alle otto e sono tornato alle dieci.
+- Ieri sono uscito alle otto e tornavo alle dieci.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Ieri faceva freddo, così ho messo la giacca.
+- Ieri ha fatto freddo, così mettevo la giacca.
+- Ieri faceva freddo, così mettevo la giacca.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Quando avevo cinque anni, abitavo a Bari.
+- Quando ho avuto cinque anni, ho abitato a Bari.
+- Quando ho avuto cinque anni, abitavo a Bari.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Parlavamo tutti, ma all’improvviso è entrato il preside.
+- Abbiamo parlato tutti, ma all’improvviso entrava il preside.
+- Parlavamo tutti, ma all’improvviso entrava il preside.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Di solito pranzavamo a casa, ma quel giorno abbiamo mangiato fuori.
+- Di solito abbiamo pranzato a casa, ma quel giorno mangiavamo fuori.
+- Di solito pranzavamo a casa, ma quel giorno mangiavamo fuori.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Mentre Sara leggeva, suo fratello ascoltava la musica.
+- Mentre Sara ha letto, suo fratello ascoltava la musica.
+- Mentre Sara ha letto, suo fratello ha ascoltato la musica.
+
+%übung mittel | Il messaggio nella bottiglia
+?luecke | Davide racconta. Metti i verbi all’imperfetto o al passato prossimo. || Davide erzählt. Setze die Verben ins imperfetto oder ins passato prossimo.
+Mi chiamo Davide. Da bambino (passare) [passavo] ogni estate in Puglia dai nonni.
+La loro casa (essere) [era] vicino al mare e (avere) [aveva] un grande giardino.
+Di solito la mattina io e mio cugino (andare) [andavamo] in spiaggia.
+Un giorno, nell’estate del 2018, mio cugino (trovare) [ha trovato] una bottiglia con un messaggio.
+Mentre lui (leggere) [leggeva] il foglio, (arrivare) [è arrivata] la nonna.
+La nonna (dire) [ha detto]: «Quel messaggio è mio!»
+Quella sera (noi, mangiare) [abbiamo mangiato] tutti insieme in giardino.
+(fare) [Faceva] caldo e il cielo (essere) [era] pieno di stelle.
+! da bambino, di solito, mentre, descrizioni → imperfetto; un giorno, quella sera → passato prossimo. || da bambino, di solito, mentre, Beschreibungen → imperfetto; un giorno, quella sera → passato prossimo.
+
+%übung mittel | Costruisci le frasi
+?ordnen | Metti le parole in ordine: „Während ich die Hausaufgaben machte, kam eine Nachricht.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mentre
+facevo i compiti,
+è arrivato
+un messaggio.
+?ordnen | Metti le parole in ordine: „Als Kind hatte Sara Angst vor Hunden.“ || Bringe die Wörter in die richtige Reihenfolge.
+Da piccola
+Sara
+aveva
+paura
+dei cani.
+?ordnen | Metti le parole in ordine: „Gestern sind wir ausgegangen, weil schönes Wetter war.“ || Bringe die Wörter in die richtige Reihenfolge.
+Ieri
+siamo usciti
+perché
+faceva
+bel tempo.
+?ordnen | Metti le parole in ordine: „Als ich ankam, schliefen alle schon.“ || Bringe die Wörter in die richtige Reihenfolge.
+Quando
+sono arrivata,
+tutti
+dormivano
+già.
+
+@thema riflessivi-passato | 1 · Ricordi | Ripasso | Verbi riflessivi al passato | 6
+#lehrplan Jgst. 9 · reflexive Verben im passato prossimo und imperfetto
+#regel
+**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.
+| io | **mi sono** alzato / alzata |
+| tu | **ti sei** alzato / alzata |
+| lui / lei | **si è** alzato / alzata |
+| noi | **ci siamo** alzati / alzate |
+| voi | **vi siete** alzati / alzate |
+| loro | **si sono** alzati / alzate |
+- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._
+- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_
+**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._
+#regel-de
+Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._
+**non** steht vor dem Pronomen: _non mi sono divertita_.
+Im **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_.
+
+%übung leicht | Una gita in montagna
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Sabato mattina Giulia si {è*|ha} svegliata alle sei.
+Suo fratello Tommaso, invece, si è {alzato*|alzata|alzati} tardi.
+I due ragazzi si {sono*|hanno|siamo} preparati in fretta.
+Alla stazione Giulia e la sua amica Ada si sono {incontrate*|incontrati|incontrata}.
+«Ragazzi, vi {siete*|avete|siamo} messi le scarpe da montagna?» ha chiesto la guida.
+In montagna tutti si sono {divertiti*|divertito|divertite}.
+Ada ha detto: «Io mi {sono*|ho|sei} stancata molto!»
+Tommaso si è {seduto*|seduta|sedito} su un sasso.
+Le due ragazze si sono {riposate*|riposati|riposata} vicino al lago.
+«E tu, Tommaso, ti {sei*|hai|è} divertito?» – «Sì, tantissimo!»
+! Verbi riflessivi: sempre essere; il participio concorda con il soggetto. || Reflexive Verben: immer essere; das Partizip richtet sich nach dem Subjekt.
+
+%übung leicht | Presente, passato prossimo o imperfetto?
+?sortieren | Che tempo è? || Welche Zeit ist das?
+Kategorien: a=presente; b=passato prossimo; c=imperfetto
+mi alzo > a
+ti svegli > a
+si prepara > a
+ci divertiamo > a
+mi sono alzata > b
+ti sei svegliato > b
+si sono persi > b
+vi siete annoiati > b
+mi alzavo > c
+si chiamava > c
+ci incontravamo > c
+si divertivano > c
+
+%übung leicht | Chi ha fatto che cosa?
+?zuordnen | Abbina il soggetto al resto della frase. Guarda bene il pronome e il participio! || Verbinde das Subjekt mit dem Rest des Satzes. Achte auf Pronomen und Partizip!
+Giulia = si è svegliata tardi.
+Paolo = si è arrabbiato con me.
+I ragazzi = si sono divertiti al concerto.
+Le mie sorelle = si sono preparate per la festa.
+Io e Marco = ci siamo incontrati in piazza.
+Anna e Lia, voi = vi siete perse in centro?
+Luca, tu = ti sei fatto male?
+Io, Chiara, = mi sono addormentata sul divano.
++ ci siamo incontrate in piazza.
+
+%übung mittel | Una mattina storta
+?luecke | Matteo racconta. Metti i verbi al passato prossimo. || Matteo erzählt. Setze die Verben ins passato prossimo.
+Ciao, sono Matteo. Ieri mattina (svegliarsi) [mi sono svegliato] tardi: erano già le sette e mezza!
+(alzarsi) [Mi sono alzato] subito e (lavarsi) [mi sono lavato] in due minuti.
+Mia sorella Elena, invece, (prepararsi) [si è preparata] con calma.
+Io (vestirsi) [mi sono vestito] in fretta e (mettersi) [mi sono messo] due calze diverse!
+Poi io ed Elena (sedersi) [ci siamo seduti] sull’autobus sbagliato.
+A scuola i miei compagni (divertirsi) [si sono divertiti] molto quando hanno visto le mie calze.
+Anche la prof (mettersi) [si è messa] a ridere.
+Solo io non (divertirsi) [mi sono divertito] per niente.
+! Un ragazzo e una ragazza insieme → participio maschile plurale: ci siamo seduti. || Ein Junge und ein Mädchen zusammen → Partizip maskulin Plural: ci siamo seduti.
+
+%übung mittel | Dal presente al passato
+?tabelle | Completa la tabella con il passato prossimo, come nell’esempio. || Ergänze die Tabelle mit dem passato prossimo wie im Beispiel.
+Spalten: presente | passato prossimo (maschile) | passato prossimo (femminile)
+mi alzo | mi sono alzato | mi sono alzata
+ti svegli | [ti sei svegliato] | [ti sei svegliata]
+si veste | [si è vestito] | [si è vestita]
+ci divertiamo | [ci siamo divertiti] | [ci siamo divertite]
+vi preparate | [vi siete preparati] | [vi siete preparate]
+si incontrano | [si sono incontrati] | [si sono incontrate]
+mi metto la giacca | [mi sono messo la giacca] | [mi sono messa la giacca]
+
+%übung mittel | Sì o no?
+?ergaenzen | Rispondi con una frase completa al passato prossimo. || Antworte mit einem ganzen Satz im passato prossimo.
+Luca, ti sei divertito alla festa? – Sì, … | mi sono divertito | Sì, mi sono divertito.
+Ragazze, vi siete annoiate al museo? – No, non … | ci siamo annoiate | No, non ci siamo annoiate.
+Signora Rossi, si è riposata un po’? – Sì, grazie, … | mi sono riposata | Sì, grazie, mi sono riposata.
+I bambini si sono lavati le mani? – Sì, … | si sono lavati | Sì, si sono lavati le mani.
+Anna, ti sei fatta male? – No, non … | mi sono fatta male | No, non mi sono fatta male.
+Ragazzi, vi siete persi in città? – Sì, … | ci siamo persi | Sì, ci siamo persi.
+Marco e Lia, vi siete conosciuti a scuola? – Sì, … | ci siamo conosciuti | Sì, ci siamo conosciuti a scuola.
+Le tue amiche si sono iscritte al corso? – Sì, … | si sono iscritte | Sì, si sono iscritte al corso.
+! ti sei …? → mi sono …; vi siete …? → ci siamo … || ti sei …? → mi sono …; vi siete …? → ci siamo …
+
+%übung schwer | Dieci errori
+?fehler | Correggi l’errore in ogni frase. || Korrigiere den Fehler in jedem Satz.
+Stamattina Marta si [ha=>è] alzata alle sei.
+I miei fratelli si sono [svegliato=>svegliati] tardi.
+Ieri [mi ho=>mi sono] divertito molto.
+Le ragazze si sono [truccati=>truccate] per la festa.
+Noi [ci abbiamo=>ci siamo] incontrati davanti al cinema.
+Sara [è si=>si è] seduta vicino a me.
+Da bambino [mi sono alzato=>mi alzavo] sempre alle sei.
+Ieri sera non [sono mi=>mi sono] addormentata subito.
+Ragazzi, [vi avete=>vi siete] lavati le mani?
+Mia madre si è [arrabbiato=>arrabbiata] con me.
+! Sempre essere, mai avere; il pronome sta prima di essere; da bambino + sempre → imperfetto. || Immer essere, nie avere; das Pronomen steht vor essere; da bambino + sempre → imperfetto.
+
+%übung schwer | Le estati di Sara
+?luecke | Sara racconta. Imperfetto (abitudine) o passato prossimo (azione unica)? || Sara erzählt. Imperfetto (Gewohnheit) oder passato prossimo (einmalige Handlung)?
+Mi chiamo Sara. Da piccola, in vacanza, (svegliarsi) [mi svegliavo] sempre prestissimo.
+Io e mia cugina (divertirsi) [ci divertivamo] tutto il giorno in spiaggia.
+La sera (addormentarsi, noi) [ci addormentavamo] sempre subito.
+L’estate scorsa, invece, il primo giorno di vacanza (svegliarsi, io) [mi sono svegliata] a mezzogiorno!
+Mia cugina (arrabbiarsi) [si è arrabbiata] e (mettersi) [si è messa] a gridare: «Alzati!»
+Allora (alzarsi, io) [mi sono alzata] e (prepararsi, noi) [ci siamo preparate] in cinque minuti.
+In spiaggia (incontrarsi, noi due) [ci siamo incontrate] con due vecchi amici, Leo e Dario.
+Quel giorno noi quattro (divertirsi) [ci siamo divertiti] come una volta.
+! Sara e sua cugina → -e (preparate); con Leo e Dario → -i (divertiti). || Sara und ihre Cousine → -e (preparate); mit Leo und Dario → -i (divertiti).
+
+%übung schwer | Una giornata speciale
+?ordnen | Metti le parole in ordine: „Gestern Abend bin ich nicht sofort eingeschlafen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Ieri sera
+non
+mi sono
+addormentato
+subito.
+?frei | Racconta una giornata speciale (una gita, una festa, il primo giorno di scuola). Usa almeno 5 verbi riflessivi al passato prossimo. || Erzähle von einem besonderen Tag (Ausflug, Fest, erster Schultag). Verwende mindestens 5 reflexive Verben im passato prossimo.
+Sabato scorso mi sono svegliata presto perché c’era la gita della classe. Mi sono preparata in fretta e mi sono messa le scarpe da ginnastica. Alla stazione mi sono incontrata con le mie amiche. In treno ci siamo sedute vicino alla finestra. A Verona ci siamo divertite molto e non ci siamo annoiate mai.
+Zeilen: 6

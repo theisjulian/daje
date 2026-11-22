@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperfetto-l1",
+ "title": "Chi è?",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · Chi è? · livello facile.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · imperfetto: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "Con l’**imperfetto** raccontiamo **abitudini** e facciamo **descrizioni** nel passato.\n| | parl**are** | legg**ere** | dorm**ire** | **essere** |\n| io | parl**avo** | legg**evo** | dorm**ivo** | **ero** |\n| tu | parl**avi** | legg**evi** | dorm**ivi** | **eri** |\n| lui / lei | parl**ava** | legg**eva** | dorm**iva** | **era** |\n| noi | parl**avamo** | legg**evamo** | dorm**ivamo** | **eravamo** |\n| voi | parl**avate** | legg**evate** | dorm**ivate** | **eravate** |\n| loro | parl**avano** | legg**evano** | dorm**ivano** | **erano** |\n**Irregolari:** fare → **facevo**, dire → **dicevo**, bere → **bevevo**. C’è → **c’era**, ci sono → **c’erano**.\n_Da bambino **giocavo** sempre in cortile. La casa **era** piccola e **aveva** un giardino._\nParole tipiche: _da bambino, da piccola, di solito, sempre, ogni estate, una volta_.",
+  "ruleHelp": "Das **imperfetto** steht für **Gewohnheiten** und **Beschreibungen** in der Vergangenheit (wie war es früher? was machte man immer?).\nEndungen: -**avo**, -**avi**, -**ava**, -**avamo**, -**avate**, -**avano** (ebenso -evo …, -ivo …). **essere:** ero, eri, era, eravamo, eravate, erano.\nUnregelmäßig: fare → facevo, dire → dicevo, bere → bevevo.\nSignalwörter: da bambino, di solito, sempre, ogni estate, una volta (früher)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale persona è? Metti le forme al posto giusto.",
+   "promptHelp": "Welche Person ist das? Ordne die Formen zu.",
+   "explanation": "-vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro).",
+   "explanationHelp": "-vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro).",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "io"
+    },
+    {
+     "id": "b",
+     "label": "tu"
+    },
+    {
+     "id": "c",
+     "label": "lui / lei"
+    },
+    {
+     "id": "d",
+     "label": "noi"
+    },
+    {
+     "id": "e",
+     "label": "voi"
+    },
+    {
+     "id": "f",
+     "label": "loro"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "giocavo",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "ero",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "avevi",
+     "category": "b"
+    },
+    {
+     "id": "i4",
+     "text": "dicevi",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "faceva",
+     "category": "c"
+    },
+    {
+     "id": "i6",
+     "text": "dormiva",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "andavamo",
+     "category": "d"
+    },
+    {
+     "id": "i8",
+     "text": "bevevamo",
+     "category": "d"
+    },
+    {
+     "id": "i9",
+     "text": "eravate",
+     "category": "e"
+    },
+    {
+     "id": "i10",
+     "text": "leggevate",
+     "category": "e"
+    },
+    {
+     "id": "i11",
+     "text": "erano",
+     "category": "f"
+    },
+    {
+     "id": "i12",
+     "text": "uscivano",
+     "category": "f"
+    }
+   ]
+  }
+ ]
+}

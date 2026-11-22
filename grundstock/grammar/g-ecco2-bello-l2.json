@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-bello-l2",
+ "title": "Una cartolina dalla Puglia",
+ "language": "it",
+ "level": "A2",
+ "description": "Bello e la posizione degli aggettivi · Una cartolina dalla Puglia · livello facile.",
+ "topics": [
+  "Bello e la posizione degli aggettivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adjektiv bello vor dem Nomen, Stellung der Adjektive"
+ },
+ "grammar": {
+  "topic": "ecco2-bello",
+  "topicTitle": "Bello e la posizione degli aggettivi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Davanti al nome **bello** cambia come l’articolo determinativo:\n| il libro → un **bel** libro | i libri → due **bei** libri |\n| lo zaino → un **bello** zaino | gli zaini → due **begli** zaini |\n| l’albero → un **bell’**albero | gli alberi → due **begli** alberi |\n| la casa → una **bella** casa | le case → due **belle** case |\n| l’idea → una **bell’**idea | le idee → due **belle** idee |\nDopo il nome o dopo **essere**: bello, bella, belli, belle. _Il film è **bello**. I libri sono **belli**._\n**Posizione:** di solito l’aggettivo sta **dopo** il nome (colore, nazionalità, forma): _una maglietta **rossa**, un amico **tedesco**, un tavolo **rotondo**_.\nAlcuni aggettivi corti e frequenti stanno spesso **prima** del nome: bello, brutto, buono, bravo, grande, piccolo, nuovo, vecchio. _Una **piccola** casa, un **vecchio** amico._",
+  "ruleHelp": "Vor dem Nomen verhält sich **bello** wie der bestimmte Artikel: il → **bel**, lo → **bello**, l’ → **bell’**, la → **bella**; i → **bei**, gli → **begli**, le → **belle**. _Un bel libro, un bello zaino, un bell’albero, due begli occhi._\nNach dem Nomen oder nach essere bleibt es regelmäßig: _I libri sono belli._\n**Stellung:** Anders als im Deutschen steht das Adjektiv meist **nach** dem Nomen (Farbe, Nationalität, Form): _una maglietta rossa_. Einige kurze, häufige Adjektive (bello, buono, grande, piccolo, nuovo, vecchio …) stehen oft davor."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Davanti al nome: bel, bello, bell’, bei, begli. Dopo essere: bello, bella, belli, belle.",
+   "explanationHelp": "Vor dem Nomen: bel, bello, bell’, bei, begli. Nach essere: bello, bella, belli, belle.",
+   "type": "gap_choice",
+   "text": "Cara Lea, che [[g1]] posto!\nAbbiamo trovato [[g2]] vicino al mare.\nDalla finestra vedo un [[g3]] giardino.\nIeri abbiamo visto un [[g4]] spettacolo in piazza.\nQui ci sono tanti [[g5]] negozi.\nIl bagnino ha due [[g6]] occhi verdi!\nLe spiagge sono [[g7]].\nAnche i paesi qui vicino sono [[g8]].\nOggi è una [[g9]] giornata di sole.\nTi mando tre [[g10]] foto. Un abbraccio, Mia",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "bel",
+      "bello",
+      "bell’"
+     ],
+     "answer": "bel"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "un bell’albergo",
+      "un bel albergo",
+      "un bello albergo"
+     ],
+     "answer": "un bell’albergo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "bel",
+      "bello",
+      "bei"
+     ],
+     "answer": "bel"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "bello",
+      "bel",
+      "bell’"
+     ],
+     "answer": "bello"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "bei",
+      "begli",
+      "belli"
+     ],
+     "answer": "bei"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "begli",
+      "bei",
+      "belli"
+     ],
+     "answer": "begli"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "belle",
+      "bei",
+      "bella"
+     ],
+     "answer": "belle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "belli",
+      "bei",
+      "begli"
+     ],
+     "answer": "belli"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "bella",
+      "bel",
+      "bello"
+     ],
+     "answer": "bella"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "belle",
+      "bei",
+      "begli"
+     ],
+     "answer": "belle"
+    }
+   ]
+  }
+ ]
+}

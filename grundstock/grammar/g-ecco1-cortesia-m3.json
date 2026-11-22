@@ -90,7 +90,8 @@
      "id": "s5",
      "start": "Puoi aiutarmi? → …",
      "acceptedAnswers": [
-      "Può aiutarmi"
+      "Può aiutarmi",
+      "Mi può aiutare"
      ],
      "modelAnswer": "Può aiutarmi?"
     },

@@ -46,71 +46,141 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. Scrivi così: infinito; tempo (esempio: andare; presente).",
    "text": "ha visitato → [[g1]]\nsono arrivati → [[g2]]\nha chiesto → [[g3]]\nsono tornati → [[g4]]\nha ricordato → [[g5]]\nHa telefonato → [[g6]]\nha spiegato → [[g7]]\nha guardato → [[g8]]\nha trovato → [[g9]]\nha detto → [[g10]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "visitare; passato prossimo"
+      "visitare; passato prossimo",
+      "visitare, passato prossimo",
+      "visitare passato prossimo",
+      "visitare - passato prossimo",
+      "visitare: passato prossimo",
+      "visitare;passato prossimo",
+      "visitare,passato prossimo",
+      "visitare / passato prossimo"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "arrivare; passato prossimo"
+      "arrivare; passato prossimo",
+      "arrivare, passato prossimo",
+      "arrivare passato prossimo",
+      "arrivare - passato prossimo",
+      "arrivare: passato prossimo",
+      "arrivare;passato prossimo",
+      "arrivare,passato prossimo",
+      "arrivare / passato prossimo"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "chiedere; passato prossimo"
+      "chiedere; passato prossimo",
+      "chiedere, passato prossimo",
+      "chiedere passato prossimo",
+      "chiedere - passato prossimo",
+      "chiedere: passato prossimo",
+      "chiedere;passato prossimo",
+      "chiedere,passato prossimo",
+      "chiedere / passato prossimo"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "tornare; passato prossimo"
+      "tornare; passato prossimo",
+      "tornare, passato prossimo",
+      "tornare passato prossimo",
+      "tornare - passato prossimo",
+      "tornare: passato prossimo",
+      "tornare;passato prossimo",
+      "tornare,passato prossimo",
+      "tornare / passato prossimo"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "ricordare; passato prossimo"
+      "ricordare; passato prossimo",
+      "ricordare, passato prossimo",
+      "ricordare passato prossimo",
+      "ricordare - passato prossimo",
+      "ricordare: passato prossimo",
+      "ricordare;passato prossimo",
+      "ricordare,passato prossimo",
+      "ricordare / passato prossimo"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "telefonare; passato prossimo"
+      "telefonare; passato prossimo",
+      "telefonare, passato prossimo",
+      "telefonare passato prossimo",
+      "telefonare - passato prossimo",
+      "telefonare: passato prossimo",
+      "telefonare;passato prossimo",
+      "telefonare,passato prossimo",
+      "telefonare / passato prossimo"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "spiegare; passato prossimo"
+      "spiegare; passato prossimo",
+      "spiegare, passato prossimo",
+      "spiegare passato prossimo",
+      "spiegare - passato prossimo",
+      "spiegare: passato prossimo",
+      "spiegare;passato prossimo",
+      "spiegare,passato prossimo",
+      "spiegare / passato prossimo"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "guardare; passato prossimo"
+      "guardare; passato prossimo",
+      "guardare, passato prossimo",
+      "guardare passato prossimo",
+      "guardare - passato prossimo",
+      "guardare: passato prossimo",
+      "guardare;passato prossimo",
+      "guardare,passato prossimo",
+      "guardare / passato prossimo"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "trovare; passato prossimo"
+      "trovare; passato prossimo",
+      "trovare, passato prossimo",
+      "trovare passato prossimo",
+      "trovare - passato prossimo",
+      "trovare: passato prossimo",
+      "trovare;passato prossimo",
+      "trovare,passato prossimo",
+      "trovare / passato prossimo"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "dire; passato prossimo"
+      "dire; passato prossimo",
+      "dire, passato prossimo",
+      "dire passato prossimo",
+      "dire - passato prossimo",
+      "dire: passato prossimo",
+      "dire;passato prossimo",
+      "dire,passato prossimo",
+      "dire / passato prossimo"
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Schreibe Infinitiv und Zeitform, getrennt durch einen Strichpunkt (Beispiel: andare; presente)."
   }
  ],
  "reading": {

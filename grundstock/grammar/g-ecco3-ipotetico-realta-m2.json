@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-m2",
+ "title": "Consigli per un anno all’estero",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Consigli per un anno all’estero · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Un amico ha un problema. Dai un consiglio con l’imperativo (tu).",
+   "promptHelp": "Ein Freund hat ein Problem. Gib einen Rat im Imperativ (tu).",
+   "explanation": "se + presente → imperativo: _Se hai un problema, parla con qualcuno!_",
+   "explanationHelp": "se + Präsens → Imperativ.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho nostalgia di casa. (chiamare i tuoi amici) → Se hai nostalgia di casa, …",
+     "acceptedAnswers": [
+      "chiama i tuoi amici"
+     ],
+     "modelAnswer": "Se hai nostalgia di casa, chiama i tuoi amici!"
+    },
+    {
+     "id": "s2",
+     "start": "Non capisco la prof. (chiedere aiuto a un compagno) → Se non capisci la prof, …",
+     "acceptedAnswers": [
+      "chiedi aiuto a un compagno"
+     ],
+     "modelAnswer": "Se non capisci la prof, chiedi aiuto a un compagno!"
+    },
+    {
+     "id": "s3",
+     "start": "Mi annoio il pomeriggio. (iscriversi a un corso) → Se ti annoi il pomeriggio, …",
+     "acceptedAnswers": [
+      "iscriviti a un corso"
+     ],
+     "modelAnswer": "Se ti annoi il pomeriggio, iscriviti a un corso!"
+    },
+    {
+     "id": "s4",
+     "start": "Non conosco nessuno. (andare alle feste della scuola) → Se non conosci nessuno, …",
+     "acceptedAnswers": [
+      "vai alle feste della scuola",
+      "va’ alle feste della scuola"
+     ],
+     "modelAnswer": "Se non conosci nessuno, vai alle feste della scuola!"
+    },
+    {
+     "id": "s5",
+     "start": "Il cibo non mi piace. (dirlo con gentilezza alla famiglia) → Se il cibo non ti piace, …",
+     "acceptedAnswers": [
+      "dillo con gentilezza alla famiglia"
+     ],
+     "modelAnswer": "Se il cibo non ti piace, dillo con gentilezza alla famiglia!"
+    },
+    {
+     "id": "s6",
+     "start": "Sono stanco la mattina. (non andare a letto tardi) → Se sei stanco la mattina, …",
+     "acceptedAnswers": [
+      "non andare a letto tardi"
+     ],
+     "modelAnswer": "Se sei stanco la mattina, non andare a letto tardi!"
+    },
+    {
+     "id": "s7",
+     "start": "Perdo sempre l’autobus. (alzarsi prima) → Se perdi sempre l’autobus, …",
+     "acceptedAnswers": [
+      "alzati prima"
+     ],
+     "modelAnswer": "Se perdi sempre l’autobus, alzati prima!"
+    },
+    {
+     "id": "s8",
+     "start": "Voglio migliorare il mio inglese. (guardare i film in lingua originale) → Se vuoi migliorare il tuo inglese, …",
+     "acceptedAnswers": [
+      "guarda i film in lingua originale"
+     ],
+     "modelAnswer": "Se vuoi migliorare il tuo inglese, guarda i film in lingua originale!"
+    }
+   ]
+  }
+ ]
+}

@@ -53,7 +53,10 @@
      "id": "e1",
      "wrong": "cuscino",
      "acceptedAnswers": [
-      "ciotola"
+      "ciotola",
+      "insalatiera",
+      "scodella",
+      "terrina"
      ]
     },
     {
@@ -67,7 +70,9 @@
      "id": "e3",
      "wrong": "vestiti",
      "acceptedAnswers": [
-      "utensili"
+      "utensili",
+      "strumenti",
+      "attrezzi"
      ]
     },
     {
@@ -81,14 +86,17 @@
      "id": "e5",
      "wrong": "pagine",
      "acceptedAnswers": [
-      "pezzi"
+      "pezzi",
+      "pezzetti"
      ]
     },
     {
      "id": "e6",
      "wrong": "finestre",
      "acceptedAnswers": [
-      "rondelle"
+      "rondelle",
+      "fette",
+      "fettine"
      ]
     },
     {
@@ -109,21 +117,29 @@
      "id": "e9",
      "wrong": "quaderno",
      "acceptedAnswers": [
-      "cucchiaio"
+      "cucchiaio",
+      "mestolo"
      ]
     },
     {
      "id": "e10",
      "wrong": "scarpe",
      "acceptedAnswers": [
-      "coppette"
+      "coppette",
+      "ciotole",
+      "ciotoline",
+      "coppe",
+      "tazze",
+      "bicchieri"
      ]
     },
     {
      "id": "e11",
      "wrong": "nuvole",
      "acceptedAnswers": [
-      "superfici"
+      "superfici",
+      "stoviglie",
+      "posate"
      ]
     }
    ],

@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-m2",
+ "title": "Dopo il Carnevale",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Dopo il Carnevale · livello medio.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Davide e Sara chattano dopo il Carnevale. Metti i verbi al congiuntivo passato.",
+   "promptHelp": "Davide und Sara chatten nach dem Karneval. Setze die Verben in den congiuntivo passato.",
+   "type": "gap_fill",
+   "text": "– Davide: Ciao Sara! Spero che ieri tu (divertirsi) [[g1]] a Venezia.\n– Sara: Tantissimo! Peccato che tu, Davide, non (venire) [[g2]] con noi.\n– Davide: Avevo la febbre… Ma sono contento che voi (vedere) [[g3]] le maschere.\n– Sara: Bellissime! Penso che Chiara (fare) [[g4]] almeno duecento foto.\n– Sara: È possibile che lei (mettere) [[g5]] già tutto online.\n– Davide: E Matteo e Luca? Mi sembra che (perdersi) [[g6]] tra i canali!\n– Sara: Sì, che ridere! Credo che (arrivare, loro) [[g7]] alla stazione all’ultimo minuto.\n– Davide: Sono felice che la gita (andare) [[g8]] bene.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ti sia divertita"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sia venuto"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbiate visto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbia fatto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abbia messo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si siano persi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "siano arrivati"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sia andata"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-presente-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo presente · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il congiuntivo presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-presente",
+  "topicTitle": "Il congiuntivo presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._\n| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |\n| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |\n| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |\n| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |\n| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |\n**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**\n**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.\n**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._\n**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._",
+  "ruleHelp": "Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).\nDie drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.\nUnregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.\n**Indikativ** nach _secondo me, so che, è vero che, vedo che_.\nGleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un verbo sbagliato. Correggilo.",
+   "promptHelp": "In jedem Satz ist ein Verb falsch. Korrigiere es.",
+   "explanation": "Attenzione: dopo secondo me e so che c’è l’indicativo!",
+   "explanationHelp": "Achtung: Nach secondo me und so che steht der Indikativ!",
+   "type": "error_correction",
+   "text": "Penso che Luca [[g1]] online.\nSpero che tu [[g2]] meglio oggi.\nSecondo me, questo sito [[g3]] poco sicuro.\nÈ importante che voi [[g4]] bene le regole della chat.\nSo che Giulia [[g5]] due profili.\nCredo che i miei amici [[g6]] al torneo sabato.\nMia madre vuole che io [[g7]] una pausa.\nMi sembra che loro non [[g8]] la verità.\nÈ possibile che Sara [[g9]] più tardi.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "è",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "stai",
+     "acceptedAnswers": [
+      "stia"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "leggete",
+     "acceptedAnswers": [
+      "leggiate"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "vanno",
+     "acceptedAnswers": [
+      "vadano"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "faccio",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "dicono",
+     "acceptedAnswers": [
+      "dicano"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "viene",
+     "acceptedAnswers": [
+      "venga"
+     ]
+    }
+   ]
+  }
+ ]
+}

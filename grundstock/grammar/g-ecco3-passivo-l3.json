@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-l3",
+ "title": "Dall’attivo al passivo",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Dall’attivo al passivo · livello facile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la frase attiva alla frase passiva con lo stesso tempo.",
+   "promptHelp": "Verbinde den Aktivsatz mit dem Passivsatz in derselben Zeit.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Il sindaco apre la mostra.",
+     "right": "La mostra è aperta dal sindaco."
+    },
+    {
+     "id": "p2",
+     "left": "Il sindaco ha aperto la mostra.",
+     "right": "La mostra è stata aperta dal sindaco."
+    },
+    {
+     "id": "p3",
+     "left": "Il sindaco aprirà la mostra.",
+     "right": "La mostra sarà aperta dal sindaco."
+    },
+    {
+     "id": "p4",
+     "left": "Il sindaco apriva la mostra ogni anno.",
+     "right": "La mostra era aperta dal sindaco ogni anno."
+    },
+    {
+     "id": "p5",
+     "left": "Gli studenti scrivono gli articoli.",
+     "right": "Gli articoli vengono scritti dagli studenti."
+    },
+    {
+     "id": "p6",
+     "left": "Gli studenti hanno scritto gli articoli.",
+     "right": "Gli articoli sono stati scritti dagli studenti."
+    },
+    {
+     "id": "p7",
+     "left": "Gli studenti scriveranno gli articoli.",
+     "right": "Gli articoli verranno scritti dagli studenti."
+    },
+    {
+     "id": "p8",
+     "left": "Gli studenti scrivevano gli articoli.",
+     "right": "Gli articoli venivano scritti dagli studenti."
+    }
+   ]
+  }
+ ]
+}

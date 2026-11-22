@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-subordinate-congiuntivo-s3",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo nelle subordinate · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il congiuntivo nelle subordinate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo nach Konjunktionen (benché, affinché, prima che, a meno che, purché …)"
+ },
+ "grammar": {
+  "topic": "ecco3-subordinate-congiuntivo",
+  "topicTitle": "Il congiuntivo nelle subordinate",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Dopo alcune **congiunzioni** usiamo sempre il **congiuntivo**:\n| **benché, sebbene, nonostante** | _Benché **piova**, usciamo._ |\n| **affinché, perché** (scopo) | _Parlo piano affinché tutti **capiscano**._ |\n| **prima che** | _Torno prima che **faccia** buio._ |\n| **a meno che (non)** | _Vengo, a meno che non **sia** malato._ |\n| **a patto che, purché** | _Ti aiuto, purché tu **stia** attento._ |\n| **senza che** | _Esce senza che i genitori lo **sappiano**._ |\n| **nel caso che** | _Porto l’ombrello nel caso che **piova**._ |\n**Attenzione!** Con queste parole usiamo l’**indicativo**:\n- **anche se**: _Anche se **piove**, usciamo._\n- **dopo che**: _Dopo che **ha mangiato**, esce._\n- **perché** (causa): _Resto a casa perché **sono** stanco._\nSe il **soggetto è lo stesso**, usiamo l’**infinito**: _**prima di** uscire, **senza** salutare, **per** capire_.",
+  "ruleHelp": "Nach bestimmten **Konjunktionen** steht immer der **congiuntivo**: _benché / sebbene / nonostante_ (obwohl), _affinché / perché_ (damit), _prima che_ (bevor), _a meno che (non)_ (es sei denn), _a patto che / purché_ (vorausgesetzt, dass), _senza che_ (ohne dass), _nel caso che_ (falls).\n**Aber Indikativ** nach _anche se_ (auch wenn / obwohl), _dopo che_ (nachdem) und _perché_ = weil. Achtung: _perché_ + Indikativ = weil, _perché_ + congiuntivo = damit.\nBei **gleichem Subjekt** steht der Infinitiv: _prima di uscire_ (bevor ich gehe), _senza salutare_ (ohne zu grüßen), _per capire_ (um zu verstehen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori (modo del verbo o infinito).",
+   "promptHelp": "Korrigiere die zehn Fehler (Modus des Verbs oder Infinitiv).",
+   "type": "error_correction",
+   "text": "Benché [[g1]] freddo, mangiamo in giardino.\nAnche se [[g2]] stanco, Luca va alla festa.\nTi scrivo l’indirizzo affinché Marta [[g3]] la casa.\nPrima [[g4]], salutiamo i nonni.\nDopo che [[g5]] finito i compiti, Sara esce con le amiche.\nVengo anch’io, a meno che non [[g6]] studiare.\nSebbene i nonni [[g7]] lontano, li vediamo a ogni festa.\nEsco piano piano, senza [[g8]] rumore.\nResto a casa perché [[g9]] il raffreddore.\nPuoi usare la mia bici purché tu [[g10]] attento.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "fa",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "trova",
+     "acceptedAnswers": [
+      "trovi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "che partire",
+     "acceptedAnswers": [
+      "di partire"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "devo",
+     "acceptedAnswers": [
+      "debba",
+      "deva"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "abitano",
+     "acceptedAnswers": [
+      "abitino"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "che fare",
+     "acceptedAnswers": [
+      "fare"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "stai",
+     "acceptedAnswers": [
+      "stia"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "Dopo penso / credo / spero che: congiuntivo. Ausiliare come nel passato prossimo, participio irregolare come nel passato prossimo.",
+   "explanationHelp": "Nach penso / credo / spero che: congiuntivo. Hilfsverb und unregelmäßiges Partizip wie im passato prossimo.",
+   "type": "error_correction",
+   "text": "Penso che Giulia [[g1]] comprato i biglietti ieri.\nCredo che le ragazze siano [[g2]] in tempo.\nMi dispiace che tu [[g3]] rimasto a casa.\nSpero che voi [[g4]] ascoltato il nuovo album.\nSono contento che il concerto [[g5]] piaciuto ai nonni.\nPenso che i ragazzi [[g6]] provato tutto il pomeriggio.\nÈ possibile che Sara [[g7]] perso il treno.\nCredo che il gruppo abbia [[g8]] una canzone nuova.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "arrivato",
+     "acceptedAnswers": [
+      "arrivate"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "siate",
+     "acceptedAnswers": [
+      "abbiate"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "abbia",
+     "acceptedAnswers": [
+      "abbiano"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "scrivuto",
+     "acceptedAnswers": [
+      "scritto"
+     ]
+    }
+   ]
+  }
+ ]
+}

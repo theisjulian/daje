@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-l3",
+ "title": "Che forma è?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Che forma è? · livello facile.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente, congiuntivo passato o passato prossimo?",
+   "promptHelp": "Congiuntivo presente, congiuntivo passato oder passato prossimo?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "congiuntivo presente"
+    },
+    {
+     "id": "b",
+     "label": "congiuntivo passato"
+    },
+    {
+     "id": "c",
+     "label": "passato prossimo (indicativo)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "che lui canti",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "che lei abbia cantato",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "ha cantato",
+     "category": "c"
+    },
+    {
+     "id": "i4",
+     "text": "che loro siano partiti",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "sono partiti",
+     "category": "c"
+    },
+    {
+     "id": "i6",
+     "text": "che tu venga",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "che voi siate venuti",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "siete venuti",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "che io abbia visto",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "ho visto",
+     "category": "c"
+    },
+    {
+     "id": "i11",
+     "text": "che loro suonino",
+     "category": "a"
+    },
+    {
+     "id": "i12",
+     "text": "che voi facciate",
+     "category": "a"
+    }
+   ]
+  }
+ ]
+}

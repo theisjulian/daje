@@ -95,9 +95,10 @@
      "id": "s6",
      "start": "(loro / casa / vicino)",
      "acceptedAnswers": [
-      "La loro casa è vicino"
+      "La loro casa è vicino",
+      "La loro casa è vicina"
      ],
-     "modelAnswer": "La loro casa è vicino."
+     "modelAnswer": "La loro casa è vicina."
     },
     {
      "id": "s7",

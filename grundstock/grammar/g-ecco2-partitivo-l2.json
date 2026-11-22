@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-partitivo-l2",
+ "title": "Partitivo o no?",
+ "language": "it",
+ "level": "A2",
+ "description": "L’articolo partitivo · Partitivo o no? · livello facile.",
+ "topics": [
+  "L’articolo partitivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco2-partitivo",
+  "topicTitle": "L’articolo partitivo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "L’**articolo partitivo** = **di + articolo**. Indica una quantità **non precisa**.\n| | singolare = un po’ di | plurale = alcuni / alcune |\n| maschile | **del** pane, **dello** zucchero, **dell’**olio | **dei** biglietti, **degli** amici |\n| femminile | **della** musica, **dell’**acqua | **delle** canzoni |\n- _Compro **del** pane._ = _Compro **un po’ di** pane._\n- _Ho **degli** amici a Roma._ = _Ho **alcuni** amici / **qualche** amic**o** a Roma._ (qualche + **singolare**!)\n**Attenzione:**\n- Dopo **non** niente partitivo: _**Non** ho soldi. **Non** mangio carne._\n- Dopo una quantità solo **di**: _un chilo **di** mele, una bottiglia **di** acqua, un po’ **di** tempo_. Con **molto, poco, troppo, tanto** niente di: _molti amici, poca acqua_.",
+  "ruleHelp": "Der **Teilungsartikel** (di + bestimmter Artikel: del, dello, dell’, della, dei, degli, delle) bezeichnet eine **unbestimmte Menge**. Im Deutschen steht dann meist gar kein Artikel oder „etwas / einige“: _Compro del pane_ = Ich kaufe (etwas) Brot. _Ho degli amici_ = Ich habe (einige) Freunde.\nGleichbedeutend: Singular **un po’ di**, Plural **alcuni/alcune** oder **qualche + Singular** (_qualche amico_).\nNach **Verneinung** steht kein Teilungsartikel (_Non ho soldi_ = Ich habe kein Geld), nach **Mengenangaben** nur **di** (_un chilo di mele_); molto/poco/troppo/tanto stehen ohne di (_molti amici_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa significa del / della / dei …?",
+   "promptHelp": "Was bedeutet del / della / dei …?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "un po’ di (etwas)"
+    },
+    {
+     "id": "b",
+     "label": "alcuni / alcune (einige)"
+    },
+    {
+     "id": "c",
+     "label": "non è un partitivo (von / des / der)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Compro del pane.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Bevo dell’acqua.",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "Vuoi dello zucchero?",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Mangiamo della pizza.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "Ho degli amici a Roma.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Ci sono delle sedie libere.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "Ho visto dei video divertenti.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "Arrivano degli ospiti.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "la chitarra del cantante",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "il nome della band",
+     "category": "c"
+    },
+    {
+     "id": "i11",
+     "text": "la fine del concerto",
+     "category": "c"
+    },
+    {
+     "id": "i12",
+     "text": "i biglietti dei miei amici",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

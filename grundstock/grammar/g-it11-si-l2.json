@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-si-l2",
+ "title": "Come si dice in tedesco?",
+ "language": "it",
+ "level": "B1",
+ "description": "Si impersonale e si passivante · Come si dice in tedesco? · livello facile.",
+ "topics": [
+  "Si impersonale e si passivante",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · si impersonale und si passivante"
+ },
+ "grammar": {
+  "topic": "it11-si",
+  "topicTitle": "Si impersonale e si passivante",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "**si** = «la gente, tutti» (tedesco: _man_).\n- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._\n- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._\n- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._\n- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._\nTempi composti: sempre con **essere**.\n| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |\n| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |\n| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |",
+  "ruleHelp": "**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).\nAdjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).\nZusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina le frasi alla traduzione.",
+   "promptHelp": "Verbinde die Sätze mit der Übersetzung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Qui si parla italiano.",
+     "right": "Hier spricht man Italienisch."
+    },
+    {
+     "id": "p2",
+     "left": "Come si dice?",
+     "right": "Wie sagt man?"
+    },
+    {
+     "id": "p3",
+     "left": "Come si scrive?",
+     "right": "Wie schreibt man das?"
+    },
+    {
+     "id": "p4",
+     "left": "Non si sa mai.",
+     "right": "Man weiß nie."
+    },
+    {
+     "id": "p5",
+     "left": "Si vede che sei stanco.",
+     "right": "Man sieht, dass du müde bist."
+    },
+    {
+     "id": "p6",
+     "left": "Qui non si fuma.",
+     "right": "Hier raucht man nicht."
+    },
+    {
+     "id": "p7",
+     "left": "Ci si alza presto.",
+     "right": "Man steht früh auf."
+    },
+    {
+     "id": "p8",
+     "left": "Quando si è giovani …",
+     "right": "Wenn man jung ist …"
+    },
+    {
+     "id": "p9",
+     "left": "Si vendono biglietti.",
+     "right": "Es werden Karten verkauft."
+    }
+   ]
+  }
+ ]
+}

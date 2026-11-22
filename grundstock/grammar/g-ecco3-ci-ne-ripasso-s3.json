@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-s3",
+ "title": "Rispondi con i pronomi",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Rispondi con i pronomi · livello difficile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi e sostituisci le parole con ci, ne o i pronomi giusti.",
+   "promptHelp": "Antworte und ersetze die Wörter durch ci, ne oder die passenden Pronomen.",
+   "explanation": "Con lo, la, li, le e ne il participio concorda: glieli ho dati, ne ho fatte tre.",
+   "explanationHelp": "Bei lo, la, li, le und ne wird das Partizip angeglichen: glieli ho dati, ne ho fatte tre.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Hai dato i volantini a Luca? – Sì, …",
+     "acceptedAnswers": [
+      "glieli ho dati"
+     ],
+     "modelAnswer": "Sì, glieli ho dati."
+    },
+    {
+     "id": "s2",
+     "start": "Hai parlato del progetto ai tuoi genitori? – Sì, …",
+     "acceptedAnswers": [
+      "gliene ho parlato"
+     ],
+     "modelAnswer": "Sì, gliene ho parlato."
+    },
+    {
+     "id": "s3",
+     "start": "Mi presti la penna? – Sì, …",
+     "acceptedAnswers": [
+      "te la presto"
+     ],
+     "modelAnswer": "Sì, te la presto."
+    },
+    {
+     "id": "s4",
+     "start": "Quante torte hai fatto? (tre) – …",
+     "acceptedAnswers": [
+      "Ne ho fatte tre"
+     ],
+     "modelAnswer": "Ne ho fatte tre."
+    },
+    {
+     "id": "s5",
+     "start": "Giulia, sei andata alla mensa sabato? – Sì, …",
+     "acceptedAnswers": [
+      "ci sono andata"
+     ],
+     "modelAnswer": "Sì, ci sono andata."
+    },
+    {
+     "id": "s6",
+     "start": "Hai il numero di Sara? – Sì, …",
+     "acceptedAnswers": [
+      "ce l’ho"
+     ],
+     "modelAnswer": "Sì, ce l’ho."
+    },
+    {
+     "id": "s7",
+     "start": "Mandi la mail alla preside? – Sì, …",
+     "acceptedAnswers": [
+      "gliela mando"
+     ],
+     "modelAnswer": "Sì, gliela mando."
+    },
+    {
+     "id": "s8",
+     "start": "Pensi tu alle bevande? – Sì, …",
+     "acceptedAnswers": [
+      "ci penso io"
+     ],
+     "modelAnswer": "Sì, ci penso io."
+    },
+    {
+     "id": "s9",
+     "start": "Vi ricordate della riunione? – Sì, …",
+     "acceptedAnswers": [
+      "ce ne ricordiamo"
+     ],
+     "modelAnswer": "Sì, ce ne ricordiamo."
+    }
+   ]
+  }
+ ]
+}

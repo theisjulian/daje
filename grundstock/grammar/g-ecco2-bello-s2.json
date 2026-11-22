@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-bello-s2",
+ "title": "Che bello!",
+ "language": "it",
+ "level": "A2",
+ "description": "Bello e la posizione degli aggettivi · Che bello! · livello difficile.",
+ "topics": [
+  "Bello e la posizione degli aggettivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adjektiv bello vor dem Nomen, Stellung der Adjektive"
+ },
+ "grammar": {
+  "topic": "ecco2-bello",
+  "topicTitle": "Bello e la posizione degli aggettivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Davanti al nome **bello** cambia come l’articolo determinativo:\n| il libro → un **bel** libro | i libri → due **bei** libri |\n| lo zaino → un **bello** zaino | gli zaini → due **begli** zaini |\n| l’albero → un **bell’**albero | gli alberi → due **begli** alberi |\n| la casa → una **bella** casa | le case → due **belle** case |\n| l’idea → una **bell’**idea | le idee → due **belle** idee |\nDopo il nome o dopo **essere**: bello, bella, belli, belle. _Il film è **bello**. I libri sono **belli**._\n**Posizione:** di solito l’aggettivo sta **dopo** il nome (colore, nazionalità, forma): _una maglietta **rossa**, un amico **tedesco**, un tavolo **rotondo**_.\nAlcuni aggettivi corti e frequenti stanno spesso **prima** del nome: bello, brutto, buono, bravo, grande, piccolo, nuovo, vecchio. _Una **piccola** casa, un **vecchio** amico._",
+  "ruleHelp": "Vor dem Nomen verhält sich **bello** wie der bestimmte Artikel: il → **bel**, lo → **bello**, l’ → **bell’**, la → **bella**; i → **bei**, gli → **begli**, le → **belle**. _Un bel libro, un bello zaino, un bell’albero, due begli occhi._\nNach dem Nomen oder nach essere bleibt es regelmäßig: _I libri sono belli._\n**Stellung:** Anders als im Deutschen steht das Adjektiv meist **nach** dem Nomen (Farbe, Nationalität, Form): _una maglietta rossa_. Einige kurze, häufige Adjektive (bello, buono, grande, piccolo, nuovo, vecchio …) stehen oft davor."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma in un’esclamazione con che + bello + nome.",
+   "promptHelp": "Forme in einen Ausruf mit che + bello + Nomen um.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Il panorama è bello. → Che …",
+     "acceptedAnswers": [
+      "bel panorama"
+     ],
+     "modelAnswer": "Che bel panorama!"
+    },
+    {
+     "id": "s2",
+     "start": "L’albergo è bello. → Che …",
+     "acceptedAnswers": [
+      "bell’albergo"
+     ],
+     "modelAnswer": "Che bell’albergo!"
+    },
+    {
+     "id": "s3",
+     "start": "Lo zaino è bello. → Che …",
+     "acceptedAnswers": [
+      "bello zaino"
+     ],
+     "modelAnswer": "Che bello zaino!"
+    },
+    {
+     "id": "s4",
+     "start": "Gli occhi sono belli. → Che …",
+     "acceptedAnswers": [
+      "begli occhi"
+     ],
+     "modelAnswer": "Che begli occhi!"
+    },
+    {
+     "id": "s5",
+     "start": "I colori sono belli. → Che …",
+     "acceptedAnswers": [
+      "bei colori"
+     ],
+     "modelAnswer": "Che bei colori!"
+    },
+    {
+     "id": "s6",
+     "start": "La spiaggia è bella. → Che …",
+     "acceptedAnswers": [
+      "bella spiaggia"
+     ],
+     "modelAnswer": "Che bella spiaggia!"
+    },
+    {
+     "id": "s7",
+     "start": "Le canzoni sono belle. → Che …",
+     "acceptedAnswers": [
+      "belle canzoni"
+     ],
+     "modelAnswer": "Che belle canzoni!"
+    },
+    {
+     "id": "s8",
+     "start": "Lo spettacolo è bello. → Che …",
+     "acceptedAnswers": [
+      "bello spettacolo"
+     ],
+     "modelAnswer": "Che bello spettacolo!"
+    },
+    {
+     "id": "s9",
+     "start": "Gli stivali sono belli. → Che …",
+     "acceptedAnswers": [
+      "begli stivali"
+     ],
+     "modelAnswer": "Che begli stivali!"
+    },
+    {
+     "id": "s10",
+     "start": "L’orologio è bello. → Che …",
+     "acceptedAnswers": [
+      "bell’orologio"
+     ],
+     "modelAnswer": "Che bell’orologio!"
+    }
+   ]
+  }
+ ]
+}

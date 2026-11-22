@@ -58,7 +58,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
+   "prompt": "Completa il testo con le preposizioni (semplici o articolate).",
    "text": "[[g1]] comunicato sul volontariato riferito al 2023, pubblicato [[g2]] luglio 2025, l’Istat stima che il 9,1% delle persone di almeno quindici anni abbia svolto attività gratuite [[g3]] volontariato nelle quattro settimane precedenti l’intervista: circa 4,7 milioni di persone. Il dato comprende attività organizzate e aiuti diretti. Alcune persone partecipano [[g4]] entrambe le forme; perciò i due gruppi non vanno semplicemente sommati. Il periodo osservato non coincide con un intero anno.\nDa questi dati nasce un’attività immaginaria [[g5]] redazione scolastica. Una studentessa propone il titolo «Quasi cinque milioni di volontari ogni settimana». Il compagno che controlla la fonte osserva che il titolo cambia il periodo di riferimento. Un’altra proposta dice che «tutti aiutano attraverso associazioni», ma neppure questa frase corrisponde [[g6]] definizione utilizzata. Il gruppo decide di riportare prima la popolazione osservata, poi il periodo e infine la percentuale.\nLa discussione continua quando qualcuno vuole trasformare il dato in una classifica [[g7]] classi. Un’insegnante ricorda che il comunicato nazionale non descrive la loro scuola. Per conoscere la situazione locale servirebbero domande adatte e una raccolta di informazioni rispettosa [[g8]] persone. Inoltre, non tutti hanno lo stesso tempo disponibile; un numero non permette di giudicare quanto una persona sia generosa.\nLa redazione prepara dunque un articolo breve e una pagina di domande. Che cosa viene contato? Chi resta fuori [[g9]] definizione? Il confronto riguarda periodi equivalenti? Quale differenza c’è fra un’esperienza raccontata e una stima ottenuta da un’indagine? Le risposte non rendono il testo meno leggibile: gli danno un significato più preciso.\n[[g10]] accompagnare l’articolo, gli studenti inventano due esempi dichiaratamente fittizi: un ragazzo che aiuta in un’associazione e una ragazza che porta la spesa a una vicina. Gli esempi illustrano forme diverse [[g11]] attività, ma non aggiungono risultati all’indagine. Separare dati e racconti permette al lettore di capire [[g12]] dove viene ogni affermazione.",
    "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
@@ -71,7 +71,9 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "nel"
+      "nel",
+      "a",
+      "in"
      ]
     },
     {
@@ -83,13 +85,15 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "a"
+      "a",
+      "ad"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "della"
+      "della",
+      "nella"
      ]
     },
     {
@@ -101,7 +105,8 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "fra"
+      "fra",
+      "tra"
      ]
     },
     {
@@ -135,7 +140,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze den Text."
+   "promptHelp": "Ergänze den Text mit den passenden Präpositionen (einfach oder mit Artikel verschmolzen)."
   }
  ]
 }

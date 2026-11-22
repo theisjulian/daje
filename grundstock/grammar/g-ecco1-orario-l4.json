@@ -3,10 +3,10 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-l4",
- "title": "La settimana di Marta",
+ "title": "Quando? Giorni e momenti",
  "language": "it",
  "level": "A1",
- "description": "L’ora e i giorni della settimana · La settimana di Marta · livello facile.",
+ "description": "L’ora e i giorni della settimana · Quando? Giorni e momenti · livello facile.",
  "topics": [
   "L’ora e i giorni della settimana",
   "Grammatik"
@@ -47,53 +47,53 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Che cosa fa Marta e quando?",
-   "promptHelp": "Was macht Marta wann?",
+   "prompt": "Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet das?",
    "type": "matching",
    "pairs": [
     {
      "id": "p1",
      "left": "il lunedì",
-     "right": "ha matematica alle otto"
+     "right": "montags (jeden Montag)"
     },
     {
      "id": "p2",
-     "left": "il martedì",
-     "right": "va in piscina"
+     "left": "lunedì",
+     "right": "am (nächsten) Montag"
     },
     {
      "id": "p3",
-     "left": "il mercoledì",
-     "right": "ha un’interrogazione di storia"
+     "left": "la domenica",
+     "right": "sonntags (jeden Sonntag)"
     },
     {
      "id": "p4",
-     "left": "il giovedì",
-     "right": "suona la chitarra"
+     "left": "ogni giorno",
+     "right": "jeden Tag"
     },
     {
      "id": "p5",
-     "left": "il venerdì",
-     "right": "mangia la pizza con gli amici"
+     "left": "martedì prossimo",
+     "right": "nächsten Dienstag"
     },
     {
      "id": "p6",
-     "left": "il sabato",
-     "right": "dorme fino alle dieci"
+     "left": "il sabato sera",
+     "right": "samstagabends"
     },
     {
      "id": "p7",
-     "left": "la domenica",
-     "right": "pranza dai nonni"
+     "left": "dalle otto alle due",
+     "right": "von acht bis zwei Uhr"
     },
     {
      "id": "p8",
-     "left": "ogni giorno",
-     "right": "fa i compiti alle quattro"
+     "left": "all’una",
+     "right": "um ein Uhr"
     }
    ],
    "distractors": [
-    "il lunedì sera"
+    "am Sonntagabend"
    ]
   }
  ]

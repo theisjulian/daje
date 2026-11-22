@@ -1,0 +1,181 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-m3",
+ "title": "Metti in ordine",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · Metti in ordine · livello medio.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 20,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „In Italien isst man viel Pasta.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "In Italia"
+    },
+    {
+     "id": "i2",
+     "text": "si"
+    },
+    {
+     "id": "i3",
+     "text": "mangia"
+    },
+    {
+     "id": "i4",
+     "text": "molta pasta."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Hier darf man nicht parken.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Qui"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "si"
+    },
+    {
+     "id": "i4",
+     "text": "può"
+    },
+    {
+     "id": "i5",
+     "text": "parcheggiare."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „In der Klasse benutzt man keine Handys.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "In classe"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "si"
+    },
+    {
+     "id": "i4",
+     "text": "usano"
+    },
+    {
+     "id": "i5",
+     "text": "i telefonini."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Wo kauft man die Fahrkarten?“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Dove"
+    },
+    {
+     "id": "i2",
+     "text": "si"
+    },
+    {
+     "id": "i3",
+     "text": "comprano"
+    },
+    {
+     "id": "i4",
+     "text": "i biglietti?"
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "prompt": "Metti le parole in ordine: „Wie sagt man ‚Danke‘ auf Italienisch?“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Come"
+    },
+    {
+     "id": "i2",
+     "text": "si"
+    },
+    {
+     "id": "i3",
+     "text": "dice"
+    },
+    {
+     "id": "i4",
+     "text": "«Danke»"
+    },
+    {
+     "id": "i5",
+     "text": "in italiano?"
+    }
+   ]
+  }
+ ]
+}

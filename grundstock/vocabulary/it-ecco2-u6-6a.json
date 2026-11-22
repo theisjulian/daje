@@ -63,7 +63,7 @@
    ],
    "definition": "Senza lavoro.",
    "example": "Mio zio è disoccupato.",
-   "related": "E disoccupied"
+   "related": "E unoccupied"
   },
   {
    "id": "u6-6a-004",
@@ -510,7 +510,7 @@
    "acceptedAnswers": [
     "provenire da"
    ],
-   "usage": "Abc"
+   "usage": "(provengo), p.p. provenuto"
   },
   {
    "id": "u6-6a-036",
@@ -532,7 +532,7 @@
    ],
    "definition": "Insieme dei veicoli che circolano.",
    "example": "C’è molto traffico.",
-   "related": "E traffic; F la trafic",
+   "related": "E traffic; F le trafic",
    "usage": "pl. i traffici",
    "grammar": {
     "partOfSpeech": "noun",

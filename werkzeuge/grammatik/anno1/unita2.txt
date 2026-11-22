@@ -81,13 +81,13 @@ I miei cugini [hanno] un cane enorme.
 
 %übung mittel | Domande sul profilo
 ?ergaenzen | Rispondi alle domande con una frase completa. || Beantworte die Fragen in ganzen Sätzen.
-Quanti anni hai? (13) – … | Ho tredici anni | Ho tredici anni.
+Quanti anni hai? (13) – … | Ho tredici anni/Ho 13 anni | Ho tredici anni.
 Hai fratelli? (sì, un fratello) – … | Sì, ho un fratello | Sì, ho un fratello.
 Avete un animale? (sì, un gatto) – … | abbiamo un gatto | Sì, abbiamo un gatto.
-Quanti anni ha tua sorella? (8) – … | ha otto anni | Mia sorella ha otto anni.
+Quanti anni ha tua sorella? (8) – … | ha otto anni/ha 8 anni | Mia sorella ha otto anni.
 I tuoi nonni hanno una casa? (sì, al mare) – … | hanno una casa | Sì, hanno una casa al mare.
 Hai un computer? (no) – … | non ho un computer | No, non ho un computer.
-Quanti anni avete? (15) – … | Abbiamo quindici anni | Abbiamo quindici anni.
+Quanti anni avete? (15) – … | Abbiamo quindici anni/Abbiamo 15 anni | Abbiamo quindici anni.
 Ha un cane Luca? (sì) – … | ha un cane | Sì, Luca ha un cane.
 ! A «hai» rispondiamo con «ho», a «avete» con «abbiamo». || Auf hai antwortet man mit ho, auf avete mit abbiamo.
 
@@ -149,12 +149,12 @@ Io [hai=>ho] una bici nuova.
 %übung schwer | Domande per un’intervista
 ?ergaenzen | Scrivi la domanda per la risposta. || Schreibe die Frage zur Antwort.
 … ? – Ho quindici anni. | Quanti anni hai | Quanti anni hai?
-… ? – Sì, ho due sorelle. | Hai fratelli/Hai sorelle | Hai fratelli?
-… ? – No, non abbiamo animali. | Avete animali/Avete un animale | Avete animali?
+… ? – Sì, ho due sorelle. | Hai fratelli/Hai sorelle/Hai delle sorelle/Hai dei fratelli | Hai fratelli?
+… ? – No, non abbiamo animali. | Avete animali/Avete un animale/Avete degli animali | Avete animali?
 … ? – Mio fratello ha diciotto anni. | Quanti anni ha tuo fratello | Quanti anni ha tuo fratello?
 … ? – Sì, ho un cellulare nuovo. | Hai un cellulare | Hai un cellulare nuovo?
 … ? – I nonni hanno settant’anni. | Quanti anni hanno i nonni/Quanti anni hanno i tuoi nonni | Quanti anni hanno i tuoi nonni?
-… ? – Sì, abbiamo un cane e due gatti. | Avete animali/Avete un animale | Avete animali?
+… ? – Sì, abbiamo un cane e due gatti. | Avete animali/Avete un animale/Avete degli animali | Avete animali?
 … ? – No, Marco non ha fratelli. | Marco ha fratelli/Ha fratelli Marco | Marco ha fratelli?
 ! Domande con «quanti anni» + avere. || Fragen mit „quanti anni“ + avere.
 
@@ -203,7 +203,7 @@ i film d’azione > p
 
 %übung leicht | Ti piace …?
 ?auswahl | Scegli piace o piacciono. || Wähle piace oder piacciono.
-Ti {piace*|piacciono} il nuovo film di Pixar?
+Ti {piace*|piacciono} il nuovo film della Pixar?
 Non mi {piace*|piacciono} la matematica.
 Mi {piacciono*|piace} le vacanze al mare.
 Non mi {piace*|piacciono} alzarmi presto.
@@ -238,14 +238,14 @@ Ti {piace*|piacciono} nuotare?
 
 %übung mittel | Domande e risposte
 ?ergaenzen | Rispondi come nell’esempio: Ti piace lo sport? (☺) – Sì, mi piace. || Antworte wie im Beispiel.
-Ti piace la scuola? (☺) – … | mi piace | Sì, mi piace.
+Ti piace la scuola? (☺) – … | Sì, mi piace | Sì, mi piace.
 Ti piacciono i compiti? (☹) – … | non mi piacciono | No, non mi piacciono.
-Ti piace cantare? (☺) – … | mi piace | Sì, mi piace.
-Ti piacciono i cani? (☺) – … | mi piacciono | Sì, mi piacciono.
+Ti piace cantare? (☺) – … | Sì, mi piace | Sì, mi piace.
+Ti piacciono i cani? (☺) – … | Sì, mi piacciono | Sì, mi piacciono.
 Ti piace il calcio? (☹) – … | non mi piace | No, non mi piace.
-Ti piacciono le lingue? (☺) – … | mi piacciono | Sì, mi piacciono.
+Ti piacciono le lingue? (☺) – … | Sì, mi piacciono | Sì, mi piacciono.
 Ti piace la pizza ai funghi? (☹) – … | non mi piace | No, non mi piace.
-Ti piacciono i videogiochi? (☺) – … | mi piacciono | Sì, mi piacciono.
+Ti piacciono i videogiochi? (☺) – … | Sì, mi piacciono | Sì, mi piacciono.
 
 %übung mittel | Frasi da costruire
 ?ergaenzen | Forma la frase con mi piace / mi piacciono. || Bilde den Satz mit mi piace / mi piacciono.
@@ -259,7 +259,7 @@ Ti piacciono i videogiochi? (☺) – … | mi piacciono | Sì, mi piacciono.
 (☺ la mia camera) | Mi piace la mia camera | Mi piace la mia camera.
 
 %übung schwer | Mi piace – non mi piace
-?frei | Che cosa ti piace e che cosa no? Scrivi due frasi con mi piace, mi piacciono, non mi piace, non mi piacciono. || Was magst du, was nicht? Schreibe je zwei Sätze.
+?frei | Che cosa ti piace e che cosa no? Scrivi due frasi per ogni forma: mi piace, mi piacciono, non mi piace, non mi piacciono. || Was magst du, was nicht? Schreibe je zwei Sätze.
 Mi piace la musica. Mi piace ballare. Mi piacciono i film italiani. Mi piacciono gli animali. Non mi piace il calcio. Non mi piacciono i compiti.
 Zeilen: 6
 ?auswahl | Controlla: piace o piacciono? || Prüfe: piace oder piacciono?
@@ -282,7 +282,7 @@ Non mi [piace=>piacciono] i cani grandi.
 ! Più verbi (ballare e cantare) → sempre piace. «No» da solo, «non» prima di mi piace. || Mehrere Verben → trotzdem piace. „no“ allein, „non“ vor mi piace.
 
 %übung schwer | Gusti diversi
-?ergaenzen | Scrivi che cosa piace a te: «Mi piace / Non mi piace …». || Schreibe, was dir gefällt.
+?ergaenzen | Scrivi una frase con «ma», come nell’esempio: il mare (☺) e la montagna (☹) → Mi piace il mare, ma non mi piace la montagna. || Schreibe einen Satz mit „ma“ wie im Beispiel: Mi piace il mare, ma non mi piace la montagna.
 la pizza (☺) e il pesce (☹) | Mi piace la pizza, ma non mi piace il pesce | Mi piace la pizza, ma non mi piace il pesce.
 i gatti (☺) e i cani (☹) | Mi piacciono i gatti, ma non mi piacciono i cani | Mi piacciono i gatti, ma non mi piacciono i cani.
 nuotare (☺) e correre (☹) | Mi piace nuotare, ma non mi piace correre | Mi piace nuotare, ma non mi piace correre.
@@ -423,7 +423,7 @@ Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:
 | in | nel | nello | nell’ | nella | nei | negli | nelle |
 | su | sul | sullo | sull’ | sulla | sui | sugli | sulle |
 
-**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._
+**con** e **per** non si uniscono: _con il papà, per la mamma._ **accanto** e **davanti** vogliono **a**: _accanto al letto, davanti alla scuola._ **sotto** è senza a: _sotto il tavolo._
 #regel-de
 Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).
 **con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_.
@@ -436,7 +436,7 @@ La borsa è {sulla*|sul|sulle} sedia.
 Lo zaino è {nel*|nella|nello} corridoio.
 Il fon è {nella*|nel|nelle} vasca da bagno.
 Le riviste sono {sullo*|sul|sulla} scaffale.
-Le scarpe sono {sotto il*|sotto al|sotto nel} letto.
+Le scarpe sono {sotto il*|sotto lo|sotto nel} letto.
 Il gatto dorme {sul*|sulla|sullo} divano.
 Il pallone è {nell’*|nella|nello} armadio.
 I libri sono {sugli*|sui|sulle} scaffali.
@@ -515,7 +515,7 @@ Dove metti la lampada? (accanto a + il letto) | accanto al letto | Accanto al le
 
 %übung schwer | Errori nella camera
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
-Il gatto dorme [nel=>sul] letto, non sotto.
+Il gatto dorme [sulla=>sul] letto, non sotto.
 I vestiti sono [nella=>nell’] armadio.
 Il pallone è [sul=>sulla] sedia.
 Torno [dalla=>dal] mercato.
@@ -628,21 +628,21 @@ noi | [il nostro] | [la nostra] | [i nostri] | [le nostre]
 
 %übung mittel | Di chi è?
 ?ergaenzen | Rispondi con il possessivo. || Antworte mit dem Possessivbegleiter.
-È il tuo zaino? – Sì, è … | il mio zaino | Sì, è il mio zaino.
-Sono le tue scarpe? – Sì, sono … | le mie scarpe | Sì, sono le mie scarpe.
-È la borsa di Anna? – Sì, è … | la sua borsa | Sì, è la sua borsa.
-Sono i libri di Marco? – Sì, sono … | i suoi libri | Sì, sono i suoi libri.
-È la vostra classe? – Sì, è … | la nostra classe | Sì, è la nostra classe.
-Sono i vostri amici? – Sì, sono … | i nostri amici | Sì, sono i nostri amici.
-È la casa dei nonni? – Sì, è … | la loro casa | Sì, è la loro casa.
-È il tuo cellulare? – Sì, è … | il mio cellulare | Sì, è il mio cellulare.
+È il tuo zaino? – Sì, è … | il mio | Sì, è il mio zaino.
+Sono le tue scarpe? – Sì, sono … | le mie | Sì, sono le mie scarpe.
+È la borsa di Anna? – Sì, è … | la sua | Sì, è la sua borsa.
+Sono i libri di Marco? – Sì, sono … | i suoi | Sì, sono i suoi libri.
+È la vostra classe? – Sì, è … | la nostra | Sì, è la nostra classe.
+Sono i vostri amici? – Sì, sono … | i nostri | Sì, sono i nostri amici.
+È la casa dei nonni? – Sì, è … | la loro | Sì, è la loro casa.
+È il tuo cellulare? – Sì, è … | il mio | Sì, è il mio cellulare.
 ! tuo → mio, vostro → nostro, di Anna → suo/sua, dei nonni → loro. || tuo → mio, vostro → nostro, di Anna → suo/sua, dei nonni → loro.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
 Giulia cerca [la sua=>il suo] zaino.
 [Mio=>Il mio] libro è in cucina.
-Ragazzi, dov’è [la nostra=>la vostra] classe?
+Ragazzi, dov’è [il vostro=>la vostra] classe?
 [Le mie=>I miei] vestiti sono per terra.
 Paolo ama [il suo=>la sua] bici.
 Sara mette in ordine [la sua=>il suo] armadio.
@@ -652,13 +652,13 @@ Ecco [nostra=>la nostra] casa.
 
 %übung schwer | Mio fratello e io
 ?luecke | Scrivi i possessivi con l’articolo. || Ergänze die Possessivbegleiter mit Artikel.
-Io e mio fratello abbiamo una camera insieme. [La nostra] camera è grande.
-[Il mio] letto è vicino alla finestra, [il suo] letto è vicino alla porta.
-[I miei] libri sono sullo scaffale, [i suoi] fumetti sono per terra!
-[Le sue] scarpe sono sempre sotto [il mio] letto.
-I nostri genitori dicono: «Ragazzi, [la vostra] camera è un caos!»
-[I nostri] amici però amano [la nostra] camera.
-! Della cosa dipende la forma: il suo letto, i suoi fumetti, le sue scarpe. || Die Form hängt vom Ding ab: il suo letto, i suoi fumetti, le sue scarpe.
+Io e mio fratello abbiamo una camera insieme. (noi) [La nostra] camera è grande.
+(io) [Il mio] letto è vicino alla finestra, (lui) [il suo] letto è vicino alla porta.
+(io) [I miei] libri sono sullo scaffale, (lui) [i suoi] fumetti sono per terra!
+(lui) [Le sue] scarpe sono sempre sotto (io) [il mio] letto.
+I nostri genitori dicono: «Ragazzi, (voi) [la vostra] camera è un caos!»
+(noi) [I nostri] amici però amano (noi) [la nostra] camera.
+! La forma dipende dalla cosa: il suo letto, i suoi fumetti, le sue scarpe. || Die Form hängt vom Ding ab: il suo letto, i suoi fumetti, le sue scarpe.
 
 %übung schwer | Presentare le cose
 ?ergaenzen | Scrivi la frase con il possessivo. || Schreibe den Satz mit dem Possessivbegleiter.
@@ -667,7 +667,7 @@ I nostri genitori dicono: «Ragazzi, [la vostra] camera è un caos!»
 (Marco / bici / rossa) | La sua bici è rossa | La sua bici è rossa.
 (noi / gatto / nero) | Il nostro gatto è nero | Il nostro gatto è nero.
 (voi / scarpe / qui) | Le vostre scarpe sono qui | Le vostre scarpe sono qui.
-(loro / casa / vicino) | La loro casa è vicino | La loro casa è vicino.
+(loro / casa / vicino) | La loro casa è vicino/La loro casa è vicina | La loro casa è vicina.
 (Giulia / zaino / pesante) | Il suo zaino è pesante | Il suo zaino è pesante.
 (io / amici / simpatici) | I miei amici sono simpatici | I miei amici sono simpatici.
 
@@ -798,10 +798,10 @@ lui / lei | [vede] | [dorme] | [parte]
 Il sabato dormo fino alle nove. Poi vado in piscina con mia sorella. Nel pomeriggio sento musica in camera. La domenica andiamo dai nonni. A volte partiamo per una gita.
 Zeilen: 5
 ?luecke | E adesso completa. || Und jetzt ergänze.
-Il sabato io [dormo] fino a tardi.
-Poi [vado] al parco.
-I miei genitori [vanno] al mercato.
-Noi [partiamo] alle dieci per la gita.
+Il sabato io (dormire) [dormo] fino a tardi.
+Poi (andare) [vado] al parco.
+I miei genitori (andare) [vanno] al mercato.
+Noi (partire) [partiamo] alle dieci per la gita.
 
 @thema aggettivi | 2 · La mia camera | Parte B | Gli aggettivi e la loro posizione | 7
 #lehrplan Jgst. 8 · Adjektive
@@ -844,15 +844,15 @@ I ragazzi sono {contenti*|contente|contento}.
 ! simpatico → simpatici (m. plur.), simpatica → simpatiche (f. plur.). || simpatico → simpatici (m. Pl.), simpatica → simpatiche (w. Pl.).
 
 %übung leicht | Maschile o femminile, singolare o plurale?
-?zuordnen | Abbina nome e aggettivo. || Verbinde Nomen und Adjektiv.
-una camera = piccola
-un letto = piccolo
-due letti = piccoli
-due camere = piccole
-una borsa = grande
-due zaini = grandi
-un poster = vecchio
-le riviste = vecchie
+?zuordnen | Abbina il nome e la forma giusta dell’aggettivo tra parentesi. || Verbinde das Nomen mit der passenden Form des Adjektivs in Klammern.
+una camera (piccolo) = piccola
+un letto (piccolo) = piccolo
+due letti (piccolo) = piccoli
+due camere (piccolo) = piccole
+una borsa (grande) = grande
+due zaini (grande) = grandi
+un poster (vecchio) = vecchio
+le riviste (vecchio) = vecchie
 
 %übung mittel | La mia camera
 ?luecke | Scrivi gli aggettivi nella forma giusta. || Ergänze die Adjektive in der richtigen Form.
@@ -910,12 +910,12 @@ vecchio | [vecchia] | [vecchi] | [vecchie]
 - È una ragazza simpatico.
 
 %übung schwer | Metti in ordine
-?ordnen | Metti le parole in ordine: „Filippo hat einen neuen Computer.“ || Bringe die Wörter in die richtige Reihenfolge.
+?ordnen | Metti le parole in ordine: „Filippo hat einen schwarzen Computer.“ || Bringe die Wörter in die richtige Reihenfolge.
 Filippo
 ha
 un
 computer
-nuovo
+nero
 ?ordnen | Metti le parole in ordine: „Die Mädchen haben rote Schuhe.“ || Bringe die Wörter in die richtige Reihenfolge.
 Le ragazze
 hanno

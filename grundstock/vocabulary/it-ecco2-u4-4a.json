@@ -75,7 +75,7 @@
    "acceptedAnswers": [
     "essere sicuro/-a di / + inf."
    ],
-   "usage": "Abc"
+   "usage": "+ di: sono sicuro di …"
   },
   {
    "id": "u4-4a-005",
@@ -88,7 +88,7 @@
    "acceptedAnswers": [
     "dare una mano a"
    ],
-   "usage": "Abc"
+   "usage": "= aiutare"
   },
   {
    "id": "u4-4a-006",
@@ -196,7 +196,7 @@
    ],
    "definition": "Badare ai bambini in assenza dei genitori.",
    "example": "Faccio la baby-sitter il sabato.",
-   "usage": "Abc"
+   "usage": "fare + il/la + Beruf"
   },
   {
    "id": "u4-4a-014",
@@ -330,7 +330,7 @@
    "translations": [
     "leidtun"
    ],
-   "definition": "Provare tristezza per qualcosa.",
+   "definition": "Causare tristezza a qualcuno; si usa per scusarsi.",
    "example": "Mi dispiace molto.",
    "antonyms": "piacere",
    "usage": "mi dispiace = das tut mir leid"

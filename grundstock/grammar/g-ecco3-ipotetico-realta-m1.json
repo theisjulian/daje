@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-m1",
+ "title": "Una mail da Bologna",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Una mail da Bologna · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la mail: dopo **se** il presente, nella frase principale il futuro.",
+   "promptHelp": "Ergänze die Mail: nach **se** Präsens, im Hauptsatz Futur.",
+   "type": "gap_fill",
+   "text": "Cara Lena, tra due settimane arrivi a Bologna! Ecco qualche informazione.\nSe il tuo aereo (arrivare) [[g1]] puntuale, noi ti (aspettare) [[g2]] all’uscita.\nSe (volere, tu) [[g3]], sabato (andare, noi) [[g4]] insieme al mercato.\nSe (fare) [[g5]] bel tempo, domenica mio marito ti (portare) [[g6]] in collina.\nSe non (capire, tu) [[g7]] qualcosa a scuola, nostra figlia Marta ti (aiutare) [[g8]].\nSe (avere, tu) [[g9]] voglia di fare sport, (potere, tu) [[g10]] giocare a pallavolo con lei.\nA presto! Paola",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "arriva"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aspetteremo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vuoi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "andremo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "porterà"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "capisci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "aiuterà"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "potrai"
+     ]
+    }
+   ]
+  }
+ ]
+}

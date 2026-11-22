@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-s2",
+ "title": "Dopo la riunione",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Dopo la riunione · livello difficile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il dialogo con ci, ne o un pronome combinato (me ne, te la, ce ne, gliene, gliele …).",
+   "promptHelp": "Ergänze den Dialog mit ci, ne oder einem kombinierten Pronomen.",
+   "explanation": "parlare a Sara del progetto → gliene parlo; mandare le foto alla prof → gliele mando; andarsene → me ne vado.",
+   "explanationHelp": "parlare a Sara del progetto → gliene parlo; mandare le foto alla prof → gliele mando; andarsene → me ne vado.",
+   "type": "gap_fill",
+   "text": "– Davide, mi presti la tua bici per sabato? – Certo, [[g1]] presto volentieri.\n– Hai parlato a Sara del progetto? – Sì, [[g2]] ho parlato ieri.\n– Quanti volantini restano? – [[g3]] sono ancora cinquanta.\n– E chi li porta a scuola? – Tranquilla, [[g4]] penso io!\n– Hai le chiavi della sala? – Sì, [[g5]] ho.\n– La prof aspetta le foto. – Lo so: (a lei + le foto) [[g6]] mando stasera.\n– Vieni anche tu al mercatino? – Certo, [[g7]] tengo molto!\n– Io invece sono stanchissima: non [[g8]] posso più.\n– Allora io [[g9]] vado. Ci vediamo sabato!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "te la"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "gliene"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Ce ne"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ce le",
+      "le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "gliele"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "me ne"
+     ]
+    }
+   ]
+  }
+ ]
+}

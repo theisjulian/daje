@@ -55,7 +55,8 @@
      "id": "s1",
      "start": "(nome)",
      "acceptedAnswers": [
-      "Come ti chiami"
+      "Come ti chiami",
+      "Qual è il tuo nome"
      ],
      "modelAnswer": "Come ti chiami?"
     },
@@ -71,7 +72,8 @@
      "id": "s3",
      "start": "(città di origine)",
      "acceptedAnswers": [
-      "Di dove sei"
+      "Di dove sei",
+      "Da dove vieni"
      ],
      "modelAnswer": "Di dove sei?"
     },
@@ -79,7 +81,10 @@
      "id": "s4",
      "start": "(fratelli)",
      "acceptedAnswers": [
-      "Hai fratelli"
+      "Hai fratelli",
+      "Quanti fratelli hai",
+      "Hai dei fratelli",
+      "Hai un fratello"
      ],
      "modelAnswer": "Hai fratelli?"
     },
@@ -87,7 +92,13 @@
      "id": "s5",
      "start": "(sport)",
      "acceptedAnswers": [
-      "Quale sport fai"
+      "Quale sport fai",
+      "Che sport fai",
+      "Quali sport fai",
+      "Fai sport",
+      "Quale sport pratichi",
+      "Che sport pratichi",
+      "Quali sport pratichi"
      ],
      "modelAnswer": "Quale sport fai?"
     },
@@ -95,7 +106,10 @@
      "id": "s6",
      "start": "(perché in Germania)",
      "acceptedAnswers": [
-      "Perché sei in Germania"
+      "Perché sei in Germania",
+      "Perché sei qui",
+      "Perché sei venuto in Germania",
+      "Perché sei venuta in Germania"
      ],
      "modelAnswer": "Perché sei in Germania?"
     },
@@ -111,7 +125,9 @@
      "id": "s8",
      "start": "(tempo libero)",
      "acceptedAnswers": [
-      "Che cosa fai nel tempo libero"
+      "Che cosa fai nel tempo libero",
+      "Cosa fai nel tempo libero",
+      "Che fai nel tempo libero"
      ],
      "modelAnswer": "Che cosa fai nel tempo libero?"
     }

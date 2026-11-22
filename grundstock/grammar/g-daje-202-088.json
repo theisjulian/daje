@@ -70,31 +70,38 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "strade"
+      "strade",
+      "botteghe",
+      "storie"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "posti"
+      "posti",
+      "cortili"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "botteghe"
+      "botteghe",
+      "strade",
+      "storie"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "cortili"
+      "cortili",
+      "posti"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "storie"
+      "storie",
+      "botteghe"
      ]
     },
     {

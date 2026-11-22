@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-avverbi-confronto-s3",
+ "title": "Dopo il colloquio",
+ "language": "it",
+ "level": "A2",
+ "description": "Confrontare con gli avverbi · Dopo il colloquio · livello difficile.",
+ "topics": [
+  "Confrontare con gli avverbi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Steigerung des Adverbs"
+ },
+ "grammar": {
+  "topic": "ecco2-avverbi-confronto",
+  "topicTitle": "Confrontare con gli avverbi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Anche gli **avverbi** hanno il comparativo: **più / meno** + avverbio + **di**.\n- _Luca corre **più velocemente di** Marco._\n- _Oggi lavoro **meno attentamente di** ieri._\n**Forme irregolari:**\n| bene | **meglio** | benissimo |\n| male | **peggio** | malissimo |\n| molto | **(di) più** | moltissimo |\n| poco | **(di) meno** | pochissimo |\n_Sara canta **meglio di** me. · Devi studiare **di più**. · Studio **più di** te._\n**Il più … possibile:** _Rispondi **il più presto possibile**!_\n**Attenzione:** **migliore / peggiore** sono aggettivi (con un nome), **meglio / peggio** sono avverbi (con un verbo): _Cerco un lavoro **migliore**. · Adesso lavoro **meglio**._",
+  "ruleHelp": "Auch **Adverbien** werden gesteigert: **più / meno** + Adverb + **di** (als): _più velocemente di Marco_.\nUnregelmäßig: _bene → **meglio**_ (besser), _male → **peggio**_ (schlechter), _molto → **di più**_ (mehr), _poco → **di meno**_ (weniger). Sehr gut / sehr schlecht: _benissimo, malissimo_. Vor dem Vergleichswort ohne _di_: _Studio più di te._\n„So … wie möglich“: **il più** + Adverb + **possibile**.\nAchtung: Das Deutsche sagt beide Male „besser“ – das Italienische trennt: **migliore** (Adjektiv, beim Nomen: _un lavoro migliore_) und **meglio** (Adverb, beim Verb: _lavoro meglio_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la mail. + = comparativo (più …, meglio …), ++ = forma in -issimo.",
+   "promptHelp": "Ergänze die Mail. + = Komparativ (più …, meglio …), ++ = Form auf -issimo.",
+   "explanation": "bene → meglio → benissimo · male → peggio → malissimo · buono (aggettivo) → migliore.",
+   "explanationHelp": "bene → meglio → benissimo · male → peggio → malissimo · buono (Adjektiv) → migliore.",
+   "type": "gap_fill",
+   "text": "Cara Giulia, ieri ho fatto il colloquio: è andato (++ bene) [[g1]]!\nMi sono preparato (+ bene) [[g2]] dell’ultima volta.\nHo parlato (+ lento) [[g3]] e ho ascoltato (+ attento) [[g4]].\nL’anno scorso invece il colloquio è andato (++ male) [[g5]].\nEro nervoso e ho risposto (+ male) [[g6]] degli altri candidati.\nAdesso ho un posto (+ buono) [[g7]], vicino a casa.\nDevo rispondere alla direttrice il (+ presto) [[g8]] possibile. A presto, Davide",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "benissimo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "meglio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "più lentamente"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "più attentamente"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "malissimo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "peggio"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "migliore"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "più presto"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Confronta te stesso/a con un amico o un’amica: che cosa fate meglio, peggio, di più, di meno, più velocemente …? Scrivi 5 frasi.",
+   "promptHelp": "Vergleiche dich mit einem Freund oder einer Freundin: Was macht ihr besser, schlechter, mehr, weniger, schneller …? Schreibe 5 Sätze.",
+   "type": "open_answer",
+   "modelAnswer": "Io disegno meglio di Lena, ma lei canta meglio di me. Lena corre più velocemente di me. Io leggo di più, lei fa più sport. In matematica lei capisce tutto più facilmente. Io invece parlo l’italiano benissimo!",
+   "lines": 5
+  }
+ ]
+}

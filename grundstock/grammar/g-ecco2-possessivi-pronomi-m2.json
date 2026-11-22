@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-possessivi-pronomi-m2",
+ "title": "Di chi è?",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi possessivi · Di chi è? · livello medio.",
+ "topics": [
+  "I pronomi possessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-pronomi",
+  "topicTitle": "I pronomi possessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)\n| | singolare | plurale |\n| io | il mio · la mia | i miei · le mie |\n| tu | il tuo · la tua | i tuoi · le tue |\n| lui / lei | il suo · la sua | i suoi · le sue |\n| noi | il nostro · la nostra | i nostri · le nostre |\n| voi | il vostro · la vostra | i vostri · le vostre |\n| loro | il loro · la loro | i loro · le loro |\nIl pronome ha **sempre l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_\nDopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._\n**Loro** non cambia mai: _il loro, la loro, i loro, le loro._",
+  "ruleHelp": "Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.\nAls Pronomen steht es **immer mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).\nNach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con il possessivo giusto.",
+   "promptHelp": "Antworte mit dem passenden Possessivum.",
+   "explanation": "Dopo essere: È mio. o È il mio. Tutte e due le forme sono giuste.",
+   "explanationHelp": "Nach essere geht beides: È mio. oder È il mio.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Di chi è questo zaino? (io) – È …",
+     "acceptedAnswers": [
+      "mio"
+     ],
+     "modelAnswer": "È mio. / È il mio."
+    },
+    {
+     "id": "s2",
+     "start": "Di chi è questa giacca? (tu) – È …",
+     "acceptedAnswers": [
+      "tua"
+     ],
+     "modelAnswer": "È tua. / È la tua."
+    },
+    {
+     "id": "s3",
+     "start": "Di chi sono questi libri? (Marco) – Sono …",
+     "acceptedAnswers": [
+      "suoi"
+     ],
+     "modelAnswer": "Sono suoi. / Sono i suoi."
+    },
+    {
+     "id": "s4",
+     "start": "Di chi sono queste chiavi? (voi) – Sono …",
+     "acceptedAnswers": [
+      "vostre"
+     ],
+     "modelAnswer": "Sono vostre. / Sono le vostre."
+    },
+    {
+     "id": "s5",
+     "start": "Di chi è questo tablet? (noi) – È …",
+     "acceptedAnswers": [
+      "nostro"
+     ],
+     "modelAnswer": "È nostro. / È il nostro."
+    },
+    {
+     "id": "s6",
+     "start": "Di chi sono queste cuffie? (Elena) – Sono …",
+     "acceptedAnswers": [
+      "sue"
+     ],
+     "modelAnswer": "Sono sue. / Sono le sue."
+    },
+    {
+     "id": "s7",
+     "start": "Di chi è questa tazza? (la prof) – È …",
+     "acceptedAnswers": [
+      "sua"
+     ],
+     "modelAnswer": "È sua. / È la sua."
+    },
+    {
+     "id": "s8",
+     "start": "Di chi sono questi appunti? (tu) – Sono …",
+     "acceptedAnswers": [
+      "tuoi"
+     ],
+     "modelAnswer": "Sono tuoi. / Sono i tuoi."
+    }
+   ]
+  }
+ ]
+}

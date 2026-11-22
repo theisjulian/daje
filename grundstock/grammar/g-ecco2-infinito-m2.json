@@ -1,0 +1,139 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-m2",
+ "title": "Unisci le frasi",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Unisci le frasi · livello medio.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi con la parola tra parentesi + infinito.",
+   "promptHelp": "Verbinde die zwei Sätze mit dem Wort in Klammern + Infinitiv.",
+   "explanation": "I pronomi vanno attaccati all’infinito: per invitarla, senza dirmi niente.",
+   "explanationHelp": "Pronomen werden an den Infinitiv angehängt: per invitarla, senza dirmi niente.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Vado in centro. Voglio comprare i colori. (per) → Vado in centro …",
+     "acceptedAnswers": [
+      "per comprare i colori"
+     ],
+     "modelAnswer": "Vado in centro per comprare i colori."
+    },
+    {
+     "id": "s2",
+     "start": "Luca esce. Non saluta. (senza) → Luca esce …",
+     "acceptedAnswers": [
+      "senza salutare"
+     ],
+     "modelAnswer": "Luca esce senza salutare."
+    },
+    {
+     "id": "s3",
+     "start": "Faccio i compiti. Poi esco. (prima di) → Faccio i compiti …",
+     "acceptedAnswers": [
+      "prima di uscire"
+     ],
+     "modelAnswer": "Faccio i compiti prima di uscire."
+    },
+    {
+     "id": "s4",
+     "start": "Matteo non studia. Gioca al computer. (invece di) → Matteo gioca al computer …",
+     "acceptedAnswers": [
+      "invece di studiare"
+     ],
+     "modelAnswer": "Matteo gioca al computer invece di studiare."
+    },
+    {
+     "id": "s5",
+     "start": "Chiara telefona a Sara. Vuole invitarla. (per) → Chiara telefona a Sara …",
+     "acceptedAnswers": [
+      "per invitarla"
+     ],
+     "modelAnswer": "Chiara telefona a Sara per invitarla."
+    },
+    {
+     "id": "s6",
+     "start": "Sei partito. Non mi hai detto niente. (senza) → Sei partito …",
+     "acceptedAnswers": [
+      "senza dirmi niente"
+     ],
+     "modelAnswer": "Sei partito senza dirmi niente."
+    },
+    {
+     "id": "s7",
+     "start": "Ci laviamo le mani. Poi mangiamo. (prima di) → Ci laviamo le mani …",
+     "acceptedAnswers": [
+      "prima di mangiare"
+     ],
+     "modelAnswer": "Ci laviamo le mani prima di mangiare."
+    },
+    {
+     "id": "s8",
+     "start": "Non prendiamo l’autobus. Andiamo a piedi. (invece di) → Andiamo a piedi …",
+     "acceptedAnswers": [
+      "invece di prendere l’autobus"
+     ],
+     "modelAnswer": "Andiamo a piedi invece di prendere l’autobus."
+    },
+    {
+     "id": "s9",
+     "start": "Studio l’italiano. Voglio lavorare in Italia. (per) → Studio l’italiano …",
+     "acceptedAnswers": [
+      "per lavorare in Italia"
+     ],
+     "modelAnswer": "Studio l’italiano per lavorare in Italia."
+    },
+    {
+     "id": "s10",
+     "start": "Ha comprato il biglietto. Non ha guardato il prezzo. (senza) → Ha comprato il biglietto …",
+     "acceptedAnswers": [
+      "senza guardare il prezzo"
+     ],
+     "modelAnswer": "Ha comprato il biglietto senza guardare il prezzo."
+    }
+   ]
+  }
+ ]
+}

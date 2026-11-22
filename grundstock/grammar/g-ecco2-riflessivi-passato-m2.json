@@ -1,0 +1,157 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-m2",
+ "title": "Dal presente al passato",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Dal presente al passato · livello medio.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con il passato prossimo, come nell’esempio.",
+   "promptHelp": "Ergänze die Tabelle mit dem passato prossimo wie im Beispiel.",
+   "type": "table_fill",
+   "columns": [
+    "presente",
+    "passato prossimo (maschile)",
+    "passato prossimo (femminile)"
+   ],
+   "rows": [
+    [
+     "mi alzo",
+     "mi sono alzato",
+     "mi sono alzata"
+    ],
+    [
+     "ti svegli",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "ti sei svegliato"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "ti sei svegliata"
+      ]
+     }
+    ],
+    [
+     "si veste",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "si è vestito"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "si è vestita"
+      ]
+     }
+    ],
+    [
+     "ci divertiamo",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "ci siamo divertiti"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "ci siamo divertite"
+      ]
+     }
+    ],
+    [
+     "vi preparate",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "vi siete preparati"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "vi siete preparate"
+      ]
+     }
+    ],
+    [
+     "si incontrano",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "si sono incontrati"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "si sono incontrate"
+      ]
+     }
+    ],
+    [
+     "mi metto la giacca",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "mi sono messo la giacca"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "mi sono messa la giacca"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

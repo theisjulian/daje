@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-subordinate-congiuntivo-l3",
+ "title": "La festa in piazza",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo nelle subordinate · La festa in piazza · livello facile.",
+ "topics": [
+  "Il congiuntivo nelle subordinate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo nach Konjunktionen (benché, affinché, prima che, a meno che, purché …)"
+ },
+ "grammar": {
+  "topic": "ecco3-subordinate-congiuntivo",
+  "topicTitle": "Il congiuntivo nelle subordinate",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Dopo alcune **congiunzioni** usiamo sempre il **congiuntivo**:\n| **benché, sebbene, nonostante** | _Benché **piova**, usciamo._ |\n| **affinché, perché** (scopo) | _Parlo piano affinché tutti **capiscano**._ |\n| **prima che** | _Torno prima che **faccia** buio._ |\n| **a meno che (non)** | _Vengo, a meno che non **sia** malato._ |\n| **a patto che, purché** | _Ti aiuto, purché tu **stia** attento._ |\n| **senza che** | _Esce senza che i genitori lo **sappiano**._ |\n| **nel caso che** | _Porto l’ombrello nel caso che **piova**._ |\n**Attenzione!** Con queste parole usiamo l’**indicativo**:\n- **anche se**: _Anche se **piove**, usciamo._\n- **dopo che**: _Dopo che **ha mangiato**, esce._\n- **perché** (causa): _Resto a casa perché **sono** stanco._\nSe il **soggetto è lo stesso**, usiamo l’**infinito**: _**prima di** uscire, **senza** salutare, **per** capire_.",
+  "ruleHelp": "Nach bestimmten **Konjunktionen** steht immer der **congiuntivo**: _benché / sebbene / nonostante_ (obwohl), _affinché / perché_ (damit), _prima che_ (bevor), _a meno che (non)_ (es sei denn), _a patto che / purché_ (vorausgesetzt, dass), _senza che_ (ohne dass), _nel caso che_ (falls).\n**Aber Indikativ** nach _anche se_ (auch wenn / obwohl), _dopo che_ (nachdem) und _perché_ = weil. Achtung: _perché_ + Indikativ = weil, _perché_ + congiuntivo = damit.\nBei **gleichem Subjekt** steht der Infinitiv: _prima di uscire_ (bevor ich gehe), _senza salutare_ (ohne zu grüßen), _per capire_ (um zu verstehen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la congiunzione giusta. Guarda bene il verbo: congiuntivo o indicativo?",
+   "promptHelp": "Wähle die richtige Konjunktion. Achte auf das Verb: congiuntivo oder Indikativ?",
+   "explanation": "faccia, arrivino, capiscano, sia … sono congiuntivi → benché, prima che, affinché …; sono, ha, ho sono indicativi → anche se, dopo che, perché.",
+   "explanationHelp": "faccia, arrivino, capiscano, sia … sind congiuntivo-Formen → benché, prima che, affinché …; sono, ha, ho sind Indikativ → anche se, dopo che, perché.",
+   "type": "gap_choice",
+   "text": "Usciamo [[g1]] faccia freddo.\nLa nonna prepara tutto [[g2]] arrivino gli ospiti.\nPresto la maschera a Luca [[g3]] la riporti domani.\nLa guida parla piano [[g4]] tutti capiscano.\nAndiamo al concerto [[g5]] i biglietti sono cari.\n[[g6]] la nonna ha tagliato il panettone, tutti fanno un brindisi.\nResto a casa [[g7]] ho la febbre.\nVeniamo alla sagra [[g8]] non ci sia sciopero dei treni.\nPuoi venire con noi [[g9]] tu sia puntuale.\nLuca esce di casa [[g10]] i genitori lo sappiano.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "benché",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "benché"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "prima che",
+      "dopo che",
+      "anche se"
+     ],
+     "answer": "prima che"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "a patto che",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "a patto che"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "affinché",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "affinché"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "anche se",
+      "benché",
+      "sebbene"
+     ],
+     "answer": "anche se"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Dopo che",
+      "Prima che",
+      "Benché"
+     ],
+     "answer": "Dopo che"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "perché",
+      "affinché",
+      "benché"
+     ],
+     "answer": "perché"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "a meno che",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "a meno che"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "purché",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "purché"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "senza che",
+      "anche se",
+      "dopo che"
+     ],
+     "answer": "senza che"
+    }
+   ]
+  }
+ ]
+}

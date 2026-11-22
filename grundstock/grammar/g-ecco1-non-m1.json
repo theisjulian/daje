@@ -81,7 +81,8 @@
      "id": "s4",
      "start": "Oggi sto bene. → …",
      "acceptedAnswers": [
-      "Oggi non sto bene"
+      "Oggi non sto bene",
+      "Non sto bene oggi"
      ],
      "modelAnswer": "Oggi non sto bene."
     },

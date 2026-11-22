@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-m4",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 44,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen -assi / -essi / -issi, -assi …, -asse …, -assimo, -aste, -assero. io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Ich dachte, du wärst schon abgereist.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Pensavo"
+    },
+    {
+     "id": "i2",
+     "text": "che tu"
+    },
+    {
+     "id": "i3",
+     "text": "fossi"
+    },
+    {
+     "id": "i4",
+     "text": "già partito."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Ich möchte, dass meine Cousins uns besuchen kommen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Vorrei"
+    },
+    {
+     "id": "i2",
+     "text": "che i miei cugini"
+    },
+    {
+     "id": "i3",
+     "text": "venissero"
+    },
+    {
+     "id": "i4",
+     "text": "a trovarci."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Mein Bruder redet, als ob er alles wüsste.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Mio fratello"
+    },
+    {
+     "id": "i2",
+     "text": "parla"
+    },
+    {
+     "id": "i3",
+     "text": "come se"
+    },
+    {
+     "id": "i4",
+     "text": "sapesse tutto."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Könnten wir doch noch eine Woche bleiben!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Magari"
+    },
+    {
+     "id": "i2",
+     "text": "potessimo"
+    },
+    {
+     "id": "i3",
+     "text": "restare"
+    },
+    {
+     "id": "i4",
+     "text": "un’altra settimana!"
+    }
+   ]
+  }
+ ]
+}

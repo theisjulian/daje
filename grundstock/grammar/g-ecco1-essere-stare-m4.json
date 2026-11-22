@@ -47,73 +47,73 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Rispondi con stare o essere.",
-   "promptHelp": "Antworte mit stare oder essere.",
+   "prompt": "Rispondi con stare o essere e la parola tra parentesi.",
+   "promptHelp": "Antworte mit stare oder essere und dem Wort in Klammern.",
    "explanation": "Come va → stare. Chi, dove, di dove → essere.",
    "explanationHelp": "Befinden → stare. Name, Ort, Herkunft → essere.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
-     "start": "Come stai? – … bene, grazie.",
+     "start": "Come stai? (bene)",
      "acceptedAnswers": [
-      "Sto"
+      "Sto bene"
      ],
      "modelAnswer": "Sto bene, grazie."
     },
     {
      "id": "s2",
-     "start": "Di dove sei? – … di Napoli.",
+     "start": "Di dove sei? (Napoli)",
      "acceptedAnswers": [
-      "Sono"
+      "Sono di Napoli"
      ],
      "modelAnswer": "Sono di Napoli."
     },
     {
      "id": "s3",
-     "start": "Come sta tua madre? – … male oggi.",
+     "start": "Come sta tua madre? (male)",
      "acceptedAnswers": [
-      "Sta"
+      "Sta male"
      ],
      "modelAnswer": "Sta male oggi."
     },
     {
      "id": "s4",
-     "start": "Dove siete? – … a scuola.",
+     "start": "Dove siete? (a scuola)",
      "acceptedAnswers": [
-      "Siamo"
+      "Siamo a scuola"
      ],
      "modelAnswer": "Siamo a scuola."
     },
     {
      "id": "s5",
-     "start": "Come state? – … benissimo!",
+     "start": "Come state? (benissimo)",
      "acceptedAnswers": [
-      "Stiamo"
+      "Stiamo benissimo"
      ],
      "modelAnswer": "Stiamo benissimo!"
     },
     {
      "id": "s6",
-     "start": "Chi è? – … Luca, il mio amico.",
+     "start": "Chi è? (Luca)",
      "acceptedAnswers": [
-      "È"
+      "È Luca"
      ],
      "modelAnswer": "È Luca, il mio amico."
     },
     {
      "id": "s7",
-     "start": "Di dove sono i tuoi nonni? – … di Bari.",
+     "start": "Di dove sono i tuoi nonni? (Bari)",
      "acceptedAnswers": [
-      "Sono"
+      "Sono di Bari"
      ],
      "modelAnswer": "Sono di Bari."
     },
     {
      "id": "s8",
-     "start": "Come stanno i ragazzi? – … bene.",
+     "start": "Come stanno i ragazzi? (bene)",
      "acceptedAnswers": [
-      "Stanno"
+      "Stanno bene"
      ],
      "modelAnswer": "Stanno bene."
     }

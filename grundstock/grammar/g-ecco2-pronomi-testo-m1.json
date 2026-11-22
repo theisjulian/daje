@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-pronomi-testo-m1",
+ "title": "La chat della classe",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · La chat della classe · livello medio.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.\n| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |\n| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |\n| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |\n| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |\n| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |\n| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |\nPer capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?\nAttenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).",
+  "ruleHelp": "**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).\nUm ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?\nAchtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con i pronomi: lo, la, li, le, gli, ci, ne.",
+   "promptHelp": "Ergänze den Text mit den Pronomen: lo, la, li, le, gli, ci, ne.",
+   "explanation": "rispondere **a** Sara → le rispondo · mandare le foto **a** Davide → gli mandiamo · dieci messaggi → ne leggo due.",
+   "explanationHelp": "rispondere a Sara → le · mandare a Davide → gli · Menge → ne.",
+   "type": "gap_fill",
+   "text": "La nostra classe ha una chat: [[g1]] usiamo per i compiti.\nIl prof di italiano non [[g2]] legge, perché a scuola non ha il telefono.\nQuando Davide è malato, [[g3]] mandiamo le foto della lavagna.\nLui [[g4]] guarda a casa e fa gli esercizi.\nChiara scrive dieci messaggi al giorno, ma io [[g5]] leggo solo due.\nAnche Sara scrive tanto: [[g6]] rispondo sempre con un’emoji.\nI video divertenti? Matteo [[g7]] manda ogni sera.\nIl sabato andiamo spesso al parco: [[g8]] andiamo in bici.\nE il telefono? [[g9]] lasciamo nello zaino!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    }
+   ]
+  }
+ ]
+}

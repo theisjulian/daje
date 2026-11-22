@@ -1,0 +1,495 @@
+#!buch series=Corso_daje volume=3 grade=10 cefr=B1 prefix=ecco3
+## Terzo anno · Unità 2 · Vivere all’estero. Eigene Übungen.
+
+@thema ipotetico-realta | 2 · Vivere all’estero | Per cominciare | Il periodo ipotetico della realtà | 1
+#lehrplan Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)
+#regel
+Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.
+| frase con **se** | frase principale | esempio |
+| se + **presente** | presente | _Se piove, resto a casa._ |
+| se + **presente** | futuro | _Se piove, resterò a casa._ |
+| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |
+| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |
+**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.
+L’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._
+#regel-de
+**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.
+_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_
+Achtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei.
+
+%übung leicht | Se … allora?
+?zuordnen | Abbina l’inizio e la fine della frase. || Verbinde Satzanfang und Satzende.
+Se non capisci una parola, = chiedi alla tua compagna di banco.
+Se perdi l’autobus delle sette, = arrivi in ritardo a scuola.
+Se ti mancano i tuoi genitori, = fai una videochiamata con loro.
+Se domani nevicherà, = non potremo fare la gita in bicicletta.
+Se vuoi conoscere gente nuova, = iscriviti a una squadra sportiva.
+Se hai fame dopo la scuola, = prendi pure qualcosa dal frigo.
+Se sei stanca dopo il viaggio, = vai a letto presto stasera.
+Se il tuo cellulare non funziona all’estero, = puoi usare il mio.
+
+%übung leicht | Prima della partenza
+?auswahl | La famiglia ospitante scrive a Lena. Scegli la forma giusta. || Die Gastfamilie schreibt an Lena. Wähle die richtige Form.
+Se {hai*|avresti|abbia} paura di volare, possiamo prendere il treno.
+Se la nostra casa {è*|sarebbe|sia} troppo lontana dalla scuola, ti prestiamo una bici.
+Se non {trovi*|troveresti|trovare} il tuo gate, chiedi a qualcuno dell’aeroporto.
+Se l’aereo {arriva*|arriverebbe|arrivare} in ritardo, ti aspettiamo lo stesso.
+Se {vuoi*|vorresti|voglia}, puoi chiamare i tuoi genitori ogni sera.
+Se domenica {farà*|farebbe|faccia} bel tempo, andremo tutti insieme al mare.
+Se ti {piace*|piacerebbe|piaccia} cucinare, una sera puoi preparare tu la cena.
+Se arrivi prima delle otto, {ceniamo*|cenassimo|cenare} tutti insieme.
+Se avrai bisogno di aiuto, noi ti {aiuteremo*|aiutassimo|aiutando} volentieri.
+Se hai freddo, {metti*|mettessi|mettendo} una felpa: qui il tempo cambia in fretta!
+! Dopo **se**: presente o futuro, mai il condizionale. Nella frase principale: presente, futuro o imperativo. || Nach **se**: Präsens oder Futur, nie Konditional. Im Hauptsatz: Präsens, Futur oder Imperativ.
+
+%übung leicht | Giusto o sbagliato?
+?sortieren | La frase è corretta o sbagliata? Guarda il verbo dopo **se**. || Ist der Satz richtig oder falsch? Achte auf das Verb nach **se**.
+Kategorien: g=Frase corretta; s=Frase sbagliata
+Se ho tempo, stasera ti chiamo. > g
+Se avrei più tempo, ti chiamo ogni giorno. > s
+Se verrai a Monaco, ti mostrerò la mia scuola. > g
+Se verresti in Germania, vedrai la neve. > s
+Se perdi il treno, prendi quello dopo! > g
+Se sarebbe troppo tardi, prendi un taxi! > s
+Se non capisci, chiedi alla prof. > g
+Se non potresti venire, mandami un messaggio. > s
+Se piove, restiamo in albergo. > g
+Se pioverebbe, resteremo in albergo. > s
+! _se avrei, se verresti, se sarebbe, se potresti, se pioverebbe_ sono sbagliati: dopo **se** non c’è il condizionale. || Nach **se** steht kein Konditional.
+
+%übung mittel | Una mail da Bologna
+?luecke | Completa la mail: dopo **se** il presente, nella frase principale il futuro. || Ergänze die Mail: nach **se** Präsens, im Hauptsatz Futur.
+Cara Lena, tra due settimane arrivi a Bologna! Ecco qualche informazione.
+Se il tuo aereo (arrivare) [arriva] puntuale, noi ti (aspettare) [aspetteremo] all’uscita.
+Se (volere, tu) [vuoi], sabato (andare, noi) [andremo] insieme al mercato.
+Se (fare) [fa] bel tempo, domenica mio marito ti (portare) [porterà] in collina.
+Se non (capire, tu) [capisci] qualcosa a scuola, nostra figlia Marta ti (aiutare) [aiuterà].
+Se (avere, tu) [hai] voglia di fare sport, (potere, tu) [potrai] giocare a pallavolo con lei.
+A presto! Paola
+
+%übung mittel | Consigli per un anno all’estero
+?ergaenzen | Un amico ha un problema. Dai un consiglio con l’imperativo (tu). || Ein Freund hat ein Problem. Gib einen Rat im Imperativ (tu).
+Ho nostalgia di casa. (chiamare i tuoi amici) → Se hai nostalgia di casa, … | chiama i tuoi amici | Se hai nostalgia di casa, chiama i tuoi amici!
+Non capisco la prof. (chiedere aiuto a un compagno) → Se non capisci la prof, … | chiedi aiuto a un compagno | Se non capisci la prof, chiedi aiuto a un compagno!
+Mi annoio il pomeriggio. (iscriversi a un corso) → Se ti annoi il pomeriggio, … | iscriviti a un corso | Se ti annoi il pomeriggio, iscriviti a un corso!
+Non conosco nessuno. (andare alle feste della scuola) → Se non conosci nessuno, … | vai alle feste della scuola/va’ alle feste della scuola | Se non conosci nessuno, vai alle feste della scuola!
+Il cibo non mi piace. (dirlo con gentilezza alla famiglia) → Se il cibo non ti piace, … | dillo con gentilezza alla famiglia | Se il cibo non ti piace, dillo con gentilezza alla famiglia!
+Sono stanco la mattina. (non andare a letto tardi) → Se sei stanco la mattina, … | non andare a letto tardi | Se sei stanco la mattina, non andare a letto tardi!
+Perdo sempre l’autobus. (alzarsi prima) → Se perdi sempre l’autobus, … | alzati prima | Se perdi sempre l’autobus, alzati prima!
+Voglio migliorare il mio inglese. (guardare i film in lingua originale) → Se vuoi migliorare il tuo inglese, … | guarda i film in lingua originale | Se vuoi migliorare il tuo inglese, guarda i film in lingua originale!
+! se + presente → imperativo: _Se hai un problema, parla con qualcuno!_ || se + Präsens → Imperativ.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Wenn du Heimweh hast, ruf mich an!“ || Bringe die Wörter in die richtige Reihenfolge.
+Se
+hai nostalgia
+di casa,
+chiamami!
+?ordnen | Metti le parole in ordine: „Wenn wir den Bus verpassen, gehen wir zu Fuß.“ || Bringe die Wörter in die richtige Reihenfolge.
+Se
+perdiamo
+l’autobus,
+andiamo
+a piedi.
+?ordnen | Metti le parole in ordine: „Wenn du in Irland bleibst, wirst du gut Englisch lernen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Se
+resti
+in Irlanda,
+imparerai bene
+l’inglese.
+?ordnen | Metti le parole in ordine: „Wenn ihr nach München kommt, zeige ich euch meine Schule.“ || Bringe die Wörter in die richtige Reihenfolge.
+Se
+venite
+a Monaco,
+vi mostro
+la mia scuola.
+
+%übung schwer | La lettera di Jonas
+?fehler | Jonas scrive a un’amica italiana, ma dopo **se** sbaglia sempre. Correggi i nove errori. || Jonas schreibt einer italienischen Freundin, macht aber nach **se** immer denselben Fehler. Korrigiere die neun Fehler.
+Cara Giulia, ad agosto parto per la Sicilia!
+Se [avrei=>ho/avrò] tempo, ti scrivo ogni settimana.
+Se la mia famiglia ospitante [sarebbe=>è/sarà] simpatica, resterò tutto l’anno.
+Se [potrei=>posso/potrò], verrò a trovarti a Roma.
+Se tu [verresti=>vieni/verrai] a Palermo, ti porterò al mare.
+Se i miei compagni [parlerebbero=>parlano/parleranno] troppo in fretta, chiederò di ripetere.
+Se mi [piacerebbe=>piace/piacerà] la scuola, forse resterò anche un secondo anno.
+Se [farebbe=>fa/farà] troppo caldo, studierò in biblioteca.
+Se [dovrei=>devo/dovrò] scegliere uno sport, sceglierò la vela.
+E se tu [vorresti=>vuoi/vorrai] sapere di più, chiamami!
+! Dopo **se** mai il condizionale: _se ho, se è, se posso, se vieni_ … || Nach **se** nie Konditional – anders als das deutsche „wenn ich … würde“.
+
+%übung schwer | Sì, ma solo se …
+?ergaenzen | Rispondi con una condizione. Attenzione alla persona del verbo! || Antworte mit einer Bedingung. Achte auf die Person des Verbs!
+– Vieni al concerto sabato? – (io / finire i compiti) Sì, se … | finisco i compiti/finirò i compiti | Sì, se finisco i compiti.
+– Posso usare il tuo computer? – (tu / non cambiare la password) Sì, se … | non cambi la password/non cambierai la password | Sì, se non cambi la password.
+– Venite a trovarmi in Irlanda? – (noi / trovare un volo economico) Certo, se … | troviamo un volo economico/troveremo un volo economico | Certo, se troviamo un volo economico.
+– I tuoi genitori ti lasciano partire? – (io / avere buoni voti) Sì, se … | ho buoni voti/avrò buoni voti | Sì, se ho buoni voti.
+– Restate un anno intero? – (la scuola / piacerci) Sì, se … | la scuola ci piace/ci piace la scuola/la scuola ci piacerà/ci piacerà la scuola | Sì, se la scuola ci piace.
+– Mi chiami stasera? – (io / non tornare troppo tardi) Sì, se … | non torno troppo tardi/non tornerò troppo tardi | Sì, se non torno troppo tardi.
+– Luca viene con noi a Londra? – (i suoi genitori / essere d’accordo) Sì, se … | i suoi genitori sono d’accordo/i suoi genitori saranno d’accordo | Sì, se i suoi genitori sono d’accordo.
+– Andiamo al lago domenica? – (fare bel tempo) Volentieri, se … | fa bel tempo/farà bel tempo | Volentieri, se fa bel tempo.
+! Dopo **se** va bene il presente o il futuro, ma non il condizionale. || Nach **se** passt Präsens oder Futur, aber kein Konditional.
+
+%übung schwer | Un anno in Canada?
+?luecke | Completa la chat. **P** = presente, **F** = futuro, **I** = imperativo. || Ergänze den Chat. **P** = Präsens, **F** = Futur, **I** = Imperativ.
+– Allora, Sara, parti davvero per il Canada?
+– Sì! Se i miei (dire · P) [dicono] di sì, (partire, io · F) [partirò] a settembre.
+– E se non (trovare, tu · F) [troverai] una famiglia ospitante, che cosa (fare, tu · F) [farai]?
+– Se non la (trovare, io · P) [trovo], (andare, io · P) [vado] in un collegio.
+– Se (avere, tu · P) [hai] bisogno di una valigia grande, (prendere, tu · I) [prendi] la mia!
+– Grazie! E se tu (venire · F) [verrai] a trovarmi, (vedere, noi · F) [vedremo] insieme le cascate del Niagara.
+– Che bello! Se (essere · P) [è] possibile, (scrivermi, tu · I) [scrivimi] ogni tanto!
+
+@thema ipotetico-presente | 2 · Vivere all’estero | Parte A | Il periodo ipotetico della possibilità e irrealtà nel presente | 2
+#lehrplan Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)
+#regel
+Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.
+| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |
+| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |
+| _Se **fossi** in te,_ | _**partirei** subito._ |
+| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |
+Forme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.
+Confronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)
+**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.
+#regel-de
+**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)
+Im Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.
+Vergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)
+
+%übung leicht | Fossi, avessi, facessi
+?zuordnen | Abbina l’infinito e la forma del congiuntivo imperfetto. || Verbinde den Infinitiv mit der Form des congiuntivo imperfetto.
+essere (io) = fossi
+avere (noi) = avessimo
+fare (lui) = facesse
+dire (loro) = dicessero
+stare (tu) = stessi
+dare (lei) = desse
+potere (voi) = poteste
+venire (io) = venissi
+sapere (loro) = sapessero
+volere (noi) = volessimo
+
+%übung leicht | Se fossi in te …
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Se {avessi*|avrei|abbia} più soldi, farei un anno in Australia.
+Se {fossi*|sarei|sia} in te, partirei subito.
+Se mio fratello {parlasse*|parlerebbe|parli} meglio l’inglese, andrebbe a studiare a Londra.
+Se noi {potessimo*|potremmo|possiamo} scegliere, vivremmo in una città sul mare.
+Se i miei genitori {volessero*|vorrebbero|vogliano} trasferirsi all’estero, io andrei con loro.
+Se abitassi a Roma, {mangerei*|mangiassi|mangerò} un gelato ogni giorno.
+Se non avessi paura di volare, {verrei*|venissi|verrò} a trovarti in Canada.
+Se Chiara sapesse il tedesco, {cercherebbe*|cercasse|cerca} un lavoro a Berlino.
+Se voi veniste con me, il viaggio {sarebbe*|fosse|sarà} più divertente.
+Se i biglietti costassero meno, noi {torneremmo*|tornassimo|torneremo} in Italia più spesso.
+! se + congiuntivo imperfetto → condizionale presente. || se + congiuntivo imperfetto → condizionale presente (Konditional nur im Hauptsatz).
+
+%übung leicht | Realtà o sogno?
+?sortieren | È una condizione reale o solo possibile / non reale? Guarda i verbi. || Reale Bedingung oder nur möglich / irreal? Achte auf die Verbformen.
+Kategorien: r=Realtà: è possibile; p=Possibilità o irrealtà: poco probabile, non reale
+Se domani ho tempo, ti chiamo. > r
+Se avessi tempo, ti chiamerei. > p
+Se vinci la borsa di studio, partirai a settembre. > r
+Se vincessi alla lotteria, farei il giro del mondo. > p
+Se fossi un uccello, volerei fino in Sicilia. > p
+Se perdi il passaporto, vai subito al consolato! > r
+Se abitassimo in Italia, parleremmo italiano tutto il giorno. > p
+Se pioverà, resteremo in albergo. > r
+Se potessi, partirei oggi stesso. > p
+Se vuoi, ti aiuto con la valigia. > r
+! Realtà: se + presente / futuro. Possibilità e irrealtà: se + congiuntivo imperfetto, poi condizionale. || Real: se + Präsens / Futur. Möglich / irreal: se + congiuntivo imperfetto, dann Konditional.
+
+%übung leicht | Il sogno di Matteo
+?luecke wortkasten | Completa il testo con le parole del riquadro. || Ergänze den Text mit den Wörtern aus dem Kasten.
+Matteo sogna: «Se [avessi] diciotto anni, partirei subito per la Nuova Zelanda.
+Se [fossi] più coraggioso, lo direi ai miei genitori.
+Se [potessi] scegliere la scuola, [andrei] in un liceo vicino al mare.
+Il pomeriggio [farei] surf con i nuovi amici.
+Certo, la mia famiglia mi mancherebbe: ma forse i miei cugini [verrebbero] a trovarmi a Natale.
+Che cosa [direbbero] mamma e papà?
+Forse hanno ragione loro: un anno così lontano da casa [sarebbe] troppo lungo.»
++ avrei, dicessi
+
+%übung mittel | Se vivessi in Italia …
+?luecke | Completa: dopo **se** il congiuntivo imperfetto, nella frase principale il condizionale presente. || Ergänze: nach **se** den congiuntivo imperfetto, im Hauptsatz das condizionale presente.
+Se (vivere, io) [vivessi] in Italia, (parlare, io) [parlerei] italiano tutto il giorno.
+Se (abitare, noi) [abitassimo] a Napoli, (mangiare, noi) [mangeremmo] la pizza ogni sabato.
+Se tu (venire) [venissi] a trovarmi, ti (mostrare, io) [mostrerei] tutta la città.
+Se i miei amici (essere) [fossero] qui, (uscire, noi) [usciremmo] insieme ogni sera.
+Se Luca (avere) [avesse] una famiglia ospitante, (potere, lui) [potrebbe] restare un anno intero.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Se [avrei=>avessi] un anno libero, andrei in Giappone.
+Se [sarei=>fossi] in te, parlerei con la famiglia ospitante.
+Se potessi, [venissi=>verrei] subito a trovarti.
+Se tu [stassi=>stessi] più attento, capiresti tutto.
+Se mi [dassero=>dessero] una borsa di studio, partirei domani.
+Se Sara [farebbe=>facesse] un corso di spagnolo, troverebbe più amici a Madrid.
+Se voi [direste=>diceste] la verità, sarebbe tutto più facile.
+Se abitassimo più vicino, ci [vedessimo=>vedremmo] ogni weekend.
+Se i miei nonni [saprebbero=>sapessero] usare il computer, li chiamerei ogni giorno.
+! Dopo **se**: congiuntivo imperfetto (stessi, dessi, facessi, dicessi). Il condizionale va solo nella frase principale. || Nach **se**: congiuntivo imperfetto (Achtung: stessi, dessi, facessi, dicessi). Konditional nur im Hauptsatz.
+
+%übung schwer | Dalla realtà al sogno
+?ergaenzen | Trasforma la frase: dalla realtà alla possibilità. Comincia con **Se**. || Forme den Satz um: von der realen zur nur möglichen Bedingung. Beginne mit **Se**.
+Se ho tempo, ti scrivo. → … | Se avessi tempo, ti scriverei | Se avessi tempo, ti scriverei.
+Se posso, vengo a trovarti. → … | Se potessi, verrei a trovarti | Se potessi, verrei a trovarti.
+Se fa bel tempo, andiamo al mare. → … | Se facesse bel tempo, andremmo al mare | Se facesse bel tempo, andremmo al mare.
+Se mi dai il tuo indirizzo, ti mando una cartolina. → … | Se mi dessi il tuo indirizzo, ti manderei una cartolina | Se mi dessi il tuo indirizzo, ti manderei una cartolina.
+Se i miei sono d’accordo, parto per un anno. → … | Se i miei fossero d’accordo, partirei per un anno | Se i miei fossero d’accordo, partirei per un anno.
+Se sai l’inglese, trovi subito amici. → … | Se sapessi l’inglese, troveresti subito amici | Se sapessi l’inglese, troveresti subito amici.
+Se vogliamo, possiamo restare. → … | Se volessimo, potremmo restare | Se volessimo, potremmo restare.
+Se state da noi, risparmiate molto. → … | Se steste da noi, risparmiereste molto | Se steste da noi, risparmiereste molto.
+Se mi dici la verità, ti aiuto. → … | Se mi dicessi la verità, ti aiuterei | Se mi dicessi la verità, ti aiuterei.
+! presente → congiuntivo imperfetto (dopo se); presente → condizionale (frase principale). || Präsens → congiuntivo imperfetto (nach se); Präsens → Konditional (Hauptsatz).
+
+%übung schwer | Reale o no?
+?luecke | Guarda l’altro verbo della frase: realtà o possibilità? Completa con la forma giusta. || Sieh dir das andere Verb im Satz an: reale oder nur mögliche Bedingung? Ergänze die passende Form.
+Non ho la patente. Ma se (avere, io) [avessi] la macchina, ti accompagnerei all’aeroporto.
+Domani sono libera: se (fare) [fa/farà] bel tempo, andiamo al lago?
+Se tu studiassi un po’ di più, (passare, tu) [passeresti] l’esame senza problemi.
+Se perdi il treno delle otto, (prendere, tu) [prendi/prenderai] quello delle nove.
+Mio fratello vive a Londra. Se (abitare, lui) [abitasse] più vicino, lo vedrei più spesso.
+Se vieni a Monaco a fine settembre, ti (portare, io) [porto/porterò] all’Oktoberfest.
+Se i voli costassero meno, i miei nonni (venire) [verrebbero] a trovarci ogni estate.
+Se (essere, noi) [fossimo] ricchi, faremmo il giro del mondo.
+Se (volere, voi) [volete/vorrete] vedere le foto del mio anno in Irlanda, ve le mando stasera.
+Se non (esserci) [ci fosse] Internet, sentirei molto di più la nostalgia di casa.
+! Condizionale nella frase principale → se + congiuntivo imperfetto. Presente, futuro o imperativo → se + presente / futuro. || Konditional im Hauptsatz → se + congiuntivo imperfetto. Präsens, Futur oder Imperativ → se + Präsens / Futur.
+
+%übung schwer | Un anno a Lisbona?
+?luecke | Completa il diario di Chiara: congiuntivo imperfetto o condizionale presente. || Ergänze Chiaras Tagebuch: congiuntivo imperfetto oder condizionale presente.
+La prof mi ha proposto un anno a Lisbona. Che cosa farei?
+Se i miei genitori mi (dare) [dessero] il permesso, (partire, io) [partirei] subito.
+Se la mia migliore amica (venire) [venisse] con me, (essere) [sarebbe] tutto più facile.
+Ma se noi due (stare) [stessimo] sempre insieme, non (imparare, noi) [impareremmo] mai il portoghese!
+Se la famiglia ospitante (fare) [facesse] molte gite, io (vedere) [vedrei] tutto il paese.
+E se qualcuno mi (dire) [dicesse] che è troppo difficile, io (rispondere) [risponderei]: «Ci provo lo stesso!»
+?frei | E tu? Che cosa faresti se potessi vivere un anno all’estero? Scrivi 5 frasi con se + congiuntivo imperfetto e il condizionale. || Und du? Was würdest du tun, wenn du ein Jahr im Ausland leben könntest? Schreibe 5 Sätze mit se + congiuntivo imperfetto und Konditional.
+Se potessi vivere un anno all’estero, andrei in Italia. Se abitassi a Bologna, frequenterei un liceo linguistico. Se la mia famiglia ospitante avesse un cane, lo porterei fuori ogni giorno. Se avessi nostalgia di casa, chiamerei i miei genitori. Se i miei amici venissero a trovarmi, gli mostrerei tutta la città.
+Zeilen: 6
+
+@thema trapassato | 2 · Vivere all’estero | Parte B | Il trapassato prossimo | 3
+#lehrplan Jgst. 10 · trapassato prossimo (Vorvergangenheit)
+#regel
+Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.
+| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |
+| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |
+Indica un’azione che è successa **prima** di un’altra azione nel passato:
+_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)
+Si usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._
+Con **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._
+#regel-de
+**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).
+Es drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._
+Häufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo.
+
+%übung leicht | Essere o avere?
+?auswahl | Scegli l’ausiliare giusto. || Wähle das richtige Hilfsverb.
+Quando sono arrivato alla stazione, il treno {era*|aveva|erano} già partito.
+Non avevo fame perché {avevo*|ero} già mangiato a scuola.
+Sara era triste perché i suoi amici {erano*|avevano|era} tornati in Germania.
+Ho ritrovato il passaporto che {avevo*|ero} perso all’aeroporto.
+Quando la mamma ha chiamato, noi {eravamo*|avevamo} appena usciti.
+Luca non conosceva Dublino: non ci {era*|aveva} mai stato prima.
+I miei genitori mi hanno chiesto se {avevo*|ero} già conosciuto la famiglia ospitante.
+Alle sette Marta {si era*|si aveva|si erano} già alzata.
+Ragazzi, perché non {avevate*|eravate} detto niente alla prof?
+Le mie amiche {erano*|avevano|era} rimaste a casa perché avevano la febbre.
+! L’ausiliare è lo stesso del passato prossimo: _è partito → era partito_, _ho mangiato → avevo mangiato_. || Das Hilfsverb ist dasselbe wie im passato prossimo.
+
+%übung leicht | Tre tempi del passato
+?sortieren | Che tempo è? || Welche Zeitform ist das?
+Kategorien: pp=Passato prossimo; im=Imperfetto; tp=Trapassato prossimo
+ho visto > pp
+avevo visto > tp
+vedevo > im
+è partita > pp
+era partita > tp
+partiva > im
+siamo arrivati > pp
+eravamo arrivati > tp
+avevano scritto > tp
+scrivevano > im
+sei stato > pp
+eri stato > tp
+
+%übung leicht | Che cosa è successo prima?
+?mc | Quando Luca è arrivato alla festa, Sara era già andata via. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+* Sara è andata via.
+- Luca è arrivato alla festa.
+- Le due cose sono successe insieme.
+?mc | Ho mangiato il panino che avevo comprato in stazione. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+- Ho mangiato il panino.
+* Ho comprato il panino.
+- Sono andato in stazione dopo pranzo.
+?mc | Giulia non ha trovato la strada perché aveva dimenticato il cellulare a casa. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+* Ha dimenticato il cellulare.
+- Non ha trovato la strada.
+- Ha comprato un cellulare nuovo.
+?mc | Appena avevamo finito di cenare, è arrivato lo zio. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+- È arrivato lo zio.
+* Abbiamo finito di cenare.
+- Lo zio ha cenato con noi.
+?mc | Il treno era già partito quando siamo arrivati al binario. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+* Il treno è partito.
+- Siamo arrivati al binario.
+- Siamo saliti sul treno.
+?mc | Matteo ha superato l’esame perché aveva studiato tutta l’estate. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+- Ha superato l’esame.
+* Ha studiato tutta l’estate.
+- Ha fatto l’esame due volte.
+?mc | Quando ho aperto la valigia, ho visto che avevo preso quella di un altro passeggero. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+* Ho preso la valigia sbagliata.
+- Ho aperto la valigia.
+- Ho parlato con l’altro passeggero.
+?mc | La prof ci ha restituito i compiti che avevamo scritto la settimana prima. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+- La prof ha restituito i compiti.
+* Abbiamo scritto i compiti.
+- La prof ha spiegato una regola nuova.
+
+%übung leicht | Era già successo
+?zuordnen | Abbina l’inizio e la fine della frase. || Verbinde Satzanfang und Satzende.
+Quando siamo arrivati al cinema, = il film era già cominciato.
+Non ho potuto pagare il biglietto perché = avevo lasciato il portafoglio a casa.
+Ero stanchissima perché = non avevo dormito durante il volo.
+Quando ho chiamato la nonna, = era già andata a letto.
+Ho finalmente letto il libro che = mi avevi regalato per il compleanno.
+Conoscevo già un po’ Dublino perché = ci ero stata con la mia classe.
+Paolo non è venuto in gita perché = si era rotto una gamba.
+La prof era arrabbiata perché = nessuno aveva fatto i compiti.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori: ausiliare, participio o tempo. || Korrigiere die neun Fehler: Hilfsverb, Partizip oder Zeitform.
+Quando sono arrivata alla stazione, il treno [aveva=>era] già partito.
+Sara non è venuta alla festa perché era [rimasto=>rimasta] a casa con la febbre.
+Avevo già [scrivuto=>scritto] tre mail, ma nessuno aveva risposto.
+Quando siamo entrati in classe, la lezione [è già cominciata=>era già cominciata].
+I ragazzi erano stanchi perché [erano=>avevano] camminato tutto il giorno.
+Siamo arrivati tardi perché avevamo [prenduto=>preso] il treno sbagliato.
+Le mie sorelle [era=>erano] già uscite quando ho telefonato.
+Luca conosceva bene Londra perché ci [aveva=>era] già stato due volte.
+Appena [avevo=>ero] arrivata a casa, ha cominciato a piovere.
+! Trapassato prossimo: imperfetto di essere / avere + participio. Con essere il participio concorda. || Trapassato prossimo: Imperfekt von essere / avere + Partizip; bei essere wird das Partizip angeglichen.
+
+%übung schwer | Un arrivo difficile
+?luecke | Completa il racconto di Hanna. **PP** = passato prossimo, **TP** = trapassato prossimo. || Ergänze Hannas Bericht. **PP** = passato prossimo, **TP** = trapassato prossimo.
+Il mio arrivo a Bologna è stato un piccolo disastro.
+Quando l’aereo (atterrare · PP) [è atterrato/ha atterrato], io non (dormire · TP) [avevo dormito] nemmeno un minuto.
+All’aeroporto (scoprire, io · PP) [ho scoperto] che la mia valigia (rimanere · TP) [era rimasta] a Monaco.
+Poi (cercare, io · PP) [ho cercato] il numero della famiglia ospitante, ma non c’era: lo (scrivere, io · TP) [avevo scritto] su un foglio a casa!
+Per fortuna la signora Paola (venire · TP) [era venuta] a prendermi con un cartello con il mio nome.
+In macchina mi (chiedere, lei · PP) [ha chiesto] se (studiare, io · TP) [avevo studiato] l’italiano a scuola.
+La sera (addormentarsi, io · PP) [mi sono addormentata] alle nove: (essere · TP) [era stata] una giornata lunghissima.
+! Il trapassato prossimo racconta quello che era successo prima degli altri fatti. || Das trapassato prossimo erzählt, was vor den anderen Ereignissen schon geschehen war.
+
+%übung schwer | Prima e dopo
+?ergaenzen | Unisci le due frasi: usa il trapassato prossimo con **già**. || Verbinde die beiden Sätze: Verwende das trapassato prossimo mit **già**.
+Prima il treno è partito. Poi sono arrivato alla stazione. → Quando sono arrivato alla stazione, il treno … | era già partito | Quando sono arrivato alla stazione, il treno era già partito.
+Prima la lezione è finita. Poi Sara è entrata in classe. → Quando Sara è entrata in classe, la lezione … | era già finita | Quando Sara è entrata in classe, la lezione era già finita.
+Prima i miei hanno cenato. Poi sono tornata a casa. → Quando sono tornata a casa, i miei … | avevano già cenato | Quando sono tornata a casa, i miei avevano già cenato.
+Prima abbiamo comprato i biglietti. Poi è arrivato Luca. → Quando è arrivato Luca, noi … | avevamo già comprato i biglietti | Quando è arrivato Luca, noi avevamo già comprato i biglietti.
+Prima le ragazze sono uscite. Poi ho telefonato. → Quando ho telefonato, le ragazze … | erano già uscite | Quando ho telefonato, le ragazze erano già uscite.
+Prima hai fatto la valigia. Poi ti ho chiamato. → Quando ti ho chiamato, tu … | avevi già fatto la valigia | Quando ti ho chiamato, tu avevi già fatto la valigia.
+Prima il negozio ha chiuso. Poi siamo arrivati in centro. → Quando siamo arrivati in centro, il negozio … | aveva già chiuso | Quando siamo arrivati in centro, il negozio aveva già chiuso.
+Prima Marta si è addormentata. Poi è cominciato il film. → Quando è cominciato il film, Marta … | si era già addormentata | Quando è cominciato il film, Marta si era già addormentata.
+! **già** sta tra l’ausiliare e il participio: _era **già** partito_. || **già** steht zwischen Hilfsverb und Partizip.
+
+@thema narrazione | 2 · Vivere all’estero | Parte B | Raccontare esperienze interculturali | 4
+#lehrplan Jgst. 10 · Erlebnisse erzählen: Erzähltempora und Konnektoren
+#regel
+Per **raccontare** un’esperienza usiamo tre tempi:
+| **imperfetto** | descrizione, abitudine, azione in corso | _Ogni mattina **prendevo** l’autobus. **Faceva** freddo._ |
+| **passato prossimo** | fatto unico e finito | _Il primo giorno **ho conosciuto** la mia classe._ |
+| **trapassato prossimo** | fatto successo prima | _Prima di partire **avevo studiato** l’italiano._ |
+I **connettivi** mettono in ordine il racconto:
+| **all’inizio** → **poi** → **dopo un po’** → **a un certo punto** → **alla fine** | l’ordine nel tempo |
+| **mentre** + imperfetto | due azioni insieme: _**Mentre** aspettavo, è arrivata Sara._ |
+| **siccome** (all’inizio della frase) | la causa: _**Siccome** pioveva, sono rimasto a casa._ |
+| **quindi** | la conseguenza: _Pioveva, **quindi** sono rimasto a casa._ |
+| **però** | il contrasto: _Ero stanco, **però** felice._ |
+| **infatti** | conferma, esempio: _Era bravo: **infatti** ha vinto._ |
+#regel-de
+Beim **Erzählen**: **imperfetto** für Beschreibung, Gewohnheit, Hintergrund; **passato prossimo** für einmalige, abgeschlossene Ereignisse; **trapassato prossimo** für das, was vorher schon geschehen war.
+**Konnektoren**: all’inizio (am Anfang), poi (dann), dopo un po’ (nach einer Weile), a un certo punto (irgendwann), alla fine (am Ende), mentre (während), siccome (da/weil – am Satzanfang), quindi (deshalb), però (aber), infatti (tatsächlich, nämlich).
+
+%übung leicht | Le parole del racconto
+?zuordnen | Che cosa vuol dire? Abbina. || Was bedeutet das? Verbinde.
+all’inizio = am Anfang
+poi = dann
+dopo un po’ = nach einer Weile
+a un certo punto = irgendwann, auf einmal
+alla fine = am Ende, schließlich
+mentre = während
+siccome = da, weil (am Satzanfang)
+quindi = deshalb, also
+però = aber, jedoch
+infatti = tatsächlich, nämlich
+
+%übung leicht | Il mio primo giorno a Cork
+?auswahl | Lena racconta il primo giorno nella scuola irlandese. Scegli la parola giusta. || Lena erzählt vom ersten Tag an der irischen Schule. Wähle das passende Wort.
+{All’inizio*|Infatti|Quindi} non capivo quasi niente: tutti parlavano troppo in fretta.
+{Siccome*|Però|Infatti} non conoscevo nessuno, a pranzo mi sono seduta da sola.
+{Mentre*|Quindi|Alla fine} mangiavo il mio panino, una ragazza si è avvicinata.
+Si chiamava Aoife e mi ha chiesto da dove venivo. {Poi*|Siccome|Mentre} mi ha presentato i suoi amici.
+Erano simpatici, {però*|siccome|quindi} parlavano velocissimo.
+Io non capivo le loro battute, {quindi*|siccome|mentre} sorridevo e basta.
+{A un certo punto*|Siccome|Mentre} uno di loro ha detto qualcosa in tedesco: aveva una nonna di Amburgo!
+Abbiamo riso tutti, e {dopo un po’*|siccome|all’inizio} non avevo più paura di parlare.
+Aoife è diventata davvero una buona amica: {infatti*|però|siccome} ci scriviamo ancora ogni settimana.
+{Alla fine*|Mentre|Siccome} quel primo giorno è stato molto più bello del previsto.
+! siccome = causa (inizio della frase) · quindi = conseguenza · però = contrasto · infatti = conferma · mentre = due azioni insieme. || siccome = Grund (am Satzanfang) · quindi = Folge · però = Gegensatz · infatti = Bestätigung · mentre = gleichzeitig.
+
+%übung leicht | Descrizione, fatto o «prima»?
+?sortieren | Perché questo tempo? Metti le frasi nel gruppo giusto. || Warum diese Zeitform? Ordne die Sätze der richtigen Gruppe zu.
+Kategorien: d=Descrizione o abitudine (imperfetto); f=Fatto unico (passato prossimo); p=Fatto successo prima (trapassato prossimo)
+La casa della famiglia ospitante era grande e luminosa. > d
+Ogni mattina prendevo l’autobus alle sette. > d
+Il 2 settembre sono arrivata a Lione. > f
+Quel giorno ho conosciuto la mia classe. > f
+Di solito cenavamo tutti insieme alle otto. > d
+Una sera ho cucinato i canederli per tutti. > f
+Prima della partenza avevo seguito un corso di francese. > p
+Faceva freddo e pioveva spesso. > d
+A Natale sono tornata a casa per una settimana. > f
+Non avevo mai vissuto così lontano dai miei. > p
+I miei genitori mi avevano regalato una valigia nuova per il viaggio. > p
+All’improvviso è entrato il preside. > f
+
+%übung schwer | Sei mesi a Torino
+?ordnen | Metti in ordine il racconto. Guarda bene i connettivi! || Bringe die Erzählung in die richtige Reihenfolge. Achte auf die Konnektoren!
+L’anno scorso Jonas ha deciso di passare sei mesi in una scuola di Torino.
+Prima di partire aveva studiato l’italiano per due anni, ma aveva lo stesso un po’ di paura.
+All’inizio, infatti, capiva poco e in classe non diceva quasi niente.
+Dopo qualche settimana, però, un compagno lo ha invitato a giocare a calcio con la sua squadra.
+Da quel giorno Jonas ha passato quasi tutti i pomeriggi con i ragazzi della squadra.
+Siccome con loro parlava solo italiano, a Natale capiva ormai quasi tutto.
+Alla fine dei sei mesi non voleva più tornare in Germania.
+Oggi scrive ancora ogni settimana agli amici di Torino e sogna di studiare lì.
+
+%übung schwer | Latte caldo
+?luecke | Completa il racconto di Lena con l’imperfetto, il passato prossimo o il trapassato prossimo. || Ergänze Lenas Erzählung mit imperfetto, passato prossimo oder trapassato prossimo.
+L’anno scorso (passare, io) [ho passato] tre mesi a Verona.
+La mia madre ospitante (chiamarsi) [si chiamava] Paola.
+Ogni sera, di solito, (cenare, noi) [cenavamo] tutti insieme.
+La prima sera, però, (succedere) [è successa] una cosa divertente.
+Paola mi (chiedere) [ha chiesto]: «Vuoi il latte caldo?»
+Io (rispondere) [ho risposto] subito di sì, perché in quel momento (avere, io) [avevo] molta sete.
+Dopo due minuti Paola (tornare) [è tornata] con una tazza di latte bollente!
+Fino a quel giorno nessuno mi (spiegare) [aveva spiegato] che «caldo» non vuol dire «kalt».
+Mentre io (guardare) [guardavo] la tazza senza parole, tutti (cominciare) [hanno cominciato] a ridere.
+Quella sera (imparare, io) [ho imparato] una parola per sempre.
+! di solito, ogni sera, mentre, in quel momento → imperfetto · la prima sera, dopo due minuti, quella sera → passato prossimo · fino a quel giorno → trapassato prossimo. || Gewohnheit / Hintergrund → imperfetto · einmaliges Ereignis → passato prossimo · „bis zu jenem Tag“ → trapassato prossimo.
+
+%übung schwer | Il diario di Tom
+?fehler | Tom racconta i suoi mesi a Siena. Correggi i nove errori: sette tempi verbali e due connettivi. || Tom erzählt von seinen Monaten in Siena. Korrigiere die neun Fehler: sieben Zeitformen und zwei Konnektoren.
+L’anno scorso [passavo=>ho passato] sei mesi a Siena.
+Ogni mattina [ho preso=>prendevo] l’autobus delle sette e un quarto.
+Mentre [ho aspettato=>aspettavo] alla fermata, ripetevo i verbi irregolari.
+Il sabato, di solito, [siamo andati=>andavamo] in centro a mangiare un gelato.
+Un giorno [perdevo=>ho perso] l’autobus e sono arrivato a scuola a piedi.
+La prof non era arrabbiata, [siccome=>però/ma] mi ha chiesto di spiegare il ritardo in italiano.
+In quel momento non [ho conosciuto=>conoscevo] ancora la parola «fermata», quindi ho detto «stazione dell’autobus».
+[Quindi=>Siccome/Poiché/Dato che/Visto che] un mio compagno abitava vicino a me, da quel giorno siamo andati a scuola insieme.
+Quando sono tornato in Germania, [ho già imparato=>avevo già imparato] moltissime parole nuove.
+! Abitudine o azione in corso → imperfetto; fatto unico → passato prossimo; fatto successo prima → trapassato prossimo. || Gewohnheit oder Verlauf → imperfetto; einmaliges Ereignis → passato prossimo; Vorzeitigkeit → trapassato prossimo.

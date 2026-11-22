@@ -77,25 +77,29 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "tavoli"
+      "tavoli",
+      "scaffali"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "sedie"
+      "sedie",
+      "lampade"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "scaffali"
+      "scaffali",
+      "tavoli"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "lampade"
+      "lampade",
+      "sedie"
      ]
     },
     {

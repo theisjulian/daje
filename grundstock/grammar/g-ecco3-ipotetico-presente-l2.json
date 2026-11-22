@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-l2",
+ "title": "Se fossi in te …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se fossi in te … · livello facile.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "se + congiuntivo imperfetto → condizionale presente.",
+   "explanationHelp": "se + congiuntivo imperfetto → condizionale presente (Konditional nur im Hauptsatz).",
+   "type": "gap_choice",
+   "text": "Se [[g1]] più soldi, farei un anno in Australia.\nSe [[g2]] in te, partirei subito.\nSe mio fratello [[g3]] meglio l’inglese, andrebbe a studiare a Londra.\nSe noi [[g4]] scegliere, vivremmo in una città sul mare.\nSe i miei genitori [[g5]] trasferirsi all’estero, io andrei con loro.\nSe abitassi a Roma, [[g6]] un gelato ogni giorno.\nSe non avessi paura di volare, [[g7]] a trovarti in Canada.\nSe Chiara sapesse il tedesco, [[g8]] un lavoro a Berlino.\nSe voi veniste con me, il viaggio [[g9]] più divertente.\nSe i biglietti costassero meno, noi [[g10]] in Italia più spesso.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avessi",
+      "avrei",
+      "abbia"
+     ],
+     "answer": "avessi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "fossi",
+      "sarei",
+      "sia"
+     ],
+     "answer": "fossi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "parlasse",
+      "parlerebbe",
+      "parli"
+     ],
+     "answer": "parlasse"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "potessimo",
+      "potremmo",
+      "possiamo"
+     ],
+     "answer": "potessimo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "volessero",
+      "vorrebbero",
+      "vogliano"
+     ],
+     "answer": "volessero"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "mangerei",
+      "mangiassi",
+      "mangerò"
+     ],
+     "answer": "mangerei"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "verrei",
+      "venissi",
+      "verrò"
+     ],
+     "answer": "verrei"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "cercherebbe",
+      "cercasse",
+      "cerca"
+     ],
+     "answer": "cercherebbe"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "sarebbe",
+      "fosse",
+      "sarà"
+     ],
+     "answer": "sarebbe"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "torneremmo",
+      "tornassimo",
+      "torneremo"
+     ],
+     "answer": "torneremmo"
+    }
+   ]
+  }
+ ]
+}

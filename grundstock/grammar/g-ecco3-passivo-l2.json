@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-l2",
+ "title": "Participio e preposizione",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Participio e preposizione · livello facile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Il participio concorda con il soggetto. Chi fa l’azione: da + articolo (dal, dalla, dall’, dai, dagli, dalle).",
+   "explanationHelp": "Das Partizip richtet sich nach dem Subjekt. Urheber: da + Artikel.",
+   "type": "gap_choice",
+   "text": "La spiaggia viene [[g1]] ogni sabato.\nI libri sono stati [[g2]] dagli studenti.\nLe coperte verranno [[g3]] stasera.\nIl progetto è stato presentato [[g4]] professoressa Conti.\nLa mensa è gestita [[g5]] volontari del quartiere.\nL’articolo è stato scritto [[g6]] studenti della 3B.\nLa lettera è stata [[g7]] da tutta la classe.\nL’orto della scuola è curato [[g8]] di scienze.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "pulita",
+      "pulito",
+      "pulite"
+     ],
+     "answer": "pulita"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "raccolti",
+      "raccolto",
+      "raccolte"
+     ],
+     "answer": "raccolti"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "distribuite",
+      "distribuiti",
+      "distribuita"
+     ],
+     "answer": "distribuite"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "dalla",
+      "della",
+      "dal"
+     ],
+     "answer": "dalla"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "dai",
+      "dei",
+      "dagli"
+     ],
+     "answer": "dai"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "dagli",
+      "dai",
+      "degli"
+     ],
+     "answer": "dagli"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "firmata",
+      "firmato",
+      "firmati"
+     ],
+     "answer": "firmata"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "dall’insegnante",
+      "dal insegnante",
+      "dell’insegnante"
+     ],
+     "answer": "dall’insegnante"
+    }
+   ]
+  }
+ ]
+}

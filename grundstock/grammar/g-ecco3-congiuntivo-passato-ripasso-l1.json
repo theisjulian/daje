@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-l1",
+ "title": "Sia o abbia?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Sia o abbia? · livello facile.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Essere o avere? Scegli l’ausiliare giusto.",
+   "promptHelp": "Essere oder avere? Wähle das richtige Hilfsverb.",
+   "explanation": "Come al passato prossimo: verbi di movimento, restare, riflessivi → essere; gli altri → avere.",
+   "explanationHelp": "Wie im passato prossimo: Bewegungsverben, restare, reflexive Verben → essere; die anderen → avere.",
+   "type": "gap_choice",
+   "text": "Penso che Luca [[g1]] andato al Palio di Siena.\nCredo che la nonna [[g2]] preparato i tortellini.\nSpero che i ragazzi [[g3]] arrivati in tempo.\nMi sembra che la festa [[g4]] cominciata alle otto.\nÈ possibile che Sara [[g5]] rimasta a casa.\nNon credo che voi [[g6]] visto i fuochi d’artificio.\nPeccato che tu non [[g7]] venuto al Carnevale!\nTemo che i bambini [[g8]] mangiato troppi dolci.\nSono contenta che vi [[g9]] divertiti.\nPenso che la Befana [[g10]] portato il carbone a mio fratello!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sia",
+      "abbia"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "abbia",
+      "sia"
+     ],
+     "answer": "abbia"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "siano",
+      "abbiano"
+     ],
+     "answer": "siano"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sia",
+      "abbia"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sia",
+      "abbia"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "abbiate",
+      "siate"
+     ],
+     "answer": "abbiate"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sia",
+      "abbia"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "abbiano",
+      "siano"
+     ],
+     "answer": "abbiano"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "siate",
+      "abbiate"
+     ],
+     "answer": "siate"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "abbia",
+      "sia"
+     ],
+     "answer": "abbia"
+    }
+   ]
+  }
+ ]
+}

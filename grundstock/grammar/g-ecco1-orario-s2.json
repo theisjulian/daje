@@ -49,10 +49,10 @@
    "id": "q1",
    "prompt": "Correggi gli otto errori.",
    "promptHelp": "Korrigiere die acht Fehler.",
-   "explanation": "I giorni con la minuscola · la domenica (femminile!) · all’una, alle otto.",
-   "explanationHelp": "Wochentage klein · la domenica (weiblich!) · all’una, alle otto.",
+   "explanation": "lunedì con l’accento · la domenica (femminile!) · all’una, alle otto · è l’una, è mezzogiorno.",
+   "explanationHelp": "lunedì mit Akzent · la domenica (weiblich!) · all’una, alle otto · è l’una, è mezzogiorno.",
    "type": "error_correction",
-   "text": "La scuola comincia [[g1]] otto.\n[[g2]] l’una e mezza.\nIl [[g3]] ho latino.\nFinisco [[g4]] una.\n[[g5]] mezzogiorno.\n[[g6]] domenica dormo molto.\nIl film è [[g7]] nove.\nCi vediamo [[g8]] prossimo.",
+   "text": "La scuola comincia [[g1]] otto.\n[[g2]] l’una e mezza.\nIl [[g3]] ho latino.\nFinisco [[g4]] una.\n[[g5]] mezzogiorno.\n[[g6]] domenica dormo molto.\nIl film è [[g7]] nove.\nHo inglese dalle nove [[g8]] dieci.",
    "errors": [
     {
      "id": "g1",
@@ -70,7 +70,7 @@
     },
     {
      "id": "g3",
-     "wrong": "Lunedì",
+     "wrong": "lunedi",
      "acceptedAnswers": [
       "lunedì"
      ]
@@ -105,9 +105,9 @@
     },
     {
      "id": "g8",
-     "wrong": "Venerdì",
+     "wrong": "all’",
      "acceptedAnswers": [
-      "venerdì"
+      "alle"
      ]
     }
    ]

@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · Trova gli errori · livello difficile.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Abitudine (ogni sabato) → presente. Nel passato → stavo + gerundio.",
+   "explanationHelp": "Gewohnheit (ogni sabato) → Präsens. In der Vergangenheit → stavo + Gerundium.",
+   "type": "error_correction",
+   "text": "Che cosa stai [[g1]]?\nMarco sta [[g2]] una cosa importante.\nStavo [[g3]] un succo quando sei arrivato.\nLa prof sta [[g4]] il testo.\nIeri alle otto [[g5]] cenando con i miei genitori.\nNoi [[g6]] aspettando l’autobus.\nIo [[g7]] leggendo un fumetto.\nOgni sabato [[g8]] a pallavolo.\nQuando hai chiamato, io [[g9]] dormendo.\n[[g10]] adesso.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "fando",
+     "acceptedAnswers": [
+      "facendo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "direndo",
+     "acceptedAnswers": [
+      "dicendo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "bevando",
+     "acceptedAnswers": [
+      "bevendo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "tradurrendo",
+     "acceptedAnswers": [
+      "traducendo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "sto",
+     "acceptedAnswers": [
+      "stavo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "stanno",
+     "acceptedAnswers": [
+      "stiamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "sono",
+     "acceptedAnswers": [
+      "sto"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "sto giocando",
+     "acceptedAnswers": [
+      "gioco"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "stava",
+     "acceptedAnswers": [
+      "stavo"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "Sto lo facendo",
+     "acceptedAnswers": [
+      "Lo sto facendo",
+      "Sto facendolo"
+     ]
+    }
+   ]
+  }
+ ]
+}

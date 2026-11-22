@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-s4",
+ "title": "Da piccolo credevo che …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Da piccolo credevo che … · livello difficile.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 44,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen -assi / -essi / -issi, -assi …, -asse …, -assimo, -aste, -assero. io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa credevi da bambino/a sulle feste (Babbo Natale, la Befana, il Carnevale …)? Scrivi 4 frasi con credevo / pensavo / volevo che … e 2 desideri con vorrei che … o magari …",
+   "promptHelp": "Was hast du als Kind über Feste geglaubt? Schreibe 4 Sätze mit credevo / pensavo / volevo che … und 2 Wünsche mit vorrei che … oder magari …",
+   "type": "open_answer",
+   "modelAnswer": "Da piccola credevo che Babbo Natale abitasse al Polo Nord. Pensavo che le renne volassero davvero. Volevo che i miei genitori mi lasciassero sveglia fino a mezzanotte. Avevo paura che la Befana non trovasse la nostra casa. Oggi vorrei che le feste durassero di più. Magari nevicasse a Natale!",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma è giusta?",
+   "promptHelp": "Prüfe: Welche Form ist richtig?",
+   "type": "gap_choice",
+   "text": "Credevo che Babbo Natale [[g1]] al Polo Nord.\nPensavo che le renne [[g2]] davvero.\nVorrei che le feste [[g3]] di più.\nMagari [[g4]] a Natale!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "abitasse",
+      "abiti"
+     ],
+     "answer": "abitasse"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "volassero",
+      "volano"
+     ],
+     "answer": "volassero"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "durassero",
+      "durano"
+     ],
+     "answer": "durassero"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "nevicasse",
+      "nevicherebbe"
+     ],
+     "answer": "nevicasse"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-l2",
+ "title": "Come si scrive?",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · Come si scrive? · livello facile.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "L’ultima vocale cade: undic(i) + esimo. Solo con -tré e -sei resta: ventitreesimo, ventiseiesimo.",
+   "explanationHelp": "Der Endvokal fällt weg: undic(i) + esimo. Nur bei -tré und -sei bleibt er: ventitreesimo, ventiseiesimo.",
+   "type": "gap_choice",
+   "text": "undici → [[g1]]\ndodici → [[g2]]\nventi → [[g3]]\nventitré → [[g4]]\nventisei → [[g5]]\ntrentatré → [[g6]]\ndiciassette → [[g7]]\nquaranta → [[g8]]\ncento → [[g9]]\nmille → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "undicesimo",
+      "undiciesimo",
+      "undicimo"
+     ],
+     "answer": "undicesimo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dodicesimo",
+      "dodiciesimo",
+      "dodicimo"
+     ],
+     "answer": "dodicesimo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ventesimo",
+      "ventiesimo",
+      "ventimo"
+     ],
+     "answer": "ventesimo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ventitreesimo",
+      "ventitresimo",
+      "ventitréesimo"
+     ],
+     "answer": "ventitreesimo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ventiseiesimo",
+      "ventisesimo",
+      "ventiseesimo"
+     ],
+     "answer": "ventiseiesimo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "trentatreesimo",
+      "trentatresimo",
+      "trentatréesimo"
+     ],
+     "answer": "trentatreesimo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "diciassettesimo",
+      "diciassetteesimo",
+      "diciassettimo"
+     ],
+     "answer": "diciassettesimo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "quarantesimo",
+      "quarantaesimo",
+      "quarantimo"
+     ],
+     "answer": "quarantesimo"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "centesimo",
+      "centoesimo",
+      "centimo"
+     ],
+     "answer": "centesimo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "millesimo",
+      "milleesimo",
+      "millimo"
+     ],
+     "answer": "millesimo"
+    }
+   ]
+  }
+ ]
+}

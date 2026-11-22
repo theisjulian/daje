@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-pronomi-testo-l3",
+ "title": "Domanda e risposta",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Domanda e risposta · livello facile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.\n| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |\n| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |\n| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |\n| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |\n| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |\n| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |\nPer capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?\nAttenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).",
+  "ruleHelp": "**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).\nUm ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?\nAchtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la domanda alla risposta. Guarda bene i pronomi!",
+   "promptHelp": "Verbinde Frage und Antwort. Achte auf die Pronomen!",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Conosci il nuovo video di Luca?",
+     "right": "Sì, lo trovo divertente."
+    },
+    {
+     "id": "p2",
+     "left": "Usi la nuova app?",
+     "right": "Sì, la uso da ieri."
+    },
+    {
+     "id": "p3",
+     "left": "Leggi i commenti?",
+     "right": "No, non li leggo mai."
+    },
+    {
+     "id": "p4",
+     "left": "Dove metti le foto?",
+     "right": "Le metto in una cartella."
+    },
+    {
+     "id": "p5",
+     "left": "Che cosa regali a Paolo?",
+     "right": "Gli regalo un gioco."
+    },
+    {
+     "id": "p6",
+     "left": "Che cosa dici a tua madre?",
+     "right": "Le dico la verità."
+    },
+    {
+     "id": "p7",
+     "left": "Quando vai in palestra?",
+     "right": "Ci vado il martedì."
+    },
+    {
+     "id": "p8",
+     "left": "Quanti fratelli hai?",
+     "right": "Ne ho due."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-l3",
+ "title": "Sempre al singolare",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Sempre al singolare · livello facile.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 73,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | wer? | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi lavora bene riceve un premio."
+    },
+    {
+     "id": "o2",
+     "text": "Chi lavorano bene ricevono un premio."
+    },
+    {
+     "id": "o3",
+     "text": "Che lavora bene riceve un premio."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi vuole venire deve dirlo oggi."
+    },
+    {
+     "id": "o2",
+     "text": "Chi vogliono venire devono dirlo oggi."
+    },
+    {
+     "id": "o3",
+     "text": "Che vuole venire deve dirlo oggi."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi ha finito può uscire."
+    },
+    {
+     "id": "o2",
+     "text": "Chi hanno finito possono uscire."
+    },
+    {
+     "id": "o3",
+     "text": "La chi ha finito può uscire."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Aiuto chi ha bisogno."
+    },
+    {
+     "id": "o2",
+     "text": "Aiuto che ha bisogno."
+    },
+    {
+     "id": "o3",
+     "text": "Aiuto chi hanno bisogno."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi non studia non impara."
+    },
+    {
+     "id": "o2",
+     "text": "Chi non studiano non imparano."
+    },
+    {
+     "id": "o3",
+     "text": "Che non studia non impara."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi arriva per primo sceglie il posto."
+    },
+    {
+     "id": "o2",
+     "text": "Chi arrivano per primi scelgono il posto."
+    },
+    {
+     "id": "o3",
+     "text": "Che arriva per primo sceglie il posto."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chi fa sport sta meglio."
+    },
+    {
+     "id": "o2",
+     "text": "Chi fanno sport stanno meglio."
+    },
+    {
+     "id": "o3",
+     "text": "Chi fa sport stanno meglio."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "explanation": "Con chi il verbo è sempre al singolare: chi lavora, chi vuole, chi ha.",
+   "explanationHelp": "Nach chi steht das Verb immer im Singular.",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Lavoro volentieri con chi è gentile."
+    },
+    {
+     "id": "o2",
+     "text": "Lavoro volentieri con che è gentile."
+    },
+    {
+     "id": "o3",
+     "text": "Lavoro volentieri con chi sono gentili."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

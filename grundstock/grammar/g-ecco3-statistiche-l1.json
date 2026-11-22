@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-statistiche-l1",
+ "title": "Numeri e parole",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere e presentare statistiche · Numeri e parole · livello facile.",
+ "topics": [
+  "Leggere e presentare statistiche",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Statistiken und Umfragen versprachlichen (Redemittel)"
+ },
+ "grammar": {
+  "topic": "ecco3-statistiche",
+  "topicTitle": "Leggere e presentare statistiche",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Per **presentare una statistica** o un sondaggio usiamo queste espressioni:\n| **il 40 per cento** (40 %) di … | 40 persone su 100 |\n| **la metà** di … | 50 % |\n| **un terzo**, **un quarto**, **tre quarti** di … | 1/3, 1/4, 3/4 |\n| **la maggior parte** di … | più della metà |\n| **uno su tre** | una persona in un gruppo di tre |\n| **in aumento** / **in calo** | il numero sale / scende |\n| **rispetto a** … | in confronto a … |\n| **circa**, **quasi** | più o meno / un po’ meno di |\nPrima di **per cento** c’è sempre l’**articolo**: _**il** 20 per cento_, ma _**l’**8 per cento, **l’**11 per cento, **l’**80 per cento_ (otto, undici, ottanta cominciano con una vocale) e _**lo** 0 per cento_.\n_**La metà** della classe preferisce il Natale. **Uno** studente **su** quattro ha scelto il Carnevale. **Rispetto all’**anno scorso le risposte sono **in aumento**._",
+  "ruleHelp": "Redemittel für **Statistiken und Umfragen**: _il 40 per cento di_ (40 Prozent der …), _la metà_ (die Hälfte), _un terzo / un quarto_ (ein Drittel / Viertel), _la maggior parte_ (die meisten), _uno su tre_ (einer von dreien – mit **su**, nicht mit di oder da), _in aumento / in calo_ (steigend / sinkend), _rispetto a_ (im Vergleich zu), _circa_ (ungefähr), _quasi_ (fast).\nAnders als im Deutschen steht vor der Prozentzahl immer der **Artikel**: _il 20 per cento_, vor Vokal _l’8, l’11, l’80 per cento_, bei null _lo 0 per cento_. „Die Hälfte“ heißt **la metà** (nicht _la mezza_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’espressione al numero.",
+   "promptHelp": "Verbinde den Ausdruck mit der Zahl.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "la metà",
+     "right": "50 %"
+    },
+    {
+     "id": "p2",
+     "left": "un quarto",
+     "right": "25 %"
+    },
+    {
+     "id": "p3",
+     "left": "un terzo",
+     "right": "circa 33 %"
+    },
+    {
+     "id": "p4",
+     "left": "tre quarti",
+     "right": "75 %"
+    },
+    {
+     "id": "p5",
+     "left": "due terzi",
+     "right": "circa 67 %"
+    },
+    {
+     "id": "p6",
+     "left": "uno su dieci",
+     "right": "10 %"
+    },
+    {
+     "id": "p7",
+     "left": "uno su cinque",
+     "right": "20 %"
+    },
+    {
+     "id": "p8",
+     "left": "tutti",
+     "right": "100 %"
+    },
+    {
+     "id": "p9",
+     "left": "nessuno",
+     "right": "0 %"
+    }
+   ]
+  }
+ ]
+}

@@ -46,83 +46,95 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella.",
+   "prompt": "Indica la categoria grammaticale di ogni parola. Usa questi termini: articolo determinativo, sostantivo, aggettivo, aggettivo possessivo, aggettivo indefinito, verbo, preposizione.",
    "text": "la sala: la → [[g1]]\nla sala: sala → [[g2]]\nera luminosa: luminosa → [[g3]]\nera luminosa: era → [[g4]]\nil nostro ospite: nostro → [[g5]]\nper il pomeriggio: per → [[g6]]\ni tavoli: i → [[g7]]\ni tavoli: tavoli → [[g8]]\nerano ordinati: ordinati → [[g9]]\nerano ordinati: erano → [[g10]]\ncon chi: con → [[g11]]\nmolti spunti: molti → [[g12]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "articolo determinativo"
+      "articolo determinativo",
+      "articolo"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "sostantivo"
+      "sostantivo",
+      "nome"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "aggettivo"
+      "aggettivo",
+      "aggettivo qualificativo"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "verbo"
+      "verbo",
+      "verbo essere"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "aggettivo possessivo"
+      "aggettivo possessivo",
+      "possessivo"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "articolo determinativo"
+      "articolo determinativo",
+      "articolo"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "sostantivo"
+      "sostantivo",
+      "nome"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "aggettivo"
+      "aggettivo",
+      "aggettivo qualificativo"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "verbo"
+      "verbo",
+      "verbo essere"
      ]
     },
     {
      "id": "g11",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "aggettivo indefinito"
+      "aggettivo indefinito",
+      "indefinito"
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Bestimme die Wortart. Verwende diese Begriffe: articolo determinativo, sostantivo, aggettivo, aggettivo possessivo, aggettivo indefinito, verbo, preposizione."
   }
  ],
  "reading": {

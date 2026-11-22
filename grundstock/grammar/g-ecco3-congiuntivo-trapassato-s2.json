@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-s2",
+ "title": "Il mercatino in piazza",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Il mercatino in piazza · livello difficile.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo imperfetto (stesso momento o dopo) o trapassato (prima)? Completa il racconto di Luca.",
+   "promptHelp": "Congiuntivo imperfetto (gleichzeitig oder später) oder trapassato (vorher)? Ergänze Lucas Bericht.",
+   "explanation": "Stesso momento o dopo → congiuntivo imperfetto (fosse, portasse). Prima → congiuntivo trapassato (avessero montato).",
+   "explanationHelp": "Gleichzeitig oder später → imperfetto; vorher → trapassato.",
+   "type": "gap_fill",
+   "text": "Sabato abbiamo organizzato un mercatino per la mensa del quartiere.\nQuando sono arrivato in piazza, pensavo che i miei compagni (montare) [[g1]] i tavoli la sera prima: invece non c’era niente.\nCredevo che Davide (essere) [[g2]] ancora a letto, e invece era lì da un’ora.\nLa prof voleva che ognuno (portare) [[g3]] qualcosa da vendere.\nMi sembrava impossibile che Chiara (fare) [[g4]] trenta torte in una sola notte!\nAvevamo paura che nel pomeriggio (piovere) [[g5]], ma è uscito il sole.\nAlla fine il sindaco ci ha ringraziato come se (noi, salvare) [[g6]] la città.\nBenché (essere, noi) [[g7]] stanchi morti, abbiamo pulito tutta la piazza.\nQuando abbiamo contato i soldi, non potevamo credere che la gente ci (dare) [[g8]] più di ottocento euro.\nMagari sabato (venire) [[g9]] anche tu, Marta!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avessero montato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "portasse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "avesse fatto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piovesse"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avessimo salvato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fossimo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avesse dato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "fossi venuta"
+     ]
+    }
+   ]
+  }
+ ]
+}

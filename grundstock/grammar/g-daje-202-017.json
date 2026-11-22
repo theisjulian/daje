@@ -59,25 +59,35 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "bianche"
+      "bianche",
+      "azzurre",
+      "leggere"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "piccole"
+      "piccole",
+      "leggere",
+      "bianche",
+      "azzurre"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "leggere"
+      "leggere",
+      "piccole",
+      "bianche",
+      "azzurre"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "azzurre"
+      "azzurre",
+      "bianche",
+      "leggere"
      ]
     },
     {

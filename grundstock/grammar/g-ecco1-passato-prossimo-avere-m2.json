@@ -49,10 +49,10 @@
    "id": "q1",
    "prompt": "Guarda le parole del tempo.",
    "promptHelp": "Achte auf die Signalwörter.",
-   "explanation": "ieri, l’anno scorso, sabato scorso → passato prossimo · oggi, adesso, di solito, ogni giorno → presente.",
-   "explanationHelp": "ieri, scorso → passato prossimo · oggi, adesso, di solito → Präsens.",
+   "explanation": "ieri, l’anno scorso, sabato scorso → passato prossimo · adesso, di solito, ogni giorno, ogni sera → presente.",
+   "explanationHelp": "ieri, scorso → passato prossimo · adesso, di solito, ogni giorno/sera → Präsens.",
    "type": "gap_choice",
-   "text": "Ieri [[g1]] a tennis.\nOggi [[g2]] matematica.\nL’anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.\nDi solito [[g6]] alle una.\nLa settimana scorsa [[g7]] un museo.\nOgni giorno Marco [[g8]] in negozio.",
+   "text": "Ieri [[g1]] a tennis.\nOgni sera [[g2]] matematica.\nL’anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.\nDi solito [[g6]] all’una.\nLa settimana scorsa [[g7]] un museo.\nOgni giorno Marco [[g8]] in negozio.",
    "gaps": [
     {
      "id": "g1",

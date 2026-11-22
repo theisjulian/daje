@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Luca porta … (Hose, blau)",
      "acceptedAnswers": [
-      "i pantaloni blu"
+      "i pantaloni blu",
+      "pantaloni blu"
      ],
      "modelAnswer": "Luca porta i pantaloni blu."
     },
@@ -65,7 +66,8 @@
      "id": "s2",
      "start": "Sara porta … (Rock, rot)",
      "acceptedAnswers": [
-      "una gonna rossa"
+      "una gonna rossa",
+      "la gonna rossa"
      ],
      "modelAnswer": "Sara porta una gonna rossa."
     },
@@ -82,7 +84,9 @@
      "id": "s4",
      "start": "Anna porta … (Pullover, grau)",
      "acceptedAnswers": [
-      "un maglione grigio"
+      "un maglione grigio",
+      "il maglione grigio",
+      "un pullover grigio"
      ],
      "modelAnswer": "Anna porta un maglione grigio."
     },
@@ -90,7 +94,10 @@
      "id": "s5",
      "start": "Marco porta … (Mütze, grün)",
      "acceptedAnswers": [
-      "un cappello verde"
+      "un cappello verde",
+      "il cappello verde",
+      "un berretto verde",
+      "il berretto verde"
      ],
      "modelAnswer": "Marco porta un cappello verde."
     },
@@ -99,7 +106,8 @@
      "start": "Giulia porta … (Socken, rosa)",
      "acceptedAnswers": [
       "le calze rosa",
-      "calze rosa"
+      "calze rosa",
+      "calzini rosa"
      ],
      "modelAnswer": "Giulia porta le calze rosa."
     },
@@ -107,7 +115,8 @@
      "id": "s7",
      "start": "La prof porta … (Jacke, weiß)",
      "acceptedAnswers": [
-      "una giacca bianca"
+      "una giacca bianca",
+      "la giacca bianca"
      ],
      "modelAnswer": "La prof porta una giacca bianca."
     },

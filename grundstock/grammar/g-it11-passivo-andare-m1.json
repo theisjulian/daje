@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-m1",
+ "title": "Nel laboratorio di chimica",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · Nel laboratorio di chimica · livello medio.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi le regole con andare + participio (presente).",
+   "promptHelp": "Schreibe die Regeln mit andare + Partizip (Präsens).",
+   "type": "gap_fill",
+   "text": "Gli occhiali di protezione (mettere) [[g1]] sempre.\nI capelli lunghi (legare) [[g2]].\nOgni esperimento (descrivere) [[g3]] nel quaderno.\nLe sostanze pericolose (tenere) [[g4]] lontano dal fuoco.\nIl tavolo (pulire) [[g5]] alla fine della lezione.\nLe provette (lavare) [[g6]] con attenzione.\nIl gas (chiudere) [[g7]] prima di uscire.\nLe istruzioni dell’insegnante (seguire) [[g8]] con precisione.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vanno messi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vanno legati"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "va descritto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vanno tenute"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "va pulito"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vanno lavate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "va chiuso"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vanno seguite"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -119,9 +119,9 @@
     {
      "id": "g7",
      "options": [
-      "Cancelliamo",
+      "cancelliamo",
       "osserviamo",
-      "Dimentichiamo"
+      "dimentichiamo"
      ],
      "answer": "osserviamo"
     },

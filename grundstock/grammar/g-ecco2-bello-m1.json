@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-bello-m1",
+ "title": "Le foto delle vacanze",
+ "language": "it",
+ "level": "A2",
+ "description": "Bello e la posizione degli aggettivi · Le foto delle vacanze · livello medio.",
+ "topics": [
+  "Bello e la posizione degli aggettivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adjektiv bello vor dem Nomen, Stellung der Adjektive"
+ },
+ "grammar": {
+  "topic": "ecco2-bello",
+  "topicTitle": "Bello e la posizione degli aggettivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Davanti al nome **bello** cambia come l’articolo determinativo:\n| il libro → un **bel** libro | i libri → due **bei** libri |\n| lo zaino → un **bello** zaino | gli zaini → due **begli** zaini |\n| l’albero → un **bell’**albero | gli alberi → due **begli** alberi |\n| la casa → una **bella** casa | le case → due **belle** case |\n| l’idea → una **bell’**idea | le idee → due **belle** idee |\nDopo il nome o dopo **essere**: bello, bella, belli, belle. _Il film è **bello**. I libri sono **belli**._\n**Posizione:** di solito l’aggettivo sta **dopo** il nome (colore, nazionalità, forma): _una maglietta **rossa**, un amico **tedesco**, un tavolo **rotondo**_.\nAlcuni aggettivi corti e frequenti stanno spesso **prima** del nome: bello, brutto, buono, bravo, grande, piccolo, nuovo, vecchio. _Una **piccola** casa, un **vecchio** amico._",
+  "ruleHelp": "Vor dem Nomen verhält sich **bello** wie der bestimmte Artikel: il → **bel**, lo → **bello**, l’ → **bell’**, la → **bella**; i → **bei**, gli → **begli**, le → **belle**. _Un bel libro, un bello zaino, un bell’albero, due begli occhi._\nNach dem Nomen oder nach essere bleibt es regelmäßig: _I libri sono belli._\n**Stellung:** Anders als im Deutschen steht das Adjektiv meist **nach** dem Nomen (Farbe, Nationalität, Form): _una maglietta rossa_. Einige kurze, häufige Adjektive (bello, buono, grande, piccolo, nuovo, vecchio …) stehen oft davor."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con la forma giusta di bello.",
+   "promptHelp": "Ergänze die richtige Form von bello.",
+   "explanation": "Guarda l’inizio del nome: s + consonante o z → bello / begli; vocale → bell’ / begli.",
+   "explanationHelp": "Achte auf den Anfang des Nomens: s + Konsonant oder z → bello / begli; Vokal → bell’ / begli.",
+   "type": "gap_fill",
+   "text": "Guarda, nonna! Questo è un [[g1]] paese vicino a Lecce.\nQui siamo davanti a un [[g2]]albergo del centro.\nIn questa foto c’è un [[g3]] stadio, vero?\nChe [[g4]] colori ha il mare!\nE guarda che [[g5]] alberi in questo parco!\nQuesta è una [[g6]] piazza con una fontana.\nQui abbiamo due [[g7]] zaini nuovi: li abbiamo comprati al mercato.\nAbbiamo passato due [[g8]] settimane.\nIl tramonto è proprio [[g9]], no?\nE questo è un [[g10]] gelato al pistacchio!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bel"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "bell’"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "bello"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "bei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "begli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "bella"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "begli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "belle"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "bello"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "bel"
+     ]
+    }
+   ]
+  }
+ ]
+}

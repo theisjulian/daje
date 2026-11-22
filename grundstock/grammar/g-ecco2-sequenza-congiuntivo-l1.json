@@ -1,0 +1,127 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-sequenza-congiuntivo-l1",
+ "title": "Indicativo o congiuntivo?",
+ "language": "it",
+ "level": "A2",
+ "description": "La sequenza dei tempi nel congiuntivo · Indicativo o congiuntivo? · livello facile.",
+ "topics": [
+  "La sequenza dei tempi nel congiuntivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Zeitenfolge im congiuntivo (Hauptsatz im Präsens), Indikativ oder congiuntivo, Infinitivkonstruktion"
+ },
+ "grammar": {
+  "topic": "ecco2-sequenza-congiuntivo",
+  "topicTitle": "La sequenza dei tempi nel congiuntivo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché: _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché; **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale modo viene dopo?",
+   "promptHelp": "Welcher Modus folgt?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "+ indicativo"
+    },
+    {
+     "id": "b",
+     "label": "+ congiuntivo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "so che",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "è chiaro che",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "secondo me",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "anche se",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "sono sicuro che",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "perché",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "penso che",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "credo che",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "spero che",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "benché",
+     "category": "b"
+    },
+    {
+     "id": "i11",
+     "text": "prima che",
+     "category": "b"
+    },
+    {
+     "id": "i12",
+     "text": "affinché",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

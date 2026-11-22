@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-l3",
+ "title": "Con o senza nome?",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · Con o senza nome? · livello facile.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "C’è un nome che concorda con il verbo (si passivante) o no (si impersonale)?",
+   "promptHelp": "Gibt es ein Nomen, nach dem sich das Verb richtet (si passivante), oder nicht (si impersonale)?",
+   "explanation": "il panettone, quattro lingue, le fragole, la storia, foto bellissime: il verbo concorda con questi nomi.",
+   "explanationHelp": "il panettone, quattro lingue, le fragole, la storia, foto bellissime: Das Verb richtet sich nach diesen Nomen.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "si impersonale (senza nome)"
+    },
+    {
+     "id": "b",
+     "label": "si passivante (con un nome)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "In Italia si cena tardi.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "In questa pizzeria si mangia bene.",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "D’estate si va al mare.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Qui si lavora molto.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "In montagna si dorme bene.",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "A Natale si mangia il panettone.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "In Svizzera si parlano quattro lingue.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "Al mercato si vendono le fragole.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "A scuola si studia la storia.",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "Qui si fanno foto bellissime.",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

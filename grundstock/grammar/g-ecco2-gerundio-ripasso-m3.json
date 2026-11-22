@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-m3",
+ "title": "Con il pronome",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · Con il pronome · livello medio.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase: sostituisci le parole dopo il verbo con un pronome.",
+   "promptHelp": "Schreibe den Satz neu: Ersetze die Wörter nach dem Verb durch ein Pronomen.",
+   "explanation": "Due possibilità: pronome + stare + gerundio oppure stare + gerundio con il pronome attaccato.",
+   "explanationHelp": "Zwei Möglichkeiten: Pronomen vor stare oder ans Gerundium angehängt.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Sto leggendo il libro.",
+     "acceptedAnswers": [
+      "Lo sto leggendo",
+      "Sto leggendolo"
+     ],
+     "modelAnswer": "Lo sto leggendo. / Sto leggendolo."
+    },
+    {
+     "id": "s2",
+     "start": "Stiamo guardando la partita.",
+     "acceptedAnswers": [
+      "La stiamo guardando",
+      "Stiamo guardandola"
+     ],
+     "modelAnswer": "La stiamo guardando. / Stiamo guardandola."
+    },
+    {
+     "id": "s3",
+     "start": "Sara sta facendo i compiti.",
+     "acceptedAnswers": [
+      "li sta facendo",
+      "sta facendoli"
+     ],
+     "modelAnswer": "Sara li sta facendo. / Sara sta facendoli."
+    },
+    {
+     "id": "s4",
+     "start": "Stavo cercando le chiavi.",
+     "acceptedAnswers": [
+      "Le stavo cercando",
+      "Stavo cercandole"
+     ],
+     "modelAnswer": "Le stavo cercando. / Stavo cercandole."
+    },
+    {
+     "id": "s5",
+     "start": "I ragazzi stanno dipingendo il muro.",
+     "acceptedAnswers": [
+      "lo stanno dipingendo",
+      "stanno dipingendolo"
+     ],
+     "modelAnswer": "I ragazzi lo stanno dipingendo. / I ragazzi stanno dipingendolo."
+    },
+    {
+     "id": "s6",
+     "start": "Stai scrivendo a Luca?",
+     "acceptedAnswers": [
+      "Gli stai scrivendo",
+      "Stai scrivendogli"
+     ],
+     "modelAnswer": "Gli stai scrivendo? / Stai scrivendogli?"
+    },
+    {
+     "id": "s7",
+     "start": "Stavamo aspettando Giulia.",
+     "acceptedAnswers": [
+      "La stavamo aspettando",
+      "Stavamo aspettandola"
+     ],
+     "modelAnswer": "La stavamo aspettando. / Stavamo aspettandola."
+    },
+    {
+     "id": "s8",
+     "start": "Sto bevendo il caffè.",
+     "acceptedAnswers": [
+      "Lo sto bevendo",
+      "Sto bevendolo"
+     ],
+     "modelAnswer": "Lo sto bevendo. / Sto bevendolo."
+    },
+    {
+     "id": "s9",
+     "start": "State ascoltando la canzone?",
+     "acceptedAnswers": [
+      "La state ascoltando",
+      "State ascoltandola"
+     ],
+     "modelAnswer": "La state ascoltando? / State ascoltandola?"
+    }
+   ]
+  }
+ ]
+}

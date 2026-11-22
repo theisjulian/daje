@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-condizionale-composto-s3",
+ "title": "Con il senno di poi",
+ "language": "it",
+ "level": "B1",
+ "description": "Il condizionale composto · Con il senno di poi · livello difficile.",
+ "topics": [
+  "Il condizionale composto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · condizionale composto (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-condizionale-composto",
+  "topicTitle": "Il condizionale composto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **condizionale composto** si forma con il condizionale presente di **avere** o **essere** + **participio passato**. Con essere il participio **concorda** con il soggetto.\n| persona | avere | essere |\n| io | **avrei** parlato | **sarei** andato/-a |\n| tu | **avresti** parlato | **saresti** andato/-a |\n| lui / lei | **avrebbe** parlato | **sarebbe** andato/-a |\n| noi | **avremmo** parlato | **saremmo** andati/-e |\n| voi | **avreste** parlato | **sareste** andati/-e |\n| loro | **avrebbero** parlato | **sarebbero** andati/-e |\nLo usiamo per:\n- un **desiderio non realizzato** nel passato: _**Avrei voluto** aiutare, ma ero malato._\n- un **rimprovero** o un consiglio in ritardo: _**Avresti dovuto** dirmelo!_\n- un’azione che **non è successa**: _**Sarei venuta**, ma ho perso il treno._\n- il **futuro nel passato**: _Ha detto che **sarebbe venuto**._",
+  "ruleHelp": "Das **condizionale composto** = Konditional von **avere/essere** + Partizip (bei essere wird das Partizip angeglichen): _avrei parlato_ (ich hätte gesprochen), _sarei andata_ (ich wäre gegangen).\nGebrauch: unerfüllter Wunsch (_Avrei voluto …_ – Ich hätte gern …), Vorwurf (_Avresti dovuto dirmelo!_ – Du hättest es mir sagen sollen!), nicht eingetretene Handlung (_Sarei venuto, ma …_).\n**Achtung, anders als im Deutschen:** Die Zukunft aus Sicht der Vergangenheit steht im condizionale **composto**: _Ha detto che **sarebbe venuto**._ (Er hat gesagt, dass er kommen **würde**.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Pensa all’anno scorso: che cosa avresti voluto fare? Che cosa avresti dovuto fare in modo diverso? Scrivi 5 frasi con il condizionale composto.",
+   "promptHelp": "Denk an das letzte Jahr: Was hättest du gern getan? Was hättest du anders machen sollen? Schreibe 5 Sätze im condizionale composto.",
+   "type": "open_answer",
+   "modelAnswer": "L’anno scorso avrei voluto fare uno scambio con una scuola italiana. Avrei dovuto studiare di più per la verifica di matematica. Mi sarebbe piaciuto partecipare al progetto sull’ambiente. Sarei andata volentieri al concerto, ma non avevo il biglietto. Avrei potuto aiutare di più i miei genitori.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma è giusta?",
+   "promptHelp": "Prüfe: Welche Form ist richtig?",
+   "type": "gap_choice",
+   "text": "L’anno scorso [[g1]] studiare di più.\nMi [[g2]] fare uno scambio.\nLena dice: «[[g3]] volentieri in Italia con la classe.»\nSapevo che [[g4]] un anno difficile.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avrei dovuto",
+      "dovrei"
+     ],
+     "answer": "avrei dovuto"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sarebbe piaciuto",
+      "avrebbe piaciuto"
+     ],
+     "answer": "sarebbe piaciuto"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Sarei andata",
+      "Avrei andata"
+     ],
+     "answer": "Sarei andata"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sarebbe stato",
+      "sarebbe"
+     ],
+     "answer": "sarebbe stato"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-s2",
+ "title": "Presente o imperfetto?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Presente o imperfetto? · livello difficile.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen -assi / -essi / -issi, -assi …, -asse …, -assimo, -aste, -assero. io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente o imperfetto? Guarda la frase principale.",
+   "promptHelp": "Congiuntivo presente oder imperfetto? Achte auf den Hauptsatz.",
+   "explanation": "penso, voglio, spero → congiuntivo presente; pensavo, volevo, speravo, vorrei, magari, come se → congiuntivo imperfetto.",
+   "explanationHelp": "penso, voglio, spero → congiuntivo presente; pensavo, volevo, speravo, vorrei, magari, come se → congiuntivo imperfetto.",
+   "type": "gap_fill",
+   "text": "Penso che oggi la piazza (essere) [[g1]] piena di gente.\nPensavo che la piazza (essere) [[g2]] vuota, invece c’era tutto il paese.\nVoglio che tu (assaggiare) [[g3]] questo dolce.\nVorrei che tu (assaggiare) [[g4]] anche il panettone della nonna.\nSpero che domani non (piovere) [[g5]].\nSperavo che ieri non (piovere) [[g6]], ma ha piovuto tutto il giorno.\nI miei genitori vogliono che io (tornare) [[g7]] prima di mezzanotte.\nQuando ero bambino, i miei genitori volevano che io (tornare) [[g8]] a casa alle otto.\nMagari (potere, noi) [[g9]] andare a Siena per il Palio!\nLuca parla come se (conoscere) [[g10]] tutte le tradizioni italiane.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "assaggi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "assaggiassi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piova"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "piovesse"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "torni"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tornassi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "potessimo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "conoscesse"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -53,13 +53,15 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "veniva usata"
+      "veniva usata",
+      "era usata"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "venivano conservati"
+      "venivano conservati",
+      "erano conservati"
      ]
     },
     {
@@ -71,7 +73,8 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "veniva accompagnato"
+      "veniva accompagnato",
+      "era accompagnato"
      ]
     },
     {

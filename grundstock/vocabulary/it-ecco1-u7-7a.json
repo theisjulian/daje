@@ -44,7 +44,7 @@
     "warm sein",
     "heiß sein"
    ],
-   "definition": "Dire che la temperatura è alta.",
+   "definition": "Esserci una temperatura alta.",
    "example": "In estate fa caldo.",
    "usage": "Abc"
   },
@@ -108,7 +108,7 @@
    "translations": [
     "kühl sein"
    ],
-   "definition": "Dire che la temperatura è bassa ma piacevole.",
+   "definition": "Esserci una temperatura bassa ma piacevole.",
    "example": "La sera fa fresco. Vado dentro.",
    "family": "fresco",
    "usage": "Abc"
@@ -192,7 +192,7 @@
    "translations": [
     "vor etw."
    ],
-   "definition": "Prima di fare un’azione.",
+   "definition": "Espressione: un’azione avviene in anticipo rispetto a un’altra.",
    "example": "Prima di andare a letto Filippo si fa la doccia."
   },
   {
@@ -285,7 +285,7 @@
     "teuer",
     "auch: liebe/-r (Brief)"
    ],
-   "definition": "Persona amata; oggetto che costa molto.",
+   "definition": "Amato, a cui si vuole bene; che costa molto.",
    "example": "Cara Greta, caro Filippo, …",
    "related": "F cher, chère; L carus"
   },

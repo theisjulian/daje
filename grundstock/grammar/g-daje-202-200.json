@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
    "text": "Cara Sofia, [[g1]] scrivo una notizia che forse [[g2]] sorprenderà: ho deciso di partecipare al progetto del centro culturale. Non è un corso normale. Un piccolo gruppo preparerà un laboratorio per i bambini del quartiere e io [[g3]] occuperò delle storie. Ho conosciuto la responsabile durante la festa della scuola. [[g4]] raccontato che [[g5]] piace scrivere e [[g6]] [[g7]] ha invitata a un incontro. Non ho accettato subito, perché temevo di non avere abbastanza esperienza. Poi ho parlato con due partecipanti e ho capito che nessuno deve fare tutto da solo.\nIl gruppo comprende sei persone. Due studiano musica, una disegna, un ragazzo sa costruire piccoli oggetti e un’altra partecipante ha già lavorato con i bambini. Io porterò alcuni racconti brevi. [[g8]] insieme e sceglieremo quelli più adatti. Non useremo tutte le storie: alcune sono troppo lunghe e altre hanno parole difficili. La responsabile [[g9]] aiuterà a [[g10]] senza perdere il senso.\nGli incontri saranno il sabato mattina. Per [[g11]] va bene, perché il mio corso di nuoto è al pomeriggio. Non riceveremo un compenso; il centro [[g12]] fornirà i materiali e uno spazio per le prove. Prima di cominciare faremo un incontro con gli educatori. Non conosco ancora la data del primo laboratorio, quindi non posso invitarti adesso. Quando avrò il programma definitivo, [[g13]] manderò.\n[[g14]] piacerebbe sapere che cosa pensi delle mie storie. Puoi leggere quella che [[g15]] ho lasciato ieri e [[g16]] dove [[g17]] annoi oppure non capisci? Non voglio soltanto complimenti: [[g18]] servono osservazioni sincere. Se hai tempo, [[g19]] incontriamo domenica in biblioteca. Porterò il quaderno e prenderò appunti. Un abbraccio, Giada.",
    "gaps": [
     {
@@ -100,7 +100,8 @@
     {
      "id": "g9",
      "acceptedAnswers": [
-      "ci"
+      "ci",
+      "mi"
      ]
     },
     {
@@ -165,7 +166,7 @@
     }
    ],
    "wordBank": true,
-   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals."
   },
   {
    "id": "q2",

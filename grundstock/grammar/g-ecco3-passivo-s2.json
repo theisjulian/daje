@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-s2",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Trova gli errori · livello difficile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "venire solo nei tempi semplici; chi fa l’azione sempre con da, mai con di.",
+   "explanationHelp": "venire nur in einfachen Zeiten; der Urheber immer mit da, nie mit di.",
+   "type": "error_correction",
+   "text": "La festa è [[g1]] organizzata dagli studenti.\nI pacchi vengono [[g2]] ogni venerdì.\nIl parco è stato pulito [[g3]] volontari.\nLa mostra [[g4]] aperta ieri dal sindaco.\nLe lettere sono state [[g5]] dai bambini.\nIl nuovo centro [[g6]] stato costruito in soli sei mesi.\nDomani i risultati [[g7]] presentati ai giornalisti.\nL’articolo è stato letto [[g8]] più di mille persone.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "stato",
+     "acceptedAnswers": [
+      "stata"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "preparato",
+     "acceptedAnswers": [
+      "preparati"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "dei",
+     "acceptedAnswers": [
+      "dai"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "è venuta",
+     "acceptedAnswers": [
+      "è stata"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "scritto",
+     "acceptedAnswers": [
+      "scritte"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "verrà",
+     "acceptedAnswers": [
+      "verranno"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "di",
+     "acceptedAnswers": [
+      "da"
+     ]
+    }
+   ]
+  }
+ ]
+}

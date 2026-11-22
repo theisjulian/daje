@@ -71,7 +71,7 @@
     "die Dienstleistung"
    ],
    "definition": "Attività che si fa per gli altri.",
-   "example": "Il servizio al ristorante è ottimo.",
+   "example": "A Milano molte persone lavorano nei servizi.",
    "family": "servire",
    "usage": "pl. i servizi",
    "grammar": {
@@ -140,7 +140,7 @@
    "translations": [
     "etwa zehn"
    ],
-   "definition": "Gruppo di dieci.",
+   "definition": "Circa dieci unità.",
    "example": "Ci sono una decina di persone.",
    "usage": "il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia",
    "grammar": {
@@ -204,7 +204,7 @@
    "acceptedAnswers": [
     "fornire"
    ],
-   "usage": "Abc"
+   "usage": "(-isc-): fornisco, fornisci"
   },
   {
    "id": "u6-approccio-012",
@@ -254,7 +254,7 @@
    ],
    "definition": "Del nord.",
    "example": "Milano è una città settentrionale.",
-   "synonyms": "a nord"
+   "synonyms": "del nord"
   },
   {
    "id": "u6-approccio-016",
@@ -532,7 +532,7 @@
    ],
    "definition": "Mancanza di lavoro.",
    "example": "La disoccupazione è alta.",
-   "related": "E disoccupation",
+   "related": "E occupation (Gegenteil)",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo con gli articoli (determinativi o indeterminativi).",
+   "promptHelp": "Ergänze den Text mit den Artikeln (bestimmt oder unbestimmt).",
    "text": "Cara Lia, ho finalmente [[g1]] programma della festa del nostro centro culturale. So che hai molti impegni, ma puoi venire anche soltanto per [[g2]] pomeriggio. [[g3]] festa è sabato e domenica; noi siamo liberi entrambi [[g4]] giorni. Tu vuoi partecipare al laboratorio di cucina oppure preferisci ascoltare [[g5]] racconti? [[g6]] tuoi fratelli hanno [[g7]] possibilità di provare alcuni strumenti musicali. Non devono portare nulla. [[g8]] laboratorio è gratuito, però dobbiamo prenotare [[g9]] posti. Io ho [[g10]] modulo e posso iscrivere anche voi. Mia sorella vuole preparare [[g11]] piccolo spettacolo: ha bisogno di qualcuno che legga due frasi. Tu sei brava a leggere e non hai paura del pubblico! Se vuoi, puoi aiutarla. Noi abbiamo anche [[g12]] stanza per gli ospiti, quindi non dovete tornare subito a casa. [[g13]] nostra cucina è piccola, ma [[g14]] giardino è grande e possiamo cenare fuori. [[g15]] vicini sono molto gentili e vogliono conoscere i nostri amici. Fammi sapere entro giovedì. Ho ancora due giorni per organizzare tutto. Un abbraccio, Ada.",
    "gaps": [
     {
@@ -107,7 +107,8 @@
     {
      "id": "g10",
      "acceptedAnswers": [
-      "il"
+      "il",
+      "un"
      ]
     },
     {

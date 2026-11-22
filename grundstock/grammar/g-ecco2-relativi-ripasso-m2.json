@@ -1,0 +1,143 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-m2",
+ "title": "Due frasi, una frase",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Due frasi, una frase · livello medio.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** venire?_\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi con che, preposizione + cui o dove.",
+   "promptHelp": "Verbinde die zwei Sätze mit che, Präposition + cui oder dove.",
+   "explanation": "La preposizione della seconda frase resta: con Sara → con cui, del film → di cui.",
+   "explanationHelp": "Die Präposition aus dem zweiten Satz bleibt erhalten: con Sara → con cui, del film → di cui.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho un amico. L’amico suona la batteria. → Ho un amico …",
+     "acceptedAnswers": [
+      "che suona la batteria"
+     ],
+     "modelAnswer": "Ho un amico che suona la batteria."
+    },
+    {
+     "id": "s2",
+     "start": "Questo è il parco. Nel parco facciamo skate. → Questo è il parco …",
+     "acceptedAnswers": [
+      "dove facciamo skate",
+      "in cui facciamo skate"
+     ],
+     "modelAnswer": "Questo è il parco dove facciamo skate."
+    },
+    {
+     "id": "s3",
+     "start": "Ti presento Sara. Con Sara faccio un corso di disegno. → Ti presento Sara, …",
+     "acceptedAnswers": [
+      "con cui faccio un corso di disegno"
+     ],
+     "modelAnswer": "Ti presento Sara, con cui faccio un corso di disegno."
+    },
+    {
+     "id": "s4",
+     "start": "Ho comprato un poster. Il poster costa poco. → Ho comprato un poster …",
+     "acceptedAnswers": [
+      "che costa poco"
+     ],
+     "modelAnswer": "Ho comprato un poster che costa poco."
+    },
+    {
+     "id": "s5",
+     "start": "Ecco la canzone. Ti ho parlato della canzone. → Ecco la canzone …",
+     "acceptedAnswers": [
+      "di cui ti ho parlato"
+     ],
+     "modelAnswer": "Ecco la canzone di cui ti ho parlato."
+    },
+    {
+     "id": "s6",
+     "start": "Conosco una ragazza. La ragazza disegna fumetti. → Conosco una ragazza …",
+     "acceptedAnswers": [
+      "che disegna fumetti"
+     ],
+     "modelAnswer": "Conosco una ragazza che disegna fumetti."
+    },
+    {
+     "id": "s7",
+     "start": "Questo è il professore. Ho chiesto un consiglio al professore. → Questo è il professore …",
+     "acceptedAnswers": [
+      "a cui ho chiesto un consiglio"
+     ],
+     "modelAnswer": "Questo è il professore a cui ho chiesto un consiglio."
+    },
+    {
+     "id": "s8",
+     "start": "Leggo il libro. Tu mi hai regalato il libro. → Leggo il libro …",
+     "acceptedAnswers": [
+      "che mi hai regalato",
+      "che tu mi hai regalato"
+     ],
+     "modelAnswer": "Leggo il libro che mi hai regalato tu."
+    },
+    {
+     "id": "s9",
+     "start": "È una città. Nella città vivono molti artisti. → È una città …",
+     "acceptedAnswers": [
+      "dove vivono molti artisti",
+      "in cui vivono molti artisti"
+     ],
+     "modelAnswer": "È una città dove vivono molti artisti."
+    },
+    {
+     "id": "s10",
+     "start": "Ho visto il film. Tutti parlano del film. → Ho visto il film …",
+     "acceptedAnswers": [
+      "di cui tutti parlano",
+      "di cui parlano tutti"
+     ],
+     "modelAnswer": "Ho visto il film di cui tutti parlano."
+    }
+   ]
+  }
+ ]
+}

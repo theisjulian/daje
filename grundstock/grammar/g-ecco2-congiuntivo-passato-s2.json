@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-s2",
+ "title": "Oggi o ieri?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Oggi o ieri? · livello difficile.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente o passato? Guarda le espressioni di tempo.",
+   "promptHelp": "Congiuntivo presente oder passato? Achte auf die Zeitangaben.",
+   "explanation": "ieri, due giorni fa, l’anno scorso → congiuntivo passato; oggi, stasera, domani → congiuntivo presente.",
+   "explanationHelp": "ieri, due giorni fa, l’anno scorso → congiuntivo passato; oggi, stasera, domani → congiuntivo presente.",
+   "type": "gap_choice",
+   "text": "Penso che Luca [[g1]] domani mattina.\nPenso che Luca [[g2]] ieri sera.\nCredo che il festival [[g3]] due giorni fa.\nCredo che il festival [[g4]] la settimana prossima.\nSpero che ieri vi [[g5]] al concerto.\nSpero che stasera vi [[g6]] al concerto.\nMi dispiace che sabato scorso tu non [[g7]] con noi.\nSono contenta che adesso tu [[g8]] meglio.\nPenso che la nostra band [[g9]] alla festa della scuola già l’anno scorso.\nÈ possibile che Marta [[g10]] i biglietti già lunedì scorso.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "arrivi",
+      "sia arrivato"
+     ],
+     "answer": "arrivi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sia arrivato",
+      "arrivi"
+     ],
+     "answer": "sia arrivato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sia cominciato",
+      "cominci"
+     ],
+     "answer": "sia cominciato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "cominci",
+      "sia cominciato"
+     ],
+     "answer": "cominci"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "siate divertiti",
+      "divertiate"
+     ],
+     "answer": "siate divertiti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "divertiate",
+      "siate divertiti"
+     ],
+     "answer": "divertiate"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sia venuta",
+      "venga"
+     ],
+     "answer": "sia venuta"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "stia",
+      "sia stata"
+     ],
+     "answer": "stia"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "abbia suonato",
+      "suoni"
+     ],
+     "answer": "abbia suonato"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "abbia comprato",
+      "compri"
+     ],
+     "answer": "abbia comprato"
+    }
+   ]
+  }
+ ]
+}

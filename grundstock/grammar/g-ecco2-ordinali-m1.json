@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-m1",
+ "title": "Il festival della scuola",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · Il festival della scuola · livello medio.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi l’ordinale in lettere. Attenzione al maschile e al femminile!",
+   "promptHelp": "Schreibe die Ordnungszahl in Buchstaben. Achte auf maskulin und feminin!",
+   "explanation": "L’ordinale concorda con il nome: la quindicesima edizione, il ventesimo anniversario.",
+   "explanationHelp": "Die Ordnungszahl richtet sich nach dem Nomen: la quindicesima edizione, il ventesimo anniversario.",
+   "type": "gap_fill",
+   "text": "Quest’anno il festival della nostra scuola festeggia la (15) [[g1]] edizione.\nPer il coro, invece, è il (20) [[g2]] anniversario.\nIn programma ci sono trenta gruppi: il nostro è il (23) [[g3]].\nLa (11) [[g4]] canzone del concerto è la mia preferita.\nSiamo seduti nella (14) [[g5]] fila.\nL’anno scorso la nostra band è arrivata al (13) [[g6]] posto.\nMio cugino abita al (16) [[g7]] piano: da lì sente tutta la musica della piazza!\nÈ la (30) [[g8]] volta che ascolto questa canzone.\nI miei nonni festeggiano il (50) [[g9]] anniversario di matrimonio con una serenata.\nLa (100) [[g10]] persona che entra vince una maglietta del festival.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quindicesima"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ventesimo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ventitreesimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "undicesima"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "quattordicesima"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tredicesimo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sedicesimo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "trentesima"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "cinquantesimo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "centesima"
+     ]
+    }
+   ]
+  }
+ ]
+}

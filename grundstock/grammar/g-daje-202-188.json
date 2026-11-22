@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
    "text": "Cara zia, ieri ho presentato il progetto della classe davanti a un pubblico e voglio raccontarti come è andata. All’inizio ero molto nervosa. Avevo preparato [[g1]] immagini, ma temevo di dimenticare le parole. La mia compagna Ilaria [[g2]] ha aiutata a provare: [[g3]] ascoltava senza interrompere e poi mi faceva una domanda. Questo mi ha permesso di capire quali passaggi non erano chiari.\nQuando siamo arrivate nella sala, il tecnico stava controllando il proiettore. [[g4]] abbiamo consegnato il file e [[g5]] [[g6]] ha mostrato il piccolo comando per cambiare le immagini. Io l’ho provato due volte, poi l’ho lasciato sul tavolo. Il pubblico entrava lentamente e parlava a bassa voce. Mia madre era seduta in fondo; l’ho salutata con la mano, ma non sono andata da [[g7]] perché mancavano pochi minuti.\nIl presentatore ha chiamato il nostro gruppo. Mi sono alzata, ho preso gli appunti e ho raggiunto Ilaria. La prima frase è uscita un po’ piano. Un’insegnante mi ha fatto un gesto gentile per invitarmi a parlare più forte. Ho respirato, ho guardato il pubblico e ho continuato. A metà della presentazione una fotografia non si è aperta. Ilaria mi ha guardata; io le ho detto di passare alla successiva e ho spiegato a parole quello che mancava. Il problema non ha rovinato il lavoro.\nAlla fine abbiamo ricevuto tre domande. Non conoscevamo una risposta e lo abbiamo detto chiaramente. Il nostro insegnante ci ha ringraziate per l’onestà. La prossima volta prepareremo anche una copia stampata delle immagini. Io proverò ancora a parlare senza leggere ogni frase. Non è stato perfetto, ma sono contenta di averlo fatto. [[g8]] mostrerò le fotografie domenica. Un abbraccio, Alina.",
    "gaps": [
     {
@@ -99,7 +99,7 @@
     }
    ],
    "wordBank": true,
-   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals."
   },
   {
    "id": "q2a",

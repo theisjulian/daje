@@ -50,13 +50,13 @@
    "prompt": "Correggi l’ordine o la parola sbagliata.",
    "promptHelp": "Korrigiere die Wortstellung bzw. das falsche Wort.",
    "type": "error_correction",
-   "text": "Ho [[g1]] il film.\n[[g2]] ho ancora finito.\nNon sono [[g3]] partito, parto domani.\nHai [[g4]]?\nSiamo [[g5]] arrivati, eccoci qui!\nNon abbiamo [[g6]].\nSara è [[g7]].\nNon hai [[g8]] telefonato? Telefona adesso!",
+   "text": "[[g1]] visto il film.\n[[g2]] ho ancora finito.\nNon sono [[g3]] partito, parto domani.\nNon [[g4]] mangiato?\nSiamo [[g5]] arrivati, eccoci qui!\nNon [[g6]] deciso.\nSara [[g7]] arrivata.\nNon hai [[g8]] telefonato? Telefona adesso!",
    "errors": [
     {
      "id": "g1",
-     "wrong": "visto già",
+     "wrong": "Già ho",
      "acceptedAnswers": [
-      "già visto"
+      "Ho già"
      ]
     },
     {
@@ -75,9 +75,9 @@
     },
     {
      "id": "g4",
-     "wrong": "mangiato già",
+     "wrong": "ancora hai",
      "acceptedAnswers": [
-      "già mangiato"
+      "hai ancora"
      ]
     },
     {
@@ -89,16 +89,16 @@
     },
     {
      "id": "g6",
-     "wrong": "deciso ancora",
+     "wrong": "ancora abbiamo",
      "acceptedAnswers": [
-      "ancora deciso"
+      "abbiamo ancora"
      ]
     },
     {
      "id": "g7",
-     "wrong": "arrivata già",
+     "wrong": "già è",
      "acceptedAnswers": [
-      "già arrivata"
+      "è già"
      ]
     },
     {

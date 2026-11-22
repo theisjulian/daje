@@ -52,7 +52,7 @@
    "explanation": "il bar → i bar (parola straniera) · la città → le città (accento finale).",
    "explanationHelp": "il bar → i bar (Fremdwort) · la città → le città (betonte Endung).",
    "type": "gap_fill",
-   "text": "Nel quartiere ci sono molti (il negozio) [[g1]].\n(La piazza) [[g2]] sono belle.\n(Lo stadio) [[g3]] di Torino sono grandi.\nCi sono anche due (il campo sportivo) [[g4]].\n(L’amica) [[g5]] di Giulia sono simpatiche.\n(L’albero) [[g6]] in piazza sono molto vecchi.\n(Il ponte) [[g7]] sul Po sono famosi.\n(Lo zaino) [[g8]] sono pesanti!\n(Il bar) [[g9]] in centro sono pieni.\n(La città) [[g10]] italiane sono belle.",
+   "text": "Nel quartiere ci sono molti (negozio) [[g1]].\n(La piazza) [[g2]] sono belle.\n(Lo stadio) [[g3]] di Torino sono grandi.\nCi sono anche due (campo sportivo) [[g4]].\n(L’amica) [[g5]] di Giulia sono simpatiche.\n(L’albero) [[g6]] in piazza sono molto vecchi.\n(Il ponte) [[g7]] sul Po sono famosi.\n(Lo zaino) [[g8]] sono pesanti!\n(Il bar) [[g9]] in centro sono pieni.\n(La città) [[g10]] italiane sono belle.",
    "gaps": [
     {
      "id": "g1",

@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-m2",
+ "title": "Con dovere, potere, volere",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Con dovere, potere, volere · livello medio.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la frase al passato prossimo. Ci sono due soluzioni giuste: basta scriverne una.",
+   "promptHelp": "Schreibe den Satz im passato prossimo. Es gibt zwei richtige Lösungen: eine genügt.",
+   "explanation": "Pronome prima del verbo modale → essere + concordanza (mi sono dovuta alzare); pronome attaccato all’infinito → avere (ho dovuto alzarmi).",
+   "explanationHelp": "Pronomen vor dem Modalverb → essere + Angleichung; Pronomen am Infinitiv → avere.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca: «Devo alzarmi alle cinque.» → Ieri Luca dice: «…»",
+     "acceptedAnswers": [
+      "mi sono dovuto alzare",
+      "ho dovuto alzarmi"
+     ],
+     "modelAnswer": "Mi sono dovuto alzare alle cinque. / Ho dovuto alzarmi alle cinque."
+    },
+    {
+     "id": "s2",
+     "start": "Sara: «Non posso fermarmi.» → Ieri Sara dice: «…»",
+     "acceptedAnswers": [
+      "non mi sono potuta fermare",
+      "non ho potuto fermarmi"
+     ],
+     "modelAnswer": "Non mi sono potuta fermare. / Non ho potuto fermarmi."
+    },
+    {
+     "id": "s3",
+     "start": "Davide: «Voglio iscrivermi al corso.» → Ieri Davide dice: «…»",
+     "acceptedAnswers": [
+      "mi sono voluto iscrivere",
+      "ho voluto iscrivermi"
+     ],
+     "modelAnswer": "Mi sono voluto iscrivere al corso. / Ho voluto iscrivermi al corso."
+    },
+    {
+     "id": "s4",
+     "start": "Chiara e Giulia: «Dobbiamo prepararci in fretta.» → «…»",
+     "acceptedAnswers": [
+      "ci siamo dovute preparare",
+      "abbiamo dovuto prepararci"
+     ],
+     "modelAnswer": "Ci siamo dovute preparare in fretta. / Abbiamo dovuto prepararci in fretta."
+    },
+    {
+     "id": "s5",
+     "start": "I ragazzi non possono addormentarsi. → Ieri i ragazzi …",
+     "acceptedAnswers": [
+      "non si sono potuti addormentare",
+      "non hanno potuto addormentarsi"
+     ],
+     "modelAnswer": "Ieri i ragazzi non si sono potuti addormentare. / Ieri i ragazzi non hanno potuto addormentarsi."
+    },
+    {
+     "id": "s6",
+     "start": "Matteo deve scusarsi con la prof. → Ieri Matteo …",
+     "acceptedAnswers": [
+      "si è dovuto scusare",
+      "ha dovuto scusarsi"
+     ],
+     "modelAnswer": "Ieri Matteo si è dovuto scusare con la prof. / Ieri Matteo ha dovuto scusarsi con la prof."
+    },
+    {
+     "id": "s7",
+     "start": "Giulia vuole riposarsi un po’. → Ieri Giulia …",
+     "acceptedAnswers": [
+      "si è voluta riposare",
+      "ha voluto riposarsi"
+     ],
+     "modelAnswer": "Ieri Giulia si è voluta riposare un po’. / Ieri Giulia ha voluto riposarsi un po’."
+    },
+    {
+     "id": "s8",
+     "start": "Marco, devi svegliarti presto. → Marco, ieri …",
+     "acceptedAnswers": [
+      "ti sei dovuto svegliare",
+      "hai dovuto svegliarti"
+     ],
+     "modelAnswer": "Marco, ieri ti sei dovuto svegliare presto. / Marco, ieri hai dovuto svegliarti presto."
+    }
+   ]
+  }
+ ]
+}

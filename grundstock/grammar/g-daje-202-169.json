@@ -46,14 +46,15 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "prompt": "Scrivi il participio passato (maschile singolare) di ogni verbo.",
+   "promptHelp": "Schreibe zu jedem Verb das Partizip Perfekt (maskulin Singular).",
    "text": "1. perdere → participio passato maschile singolare → [[g1]]\n2. permettere → participio passato maschile singolare → [[g2]]\n3. piangere → participio passato maschile singolare → [[g3]]\n4. prendere → participio passato maschile singolare → [[g4]]\n5. rendere → participio passato maschile singolare → [[g5]]\n6. ridere → participio passato maschile singolare → [[g6]]\n7. rimanere → participio passato maschile singolare → [[g7]]\n8. rispondere → participio passato maschile singolare → [[g8]]\n9. rompere → participio passato maschile singolare → [[g9]]\n10. scegliere → participio passato maschile singolare → [[g10]]\n11. scendere → participio passato maschile singolare → [[g11]]\n12. scoprire → participio passato maschile singolare → [[g12]]\n13. scrivere → participio passato maschile singolare → [[g13]]\n14. smettere → participio passato maschile singolare → [[g14]]\n15. spegnere → participio passato maschile singolare → [[g15]]\n16. spendere → participio passato maschile singolare → [[g16]]\n17. vedere → participio passato maschile singolare → [[g17]]\n18. venire → participio passato maschile singolare → [[g18]]\n19. vivere → participio passato maschile singolare → [[g19]]\n20. tradurre → participio passato maschile singolare → [[g20]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "perso"
+      "perso",
+      "perduto"
      ]
     },
     {
@@ -149,7 +150,8 @@
     {
      "id": "g17",
      "acceptedAnswers": [
-      "visto"
+      "visto",
+      "veduto"
      ]
     },
     {
@@ -182,7 +184,8 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "ho perso"
+      "ho perso",
+      "ho perduto"
      ]
     },
     {
@@ -278,7 +281,8 @@
     {
      "id": "g17",
      "acceptedAnswers": [
-      "ho visto"
+      "ho visto",
+      "ho veduto"
      ]
     },
     {
@@ -290,7 +294,8 @@
     {
      "id": "g19",
      "acceptedAnswers": [
-      "ho vissuto"
+      "ho vissuto",
+      "sono vissuto"
      ]
     },
     {

@@ -47,7 +47,7 @@
    "id": "q1a",
    "type": "open_answer",
    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/3)\n1. loro: «avevano venduto»\n2. noi: «abbiamo dormito»\n3. loro: «hanno fatto»\n4. noi: «avevamo temuto»\n5. tu: «osservi»\n6. loro: «vorrebbero»\n7. lui/lei: «aveva letto»\n8. loro: «osservavano»",
-   "modelAnswer": "1. vendere — indicativo — trapassato prossimo — loro\n2. dormire — indicativo — passato prossimo — noi\n3. fare — indicativo — passato prossimo — loro\n4. temere — indicativo — trapassato prossimo — noi\n5. osservare — congiuntivo — presente — tu\n6. volere — condizionale — presente — loro\n7. leggere — indicativo — trapassato prossimo — lui/lei\n8. osservare — indicativo — imperfetto — loro",
+   "modelAnswer": "1. vendere — indicativo — trapassato prossimo — loro\n2. dormire — indicativo — passato prossimo — noi\n3. fare — indicativo — passato prossimo — loro\n4. temere — indicativo — trapassato prossimo — noi\n5. osservare — indicativo oppure congiuntivo — presente — tu (le due forme coincidono)\n6. volere — condizionale — presente — loro\n7. leggere — indicativo — trapassato prossimo — lui/lei\n8. osservare — indicativo — imperfetto — loro",
    "lines": 9,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
   },
@@ -55,14 +55,14 @@
    "id": "q1b",
    "type": "open_answer",
    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/3)\n1. tu: «visiti»\n2. loro: «hanno conservato»\n3. lui/lei: «visiti»\n4. lui/lei: «lavora»\n5. io: «venda»\n6. lui/lei: «volesse»\n7. loro: «invitassero»\n8. lui/lei: «avesse»",
-   "modelAnswer": "1. visitare — congiuntivo — presente — tu\n2. conservare — indicativo — passato prossimo — loro\n3. visitare — congiuntivo — presente — lui/lei\n4. lavorare — indicativo — presente — lui/lei\n5. vendere — congiuntivo — presente — io\n6. volere — congiuntivo — imperfetto — lui/lei\n7. invitare — congiuntivo — imperfetto — loro\n8. avere — congiuntivo — imperfetto — lui/lei",
+   "modelAnswer": "1. visitare — indicativo oppure congiuntivo — presente — tu (le due forme coincidono)\n2. conservare — indicativo — passato prossimo — loro\n3. visitare — congiuntivo — presente — lui/lei\n4. lavorare — indicativo — presente — lui/lei\n5. vendere — congiuntivo — presente — io\n6. volere — congiuntivo — imperfetto — lui/lei\n7. invitare — congiuntivo — imperfetto — loro\n8. avere — congiuntivo — imperfetto — lui/lei",
    "lines": 9
   },
   {
    "id": "q1c",
    "type": "open_answer",
    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 3/3)\n1. voi: «parlate»\n2. voi: «partiste»\n3. io: «parlerei»\n4. tu: «osservi»\n5. voi: «avete ricevuto»\n6. tu: «porteresti»\n7. noi: «temevamo»",
-   "modelAnswer": "1. parlare — indicativo — presente — voi\n2. partire — congiuntivo — imperfetto — voi\n3. parlare — condizionale — presente — io\n4. osservare — indicativo — presente — tu\n5. ricevere — indicativo — passato prossimo — voi\n6. portare — condizionale — presente — tu\n7. temere — indicativo — imperfetto — noi",
+   "modelAnswer": "1. parlare — indicativo — presente — voi\n2. partire — congiuntivo — imperfetto — voi (uguale all’indicativo passato remoto: voi partiste)\n3. parlare — condizionale — presente — io\n4. osservare — indicativo oppure congiuntivo — presente — tu (le due forme coincidono)\n5. ricevere — indicativo — passato prossimo — voi\n6. portare — condizionale — presente — tu\n7. temere — indicativo — imperfetto — noi",
    "lines": 8
   }
  ]

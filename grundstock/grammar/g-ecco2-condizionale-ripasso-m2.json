@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-condizionale-ripasso-m2",
+ "title": "Il tirocinio ideale",
+ "language": "it",
+ "level": "A2",
+ "description": "Il condizionale semplice: ripasso · Il tirocinio ideale · livello medio.",
+ "topics": [
+  "Il condizionale semplice: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · condizionale presente (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco2-condizionale-ripasso",
+  "topicTitle": "Il condizionale semplice: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **condizionale** si forma dall’infinito senza **-e**. Attenzione: nei verbi in **-are** la **a** diventa **e**.\n| | lavor**are** | prend**ere** | dorm**ire** |\n| io | lavor**erei** | prend**erei** | dorm**irei** |\n| tu | lavor**eresti** | prend**eresti** | dorm**iresti** |\n| lui / lei / Lei | lavor**erebbe** | prend**erebbe** | dorm**irebbe** |\n| noi | lavor**eremmo** | prend**eremmo** | dorm**iremmo** |\n| voi | lavor**ereste** | prend**ereste** | dorm**ireste** |\n| loro | lavor**erebbero** | prend**erebbero** | dorm**irebbero** |\n**Ortografia:** cercare → cer**ch**erei, pagare → pa**gh**erei · cominciare → comin**c**erei, mangiare → man**g**erei.\n**Irregolari:** essere → **sarei**, avere → **avrei**, andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**, volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**, fare → **farei**, dire → **direi**, stare → **starei**, dare → **darei**.\n**Uso:**\n- desiderio: _**Mi piacerebbe** fare il medico._\n- richiesta gentile: _**Potrebbe** ripetere, per favore?_\n- consiglio: _Al posto tuo **parlerei** con il prof._\n- ipotesi: _**Sarebbe** un lavoro perfetto per te._",
+  "ruleHelp": "Das **Konditional** bildet man vom Infinitiv ohne **-e**; bei Verben auf **-are** wird das **a** zu **e**: _lavorare → lavorerei_. Endungen: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\nSchreibung: _cercherei, pagherei_ (mit h), _comincerei, mangerei_ (ohne i).\nUnregelmäßige Stämme: sar-, avr-, andr-, potr-, dovr-, sapr-, vedr-, vivr-, vorr-, verr-, berr-, rimarr-, terr-, far-, dir-, star-, dar-.\nGebrauch: Wunsch (_mi piacerebbe_ = ich würde gern), höfliche Bitte (_potrebbe …?_), Rat (_al posto tuo …_ = an deiner Stelle würde ich …), Vermutung. Das Deutsche braucht meist „würde“ + Infinitiv, das Italienische nur **eine** Verbform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il dialogo con il condizionale.",
+   "promptHelp": "Ergänze den Dialog mit dem Konditional.",
+   "type": "gap_fill",
+   "text": "– Chiara, dove (fare, tu) [[g1]] il tirocinio?\n– Io (andare) [[g2]] in un giornale: mi (piacere) [[g3]] scrivere articoli.\n– E (dovere, tu) [[g4]] lavorare anche il sabato?\n– Non lo so. Ma (essere, io) [[g5]] pronta a farlo!\n– Mio fratello invece (volere) [[g6]] lavorare in un’officina.\n– E i tuoi genitori che cosa (dire) [[g7]]?\n– Loro (preferire) [[g8]] un ufficio, ma lui (rimanere) [[g9]] volentieri tutto il giorno tra le macchine.\n– Senti, (venire, voi due) [[g10]] con me alla fiera del lavoro?\n– Certo! Lì (potere, noi) [[g11]] parlare con molte aziende.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "faresti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "andrei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "piacerebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dovresti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sarei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vorrebbe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "direbbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "preferirebbero"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "rimarrebbe"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "verreste"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "potremmo"
+     ]
+    }
+   ]
+  }
+ ]
+}

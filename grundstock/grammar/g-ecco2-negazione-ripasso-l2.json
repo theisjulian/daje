@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-negazione-ripasso-l2",
+ "title": "Quale parola manca?",
+ "language": "it",
+ "level": "A2",
+ "description": "La doppia negazione: ripasso · Quale parola manca? · livello facile.",
+ "topics": [
+  "La doppia negazione: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Verneinung (Wiederholung und Erweiterung: ancora, neanche, né … né)"
+ },
+ "grammar": {
+  "topic": "ecco2-negazione-ripasso",
+  "topicTitle": "La doppia negazione: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "In italiano la negazione è **doppia**: **non** prima del verbo, la seconda parola dopo il verbo.\n| non … **mai** | nie | _Non gioco mai online._ |\n| non … **niente** (nulla) | nichts | _Non capisco niente._ |\n| non … **nessuno** | niemand | _Non conosco nessuno._ |\n| non … **più** | nicht mehr | _Non uso più quell’app._ |\n| non … **ancora** | noch nicht | _Non ho ancora finito._ |\n| non … **neanche** | auch nicht, nicht einmal | _Non viene neanche Luca._ |\n| non … **né … né** | weder … noch | _Non ho né tempo né voglia._ |\n**Passato prossimo:** _mai, più, ancora_ stanno di solito tra ausiliare e participio: _Non ho **mai** visto questo film._ **Niente** e **nessuno** stanno dopo il participio: _Non ho visto **niente**. Non ho visto **nessuno**._\n**All’inizio della frase** non c’è _non_: _**Nessuno** risponde. **Niente** funziona. **Neanche** io ho un tablet._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb, das zweite Wort nach dem Verb: mai (nie), niente (nichts), nessuno (niemand), più (nicht mehr), ancora (noch nicht), neanche (auch nicht), né … né (weder … noch).\nIm passato prossimo stehen _mai, più, ancora_ meist zwischen Hilfsverb und Partizip (_Non ho mai visto …_), _niente_ und _nessuno_ nach dem Partizip (_Non ho visto niente_).\nSteht _nessuno, niente, neanche_ am Satzanfang, fällt **non** weg: _Nessuno risponde._ Anders als im Deutschen ist die doppelte Verneinung kein Fehler, sondern Pflicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das passende Wort.",
+   "explanation": "niente = cose · nessuno = persone · mai = tempo · più = prima sì, adesso no · ancora = fino ad ora no.",
+   "explanationHelp": "niente = Dinge · nessuno = Personen · mai = nie · più = nicht mehr · ancora = noch nicht.",
+   "type": "gap_choice",
+   "text": "Ho scritto nella chat, ma non ha risposto [[g1]] dei miei amici.\nIl telefono è scarico: non funziona [[g2]].\nSono le undici e Luca non ha [[g3]] finito i compiti.\nNon ho [[g4]] provato questo gioco: com’è?\nSenza Internet non posso fare [[g5]].\nNon mi piace questo video. – [[g6]] a me!\nNon ho né il tablet [[g7]] il computer.\n[[g8]] conosce la mia password: è segreta.\nChe noia, oggi online non succede [[g9]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "nessuno",
+      "niente",
+      "mai"
+     ],
+     "answer": "nessuno"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "più",
+      "nessuno",
+      "né"
+     ],
+     "answer": "più"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ancora",
+      "niente",
+      "nessuno"
+     ],
+     "answer": "ancora"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "mai",
+      "nessuno",
+      "niente"
+     ],
+     "answer": "mai"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "niente",
+      "nessuno",
+      "mai"
+     ],
+     "answer": "niente"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Neanche",
+      "Nessuno",
+      "Niente"
+     ],
+     "answer": "Neanche"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "né",
+      "neanche",
+      "non"
+     ],
+     "answer": "né"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Nessuno",
+      "Niente",
+      "Mai"
+     ],
+     "answer": "Nessuno"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "niente",
+      "nessuno",
+      "né"
+     ],
+     "answer": "niente"
+    }
+   ]
+  }
+ ]
+}

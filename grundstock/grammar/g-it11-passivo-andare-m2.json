@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-m2",
+ "title": "La candidatura per uno stage",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · La candidatura per uno stage · livello medio.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma con andare + participio.",
+   "promptHelp": "Forme um mit andare + Partizip.",
+   "explanation": "bisogna + infinito = andare + participio: Bisogna firmare il contratto. = Il contratto va firmato.",
+   "explanationHelp": "bisogna + Infinitiv = andare + Partizip.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Bisogna firmare il contratto. → Il contratto …",
+     "acceptedAnswers": [
+      "va firmato"
+     ],
+     "modelAnswer": "Il contratto va firmato."
+    },
+    {
+     "id": "s2",
+     "start": "Bisogna rispettare le scadenze. → Le scadenze …",
+     "acceptedAnswers": [
+      "vanno rispettate"
+     ],
+     "modelAnswer": "Le scadenze vanno rispettate."
+    },
+    {
+     "id": "s3",
+     "start": "Bisogna allegare una foto. → Una foto …",
+     "acceptedAnswers": [
+      "va allegata"
+     ],
+     "modelAnswer": "Una foto va allegata."
+    },
+    {
+     "id": "s4",
+     "start": "Bisogna inviare i documenti per posta elettronica. → I documenti …",
+     "acceptedAnswers": [
+      "vanno inviati"
+     ],
+     "modelAnswer": "I documenti vanno inviati per posta elettronica."
+    },
+    {
+     "id": "s5",
+     "start": "Bisogna pagare la tassa d’iscrizione. → La tassa d’iscrizione …",
+     "acceptedAnswers": [
+      "va pagata"
+     ],
+     "modelAnswer": "La tassa d’iscrizione va pagata."
+    },
+    {
+     "id": "s6",
+     "start": "Bisogna scrivere il curriculum in italiano. → Il curriculum …",
+     "acceptedAnswers": [
+      "va scritto"
+     ],
+     "modelAnswer": "Il curriculum va scritto in italiano."
+    },
+    {
+     "id": "s7",
+     "start": "Bisogna indicare le lingue conosciute. → Le lingue conosciute …",
+     "acceptedAnswers": [
+      "vanno indicate"
+     ],
+     "modelAnswer": "Le lingue conosciute vanno indicate."
+    },
+    {
+     "id": "s8",
+     "start": "Bisogna prenotare il colloquio. → Il colloquio …",
+     "acceptedAnswers": [
+      "va prenotato"
+     ],
+     "modelAnswer": "Il colloquio va prenotato."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-l1",
+ "title": "Chi è?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Chi è? · livello facile.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina persona e infinito alla forma del congiuntivo trapassato.",
+   "promptHelp": "Verbinde Person und Infinitiv mit der Form des congiuntivo trapassato.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "lui – fare",
+     "right": "avesse fatto"
+    },
+    {
+     "id": "p2",
+     "left": "noi – vedere",
+     "right": "avessimo visto"
+    },
+    {
+     "id": "p3",
+     "left": "voi – dire",
+     "right": "aveste detto"
+    },
+    {
+     "id": "p4",
+     "left": "loro – scrivere",
+     "right": "avessero scritto"
+    },
+    {
+     "id": "p5",
+     "left": "lei – partire",
+     "right": "fosse partita"
+    },
+    {
+     "id": "p6",
+     "left": "noi – arrivare",
+     "right": "fossimo arrivati"
+    },
+    {
+     "id": "p7",
+     "left": "voi – rimanere",
+     "right": "foste rimasti"
+    },
+    {
+     "id": "p8",
+     "left": "loro (Anna e Sara) – venire",
+     "right": "fossero venute"
+    }
+   ]
+  }
+ ]
+}

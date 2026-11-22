@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-l2",
+ "title": "Tre tempi del passato",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Tre tempi del passato · livello facile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che tempo è?",
+   "promptHelp": "Welche Zeitform ist das?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "pp",
+     "label": "Passato prossimo"
+    },
+    {
+     "id": "im",
+     "label": "Imperfetto"
+    },
+    {
+     "id": "tp",
+     "label": "Trapassato prossimo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "ho visto",
+     "category": "pp"
+    },
+    {
+     "id": "i2",
+     "text": "avevo visto",
+     "category": "tp"
+    },
+    {
+     "id": "i3",
+     "text": "vedevo",
+     "category": "im"
+    },
+    {
+     "id": "i4",
+     "text": "è partita",
+     "category": "pp"
+    },
+    {
+     "id": "i5",
+     "text": "era partita",
+     "category": "tp"
+    },
+    {
+     "id": "i6",
+     "text": "partiva",
+     "category": "im"
+    },
+    {
+     "id": "i7",
+     "text": "siamo arrivati",
+     "category": "pp"
+    },
+    {
+     "id": "i8",
+     "text": "eravamo arrivati",
+     "category": "tp"
+    },
+    {
+     "id": "i9",
+     "text": "avevano scritto",
+     "category": "tp"
+    },
+    {
+     "id": "i10",
+     "text": "scrivevano",
+     "category": "im"
+    },
+    {
+     "id": "i11",
+     "text": "sei stato",
+     "category": "pp"
+    },
+    {
+     "id": "i12",
+     "text": "eri stato",
+     "category": "tp"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-s1",
+ "title": "Trasforma al passivo",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Trasforma al passivo · livello difficile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma le frasi al passivo. Mantieni il tempo del verbo. Dove c’è (essere) o (venire), usa quel verbo.",
+   "promptHelp": "Forme die Sätze ins Passiv um. Behalte die Zeit bei. Wo (essere) oder (venire) steht, verwende dieses Verb.",
+   "explanation": "Tempi composti (ha organizzato, aveva invitato) → solo essere: è stata organizzata, era stato invitato.",
+   "explanationHelp": "Zusammengesetzte Zeiten → nur essere: è stata organizzata, era stato invitato.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "I volontari preparano i pacchi. → I pacchi … (venire)",
+     "acceptedAnswers": [
+      "vengono preparati dai volontari"
+     ],
+     "modelAnswer": "I pacchi vengono preparati dai volontari."
+    },
+    {
+     "id": "s2",
+     "start": "La classe 3B ha organizzato la festa. → La festa …",
+     "acceptedAnswers": [
+      "è stata organizzata dalla classe 3B"
+     ],
+     "modelAnswer": "La festa è stata organizzata dalla classe 3B."
+    },
+    {
+     "id": "s3",
+     "start": "Il Comune pagherà i lavori. → I lavori … (essere)",
+     "acceptedAnswers": [
+      "saranno pagati dal Comune"
+     ],
+     "modelAnswer": "I lavori saranno pagati dal Comune."
+    },
+    {
+     "id": "s4",
+     "start": "Molti studenti leggevano il giornalino. → Il giornalino … (venire)",
+     "acceptedAnswers": [
+      "veniva letto da molti studenti"
+     ],
+     "modelAnswer": "Il giornalino veniva letto da molti studenti."
+    },
+    {
+     "id": "s5",
+     "start": "Gli alunni hanno piantato venti alberi. → Venti alberi …",
+     "acceptedAnswers": [
+      "sono stati piantati dagli alunni"
+     ],
+     "modelAnswer": "Venti alberi sono stati piantati dagli alunni."
+    },
+    {
+     "id": "s6",
+     "start": "Una giornalista intervisterà le ragazze. → Le ragazze … (venire)",
+     "acceptedAnswers": [
+      "verranno intervistate da una giornalista"
+     ],
+     "modelAnswer": "Le ragazze verranno intervistate da una giornalista."
+    },
+    {
+     "id": "s7",
+     "start": "L’associazione aveva invitato il sindaco. → Il sindaco …",
+     "acceptedAnswers": [
+      "era stato invitato dall’associazione"
+     ],
+     "modelAnswer": "Il sindaco era stato invitato dall’associazione."
+    },
+    {
+     "id": "s8",
+     "start": "Tutti rispettano le regole. → Le regole … (essere)",
+     "acceptedAnswers": [
+      "sono rispettate da tutti"
+     ],
+     "modelAnswer": "Le regole sono rispettate da tutti."
+    }
+   ]
+  }
+ ]
+}

@@ -470,6 +470,23 @@ function answerParts(value) {
 const ownPart = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
 const GAP_MARK = /\[\[([a-z0-9-]+)\]\]/g;
 
+/* Nach der Korrektur: nur die Stellen zeigen, die noch nicht stimmen (als Liste statt als langer Absatz). */
+function solutionListHTML(q, score, lang) {
+  const u = score.units || {};
+  const bad = id => u[id] === false;
+  let rows = null;
+  const n = (i, t) => `<li value="${i + 1}"><span lang="${lang}">${rich(t)}</span></li>`;
+  if (q.type === 'gap_fill' || q.type === 'note_fill') rows = q.gaps.map((g, i) => (bad(g.id) ? n(i, g.acceptedAnswers[0]) : ''));
+  else if (q.type === 'gap_choice') rows = q.gaps.map((g, i) => (bad(g.id) ? n(i, g.answer) : ''));
+  else if (q.type === 'error_correction') rows = q.errors.map((g, i) => (bad(g.id) ? n(i, '~~' + g.wrong + '~~ → ' + g.acceptedAnswers[0]) : ''));
+  else if (q.type === 'table_fill') rows = q.rows.flat().filter(c => typeof c === 'object').map((g, i) => (bad(g.id) ? n(i, g.acceptedAnswers[0]) : ''));
+  else if (q.type === 'sentence_completion') rows = q.items.map((it, i) => (bad(it.id) ? n(i, it.modelAnswer || it.acceptedAnswers[0]) : ''));
+  else if (q.type === 'matching') rows = q.pairs.map((p, i) => (bad(p.id) ? n(i, p.left + ' → ' + p.right) : ''));
+  else if (q.type === 'categorize' || q.type === 'speaker_match') rows = q.items.map((it, i) => (bad(it.id) ? n(i, it.text + ' → ' + q.categories.find(c => c.id === it.category).label) : ''));
+  if (!rows) return `<div>Lösung: ${esc(solutionText(q))}</div>`;
+  const numbered = !['matching', 'categorize', 'speaker_match'].includes(q.type);
+  return `<div>Lösung:</div><${numbered ? 'ol' : 'ul'} class="sol-list">${rows.join('')}</${numbered ? 'ol' : 'ul'}>`;
+}
 function solutionText(q) {
   switch (q.type) {
     case 'single_choice':
@@ -550,6 +567,7 @@ function printBody(q) {
 function questionHTML(x, q, index, state) {
   const value = state.answers[q.id] ?? '';
   const correct = state.checked && TheisContent.assessAnswer(q, value);
+  const score = state.checked ? TheisContent.scoreAnswer(q, value) : { got: 0, max: 0, units: {} };
   const optionState = id => {
     if (!state.checked) return '';
     const right =
@@ -679,7 +697,7 @@ function questionHTML(x, q, index, state) {
   const feedback = state.checked && q.type === 'open_answer'
     ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${rich(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(rich(visibleText(q.explanation)))}</p>` : ''}${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}</div>`
     : state.checked
-    ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p${q.explanationHelp ? ` lang="${x.language}"` : ''}>${timeLinks(rich(visibleText(q.explanation)))}</p>${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
+    ? `<div class="listen-feedback ${correct ? 'correct' : score.got ? 'partial' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : score.got ? 'Teilweise richtig' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${score.max > 1 ? ` <span class="fb-score">${score.got} / ${score.max}</span>` : ''}${correct ? '' : solutionListHTML(q, score, x.language)}<p${q.explanationHelp ? ` lang="${x.language}"` : ''}>${timeLinks(rich(visibleText(q.explanation)))}</p>${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
     : '';
   const phase = q.prompt.match(QUESTION_PHASE);
   const prompt = phase ? q.prompt.slice(phase[0].length) : q.prompt;

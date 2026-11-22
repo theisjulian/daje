@@ -106,13 +106,17 @@
     {
      "id": "g10",
      "acceptedAnswers": [
-      "frigorifero"
+      "frigorifero",
+      "forno",
+      "tavolo"
      ]
     },
     {
      "id": "g11",
      "acceptedAnswers": [
-      "forno"
+      "forno",
+      "frigorifero",
+      "tavolo"
      ]
     },
     {
@@ -124,7 +128,9 @@
     {
      "id": "g13",
      "acceptedAnswers": [
-      "tavolo"
+      "tavolo",
+      "frigorifero",
+      "forno"
      ]
     },
     {

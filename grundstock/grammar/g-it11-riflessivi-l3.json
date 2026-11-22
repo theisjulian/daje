@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-l3",
+ "title": "Come si dice in tedesco?",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Come si dice in tedesco? · livello facile.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina le frasi alla traduzione.",
+   "promptHelp": "Verbinde die Sätze mit der Übersetzung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Ci vediamo domani.",
+     "right": "Wir sehen uns morgen."
+    },
+    {
+     "id": "p2",
+     "left": "Si sono conosciuti a Roma.",
+     "right": "Sie haben sich in Rom kennengelernt."
+    },
+    {
+     "id": "p3",
+     "left": "Mi sono accorto dell’errore.",
+     "right": "Ich habe den Fehler bemerkt."
+    },
+    {
+     "id": "p4",
+     "left": "Si è sposata a giugno.",
+     "right": "Sie hat im Juni geheiratet."
+    },
+    {
+     "id": "p5",
+     "left": "Ti ringrazio.",
+     "right": "Ich bedanke mich bei dir."
+    },
+    {
+     "id": "p6",
+     "left": "È successo ieri.",
+     "right": "Es hat sich gestern ereignet."
+    },
+    {
+     "id": "p7",
+     "left": "Mi vergogno.",
+     "right": "Ich schäme mich."
+    },
+    {
+     "id": "p8",
+     "left": "Dove ti trovi?",
+     "right": "Wo befindest du dich?"
+    },
+    {
+     "id": "p9",
+     "left": "Ci sentiamo stasera.",
+     "right": "Wir hören uns heute Abend."
+    },
+    {
+     "id": "p10",
+     "left": "Tutto è cambiato.",
+     "right": "Alles hat sich geändert."
+    }
+   ]
+  }
+ ]
+}

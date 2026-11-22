@@ -169,7 +169,10 @@
    "type": "short_answer",
    "prompt": "Correggi un errore in ogni frase.\nNoi legge il programma.",
    "acceptedAnswers": [
-    "Noi leggiamo il programma."
+    "Noi leggiamo il programma.",
+    "Leggiamo il programma.",
+    "Lui legge il programma.",
+    "Lei legge il programma."
    ],
    "modelAnswer": "Noi leggiamo il programma.",
    "promptHelp": "Schreibe den Satz richtig."
@@ -197,7 +200,10 @@
    "type": "short_answer",
    "prompt": "Tu preferisce la pizza?",
    "acceptedAnswers": [
-    "Tu preferisci la pizza?"
+    "Tu preferisci la pizza?",
+    "Preferisci la pizza?",
+    "Lei preferisce la pizza?",
+    "Lui preferisce la pizza?"
    ],
    "modelAnswer": "Tu preferisci la pizza?"
   }

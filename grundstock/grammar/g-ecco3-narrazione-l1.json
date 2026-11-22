@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-narrazione-l1",
+ "title": "Le parole del racconto",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Le parole del racconto · livello facile.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Erlebnisse erzählen: Erzähltempora und Konnektoren"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Per **raccontare** un’esperienza usiamo tre tempi:\n| **imperfetto** | descrizione, abitudine, azione in corso | _Ogni mattina **prendevo** l’autobus. **Faceva** freddo._ |\n| **passato prossimo** | fatto unico e finito | _Il primo giorno **ho conosciuto** la mia classe._ |\n| **trapassato prossimo** | fatto successo prima | _Prima di partire **avevo studiato** l’italiano._ |\nI **connettivi** mettono in ordine il racconto:\n| **all’inizio** → **poi** → **dopo un po’** → **a un certo punto** → **alla fine** | l’ordine nel tempo |\n| **mentre** + imperfetto | due azioni insieme: _**Mentre** aspettavo, è arrivata Sara._ |\n| **siccome** (all’inizio della frase) | la causa: _**Siccome** pioveva, sono rimasto a casa._ |\n| **quindi** | la conseguenza: _Pioveva, **quindi** sono rimasto a casa._ |\n| **però** | il contrasto: _Ero stanco, **però** felice._ |\n| **infatti** | conferma, esempio: _Era bravo: **infatti** ha vinto._ |",
+  "ruleHelp": "Beim **Erzählen**: **imperfetto** für Beschreibung, Gewohnheit, Hintergrund; **passato prossimo** für einmalige, abgeschlossene Ereignisse; **trapassato prossimo** für das, was vorher schon geschehen war.\n**Konnektoren**: all’inizio (am Anfang), poi (dann), dopo un po’ (nach einer Weile), a un certo punto (irgendwann), alla fine (am Ende), mentre (während), siccome (da/weil – am Satzanfang), quindi (deshalb), però (aber), infatti (tatsächlich, nämlich)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa vuol dire? Abbina.",
+   "promptHelp": "Was bedeutet das? Verbinde.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "all’inizio",
+     "right": "am Anfang"
+    },
+    {
+     "id": "p2",
+     "left": "poi",
+     "right": "dann"
+    },
+    {
+     "id": "p3",
+     "left": "dopo un po’",
+     "right": "nach einer Weile"
+    },
+    {
+     "id": "p4",
+     "left": "a un certo punto",
+     "right": "irgendwann, auf einmal"
+    },
+    {
+     "id": "p5",
+     "left": "alla fine",
+     "right": "am Ende, schließlich"
+    },
+    {
+     "id": "p6",
+     "left": "mentre",
+     "right": "während"
+    },
+    {
+     "id": "p7",
+     "left": "siccome",
+     "right": "da, weil (am Satzanfang)"
+    },
+    {
+     "id": "p8",
+     "left": "quindi",
+     "right": "deshalb, also"
+    },
+    {
+     "id": "p9",
+     "left": "però",
+     "right": "aber, jedoch"
+    },
+    {
+     "id": "p10",
+     "left": "infatti",
+     "right": "tatsächlich, nämlich"
+    }
+   ]
+  }
+ ]
+}

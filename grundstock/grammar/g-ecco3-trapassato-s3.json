@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-s3",
+ "title": "Prima e dopo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Prima e dopo · livello difficile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi: usa il trapassato prossimo con **già**.",
+   "promptHelp": "Verbinde die beiden Sätze: Verwende das trapassato prossimo mit **già**.",
+   "explanation": "**già** sta tra l’ausiliare e il participio: _era **già** partito_.",
+   "explanationHelp": "**già** steht zwischen Hilfsverb und Partizip.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Prima il treno è partito. Poi sono arrivato alla stazione. → Quando sono arrivato alla stazione, il treno …",
+     "acceptedAnswers": [
+      "era già partito"
+     ],
+     "modelAnswer": "Quando sono arrivato alla stazione, il treno era già partito."
+    },
+    {
+     "id": "s2",
+     "start": "Prima la lezione è finita. Poi Sara è entrata in classe. → Quando Sara è entrata in classe, la lezione …",
+     "acceptedAnswers": [
+      "era già finita"
+     ],
+     "modelAnswer": "Quando Sara è entrata in classe, la lezione era già finita."
+    },
+    {
+     "id": "s3",
+     "start": "Prima i miei hanno cenato. Poi sono tornata a casa. → Quando sono tornata a casa, i miei …",
+     "acceptedAnswers": [
+      "avevano già cenato"
+     ],
+     "modelAnswer": "Quando sono tornata a casa, i miei avevano già cenato."
+    },
+    {
+     "id": "s4",
+     "start": "Prima abbiamo comprato i biglietti. Poi è arrivato Luca. → Quando è arrivato Luca, noi …",
+     "acceptedAnswers": [
+      "avevamo già comprato i biglietti"
+     ],
+     "modelAnswer": "Quando è arrivato Luca, noi avevamo già comprato i biglietti."
+    },
+    {
+     "id": "s5",
+     "start": "Prima le ragazze sono uscite. Poi ho telefonato. → Quando ho telefonato, le ragazze …",
+     "acceptedAnswers": [
+      "erano già uscite"
+     ],
+     "modelAnswer": "Quando ho telefonato, le ragazze erano già uscite."
+    },
+    {
+     "id": "s6",
+     "start": "Prima hai fatto la valigia. Poi ti ho chiamato. → Quando ti ho chiamato, tu …",
+     "acceptedAnswers": [
+      "avevi già fatto la valigia"
+     ],
+     "modelAnswer": "Quando ti ho chiamato, tu avevi già fatto la valigia."
+    },
+    {
+     "id": "s7",
+     "start": "Prima il negozio ha chiuso. Poi siamo arrivati in centro. → Quando siamo arrivati in centro, il negozio …",
+     "acceptedAnswers": [
+      "aveva già chiuso"
+     ],
+     "modelAnswer": "Quando siamo arrivati in centro, il negozio aveva già chiuso."
+    },
+    {
+     "id": "s8",
+     "start": "Prima Marta si è addormentata. Poi è cominciato il film. → Quando è cominciato il film, Marta …",
+     "acceptedAnswers": [
+      "si era già addormentata"
+     ],
+     "modelAnswer": "Quando è cominciato il film, Marta si era già addormentata."
+    }
+   ]
+  }
+ ]
+}

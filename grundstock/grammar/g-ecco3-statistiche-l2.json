@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-statistiche-l2",
+ "title": "Il, l’ o lo?",
+ "language": "it",
+ "level": "B1",
+ "description": "Leggere e presentare statistiche · Il, l’ o lo? · livello facile.",
+ "topics": [
+  "Leggere e presentare statistiche",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Statistiken und Umfragen versprachlichen (Redemittel)"
+ },
+ "grammar": {
+  "topic": "ecco3-statistiche",
+  "topicTitle": "Leggere e presentare statistiche",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per **presentare una statistica** o un sondaggio usiamo queste espressioni:\n| **il 40 per cento** (40 %) di … | 40 persone su 100 |\n| **la metà** di … | 50 % |\n| **un terzo**, **un quarto**, **tre quarti** di … | 1/3, 1/4, 3/4 |\n| **la maggior parte** di … | più della metà |\n| **uno su tre** | una persona in un gruppo di tre |\n| **in aumento** / **in calo** | il numero sale / scende |\n| **rispetto a** … | in confronto a … |\n| **circa**, **quasi** | più o meno / un po’ meno di |\nPrima di **per cento** c’è sempre l’**articolo**: _**il** 20 per cento_, ma _**l’**8 per cento, **l’**11 per cento, **l’**80 per cento_ (otto, undici, ottanta cominciano con una vocale) e _**lo** 0 per cento_.\n_**La metà** della classe preferisce il Natale. **Uno** studente **su** quattro ha scelto il Carnevale. **Rispetto all’**anno scorso le risposte sono **in aumento**._",
+  "ruleHelp": "Redemittel für **Statistiken und Umfragen**: _il 40 per cento di_ (40 Prozent der …), _la metà_ (die Hälfte), _un terzo / un quarto_ (ein Drittel / Viertel), _la maggior parte_ (die meisten), _uno su tre_ (einer von dreien – mit **su**, nicht mit di oder da), _in aumento / in calo_ (steigend / sinkend), _rispetto a_ (im Vergleich zu), _circa_ (ungefähr), _quasi_ (fast).\nAnders als im Deutschen steht vor der Prozentzahl immer der **Artikel**: _il 20 per cento_, vor Vokal _l’8, l’11, l’80 per cento_, bei null _lo 0 per cento_. „Die Hälfte“ heißt **la metà** (nicht _la mezza_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli l’articolo giusto prima della percentuale. Leggi il numero a voce alta!",
+   "promptHelp": "Wähle den richtigen Artikel vor der Prozentzahl. Lies die Zahl laut!",
+   "explanation": "il venticinque, il settanta … ma: l’otto, l’undici, l’ottanta, l’uno (vocale) e lo zero.",
+   "explanationHelp": "il vor Konsonant; l’ vor Vokal (otto, undici, ottanta, uno); lo vor zero.",
+   "type": "gap_choice",
+   "text": "[[g1]] 25 per cento\n[[g2]] 80 per cento\n[[g3]] 8 per cento\n[[g4]] 15 per cento\n[[g5]] 11 per cento\n[[g6]] 50 per cento\n[[g7]] 85 per cento\n[[g8]] 70 per cento\n[[g9]] 0 per cento\n[[g10]] 1 per cento",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Il",
+      "L’",
+      "Lo"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "L’",
+      "Il",
+      "Lo"
+     ],
+     "answer": "L’"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "L’",
+      "Il",
+      "Lo"
+     ],
+     "answer": "L’"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Il",
+      "L’",
+      "Lo"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "L’",
+      "Il",
+      "Lo"
+     ],
+     "answer": "L’"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Il",
+      "L’",
+      "Lo"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "L’",
+      "Il",
+      "Lo"
+     ],
+     "answer": "L’"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Il",
+      "L’",
+      "Lo"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Lo",
+      "Il",
+      "L’"
+     ],
+     "answer": "Lo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "L’",
+      "Il",
+      "Lo"
+     ],
+     "answer": "L’"
+    }
+   ]
+  }
+ ]
+}

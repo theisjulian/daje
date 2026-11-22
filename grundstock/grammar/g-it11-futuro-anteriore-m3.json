@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-m3",
+ "title": "Chissà perché …",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Chissà perché … · livello medio.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Fai una supposizione con il futuro anteriore.",
+   "promptHelp": "Äußere eine Vermutung mit dem futuro anteriore.",
+   "explanation": "Supposizione sul passato = futuro anteriore: Avrà dormito poco. (Sie hat wohl wenig geschlafen.)",
+   "explanationHelp": "Vermutung über Vergangenes = futuro anteriore.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Perché Luca non è venuto? (dimenticare l’appuntamento)",
+     "acceptedAnswers": [
+      "avrà dimenticato"
+     ],
+     "modelAnswer": "Avrà dimenticato l’appuntamento."
+    },
+    {
+     "id": "s2",
+     "start": "Perché Giulia è così stanca? (dormire poco)",
+     "acceptedAnswers": [
+      "avrà dormito"
+     ],
+     "modelAnswer": "Avrà dormito poco."
+    },
+    {
+     "id": "s3",
+     "start": "Perché i vicini non aprono la porta? (uscire)",
+     "acceptedAnswers": [
+      "saranno usciti"
+     ],
+     "modelAnswer": "Saranno usciti."
+    },
+    {
+     "id": "s4",
+     "start": "Perché Sara ha preso un voto così bello? (studiare molto)",
+     "acceptedAnswers": [
+      "avrà studiato"
+     ],
+     "modelAnswer": "Avrà studiato molto."
+    },
+    {
+     "id": "s5",
+     "start": "Perché il treno non è ancora arrivato? (partire in ritardo)",
+     "acceptedAnswers": [
+      "sarà partito"
+     ],
+     "modelAnswer": "Sarà partito in ritardo."
+    },
+    {
+     "id": "s6",
+     "start": "Perché Matteo e Davide ridono? (vedere un video divertente)",
+     "acceptedAnswers": [
+      "avranno visto"
+     ],
+     "modelAnswer": "Avranno visto un video divertente."
+    },
+    {
+     "id": "s7",
+     "start": "Perché Chiara non ha risposto? (non sentire il telefono)",
+     "acceptedAnswers": [
+      "non avrà sentito"
+     ],
+     "modelAnswer": "Non avrà sentito il telefono."
+    },
+    {
+     "id": "s8",
+     "start": "Perché le ragazze sono già a casa? (tornare prima)",
+     "acceptedAnswers": [
+      "saranno tornate"
+     ],
+     "modelAnswer": "Saranno tornate prima."
+    }
+   ]
+  }
+ ]
+}

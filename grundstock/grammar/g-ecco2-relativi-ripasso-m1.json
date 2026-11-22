@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-m1",
+ "title": "Il festival",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Il festival · livello medio.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** venire?_\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con che, cui, chi, dove o quello che.",
+   "promptHelp": "Ergänze che, cui, chi, dove oder quello che.",
+   "explanation": "Guarda la parola prima dello spazio: c’è una preposizione? Allora cui.",
+   "explanationHelp": "Schau auf das Wort vor der Lücke: Steht dort eine Präposition, folgt cui.",
+   "type": "gap_fill",
+   "text": "– Hai visto il video [[g1]] ti ho mandato?\n– Sì! È il festival di [[g2]] parlavi ieri?\n– Esatto. È il festival a [[g3]] voglio andare a luglio.\n– E il gruppo [[g4]] suona nel video? Lo conosci?\n– Certo, sono i ragazzi con [[g5]] ha suonato mio cugino.\n– Bello! [[g6]] dice il cantante alla fine mi piace molto.\n– Senti: [[g7]] compra il biglietto oggi paga di meno.\n– E la città [[g8]] fanno il festival è lontana?\n– No, è la città da [[g9]] viene mia madre. Possiamo dormire dai nonni!\n– Perfetto. È un’idea [[g10]] mi piace!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Quello che",
+      "Ciò che"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dove",
+      "in cui"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ]
+  }
+ ]
+}

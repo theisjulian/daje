@@ -52,7 +52,7 @@
    "explanation": "Espressioni con fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa.",
    "explanationHelp": "Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa.",
    "type": "gap_fill",
-   "text": "Che cosa [[g1]] stasera? – [[g2]] i compiti.\nMarco [[g3]] sport tutti i giorni.\nNoi [[g4]] una gita a Torino.\nVoi [[g5]] colazione a scuola?\nI miei amici [[g6]] una festa sabato.\nIl pomeriggio io e mia sorella [[g7]] una passeggiata.\nTu [[g8]] attenzione in classe?\nMia madre [[g9]] la spesa il sabato.",
+   "text": "Che cosa [[g1]] stasera, Luca? – [[g2]] i compiti.\nMarco [[g3]] sport tutti i giorni.\nNoi [[g4]] una gita a Torino.\nVoi [[g5]] colazione a scuola?\nI miei amici [[g6]] una festa sabato.\nIl pomeriggio io e mia sorella [[g7]] una passeggiata.\nTu [[g8]] attenzione in classe?\nMia madre [[g9]] la spesa il sabato.",
    "gaps": [
     {
      "id": "g1",

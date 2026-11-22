@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-l3",
+ "title": "Che cosa è successo prima?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Che cosa è successo prima? · livello facile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quando Luca è arrivato alla festa, Sara era già andata via. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sara è andata via."
+    },
+    {
+     "id": "o2",
+     "text": "Luca è arrivato alla festa."
+    },
+    {
+     "id": "o3",
+     "text": "Le due cose sono successe insieme."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Ho mangiato il panino che avevo comprato in stazione. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho mangiato il panino."
+    },
+    {
+     "id": "o2",
+     "text": "Ho comprato il panino."
+    },
+    {
+     "id": "o3",
+     "text": "Sono andato in stazione dopo pranzo."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q3",
+   "prompt": "Giulia non ha trovato la strada perché aveva dimenticato il cellulare a casa. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ha dimenticato il cellulare."
+    },
+    {
+     "id": "o2",
+     "text": "Non ha trovato la strada."
+    },
+    {
+     "id": "o3",
+     "text": "Ha comprato un cellulare nuovo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Appena avevamo finito di cenare, è arrivato lo zio. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "È arrivato lo zio."
+    },
+    {
+     "id": "o2",
+     "text": "Abbiamo finito di cenare."
+    },
+    {
+     "id": "o3",
+     "text": "Lo zio ha cenato con noi."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q5",
+   "prompt": "Il treno era già partito quando siamo arrivati al binario. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il treno è partito."
+    },
+    {
+     "id": "o2",
+     "text": "Siamo arrivati al binario."
+    },
+    {
+     "id": "o3",
+     "text": "Siamo saliti sul treno."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Matteo ha superato l’esame perché aveva studiato tutta l’estate. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ha superato l’esame."
+    },
+    {
+     "id": "o2",
+     "text": "Ha studiato tutta l’estate."
+    },
+    {
+     "id": "o3",
+     "text": "Ha fatto l’esame due volte."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q7",
+   "prompt": "Quando ho aperto la valigia, ho visto che avevo preso quella di un altro passeggero. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho preso la valigia sbagliata."
+    },
+    {
+     "id": "o2",
+     "text": "Ho aperto la valigia."
+    },
+    {
+     "id": "o3",
+     "text": "Ho parlato con l’altro passeggero."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "La prof ci ha restituito i compiti che avevamo scritto la settimana prima. Che cosa è successo **prima**?",
+   "promptHelp": "Was ist **zuerst** passiert?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La prof ha restituito i compiti."
+    },
+    {
+     "id": "o2",
+     "text": "Abbiamo scritto i compiti."
+    },
+    {
+     "id": "o3",
+     "text": "La prof ha spiegato una regola nuova."
+    }
+   ],
+   "correctOptionId": "o2"
+  }
+ ]
+}
