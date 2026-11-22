@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-l3",
+ "title": "I ricordi del nonno",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · I ricordi del nonno · livello facile.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| il motivo **per** | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con le parole giuste. Ogni parola va bene una sola volta.",
+   "promptHelp": "Ergänze die passenden Wörter. Jedes passt nur einmal.",
+   "explanation": "nascere **in**, giocare **con**, orgoglioso **di**, venire **da**, scrivere **a**, preparare **su**, il motivo **per** cui.",
+   "explanationHelp": "Die Präposition hängt vom Verb oder Ausdruck ab: nascere in, giocare con, orgoglioso di, venire da, scrivere a …",
+   "type": "gap_fill",
+   "text": "Il nonno mi mostra la casa [[g1]] è nato.\nQuesti sono gli amici [[g2]] giocava in cortile.\nLa nonna ha una vecchia radio [[g3]] è molto orgogliosa.\nIl paese [[g4]] vengono i miei nonni ha solo mille abitanti.\nLa persona [[g5]] il nonno scriveva molte lettere era la nonna.\nEcco il tavolo [[g6]] la nonna preparava la pasta.\nNon c’era Internet: ecco il motivo [[g7]] i ragazzi stavano sempre fuori.\nMi piacciono molto le storie [[g8]] racconta il nonno.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "in cui"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "con cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "da cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "su cui"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "per cui"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "chi"
+   ]
+  }
+ ]
+}

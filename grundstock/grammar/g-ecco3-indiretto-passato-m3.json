@@ -1,0 +1,163 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-m3",
+ "title": "Le domande indirette",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · Le domande indirette · livello medio.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine: „Die Frau fragte mich, ob ich den Weg ins Zentrum kannte.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "La signora mi ha chiesto"
+    },
+    {
+     "id": "i2",
+     "text": "se"
+    },
+    {
+     "id": "i3",
+     "text": "conoscevo"
+    },
+    {
+     "id": "i4",
+     "text": "la strada per il centro."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti in ordine: „Der Lehrer fragte Sara, seit wann sie in Verona wohnte.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il professore ha chiesto a Sara"
+    },
+    {
+     "id": "i2",
+     "text": "da quanto tempo"
+    },
+    {
+     "id": "i3",
+     "text": "abitava"
+    },
+    {
+     "id": "i4",
+     "text": "a Verona."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti in ordine: „Meine Cousins fragten mich, wann ich nach Sizilien zurückkommen würde.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "I miei cugini"
+    },
+    {
+     "id": "i2",
+     "text": "mi hanno chiesto"
+    },
+    {
+     "id": "i3",
+     "text": "quando"
+    },
+    {
+     "id": "i4",
+     "text": "sarei tornato"
+    },
+    {
+     "id": "i5",
+     "text": "in Sicilia."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Se, che, di o una parola interrogativa? Scegli.",
+   "promptHelp": "Se, che, di oder ein Fragewort? Wähle aus.",
+   "explanation": "Domanda sì / no → se; domanda con parola interrogativa → dove, quando, perché …; richiesta → di + infinito.",
+   "explanationHelp": "Ja/Nein-Frage → se (ob); Frage mit Fragewort → dove, quando, perché …; Bitte → di + Infinitiv.",
+   "type": "gap_choice",
+   "text": "Il turista ha chiesto [[g1]] il museo era aperto la domenica.\nMia madre mi ha chiesto [[g2]] avevo messo le chiavi.\nIl controllore ci ha chiesto [[g3]] mostrare il biglietto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "se",
+      "che",
+      "di"
+     ],
+     "answer": "se"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dove",
+      "che",
+      "di"
+     ],
+     "answer": "dove"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "di",
+      "se",
+      "che"
+     ],
+     "answer": "di"
+    }
+   ]
+  }
+ ]
+}

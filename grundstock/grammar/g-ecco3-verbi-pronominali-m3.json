@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-verbi-pronominali-m3",
+ "title": "E ieri?",
+ "language": "it",
+ "level": "B1",
+ "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · E ieri? · livello medio.",
+ "topics": [
+  "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Approfondimento"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+ },
+ "grammar": {
+  "topic": "ecco3-verbi-pronominali",
+  "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_).",
+  "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti il verbo al passato prossimo.",
+   "promptHelp": "Setze das Verb ins passato prossimo.",
+   "explanation": "Con -la il participio finisce in -a: fatta, cavata, presa, messa. Andarsene e volerci vogliono essere.",
+   "explanationHelp": "Bei -la endet das Partizip auf -a: fatta, cavata, presa, messa. Andarsene und volerci bilden das Perfekt mit essere.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Oggi ce la faccio. → Anche ieri …",
+     "acceptedAnswers": [
+      "ce l’ho fatta"
+     ],
+     "modelAnswer": "Anche ieri ce l’ho fatta."
+    },
+    {
+     "id": "s2",
+     "start": "Marta se ne va presto. → Anche ieri Marta …",
+     "acceptedAnswers": [
+      "se n’è andata presto",
+      "se ne è andata presto"
+     ]
+    },
+    {
+     "id": "s3",
+     "start": "Me la cavo bene. → Anche all’esame …",
+     "acceptedAnswers": [
+      "me la sono cavata bene"
+     ],
+     "modelAnswer": "Anche all’esame me la sono cavata bene."
+    },
+    {
+     "id": "s4",
+     "start": "Luca se la prende. → Anche ieri Luca …",
+     "acceptedAnswers": [
+      "se l’è presa",
+      "se la è presa"
+     ]
+    },
+    {
+     "id": "s5",
+     "start": "Ce la mettiamo tutta. → Anche nella partita di ieri …",
+     "acceptedAnswers": [
+      "ce l’abbiamo messa tutta"
+     ],
+     "modelAnswer": "Anche nella partita di ieri ce l’abbiamo messa tutta."
+    },
+    {
+     "id": "s6",
+     "start": "I miei amici se ne vanno. → Ieri sera i miei amici …",
+     "acceptedAnswers": [
+      "se ne sono andati"
+     ],
+     "modelAnswer": "Ieri sera i miei amici se ne sono andati."
+    },
+    {
+     "id": "s7",
+     "start": "Ci vuole un’ora. → Anche ieri …",
+     "acceptedAnswers": [
+      "c’è voluta un’ora",
+      "ci è voluta un’ora"
+     ]
+    },
+    {
+     "id": "s8",
+     "start": "Ci metto venti minuti. → Anche ieri …",
+     "acceptedAnswers": [
+      "ci ho messo venti minuti",
+      "c’ho messo venti minuti"
+     ]
+    },
+    {
+     "id": "s9",
+     "start": "Ragazzi, ce la fate? → Ragazzi, ieri …?",
+     "acceptedAnswers": [
+      "ce l’avete fatta"
+     ],
+     "modelAnswer": "Ragazzi, ieri ce l’avete fatta?"
+    }
+   ]
+  }
+ ]
+}

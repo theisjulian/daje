@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-l3",
+ "title": "Il relativo giusto",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Il relativo giusto · livello facile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa le frasi con i pronomi relativi.",
+   "promptHelp": "Ergänze die Sätze mit den Relativpronomen aus dem Kasten.",
+   "explanation": "il cui / la cui / i cui / le cui: l’articolo concorda con il nome che segue (il cui articolo, le cui strade). Chi = la persona che; ciò che = la cosa che.",
+   "explanationHelp": "Bei il cui / la cui / i cui / le cui richtet sich der Artikel nach dem folgenden Nomen. Chi = wer, derjenige, der; ciò che = das, was.",
+   "type": "gap_fill",
+   "text": "Il giornalista [[g1]] articolo ha vinto il premio lavora a Torino.\nLa scrittrice [[g2]] famiglia viene dalla Sicilia vive a Roma.\nUn’azienda [[g3]] dipendenti lavorano da casa risparmia energia.\nÈ una città [[g4]] strade sono sempre piene di turisti.\nIl progetto [[g5]] ti ho parlato riguarda l’energia solare.\nI ragazzi [[g6]] partecipano allo scambio partono domani.\n[[g7]] vuole studiare all’estero deve informarsi presto.\n[[g8]] mi preoccupa di più è il cambiamento climatico.\nHo intervistato venti studenti, molti [[g9]] lavorano già.\nLa professoressa [[g10]] ho scritto mi ha risposto subito.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il cui"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "la cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "i cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "del quale"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Ciò che"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dei quali"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "alla quale"
+     ]
+    }
+   ],
+   "wordBank": true
+  }
+ ]
+}

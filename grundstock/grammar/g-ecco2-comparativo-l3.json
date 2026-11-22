@@ -1,0 +1,142 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-l3",
+ "title": "Di o che?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · Di o che? · livello facile.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das richtige Wort.",
+   "explanation": "di (+ articolo) prima di un nome o pronome; che tra due aggettivi, due verbi, due quantità e prima di una preposizione.",
+   "explanationHelp": "di (+ Artikel) vor Nomen oder Pronomen; che zwischen zwei Adjektiven, zwei Verben, zwei Mengen und vor einer Präposition.",
+   "type": "gap_choice",
+   "text": "Roma è più grande [[g1]] Firenze.\nSara è più alta [[g2]] me.\nIl Colosseo è più antico [[g3]] Basilica di San Pietro.\nA Roma fa più caldo [[g4]] a Monaco.\nÈ più divertente viaggiare [[g5]] stare a casa.\nQuesta strada è più lunga [[g6]] larga.\nIn classe ci sono più ragazze [[g7]] ragazzi.\nL’aereo è più veloce [[g8]] treno.\nMatteo è meno sportivo [[g9]] sua sorella.\nMi piace più leggere [[g10]] guardare la TV.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "di",
+      "che"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "di",
+      "che"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "della",
+      "che la",
+      "di"
+     ],
+     "answer": "della"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "che",
+      "di"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "che",
+      "di"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "che",
+      "di"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "che",
+      "di"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "del",
+      "che",
+      "dello"
+     ],
+     "answer": "del"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "di",
+      "che"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "che",
+      "di"
+     ],
+     "answer": "che"
+    }
+   ]
+  }
+ ]
+}

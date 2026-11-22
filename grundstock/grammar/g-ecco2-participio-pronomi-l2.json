@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-l2",
+ "title": "Domanda e risposta",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Domanda e risposta · livello facile.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la domanda alla risposta giusta. Guarda il pronome e il participio!",
+   "promptHelp": "Verbinde die Frage mit der passenden Antwort. Achte auf Pronomen und Partizip!",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Hai visto il Colosseo?",
+     "right": "Sì, l’ho visto stamattina."
+    },
+    {
+     "id": "p2",
+     "left": "Hai visto la Fontana di Trevi?",
+     "right": "Sì, l’ho vista ieri sera."
+    },
+    {
+     "id": "p3",
+     "left": "Hai comprato i biglietti?",
+     "right": "Sì, li ho comprati online."
+    },
+    {
+     "id": "p4",
+     "left": "Hai comprato le cartoline?",
+     "right": "Sì, le ho comprate in centro."
+    },
+    {
+     "id": "p5",
+     "left": "Hai chiamato Luca e Davide?",
+     "right": "No, non li ho chiamati."
+    },
+    {
+     "id": "p6",
+     "left": "Hai chiamato Sara e Chiara?",
+     "right": "No, non le ho chiamate."
+    },
+    {
+     "id": "p7",
+     "left": "Hai preso la metro?",
+     "right": "No, non l’ho presa."
+    },
+    {
+     "id": "p8",
+     "left": "Hai preso l’autobus?",
+     "right": "No, non l’ho preso."
+    }
+   ]
+  }
+ ]
+}

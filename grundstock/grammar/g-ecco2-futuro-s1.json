@@ -1,0 +1,158 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-futuro-s1",
+ "title": "Errori e ipotesi",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Errori e ipotesi · livello difficile.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+  "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi la forma sbagliata del futuro.",
+   "promptHelp": "Korrigiere die falsche Futurform.",
+   "explanation": "andare → andrò, potere → potrò, vedere → vedrò (senza -e-); venire → verrò, rimanere → rimarrò, bere → berrò (con -rr-).",
+   "explanationHelp": "andrò, potrò, vedrò (ohne -e-); verrò, rimarrò, berrò (mit -rr-).",
+   "type": "error_correction",
+   "text": "Domani [[g1]] dal dentista.\nChi [[g2]] il conto?\nLa lezione [[g3]] alle nove.\nI miei amici [[g4]] alla festa.\nNoi non [[g5]] uscire stasera.\nDopo il film [[g6]] un’intervista con il regista.\nQuest’estate Marta [[g7]] in città.\nA cena io [[g8]] solo acqua.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "anderò",
+     "acceptedAnswers": [
+      "andrò"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "pagerà",
+     "acceptedAnswers": [
+      "pagherà"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "cominciarà",
+     "acceptedAnswers": [
+      "comincerà"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "veniranno",
+     "acceptedAnswers": [
+      "verranno"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "poteremo",
+     "acceptedAnswers": [
+      "potremo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "vederete",
+     "acceptedAnswers": [
+      "vedrete"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "rimanerà",
+     "acceptedAnswers": [
+      "rimarrà"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "beverò",
+     "acceptedAnswers": [
+      "berrò"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Non sei sicuro: fai un’ipotesi con il futuro.",
+   "promptHelp": "Du bist nicht sicher: Äußere eine Vermutung mit dem Futur.",
+   "explanation": "Il futuro esprime anche un’ipotesi: _Sarà in palestra_ = forse è in palestra.",
+   "explanationHelp": "Das Futur drückt auch eine Vermutung aus: _Sarà in palestra_ = Er ist wohl im Fitnessstudio.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "– Dov’è Luca? – Non lo so, … (essere in palestra)",
+     "acceptedAnswers": [
+      "sarà in palestra"
+     ],
+     "modelAnswer": "Non lo so, sarà in palestra."
+    },
+    {
+     "id": "s2",
+     "start": "– Quanti anni ha la prof? – Mah, … (avere quarant’anni)",
+     "acceptedAnswers": [
+      "avrà quarant’anni"
+     ],
+     "modelAnswer": "Mah, avrà quarant’anni."
+    },
+    {
+     "id": "s3",
+     "start": "– Che ore sono? – Non ho l’orologio, … (essere le cinque)",
+     "acceptedAnswers": [
+      "saranno le cinque"
+     ],
+     "modelAnswer": "Non ho l’orologio, saranno le cinque."
+    },
+    {
+     "id": "s4",
+     "start": "– Perché i nonni non rispondono al telefono? – … (dormire)",
+     "acceptedAnswers": [
+      "dormiranno"
+     ],
+     "modelAnswer": "Dormiranno."
+    }
+   ]
+  }
+ ]
+}

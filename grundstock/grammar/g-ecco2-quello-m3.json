@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-m3",
+ "title": "Quale? Quello!",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello come accompagnatore · Quale? Quello! · livello medio.",
+ "topics": [
+  "Quello come accompagnatore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+ },
+ "grammar": {
+  "topic": "ecco2-quello",
+  "topicTitle": "Quello come accompagnatore",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+  "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con quello, quella, quelli o quelle + la parola tra parentesi. Attenzione alla forma dell’aggettivo!",
+   "promptHelp": "Antworte mit quello, quella, quelli oder quelle + dem Wort in Klammern. Achte auf die Form des Adjektivs!",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "– Quale telefono compri? (nero) – …",
+     "acceptedAnswers": [
+      "quello nero"
+     ],
+     "modelAnswer": "Quello nero."
+    },
+    {
+     "id": "s2",
+     "start": "– Quale bicicletta prendi? (verde) – …",
+     "acceptedAnswers": [
+      "quella verde"
+     ],
+     "modelAnswer": "Quella verde."
+    },
+    {
+     "id": "s3",
+     "start": "– Quali scarpe metti? (bianco) – …",
+     "acceptedAnswers": [
+      "quelle bianche"
+     ],
+     "modelAnswer": "Quelle bianche."
+    },
+    {
+     "id": "s4",
+     "start": "– Quali libri leggi? (di Luca) – …",
+     "acceptedAnswers": [
+      "quelli di Luca"
+     ],
+     "modelAnswer": "Quelli di Luca."
+    },
+    {
+     "id": "s5",
+     "start": "– Quale film guardiamo? (di ieri) – …",
+     "acceptedAnswers": [
+      "quello di ieri"
+     ],
+     "modelAnswer": "Quello di ieri."
+    },
+    {
+     "id": "s6",
+     "start": "– Quali foto ti piacciono? (vecchio) – …",
+     "acceptedAnswers": [
+      "quelle vecchie"
+     ],
+     "modelAnswer": "Quelle vecchie."
+    },
+    {
+     "id": "s7",
+     "start": "– Quali occhiali sono i tuoi? (rosso) – …",
+     "acceptedAnswers": [
+      "quelli rossi"
+     ],
+     "modelAnswer": "Quelli rossi."
+    },
+    {
+     "id": "s8",
+     "start": "– Quale giacca è di Sara? (blu) – …",
+     "acceptedAnswers": [
+      "quella blu"
+     ],
+     "modelAnswer": "Quella blu."
+    }
+   ]
+  }
+ ]
+}

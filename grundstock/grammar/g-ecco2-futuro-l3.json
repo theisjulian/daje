@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-futuro-l3",
+ "title": "Il futuro secondo Matteo",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Il futuro secondo Matteo · livello facile.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+  "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Matteo immagina il futuro. Completa con i verbi giusti.",
+   "promptHelp": "Matteo stellt sich die Zukunft vor. Ergänze die passenden Verben.",
+   "type": "gap_fill",
+   "text": "Fra vent’anni io [[g1]] un medico famoso.\nTu, Chiara, [[g2]] sicuramente tre gatti.\nNoi due [[g3]] in vacanza sulla Luna!\nI robot [[g4]] tutti i lavori di casa.\nDavide [[g5]] in una casa sull’acqua.\nVoi [[g6]] venire a trovarmi quando volete.\nLe macchine [[g7]] tutte elettriche.\nE a scuola? Non [[g8]] più portare lo zaino!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sarò"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avrai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "andremo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "faranno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vivrà"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "potrete"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "saranno"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dovremo"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "sarai",
+    "andrai"
+   ]
+  }
+ ]
+}

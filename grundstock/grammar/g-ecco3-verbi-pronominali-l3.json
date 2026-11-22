@@ -1,0 +1,192 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-verbi-pronominali-l3",
+ "title": "Hai capito bene?",
+ "language": "it",
+ "level": "B1",
+ "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Hai capito bene? · livello facile.",
+ "topics": [
+  "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Approfondimento"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+ },
+ "grammar": {
+  "topic": "ecco3-verbi-pronominali",
+  "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_).",
+  "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sara dice: «Non me la sento di cantare davanti a tutti.» Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet der Satz?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ha il coraggio di farlo."
+    },
+    {
+     "id": "o2",
+     "text": "Non sente bene la musica."
+    },
+    {
+     "id": "o3",
+     "text": "Non ha voglia di ascoltare."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Luca dice: «Io non c’entro niente!» Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet der Satz?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non posso entrare."
+    },
+    {
+     "id": "o2",
+     "text": "Non è colpa mia."
+    },
+    {
+     "id": "o3",
+     "text": "Non ho capito niente."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q3",
+   "prompt": "Giulia dice: «Ci tengo molto alla nostra amicizia.» Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet der Satz?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La tengo segreta."
+    },
+    {
+     "id": "o2",
+     "text": "Non mi interessa più."
+    },
+    {
+     "id": "o3",
+     "text": "Per me è molto importante."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q4",
+   "prompt": "La mamma chiede: «Quanto ci metti a prepararti?» Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet der Satz?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Di quanto tempo hai bisogno?"
+    },
+    {
+     "id": "o2",
+     "text": "Che vestiti ti metti?"
+    },
+    {
+     "id": "o3",
+     "text": "Dove metti le tue cose?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Il papà dice ai bambini: «Finitela!» Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet der Satz?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Finite i compiti!"
+    },
+    {
+     "id": "o2",
+     "text": "Smettete subito!"
+    },
+    {
+     "id": "o3",
+     "text": "Mangiate tutto!"
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q6",
+   "prompt": "Ci vuole, ci vogliono o ci metto?",
+   "promptHelp": "Ci vuole, ci vogliono oder ci metto?",
+   "explanation": "ci vuole + singolare, ci vogliono + plurale (in generale); metterci con una persona: io ci metto …",
+   "explanationHelp": "ci vuole + Singular, ci vogliono + Plural (allgemein); metterci mit Person: io ci metto …",
+   "type": "gap_choice",
+   "text": "Per fare un buon ragù [[g1]] almeno due ore.\nPer imparare una lingua [[g2]] pazienza.\nIo [[g3]] dieci minuti per arrivare a scuola.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ci vogliono",
+      "ci vuole",
+      "ci mette"
+     ],
+     "answer": "ci vogliono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ci vuole",
+      "ci vogliono",
+      "ci mettono"
+     ],
+     "answer": "ci vuole"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ci metto",
+      "ci voglio",
+      "ci vuole"
+     ],
+     "answer": "ci metto"
+    }
+   ]
+  }
+ ]
+}

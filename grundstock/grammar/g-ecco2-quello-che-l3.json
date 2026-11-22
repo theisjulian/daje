@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-che-l3",
+ "title": "Che cosa manca?",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello che e ciò che · Che cosa manca? · livello facile.",
+ "topics": [
+  "Quello che e ciò che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+ },
+ "grammar": {
+  "topic": "ecco2-quello-che",
+  "topicTitle": "Quello che e ciò che",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+  "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa manca al posto dei puntini?",
+   "promptHelp": "Was fehlt an der Stelle der Punkte?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "che (dopo un nome)"
+    },
+    {
+     "id": "b",
+     "label": "quello che / ciò che (senza nome)"
+    },
+    {
+     "id": "c",
+     "label": "che cosa (domanda)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il treno … prendiamo parte alle otto.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "… prendiamo da bere?",
+     "category": "c"
+    },
+    {
+     "id": "i3",
+     "text": "… mi piace di più è il gelato.",
+     "category": "b"
+    },
+    {
+     "id": "i4",
+     "text": "Ho perso la cartolina … ho comprato ieri.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "… ha detto la guida?",
+     "category": "c"
+    },
+    {
+     "id": "i6",
+     "text": "Non credo a tutto … leggo online.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "… fate stasera?",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "La ragazza … parla con Luca è mia cugina.",
+     "category": "a"
+    },
+    {
+     "id": "i9",
+     "text": "… scrivi nel tema è molto bello.",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

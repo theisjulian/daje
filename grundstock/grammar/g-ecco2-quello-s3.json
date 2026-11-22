@@ -1,0 +1,162 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-s3",
+ "title": "Qual è la forma giusta?",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello come accompagnatore · Qual è la forma giusta? · livello difficile.",
+ "topics": [
+  "Quello come accompagnatore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 17,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+ },
+ "grammar": {
+  "topic": "ecco2-quello",
+  "topicTitle": "Quello come accompagnatore",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+  "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Quelli libri sono miei, quei sono tuoi."
+    },
+    {
+     "id": "o2",
+     "text": "Quei libri sono miei, quelli sono tuoi."
+    },
+    {
+     "id": "o3",
+     "text": "Quegli libri sono miei, quelli sono tuoi."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q2",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Conosci quello psicologo?"
+    },
+    {
+     "id": "o2",
+     "text": "Conosci quel psicologo?"
+    },
+    {
+     "id": "o3",
+     "text": "Conosci quell’psicologo?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "– Quale gelato vuoi?",
+   "promptHelp": "Welche Antwort ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Quel al cioccolato."
+    },
+    {
+     "id": "o2",
+     "text": "Quell’al cioccolato."
+    },
+    {
+     "id": "o3",
+     "text": "Quello al cioccolato."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q4",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Che belli quei stivali!"
+    },
+    {
+     "id": "o2",
+     "text": "Che belli quegli stivali!"
+    },
+    {
+     "id": "o3",
+     "text": "Che belli quelli stivali!"
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è il plurale di «quell’amico»?",
+   "promptHelp": "Wie lautet der Plural von «quell’amico»?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "quei amici"
+    },
+    {
+     "id": "o2",
+     "text": "quelli amici"
+    },
+    {
+     "id": "o3",
+     "text": "quegli amici"
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q6",
+   "prompt": "Descrivi una vecchia foto (vera o inventata) in 4–5 frasi. Usa forme diverse di quello: quel, quella, quell’, quei, quegli, quelle.",
+   "promptHelp": "Beschreibe ein altes Foto (echt oder erfunden) in 4–5 Sätzen. Verwende verschiedene Formen von quello.",
+   "type": "open_answer",
+   "modelAnswer": "In questa foto ci sono i miei nonni da giovani. Quel ragazzo con la bicicletta è mio nonno. Quella ragazza con il vestito bianco è mia nonna. Quegli alberi sono nel giardino della loro prima casa. In quegli anni abitavano in un piccolo paese. Quell’estate si sono sposati.",
+   "lines": 6
+  }
+ ]
+}

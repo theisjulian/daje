@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-date-storiche-m3",
+ "title": "Domande di storia",
+ "language": "it",
+ "level": "A2",
+ "description": "Date e anni nella storia · Domande di storia · livello medio.",
+ "topics": [
+  "Date e anni nella storia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+ },
+ "grammar": {
+  "topic": "ecco2-date-storiche",
+  "topicTitle": "Date e anni nella storia",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XV = 15, XIX = 19, XX = 20, XXI = 21.",
+  "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con una frase intera. Usa l’informazione tra parentesi.",
+   "promptHelp": "Antworte mit einem ganzen Satz. Verwende die Angabe in Klammern.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Quando è arrivato Colombo in America? (1492)",
+     "acceptedAnswers": [
+      "nel 1492"
+     ],
+     "modelAnswer": "Colombo è arrivato in America nel 1492."
+    },
+    {
+     "id": "s2",
+     "start": "Quando è caduto il Muro di Berlino? (1989)",
+     "acceptedAnswers": [
+      "nel 1989"
+     ],
+     "modelAnswer": "Il Muro di Berlino è caduto nel 1989."
+    },
+    {
+     "id": "s3",
+     "start": "Quando hanno scelto la repubblica gli italiani? (2 giugno 1946)",
+     "acceptedAnswers": [
+      "il 2 giugno 1946"
+     ],
+     "modelAnswer": "Gli italiani hanno scelto la repubblica il 2 giugno 1946."
+    },
+    {
+     "id": "s4",
+     "start": "Quanto è durata la seconda guerra mondiale? (1939 → 1945)",
+     "acceptedAnswers": [
+      "dal 1939 al 1945"
+     ],
+     "modelAnswer": "La seconda guerra mondiale è durata dal 1939 al 1945."
+    },
+    {
+     "id": "s5",
+     "start": "Quando hanno inaugurato il Colosseo i Romani? (80 d.C.)",
+     "acceptedAnswers": [
+      "nell’80"
+     ],
+     "modelAnswer": "I Romani hanno inaugurato il Colosseo nell’80 d.C."
+    },
+    {
+     "id": "s6",
+     "start": "Da quando si paga con l’euro in Italia? (2002 → oggi)",
+     "acceptedAnswers": [
+      "dal 2002"
+     ],
+     "modelAnswer": "In Italia si paga con l’euro dal 2002."
+    },
+    {
+     "id": "s7",
+     "start": "Quando hanno firmato i Trattati di Roma? (1957)",
+     "acceptedAnswers": [
+      "nel 1957"
+     ],
+     "modelAnswer": "Hanno firmato i Trattati di Roma nel 1957."
+    },
+    {
+     "id": "s8",
+     "start": "Quando è nato il nonno di Sara? (1950)",
+     "acceptedAnswers": [
+      "nel 1950"
+     ],
+     "modelAnswer": "Il nonno di Sara è nato nel 1950."
+    },
+    {
+     "id": "s9",
+     "start": "Da quando a quando ha abitato a Roma la nonna di Luca? (1975 → 1990)",
+     "acceptedAnswers": [
+      "dal 1975 al 1990"
+     ],
+     "modelAnswer": "La nonna di Luca ha abitato a Roma dal 1975 al 1990."
+    }
+   ]
+  }
+ ]
+}

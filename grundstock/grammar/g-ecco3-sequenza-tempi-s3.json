@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-sequenza-tempi-s3",
+ "title": "Dal presente al passato",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Dal presente al passato · livello difficile.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+  "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit immer mit dem **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti la frase principale al passato e cambia la frase secondaria.",
+   "promptHelp": "Setze den Hauptsatz in die Vergangenheit und passe den Nebensatz an.",
+   "explanation": "congiuntivo presente → imperfetto · congiuntivo passato → trapassato · futuro → condizionale composto · passato prossimo → trapassato prossimo.",
+   "explanationHelp": "congiuntivo presente → imperfetto · congiuntivo passato → trapassato · Futur → condizionale composto · passato prossimo → trapassato prossimo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Penso che Luca abbia ragione. → Pensavo che Luca …",
+     "acceptedAnswers": [
+      "avesse ragione"
+     ],
+     "modelAnswer": "Pensavo che Luca avesse ragione."
+    },
+    {
+     "id": "s2",
+     "start": "Credo che Sara sia già partita. → Credevo che Sara …",
+     "acceptedAnswers": [
+      "fosse già partita"
+     ],
+     "modelAnswer": "Credevo che Sara fosse già partita."
+    },
+    {
+     "id": "s3",
+     "start": "So che Davide verrà. → Sapevo che Davide …",
+     "acceptedAnswers": [
+      "sarebbe venuto"
+     ],
+     "modelAnswer": "Sapevo che Davide sarebbe venuto."
+    },
+    {
+     "id": "s4",
+     "start": "Mi sembra che i ragazzi non capiscano. → Mi sembrava che i ragazzi …",
+     "acceptedAnswers": [
+      "non capissero"
+     ],
+     "modelAnswer": "Mi sembrava che i ragazzi non capissero."
+    },
+    {
+     "id": "s5",
+     "start": "Spero che abbiate trovato la strada. → Speravo che …",
+     "acceptedAnswers": [
+      "aveste trovato la strada"
+     ],
+     "modelAnswer": "Speravo che aveste trovato la strada."
+    },
+    {
+     "id": "s6",
+     "start": "Sono sicuro che vincerà la nostra squadra. → Ero sicuro che …",
+     "acceptedAnswers": [
+      "avrebbe vinto la nostra squadra",
+      "la nostra squadra avrebbe vinto"
+     ]
+    },
+    {
+     "id": "s7",
+     "start": "È strano che nessuno risponda. → Era strano che nessuno …",
+     "acceptedAnswers": [
+      "rispondesse"
+     ],
+     "modelAnswer": "Era strano che nessuno rispondesse."
+    },
+    {
+     "id": "s8",
+     "start": "Dicono che il treno è partito in orario. → Dicevano che il treno …",
+     "acceptedAnswers": [
+      "era partito in orario"
+     ],
+     "modelAnswer": "Dicevano che il treno era partito in orario."
+    }
+   ]
+  }
+ ]
+}

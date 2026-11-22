@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-sequenza-tempi-s2",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Trova gli errori · livello difficile.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+  "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit immer mit dem **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un errore nel tempo o nel modo. Correggilo.",
+   "promptHelp": "In jedem Satz steckt ein Fehler bei Zeit oder Modus. Korrigiere ihn.",
+   "explanation": "Dopo sapere e essere sicuro: indicativo. Dopo pensare, credere, sperare, sembrare: congiuntivo.",
+   "explanationHelp": "Nach sapere und essere sicuro: Indikativ. Nach pensare, credere, sperare, sembrare: congiuntivo.",
+   "type": "error_correction",
+   "text": "Pensavo che tu [[g1]] di Napoli.\nSpero che tu [[g2]] capito tutto.\nSapevo che Luisa [[g3]] alla festa del giorno dopo.\nNon credevo che i biglietti [[g4]] così tanto.\nMi sembrava che Paolo [[g5]] l’appuntamento.\nPenso che domani [[g6]].\nEravamo sicuri che voi [[g7]] prima di noi.\nSo che l’anno scorso Sara [[g8]] a Bologna.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "sia",
+     "acceptedAnswers": [
+      "fossi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "avessi",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "verrà",
+     "acceptedAnswers": [
+      "sarebbe venuta"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "costino",
+     "acceptedAnswers": [
+      "costassero"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "abbia dimenticato",
+     "acceptedAnswers": [
+      "avesse dimenticato"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "piovesse",
+     "acceptedAnswers": [
+      "pioverà",
+      "piova"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "arriverete",
+     "acceptedAnswers": [
+      "sareste arrivati",
+      "sareste arrivate"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "abbia studiato",
+     "acceptedAnswers": [
+      "ha studiato"
+     ]
+    }
+   ]
+  }
+ ]
+}

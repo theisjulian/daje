@@ -1,0 +1,135 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-s3",
+ "title": "Dillo in un altro modo",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · Dillo in un altro modo · livello difficile.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la seconda frase: il significato non cambia.",
+   "promptHelp": "Ergänze den zweiten Satz: Die Bedeutung bleibt gleich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca è più alto di Marco. → Marco è …",
+     "acceptedAnswers": [
+      "meno alto di Luca",
+      "più basso di Luca"
+     ],
+     "modelAnswer": "Marco è meno alto di Luca. (Anche: Marco è più basso di Luca.)"
+    },
+    {
+     "id": "s2",
+     "start": "Il treno è più caro dell’autobus. → L’autobus è …",
+     "acceptedAnswers": [
+      "meno caro del treno",
+      "più economico del treno"
+     ],
+     "modelAnswer": "L’autobus è meno caro del treno. (Anche: più economico del treno.)"
+    },
+    {
+     "id": "s3",
+     "start": "Sara canta meglio di me. → Io canto …",
+     "acceptedAnswers": [
+      "peggio di Sara"
+     ],
+     "modelAnswer": "Io canto peggio di Sara."
+    },
+    {
+     "id": "s4",
+     "start": "Il primo film è migliore del secondo. → Il secondo film è …",
+     "acceptedAnswers": [
+      "peggiore del primo",
+      "meno buono del primo"
+     ],
+     "modelAnswer": "Il secondo film è peggiore del primo. (Anche: meno buono del primo.)"
+    },
+    {
+     "id": "s5",
+     "start": "Giulia è alta 1,65 m e anche Chiara è alta 1,65 m. → Giulia è …",
+     "acceptedAnswers": [
+      "alta come Chiara",
+      "alta quanto Chiara"
+     ],
+     "modelAnswer": "Giulia è alta come Chiara. (Anche: alta quanto Chiara.)"
+    },
+    {
+     "id": "s6",
+     "start": "Mi piace leggere, ma mi piace di più viaggiare. → Mi piace più viaggiare …",
+     "acceptedAnswers": [
+      "che leggere"
+     ],
+     "modelAnswer": "Mi piace più viaggiare che leggere."
+    },
+    {
+     "id": "s7",
+     "start": "A Roma ci sono 30 gradi, a Monaco 22. → A Roma fa più caldo …",
+     "acceptedAnswers": [
+      "che a Monaco"
+     ],
+     "modelAnswer": "A Roma fa più caldo che a Monaco."
+    },
+    {
+     "id": "s8",
+     "start": "Paolo ha 20 anni, Tommaso ha 8 anni. → Paolo è …",
+     "acceptedAnswers": [
+      "maggiore di Tommaso",
+      "più grande di Tommaso",
+      "più vecchio di Tommaso"
+     ],
+     "modelAnswer": "Paolo è maggiore di Tommaso. (Anche: più grande di Tommaso, più vecchio di Tommaso.)"
+    },
+    {
+     "id": "s9",
+     "start": "In classe ci sono 15 ragazze e 10 ragazzi. → Ci sono più ragazze …",
+     "acceptedAnswers": [
+      "che ragazzi"
+     ],
+     "modelAnswer": "Ci sono più ragazze che ragazzi."
+    }
+   ]
+  }
+ ]
+}

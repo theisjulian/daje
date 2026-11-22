@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-m1",
+ "title": "Una vecchia foto di famiglia",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello come accompagnatore · Una vecchia foto di famiglia · livello medio.",
+ "topics": [
+  "Quello come accompagnatore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+ },
+ "grammar": {
+  "topic": "ecco2-quello",
+  "topicTitle": "Quello come accompagnatore",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+  "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la forma giusta di quello.",
+   "promptHelp": "Schreibe die richtige Form von quello.",
+   "explanation": "Conta la parola che viene subito dopo: **quello** strano oggetto, **quel** piccolo orologio, ma **quell’**orologio.",
+   "explanationHelp": "Entscheidend ist das direkt folgende Wort: quello strano oggetto, quel piccolo orologio, aber quell’orologio.",
+   "type": "gap_fill",
+   "text": "Guarda [[g1]] foto: è molto vecchia!\n[[g2]] signore con i baffi è mio nonno.\n[[g3]] uomo accanto a lui è suo fratello.\n[[g4]] due bambini sono i miei zii.\n[[g5]] alberi oggi non ci sono più.\n[[g6]] strano oggetto sul tavolo è una vecchia radio.\n[[g7]] ragazze sono le amiche della nonna.\nIn [[g8]] anno la mia famiglia abitava ancora in campagna.\n[[g9]] piccolo orologio era un regalo per la nonna.\nIn [[g10]] anni poche famiglie avevano la macchina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quella"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Quel"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Quell’"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Quei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Quegli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Quello"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Quelle"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "quell’"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Quel"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "quegli"
+     ]
+    }
+   ]
+  }
+ ]
+}

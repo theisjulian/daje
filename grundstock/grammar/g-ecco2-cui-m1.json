@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-m1",
+ "title": "Amici e tecnologia",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Amici e tecnologia · livello medio.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| il motivo **per** | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con la preposizione giusta + cui (di cui, a cui, con cui, in cui, da cui, su cui, per cui).",
+   "promptHelp": "Ergänze die passende Präposition + cui.",
+   "explanation": "fare i compiti **con**, parlare **di**, mandare **a**, avere bisogno **di**, scrivere **a**, venire **da**, contare **su**; il motivo **per** cui, il modo **in** cui.",
+   "explanationHelp": "Entscheidend ist die Präposition des Verbs: parlare di, mandare a, avere bisogno di, venire da, contare su …",
+   "type": "gap_fill",
+   "text": "L’amica [[g1]] faccio i compiti online si chiama Sara.\nIl sito [[g2]] ti ho parlato ieri è molto utile.\nIl gruppo [[g3]] ho mandato le foto è quello della classe.\nL’app [[g4]] ho bisogno per la scuola è gratis.\nGli anni [[g5]] non c’erano i cellulari sembrano lontanissimi.\nIl prof [[g6]] ho scritto una mail risponde sempre subito.\nLa città [[g7]] viene il mio amico di chat è Palermo.\nUn amico vero è una persona [[g8]] puoi sempre contare.\nÈ questo il motivo [[g9]] spengo il telefono di notte.\nIl modo [[g10]] comunichiamo è cambiato molto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "con cui"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "in cui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "da cui"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "su cui"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "per cui"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "in cui"
+     ]
+    }
+   ]
+  }
+ ]
+}

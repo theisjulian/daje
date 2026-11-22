@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-formazione-parole-s1",
+ "title": "Alterato vero o falso?",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Alterato vero o falso? · livello difficile.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima · **anti-** = contro · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+  "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa esprime la parola? Attenzione ai falsi alterati!",
+   "promptHelp": "Was drückt das Wort aus? Achtung, falsche alterati!",
+   "explanation": "Il mattone non è un «grande matto», il burrone non è «molto burro», il tacchino non è un «piccolo tacco» e il postino porta la posta.",
+   "explanationHelp": "Der mattone (Ziegel) ist kein „großer Verrückter“, der burrone (Schlucht) nicht „viel Butter“, der tacchino (Truthahn) kein „kleiner Absatz“, und der postino ist der Briefträger.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "piccolo (diminutivo)"
+    },
+    {
+     "id": "b",
+     "label": "grande (accrescitivo)"
+    },
+    {
+     "id": "c",
+     "label": "brutto o cattivo (peggiorativo)"
+    },
+    {
+     "id": "d",
+     "label": "non è un alterato"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "gattino",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "casetta",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "fratellino",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "librone",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "nasone",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "tempaccio",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "parolaccia",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "giornataccia",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "mattone",
+     "category": "d"
+    },
+    {
+     "id": "i10",
+     "text": "burrone",
+     "category": "d"
+    },
+    {
+     "id": "i11",
+     "text": "tacchino",
+     "category": "d"
+    },
+    {
+     "id": "i12",
+     "text": "postino",
+     "category": "d"
+    }
+   ]
+  }
+ ]
+}

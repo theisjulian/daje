@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-remoto-prod-l3",
+ "title": "La lettera nella bottiglia",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · La lettera nella bottiglia · livello facile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi in -ere sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben auf -ere sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi la fiaba e scegli la forma giusta del passato remoto.",
+   "promptHelp": "Lies das Märchen und wähle die richtige Form des passato remoto.",
+   "explanation": "Guarda il soggetto: Lucia → -ò / -e (trovò, lesse); madre e figlia → -rono / -ero (partirono, decisero); io → -i (scrissi).",
+   "explanationHelp": "Achte auf das Subjekt: Lucia → 3. Singular (trovò, lesse); Mutter und Tochter → 3. Plural (partirono, decisero); io → -i (scrissi).",
+   "type": "gap_choice",
+   "text": "C’era una volta una ragazza di nome Lucia che viveva con sua madre in un piccolo paese sul mare.\nUn giorno Lucia [[g1]] sulla spiaggia una vecchia bottiglia.\nDentro c’era una lettera: la ragazza la [[g2]] subito.\nPoi [[g3]] a casa e la mostrò a sua madre.\nMadre e figlia [[g4]] di cercare la persona che l’aveva scritta.\nIl giorno dopo le due donne [[g5]] per la città.\nQuando arrivarono, [[g6]] informazioni a un vecchio signore.\nIl vecchio [[g7]]: «Conosco bene questa lettera.»\n«Io stesso la [[g8]] cinquant’anni fa», disse sorridendo.\nLucia e sua madre [[g9]] senza parole.\nCosì [[g10]] una lunga amicizia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "trovò",
+      "trovai",
+      "trovarono"
+     ],
+     "answer": "trovò"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "lesse",
+      "lessi",
+      "lessero"
+     ],
+     "answer": "lesse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "corse",
+      "corsi",
+      "corsero"
+     ],
+     "answer": "corse"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "decisero",
+      "decise",
+      "decisi"
+     ],
+     "answer": "decisero"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "partirono",
+      "partì",
+      "partii"
+     ],
+     "answer": "partirono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "chiesero",
+      "chiese",
+      "chiesi"
+     ],
+     "answer": "chiesero"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "rispose",
+      "risposi",
+      "risposero"
+     ],
+     "answer": "rispose"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "scrissi",
+      "scrisse",
+      "scrissero"
+     ],
+     "answer": "scrissi"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "rimasero",
+      "rimase",
+      "rimasi"
+     ],
+     "answer": "rimasero"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "nacque",
+      "nacqui",
+      "nacquero"
+     ],
+     "answer": "nacque"
+    }
+   ]
+  }
+ ]
+}

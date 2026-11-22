@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-formazione-parole-l3",
+ "title": "Il prefisso giusto",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Il prefisso giusto · livello facile.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima · **anti-** = contro · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+  "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das richtige Wort.",
+   "explanation": "in- diventa im- davanti a p / b / m, il- davanti a l, ir- davanti a r. (Infortunato esiste, ma vuol dire «ferito».)",
+   "explanationHelp": "in- wird vor p / b / m zu im-, vor l zu il-, vor r zu ir-. (Infortunato gibt es, es bedeutet aber „verletzt“.)",
+   "type": "gap_choice",
+   "text": "Il contrario di «possibile» è [[g1]].\nIl contrario di «utile» è [[g2]].\nIl contrario di «legale» è [[g3]].\nIl contrario di «regolare» è [[g4]].\nIl contrario di «fortunato» è [[g5]].\nIl contrario di «ordine» è [[g6]].\n«Fare di nuovo» si dice [[g7]].\nUn allarme contro i furti è un allarme [[g8]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "impossibile",
+      "inpossibile",
+      "dispossibile"
+     ],
+     "answer": "impossibile"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "inutile",
+      "irutile",
+      "sutile"
+     ],
+     "answer": "inutile"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "illegale",
+      "inlegale",
+      "slegale"
+     ],
+     "answer": "illegale"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "irregolare",
+      "inregolare",
+      "disregolare"
+     ],
+     "answer": "irregolare"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sfortunato",
+      "infortunato",
+      "disfortunato"
+     ],
+     "answer": "sfortunato"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "disordine",
+      "inordine",
+      "sordine"
+     ],
+     "answer": "disordine"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "rifare",
+      "disfare",
+      "prefare"
+     ],
+     "answer": "rifare"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "antifurto",
+      "interfurto",
+      "prefurto"
+     ],
+     "answer": "antifurto"
+    }
+   ]
+  }
+ ]
+}

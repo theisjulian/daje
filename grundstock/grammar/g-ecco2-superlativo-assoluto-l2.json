@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-assoluto-l2",
+ "title": "Una giornata a Roma",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo assoluto · Una giornata a Roma · livello facile.",
+ "topics": [
+  "Il superlativo assoluto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-assoluto",
+  "topicTitle": "Il superlativo assoluto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+  "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "-issimo concorda con il nome; -co/-go → -chissimo/-ghissimo; l’avverbio (benissimo) non cambia.",
+   "explanationHelp": "-issimo richtet sich nach dem Nomen; -co/-go → -chissimo/-ghissimo; das Adverb (benissimo) bleibt unverändert.",
+   "type": "gap_choice",
+   "text": "Il Colosseo è [[g1]].\nLa Fontana di Trevi è [[g2]].\nLe strade del centro sono [[g3]].\nI musei sono [[g4]].\nIl Pantheon è [[g5]].\nLa fila davanti ai Musei Vaticani è [[g6]].\nIn agosto a Roma fa [[g7]].\nI gelati sono [[g8]].\nLa sera siamo [[g9]], ma felici.\nA Roma abbiamo mangiato [[g10]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "grandissimo",
+      "grandissima",
+      "grandissimi"
+     ],
+     "answer": "grandissimo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "famosissima",
+      "famosissimo",
+      "famosissime"
+     ],
+     "answer": "famosissima"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "strettissime",
+      "strettissimi",
+      "strettissima"
+     ],
+     "answer": "strettissime"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "interessantissimi",
+      "interessantissime",
+      "interessantissimo"
+     ],
+     "answer": "interessantissimi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "antichissimo",
+      "anticissimo",
+      "antichissima"
+     ],
+     "answer": "antichissimo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "lunghissima",
+      "lungissima",
+      "lunghissimo"
+     ],
+     "answer": "lunghissima"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "caldissimo",
+      "caldissima",
+      "caldissimi"
+     ],
+     "answer": "caldissimo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "buonissimi",
+      "buonissime",
+      "benissimo"
+     ],
+     "answer": "buonissimi"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "stanchissimi",
+      "stancissimi",
+      "stanchissimo"
+     ],
+     "answer": "stanchissimi"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "benissimo",
+      "buonissimo",
+      "benissimi"
+     ],
+     "answer": "benissimo"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-sequenza-tempi-l1",
+ "title": "Prima, adesso o dopo?",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Prima, adesso o dopo? · livello facile.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+  "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit immer mit dem **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quando succede l’azione della frase secondaria rispetto alla frase principale?",
+   "promptHelp": "Wann passiert die Handlung des Nebensatzes im Verhältnis zum Hauptsatz?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "prima"
+    },
+    {
+     "id": "b",
+     "label": "nello stesso momento"
+    },
+    {
+     "id": "c",
+     "label": "dopo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Penso che Luca sia già partito.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Credo che Sara abbia sbagliato treno.",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "Pensavo che fossero già arrivati.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Sapevo che aveva studiato a Padova.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "Credo che Marta sia a casa.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Pensavo che tu avessi fame.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "So che lavori molto.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "Sapevo che abitava a Genova.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "Penso che domani pioverà.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "Pensavo che sarebbe venuto più tardi.",
+     "category": "c"
+    },
+    {
+     "id": "i11",
+     "text": "So che tornerai presto.",
+     "category": "c"
+    },
+    {
+     "id": "i12",
+     "text": "Ero sicuro che avresti vinto.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

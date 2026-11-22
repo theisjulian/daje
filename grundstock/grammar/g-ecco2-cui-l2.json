@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-l2",
+ "title": "Dalla frase al pronome",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Dalla frase al pronome · livello facile.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| il motivo **per** | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la frase all’espressione con che o cui.",
+   "promptHelp": "Verbinde den Satz mit dem passenden Ausdruck mit che oder cui.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Parlo di questo libro.",
+     "right": "il libro di cui parlo"
+    },
+    {
+     "id": "p2",
+     "left": "Leggo questo libro.",
+     "right": "il libro che leggo"
+    },
+    {
+     "id": "p3",
+     "left": "Scrivo a questa amica.",
+     "right": "l’amica a cui scrivo"
+    },
+    {
+     "id": "p4",
+     "left": "Conosco questa amica.",
+     "right": "l’amica che conosco"
+    },
+    {
+     "id": "p5",
+     "left": "Esco con questi ragazzi.",
+     "right": "i ragazzi con cui esco"
+    },
+    {
+     "id": "p6",
+     "left": "Abito in questa casa.",
+     "right": "la casa in cui abito"
+    },
+    {
+     "id": "p7",
+     "left": "Vengo da questo paese.",
+     "right": "il paese da cui vengo"
+    },
+    {
+     "id": "p8",
+     "left": "Conto su questo amico.",
+     "right": "l’amico su cui conto"
+    },
+    {
+     "id": "p9",
+     "left": "Studio per questo esame.",
+     "right": "l’esame per cui studio"
+    }
+   ],
+   "distractors": [
+    "il libro cui leggo",
+    "l’amica di che scrivo"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-verbi-pronominali-l2",
+ "title": "Quale verbo?",
+ "language": "it",
+ "level": "B1",
+ "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Quale verbo? · livello facile.",
+ "topics": [
+  "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Approfondimento"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+ },
+ "grammar": {
+  "topic": "ecco3-verbi-pronominali",
+  "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_).",
+  "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il verbo che va bene nella situazione.",
+   "promptHelp": "Wähle das Verb, das zur Situation passt.",
+   "type": "gap_choice",
+   "text": "L’esame era difficile, ma alla fine [[g1]]!\nLa festa era noiosa, così alle dieci Luca [[g2]].\nNon parlo bene il tedesco, ma in vacanza [[g3]].\nEra solo uno scherzo: perché [[g4]]?\nDa casa mia alla stazione [[g5]] venti minuti a piedi.\nBasta, [[g6]] di fare rumore!\nPer questa gara [[g7]] tutta.\nPerché non mi saluti? [[g8]] con me?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ce l’ho fatta",
+      "me ne sono andata",
+      "me la sono presa"
+     ],
+     "answer": "ce l’ho fatta"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "se n’è andato",
+      "ce l’ha fatta",
+      "ci ha tenuto"
+     ],
+     "answer": "se n’è andato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "me la cavo",
+      "me la prendo",
+      "ce l’ho"
+     ],
+     "answer": "me la cavo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "te la prendi",
+      "te la cavi",
+      "ce la fai"
+     ],
+     "answer": "te la prendi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ci vogliono",
+      "ci vuole",
+      "ci tengono"
+     ],
+     "answer": "ci vogliono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "smettila",
+      "mettila",
+      "prenditela"
+     ],
+     "answer": "smettila"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ce la metto",
+      "ce la faccio",
+      "me la sento"
+     ],
+     "answer": "ce la metto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Ce l’hai",
+      "Te la cavi",
+      "Te ne vai"
+     ],
+     "answer": "Ce l’hai"
+    }
+   ]
+  }
+ ]
+}

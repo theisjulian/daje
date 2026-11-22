@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-m2",
+ "title": "Unisci le frasi",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · Unisci le frasi · livello medio.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. **Mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_).\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi con la congiunzione tra parentesi.",
+   "promptHelp": "Verbinde die beiden Sätze mit der Konjunktion in Klammern.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Resto a casa. Piove. (perché) → Resto a casa …",
+     "acceptedAnswers": [
+      "perché piove"
+     ],
+     "modelAnswer": "Resto a casa perché piove."
+    },
+    {
+     "id": "s2",
+     "start": "Giocavo sempre fuori. Ero piccolo. (quando) → Giocavo sempre fuori …",
+     "acceptedAnswers": [
+      "quando ero piccolo"
+     ],
+     "modelAnswer": "Giocavo sempre fuori quando ero piccolo."
+    },
+    {
+     "id": "s3",
+     "start": "Finisco i compiti. Sono stanca. (anche se) → Finisco i compiti …",
+     "acceptedAnswers": [
+      "anche se sono stanca"
+     ],
+     "modelAnswer": "Finisco i compiti anche se sono stanca."
+    },
+    {
+     "id": "s4",
+     "start": "Ti scrivo. Arrivo a casa. (appena) → Ti scrivo …",
+     "acceptedAnswers": [
+      "appena arrivo a casa"
+     ],
+     "modelAnswer": "Ti scrivo appena arrivo a casa."
+    },
+    {
+     "id": "s5",
+     "start": "Luca è malato. Lo so. (che) → So …",
+     "acceptedAnswers": [
+      "che Luca è malato"
+     ],
+     "modelAnswer": "So che Luca è malato."
+    },
+    {
+     "id": "s6",
+     "start": "Vieni con noi! Hai tempo? (se) → Vieni con noi …",
+     "acceptedAnswers": [
+      "se hai tempo"
+     ],
+     "modelAnswer": "Vieni con noi se hai tempo!"
+    },
+    {
+     "id": "s7",
+     "start": "Il nonno leggeva. La nonna telefonava. (mentre) → Il nonno leggeva …",
+     "acceptedAnswers": [
+      "mentre la nonna telefonava"
+     ],
+     "modelAnswer": "Il nonno leggeva mentre la nonna telefonava."
+    },
+    {
+     "id": "s8",
+     "start": "Non avevamo la macchina. Andavamo a piedi. (siccome) → …, andavamo a piedi.",
+     "acceptedAnswers": [
+      "siccome non avevamo la macchina"
+     ],
+     "modelAnswer": "Siccome non avevamo la macchina, andavamo a piedi."
+    }
+   ]
+  }
+ ]
+}

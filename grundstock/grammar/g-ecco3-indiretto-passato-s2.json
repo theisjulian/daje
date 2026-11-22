@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-s2",
+ "title": "Il messaggio di Davide",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · Il messaggio di Davide · livello difficile.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Un mese dopo la mamma racconta alla zia che cosa ha scritto Davide. Completa: verbi, parole di tempo e di luogo.",
+   "promptHelp": "Einen Monat später erzählt die Mutter der Tante, was Davide geschrieben hat. Ergänze Verben, Zeit- und Ortsangaben.",
+   "type": "gap_fill",
+   "text": "Il messaggio di Davide: «Sono arrivato ieri a Trento. Qui fa freddo, ma la città mi piace. Oggi ho conosciuto i miei compagni. Domani visiteremo un castello. Questa settimana non avrò tempo di chiamarvi. Salutate la nonna!»\nDavide ha scritto che [[g1]] il giorno [[g2]] a Trento.\nHa scritto che [[g3]] faceva freddo, ma che la città gli [[g4]].\nHa raccontato che [[g5]] giorno [[g6]] i suoi compagni\ne che il giorno [[g7]] [[g8]] un castello.\nHa aggiunto che [[g9]] settimana non [[g10]] tempo di chiamarci\ne ci ha chiesto di [[g11]] la nonna.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era arrivato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "prima",
+      "precedente"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lì",
+      "là"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "piaceva"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "quel"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aveva conosciuto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dopo",
+      "seguente",
+      "successivo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrebbero visitato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "quella"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "avrebbe avuto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "salutare"
+     ]
+    }
+   ]
+  }
+ ]
+}

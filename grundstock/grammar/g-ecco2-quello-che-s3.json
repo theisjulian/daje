@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-che-s3",
+ "title": "Quello che penso io",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello che e ciò che · Quello che penso io · livello difficile.",
+ "topics": [
+  "Quello che e ciò che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+ },
+ "grammar": {
+  "topic": "ecco2-quello-che",
+  "topicTitle": "Quello che e ciò che",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+  "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Traduci in italiano.",
+   "promptHelp": "Übersetze ins Italienische.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Was du sagst, ist richtig.",
+     "acceptedAnswers": [
+      "Quello che dici",
+      "Ciò che dici"
+     ],
+     "modelAnswer": "Quello che dici è giusto. (Anche: Ciò che dici è giusto.)"
+    },
+    {
+     "id": "s2",
+     "start": "Ich verstehe alles, was du schreibst.",
+     "acceptedAnswers": [
+      "tutto quello che scrivi",
+      "tutto ciò che scrivi"
+     ],
+     "modelAnswer": "Capisco tutto quello che scrivi. (Anche: tutto ciò che scrivi.)"
+    },
+    {
+     "id": "s3",
+     "start": "Was machst du morgen?",
+     "acceptedAnswers": [
+      "Che cosa fai domani",
+      "Cosa fai domani",
+      "Che fai domani"
+     ],
+     "modelAnswer": "Che cosa fai domani? (Anche: Cosa fai domani? Che fai domani?)"
+    },
+    {
+     "id": "s4",
+     "start": "Das ist das Buch, das ich suche.",
+     "acceptedAnswers": [
+      "il libro che cerco"
+     ],
+     "modelAnswer": "È il libro che cerco."
+    },
+    {
+     "id": "s5",
+     "start": "Was mir gefällt, ist die Musik.",
+     "acceptedAnswers": [
+      "Quello che mi piace",
+      "Ciò che mi piace"
+     ],
+     "modelAnswer": "Quello che mi piace è la musica. (Anche: Ciò che mi piace è la musica.)"
+    },
+    {
+     "id": "s6",
+     "start": "Nimm, was du willst!",
+     "acceptedAnswers": [
+      "quello che vuoi",
+      "ciò che vuoi"
+     ],
+     "modelAnswer": "Prendi quello che vuoi! (Anche: ciò che vuoi!)"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Scrivi cinque frasi su una città o un viaggio: che cosa ti è piaciuto, che cosa no? Usa quello che, ciò che e tutto quello che.",
+   "promptHelp": "Schreibe fünf Sätze über eine Stadt oder eine Reise: Was hat dir gefallen, was nicht? Verwende quello che, ciò che und tutto quello che.",
+   "type": "open_answer",
+   "modelAnswer": "Quello che mi è piaciuto di più a Roma è il Colosseo. Ciò che non mi è piaciuto è il traffico. Tutto quello che abbiamo mangiato era buonissimo. Non ho capito tutto quello che ha detto la guida, ma quello che ho visto era bellissimo.",
+   "lines": 6
+  }
+ ]
+}

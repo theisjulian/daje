@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-m1",
+ "title": "In giro per l’Europa",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · In giro per l’Europa · livello medio.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con di, del, della, dell’, dei, delle o che.",
+   "promptHelp": "Ergänze di, del, della, dell’, dei, delle oder che.",
+   "explanation": "Prima di un nome: di + articolo (del Tevere, della Germania). Prima di una preposizione, tra due verbi, due aggettivi o due quantità: che.",
+   "explanationHelp": "Vor einem Nomen: di + Artikel (del Tevere, della Germania). Vor einer Präposition, zwischen zwei Verben, zwei Adjektiven oder zwei Mengen: che.",
+   "type": "gap_fill",
+   "text": "Roma è più grande [[g1]] Milano.\nL’Italia è più piccola [[g2]] Germania.\nIl Po è più lungo [[g3]] Tevere.\nIl Monte Bianco è più alto [[g4]]Etna.\nIn agosto fa più caldo a Roma [[g5]] a Berlino.\nPer Chiara è più interessante visitare una città [[g6]] stare in spiaggia.\nI panini del supermercato sono meno cari [[g7]] panini del bar.\nMia cugina parla inglese meglio [[g8]] me.\nNella nostra classe ci sono più ragazzi [[g9]] ragazze.\nSecondo Luca le pizze di Napoli sono più buone [[g10]] pizze di Roma.\nIl viaggio in pullman è più lungo [[g11]] comodo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dell’"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ]
+  }
+ ]
+}

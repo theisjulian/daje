@@ -1,0 +1,159 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-verbi-pronominali-m1",
+ "title": "Le forme del presente",
+ "language": "it",
+ "level": "B1",
+ "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Le forme del presente · livello medio.",
+ "topics": [
+  "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Approfondimento"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+ },
+ "grammar": {
+  "topic": "ecco3-verbi-pronominali",
+  "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_).",
+  "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella al presente.",
+   "promptHelp": "Ergänze die Tabelle im Präsens.",
+   "type": "table_fill",
+   "columns": [
+    "persona",
+    "farcela",
+    "andarsene",
+    "cavarsela"
+   ],
+   "rows": [
+    [
+     "io",
+     "ce la faccio",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "me ne vado"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "me la cavo"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "ce la fai"
+      ]
+     },
+     "te ne vai",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "te la cavi"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "ce la fa"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "se ne va"
+      ]
+     },
+     "se la cava"
+    ],
+    [
+     "noi",
+     "ce la facciamo",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "ce ne andiamo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "ce la caviamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "ce la fate"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "ve ne andate"
+      ]
+     },
+     "ve la cavate"
+    ],
+    [
+     "loro",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "ce la fanno"
+      ]
+     },
+     "se ne vanno",
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "se la cavano"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

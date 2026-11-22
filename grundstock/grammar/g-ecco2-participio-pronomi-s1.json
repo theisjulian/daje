@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Trova gli errori · livello difficile.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un errore. Correggilo.",
+   "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+   "explanation": "Il pronome sta prima di avere. Li e le non diventano mai l’. Senza pronome davanti al verbo: nessun accordo (ho comprato le cartoline).",
+   "explanationHelp": "Das Pronomen steht vor avere. Li und le werden nie zu l’. Ohne Pronomen vor dem Verb: keine Angleichung (ho comprato le cartoline).",
+   "type": "error_correction",
+   "text": "La Fontana di Trevi? L’ho [[g1]] ieri sera.\nI biglietti? [[g2]] comprati online.\nLe cartoline? Le ho [[g3]] stamattina.\nIl museo? [[g4]] con la classe.\nLe chiavi? Non le ho [[g5]].\nI miei amici? Li ho [[g6]] in piazza.\nIeri ho [[g7]] le cartoline in centro.\nLe foto? [[g8]] ho fatte con il telefono.\nIl Colosseo? L’abbiamo [[g9]] lunedì.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "visto",
+     "acceptedAnswers": [
+      "vista"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "L’ho",
+     "acceptedAnswers": [
+      "Li ho"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "scritto",
+     "acceptedAnswers": [
+      "scritte"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Ho lo visitato",
+     "acceptedAnswers": [
+      "L’ho visitato"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "trovati",
+     "acceptedAnswers": [
+      "trovate"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "incontrato",
+     "acceptedAnswers": [
+      "incontrati"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "comprate",
+     "acceptedAnswers": [
+      "comprato"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Li",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "visitata",
+     "acceptedAnswers": [
+      "visitato"
+     ]
+    }
+   ]
+  }
+ ]
+}

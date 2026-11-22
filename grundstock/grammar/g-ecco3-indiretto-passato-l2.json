@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-l2",
+ "title": "La partenza del nonno",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · La partenza del nonno · livello facile.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Tanti anni fa il nonno Salvatore è partito dalla Puglia per Torino. Che cosa ha detto quel giorno? Scegli la forma giusta.",
+   "promptHelp": "Vor vielen Jahren ist Opa Salvatore aus Apulien nach Turin gezogen. Was hat er an dem Tag gesagt? Wähle die richtige Form.",
+   "explanation": "presente → imperfetto · passato prossimo → trapassato prossimo · futuro → condizionale composto · imperativo → di + infinito · l’imperfetto non cambia.",
+   "explanationHelp": "Präsens → imperfetto · passato prossimo → trapassato prossimo · Futur → condizionale composto · Imperativ → di + Infinitiv · das imperfetto bleibt.",
+   "type": "gap_choice",
+   "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto che ci [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "partiva",
+      "era partito",
+      "partisse"
+     ],
+     "answer": "partiva"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "aveva comprato",
+      "comprava",
+      "avrebbe comprato"
+     ],
+     "answer": "aveva comprato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "avrebbe trovato",
+      "aveva trovato",
+      "troverebbe"
+     ],
+     "answer": "avrebbe trovato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "avrebbe scritto",
+      "scriverebbe",
+      "aveva scritto"
+     ],
+     "answer": "avrebbe scritto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sognava",
+      "sognasse",
+      "avrebbe sognato"
+     ],
+     "answer": "sognava"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "di non piangere",
+      "che non piangete",
+      "di non piangete"
+     ],
+     "answer": "di non piangere"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "di aspettarlo",
+      "di aspettarmi",
+      "che lo aspettate"
+     ],
+     "answer": "di aspettarlo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "abitava",
+      "aveva abitato",
+      "avrebbe abitato"
+     ],
+     "answer": "abitava"
+    }
+   ]
+  }
+ ]
+}

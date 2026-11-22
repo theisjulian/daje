@@ -1,0 +1,757 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Lektion 5 · Ieri e oggi · Grammatikthemen aus dem Lehrplan Jgst. 9. Eigene Übungen.
+
+@thema cui | 5 · Ieri e oggi | Per cominciare | Il pronome relativo cui | 1
+#lehrplan Jgst. 9 · Relativpronomen cui mit Präposition
+#regel
+Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).
+| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |
+| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |
+
+| parlare **di** | l’amico **di cui** ti parlo |
+| scrivere **a** | l’amica **a cui** scrivo |
+| uscire **con** | i ragazzi **con cui** esco |
+| abitare **in** | la casa **in cui** abito |
+| venire **da** | il paese **da cui** vengo |
+| contare **su** | la persona **su cui** conto |
+| il motivo **per** | il motivo **per cui** sono qui |
+Espressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_
+#regel-de
+Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.
+_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._
+Die Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.
+Feste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).
+
+%übung leicht | Che o cui?
+?auswahl | Scegli: che o cui? || Wähle: che oder cui?
+Questo è il telefono {che*|cui} usava mia nonna.
+La città in {cui*|che} sono nati i miei nonni è molto piccola.
+Il ragazzo con {cui*|che} gioco a tennis si chiama Davide.
+Ho trovato le foto {che*|cui} cercavi.
+Il film di {cui*|che} parlano tutti è molto vecchio.
+L’amica a {cui*|che} scrivo ogni giorno abita a Torino.
+La signora {che*|cui} abita qui accanto ha novant’anni.
+Questo è il motivo per {cui*|che} non ho un profilo social.
+Il paese da {cui*|che} viene mio nonno è in Sicilia.
+La sedia su {cui*|che} sei seduto era della bisnonna.
+! Dopo una preposizione (di, a, con, in, da, su, per) → **cui**. Senza preposizione → **che**. || Nach einer Präposition (di, a, con, in, da, su, per) → **cui**. Ohne Präposition → **che**.
+
+%übung leicht | Dalla frase al pronome
+?zuordnen | Abbina la frase all’espressione con che o cui. || Verbinde den Satz mit dem passenden Ausdruck mit che oder cui.
+Parlo di questo libro. = il libro di cui parlo
+Leggo questo libro. = il libro che leggo
+Scrivo a questa amica. = l’amica a cui scrivo
+Conosco questa amica. = l’amica che conosco
+Esco con questi ragazzi. = i ragazzi con cui esco
+Abito in questa casa. = la casa in cui abito
+Vengo da questo paese. = il paese da cui vengo
+Conto su questo amico. = l’amico su cui conto
+Studio per questo esame. = l’esame per cui studio
++ il libro cui leggo
++ l’amica di che scrivo
+
+%übung leicht | I ricordi del nonno
+?luecke wortkasten | Completa con le parole giuste. Ogni parola va bene una sola volta. || Ergänze die passenden Wörter. Jedes passt nur einmal.
+Il nonno mi mostra la casa [in cui] è nato.
+Questi sono gli amici [con cui] giocava in cortile.
+La nonna ha una vecchia radio [di cui] è molto orgogliosa.
+Il paese [da cui] vengono i miei nonni ha solo mille abitanti.
+La persona [a cui] il nonno scriveva molte lettere era la nonna.
+Ecco il tavolo [su cui] la nonna preparava la pasta.
+Non c’era Internet: ecco il motivo [per cui] i ragazzi stavano sempre fuori.
+Mi piacciono molto le storie [che] racconta il nonno.
++ chi
+! nascere **in**, giocare **con**, orgoglioso **di**, venire **da**, scrivere **a**, preparare **su**, il motivo **per** cui. || Die Präposition hängt vom Verb oder Ausdruck ab: nascere in, giocare con, orgoglioso di, venire da, scrivere a …
+
+%übung mittel | Amici e tecnologia
+?luecke | Completa con la preposizione giusta + cui (di cui, a cui, con cui, in cui, da cui, su cui, per cui). || Ergänze die passende Präposition + cui.
+L’amica [con cui] faccio i compiti online si chiama Sara.
+Il sito [di cui] ti ho parlato ieri è molto utile.
+Il gruppo [a cui] ho mandato le foto è quello della classe.
+L’app [di cui] ho bisogno per la scuola è gratis.
+Gli anni [in cui] non c’erano i cellulari sembrano lontanissimi.
+Il prof [a cui] ho scritto una mail risponde sempre subito.
+La città [da cui] viene il mio amico di chat è Palermo.
+Un amico vero è una persona [su cui] puoi sempre contare.
+È questo il motivo [per cui] spengo il telefono di notte.
+Il modo [in cui] comunichiamo è cambiato molto.
+! fare i compiti **con**, parlare **di**, mandare **a**, avere bisogno **di**, scrivere **a**, venire **da**, contare **su**; il motivo **per** cui, il modo **in** cui. || Entscheidend ist die Präposition des Verbs: parlare di, mandare a, avere bisogno di, venire da, contare su …
+
+%übung mittel | Una frase sola
+?ergaenzen | Unisci le due frasi con preposizione + cui. || Verbinde die beiden Sätze mit Präposition + cui.
+Ho un’amica. Esco spesso con lei. → Ho un’amica … | con cui esco spesso | Ho un’amica con cui esco spesso.
+Questo è il film. Ti ho parlato del film. → Questo è il film … | di cui ti ho parlato | Questo è il film di cui ti ho parlato.
+Ecco la casa. In questa casa abitavano i nonni. → Ecco la casa … | in cui abitavano i nonni/in cui i nonni abitavano | Ecco la casa in cui abitavano i nonni. (Anche: … in cui i nonni abitavano.)
+Lui è il ragazzo. Ho prestato il libro a lui. → Lui è il ragazzo … | a cui ho prestato il libro | Lui è il ragazzo a cui ho prestato il libro.
+Conosci la città? Giulia viene da questa città. → Conosci la città … | da cui viene Giulia/da cui Giulia viene | Conosci la città da cui viene Giulia? (Anche: … da cui Giulia viene?)
+Marco è un amico. Posso contare su di lui. → Marco è un amico … | su cui posso contare | Marco è un amico su cui posso contare.
+Questa è la ragione. Per questa ragione sono qui. → Questa è la ragione … | per cui sono qui | Questa è la ragione per cui sono qui.
+Dov’è la penna? Scrivevo con la penna. → Dov’è la penna … | con cui scrivevo | Dov’è la penna con cui scrivevo?
+
+%übung mittel | Metti in ordine
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Questa è la ragazza
+con cui
+vado a scuola
+ogni mattina.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Il motivo
+per cui
+non ho risposto
+è semplice.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Ricordo bene
+il giorno
+in cui
+ho ricevuto
+il mio primo telefono.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Non mi piace
+il modo
+in cui
+parli
+con tua sorella.
+! La preposizione sta sempre **prima** di cui: con cui, per cui, in cui. || Die Präposition steht immer **vor** cui: con cui, per cui, in cui.
+
+%übung schwer | Caccia all’errore
+?fehler | In ogni frase c’è un errore con che o cui. Correggi. || In jedem Satz steckt ein Fehler bei che oder cui. Korrigiere.
+La ragazza con [che=>cui] esco si chiama Chiara.
+Il libro [che=>di cui] ti ho parlato è in biblioteca.
+La città [che=>in cui/dove] abito è piccola.
+Questo è il motivo [che=>per cui] sono in ritardo.
+L’amico [a che=>a cui] ho scritto non risponde.
+Il film [cui=>che] abbiamo visto ieri era noioso.
+Gli amici [di cui=>con cui] vado in vacanza sono simpatici.
+La persona [di cui=>a cui] telefono più spesso è mia nonna.
+! parlare **di**, abitare **in**, scrivere **a**, andare **con**, telefonare **a**: la preposizione del verbo resta e sta prima di **cui**. Senza preposizione: **che**. || Die Präposition des Verbs bleibt erhalten und steht vor **cui**. Ohne Präposition: **che**.
+
+%übung schwer | La lettera della nonna
+?luecke | Completa la lettera con che o con preposizione + cui. || Ergänze den Brief mit che oder mit Präposition + cui.
+Cara Giulia, ieri ho trovato una scatola [in cui/dove] c’erano molte vecchie foto.
+C’è una foto [che] mi piace molto: è del giorno [in cui] ho conosciuto il nonno.
+Lui era il ragazzo [con cui] tutte le mie amiche volevano ballare.
+Io invece ero la ragazza [a cui] lui scriveva lettere lunghissime.
+Il paese [da cui] veniva la sua famiglia era molto lontano.
+Gli amici [che] venivano a trovarci la domenica portavano sempre un dolce.
+Non avevamo la macchina: è il motivo [per cui] andavamo dappertutto a piedi.
+Sono ricordi [di cui] parlo sempre volentieri.
+E tu, cara Giulia, sei la nipote [su cui] posso sempre contare!
+! che = soggetto o oggetto diretto (la foto che mi piace, gli amici che venivano). Con una preposizione: cui. || che = Subjekt oder direktes Objekt. Mit Präposition: cui.
+
+%übung schwer | Qual è la frase giusta?
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+* Ecco il ragazzo di cui ti ho parlato.
+- Ecco il ragazzo che ti ho parlato.
+- Ecco il ragazzo di che ti ho parlato.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Il giorno in che siamo partiti pioveva.
+* Il giorno in cui siamo partiti pioveva.
+- Il giorno cui siamo partiti pioveva.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Il telefono cui ho comprato è nuovo.
+- Il telefono di cui ho comprato è nuovo.
+* Il telefono che ho comprato è nuovo.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Non capisco il modo in che parla.
+* Non capisco il modo in cui parla.
+- Non capisco il modo cui parla.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+* Sono i cugini da cui vado ogni estate.
+- Sono i cugini a cui vado ogni estate.
+- Sono i cugini che vado ogni estate.
+! andare **da** una persona → i cugini **da cui** vado. || andare **da** (zu jemandem gehen/fahren) → i cugini **da cui** vado.
+?frei | Scrivi quattro frasi su persone, luoghi e cose della tua vita. Usa: con cui, di cui, in cui, a cui. || Schreibe vier Sätze über Personen, Orte und Dinge aus deinem Leben. Verwende: con cui, di cui, in cui, a cui.
+Sara è l’amica con cui vado a scuola ogni giorno. Il calcio è lo sport di cui parlo sempre con mio fratello. La città in cui abito non è molto grande. Mia nonna è la persona a cui telefono ogni domenica.
+Zeilen: 5
+
+@thema futuro | 5 · Ieri e oggi | Parte A | Il futuro semplice | 2
+#lehrplan Jgst. 9 · futuro semplice: Formen und Gebrauch
+#regel
+Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.
+| | parl**are** | prend**ere** | dorm**ire** |
+| io | parl**erò** | prend**erò** | dorm**irò** |
+| tu | parl**erai** | prend**erai** | dorm**irai** |
+| lui / lei | parl**erà** | prend**erà** | dorm**irà** |
+| noi | parl**eremo** | prend**eremo** | dorm**iremo** |
+| voi | parl**erete** | prend**erete** | dorm**irete** |
+| loro | parl**eranno** | prend**eranno** | dorm**iranno** |
+Attenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.
+**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.
+_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._
+Ipotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)
+#regel-de
+Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.
+Endungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.
+Unregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.
+Vermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._
+
+%übung leicht | Infinito e futuro
+?zuordnen | Abbina l’infinito alla forma del futuro (io). || Verbinde den Infinitiv mit der Futurform (io).
+essere = sarò
+avere = avrò
+andare = andrò
+fare = farò
+venire = verrò
+volere = vorrò
+potere = potrò
+dovere = dovrò
+vedere = vedrò
+bere = berrò
++ venirò
++ anderò
+
+%übung leicht | Fra dieci anni
+?auswahl | Scegli la forma giusta del futuro. || Wähle die richtige Futurform.
+Domani io {partirò*|partirà|partirai} per Roma.
+Fra dieci anni noi {abiteremo*|abiteranno|abitaremo} in un’altra città.
+Tu che cosa {farai*|farà|facerai} dopo la scuola?
+I miei nonni {verranno*|verrà|veniranno} a trovarci a Natale.
+Sara {pagherà*|pagerà|pagherai} tutto con il telefono.
+Voi {potrete*|potremo|poterete} studiare da casa.
+Io {cercherò*|cercerò|cercherà} un lavoro all’estero.
+Il treno {arriverà*|arriverai|arrivarà} alle otto.
+Stasera noi {mangeremo*|mangieremo|mangeranno} tutti insieme.
+Luca e Anna {saranno*|sarà|esseranno} molto felici.
+! -are → -**er**ò (abiterò, arriverò). pagare → pa**gh**erò, cercare → cer**ch**erò, mangiare → man**ge**rò. Irregolari: farò, verrò, potrò, sarò. || -are → -**er**ò. pagare → pagherò, cercare → cercherò, mangiare → mangerò. Unregelmäßig: farò, verrò, potrò, sarò.
+
+%übung leicht | Il futuro secondo Matteo
+?luecke wortkasten | Matteo immagina il futuro. Completa con i verbi giusti. || Matteo stellt sich die Zukunft vor. Ergänze die passenden Verben.
+Fra vent’anni io [sarò] un medico famoso.
+Tu, Chiara, [avrai] sicuramente tre gatti.
+Noi due [andremo] in vacanza sulla Luna!
+I robot [faranno] tutti i lavori di casa.
+Davide [vivrà] in una casa sull’acqua.
+Voi [potrete] venire a trovarmi quando volete.
+Le macchine [saranno] tutte elettriche.
+E a scuola? Non [dovremo] più portare lo zaino!
++ sarai, andrai
+
+%übung schwer | Errori e ipotesi
+?fehler | Correggi la forma sbagliata del futuro. || Korrigiere die falsche Futurform.
+Domani [anderò=>andrò] dal dentista.
+Chi [pagerà=>pagherà] il conto?
+La lezione [cominciarà=>comincerà] alle nove.
+I miei amici [veniranno=>verranno] alla festa.
+Noi non [poteremo=>potremo] uscire stasera.
+Dopo il film [vederete=>vedrete] un’intervista con il regista.
+Quest’estate Marta [rimanerà=>rimarrà] in città.
+A cena io [beverò=>berrò] solo acqua.
+! andare → andrò, potere → potrò, vedere → vedrò (senza -e-); venire → verrò, rimanere → rimarrò, bere → berrò (con -rr-). || andrò, potrò, vedrò (ohne -e-); verrò, rimarrò, berrò (mit -rr-).
+?ergaenzen | Non sei sicuro: fai un’ipotesi con il futuro. || Du bist nicht sicher: Äußere eine Vermutung mit dem Futur.
+– Dov’è Luca? – Non lo so, … (essere in palestra) | sarà in palestra | Non lo so, sarà in palestra.
+– Quanti anni ha la prof? – Mah, … (avere quarant’anni) | avrà quarant’anni | Mah, avrà quarant’anni.
+– Che ore sono? – Non ho l’orologio, … (essere le cinque) | saranno le cinque | Non ho l’orologio, saranno le cinque.
+– Perché i nonni non rispondono al telefono? – … (dormire) | dormiranno | Dormiranno.
+! Il futuro esprime anche un’ipotesi: _Sarà in palestra_ = forse è in palestra. || Das Futur drückt auch eine Vermutung aus: _Sarà in palestra_ = Er ist wohl im Fitnessstudio.
+
+@thema quello | 5 · Ieri e oggi | Parte A | Quello come accompagnatore | 3
+#lehrplan Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello
+#regel
+**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).
+Davanti a un nome, **quello** cambia come l’**articolo determinativo**:
+| il libro | **quel** libro | i libri | **quei** libri |
+| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |
+| l’amico | **quell’**amico | gli amici | **quegli** amici |
+| la casa | **quella** casa | le case | **quelle** case |
+| l’amica | **quell’**amica | le amiche | **quelle** amiche |
+_Guarda **quel** telefono! In **quegli** anni non c’era Internet._
+Da solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.
+_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._
+#regel-de
+**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).
+Vor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.
+Allein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)
+
+%übung leicht | Quel, quello, quell’ …
+?sortieren | Quale forma di quello va bene? Pensa all’articolo (il, lo, l’, i, gli). || Welche Form von quello passt? Denke an den Artikel (il, lo, l’, i, gli).
+Kategorien: a=quel; b=quello; c=quell’; d=quei; e=quegli
+… telefono > a
+… giornale > a
+… disco > a
+… zaino > b
+… studente > b
+… schermo > b
+… amico > c
+… orologio > c
+… libri > d
+… nonni > d
+… amici > e
+… zii > e
+! il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli. || il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli.
+
+%übung leicht | Guarda quella foto!
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Guarda {quel*|quello|quei} vecchio telefono!
+Chi è {quella*|quel|quelle} signora nella foto?
+{Quell’*|Quel|Quello} orologio era del nonno.
+{Quegli*|Quei|Quelli} occhiali sono della nonna.
+Ti ricordi {quei*|quegli|quelli} giochi in cortile?
+{Quello*|Quel|Quell’} zaino è troppo pesante.
+{Quelle*|Quella|Quegli} lettere sono molto vecchie.
+{Quell’*|Quel|Quegli} estate faceva molto caldo.
+{Quegli*|Quei|Quelle} studenti non avevano il computer.
+Com’era bello {quel*|quello|quell’} giardino!
+! Come l’articolo: il telefono → quel telefono, l’orologio → quell’orologio, gli occhiali → quegli occhiali, lo zaino → quello zaino. || Wie der Artikel: il → quel, l’ → quell’, gli → quegli, lo → quello.
+
+%übung leicht | Al mercatino
+?auswahl | Questo (qui) o quello (là)? E quale forma? Scegli. || Questo (hier) oder quello (dort)? Und welche Form? Wähle.
+– Ti piace {questa*|quella|questo} radio qui?
+– No, preferisco {quella*|questa|quello} là in fondo.
+– {Questi*|Queste|Questo} dischi qui costano poco.
+– E {quei*|questi|quelli} libri là, vicino alla porta?
+– Quale telefono vuoi? – {Quello*|Quel|Quei} nero.
+– Quali scarpe ti piacciono? – {Quelle*|Quelli|Quei} rosse.
+– Quali libri prendi? – {Quelli*|Quei|Quegli} di ieri.
+– Quale borsa compri? – {Quella*|Quello|Quel} piccola.
+– Quali occhiali sono i tuoi? – {Quelli*|Quegli|Quelle} sul tavolo.
+! qui → questo, là → quello. Senza nome: solo **quello, quella, quelli, quelle** (mai quel, quei, quegli). || hier → questo, dort → quello. Ohne Nomen nur **quello, quella, quelli, quelle** (nie quel, quei, quegli).
+
+%übung mittel | Una vecchia foto di famiglia
+?luecke | Scrivi la forma giusta di quello. || Schreibe die richtige Form von quello.
+Guarda [quella] foto: è molto vecchia!
+[Quel] signore con i baffi è mio nonno.
+[Quell’] uomo accanto a lui è suo fratello.
+[Quei] due bambini sono i miei zii.
+[Quegli] alberi oggi non ci sono più.
+[Quello] strano oggetto sul tavolo è una vecchia radio.
+[Quelle] ragazze sono le amiche della nonna.
+In [quell’] anno la mia famiglia abitava ancora in campagna.
+[Quel] piccolo orologio era un regalo per la nonna.
+In [quegli] anni poche famiglie avevano la macchina.
+! Conta la parola che viene subito dopo: **quello** strano oggetto, **quel** piccolo orologio, ma **quell’**orologio. || Entscheidend ist das direkt folgende Wort: quello strano oggetto, quel piccolo orologio, aber quell’orologio.
+
+%übung mittel | Singolare e plurale
+?tabelle | Scrivi quello + nome al singolare e al plurale, come nell’esempio. || Schreibe quello + Nomen im Singular und im Plural wie im Beispiel.
+Spalten: articolo + nome | singolare | plurale
+il ragazzo | quel ragazzo | quei ragazzi
+lo studente | [quello studente] | [quegli studenti]
+l’amico | [quell’amico] | [quegli amici]
+la casa | [quella casa] | [quelle case]
+l’amica | [quell’amica] | [quelle amiche]
+il gioco | [quel gioco] | [quei giochi]
+lo zio | [quello zio] | [quegli zii]
+
+%übung mittel | Quale? Quello!
+?ergaenzen | Rispondi con quello, quella, quelli o quelle + la parola tra parentesi. Attenzione alla forma dell’aggettivo! || Antworte mit quello, quella, quelli oder quelle + dem Wort in Klammern. Achte auf die Form des Adjektivs!
+– Quale telefono compri? (nero) – … | quello nero | Quello nero.
+– Quale bicicletta prendi? (verde) – … | quella verde | Quella verde.
+– Quali scarpe metti? (bianco) – … | quelle bianche | Quelle bianche.
+– Quali libri leggi? (di Luca) – … | quelli di Luca | Quelli di Luca.
+– Quale film guardiamo? (di ieri) – … | quello di ieri | Quello di ieri.
+– Quali foto ti piacciono? (vecchio) – … | quelle vecchie | Quelle vecchie.
+– Quali occhiali sono i tuoi? (rosso) – … | quelli rossi | Quelli rossi.
+– Quale giacca è di Sara? (blu) – … | quella blu | Quella blu.
+
+%übung schwer | Nove errori
+?fehler | In ogni frase c’è una forma sbagliata di quello. Correggi. || In jedem Satz steckt eine falsche Form von quello. Korrigiere.
+[Quel=>Quello] studente viene dalla Germania.
+[Quelli=>Quei] ragazzi là sono i miei cugini.
+Conosci [quei=>quegli] amici di Marco?
+[Quello albero=>Quell’albero] in giardino è altissimo.
+Non mi piace il telefono bianco, preferisco [quel=>quello] rosso.
+Questi biscotti sono buoni, ma [quei=>quelli] della nonna sono più buoni.
+[Quella=>Quelle] canzoni mi ricordano le vacanze.
+In [quelli=>quegli] anni non c’erano i cellulari.
+Chi è [quel=>quell’] uomo con il cappello?
+! Davanti al nome: quel, quello, quell’, quei, quegli. Da solo: quello, quelli. || Vor dem Nomen: quel, quello, quell’, quei, quegli. Allein stehend: quello, quelli.
+
+%übung schwer | Che cosa prendiamo?
+?luecke | Giulia e Matteo sono al mercatino dell’usato. Scrivi la forma giusta di questo o quello. || Giulia und Matteo sind auf dem Flohmarkt. Schreibe die richtige Form von questo oder quello.
+– Guarda (questo) [questi] dischi qui: sono bellissimi!
+– Sì! E (quello) [quegli] strumenti là in fondo?
+– No, (quello) [quelli] sono troppo cari.
+– Scusi, quanto costa (questo) [questa] macchina fotografica?
+– Dieci euro. (quello) [Quella] là, più piccola, costa solo cinque euro.
+– Io prendo (quello) [quell’] orologio per mio padre.
+– Quale? (quello) [Quello] con i numeri grandi?
+– No, l’altro, vicino a (quello) [quei] vecchi telefoni.
+– E per la nonna? – Per lei prendo (quello) [quelle] cartoline di Roma.
+– Guarda anche (quello) [quello] specchio: è perfetto per la tua camera!
+! Con un nome → come l’articolo (quegli strumenti, quei vecchi telefoni, quello specchio). Senza nome → quello, quella, quelli, quelle. || Mit Nomen → wie der Artikel. Ohne Nomen → quello, quella, quelli, quelle.
+
+%übung schwer | Qual è la forma giusta?
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Quelli libri sono miei, quei sono tuoi.
+* Quei libri sono miei, quelli sono tuoi.
+- Quegli libri sono miei, quelli sono tuoi.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+* Conosci quello psicologo?
+- Conosci quel psicologo?
+- Conosci quell’psicologo?
+?mc | – Quale gelato vuoi? || Welche Antwort ist richtig?
+- Quel al cioccolato.
+- Quell’al cioccolato.
+* Quello al cioccolato.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Che belli quei stivali!
+* Che belli quegli stivali!
+- Che belli quelli stivali!
+?mc | Qual è il plurale di «quell’amico»? || Wie lautet der Plural von «quell’amico»?
+- quei amici
+- quelli amici
+* quegli amici
+?frei | Descrivi una vecchia foto (vera o inventata) in 4–5 frasi. Usa forme diverse di quello: quel, quella, quell’, quei, quegli, quelle. || Beschreibe ein altes Foto (echt oder erfunden) in 4–5 Sätzen. Verwende verschiedene Formen von quello.
+In questa foto ci sono i miei nonni da giovani. Quel ragazzo con la bicicletta è mio nonno. Quella ragazza con il vestito bianco è mia nonna. Quegli alberi sono nel giardino della loro prima casa. In quegli anni abitavano in un piccolo paese. Quell’estate si sono sposati.
+Zeilen: 6
+
+@thema ci-ne | 5 · Ieri e oggi | Parte B | Ci e ne | 4
+#lehrplan Jgst. 9 · Pronominaladverbien ci und ne
+#regel
+**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:
+- _– Vai **a Roma**? – Sì, **ci** vado domani._
+- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_
+**Ne** sostituisce una **quantità** o **di + cosa**:
+- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._
+- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._
+| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |
+| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |
+| **ci vuole** + singolare | _**Ci vuole** un’ora._ |
+| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |
+**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).
+#regel-de
+**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)
+**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!
+**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …
+Stellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._
+
+%übung leicht | Ci o ne?
+?auswahl | Scegli: ci o ne? || Wähle: ci oder ne?
+– Vai spesso dai nonni? – Sì, {ci*|ne} vado ogni domenica.
+– Quanti fratelli hai? – {Ne*|Ci} ho due.
+– Vuoi del pane? – Sì, {ne*|ci} prendo un po’.
+– Sei mai stato a Roma? – No, non {ci*|ne} sono mai stato.
+– Hai dei francobolli? – No, non {ne*|ci} ho.
+– Pensi al futuro? – Sì, {ci*|ne} penso spesso.
+– Parlate della scuola? – Sì, {ne*|ci} parliamo sempre.
+– Credi all’oroscopo? – No, non {ci*|ne} credo.
+– Quando andate in biblioteca? – {Ci*|Ne} andiamo domani.
+– Hai bisogno del computer? – Sì, {ne*|ci} ho bisogno adesso.
+! Luogo o **a** + cosa → **ci**. Quantità o **di** + cosa → **ne**. || Ort oder **a** + Sache → **ci**. Menge oder **di** + Sache → **ne**.
+
+%übung leicht | Domanda e risposta
+?zuordnen | Abbina la domanda alla risposta. || Verbinde die Frage mit der Antwort.
+Vai a scuola in bici? = Sì, ci vado in bici.
+Quante sorelle hai? = Ne ho una.
+Mangi molta frutta? = Sì, ne mangio molta.
+Sei stato in Sicilia? = No, non ci sono mai stato.
+Hai bisogno di aiuto? = No, grazie, non ne ho bisogno.
+Pensi alle vacanze? = Sì, ci penso ogni giorno.
+Quanto tempo ci vuole? = Ci vuole un’ora.
+Ci sono ancora biscotti? = Sì, ce ne sono tre.
+C’è ancora latte? = No, non ce n’è più.
+Parli spesso del tuo lavoro? = No, non ne parlo mai.
+
+%übung leicht | Ci vuole o ci vogliono?
+?sortieren | Che cosa va bene: ci vuole o ci vogliono? || Was passt: ci vuole oder ci vogliono?
+Kategorien: a=Ci vuole …; b=Ci vogliono …
+un’ora > a
+due ore > b
+molta pazienza > a
+tre uova > b
+un computer > a
+venti minuti > b
+molto tempo > a
+dieci euro > b
+un biglietto > a
+gli occhiali > b
+! Singolare → ci vuole. Plurale → ci vogliono. || Singular → ci vuole. Plural → ci vogliono.
+
+%übung leicht | Ce n’è o ce ne sono?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+– Quante finestre ci sono in classe? – {Ce ne sono*|Ce n’è} quattro.
+– C’è un computer? – Sì, {ce n’è*|ce ne sono} uno.
+– Ci sono studenti nuovi? – Sì, {ce ne sono*|ce n’è} due.
+– C’è ancora pizza? – Sì, {ce n’è*|ce ne sono} ancora un po’.
+– Quanti telefoni ci sono a casa tua? – {Ce ne sono*|Ce n’è} cinque.
+– C’è una farmacia qui vicino? – Sì, {ce n’è*|ce ne sono} una in piazza.
+– Ci sono errori nel testo? – No, non {ce ne sono*|ce n’è}.
+– C’è del succo? – No, non {ce n’è*|ce ne sono} più.
+! c’è + ne → **ce n’è** (singolare). ci sono + ne → **ce ne sono** (plurale). || c’è + ne → **ce n’è** (Singular). ci sono + ne → **ce ne sono** (Plural).
+
+%übung mittel | La nonna e il tablet
+?luecke | Davide parla con sua nonna. Completa con ci o ne. || Davide spricht mit seiner Oma. Ergänze ci oder ne.
+– Nonna, sai mandare le foto con il tablet? – Provo sempre, ma non [ci] riesco!
+– Quante mail scrivi? – [Ne] scrivo due o tre alla settimana.
+– Vai ancora al mercato? – Certo, [ci] vado ogni sabato.
+– Compri molta verdura? – Sì, [ne] compro sempre tanta.
+– Pensi mai alla tua vecchia casa? – Sì, [ci] penso spesso.
+– Parli dei vecchi tempi con il nonno? – Sì, [ne] parliamo quasi ogni sera.
+– Torni qualche volta al tuo paese? – [Ci] torno una volta all’anno.
+– Hai ancora amiche lì? – Sì, [ne] ho ancora tre.
+– Credi a tutto quello che leggi su Internet? – No, non [ci] credo!
+– Hai bisogno di aiuto con il tablet? – No, grazie, oggi non [ne] ho bisogno.
+! riuscire **a**, pensare **a**, credere **a**, andare / tornare **a** → ci. Quantità (due, tanta, tre), parlare **di**, avere bisogno **di** → ne. || riuscire a, pensare a, credere a, Ort → ci. Menge, parlare di, avere bisogno di → ne.
+
+%übung mittel | Rispondi!
+?ergaenzen | Rispondi con ci o ne. || Antworte mit ci oder ne.
+– Vai spesso al cinema? – Sì, … | ci vado spesso | Sì, ci vado spesso.
+– Quanti messaggi scrivi al giorno? (cinquanta) – … | ne scrivo cinquanta | Ne scrivo cinquanta.
+– Sei mai stata a Venezia? – No, … | non ci sono mai stata | No, non ci sono mai stata.
+– Hai dei fratelli? – No, … | non ne ho | No, non ne ho.
+– Pensi spesso al futuro? – Sì, … | ci penso spesso | Sì, ci penso spesso.
+– Parlate mai di politica? – No, … | non ne parliamo mai | No, non ne parliamo mai.
+– Quanto tempo ci vuole per andare a scuola? (dieci minuti) – … | ci vogliono dieci minuti | Ci vogliono dieci minuti.
+– Quante lingue parli? (tre) – … | ne parlo tre | Ne parlo tre.
+
+%übung mittel | Dove vanno ci e ne?
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+A Parigi?
+Non ci
+sono mai
+stato.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Il caffè è buono,
+ma ne
+bevo solo
+una tazza.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Vorrei andare in Sicilia,
+ma non posso
+andarci
+quest’anno.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Per arrivare a Milano
+ci vogliono
+tre ore
+di treno.
+! ci e ne stanno prima del verbo coniugato (non **ci** sono mai stato, **ne** bevo) o dopo l’infinito (andar**ci**). || ci und ne stehen vor dem konjugierten Verb oder hängen am Infinitiv (andarci).
+
+%übung mittel | Quanto ci vuole? Quanti ce ne sono?
+?luecke | Completa con ci vuole, ci vogliono, ce n’è o ce ne sono. || Ergänze ci vuole, ci vogliono, ce n’è oder ce ne sono.
+Per andare in centro [ci vogliono] venti minuti.
+Per fare questo esercizio [ci vuole] molta pazienza.
+– C’è ancora gelato? – Sì, [ce n’è] ancora.
+– Quante sedie ci sono? – [Ce ne sono] dodici.
+Per una pizza buona [ci vuole] un forno molto caldo.
+– Ci sono biscotti? – Mi dispiace, non [ce ne sono] più.
+Per imparare bene una lingua [ci vogliono] molti anni.
+– C’è un bagno qui? – Sì, [ce n’è] uno al primo piano.
+
+%übung schwer | Dieci errori
+?fehler | In ogni riga c’è un errore con ci o ne. Correggi. || In jeder Zeile steckt ein Fehler bei ci oder ne. Korrigiere.
+– Vai a Roma? – Sì, [ne=>ci] vado domani.
+– Io ho tre gatti. – Io [ci=>ne] ho due.
+Per fare i compiti ci [vuole=>vogliono] due ore.
+– Credi all’oroscopo? – No, non [ne=>ci] credo.
+– Ci sono ancora mele? – Sì, [ci ne=>ce ne] sono tre.
+Il concerto è a Bologna e voglio [ci andare=>andarci] con Sara.
+– Quanti anni hai? – [Ho=>Ne ho] quindici.
+Questo esercizio è difficile: non [riesco ci=>ci riesco].
+– Parli spesso di calcio? – No, non [ci=>ne] parlo mai.
+– Hai bisogno della macchina? – No, non [ci=>ne] ho bisogno.
+! Con un numero senza nome ci vuole sempre **ne**: _Ne ho quindici._ ci + ne → **ce ne**. || Bei einer Zahl ohne Nomen steht immer **ne**: _Ne ho quindici._ ci + ne → **ce ne**.
+
+%übung schwer | Una mail da Berlino
+?luecke | Chiara scrive al nonno. Completa con ci, ne o ce ne. || Chiara schreibt ihrem Opa. Ergänze ci, ne oder ce ne.
+Caro nonno, sono a Berlino da una settimana e [ci] sto benissimo.
+La città è grande: per andare a scuola [ci] vogliono quaranta minuti!
+Di musei [ce ne] sono tantissimi: io [ne] ho già visitati tre.
+Ieri volevo andare allo zoo, ma non [ci] sono riuscita: pioveva troppo.
+[Ci] vado sabato con la mia amica Lena.
+Lena ha molti fratelli: [ne] ha quattro!
+E il tuo viaggio in Germania di tanti anni fa? [Ne] parliamo quando torno!
+Penso spesso a voi: [ci] penso soprattutto la sera.
+Fra un mese sono di nuovo a casa: quasi non [ci] credo!
+Ti piace ancora il tè tedesco? Se [ne] vuoi un pacco, scrivimi!
+! stare / andare in un luogo, riuscire a, pensare a, credere a → ci. Quantità (tre, quattro, un pacco), parlare di → ne. || Ort, riuscire a, pensare a, credere a → ci. Menge, parlare di → ne.
+
+%übung schwer | Senza ripetere
+?ergaenzen | Riscrivi la frase: sostituisci le parole tra parentesi con ci o ne. || Schreibe den Satz neu: Ersetze die Wörter in Klammern durch ci oder ne.
+Vado spesso (in biblioteca). | ci vado spesso | Ci vado spesso.
+Compro due (quaderni). | ne compro due | Ne compro due.
+Non parlo mai (di sport). | non ne parlo mai | Non ne parlo mai.
+Penso sempre (alle vacanze). | ci penso sempre | Ci penso sempre.
+Ho bisogno (di una pausa). | ne ho bisogno | Ne ho bisogno.
+Mangio molti (dolci). | ne mangio molti | Ne mangio molti.
+Non credo (a questa storia). | non ci credo | Non ci credo.
+Siamo rimasti tre giorni (a Firenze). | ci siamo rimasti tre giorni | Ci siamo rimasti tre giorni.
+Voglio andare (a Napoli). | voglio andarci/ci voglio andare | Voglio andarci. (Anche: Ci voglio andare.)
+
+%übung schwer | Ci e ne: tutto insieme
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+* Non ci sono mai andato.
+- Non sono ci mai andato.
+- Ci non sono mai andato.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Voglio ne comprare due.
+* Voglio comprarne due.
+- Voglio comprare ne due.
+?mc | «Sì, ce n’è una in piazza.» Qual è la domanda? || «Sì, ce n’è una in piazza.» Wie lautet die Frage?
+- Vai spesso in farmacia?
+- Quanto tempo ci vuole per andare in farmacia?
+* C’è una farmacia qui vicino?
+?mc | Per fare questa torta ci vogliono … || Wie geht der Satz richtig weiter?
+- molta pazienza.
+* tre uova e un po’ di farina.
+- un’ora.
+?mc | In quale frase «ne» vuol dire «di questo problema»? || In welchem Satz bedeutet «ne» „über dieses Problem“?
+- Ne prendo due, grazie.
+- Ne ho solo uno.
+* Ne parliamo domani con la prof.
+?frei | Rispondi alle domande con frasi complete. Usa ci e ne: Vai spesso al cinema? Quanti libri leggi in un anno? Pensi spesso al futuro? Quanto tempo ci vuole per andare a scuola? || Beantworte die Fragen in ganzen Sätzen. Verwende ci und ne.
+Al cinema ci vado una volta al mese. Di libri ne leggo cinque o sei all’anno. Al futuro ci penso spesso, soprattutto la sera. Per andare a scuola ci vogliono venti minuti in autobus.
+Zeilen: 5
+
+@thema subordinate-indicativo | 5 · Ieri e oggi | Parte B | Subordinate e sequenza dei tempi I | 5
+#lehrplan Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge
+#regel
+Dopo queste **congiunzioni** usiamo l’**indicativo**:
+| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |
+| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |
+| **se** (condizione) | **Se** hai tempo, vieni con noi. |
+| **anche se** | Esco **anche se** piove. |
+| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |
+**Siccome** sta all’inizio della frase. **Mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._
+Che tempo dopo **che**?
+| prima (ieri) | So che Luca **è partito**. |
+| adesso | So che Luca **parte** / **sta partendo**. |
+| dopo (domani) | So che Luca **partirà**. |
+Attenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.
+#regel-de
+Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.
+Zeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_).
+Anders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.
+
+%übung leicht | Le congiunzioni
+?zuordnen | Che cosa vuol dire? Abbina. || Was bedeutet das? Verbinde.
+perché = weil
+siccome = da (am Satzanfang)
+quando = als / wenn (Zeit)
+mentre = während
+se = falls
+anche se = auch wenn / obwohl
+dopo che = nachdem
+appena = sobald
+che = dass
++ bevor
++ damit
+
+%übung leicht | Qual è la congiunzione giusta?
+?auswahl | Scegli la congiunzione giusta. || Wähle die passende Konjunktion.
+Vado a letto presto {perché*|anche se|che} sono molto stanco.
+{Quando*|Che|Dopo che} ero piccolo, non avevo il telefono.
+È vero {che*|quando|mentre} una volta si scrivevano molte lettere.
+{Mentre*|Che|Dopo} la nonna cucinava, il nonno leggeva il giornale.
+{Se*|Che|Mentre} domani piove, restiamo a casa.
+Vado a scuola in bici {anche se*|siccome|che} piove forte.
+{Siccome*|Che|Appena} non c’era la televisione, la sera si parlava molto.
+Ti chiamo {appena*|che|siccome} arrivo a casa.
+{Dopo che*|Che|Perciò} ho finito i compiti, esco con gli amici.
+La nonna dice {che*|se|quando} una volta la vita era più semplice.
+! perché / siccome = causa; quando / mentre / appena / dopo che = tempo; se = condizione; anche se = contrasto; dire che … || perché / siccome = Grund; quando / mentre / appena / dopo che = Zeit; se = Bedingung; anche se = Gegensatz; dire che = sagen, dass.
+
+%übung leicht | Prima, adesso o dopo?
+?sortieren | Quando succede l’azione dopo «che»? Guarda il tempo del verbo. || Wann geschieht die Handlung nach «che»? Achte auf die Zeitform.
+Kategorien: a=prima (passato); b=adesso (presente); c=dopo (futuro)
+Vedo che hai comprato un telefono nuovo. > a
+So che i nonni abitavano in campagna. > a
+La prof dice che abbiamo lavorato bene. > a
+Sara scrive che è arrivata a Londra. > a
+So che Sara sta studiando. > b
+Vedo che sei stanco. > b
+So che la mamma è in ufficio. > b
+Dicono che in città c’è molto traffico. > b
+So che Marco arriverà tardi. > c
+Il nonno dice che domani pioverà. > c
+Sono sicuro che vinceremo. > c
+Leggo che il concerto comincerà alle nove. > c
+! passato prossimo / imperfetto = prima; presente = adesso; futuro = dopo. || passato prossimo / imperfetto = vorher; Präsens = jetzt; Futur = später.
+
+%übung mittel | La nonna ieri e oggi
+?luecke | Metti il verbo al tempo giusto (presente, passato prossimo, imperfetto o futuro). || Setze das Verb in die richtige Zeit (Präsens, passato prossimo, imperfetto oder Futur).
+Quando la nonna (essere) [era] giovane, non (esistere) [esistevano] i cellulari.
+Siccome non (avere, lei) [aveva] il telefono a casa, scriveva molte lettere.
+Mentre lei (scrivere) [scriveva], sua madre cucinava.
+Oggi la nonna dice che la vita (essere) [è] più comoda.
+Usa il tablet ogni giorno, anche se non (capire) [capisce] tutto.
+Appena (ricevere) [riceve] una foto, risponde con un cuore.
+So che ieri (mandare, lei) [ha mandato] dieci messaggi alla zia.
+E sono sicura che domani mi (chiamare, lei) [chiamerà/chiama] di nuovo.
+Se domani (fare) [fa/farà] bel tempo, andiamo insieme al parco.
+! quando / siccome / mentre + imperfetto per descrivere il passato; ieri → passato prossimo; domani → futuro (o presente). || quando / siccome / mentre + imperfetto für Beschreibungen in der Vergangenheit; ieri → passato prossimo; domani → Futur (oder Präsens).
+
+%übung mittel | Unisci le frasi
+?ergaenzen | Unisci le due frasi con la congiunzione tra parentesi. || Verbinde die beiden Sätze mit der Konjunktion in Klammern.
+Resto a casa. Piove. (perché) → Resto a casa … | perché piove | Resto a casa perché piove.
+Giocavo sempre fuori. Ero piccolo. (quando) → Giocavo sempre fuori … | quando ero piccolo | Giocavo sempre fuori quando ero piccolo.
+Finisco i compiti. Sono stanca. (anche se) → Finisco i compiti … | anche se sono stanca | Finisco i compiti anche se sono stanca.
+Ti scrivo. Arrivo a casa. (appena) → Ti scrivo … | appena arrivo a casa | Ti scrivo appena arrivo a casa.
+Luca è malato. Lo so. (che) → So … | che Luca è malato | So che Luca è malato.
+Vieni con noi! Hai tempo? (se) → Vieni con noi … | se hai tempo | Vieni con noi se hai tempo!
+Il nonno leggeva. La nonna telefonava. (mentre) → Il nonno leggeva … | mentre la nonna telefonava | Il nonno leggeva mentre la nonna telefonava.
+Non avevamo la macchina. Andavamo a piedi. (siccome) → …, andavamo a piedi. | siccome non avevamo la macchina | Siccome non avevamo la macchina, andavamo a piedi.
+
+%übung mittel | Frasi in ordine
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Siccome
+oggi piove,
+prendiamo
+l’autobus.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+So che
+i miei nonni
+si sono conosciuti
+a una festa.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Ti telefono
+appena
+finisco
+i compiti.
+?ordnen | Metti le parti in ordine e forma una frase. || Bringe die Teile in die richtige Reihenfolge.
+Anche se
+ha novant’anni,
+mia nonna usa
+il computer.
+! In italiano l’ordine delle parole nella subordinata non cambia: perché **sono** stanco, appena **finisco** i compiti. || Im Italienischen bleibt die Wortstellung im Nebensatz gleich: Das Verb wandert nicht ans Ende.
+
+%übung schwer | Dieci frasi, dieci errori
+?fehler | In ogni frase c’è un errore (verbo o congiunzione). Correggi. || In jedem Satz steckt ein Fehler (Verb oder Konjunktion). Korrigiere.
+So che Luca [sia=>è] malato.
+Anche se [sia=>è] tardi, guardo ancora un film.
+Quando [sono=>ero] piccolo, abitavo a Napoli.
+So che ieri Maria [parte=>è partita] per Londra.
+Sono sicuro che domani [ha piovuto=>pioverà/piove].
+Mentre [ho mangiato=>mangiavo], è arrivato Paolo.
+Ti chiamo [appena che=>appena] arrivo.
+Il prof dice che Sara [abbia=>ha] ragione.
+Vado a scuola in bici [anche=>anche se] piove.
+Se domani [pioverebbe=>piove/pioverà], restiamo a casa.
+! so che, dico che, anche se → indicativo (non congiuntivo). mentre + imperfetto. Dopo **se** mai il condizionale. || so che, dico che, anche se → Indikativ (kein congiuntivo). mentre + imperfetto. Nach **se** nie das condizionale.
+
+%übung schwer | Il blog di Chiara
+?luecke | Chiara scrive di sua nonna. Metti i verbi al tempo giusto. || Chiara schreibt über ihre Oma. Setze die Verben in die richtige Zeit.
+Mia nonna dice sempre che ai suoi tempi la vita (essere) [era] più semplice.
+Io so che lei (avere) [ha] ragione, almeno un po’.
+Quando (avere, lei) [aveva] quindici anni, (lavorare) [lavorava] già in un negozio.
+Siccome la sua famiglia non (avere) [aveva] molti soldi, la nonna ha lasciato la scuola presto.
+So che la settimana scorsa (comprare, lei) [ha comprato] un tablet.
+Anche se non (capire, lei) [capisce] ancora tutto, non ha paura di provare.
+Oggi, mentre io (fare) [faccio/sto facendo] i compiti, lei guarda video di cucina.
+Sono sicura che fra un anno (sapere, lei) [saprà] usare il tablet meglio di me!
+E so già che appena (leggere, lei) [leggerà/legge] questo testo, mi (telefonare) [telefonerà/telefona] subito.
+! ai suoi tempi, quando aveva quindici anni → imperfetto; la settimana scorsa → passato prossimo; fra un anno → futuro. || ai suoi tempi, quando aveva quindici anni → imperfetto; la settimana scorsa → passato prossimo; fra un anno → Futur.
+
+%übung schwer | Che tempo ci vuole?
+?mc | So che Marta … ieri sera. || Welche Form passt?
+- tornerà
+* è tornata
+- torna
+?mc | Sono sicuro che l’anno prossimo … in Italia. || Welche Form passt?
+- siamo andati
+- andavamo
+* andremo
+?mc | Vedo che … stanco: vai a letto! || Welche Form passt?
+* sei
+- eri
+- sarai
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Anche se piova, usciamo.
+* Anche se piove, usciamo.
+- Anche piove, usciamo.
+?mc | Quale frase è corretta? || Welcher Satz ist richtig?
+- Siccome sia tardi, torniamo a casa.
+- Torniamo a casa siccome che è tardi.
+* Siccome è tardi, torniamo a casa.
+?frei | Com’era la vita dei tuoi nonni da giovani e com’è la tua oggi? Scrivi 5 frasi. Usa: quando, mentre, perché, anche se, so che. || Wie war das Leben deiner Großeltern in ihrer Jugend, und wie ist deins heute? Schreibe 5 Sätze. Verwende: quando, mentre, perché, anche se, so che.
+Quando mia nonna era giovane, non aveva il telefono. Scriveva molte lettere perché i suoi amici abitavano lontano. Mentre lei aiutava in casa, i suoi fratelli lavoravano in campagna. Io invece scrivo messaggi ogni giorno, anche se vedo i miei amici a scuola. So che la vita di oggi è più comoda, ma non so se è più bella.
+Zeilen: 6

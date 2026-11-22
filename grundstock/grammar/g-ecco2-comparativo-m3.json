@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parti in ordine: „In Rom ist es wärmer als in München.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "A Roma"
+    },
+    {
+     "id": "i2",
+     "text": "fa più caldo"
+    },
+    {
+     "id": "i3",
+     "text": "che"
+    },
+    {
+     "id": "i4",
+     "text": "a Monaco."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parti in ordine: „Giulia ist so groß wie ihr Bruder.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Giulia"
+    },
+    {
+     "id": "i2",
+     "text": "è alta"
+    },
+    {
+     "id": "i3",
+     "text": "quanto"
+    },
+    {
+     "id": "i4",
+     "text": "suo fratello."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parti in ordine: „Es ist leichter zu lesen als zu sprechen.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "È più facile"
+    },
+    {
+     "id": "i2",
+     "text": "leggere"
+    },
+    {
+     "id": "i3",
+     "text": "che"
+    },
+    {
+     "id": "i4",
+     "text": "parlare."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parti in ordine: „Meine Freundin spricht besser Italienisch als ich.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "La mia amica"
+    },
+    {
+     "id": "i2",
+     "text": "parla italiano"
+    },
+    {
+     "id": "i3",
+     "text": "meglio"
+    },
+    {
+     "id": "i4",
+     "text": "di me."
+    }
+   ]
+  }
+ ]
+}

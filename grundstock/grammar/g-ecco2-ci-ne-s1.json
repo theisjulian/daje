@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ci-ne-s1",
+ "title": "Dieci errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Ci e ne · Dieci errori · livello difficile.",
+ "topics": [
+  "Ci e ne",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+ },
+ "grammar": {
+  "topic": "ecco2-ci-ne",
+  "topicTitle": "Ci e ne",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+  "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni riga c’è un errore con ci o ne. Correggi.",
+   "promptHelp": "In jeder Zeile steckt ein Fehler bei ci oder ne. Korrigiere.",
+   "explanation": "Con un numero senza nome ci vuole sempre **ne**: _Ne ho quindici._ ci + ne → **ce ne**.",
+   "explanationHelp": "Bei einer Zahl ohne Nomen steht immer **ne**: _Ne ho quindici._ ci + ne → **ce ne**.",
+   "type": "error_correction",
+   "text": "– Vai a Roma? – Sì, [[g1]] vado domani.\n– Io ho tre gatti. – Io [[g2]] ho due.\nPer fare i compiti ci [[g3]] due ore.\n– Credi all’oroscopo? – No, non [[g4]] credo.\n– Ci sono ancora mele? – Sì, [[g5]] sono tre.\nIl concerto è a Bologna e voglio [[g6]] con Sara.\n– Quanti anni hai? – [[g7]] quindici.\nQuesto esercizio è difficile: non [[g8]].\n– Parli spesso di calcio? – No, non [[g9]] parlo mai.\n– Hai bisogno della macchina? – No, non [[g10]] ho bisogno.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "ne",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "ci",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "vuole",
+     "acceptedAnswers": [
+      "vogliono"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ne",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ci ne",
+     "acceptedAnswers": [
+      "ce ne"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ci andare",
+     "acceptedAnswers": [
+      "andarci"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Ho",
+     "acceptedAnswers": [
+      "Ne ho"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "riesco ci",
+     "acceptedAnswers": [
+      "ci riesco"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "ci",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "ci",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    }
+   ]
+  }
+ ]
+}

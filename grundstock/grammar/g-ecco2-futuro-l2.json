@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-futuro-l2",
+ "title": "Fra dieci anni",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Fra dieci anni · livello facile.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+  "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta del futuro.",
+   "promptHelp": "Wähle die richtige Futurform.",
+   "explanation": "-are → -**er**ò (abiterò, arriverò). pagare → pa**gh**erò, cercare → cer**ch**erò, mangiare → man**ge**rò. Irregolari: farò, verrò, potrò, sarò.",
+   "explanationHelp": "-are → -**er**ò. pagare → pagherò, cercare → cercherò, mangiare → mangerò. Unregelmäßig: farò, verrò, potrò, sarò.",
+   "type": "gap_choice",
+   "text": "Domani io [[g1]] per Roma.\nFra dieci anni noi [[g2]] in un’altra città.\nTu che cosa [[g3]] dopo la scuola?\nI miei nonni [[g4]] a trovarci a Natale.\nSara [[g5]] tutto con il telefono.\nVoi [[g6]] studiare da casa.\nIo [[g7]] un lavoro all’estero.\nIl treno [[g8]] alle otto.\nStasera noi [[g9]] tutti insieme.\nLuca e Anna [[g10]] molto felici.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "partirò",
+      "partirà",
+      "partirai"
+     ],
+     "answer": "partirò"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "abiteremo",
+      "abiteranno",
+      "abitaremo"
+     ],
+     "answer": "abiteremo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "farai",
+      "farà",
+      "facerai"
+     ],
+     "answer": "farai"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "verranno",
+      "verrà",
+      "veniranno"
+     ],
+     "answer": "verranno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "pagherà",
+      "pagerà",
+      "pagherai"
+     ],
+     "answer": "pagherà"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "potrete",
+      "potremo",
+      "poterete"
+     ],
+     "answer": "potrete"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "cercherò",
+      "cercerò",
+      "cercherà"
+     ],
+     "answer": "cercherò"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "arriverà",
+      "arriverai",
+      "arrivarà"
+     ],
+     "answer": "arriverà"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "mangeremo",
+      "mangieremo",
+      "mangeranno"
+     ],
+     "answer": "mangeremo"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "saranno",
+      "sarà",
+      "esseranno"
+     ],
+     "answer": "saranno"
+    }
+   ]
+  }
+ ]
+}

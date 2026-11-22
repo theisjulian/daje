@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-s2",
+ "title": "Nessuno è più …",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Nessuno è più … · livello difficile.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la seconda frase con il superlativo relativo: il significato non cambia.",
+   "promptHelp": "Ergänze den zweiten Satz mit dem relativen Superlativ: Die Bedeutung bleibt gleich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Nessun fiume italiano è più lungo del Po. → Il Po è …",
+     "acceptedAnswers": [
+      "il fiume più lungo d’Italia",
+      "il fiume italiano più lungo",
+      "il più lungo fiume d’Italia"
+     ],
+     "modelAnswer": "Il Po è il fiume più lungo d’Italia. (Anche: il fiume italiano più lungo, il più lungo fiume d’Italia.)"
+    },
+    {
+     "id": "s2",
+     "start": "Nessuna città italiana è più grande di Roma. → Roma è …",
+     "acceptedAnswers": [
+      "la città più grande d’Italia",
+      "la città italiana più grande",
+      "la più grande città d’Italia"
+     ],
+     "modelAnswer": "Roma è la città più grande d’Italia. (Anche: la città italiana più grande, la più grande città d’Italia.)"
+    },
+    {
+     "id": "s3",
+     "start": "Nella classe nessuno è più alto di Davide. → Davide è …",
+     "acceptedAnswers": [
+      "il più alto della classe"
+     ],
+     "modelAnswer": "Davide è il più alto della classe."
+    },
+    {
+     "id": "s4",
+     "start": "Nessun mese è più corto di febbraio. → Febbraio è …",
+     "acceptedAnswers": [
+      "il mese più corto"
+     ],
+     "modelAnswer": "Febbraio è il mese più corto dell’anno."
+    },
+    {
+     "id": "s5",
+     "start": "Nella squadra nessuna gioca meglio di Giulia. → Giulia è …",
+     "acceptedAnswers": [
+      "la migliore della squadra",
+      "la più brava della squadra"
+     ],
+     "modelAnswer": "Giulia è la migliore della squadra. (Anche: la più brava della squadra.)"
+    },
+    {
+     "id": "s6",
+     "start": "Tutti gli altri alberghi della città sono più cari di questo. → Questo è …",
+     "acceptedAnswers": [
+      "l’albergo meno caro della città",
+      "il meno caro della città"
+     ],
+     "modelAnswer": "Questo è l’albergo meno caro della città. (Anche: il meno caro della città.)"
+    },
+    {
+     "id": "s7",
+     "start": "Nessuna montagna del mondo è più alta dell’Everest. → L’Everest è …",
+     "acceptedAnswers": [
+      "la montagna più alta del mondo",
+      "la più alta montagna del mondo",
+      "la più alta del mondo"
+     ],
+     "modelAnswer": "L’Everest è la montagna più alta del mondo. (Anche: la più alta montagna del mondo, la più alta del mondo.)"
+    },
+    {
+     "id": "s8",
+     "start": "Tutti i miei amici sono più puntuali di Luca. → Luca è …",
+     "acceptedAnswers": [
+      "il meno puntuale"
+     ],
+     "modelAnswer": "Luca è il meno puntuale dei miei amici."
+    }
+   ]
+  }
+ ]
+}

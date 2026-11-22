@@ -1,0 +1,136 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-lessico-s1",
+ "title": "La parola sbagliata",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · La parola sbagliata · livello difficile.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+ },
+ "grammar": {
+  "topic": "it12-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+  "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è una parola o un’espressione sbagliata (falso amico, collocazione, registro). Correggila.",
+   "promptHelp": "In jedem Satz ist ein Wort oder Ausdruck falsch (falscher Freund, Kollokation, Register). Korrigiere ihn.",
+   "explanation": "Falsi amici: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Collocazioni: prendere una decisione, raggiungere un obiettivo, tenere conto di. In una mail formale si usa il Lei.",
+   "explanationHelp": "Falsche Freunde: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Kollokationen: prendere una decisione, raggiungere un obiettivo, tenere conto di. In einer formellen Mail steht die Höflichkeitsform Lei.",
+   "type": "error_correction",
+   "text": "Che [[g1]] oggi! Mettiti il cappotto e la sciarpa.\nIl direttore ha messo la sua [[g2]] sotto il contratto.\nMio zio ha fondato una piccola [[g3]] di trasporti.\nLa mia nuova [[g4]] fa foto bellissime.\nHo comprato [[g5]] nuovo per mettere in ordine tutti i miei libri.\nPrima di scegliere l’università devo [[g6]] una decisione difficile.\nDopo tre anni di lavoro abbiamo finalmente [[g7]] il nostro obiettivo.\nUn buon giornalista deve tenere conto [[g8]] tutte le opinioni.\nGentile signora Bianchi, [[g9]] scrivo per chiedere informazioni sul corso di lingua.\nEgregio dottor Verdi, [[g10]] mandarmi il modulo d’iscrizione?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "caldo",
+     "acceptedAnswers": [
+      "freddo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "ditta",
+     "acceptedAnswers": [
+      "firma"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "firma",
+     "acceptedAnswers": [
+      "ditta",
+      "azienda",
+      "impresa",
+      "società"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "camera",
+     "acceptedAnswers": [
+      "macchina fotografica",
+      "fotocamera"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "un regalo",
+     "acceptedAnswers": [
+      "uno scaffale",
+      "una libreria",
+      "una mensola"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "fare",
+     "acceptedAnswers": [
+      "prendere"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "arrivato",
+     "acceptedAnswers": [
+      "raggiunto"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "ti",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "puoi",
+     "acceptedAnswers": [
+      "può",
+      "potrebbe"
+     ]
+    }
+   ]
+  }
+ ]
+}

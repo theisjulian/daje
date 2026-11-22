@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-l2",
+ "title": "Guarda quella foto!",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello come accompagnatore · Guarda quella foto! · livello facile.",
+ "topics": [
+  "Quello come accompagnatore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+ },
+ "grammar": {
+  "topic": "ecco2-quello",
+  "topicTitle": "Quello come accompagnatore",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+  "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Come l’articolo: il telefono → quel telefono, l’orologio → quell’orologio, gli occhiali → quegli occhiali, lo zaino → quello zaino.",
+   "explanationHelp": "Wie der Artikel: il → quel, l’ → quell’, gli → quegli, lo → quello.",
+   "type": "gap_choice",
+   "text": "Guarda [[g1]] vecchio telefono!\nChi è [[g2]] signora nella foto?\n[[g3]] orologio era del nonno.\n[[g4]] occhiali sono della nonna.\nTi ricordi [[g5]] giochi in cortile?\n[[g6]] zaino è troppo pesante.\n[[g7]] lettere sono molto vecchie.\n[[g8]] estate faceva molto caldo.\n[[g9]] studenti non avevano il computer.\nCom’era bello [[g10]] giardino!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "quel",
+      "quello",
+      "quei"
+     ],
+     "answer": "quel"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "quella",
+      "quel",
+      "quelle"
+     ],
+     "answer": "quella"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Quell’",
+      "Quel",
+      "Quello"
+     ],
+     "answer": "Quell’"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Quegli",
+      "Quei",
+      "Quelli"
+     ],
+     "answer": "Quegli"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "quei",
+      "quegli",
+      "quelli"
+     ],
+     "answer": "quei"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Quello",
+      "Quel",
+      "Quell’"
+     ],
+     "answer": "Quello"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Quelle",
+      "Quella",
+      "Quegli"
+     ],
+     "answer": "Quelle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Quell’",
+      "Quel",
+      "Quegli"
+     ],
+     "answer": "Quell’"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Quegli",
+      "Quei",
+      "Quelle"
+     ],
+     "answer": "Quegli"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "quel",
+      "quello",
+      "quell’"
+     ],
+     "answer": "quel"
+    }
+   ]
+  }
+ ]
+}

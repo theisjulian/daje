@@ -1,0 +1,133 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-l3",
+ "title": "Prima, adesso o dopo?",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · Prima, adesso o dopo? · livello facile.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. **Mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_).\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quando succede l’azione dopo «che»? Guarda il tempo del verbo.",
+   "promptHelp": "Wann geschieht die Handlung nach «che»? Achte auf die Zeitform.",
+   "explanation": "passato prossimo / imperfetto = prima; presente = adesso; futuro = dopo.",
+   "explanationHelp": "passato prossimo / imperfetto = vorher; Präsens = jetzt; Futur = später.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "prima (passato)"
+    },
+    {
+     "id": "b",
+     "label": "adesso (presente)"
+    },
+    {
+     "id": "c",
+     "label": "dopo (futuro)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Vedo che hai comprato un telefono nuovo.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "So che i nonni abitavano in campagna.",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "La prof dice che abbiamo lavorato bene.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Sara scrive che è arrivata a Londra.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "So che Sara sta studiando.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Vedo che sei stanco.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "So che la mamma è in ufficio.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "Dicono che in città c’è molto traffico.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "So che Marco arriverà tardi.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "Il nonno dice che domani pioverà.",
+     "category": "c"
+    },
+    {
+     "id": "i11",
+     "text": "Sono sicuro che vinceremo.",
+     "category": "c"
+    },
+    {
+     "id": "i12",
+     "text": "Leggo che il concerto comincerà alle nove.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

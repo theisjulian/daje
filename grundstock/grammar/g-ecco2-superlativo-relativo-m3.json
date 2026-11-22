@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parti in ordine: „Rom ist die größte Stadt Italiens.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Roma"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "la città"
+    },
+    {
+     "id": "i4",
+     "text": "più grande d’Italia."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parti in ordine: „Sara ist die Sportlichste der Klasse.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Sara"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "la più"
+    },
+    {
+     "id": "i4",
+     "text": "sportiva"
+    },
+    {
+     "id": "i5",
+     "text": "della classe."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parti in ordine: „Das ist das am wenigsten teure Hotel der Stadt.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Questo"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "l’albergo"
+    },
+    {
+     "id": "i4",
+     "text": "meno caro della città."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parti in ordine: „Die beste Eisdiele Roms ist hier in der Nähe.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "La migliore"
+    },
+    {
+     "id": "i2",
+     "text": "gelateria"
+    },
+    {
+     "id": "i3",
+     "text": "di Roma"
+    },
+    {
+     "id": "i4",
+     "text": "è qui vicino."
+    }
+   ]
+  }
+ ]
+}

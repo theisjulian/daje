@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-l1",
+ "title": "Che o cui?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Che o cui? · livello facile.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| il motivo **per** | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli: che o cui?",
+   "promptHelp": "Wähle: che oder cui?",
+   "explanation": "Dopo una preposizione (di, a, con, in, da, su, per) → **cui**. Senza preposizione → **che**.",
+   "explanationHelp": "Nach einer Präposition (di, a, con, in, da, su, per) → **cui**. Ohne Präposition → **che**.",
+   "type": "gap_choice",
+   "text": "Questo è il telefono [[g1]] usava mia nonna.\nLa città in [[g2]] sono nati i miei nonni è molto piccola.\nIl ragazzo con [[g3]] gioco a tennis si chiama Davide.\nHo trovato le foto [[g4]] cercavi.\nIl film di [[g5]] parlano tutti è molto vecchio.\nL’amica a [[g6]] scrivo ogni giorno abita a Torino.\nLa signora [[g7]] abita qui accanto ha novant’anni.\nQuesto è il motivo per [[g8]] non ho un profilo social.\nIl paese da [[g9]] viene mio nonno è in Sicilia.\nLa sedia su [[g10]] sei seduto era della bisnonna.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "che",
+      "cui"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "che",
+      "cui"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "che",
+      "cui"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "cui",
+      "che"
+     ],
+     "answer": "cui"
+    }
+   ]
+  }
+ ]
+}

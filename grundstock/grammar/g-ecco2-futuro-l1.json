@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-futuro-l1",
+ "title": "Infinito e futuro",
+ "language": "it",
+ "level": "A2",
+ "description": "Il futuro semplice · Infinito e futuro · livello facile.",
+ "topics": [
+  "Il futuro semplice",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-futuro",
+  "topicTitle": "Il futuro semplice",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+  "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’infinito alla forma del futuro (io).",
+   "promptHelp": "Verbinde den Infinitiv mit der Futurform (io).",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "essere",
+     "right": "sarò"
+    },
+    {
+     "id": "p2",
+     "left": "avere",
+     "right": "avrò"
+    },
+    {
+     "id": "p3",
+     "left": "andare",
+     "right": "andrò"
+    },
+    {
+     "id": "p4",
+     "left": "fare",
+     "right": "farò"
+    },
+    {
+     "id": "p5",
+     "left": "venire",
+     "right": "verrò"
+    },
+    {
+     "id": "p6",
+     "left": "volere",
+     "right": "vorrò"
+    },
+    {
+     "id": "p7",
+     "left": "potere",
+     "right": "potrò"
+    },
+    {
+     "id": "p8",
+     "left": "dovere",
+     "right": "dovrò"
+    },
+    {
+     "id": "p9",
+     "left": "vedere",
+     "right": "vedrò"
+    },
+    {
+     "id": "p10",
+     "left": "bere",
+     "right": "berrò"
+    }
+   ],
+   "distractors": [
+    "venirò",
+    "anderò"
+   ]
+  }
+ ]
+}

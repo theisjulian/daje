@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-m1",
+ "title": "La telefonata di Chiara",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · La telefonata di Chiara · livello medio.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ieri Chiara, che studia a Milano, ha telefonato alla nonna a Palermo. Suo fratello racconta. Completa con il verbo nella forma giusta.",
+   "promptHelp": "Gestern hat Chiara, die in Mailand studiert, ihre Oma in Palermo angerufen. Ihr Bruder erzählt. Ergänze das Verb in der richtigen Form.",
+   "explanation": "Attenzione al futuro: tornerò → sarebbe tornata (condizionale composto, con essere il participio concorda).",
+   "explanationHelp": "Achtung beim Futur: tornerò → sarebbe tornata (condizionale composto; mit essere wird das Partizip angeglichen).",
+   "type": "gap_fill",
+   "text": "«Sto bene.» → Chiara ha detto che [[g1]] bene.\n«Ho trovato una stanza vicino all’università.» → Ha detto che [[g2]] una stanza vicino all’università.\n«I miei coinquilini sono simpatici.» → Ha detto che i suoi coinquilini [[g3]] simpatici.\n«Ieri sono andata al Duomo.» → Ha detto che il giorno prima [[g4]] al Duomo.\n«Tornerò a Palermo a Natale.» → Ha detto che [[g5]] a Palermo a Natale.\n«Qui piove spesso.» → Ha detto che lì [[g6]] spesso.\n«Mi mancano le tue arancine.» → Ha detto che le [[g7]] le arancine della nonna.\n«Mandami la ricetta!» → Ha chiesto alla nonna di [[g8]] la ricetta.\n«Domani comincerò il corso di inglese.» → Ha detto che il giorno dopo [[g9]] il corso di inglese.\n«Da piccola avevo paura della nebbia.» → Ha detto che da piccola [[g10]] paura della nebbia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "stava"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva trovato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "era andata"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sarebbe tornata"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "pioveva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "mancavano"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "mandarle"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrebbe cominciato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    }
+   ]
+  }
+ ]
+}
