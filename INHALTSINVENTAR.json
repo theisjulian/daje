@@ -1,6 +1,6 @@
 {
   "baseWordCount": 133,
-  "baseListeningCount": 4,
+  "baseListeningCount": 1,
   "reviewListeningCount": 14,
   "activities": [
     {
@@ -32,93 +32,6 @@
         "true_false"
       ],
       "transcriptCharacters": 312,
-      "vocabularyEntries": 0
-    },
-    {
-      "id": "it-torino-demo",
-      "title": "Un pomeriggio a Torino",
-      "schemaVersion": "1.1",
-      "language": "it",
-      "level": "A1",
-      "media": {
-        "type": "speech",
-        "text": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in centro. Ci vediamo alle quattro in Piazza Castello. Prima andiamo in gelateria. Io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco, vicino al fiume. Non prendiamo l’autobus: andiamo a piedi. Torno a casa alle sei."
-      },
-      "reviewNotes": [
-        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
-      ],
-      "sources": [
-        {
-          "kind": "own",
-          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
-          "rights": "own"
-        }
-      ],
-      "questions": 4,
-      "questionTypes": [
-        "short_answer",
-        "single_choice",
-        "true_false"
-      ],
-      "transcriptCharacters": 315,
-      "vocabularyEntries": 6
-    },
-    {
-      "id": "it-gelateria-demo",
-      "title": "Due gusti, per favore",
-      "schemaVersion": "1.0",
-      "language": "it",
-      "level": "A1",
-      "media": {
-        "type": "speech",
-        "text": "Buongiorno! Vorrei un gelato piccolo con due gusti: fragola e cioccolato. Per mia sorella, invece, una coppetta al limone. Non vuole il cono. Quanto costa tutto? Sono cinque euro. Ecco dieci euro. Grazie, ecco il resto. Arrivederci!"
-      },
-      "reviewNotes": [
-        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
-      ],
-      "sources": [
-        {
-          "kind": "own",
-          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
-          "rights": "own"
-        }
-      ],
-      "questions": 3,
-      "questionTypes": [
-        "short_answer",
-        "single_choice",
-        "true_false"
-      ],
-      "transcriptCharacters": 232,
-      "vocabularyEntries": 0
-    },
-    {
-      "id": "en-weekend-demo",
-      "title": "A change of plans",
-      "schemaVersion": "1.0",
-      "language": "en",
-      "level": "A2",
-      "media": {
-        "type": "speech",
-        "text": "Hi, I’m Alex. On Saturday, my friend Jamie and I want to ride our bikes to the lake. But in the morning it starts to rain. We decide to visit the city museum instead. We meet at the bus stop at ten thirty. Jamie brings two sandwiches and I bring some water. After the museum, we call our friend Sam. Sam is at home and joins us for lunch."
-      },
-      "reviewNotes": [
-        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
-      ],
-      "sources": [
-        {
-          "kind": "own",
-          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
-          "rights": "own"
-        }
-      ],
-      "questions": 3,
-      "questionTypes": [
-        "short_answer",
-        "single_choice",
-        "true_false"
-      ],
-      "transcriptCharacters": 338,
       "vocabularyEntries": 0
     },
     {

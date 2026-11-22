@@ -1,50 +1,72 @@
-# Start Prüfung und Veröffentlichung
+# daje · Testen und Veröffentlichen
+
+Stand 22.11.2026. Ersetzt die frühere Fassung aus der ripassà-Übergabe (Oktober 2026). Überblick und Regeln: `UEBERGABE-OPUS.md`.
 
 ## Voraussetzungen
 
-Ein moderner Browser; Python 3 zum statischen lokalen Start; Node.js mit den eingebauten Modulen node:assert/strict, node:vm und structuredClone für Tests. Keine Fremdpakete nötig. Die bei dieser Übergabe tatsächlich verwendeten Versionsnummern stehen in provenance.json. Eine bestimmte ältere Mindestversion wurde nicht gesondert getestet.
+- Python 3 (lokaler Server, Generatoren in `werkzeuge/`, `pruefen.py`).
+- Node.js 22 (wie in der Pipeline). `npm install` in `portal/` holt nur Testwerkzeuge (Playwright, Prettier); die App selbst hat keinen Build.
+- Für den Browsertest ein Chromium, der zur Playwright-Version passt (`npx playwright install chromium`), oder ein vorhandener Chromium über `CHROMIUM_PATH`.
 
-## Start und automatische Prüfung
-
-```sh
-cd portal
-python3 -m http.server 8080 --bind 127.0.0.1 --directory dist
-```
-
-Browser: http://127.0.0.1:8080 . Die Hauptseite muss über HTTP geöffnet werden; file:// ist nicht gleichwertig. Für eine feste lokale Lernumgebung Adresse und Port beibehalten. Zum isolierten Testen ein eigenes Browserprofil verwenden, keine echten Lernstände zurücksetzen.
-
-In einem zweiten Terminal, ebenfalls in portal:
+## Lokal starten
 
 ```sh
-node tests/content.test.cjs
-node tests/grading.test.cjs
-node tests/progress.test.cjs
+cd portal/dist && python3 -m http.server 8765
 ```
 
-Alternativ im Paketwurzelverzeichnis `python3 pruefen.py`. Dieser Zusatz führt Syntaxprüfung aller JS-Dateien, die drei mitgelieferten Tests, Beispielvalidierung, Seedvalidierung und einen Hashvergleich der Originaldateien aus. Er verändert keine Lernstände und startet keine Veröffentlichung.
+Dann http://localhost:8765 öffnen. Nur über HTTP, nicht per `file://`. Browserdaten hängen an Adresse und Port (localhost und 127.0.0.1 sind verschiedene Origins); für echte Lernstände immer dieselbe Adresse nutzen, zum Testen ein eigenes Browserprofil. Ohne Konto zeigt daje die Willkommensseite (`gate.js`); die Browsertests umgehen das mit `window.DAJE_E2E`.
 
-## Was die Tests leisten
+## Automatische Prüfung
 
-content.test.cjs prüft Format, doppelte IDs, ungültige Referenzen, unsichere Medienadressen, unbekannte Versionen, Feldbereinigung und 1.1-Inlinewortschatz. grading.test.cjs prüft Artikelregeln, Genus- und Akzenthinweise, konservative Tippfehlerbehandlung und Varianten. progress.test.cjs prüft lokale Migration, Profilisolation, Sicherungsvalidierung, Tageszählung und Portalbackups. Keine Browser-End-to-End-Suite; Bestandstests verwenden teilweise eine VM und Ausschnitte aus den Dateien. Bei größerem Refactoring ihre Funktionsweise mitprüfen.
+Im Repo-Wurzelverzeichnis:
 
-## Manuelle Abnahme
+```sh
+python3 pruefen.py            # Syntax aller dist/*.js, alle Node-Tests (wie npm test), Inhaltsinventar
+python3 pruefen.py --browser  # zusätzlich Playwright-Ende-zu-Ende-Test
+```
 
-- Frischer Browser: Start, beide Ansichten, alle Navigationen, Filter und Direktlink öffnen.
-- Alle zwölf Themes hell/dunkel prüfen; Tageslichtphasen gesondert betrachten. Schmale Geräte, Tastatur und sichtbaren Fokus testen.
-- VOA-Datei tatsächlich abspielen. YouTube erst nach Ladeaktion öffnen und an mehreren Quellen testen; gesperrte Videos müssen verständlich scheitern. TTS-Verfügbarkeit separat prüfen.
-- Je einen Hörtyp richtig/falsch beantworten, Kurzantwortvariante, Transkripthilfe, Notiz, Favorit, Verlauf und erneute Runde prüfen.
-- Torino → Wörter dieser Übung → sechs Wörter → Karten/Schreiben/Zuordnen/Definitionen. Einträge ohne Definition deaktivieren den entsprechenden Modus sinnvoll.
-- gelata → Genushinweis; gelato ohne erforderlichen Artikel → Hinweis; il gelato → richtige Antwort, gegebenenfalls mit Hilfe. Falsche Kurzformen nicht unscharf akzeptieren.
-- Zwei lokale Profile anlegen, wechseln, exportieren/importieren und neu laden. Separate Inhaltspakete im Redaktionsbereich prüfen. Keine Profilvermischung.
-- Gültige 1.0- und 1.1-Beispiele importieren; Fehlerdatei darf keine bestehenden Daten ändern. Lokale Freigabe bleibt lokal.
-- Aufgaben- und Lösungsausgabe real über den Druckdialog prüfen. Browseransicht allein ist kein Nachweis des Druckergebnisses.
+Einzeln in `portal/`:
 
-## Verifikationsstand dieses Exports
+```sh
+npm test                      # ki, speech, content, grading, progress, verbs, cils
+node tests/e2e.test.cjs       # Browsertest, startet eigenen Server
+```
 
-Alle drei Node-Tests wurden erneut erfolgreich ausgeführt. Das Prüfprotokoll nennt zusätzliche Paket- und Syntaxprüfungen. Frühere Browserprüfungen sind im Original-README dokumentiert. Für diesen unveränderten Export wurde keine neue umfassende Browserprüfung aller Ansichten, Mobilgeräte oder Videos durchgeführt. Insbesondere YouTube-Playback aller 14 Kandidaten, Betriebssystem-Druck und zukünftiger Login sind nicht als vollständig geprüft auszugeben.
+Passt die Playwright-Version nicht zum installierten Browser („Executable doesn't exist“), `CHROMIUM_PATH=/pfad/zu/chrome node tests/e2e.test.cjs`. In Claude-Cloud-Sitzungen liegt der Browser unter `/opt/pw-browsers/chromium`; `pruefen.py --browser` nimmt ihn automatisch.
 
-## Hosting
+| Test | prüft |
+|---|---|
+| `ki.test.cjs` | KI-Antworten für Wortschatz und Grammatik werden in gültige Pakete umgesetzt |
+| `speech.test.cjs` | Sprachausgabe: Schreibweisen werden sprechbar umgeformt |
+| `content.test.cjs` | Paketvertrag (`content-contract.js`): Format, doppelte IDs, Referenzen, unsichere Medien, alle Aufgabentypen |
+| `grading.test.cjs` | Antwortprüfung: Artikel, Genus, Akzente, Tippfehler, Toleranz, Synonyme |
+| `progress.test.cjs` | Lernstand: Migration, Profile, Sicherungen, Tageszählung |
+| `verbs.test.cjs` | Verbtrainer: Formen und Zeiten |
+| `cils.test.cjs` | CILS-Katalog und -Generator: Anzahlen nach den Heften, Toleranz, Mischung |
+| `e2e.test.cjs` | 39 Abläufe im echten Browser: Start, Katalog, Übungen, Druck, Handy 390 px, Lehrkräfteansicht, Einbettung, Klassensitzung (Server nachgebildet), Fokus-Modus, Unterrichtsmappe |
+| `uebergabe/validate-inventory.cjs` | `INHALTSINVENTAR.json` und `inhalte/` stimmen überein, alle Pakete gültig, YouTube-Bilder vorhanden |
 
-Für statisches Hosting den Inhalt von portal/dist als Webroot verwenden. Es gibt keinen Buildschritt. Bei GitHub Pages den gewünschten Branch und Ausgabepfad bewusst konfigurieren; kein Push oder Freigabeschritt ist automatisiert. Der Benutzer hat theisjulian/test als Testziel autorisiert; Zugang muss noch funktionieren. theisjulian/app bleibt read-only.
+Zusätzlich vor jedem Commit mit Inhaltsänderungen die Generatoren laufen lassen und das Ergebnis mitcommitten (die Pipeline prüft das):
 
-portal/.openai/hosting.json bindet die vorhandene Sites-Projektidentität. Sie unverändert lassen, wenn am selben Projekt gearbeitet wird; beim Wechsel auf einen anderen Dienst nicht blind neue Sites-Projekte anlegen. Wer keine Sites-Werkzeuge hat, kann die Anwendung lokal vollständig starten. Dieses ZIP enthält keine Deploy-Zugangsdaten und überträgt keine Accountberechtigungen.
+```sh
+python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/grammatik.py && node werkzeuge/bundle_stock.cjs
+python3 werkzeuge/qualitaet.py
+```
+
+## Was die Tests nicht abdecken (manuell auf echtem Gerät)
+
+- iPad/iPhone mit Safari: Antippen und Ziehen (auch mit Stift), Tastatur, Dialoge.
+- Druck über den Systemdialog und iOS-PDF (Kästchen, Buchstaben A–D, Seitenumbrüche). Die Browseransicht allein ist kein Nachweis.
+- Supabase live: Anmeldung, Registrierung, E-Mails, Klassensitzung mit zwei Geräten, Konto löschen.
+- YouTube-Wiedergabe der eingebetteten Videos, Browser-Sprachausgabe (je nach Gerät verschieden).
+- mebis-Einbettung (`?hoeren=ID&embed=1`) in mebis selbst.
+- Farbwelten hell und dunkel (daje, Pop, Glas, Heft, Graphit, Wald, Tageslicht).
+
+## Veröffentlichen
+
+GitHub Pages über `.github/workflows/veroeffentlichen.yml`:
+
+1. **pruefen** (bei jedem Push und Pull Request): Generatoren, `bundle_stock.cjs`, Abgleich „generierte Dateien committet“, `qualitaet.py`, `npm test`, Browsertest.
+2. **build** und **deploy** (nur `main`): Grundstock bündeln, YouTube-Titelbilder laden, `portal/dist` als Pages-Artefakt hochladen und veröffentlichen.
+
+Adresse aktuell `theisjulian.github.io/daje/`, geplant `daje.theisapps.de` (`portal/dist/CNAME`). Push nur nach `theisjulian/daje`. Keine Schlüssel, Scans, Liedtexte oder Arbeitsblätter ins Repo.

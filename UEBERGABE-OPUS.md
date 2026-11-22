@@ -44,7 +44,7 @@ portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script 
   listening-data.js review-data.js stock-data.js listening-extra.js   Inhalte (Seeds; stock-data.js GENERIERT)
   app.css               Gestaltung, zusammengeführt aus den früheren 10 Dateien (Abschnittsköpfe zeigen die Herkunft); Reihenfolge zählt
   assets/ examples/ imports/(KI-Kommandodatei.md v2.0, KI-Wortschatz.md v1.0)  ki.js (KI-Antwort → Paket, Belegprüfung)
-portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 25 Prüfungen)
+portal/tests/           npm test (ki, speech, content, grading, progress, verbs, cils) + e2e.test.cjs (Playwright, 39 Prüfungen)
 grundstock/listening/   25 Lied-/Film-Pakete (GENERIERT aus werkzeuge/hoeren)
 grundstock/vocabulary/  60 Wortschatzpakete (GENERIERT aus werkzeuge/ecco*/…)
 inhalte/                die 15 älteren Hörpakete im Original (Seeds liegen in listening-data/review-data)
@@ -77,7 +77,7 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 5. KI-Pipeline (Gemini) ist gebaut, aber nie gelaufen; Schlüssel liegt bei Julian. Ablauf, Prompt-Qualität (10–20 Aufgaben in Blöcken, Typenmix, Transkript-Treue) und Validierung gegen `qualitaet.py` testen.
 6. Aufgabenqualität: Die 25 Lied-/Film-Pakete wurden **ohne Zugriff auf Audio/Video** geschrieben (nur Fakten/Allgemeinwissen). Echte Hör-Aufgaben brauchen Transkript (privater Import) → Pipeline „Transkript → Aufgaben → Prüfung“ bauen.
 7. `qualitaet.py` findet: bei 74 Einzelauswahl-Aufgaben ist die richtige Option die längste (Test-Trick), 167 Wörter ohne Beispielsatz (v. a. Redemittel/Arbeitsaufträge).
-8. `MANIFEST-SHA256.json`, `INHALTSINVENTAR.json`, `PRUEFPROTOKOLL.txt`, `SOURCE-SNAPSHOT.json`, `provenance.json`, `pruefen.py` stammen vom alten Paket und sind veraltet (nicht mehr generiert).
+8. `MANIFEST-SHA256.json`, `PRUEFPROTOKOLL.txt`, `SOURCE-SNAPSHOT.json`, `provenance.json` stammen vom alten Paket und sind veraltet (nicht mehr generiert). **Aktualisiert (22.11.2026):** `pruefen.py` führt alle Node-Tests wie `npm test` aus (optional `--browser`), `INHALTSINVENTAR.json` passt wieder zu `inhalte/` (die drei 2026 entfernten Demos gestrichen) und wird von `uebergabe/validate-inventory.cjs` gegen den Ordner abgeglichen.
 9. Erklärungen/Beispielsätze der Wortschatzpakete sind eigene KI-Formulierungen (kein Buchtext), fachlich nicht von einer Lehrkraft geprüft; `reviewNotes` sagen das.
 
 ## 5. Stand der Inhalte
@@ -296,7 +296,7 @@ Lernende ohne Login nur über Funktionen (SECURITY DEFINER, prüfen Code/Ablauf/
 - IPA: Feld vorhanden, keine Daten; Quelle/Prüfung klären.
 - Druck: Kästchen/Buchstaben (A–D) im iOS-PDF auf echtem Gerät prüfen (Seitenaufteilung jetzt berechnet, siehe 6d).
 - Domain `daje.theisapps.de` einrichten (CNAME in `portal/dist/CNAME` prüfen).
-- Test-/Prüf-Doku modernisieren (alte Namen ripassà in Docs).
+- ~~Test-/Prüf-Doku modernisieren~~ **erledigt (22.11.2026):** `uebergabe/05` neu, `portal/README.md` neu, ältere Übergabedateien 01–07 als historisch markiert.
 
 ## 8. Schnellstart
 ```sh
@@ -304,6 +304,7 @@ cd portal/dist && python3 -m http.server 8765      # App auf http://localhost:87
 cd portal && npm install && npm test && node tests/e2e.test.cjs   # e2e startet eigenen Server; passt die Playwright-Version nicht zum installierten Browser: CHROMIUM_PATH=/pfad/zu/chrome
 python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/ecco_import.py && node werkzeuge/bundle_stock.cjs
 python3 werkzeuge/qualitaet.py --ipa
+python3 pruefen.py --browser                       # alles auf einmal (Syntax, npm test, Inventar, e2e)
 ```
 Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 

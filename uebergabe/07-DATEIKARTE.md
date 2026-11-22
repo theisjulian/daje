@@ -1,3 +1,5 @@
+> **Historisch (Übergabe ripassà, Oktober 2026).** Der Arbeitsname ripassà heißt heute daje; Aufbau, Dateien und Stand haben sich seitdem stark geändert. Aktuell gelten `UEBERGABE-OPUS.md`, `uebergabe/05-TESTEN-UND-VEROEFFENTLICHEN.md` und `uebergabe/08-ENTSCHEIDUNGEN.md`.
+
 # Dateikarte des unveränderten Quellstands
 
 Alle Originaldateien unter portal. Dateigrößen und SHA-256 in SOURCE-SNAPSHOT.json.

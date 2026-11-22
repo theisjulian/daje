@@ -1,3 +1,5 @@
+> **Historisch (Übergabe ripassà, Oktober 2026).** Der Arbeitsname ripassà heißt heute daje; Aufbau, Dateien und Stand haben sich seitdem stark geändert. Aktuell gelten `UEBERGABE-OPUS.md`, `uebergabe/05-TESTEN-UND-VEROEFFENTLICHEN.md` und `uebergabe/08-ENTSCHEIDUNGEN.md`.
+
 # Neuer didaktischer Stand und Promptnachtrag
 
 Die vollständige Recherche mit Grenzen und elf Originalquellen steht in der Projektdatei Version 3. Dies ist die ergänzende technische Arbeitsanweisung. Die originalen Promptdateien unter portal/dist/imports bleiben als Teil des exakten Quellstands unverändert. Vor neuer Serienproduktion die nachstehenden Regeln mit ihnen konsolidieren. Diese Datei führt keine neuen Schemafelder ein.

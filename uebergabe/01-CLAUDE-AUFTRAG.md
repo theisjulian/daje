@@ -1,3 +1,5 @@
+> **Historisch (Übergabe ripassà, Oktober 2026).** Der Arbeitsname ripassà heißt heute daje; Aufbau, Dateien und Stand haben sich seitdem stark geändert. Aktuell gelten `UEBERGABE-OPUS.md`, `uebergabe/05-TESTEN-UND-VEROEFFENTLICHEN.md` und `uebergabe/08-ENTSCHEIDUNGEN.md`.
+
 # Auftrag zur Übernahme
 
 Du übernimmst Julians browserbasiertes Sprachlernportal ripassà. Zuerst das gesamte Paket und den vorhandenen Code prüfen, dann gezielt weiterentwickeln. Vorhandene Funktionen erhalten. Der lesbare Source liegt direkt in portal/dist. Keine Neuentwicklung oder Frameworkmigration allein aufgrund eigener Vorlieben.
