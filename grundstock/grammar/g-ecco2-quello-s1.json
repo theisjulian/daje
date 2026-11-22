@@ -52,7 +52,7 @@
    "explanation": "Davanti al nome: quel, quello, quell’, quei, quegli. Da solo: quello, quelli.",
    "explanationHelp": "Vor dem Nomen: quel, quello, quell’, quei, quegli. Allein stehend: quello, quelli.",
    "type": "error_correction",
-   "text": "[[g1]] studente viene dalla Germania.\n[[g2]] ragazzi là sono i miei cugini.\nConosci [[g3]] amici di Marco?\n[[g4]] in giardino è altissimo.\nNon mi piace il telefono bianco, preferisco [[g5]] rosso.\nQuesti biscotti sono buoni, ma [[g6]] della nonna sono più buoni.\n[[g7]] canzoni mi ricordano le vacanze.\nIn [[g8]] anni non c’erano i cellulari.\nChi è [[g9]] uomo con il cappello?",
+   "text": "[[g1]] studente viene dalla Germania.\n[[g2]] ragazzi là sono i miei cugini.\nConosci [[g3]] amici di Marco?\n[[g4]] in giardino è altissimo.\nNon mi piace il telefono bianco, preferisco [[g5]] rosso.\nQuesti biscotti sono buoni, ma [[g6]] della nonna sono più buoni.\n[[g7]] canzoni mi ricordano le vacanze.\nIn [[g8]] anni non c’erano i cellulari.\nChi è [[g9]] con il cappello?",
    "errors": [
     {
      "id": "g1",
@@ -112,9 +112,9 @@
     },
     {
      "id": "g9",
-     "wrong": "quel",
+     "wrong": "quel uomo",
      "acceptedAnswers": [
-      "quell’"
+      "quell’uomo"
      ]
     }
    ]

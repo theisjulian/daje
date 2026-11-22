@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-lessico-s2",
+ "title": "Più breve, più formale",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · Più breve, più formale · livello difficile.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+ },
+ "grammar": {
+  "topic": "it13-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire di no |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+  "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la parte tra virgolette («…») con un sostantivo. Comincia con le parole tra parentesi.",
+   "promptHelp": "Schreibe den Teil in Anführungszeichen («…») mit einem Nomen um. Beginne mit den Wörtern in Klammern.",
+   "explanation": "arrivare → l’arrivo · scioperare → lo sciopero · cominciare → l’inizio · sperare → la speranza · piovere → la pioggia · finire → la fine · mancare → la mancanza · tornare → il ritorno · aumentare → l’aumento · ridurre → la riduzione.",
+   "explanationHelp": "Nominalstil: Der Nebensatz wird zu Präposition + Nomen (dopo che era arrivato → dopo l’arrivo; anche se pioveva → nonostante la pioggia).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Siamo partiti «dopo che era arrivato il medico». (dopo l’…)",
+     "acceptedAnswers": [
+      "dopo l’arrivo del medico"
+     ],
+     "modelAnswer": "Siamo partiti dopo l’arrivo del medico."
+    },
+    {
+     "id": "s2",
+     "start": "Il volo è stato cancellato «perché i piloti scioperavano». (a causa dello …)",
+     "acceptedAnswers": [
+      "a causa dello sciopero dei piloti"
+     ],
+     "modelAnswer": "Il volo è stato cancellato a causa dello sciopero dei piloti."
+    },
+    {
+     "id": "s3",
+     "start": "«Prima che cominci la lezione», spegnete i cellulari. (prima dell’…)",
+     "acceptedAnswers": [
+      "prima dell’inizio della lezione"
+     ],
+     "modelAnswer": "Prima dell’inizio della lezione, spegnete i cellulari."
+    },
+    {
+     "id": "s4",
+     "start": "Molti emigrano «perché sperano in una vita migliore». (nella …)",
+     "acceptedAnswers": [
+      "nella speranza di una vita migliore"
+     ],
+     "modelAnswer": "Molti emigrano nella speranza di una vita migliore."
+    },
+    {
+     "id": "s5",
+     "start": "«Anche se pioveva», la manifestazione è continuata. (nonostante la …)",
+     "acceptedAnswers": [
+      "nonostante la pioggia"
+     ],
+     "modelAnswer": "Nonostante la pioggia, la manifestazione è continuata."
+    },
+    {
+     "id": "s6",
+     "start": "«Dopo che è finita la guerra», il paese è stato ricostruito. (dopo la …)",
+     "acceptedAnswers": [
+      "dopo la fine della guerra"
+     ],
+     "modelAnswer": "Dopo la fine della guerra, il paese è stato ricostruito."
+    },
+    {
+     "id": "s7",
+     "start": "«Poiché mancava l’acqua», il raccolto è andato perduto. (per la …)",
+     "acceptedAnswers": [
+      "per la mancanza d’acqua",
+      "per la mancanza di acqua"
+     ],
+     "modelAnswer": "Per la mancanza d’acqua / Per la mancanza di acqua il raccolto è andato perduto."
+    },
+    {
+     "id": "s8",
+     "start": "«Quando è tornato dal viaggio», Davide era cambiato. (al suo …)",
+     "acceptedAnswers": [
+      "al suo ritorno dal viaggio"
+     ],
+     "modelAnswer": "Al suo ritorno dal viaggio, Davide era cambiato."
+    },
+    {
+     "id": "s9",
+     "start": "«Se la temperatura aumenta», i ghiacciai si sciolgono. (con l’…)",
+     "acceptedAnswers": [
+      "con l’aumento della temperatura",
+      "con l’aumento delle temperature"
+     ],
+     "modelAnswer": "Con l’aumento della temperatura / Con l’aumento delle temperature i ghiacciai si sciolgono."
+    },
+    {
+     "id": "s10",
+     "start": "Il governo vuole «che i consumi di energia si riducano». (la …)",
+     "acceptedAnswers": [
+      "la riduzione dei consumi"
+     ],
+     "modelAnswer": "Il governo vuole la riduzione dei consumi di energia."
+    }
+   ]
+  }
+ ]
+}

@@ -155,7 +155,7 @@ Oggi sto meglio di ieri. = Heute geht es mir besser als gestern.
 La sorella maggiore di Luca studia a Roma. = Lucas ältere Schwester studiert in Rom.
 Il fratello minore di Sara ha sei anni. = Saras jüngerer Bruder ist sechs Jahre alt.
 Oggi il tempo è peggiore di ieri. = Heute ist das Wetter schlechter als gestern.
-Mi piace più il mare che la montagna. = Ich mag das Meer lieber als die Berge.
+È più facile capire che parlare. = Verstehen ist leichter als sprechen.
 
 %übung leicht | Più, meno o uguale?
 ?sortieren | Che cosa dice la frase: più (+), meno (–) o uguale (=)? || Was sagt der Satz: mehr (+), weniger (–) oder gleich (=)?
@@ -227,9 +227,9 @@ suo fratello.
 leggere
 che
 parlare.
-?ordnen | Metti le parti in ordine: „Meine Freundin spricht besser Italienisch als ich.“ || Bringe die Teile in die richtige Reihenfolge.
+?ordnen | Metti le parti in ordine: „Meine Freundin singt besser als ich.“ || Bringe die Teile in die richtige Reihenfolge.
 La mia amica
-parla italiano
+canta
 meglio
 di me.
 
@@ -396,8 +396,8 @@ Chiara è [la meglio=>la migliore/la più brava] della squadra.
 Nessun fiume italiano è più lungo del Po. → Il Po è … | il fiume più lungo d’Italia/il fiume italiano più lungo/il più lungo fiume d’Italia | Il Po è il fiume più lungo d’Italia. (Anche: il fiume italiano più lungo, il più lungo fiume d’Italia.)
 Nessuna città italiana è più grande di Roma. → Roma è … | la città più grande d’Italia/la città italiana più grande/la più grande città d’Italia | Roma è la città più grande d’Italia. (Anche: la città italiana più grande, la più grande città d’Italia.)
 Nella classe nessuno è più alto di Davide. → Davide è … | il più alto della classe | Davide è il più alto della classe.
-Nessun mese è più corto di febbraio. → Febbraio è … | il mese più corto | Febbraio è il mese più corto dell’anno.
-Nella squadra nessuna gioca meglio di Giulia. → Giulia è … | la migliore della squadra/la più brava della squadra | Giulia è la migliore della squadra. (Anche: la più brava della squadra.)
+Nessun mese è più corto di febbraio. → Febbraio è … | il mese più corto/il più corto dell’anno/il più corto di tutti | Febbraio è il mese più corto dell’anno. (Anche: il più corto dell’anno, il più corto di tutti.)
+Nella squadra nessuna gioca meglio di Giulia. → Giulia è … | la migliore della squadra/la più brava della squadra/la giocatrice migliore della squadra/la giocatrice più brava della squadra | Giulia è la migliore della squadra. (Anche: la più brava della squadra, la giocatrice migliore della squadra, la giocatrice più brava della squadra.)
 Tutti gli altri alberghi della città sono più cari di questo. → Questo è … | l’albergo meno caro della città/il meno caro della città | Questo è l’albergo meno caro della città. (Anche: il meno caro della città.)
 Nessuna montagna del mondo è più alta dell’Everest. → L’Everest è … | la montagna più alta del mondo/la più alta montagna del mondo/la più alta del mondo | L’Everest è la montagna più alta del mondo. (Anche: la più alta montagna del mondo, la più alta del mondo.)
 Tutti i miei amici sono più puntuali di Luca. → Luca è … | il meno puntuale | Luca è il meno puntuale dei miei amici.
@@ -428,7 +428,7 @@ Domani visitiamo i Musei Vaticani: lì la fila è sempre (lungo / A) [lunghissim
 | il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |
 | l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |
 _Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._
-**Numeri romani:** I = 1, V = 5, X = 10: XV = 15, XIX = 19, XX = 20, XXI = 21.
+**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.
 #regel-de
 **Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).
 „Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.
@@ -498,14 +498,14 @@ XVI | [16] | il sedicesimo secolo | [il Cinquecento/Cinquecento]
 XVIII | [18] | il diciottesimo secolo | [il Settecento/Settecento]
 XIX | [19] | il diciannovesimo secolo | [l’Ottocento/Ottocento]
 XX | [20] | il ventesimo secolo | [il Novecento/Novecento]
-! Il Duecento sono gli anni «milleduecento…»: è il tredicesimo secolo. Il nome in -cento è sempre un numero più piccolo! || Il Duecento sind die Jahre „zwölfhundert…“: das 13. Jahrhundert. Der Name auf -cento ist immer um eins kleiner!
+! Il Duecento sono gli anni «milleduecento…»: è il tredicesimo secolo. Il nome in -cento ha sempre un numero in meno: Duecento (2) → XIII (13). || Il Duecento sind die Jahre „zwölfhundert…“: das 13. Jahrhundert. Der Name auf -cento ist immer um eins kleiner: Duecento (2) → XIII (13).
 
 %übung mittel | Domande di storia
 ?ergaenzen | Rispondi con una frase intera. Usa l’informazione tra parentesi. || Antworte mit einem ganzen Satz. Verwende die Angabe in Klammern.
 Quando è arrivato Colombo in America? (1492) | nel 1492 | Colombo è arrivato in America nel 1492.
 Quando è caduto il Muro di Berlino? (1989) | nel 1989 | Il Muro di Berlino è caduto nel 1989.
 Quando hanno scelto la repubblica gli italiani? (2 giugno 1946) | il 2 giugno 1946 | Gli italiani hanno scelto la repubblica il 2 giugno 1946.
-Quanto è durata la seconda guerra mondiale? (1939 → 1945) | dal 1939 al 1945 | La seconda guerra mondiale è durata dal 1939 al 1945.
+Da quando a quando è durata la seconda guerra mondiale? (1939 → 1945) | dal 1939 al 1945 | La seconda guerra mondiale è durata dal 1939 al 1945.
 Quando hanno inaugurato il Colosseo i Romani? (80 d.C.) | nell’80 | I Romani hanno inaugurato il Colosseo nell’80 d.C.
 Da quando si paga con l’euro in Italia? (2002 → oggi) | dal 2002 | In Italia si paga con l’euro dal 2002.
 Quando hanno firmato i Trattati di Roma? (1957) | nel 1957 | Hanno firmato i Trattati di Roma nel 1957.
@@ -522,7 +522,7 @@ Colombo è arrivato in America [fa più di cinquecento anni=>più di cinquecento
 Il 1989 è un anno del [diciannovesimo=>ventesimo] secolo.
 L’euro è arrivato nel [duemilledue=>duemiladue].
 [Nel Ottocento=>Nell’Ottocento] l’Italia è diventata un Paese unito.
-In Italia la festa del lavoro è [il uno=>il primo/il 1º] maggio.
+In Italia la festa del lavoro è [il uno=>il primo/il 1º/il 1°] maggio.
 ! nel + anno, nell’ davanti a vocale (nell’80, nell’Ottocento); il + data; fa sta dopo «anni»; 1989 = Novecento = ventesimo secolo. || nel + Jahr, nell’ vor Vokal (nell’80, nell’Ottocento); il + Datum; fa steht nach „anni“; 1989 = Novecento = 20. Jahrhundert.
 
 %übung schwer | Dalla leggenda a oggi
@@ -786,7 +786,7 @@ Quello che mi piace di più [sono=>è] il mare.
 [Ciò=>Ciò che/Quello che] vedi qui è il Foro Romano.
 Il film [ciò che=>che] abbiamo visto ieri era noioso.
 Racconta [tutto quello=>tutto quello che/tutto ciò che] sai!
-! „das, was“ = quello che / ciò che; „alles, was“ = tutto quello che; dopo un nome solo che; nella domanda che cosa. || „das, was“ = quello che / ciò che; „alles, was“ = tutto quello che; nach einem Nomen nur che; in der Frage che cosa.
+! Senza nome davanti: quello che / ciò che; con tutto: tutto quello che / tutto ciò che; dopo un nome solo che; nella domanda che cosa. || „das, was“ = quello che / ciò che; „alles, was“ = tutto quello che; nach einem Nomen nur che; in der Frage che cosa.
 
 %übung schwer | Una mail a casa
 ?luecke | Completa la mail con che, quello che o che cosa. || Ergänze die Mail mit che, quello che oder che cosa.
@@ -803,13 +803,13 @@ Quando torno vi racconto tutto [quello che/ciò che] ho visto. Un abbraccio, Giu
 ! che ha sempre un nome davanti (l’albergo che, le foto che, i panini che); quello che no. || che hat immer ein Nomen vor sich (l’albergo che, le foto che, i panini che); quello che nicht.
 
 %übung schwer | Quello che penso io
-?ergaenzen | Traduci in italiano. || Übersetze ins Italienische.
-Was du sagst, ist richtig. | Quello che dici/Ciò che dici | Quello che dici è giusto. (Anche: Ciò che dici è giusto.)
-Ich verstehe alles, was du schreibst. | tutto quello che scrivi/tutto ciò che scrivi | Capisco tutto quello che scrivi. (Anche: tutto ciò che scrivi.)
-Was machst du morgen? | Che cosa fai domani/Cosa fai domani/Che fai domani | Che cosa fai domani? (Anche: Cosa fai domani? Che fai domani?)
-Das ist das Buch, das ich suche. | il libro che cerco | È il libro che cerco.
-Was mir gefällt, ist die Musik. | Quello che mi piace/Ciò che mi piace | Quello che mi piace è la musica. (Anche: Ciò che mi piace è la musica.)
-Nimm, was du willst! | quello che vuoi/ciò che vuoi | Prendi quello che vuoi! (Anche: ciò che vuoi!)
+?ergaenzen | Unisci le due frasi in una sola. Usa quello che, tutto quello che o che. || Verbinde die beiden Sätze zu einem. Verwende quello che, tutto quello che oder che.
+Tu dici una cosa. Questa cosa è giusta. → … | Quello che dici è giusto/Ciò che dici è giusto | Quello che dici è giusto.
+Tu scrivi molte cose. Io capisco tutto. → Capisco … | tutto quello che scrivi/tutto ciò che scrivi | Capisco tutto quello che scrivi.
+Cerco un libro. È questo. → Questo è … | il libro che cerco/il libro che sto cercando | Questo è il libro che cerco.
+Mi piace una cosa: la musica. → … | Quello che mi piace è la musica/Ciò che mi piace è la musica | Quello che mi piace è la musica.
+Vuoi qualcosa? Prendilo! → Prendi … | quello che vuoi/ciò che vuoi | Prendi quello che vuoi!
+A Roma ho visto molte cose. Ti racconto tutto. → Ti racconto … | tutto quello che ho visto/tutto ciò che ho visto | Ti racconto tutto quello che ho visto a Roma.
 ?frei | Scrivi cinque frasi su una città o un viaggio: che cosa ti è piaciuto, che cosa no? Usa quello che, ciò che e tutto quello che. || Schreibe fünf Sätze über eine Stadt oder eine Reise: Was hat dir gefallen, was nicht? Verwende quello che, ciò che und tutto quello che.
 Quello che mi è piaciuto di più a Roma è il Colosseo. Ciò che non mi è piaciuto è il traffico. Tutto quello che abbiamo mangiato era buonissimo. Non ho capito tutto quello che ha detto la guida, ma quello che ho visto era bellissimo.
 Zeilen: 6

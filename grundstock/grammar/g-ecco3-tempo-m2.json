@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Rispondi con l’espressione di tempo giusta. Usa le parole tra parentesi.",
-   "promptHelp": "Antworte mit der passenden Zeitangabe. Verwende die Wörter in Klammern.",
+   "prompt": "Rispondi con le parole tra parentesi e la parola di tempo giusta (da, per, fa, fra, in, entro, fino a …).",
+   "promptHelp": "Antworte mit den Wörtern in Klammern und dem passenden Zeitwort (da, per, fa, fra, in, entro, fino a …).",
    "type": "sentence_completion",
    "items": [
     {
@@ -81,7 +81,8 @@
      "acceptedAnswers": [
       "fra venti minuti",
       "tra venti minuti"
-     ]
+     ],
+     "modelAnswer": "Parte fra venti minuti."
     },
     {
      "id": "s5",
@@ -113,7 +114,8 @@
      "acceptedAnswers": [
       "dal lunedì al sabato",
       "da lunedì a sabato"
-     ]
+     ],
+     "modelAnswer": "È aperto dal lunedì al sabato."
     },
     {
      "id": "s9",

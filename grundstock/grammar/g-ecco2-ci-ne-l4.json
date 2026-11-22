@@ -52,7 +52,7 @@
    "explanation": "c’è + ne → **ce n’è** (singolare). ci sono + ne → **ce ne sono** (plurale).",
    "explanationHelp": "c’è + ne → **ce n’è** (Singular). ci sono + ne → **ce ne sono** (Plural).",
    "type": "gap_choice",
-   "text": "– Quante finestre ci sono in classe? – [[g1]] quattro.\n– C’è un computer? – Sì, [[g2]] uno.\n– Ci sono studenti nuovi? – Sì, [[g3]] due.\n– C’è ancora pizza? – Sì, [[g4]] ancora un po’.\n– Quanti telefoni ci sono a casa tua? – [[g5]] cinque.\n– C’è una farmacia qui vicino? – Sì, [[g6]] una in piazza.\n– Ci sono errori nel testo? – No, non [[g7]].\n– C’è del succo? – No, non [[g8]] più.",
+   "text": "– Quante finestre ci sono in classe? – [[g1]] quattro.\n– C’è un computer? – Sì, [[g2]] uno.\n– Ci sono studenti nuovi? – Sì, [[g3]] due.\n– C’è ancora pizza? – Sì, [[g4]] ancora un po’.\n– Quanti telefoni ci sono a casa tua? – [[g5]] cinque.\n– C’è una farmacia qui vicino? – Sì, [[g6]] una in piazza.\n– Ci sono errori nel testo? – No, non [[g7]].\n– C’è ancora succo? – No, non [[g8]] più.",
    "gaps": [
     {
      "id": "g1",

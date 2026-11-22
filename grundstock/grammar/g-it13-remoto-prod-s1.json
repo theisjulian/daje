@@ -1,0 +1,158 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-remoto-prod-s1",
+ "title": "Il libraio",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Il libraio · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+ },
+ "grammar": {
+  "topic": "it13-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+  "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi il racconto e scegli il tempo giusto.",
+   "promptHelp": "Lies die Erzählung und wähle die richtige Zeit.",
+   "explanation": "pioveva da ore, stava per, conosceva, mentre cercava = sfondo (imperfetto); aprì, disse, prese, trovò = azioni concluse (passato remoto); molti anni prima, trent’anni prima → trapassato prossimo; dopo che + trapassato remoto (fu uscita) nei testi letterari.",
+   "explanationHelp": "pioveva da ore, stava per, conosceva, mentre cercava = Hintergrund (imperfetto); aprì, disse, prese, trovò = abgeschlossene Handlungen (passato remoto); molti anni prima, trent’anni prima → trapassato prossimo; dopo che + trapassato remoto (fu uscita) in literarischen Texten.",
+   "type": "gap_choice",
+   "text": "Era una fredda sera di novembre e [[g1]] da ore.\nIl vecchio libraio [[g2]] per chiudere il negozio, quando qualcuno bussò alla porta.\n[[g3]] e vide una ragazza completamente bagnata.\n«Cerco un libro molto raro», [[g4]] la ragazza.\nLo [[g5]] molti anni prima nella biblioteca di suo nonno.\nIl libraio [[g6]] bene quel titolo: era un libro suo.\nNessuno lo sapeva, perché lo [[g7]] trent’anni prima con un altro nome.\nSenza dire niente, [[g8]] una scala e salì fino all’ultimo scaffale.\nMentre [[g9]] tra i volumi pieni di polvere, la ragazza lo guardava in silenzio.\nFinalmente [[g10]] il libro e glielo mise tra le mani.\nSolo dopo che la ragazza [[g11]], il libraio sorrise.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "pioveva",
+      "piovve",
+      "aveva piovuto"
+     ],
+     "answer": "pioveva"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "stava",
+      "stette",
+      "era stato"
+     ],
+     "answer": "stava"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Aprì",
+      "Apriva",
+      "Aveva aperto"
+     ],
+     "answer": "Aprì"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "disse",
+      "diceva",
+      "aveva detto"
+     ],
+     "answer": "disse"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "aveva visto",
+      "vide",
+      "vedeva"
+     ],
+     "answer": "aveva visto"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "conosceva",
+      "conobbe",
+      "ebbe conosciuto"
+     ],
+     "answer": "conosceva"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "aveva pubblicato",
+      "pubblicò",
+      "pubblicava"
+     ],
+     "answer": "aveva pubblicato"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "prese",
+      "prendeva",
+      "aveva preso"
+     ],
+     "answer": "prese"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "cercava",
+      "cercò",
+      "aveva cercato"
+     ],
+     "answer": "cercava"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "trovò",
+      "trovava",
+      "aveva trovato"
+     ],
+     "answer": "trovò"
+    },
+    {
+     "id": "g11",
+     "options": [
+      "fu uscita",
+      "usciva",
+      "esce"
+     ],
+     "answer": "fu uscita"
+    }
+   ]
+  }
+ ]
+}

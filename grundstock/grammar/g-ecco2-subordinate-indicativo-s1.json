@@ -41,16 +41,16 @@
   "difficulty": "schwer",
   "origin": "own",
   "order": 51,
-  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. **Mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
-  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_).\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
  },
  "questions": [
   {
    "id": "q1",
    "prompt": "In ogni frase c’è un errore (verbo o congiunzione). Correggi.",
    "promptHelp": "In jedem Satz steckt ein Fehler (Verb oder Konjunktion). Korrigiere.",
-   "explanation": "so che, dico che, anche se → indicativo (non congiuntivo). mentre + imperfetto. Dopo **se** mai il condizionale.",
-   "explanationHelp": "so che, dico che, anche se → Indikativ (kein congiuntivo). mentre + imperfetto. Nach **se** nie das condizionale.",
+   "explanation": "so che, dico che, anche se → indicativo (non congiuntivo). Nel passato: mentre + imperfetto. Dopo **se** mai il condizionale. Si dice **appena** e **anche se**, non _appena che_ o solo _anche_.",
+   "explanationHelp": "so che, dico che, anche se → Indikativ (kein congiuntivo). In der Vergangenheit: mentre + imperfetto. Nach **se** nie das condizionale. Es heißt **appena** und **anche se**, nicht _appena che_ oder nur _anche_.",
    "type": "error_correction",
    "text": "So che Luca [[g1]] malato.\nAnche se [[g2]] tardi, guardo ancora un film.\nQuando [[g3]] piccolo, abitavo a Napoli.\nSo che ieri Maria [[g4]] per Londra.\nSono sicuro che domani [[g5]].\nMentre [[g6]], è arrivato Paolo.\nTi chiamo [[g7]] arrivo.\nIl prof dice che Sara [[g8]] ragione.\nVado a scuola in bici [[g9]] piove.\nSe domani [[g10]], restiamo a casa.",
    "errors": [
@@ -94,7 +94,8 @@
      "id": "g6",
      "wrong": "ho mangiato",
      "acceptedAnswers": [
-      "mangiavo"
+      "mangiavo",
+      "stavo mangiando"
      ]
     },
     {

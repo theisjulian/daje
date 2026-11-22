@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-m3",
+ "title": "Sempre connessi",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Sempre connessi · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre.",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con la preposizione giusta (con l’articolo, se necessario).",
+   "promptHelp": "Ergänze die richtige Präposition (wenn nötig mit Artikel).",
+   "explanation": "abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da.",
+   "explanationHelp": "abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da (abhängen von).",
+   "type": "gap_fill",
+   "text": "Molti giovani sono abituati [[g1]] usare il cellulare tutto il giorno.\nNon vogliono rinunciare [[g2]] social nemmeno in vacanza.\nIl successo di un video dipende [[g3]] numero di visualizzazioni.\nNon tutti sono capaci [[g4]] distinguere una notizia vera da una falsa.\nIo cerco [[g5]] leggere almeno due giornali diversi.\nMio fratello invece si fida [[g6]] tutto quello che trova in rete.\nIeri ha partecipato [[g7]] una discussione online e si è arrabbiato molto.\nGli ho consigliato [[g8]] spegnere il computer e di uscire.\nAlla fine ha smesso [[g9]] scrivere e ha cominciato [[g10]] ridere.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a",
+      "ad"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dal"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "a"
+     ]
+    }
+   ]
+  }
+ ]
+}

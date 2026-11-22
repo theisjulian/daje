@@ -544,11 +544,11 @@ E le foto della serata? Le (fare vedere, io) [ho fatte vedere] subito a Sara.
 ?frei | Che cosa fai fare ad altri (parrucchiere, meccanico, fratelli …)? Che cosa ti lasciano fare i tuoi genitori, e che cosa no? Scrivi 5 frasi con fare / farsi / lasciare + infinito. || Was lässt du andere machen? Was erlauben dir deine Eltern, was nicht? Schreibe 5 Sätze mit fare / farsi / lasciare + Infinitiv.
 Ogni tre mesi mi faccio tagliare i capelli. Quando la mia bici è rotta, la faccio riparare da mio padre. I miei genitori mi lasciano uscire il sabato sera, ma non mi lasciano tornare dopo mezzanotte. La mia sorellina mi fa sempre ridere. A scuola la prof ci fa scrivere molti testi.
 Zeilen: 6
-?ergaenzen | Come si dice in italiano? || Wie heißt das auf Italienisch?
-„Ich lasse mein Fahrrad reparieren.“ | faccio riparare | Faccio riparare la mia bici.
-„Lass mich schlafen!“ | lasciami dormire | Lasciami dormire!
-„Zeig es mir!“ (far vedere) | fammelo vedere | Fammelo vedere!
-„Giulia hat sich die Haare färben lassen.“ (tingere) | si è fatta tingere | Giulia si è fatta tingere i capelli.
+?ergaenzen | Completa con fare, farsi o lasciare + infinito. || Ergänze mit fare, farsi oder lasciare + Infinitiv.
+La mia bici è rotta, ma io non so ripararla: la porto dal meccanico. → La … (riparare) | faccio riparare | La faccio riparare dal meccanico.
+Ho sonno, non svegliarmi! → Per favore, … (dormire) | lasciami dormire | Per favore, lasciami dormire!
+Hai una foto nuova? Voglio vederla anch’io! → Dai, … (vedere) | fammela vedere | Dai, fammela vedere!
+Giulia è stata dal parrucchiere e adesso ha i capelli rossi. → Giulia … i capelli. (tingere) | si è fatta tingere | Giulia si è fatta tingere i capelli.
 
 @thema riflessivi | Lehrplan · Sprachliche Mittel |  | Verbi riflessivi: confronto con il tedesco | 5
 #lehrplan Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen

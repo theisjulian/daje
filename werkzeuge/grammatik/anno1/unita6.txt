@@ -177,10 +177,10 @@ Quanto costa [quel] formaggio?
 E [quella] mozzarella?
 Mi dà due chili di [quelle] mele, per favore?
 [Quei] pomodori sono freschi?
-[Quell’] olio è italiano?
+[Quell’]olio è italiano?
 Vorrei un etto di [quello] speck.
 [Quegli] spinaci sono molto buoni.
-E [quell’] insalata quanto costa?
+E [quell’]insalata quanto costa?
 ! quell’ davanti a vocale; quello e quegli con s + consonante, z, e (quegli) vocale. || quell’ vor Vokal; quello/quegli vor s + Konsonant, z; quegli auch vor Vokal (Plural).
 
 %übung mittel | Quale vuoi?
@@ -225,7 +225,7 @@ Quali scarpe? – [Quei=>Quelle] bianche.
 – È Marco! E [quella] ragazza vicino a lui è sua sorella.
 – E [quei] ragazzi con i cappelli neri?
 – Sono i suoi cugini. [Quegli] occhiali sono di Paolo, sai?
-– Ah, e [quell’] uomo alto?
+– Ah, e [quell’]uomo alto?
 – È il papà di Marco. E [quelle] signore sono le sue zie.
 – Che famiglia grande! E [quel] cane?
 – [Quello] è Bobo!

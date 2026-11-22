@@ -52,7 +52,7 @@
    "explanation": "Conta la parola che viene subito dopo: **quello** strano oggetto, **quel** piccolo orologio, ma **quell’**orologio.",
    "explanationHelp": "Entscheidend ist das direkt folgende Wort: quello strano oggetto, quel piccolo orologio, aber quell’orologio.",
    "type": "gap_fill",
-   "text": "Guarda [[g1]] foto: è molto vecchia!\n[[g2]] signore con i baffi è mio nonno.\n[[g3]] uomo accanto a lui è suo fratello.\n[[g4]] due bambini sono i miei zii.\n[[g5]] alberi oggi non ci sono più.\n[[g6]] strano oggetto sul tavolo è una vecchia radio.\n[[g7]] ragazze sono le amiche della nonna.\nIn [[g8]] anno la mia famiglia abitava ancora in campagna.\n[[g9]] piccolo orologio era un regalo per la nonna.\nIn [[g10]] anni poche famiglie avevano la macchina.",
+   "text": "Guarda [[g1]] foto: è molto vecchia!\n[[g2]] signore con i baffi è mio nonno.\n[[g3]]uomo accanto a lui è suo fratello.\n[[g4]] due bambini sono i miei zii.\n[[g5]] alberi oggi non ci sono più.\n[[g6]] strano oggetto sul tavolo è una vecchia radio.\n[[g7]] ragazze sono le amiche della nonna.\nIn [[g8]]anno la mia famiglia abitava ancora in campagna.\n[[g9]] piccolo orologio era un regalo per la nonna.\nIn [[g10]] anni poche famiglie avevano la macchina.",
    "gaps": [
     {
      "id": "g1",

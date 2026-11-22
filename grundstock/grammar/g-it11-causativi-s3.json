@@ -54,37 +54,37 @@
   },
   {
    "id": "q2",
-   "prompt": "Come si dice in italiano?",
-   "promptHelp": "Wie heißt das auf Italienisch?",
+   "prompt": "Completa con fare, farsi o lasciare + infinito.",
+   "promptHelp": "Ergänze mit fare, farsi oder lasciare + Infinitiv.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
-     "start": "„Ich lasse mein Fahrrad reparieren.“",
+     "start": "La mia bici è rotta, ma io non so ripararla: la porto dal meccanico. → La … (riparare)",
      "acceptedAnswers": [
       "faccio riparare"
      ],
-     "modelAnswer": "Faccio riparare la mia bici."
+     "modelAnswer": "La faccio riparare dal meccanico."
     },
     {
      "id": "s2",
-     "start": "„Lass mich schlafen!“",
+     "start": "Ho sonno, non svegliarmi! → Per favore, … (dormire)",
      "acceptedAnswers": [
       "lasciami dormire"
      ],
-     "modelAnswer": "Lasciami dormire!"
+     "modelAnswer": "Per favore, lasciami dormire!"
     },
     {
      "id": "s3",
-     "start": "„Zeig es mir!“ (far vedere)",
+     "start": "Hai una foto nuova? Voglio vederla anch’io! → Dai, … (vedere)",
      "acceptedAnswers": [
-      "fammelo vedere"
+      "fammela vedere"
      ],
-     "modelAnswer": "Fammelo vedere!"
+     "modelAnswer": "Dai, fammela vedere!"
     },
     {
      "id": "s4",
-     "start": "„Giulia hat sich die Haare färben lassen.“ (tingere)",
+     "start": "Giulia è stata dal parrucchiere e adesso ha i capelli rossi. → Giulia … i capelli. (tingere)",
      "acceptedAnswers": [
       "si è fatta tingere"
      ],

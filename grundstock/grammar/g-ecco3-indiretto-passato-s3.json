@@ -41,14 +41,14 @@
   "difficulty": "schwer",
   "origin": "own",
   "order": 13,
-  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
-  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Giulia fa alcune domande a un compagno nuovo. Lui racconta. Trasforma le domande.",
-   "promptHelp": "Giulia stellt einem neuen Mitschüler Fragen. Er erzählt davon. Forme die Fragen um.",
+   "prompt": "Giulia fa alcune domande a Leon, un compagno nuovo. Leon racconta. Trasforma le domande.",
+   "promptHelp": "Giulia stellt Leon, einem neuen Mitschüler, Fragen. Leon erzählt davon. Forme die Fragen um.",
    "explanation": "Nelle domande indirette vanno bene l’indicativo (se ero stato) e il congiuntivo (se fossi stato).",
    "explanationHelp": "In indirekten Fragen sind Indikativ (se ero stato) und congiuntivo (se fossi stato) möglich.",
    "type": "sentence_completion",
@@ -59,7 +59,8 @@
      "acceptedAnswers": [
       "ero mai stato in Sardegna",
       "fossi mai stato in Sardegna"
-     ]
+     ],
+     "modelAnswer": "Giulia mi ha chiesto se ero mai stato in Sardegna."
     },
     {
      "id": "s2",
@@ -67,7 +68,8 @@
      "acceptedAnswers": [
       "avevo imparato l’italiano",
       "avessi imparato l’italiano"
-     ]
+     ],
+     "modelAnswer": "Mi ha chiesto dove avevo imparato l’italiano."
     },
     {
      "id": "s3",
@@ -83,7 +85,8 @@
      "acceptedAnswers": [
       "mi piaceva il mare",
       "mi piacesse il mare"
-     ]
+     ],
+     "modelAnswer": "Mi ha chiesto se mi piaceva il mare."
     }
    ]
   },

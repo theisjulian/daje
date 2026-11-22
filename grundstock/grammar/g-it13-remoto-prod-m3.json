@@ -1,0 +1,127 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-remoto-prod-m3",
+ "title": "Dante Alighieri",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Dante Alighieri · livello medio.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+ },
+ "grammar": {
+  "topic": "it13-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+  "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la biografia con il passato remoto dei verbi.",
+   "promptHelp": "Ergänze die Biografie mit dem passato remoto der Verben.",
+   "explanation": "nascere → nacque, conoscere → conobbe, prendere → prese, vivere → visse, scrivere → scrisse, scegliere → scelse; regolari: tornò, morì, condannarono.",
+   "explanationHelp": "Unregelmäßig: nacque, conobbe, prese, visse, scrisse, scelse; regelmäßig: tornò, morì, condannarono.",
+   "type": "gap_fill",
+   "text": "Dante Alighieri (nascere) [[g1]] a Firenze nel 1265.\nDa ragazzo (conoscere) [[g2]] Beatrice, che (diventare) [[g3]] la figura centrale della sua poesia.\nDa adulto (prendere) [[g4]] parte alla vita politica della sua città.\nNel 1302, però, i suoi nemici lo (condannare) [[g5]] all’esilio.\nDante (dovere) [[g6]] lasciare Firenze e non vi (tornare) [[g7]] mai più.\nNegli anni dell’esilio (vivere) [[g8]] in diverse città italiane e (scrivere) [[g9]] la _Divina Commedia_.\nPer quest’opera (scegliere) [[g10]] il volgare e non il latino.\nIl poeta (morire) [[g11]] a Ravenna nel 1321.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nacque"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "conobbe"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "diventò",
+      "divenne"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "prese"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "condannarono"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "dovette",
+      "dové"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "tornò"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "visse"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "scrisse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "scelse"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "morì"
+     ]
+    }
+   ]
+  }
+ ]
+}

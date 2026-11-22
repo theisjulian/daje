@@ -155,7 +155,7 @@
    "prompt": "Rispondi alle domande con frasi complete. Usa ci e ne: Vai spesso al cinema? Quanti libri leggi in un anno? Pensi spesso al futuro? Quanto tempo ci vuole per andare a scuola?",
    "promptHelp": "Beantworte die Fragen in ganzen Sätzen. Verwende ci und ne.",
    "type": "open_answer",
-   "modelAnswer": "Al cinema ci vado una volta al mese. Di libri ne leggo cinque o sei all’anno. Al futuro ci penso spesso, soprattutto la sera. Per andare a scuola ci vogliono venti minuti in autobus.",
+   "modelAnswer": "Sì, ci vado una volta al mese. Ne leggo cinque o sei all’anno. Sì, ci penso spesso, soprattutto la sera. Per andare a scuola ci vogliono venti minuti in autobus.",
    "lines": 5
   }
  ]

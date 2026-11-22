@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-lessico-l3",
+ "title": "Modi di dire",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · Modi di dire · livello facile.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+ },
+ "grammar": {
+  "topic": "it13-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire di no |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+  "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa significano questi modi di dire?",
+   "promptHelp": "Was bedeuten diese Redewendungen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "In bocca al lupo!",
+     "right": "Buona fortuna!"
+    },
+    {
+     "id": "p2",
+     "left": "Non vedo l’ora di partire.",
+     "right": "Sono impaziente di partire."
+    },
+    {
+     "id": "p3",
+     "left": "Costa un occhio della testa.",
+     "right": "È carissimo."
+    },
+    {
+     "id": "p4",
+     "left": "Acqua in bocca!",
+     "right": "Non dirlo a nessuno!"
+    },
+    {
+     "id": "p5",
+     "left": "Sono al verde.",
+     "right": "Non ho più soldi."
+    },
+    {
+     "id": "p6",
+     "left": "Piove a catinelle.",
+     "right": "Piove moltissimo."
+    },
+    {
+     "id": "p7",
+     "left": "Mi sono fatto in quattro.",
+     "right": "Mi sono impegnato al massimo."
+    },
+    {
+     "id": "p8",
+     "left": "Hai la testa fra le nuvole.",
+     "right": "Sei distratto."
+    },
+    {
+     "id": "p9",
+     "left": "È un gioco da ragazzi.",
+     "right": "È facilissimo."
+    },
+    {
+     "id": "p10",
+     "left": "Ha le mani bucate.",
+     "right": "Spende troppo."
+    }
+   ]
+  }
+ ]
+}

@@ -52,7 +52,7 @@
    "explanation": "Con un nome → come l’articolo (quegli strumenti, quei vecchi telefoni, quello specchio). Senza nome → quello, quella, quelli, quelle.",
    "explanationHelp": "Mit Nomen → wie der Artikel. Ohne Nomen → quello, quella, quelli, quelle.",
    "type": "gap_fill",
-   "text": "– Guarda (questo) [[g1]] dischi qui: sono bellissimi!\n– Sì! E (quello) [[g2]] strumenti là in fondo?\n– No, (quello) [[g3]] sono troppo cari.\n– Scusi, quanto costa (questo) [[g4]] macchina fotografica?\n– Dieci euro. (quello) [[g5]] là, più piccola, costa solo cinque euro.\n– Io prendo (quello) [[g6]] orologio per mio padre.\n– Quale? (quello) [[g7]] con i numeri grandi?\n– No, l’altro, vicino a (quello) [[g8]] vecchi telefoni.\n– E per la nonna? – Per lei prendo (quello) [[g9]] cartoline di Roma.\n– Guarda anche (quello) [[g10]] specchio: è perfetto per la tua camera!",
+   "text": "– Guarda (questo) [[g1]] dischi qui: sono bellissimi!\n– Sì! E (quello) [[g2]] strumenti là in fondo?\n– No, (quello) [[g3]] sono troppo cari.\n– Scusi, quanto costa (questo) [[g4]] macchina fotografica?\n– Dieci euro. (quello) [[g5]] là, più piccola, costa solo cinque euro.\n– Io prendo (quello) [[g6]]orologio per mio padre.\n– Quale? (quello) [[g7]] con i numeri grandi?\n– No, l’altro, vicino a (quello) [[g8]] vecchi telefoni.\n– E per la nonna? – Per lei prendo (quello) [[g9]] cartoline di Roma.\n– Guarda anche (quello) [[g10]] specchio: è perfetto per la tua camera!",
    "gaps": [
     {
      "id": "g1",

@@ -52,7 +52,7 @@
    "explanation": "stare / andare in un luogo, riuscire a, pensare a, credere a → ci. Quantità (tre, quattro, un pacco), parlare di → ne.",
    "explanationHelp": "Ort, riuscire a, pensare a, credere a → ci. Menge, parlare di → ne.",
    "type": "gap_fill",
-   "text": "Caro nonno, sono a Berlino da una settimana e [[g1]] sto benissimo.\nLa città è grande: per andare a scuola [[g2]] vogliono quaranta minuti!\nDi musei [[g3]] sono tantissimi: io [[g4]] ho già visitati tre.\nIeri volevo andare allo zoo, ma non [[g5]] sono riuscita: pioveva troppo.\n[[g6]] vado sabato con la mia amica Lena.\nLena ha molti fratelli: [[g7]] ha quattro!\nE il tuo viaggio in Germania di tanti anni fa? [[g8]] parliamo quando torno!\nPenso spesso a voi: [[g9]] penso soprattutto la sera.\nFra un mese sono di nuovo a casa: quasi non [[g10]] credo!\nTi piace ancora il tè tedesco? Se [[g11]] vuoi un pacco, scrivimi!",
+   "text": "Caro nonno, sono a Berlino da una settimana e [[g1]] sto benissimo.\nLa città è grande: per andare a scuola [[g2]] vogliono quaranta minuti!\nDi musei [[g3]] sono tantissimi: io [[g4]] ho già visitati tre.\nIeri volevo andare allo zoo, ma non [[g5]] sono riuscita: pioveva troppo.\n[[g6]] vado sabato con la mia amica Lena.\nLena ha molti fratelli: [[g7]] ha quattro!\nE il tuo viaggio in Germania di tanti anni fa? [[g8]] parliamo quando torno!\nPenso spesso alla nostra ultima gita in montagna: [[g9]] penso soprattutto la sera.\nFra un mese sono di nuovo a casa: quasi non [[g10]] credo!\nTi piace ancora il tè tedesco? Se [[g11]] vuoi un pacco, scrivimi!",
    "gaps": [
     {
      "id": "g1",

@@ -49,7 +49,7 @@
    "id": "q1",
    "prompt": "Scegli l’espressione giusta.",
    "promptHelp": "Wähle den richtigen Ausdruck.",
-   "explanation": "da quando = seit (Zeitpunkt) · in un’ora = innerhalb einer Stunde (fertig!) · per tutta la sera = den ganzen Abend lang.",
+   "explanation": "da quando + frase: da un momento del passato fino a oggi · in un’ora: il tempo necessario per finire · per tutta la sera: la durata · fino al 15 marzo: la fine del periodo.",
    "explanationHelp": "da quando = seit (Zeitpunkt) · in un’ora = innerhalb einer Stunde (fertig!) · per tutta la sera = den ganzen Abend lang.",
    "type": "gap_choice",
    "text": "Non vedo Paolo [[g1]] quando si è trasferito a Trieste.\nHo finito il tema [[g2]] un’ora, ma poi l’ho corretto [[g3]] tutta la sera.\nIl museo resta chiuso [[g4]] 15 marzo.",

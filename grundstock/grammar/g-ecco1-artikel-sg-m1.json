@@ -52,7 +52,7 @@
    "explanation": "il fiume, il simbolo, il parco · lo stadio, lo zaino · l’amica, l’industria.",
    "explanationHelp": "il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio, lo zaino (s + Konsonant, z) · l’amica, l’industria (Vokal).",
    "type": "gap_fill",
-   "text": "[[g1]] Po è [[g2]] fiume di Torino.\n[[g3]] Mole Antonelliana è [[g4]] simbolo della città.\n[[g5]] stadio è grande.\n[[g6]] amica di Marco abita in centro.\n[[g7]] parco Valentino è bellissimo.\n[[g8]] piazza è importante per [[g9]] città.\n[[g10]] zaino di Anna è in classe.\n[[g11]] industria del cioccolato è famosa.",
+   "text": "[[g1]] Po è [[g2]] fiume di Torino.\n[[g3]] Mole Antonelliana è [[g4]] simbolo della città.\n[[g5]] stadio è grande.\n[[g6]]amica di Marco abita in centro.\n[[g7]] parco Valentino è bellissimo.\n[[g8]] piazza è importante per [[g9]] città.\n[[g10]] zaino di Anna è in classe.\n[[g11]]industria del cioccolato è famosa.",
    "gaps": [
     {
      "id": "g1",

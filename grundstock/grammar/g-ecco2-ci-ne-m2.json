@@ -55,7 +55,7 @@
      "id": "s1",
      "start": "– Vai spesso al cinema? – Sì, …",
      "acceptedAnswers": [
-      "ci vado spesso"
+      "ci vado"
      ],
      "modelAnswer": "Sì, ci vado spesso."
     },
@@ -71,13 +71,14 @@
      "id": "s3",
      "start": "– Sei mai stata a Venezia? – No, …",
      "acceptedAnswers": [
-      "non ci sono mai stata"
+      "non ci sono mai stata",
+      "non ci sono stata"
      ],
      "modelAnswer": "No, non ci sono mai stata."
     },
     {
      "id": "s4",
-     "start": "– Hai dei fratelli? – No, …",
+     "start": "– Hai fratelli? – No, …",
      "acceptedAnswers": [
       "non ne ho"
      ],
@@ -87,7 +88,7 @@
      "id": "s5",
      "start": "– Pensi spesso al futuro? – Sì, …",
      "acceptedAnswers": [
-      "ci penso spesso"
+      "ci penso"
      ],
      "modelAnswer": "Sì, ci penso spesso."
     },
@@ -95,7 +96,7 @@
      "id": "s6",
      "start": "– Parlate mai di politica? – No, …",
      "acceptedAnswers": [
-      "non ne parliamo mai"
+      "non ne parliamo"
      ],
      "modelAnswer": "No, non ne parliamo mai."
     },

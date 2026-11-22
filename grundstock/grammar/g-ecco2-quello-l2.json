@@ -52,7 +52,7 @@
    "explanation": "Come l’articolo: il telefono → quel telefono, l’orologio → quell’orologio, gli occhiali → quegli occhiali, lo zaino → quello zaino.",
    "explanationHelp": "Wie der Artikel: il → quel, l’ → quell’, gli → quegli, lo → quello.",
    "type": "gap_choice",
-   "text": "Guarda [[g1]] vecchio telefono!\nChi è [[g2]] signora nella foto?\n[[g3]] orologio era del nonno.\n[[g4]] occhiali sono della nonna.\nTi ricordi [[g5]] giochi in cortile?\n[[g6]] zaino è troppo pesante.\n[[g7]] lettere sono molto vecchie.\n[[g8]] estate faceva molto caldo.\n[[g9]] studenti non avevano il computer.\nCom’era bello [[g10]] giardino!",
+   "text": "Guarda [[g1]] vecchio telefono!\nChi è [[g2]] signora nella foto?\n[[g3]] era del nonno.\n[[g4]] occhiali sono della nonna.\nTi ricordi [[g5]] giochi in cortile?\n[[g6]] zaino è troppo pesante.\n[[g7]] lettere sono molto vecchie.\n[[g8]] faceva molto caldo.\n[[g9]] studenti non avevano il computer.\nCom’era bello [[g10]] giardino!",
    "gaps": [
     {
      "id": "g1",
@@ -75,11 +75,11 @@
     {
      "id": "g3",
      "options": [
-      "Quell’",
-      "Quel",
-      "Quello"
+      "Quell’orologio",
+      "Quel orologio",
+      "Quello orologio"
      ],
-     "answer": "Quell’"
+     "answer": "Quell’orologio"
     },
     {
      "id": "g4",
@@ -120,11 +120,11 @@
     {
      "id": "g8",
      "options": [
-      "Quell’",
-      "Quel",
-      "Quegli"
+      "Quell’estate",
+      "Quel estate",
+      "Quella estate"
      ],
-     "answer": "Quell’"
+     "answer": "Quell’estate"
     },
     {
      "id": "g9",

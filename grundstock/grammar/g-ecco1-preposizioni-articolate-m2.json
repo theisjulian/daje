@@ -52,7 +52,7 @@
    "explanation": "su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.",
    "explanationHelp": "su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.",
    "type": "gap_fill",
-   "text": "Il computer è (su + la) [[g1]] scrivania.\nIl poster è (su + la) [[g2]] parete.\nIl pallone è (in + la) [[g3]] borsa da calcio.\nIl libro (di + il) [[g4]] cantante è (in + lo) [[g5]] zaino.\nAndiamo (a + il) [[g6]] mercato con la mamma.\nLe chiavi sono (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.\nLe foto sono (in + il) [[g9]] cassetto.\nIl cane dorme (in + l’) [[g10]] ingresso.",
+   "text": "Il computer è (su + la) [[g1]] scrivania.\nIl poster è (su + la) [[g2]] parete.\nIl pallone è (in + la) [[g3]] borsa da calcio.\nIl libro (di + il) [[g4]] cantante è (in + lo) [[g5]] zaino.\nAndiamo (a + il) [[g6]] mercato con la mamma.\nLe chiavi sono (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.\nLe foto sono (in + il) [[g9]] cassetto.\nIl cane dorme (in + l’) [[g10]]ingresso.",
    "gaps": [
     {
      "id": "g1",

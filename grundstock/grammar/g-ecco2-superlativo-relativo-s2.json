@@ -83,18 +83,22 @@
      "id": "s4",
      "start": "Nessun mese è più corto di febbraio. → Febbraio è …",
      "acceptedAnswers": [
-      "il mese più corto"
+      "il mese più corto",
+      "il più corto dell’anno",
+      "il più corto di tutti"
      ],
-     "modelAnswer": "Febbraio è il mese più corto dell’anno."
+     "modelAnswer": "Febbraio è il mese più corto dell’anno. (Anche: il più corto dell’anno, il più corto di tutti.)"
     },
     {
      "id": "s5",
      "start": "Nella squadra nessuna gioca meglio di Giulia. → Giulia è …",
      "acceptedAnswers": [
       "la migliore della squadra",
-      "la più brava della squadra"
+      "la più brava della squadra",
+      "la giocatrice migliore della squadra",
+      "la giocatrice più brava della squadra"
      ],
-     "modelAnswer": "Giulia è la migliore della squadra. (Anche: la più brava della squadra.)"
+     "modelAnswer": "Giulia è la migliore della squadra. (Anche: la più brava della squadra, la giocatrice migliore della squadra, la giocatrice più brava della squadra.)"
     },
     {
      "id": "s6",

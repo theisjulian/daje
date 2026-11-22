@@ -92,11 +92,11 @@ attrazione > l
 [Il] Po è [il] fiume di Torino.
 [La] Mole Antonelliana è [il] simbolo della città.
 [Lo] stadio è grande.
-[L’] amica di Marco abita in centro.
+[L’]amica di Marco abita in centro.
 [Il] parco Valentino è bellissimo.
 [La] piazza è importante per [la] città.
 [Lo] zaino di Anna è in classe.
-[L’] industria del cioccolato è famosa.
+[L’]industria del cioccolato è famosa.
 ! il fiume, il simbolo, il parco · lo stadio, lo zaino · l’amica, l’industria. || il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio, lo zaino (s + Konsonant, z) · l’amica, l’industria (Vokal).
 
 %übung mittel | Articolo e nome
@@ -120,9 +120,9 @@ Cara Lisa,
 oggi visito Torino con [la] mia famiglia.
 Prima vediamo [il] fiume Po e [il] ponte Vittorio Emanuele.
 Poi andiamo in centro: [la] piazza Castello è bellissima.
-Vicino c’è [il] museo egizio, [l’] attrazione più famosa della città.
+Vicino c’è [il] museo egizio, [l’]attrazione più famosa della città.
 Mio fratello vuole vedere [lo] stadio della Juventus.
-[L’] amica di mia madre abita in via Garibaldi.
+[L’]amica di mia madre abita in via Garibaldi.
 [La] via è lunga e c’è [il] tram.
 Domani prendiamo [lo] zaino e andiamo al parco.
 Un abbraccio, Sara
@@ -999,20 +999,20 @@ C’è anche [un] museo molto famoso.
 In centro c’è [una] piazza grande.
 Vicino alla stazione c’è [un] albergo.
 C’è [uno] stadio nuovo.
-In via Roma c’è [un’] edicola.
+In via Roma c’è [un’]edicola.
 Mio cugino ha [un] appartamento in centro.
-C’è anche [un’] università.
+C’è anche [un’]università.
 ! un albergo, un appartamento (m) · un’edicola, un’università (f). || un albergo, un appartamento (m) · un’edicola, un’università (f).
 
 %übung schwer | Che cosa c’è qui?
 ?luecke | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.
 A Torino c’è [uno] stadio grande.
-Marco ha [un] gatto e [un’] amica a Milano.
+Marco ha [un] gatto e [un’]amica a Milano.
 In piazza c’è [una] scuola.
 Lisa è [una] ragazza simpatica.
 Questo è [un] ponte importante.
 Leo ha [uno] zaino rosso.
-È [un’] idea fantastica!
+È [un’]idea fantastica!
 Paolo è [uno] studente di Lecce.
 ! uno con s + consonante e z; un’ solo con parole femminili + vocale. || uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.
 

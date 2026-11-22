@@ -489,7 +489,7 @@ Il libro (di + il) [del] cantante è (in + lo) [nello] zaino.
 Andiamo (a + il) [al] mercato con la mamma.
 Le chiavi sono (su + il) [sul] tavolo (di + la) [della] cucina.
 Le foto sono (in + il) [nel] cassetto.
-Il cane dorme (in + l’) [nell’] ingresso.
+Il cane dorme (in + l’) [nell’]ingresso.
 ! su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al. || su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.
 
 %übung mittel | Un pomeriggio in città
@@ -539,7 +539,7 @@ da | [dal] | [dalla] | [dai] | [dalle]
 Mamma, dov’è il mio cellulare? Non è (in + la) [nella] mia borsa.
 Forse è (su + il) [sul] letto o (in + lo) [nello] zaino.
 No, aspetta! È (in + la) [nella] tasca (di + la) [della] giacca.
-La giacca è (in + l’) [nell’] armadio (di + il) [del] corridoio.
+La giacca è (in + l’) [nell’]armadio (di + il) [del] corridoio.
 Ah no, il cellulare è (su + la) [sulla] sedia (in + la) [nella] cucina!
 Poi lo porto (a + la) [alla] nonna (in + il) [nel] salotto.
 

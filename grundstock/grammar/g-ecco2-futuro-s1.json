@@ -148,7 +148,8 @@
      "id": "s4",
      "start": "– Perché i nonni non rispondono al telefono? – … (dormire)",
      "acceptedAnswers": [
-      "dormiranno"
+      "dormiranno",
+      "staranno dormendo"
      ],
      "modelAnswer": "Dormiranno."
     }

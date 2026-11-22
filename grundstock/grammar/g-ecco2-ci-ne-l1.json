@@ -52,7 +52,7 @@
    "explanation": "Luogo o **a** + cosa → **ci**. Quantità o **di** + cosa → **ne**.",
    "explanationHelp": "Ort oder **a** + Sache → **ci**. Menge oder **di** + Sache → **ne**.",
    "type": "gap_choice",
-   "text": "– Vai spesso dai nonni? – Sì, [[g1]] vado ogni domenica.\n– Quanti fratelli hai? – [[g2]] ho due.\n– Vuoi del pane? – Sì, [[g3]] prendo un po’.\n– Sei mai stato a Roma? – No, non [[g4]] sono mai stato.\n– Hai dei francobolli? – No, non [[g5]] ho.\n– Pensi al futuro? – Sì, [[g6]] penso spesso.\n– Parlate della scuola? – Sì, [[g7]] parliamo sempre.\n– Credi all’oroscopo? – No, non [[g8]] credo.\n– Quando andate in biblioteca? – [[g9]] andiamo domani.\n– Hai bisogno del computer? – Sì, [[g10]] ho bisogno adesso.",
+   "text": "– Vai spesso dai nonni? – Sì, [[g1]] vado ogni domenica.\n– Quanti fratelli hai? – [[g2]] ho due.\n– Vuoi un po’ di pane? – Sì, [[g3]] prendo un pezzo.\n– Sei mai stato a Roma? – No, non [[g4]] sono mai stato.\n– Hai francobolli? – No, non [[g5]] ho.\n– Pensi al futuro? – Sì, [[g6]] penso spesso.\n– Parlate della scuola? – Sì, [[g7]] parliamo sempre.\n– Credi all’oroscopo? – No, non [[g8]] credo.\n– Quando andate in biblioteca? – [[g9]] andiamo domani.\n– Hai bisogno del computer? – Sì, [[g10]] ho bisogno adesso.",
    "gaps": [
     {
      "id": "g1",

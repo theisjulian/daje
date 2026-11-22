@@ -50,7 +50,7 @@
    "prompt": "Scrivi le preposizioni articolate (in, su, di, a, da).",
    "promptHelp": "Ergänze die Präpositionen mit Artikel.",
    "type": "gap_fill",
-   "text": "Mamma, dov’è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l’) [[g6]] armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!\nPoi lo porto (a + la) [[g10]] nonna (in + il) [[g11]] salotto.",
+   "text": "Mamma, dov’è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l’) [[g6]]armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!\nPoi lo porto (a + la) [[g10]] nonna (in + il) [[g11]] salotto.",
    "gaps": [
     {
      "id": "g1",

@@ -52,7 +52,7 @@
    "explanation": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
    "explanationHelp": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
    "type": "gap_fill",
-   "text": "A Torino c’è [[g1]] fiume, il Po.\nC’è anche [[g2]] museo molto famoso.\nIn centro c’è [[g3]] piazza grande.\nVicino alla stazione c’è [[g4]] albergo.\nC’è [[g5]] stadio nuovo.\nIn via Roma c’è [[g6]] edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC’è anche [[g8]] università.",
+   "text": "A Torino c’è [[g1]] fiume, il Po.\nC’è anche [[g2]] museo molto famoso.\nIn centro c’è [[g3]] piazza grande.\nVicino alla stazione c’è [[g4]] albergo.\nC’è [[g5]] stadio nuovo.\nIn via Roma c’è [[g6]]edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC’è anche [[g8]]università.",
    "gaps": [
     {
      "id": "g1",

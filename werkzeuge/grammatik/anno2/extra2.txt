@@ -346,7 +346,7 @@ Compro un chilo di pasta. = Ich kaufe ein Kilo Nudeln.
 %übung mittel | La festa dopo il concerto
 ?luecke | Completa con il partitivo (del, dello, dell’, della, dei, degli, delle). || Ergänze den Teilungsartikel (del, dello, dell’, della, dei, degli, delle).
 Per la festa dopo il concerto compriamo [della] pizza e [dei] panini.
-Giulia porta [dell’] aranciata e Matteo porta [dello] zucchero per il tè freddo.
+Giulia porta [dell’]aranciata e Matteo porta [dello] zucchero per il tè freddo.
 Ci sono anche [delle] patatine e [del] formaggio.
 Luca invita [degli] amici della sua classe.
 Chiara mette [della] musica italiana e subito [dei] ragazzi cominciano a ballare.

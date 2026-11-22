@@ -49,7 +49,7 @@
    "prompt": "Scrivi la forma giusta di quello.",
    "promptHelp": "Ergänze die richtige Form von quello.",
    "type": "gap_fill",
-   "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]] uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
+   "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]]uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
    "gaps": [
     {
      "id": "g1",

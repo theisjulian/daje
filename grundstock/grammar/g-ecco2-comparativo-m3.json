@@ -119,7 +119,7 @@
   },
   {
    "id": "q4",
-   "prompt": "Metti le parti in ordine: „Meine Freundin spricht besser Italienisch als ich.“",
+   "prompt": "Metti le parti in ordine: „Meine Freundin singt besser als ich.“",
    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
@@ -129,7 +129,7 @@
     },
     {
      "id": "i2",
-     "text": "parla italiano"
+     "text": "canta"
     },
     {
      "id": "i3",

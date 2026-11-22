@@ -47,63 +47,63 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Traduci in italiano.",
-   "promptHelp": "Übersetze ins Italienische.",
+   "prompt": "Unisci le due frasi in una sola. Usa quello che, tutto quello che o che.",
+   "promptHelp": "Verbinde die beiden Sätze zu einem. Verwende quello che, tutto quello che oder che.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
-     "start": "Was du sagst, ist richtig.",
+     "start": "Tu dici una cosa. Questa cosa è giusta. → …",
      "acceptedAnswers": [
-      "Quello che dici",
-      "Ciò che dici"
+      "Quello che dici è giusto",
+      "Ciò che dici è giusto"
      ],
-     "modelAnswer": "Quello che dici è giusto. (Anche: Ciò che dici è giusto.)"
+     "modelAnswer": "Quello che dici è giusto."
     },
     {
      "id": "s2",
-     "start": "Ich verstehe alles, was du schreibst.",
+     "start": "Tu scrivi molte cose. Io capisco tutto. → Capisco …",
      "acceptedAnswers": [
       "tutto quello che scrivi",
       "tutto ciò che scrivi"
      ],
-     "modelAnswer": "Capisco tutto quello che scrivi. (Anche: tutto ciò che scrivi.)"
+     "modelAnswer": "Capisco tutto quello che scrivi."
     },
     {
      "id": "s3",
-     "start": "Was machst du morgen?",
+     "start": "Cerco un libro. È questo. → Questo è …",
      "acceptedAnswers": [
-      "Che cosa fai domani",
-      "Cosa fai domani",
-      "Che fai domani"
+      "il libro che cerco",
+      "il libro che sto cercando"
      ],
-     "modelAnswer": "Che cosa fai domani? (Anche: Cosa fai domani? Che fai domani?)"
+     "modelAnswer": "Questo è il libro che cerco."
     },
     {
      "id": "s4",
-     "start": "Das ist das Buch, das ich suche.",
+     "start": "Mi piace una cosa: la musica. → …",
      "acceptedAnswers": [
-      "il libro che cerco"
+      "Quello che mi piace è la musica",
+      "Ciò che mi piace è la musica"
      ],
-     "modelAnswer": "È il libro che cerco."
+     "modelAnswer": "Quello che mi piace è la musica."
     },
     {
      "id": "s5",
-     "start": "Was mir gefällt, ist die Musik.",
-     "acceptedAnswers": [
-      "Quello che mi piace",
-      "Ciò che mi piace"
-     ],
-     "modelAnswer": "Quello che mi piace è la musica. (Anche: Ciò che mi piace è la musica.)"
-    },
-    {
-     "id": "s6",
-     "start": "Nimm, was du willst!",
+     "start": "Vuoi qualcosa? Prendilo! → Prendi …",
      "acceptedAnswers": [
       "quello che vuoi",
       "ciò che vuoi"
      ],
-     "modelAnswer": "Prendi quello che vuoi! (Anche: ciò che vuoi!)"
+     "modelAnswer": "Prendi quello che vuoi!"
+    },
+    {
+     "id": "s6",
+     "start": "A Roma ho visto molte cose. Ti racconto tutto. → Ti racconto …",
+     "acceptedAnswers": [
+      "tutto quello che ho visto",
+      "tutto ciò che ho visto"
+     ],
+     "modelAnswer": "Ti racconto tutto quello che ho visto a Roma."
     }
    ]
   },

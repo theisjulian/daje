@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Completa il racconto con: a partire da, a un tratto, al, da, dal, entro, fa, fino a, fra, il giorno dopo, nel frattempo, ogni volta che, per. (Una parola resta fuori, «da» si usa due volte.)",
-   "promptHelp": "Ergänze die Erzählung mit den angegebenen Ausdrücken. (Ein Ausdruck bleibt übrig, „da“ kommt zweimal vor.)",
+   "prompt": "Completa il racconto con: a partire da, a un tratto, al, da, dal, entro, fa, fino a, fra, il giorno dopo, nel frattempo, ogni volta che, per. (Un’espressione resta fuori.)",
+   "promptHelp": "Ergänze die Erzählung mit den angegebenen Ausdrücken. (Ein Ausdruck bleibt übrig.)",
    "type": "gap_fill",
    "text": "Mia nonna Rosa è nata in un piccolo paese della Basilicata.\nSessant’anni [[g1]], quando aveva vent’anni, è partita per Torino.\nHa lavorato in una fabbrica [[g2]] quarant’anni, [[g3]] lunedì [[g4]] sabato.\n[[g5]] tornava al paese per le vacanze, portava regali per tutti.\nUna sera aspettava l’autobus quando, [[g6]], ha sentito qualcuno parlare il suo dialetto: era Antonio, il mio futuro nonno.\n[[g7]] si sono rivisti alla stessa fermata, e un anno più tardi si sono sposati.\nI nonni abitano a Torino [[g8]] quasi sessant’anni, ma si sentono ancora lucani.\nOgni estate restano al paese [[g9]] settembre.\n[[g10]] quest’anno, però, vogliono viverci tutto l’anno.\nLa partenza è [[g11]] due settimane. [[g12]] io imparo qualche parola del loro dialetto!",
    "gaps": [
