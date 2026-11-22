@@ -51,7 +51,7 @@
    "explanation": "nascere → nacque, conoscere → conobbe, prendere → prese, vivere → visse, scrivere → scrisse, scegliere → scelse; regolari: tornò, morì, condannarono.",
    "explanationHelp": "Unregelmäßig: nacque, conobbe, prese, visse, scrisse, scelse; regelmäßig: tornò, morì, condannarono.",
    "type": "gap_fill",
-   "text": "Dante Alighieri (nascere) [[g1]] a Firenze nel 1265.\nDa ragazzo (conoscere) [[g2]] Beatrice, che (diventare) [[g3]] la figura centrale della sua poesia.\nDa adulto (prendere) [[g4]] parte alla vita politica della sua città.\nNel 1302, però, i suoi nemici lo (condannare) [[g5]] all’esilio.\nDante (dovere) [[g6]] lasciare Firenze e non vi (tornare) [[g7]] mai più.\nNegli anni dell’esilio (vivere) [[g8]] in diverse città italiane e (scrivere) [[g9]] la _Divina Commedia_.\nPer quest’opera (scegliere) [[g10]] il volgare e non il latino.\nIl poeta (morire) [[g11]] a Ravenna nel 1321.",
+   "text": "Dante Alighieri (nascere) [[g1]] a Firenze nel 1265.\nDa ragazzo (conoscere) [[g2]] Beatrice, che (diventare) [[g3]] la figura centrale della sua poesia.\nDa adulto (prendere) [[g4]] parte alla vita politica della sua città.\nNel 1302, però, i suoi nemici lo (condannare) [[g5]] all’esilio.\nDante (dovere) [[g6]] vivere lontano da Firenze e non vi (tornare) [[g7]] mai più.\nNegli anni dell’esilio (vivere) [[g8]] in diverse città italiane e (scrivere) [[g9]] la _Divina Commedia_.\nPer quest’opera (scegliere) [[g10]] il volgare e non il latino.\nIl poeta (morire) [[g11]] a Ravenna nel 1321.",
    "gaps": [
     {
      "id": "g1",

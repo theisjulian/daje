@@ -104895,7 +104895,7 @@ const STOCK_PACKAGES = [
     "explanation": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
     "promptHelp": "Ergänze den unbestimmten Artikel.",
     "explanationHelp": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
-    "text": "A Torino c’è [[g1]] fiume, il Po.\nC’è anche [[g2]] museo molto famoso.\nIn centro c’è [[g3]] piazza grande.\nVicino alla stazione c’è [[g4]] albergo.\nC’è [[g5]] stadio nuovo.\nIn via Roma c’è [[g6]] edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC’è anche [[g8]] università.",
+    "text": "A Torino c’è [[g1]] fiume, il Po.\nC’è anche [[g2]] museo molto famoso.\nIn centro c’è [[g3]] piazza grande.\nVicino alla stazione c’è [[g4]] albergo.\nC’è [[g5]] stadio nuovo.\nIn via Roma c’è [[g6]]edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC’è anche [[g8]]università.",
     "gaps": [
      {
       "id": "g1",
@@ -105007,7 +105007,7 @@ const STOCK_PACKAGES = [
     "explanation": "uno con s + consonante e z; un’ solo con parole femminili + vocale.",
     "promptHelp": "Ergänze den unbestimmten Artikel.",
     "explanationHelp": "uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.",
-    "text": "A Torino c’è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c’è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.\nLeo ha [[g7]] zaino rosso.\nÈ [[g8]] idea fantastica!\nPaolo è [[g9]] studente di Lecce.",
+    "text": "A Torino c’è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]]amica a Milano.\nIn piazza c’è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.\nLeo ha [[g7]] zaino rosso.\nÈ [[g8]]idea fantastica!\nPaolo è [[g9]] studente di Lecce.",
     "gaps": [
      {
       "id": "g1",
@@ -105976,7 +105976,7 @@ const STOCK_PACKAGES = [
     "explanation": "il fiume, il simbolo, il parco · lo stadio, lo zaino · l’amica, l’industria.",
     "promptHelp": "Setze den bestimmten Artikel ein.",
     "explanationHelp": "il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio, lo zaino (s + Konsonant, z) · l’amica, l’industria (Vokal).",
-    "text": "[[g1]] Po è [[g2]] fiume di Torino.\n[[g3]] Mole Antonelliana è [[g4]] simbolo della città.\n[[g5]] stadio è grande.\n[[g6]] amica di Marco abita in centro.\n[[g7]] parco Valentino è bellissimo.\n[[g8]] piazza è importante per [[g9]] città.\n[[g10]] zaino di Anna è in classe.\n[[g11]] industria del cioccolato è famosa.",
+    "text": "[[g1]] Po è [[g2]] fiume di Torino.\n[[g3]] Mole Antonelliana è [[g4]] simbolo della città.\n[[g5]] stadio è grande.\n[[g6]]amica di Marco abita in centro.\n[[g7]] parco Valentino è bellissimo.\n[[g8]] piazza è importante per [[g9]] città.\n[[g10]] zaino di Anna è in classe.\n[[g11]]industria del cioccolato è famosa.",
     "gaps": [
      {
       "id": "g1",
@@ -106273,7 +106273,7 @@ const STOCK_PACKAGES = [
     "explanation": "fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’.",
     "promptHelp": "Ergänze den bestimmten Artikel (il, lo, la, l’).",
     "explanationHelp": "fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’.",
-    "text": "Cara Lisa,\noggi visito Torino con [[g1]] mia famiglia.\nPrima vediamo [[g2]] fiume Po e [[g3]] ponte Vittorio Emanuele.\nPoi andiamo in centro: [[g4]] piazza Castello è bellissima.\nVicino c’è [[g5]] museo egizio, [[g6]] attrazione più famosa della città.\nMio fratello vuole vedere [[g7]] stadio della Juventus.\n[[g8]] amica di mia madre abita in via Garibaldi.\n[[g9]] via è lunga e c’è [[g10]] tram.\nDomani prendiamo [[g11]] zaino e andiamo al parco.\nUn abbraccio, Sara",
+    "text": "Cara Lisa,\noggi visito Torino con [[g1]] mia famiglia.\nPrima vediamo [[g2]] fiume Po e [[g3]] ponte Vittorio Emanuele.\nPoi andiamo in centro: [[g4]] piazza Castello è bellissima.\nVicino c’è [[g5]] museo egizio, [[g6]]attrazione più famosa della città.\nMio fratello vuole vedere [[g7]] stadio della Juventus.\n[[g8]]amica di mia madre abita in via Garibaldi.\n[[g9]] via è lunga e c’è [[g10]] tram.\nDomani prendiamo [[g11]] zaino e andiamo al parco.\nUn abbraccio, Sara",
     "gaps": [
      {
       "id": "g1",
@@ -145150,7 +145150,7 @@ const STOCK_PACKAGES = [
     "explanation": "su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.",
     "promptHelp": "Ergänze die Präposition mit Artikel.",
     "explanationHelp": "su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.",
-    "text": "Il computer è (su + la) [[g1]] scrivania.\nIl poster è (su + la) [[g2]] parete.\nIl pallone è (in + la) [[g3]] borsa da calcio.\nIl libro (di + il) [[g4]] cantante è (in + lo) [[g5]] zaino.\nAndiamo (a + il) [[g6]] mercato con la mamma.\nLe chiavi sono (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.\nLe foto sono (in + il) [[g9]] cassetto.\nIl cane dorme (in + l’) [[g10]] ingresso.",
+    "text": "Il computer è (su + la) [[g1]] scrivania.\nIl poster è (su + la) [[g2]] parete.\nIl pallone è (in + la) [[g3]] borsa da calcio.\nIl libro (di + il) [[g4]] cantante è (in + lo) [[g5]] zaino.\nAndiamo (a + il) [[g6]] mercato con la mamma.\nLe chiavi sono (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.\nLe foto sono (in + il) [[g9]] cassetto.\nIl cane dorme (in + l’) [[g10]]ingresso.",
     "gaps": [
      {
       "id": "g1",
@@ -145835,7 +145835,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scrivi le preposizioni articolate (in, su, di, a, da).",
     "explanation": "",
     "promptHelp": "Ergänze die Präpositionen mit Artikel.",
-    "text": "Mamma, dov’è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l’) [[g6]] armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!\nPoi lo porto (a + la) [[g10]] nonna (in + il) [[g11]] salotto.",
+    "text": "Mamma, dov’è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l’) [[g6]]armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!\nPoi lo porto (a + la) [[g10]] nonna (in + il) [[g11]] salotto.",
     "gaps": [
      {
       "id": "g1",
@@ -154083,7 +154083,7 @@ const STOCK_PACKAGES = [
     "explanation": "quell’ davanti a vocale; quello e quegli con s + consonante, z, e (quegli) vocale.",
     "promptHelp": "Ergänze die richtige Form von quello.",
     "explanationHelp": "quell’ vor Vokal; quello/quegli vor s + Konsonant, z; quegli auch vor Vokal (Plural).",
-    "text": "Quanto costa [[g1]] formaggio?\nE [[g2]] mozzarella?\nMi dà due chili di [[g3]] mele, per favore?\n[[g4]] pomodori sono freschi?\n[[g5]] olio è italiano?\nVorrei un etto di [[g6]] speck.\n[[g7]] spinaci sono molto buoni.\nE [[g8]] insalata quanto costa?",
+    "text": "Quanto costa [[g1]] formaggio?\nE [[g2]] mozzarella?\nMi dà due chili di [[g3]] mele, per favore?\n[[g4]] pomodori sono freschi?\n[[g5]]olio è italiano?\nVorrei un etto di [[g6]] speck.\n[[g7]] spinaci sono molto buoni.\nE [[g8]]insalata quanto costa?",
     "gaps": [
      {
       "id": "g1",
@@ -154575,7 +154575,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scrivi la forma giusta di quello.",
     "explanation": "",
     "promptHelp": "Ergänze die richtige Form von quello.",
-    "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]] uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
+    "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]]uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
     "gaps": [
      {
       "id": "g1",
@@ -168657,6 +168657,2776 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco2-ci-ne-l1",
+  "title": "Ci o ne?",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Ci o ne? · livello facile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli: ci o ne?",
+    "explanation": "Luogo o **a** + cosa → **ci**. Quantità o **di** + cosa → **ne**.",
+    "promptHelp": "Wähle: ci oder ne?",
+    "explanationHelp": "Ort oder **a** + Sache → **ci**. Menge oder **di** + Sache → **ne**.",
+    "text": "– Vai spesso dai nonni? – Sì, [[g1]] vado ogni domenica.\n– Quanti fratelli hai? – [[g2]] ho due.\n– Vuoi un po’ di pane? – Sì, [[g3]] prendo un pezzo.\n– Sei mai stato a Roma? – No, non [[g4]] sono mai stato.\n– Hai francobolli? – No, non [[g5]] ho.\n– Pensi al futuro? – Sì, [[g6]] penso spesso.\n– Parlate della scuola? – Sì, [[g7]] parliamo sempre.\n– Credi all’oroscopo? – No, non [[g8]] credo.\n– Quando andate in biblioteca? – [[g9]] andiamo domani.\n– Hai bisogno del computer? – Sì, [[g10]] ho bisogno adesso.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ci",
+       "ne"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Ne",
+       "Ci"
+      ],
+      "answer": "Ne"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ne",
+       "ci"
+      ],
+      "answer": "ne"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ci",
+       "ne"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ne",
+       "ci"
+      ],
+      "answer": "ne"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ci",
+       "ne"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ne",
+       "ci"
+      ],
+      "answer": "ne"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ci",
+       "ne"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Ci",
+       "Ne"
+      ],
+      "answer": "Ci"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "ne",
+       "ci"
+      ],
+      "answer": "ne"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-l2",
+  "title": "Domanda e risposta",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Domanda e risposta · livello facile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la domanda alla risposta.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Frage mit der Antwort.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Vai a scuola in bici?",
+      "right": "Sì, ci vado in bici."
+     },
+     {
+      "id": "p2",
+      "left": "Quante sorelle hai?",
+      "right": "Ne ho una."
+     },
+     {
+      "id": "p3",
+      "left": "Mangi molta frutta?",
+      "right": "Sì, ne mangio molta."
+     },
+     {
+      "id": "p4",
+      "left": "Sei stato in Sicilia?",
+      "right": "No, non ci sono mai stato."
+     },
+     {
+      "id": "p5",
+      "left": "Hai bisogno di aiuto?",
+      "right": "No, grazie, non ne ho bisogno."
+     },
+     {
+      "id": "p6",
+      "left": "Pensi alle vacanze?",
+      "right": "Sì, ci penso ogni giorno."
+     },
+     {
+      "id": "p7",
+      "left": "Quanto tempo ci vuole?",
+      "right": "Ci vuole un’ora."
+     },
+     {
+      "id": "p8",
+      "left": "Ci sono ancora biscotti?",
+      "right": "Sì, ce ne sono tre."
+     },
+     {
+      "id": "p9",
+      "left": "C’è ancora latte?",
+      "right": "No, non ce n’è più."
+     },
+     {
+      "id": "p10",
+      "left": "Parli spesso del tuo lavoro?",
+      "right": "No, non ne parlo mai."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-l3",
+  "title": "Ci vuole o ci vogliono?",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Ci vuole o ci vogliono? · livello facile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Che cosa va bene: ci vuole o ci vogliono?",
+    "explanation": "Singolare → ci vuole. Plurale → ci vogliono.",
+    "promptHelp": "Was passt: ci vuole oder ci vogliono?",
+    "explanationHelp": "Singular → ci vuole. Plural → ci vogliono.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "Ci vuole …"
+     },
+     {
+      "id": "b",
+      "label": "Ci vogliono …"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "un’ora",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "due ore",
+      "category": "b"
+     },
+     {
+      "id": "i3",
+      "text": "molta pazienza",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "tre uova",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "un computer",
+      "category": "a"
+     },
+     {
+      "id": "i6",
+      "text": "venti minuti",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "molto tempo",
+      "category": "a"
+     },
+     {
+      "id": "i8",
+      "text": "dieci euro",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "un biglietto",
+      "category": "a"
+     },
+     {
+      "id": "i10",
+      "text": "gli occhiali",
+      "category": "b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-l4",
+  "title": "Ce n’è o ce ne sono?",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Ce n’è o ce ne sono? · livello facile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "c’è + ne → **ce n’è** (singolare). ci sono + ne → **ce ne sono** (plurale).",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "c’è + ne → **ce n’è** (Singular). ci sono + ne → **ce ne sono** (Plural).",
+    "text": "– Quante finestre ci sono in classe? – [[g1]] quattro.\n– C’è un computer? – Sì, [[g2]] uno.\n– Ci sono studenti nuovi? – Sì, [[g3]] due.\n– C’è ancora pizza? – Sì, [[g4]] ancora un po’.\n– Quanti telefoni ci sono a casa tua? – [[g5]] cinque.\n– C’è una farmacia qui vicino? – Sì, [[g6]] una in piazza.\n– Ci sono errori nel testo? – No, non [[g7]].\n– C’è ancora succo? – No, non [[g8]] più.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Ce ne sono",
+       "Ce n’è"
+      ],
+      "answer": "Ce ne sono"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ce n’è",
+       "ce ne sono"
+      ],
+      "answer": "ce n’è"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ce ne sono",
+       "ce n’è"
+      ],
+      "answer": "ce ne sono"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ce n’è",
+       "ce ne sono"
+      ],
+      "answer": "ce n’è"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Ce ne sono",
+       "Ce n’è"
+      ],
+      "answer": "Ce ne sono"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ce n’è",
+       "ce ne sono"
+      ],
+      "answer": "ce n’è"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ce ne sono",
+       "ce n’è"
+      ],
+      "answer": "ce ne sono"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ce n’è",
+       "ce ne sono"
+      ],
+      "answer": "ce n’è"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-m1",
+  "title": "La nonna e il tablet",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · La nonna e il tablet · livello medio.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Davide parla con sua nonna. Completa con ci o ne.",
+    "explanation": "riuscire **a**, pensare **a**, credere **a**, andare / tornare **a** → ci. Quantità (due, tanta, tre), parlare **di**, avere bisogno **di** → ne.",
+    "promptHelp": "Davide spricht mit seiner Oma. Ergänze ci oder ne.",
+    "explanationHelp": "riuscire a, pensare a, credere a, Ort → ci. Menge, parlare di, avere bisogno di → ne.",
+    "text": "– Nonna, sai mandare le foto con il tablet? – Provo sempre, ma non [[g1]] riesco!\n– Quante mail scrivi? – [[g2]] scrivo due o tre alla settimana.\n– Vai ancora al mercato? – Certo, [[g3]] vado ogni sabato.\n– Compri molta verdura? – Sì, [[g4]] compro sempre tanta.\n– Pensi mai alla tua vecchia casa? – Sì, [[g5]] penso spesso.\n– Parli dei vecchi tempi con il nonno? – Sì, [[g6]] parliamo quasi ogni sera.\n– Torni qualche volta al tuo paese? – [[g7]] torno una volta all’anno.\n– Hai ancora amiche lì? – Sì, [[g8]] ho ancora tre.\n– Credi a tutto quello che leggi su Internet? – No, non [[g9]] credo!\n– Hai bisogno di aiuto con il tablet? – No, grazie, oggi non [[g10]] ho bisogno.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ne"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ci"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-m2",
+  "title": "Rispondi!",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Rispondi! · livello medio.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con ci o ne.",
+    "explanation": "",
+    "promptHelp": "Antworte mit ci oder ne.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "– Vai spesso al cinema? – Sì, …",
+      "acceptedAnswers": [
+       "ci vado"
+      ],
+      "modelAnswer": "Sì, ci vado spesso."
+     },
+     {
+      "id": "s2",
+      "start": "– Quanti messaggi scrivi al giorno? (cinquanta) – …",
+      "acceptedAnswers": [
+       "ne scrivo cinquanta"
+      ],
+      "modelAnswer": "Ne scrivo cinquanta."
+     },
+     {
+      "id": "s3",
+      "start": "– Sei mai stata a Venezia? – No, …",
+      "acceptedAnswers": [
+       "non ci sono mai stata",
+       "non ci sono stata"
+      ],
+      "modelAnswer": "No, non ci sono mai stata."
+     },
+     {
+      "id": "s4",
+      "start": "– Hai fratelli? – No, …",
+      "acceptedAnswers": [
+       "non ne ho"
+      ],
+      "modelAnswer": "No, non ne ho."
+     },
+     {
+      "id": "s5",
+      "start": "– Pensi spesso al futuro? – Sì, …",
+      "acceptedAnswers": [
+       "ci penso"
+      ],
+      "modelAnswer": "Sì, ci penso spesso."
+     },
+     {
+      "id": "s6",
+      "start": "– Parlate mai di politica? – No, …",
+      "acceptedAnswers": [
+       "non ne parliamo"
+      ],
+      "modelAnswer": "No, non ne parliamo mai."
+     },
+     {
+      "id": "s7",
+      "start": "– Quanto tempo ci vuole per andare a scuola? (dieci minuti) – …",
+      "acceptedAnswers": [
+       "ci vogliono dieci minuti"
+      ],
+      "modelAnswer": "Ci vogliono dieci minuti."
+     },
+     {
+      "id": "s8",
+      "start": "– Quante lingue parli? (tre) – …",
+      "acceptedAnswers": [
+       "ne parlo tre"
+      ],
+      "modelAnswer": "Ne parlo tre."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-m3",
+  "title": "Dove vanno ci e ne?",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Dove vanno ci e ne? · livello medio.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "A Parigi?"
+     },
+     {
+      "id": "i2",
+      "text": "Non ci"
+     },
+     {
+      "id": "i3",
+      "text": "sono mai"
+     },
+     {
+      "id": "i4",
+      "text": "stato."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il caffè è buono,"
+     },
+     {
+      "id": "i2",
+      "text": "ma ne"
+     },
+     {
+      "id": "i3",
+      "text": "bevo solo"
+     },
+     {
+      "id": "i4",
+      "text": "una tazza."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Vorrei andare in Sicilia,"
+     },
+     {
+      "id": "i2",
+      "text": "ma non posso"
+     },
+     {
+      "id": "i3",
+      "text": "andarci"
+     },
+     {
+      "id": "i4",
+      "text": "quest’anno."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "ci e ne stanno prima del verbo coniugato (non **ci** sono mai stato, **ne** bevo) o dopo l’infinito (andar**ci**).",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "explanationHelp": "ci und ne stehen vor dem konjugierten Verb oder hängen am Infinitiv (andarci).",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Per arrivare a Milano"
+     },
+     {
+      "id": "i2",
+      "text": "ci vogliono"
+     },
+     {
+      "id": "i3",
+      "text": "tre ore"
+     },
+     {
+      "id": "i4",
+      "text": "di treno."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-m4",
+  "title": "Quanto ci vuole? Quanti ce ne sono?",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Quanto ci vuole? Quanti ce ne sono? · livello medio.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con ci vuole, ci vogliono, ce n’è o ce ne sono.",
+    "explanation": "",
+    "promptHelp": "Ergänze ci vuole, ci vogliono, ce n’è oder ce ne sono.",
+    "text": "Per andare in centro [[g1]] venti minuti.\nPer fare questo esercizio [[g2]] molta pazienza.\n– C’è ancora gelato? – Sì, [[g3]] ancora.\n– Quante sedie ci sono? – [[g4]] dodici.\nPer una pizza buona [[g5]] un forno molto caldo.\n– Ci sono biscotti? – Mi dispiace, non [[g6]] più.\nPer imparare bene una lingua [[g7]] molti anni.\n– C’è un bagno qui? – Sì, [[g8]] uno al primo piano.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ci vogliono"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ci vuole"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ce n’è"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Ce ne sono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ci vuole"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ce ne sono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ci vogliono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ce n’è"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-s1",
+  "title": "Dieci errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Dieci errori · livello difficile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni riga c’è un errore con ci o ne. Correggi.",
+    "explanation": "Con un numero senza nome ci vuole sempre **ne**: _Ne ho quindici._ ci + ne → **ce ne**.",
+    "promptHelp": "In jeder Zeile steckt ein Fehler bei ci oder ne. Korrigiere.",
+    "explanationHelp": "Bei einer Zahl ohne Nomen steht immer **ne**: _Ne ho quindici._ ci + ne → **ce ne**.",
+    "text": "– Vai a Roma? – Sì, [[g1]] vado domani.\n– Io ho tre gatti. – Io [[g2]] ho due.\nPer fare i compiti ci [[g3]] due ore.\n– Credi all’oroscopo? – No, non [[g4]] credo.\n– Ci sono ancora mele? – Sì, [[g5]] sono tre.\nIl concerto è a Bologna e voglio [[g6]] con Sara.\n– Quanti anni hai? – [[g7]] quindici.\nQuesto esercizio è difficile: non [[g8]].\n– Parli spesso di calcio? – No, non [[g9]] parlo mai.\n– Hai bisogno della macchina? – No, non [[g10]] ho bisogno.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "ne",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "ci",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "vuole",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "ne",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "ci ne",
+      "acceptedAnswers": [
+       "ce ne"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "ci andare",
+      "acceptedAnswers": [
+       "andarci"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Ho",
+      "acceptedAnswers": [
+       "Ne ho"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "riesco ci",
+      "acceptedAnswers": [
+       "ci riesco"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "ci",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "ci",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-s2",
+  "title": "Una mail da Berlino",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Una mail da Berlino · livello difficile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Chiara scrive al nonno. Completa con ci, ne o ce ne.",
+    "explanation": "stare / andare in un luogo, riuscire a, pensare a, credere a → ci. Quantità (tre, quattro, un pacco), parlare di → ne.",
+    "promptHelp": "Chiara schreibt ihrem Opa. Ergänze ci, ne oder ce ne.",
+    "explanationHelp": "Ort, riuscire a, pensare a, credere a → ci. Menge, parlare di → ne.",
+    "text": "Caro nonno, sono a Berlino da una settimana e [[g1]] sto benissimo.\nLa città è grande: per andare a scuola [[g2]] vogliono quaranta minuti!\nDi musei [[g3]] sono tantissimi: io [[g4]] ho già visitati tre.\nIeri volevo andare allo zoo, ma non [[g5]] sono riuscita: pioveva troppo.\n[[g6]] vado sabato con la mia amica Lena.\nLena ha molti fratelli: [[g7]] ha quattro!\nE il tuo viaggio in Germania di tanti anni fa? [[g8]] parliamo quando torno!\nPenso spesso alla nostra ultima gita in montagna: [[g9]] penso soprattutto la sera.\nFra un mese sono di nuovo a casa: quasi non [[g10]] credo!\nTi piace ancora il tè tedesco? Se [[g11]] vuoi un pacco, scrivimi!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ce ne"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Ci"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Ne"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-s3",
+  "title": "Senza ripetere",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Senza ripetere · livello difficile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la frase: sostituisci le parole tra parentesi con ci o ne.",
+    "explanation": "",
+    "promptHelp": "Schreibe den Satz neu: Ersetze die Wörter in Klammern durch ci oder ne.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Vado spesso (in biblioteca).",
+      "acceptedAnswers": [
+       "ci vado spesso"
+      ],
+      "modelAnswer": "Ci vado spesso."
+     },
+     {
+      "id": "s2",
+      "start": "Compro due (quaderni).",
+      "acceptedAnswers": [
+       "ne compro due"
+      ],
+      "modelAnswer": "Ne compro due."
+     },
+     {
+      "id": "s3",
+      "start": "Non parlo mai (di sport).",
+      "acceptedAnswers": [
+       "non ne parlo mai"
+      ],
+      "modelAnswer": "Non ne parlo mai."
+     },
+     {
+      "id": "s4",
+      "start": "Penso sempre (alle vacanze).",
+      "acceptedAnswers": [
+       "ci penso sempre"
+      ],
+      "modelAnswer": "Ci penso sempre."
+     },
+     {
+      "id": "s5",
+      "start": "Ho bisogno (di una pausa).",
+      "acceptedAnswers": [
+       "ne ho bisogno"
+      ],
+      "modelAnswer": "Ne ho bisogno."
+     },
+     {
+      "id": "s6",
+      "start": "Mangio molti (dolci).",
+      "acceptedAnswers": [
+       "ne mangio molti"
+      ],
+      "modelAnswer": "Ne mangio molti."
+     },
+     {
+      "id": "s7",
+      "start": "Non credo (a questa storia).",
+      "acceptedAnswers": [
+       "non ci credo"
+      ],
+      "modelAnswer": "Non ci credo."
+     },
+     {
+      "id": "s8",
+      "start": "Siamo rimasti tre giorni (a Firenze).",
+      "acceptedAnswers": [
+       "ci siamo rimasti tre giorni"
+      ],
+      "modelAnswer": "Ci siamo rimasti tre giorni."
+     },
+     {
+      "id": "s9",
+      "start": "Voglio andare (a Napoli).",
+      "acceptedAnswers": [
+       "voglio andarci",
+       "ci voglio andare"
+      ],
+      "modelAnswer": "Voglio andarci. (Anche: Ci voglio andare.)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-ci-ne-s4",
+  "title": "Ci e ne: tutto insieme",
+  "language": "it",
+  "level": "A2",
+  "description": "Ci e ne · Ci e ne: tutto insieme · livello difficile.",
+  "topics": [
+   "Ci e ne",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+  },
+  "estimatedMinutes": 17,
+  "grammar": {
+   "topic": "ecco2-ci-ne",
+   "topicTitle": "Ci e ne",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+   "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non ci sono mai andato."
+     },
+     {
+      "id": "o2",
+      "text": "Non sono ci mai andato."
+     },
+     {
+      "id": "o3",
+      "text": "Ci non sono mai andato."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Voglio ne comprare due."
+     },
+     {
+      "id": "o2",
+      "text": "Voglio comprarne due."
+     },
+     {
+      "id": "o3",
+      "text": "Voglio comprare ne due."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "«Sì, ce n’è una in piazza.» Qual è la domanda?",
+    "explanation": "",
+    "promptHelp": "«Sì, ce n’è una in piazza.» Wie lautet die Frage?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vai spesso in farmacia?"
+     },
+     {
+      "id": "o2",
+      "text": "Quanto tempo ci vuole per andare in farmacia?"
+     },
+     {
+      "id": "o3",
+      "text": "C’è una farmacia qui vicino?"
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Per fare questa torta ci vogliono …",
+    "explanation": "",
+    "promptHelp": "Wie geht der Satz richtig weiter?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "molta pazienza."
+     },
+     {
+      "id": "o2",
+      "text": "tre uova e un po’ di farina."
+     },
+     {
+      "id": "o3",
+      "text": "un’ora."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "In quale frase «ne» vuol dire «di questo problema»?",
+    "explanation": "",
+    "promptHelp": "In welchem Satz bedeutet «ne» „über dieses Problem“?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ne prendo due, grazie."
+     },
+     {
+      "id": "o2",
+      "text": "Ne ho solo uno."
+     },
+     {
+      "id": "o3",
+      "text": "Ne parliamo domani con la prof."
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q6",
+    "type": "open_answer",
+    "prompt": "Rispondi alle domande con frasi complete. Usa ci e ne: Vai spesso al cinema? Quanti libri leggi in un anno? Pensi spesso al futuro? Quanto tempo ci vuole per andare a scuola?",
+    "explanation": "",
+    "promptHelp": "Beantworte die Fragen in ganzen Sätzen. Verwende ci und ne.",
+    "modelAnswer": "Sì, ci vado una volta al mese. Ne leggo cinque o sei all’anno. Sì, ci penso spesso, soprattutto la sera. Per andare a scuola ci vogliono venti minuti in autobus.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la frase italiana alla traduzione.",
+    "explanation": "",
+    "promptHelp": "Verbinde den italienischen Satz mit der Übersetzung.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Roma è più grande di Firenze.",
+      "right": "Rom ist größer als Florenz."
+     },
+     {
+      "id": "p2",
+      "left": "Il treno è meno caro dell’aereo.",
+      "right": "Der Zug ist weniger teuer als das Flugzeug."
+     },
+     {
+      "id": "p3",
+      "left": "Luca è alto come suo padre.",
+      "right": "Luca ist so groß wie sein Vater."
+     },
+     {
+      "id": "p4",
+      "left": "Questa pizzeria è migliore dell’altra.",
+      "right": "Diese Pizzeria ist besser als die andere."
+     },
+     {
+      "id": "p5",
+      "left": "Oggi sto meglio di ieri.",
+      "right": "Heute geht es mir besser als gestern."
+     },
+     {
+      "id": "p6",
+      "left": "La sorella maggiore di Luca studia a Roma.",
+      "right": "Lucas ältere Schwester studiert in Rom."
+     },
+     {
+      "id": "p7",
+      "left": "Il fratello minore di Sara ha sei anni.",
+      "right": "Saras jüngerer Bruder ist sechs Jahre alt."
+     },
+     {
+      "id": "p8",
+      "left": "Oggi il tempo è peggiore di ieri.",
+      "right": "Heute ist das Wetter schlechter als gestern."
+     },
+     {
+      "id": "p9",
+      "left": "È più facile capire che parlare.",
+      "right": "Verstehen ist leichter als sprechen."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-l2",
+  "title": "Più, meno o uguale?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Più, meno o uguale? · livello facile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Che cosa dice la frase: più (+), meno (–) o uguale (=)?",
+    "explanation": "",
+    "promptHelp": "Was sagt der Satz: mehr (+), weniger (–) oder gleich (=)?",
+    "categories": [
+     {
+      "id": "p",
+      "label": "più (+)"
+     },
+     {
+      "id": "m",
+      "label": "meno (–)"
+     },
+     {
+      "id": "u",
+      "label": "uguale (=)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il Colosseo è più antico della Basilica di San Pietro.",
+      "category": "p"
+     },
+     {
+      "id": "i2",
+      "text": "L’autobus è meno veloce della metro.",
+      "category": "m"
+     },
+     {
+      "id": "i3",
+      "text": "Chiara è alta come Giulia.",
+      "category": "u"
+     },
+     {
+      "id": "i4",
+      "text": "Questo gelato è migliore del gelato di ieri.",
+      "category": "p"
+     },
+     {
+      "id": "i5",
+      "text": "Il museo è meno caro del concerto.",
+      "category": "m"
+     },
+     {
+      "id": "i6",
+      "text": "Davide è simpatico quanto suo fratello.",
+      "category": "u"
+     },
+     {
+      "id": "i7",
+      "text": "Il Po è più lungo del Tevere.",
+      "category": "p"
+     },
+     {
+      "id": "i8",
+      "text": "Oggi fa meno caldo di ieri.",
+      "category": "m"
+     },
+     {
+      "id": "i9",
+      "text": "La pizza è buona come la pasta.",
+      "category": "u"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-l3",
+  "title": "Di o che?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Di o che? · livello facile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "di (+ articolo) prima di un nome o pronome; che tra due aggettivi, due verbi, due quantità e prima di una preposizione.",
+    "promptHelp": "Wähle das richtige Wort.",
+    "explanationHelp": "di (+ Artikel) vor Nomen oder Pronomen; che zwischen zwei Adjektiven, zwei Verben, zwei Mengen und vor einer Präposition.",
+    "text": "Roma è più grande [[g1]] Firenze.\nSara è più alta [[g2]] me.\nIl Colosseo è più antico [[g3]] Basilica di San Pietro.\nA Roma fa più caldo [[g4]] a Monaco.\nÈ più divertente viaggiare [[g5]] stare a casa.\nQuesta strada è più lunga [[g6]] larga.\nIn classe ci sono più ragazze [[g7]] ragazzi.\nL’aereo è più veloce [[g8]] treno.\nMatteo è meno sportivo [[g9]] sua sorella.\nMi piace più leggere [[g10]] guardare la TV.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "di",
+       "che"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "di",
+       "che"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "della",
+       "che la",
+       "di"
+      ],
+      "answer": "della"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "che",
+       "di"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "che",
+       "di"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "che",
+       "di"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "che",
+       "di"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "del",
+       "che",
+       "dello"
+      ],
+      "answer": "del"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "di",
+       "che"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "che",
+       "di"
+      ],
+      "answer": "che"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-m1",
+  "title": "In giro per l’Europa",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · In giro per l’Europa · livello medio.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con di, del, della, dell’, dei, delle o che.",
+    "explanation": "Prima di un nome: di + articolo (del Tevere, della Germania). Prima di una preposizione, tra due verbi, due aggettivi o due quantità: che.",
+    "promptHelp": "Ergänze di, del, della, dell’, dei, delle oder che.",
+    "explanationHelp": "Vor einem Nomen: di + Artikel (del Tevere, della Germania). Vor einer Präposition, zwischen zwei Verben, zwei Adjektiven oder zwei Mengen: che.",
+    "text": "Roma è più grande [[g1]] Milano.\nL’Italia è più piccola [[g2]] Germania.\nIl Po è più lungo [[g3]] Tevere.\nIl Monte Bianco è più alto [[g4]]Etna.\nIn agosto fa più caldo a Roma [[g5]] a Berlino.\nPer Chiara è più interessante visitare una città [[g6]] stare in spiaggia.\nI panini del supermercato sono meno cari [[g7]] panini del bar.\nMia cugina parla inglese meglio [[g8]] me.\nNella nostra classe ci sono più ragazzi [[g9]] ragazze.\nSecondo Luca le pizze di Napoli sono più buone [[g10]] pizze di Roma.\nIl viaggio in pullman è più lungo [[g11]] comodo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "dell’"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dei"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "delle"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "che"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-m2",
+  "title": "Fai il confronto",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Fai il confronto · livello medio.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi una frase con più (+), meno (–) o come (=).",
+    "explanation": "",
+    "promptHelp": "Schreibe einen Satz mit più (+), meno (–) oder come (=).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(il Colosseo / + antico / la Basilica di San Pietro)",
+      "acceptedAnswers": [
+       "Il Colosseo è più antico della Basilica di San Pietro"
+      ],
+      "modelAnswer": "Il Colosseo è più antico della Basilica di San Pietro."
+     },
+     {
+      "id": "s2",
+      "start": "(Sara / – alta / Giulia)",
+      "acceptedAnswers": [
+       "Sara è meno alta di Giulia"
+      ],
+      "modelAnswer": "Sara è meno alta di Giulia."
+     },
+     {
+      "id": "s3",
+      "start": "(il treno / + comodo / l’autobus)",
+      "acceptedAnswers": [
+       "Il treno è più comodo dell’autobus"
+      ],
+      "modelAnswer": "Il treno è più comodo dell’autobus."
+     },
+     {
+      "id": "s4",
+      "start": "(Luca / = simpatico / Matteo)",
+      "acceptedAnswers": [
+       "simpatico come Matteo",
+       "simpatico quanto Matteo"
+      ],
+      "modelAnswer": "Luca è simpatico come Matteo. (Anche: Luca è simpatico quanto Matteo.)"
+     },
+     {
+      "id": "s5",
+      "start": "(le scarpe / + care / i jeans)",
+      "acceptedAnswers": [
+       "Le scarpe sono più care dei jeans"
+      ],
+      "modelAnswer": "Le scarpe sono più care dei jeans."
+     },
+     {
+      "id": "s6",
+      "start": "(la metro / – lenta / il tram)",
+      "acceptedAnswers": [
+       "La metro è meno lenta del tram"
+      ],
+      "modelAnswer": "La metro è meno lenta del tram."
+     },
+     {
+      "id": "s7",
+      "start": "(Roma / + grande / Firenze)",
+      "acceptedAnswers": [
+       "Roma è più grande di Firenze"
+      ],
+      "modelAnswer": "Roma è più grande di Firenze."
+     },
+     {
+      "id": "s8",
+      "start": "(i musei / = interessanti / le chiese)",
+      "acceptedAnswers": [
+       "interessanti come le chiese",
+       "interessanti quanto le chiese"
+      ],
+      "modelAnswer": "I musei sono interessanti come le chiese. (Anche: I musei sono interessanti quanto le chiese.)"
+     },
+     {
+      "id": "s9",
+      "start": "(l’estate a Roma / + calda / l’estate a Monaco)",
+      "acceptedAnswers": [
+       "L’estate a Roma è più calda dell’estate a Monaco"
+      ],
+      "modelAnswer": "L’estate a Roma è più calda dell’estate a Monaco."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-m3",
+  "title": "Costruisci la frase",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Costruisci la frase · livello medio.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „In Rom ist es wärmer als in München.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "A Roma"
+     },
+     {
+      "id": "i2",
+      "text": "fa più caldo"
+     },
+     {
+      "id": "i3",
+      "text": "che"
+     },
+     {
+      "id": "i4",
+      "text": "a Monaco."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Giulia ist so groß wie ihr Bruder.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Giulia"
+     },
+     {
+      "id": "i2",
+      "text": "è alta"
+     },
+     {
+      "id": "i3",
+      "text": "quanto"
+     },
+     {
+      "id": "i4",
+      "text": "suo fratello."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Es ist leichter zu lesen als zu sprechen.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "È più facile"
+     },
+     {
+      "id": "i2",
+      "text": "leggere"
+     },
+     {
+      "id": "i3",
+      "text": "che"
+     },
+     {
+      "id": "i4",
+      "text": "parlare."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Meine Freundin singt besser als ich.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "La mia amica"
+     },
+     {
+      "id": "i2",
+      "text": "canta"
+     },
+     {
+      "id": "i3",
+      "text": "meglio"
+     },
+     {
+      "id": "i4",
+      "text": "di me."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Trova gli errori · livello difficile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "migliore è un aggettivo (un ristorante migliore), meglio è un avverbio (gioca meglio). Il tedesco „als“ non è mai come.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "migliore ist ein Adjektiv (un ristorante migliore), meglio ein Adverb (gioca meglio). Das deutsche „als“ ist nie come.",
+    "text": "Roma è più grande [[g1]] Firenze.\nQuesto ristorante è [[g2]] dell’altro.\nMarco gioca a calcio [[g3]] di me.\nA Milano fa più freddo [[g4]] a Roma.\nIl Colosseo è più antico [[g5]] Basilica di San Pietro.\nSara è alta [[g6]] sua madre.\nÈ più bello viaggiare [[g7]] restare a casa.\nOggi sto [[g8]] di ieri.\nLuca è più alto [[g9]] Davide.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "più migliore",
+      "acceptedAnswers": [
+       "migliore",
+       "più buono"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "migliore",
+      "acceptedAnswers": [
+       "meglio"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "come",
+       "quanto"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "più bene",
+      "acceptedAnswers": [
+       "meglio"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "come",
+      "acceptedAnswers": [
+       "di"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-s2",
+  "title": "In cucina con i fratelli",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · In cucina con i fratelli · livello difficile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con migliore, migliori, peggiore, meglio, peggio, maggiore o minore.",
+    "explanation": "Aggettivi (con un nome): migliore, peggiore, maggiore, minore. Avverbi (con un verbo): meglio, peggio.",
+    "promptHelp": "Ergänze migliore, migliori, peggiore, meglio, peggio, maggiore oder minore.",
+    "explanationHelp": "Adjektive (beim Nomen): migliore, peggiore, maggiore, minore. Adverbien (beim Verb): meglio, peggio.",
+    "text": "Ho due fratelli: Paolo ha vent’anni ed è il fratello [[g1]]; Tommaso ha otto anni ed è il fratello [[g2]].\nPaolo cucina bene, ma la mamma cucina [[g3]] di lui.\nLe lasagne della mamma sono [[g4]] delle lasagne del ristorante!\nIo invece cucino male, e Tommaso cucina ancora [[g5]] di me.\nIeri ho fatto una pizza cattiva, ma la pizza di Tommaso era ancora [[g6]].\nPer fortuna la nonna ha avuto un’idea [[g7]]: ordinare la cena in pizzeria.\nCosì abbiamo mangiato molto [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "maggiore"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "minore"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "meglio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "migliori"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "peggio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "peggiore"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "migliore"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "meglio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-comparativo-s3",
+  "title": "Dillo in un altro modo",
+  "language": "it",
+  "level": "A2",
+  "description": "Il comparativo · Dillo in un altro modo · livello difficile.",
+  "topics": [
+   "Il comparativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-comparativo",
+   "topicTitle": "Il comparativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+   "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Completa la seconda frase: il significato non cambia.",
+    "explanation": "",
+    "promptHelp": "Ergänze den zweiten Satz: Die Bedeutung bleibt gleich.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Luca è più alto di Marco. → Marco è …",
+      "acceptedAnswers": [
+       "meno alto di Luca",
+       "più basso di Luca"
+      ],
+      "modelAnswer": "Marco è meno alto di Luca. (Anche: Marco è più basso di Luca.)"
+     },
+     {
+      "id": "s2",
+      "start": "Il treno è più caro dell’autobus. → L’autobus è …",
+      "acceptedAnswers": [
+       "meno caro del treno",
+       "più economico del treno"
+      ],
+      "modelAnswer": "L’autobus è meno caro del treno. (Anche: più economico del treno.)"
+     },
+     {
+      "id": "s3",
+      "start": "Sara canta meglio di me. → Io canto …",
+      "acceptedAnswers": [
+       "peggio di Sara"
+      ],
+      "modelAnswer": "Io canto peggio di Sara."
+     },
+     {
+      "id": "s4",
+      "start": "Il primo film è migliore del secondo. → Il secondo film è …",
+      "acceptedAnswers": [
+       "peggiore del primo",
+       "meno buono del primo"
+      ],
+      "modelAnswer": "Il secondo film è peggiore del primo. (Anche: meno buono del primo.)"
+     },
+     {
+      "id": "s5",
+      "start": "Giulia è alta 1,65 m e anche Chiara è alta 1,65 m. → Giulia è …",
+      "acceptedAnswers": [
+       "alta come Chiara",
+       "alta quanto Chiara"
+      ],
+      "modelAnswer": "Giulia è alta come Chiara. (Anche: alta quanto Chiara.)"
+     },
+     {
+      "id": "s6",
+      "start": "Mi piace leggere, ma mi piace di più viaggiare. → Mi piace più viaggiare …",
+      "acceptedAnswers": [
+       "che leggere"
+      ],
+      "modelAnswer": "Mi piace più viaggiare che leggere."
+     },
+     {
+      "id": "s7",
+      "start": "A Roma ci sono 30 gradi, a Monaco 22. → A Roma fa più caldo …",
+      "acceptedAnswers": [
+       "che a Monaco"
+      ],
+      "modelAnswer": "A Roma fa più caldo che a Monaco."
+     },
+     {
+      "id": "s8",
+      "start": "Paolo ha 20 anni, Tommaso ha 8 anni. → Paolo è …",
+      "acceptedAnswers": [
+       "maggiore di Tommaso",
+       "più grande di Tommaso",
+       "più vecchio di Tommaso"
+      ],
+      "modelAnswer": "Paolo è maggiore di Tommaso. (Anche: più grande di Tommaso, più vecchio di Tommaso.)"
+     },
+     {
+      "id": "s9",
+      "start": "In classe ci sono 15 ragazze e 10 ragazzi. → Ci sono più ragazze …",
+      "acceptedAnswers": [
+       "che ragazzi"
+      ],
+      "modelAnswer": "Ci sono più ragazze che ragazzi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco2-condizionale-ripasso-l1",
   "title": "Le forme irregolari",
   "language": "it",
@@ -173232,6 +176002,2373 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco2-cui-l1",
+  "title": "Che o cui?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Che o cui? · livello facile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli: che o cui?",
+    "explanation": "Dopo una preposizione (di, a, con, in, da, su, per) → **cui**. Senza preposizione → **che**.",
+    "promptHelp": "Wähle: che oder cui?",
+    "explanationHelp": "Nach einer Präposition (di, a, con, in, da, su, per) → **cui**. Ohne Präposition → **che**.",
+    "text": "Questo è il telefono [[g1]] usava mia nonna.\nLa città in [[g2]] sono nati i miei nonni è molto piccola.\nIl ragazzo con [[g3]] gioco a tennis si chiama Davide.\nHo trovato le foto [[g4]] cercavi.\nIl film di [[g5]] parlano tutti è molto vecchio.\nL’amica a [[g6]] scrivo ogni giorno abita a Torino.\nLa signora [[g7]] abita qui accanto ha novant’anni.\nQuesto è il motivo per [[g8]] non ho un profilo social.\nIl paese da [[g9]] viene mio nonno è in Sicilia.\nLa sedia su [[g10]] sei seduto era della bisnonna.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "che",
+       "cui"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "che",
+       "cui"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "che",
+       "cui"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "cui",
+       "che"
+      ],
+      "answer": "cui"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-l2",
+  "title": "Dalla frase al pronome",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Dalla frase al pronome · livello facile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la frase all’espressione con che o cui.",
+    "explanation": "",
+    "promptHelp": "Verbinde den Satz mit dem passenden Ausdruck mit che oder cui.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Parlo di questo libro.",
+      "right": "il libro di cui parlo"
+     },
+     {
+      "id": "p2",
+      "left": "Leggo questo libro.",
+      "right": "il libro che leggo"
+     },
+     {
+      "id": "p3",
+      "left": "Scrivo a questa amica.",
+      "right": "l’amica a cui scrivo"
+     },
+     {
+      "id": "p4",
+      "left": "Conosco questa amica.",
+      "right": "l’amica che conosco"
+     },
+     {
+      "id": "p5",
+      "left": "Esco con questi ragazzi.",
+      "right": "i ragazzi con cui esco"
+     },
+     {
+      "id": "p6",
+      "left": "Abito in questa casa.",
+      "right": "la casa in cui abito"
+     },
+     {
+      "id": "p7",
+      "left": "Vengo da questo paese.",
+      "right": "il paese da cui vengo"
+     },
+     {
+      "id": "p8",
+      "left": "Conto su questo amico.",
+      "right": "l’amico su cui conto"
+     },
+     {
+      "id": "p9",
+      "left": "Studio per questo esame.",
+      "right": "l’esame per cui studio"
+     }
+    ],
+    "distractors": [
+     "il libro cui leggo",
+     "l’amica di che scrivo"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-l3",
+  "title": "I ricordi del nonno",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · I ricordi del nonno · livello facile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con le parole giuste. Ogni parola va bene una sola volta.",
+    "explanation": "nascere **in**, giocare **con**, orgoglioso **di**, venire **da**, scrivere **a**, preparare **su**, il motivo **per** cui.",
+    "promptHelp": "Ergänze die passenden Wörter. Jedes passt nur einmal.",
+    "explanationHelp": "Die Präposition hängt vom Verb oder Ausdruck ab: nascere in, giocare con, orgoglioso di, venire da, scrivere a …",
+    "text": "Il nonno mi mostra la casa [[g1]] è nato.\nQuesti sono gli amici [[g2]] giocava in cortile.\nLa nonna ha una vecchia radio [[g3]] è molto orgogliosa.\nIl paese [[g4]] vengono i miei nonni ha solo mille abitanti.\nLa persona [[g5]] il nonno scriveva molte lettere era la nonna.\nEcco il tavolo [[g6]] la nonna preparava la pasta.\nNon c’era Internet: ecco il motivo [[g7]] i ragazzi stavano sempre fuori.\nMi piacciono molto le storie [[g8]] racconta il nonno.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "in cui"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "con cui"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "da cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "su cui"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "per cui"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "che"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "chi"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-m1",
+  "title": "Amici e tecnologia",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Amici e tecnologia · livello medio.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con la preposizione giusta + cui (di cui, a cui, con cui, in cui, da cui, su cui, per cui).",
+    "explanation": "fare i compiti **con**, parlare **di**, mandare **a**, avere bisogno **di**, scrivere **a**, venire **da**, contare **su**; il motivo **per** cui, il modo **in** cui.",
+    "promptHelp": "Ergänze die passende Präposition + cui.",
+    "explanationHelp": "Entscheidend ist die Präposition des Verbs: parlare di, mandare a, avere bisogno di, venire da, contare su …",
+    "text": "L’amica [[g1]] faccio i compiti online si chiama Sara.\nIl sito [[g2]] ti ho parlato ieri è molto utile.\nIl gruppo [[g3]] ho mandato le foto è quello della classe.\nL’app [[g4]] ho bisogno per la scuola è gratis.\nGli anni [[g5]] non c’erano i cellulari sembrano lontanissimi.\nIl prof [[g6]] ho scritto una mail risponde sempre subito.\nLa città [[g7]] viene il mio amico di chat è Palermo.\nUn amico vero è una persona [[g8]] puoi sempre contare.\nÈ questo il motivo [[g9]] spengo il telefono di notte.\nIl modo [[g10]] comunichiamo è cambiato molto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "con cui"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "a cui",
+       "in cui"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "in cui"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "da cui"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "su cui"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "per cui"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "in cui",
+       "con cui"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-m2",
+  "title": "Una frase sola",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Una frase sola · livello medio.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci le due frasi con preposizione + cui.",
+    "explanation": "",
+    "promptHelp": "Verbinde die beiden Sätze mit Präposition + cui.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho un’amica. Esco spesso con lei. → Ho un’amica …",
+      "acceptedAnswers": [
+       "con cui esco spesso",
+       "con cui spesso esco"
+      ],
+      "modelAnswer": "Ho un’amica con cui esco spesso."
+     },
+     {
+      "id": "s2",
+      "start": "Questo è il film. Ti ho parlato del film. → Questo è il film …",
+      "acceptedAnswers": [
+       "di cui ti ho parlato"
+      ],
+      "modelAnswer": "Questo è il film di cui ti ho parlato."
+     },
+     {
+      "id": "s3",
+      "start": "Ecco la casa. In questa casa abitavano i nonni. → Ecco la casa …",
+      "acceptedAnswers": [
+       "in cui abitavano i nonni",
+       "in cui i nonni abitavano"
+      ],
+      "modelAnswer": "Ecco la casa in cui abitavano i nonni. (Anche: … in cui i nonni abitavano.)"
+     },
+     {
+      "id": "s4",
+      "start": "Lui è il ragazzo. Ho prestato il libro a lui. → Lui è il ragazzo …",
+      "acceptedAnswers": [
+       "a cui ho prestato il libro"
+      ],
+      "modelAnswer": "Lui è il ragazzo a cui ho prestato il libro."
+     },
+     {
+      "id": "s5",
+      "start": "Conosci la città? Giulia viene da questa città. → Conosci la città …",
+      "acceptedAnswers": [
+       "da cui viene Giulia",
+       "da cui Giulia viene"
+      ],
+      "modelAnswer": "Conosci la città da cui viene Giulia? (Anche: … da cui Giulia viene?)"
+     },
+     {
+      "id": "s6",
+      "start": "Marco è un amico. Posso contare su di lui. → Marco è un amico …",
+      "acceptedAnswers": [
+       "su cui posso contare"
+      ],
+      "modelAnswer": "Marco è un amico su cui posso contare."
+     },
+     {
+      "id": "s7",
+      "start": "Questa è la ragione. Per questa ragione sono qui. → Questa è la ragione …",
+      "acceptedAnswers": [
+       "per cui sono qui"
+      ],
+      "modelAnswer": "Questa è la ragione per cui sono qui."
+     },
+     {
+      "id": "s8",
+      "start": "Dov’è la penna? Scrivevo con la penna. → Dov’è la penna …",
+      "acceptedAnswers": [
+       "con cui scrivevo"
+      ],
+      "modelAnswer": "Dov’è la penna con cui scrivevo?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-m3",
+  "title": "Metti in ordine",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Metti in ordine · livello medio.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Questa è la ragazza"
+     },
+     {
+      "id": "i2",
+      "text": "con cui"
+     },
+     {
+      "id": "i3",
+      "text": "vado a scuola"
+     },
+     {
+      "id": "i4",
+      "text": "ogni mattina."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il motivo"
+     },
+     {
+      "id": "i2",
+      "text": "per cui"
+     },
+     {
+      "id": "i3",
+      "text": "non ho risposto"
+     },
+     {
+      "id": "i4",
+      "text": "è semplice."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ricordo bene"
+     },
+     {
+      "id": "i2",
+      "text": "il giorno"
+     },
+     {
+      "id": "i3",
+      "text": "in cui"
+     },
+     {
+      "id": "i4",
+      "text": "ho ricevuto"
+     },
+     {
+      "id": "i5",
+      "text": "il mio primo telefono."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "La preposizione sta sempre **prima** di cui: con cui, per cui, in cui.",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "explanationHelp": "Die Präposition steht immer **vor** cui: con cui, per cui, in cui.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non mi piace"
+     },
+     {
+      "id": "i2",
+      "text": "il modo"
+     },
+     {
+      "id": "i3",
+      "text": "in cui"
+     },
+     {
+      "id": "i4",
+      "text": "parli"
+     },
+     {
+      "id": "i5",
+      "text": "con tua sorella."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-s1",
+  "title": "Caccia all’errore",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Caccia all’errore · livello difficile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore con che o cui. Correggi.",
+    "explanation": "parlare **di**, abitare **in**, scrivere **a**, andare **con**, telefonare **a**: la preposizione del verbo resta e sta prima di **cui**. Senza preposizione: **che**.",
+    "promptHelp": "In jedem Satz steckt ein Fehler bei che oder cui. Korrigiere.",
+    "explanationHelp": "Die Präposition des Verbs bleibt erhalten und steht vor **cui**. Ohne Präposition: **che**.",
+    "text": "La ragazza con [[g1]] esco si chiama Chiara.\nIl libro [[g2]] ti ho parlato è in biblioteca.\nLa città [[g3]] abito è piccola.\nQuesto è il motivo [[g4]] sono in ritardo.\nL’amico [[g5]] ho scritto non risponde.\nIl film [[g6]] abbiamo visto ieri era noioso.\nGli amici [[g7]] vado in vacanza sono simpatici.\nLa persona [[g8]] telefono più spesso è mia nonna.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "cui"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "in cui",
+       "dove"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "per cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "a che",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "cui",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "di cui",
+      "acceptedAnswers": [
+       "con cui"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "di cui",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-s2",
+  "title": "La lettera della nonna",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · La lettera della nonna · livello difficile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la lettera con che o con preposizione + cui.",
+    "explanation": "che = soggetto o oggetto diretto (la foto che mi piace, gli amici che venivano). Con una preposizione: cui.",
+    "promptHelp": "Ergänze den Brief mit che oder mit Präposition + cui.",
+    "explanationHelp": "che = Subjekt oder direktes Objekt. Mit Präposition: cui.",
+    "text": "Cara Giulia, ieri ho trovato una scatola [[g1]] c’erano molte vecchie foto.\nC’è una foto [[g2]] mi piace molto: è del giorno [[g3]] ho conosciuto il nonno.\nLui era il ragazzo [[g4]] tutte le mie amiche volevano ballare.\nIo invece ero la ragazza [[g5]] lui scriveva lettere lunghissime.\nIl paese [[g6]] veniva la sua famiglia era molto lontano.\nGli amici [[g7]] venivano a trovarci la domenica portavano sempre un dolce.\nNon avevamo la macchina: è il motivo [[g8]] andavamo dappertutto a piedi.\nSono ricordi [[g9]] parlo sempre volentieri.\nE tu, cara Giulia, sei la nipote [[g10]] posso sempre contare!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "in cui",
+       "dove"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "in cui"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "con cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "a cui"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "da cui"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "per cui"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "di cui"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "su cui"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-cui-s3",
+  "title": "Qual è la frase giusta?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il pronome relativo cui · Qual è la frase giusta? · livello difficile.",
+  "topics": [
+   "Il pronome relativo cui",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+  },
+  "estimatedMinutes": 17,
+  "grammar": {
+   "topic": "ecco2-cui",
+   "topicTitle": "Il pronome relativo cui",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ecco il ragazzo di cui ti ho parlato."
+     },
+     {
+      "id": "o2",
+      "text": "Ecco il ragazzo che ti ho parlato."
+     },
+     {
+      "id": "o3",
+      "text": "Ecco il ragazzo di che ti ho parlato."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Il giorno in che siamo partiti pioveva."
+     },
+     {
+      "id": "o2",
+      "text": "Il giorno in cui siamo partiti pioveva."
+     },
+     {
+      "id": "o3",
+      "text": "Il giorno cui siamo partiti pioveva."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Il telefono cui ho comprato è nuovo."
+     },
+     {
+      "id": "o2",
+      "text": "Il telefono di cui ho comprato è nuovo."
+     },
+     {
+      "id": "o3",
+      "text": "Il telefono che ho comprato è nuovo."
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non capisco il modo in che parla."
+     },
+     {
+      "id": "o2",
+      "text": "Non capisco il modo in cui parla."
+     },
+     {
+      "id": "o3",
+      "text": "Non capisco il modo cui parla."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "andare **da** una persona → i cugini **da cui** vado.",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "explanationHelp": "andare **da** (zu jemandem gehen/fahren) → i cugini **da cui** vado.",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Sono i cugini da cui vado ogni estate."
+     },
+     {
+      "id": "o2",
+      "text": "Sono i cugini a cui vado ogni estate."
+     },
+     {
+      "id": "o3",
+      "text": "Sono i cugini che vado ogni estate."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q6",
+    "type": "open_answer",
+    "prompt": "Scrivi quattro frasi su persone, luoghi e cose della tua vita. Usa: con cui, di cui, in cui, a cui.",
+    "explanation": "",
+    "promptHelp": "Schreibe vier Sätze über Personen, Orte und Dinge aus deinem Leben. Verwende: con cui, di cui, in cui, a cui.",
+    "modelAnswer": "Sara è l’amica con cui vado a scuola ogni giorno. Il calcio è lo sport di cui parlo sempre con mio fratello. La città in cui abito non è molto grande. Mia nonna è la persona a cui telefono ogni domenica.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-l1",
+  "title": "Cifre e parole",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Cifre e parole · livello facile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’anno alla parola.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Jahreszahl mit dem Zahlwort.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "1492",
+      "right": "millequattrocentonovantadue"
+     },
+     {
+      "id": "p2",
+      "left": "1861",
+      "right": "milleottocentosessantuno"
+     },
+     {
+      "id": "p3",
+      "left": "1946",
+      "right": "millenovecentoquarantasei"
+     },
+     {
+      "id": "p4",
+      "left": "1957",
+      "right": "millenovecentocinquantasette"
+     },
+     {
+      "id": "p5",
+      "left": "1989",
+      "right": "millenovecentottantanove"
+     },
+     {
+      "id": "p6",
+      "left": "2002",
+      "right": "duemiladue"
+     },
+     {
+      "id": "p7",
+      "left": "753",
+      "right": "settecentocinquantatré"
+     },
+     {
+      "id": "p8",
+      "left": "476",
+      "right": "quattrocentosettantasei"
+     },
+     {
+      "id": "p9",
+      "left": "2020",
+      "right": "duemilaventi"
+     },
+     {
+      "id": "p10",
+      "left": "1999",
+      "right": "millenovecentonovantanove"
+     }
+    ],
+    "distractors": [
+     "duemilledue",
+     "millequattrocentoventinove"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-l2",
+  "title": "Quando?",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Quando? · livello facile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "nel + anno (nell’80); il + giorno e mese; dal … al …; … anni fa.",
+    "promptHelp": "Wähle das richtige Wort.",
+    "explanationHelp": "nel + Jahr (nell’80); il + Tag und Monat; dal … al …; … anni fa (vor … Jahren).",
+    "text": "Colombo è arrivato in America [[g1]] 1492.\nL’Italia è un Paese unito [[g2]] 1861.\n[[g3]] 2 giugno 1946 gli italiani hanno scelto la repubblica.\nLa seconda guerra mondiale è durata dal 1939 [[g4]] 1945.\nI Romani hanno inaugurato il Colosseo [[g5]] d.C.\nIl Muro di Berlino è caduto [[g6]] 1989.\nColombo è arrivato in America più di cinquecento anni [[g7]].\nIl 1957 è un anno [[g8]] Novecento.\n[[g9]] 2002 in Italia si paga con l’euro.\nIl Quattrocento è il [[g10]] secolo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "nel",
+       "in",
+       "a"
+      ],
+      "answer": "nel"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "dal",
+       "da",
+       "al"
+      ],
+      "answer": "dal"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Il",
+       "Nel",
+       "Al"
+      ],
+      "answer": "Il"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "al",
+       "a",
+       "nel"
+      ],
+      "answer": "al"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "nell’80",
+       "nel 80",
+       "in 80"
+      ],
+      "answer": "nell’80"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "nel",
+       "il",
+       "al"
+      ],
+      "answer": "nel"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "fa",
+       "da",
+       "scorsi"
+      ],
+      "answer": "fa"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "del",
+       "dell’",
+       "nel"
+      ],
+      "answer": "del"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Dal",
+       "Da",
+       "Al"
+      ],
+      "answer": "Dal"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "quindicesimo",
+       "quattordicesimo",
+       "quarto"
+      ],
+      "answer": "quindicesimo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-l3",
+  "title": "In che secolo?",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · In che secolo? · livello facile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Leggi gli anni: in che secolo sono?",
+    "explanation": "",
+    "promptHelp": "Lies die Jahreszahlen: In welchem Jahrhundert liegen sie?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "il Quattrocento (XV secolo)"
+     },
+     {
+      "id": "b",
+      "label": "l’Ottocento (XIX secolo)"
+     },
+     {
+      "id": "c",
+      "label": "il Novecento (XX secolo)"
+     },
+     {
+      "id": "d",
+      "label": "il XXI secolo"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "millequattrocentonovantadue",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "millequattrocentocinquanta",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "milleottocentosessantuno",
+      "category": "b"
+     },
+     {
+      "id": "i4",
+      "text": "milleottocentoquindici",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "milleottocentosettanta",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "millenovecentoquarantasei",
+      "category": "c"
+     },
+     {
+      "id": "i7",
+      "text": "millenovecentocinquantasette",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "millenovecentottantanove",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "duemiladue",
+      "category": "d"
+     },
+     {
+      "id": "i10",
+      "text": "duemilaventi",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-m1",
+  "title": "Una linea del tempo",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Una linea del tempo · livello medio.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi gli anni in lettere.",
+    "explanation": "Una sola parola: mille + novecento + ottantanove. I numeri con tre alla fine hanno l’accento: cinquantatré.",
+    "promptHelp": "Schreibe die Jahreszahlen in Buchstaben.",
+    "explanationHelp": "Ein Wort: mille + novecento + ottantanove. Zahlen, die auf drei enden, haben einen Akzent: cinquantatré.",
+    "text": "Secondo la leggenda, Romolo ha fondato Roma nel 753 a.C.: nel [[g1]] avanti Cristo.\nL’Impero romano d’Occidente è finito nel 476 d.C.: nel [[g2]] dopo Cristo.\nColombo è arrivato in America nel 1492: nel [[g3]].\nL’Italia è diventata un Paese unito nel 1861: nel [[g4]].\nGli italiani hanno scelto la repubblica nel 1946: nel [[g5]].\nSei Paesi europei hanno firmato i Trattati di Roma nel 1957: nel [[g6]].\nIl Muro di Berlino è caduto nel 1989: nel [[g7]].\nL’euro è arrivato nelle tasche degli italiani nel 2002: nel [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "settecentocinquantatré"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "quattrocentosettantasei"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "millequattrocentonovantadue"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "milleottocentosessantuno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "millenovecentoquarantasei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "millenovecentocinquantasette"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "millenovecentottantanove",
+       "millenovecentoottantanove"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "duemiladue"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-m2",
+  "title": "I secoli",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · I secoli · livello medio.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa la tabella: scrivi il numero in cifre e l’altro nome del secolo.",
+    "explanation": "Il Duecento sono gli anni «milleduecento…»: è il tredicesimo secolo. Il nome in -cento ha sempre un numero in meno: Duecento (2) → XIII (13).",
+    "promptHelp": "Ergänze die Tabelle: Schreibe die Zahl in Ziffern und den anderen Namen des Jahrhunderts.",
+    "explanationHelp": "Il Duecento sind die Jahre „zwölfhundert…“: das 13. Jahrhundert. Der Name auf -cento ist immer um eins kleiner: Duecento (2) → XIII (13).",
+    "columns": [
+     "numero romano",
+     "in cifre",
+     "il secolo",
+     "un altro nome"
+    ],
+    "rows": [
+     [
+      "XIII",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "13"
+       ]
+      },
+      "il tredicesimo secolo",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "il Duecento",
+        "Duecento"
+       ]
+      }
+     ],
+     [
+      "XIV",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "14"
+       ]
+      },
+      "il quattordicesimo secolo",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "il Trecento",
+        "Trecento"
+       ]
+      }
+     ],
+     [
+      "XVI",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "16"
+       ]
+      },
+      "il sedicesimo secolo",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "il Cinquecento",
+        "Cinquecento"
+       ]
+      }
+     ],
+     [
+      "XVIII",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "18"
+       ]
+      },
+      "il diciottesimo secolo",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "il Settecento",
+        "Settecento"
+       ]
+      }
+     ],
+     [
+      "XIX",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "19"
+       ]
+      },
+      "il diciannovesimo secolo",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "l’Ottocento",
+        "Ottocento"
+       ]
+      }
+     ],
+     [
+      "XX",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "20"
+       ]
+      },
+      "il ventesimo secolo",
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "il Novecento",
+        "Novecento"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-m3",
+  "title": "Domande di storia",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Domande di storia · livello medio.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con una frase intera. Usa l’informazione tra parentesi.",
+    "explanation": "",
+    "promptHelp": "Antworte mit einem ganzen Satz. Verwende die Angabe in Klammern.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Quando è arrivato Colombo in America? (1492)",
+      "acceptedAnswers": [
+       "nel 1492"
+      ],
+      "modelAnswer": "Colombo è arrivato in America nel 1492."
+     },
+     {
+      "id": "s2",
+      "start": "Quando è caduto il Muro di Berlino? (1989)",
+      "acceptedAnswers": [
+       "nel 1989"
+      ],
+      "modelAnswer": "Il Muro di Berlino è caduto nel 1989."
+     },
+     {
+      "id": "s3",
+      "start": "Quando hanno scelto la repubblica gli italiani? (2 giugno 1946)",
+      "acceptedAnswers": [
+       "il 2 giugno 1946"
+      ],
+      "modelAnswer": "Gli italiani hanno scelto la repubblica il 2 giugno 1946."
+     },
+     {
+      "id": "s4",
+      "start": "Da quando a quando è durata la seconda guerra mondiale? (1939 → 1945)",
+      "acceptedAnswers": [
+       "dal 1939 al 1945"
+      ],
+      "modelAnswer": "La seconda guerra mondiale è durata dal 1939 al 1945."
+     },
+     {
+      "id": "s5",
+      "start": "Quando hanno inaugurato il Colosseo i Romani? (80 d.C.)",
+      "acceptedAnswers": [
+       "nell’80"
+      ],
+      "modelAnswer": "I Romani hanno inaugurato il Colosseo nell’80 d.C."
+     },
+     {
+      "id": "s6",
+      "start": "Da quando si paga con l’euro in Italia? (2002 → oggi)",
+      "acceptedAnswers": [
+       "dal 2002"
+      ],
+      "modelAnswer": "In Italia si paga con l’euro dal 2002."
+     },
+     {
+      "id": "s7",
+      "start": "Quando hanno firmato i Trattati di Roma? (1957)",
+      "acceptedAnswers": [
+       "nel 1957"
+      ],
+      "modelAnswer": "Hanno firmato i Trattati di Roma nel 1957."
+     },
+     {
+      "id": "s8",
+      "start": "Quando è nato il nonno di Sara? (1950)",
+      "acceptedAnswers": [
+       "nel 1950"
+      ],
+      "modelAnswer": "Il nonno di Sara è nato nel 1950."
+     },
+     {
+      "id": "s9",
+      "start": "Da quando a quando ha abitato a Roma la nonna di Luca? (1975 → 1990)",
+      "acceptedAnswers": [
+       "dal 1975 al 1990"
+      ],
+      "modelAnswer": "La nonna di Luca ha abitato a Roma dal 1975 al 1990."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Trova gli errori · livello difficile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "nel + anno, nell’ davanti a vocale (nell’80, nell’Ottocento); il + data; fa sta dopo «anni»; 1989 = Novecento = ventesimo secolo.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "nel + Jahr, nell’ vor Vokal (nell’80, nell’Ottocento); il + Datum; fa steht nach „anni“; 1989 = Novecento = 20. Jahrhundert.",
+    "text": "Colombo è arrivato in America [[g1]] 1492.\n[[g2]] 2 giugno 1946 gli italiani hanno scelto la repubblica.\nLa seconda guerra mondiale è durata dal 1939 [[g3]] 1945.\nI Romani hanno inaugurato il Colosseo [[g4]] d.C.\nColombo è arrivato in America [[g5]].\nIl 1989 è un anno del [[g6]] secolo.\nL’euro è arrivato nel [[g7]].\n[[g8]] l’Italia è diventata un Paese unito.\nIn Italia la festa del lavoro è [[g9]] maggio.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "in",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Al",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "a",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "nel 80",
+      "acceptedAnswers": [
+       "nell’80"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "fa più di cinquecento anni",
+      "acceptedAnswers": [
+       "più di cinquecento anni fa"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "diciannovesimo",
+      "acceptedAnswers": [
+       "ventesimo"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "duemilledue",
+      "acceptedAnswers": [
+       "duemiladue"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Nel Ottocento",
+      "acceptedAnswers": [
+       "Nell’Ottocento"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "il uno",
+      "acceptedAnswers": [
+       "il primo",
+       "il 1º",
+       "il 1°"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-s2",
+  "title": "Dalla leggenda a oggi",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · Dalla leggenda a oggi · livello difficile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Leggi gli anni e metti gli eventi in ordine cronologico, dal più antico al più recente.",
+    "explanation": "Gli anni a.C. vengono prima degli anni d.C.",
+    "promptHelp": "Lies die Jahreszahlen und bringe die Ereignisse in die zeitliche Reihenfolge, vom ältesten zum jüngsten.",
+    "explanationHelp": "Die Jahre v. Chr. liegen vor den Jahren n. Chr.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "settecentocinquantatré a.C.: secondo la leggenda, Romolo fonda Roma"
+     },
+     {
+      "id": "i2",
+      "text": "ottanta d.C.: i Romani inaugurano il Colosseo"
+     },
+     {
+      "id": "i3",
+      "text": "quattrocentosettantasei d.C.: finisce l’Impero romano d’Occidente"
+     },
+     {
+      "id": "i4",
+      "text": "millequattrocentonovantadue: Colombo arriva in America"
+     },
+     {
+      "id": "i5",
+      "text": "milleottocentosessantuno: l’Italia diventa un Paese unito"
+     },
+     {
+      "id": "i6",
+      "text": "millenovecentoquarantasei: gli italiani scelgono la repubblica"
+     },
+     {
+      "id": "i7",
+      "text": "millenovecentocinquantasette: sei Paesi europei firmano i Trattati di Roma"
+     },
+     {
+      "id": "i8",
+      "text": "millenovecentottantanove: cade il Muro di Berlino"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-date-storiche-s3",
+  "title": "La guida racconta",
+  "language": "it",
+  "level": "A2",
+  "description": "Date e anni nella storia · La guida racconta · livello difficile.",
+  "topics": [
+   "Date e anni nella storia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-date-storiche",
+   "topicTitle": "Date e anni nella storia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+   "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il racconto della guida con una parola per ogni spazio (nel, nell’, dal, al, il, fa, secolo, …).",
+    "explanation": "",
+    "promptHelp": "Ergänze die Erzählung der Stadtführerin mit einem Wort pro Lücke (nel, nell’, dal, al, il, fa, secolo, …).",
+    "text": "«Benvenuti a Roma! Secondo la leggenda, la città è nata [[g1]] 753 a.C., cioè più di 2700 anni [[g2]].\nIl Colosseo è del primo [[g3]] dopo Cristo: i Romani lo inaugurano [[g4]]80 d.C.\nFacciamo un salto di molti secoli: [[g5]] 1939 [[g6]] 1945 c’è la seconda guerra mondiale.\nPoi, [[g7]] 2 giugno 1946, gli italiani scelgono la repubblica.\n[[g8]] 1957, proprio qui a Roma, sei Paesi europei firmano i Trattati di Roma.\nE oggi? Oggi siamo nel [[g9]] secolo, ma a Roma la storia è dappertutto!»",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "secolo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "nell’"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Nel"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ventunesimo",
+       "XXI"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco2-discorso-indiretto-presente-l1",
   "title": "Diretto e indiretto",
   "language": "it",
@@ -174487,6 +179624,555 @@ const STOCK_PACKAGES = [
     "promptHelp": "Ein italienischer Freund schreibt dir. Erzähle deinen Eltern in 5 Sätzen, was er sagt und was er fragt.",
     "modelAnswer": "Marco chiede come sto. Dice che ha trovato un tirocinio in una pizzeria. Dice che il lavoro gli piace. Chiede se vengo a trovarlo in estate. Dice di scrivergli presto.",
     "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-futuro-l1",
+  "title": "Infinito e futuro",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Infinito e futuro · livello facile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+   "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’infinito alla forma del futuro (io).",
+    "explanation": "",
+    "promptHelp": "Verbinde den Infinitiv mit der Futurform (io).",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "essere",
+      "right": "sarò"
+     },
+     {
+      "id": "p2",
+      "left": "avere",
+      "right": "avrò"
+     },
+     {
+      "id": "p3",
+      "left": "andare",
+      "right": "andrò"
+     },
+     {
+      "id": "p4",
+      "left": "fare",
+      "right": "farò"
+     },
+     {
+      "id": "p5",
+      "left": "venire",
+      "right": "verrò"
+     },
+     {
+      "id": "p6",
+      "left": "volere",
+      "right": "vorrò"
+     },
+     {
+      "id": "p7",
+      "left": "potere",
+      "right": "potrò"
+     },
+     {
+      "id": "p8",
+      "left": "dovere",
+      "right": "dovrò"
+     },
+     {
+      "id": "p9",
+      "left": "vedere",
+      "right": "vedrò"
+     },
+     {
+      "id": "p10",
+      "left": "bere",
+      "right": "berrò"
+     }
+    ],
+    "distractors": [
+     "venirò",
+     "anderò"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-futuro-l2",
+  "title": "Fra dieci anni",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Fra dieci anni · livello facile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+   "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta del futuro.",
+    "explanation": "-are → -**er**ò (abiterò, arriverò). pagare → pa**gh**erò, cercare → cer**ch**erò, mangiare → man**ge**rò. Irregolari: farò, verrò, potrò, sarò.",
+    "promptHelp": "Wähle die richtige Futurform.",
+    "explanationHelp": "-are → -**er**ò. pagare → pagherò, cercare → cercherò, mangiare → mangerò. Unregelmäßig: farò, verrò, potrò, sarò.",
+    "text": "Domani io [[g1]] per Roma.\nFra dieci anni noi [[g2]] in un’altra città.\nTu che cosa [[g3]] dopo la scuola?\nI miei nonni [[g4]] a trovarci a Natale.\nSara [[g5]] tutto con il telefono.\nVoi [[g6]] studiare da casa.\nIo [[g7]] un lavoro all’estero.\nIl treno [[g8]] alle otto.\nStasera noi [[g9]] tutti insieme.\nLuca e Anna [[g10]] molto felici.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "partirò",
+       "partirà",
+       "partirai"
+      ],
+      "answer": "partirò"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "abiteremo",
+       "abiteranno",
+       "abitaremo"
+      ],
+      "answer": "abiteremo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "farai",
+       "farà",
+       "facerai"
+      ],
+      "answer": "farai"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "verranno",
+       "verrà",
+       "veniranno"
+      ],
+      "answer": "verranno"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "pagherà",
+       "pagerà",
+       "pagherai"
+      ],
+      "answer": "pagherà"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "potrete",
+       "potremo",
+       "poterete"
+      ],
+      "answer": "potrete"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "cercherò",
+       "cercerò",
+       "cercherà"
+      ],
+      "answer": "cercherò"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "arriverà",
+       "arriverai",
+       "arrivarà"
+      ],
+      "answer": "arriverà"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "mangeremo",
+       "mangieremo",
+       "mangeranno"
+      ],
+      "answer": "mangeremo"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "saranno",
+       "sarà",
+       "esseranno"
+      ],
+      "answer": "saranno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-futuro-l3",
+  "title": "Il futuro secondo Matteo",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Il futuro secondo Matteo · livello facile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+   "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Matteo immagina il futuro. Completa con i verbi giusti.",
+    "explanation": "",
+    "promptHelp": "Matteo stellt sich die Zukunft vor. Ergänze die passenden Verben.",
+    "text": "Fra vent’anni io [[g1]] un medico famoso.\nTu, Chiara, [[g2]] sicuramente tre gatti.\nNoi due [[g3]] in vacanza sulla Luna!\nI robot [[g4]] tutti i lavori di casa.\nDavide [[g5]] in una casa sull’acqua.\nVoi [[g6]] venire a trovarmi quando volete.\nLe macchine [[g7]] tutte elettriche.\nE a scuola? Non [[g8]] più portare lo zaino!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sarò"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "avrai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "andremo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "faranno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vivrà"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "potrete"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "saranno"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "dovremo"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "sarai",
+     "andrai"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-futuro-s1",
+  "title": "Errori e ipotesi",
+  "language": "it",
+  "level": "A2",
+  "description": "Il futuro semplice · Errori e ipotesi · livello difficile.",
+  "topics": [
+   "Il futuro semplice",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · futuro semplice: Formen und Gebrauch"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-futuro",
+   "topicTitle": "Il futuro semplice",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con il **futuro semplice** parliamo del **futuro** e facciamo **ipotesi**.\n| | parl**are** | prend**ere** | dorm**ire** |\n| io | parl**erò** | prend**erò** | dorm**irò** |\n| tu | parl**erai** | prend**erai** | dorm**irai** |\n| lui / lei | parl**erà** | prend**erà** | dorm**irà** |\n| noi | parl**eremo** | prend**eremo** | dorm**iremo** |\n| voi | parl**erete** | prend**erete** | dorm**irete** |\n| loro | parl**eranno** | prend**eranno** | dorm**iranno** |\nAttenzione: i verbi in **-are** hanno **-er-** (parl**e**rò). cercare → cer**ch**erò, pagare → pa**gh**erò; cominciare → comin**ce**rò, mangiare → man**ge**rò.\n**Irregolari:** essere → **sarò**, avere → **avrò**, andare → **andrò**, potere → **potrò**, dovere → **dovrò**, sapere → **saprò**, vedere → **vedrò**, vivere → **vivrò**, fare → **farò**, dire → **dirò**, stare → **starò**, dare → **darò**, volere → **vorrò**, venire → **verrò**, bere → **berrò**, rimanere → **rimarrò**, tenere → **terrò**.\n_Domani **andrò** dai nonni. Fra dieci anni **vivremo** in un’altra città._\nIpotesi: _– Dov’è Luca? – Non lo so, **sarà** a casa._ (= forse è a casa)",
+   "ruleHelp": "Das **futuro semplice** steht für **Zukünftiges** und für **Vermutungen**.\nEndungen für alle Verben: -**ò**, -**ai**, -**à**, -**emo**, -**ete**, -**anno**. Verben auf -are bekommen **-er-**: parlare → parl**e**rò. Schreibung: cercare → cer**ch**erò, pagare → pa**gh**erò, cominciare → comin**ce**rò, mangiare → man**ge**rò.\nUnregelmäßige Stämme: sarò, avrò, andrò, potrò, dovrò, saprò, vedrò, vivrò, farò, dirò, starò, darò, vorrò, verrò, berrò, rimarrò, terrò.\nVermutung: _Sarà a casa._ = Er wird wohl zu Hause sein. Für feste Pläne ist im Italienischen wie im Deutschen oft auch das Präsens möglich: _Domani vado dai nonni._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi la forma sbagliata del futuro.",
+    "explanation": "andare → andrò, potere → potrò, vedere → vedrò (senza -e-); venire → verrò, rimanere → rimarrò, bere → berrò (con -rr-).",
+    "promptHelp": "Korrigiere die falsche Futurform.",
+    "explanationHelp": "andrò, potrò, vedrò (ohne -e-); verrò, rimarrò, berrò (mit -rr-).",
+    "text": "Domani [[g1]] dal dentista.\nChi [[g2]] il conto?\nLa lezione [[g3]] alle nove.\nI miei amici [[g4]] alla festa.\nNoi non [[g5]] uscire stasera.\nDopo il film [[g6]] un’intervista con il regista.\nQuest’estate Marta [[g7]] in città.\nA cena io [[g8]] solo acqua.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "anderò",
+      "acceptedAnswers": [
+       "andrò"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "pagerà",
+      "acceptedAnswers": [
+       "pagherà"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "cominciarà",
+      "acceptedAnswers": [
+       "comincerà"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "veniranno",
+      "acceptedAnswers": [
+       "verranno"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "poteremo",
+      "acceptedAnswers": [
+       "potremo"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "vederete",
+      "acceptedAnswers": [
+       "vedrete"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "rimanerà",
+      "acceptedAnswers": [
+       "rimarrà"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "beverò",
+      "acceptedAnswers": [
+       "berrò"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "Non sei sicuro: fai un’ipotesi con il futuro.",
+    "explanation": "Il futuro esprime anche un’ipotesi: _Sarà in palestra_ = forse è in palestra.",
+    "promptHelp": "Du bist nicht sicher: Äußere eine Vermutung mit dem Futur.",
+    "explanationHelp": "Das Futur drückt auch eine Vermutung aus: _Sarà in palestra_ = Er ist wohl im Fitnessstudio.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "– Dov’è Luca? – Non lo so, … (essere in palestra)",
+      "acceptedAnswers": [
+       "sarà in palestra"
+      ],
+      "modelAnswer": "Non lo so, sarà in palestra."
+     },
+     {
+      "id": "s2",
+      "start": "– Quanti anni ha la prof? – Mah, … (avere quarant’anni)",
+      "acceptedAnswers": [
+       "avrà quarant’anni"
+      ],
+      "modelAnswer": "Mah, avrà quarant’anni."
+     },
+     {
+      "id": "s3",
+      "start": "– Che ore sono? – Non ho l’orologio, … (essere le cinque)",
+      "acceptedAnswers": [
+       "saranno le cinque"
+      ],
+      "modelAnswer": "Non ho l’orologio, saranno le cinque."
+     },
+     {
+      "id": "s4",
+      "start": "– Perché i nonni non rispondono al telefono? – … (dormire)",
+      "acceptedAnswers": [
+       "dormiranno",
+       "staranno dormendo"
+      ],
+      "modelAnswer": "Dormiranno."
+     }
+    ]
    }
   ]
  },
@@ -183589,6 +189275,1203 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-l1",
+  "title": "A Roma con la classe",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · A Roma con la classe · livello facile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il participio giusto.",
+    "explanation": "lo → -o, la → -a, li → -i, le → -e.",
+    "promptHelp": "Wähle das richtige Partizip.",
+    "explanationHelp": "lo → -o, la → -a, li → -i, le → -e.",
+    "text": "Il Colosseo? L’abbiamo [[g1]] ieri.\nLa Fontana di Trevi? L’ho [[g2]] di sera.\nI biglietti? Li ha [[g3]] la prof.\nLe cartoline? Le ho [[g4]] ai nonni.\nLa pizza al taglio? L’abbiamo [[g5]] a Trastevere.\nI Musei Vaticani? Non li abbiamo ancora [[g6]].\nLe foto? Le ha [[g7]] Chiara.\nIl gelato? L’ho [[g8]] al pistacchio.\nLa metro? Oggi non l’abbiamo [[g9]].\nLe chiavi della camera? Le ho [[g10]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "visitato",
+       "visitata",
+       "visitati"
+      ],
+      "answer": "visitato"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "vista",
+       "visto",
+       "viste"
+      ],
+      "answer": "vista"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "comprati",
+       "comprato",
+       "comprate"
+      ],
+      "answer": "comprati"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "scritte",
+       "scritti",
+       "scritto"
+      ],
+      "answer": "scritte"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "mangiata",
+       "mangiato",
+       "mangiate"
+      ],
+      "answer": "mangiata"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "visti",
+       "visto",
+       "viste"
+      ],
+      "answer": "visti"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "fatte",
+       "fatti",
+       "fatto"
+      ],
+      "answer": "fatte"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "preso",
+       "presa",
+       "presi"
+      ],
+      "answer": "preso"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "presa",
+       "preso",
+       "prese"
+      ],
+      "answer": "presa"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "perse",
+       "persi",
+       "perso"
+      ],
+      "answer": "perse"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-l2",
+  "title": "Domanda e risposta",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Domanda e risposta · livello facile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la domanda alla risposta giusta. Guarda il pronome e il participio!",
+    "explanation": "",
+    "promptHelp": "Verbinde die Frage mit der passenden Antwort. Achte auf Pronomen und Partizip!",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Hai visto il Colosseo?",
+      "right": "Sì, l’ho visto stamattina."
+     },
+     {
+      "id": "p2",
+      "left": "Hai visto la Fontana di Trevi?",
+      "right": "Sì, l’ho vista ieri sera."
+     },
+     {
+      "id": "p3",
+      "left": "Hai comprato i biglietti?",
+      "right": "Sì, li ho comprati online."
+     },
+     {
+      "id": "p4",
+      "left": "Hai comprato le cartoline?",
+      "right": "Sì, le ho comprate in centro."
+     },
+     {
+      "id": "p5",
+      "left": "Hai chiamato Luca e Davide?",
+      "right": "No, non li ho chiamati."
+     },
+     {
+      "id": "p6",
+      "left": "Hai chiamato Sara e Chiara?",
+      "right": "No, non le ho chiamate."
+     },
+     {
+      "id": "p7",
+      "left": "Hai preso la metro?",
+      "right": "No, non l’ho presa."
+     },
+     {
+      "id": "p8",
+      "left": "Hai preso l’autobus?",
+      "right": "No, non l’ho preso."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-l3",
+  "title": "Di che cosa parlano?",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Di che cosa parlano? · livello facile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Guarda il pronome e il participio: di che cosa parlano?",
+    "explanation": "",
+    "promptHelp": "Achte auf Pronomen und Partizip: Wovon ist die Rede?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "il museo"
+     },
+     {
+      "id": "b",
+      "label": "la chiesa"
+     },
+     {
+      "id": "c",
+      "label": "i monumenti"
+     },
+     {
+      "id": "d",
+      "label": "le piazze"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "L’ho visitato lunedì.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "L’ho visitata lunedì.",
+      "category": "b"
+     },
+     {
+      "id": "i3",
+      "text": "Li ho fotografati tutti.",
+      "category": "c"
+     },
+     {
+      "id": "i4",
+      "text": "Le ho fotografate tutte.",
+      "category": "d"
+     },
+     {
+      "id": "i5",
+      "text": "Non l’ho trovata.",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "L’abbiamo trovato chiuso.",
+      "category": "a"
+     },
+     {
+      "id": "i7",
+      "text": "Le abbiamo attraversate a piedi.",
+      "category": "d"
+     },
+     {
+      "id": "i8",
+      "text": "Li abbiamo visti dal pullman.",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "L’hanno costruita nel Seicento.",
+      "category": "b"
+     },
+     {
+      "id": "i10",
+      "text": "Non le ho ancora viste.",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "Li ha spiegati la guida.",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-m1",
+  "title": "Hai fatto tutto?",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Hai fatto tutto? · livello medio.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le risposte: pronome diretto + passato prossimo.",
+    "explanation": "lo / la + ho → l’ho; li e le restano interi. Il participio prende -o, -a, -i, -e.",
+    "promptHelp": "Ergänze die Antworten: direktes Pronomen + passato prossimo.",
+    "explanationHelp": "lo / la + ho → l’ho; li und le bleiben ganz. Das Partizip bekommt -o, -a, -i, -e.",
+    "text": "Prima della partenza per Roma la mamma chiede a Luca:\n– Hai preparato lo zaino? – Sì, (preparare) [[g1]] ieri sera.\n– Hai preso la carta d’identità? – Sì, (prendere) [[g2]].\n– Hai comprato i panini? – No, non (comprare) [[g3]]: non ho avuto tempo.\n– Hai salutato le nonne? – Sì, (salutare) [[g4]] al telefono.\n– Hai chiuso la finestra? – Certo, (chiudere) [[g5]].\n– Hai letto il programma della gita? – Sì, (leggere) [[g6]] due volte.\n– Hai messo le scarpe comode nello zaino? – Sì, (mettere) [[g7]] sopra i vestiti.\n– Hai fatto i compiti per lunedì? – Ehm… no, non (fare) [[g8]].\n– E hai visto la tua giacca? – Sì, (vedere) [[g9]] in macchina.\n– E i soldi? – Oh no! (dimenticare) [[g10]] sul tavolo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "l’ho preparato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "l’ho presa"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "li ho comprati"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "le ho salutate"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "l’ho chiusa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "l’ho letto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le ho messe"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "li ho fatti"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "l’ho vista"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Li ho dimenticati"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-m2",
+  "title": "Sì o no?",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Sì o no? · livello medio.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con il pronome diretto.",
+    "explanation": "",
+    "promptHelp": "Antworte mit dem direkten Pronomen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Hai visto il Pantheon? – Sì, …",
+      "acceptedAnswers": [
+       "l’ho visto"
+      ],
+      "modelAnswer": "Sì, l’ho visto."
+     },
+     {
+      "id": "s2",
+      "start": "Avete visitato la Basilica di San Pietro? – Sì, …",
+      "acceptedAnswers": [
+       "l’abbiamo visitata"
+      ],
+      "modelAnswer": "Sì, l’abbiamo visitata."
+     },
+     {
+      "id": "s3",
+      "start": "Hai fatto le foto? – Sì, …",
+      "acceptedAnswers": [
+       "le ho fatte"
+      ],
+      "modelAnswer": "Sì, le ho fatte."
+     },
+     {
+      "id": "s4",
+      "start": "Avete comprato i souvenir? – No, non …",
+      "acceptedAnswers": [
+       "li abbiamo comprati"
+      ],
+      "modelAnswer": "No, non li abbiamo comprati."
+     },
+     {
+      "id": "s5",
+      "start": "Hai scritto la mail ai tuoi genitori? – Sì, …",
+      "acceptedAnswers": [
+       "l’ho scritta"
+      ],
+      "modelAnswer": "Sì, l’ho scritta."
+     },
+     {
+      "id": "s6",
+      "start": "Sara ha trovato le chiavi? – No, non …",
+      "acceptedAnswers": [
+       "le ha trovate"
+      ],
+      "modelAnswer": "No, non le ha trovate."
+     },
+     {
+      "id": "s7",
+      "start": "I ragazzi hanno preso il tram? – Sì, …",
+      "acceptedAnswers": [
+       "l’hanno preso"
+      ],
+      "modelAnswer": "Sì, l’hanno preso."
+     },
+     {
+      "id": "s8",
+      "start": "Hai assaggiato i supplì? – Sì, …",
+      "acceptedAnswers": [
+       "li ho assaggiati"
+      ],
+      "modelAnswer": "Sì, li ho assaggiati."
+     },
+     {
+      "id": "s9",
+      "start": "Avete chiamato la prof? – Sì, …",
+      "acceptedAnswers": [
+       "l’abbiamo chiamata"
+      ],
+      "modelAnswer": "Sì, l’abbiamo chiamata."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-m3",
+  "title": "Letto, letta, letti, lette",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Letto, letta, letti, lette · livello medio.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa la tabella: pronome + ho + participio.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Tabelle: Pronomen + ho + Partizip.",
+    "columns": [
+     "verbo",
+     "il libro",
+     "la mail",
+     "i messaggi",
+     "le lettere"
+    ],
+    "rows": [
+     [
+      "leggere",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "l’ho letto"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "l’ho letta"
+       ]
+      },
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "li ho letti"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "le ho lette"
+       ]
+      }
+     ],
+     [
+      "scrivere",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "l’ho scritto"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "l’ho scritta"
+       ]
+      },
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "li ho scritti"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "le ho scritte"
+       ]
+      }
+     ],
+     [
+      "aprire",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "l’ho aperto"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "l’ho aperta"
+       ]
+      },
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "li ho aperti"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "le ho aperte"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Trova gli errori · livello difficile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Il pronome sta prima di avere. Li e le non diventano mai l’. Senza pronome davanti al verbo: nessun accordo (ho comprato le cartoline).",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "Das Pronomen steht vor avere. Li und le werden nie zu l’. Ohne Pronomen vor dem Verb: keine Angleichung (ho comprato le cartoline).",
+    "text": "La Fontana di Trevi? L’ho [[g1]] ieri sera.\nI biglietti? [[g2]] comprati online.\nLe cartoline? Le ho [[g3]] stamattina.\nIl museo? [[g4]] con la classe.\nLe chiavi? Non le ho [[g5]].\nI miei amici? Li ho [[g6]] in piazza.\nIeri ho [[g7]] le cartoline in centro.\nLe foto? [[g8]] ho fatte con il telefono.\nIl Colosseo? L’abbiamo [[g9]] lunedì.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "visto",
+      "acceptedAnswers": [
+       "vista"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "L’ho",
+      "acceptedAnswers": [
+       "Li ho"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "scritto",
+      "acceptedAnswers": [
+       "scritte"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Ho lo visitato",
+      "acceptedAnswers": [
+       "L’ho visitato"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "trovati",
+      "acceptedAnswers": [
+       "trovate"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "incontrato",
+      "acceptedAnswers": [
+       "incontrati"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "comprate",
+      "acceptedAnswers": [
+       "comprato"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Li",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "visitata",
+      "acceptedAnswers": [
+       "visitato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-s2",
+  "title": "Il diario di Chiara",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Il diario di Chiara · livello difficile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il pronome (l’, li, le, ne) e con il participio del verbo tra parentesi.",
+    "explanation": "ne + quantità: il participio concorda con la cosa (cartoline → scritte, supplì → mangiati).",
+    "promptHelp": "Ergänze das Pronomen (l’, li, le, ne) und das Partizip des Verbs in Klammern.",
+    "explanationHelp": "ne + Menge: Das Partizip richtet sich nach der Sache (cartoline → scritte, supplì → mangiati).",
+    "text": "Lunedì abbiamo visitato i Fori Imperiali: [[g1]] abbiamo (vedere) [[g2]] con una guida.\nLa guida era bravissima: [[g3]]abbiamo (ascoltare) [[g4]] per due ore.\nPoi ho comprato dieci cartoline e [[g5]] ho già (scrivere) [[g6]] quattro.\nLe altre sei? Non [[g7]] ho ancora (scrivere) [[g8]].\nA pranzo ho preso un supplì. Buonissimo! Matteo [[g9]] ha (mangiare) [[g10]] tre.\nLa sera ho cercato la mia sciarpa, ma non [[g11]]ho (trovare) [[g12]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "li"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "visti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "l’"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ascoltata"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "scritte"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "scritte"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ne"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "mangiati"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "l’"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "trovata"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-participio-pronomi-s3",
+  "title": "Non ripetere!",
+  "language": "it",
+  "level": "A2",
+  "description": "L’accordo del participio con i pronomi diretti · Non ripetere! · livello difficile.",
+  "topics": [
+   "L’accordo del participio con i pronomi diretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-participio-pronomi",
+   "topicTitle": "L’accordo del participio con i pronomi diretti",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+   "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la seconda frase con un pronome (lo, la, li, le o ne).",
+    "explanation": "",
+    "promptHelp": "Schreibe den zweiten Satz mit einem Pronomen neu (lo, la, li, le oder ne).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho perso la chiave. Ho cercato la chiave dappertutto. → …",
+      "acceptedAnswers": [
+       "L’ho cercata"
+      ],
+      "modelAnswer": "L’ho cercata dappertutto."
+     },
+     {
+      "id": "s2",
+      "start": "Abbiamo comprato i biglietti. Abbiamo pagato i biglietti online. → …",
+      "acceptedAnswers": [
+       "Li abbiamo pagati"
+      ],
+      "modelAnswer": "Li abbiamo pagati online."
+     },
+     {
+      "id": "s3",
+      "start": "Sara ha fatto molte foto. Ha mandato le foto alla nonna. → …",
+      "acceptedAnswers": [
+       "Le ha mandate"
+      ],
+      "modelAnswer": "Le ha mandate alla nonna."
+     },
+     {
+      "id": "s4",
+      "start": "Ho letto il messaggio di Luca. Non ho capito il messaggio. → …",
+      "acceptedAnswers": [
+       "Non l’ho capito"
+      ],
+      "modelAnswer": "Non l’ho capito."
+     },
+     {
+      "id": "s5",
+      "start": "I ragazzi hanno trovato una trattoria. Hanno scelto la trattoria per la cena. → …",
+      "acceptedAnswers": [
+       "L’hanno scelta"
+      ],
+      "modelAnswer": "L’hanno scelta per la cena."
+     },
+     {
+      "id": "s6",
+      "start": "Ho scritto due mail. Ho spedito le mail stamattina. → …",
+      "acceptedAnswers": [
+       "Le ho spedite"
+      ],
+      "modelAnswer": "Le ho spedite stamattina."
+     },
+     {
+      "id": "s7",
+      "start": "Abbiamo visto i gladiatori davanti al Colosseo. Abbiamo fotografato i gladiatori. → …",
+      "acceptedAnswers": [
+       "Li abbiamo fotografati"
+      ],
+      "modelAnswer": "Li abbiamo fotografati."
+     },
+     {
+      "id": "s8",
+      "start": "Ho comprato sei cartoline. Ho spedito tre cartoline. (ne) → …",
+      "acceptedAnswers": [
+       "Ne ho spedite tre"
+      ],
+      "modelAnswer": "Ne ho spedite tre."
+     },
+     {
+      "id": "s9",
+      "start": "Davide ha ordinato due pizze. Ha mangiato solo una pizza. (ne) → …",
+      "acceptedAnswers": [
+       "Ne ha mangiata"
+      ],
+      "modelAnswer": "Ne ha mangiata solo una."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco2-partitivo-l1",
   "title": "Del, dello, della …?",
   "language": "it",
@@ -184045,7 +190928,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa con il partitivo (del, dello, dell’, della, dei, degli, delle).",
     "explanation": "",
     "promptHelp": "Ergänze den Teilungsartikel (del, dello, dell’, della, dei, degli, delle).",
-    "text": "Per la festa dopo il concerto compriamo [[g1]] pizza e [[g2]] panini.\nGiulia porta [[g3]] aranciata e Matteo porta [[g4]] zucchero per il tè freddo.\nCi sono anche [[g5]] patatine e [[g6]] formaggio.\nLuca invita [[g7]] amici della sua classe.\nChiara mette [[g8]] musica italiana e subito [[g9]] ragazzi cominciano a ballare.\nAlla fine facciamo [[g10]] foto e a mezzanotte mangiamo [[g11]] spaghetti!",
+    "text": "Per la festa dopo il concerto compriamo [[g1]] pizza e [[g2]] panini.\nGiulia porta [[g3]]aranciata e Matteo porta [[g4]] zucchero per il tè freddo.\nCi sono anche [[g5]] patatine e [[g6]] formaggio.\nLuca invita [[g7]] amici della sua classe.\nChiara mette [[g8]] musica italiana e subito [[g9]] ragazzi cominciano a ballare.\nAlla fine facciamo [[g10]] foto e a mezzanotte mangiamo [[g11]] spaghetti!",
     "gaps": [
      {
       "id": "g1",
@@ -187598,6 +194481,2473 @@ const STOCK_PACKAGES = [
      }
     ],
     "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la frase italiana alla traduzione.",
+    "explanation": "",
+    "promptHelp": "Verbinde den italienischen Satz mit der Übersetzung.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Quello che dici è vero.",
+      "right": "Was du sagst, stimmt."
+     },
+     {
+      "id": "p2",
+      "left": "Non capisco ciò che dice.",
+      "right": "Ich verstehe nicht, was er sagt."
+     },
+     {
+      "id": "p3",
+      "left": "Prendi tutto quello che vuoi.",
+      "right": "Nimm alles, was du willst."
+     },
+     {
+      "id": "p4",
+      "left": "Che cosa vuoi?",
+      "right": "Was willst du?"
+     },
+     {
+      "id": "p5",
+      "left": "È il libro che voglio.",
+      "right": "Das ist das Buch, das ich will."
+     },
+     {
+      "id": "p6",
+      "left": "Faccio quello che posso.",
+      "right": "Ich tue, was ich kann."
+     },
+     {
+      "id": "p7",
+      "left": "Ecco ciò che ho trovato.",
+      "right": "Hier ist, was ich gefunden habe."
+     },
+     {
+      "id": "p8",
+      "left": "Che cosa hai trovato?",
+      "right": "Was hast du gefunden?"
+     },
+     {
+      "id": "p9",
+      "left": "Racconta tutto quello che sai.",
+      "right": "Erzähl alles, was du weißt."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-l2",
+  "title": "Che, quello che o che cosa?",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Che, quello che o che cosa? · livello facile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Dopo un nome: che. Senza nome: quello che / ciò che. In una domanda diretta: che cosa.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Nach einem Nomen: che. Ohne Nomen: quello che / ciò che. In der direkten Frage: che cosa.",
+    "text": "Il monumento [[g1]] preferisco è il Pantheon.\n[[g2]] dice la guida è molto interessante.\n[[g3]] visitiamo domani?\nNon ho capito [[g4]] ha detto il prof.\nLa pizza [[g5]] abbiamo mangiato ieri era ottima.\nTi racconto tutto [[g6]] è successo.\n[[g7]] mi piace di Roma è la luce.\nQuesta è la piazza [[g8]] ti ho mostrato in foto.\n[[g9]] hai comprato per i tuoi genitori?\nNon è vero [[g10]] hai scritto nel messaggio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "che",
+       "quello che",
+       "che cosa"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quello che",
+       "Che",
+       "Che cosa"
+      ],
+      "answer": "Quello che"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Che cosa",
+       "Quello che",
+       "Ciò che"
+      ],
+      "answer": "Che cosa"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "quello che",
+       "quello",
+       "quale"
+      ],
+      "answer": "quello che"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "che",
+       "ciò che",
+       "che cosa"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "quello che",
+       "che",
+       "quale"
+      ],
+      "answer": "quello che"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Ciò che",
+       "Che",
+       "Che cosa"
+      ],
+      "answer": "Ciò che"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "che",
+       "quello che",
+       "ciò che"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Che cosa",
+       "Ciò che",
+       "Tutto quello che"
+      ],
+      "answer": "Che cosa"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "quello che",
+       "quello",
+       "che cosa"
+      ],
+      "answer": "quello che"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-l3",
+  "title": "Che cosa manca?",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Che cosa manca? · livello facile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Che cosa manca al posto dei puntini?",
+    "explanation": "",
+    "promptHelp": "Was fehlt an der Stelle der Punkte?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "che (dopo un nome)"
+     },
+     {
+      "id": "b",
+      "label": "quello che / ciò che (senza nome)"
+     },
+     {
+      "id": "c",
+      "label": "che cosa (domanda)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il treno … prendiamo parte alle otto.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "… prendiamo da bere?",
+      "category": "c"
+     },
+     {
+      "id": "i3",
+      "text": "… mi piace di più è il gelato.",
+      "category": "b"
+     },
+     {
+      "id": "i4",
+      "text": "Ho perso la cartolina … ho comprato ieri.",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "… ha detto la guida?",
+      "category": "c"
+     },
+     {
+      "id": "i6",
+      "text": "Non credo a tutto … leggo online.",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "… fate stasera?",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "La ragazza … parla con Luca è mia cugina.",
+      "category": "a"
+     },
+     {
+      "id": "i9",
+      "text": "… scrivi nel tema è molto bello.",
+      "category": "b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-m1",
+  "title": "Nella chat della classe",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Nella chat della classe · livello medio.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con che, quello che o che cosa.",
+    "explanation": "Al posto di quello che va bene anche ciò che.",
+    "promptHelp": "Ergänze che, quello che oder che cosa.",
+    "explanationHelp": "Statt quello che ist auch ciò che richtig.",
+    "text": "– Ragazzi, [[g1]] facciamo sabato a Roma?\n– Io voglio vedere il Colosseo: è il monumento [[g2]] mi interessa di più.\n– Per me va bene tutto [[g3]] decidete voi.\n– [[g4]] dice Sara non è giusto: dobbiamo decidere insieme!\n– Ok. Allora [[g5]] preferite, i Musei Vaticani o il Pantheon?\n– Il Pantheon! La guida [[g6]] ho letto dice che è bellissimo.\n– E la sera? Mangiamo nella pizzeria [[g7]] ci ha consigliato la prof?\n– Sì! Lì ognuno può ordinare [[g8]] vuole.\n– Perfetto. [[g9]] abbiamo deciso mi piace molto.\n– Un’ultima domanda: [[g10]] portiamo da mangiare per il viaggio?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "che cosa",
+       "cosa",
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Quello che",
+       "Ciò che"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "che cosa",
+       "cosa",
+       "che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Quello che",
+       "Ciò che"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "che cosa",
+       "cosa",
+       "che"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-m2",
+  "title": "La cosa che …",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · La cosa che … · livello medio.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la frase con quello che (o ciò che).",
+    "explanation": "",
+    "promptHelp": "Schreibe den Satz mit quello che (oder ciò che) neu.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "La cosa che mi piace di più a Roma è il gelato. → … è il gelato.",
+      "acceptedAnswers": [
+       "Quello che mi piace",
+       "Ciò che mi piace"
+      ],
+      "modelAnswer": "Quello che mi piace di più a Roma è il gelato. (Anche: Ciò che mi piace di più a Roma è il gelato.)"
+     },
+     {
+      "id": "s2",
+      "start": "Non capisco le cose che dice la guida. → Non capisco …",
+      "acceptedAnswers": [
+       "quello che dice la guida",
+       "ciò che dice la guida"
+      ],
+      "modelAnswer": "Non capisco quello che dice la guida. (Anche: ciò che dice la guida.)"
+     },
+     {
+      "id": "s3",
+      "start": "Hai comprato le cose che volevi? → Hai comprato …?",
+      "acceptedAnswers": [
+       "quello che volevi",
+       "ciò che volevi"
+      ],
+      "modelAnswer": "Hai comprato quello che volevi? (Anche: ciò che volevi?)"
+     },
+     {
+      "id": "s4",
+      "start": "Tutte le cose che vedi qui sono antiche. → … è antico.",
+      "acceptedAnswers": [
+       "Tutto quello che vedi qui",
+       "Tutto ciò che vedi qui"
+      ],
+      "modelAnswer": "Tutto quello che vedi qui è antico. (Anche: Tutto ciò che vedi qui è antico.)"
+     },
+     {
+      "id": "s5",
+      "start": "La cosa che ha detto Luca è vera. → … è vero.",
+      "acceptedAnswers": [
+       "Quello che ha detto Luca",
+       "Ciò che ha detto Luca"
+      ],
+      "modelAnswer": "Quello che ha detto Luca è vero. (Anche: Ciò che ha detto Luca è vero.)"
+     },
+     {
+      "id": "s6",
+      "start": "Ti racconto tutte le cose che ho visto. → Ti racconto …",
+      "acceptedAnswers": [
+       "tutto quello che ho visto",
+       "tutto ciò che ho visto"
+      ],
+      "modelAnswer": "Ti racconto tutto quello che ho visto. (Anche: tutto ciò che ho visto.)"
+     },
+     {
+      "id": "s7",
+      "start": "La cosa che non mi piace è il traffico. → … è il traffico.",
+      "acceptedAnswers": [
+       "Quello che non mi piace",
+       "Ciò che non mi piace"
+      ],
+      "modelAnswer": "Quello che non mi piace è il traffico. (Anche: Ciò che non mi piace è il traffico.)"
+     },
+     {
+      "id": "s8",
+      "start": "Faccio sempre le cose che dice la prof. → Faccio sempre …",
+      "acceptedAnswers": [
+       "quello che dice la prof",
+       "ciò che dice la prof"
+      ],
+      "modelAnswer": "Faccio sempre quello che dice la prof. (Anche: ciò che dice la prof.)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-m3",
+  "title": "Costruisci la frase",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Costruisci la frase · livello medio.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Ich verstehe nicht, was die Stadtführerin sagt.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non capisco"
+     },
+     {
+      "id": "i2",
+      "text": "quello che"
+     },
+     {
+      "id": "i3",
+      "text": "dice la guida."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Alles, was du hier siehst, ist uralt.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Tutto"
+     },
+     {
+      "id": "i2",
+      "text": "quello che"
+     },
+     {
+      "id": "i3",
+      "text": "vedi qui"
+     },
+     {
+      "id": "i4",
+      "text": "è antichissimo."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Was mir an Rom gefällt, ist die Küche.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ciò che"
+     },
+     {
+      "id": "i2",
+      "text": "mi piace di Roma"
+     },
+     {
+      "id": "i3",
+      "text": "è la cucina."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Erzähl mir alles, was du gesehen hast!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Raccontami"
+     },
+     {
+      "id": "i2",
+      "text": "tutto"
+     },
+     {
+      "id": "i3",
+      "text": "quello che"
+     },
+     {
+      "id": "i4",
+      "text": "hai visto!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Trova gli errori · livello difficile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Senza nome davanti: quello che / ciò che; con tutto: tutto quello che / tutto ciò che; dopo un nome solo che; nella domanda che cosa.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "„das, was“ = quello che / ciò che; „alles, was“ = tutto quello che; nach einem Nomen nur che; in der Frage che cosa.",
+    "text": "[[g1]] dici è vero.\nTi do tutto [[g2]] ho.\n[[g3]] fai stasera?\nLa città [[g4]] preferisco è Roma.\nNon mi piace [[g5]] hai detto.\nQuello che mi piace di più [[g6]] il mare.\n[[g7]] vedi qui è il Foro Romano.\nIl film [[g8]] abbiamo visto ieri era noioso.\nRacconta [[g9]] sai!",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Che",
+      "acceptedAnswers": [
+       "Quello che",
+       "Ciò che"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Quello che",
+      "acceptedAnswers": [
+       "Che cosa",
+       "Cosa",
+       "Che"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "quello che",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Ciò",
+      "acceptedAnswers": [
+       "Ciò che",
+       "Quello che"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "ciò che",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "tutto quello",
+      "acceptedAnswers": [
+       "tutto quello che",
+       "tutto ciò che"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-s2",
+  "title": "Una mail a casa",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Una mail a casa · livello difficile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la mail con che, quello che o che cosa.",
+    "explanation": "che ha sempre un nome davanti (l’albergo che, le foto che, i panini che); quello che no.",
+    "promptHelp": "Ergänze die Mail mit che, quello che oder che cosa.",
+    "explanationHelp": "che hat immer ein Nomen vor sich (l’albergo che, le foto che, i panini che); quello che nicht.",
+    "text": "Cari mamma e papà, Roma è fantastica! [[g1]] mi piace di più è il centro storico.\nL’albergo [[g2]] ha scelto la scuola è piccolo, ma pulito.\nLa guida è bravissima: capisco quasi tutto [[g3]] dice.\nIeri abbiamo visto il Colosseo. E [[g4]] ha detto Matteo davanti al Colosseo? «Sembra un film!»\nLe foto [[g5]] ho fatto sono più di duecento!\nNon tutto è perfetto: [[g6]] non mi piace è il traffico.\nAnche i panini [[g7]] vendono vicino ai monumenti sono carissimi.\nStasera possiamo fare [[g8]] vogliamo: la prof ci lascia due ore libere.\nE voi, [[g9]] fate senza di me?\nQuando torno vi racconto tutto [[g10]] ho visto. Un abbraccio, Giulia",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Quello che",
+       "Ciò che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "che cosa",
+       "cosa",
+       "che"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "che cosa",
+       "cosa",
+       "che"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "quello che",
+       "ciò che"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-che-s3",
+  "title": "Quello che penso io",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello che e ciò che · Quello che penso io · livello difficile.",
+  "topics": [
+   "Quello che e ciò che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-quello-che",
+   "topicTitle": "Quello che e ciò che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+   "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci le due frasi in una sola. Usa quello che, tutto quello che o che.",
+    "explanation": "",
+    "promptHelp": "Verbinde die beiden Sätze zu einem. Verwende quello che, tutto quello che oder che.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Tu dici una cosa. Questa cosa è giusta. → …",
+      "acceptedAnswers": [
+       "Quello che dici è giusto",
+       "Ciò che dici è giusto"
+      ],
+      "modelAnswer": "Quello che dici è giusto."
+     },
+     {
+      "id": "s2",
+      "start": "Tu scrivi molte cose. Io capisco tutto. → Capisco …",
+      "acceptedAnswers": [
+       "tutto quello che scrivi",
+       "tutto ciò che scrivi"
+      ],
+      "modelAnswer": "Capisco tutto quello che scrivi."
+     },
+     {
+      "id": "s3",
+      "start": "Cerco un libro. È questo. → Questo è …",
+      "acceptedAnswers": [
+       "il libro che cerco",
+       "il libro che sto cercando"
+      ],
+      "modelAnswer": "Questo è il libro che cerco."
+     },
+     {
+      "id": "s4",
+      "start": "Mi piace una cosa: la musica. → …",
+      "acceptedAnswers": [
+       "Quello che mi piace è la musica",
+       "Ciò che mi piace è la musica"
+      ],
+      "modelAnswer": "Quello che mi piace è la musica."
+     },
+     {
+      "id": "s5",
+      "start": "Vuoi qualcosa? Prendilo! → Prendi …",
+      "acceptedAnswers": [
+       "quello che vuoi",
+       "ciò che vuoi"
+      ],
+      "modelAnswer": "Prendi quello che vuoi!"
+     },
+     {
+      "id": "s6",
+      "start": "A Roma ho visto molte cose. Ti racconto tutto. → Ti racconto …",
+      "acceptedAnswers": [
+       "tutto quello che ho visto",
+       "tutto ciò che ho visto"
+      ],
+      "modelAnswer": "Ti racconto tutto quello che ho visto a Roma."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "open_answer",
+    "prompt": "Scrivi cinque frasi su una città o un viaggio: che cosa ti è piaciuto, che cosa no? Usa quello che, ciò che e tutto quello che.",
+    "explanation": "",
+    "promptHelp": "Schreibe fünf Sätze über eine Stadt oder eine Reise: Was hat dir gefallen, was nicht? Verwende quello che, ciò che und tutto quello che.",
+    "modelAnswer": "Quello che mi è piaciuto di più a Roma è il Colosseo. Ciò che non mi è piaciuto è il traffico. Tutto quello che abbiamo mangiato era buonissimo. Non ho capito tutto quello che ha detto la guida, ma quello che ho visto era bellissimo.",
+    "lines": 6
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-l1",
+  "title": "Quel, quello, quell’ …",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Quel, quello, quell’ … · livello facile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quale forma di quello va bene? Pensa all’articolo (il, lo, l’, i, gli).",
+    "explanation": "il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli.",
+    "promptHelp": "Welche Form von quello passt? Denke an den Artikel (il, lo, l’, i, gli).",
+    "explanationHelp": "il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "quel"
+     },
+     {
+      "id": "b",
+      "label": "quello"
+     },
+     {
+      "id": "c",
+      "label": "quell’"
+     },
+     {
+      "id": "d",
+      "label": "quei"
+     },
+     {
+      "id": "e",
+      "label": "quegli"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "… telefono",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "… giornale",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "… disco",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "… zaino",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "… studente",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "… schermo",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "… amico",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "… orologio",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "… libri",
+      "category": "d"
+     },
+     {
+      "id": "i10",
+      "text": "… nonni",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "… amici",
+      "category": "e"
+     },
+     {
+      "id": "i12",
+      "text": "… zii",
+      "category": "e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-l2",
+  "title": "Guarda quella foto!",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Guarda quella foto! · livello facile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Come l’articolo: il telefono → quel telefono, l’orologio → quell’orologio, gli occhiali → quegli occhiali, lo zaino → quello zaino.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Wie der Artikel: il → quel, l’ → quell’, gli → quegli, lo → quello.",
+    "text": "Guarda [[g1]] vecchio telefono!\nChi è [[g2]] signora nella foto?\n[[g3]] era del nonno.\n[[g4]] occhiali sono della nonna.\nTi ricordi [[g5]] giochi in cortile?\n[[g6]] zaino è troppo pesante.\n[[g7]] lettere sono molto vecchie.\n[[g8]] faceva molto caldo.\n[[g9]] studenti non avevano il computer.\nCom’era bello [[g10]] giardino!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "quel",
+       "quello",
+       "quei"
+      ],
+      "answer": "quel"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "quella",
+       "quel",
+       "quelle"
+      ],
+      "answer": "quella"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quell’orologio",
+       "Quel orologio",
+       "Quello orologio"
+      ],
+      "answer": "Quell’orologio"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Quegli",
+       "Quei",
+       "Quelli"
+      ],
+      "answer": "Quegli"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "quei",
+       "quegli",
+       "quelli"
+      ],
+      "answer": "quei"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quello",
+       "Quel",
+       "Quell’"
+      ],
+      "answer": "Quello"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Quelle",
+       "Quella",
+       "Quegli"
+      ],
+      "answer": "Quelle"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quell’estate",
+       "Quel estate",
+       "Quella estate"
+      ],
+      "answer": "Quell’estate"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Quegli",
+       "Quei",
+       "Quelle"
+      ],
+      "answer": "Quegli"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "quel",
+       "quello",
+       "quell’"
+      ],
+      "answer": "quel"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-l3",
+  "title": "Al mercatino",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Al mercatino · livello facile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Questo (qui) o quello (là)? E quale forma? Scegli.",
+    "explanation": "qui → questo, là → quello. Senza nome: solo **quello, quella, quelli, quelle** (mai quel, quei, quegli).",
+    "promptHelp": "Questo (hier) oder quello (dort)? Und welche Form? Wähle.",
+    "explanationHelp": "hier → questo, dort → quello. Ohne Nomen nur **quello, quella, quelli, quelle** (nie quel, quei, quegli).",
+    "text": "– Ti piace [[g1]] radio qui?\n– No, preferisco [[g2]] là in fondo.\n– [[g3]] dischi qui costano poco.\n– E [[g4]] libri là, vicino alla porta?\n– Quale telefono vuoi? – [[g5]] nero.\n– Quali scarpe ti piacciono? – [[g6]] rosse.\n– Quali libri prendi? – [[g7]] di ieri.\n– Quale borsa compri? – [[g8]] piccola.\n– Quali occhiali sono i tuoi? – [[g9]] sul tavolo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "questa",
+       "quella",
+       "questo"
+      ],
+      "answer": "questa"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "quella",
+       "questa",
+       "quello"
+      ],
+      "answer": "quella"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Questi",
+       "Queste",
+       "Questo"
+      ],
+      "answer": "Questi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "quei",
+       "quegli",
+       "quelli"
+      ],
+      "answer": "quei"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Quello",
+       "Quel",
+       "Quei"
+      ],
+      "answer": "Quello"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quelle",
+       "Quelli",
+       "Quei"
+      ],
+      "answer": "Quelle"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Quelli",
+       "Quei",
+       "Quegli"
+      ],
+      "answer": "Quelli"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quella",
+       "Quello",
+       "Quel"
+      ],
+      "answer": "Quella"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Quelli",
+       "Quegli",
+       "Quelle"
+      ],
+      "answer": "Quelli"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-m1",
+  "title": "Una vecchia foto di famiglia",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Una vecchia foto di famiglia · livello medio.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la forma giusta di quello.",
+    "explanation": "Conta la parola che viene subito dopo: **quello** strano oggetto, **quel** piccolo orologio, ma **quell’**orologio.",
+    "promptHelp": "Schreibe die richtige Form von quello.",
+    "explanationHelp": "Entscheidend ist das direkt folgende Wort: quello strano oggetto, quel piccolo orologio, aber quell’orologio.",
+    "text": "Guarda [[g1]] foto: è molto vecchia!\n[[g2]] signore con i baffi è mio nonno.\n[[g3]]uomo accanto a lui è suo fratello.\n[[g4]] due bambini sono i miei zii.\n[[g5]] alberi oggi non ci sono più.\n[[g6]] strano oggetto sul tavolo è una vecchia radio.\n[[g7]] ragazze sono le amiche della nonna.\nIn [[g8]]anno la mia famiglia abitava ancora in campagna.\n[[g9]] piccolo orologio era un regalo per la nonna.\nIn [[g10]] anni poche famiglie avevano la macchina.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "quella"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Quel"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Quell’"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Quei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Quegli"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Quello"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Quelle"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "quell’"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Quel"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "quegli"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-m2",
+  "title": "Singolare e plurale",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Singolare e plurale · livello medio.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Scrivi quello + nome al singolare e al plurale, come nell’esempio.",
+    "explanation": "",
+    "promptHelp": "Schreibe quello + Nomen im Singular und im Plural wie im Beispiel.",
+    "columns": [
+     "articolo + nome",
+     "singolare",
+     "plurale"
+    ],
+    "rows": [
+     [
+      "il ragazzo",
+      "quel ragazzo",
+      "quei ragazzi"
+     ],
+     [
+      "lo studente",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "quello studente"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "quegli studenti"
+       ]
+      }
+     ],
+     [
+      "l’amico",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "quell’amico"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "quegli amici"
+       ]
+      }
+     ],
+     [
+      "la casa",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "quella casa"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "quelle case"
+       ]
+      }
+     ],
+     [
+      "l’amica",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "quell’amica"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "quelle amiche"
+       ]
+      }
+     ],
+     [
+      "il gioco",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "quel gioco"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "quei giochi"
+       ]
+      }
+     ],
+     [
+      "lo zio",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "quello zio"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "quegli zii"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-m3",
+  "title": "Quale? Quello!",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Quale? Quello! · livello medio.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con quello, quella, quelli o quelle + la parola tra parentesi. Attenzione alla forma dell’aggettivo!",
+    "explanation": "",
+    "promptHelp": "Antworte mit quello, quella, quelli oder quelle + dem Wort in Klammern. Achte auf die Form des Adjektivs!",
+    "items": [
+     {
+      "id": "s1",
+      "start": "– Quale telefono compri? (nero) – …",
+      "acceptedAnswers": [
+       "quello nero"
+      ],
+      "modelAnswer": "Quello nero."
+     },
+     {
+      "id": "s2",
+      "start": "– Quale bicicletta prendi? (verde) – …",
+      "acceptedAnswers": [
+       "quella verde"
+      ],
+      "modelAnswer": "Quella verde."
+     },
+     {
+      "id": "s3",
+      "start": "– Quali scarpe metti? (bianco) – …",
+      "acceptedAnswers": [
+       "quelle bianche"
+      ],
+      "modelAnswer": "Quelle bianche."
+     },
+     {
+      "id": "s4",
+      "start": "– Quali libri leggi? (di Luca) – …",
+      "acceptedAnswers": [
+       "quelli di Luca"
+      ],
+      "modelAnswer": "Quelli di Luca."
+     },
+     {
+      "id": "s5",
+      "start": "– Quale film guardiamo? (di ieri) – …",
+      "acceptedAnswers": [
+       "quello di ieri"
+      ],
+      "modelAnswer": "Quello di ieri."
+     },
+     {
+      "id": "s6",
+      "start": "– Quali foto ti piacciono? (vecchio) – …",
+      "acceptedAnswers": [
+       "quelle vecchie"
+      ],
+      "modelAnswer": "Quelle vecchie."
+     },
+     {
+      "id": "s7",
+      "start": "– Quali occhiali sono i tuoi? (rosso) – …",
+      "acceptedAnswers": [
+       "quelli rossi"
+      ],
+      "modelAnswer": "Quelli rossi."
+     },
+     {
+      "id": "s8",
+      "start": "– Quale giacca è di Sara? (blu) – …",
+      "acceptedAnswers": [
+       "quella blu"
+      ],
+      "modelAnswer": "Quella blu."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-s1",
+  "title": "Nove errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Nove errori · livello difficile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è una forma sbagliata di quello. Correggi.",
+    "explanation": "Davanti al nome: quel, quello, quell’, quei, quegli. Da solo: quello, quelli.",
+    "promptHelp": "In jedem Satz steckt eine falsche Form von quello. Korrigiere.",
+    "explanationHelp": "Vor dem Nomen: quel, quello, quell’, quei, quegli. Allein stehend: quello, quelli.",
+    "text": "[[g1]] studente viene dalla Germania.\n[[g2]] ragazzi là sono i miei cugini.\nConosci [[g3]] amici di Marco?\n[[g4]] in giardino è altissimo.\nNon mi piace il telefono bianco, preferisco [[g5]] rosso.\nQuesti biscotti sono buoni, ma [[g6]] della nonna sono più buoni.\n[[g7]] canzoni mi ricordano le vacanze.\nIn [[g8]] anni non c’erano i cellulari.\nChi è [[g9]] con il cappello?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Quel",
+      "acceptedAnswers": [
+       "Quello"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Quelli",
+      "acceptedAnswers": [
+       "Quei"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "quei",
+      "acceptedAnswers": [
+       "quegli"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Quello albero",
+      "acceptedAnswers": [
+       "Quell’albero"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "quel",
+      "acceptedAnswers": [
+       "quello"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "quei",
+      "acceptedAnswers": [
+       "quelli"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Quella",
+      "acceptedAnswers": [
+       "Quelle"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "quelli",
+      "acceptedAnswers": [
+       "quegli"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "quel uomo",
+      "acceptedAnswers": [
+       "quell’uomo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-s2",
+  "title": "Che cosa prendiamo?",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Che cosa prendiamo? · livello difficile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Giulia e Matteo sono al mercatino dell’usato. Scrivi la forma giusta di questo o quello.",
+    "explanation": "Con un nome → come l’articolo (quegli strumenti, quei vecchi telefoni, quello specchio). Senza nome → quello, quella, quelli, quelle.",
+    "promptHelp": "Giulia und Matteo sind auf dem Flohmarkt. Schreibe die richtige Form von questo oder quello.",
+    "explanationHelp": "Mit Nomen → wie der Artikel. Ohne Nomen → quello, quella, quelli, quelle.",
+    "text": "– Guarda (questo) [[g1]] dischi qui: sono bellissimi!\n– Sì! E (quello) [[g2]] strumenti là in fondo?\n– No, (quello) [[g3]] sono troppo cari.\n– Scusi, quanto costa (questo) [[g4]] macchina fotografica?\n– Dieci euro. (quello) [[g5]] là, più piccola, costa solo cinque euro.\n– Io prendo (quello) [[g6]]orologio per mio padre.\n– Quale? (quello) [[g7]] con i numeri grandi?\n– No, l’altro, vicino a (quello) [[g8]] vecchi telefoni.\n– E per la nonna? – Per lei prendo (quello) [[g9]] cartoline di Roma.\n– Guarda anche (quello) [[g10]] specchio: è perfetto per la tua camera!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "questi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "quegli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quelli"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "questa"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Quella"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "quell’"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Quello"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "quei"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "quelle"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "quello"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-quello-s3",
+  "title": "Qual è la forma giusta?",
+  "language": "it",
+  "level": "A2",
+  "description": "Quello come accompagnatore · Qual è la forma giusta? · livello difficile.",
+  "topics": [
+   "Quello come accompagnatore",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+  },
+  "estimatedMinutes": 17,
+  "grammar": {
+   "topic": "ecco2-quello",
+   "topicTitle": "Quello come accompagnatore",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+   "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Quelli libri sono miei, quei sono tuoi."
+     },
+     {
+      "id": "o2",
+      "text": "Quei libri sono miei, quelli sono tuoi."
+     },
+     {
+      "id": "o3",
+      "text": "Quegli libri sono miei, quelli sono tuoi."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Conosci quello psicologo?"
+     },
+     {
+      "id": "o2",
+      "text": "Conosci quel psicologo?"
+     },
+     {
+      "id": "o3",
+      "text": "Conosci quell’psicologo?"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "– Quale gelato vuoi?",
+    "explanation": "",
+    "promptHelp": "Welche Antwort ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Quel al cioccolato."
+     },
+     {
+      "id": "o2",
+      "text": "Quell’al cioccolato."
+     },
+     {
+      "id": "o3",
+      "text": "Quello al cioccolato."
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Che belli quei stivali!"
+     },
+     {
+      "id": "o2",
+      "text": "Che belli quegli stivali!"
+     },
+     {
+      "id": "o3",
+      "text": "Che belli quelli stivali!"
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Qual è il plurale di «quell’amico»?",
+    "explanation": "",
+    "promptHelp": "Wie lautet der Plural von «quell’amico»?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "quei amici"
+     },
+     {
+      "id": "o2",
+      "text": "quelli amici"
+     },
+     {
+      "id": "o3",
+      "text": "quegli amici"
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q6",
+    "type": "open_answer",
+    "prompt": "Descrivi una vecchia foto (vera o inventata) in 4–5 frasi. Usa forme diverse di quello: quel, quella, quell’, quei, quegli, quelle.",
+    "explanation": "",
+    "promptHelp": "Beschreibe ein altes Foto (echt oder erfunden) in 4–5 Sätzen. Verwende verschiedene Formen von quello.",
+    "modelAnswer": "In questa foto ci sono i miei nonni da giovani. Quel ragazzo con la bicicletta è mio nonno. Quella ragazza con il vestito bianco è mia nonna. Quegli alberi sono nel giardino della loro prima casa. In quegli anni abitavano in un piccolo paese. Quell’estate si sono sposati.",
+    "lines": 6
    }
   ]
  },
@@ -192499,6 +201849,3636 @@ const STOCK_PACKAGES = [
     "promptHelp": "Ein italienischer Junge kommt an deine Schule. Erkläre 5 Regeln oder Gewohnheiten mit si.",
     "modelAnswer": "Nella mia scuola si entra alle otto. In classe non si usa il telefonino. A mezzogiorno si mangia in mensa. Si studiano due o tre lingue straniere. Il sabato non si va a scuola.",
     "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-l1",
+  "title": "Le congiunzioni",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Le congiunzioni · livello facile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire? Abbina.",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das? Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "perché",
+      "right": "weil"
+     },
+     {
+      "id": "p2",
+      "left": "siccome",
+      "right": "da (am Satzanfang)"
+     },
+     {
+      "id": "p3",
+      "left": "quando",
+      "right": "als / wenn (Zeit)"
+     },
+     {
+      "id": "p4",
+      "left": "mentre",
+      "right": "während"
+     },
+     {
+      "id": "p5",
+      "left": "se",
+      "right": "falls"
+     },
+     {
+      "id": "p6",
+      "left": "anche se",
+      "right": "auch wenn / obwohl"
+     },
+     {
+      "id": "p7",
+      "left": "dopo che",
+      "right": "nachdem"
+     },
+     {
+      "id": "p8",
+      "left": "appena",
+      "right": "sobald"
+     },
+     {
+      "id": "p9",
+      "left": "che",
+      "right": "dass"
+     }
+    ],
+    "distractors": [
+     "bevor",
+     "damit"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-l2",
+  "title": "Qual è la congiunzione giusta?",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Qual è la congiunzione giusta? · livello facile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la congiunzione giusta.",
+    "explanation": "perché / siccome = causa; quando / mentre / appena / dopo che = tempo; se = condizione; anche se = contrasto; dire che …",
+    "promptHelp": "Wähle die passende Konjunktion.",
+    "explanationHelp": "perché / siccome = Grund; quando / mentre / appena / dopo che = Zeit; se = Bedingung; anche se = Gegensatz; dire che = sagen, dass.",
+    "text": "Stasera vado a letto presto [[g1]] sono molto stanco.\n[[g2]] ero piccolo, non avevo il telefono.\nÈ vero [[g3]] una volta si scrivevano molte lettere.\n[[g4]] la nonna cucinava, il nonno leggeva il giornale.\n[[g5]] domani piove, restiamo a casa.\nVado a scuola in bici [[g6]] piove forte.\n[[g7]] non c’era la televisione, la sera si parlava molto.\nTi chiamo [[g8]] arrivo a casa.\n[[g9]] ho finito i compiti, esco con gli amici.\nLa nonna dice [[g10]] una volta la vita era più semplice.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "perché",
+       "per",
+       "che"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quando",
+       "Che",
+       "Anche"
+      ],
+      "answer": "Quando"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "che",
+       "quando",
+       "mentre"
+      ],
+      "answer": "che"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Mentre",
+       "Che",
+       "Dopo"
+      ],
+      "answer": "Mentre"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Se",
+       "Che",
+       "Per"
+      ],
+      "answer": "Se"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "anche se",
+       "anche",
+       "che"
+      ],
+      "answer": "anche se"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Siccome",
+       "Che",
+       "Per"
+      ],
+      "answer": "Siccome"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "appena",
+       "appena che",
+       "che"
+      ],
+      "answer": "appena"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Dopo che",
+       "Che",
+       "Dopo"
+      ],
+      "answer": "Dopo che"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "che",
+       "di",
+       "siccome"
+      ],
+      "answer": "che"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-l3",
+  "title": "Prima, adesso o dopo?",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Prima, adesso o dopo? · livello facile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quando succede l’azione dopo «che»? Guarda il tempo del verbo.",
+    "explanation": "passato prossimo / imperfetto = prima; presente = adesso; futuro = dopo.",
+    "promptHelp": "Wann geschieht die Handlung nach «che»? Achte auf die Zeitform.",
+    "explanationHelp": "passato prossimo / imperfetto = vorher; Präsens = jetzt; Futur = später.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "prima (passato)"
+     },
+     {
+      "id": "b",
+      "label": "adesso (presente)"
+     },
+     {
+      "id": "c",
+      "label": "dopo (futuro)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Vedo che hai comprato un telefono nuovo.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "So che i nonni abitavano in campagna.",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "La prof dice che abbiamo lavorato bene.",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "Sara scrive che è arrivata a Londra.",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "So che Sara sta studiando.",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "Vedo che sei stanco.",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "So che la mamma è in ufficio.",
+      "category": "b"
+     },
+     {
+      "id": "i8",
+      "text": "Dicono che in città c’è molto traffico.",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "So che Marco arriverà tardi.",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "Il nonno dice che domani pioverà.",
+      "category": "c"
+     },
+     {
+      "id": "i11",
+      "text": "Sono sicuro che vinceremo.",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "Leggo che il concerto comincerà alle nove.",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-m1",
+  "title": "La nonna ieri e oggi",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · La nonna ieri e oggi · livello medio.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Metti il verbo al tempo giusto (presente, passato prossimo, imperfetto o futuro).",
+    "explanation": "quando / siccome / mentre + imperfetto per descrivere il passato; ieri → passato prossimo; domani → futuro (o presente).",
+    "promptHelp": "Setze das Verb in die richtige Zeit (Präsens, passato prossimo, imperfetto oder Futur).",
+    "explanationHelp": "quando / siccome / mentre + imperfetto für Beschreibungen in der Vergangenheit; ieri → passato prossimo; domani → Futur (oder Präsens).",
+    "text": "Quando la nonna (essere) [[g1]] giovane, non (esistere) [[g2]] i cellulari.\nSiccome non (avere, lei) [[g3]] il telefono a casa, scriveva molte lettere.\nMentre lei (scrivere) [[g4]], sua madre cucinava.\nOggi la nonna dice che la vita (essere) [[g5]] più comoda.\nUsa il tablet ogni giorno, anche se non (capire) [[g6]] tutto.\nAppena (ricevere) [[g7]] una foto, risponde con un cuore.\nSo che ieri (mandare, lei) [[g8]] dieci messaggi alla zia.\nE sono sicura che domani mi (chiamare, lei) [[g9]] di nuovo.\nSe domani (fare) [[g10]] bel tempo, andiamo insieme al parco.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "esistevano"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "scriveva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "capisce"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "riceve"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha mandato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "chiamerà",
+       "chiama"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "fa",
+       "farà"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-m2",
+  "title": "Unisci le frasi",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Unisci le frasi · livello medio.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci le due frasi con la congiunzione tra parentesi.",
+    "explanation": "",
+    "promptHelp": "Verbinde die beiden Sätze mit der Konjunktion in Klammern.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Resto a casa. Piove. (perché) → Resto a casa …",
+      "acceptedAnswers": [
+       "perché piove"
+      ],
+      "modelAnswer": "Resto a casa perché piove."
+     },
+     {
+      "id": "s2",
+      "start": "Giocavo sempre fuori. Ero piccolo. (quando) → Giocavo sempre fuori …",
+      "acceptedAnswers": [
+       "quando ero piccolo"
+      ],
+      "modelAnswer": "Giocavo sempre fuori quando ero piccolo."
+     },
+     {
+      "id": "s3",
+      "start": "Finisco i compiti. Sono stanca. (anche se) → Finisco i compiti …",
+      "acceptedAnswers": [
+       "anche se sono stanca"
+      ],
+      "modelAnswer": "Finisco i compiti anche se sono stanca."
+     },
+     {
+      "id": "s4",
+      "start": "Ti scrivo. Arrivo a casa. (appena) → Ti scrivo …",
+      "acceptedAnswers": [
+       "appena arrivo a casa"
+      ],
+      "modelAnswer": "Ti scrivo appena arrivo a casa."
+     },
+     {
+      "id": "s5",
+      "start": "Luca è malato. Lo so. (che) → So …",
+      "acceptedAnswers": [
+       "che Luca è malato"
+      ],
+      "modelAnswer": "So che Luca è malato."
+     },
+     {
+      "id": "s6",
+      "start": "Vieni con noi! Hai tempo? (se) → Vieni con noi …",
+      "acceptedAnswers": [
+       "se hai tempo"
+      ],
+      "modelAnswer": "Vieni con noi se hai tempo!"
+     },
+     {
+      "id": "s7",
+      "start": "Il nonno leggeva. La nonna telefonava. (mentre) → Il nonno leggeva …",
+      "acceptedAnswers": [
+       "mentre la nonna telefonava"
+      ],
+      "modelAnswer": "Il nonno leggeva mentre la nonna telefonava."
+     },
+     {
+      "id": "s8",
+      "start": "Non avevamo la macchina. Andavamo a piedi. (siccome) → …, andavamo a piedi.",
+      "acceptedAnswers": [
+       "siccome non avevamo la macchina"
+      ],
+      "modelAnswer": "Siccome non avevamo la macchina, andavamo a piedi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-m3",
+  "title": "Frasi in ordine",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Frasi in ordine · livello medio.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Siccome"
+     },
+     {
+      "id": "i2",
+      "text": "oggi piove,"
+     },
+     {
+      "id": "i3",
+      "text": "prendiamo"
+     },
+     {
+      "id": "i4",
+      "text": "l’autobus."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "So che"
+     },
+     {
+      "id": "i2",
+      "text": "i miei nonni"
+     },
+     {
+      "id": "i3",
+      "text": "si sono conosciuti"
+     },
+     {
+      "id": "i4",
+      "text": "a una festa."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ti telefono"
+     },
+     {
+      "id": "i2",
+      "text": "appena"
+     },
+     {
+      "id": "i3",
+      "text": "finisco"
+     },
+     {
+      "id": "i4",
+      "text": "i compiti."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine e forma una frase.",
+    "explanation": "In italiano l’ordine delle parole nella subordinata non cambia: perché **sono** stanco, appena **finisco** i compiti.",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "explanationHelp": "Im Italienischen bleibt die Wortstellung im Nebensatz gleich: Das Verb wandert nicht ans Ende.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Anche se"
+     },
+     {
+      "id": "i2",
+      "text": "ha novant’anni,"
+     },
+     {
+      "id": "i3",
+      "text": "mia nonna usa"
+     },
+     {
+      "id": "i4",
+      "text": "il computer."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-s1",
+  "title": "Dieci frasi, dieci errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Dieci frasi, dieci errori · livello difficile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore (verbo o congiunzione). Correggi.",
+    "explanation": "so che, dico che, anche se → indicativo (non congiuntivo). Nel passato: mentre + imperfetto. Dopo **se** mai il condizionale. Si dice **appena** e **anche se**, non _appena che_ o solo _anche_.",
+    "promptHelp": "In jedem Satz steckt ein Fehler (Verb oder Konjunktion). Korrigiere.",
+    "explanationHelp": "so che, dico che, anche se → Indikativ (kein congiuntivo). In der Vergangenheit: mentre + imperfetto. Nach **se** nie das condizionale. Es heißt **appena** und **anche se**, nicht _appena che_ oder nur _anche_.",
+    "text": "So che Luca [[g1]] malato.\nAnche se [[g2]] tardi, guardo ancora un film.\nQuando [[g3]] piccolo, abitavo a Napoli.\nSo che ieri Maria [[g4]] per Londra.\nSono sicuro che domani [[g5]].\nMentre [[g6]], è arrivato Paolo.\nTi chiamo [[g7]] arrivo.\nIl prof dice che Sara [[g8]] ragione.\nVado a scuola in bici [[g9]] piove.\nSe domani [[g10]], restiamo a casa.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "sia",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "sia",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "ero"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "parte",
+      "acceptedAnswers": [
+       "è partita"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "ha piovuto",
+      "acceptedAnswers": [
+       "pioverà",
+       "piove"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "ho mangiato",
+      "acceptedAnswers": [
+       "mangiavo",
+       "stavo mangiando"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "appena che",
+      "acceptedAnswers": [
+       "appena"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "abbia",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "anche",
+      "acceptedAnswers": [
+       "anche se"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "pioverebbe",
+      "acceptedAnswers": [
+       "piove",
+       "pioverà"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-s2",
+  "title": "Il blog di Chiara",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Il blog di Chiara · livello difficile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Chiara scrive di sua nonna. Metti i verbi al tempo giusto.",
+    "explanation": "ai suoi tempi, quando aveva quindici anni → imperfetto; la settimana scorsa → passato prossimo; fra un anno → futuro.",
+    "promptHelp": "Chiara schreibt über ihre Oma. Setze die Verben in die richtige Zeit.",
+    "explanationHelp": "ai suoi tempi, quando aveva quindici anni → imperfetto; la settimana scorsa → passato prossimo; fra un anno → Futur.",
+    "text": "Mia nonna dice sempre che ai suoi tempi la vita (essere) [[g1]] più semplice.\nIo so che lei (avere) [[g2]] ragione, almeno un po’.\nQuando (avere, lei) [[g3]] quindici anni, (lavorare) [[g4]] già in un negozio.\nSiccome la sua famiglia non (avere) [[g5]] molti soldi, la nonna ha lasciato la scuola presto.\nSo che la settimana scorsa (comprare, lei) [[g6]] un tablet.\nAnche se non (capire, lei) [[g7]] ancora tutto, non ha paura di provare.\nOggi, mentre io (fare) [[g8]] i compiti, lei guarda video di cucina.\nSono sicura che fra un anno (sapere, lei) [[g9]] usare il tablet meglio di me!\nE so già che appena (leggere, lei) [[g10]] questo testo, mi (telefonare) [[g11]] subito.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "lavorava"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ha comprato"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "capisce"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "faccio",
+       "sto facendo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "saprà"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "leggerà",
+       "legge"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "telefonerà",
+       "telefona"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-subordinate-indicativo-s3",
+  "title": "Che tempo ci vuole?",
+  "language": "it",
+  "level": "A2",
+  "description": "Subordinate e sequenza dei tempi I · Che tempo ci vuole? · livello difficile.",
+  "topics": [
+   "Subordinate e sequenza dei tempi I",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "5 · Ieri e oggi",
+    "section": "Parte B"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+  },
+  "estimatedMinutes": 17,
+  "grammar": {
+   "topic": "ecco2-subordinate-indicativo",
+   "topicTitle": "Subordinate e sequenza dei tempi I",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+   "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "So che Marta … ieri sera.",
+    "explanation": "",
+    "promptHelp": "Welche Form passt?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "tornerà"
+     },
+     {
+      "id": "o2",
+      "text": "è tornata"
+     },
+     {
+      "id": "o3",
+      "text": "torna"
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Sono sicuro che l’anno prossimo … in Italia.",
+    "explanation": "",
+    "promptHelp": "Welche Form passt?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "siamo andati"
+     },
+     {
+      "id": "o2",
+      "text": "andavamo"
+     },
+     {
+      "id": "o3",
+      "text": "andremo"
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Vedo che … stanco: vai a letto!",
+    "explanation": "",
+    "promptHelp": "Welche Form passt?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "sei"
+     },
+     {
+      "id": "o2",
+      "text": "eri"
+     },
+     {
+      "id": "o3",
+      "text": "sarai"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Anche se piova, usciamo."
+     },
+     {
+      "id": "o2",
+      "text": "Anche se piove, usciamo."
+     },
+     {
+      "id": "o3",
+      "text": "Anche piove, usciamo."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Quale frase è corretta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Siccome sia tardi, torniamo a casa."
+     },
+     {
+      "id": "o2",
+      "text": "Torniamo a casa siccome che è tardi."
+     },
+     {
+      "id": "o3",
+      "text": "Siccome è tardi, torniamo a casa."
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q6",
+    "type": "open_answer",
+    "prompt": "Com’era la vita dei tuoi nonni da giovani e com’è la tua oggi? Scrivi 5 frasi. Usa: quando, mentre, perché, anche se, so che.",
+    "explanation": "",
+    "promptHelp": "Wie war das Leben deiner Großeltern in ihrer Jugend, und wie ist deins heute? Schreibe 5 Sätze. Verwende: quando, mentre, perché, anche se, so che.",
+    "modelAnswer": "Quando mia nonna era giovane, non aveva il telefono. Scriveva molte lettere perché i suoi amici abitavano lontano. Mentre lei aiutava in casa, i suoi fratelli lavoravano in campagna. Io invece scrivo messaggi ogni giorno, anche se vedo i miei amici a scuola. So che la vita di oggi è più comoda, ma non so se è più bella.",
+    "lines": 6
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-l1",
+  "title": "Molto = -issimo",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Molto = -issimo · livello facile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina le due forme.",
+    "explanation": "",
+    "promptHelp": "Verbinde die beiden Formen.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "molto antico",
+      "right": "antichissimo"
+     },
+     {
+      "id": "p2",
+      "left": "molto lungo",
+      "right": "lunghissimo"
+     },
+     {
+      "id": "p3",
+      "left": "molto buono",
+      "right": "ottimo"
+     },
+     {
+      "id": "p4",
+      "left": "molto cattivo",
+      "right": "pessimo"
+     },
+     {
+      "id": "p5",
+      "left": "molto bene",
+      "right": "benissimo"
+     },
+     {
+      "id": "p6",
+      "left": "molto male",
+      "right": "malissimo"
+     },
+     {
+      "id": "p7",
+      "left": "molto poco",
+      "right": "pochissimo"
+     },
+     {
+      "id": "p8",
+      "left": "molto grande",
+      "right": "grandissimo"
+     },
+     {
+      "id": "p9",
+      "left": "molto famoso",
+      "right": "famosissimo"
+     },
+     {
+      "id": "p10",
+      "left": "molto stanco",
+      "right": "stanchissimo"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-l2",
+  "title": "Una giornata a Roma",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Una giornata a Roma · livello facile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "-issimo concorda con il nome; -co/-go → -chissimo/-ghissimo; l’avverbio (benissimo) non cambia.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "-issimo richtet sich nach dem Nomen; -co/-go → -chissimo/-ghissimo; das Adverb (benissimo) bleibt unverändert.",
+    "text": "Il Colosseo è [[g1]].\nLa Fontana di Trevi è [[g2]].\nLe strade del centro sono [[g3]].\nI musei sono [[g4]].\nIl Pantheon è [[g5]].\nLa fila davanti ai Musei Vaticani è [[g6]].\nIn agosto a Roma fa [[g7]].\nI gelati sono [[g8]].\nLa sera siamo [[g9]], ma felici.\nA Roma abbiamo mangiato [[g10]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "grandissimo",
+       "grandissima",
+       "grandissimi"
+      ],
+      "answer": "grandissimo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "famosissima",
+       "famosissimo",
+       "famosissime"
+      ],
+      "answer": "famosissima"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "strettissime",
+       "strettissimi",
+       "strettissima"
+      ],
+      "answer": "strettissime"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "interessantissimi",
+       "interessantissime",
+       "interessantissimo"
+      ],
+      "answer": "interessantissimi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "antichissimo",
+       "anticissimo",
+       "antichissima"
+      ],
+      "answer": "antichissimo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "lunghissima",
+       "lungissima",
+       "lunghissimo"
+      ],
+      "answer": "lunghissima"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "caldissimo",
+       "caldissima",
+       "caldissimi"
+      ],
+      "answer": "caldissimo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "buonissimi",
+       "buonissime",
+       "benissimo"
+      ],
+      "answer": "buonissimi"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "stanchissimi",
+       "stancissimi",
+       "stanchissimo"
+      ],
+      "answer": "stanchissimi"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "benissimo",
+       "buonissimo",
+       "benissimi"
+      ],
+      "answer": "benissimo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-l3",
+  "title": "Aggettivo o avverbio?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Aggettivo o avverbio? · livello facile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "La parola in -issimo (o ottimo / pessimo) è un aggettivo o un avverbio?",
+    "explanation": "",
+    "promptHelp": "Ist das Wort auf -issimo (oder ottimo / pessimo) ein Adjektiv oder ein Adverb?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "aggettivo (concorda con il nome)"
+     },
+     {
+      "id": "b",
+      "label": "avverbio (non cambia)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "È una città bellissima.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "Sto benissimo, grazie.",
+      "category": "b"
+     },
+     {
+      "id": "i3",
+      "text": "Stanotte ho dormito pochissimo.",
+      "category": "b"
+     },
+     {
+      "id": "i4",
+      "text": "È un’ottima idea.",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "Oggi il tempo è pessimo.",
+      "category": "a"
+     },
+     {
+      "id": "i6",
+      "text": "Roma mi piace moltissimo.",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "Le chiese sono antichissime.",
+      "category": "a"
+     },
+     {
+      "id": "i8",
+      "text": "Oggi sto malissimo.",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "In inverno ci sono pochissimi turisti.",
+      "category": "a"
+     },
+     {
+      "id": "i10",
+      "text": "Ieri abbiamo camminato tantissimo.",
+      "category": "b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-m1",
+  "title": "Una mail da Roma",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Una mail da Roma · livello medio.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il superlativo assoluto in -issimo nella forma giusta.",
+    "explanation": "Guarda il nome: la città → bellissima, i motorini → velocissimi. Gli avverbi (pochissimo, benissimo) non cambiano.",
+    "promptHelp": "Ergänze den absoluten Superlativ auf -issimo in der richtigen Form.",
+    "explanationHelp": "Achte auf das Nomen: la città → bellissima, i motorini → velocissimi. Adverbien (pochissimo, benissimo) bleiben unverändert.",
+    "text": "Ciao Matteo, sono a Roma da tre giorni e la città è (bello) [[g1]].\nIeri abbiamo visitato il Colosseo: è (grande) [[g2]] e (antico) [[g3]].\nLa fila per entrare era (lungo) [[g4]], ma la guida era (simpatico) [[g5]].\nLe strade del centro sono (stretto) [[g6]] e i motorini sono (veloce) [[g7]].\nIl gelato vicino al Pantheon costa (poco) [[g8]] ed è (buono) [[g9]].\nAdesso sono (stanco) [[g10]], ma sto (bene) [[g11]]. A presto, Davide",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bellissima"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "grandissimo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "antichissimo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "lunghissima"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "simpaticissima"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "strettissime"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "velocissimi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "pochissimo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "buonissimo",
+       "ottimo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "stanchissimo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-m2",
+  "title": "Dillo con una parola",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Dillo con una parola · livello medio.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Sostituisci molto + aggettivo / avverbio con una forma in -issimo.",
+    "explanation": "",
+    "promptHelp": "Ersetze molto + Adjektiv / Adverb durch eine Form auf -issimo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Il Pantheon è molto antico. → Il Pantheon è …",
+      "acceptedAnswers": [
+       "antichissimo"
+      ],
+      "modelAnswer": "Il Pantheon è antichissimo."
+     },
+     {
+      "id": "s2",
+      "start": "La cupola è molto alta. → La cupola è …",
+      "acceptedAnswers": [
+       "altissima"
+      ],
+      "modelAnswer": "La cupola è altissima."
+     },
+     {
+      "id": "s3",
+      "start": "I biglietti sono molto cari. → I biglietti sono …",
+      "acceptedAnswers": [
+       "carissimi"
+      ],
+      "modelAnswer": "I biglietti sono carissimi."
+     },
+     {
+      "id": "s4",
+      "start": "Le piazze di Roma sono molto famose. → Le piazze di Roma sono …",
+      "acceptedAnswers": [
+       "famosissime"
+      ],
+      "modelAnswer": "Le piazze di Roma sono famosissime."
+     },
+     {
+      "id": "s5",
+      "start": "Il viaggio in treno è molto lungo. → Il viaggio in treno è …",
+      "acceptedAnswers": [
+       "lunghissimo"
+      ],
+      "modelAnswer": "Il viaggio in treno è lunghissimo."
+     },
+     {
+      "id": "s6",
+      "start": "Le guide sono molto simpatiche. → Le guide sono …",
+      "acceptedAnswers": [
+       "simpaticissime"
+      ],
+      "modelAnswer": "Le guide sono simpaticissime."
+     },
+     {
+      "id": "s7",
+      "start": "Ho dormito molto male. → Ho dormito …",
+      "acceptedAnswers": [
+       "malissimo"
+      ],
+      "modelAnswer": "Ho dormito malissimo."
+     },
+     {
+      "id": "s8",
+      "start": "La gita è andata molto bene. → La gita è andata …",
+      "acceptedAnswers": [
+       "benissimo"
+      ],
+      "modelAnswer": "La gita è andata benissimo."
+     },
+     {
+      "id": "s9",
+      "start": "Siamo molto stanchi. → Siamo …",
+      "acceptedAnswers": [
+       "stanchissimi"
+      ],
+      "modelAnswer": "Siamo stanchissimi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-m3",
+  "title": "-chissimo e -ghissimo",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · -chissimo e -ghissimo · livello medio.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa la tabella.",
+    "explanation": "Guarda il plurale maschile: antichi → antichissimo, lunghi → lunghissimo, ma simpatici → simpaticissimo.",
+    "promptHelp": "Ergänze die Tabelle.",
+    "explanationHelp": "Schau auf den männlichen Plural: antichi → antichissimo, lunghi → lunghissimo, aber simpatici → simpaticissimo.",
+    "columns": [
+     "aggettivo",
+     "maschile singolare",
+     "femminile plurale"
+    ],
+    "rows": [
+     [
+      "antico",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "antichissimo"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "antichissime"
+       ]
+      }
+     ],
+     [
+      "lungo",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "lunghissimo"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "lunghissime"
+       ]
+      }
+     ],
+     [
+      "simpatico",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "simpaticissimo"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "simpaticissime"
+       ]
+      }
+     ],
+     [
+      "ricco",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "ricchissimo"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "ricchissime"
+       ]
+      }
+     ],
+     [
+      "largo",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "larghissimo"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "larghissime"
+       ]
+      }
+     ],
+     [
+      "fresco",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "freschissimo"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "freschissime"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · Trova gli errori · livello difficile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Mai molto + -issimo; ottimo e pessimo sono già superlativi; dopo un verbo come mangiare o dormire serve l’avverbio (benissimo, pochissimo).",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "Nie molto + -issimo; ottimo und pessimo sind schon Superlative; nach einem Verb wie mangiare oder dormire steht das Adverb (benissimo, pochissimo).",
+    "text": "La Fontana di Trevi è [[g1]].\nLe strade sono [[g2]].\nIl Foro Romano è [[g3]].\nIl gelato è [[g4]].\nI miei compagni sono [[g5]].\nA Roma abbiamo mangiato [[g6]].\nLe ragazze sono [[g7]].\nIeri ho dormito [[g8]].\nIeri il tempo era [[g9]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "famosissimo",
+      "acceptedAnswers": [
+       "famosissima"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "lungissime",
+      "acceptedAnswers": [
+       "lunghissime"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "anticissimo",
+      "acceptedAnswers": [
+       "antichissimo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "molto buonissimo",
+      "acceptedAnswers": [
+       "buonissimo",
+       "molto buono",
+       "ottimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "simpatichissimi",
+      "acceptedAnswers": [
+       "simpaticissimi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "buonissimo",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "stanchissimi",
+      "acceptedAnswers": [
+       "stanchissime"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "pochissima",
+      "acceptedAnswers": [
+       "pochissimo"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "pessimissimo",
+      "acceptedAnswers": [
+       "pessimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-s2",
+  "title": "La recensione di Sara",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · La recensione di Sara · livello difficile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi una sola parola al posto delle parole tra parentesi (-issimo, ottimo, pessimo).",
+    "explanation": "",
+    "promptHelp": "Schreibe statt der Wörter in Klammern ein einziges Wort (-issimo, ottimo, pessimo).",
+    "text": "Il nostro albergo era (molto piccolo) [[g1]], ma la posizione era (molto buona) [[g2]].\nLa colazione, invece, era (molto cattiva) [[g3]]: solo pane vecchio e caffè freddo.\nLe camere erano (molto pulite) [[g4]] e i letti (molto comodi) [[g5]].\nDi notte però ho dormito (molto poco) [[g6]], perché la strada era (molto rumorosa) [[g7]].\nIl personale è stato (molto gentile) [[g8]]: ci ha dato (molti) [[g9]] consigli.\nIn generale siamo stati (molto bene) [[g10]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "piccolissimo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ottima",
+       "buonissima"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "pessima",
+       "cattivissima"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "pulitissime"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "comodissimi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "pochissimo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "rumorosissima"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "gentilissimo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "moltissimi",
+       "tantissimi"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-assoluto-s3",
+  "title": "La mia città",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo assoluto · La mia città · livello difficile.",
+  "topics": [
+   "Il superlativo assoluto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Per cominciare"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco2-superlativo-assoluto",
+   "topicTitle": "Il superlativo assoluto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+   "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi una città che conosci bene. Usa almeno cinque superlativi assoluti (aggettivi e avverbi).",
+    "explanation": "",
+    "promptHelp": "Beschreibe eine Stadt, die du gut kennst. Verwende mindestens fünf absolute Superlative (Adjektive und Adverbien).",
+    "modelAnswer": "Monaco è una città bellissima. Il centro è antichissimo e i parchi sono grandissimi. In inverno fa freddissimo, ma io qui sto benissimo. I musei sono interessantissimi e i miei amici sono simpaticissimi.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma è giusta?",
+    "explanation": "",
+    "promptHelp": "Prüfe: Welche Form ist richtig?",
+    "text": "Il centro è [[g1]].\nI parchi sono [[g2]].\nQui si mangia [[g3]].\nI miei amici sono [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "antichissimo",
+       "anticissimo"
+      ],
+      "answer": "antichissimo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "grandissimi",
+       "grandissime"
+      ],
+      "answer": "grandissimi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "benissimo",
+       "buonissimo"
+      ],
+      "answer": "benissimo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "simpaticissimi",
+       "simpatichissimi"
+      ],
+      "answer": "simpaticissimi"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-l1",
+  "title": "Record!",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Record! · livello facile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la descrizione al nome giusto.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Beschreibung mit dem richtigen Namen.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il fiume più lungo d’Italia",
+      "right": "il Po"
+     },
+     {
+      "id": "p2",
+      "left": "la città più grande d’Italia",
+      "right": "Roma"
+     },
+     {
+      "id": "p3",
+      "left": "il lago più grande d’Italia",
+      "right": "il lago di Garda"
+     },
+     {
+      "id": "p4",
+      "left": "l’isola più grande del Mediterraneo",
+      "right": "la Sicilia"
+     },
+     {
+      "id": "p5",
+      "left": "lo Stato più piccolo del mondo",
+      "right": "la Città del Vaticano"
+     },
+     {
+      "id": "p6",
+      "left": "la montagna più alta del mondo",
+      "right": "l’Everest"
+     },
+     {
+      "id": "p7",
+      "left": "la montagna più alta delle Alpi",
+      "right": "il Monte Bianco"
+     },
+     {
+      "id": "p8",
+      "left": "il mese più corto dell’anno",
+      "right": "febbraio"
+     },
+     {
+      "id": "p9",
+      "left": "il Paese più grande del mondo",
+      "right": "la Russia"
+     },
+     {
+      "id": "p10",
+      "left": "il Paese più piccolo dell’Unione europea",
+      "right": "Malta"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-l2",
+  "title": "Il più, la più, i più, le più",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Il più, la più, i più, le più · livello facile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "articolo + più / meno + aggettivo + di: l’articolo c’è una sola volta.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Artikel + più / meno + Adjektiv + di: Der Artikel steht nur einmal.",
+    "text": "Il Po è [[g1]] fiume più lungo d’Italia.\nRoma è la città [[g2]] grande d’Italia.\nFebbraio è il mese più corto [[g3]]anno.\nDi tutte le ragazze, Sara è [[g4]] alta.\nQuesta gelateria è [[g5]] di Roma.\nLuca è [[g6]] sportivo della famiglia.\nL’Everest è la montagna più alta [[g7]] mondo.\nPer Matteo il lunedì è [[g8]] della settimana.\nLe ragazze della 9B sono [[g9]] brave della scuola.\nI miei nonni sono [[g10]] simpatici del mondo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "il",
+       "la",
+       "lo"
+      ],
+      "answer": "il"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "più",
+       "la più",
+       "molto"
+      ],
+      "answer": "più"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dell’",
+       "che l’",
+       "come l’"
+      ],
+      "answer": "dell’"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "la più",
+       "la molto",
+       "la tanto"
+      ],
+      "answer": "la più"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "la migliore",
+       "la più migliore",
+       "la meglio"
+      ],
+      "answer": "la migliore"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "il meno",
+       "il poco",
+       "meno il"
+      ],
+      "answer": "il meno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "del",
+       "che il",
+       "come il"
+      ],
+      "answer": "del"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "il giorno peggiore",
+       "il giorno più peggiore",
+       "il peggio giorno"
+      ],
+      "answer": "il giorno peggiore"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "le più",
+       "la più",
+       "i più"
+      ],
+      "answer": "le più"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "i più",
+       "le più",
+       "il più"
+      ],
+      "answer": "i più"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-l3",
+  "title": "Che tipo di frase è?",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Che tipo di frase è? · livello facile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Comparativo, superlativo relativo o superlativo assoluto?",
+    "explanation": "",
+    "promptHelp": "Komparativ, relativer Superlativ oder absoluter Superlativ?",
+    "categories": [
+     {
+      "id": "c",
+      "label": "comparativo (due cose)"
+     },
+     {
+      "id": "r",
+      "label": "superlativo relativo (un gruppo)"
+     },
+     {
+      "id": "a",
+      "label": "superlativo assoluto (senza confronto)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il Colosseo è antichissimo.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "Il Tevere è più corto del Po.",
+      "category": "c"
+     },
+     {
+      "id": "i3",
+      "text": "Il Po è il fiume più lungo d’Italia.",
+      "category": "r"
+     },
+     {
+      "id": "i4",
+      "text": "La Fontana di Trevi è famosissima.",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "Questa è la piazza più bella della città.",
+      "category": "r"
+     },
+     {
+      "id": "i6",
+      "text": "Il treno è meno caro dell’aereo.",
+      "category": "c"
+     },
+     {
+      "id": "i7",
+      "text": "Chiara è la migliore della classe in storia.",
+      "category": "r"
+     },
+     {
+      "id": "i8",
+      "text": "Oggi fa caldissimo.",
+      "category": "a"
+     },
+     {
+      "id": "i9",
+      "text": "Roma è più grande di Firenze.",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "Davide è il meno puntuale del gruppo.",
+      "category": "r"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-m1",
+  "title": "Record italiani e non",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Record italiani e non · livello medio.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi una frase con il superlativo relativo (+ = più, – = meno).",
+    "explanation": "articolo + nome + più / meno + aggettivo + di (+ articolo): d’Italia, dell’anno, del mondo, della classe.",
+    "promptHelp": "Schreibe einen Satz mit dem relativen Superlativ (+ = più, – = meno).",
+    "explanationHelp": "Artikel + Nomen + più / meno + Adjektiv + di (+ Artikel): d’Italia, dell’anno, del mondo, della classe.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(Roma / città / + grande / l’Italia)",
+      "acceptedAnswers": [
+       "la città più grande d’Italia",
+       "la più grande città d’Italia"
+      ],
+      "modelAnswer": "Roma è la città più grande d’Italia. (Anche: Roma è la più grande città d’Italia.)"
+     },
+     {
+      "id": "s2",
+      "start": "(il Po / fiume / + lungo / l’Italia)",
+      "acceptedAnswers": [
+       "il fiume più lungo d’Italia",
+       "il più lungo fiume d’Italia"
+      ],
+      "modelAnswer": "Il Po è il fiume più lungo d’Italia. (Anche: Il Po è il più lungo fiume d’Italia.)"
+     },
+     {
+      "id": "s3",
+      "start": "(febbraio / mese / + corto / l’anno)",
+      "acceptedAnswers": [
+       "il mese più corto dell’anno"
+      ],
+      "modelAnswer": "Febbraio è il mese più corto dell’anno."
+     },
+     {
+      "id": "s4",
+      "start": "(la Sicilia / isola / + grande / il Mediterraneo)",
+      "acceptedAnswers": [
+       "l’isola più grande del Mediterraneo",
+       "la più grande isola del Mediterraneo"
+      ],
+      "modelAnswer": "La Sicilia è l’isola più grande del Mediterraneo. (Anche: La Sicilia è la più grande isola del Mediterraneo.)"
+     },
+     {
+      "id": "s5",
+      "start": "(Malta / Paese / + piccolo / l’Unione europea)",
+      "acceptedAnswers": [
+       "il Paese più piccolo dell’Unione europea",
+       "il più piccolo Paese dell’Unione europea"
+      ],
+      "modelAnswer": "Malta è il Paese più piccolo dell’Unione europea. (Anche: Malta è il più piccolo Paese dell’Unione europea.)"
+     },
+     {
+      "id": "s6",
+      "start": "(Sara / ragazza / + sportiva / la classe)",
+      "acceptedAnswers": [
+       "la ragazza più sportiva della classe"
+      ],
+      "modelAnswer": "Sara è la ragazza più sportiva della classe."
+     },
+     {
+      "id": "s7",
+      "start": "(questo / albergo / – caro / la città)",
+      "acceptedAnswers": [
+       "l’albergo meno caro della città"
+      ],
+      "modelAnswer": "Questo è l’albergo meno caro della città."
+     },
+     {
+      "id": "s8",
+      "start": "(l’Everest / montagna / + alta / il mondo)",
+      "acceptedAnswers": [
+       "la montagna più alta del mondo",
+       "la più alta montagna del mondo"
+      ],
+      "modelAnswer": "L’Everest è la montagna più alta del mondo. (Anche: L’Everest è la più alta montagna del mondo.)"
+     },
+     {
+      "id": "s9",
+      "start": "(queste / scarpe / + comode / il negozio)",
+      "acceptedAnswers": [
+       "le scarpe più comode del negozio"
+      ],
+      "modelAnswer": "Queste sono le scarpe più comode del negozio."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-m2",
+  "title": "I voti di Davide",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · I voti di Davide · livello medio.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il superlativo relativo (+ = più, – = meno). Attenzione: l’articolo c’è una sola volta! Per buono e cattivo usa migliore e peggiore.",
+    "explanation": "Se l’articolo è già prima del nome (il monumento, il ristorante, la serata), non si ripete: il monumento più interessante.",
+    "promptHelp": "Ergänze den relativen Superlativ (+ = più, – = meno). Achtung: Der Artikel steht nur einmal! Für buono und cattivo nimm migliore und peggiore.",
+    "explanationHelp": "Steht der Artikel schon vor dem Nomen (il monumento, il ristorante, la serata), wird er nicht wiederholt: il monumento più interessante.",
+    "text": "La gita a Roma è stata (+ bello) [[g1]] dell’anno.\nIl Colosseo è stato il monumento (+ interessante) [[g2]] di tutti.\nIl primo giorno è stato (+ faticoso) [[g3]] della settimana: venti chilometri a piedi!\nPer la cena abbiamo scelto il ristorante (– caro) [[g4]] del quartiere.\nLa pizza di Trastevere era (+ buono) [[g5]] del viaggio.\nIl momento (+ cattivo) [[g6]] è stato il ritorno: sei ore di ritardo.\nMatteo e Luca erano (+ stanco) [[g7]] del gruppo.\nLe guide del Vaticano erano (+ bravo) [[g8]] di tutte.\nLa sera in Piazza Navona è stata la serata (+ divertente) [[g9]] della gita.\nE la nostra prof è stata (+ paziente) [[g10]] del mondo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "la più bella"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "più interessante"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "il più faticoso"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "meno caro"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "la migliore",
+       "la più buona"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "peggiore"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "i più stanchi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "le più brave"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "più divertente"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "la più paziente"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-m3",
+  "title": "Costruisci la frase",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Costruisci la frase · livello medio.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Rom ist die größte Stadt Italiens.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Roma"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "la città"
+     },
+     {
+      "id": "i4",
+      "text": "più grande d’Italia."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Sara ist die Sportlichste der Klasse.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Sara"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "la più"
+     },
+     {
+      "id": "i4",
+      "text": "sportiva"
+     },
+     {
+      "id": "i5",
+      "text": "della classe."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Das ist das am wenigsten teure Hotel der Stadt.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Questo"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "l’albergo"
+     },
+     {
+      "id": "i4",
+      "text": "meno caro della città."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parti in ordine: „Die beste Eisdiele Roms ist hier in der Nähe.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "La migliore"
+     },
+     {
+      "id": "i2",
+      "text": "gelateria"
+     },
+     {
+      "id": "i3",
+      "text": "di Roma"
+     },
+     {
+      "id": "i4",
+      "text": "è qui vicino."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Trova gli errori · livello difficile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Un solo articolo; mai più + migliore / peggiore; con un gruppo (delle Alpi) non -issimo, ma il più …",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "Nur ein Artikel; nie più + migliore / peggiore; mit einer Gruppe (delle Alpi) nicht -issimo, sondern il più …",
+    "text": "Roma è [[g1]] d’Italia.\nQuesto ristorante è [[g2]] del quartiere.\nLe mie amiche sono [[g3]] della scuola.\nFebbraio è [[g4]] dell’anno.\nLuca è il più alto [[g5]] classe.\nIl Monte Bianco è la montagna [[g6]] delle Alpi.\nChiara è [[g7]] della squadra.\nÈ stato il giorno [[g8]] della mia vita.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "la città la più grande",
+      "acceptedAnswers": [
+       "la città più grande",
+       "la più grande città"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "il più migliore",
+      "acceptedAnswers": [
+       "il migliore",
+       "il più buono"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "la più simpatiche",
+      "acceptedAnswers": [
+       "le più simpatiche"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "più corto mese",
+      "acceptedAnswers": [
+       "il mese più corto"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "di la",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "altissima",
+      "acceptedAnswers": [
+       "più alta"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "la meglio",
+      "acceptedAnswers": [
+       "la migliore",
+       "la più brava"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "più peggiore",
+      "acceptedAnswers": [
+       "peggiore",
+       "più brutto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-s2",
+  "title": "Nessuno è più …",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Nessuno è più … · livello difficile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Completa la seconda frase con il superlativo relativo: il significato non cambia.",
+    "explanation": "",
+    "promptHelp": "Ergänze den zweiten Satz mit dem relativen Superlativ: Die Bedeutung bleibt gleich.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Nessun fiume italiano è più lungo del Po. → Il Po è …",
+      "acceptedAnswers": [
+       "il fiume più lungo d’Italia",
+       "il fiume italiano più lungo",
+       "il più lungo fiume d’Italia"
+      ],
+      "modelAnswer": "Il Po è il fiume più lungo d’Italia. (Anche: il fiume italiano più lungo, il più lungo fiume d’Italia.)"
+     },
+     {
+      "id": "s2",
+      "start": "Nessuna città italiana è più grande di Roma. → Roma è …",
+      "acceptedAnswers": [
+       "la città più grande d’Italia",
+       "la città italiana più grande",
+       "la più grande città d’Italia"
+      ],
+      "modelAnswer": "Roma è la città più grande d’Italia. (Anche: la città italiana più grande, la più grande città d’Italia.)"
+     },
+     {
+      "id": "s3",
+      "start": "Nella classe nessuno è più alto di Davide. → Davide è …",
+      "acceptedAnswers": [
+       "il più alto della classe"
+      ],
+      "modelAnswer": "Davide è il più alto della classe."
+     },
+     {
+      "id": "s4",
+      "start": "Nessun mese è più corto di febbraio. → Febbraio è …",
+      "acceptedAnswers": [
+       "il mese più corto",
+       "il più corto dell’anno",
+       "il più corto di tutti"
+      ],
+      "modelAnswer": "Febbraio è il mese più corto dell’anno. (Anche: il più corto dell’anno, il più corto di tutti.)"
+     },
+     {
+      "id": "s5",
+      "start": "Nella squadra nessuna gioca meglio di Giulia. → Giulia è …",
+      "acceptedAnswers": [
+       "la migliore della squadra",
+       "la più brava della squadra",
+       "la giocatrice migliore della squadra",
+       "la giocatrice più brava della squadra"
+      ],
+      "modelAnswer": "Giulia è la migliore della squadra. (Anche: la più brava della squadra, la giocatrice migliore della squadra, la giocatrice più brava della squadra.)"
+     },
+     {
+      "id": "s6",
+      "start": "Tutti gli altri alberghi della città sono più cari di questo. → Questo è …",
+      "acceptedAnswers": [
+       "l’albergo meno caro della città",
+       "il meno caro della città"
+      ],
+      "modelAnswer": "Questo è l’albergo meno caro della città. (Anche: il meno caro della città.)"
+     },
+     {
+      "id": "s7",
+      "start": "Nessuna montagna del mondo è più alta dell’Everest. → L’Everest è …",
+      "acceptedAnswers": [
+       "la montagna più alta del mondo",
+       "la più alta montagna del mondo",
+       "la più alta del mondo"
+      ],
+      "modelAnswer": "L’Everest è la montagna più alta del mondo. (Anche: la più alta montagna del mondo, la più alta del mondo.)"
+     },
+     {
+      "id": "s8",
+      "start": "Tutti i miei amici sono più puntuali di Luca. → Luca è …",
+      "acceptedAnswers": [
+       "il meno puntuale"
+      ],
+      "modelAnswer": "Luca è il meno puntuale dei miei amici."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco2-superlativo-relativo-s3",
+  "title": "Un messaggio da Roma",
+  "language": "it",
+  "level": "A2",
+  "description": "Il superlativo relativo · Un messaggio da Roma · livello difficile.",
+  "topics": [
+   "Il superlativo relativo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "2",
+    "unit": "3 · Roma ed Europa",
+    "section": "Parte A"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco2-superlativo-relativo",
+   "topicTitle": "Il superlativo relativo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+   "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con la forma giusta: C = comparativo, R = superlativo relativo, A = superlativo assoluto.",
+    "explanation": "C: più … di · R: (il / la) più … di, con un solo articolo · A: -issimo.",
+    "promptHelp": "Ergänze die richtige Form: C = Komparativ, R = relativer Superlativ, A = absoluter Superlativ.",
+    "explanationHelp": "C: più … di · R: (il / la) più … di, mit nur einem Artikel · A: -issimo.",
+    "text": "Ciao Luca! Roma è (bello / A) [[g1]].\nÈ (grande / C) [[g2]] di Firenze: infatti è la città (grande / R) [[g3]] d’Italia.\nIl Colosseo è il monumento (famoso / R) [[g4]] della città, ma per me il Pantheon è (interessante / C) [[g5]] del Colosseo.\nIeri abbiamo mangiato in una trattoria (piccolo / A) [[g6]]: la carbonara era (buono / R) [[g7]] della mia vita!\nIl caffè, invece, era (cattivo / C) [[g8]] del caffè della scuola.\nChiara è (stanco / R) [[g9]] del gruppo, io invece sto (bene / A) [[g10]].\nDomani visitiamo i Musei Vaticani: lì la fila è sempre (lungo / A) [[g11]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bellissima"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "più grande"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "più grande"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "più famoso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "più interessante"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "piccolissima"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "la migliore",
+       "la più buona"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "peggiore",
+       "più cattivo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "la più stanca"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "lunghissima"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -198177,6 +211157,2003 @@ const STOCK_PACKAGES = [
       "modelAnswer": "Parlate di Roma come se aveste abitato lì per anni."
      }
     ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-l1",
+  "title": "Nome, aggettivo o avverbio?",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Nome, aggettivo o avverbio? · livello facile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Guarda il suffisso: che tipo di parola è?",
+    "explanation": "",
+    "promptHelp": "Achte auf das Suffix: Welche Wortart ist es?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "nome"
+     },
+     {
+      "id": "b",
+      "label": "aggettivo"
+     },
+     {
+      "id": "c",
+      "label": "avverbio"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "informazione",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "cambiamento",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "libertà",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "bellezza",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "famoso",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "nazionale",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "lavabile",
+      "category": "b"
+     },
+     {
+      "id": "i8",
+      "text": "regionale",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "credibile",
+      "category": "b"
+     },
+     {
+      "id": "i10",
+      "text": "lentamente",
+      "category": "c"
+     },
+     {
+      "id": "i11",
+      "text": "facilmente",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "veramente",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-l2",
+  "title": "Chi è? Che cos’è?",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Chi è? Che cos’è? · livello facile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la parola alla spiegazione. Guarda il suffisso!",
+    "explanation": "",
+    "promptHelp": "Verbinde das Wort mit der Erklärung. Achte auf das Suffix!",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il giornalaio",
+      "right": "vende giornali"
+     },
+     {
+      "id": "p2",
+      "left": "la gelateria",
+      "right": "il negozio dove si compra il gelato"
+     },
+     {
+      "id": "p3",
+      "left": "il lavoratore",
+      "right": "una persona che lavora"
+     },
+     {
+      "id": "p4",
+      "left": "la scrittrice",
+      "right": "una donna che scrive libri"
+     },
+     {
+      "id": "p5",
+      "left": "il turista",
+      "right": "una persona che viaggia per piacere"
+     },
+     {
+      "id": "p6",
+      "left": "la libreria",
+      "right": "il negozio dove si comprano i libri"
+     },
+     {
+      "id": "p7",
+      "left": "il fioraio",
+      "right": "vende fiori"
+     },
+     {
+      "id": "p8",
+      "left": "la pizzeria",
+      "right": "il locale dove si mangia la pizza"
+     },
+     {
+      "id": "p9",
+      "left": "l’allenatore",
+      "right": "prepara una squadra sportiva"
+     },
+     {
+      "id": "p10",
+      "left": "il dentista",
+      "right": "cura i denti"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-l3",
+  "title": "Il prefisso giusto",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Il prefisso giusto · livello facile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "in- diventa im- davanti a p / b / m, il- davanti a l, ir- davanti a r. (Infortunato esiste, ma vuol dire «ferito».)",
+    "promptHelp": "Wähle das richtige Wort.",
+    "explanationHelp": "in- wird vor p / b / m zu im-, vor l zu il-, vor r zu ir-. (Infortunato gibt es, es bedeutet aber „verletzt“.)",
+    "text": "Il contrario di «possibile» è [[g1]].\nIl contrario di «utile» è [[g2]].\nIl contrario di «legale» è [[g3]].\nIl contrario di «regolare» è [[g4]].\nIl contrario di «fortunato» è [[g5]].\nIl contrario di «ordine» è [[g6]].\n«Fare di nuovo» si dice [[g7]].\nUn allarme contro i furti è un allarme [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "impossibile",
+       "inpossibile",
+       "dispossibile"
+      ],
+      "answer": "impossibile"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "inutile",
+       "irutile",
+       "sutile"
+      ],
+      "answer": "inutile"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "illegale",
+       "inlegale",
+       "slegale"
+      ],
+      "answer": "illegale"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "irregolare",
+       "inregolare",
+       "disregolare"
+      ],
+      "answer": "irregolare"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sfortunato",
+       "infortunato",
+       "disfortunato"
+      ],
+      "answer": "sfortunato"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "disordine",
+       "inordine",
+       "sordine"
+      ],
+      "answer": "disordine"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "rifare",
+       "disfare",
+       "prefare"
+      ],
+      "answer": "rifare"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "antifurto",
+       "interfurto",
+       "prefurto"
+      ],
+      "answer": "antifurto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-s1",
+  "title": "Alterato vero o falso?",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Alterato vero o falso? · livello difficile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Che cosa esprime la parola? Attenzione ai falsi alterati!",
+    "explanation": "Il mattone non è un «grande matto», il burrone non è «molto burro», il tacchino non è un «piccolo tacco» e il postino porta la posta.",
+    "promptHelp": "Was drückt das Wort aus? Achtung, falsche alterati!",
+    "explanationHelp": "Der mattone (Ziegel) ist kein „großer Verrückter“, der burrone (Schlucht) nicht „viel Butter“, der tacchino (Truthahn) kein „kleiner Absatz“, und der postino ist der Briefträger.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "piccolo (diminutivo)"
+     },
+     {
+      "id": "b",
+      "label": "grande (accrescitivo)"
+     },
+     {
+      "id": "c",
+      "label": "brutto o cattivo (peggiorativo)"
+     },
+     {
+      "id": "d",
+      "label": "non è un alterato"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "gattino",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "casetta",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "fratellino",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "librone",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "nasone",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "tempaccio",
+      "category": "c"
+     },
+     {
+      "id": "i7",
+      "text": "parolaccia",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "giornataccia",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "mattone",
+      "category": "d"
+     },
+     {
+      "id": "i10",
+      "text": "burrone",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "tacchino",
+      "category": "d"
+     },
+     {
+      "id": "i12",
+      "text": "postino",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-s2",
+  "title": "Dal verbo e dall’aggettivo al nome",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Dal verbo e dall’aggettivo al nome · livello difficile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Forma il nome con il suffisso indicato. Attenzione all’ortografia!",
+    "explanation": "produrre → produzione (come tradurre → traduzione); ricco → ricchezza (con h, per mantenere il suono k).",
+    "promptHelp": "Bilde das Nomen mit dem angegebenen Suffix. Achte auf die Schreibung!",
+    "explanationHelp": "produrre → produzione (wie tradurre → traduzione); ricco → ricchezza (mit h, damit der k-Laut bleibt).",
+    "columns": [
+     "parola di base",
+     "suffisso",
+     "nome"
+    ],
+    "rows": [
+     [
+      "informare",
+      "-zione",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "informazione"
+       ]
+      }
+     ],
+     [
+      "emigrare",
+      "-zione",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "emigrazione"
+       ]
+      }
+     ],
+     [
+      "produrre",
+      "-zione",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "produzione"
+       ]
+      }
+     ],
+     [
+      "cambiare",
+      "-mento",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "cambiamento"
+       ]
+      }
+     ],
+     [
+      "trasferire",
+      "-mento",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "trasferimento"
+       ]
+      }
+     ],
+     [
+      "inquinare",
+      "-mento",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "inquinamento"
+       ]
+      }
+     ],
+     [
+      "povero",
+      "-tà",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "povertà"
+       ]
+      }
+     ],
+     [
+      "felice",
+      "-tà",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "felicità"
+       ]
+      }
+     ],
+     [
+      "sicuro",
+      "-ezza",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "sicurezza"
+       ]
+      }
+     ],
+     [
+      "ricco",
+      "-ezza",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "ricchezza"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-formazione-parole-s3",
+  "title": "Un Paese, tante regioni",
+  "language": "it",
+  "level": "B1",
+  "description": "Riconoscere la formazione delle parole · Un Paese, tante regioni · livello difficile.",
+  "topics": [
+   "Riconoscere la formazione delle parole",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco3-formazione-parole",
+   "topicTitle": "Riconoscere la formazione delle parole",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+   "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Forma la parola giusta dalla parola tra parentesi (nome, aggettivo o avverbio).",
+    "explanation": "",
+    "promptHelp": "Bilde aus dem Wort in Klammern das passende Wort (Nomen, Adjektiv oder Adverb).",
+    "text": "In Italia la (diverso) [[g1]] tra le regioni è una grande (ricco) [[g2]].\nOgni regione ha una cucina (tradizione) [[g3]] e spesso anche un dialetto.\nNegli anni del boom economico l’(emigrare) [[g4]] dal Sud verso il Nord è stata molto forte:\nmolti (lavorare) [[g5]] hanno lasciato il loro paese per le fabbriche delle grandi città.\nAll’inizio il (cambiare) [[g6]] non era facile\ne per alcuni trovare una casa era quasi (≠ possibile) [[g7]].\nCerti pregiudizi di allora oggi sembrano (≠ credibile) [[g8]].\n(fortunato) [[g9]] oggi i giovani si muovono (libero) [[g10]] in tutto il Paese,\ne chi parte porta con sé la (bello) [[g11]] della propria terra.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "diversità"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ricchezza"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "tradizionale"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "emigrazione"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lavoratori"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "cambiamento"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "impossibile"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "incredibili"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Fortunatamente"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "liberamente"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "bellezza"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-l1",
+  "title": "Oggi diventa quel giorno",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Oggi diventa quel giorno · livello facile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina le parole del discorso diretto a quelle del discorso indiretto al passato.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Wörter der direkten Rede mit denen der indirekten Rede in der Vergangenheit.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "oggi",
+      "right": "quel giorno"
+     },
+     {
+      "id": "p2",
+      "left": "domani",
+      "right": "il giorno dopo"
+     },
+     {
+      "id": "p3",
+      "left": "ieri",
+      "right": "il giorno prima"
+     },
+     {
+      "id": "p4",
+      "left": "qui",
+      "right": "lì"
+     },
+     {
+      "id": "p5",
+      "left": "questo libro",
+      "right": "quel libro"
+     },
+     {
+      "id": "p6",
+      "left": "adesso",
+      "right": "in quel momento"
+     },
+     {
+      "id": "p7",
+      "left": "stasera",
+      "right": "quella sera"
+     },
+     {
+      "id": "p8",
+      "left": "la settimana prossima",
+      "right": "la settimana dopo"
+     },
+     {
+      "id": "p9",
+      "left": "due giorni fa",
+      "right": "due giorni prima"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-l2",
+  "title": "La partenza del nonno",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · La partenza del nonno · livello facile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Tanti anni fa il nonno Salvatore è partito dalla Puglia per Torino. Che cosa ha detto quel giorno? Scegli la forma giusta.",
+    "explanation": "presente → imperfetto · passato prossimo → trapassato prossimo · futuro → condizionale composto · imperativo → di + infinito · l’imperfetto non cambia.",
+    "promptHelp": "Vor vielen Jahren ist Opa Salvatore aus Apulien nach Turin gezogen. Was hat er an dem Tag gesagt? Wähle die richtige Form.",
+    "explanationHelp": "Präsens → imperfetto · passato prossimo → trapassato prossimo · Futur → condizionale composto · Imperativ → di + Infinitiv · das imperfetto bleibt.",
+    "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto che ci [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "partiva",
+       "era partito",
+       "partisse"
+      ],
+      "answer": "partiva"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "aveva comprato",
+       "comprava",
+       "avrebbe comprato"
+      ],
+      "answer": "aveva comprato"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "avrebbe trovato",
+       "aveva trovato",
+       "troverebbe"
+      ],
+      "answer": "avrebbe trovato"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "avrebbe scritto",
+       "scriverebbe",
+       "aveva scritto"
+      ],
+      "answer": "avrebbe scritto"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sognava",
+       "sognasse",
+       "avrebbe sognato"
+      ],
+      "answer": "sognava"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "di non piangere",
+       "che non piangete",
+       "di non piangete"
+      ],
+      "answer": "di non piangere"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "di aspettarlo",
+       "di aspettarmi",
+       "che lo aspettate"
+      ],
+      "answer": "di aspettarlo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "abitava",
+       "aveva abitato",
+       "avrebbe abitato"
+      ],
+      "answer": "abitava"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-l3",
+  "title": "Quale tempo diventa?",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Quale tempo diventa? · livello facile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Ha detto che … / Ha detto di …: quale forma serve nel discorso indiretto al passato?",
+    "explanation": "",
+    "promptHelp": "Ha detto che … / Ha detto di …: Welche Form braucht man in der indirekten Rede der Vergangenheit?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "imperfetto"
+     },
+     {
+      "id": "b",
+      "label": "trapassato prossimo"
+     },
+     {
+      "id": "c",
+      "label": "condizionale composto"
+     },
+     {
+      "id": "d",
+      "label": "di + infinito"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "«Ho fame.»",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "«Abbiamo perso il treno.»",
+      "category": "b"
+     },
+     {
+      "id": "i3",
+      "text": "«Ti chiamerò.»",
+      "category": "c"
+     },
+     {
+      "id": "i4",
+      "text": "«Chiudi la porta!»",
+      "category": "d"
+     },
+     {
+      "id": "i5",
+      "text": "«Fa freddo.»",
+      "category": "a"
+     },
+     {
+      "id": "i6",
+      "text": "«Sono arrivata tardi.»",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "«Verremo in agosto.»",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "«Scrivetemi!»",
+      "category": "d"
+     },
+     {
+      "id": "i9",
+      "text": "«Da bambino giocavo qui.»",
+      "category": "a"
+     },
+     {
+      "id": "i10",
+      "text": "«Ho capito tutto.»",
+      "category": "b"
+     },
+     {
+      "id": "i11",
+      "text": "«Pioverà.»",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "«Non partire!»",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-m1",
+  "title": "La telefonata di Chiara",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · La telefonata di Chiara · livello medio.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ieri Chiara, che studia a Milano, ha telefonato alla nonna a Palermo. Suo fratello racconta. Completa con il verbo nella forma giusta.",
+    "explanation": "Attenzione al futuro: tornerò → sarebbe tornata (condizionale composto, con essere il participio concorda).",
+    "promptHelp": "Gestern hat Chiara, die in Mailand studiert, ihre Oma in Palermo angerufen. Ihr Bruder erzählt. Ergänze das Verb in der richtigen Form.",
+    "explanationHelp": "Achtung beim Futur: tornerò → sarebbe tornata (condizionale composto; mit essere wird das Partizip angeglichen).",
+    "text": "«Sto bene.» → Chiara ha detto che [[g1]] bene.\n«Ho trovato una stanza vicino all’università.» → Ha detto che [[g2]] una stanza vicino all’università.\n«I miei coinquilini sono simpatici.» → Ha detto che i suoi coinquilini [[g3]] simpatici.\n«Ieri sono andata al Duomo.» → Ha detto che il giorno prima [[g4]] al Duomo.\n«Tornerò a Palermo a Natale.» → Ha detto che [[g5]] a Palermo a Natale.\n«Qui piove spesso.» → Ha detto che lì [[g6]] spesso.\n«Mi mancano le tue arancine.» → Ha detto che le [[g7]] le arancine della nonna.\n«Mandami la ricetta!» → Ha chiesto alla nonna di [[g8]] la ricetta.\n«Domani comincerò il corso di inglese.» → Ha detto che il giorno dopo [[g9]] il corso di inglese.\n«Da piccola avevo paura della nebbia.» → Ha detto che da piccola [[g10]] paura della nebbia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "stava"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aveva trovato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "erano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "era andata"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sarebbe tornata"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "pioveva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "mancavano"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "mandarle"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avrebbe cominciato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-m2",
+  "title": "Che cosa hanno detto?",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Che cosa hanno detto? · livello medio.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma al discorso indiretto.",
+    "explanation": "Cambiano il tempo, la persona (mia → sua) e le parole di tempo (ieri → il giorno prima, domani → il giorno dopo).",
+    "promptHelp": "Forme in die indirekte Rede um.",
+    "explanationHelp": "Es ändern sich Zeit, Person (mia → sua) und Zeitangaben (ieri → il giorno prima, domani → il giorno dopo).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Luca: «Non capisco il dialetto.» → Luca ha detto che …",
+      "acceptedAnswers": [
+       "non capiva il dialetto"
+      ],
+      "modelAnswer": "Luca ha detto che non capiva il dialetto."
+     },
+     {
+      "id": "s2",
+      "start": "Sara: «Ho visitato Matera.» → Sara ha detto che …",
+      "acceptedAnswers": [
+       "aveva visitato Matera"
+      ],
+      "modelAnswer": "Sara ha detto che aveva visitato Matera."
+     },
+     {
+      "id": "s3",
+      "start": "Davide: «Andrò a vivere a Bologna.» → Davide ha detto che …",
+      "acceptedAnswers": [
+       "sarebbe andato a vivere a Bologna"
+      ],
+      "modelAnswer": "Davide ha detto che sarebbe andato a vivere a Bologna."
+     },
+     {
+      "id": "s4",
+      "start": "La prof: «Aprite il libro!» → La prof ha detto agli studenti di …",
+      "acceptedAnswers": [
+       "aprire il libro"
+      ],
+      "modelAnswer": "La prof ha detto agli studenti di aprire il libro."
+     },
+     {
+      "id": "s5",
+      "start": "Giulia: «Mia zia abita a Napoli.» → Giulia ha detto che …",
+      "acceptedAnswers": [
+       "sua zia abitava a Napoli"
+      ],
+      "modelAnswer": "Giulia ha detto che sua zia abitava a Napoli."
+     },
+     {
+      "id": "s6",
+      "start": "Matteo: «Ieri ho perso l’autobus.» → Matteo ha detto che …",
+      "acceptedAnswers": [
+       "il giorno prima aveva perso l’autobus",
+       "aveva perso l’autobus il giorno prima",
+       "il giorno precedente aveva perso l’autobus",
+       "aveva perso l’autobus il giorno precedente"
+      ],
+      "modelAnswer": "Matteo ha detto che il giorno prima aveva perso l’autobus."
+     },
+     {
+      "id": "s7",
+      "start": "I nonni: «Domani partiremo presto.» → I nonni hanno detto che …",
+      "acceptedAnswers": [
+       "il giorno dopo sarebbero partiti presto",
+       "sarebbero partiti presto il giorno dopo",
+       "il giorno seguente sarebbero partiti presto",
+       "sarebbero partiti presto il giorno seguente",
+       "il giorno successivo sarebbero partiti presto",
+       "sarebbero partiti presto il giorno successivo"
+      ],
+      "modelAnswer": "I nonni hanno detto che il giorno dopo sarebbero partiti presto."
+     },
+     {
+      "id": "s8",
+      "start": "Chiara: «Non dimenticare le chiavi!» → Chiara ha detto a Marco di …",
+      "acceptedAnswers": [
+       "non dimenticare le chiavi"
+      ],
+      "modelAnswer": "Chiara ha detto a Marco di non dimenticare le chiavi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-m3",
+  "title": "Le domande indirette",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Le domande indirette · livello medio.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine: „Die Frau fragte mich, ob ich den Weg ins Zentrum kannte.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "La signora mi ha chiesto"
+     },
+     {
+      "id": "i2",
+      "text": "se"
+     },
+     {
+      "id": "i3",
+      "text": "conoscevo"
+     },
+     {
+      "id": "i4",
+      "text": "la strada per il centro."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti in ordine: „Der Lehrer fragte Sara, seit wann sie in Verona wohnte.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il professore ha chiesto a Sara"
+     },
+     {
+      "id": "i2",
+      "text": "da quanto tempo"
+     },
+     {
+      "id": "i3",
+      "text": "abitava"
+     },
+     {
+      "id": "i4",
+      "text": "a Verona."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti in ordine: „Meine Cousins fragten mich, wann ich nach Sizilien zurückkommen würde.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "I miei cugini"
+     },
+     {
+      "id": "i2",
+      "text": "mi hanno chiesto"
+     },
+     {
+      "id": "i3",
+      "text": "quando"
+     },
+     {
+      "id": "i4",
+      "text": "sarei tornato"
+     },
+     {
+      "id": "i5",
+      "text": "in Sicilia."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "gap_choice",
+    "prompt": "Se, che, di o una parola interrogativa? Scegli.",
+    "explanation": "Domanda sì / no → se; domanda con parola interrogativa → dove, quando, perché …; richiesta → di + infinito.",
+    "promptHelp": "Se, che, di oder ein Fragewort? Wähle aus.",
+    "explanationHelp": "Ja/Nein-Frage → se (ob); Frage mit Fragewort → dove, quando, perché …; Bitte → di + Infinitiv.",
+    "text": "Il turista ha chiesto [[g1]] il museo era aperto la domenica.\nMia madre mi ha chiesto [[g2]] avevo messo le chiavi.\nIl controllore ci ha chiesto [[g3]] mostrare il biglietto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "se",
+       "che",
+       "di"
+      ],
+      "answer": "se"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "dove",
+       "che",
+       "di"
+      ],
+      "answer": "dove"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "di",
+       "se",
+       "che"
+      ],
+      "answer": "di"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Trova gli errori · livello difficile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Futuro nel passato → condizionale composto (sarebbe partito), non condizionale semplice. Dopo dire: che + indicativo (non congiuntivo!), di + infinito.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "Zukunft in der Vergangenheit → condizionale composto (sarebbe partito), nicht condizionale semplice. Nach dire: che + Indikativ (kein congiuntivo!), di + Infinitiv.",
+    "text": "Paolo ha detto che il giorno dopo [[g1]] per Milano.\nLa mamma mi ha detto di [[g2]] in ordine la camera.\nIl vicino mi ha chiesto [[g3]] parlavo il dialetto.\nI miei amici hanno detto che [[g4]] in ritardo.\nAnna ha detto a Paolo di [[g5]].\nIl prof ci ha chiesto se [[g6]] la lezione del giorno prima.\nMarco ha detto che quel giorno non [[g7]] tempo di uscire.\nLuisa ha detto [[g8]] non aveva fame.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "partirebbe",
+      "acceptedAnswers": [
+       "sarebbe partito"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "metto",
+      "acceptedAnswers": [
+       "mettere"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "che",
+      "acceptedAnswers": [
+       "se"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "avrebbero arrivati",
+      "acceptedAnswers": [
+       "sarebbero arrivati"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "aspettami",
+      "acceptedAnswers": [
+       "aspettarla"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "avremmo capito",
+      "acceptedAnswers": [
+       "avevamo capito",
+       "avessimo capito"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "avesse",
+      "acceptedAnswers": [
+       "aveva"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "che"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-s2",
+  "title": "Il messaggio di Davide",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Il messaggio di Davide · livello difficile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Un mese dopo la mamma racconta alla zia che cosa ha scritto Davide. Completa: verbi, parole di tempo e di luogo.",
+    "explanation": "",
+    "promptHelp": "Einen Monat später erzählt die Mutter der Tante, was Davide geschrieben hat. Ergänze Verben, Zeit- und Ortsangaben.",
+    "text": "Il messaggio di Davide: «Sono arrivato ieri a Trento. Qui fa freddo, ma la città mi piace. Oggi ho conosciuto i miei compagni. Domani visiteremo un castello. Questa settimana non avrò tempo di chiamarvi. Salutate la nonna!»\nDavide ha scritto che [[g1]] il giorno [[g2]] a Trento.\nHa scritto che [[g3]] faceva freddo, ma che la città gli [[g4]].\nHa raccontato che [[g5]] giorno [[g6]] i suoi compagni\ne che il giorno [[g7]] [[g8]] un castello.\nHa aggiunto che [[g9]] settimana non [[g10]] tempo di chiamarci\ne ci ha chiesto di [[g11]] la nonna.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "era arrivato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "prima",
+       "precedente"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "lì",
+       "là"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "piaceva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "quel"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aveva conosciuto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dopo",
+       "seguente",
+       "successivo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "avrebbero visitato"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "quella"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "avrebbe avuto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "salutare"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-indiretto-passato-s3",
+  "title": "Mi ha chiesto se …",
+  "language": "it",
+  "level": "B1",
+  "description": "Il discorso indiretto al passato · Mi ha chiesto se … · livello difficile.",
+  "topics": [
+   "Il discorso indiretto al passato",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-indiretto-passato",
+   "topicTitle": "Il discorso indiretto al passato",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+   "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Giulia fa alcune domande a Leon, un compagno nuovo. Leon racconta. Trasforma le domande.",
+    "explanation": "Nelle domande indirette vanno bene l’indicativo (se ero stato) e il congiuntivo (se fossi stato).",
+    "promptHelp": "Giulia stellt Leon, einem neuen Mitschüler, Fragen. Leon erzählt davon. Forme die Fragen um.",
+    "explanationHelp": "In indirekten Fragen sind Indikativ (se ero stato) und congiuntivo (se fossi stato) möglich.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "«Sei mai stato in Sardegna?» → Giulia mi ha chiesto se …",
+      "acceptedAnswers": [
+       "ero mai stato in Sardegna",
+       "fossi mai stato in Sardegna"
+      ],
+      "modelAnswer": "Giulia mi ha chiesto se ero mai stato in Sardegna."
+     },
+     {
+      "id": "s2",
+      "start": "«Dove hai imparato l’italiano?» → Mi ha chiesto dove …",
+      "acceptedAnswers": [
+       "avevo imparato l’italiano",
+       "avessi imparato l’italiano"
+      ],
+      "modelAnswer": "Mi ha chiesto dove avevo imparato l’italiano."
+     },
+     {
+      "id": "s3",
+      "start": "«Quando tornerai a casa?» → Mi ha chiesto quando …",
+      "acceptedAnswers": [
+       "sarei tornato a casa"
+      ],
+      "modelAnswer": "Mi ha chiesto quando sarei tornato a casa."
+     },
+     {
+      "id": "s4",
+      "start": "«Ti piace il mare?» → Mi ha chiesto se …",
+      "acceptedAnswers": [
+       "mi piaceva il mare",
+       "mi piacesse il mare"
+      ],
+      "modelAnswer": "Mi ha chiesto se mi piaceva il mare."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "open_answer",
+    "prompt": "Che cosa ti ha detto o chiesto ieri un amico, un’amica o un parente? Scrivi 5 frasi al discorso indiretto (ha detto che …, mi ha chiesto se …, mi ha detto di …).",
+    "explanation": "",
+    "promptHelp": "Was hat dir gestern ein Freund, eine Freundin oder ein Verwandter gesagt oder dich gefragt? Schreibe 5 Sätze in indirekter Rede.",
+    "modelAnswer": "Ieri mia cugina mi ha detto che aveva trovato un lavoro a Verona. Ha detto che era molto contenta e che sarebbe partita a settembre. Mi ha chiesto se volevo andare a trovarla. Poi mi ha detto di non raccontare ancora niente ai nonni. Ha aggiunto che il giorno dopo avrebbe parlato lei con loro.",
+    "lines": 6
    }
   ]
  },
@@ -204332,6 +219309,752 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-l1",
+  "title": "Prima, adesso o dopo?",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Prima, adesso o dopo? · livello facile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quando succede l’azione della frase secondaria rispetto alla frase principale?",
+    "explanation": "",
+    "promptHelp": "Wann passiert die Handlung des Nebensatzes im Verhältnis zum Hauptsatz?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "prima"
+     },
+     {
+      "id": "b",
+      "label": "nello stesso momento"
+     },
+     {
+      "id": "c",
+      "label": "dopo"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Penso che Luca sia già partito.",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "Credo che Sara abbia sbagliato treno.",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "Pensavo che fossero già arrivati.",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "Sapevo che aveva studiato a Padova.",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "Credo che Marta sia a casa.",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "Pensavo che tu avessi fame.",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "So che lavori molto.",
+      "category": "b"
+     },
+     {
+      "id": "i8",
+      "text": "Sapevo che abitava a Genova.",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "Penso che domani pioverà.",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "Pensavo che sarebbe venuto più tardi.",
+      "category": "c"
+     },
+     {
+      "id": "i11",
+      "text": "So che tornerai presto.",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "Ero sicuro che avresti vinto.",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-l2",
+  "title": "Penso o pensavo?",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Penso o pensavo? · livello facile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Guarda il verbo della frase principale e scegli la forma giusta.",
+    "explanation": "Principale al presente → congiuntivo presente / passato, futuro. Principale al passato → congiuntivo imperfetto / trapassato, condizionale composto.",
+    "promptHelp": "Achte auf das Verb im Hauptsatz und wähle die richtige Form.",
+    "explanationHelp": "Hauptsatz im Präsens → congiuntivo presente / passato, Futur. Hauptsatz in der Vergangenheit → congiuntivo imperfetto / trapassato, condizionale composto.",
+    "text": "Penso che adesso Giulia [[g1]] in vacanza.\nPensavo che Giulia [[g2]] ancora in vacanza, invece era già tornata.\nCredo che ieri Matteo [[g3]] il treno.\nCredevo che Matteo [[g4]] il treno, per questo l’ho chiamato.\nSono sicura che domani [[g5]] tutti alla festa.\nEro sicura che il giorno dopo [[g6]] tutti alla festa.\nNon pensavo che tu [[g7]] così bene il napoletano.\nMi sembra che oggi i ragazzi [[g8]] un po’ stanchi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sia",
+       "fosse",
+       "sarebbe stata"
+      ],
+      "answer": "sia"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "fosse",
+       "sia",
+       "sarà"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "abbia perso",
+       "perda",
+       "perderà"
+      ],
+      "answer": "abbia perso"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "avesse perso",
+       "abbia perso",
+       "perderà"
+      ],
+      "answer": "avesse perso"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "verranno",
+       "venissero",
+       "sarebbero venuti"
+      ],
+      "answer": "verranno"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sarebbero venuti",
+       "verranno",
+       "vengano"
+      ],
+      "answer": "sarebbero venuti"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "parlassi",
+       "parli",
+       "parlerai"
+      ],
+      "answer": "parlassi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "siano",
+       "fossero",
+       "sarebbero"
+      ],
+      "answer": "siano"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-l3",
+  "title": "Lo schema",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Lo schema · livello facile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina ogni frase alla sua descrizione.",
+    "explanation": "",
+    "promptHelp": "Ordne jedem Satz seine Beschreibung zu (Hauptsatz · Zeitverhältnis · Form).",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Penso che venga.",
+      "right": "principale al presente · stesso momento · congiuntivo presente"
+     },
+     {
+      "id": "p2",
+      "left": "Penso che sia venuto.",
+      "right": "principale al presente · prima · congiuntivo passato"
+     },
+     {
+      "id": "p3",
+      "left": "Penso che verrà.",
+      "right": "principale al presente · dopo · futuro"
+     },
+     {
+      "id": "p4",
+      "left": "Pensavo che venisse.",
+      "right": "principale al passato · stesso momento · congiuntivo imperfetto"
+     },
+     {
+      "id": "p5",
+      "left": "Pensavo che fosse venuto.",
+      "right": "principale al passato · prima · congiuntivo trapassato"
+     },
+     {
+      "id": "p6",
+      "left": "Pensavo che sarebbe venuto.",
+      "right": "principale al passato · dopo · condizionale composto"
+     },
+     {
+      "id": "p7",
+      "left": "So che è venuto.",
+      "right": "principale al presente · prima · passato prossimo"
+     },
+     {
+      "id": "p8",
+      "left": "Sapevo che era venuto.",
+      "right": "principale al passato · prima · trapassato prossimo"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-s1",
+  "title": "Da Torino a Bari",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Da Torino a Bari · livello difficile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Elena si è trasferita da Torino a Bari e racconta. Metti i verbi nella forma giusta.",
+    "explanation": "pensavo / credevo che + congiuntivo imperfetto (stesso momento) · sapeva che + condizionale composto (dopo) · ho capito che + trapassato prossimo (prima).",
+    "promptHelp": "Elena ist von Turin nach Bari gezogen und erzählt. Setze die Verben in die richtige Form.",
+    "explanationHelp": "pensavo / credevo che + congiuntivo imperfetto (gleichzeitig) · sapeva che + condizionale composto (nachher) · ho capito che + trapassato prossimo (vorher).",
+    "text": "Prima di trasferirmi da Torino a Bari pensavo che al Sud (fare) [[g1]] sempre caldo.\nCredevo anche che in classe tutti (parlare) [[g2]] solo in dialetto.\nMia madre, invece, sapeva che io (trovare) [[g3]] presto nuovi amici.\nIl primo giorno ho capito che i miei compagni (preparare) [[g4]] una festa per me già la settimana prima.\nNon immaginavo che il mare d’inverno (potere) [[g5]] essere così bello.\nAdesso so che la mia amica Rosa (nascere) [[g6]] a Milano e si è trasferita qui da bambina, come me.\nPenso che questi primi mesi a Bari mi (cambiare) [[g7]] molto: non sono più la stessa di prima.\nSpero che l’anno prossimo i miei amici di Torino (venire) [[g8]] a trovarmi.\nE credo che oggi molti pregiudizi tra Nord e Sud (essere) [[g9]] solo vecchie storie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "facesse"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "parlassero"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avrei trovato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "avevano preparato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "potesse"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "è nata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "abbiano cambiata",
+       "abbiano cambiato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "vengano",
+       "verranno"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "siano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-s2",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Trova gli errori · livello difficile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore nel tempo o nel modo. Correggilo.",
+    "explanation": "Dopo sapere e essere sicuro: indicativo. Dopo pensare, credere, sperare, sembrare: congiuntivo.",
+    "promptHelp": "In jedem Satz steckt ein Fehler bei Zeit oder Modus. Korrigiere ihn.",
+    "explanationHelp": "Nach sapere und essere sicuro: Indikativ. Nach pensare, credere, sperare, sembrare: congiuntivo.",
+    "text": "Pensavo che tu [[g1]] di Napoli.\nSpero che tu [[g2]] capito tutto.\nSapevo che Luisa [[g3]] alla festa del giorno dopo.\nNon credevo che i biglietti [[g4]] così tanto.\nMi sembrava che Paolo [[g5]] l’appuntamento.\nPenso che domani [[g6]].\nEravamo sicuri che voi [[g7]] prima di noi.\nSo che l’anno scorso Sara [[g8]] a Bologna.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "sia",
+      "acceptedAnswers": [
+       "fossi"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "avessi",
+      "acceptedAnswers": [
+       "abbia"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "verrà",
+      "acceptedAnswers": [
+       "sarebbe venuta"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "costino",
+      "acceptedAnswers": [
+       "costassero"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "abbia dimenticato",
+      "acceptedAnswers": [
+       "avesse dimenticato"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "piovesse",
+      "acceptedAnswers": [
+       "pioverà",
+       "piova"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "arriverete",
+      "acceptedAnswers": [
+       "sareste arrivati",
+       "sareste arrivate"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "abbia studiato",
+      "acceptedAnswers": [
+       "ha studiato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-sequenza-tempi-s3",
+  "title": "Dal presente al passato",
+  "language": "it",
+  "level": "B1",
+  "description": "La sequenza dei tempi II · Dal presente al passato · livello difficile.",
+  "topics": [
+   "La sequenza dei tempi II",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte A"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-sequenza-tempi",
+   "topicTitle": "La sequenza dei tempi II",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+   "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Metti la frase principale al passato e cambia la frase secondaria.",
+    "explanation": "congiuntivo presente → imperfetto · congiuntivo passato → trapassato · futuro → condizionale composto · passato prossimo → trapassato prossimo.",
+    "promptHelp": "Setze den Hauptsatz in die Vergangenheit und passe den Nebensatz an.",
+    "explanationHelp": "congiuntivo presente → imperfetto · congiuntivo passato → trapassato · Futur → condizionale composto · passato prossimo → trapassato prossimo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Penso che Luca abbia ragione. → Pensavo che Luca …",
+      "acceptedAnswers": [
+       "avesse ragione"
+      ],
+      "modelAnswer": "Pensavo che Luca avesse ragione."
+     },
+     {
+      "id": "s2",
+      "start": "Credo che Sara sia già partita. → Credevo che Sara …",
+      "acceptedAnswers": [
+       "fosse già partita"
+      ],
+      "modelAnswer": "Credevo che Sara fosse già partita."
+     },
+     {
+      "id": "s3",
+      "start": "So che Davide verrà. → Sapevo che Davide …",
+      "acceptedAnswers": [
+       "sarebbe venuto"
+      ],
+      "modelAnswer": "Sapevo che Davide sarebbe venuto."
+     },
+     {
+      "id": "s4",
+      "start": "Mi sembra che i ragazzi non capiscano. → Mi sembrava che i ragazzi …",
+      "acceptedAnswers": [
+       "non capissero"
+      ],
+      "modelAnswer": "Mi sembrava che i ragazzi non capissero."
+     },
+     {
+      "id": "s5",
+      "start": "Spero che abbiate trovato la strada. → Speravo che …",
+      "acceptedAnswers": [
+       "aveste trovato la strada"
+      ],
+      "modelAnswer": "Speravo che aveste trovato la strada."
+     },
+     {
+      "id": "s6",
+      "start": "Sono sicuro che vincerà la nostra squadra. → Ero sicuro che …",
+      "acceptedAnswers": [
+       "avrebbe vinto la nostra squadra",
+       "la nostra squadra avrebbe vinto"
+      ],
+      "modelAnswer": "Ero sicuro che avrebbe vinto la nostra squadra."
+     },
+     {
+      "id": "s7",
+      "start": "È strano che nessuno risponda. → Era strano che nessuno …",
+      "acceptedAnswers": [
+       "rispondesse"
+      ],
+      "modelAnswer": "Era strano che nessuno rispondesse."
+     },
+     {
+      "id": "s8",
+      "start": "Dicono che il treno è partito in orario. → Dicevano che il treno …",
+      "acceptedAnswers": [
+       "era partito in orario",
+       "fosse partito in orario"
+      ],
+      "modelAnswer": "Dicevano che il treno era partito in orario."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco3-statistiche-l1",
   "title": "Numeri e parole",
   "language": "it",
@@ -206461,6 +222184,1131 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco3-tempo-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’espressione italiana alla traduzione.",
+    "explanation": "",
+    "promptHelp": "Verbinde den italienischen Ausdruck mit der Übersetzung.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "due anni fa",
+      "right": "vor zwei Jahren"
+     },
+     {
+      "id": "p2",
+      "left": "da due anni",
+      "right": "seit zwei Jahren"
+     },
+     {
+      "id": "p3",
+      "left": "per due anni",
+      "right": "zwei Jahre lang"
+     },
+     {
+      "id": "p4",
+      "left": "fra due anni",
+      "right": "in zwei Jahren (von jetzt an)"
+     },
+     {
+      "id": "p5",
+      "left": "in due ore",
+      "right": "innerhalb von zwei Stunden"
+     },
+     {
+      "id": "p6",
+      "left": "entro venerdì",
+      "right": "bis spätestens Freitag"
+     },
+     {
+      "id": "p7",
+      "left": "fino a venerdì",
+      "right": "bis Freitag (die ganze Zeit über)"
+     },
+     {
+      "id": "p8",
+      "left": "a partire da lunedì",
+      "right": "ab Montag"
+     },
+     {
+      "id": "p9",
+      "left": "nel frattempo",
+      "right": "inzwischen"
+     },
+     {
+      "id": "p10",
+      "left": "a un tratto",
+      "right": "plötzlich"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-l2",
+  "title": "Fa, da, fra …?",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Fa, da, fra …? · livello facile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli l’espressione giusta.",
+    "explanation": "fa = passato (dopo il tempo) · da = continua ancora · per = durata finita · fra = futuro · entro = non più tardi di.",
+    "promptHelp": "Wähle den richtigen Ausdruck.",
+    "explanationHelp": "fa = Vergangenheit (nachgestellt) · da = dauert noch an · per = abgeschlossene Dauer · fra = Zukunft · entro = bis spätestens.",
+    "text": "Mio nonno è arrivato a Milano cinquant’anni [[g1]].\nAbito a Torino [[g2]] tre anni e mi trovo bene.\nIl treno per Lecce parte [[g3]] dieci minuti.\nDevi consegnare il lavoro [[g4]] venerdì.\nL’ufficio è aperto [[g5]] lunedì al venerdì.\nHo vissuto a Bari [[g6]] due anni, poi sono tornata a Verona.\nResto dai nonni [[g7]] domenica, poi torno a casa.\n[[g8]] torno in Calabria, la nonna prepara la pasta al forno.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "fa",
+       "da",
+       "fra"
+      ],
+      "answer": "fa"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "da",
+       "fa",
+       "fra"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "fra",
+       "fa",
+       "da"
+      ],
+      "answer": "fra"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "entro",
+       "fa",
+       "fra"
+      ],
+      "answer": "entro"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "dal",
+       "al",
+       "fra"
+      ],
+      "answer": "dal"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "per",
+       "fra",
+       "fa"
+      ],
+      "answer": "per"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "fino a",
+       "fa",
+       "entro"
+      ],
+      "answer": "fino a"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Ogni volta che",
+       "Nel frattempo",
+       "A un tratto"
+      ],
+      "answer": "Ogni volta che"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-l3",
+  "title": "In treno verso sud",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · In treno verso sud · livello facile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Sara racconta il suo viaggio. Completa con le parole del riquadro.",
+    "explanation": "",
+    "promptHelp": "Sara erzählt von ihrer Reise. Ergänze mit den Wörtern aus dem Kasten.",
+    "text": "Tre giorni [[g1]] sono partita da Bolzano per andare dai nonni a Palermo.\nConosco bene questo viaggio: lo faccio [[g2]] dieci anni, ogni estate.\nA Bologna ho aspettato la coincidenza [[g3]] due ore.\nIl treno era in ritardo. [[g4]] ho mangiato un panino e ho letto un po’.\nLa notte dormivo tranquilla quando, [[g5]], il treno si è fermato in mezzo alla campagna.\nSiamo arrivati a Palermo solo [[g6]], alle sei di mattina.\nI nonni mi aspettavano in stazione: resto da loro [[g7]] Ferragosto.\nE [[g8]] due settimane arriva anche mio fratello!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Nel frattempo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "a un tratto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il giorno dopo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "fino a"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "fra"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "ogni volta che",
+     "dal"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-m1",
+  "title": "Una parola sola",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Una parola sola · livello medio.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con da, per, fa, fra, in o entro.",
+    "explanation": "da + presente: l’azione continua. per + passato prossimo: l’azione è finita.",
+    "promptHelp": "Ergänze da, per, fa, fra, in oder entro.",
+    "explanationHelp": "da + Präsens: Die Handlung dauert an. per + passato prossimo: Die Handlung ist abgeschlossen.",
+    "text": "Studio italiano [[g1]] due anni e mi piace sempre di più.\nMia madre ha studiato tedesco [[g2]] tre anni, ma poi ha smesso.\nAbbiamo cambiato casa sei mesi [[g3]].\nSbrigati! Il film comincia [[g4]] cinque minuti.\nSono stata brava: ho finito tutti i compiti [[g5]] mezz’ora!\nDovete iscrivervi al corso [[g6]] venerdì prossimo.\nNon vedo i miei cugini di Catania [[g7]] Natale.\nIeri ho camminato [[g8]] due ore sotto la pioggia.\nTre anni [[g9]] non sapevo una parola di italiano.\nLe vacanze cominciano [[g10]] tre settimane: non vedo l’ora!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "fra",
+       "tra"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "entro",
+       "per"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "fra",
+       "tra"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-m2",
+  "title": "Rispondi alle domande",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Rispondi alle domande · livello medio.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con le parole tra parentesi e la parola di tempo giusta (da, per, fa, fra, in, entro, fino a …).",
+    "explanation": "",
+    "promptHelp": "Antworte mit den Wörtern in Klammern und dem passenden Zeitwort (da, per, fa, fra, in, entro, fino a …).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Da quanto tempo studi italiano? (due anni) – Lo studio …",
+      "acceptedAnswers": [
+       "da due anni"
+      ],
+      "modelAnswer": "Lo studio da due anni."
+     },
+     {
+      "id": "s2",
+      "start": "Per quanto tempo hai aspettato? (un’ora) – Ho aspettato …",
+      "acceptedAnswers": [
+       "per un’ora"
+      ],
+      "modelAnswer": "Ho aspettato per un’ora."
+     },
+     {
+      "id": "s3",
+      "start": "Quando sei arrivato? (tre giorni) – Sono arrivato …",
+      "acceptedAnswers": [
+       "tre giorni fa"
+      ],
+      "modelAnswer": "Sono arrivato tre giorni fa."
+     },
+     {
+      "id": "s4",
+      "start": "Quando parte il treno? (venti minuti) – Parte …",
+      "acceptedAnswers": [
+       "fra venti minuti",
+       "tra venti minuti"
+      ],
+      "modelAnswer": "Parte fra venti minuti."
+     },
+     {
+      "id": "s5",
+      "start": "Entro quando devi rispondere? (lunedì) – Devo rispondere …",
+      "acceptedAnswers": [
+       "entro lunedì"
+      ],
+      "modelAnswer": "Devo rispondere entro lunedì."
+     },
+     {
+      "id": "s6",
+      "start": "In quanto tempo hai letto il libro? (una settimana) – L’ho letto …",
+      "acceptedAnswers": [
+       "in una settimana"
+      ],
+      "modelAnswer": "L’ho letto in una settimana."
+     },
+     {
+      "id": "s7",
+      "start": "Fino a quando resti a Napoli? (domenica) – Resto …",
+      "acceptedAnswers": [
+       "fino a domenica"
+      ],
+      "modelAnswer": "Resto fino a domenica."
+     },
+     {
+      "id": "s8",
+      "start": "Quando è aperto il negozio? (lunedì → sabato) – È aperto …",
+      "acceptedAnswers": [
+       "dal lunedì al sabato",
+       "da lunedì a sabato"
+      ],
+      "modelAnswer": "È aperto dal lunedì al sabato."
+     },
+     {
+      "id": "s9",
+      "start": "Da quando vale il nuovo orario? (a partire / lunedì) – Vale …",
+      "acceptedAnswers": [
+       "a partire da lunedì"
+      ],
+      "modelAnswer": "Vale a partire da lunedì."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-m3",
+  "title": "Matteo ed Elisa",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Matteo ed Elisa · livello medio.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine la storia.",
+    "explanation": "",
+    "promptHelp": "Bringe die Geschichte in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Due anni fa Matteo ha lasciato Cosenza per andare a studiare a Padova."
+     },
+     {
+      "id": "i2",
+      "text": "Il primo giorno ha cercato per ore la sua nuova casa e alla fine si è perso."
+     },
+     {
+      "id": "i3",
+      "text": "A un tratto una ragazza gli ha chiesto: «Hai bisogno di aiuto?»"
+     },
+     {
+      "id": "i4",
+      "text": "Lei si chiamava Elisa e lo ha accompagnato fino alla porta di casa."
+     },
+     {
+      "id": "i5",
+      "text": "Il giorno dopo si sono incontrati di nuovo, questa volta all’università."
+     },
+     {
+      "id": "i6",
+      "text": "Da allora studiano insieme ogni settimana."
+     },
+     {
+      "id": "i7",
+      "text": "E fra un mese Elisa andrà per la prima volta in Calabria con lui."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Scegli l’espressione giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle den richtigen Ausdruck.",
+    "text": "[[g1]] Matteo torna a Cosenza, porta a Elisa i dolci della nonna.\nMatteo cucinava; [[g2]] Elisa apparecchiava la tavola.\nStavano mangiando quando, [[g3]], è andata via la luce.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Ogni volta che",
+       "Nel frattempo",
+       "A un tratto"
+      ],
+      "answer": "Ogni volta che"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nel frattempo",
+       "ogni volta che",
+       "fino a"
+      ],
+      "answer": "nel frattempo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "a un tratto",
+       "fino a",
+       "entro"
+      ],
+      "answer": "a un tratto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Trova gli errori · livello difficile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "Errori tipici dal tedesco: „seit“ = da + presente, „in zehn Minuten“ = fra dieci minuti, „bis Freitag abgeben“ = entro venerdì.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "Typische Fehler aus dem Deutschen: „seit“ = da + Präsens, „in zehn Minuten“ = fra dieci minuti, „bis Freitag abgeben“ = entro venerdì.",
+    "text": "Studio italiano [[g1]] due anni e continuo a migliorare.\nSono arrivata a Torino [[g2]].\nSbrigati, il treno parte [[g3]] dieci minuti!\nHo abitato a Lecce [[g4]] cinque anni, poi mi sono trasferito a Parma.\nDovete consegnare il progetto [[g5]] venerdì.\nAbito in questa casa [[g6]] 2019.\nTi aspetto qui [[g7]] otto, poi vado via.\nHo letto tutto il libro [[g8]] due giorni.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "per",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "fa tre mesi",
+      "acceptedAnswers": [
+       "tre mesi fa"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "in",
+      "acceptedAnswers": [
+       "fra",
+       "tra"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "da",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "fino a",
+      "acceptedAnswers": [
+       "entro",
+       "per"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "da",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "entro le",
+      "acceptedAnswers": [
+       "fino alle"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "per",
+      "acceptedAnswers": [
+       "in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-s2",
+  "title": "La storia di nonna Rosa",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · La storia di nonna Rosa · livello difficile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il racconto con: a partire da, a un tratto, al, da, dal, entro, fa, fino a, fra, il giorno dopo, nel frattempo, ogni volta che, per. (Un’espressione resta fuori.)",
+    "explanation": "",
+    "promptHelp": "Ergänze die Erzählung mit den angegebenen Ausdrücken. (Ein Ausdruck bleibt übrig.)",
+    "text": "Mia nonna Rosa è nata in un piccolo paese della Basilicata.\nSessant’anni [[g1]], quando aveva vent’anni, è partita per Torino.\nHa lavorato in una fabbrica [[g2]] quarant’anni, [[g3]] lunedì [[g4]] sabato.\n[[g5]] tornava al paese per le vacanze, portava regali per tutti.\nUna sera aspettava l’autobus quando, [[g6]], ha sentito qualcuno parlare il suo dialetto: era Antonio, il mio futuro nonno.\n[[g7]] si sono rivisti alla stessa fermata, e un anno più tardi si sono sposati.\nI nonni abitano a Torino [[g8]] quasi sessant’anni, ma si sentono ancora lucani.\nOgni estate restano al paese [[g9]] settembre.\n[[g10]] quest’anno, però, vogliono viverci tutto l’anno.\nLa partenza è [[g11]] due settimane. [[g12]] io imparo qualche parola del loro dialetto!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "per"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "dal",
+       "da"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "al",
+       "a"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Ogni volta che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "a un tratto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Il giorno dopo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "fino a"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "A partire da",
+       "Da"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "fra",
+       "tra"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "Nel frattempo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-tempo-s3",
+  "title": "Una persona, due città",
+  "language": "it",
+  "level": "B1",
+  "description": "Espressioni temporali e racconto · Una persona, due città · livello difficile.",
+  "topics": [
+   "Espressioni temporali e racconto",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "4 · Nord e Sud",
+    "section": "Parte B"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-tempo",
+   "topicTitle": "Espressioni temporali e racconto",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+   "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli l’espressione giusta.",
+    "explanation": "da quando + frase: da un momento del passato fino a oggi · in un’ora: il tempo necessario per finire · per tutta la sera: la durata · fino al 15 marzo: la fine del periodo.",
+    "promptHelp": "Wähle den richtigen Ausdruck.",
+    "explanationHelp": "da quando = seit (Zeitpunkt) · in un’ora = innerhalb einer Stunde (fertig!) · per tutta la sera = den ganzen Abend lang.",
+    "text": "Non vedo Paolo [[g1]] quando si è trasferito a Trieste.\nHo finito il tema [[g2]] un’ora, ma poi l’ho corretto [[g3]] tutta la sera.\nIl museo resta chiuso [[g4]] 15 marzo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "da",
+       "per",
+       "fa"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "in",
+       "per",
+       "da"
+      ],
+      "answer": "in"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "per",
+       "in",
+       "fra"
+      ],
+      "answer": "per"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "fino al",
+       "entro il",
+       "fra il"
+      ],
+      "answer": "fino al"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "open_answer",
+    "prompt": "Racconta in 6–8 frasi la storia di una persona (vera o inventata) che ha cambiato città. Usa almeno 5 espressioni di tempo (fa, da, per, fra, a un tratto, nel frattempo, il giorno dopo …).",
+    "explanation": "",
+    "promptHelp": "Erzähle in 6–8 Sätzen die Geschichte einer (echten oder erfundenen) Person, die in eine andere Stadt gezogen ist. Verwende mindestens 5 Zeitangaben.",
+    "modelAnswer": "Cinque anni fa mio zio Franco ha lasciato Bari ed è andato a vivere a Bergamo. All’inizio ha lavorato per sei mesi in un ristorante. Nel frattempo ha cercato un lavoro come meccanico. Un giorno, a un tratto, un cliente gli ha offerto un posto nella sua officina. Il giorno dopo ha cominciato subito. Abita a Bergamo da cinque anni e si trova bene. Fra un mese torna a Bari per le vacanze e resta fino a Ferragosto.",
+    "lines": 8
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco3-trapassato-l1",
   "title": "Essere o avere?",
   "language": "it",
@@ -207455,6 +224303,1210 @@ const STOCK_PACKAGES = [
       "modelAnswer": "Quando è cominciato il film, Marta si era già addormentata."
      }
     ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la frase alla traduzione.",
+    "explanation": "",
+    "promptHelp": "Verbinde den Satz mit der Übersetzung.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Ce la faccio!",
+      "right": "Ich schaffe es!"
+     },
+     {
+      "id": "p2",
+      "left": "Me ne vado.",
+      "right": "Ich gehe weg."
+     },
+     {
+      "id": "p3",
+      "left": "Me la cavo.",
+      "right": "Ich komme zurecht."
+     },
+     {
+      "id": "p4",
+      "left": "Non te la prendere!",
+      "right": "Nimm es nicht übel!"
+     },
+     {
+      "id": "p5",
+      "left": "Ce la metto tutta.",
+      "right": "Ich gebe mein Bestes."
+     },
+     {
+      "id": "p6",
+      "left": "Ci vogliono due ore.",
+      "right": "Man braucht zwei Stunden."
+     },
+     {
+      "id": "p7",
+      "left": "Ci tengo molto.",
+      "right": "Das ist mir sehr wichtig."
+     },
+     {
+      "id": "p8",
+      "left": "Non me la sento.",
+      "right": "Ich traue es mir nicht zu."
+     },
+     {
+      "id": "p9",
+      "left": "Smettila!",
+      "right": "Hör auf damit!"
+     },
+     {
+      "id": "p10",
+      "left": "Ce l’ha con me.",
+      "right": "Er ist sauer auf mich."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-l2",
+  "title": "Quale verbo?",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Quale verbo? · livello facile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il verbo che va bene nella situazione.",
+    "explanation": "",
+    "promptHelp": "Wähle das Verb, das zur Situation passt.",
+    "text": "L’esame era difficile, ma alla fine [[g1]]!\nLa festa era noiosa, così alle dieci Luca [[g2]].\nNon parlo bene il tedesco, ma in vacanza [[g3]].\nEra solo uno scherzo: perché [[g4]]?\nDa casa mia alla stazione [[g5]] venti minuti a piedi.\nBasta, [[g6]] di fare rumore!\nPer questa gara [[g7]] tutta.\nPerché non mi saluti? [[g8]] con me?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ce l’ho fatta",
+       "me ne sono andata",
+       "me la sono presa"
+      ],
+      "answer": "ce l’ho fatta"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "se n’è andato",
+       "ce l’ha fatta",
+       "ci ha tenuto"
+      ],
+      "answer": "se n’è andato"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "me la cavo",
+       "me la prendo",
+       "ce l’ho"
+      ],
+      "answer": "me la cavo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "te la prendi",
+       "te la cavi",
+       "ce la fai"
+      ],
+      "answer": "te la prendi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ci vogliono",
+       "ci vuole",
+       "ci tengono"
+      ],
+      "answer": "ci vogliono"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "smettila",
+       "mettila",
+       "prenditela"
+      ],
+      "answer": "smettila"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ce la metto",
+       "ce la faccio",
+       "me la sento"
+      ],
+      "answer": "ce la metto"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Ce l’hai",
+       "Te la cavi",
+       "Ci tieni"
+      ],
+      "answer": "Ce l’hai"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-l3",
+  "title": "Hai capito bene?",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Hai capito bene? · livello facile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Sara dice: «Non me la sento di cantare davanti a tutti.» Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet der Satz?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non ha il coraggio di farlo."
+     },
+     {
+      "id": "o2",
+      "text": "Non sente bene la musica."
+     },
+     {
+      "id": "o3",
+      "text": "Non ha voglia di ascoltare."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Luca dice: «Io non c’entro niente!» Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet der Satz?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non posso entrare."
+     },
+     {
+      "id": "o2",
+      "text": "Non è colpa mia."
+     },
+     {
+      "id": "o3",
+      "text": "Non ho capito niente."
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Giulia dice: «Ci tengo molto alla nostra amicizia.» Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet der Satz?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "La tengo segreta."
+     },
+     {
+      "id": "o2",
+      "text": "Non mi interessa più."
+     },
+     {
+      "id": "o3",
+      "text": "Per me è molto importante."
+     }
+    ],
+    "correctOptionId": "o3"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "La mamma chiede: «Quanto ci metti a prepararti?» Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet der Satz?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Di quanto tempo hai bisogno?"
+     },
+     {
+      "id": "o2",
+      "text": "Che vestiti ti metti?"
+     },
+     {
+      "id": "o3",
+      "text": "Dove metti le tue cose?"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Il papà dice ai bambini: «Finitela!» Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet der Satz?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Finite i compiti!"
+     },
+     {
+      "id": "o2",
+      "text": "Smettete subito!"
+     },
+     {
+      "id": "o3",
+      "text": "Mangiate tutto!"
+     }
+    ],
+    "correctOptionId": "o2"
+   },
+   {
+    "id": "q6",
+    "type": "gap_choice",
+    "prompt": "Ci vuole, ci vogliono o ci metto?",
+    "explanation": "ci vuole + singolare, ci vogliono + plurale (in generale); metterci con una persona: io ci metto …",
+    "promptHelp": "Ci vuole, ci vogliono oder ci metto?",
+    "explanationHelp": "ci vuole + Singular, ci vogliono + Plural (allgemein); metterci mit Person: io ci metto …",
+    "text": "Per fare un buon ragù [[g1]] almeno due ore.\nPer imparare una lingua [[g2]] pazienza.\nIo [[g3]] dieci minuti per arrivare a scuola.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ci vogliono",
+       "ci vuole",
+       "ci mette"
+      ],
+      "answer": "ci vogliono"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ci vuole",
+       "ci vogliono",
+       "ci mettono"
+      ],
+      "answer": "ci vuole"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ci metto",
+       "ci voglio",
+       "ci vuole"
+      ],
+      "answer": "ci metto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-m1",
+  "title": "Le forme del presente",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Le forme del presente · livello medio.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa la tabella al presente.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Tabelle im Präsens.",
+    "columns": [
+     "persona",
+     "farcela",
+     "andarsene",
+     "cavarsela"
+    ],
+    "rows": [
+     [
+      "io",
+      "ce la faccio",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "me ne vado"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "me la cavo"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "ce la fai"
+       ]
+      },
+      "te ne vai",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "te la cavi"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "ce la fa"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "se ne va"
+       ]
+      },
+      "se la cava"
+     ],
+     [
+      "noi",
+      "ce la facciamo",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "ce ne andiamo"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "ce la caviamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "ce la fate"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "ve ne andate"
+       ]
+      },
+      "ve la cavate"
+     ],
+     [
+      "loro",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "ce la fanno"
+       ]
+      },
+      "se ne vanno",
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "se la cavano"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-m2",
+  "title": "Prima della partita",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Prima della partita · livello medio.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il dialogo con i verbi al presente.",
+    "explanation": "",
+    "promptHelp": "Ergänze den Dialog mit den Verben im Präsens.",
+    "text": "– Sei pronto per la partita? – Sì, oggi (mettercela, io) [[g1]] tutta!\n– E Davide? Perché non parla con nessuno? – (avercela, lui) [[g2]] con l’allenatore.\n– Ancora? Ma perché (prendersela, lui) [[g3]] sempre?\n– Non lo so. Senti, quanto (volerci) [[g4]] per arrivare al campo?\n– In bici noi (metterci) [[g5]] un quarto d’ora.\n– Allora (andarsene, noi) [[g6]] subito, è tardi!\n– Tranquillo. Tu a calcio (cavarsela) [[g7]] benissimo.\n– Grazie. Sai, a questa partita (tenerci, io) [[g8]] davvero.\n– Lo so. Vedrai che noi (farcela) [[g9]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ce la metto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ce l’ha"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "se la prende"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ci vuole"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "ci mettiamo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ce ne andiamo",
+       "andiamocene"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "te la cavi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ci tengo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "ce la facciamo",
+       "ce la faremo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-m3",
+  "title": "E ieri?",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · E ieri? · livello medio.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Metti il verbo al passato prossimo.",
+    "explanation": "Con -la il participio finisce in -a: fatta, cavata, presa, messa. Andarsene e volerci vogliono essere.",
+    "promptHelp": "Setze das Verb ins passato prossimo.",
+    "explanationHelp": "Bei -la endet das Partizip auf -a: fatta, cavata, presa, messa. Andarsene und volerci bilden das Perfekt mit essere.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Oggi ce la faccio. → Anche ieri …",
+      "acceptedAnswers": [
+       "ce l’ho fatta"
+      ],
+      "modelAnswer": "Anche ieri ce l’ho fatta."
+     },
+     {
+      "id": "s2",
+      "start": "Marta se ne va presto. → Anche ieri Marta …",
+      "acceptedAnswers": [
+       "se n’è andata presto",
+       "se ne è andata presto"
+      ],
+      "modelAnswer": "Anche ieri Marta se n’è andata presto."
+     },
+     {
+      "id": "s3",
+      "start": "Me la cavo bene. → Anche all’esame …",
+      "acceptedAnswers": [
+       "me la sono cavata bene"
+      ],
+      "modelAnswer": "Anche all’esame me la sono cavata bene."
+     },
+     {
+      "id": "s4",
+      "start": "Luca se la prende. → Anche ieri Luca …",
+      "acceptedAnswers": [
+       "se l’è presa",
+       "se la è presa"
+      ],
+      "modelAnswer": "Anche ieri Luca se l’è presa."
+     },
+     {
+      "id": "s5",
+      "start": "Ce la mettiamo tutta. → Anche nella partita di ieri …",
+      "acceptedAnswers": [
+       "ce l’abbiamo messa tutta"
+      ],
+      "modelAnswer": "Anche nella partita di ieri ce l’abbiamo messa tutta."
+     },
+     {
+      "id": "s6",
+      "start": "I miei amici se ne vanno. → Ieri sera i miei amici …",
+      "acceptedAnswers": [
+       "se ne sono andati"
+      ],
+      "modelAnswer": "Ieri sera i miei amici se ne sono andati."
+     },
+     {
+      "id": "s7",
+      "start": "Ci vuole un’ora. → Anche ieri …",
+      "acceptedAnswers": [
+       "c’è voluta un’ora",
+       "ci è voluta un’ora"
+      ],
+      "modelAnswer": "Anche ieri c’è voluta un’ora."
+     },
+     {
+      "id": "s8",
+      "start": "Ci metto venti minuti. → Anche ieri …",
+      "acceptedAnswers": [
+       "ci ho messo venti minuti",
+       "c’ho messo venti minuti"
+      ],
+      "modelAnswer": "Anche ieri ci ho messo venti minuti."
+     },
+     {
+      "id": "s9",
+      "start": "Ragazzi, ce la fate? → Ragazzi, ieri …?",
+      "acceptedAnswers": [
+       "ce l’avete fatta"
+      ],
+      "modelAnswer": "Ragazzi, ieri ce l’avete fatta?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Trova gli errori · livello difficile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore. Correggilo.",
+    "explanation": "mi, ti, si, ci, vi diventano me, te, se, ce, ve davanti a la e ne. Il pronome fisso è sempre la, mai lo.",
+    "promptHelp": "In jedem Satz steckt ein Fehler. Korrigiere ihn.",
+    "explanationHelp": "mi, ti, si, ci, vi werden vor la und ne zu me, te, se, ce, ve. Das feste Pronomen ist immer la, nie lo.",
+    "text": "Alla fine ce l’ho [[g1]]!\nAnna [[g2]] senza salutare.\nPer arrivare a Bari ci [[g3]] tre ore.\nNon [[g4]] prendere, scherzavo!\nIo ci [[g5]] mezz’ora per fare i compiti.\nPaolo [[g6]] per una battuta.\nRagazzi, [[g7]] di litigare!\nAll’inizio non parlavo bene, ma [[g8]] cavavo.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "fatto",
+      "acceptedAnswers": [
+       "fatta"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "se ne ha andata",
+      "acceptedAnswers": [
+       "se n’è andata",
+       "se ne è andata"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "vuole",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "la te",
+      "acceptedAnswers": [
+       "te la"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "voglio",
+      "acceptedAnswers": [
+       "metto"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "se l’ha presa",
+      "acceptedAnswers": [
+       "se l’è presa"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "smettetelo",
+      "acceptedAnswers": [
+       "smettetela"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "mi la",
+      "acceptedAnswers": [
+       "me la"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-s2",
+  "title": "Il primo anno a Bologna",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Il primo anno a Bologna · livello difficile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Giulia, di Reggio Calabria, racconta. Metti i verbi pronominali nella forma giusta (presente, passato prossimo, imperfetto o infinito).",
+    "explanation": "",
+    "promptHelp": "Giulia aus Reggio Calabria erzählt. Setze die Pronominalverben in die richtige Form (Präsens, passato prossimo, imperfetto oder Infinitiv).",
+    "text": "Quando sono arrivata a Bologna per studiare, non conoscevo nessuno.\nAll’inizio pensavo: «Non (farcela) [[g1]]!»\nLa mia coinquilina Marta, dopo due settimane, (andarsene) [[g2]]: non sopportava il rumore.\nIo invece sono rimasta e (mettercela) [[g3]] tutta.\nCon la cucina (cavarsela) [[g4]] subito: la nonna mi aveva insegnato tutto.\nUna volta un compagno ha riso del mio accento e io (prendersela) [[g5]] molto.\nPoi ho capito che lui non (avercela) [[g6]] con me: voleva solo scherzare.\nOggi a Bologna sto benissimo. Per tornare a casa in treno (volerci) [[g7]] molte ore,\nma (tenerci, io) [[g8]] troppo ai miei amici di qui per (andarsene) [[g9]].\nE a giugno ho dato l’ultimo esame dell’anno: anche questa volta (farcela) [[g10]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ce la faccio",
+       "ce la farò"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "se n’è andata",
+       "se ne è andata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ce l’ho messa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "me la sono cavata"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "me la sono presa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ce l’aveva"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ci vogliono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ci tengo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "andarmene"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "ce l’ho fatta"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco3-verbi-pronominali-s3",
+  "title": "Ce l’ho fatta!",
+  "language": "it",
+  "level": "B1",
+  "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Ce l’ho fatta! · livello difficile.",
+  "topics": [
+   "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "3",
+    "unit": "Extra · Approfondire",
+    "section": "Approfondimento"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco3-verbi-pronominali",
+   "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+   "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine: „Ich habe es mir nicht zugetraut, allein wegzufahren.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "me la"
+     },
+     {
+      "id": "i3",
+      "text": "sono sentita"
+     },
+     {
+      "id": "i4",
+      "text": "di partire da sola."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "open_answer",
+    "prompt": "Racconta una situazione difficile (a scuola, nello sport, in viaggio) in cui alla fine ce l’hai fatta. Usa almeno 4 verbi pronominali (farcela, cavarsela, mettercela tutta, prendersela, andarsene, volerci …).",
+    "explanation": "",
+    "promptHelp": "Erzähle von einer schwierigen Situation (Schule, Sport, Reise), die du am Ende gemeistert hast. Verwende mindestens 4 Pronominalverben.",
+    "modelAnswer": "L’anno scorso ho fatto una gara di nuoto. All’inizio non me la sentivo e volevo andarmene. La mia allenatrice mi ha detto: «Non te la prendere se non vinci, ma metticela tutta!» Ci sono voluti tre mesi di allenamento. Il giorno della gara ce l’ho messa tutta e alla fine ce l’ho fatta: sono arrivata terza. Me la sono cavata bene!",
+    "lines": 6
    }
   ]
  },
@@ -208520,37 +226572,37 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "sentence_completion",
-    "prompt": "Come si dice in italiano?",
+    "prompt": "Completa con fare, farsi o lasciare + infinito.",
     "explanation": "",
-    "promptHelp": "Wie heißt das auf Italienisch?",
+    "promptHelp": "Ergänze mit fare, farsi oder lasciare + Infinitiv.",
     "items": [
      {
       "id": "s1",
-      "start": "„Ich lasse mein Fahrrad reparieren.“",
+      "start": "La mia bici è rotta, ma io non so ripararla: la porto dal meccanico. → La … (riparare)",
       "acceptedAnswers": [
        "faccio riparare"
       ],
-      "modelAnswer": "Faccio riparare la mia bici."
+      "modelAnswer": "La faccio riparare dal meccanico."
      },
      {
       "id": "s2",
-      "start": "„Lass mich schlafen!“",
+      "start": "Ho sonno, non svegliarmi! → Per favore, … (dormire)",
       "acceptedAnswers": [
        "lasciami dormire"
       ],
-      "modelAnswer": "Lasciami dormire!"
+      "modelAnswer": "Per favore, lasciami dormire!"
      },
      {
       "id": "s3",
-      "start": "„Zeig es mir!“ (far vedere)",
+      "start": "Hai una foto nuova? Voglio vederla anch’io! → Dai, … (vedere)",
       "acceptedAnswers": [
-       "fammelo vedere"
+       "fammela vedere"
       ],
-      "modelAnswer": "Fammelo vedere!"
+      "modelAnswer": "Dai, fammela vedere!"
      },
      {
       "id": "s4",
-      "start": "„Giulia hat sich die Haare färben lassen.“ (tingere)",
+      "start": "Giulia è stata dal parrucchiere e adesso ha i capelli rossi. → Giulia … i capelli. (tingere)",
       "acceptedAnswers": [
        "si è fatta tingere"
       ],
@@ -217213,6 +235265,6072 @@ const STOCK_PACKAGES = [
        "ha"
       ],
       "answer": "è"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-l1",
+  "title": "A, di o da?",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · A, di o da? · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quale preposizione manca? Metti ogni espressione nel gruppo giusto.",
+    "explanation": "rinunciare a, abituato a, partecipare a, interessato a · capace di, accorgersi di, fidarsi di, occuparsi di, orgoglioso di · dipendere da, diverso da, lontano da.",
+    "promptHelp": "Welche Präposition fehlt? Ordne jeden Ausdruck der richtigen Gruppe zu.",
+    "explanationHelp": "Die Präposition gehört fest zum Verb oder Adjektiv und stimmt oft nicht mit dem Deutschen überein (verzichten auf = rinunciare a; abhängen von = dipendere da).",
+    "categories": [
+     {
+      "id": "a",
+      "label": "a"
+     },
+     {
+      "id": "b",
+      "label": "di"
+     },
+     {
+      "id": "c",
+      "label": "da"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "rinunciare … un viaggio in aereo",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "essere abituato … lavorare in gruppo",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "partecipare … un progetto europeo",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "essere interessato … un tirocinio",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "essere capace … ascoltare gli altri",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "accorgersi … un errore",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "fidarsi … un amico",
+      "category": "b"
+     },
+     {
+      "id": "i8",
+      "text": "occuparsi … politica",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "essere orgoglioso … un risultato",
+      "category": "b"
+     },
+     {
+      "id": "i10",
+      "text": "dipendere … molti fattori",
+      "category": "c"
+     },
+     {
+      "id": "i11",
+      "text": "essere diverso … tutti gli altri",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "essere lontano … casa",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-l2",
+  "title": "Che forma ci vuole?",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Che forma ci vuole? · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta del verbo.",
+    "explanation": "penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. Nel parlato si sente spesso l’indicativo (_penso che hanno_), ma nei testi scritti e all’esame è considerato un errore.",
+    "promptHelp": "Wähle die richtige Verbform.",
+    "explanationHelp": "Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale. In der gesprochenen Sprache hört man nach penso che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.",
+    "text": "Penso che oggi i social [[g1]] troppa influenza sui giovani.\nCredevo che il treno [[g2]] alle otto, invece era già partito.\nSebbene [[g3]] tardi, continuiamo a discutere.\nSe avessi più tempo, [[g4]] volontariato.\nSe ieri avessi studiato, oggi non [[g5]] paura dell’esame.\nÈ importante che tutti [[g6]] esprimere la propria opinione.\nVorrei che tu mi [[g7]] la verità.\nSecondo me, il turismo di massa [[g8]] un problema per molte città.\nDopo che [[g9]] gli studi, Sara si è trasferita a Milano.\nDobbiamo ridurre i rifiuti prima che [[g10]] troppo tardi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "abbiano",
+       "hanno",
+       "avere"
+      ],
+      "answer": "abbiano"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "partisse",
+       "parta",
+       "parte"
+      ],
+      "answer": "partisse"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sia",
+       "è",
+       "sarebbe"
+      ],
+      "answer": "sia"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "farei",
+       "facessi",
+       "farò"
+      ],
+      "answer": "farei"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "avrei",
+       "avessi",
+       "avrò"
+      ],
+      "answer": "avrei"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "possano",
+       "possono",
+       "potrebbero"
+      ],
+      "answer": "possano"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "dicessi",
+       "dici",
+       "dirai"
+      ],
+      "answer": "dicessi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "è",
+       "sia",
+       "fosse"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "ha finito",
+       "abbia finito",
+       "finisse"
+      ],
+      "answer": "ha finito"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "sia",
+       "è",
+       "sarà"
+      ],
+      "answer": "sia"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-l3",
+  "title": "Il relativo giusto",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Il relativo giusto · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le frasi con i pronomi relativi.",
+    "explanation": "il cui / la cui / i cui / le cui: l’articolo concorda con il nome che segue (il cui articolo, le cui strade). Chi = la persona che; ciò che = la cosa che.",
+    "promptHelp": "Ergänze die Sätze mit den Relativpronomen aus dem Kasten.",
+    "explanationHelp": "Bei il cui / la cui / i cui / le cui richtet sich der Artikel nach dem folgenden Nomen. Chi = wer, derjenige, der; ciò che = das, was.",
+    "text": "Il giornalista [[g1]] articolo ha vinto il premio lavora a Torino.\nLa scrittrice [[g2]] famiglia viene dalla Sicilia vive a Roma.\nUn’azienda [[g3]] dipendenti lavorano da casa risparmia energia.\nÈ una città [[g4]] strade sono sempre piene di turisti.\nIl progetto [[g5]] ti ho parlato riguarda l’energia solare.\nI ragazzi [[g6]] partecipano allo scambio partono domani.\n[[g7]] vuole studiare all’estero deve informarsi presto.\n[[g8]] mi preoccupa di più è il cambiamento climatico.\nHo intervistato venti studenti, molti [[g9]] lavorano già.\nLa professoressa [[g10]] ho scritto mi ha risposto subito.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il cui"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "la cui"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "i cui"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "le cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "del quale"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Chi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Ciò che"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "dei quali"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "alla quale"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-m1",
+  "title": "Se …",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Se … · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il periodo ipotetico con la forma giusta del verbo.",
+    "explanation": "Possibilità: se + congiuntivo imperfetto → condizionale presente. Irrealtà nel passato: se + congiuntivo trapassato → condizionale passato. Tipo misto: se + congiuntivo trapassato → condizionale presente (conseguenza oggi).",
+    "promptHelp": "Ergänze den Bedingungssatz mit der richtigen Verbform.",
+    "explanationHelp": "Möglich: se + congiuntivo imperfetto → condizionale presente. Irreal in der Vergangenheit: se + congiuntivo trapassato → condizionale passato. Gemischt: Bedingung in der Vergangenheit, Folge heute → condizionale presente.",
+    "text": "Se (avere, io) [[g1]] più tempo libero, farei un corso di spagnolo.\nSe domani (fare) [[g2]] bel tempo, andiamo al mare in bicicletta.\nSe Luca avesse mandato la domanda in tempo, (ottenere) [[g3]] la borsa di studio.\nSe noi (prendere) [[g4]] il treno delle sette, non saremmo arrivati in ritardo.\nSe tu avessi studiato di più l’anno scorso, adesso non (dovere) [[g5]] ripetere l’esame.\nSe i miei genitori non (trasferirsi) [[g6]] in Germania vent’anni fa, oggi io non parlerei tedesco.\nChe cosa (fare, tu) [[g7]] se vincessi un milione di euro?\nSe tutti (usare) [[g8]] di più i mezzi pubblici, l’aria delle città sarebbe più pulita.\nSe me lo (dire, voi) [[g9]] prima, vi avrei aiutato volentieri.\nSe non ci fosse Internet, la nostra vita (essere) [[g10]] molto diversa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "avessi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fa",
+       "farà"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "avrebbe ottenuto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "avessimo preso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "dovresti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si fossero trasferiti"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "faresti"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "usassero"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "aveste detto"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-m2",
+  "title": "Dall’attivo al passivo",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Dall’attivo al passivo · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma la frase al passivo. Usa la forma tra parentesi, se c’è.",
+    "explanation": "Il participio concorda con il soggetto (le spiagge sono state pulite). Nei tempi composti solo essere: è stata inventata. andare + participio = deve / devono essere …",
+    "promptHelp": "Setze den Satz ins Passiv. Verwende die Form in Klammern, wenn eine angegeben ist.",
+    "explanationHelp": "Das Partizip richtet sich nach dem Subjekt. In zusammengesetzten Zeiten nur essere (è stata inventata, nicht mit venire). andare + Partizip = „muss / müssen … werden“.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ogni anno milioni di turisti visitano Venezia.",
+      "acceptedAnswers": [
+       "è visitata",
+       "viene visitata"
+      ],
+      "modelAnswer": "Ogni anno Venezia è visitata da milioni di turisti. (Anche: viene visitata)"
+     },
+     {
+      "id": "s2",
+      "start": "Un giovane ingegnere ha inventato questa app.",
+      "acceptedAnswers": [
+       "è stata inventata"
+      ],
+      "modelAnswer": "Questa app è stata inventata da un giovane ingegnere."
+     },
+     {
+      "id": "s3",
+      "start": "Il Parlamento approverà la nuova legge a dicembre.",
+      "acceptedAnswers": [
+       "sarà approvata",
+       "verrà approvata"
+      ],
+      "modelAnswer": "La nuova legge sarà approvata dal Parlamento a dicembre. (Anche: verrà approvata)"
+     },
+     {
+      "id": "s4",
+      "start": "I volontari hanno pulito le spiagge.",
+      "acceptedAnswers": [
+       "sono state pulite"
+      ],
+      "modelAnswer": "Le spiagge sono state pulite dai volontari."
+     },
+     {
+      "id": "s5",
+      "start": "In passato i contadini coltivavano questi campi.",
+      "acceptedAnswers": [
+       "erano coltivati",
+       "venivano coltivati"
+      ],
+      "modelAnswer": "In passato questi campi erano coltivati dai contadini. (Anche: venivano coltivati)"
+     },
+     {
+      "id": "s6",
+      "start": "Bisogna rispettare le regole. (andare)",
+      "acceptedAnswers": [
+       "vanno rispettate"
+      ],
+      "modelAnswer": "Le regole vanno rispettate."
+     },
+     {
+      "id": "s7",
+      "start": "Bisogna spegnere i cellulari. (andare)",
+      "acceptedAnswers": [
+       "vanno spenti"
+      ],
+      "modelAnswer": "I cellulari vanno spenti."
+     },
+     {
+      "id": "s8",
+      "start": "In Italia la gente beve molto caffè. (si)",
+      "acceptedAnswers": [
+       "si beve molto caffè"
+      ],
+      "modelAnswer": "In Italia si beve molto caffè."
+     },
+     {
+      "id": "s9",
+      "start": "Dante scrisse la Divina Commedia.",
+      "acceptedAnswers": [
+       "fu scritta",
+       "venne scritta"
+      ],
+      "modelAnswer": "La Divina Commedia fu scritta da Dante. (Anche: venne scritta)"
+     },
+     {
+      "id": "s10",
+      "start": "Penso che la scuola organizzi lo scambio. (Penso che lo scambio …)",
+      "acceptedAnswers": [
+       "sia organizzato",
+       "venga organizzato"
+      ],
+      "modelAnswer": "Penso che lo scambio sia organizzato dalla scuola. (Anche: venga organizzato)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-m3",
+  "title": "Che cosa hanno detto?",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Che cosa hanno detto? · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il discorso indiretto.",
+    "explanation": "Dopo ha detto che: presente → imperfetto, passato prossimo → trapassato prossimo, futuro → condizionale passato, imperativo → di + infinito. Cambiano anche domani → il giorno dopo, ieri → il giorno prima, qui → lì.",
+    "promptHelp": "Ergänze die indirekte Rede.",
+    "explanationHelp": "Nach ha detto che: Präsens → imperfetto, passato prossimo → trapassato prossimo, Futur → condizionale passato, Imperativ → di + Infinitiv. Auch Zeit- und Ortsangaben ändern sich (domani → il giorno dopo, qui → lì).",
+    "text": "Sara: «Parto domani.» → Sara ha detto che [[g1]] il giorno dopo.\nMatteo: «Ho perso il treno.» → Matteo ha detto che [[g2]] il treno.\nLa prof: «Leggete l’articolo!» → La prof ci ha detto di [[g3]] l’articolo.\nChiara: «Non mi piace questa città.» → Chiara ha detto che non le [[g4]] quella città.\nDavide: «Hai tempo?» → Davide mi ha chiesto se [[g5]] tempo.\nGiulia: «Ieri sono andata a una manifestazione.» → Giulia ha raccontato che il giorno prima [[g6]] a una manifestazione.\nIl sindaco e gli assessori: «Costruiremo una nuova pista ciclabile.» → Il sindaco e gli assessori hanno promesso che [[g7]] una nuova pista ciclabile.\nMia madre: «Non tornare tardi!» → Mia madre mi ha detto di non [[g8]] tardi.\nI nonni: «Qui stiamo bene.» → I nonni hanno detto che [[g9]] stavano bene.\nLuca: «Dove lavora tuo padre?» → Luca mi ha chiesto dove [[g10]] mio padre.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sarebbe partita",
+       "partiva"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aveva perso"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "leggere"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "piaceva"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avessi",
+       "avevo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "era andata"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "avrebbero costruito"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "tornare"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "lì",
+       "là"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "lavorasse",
+       "lavorava"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-grammatica-s1",
+  "title": "Una città e i suoi turisti",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Una città e i suoi turisti · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it12-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+   "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore di grammatica. Correggilo.",
+    "explanation": "benché + congiuntivo · rinunciare a, dipendere da · la cui bellezza (concorda con bellezza) · futuro nel passato = condizionale passato · passivo nei tempi composti solo con essere · periodo ipotetico misto · gerundio composto con essere per arrivare · dopo + infinito passato.",
+    "promptHelp": "In jedem Satz steckt ein Grammatikfehler. Korrigiere ihn.",
+    "explanationHelp": "benché + Konjunktiv · rinunciare a, dipendere da · la cui richtet sich nach bellezza · Zukunft in der Vergangenheit = condizionale passato · Passiv in zusammengesetzten Zeiten nur mit essere · gemischter Bedingungssatz · gerundio composto mit essere bei arrivare · dopo + Infinitiv Perfekt.",
+    "text": "Benché il turismo [[g1]] lavoro, crea anche molti problemi.\nMolti abitanti hanno rinunciato [[g2]] vivere nel centro storico.\nIl problema dipende anche [[g3]] noi visitatori.\nÈ un luogo [[g4]] bellezza attira persone da tutto il mondo.\nL’anno scorso il sindaco aveva promesso che [[g5]] un biglietto d’ingresso entro Natale, ma poi non l’ha fatto.\nMolte decisioni [[g6]] senza ascoltare i cittadini.\nSe il Comune avesse limitato prima il numero delle navi, oggi il mare [[g7]] più pulito.\n[[g8]] troppo tardi, non abbiamo trovato posto sul battello.\nDopo [[g9]] il museo, siamo tornati in albergo.\nÈ necessario che ognuno [[g10]] la sua parte.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "porta",
+      "acceptedAnswers": [
+       "porti"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "il cui",
+      "acceptedAnswers": [
+       "la cui"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "introdurrà",
+      "acceptedAnswers": [
+       "avrebbe introdotto"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "sono venute prese",
+      "acceptedAnswers": [
+       "sono state prese"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "fosse",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Avendo arrivati",
+      "acceptedAnswers": [
+       "Essendo arrivati"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "visitare",
+      "acceptedAnswers": [
+       "aver visitato",
+       "avere visitato"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "fa",
+      "acceptedAnswers": [
+       "faccia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-l1",
+  "title": "Amico o direttore?",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Amico o direttore? · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’espressione informale a quella formale.",
+    "explanation": "",
+    "promptHelp": "Verbinde den informellen Ausdruck mit dem formellen.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "un sacco di problemi",
+      "right": "numerosi problemi"
+     },
+     {
+      "id": "p2",
+      "left": "dare una mano",
+      "right": "offrire il proprio aiuto"
+     },
+     {
+      "id": "p3",
+      "left": "Ciao, a presto!",
+      "right": "Distinti saluti"
+     },
+     {
+      "id": "p4",
+      "left": "comprare",
+      "right": "acquistare"
+     },
+     {
+      "id": "p5",
+      "left": "i soldi",
+      "right": "il denaro"
+     },
+     {
+      "id": "p6",
+      "left": "Fammi sapere!",
+      "right": "La prego di informarmi."
+     },
+     {
+      "id": "p7",
+      "left": "Scusa il ritardo.",
+      "right": "Mi scuso per il ritardo."
+     },
+     {
+      "id": "p8",
+      "left": "il prof",
+      "right": "il docente"
+     },
+     {
+      "id": "p9",
+      "left": "Che ne pensi?",
+      "right": "Qual è la Sua opinione?"
+     },
+     {
+      "id": "p10",
+      "left": "Voglio un’informazione.",
+      "right": "Desidererei un’informazione."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-l2",
+  "title": "Attenzione ai falsi amici!",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Attenzione ai falsi amici! · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa significano queste parole in tedesco?",
+    "explanation": "caldo, firma, camera e regalo sono «falsi amici»: assomigliano a parole tedesche ma hanno un altro significato.",
+    "promptHelp": "Was bedeuten diese Wörter auf Deutsch?",
+    "explanationHelp": "caldo, firma, camera und regalo sind „falsche Freunde“: Sie klingen wie deutsche Wörter, bedeuten aber etwas anderes.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "caldo",
+      "right": "warm, heiß"
+     },
+     {
+      "id": "p2",
+      "left": "freddo",
+      "right": "kalt"
+     },
+     {
+      "id": "p3",
+      "left": "la firma",
+      "right": "die Unterschrift"
+     },
+     {
+      "id": "p4",
+      "left": "la ditta",
+      "right": "die Firma"
+     },
+     {
+      "id": "p5",
+      "left": "la camera",
+      "right": "das Zimmer"
+     },
+     {
+      "id": "p6",
+      "left": "la macchina fotografica",
+      "right": "die Kamera"
+     },
+     {
+      "id": "p7",
+      "left": "il regalo",
+      "right": "das Geschenk"
+     },
+     {
+      "id": "p8",
+      "left": "lo scaffale",
+      "right": "das Regal"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-l3",
+  "title": "A che cosa serve il connettivo?",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · A che cosa serve il connettivo? · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Metti ogni connettivo nel gruppo giusto.",
+    "explanation": "",
+    "promptHelp": "Ordne jeden Konnektor der richtigen Gruppe zu.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "aggiungere un argomento"
+     },
+     {
+      "id": "b",
+      "label": "esprimere un contrasto"
+     },
+     {
+      "id": "c",
+      "label": "indicare la causa"
+     },
+     {
+      "id": "d",
+      "label": "indicare la conseguenza"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "inoltre",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "in più",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "non solo … ma anche",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "tuttavia",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "invece",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "al contrario",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "poiché",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "dato che",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "siccome",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "quindi",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "perciò",
+      "category": "d"
+     },
+     {
+      "id": "i12",
+      "text": "di conseguenza",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-m1",
+  "title": "Dopo la maturità",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Dopo la maturità · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il verbo giusto nella forma giusta. Usa ogni verbo una volta: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere.",
+    "explanation": "prendere una decisione · fare domanda · tenere conto di · svolgere un ruolo · raggiungere un obiettivo · affrontare un problema · correre un rischio · esprimere un’opinione.",
+    "promptHelp": "Ergänze das passende Verb in der richtigen Form. Verwende jedes Verb einmal: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere.",
+    "explanationHelp": "Kollokationen als Ganzes lernen: eine Entscheidung treffen = prendere una decisione, sich bewerben = fare domanda, berücksichtigen = tenere conto di.",
+    "text": "Dopo la maturità Giulia ha finalmente [[g1]] una decisione: prima di studiare vuole fare un’esperienza di lavoro.\nIeri ha [[g2]] domanda per un tirocinio in un’azienda di Bologna.\nNella scelta vuole [[g3]] conto anche dei consigli dei suoi genitori.\nSecondo lei, gli insegnanti [[g4]] un ruolo importante nell’orientamento degli studenti.\nChi vuole [[g5]] i propri obiettivi deve avere pazienza.\nPrima o poi bisogna [[g6]] i problemi: non si può sempre scappare.\nChi sceglie un lavoro solo per i soldi [[g7]] il rischio di annoiarsi presto.\nNel suo blog Giulia [[g8]] spesso la sua opinione su questi temi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "preso"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "fatto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "tenere"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "svolgono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "raggiungere"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "affrontare"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "corre"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "esprime"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-m2",
+  "title": "Una mail formale",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Una mail formale · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la frase in modo formale (con il Lei). Usa le parole tra parentesi.",
+    "explanation": "Nel registro formale: Lei (Le scrivo, La ringrazio, una Sua risposta), condizionale di cortesia (desidererei, potrebbe), parole più precise (impiego, inviare).",
+    "promptHelp": "Schreibe den Satz formell um (mit Lei). Verwende die Wörter in Klammern.",
+    "explanationHelp": "Formelles Register: Höflichkeitsform Lei (Le scrivo, La ringrazio, una Sua risposta), höfliches condizionale (desidererei, potrebbe), genauere Wörter (impiego, inviare).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Voglio sapere quanto costa il corso. (desiderare)",
+      "acceptedAnswers": [
+       "desidererei sapere",
+       "desidero sapere"
+      ],
+      "modelAnswer": "Desidererei sapere quanto costa il corso. (Anche: Desidero sapere …)"
+     },
+     {
+      "id": "s2",
+      "start": "Mi puoi mandare il programma? (potrebbe)",
+      "acceptedAnswers": [
+       "potrebbe mandarmi",
+       "mi potrebbe mandare"
+      ],
+      "modelAnswer": "Potrebbe mandarmi il programma? (Anche: Mi potrebbe mandare il programma?)"
+     },
+     {
+      "id": "s3",
+      "start": "Grazie per la risposta! (ringraziare)",
+      "acceptedAnswers": [
+       "La ringrazio"
+      ],
+      "modelAnswer": "La ringrazio per la risposta."
+     },
+     {
+      "id": "s4",
+      "start": "Rispondimi presto! (attendere, una Sua risposta)",
+      "acceptedAnswers": [
+       "attendo una Sua risposta",
+       "attendo una Sua cortese risposta",
+       "attendo la Sua risposta"
+      ],
+      "modelAnswer": "Attendo una Sua risposta."
+     },
+     {
+      "id": "s5",
+      "start": "Ti scrivo perché cerco un lavoro per l’estate. (un impiego)",
+      "acceptedAnswers": [
+       "Le scrivo perché cerco un impiego",
+       "Le scrivo perché sto cercando un impiego",
+       "Le scrivo poiché cerco un impiego"
+      ],
+      "modelAnswer": "Le scrivo perché cerco un impiego per l’estate."
+     },
+     {
+      "id": "s6",
+      "start": "Scusa se ti disturbo. (scusarsi, il disturbo)",
+      "acceptedAnswers": [
+       "mi scuso per il disturbo",
+       "mi scuso del disturbo"
+      ],
+      "modelAnswer": "Mi scuso per il disturbo."
+     },
+     {
+      "id": "s7",
+      "start": "Ti mando il mio curriculum. (inviare, in allegato)",
+      "acceptedAnswers": [
+       "Le invio in allegato",
+       "in allegato Le invio",
+       "Le invio il mio curriculum in allegato"
+      ],
+      "modelAnswer": "Le invio in allegato il mio curriculum. (Anche: In allegato Le invio il mio curriculum.)"
+     },
+     {
+      "id": "s8",
+      "start": "Ciao, a presto! (distinti)",
+      "acceptedAnswers": [
+       "distinti saluti"
+      ],
+      "modelAnswer": "Distinti saluti"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-m3",
+  "title": "Cellulare in classe: sì o no?",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Cellulare in classe: sì o no? · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Leggi il testo e scegli il connettivo giusto.",
+    "explanation": "perché = causa · invece = contrasto · inoltre = un argomento in più · da un lato … dall’altro · quindi = conseguenza · sebbene, a condizione che + congiuntivo · cioè = spiegazione · in conclusione = alla fine del testo.",
+    "promptHelp": "Lies den Text und wähle den passenden Konnektor.",
+    "explanationHelp": "perché = Grund · invece = Gegensatz · inoltre = weiteres Argument · da un lato … dall’altro = einerseits … andererseits · quindi = Folge · sebbene, a condizione che + Konjunktiv · cioè = das heißt · in conclusione = am Schluss.",
+    "text": "Secondo molti insegnanti il cellulare va vietato in classe [[g1]] distrae gli studenti.\nGli studenti, [[g2]], pensano che possa essere uno strumento utile.\nCon il cellulare si possono fare ricerche veloci; [[g3]] esistono molte app per imparare le lingue.\nDa un lato, dunque, il cellulare aiuta a trovare informazioni, [[g4]] rende più difficile concentrarsi.\nAlcuni ragazzi lo usano fino a tarda notte, [[g5]] dormono poco e a scuola sono stanchi.\n[[g6]] il divieto sia già in vigore in molte scuole, non tutti lo rispettano.\nLe regole servono, [[g7]] siano chiare per tutti.\nIl vero problema, [[g8]] la distrazione, non riguarda solo i giovani.\n[[g9]] gli adulti, molti di loro guardano lo schermo anche a tavola.\n[[g10]], penso che la soluzione migliore sia un uso limitato e intelligente.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "perché",
+       "perciò",
+       "benché"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "invece",
+       "quindi",
+       "infatti"
+      ],
+      "answer": "invece"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "inoltre",
+       "tuttavia",
+       "altrimenti"
+      ],
+      "answer": "inoltre"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "dall’altro",
+       "in conclusione",
+       "per esempio"
+      ],
+      "answer": "dall’altro"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "quindi",
+       "eppure",
+       "poiché"
+      ],
+      "answer": "quindi"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Sebbene",
+       "Siccome",
+       "Perciò"
+      ],
+      "answer": "Sebbene"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "a condizione che",
+       "dato che",
+       "perciò"
+      ],
+      "answer": "a condizione che"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "cioè",
+       "eppure",
+       "purché"
+      ],
+      "answer": "cioè"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Per quanto riguarda",
+       "A causa",
+       "Grazie"
+      ],
+      "answer": "Per quanto riguarda"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "In conclusione",
+       "Per esempio",
+       "Al contrario"
+      ],
+      "answer": "In conclusione"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-lessico-s1",
+  "title": "La parola sbagliata",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · La parola sbagliata · livello difficile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it12-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+   "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è una parola o un’espressione sbagliata (falso amico, collocazione, registro). Correggila.",
+    "explanation": "Falsi amici: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Collocazioni: prendere una decisione, raggiungere un obiettivo, tenere conto di. In una mail formale si usa il Lei.",
+    "promptHelp": "In jedem Satz ist ein Wort oder Ausdruck falsch (falscher Freund, Kollokation, Register). Korrigiere ihn.",
+    "explanationHelp": "Falsche Freunde: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Kollokationen: prendere una decisione, raggiungere un obiettivo, tenere conto di. In einer formellen Mail steht die Höflichkeitsform Lei.",
+    "text": "Che [[g1]] oggi! Mettiti il cappotto e la sciarpa.\nIl direttore ha messo la sua [[g2]] sotto il contratto.\nMio zio ha fondato una piccola [[g3]] di trasporti.\nLa mia nuova [[g4]] fa foto bellissime.\nHo comprato [[g5]] nuovo per mettere in ordine tutti i miei libri.\nPrima di scegliere l’università devo [[g6]] una decisione difficile.\nDopo tre anni di lavoro abbiamo finalmente [[g7]] il nostro obiettivo.\nUn buon giornalista deve tenere conto [[g8]] tutte le opinioni.\nGentile signora Bianchi, [[g9]] scrivo per chiedere informazioni sul corso di lingua.\nEgregio dottor Verdi, [[g10]] mandarmi il modulo d’iscrizione?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "caldo",
+      "acceptedAnswers": [
+       "freddo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "ditta",
+      "acceptedAnswers": [
+       "firma"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "firma",
+      "acceptedAnswers": [
+       "ditta",
+       "azienda",
+       "impresa",
+       "società"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "camera",
+      "acceptedAnswers": [
+       "macchina fotografica",
+       "fotocamera"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "un regalo",
+      "acceptedAnswers": [
+       "uno scaffale"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "fare",
+      "acceptedAnswers": [
+       "prendere"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "arrivato",
+      "acceptedAnswers": [
+       "raggiunto",
+       "conseguito"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "a",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "ti",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "puoi",
+      "acceptedAnswers": [
+       "può",
+       "potrebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-remoto-prod-l1",
+  "title": "Infinito e passato remoto",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Infinito e passato remoto · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+   "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’infinito alla forma del passato remoto (lui / lei).",
+    "explanation": "",
+    "promptHelp": "Verbinde den Infinitiv mit der Form des passato remoto (3. Person Singular).",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "essere",
+      "right": "fu"
+     },
+     {
+      "id": "p2",
+      "left": "avere",
+      "right": "ebbe"
+     },
+     {
+      "id": "p3",
+      "left": "fare",
+      "right": "fece"
+     },
+     {
+      "id": "p4",
+      "left": "dire",
+      "right": "disse"
+     },
+     {
+      "id": "p5",
+      "left": "dare",
+      "right": "diede"
+     },
+     {
+      "id": "p6",
+      "left": "stare",
+      "right": "stette"
+     },
+     {
+      "id": "p7",
+      "left": "vedere",
+      "right": "vide"
+     },
+     {
+      "id": "p8",
+      "left": "venire",
+      "right": "venne"
+     },
+     {
+      "id": "p9",
+      "left": "nascere",
+      "right": "nacque"
+     },
+     {
+      "id": "p10",
+      "left": "vivere",
+      "right": "visse"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-remoto-prod-l2",
+  "title": "Chi lo fece?",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Chi lo fece? · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+   "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Io, lui / lei o loro? Metti ogni forma nel gruppo giusto.",
+    "explanation": "Nei verbi irregolari: io → -i (scrissi), lui / lei → -e (scrisse), loro → -ero (scrissero).",
+    "promptHelp": "Ich, er / sie oder sie (Plural)? Ordne jede Form der richtigen Gruppe zu.",
+    "explanationHelp": "Bei den unregelmäßigen Verben: io → -i, lui / lei → -e, loro → -ero.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "io"
+     },
+     {
+      "id": "b",
+      "label": "lui / lei"
+     },
+     {
+      "id": "c",
+      "label": "loro"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "scrissi",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "chiesi",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "conobbi",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "tenni",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "prese",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "rispose",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "seppe",
+      "category": "b"
+     },
+     {
+      "id": "i8",
+      "text": "rimase",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "misero",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "lessero",
+      "category": "c"
+     },
+     {
+      "id": "i11",
+      "text": "vollero",
+      "category": "c"
+     },
+     {
+      "id": "i12",
+      "text": "decisero",
+      "category": "c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-remoto-prod-l3",
+  "title": "La lettera nella bottiglia",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · La lettera nella bottiglia · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+   "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Leggi la fiaba e scegli la forma giusta del passato remoto.",
+    "explanation": "Guarda il soggetto: Lucia → -ò / -e (trovò, lesse); madre e figlia → -rono / -ero (partirono, decisero); io → -i (scrissi).",
+    "promptHelp": "Lies das Märchen und wähle die richtige Form des passato remoto.",
+    "explanationHelp": "Achte auf das Subjekt: Lucia → 3. Singular (trovò, lesse); Mutter und Tochter → 3. Plural (partirono, decisero); io → -i (scrissi).",
+    "text": "C’era una volta una ragazza di nome Lucia che viveva con sua madre in un piccolo paese sul mare.\nUn giorno Lucia [[g1]] sulla spiaggia una vecchia bottiglia.\nDentro c’era una lettera: la ragazza la [[g2]] subito.\nPoi [[g3]] a casa e la mostrò a sua madre.\nMadre e figlia [[g4]] di cercare la persona che l’aveva scritta.\nIl giorno dopo le due donne [[g5]] per la città.\nQuando arrivarono, [[g6]] informazioni a un vecchio signore.\nIl vecchio [[g7]]: «Conosco bene questa lettera.»\n«Io stesso la [[g8]] cinquant’anni fa», disse sorridendo.\nLucia e sua madre [[g9]] senza parole.\nCosì [[g10]] una lunga amicizia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "trovò",
+       "trovai",
+       "trovarono"
+      ],
+      "answer": "trovò"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "lesse",
+       "lessi",
+       "lessero"
+      ],
+      "answer": "lesse"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "corse",
+       "corsi",
+       "corsero"
+      ],
+      "answer": "corse"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "decisero",
+       "decise",
+       "decisi"
+      ],
+      "answer": "decisero"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "partirono",
+       "partì",
+       "partii"
+      ],
+      "answer": "partirono"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "chiesero",
+       "chiese",
+       "chiesi"
+      ],
+      "answer": "chiesero"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "rispose",
+       "risposi",
+       "risposero"
+      ],
+      "answer": "rispose"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "scrissi",
+       "scrisse",
+       "scrissero"
+      ],
+      "answer": "scrissi"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "rimasero",
+       "rimase",
+       "rimasi"
+      ],
+      "answer": "rimasero"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "nacque",
+       "nacqui",
+       "nacquero"
+      ],
+      "answer": "nacque"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-remoto-prod-m1",
+  "title": "Tre persone, quattro verbi",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Tre persone, quattro verbi · livello medio.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+   "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa la tabella con il passato remoto.",
+    "explanation": "-are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Attenzione agli accenti (lavorò, credé, dormì) e alla doppia i di dormii. Perdere ha anche le forme irregolari persi, perse, persero, che sono le più usate.",
+    "promptHelp": "Ergänze die Tabelle mit dem passato remoto.",
+    "explanationHelp": "-are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Achte auf die Akzente (lavorò, credé, dormì) und auf das doppelte i in dormii. Perdere hat zusätzlich die unregelmäßigen Formen persi, perse, persero; sie sind die üblichsten.",
+    "columns": [
+     "infinito",
+     "io",
+     "lui / lei",
+     "loro"
+    ],
+    "rows": [
+     [
+      "lavorare",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "lavorai"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "lavorò"
+       ]
+      },
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "lavorarono"
+       ]
+      }
+     ],
+     [
+      "credere",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "credei",
+        "credetti"
+       ]
+      },
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "credé",
+        "credette"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "crederono",
+        "credettero"
+       ]
+      }
+     ],
+     [
+      "dormire",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "dormii"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "dormì"
+       ]
+      },
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "dormirono"
+       ]
+      }
+     ],
+     [
+      "perdere",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "persi",
+        "perdetti",
+        "perdei"
+       ]
+      },
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "perse",
+        "perdette",
+        "perdé"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "persero",
+        "perdettero",
+        "perderono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it12-remoto-prod-m2",
+  "title": "Galileo Galilei",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Galileo Galilei · livello medio.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "5",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 12,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "it12-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+   "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la biografia con il passato remoto dei verbi.",
+    "explanation": "Nelle biografie di personaggi storici si usa il passato remoto: nacque, visse, scrisse, morì.",
+    "promptHelp": "Ergänze die Biografie mit dem passato remoto der Verben.",
+    "explanationHelp": "In Biografien historischer Personen steht das passato remoto: nacque, visse, scrisse, morì.",
+    "text": "Galileo Galilei (nascere) [[g1]] a Pisa nel 1564.\nDa giovane (studiare) [[g2]] medicina all’università della sua città, ma la sua vera passione era la matematica.\nPiù tardi (diventare) [[g3]] professore di matematica e (vivere) [[g4]] per molti anni a Padova.\nNel 1609 (costruire) [[g5]] un cannocchiale e lo (usare) [[g6]] per osservare il cielo.\nCosì (vedere) [[g7]] le montagne della Luna e (scoprire) [[g8]] quattro satelliti di Giove.\nNei suoi libri (scrivere) [[g9]] che la Terra gira intorno al Sole.\nPer questo nel 1633 la Chiesa lo (condannare) [[g10]].\nGalileo (dovere) [[g11]] passare gli ultimi anni nella sua casa vicino a Firenze, dove (morire) [[g12]] nel 1642.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nacque"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "studiò"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diventò",
+       "divenne"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "visse"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "costruì"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "usò"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "vide"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "scoprì"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "scrisse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "condannò"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "dovette",
+       "dové"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "morì"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-l1",
+  "title": "Congiuntivo o indicativo?",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Congiuntivo o indicativo? · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Dopo quali connettivi si usa il congiuntivo? Metti ogni connettivo nel gruppo giusto.",
+    "explanation": "benché, affinché, a meno che, qualora, nonostante, purché, prima che + congiuntivo. Attenzione: anche se e dopo che vogliono l’indicativo.",
+    "promptHelp": "Nach welchen Konnektoren steht der Konjunktiv? Ordne jeden Konnektor der richtigen Gruppe zu.",
+    "explanationHelp": "benché, affinché, a meno che, qualora, nonostante, purché, prima che verlangen den Konjunktiv. Achtung: anche se und dopo che stehen mit dem Indikativ.",
+    "categories": [
+     {
+      "id": "a",
+      "label": "+ congiuntivo"
+     },
+     {
+      "id": "b",
+      "label": "+ indicativo"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "benché",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "affinché",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "a meno che",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "qualora",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "nonostante",
+      "category": "a"
+     },
+     {
+      "id": "i6",
+      "text": "purché",
+      "category": "a"
+     },
+     {
+      "id": "i7",
+      "text": "prima che",
+      "category": "a"
+     },
+     {
+      "id": "i8",
+      "text": "anche se",
+      "category": "b"
+     },
+     {
+      "id": "i9",
+      "text": "dopo che",
+      "category": "b"
+     },
+     {
+      "id": "i10",
+      "text": "siccome",
+      "category": "b"
+     },
+     {
+      "id": "i11",
+      "text": "poiché",
+      "category": "b"
+     },
+     {
+      "id": "i12",
+      "text": "mentre",
+      "category": "b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-l2",
+  "title": "La forma giusta dopo il connettivo",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · La forma giusta dopo il connettivo · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta del verbo.",
+    "explanation": "Verbo principale al presente → congiuntivo presente o passato; al passato (speravo, pensavo) → congiuntivo imperfetto o trapassato. dopo che + indicativo. Futuro nel passato → condizionale passato. Nel parlato si sente spesso l’indicativo anche dopo benché o sono contenta che, ma nei testi scritti e all’esame è considerato un errore.",
+    "promptHelp": "Wähle die richtige Verbform.",
+    "explanationHelp": "Hauptsatz im Präsens → congiuntivo presente oder passato; in der Vergangenheit (speravo, pensavo) → congiuntivo imperfetto oder trapassato. dopo che + Indikativ. Zukunft in der Vergangenheit → condizionale passato. In der gesprochenen Sprache hört man auch nach benché oder sono contenta che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.",
+    "text": "Benché [[g1]] solo diciotto anni, Sara vive già da sola.\nTi presto il libro affinché tu [[g2]] preparare la relazione.\nNon usciamo, a meno che non [[g3]] di piovere.\nQualora [[g4]] bisogno di aiuto, può scrivermi a questo indirizzo.\nNonostante [[g5]] stanco, Luca ha finito il lavoro.\nSperavo che tu [[g6]] alla festa.\nSono contenta che ieri tu [[g7]] con noi.\nPensavo che il film [[g8]].\nDopo che [[g9]] la scuola, Matteo ha lavorato un anno in Spagna.\nIl professore ha detto che il giorno dopo [[g10]] i compiti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "abbia",
+       "ha",
+       "avrebbe"
+      ],
+      "answer": "abbia"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "possa",
+       "puoi",
+       "potrai"
+      ],
+      "answer": "possa"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "smetta",
+       "smette",
+       "smetterà"
+      ],
+      "answer": "smetta"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "avesse",
+       "avrebbe",
+       "ha"
+      ],
+      "answer": "avesse"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "fosse",
+       "era",
+       "sarebbe"
+      ],
+      "answer": "fosse"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "venissi",
+       "venga",
+       "verrai"
+      ],
+      "answer": "venissi"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "sia venuto",
+       "sei venuto",
+       "verresti"
+      ],
+      "answer": "sia venuto"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "fosse già cominciato",
+       "sia già cominciato",
+       "è già cominciato"
+      ],
+      "answer": "fosse già cominciato"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "ha finito",
+       "abbia finito",
+       "finisse"
+      ],
+      "answer": "ha finito"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "avrebbe restituito",
+       "restituirà",
+       "restituisca"
+      ],
+      "answer": "avrebbe restituito"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-l3",
+  "title": "Se … allora …",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Se … allora … · livello facile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’inizio e la fine di ogni periodo ipotetico.",
+    "explanation": "se + indicativo → indicativo · se + congiuntivo imperfetto → condizionale presente · se + congiuntivo trapassato → condizionale passato (o presente, se la conseguenza è oggi: tipo misto).",
+    "promptHelp": "Verbinde Anfang und Ende jedes Bedingungssatzes.",
+    "explanationHelp": "se + Indikativ → Indikativ · se + congiuntivo imperfetto → condizionale presente · se + congiuntivo trapassato → condizionale passato (oder presente, wenn die Folge heute gilt: gemischter Typ).",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Se piove anche domani,",
+      "right": "porto l’ombrello."
+     },
+     {
+      "id": "p2",
+      "left": "Se avessi una macchina,",
+      "right": "ti accompagnerei io alla stazione."
+     },
+     {
+      "id": "p3",
+      "left": "Se fossimo partiti prima,",
+      "right": "non avremmo perso l’aereo."
+     },
+     {
+      "id": "p4",
+      "left": "Se avessi studiato medicina,",
+      "right": "oggi farei il medico."
+     },
+     {
+      "id": "p5",
+      "left": "Se i miei nonni non fossero emigrati,",
+      "right": "io non sarei nata in Germania."
+     },
+     {
+      "id": "p6",
+      "left": "Se tu leggessi di più,",
+      "right": "scriveresti meglio."
+     },
+     {
+      "id": "p7",
+      "left": "Se non spegnete il cellulare,",
+      "right": "il professore ve lo prende."
+     },
+     {
+      "id": "p8",
+      "left": "Se Marta avesse puntato la sveglia,",
+      "right": "non sarebbe arrivata in ritardo."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-m1",
+  "title": "Un anno a Lisbona",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Un anno a Lisbona · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con il congiuntivo nel tempo giusto.",
+    "explanation": "Verbo principale al presente o al futuro → congiuntivo presente (sia, cambi) o passato (abbiano convinto); verbo principale al passato → congiuntivo imperfetto (potessi, parlasse) o trapassato (avessi studiato).",
+    "promptHelp": "Ergänze den Text mit dem Konjunktiv in der richtigen Zeit.",
+    "explanationHelp": "Hauptsatz im Präsens oder Futur → congiuntivo presente oder passato; Hauptsatz in der Vergangenheit → congiuntivo imperfetto oder trapassato (Vorzeitigkeit).",
+    "text": "Benché (essere) [[g1]] costoso studiare all’estero, molti giovani scelgono di partire.\nChiara partirà per Lisbona a settembre, a meno che non (cambiare) [[g2]] idea all’ultimo momento.\nL’università accetta gli studenti stranieri purché (conoscere) [[g3]] l’inglese o il portoghese.\nPrima che (cominciare) [[g4]] le lezioni, Chiara vuole visitare la città.\nQualora (avere, Lei) [[g5]] altre domande, può contattare l’ufficio Erasmus.\nUn anno dopo Chiara racconta: «I miei genitori mi avevano dato dei soldi affinché (potere, io) [[g6]] pagare l’affitto.\nTemevo che la mia coinquilina non (parlare) [[g7]] inglese.\nSebbene all’inizio (sentirsi, io) [[g8]] un po’ sola, dopo un mese avevo già molti amici.\nNonostante prima della partenza (studiare, io) [[g9]] il portoghese solo per pochi mesi, capivo quasi tutto.\nOggi sono felice che i miei genitori mi (convincere) [[g10]] a partire.»",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cambi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "conoscano"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "comincino"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avesse",
+       "abbia"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "potessi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "parlasse"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "mi sentissi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "avessi studiato"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "abbiano convinta",
+       "abbiano convinto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-m2",
+  "title": "Una frase sola",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Una frase sola · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci o trasforma le frasi. Usa la parola o la forma tra parentesi.",
+    "explanation": "Con lo stesso soggetto si usa l’infinito: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundio = mentre / siccome; pur + gerundio = anche se.",
+    "promptHelp": "Verbinde die Sätze oder forme sie um. Verwende das Wort oder die Form in Klammern.",
+    "explanationHelp": "Bei gleichem Subjekt steht der Infinitiv: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundium = während / weil; pur + Gerundium = obwohl.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho finito i compiti. Poi sono uscito. (dopo)",
+      "acceptedAnswers": [
+       "dopo aver finito",
+       "dopo avere finito"
+      ],
+      "modelAnswer": "Dopo aver finito i compiti, sono uscito. (Anche: Dopo avere finito …)"
+     },
+     {
+      "id": "s2",
+      "start": "Luca è arrivato a casa. Poi ha cenato. (dopo)",
+      "acceptedAnswers": [
+       "dopo essere arrivato"
+      ],
+      "modelAnswer": "Dopo essere arrivato a casa, Luca ha cenato."
+     },
+     {
+      "id": "s3",
+      "start": "Ti telefono e poi parto. (prima di)",
+      "acceptedAnswers": [
+       "prima di partire"
+      ],
+      "modelAnswer": "Prima di partire ti telefono."
+     },
+     {
+      "id": "s4",
+      "start": "Lavoro in estate perché voglio pagare il viaggio. (per)",
+      "acceptedAnswers": [
+       "per pagare",
+       "per pagarmi"
+      ],
+      "modelAnswer": "Lavoro in estate per pagare il viaggio."
+     },
+     {
+      "id": "s5",
+      "start": "Marco è uscito e non ha salutato. (senza)",
+      "acceptedAnswers": [
+       "senza salutare"
+      ],
+      "modelAnswer": "Marco è uscito senza salutare."
+     },
+     {
+      "id": "s6",
+      "start": "Sara studia e intanto ascolta musica. (gerundio)",
+      "acceptedAnswers": [
+       "ascoltando musica",
+       "ascoltando la musica",
+       "ascolta musica studiando"
+      ],
+      "modelAnswer": "Sara studia ascoltando musica."
+     },
+     {
+      "id": "s7",
+      "start": "Siccome era stanca, Giulia è andata a letto presto. (gerundio)",
+      "acceptedAnswers": [
+       "essendo stanca"
+      ],
+      "modelAnswer": "Essendo stanca, Giulia è andata a letto presto."
+     },
+     {
+      "id": "s8",
+      "start": "Anche se è giovane, Davide ha molta esperienza. (pur)",
+      "acceptedAnswers": [
+       "pur essendo giovane"
+      ],
+      "modelAnswer": "Pur essendo giovane, Davide ha molta esperienza."
+     },
+     {
+      "id": "s9",
+      "start": "Quando la lezione è finita, siamo andati al bar. (participio)",
+      "acceptedAnswers": [
+       "finita la lezione"
+      ],
+      "modelAnswer": "Finita la lezione, siamo andati al bar."
+     },
+     {
+      "id": "s10",
+      "start": "Io penso: «Ho ragione.» (di)",
+      "acceptedAnswers": [
+       "penso di avere ragione",
+       "penso di aver ragione"
+      ],
+      "modelAnswer": "Io penso di avere ragione. (Anche: di aver ragione)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-m3",
+  "title": "Sempre connessi",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Sempre connessi · livello medio.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con la preposizione giusta (con l’articolo, se necessario).",
+    "explanation": "abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da.",
+    "promptHelp": "Ergänze die richtige Präposition (wenn nötig mit Artikel).",
+    "explanationHelp": "abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da (abhängen von).",
+    "text": "Molti giovani sono abituati [[g1]] usare il cellulare tutto il giorno.\nNon vogliono rinunciare [[g2]] social nemmeno in vacanza.\nIl successo di un video dipende [[g3]] numero di visualizzazioni.\nNon tutti sono capaci [[g4]] distinguere una notizia vera da una falsa.\nIo cerco [[g5]] leggere almeno due giornali diversi.\nMio fratello invece si fida [[g6]] tutto quello che trova in rete.\nIeri ha partecipato [[g7]] una discussione online e si è arrabbiato molto.\nGli ho consigliato [[g8]] spegnere il computer e di uscire.\nAlla fine ha smesso [[g9]] scrivere e ha cominciato [[g10]] ridere.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "a",
+       "ad"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ai"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "a",
+       "ad"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "a"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-s1",
+  "title": "Errori tipici",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Errori tipici · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore tipico di chi parla tedesco. Correggilo.",
+    "explanation": "se + congiuntivo (mai condizionale) · da + tempo (seit) · tre anni fa (vor drei Jahren) · chiedere a qualcuno · la gente è (singolare) · mi piacciono i film · rimanere con essere · il problema (maschile) · devo alzarmi · sperare che + congiuntivo o futuro.",
+    "promptHelp": "In jedem Satz steckt ein typischer Fehler deutschsprachiger Lernender. Korrigiere ihn.",
+    "explanationHelp": "se + Konjunktiv (nie condizionale) · da = seit · tre anni fa = vor drei Jahren · chiedere a qualcuno · la gente ist Singular · mi piacciono i film (Plural) · rimanere mit essere · il problema ist maskulin · Pronomen an den Infinitiv (alzarmi) · sperare che + Konjunktiv oder Futur.",
+    "text": "Se [[g1]] più soldi, farei un viaggio in Sicilia.\nStudio l’italiano [[g2]] quattro anni e mi piace ancora.\nSono stato a Roma [[g3]].\nHo chiesto [[g4]] se posso uscire stasera.\nLa gente [[g5]] molto gentile in questo paese.\nMi [[g6]] molto i film italiani degli anni Sessanta.\nSabato scorso [[g7]] rimasto a casa tutto il giorno.\nQual è [[g8]] problema più grande della nostra città?\nDomani devo [[g9]] molto presto.\nSpero che [[g10]] anche tu alla festa di sabato.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "avrei",
+      "acceptedAnswers": [
+       "avessi"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "per",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "prima di tre anni",
+      "acceptedAnswers": [
+       "tre anni fa"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "mio padre",
+      "acceptedAnswers": [
+       "a mio padre"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "piace",
+      "acceptedAnswers": [
+       "piacciono"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "ho",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "la",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "mi alzare",
+      "acceptedAnswers": [
+       "alzarmi"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "vieni",
+      "acceptedAnswers": [
+       "venga",
+       "verrai"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-s2",
+  "title": "Riferire e trasformare",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Riferire e trasformare · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma le frasi 1–6 al discorso indiretto e le frasi 7–10 al passivo.",
+    "explanation": "Discorso indiretto al passato: presente → imperfetto, futuro → condizionale passato, passato prossimo → trapassato, imperativo → di + infinito; domani → il giorno dopo, ieri → il giorno prima, questo → quello. Passivo: essere nello stesso tempo del verbo attivo + participio.",
+    "promptHelp": "Setze die Sätze 1–6 in die indirekte Rede und die Sätze 7–10 ins Passiv.",
+    "explanationHelp": "Indirekte Rede in der Vergangenheit: Präsens → imperfetto, Futur → condizionale passato, passato prossimo → trapassato, Imperativ → di + Infinitiv; domani → il giorno dopo, ieri → il giorno prima, questo → quello. Passiv: essere in der Zeit des aktiven Verbs + Partizip.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "1. Anna ha detto: «Sono stanca.»",
+      "acceptedAnswers": [
+       "che era stanca"
+      ],
+      "modelAnswer": "Anna ha detto che era stanca."
+     },
+     {
+      "id": "s2",
+      "start": "2. Paolo ha detto: «Domani partirò per Napoli.»",
+      "acceptedAnswers": [
+       "sarebbe partito"
+      ],
+      "modelAnswer": "Paolo ha detto che il giorno dopo sarebbe partito per Napoli."
+     },
+     {
+      "id": "s3",
+      "start": "3. Marta ha detto: «Ieri ho visto un bel film.»",
+      "acceptedAnswers": [
+       "aveva visto"
+      ],
+      "modelAnswer": "Marta ha detto che il giorno prima aveva visto un bel film."
+     },
+     {
+      "id": "s4",
+      "start": "4. Il professore ci ha detto: «Scrivete un commento!»",
+      "acceptedAnswers": [
+       "di scrivere"
+      ],
+      "modelAnswer": "Il professore ci ha detto di scrivere un commento."
+     },
+     {
+      "id": "s5",
+      "start": "5. Sara mi ha chiesto: «Hai fame?»",
+      "acceptedAnswers": [
+       "se avevo fame",
+       "se avessi fame"
+      ],
+      "modelAnswer": "Sara mi ha chiesto se avevo fame. (Anche: se avessi fame)"
+     },
+     {
+      "id": "s6",
+      "start": "6. Luca ha detto: «Questo libro mi piace.»",
+      "acceptedAnswers": [
+       "gli piaceva"
+      ],
+      "modelAnswer": "Luca ha detto che quel libro gli piaceva."
+     },
+     {
+      "id": "s7",
+      "start": "7. Gli studenti hanno organizzato la festa.",
+      "acceptedAnswers": [
+       "è stata organizzata"
+      ],
+      "modelAnswer": "La festa è stata organizzata dagli studenti."
+     },
+     {
+      "id": "s8",
+      "start": "8. La polizia aveva chiuso la strada.",
+      "acceptedAnswers": [
+       "era stata chiusa"
+      ],
+      "modelAnswer": "La strada era stata chiusa dalla polizia."
+     },
+     {
+      "id": "s9",
+      "start": "9. Leonardo dipinse la Gioconda.",
+      "acceptedAnswers": [
+       "fu dipinta",
+       "venne dipinta"
+      ],
+      "modelAnswer": "La Gioconda fu dipinta da Leonardo. (Anche: venne dipinta)"
+     },
+     {
+      "id": "s10",
+      "start": "10. Bisogna leggere questo libro. (andare)",
+      "acceptedAnswers": [
+       "va letto"
+      ],
+      "modelAnswer": "Questo libro va letto."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-grammatica-s3",
+  "title": "Dopo la maturità: una lettera",
+  "language": "it",
+  "level": "B2",
+  "description": "Grammatica per comprendere e scrivere · Dopo la maturità: una lettera · livello difficile.",
+  "topics": [
+   "Grammatica per comprendere e scrivere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-grammatica",
+   "topicTitle": "Grammatica per comprendere e scrivere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+   "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la lettera con la forma giusta del verbo (indicativo, congiuntivo o condizionale).",
+    "explanation": "Irrealtà nel passato: se + congiuntivo trapassato → condizionale passato; conseguenza oggi → condizionale presente (tipo misto). avevo paura che / vorrei che + congiuntivo imperfetto; sebbene + trapassato per un’azione precedente; qualunque cosa + congiuntivo.",
+    "promptHelp": "Ergänze den Brief mit der richtigen Verbform (Indikativ, Konjunktiv oder condizionale).",
+    "explanationHelp": "Irreal in der Vergangenheit: se + congiuntivo trapassato → condizionale passato; Folge heute → condizionale presente (gemischter Typ). avevo paura che / vorrei che + congiuntivo imperfetto; sebbene + trapassato bei Vorzeitigkeit; qualunque cosa + Konjunktiv.",
+    "text": "Cara Elena, ti scrivo subito dopo l’esame di maturità.\nSe un anno fa tu mi (chiedere) [[g1]] come sarebbe andata, ti (rispondere, io) [[g2]] che non ce l’avrei mai fatta.\nAvevo paura che la prova scritta (essere) [[g3]] troppo difficile.\nInvece è andata bene, sebbene la notte prima io non (dormire) [[g4]] quasi per niente.\nSe tu e io non (studiare) [[g5]] insieme tutto l’inverno, oggi io non (essere) [[g6]] così tranquilla.\nI miei genitori vorrebbero che io (iscriversi) [[g7]] subito all’università.\nIo invece penso che (essere) [[g8]] meglio fare prima un anno di volontariato.\nQualunque cosa io (decidere) [[g9]], so che tu mi capirai.\nAdesso spero solo che anche tu (superare) [[g10]] l’esame orale della settimana prossima.\nA presto, Sofia",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "avessi chiesto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "avrei risposto"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "fosse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "avessi dormito",
+       "abbia dormito"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avessimo studiato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sarei"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "mi iscrivessi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "decida"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "superi",
+       "supererai"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-l1",
+  "title": "Le parole dei grandi temi",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Le parole dei grandi temi · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "A quale tema appartiene ogni espressione?",
+    "explanation": "",
+    "promptHelp": "Zu welchem Thema gehört jeder Ausdruck?",
+    "categories": [
+     {
+      "id": "a",
+      "label": "migrazione"
+     },
+     {
+      "id": "b",
+      "label": "ambiente"
+     },
+     {
+      "id": "c",
+      "label": "media"
+     },
+     {
+      "id": "d",
+      "label": "lavoro e studio"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "il permesso di soggiorno",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "l’integrazione",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "il paese d’origine",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "il riscaldamento globale",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "le energie rinnovabili",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "la raccolta differenziata",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "la notizia falsa",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "il telegiornale",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "il social network",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "il colloquio di lavoro",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "il tirocinio",
+      "category": "d"
+     },
+     {
+      "id": "i12",
+      "text": "la disoccupazione",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-l2",
+  "title": "Un commento ben costruito",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Un commento ben costruito · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il commento con le parole giuste.",
+    "explanation": "trattare di · sostenere che · mettere in evidenza · a mio avviso · da un lato … dall’altro · prendere in considerazione · per quanto riguarda · in conclusione.",
+    "promptHelp": "Ergänze den Kommentar mit den passenden Wörtern aus dem Kasten.",
+    "explanationHelp": "handeln von · die Auffassung vertreten, dass · hervorheben · meiner Meinung nach · einerseits … andererseits · berücksichtigen · was … betrifft · abschließend.",
+    "text": "L’articolo [[g1]] del turismo di massa nelle città d’arte.\nL’autore [[g2]] che il numero dei visitatori debba essere limitato.\nPer convincere il lettore, mette in [[g3]] i danni per gli abitanti.\nA mio [[g4]], questa posizione è giusta solo in parte.\nDa un [[g5]] il turismo crea problemi, dall’altro dà lavoro a molte persone.\nBisogna inoltre prendere in [[g6]] i piccoli negozi che vivono dei turisti.\nPer [[g7]] riguarda i prezzi, sono d’accordo con l’autore.\nIn [[g8]], credo che serva un compromesso.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "tratta"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sostiene"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "evidenza"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "avviso"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "considerazione"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "quanto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "conclusione"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-l3",
+  "title": "Modi di dire",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Modi di dire · livello facile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa significano questi modi di dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeuten diese Redewendungen?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "In bocca al lupo!",
+      "right": "Buona fortuna!"
+     },
+     {
+      "id": "p2",
+      "left": "Non vedo l’ora di partire.",
+      "right": "Sono impaziente di partire."
+     },
+     {
+      "id": "p3",
+      "left": "Costa un occhio della testa.",
+      "right": "È carissimo."
+     },
+     {
+      "id": "p4",
+      "left": "Acqua in bocca!",
+      "right": "Non dirlo a nessuno!"
+     },
+     {
+      "id": "p5",
+      "left": "Sono al verde.",
+      "right": "Non ho più soldi."
+     },
+     {
+      "id": "p6",
+      "left": "Piove a catinelle.",
+      "right": "Piove moltissimo."
+     },
+     {
+      "id": "p7",
+      "left": "Mi sono fatto in quattro.",
+      "right": "Mi sono impegnato al massimo."
+     },
+     {
+      "id": "p8",
+      "left": "Hai la testa fra le nuvole.",
+      "right": "Sei distratto."
+     },
+     {
+      "id": "p9",
+      "left": "È un gioco da ragazzi.",
+      "right": "È facilissimo."
+     },
+     {
+      "id": "p10",
+      "left": "Ha le mani bucate.",
+      "right": "Spende troppo."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-m1",
+  "title": "Non sempre «dire»",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Non sempre «dire» · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il verbo più preciso.",
+    "explanation": "ammettere = riconoscere un errore · sostenere / affermare = presentare una tesi · promettere = per il futuro · negare = dire di no · dichiarare = dire ufficialmente · aggiungere = dire ancora qualcosa · confermare = dire che è vero.",
+    "promptHelp": "Wähle das treffendste Verb.",
+    "explanationHelp": "ammettere = zugeben · sostenere / affermare = eine These vertreten · promettere = versprechen · negare = bestreiten · dichiarare = offiziell erklären · aggiungere = hinzufügen · confermare = bestätigen.",
+    "text": "Dopo molte domande il ministro ha [[g1]] di aver commesso un errore.\nNel suo articolo l’autrice [[g2]] che i social abbiano cambiato il nostro modo di informarci.\nIl sindaco ha [[g3]] di costruire una nuova biblioteca entro due anni.\nL’uomo ha [[g4]] di conoscere la vittima: «Non l’ho mai vista.»\nDavanti ai giornalisti la campionessa ha [[g5]]: «Questa è la mia ultima gara.»\nIl professore ci ha [[g6]] come funziona un motore elettrico.\n«E poi c’è il problema dei costi», ha [[g7]] la direttrice.\nIl giornalista ha [[g8]] al ministro se intendesse dimettersi.\nLo scienziato [[g9]] che il clima sta cambiando più velocemente del previsto.\nIl testimone ha [[g10]] la versione della polizia: tutto era andato proprio così.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ammesso",
+       "promesso",
+       "chiesto"
+      ],
+      "answer": "ammesso"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "sostiene",
+       "promette",
+       "domanda"
+      ],
+      "answer": "sostiene"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "promesso",
+       "negato",
+       "ammesso"
+      ],
+      "answer": "promesso"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "negato",
+       "dichiarato",
+       "promesso"
+      ],
+      "answer": "negato"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "dichiarato",
+       "domandato",
+       "negato"
+      ],
+      "answer": "dichiarato"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "spiegato",
+       "ammesso",
+       "promesso"
+      ],
+      "answer": "spiegato"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "aggiunto",
+       "chiesto",
+       "negato"
+      ],
+      "answer": "aggiunto"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "chiesto",
+       "risposto",
+       "affermato"
+      ],
+      "answer": "chiesto"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "afferma",
+       "domanda",
+       "prega"
+      ],
+      "answer": "afferma"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "confermato",
+       "chiesto",
+       "proposto"
+      ],
+      "answer": "confermato"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-m2",
+  "title": "Dal verbo al nome",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Dal verbo al nome · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Stile nominale: completa con il sostantivo che corrisponde al verbo.",
+    "explanation": "partire → la partenza · aumentare → l’aumento · nascere → la nascita · proteggere → la protezione (anche: la tutela, la difesa) · cadere → la caduta · crescere → la crescita · sviluppare → lo sviluppo · scoprire → la scoperta · mancare → la mancanza · approvare → l’approvazione.",
+    "promptHelp": "Nominalstil: Ergänze das Nomen, das zum Verb gehört.",
+    "explanationHelp": "Im Nominalstil wird der Nebensatz zu Präposition + Nomen: perché i prezzi aumentano → a causa dell’aumento dei prezzi (wegen des Preisanstiegs).",
+    "text": "prima che il treno parta → prima della [[g1]] del treno\nperché i prezzi aumentano → a causa dell’[[g2]] dei prezzi\nquando è nato suo figlio → alla [[g3]] di suo figlio\nper proteggere l’ambiente → per la [[g4]] dell’ambiente\ndopo che è caduto il muro → dopo la [[g5]] del muro\nperché la popolazione cresce → a causa della [[g6]] della popolazione\nper sviluppare nuove tecnologie → per lo [[g7]] di nuove tecnologie\ndopo che è stata scoperta l’America → dopo la [[g8]] dell’America\nperché manca il lavoro → per la [[g9]] di lavoro\ndopo che la legge è stata approvata → dopo l’[[g10]] della legge",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "partenza"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aumento",
+       "incremento"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "nascita"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "protezione",
+       "tutela",
+       "difesa",
+       "salvaguardia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "caduta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "crescita"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sviluppo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "scoperta"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "mancanza",
+       "carenza"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "approvazione"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-m3",
+  "title": "Un commento in sette frasi",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Un commento in sette frasi · livello medio.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine le frasi del commento.",
+    "explanation": "Prima il tema e la struttura del testo, poi l’opinione personale con gli argomenti, alla fine la conclusione.",
+    "promptHelp": "Bringe die Sätze des Kommentars in die richtige Reihenfolge.",
+    "explanationHelp": "Erst Thema und Aufbau des Textes, dann die eigene Meinung mit Argumenten, am Ende das Fazit.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il testo tratta dell’uso dell’intelligenza artificiale a scuola."
+     },
+     {
+      "id": "i2",
+      "text": "Nella prima parte l’autrice descrive i vantaggi di questi programmi."
+     },
+     {
+      "id": "i3",
+      "text": "Nella seconda, invece, mette in evidenza i rischi per l’apprendimento."
+     },
+     {
+      "id": "i4",
+      "text": "A mio avviso, entrambi gli aspetti sono importanti."
+     },
+     {
+      "id": "i5",
+      "text": "Da un lato, infatti, questi strumenti fanno risparmiare tempo;"
+     },
+     {
+      "id": "i6",
+      "text": "dall’altro, però, chi li usa troppo non impara a scrivere da solo."
+     },
+     {
+      "id": "i7",
+      "text": "In conclusione, penso che vadano usati con regole chiare."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-s1",
+  "title": "Tedesco in italiano?",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Tedesco in italiano? · livello difficile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un’espressione sbagliata, tipica di chi traduce dal tedesco. Correggila.",
+    "explanation": "secondo l’autore (laut) · il testo tratta di … · a mio avviso · essere d’accordo con · avere senso · la maggioranza · frequentare una scuola · interessarsi di · conoscere un luogo o una persona, sapere un fatto.",
+    "promptHelp": "In jedem Satz ist ein Ausdruck falsch – ein typischer Fehler beim Übersetzen aus dem Deutschen. Korrigiere ihn.",
+    "explanationHelp": "secondo l’autore = laut dem Autor · il testo tratta di = der Text handelt von · a mio avviso · einverstanden mit = d’accordo con · Sinn machen/ergeben = avere senso · Mehrheit = la maggioranza · eine Schule besuchen = frequentare · sich interessieren für = interessarsi di · kennen = conoscere, wissen = sapere.",
+    "text": "[[g1]] l’autore, i giovani leggono sempre meno.\nIl testo [[g2]] della vita degli immigrati italiani in Germania.\nL’articolo tratta [[g3]] problema della disoccupazione giovanile.\n[[g4]] mio avviso, l’autrice ha ragione.\nSono d’accordo [[g5]] l’autrice su questo punto.\nQuesto argomento non [[g6]] senso.\nLa [[g7]] dei giovani usa i social ogni giorno.\nDopo le elementari ho [[g8]] il liceo fino alla maturità.\nMi interesso molto [[g9]] politica.\n[[g10]] bene questa città, perché ci ho vissuto due anni.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Dopo",
+      "acceptedAnswers": [
+       "Secondo",
+       "Per"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "si tratta",
+      "acceptedAnswers": [
+       "tratta",
+       "parla"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "sul",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "In",
+      "acceptedAnswers": [
+       "A"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "a",
+      "acceptedAnswers": [
+       "con"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "fa",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "maggiorità",
+      "acceptedAnswers": [
+       "maggioranza",
+       "maggior parte"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "visitato",
+      "acceptedAnswers": [
+       "frequentato",
+       "fatto"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "per la",
+      "acceptedAnswers": [
+       "di",
+       "della",
+       "alla"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "So",
+      "acceptedAnswers": [
+       "Conosco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-s2",
+  "title": "Più breve, più formale",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · Più breve, più formale · livello difficile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la parte tra virgolette («…») con un sostantivo. Comincia con le parole tra parentesi.",
+    "explanation": "arrivare → l’arrivo · scioperare → lo sciopero · cominciare → l’inizio · sperare → la speranza · piovere → la pioggia · finire → la fine · mancare → la mancanza · tornare → il ritorno · aumentare → l’aumento · ridurre → la riduzione.",
+    "promptHelp": "Schreibe den Teil in Anführungszeichen («…») mit einem Nomen um. Beginne mit den Wörtern in Klammern.",
+    "explanationHelp": "Nominalstil: Der Nebensatz wird zu Präposition + Nomen (dopo che era arrivato → dopo l’arrivo; anche se pioveva → nonostante la pioggia).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Siamo partiti «dopo che era arrivato il medico». (dopo l’…)",
+      "acceptedAnswers": [
+       "dopo l’arrivo del medico"
+      ],
+      "modelAnswer": "Siamo partiti dopo l’arrivo del medico."
+     },
+     {
+      "id": "s2",
+      "start": "Il volo è stato cancellato «perché i piloti scioperavano». (a causa dello …)",
+      "acceptedAnswers": [
+       "a causa dello sciopero dei piloti"
+      ],
+      "modelAnswer": "Il volo è stato cancellato a causa dello sciopero dei piloti."
+     },
+     {
+      "id": "s3",
+      "start": "«Prima che cominci la lezione», spegnete i cellulari. (prima dell’…)",
+      "acceptedAnswers": [
+       "prima dell’inizio della lezione"
+      ],
+      "modelAnswer": "Prima dell’inizio della lezione, spegnete i cellulari."
+     },
+     {
+      "id": "s4",
+      "start": "Molti emigrano «perché sperano in una vita migliore». (nella …)",
+      "acceptedAnswers": [
+       "nella speranza di una vita migliore",
+       "nella speranza in una vita migliore"
+      ],
+      "modelAnswer": "Molti emigrano nella speranza di una vita migliore."
+     },
+     {
+      "id": "s5",
+      "start": "«Anche se pioveva», la manifestazione è continuata. (nonostante la …)",
+      "acceptedAnswers": [
+       "nonostante la pioggia"
+      ],
+      "modelAnswer": "Nonostante la pioggia, la manifestazione è continuata."
+     },
+     {
+      "id": "s6",
+      "start": "«Dopo che è finita la guerra», il paese è stato ricostruito. (dopo la …)",
+      "acceptedAnswers": [
+       "dopo la fine della guerra"
+      ],
+      "modelAnswer": "Dopo la fine della guerra, il paese è stato ricostruito."
+     },
+     {
+      "id": "s7",
+      "start": "«Poiché mancava l’acqua», il raccolto è andato perduto. (per la …)",
+      "acceptedAnswers": [
+       "per la mancanza d’acqua",
+       "per la mancanza di acqua",
+       "per la mancanza dell’acqua"
+      ],
+      "modelAnswer": "Per la mancanza d’acqua il raccolto è andato perduto. (Anche: di acqua)"
+     },
+     {
+      "id": "s8",
+      "start": "«Quando è tornato dal viaggio», Davide era cambiato. (al suo …)",
+      "acceptedAnswers": [
+       "al suo ritorno dal viaggio"
+      ],
+      "modelAnswer": "Al suo ritorno dal viaggio, Davide era cambiato."
+     },
+     {
+      "id": "s9",
+      "start": "«Se la temperatura aumenta», i ghiacciai si sciolgono. (con l’…)",
+      "acceptedAnswers": [
+       "con l’aumento della temperatura",
+       "con l’aumento delle temperature"
+      ],
+      "modelAnswer": "Con l’aumento della temperatura i ghiacciai si sciolgono. (Anche: delle temperature)"
+     },
+     {
+      "id": "s10",
+      "start": "Il governo vuole «che i consumi di energia si riducano». (la …)",
+      "acceptedAnswers": [
+       "la riduzione dei consumi",
+       "la riduzione del consumo",
+       "la diminuzione dei consumi",
+       "la diminuzione del consumo"
+      ],
+      "modelAnswer": "Il governo vuole la riduzione dei consumi di energia."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-lessico-s3",
+  "title": "La fuga dei cervelli",
+  "language": "it",
+  "level": "B2",
+  "description": "Lessico tematico e registro · La fuga dei cervelli · livello difficile.",
+  "topics": [
+   "Lessico tematico e registro",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Wortfelder der Abiturthemen, Nominalstil, Redemittel für Analyse und Kommentar, Redewendungen, Verben des Sagens"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-lessico",
+   "topicTitle": "Lessico tematico e registro",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Leggi il commento e scegli la parola o l’espressione giusta.",
+    "explanation": "affrontare un problema · la fuga dei cervelli · sottolineare che · un gioco da ragazzi = una cosa facilissima · tenere conto di · prendere provvedimenti · raggiungere un obiettivo · a mio avviso · in conclusione.",
+    "promptHelp": "Lies den Kommentar und wähle das richtige Wort oder den richtigen Ausdruck.",
+    "explanationHelp": "ein Problem behandeln/angehen = affrontare · „Braindrain“ = la fuga dei cervelli · betonen = sottolineare · ein Kinderspiel = un gioco da ragazzi · berücksichtigen = tenere conto di · Maßnahmen ergreifen = prendere provvedimenti · ein Ziel erreichen = raggiungere un obiettivo.",
+    "text": "Il testo [[g1]] il problema della disoccupazione giovanile.\nMolti laureati lasciano l’Italia: è la cosiddetta «fuga dei [[g2]]».\nL’autrice [[g3]] che il fenomeno riguarda soprattutto il Sud.\nTrovare un lavoro stabile non è certo [[g4]].\nChi resta deve spesso accettare un [[g5]] non pagato.\nLe aziende dovrebbero [[g6]] delle competenze dei giovani.\nLo Stato, da parte sua, deve [[g7]] provvedimenti concreti.\nSolo così si potrà [[g8]] l’obiettivo di fermare l’emigrazione.\nA mio [[g9]], la situazione può ancora cambiare.\n[[g10]], ritengo che investire nei giovani convenga a tutti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "affronta",
+       "raggiunge",
+       "svolge"
+      ],
+      "answer": "affronta"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "cervelli",
+       "pensieri",
+       "cuori"
+      ],
+      "answer": "cervelli"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sottolinea",
+       "rinuncia",
+       "dipende"
+      ],
+      "answer": "sottolinea"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "un gioco da ragazzi",
+       "un occhio della testa",
+       "acqua in bocca"
+      ],
+      "answer": "un gioco da ragazzi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "tirocinio",
+       "colloquio",
+       "sciopero"
+      ],
+      "answer": "tirocinio"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "tenere conto",
+       "prendere conto",
+       "fare conto"
+      ],
+      "answer": "tenere conto"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "prendere",
+       "fare",
+       "dare"
+      ],
+      "answer": "prendere"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "raggiungere",
+       "arrivare",
+       "toccare"
+      ],
+      "answer": "raggiungere"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "avviso",
+       "opinione",
+       "pensiero"
+      ],
+      "answer": "avviso"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "In conclusione",
+       "In confronto",
+       "In cambio"
+      ],
+      "answer": "In conclusione"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-l1",
+  "title": "Quale tempo è?",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Quale tempo è? · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Metti ogni forma nel gruppo giusto.",
+    "explanation": "Trapassato prossimo = imperfetto di essere / avere + participio (era partito); trapassato remoto = passato remoto di essere / avere + participio (fu partito).",
+    "promptHelp": "Ordne jede Form der richtigen Gruppe zu.",
+    "explanationHelp": "Trapassato prossimo = imperfetto von essere / avere + Partizip (era partito); trapassato remoto = passato remoto von essere / avere + Partizip (fu partito).",
+    "categories": [
+     {
+      "id": "a",
+      "label": "passato remoto"
+     },
+     {
+      "id": "b",
+      "label": "imperfetto"
+     },
+     {
+      "id": "c",
+      "label": "trapassato prossimo"
+     },
+     {
+      "id": "d",
+      "label": "trapassato remoto"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "partì",
+      "category": "a"
+     },
+     {
+      "id": "i2",
+      "text": "scrissero",
+      "category": "a"
+     },
+     {
+      "id": "i3",
+      "text": "venne",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "partiva",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "scrivevano",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "veniva",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "era partito",
+      "category": "c"
+     },
+     {
+      "id": "i8",
+      "text": "avevano scritto",
+      "category": "c"
+     },
+     {
+      "id": "i9",
+      "text": "era venuta",
+      "category": "c"
+     },
+     {
+      "id": "i10",
+      "text": "fu partito",
+      "category": "d"
+     },
+     {
+      "id": "i11",
+      "text": "ebbero scritto",
+      "category": "d"
+     },
+     {
+      "id": "i12",
+      "text": "fu venuta",
+      "category": "d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-l2",
+  "title": "Dal parlato al racconto",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Dal parlato al racconto · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina il passato prossimo al passato remoto.",
+    "explanation": "",
+    "promptHelp": "Verbinde das passato prossimo mit dem passato remoto.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "ha detto",
+      "right": "disse"
+     },
+     {
+      "id": "p2",
+      "left": "hanno fatto",
+      "right": "fecero"
+     },
+     {
+      "id": "p3",
+      "left": "sono nato",
+      "right": "nacqui"
+     },
+     {
+      "id": "p4",
+      "left": "è venuta",
+      "right": "venne"
+     },
+     {
+      "id": "p5",
+      "left": "abbiamo visto",
+      "right": "vedemmo"
+     },
+     {
+      "id": "p6",
+      "left": "hai scritto",
+      "right": "scrivesti"
+     },
+     {
+      "id": "p7",
+      "left": "ho preso",
+      "right": "presi"
+     },
+     {
+      "id": "p8",
+      "left": "sono stati",
+      "right": "furono"
+     },
+     {
+      "id": "p9",
+      "left": "avete avuto",
+      "right": "aveste"
+     },
+     {
+      "id": "p10",
+      "left": "ha vissuto",
+      "right": "visse"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-l3",
+  "title": "La porta nell’albero",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · La porta nell’albero · livello facile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Leggi la fiaba e scegli il tempo giusto.",
+    "explanation": "Imperfetto per descrizioni e abitudini (si chiamava, ogni mattina andava, c’era) e dopo mentre; passato remoto per le azioni che fanno andare avanti la storia (vide, aprì, disse, scelse).",
+    "promptHelp": "Lies das Märchen und wähle die richtige Zeit.",
+    "explanationHelp": "Imperfetto für Beschreibungen und Gewohnheiten (si chiamava, ogni mattina andava, c’era) und nach mentre; passato remoto für die Handlungen, die die Geschichte voranbringen (vide, aprì, disse, scelse).",
+    "text": "C’era una volta un re che aveva tre figlie.\nLa più giovane [[g1]] Stella ed era molto curiosa.\nOgni mattina Stella [[g2]] nel bosco a raccogliere fiori.\nUn giorno, all’improvviso, [[g3]] una piccola porta in un albero.\nStella [[g4]] la porta ed entrò.\nDentro [[g5]] una stanza piena di libri che brillavano come stelle.\nMentre la ragazza [[g6]] i libri, arrivò un vecchio con una lunga barba.\nIl vecchio le [[g7]]: «Puoi prendere un solo libro.»\nStella [[g8]] il più piccolo e tornò al castello.\nDa quel giorno il re e le sue figlie [[g9]] felici e contenti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "si chiamava",
+       "si chiamò",
+       "si è chiamata"
+      ],
+      "answer": "si chiamava"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "andava",
+       "andò",
+       "è andata"
+      ],
+      "answer": "andava"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vide",
+       "vedeva",
+       "vedere"
+      ],
+      "answer": "vide"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "aprì",
+       "apriva",
+       "apre"
+      ],
+      "answer": "aprì"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "c’era",
+       "ci fu",
+       "c’è stata"
+      ],
+      "answer": "c’era"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "guardava",
+       "guardò",
+       "ha guardato"
+      ],
+      "answer": "guardava"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "disse",
+       "diceva",
+       "dicendo"
+      ],
+      "answer": "disse"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "scelse",
+       "sceglieva",
+       "sceglie"
+      ],
+      "answer": "scelse"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "vissero",
+       "visse",
+       "vivono"
+      ],
+      "answer": "vissero"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-m1",
+  "title": "Il bisnonno in America",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Il bisnonno in America · livello medio.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "La nonna racconta al passato prossimo. Riscrivi la storia come in un libro: metti i verbi al passato remoto.",
+    "explanation": "Il passato remoto non ha ausiliare: è partito → partì, hanno avuto → ebbero, si sono sposati → si sposarono.",
+    "promptHelp": "Die Großmutter erzählt im passato prossimo. Schreibe die Geschichte wie in einem Buch: Setze die Verben ins passato remoto.",
+    "explanationHelp": "Das passato remoto hat kein Hilfsverb: è partito → partì, hanno avuto → ebbero, si sono sposati → si sposarono.",
+    "text": "Mio bisnonno è partito per l’America da giovane. → Mio bisnonno [[g1]] per l’America da giovane.\nHa preso una nave a Genova. → [[g2]] una nave a Genova.\nIl viaggio è durato tre settimane. → Il viaggio [[g3]] tre settimane.\nA New York ha trovato lavoro in un ristorante. → A New York [[g4]] lavoro in un ristorante.\nLì ha conosciuto una ragazza siciliana. → Lì [[g5]] una ragazza siciliana.\nI due si sono sposati dopo un anno. → I due [[g6]] dopo un anno.\nHanno avuto quattro figli. → [[g7]] quattro figli.\nHanno aperto una piccola pizzeria. → [[g8]] una piccola pizzeria.\nNon sono mai tornati in Italia. → Non [[g9]] mai in Italia.\nMa hanno scritto molte lettere alla famiglia. → Ma [[g10]] molte lettere alla famiglia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "partì"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Prese"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "durò"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "trovò"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "conobbe"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si sposarono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Ebbero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Aprirono"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "tornarono"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "scrissero"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-m2",
+  "title": "La moneta d’oro",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · La moneta d’oro · livello medio.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine le frasi del racconto.",
+    "explanation": "Le parole del tempo aiutano: un giorno → subito → appena → così → quella notte → la mattina dopo → da allora.",
+    "promptHelp": "Bringe die Sätze der Erzählung in die richtige Reihenfolge.",
+    "explanationHelp": "Die Zeitangaben helfen: un giorno → subito → appena → così → quella notte → la mattina dopo → da allora.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Un giorno un contadino trovò nel suo campo una moneta d’oro."
+     },
+     {
+      "id": "i2",
+      "text": "Subito corse a casa per mostrarla alla moglie."
+     },
+     {
+      "id": "i3",
+      "text": "La moglie, appena la vide, gli consigliò di nasconderla bene."
+     },
+     {
+      "id": "i4",
+      "text": "Così la moneta finì in una vecchia scarpa sotto il letto."
+     },
+     {
+      "id": "i5",
+      "text": "Quella notte, però, nessuno dei due riuscì a dormire per la paura dei ladri."
+     },
+     {
+      "id": "i6",
+      "text": "La mattina dopo, stanchi morti, decisero di regalare la moneta alla chiesa del paese."
+     },
+     {
+      "id": "i7",
+      "text": "Da allora dormirono di nuovo tranquilli."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-m3",
+  "title": "Dante Alighieri",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Dante Alighieri · livello medio.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la biografia con il passato remoto dei verbi.",
+    "explanation": "nascere → nacque, conoscere → conobbe, prendere → prese, vivere → visse, scrivere → scrisse, scegliere → scelse; regolari: tornò, morì, condannarono.",
+    "promptHelp": "Ergänze die Biografie mit dem passato remoto der Verben.",
+    "explanationHelp": "Unregelmäßig: nacque, conobbe, prese, visse, scrisse, scelse; regelmäßig: tornò, morì, condannarono.",
+    "text": "Dante Alighieri (nascere) [[g1]] a Firenze nel 1265.\nDa ragazzo (conoscere) [[g2]] Beatrice, che (diventare) [[g3]] la figura centrale della sua poesia.\nDa adulto (prendere) [[g4]] parte alla vita politica della sua città.\nNel 1302, però, i suoi nemici lo (condannare) [[g5]] all’esilio.\nDante (dovere) [[g6]] vivere lontano da Firenze e non vi (tornare) [[g7]] mai più.\nNegli anni dell’esilio (vivere) [[g8]] in diverse città italiane e (scrivere) [[g9]] la _Divina Commedia_.\nPer quest’opera (scegliere) [[g10]] il volgare e non il latino.\nIl poeta (morire) [[g11]] a Ravenna nel 1321.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nacque"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "conobbe"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "diventò",
+       "divenne"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prese"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "condannarono"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "dovette",
+       "dové"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "tornò"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "visse"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "scrisse"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "scelse"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "morì"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-s1",
+  "title": "Il libraio",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · Il libraio · livello difficile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Leggi il racconto e scegli il tempo giusto.",
+    "explanation": "pioveva da ore, stava per, conosceva, mentre cercava = sfondo (imperfetto); aprì, disse, prese, trovò = azioni concluse (passato remoto); molti anni prima, trent’anni prima → trapassato prossimo; dopo che + trapassato remoto (fu uscita) nei testi letterari.",
+    "promptHelp": "Lies die Erzählung und wähle die richtige Zeit.",
+    "explanationHelp": "pioveva da ore, stava per, conosceva, mentre cercava = Hintergrund (imperfetto); aprì, disse, prese, trovò = abgeschlossene Handlungen (passato remoto); molti anni prima, trent’anni prima → trapassato prossimo; dopo che + trapassato remoto (fu uscita) in literarischen Texten.",
+    "text": "Era una fredda sera di novembre e [[g1]] da ore.\nIl vecchio libraio [[g2]] per chiudere il negozio, quando qualcuno bussò alla porta.\n[[g3]] e vide una ragazza completamente bagnata.\n«Cerco un libro molto raro», [[g4]] la ragazza.\nLo [[g5]] molti anni prima nella biblioteca di suo nonno.\nIl libraio [[g6]] bene quel titolo: era un libro suo.\nNessuno lo sapeva, perché lo [[g7]] trent’anni prima sotto un altro nome.\nSenza dire niente, [[g8]] una scala e salì fino all’ultimo scaffale.\nMentre [[g9]] tra i volumi pieni di polvere, la ragazza lo guardava in silenzio.\nFinalmente [[g10]] il libro e glielo mise tra le mani.\nSolo dopo che la ragazza [[g11]], il libraio sorrise.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "pioveva",
+       "piovve",
+       "aveva piovuto"
+      ],
+      "answer": "pioveva"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "stava",
+       "stette",
+       "era stato"
+      ],
+      "answer": "stava"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Aprì",
+       "Apriva",
+       "Aveva aperto"
+      ],
+      "answer": "Aprì"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "disse",
+       "diceva",
+       "aveva detto"
+      ],
+      "answer": "disse"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "aveva visto",
+       "vide",
+       "vedeva"
+      ],
+      "answer": "aveva visto"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "conosceva",
+       "conobbe",
+       "ebbe conosciuto"
+      ],
+      "answer": "conosceva"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "aveva pubblicato",
+       "pubblicò",
+       "pubblicava"
+      ],
+      "answer": "aveva pubblicato"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "prese",
+       "prendeva",
+       "aveva preso"
+      ],
+      "answer": "prese"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "cercava",
+       "cercò",
+       "aveva cercato"
+      ],
+      "answer": "cercava"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "trovò",
+       "trovava",
+       "aveva trovato"
+      ],
+      "answer": "trovò"
+     },
+     {
+      "id": "g11",
+      "options": [
+       "fu uscita",
+       "usciva",
+       "esce"
+      ],
+      "answer": "fu uscita"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-s2",
+  "title": "La grotta d’argento",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · La grotta d’argento · livello difficile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la leggenda: scegli tu tra passato remoto, imperfetto e trapassato prossimo.",
+    "explanation": "Sfondo e azione in corso → imperfetto (riposava, c’era, brillava); fatti che succedono uno dopo l’altro → passato remoto (sentì, si alzò, bevve, si svegliò); quello che era successo prima → trapassato prossimo (era passato, era sparita).",
+    "promptHelp": "Ergänze die Legende: Entscheide selbst zwischen passato remoto, imperfetto und trapassato prossimo.",
+    "explanationHelp": "Hintergrund und laufende Handlung → imperfetto (riposava, c’era, brillava); Ereignisse nacheinander → passato remoto (sentì, si alzò, bevve, si svegliò); Vorzeitiges → trapassato prossimo (era passato, era sparita).",
+    "text": "Molti secoli fa, in un villaggio di montagna, (vivere) [[g1]] un giovane pastore di nome Tonio.\nUn giorno d’estate, mentre (riposare) [[g2]] sotto un albero, (sentire) [[g3]] una musica strana.\n(alzarsi) [[g4]] e, seguendo il suono, arrivò davanti a una grotta.\nTonio (passare) [[g5]] di lì cento volte, ma non l’aveva mai notata.\nDentro (esserci) [[g6]] un piccolo lago che (brillare) [[g7]] come l’argento.\nIl pastore (bere) [[g8]] un po’ d’acqua e subito (addormentarsi) [[g9]].\nQuando finalmente (svegliarsi) [[g10]], era già notte e la grotta (sparire) [[g11]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "viveva",
+       "visse"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "riposava"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sentì"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Si alzò"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "era passato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "c’era"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "brillava"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "bevve",
+       "bevette"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "si addormentò"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "si svegliò"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "era sparita"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-it13-remoto-prod-s3",
+  "title": "La storia del nonno",
+  "language": "it",
+  "level": "B2",
+  "description": "Passato remoto: uso produttivo · La storia del nonno · livello difficile.",
+  "topics": [
+   "Passato remoto: uso produttivo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "6",
+    "unit": "Lehrplan · Sprachliche Mittel"
+   },
+   "grade": 13,
+   "foreignLanguageNo": 3,
+   "cefr": "B2",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "it13-remoto-prod",
+   "topicTitle": "Passato remoto: uso produttivo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+   "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "In ogni frase c’è un errore: una forma sbagliata del passato remoto o un tempo sbagliato. Correggilo.",
+    "explanation": "Forme irregolari: nacque, disse, vollero, prese, fece, vissero. Azione conclusa in una serie → passato remoto (lasciò); azione precedente (due anni prima) → trapassato prossimo; mentre + imperfetto.",
+    "promptHelp": "In jedem Satz steckt ein Fehler: eine falsche Form des passato remoto oder eine falsche Zeit. Korrigiere ihn.",
+    "explanationHelp": "Unregelmäßige Formen: nacque, disse, vollero, prese, fece, vissero. Abgeschlossene Handlung in einer Reihe → passato remoto (lasciò); Vorzeitigkeit (due anni prima) → trapassato prossimo; mentre + imperfetto.",
+    "text": "Il nonno di Sara [[g1]] in un piccolo paese della Calabria.\nA sedici anni [[g2]] la scuola e cominciò a lavorare nei campi.\nUna sera [[g3]] ai genitori: «Parto per il Nord.»\nI genitori non [[g4]] lasciarlo partire,\nma lui [[g5]] il treno lo stesso.\nA Torino [[g6]] l’operaio in una grande fabbrica.\nLì conobbe la nonna di Sara, che [[g7]] dal Veneto due anni prima.\nI due si sposarono e [[g8]] per quarant’anni nella stessa casa.\nMentre di giorno [[g9]] in fabbrica, la sera il nonno studiava per diventare tecnico.\nNon [[g10]] mai a vivere in Calabria, ma la portò sempre nel cuore.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "nascé",
+      "acceptedAnswers": [
+       "nacque"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "lasciava",
+      "acceptedAnswers": [
+       "lasciò"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "dicé",
+      "acceptedAnswers": [
+       "disse"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "volerono",
+      "acceptedAnswers": [
+       "vollero",
+       "volevano"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "prendé",
+      "acceptedAnswers": [
+       "prese"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "facette",
+      "acceptedAnswers": [
+       "fece"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "arrivò",
+      "acceptedAnswers": [
+       "era arrivata"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "vivettero",
+      "acceptedAnswers": [
+       "vissero"
+      ]
+     },
+     {
+      "id": "g9",
+      "wrong": "lavorò",
+      "acceptedAnswers": [
+       "lavorava"
+      ]
+     },
+     {
+      "id": "g10",
+      "wrong": "tornai",
+      "acceptedAnswers": [
+       "tornò"
+      ]
      }
     ]
    }

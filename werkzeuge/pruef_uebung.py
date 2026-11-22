@@ -82,8 +82,12 @@ def check(path):
             for it in q['items']:
                 for a in it['acceptedAnswers']:
                     if len(norm(a)) < 2: out.append(f'{i}/{it["id"]}: Schlüssel „{a}“ zu kurz (würde fast alles als richtig werten)')
-                    if it.get('modelAnswer') and re.sub(r'[.,!?;:…«»"]+', ' ', norm(a)).split() and ' '.join(re.sub(r'[.,!?;:…«»"]+', ' ', norm(a)).split()) not in ' '.join(re.sub(r'[.,!?;:…«»"]+', ' ', norm(it['modelAnswer'])).split()):
-                        out.append(f'{i}/{it["id"]}: Musterlösung enthält den Schlüssel „{a}“ nicht')
+        if t == 'sentence_completion':
+            flat = lambda x: ' ' + ' '.join(re.sub(r'[.,!?;:…«»"]+', ' ', norm(x)).split()) + ' '
+            for it in q['items']:
+                # Alternativschlüssel dürfen fehlen; mindestens ein Schlüssel muss in der gezeigten Musterlösung stehen.
+                if it.get('modelAnswer') and not any(flat(a).strip() and flat(a) in flat(it['modelAnswer']) for a in it['acceptedAnswers']):
+                    out.append(f'{i}/{it["id"]}: Musterlösung enthält keinen der Schlüssel')
         if t == 'open_answer' and not q.get('modelAnswer', '').strip(): out.append(f'{i}: Musterlösung fehlt')
     return out
 

@@ -59,7 +59,7 @@
       "è visitata",
       "viene visitata"
      ],
-     "modelAnswer": "Ogni anno Venezia è visitata / viene visitata da milioni di turisti."
+     "modelAnswer": "Ogni anno Venezia è visitata da milioni di turisti. (Anche: viene visitata)"
     },
     {
      "id": "s2",
@@ -76,7 +76,7 @@
       "sarà approvata",
       "verrà approvata"
      ],
-     "modelAnswer": "La nuova legge sarà approvata / verrà approvata dal Parlamento a dicembre."
+     "modelAnswer": "La nuova legge sarà approvata dal Parlamento a dicembre. (Anche: verrà approvata)"
     },
     {
      "id": "s4",
@@ -93,7 +93,7 @@
       "erano coltivati",
       "venivano coltivati"
      ],
-     "modelAnswer": "In passato questi campi erano coltivati / venivano coltivati dai contadini."
+     "modelAnswer": "In passato questi campi erano coltivati dai contadini. (Anche: venivano coltivati)"
     },
     {
      "id": "s6",
@@ -126,7 +126,7 @@
       "fu scritta",
       "venne scritta"
      ],
-     "modelAnswer": "La Divina Commedia fu scritta / venne scritta da Dante."
+     "modelAnswer": "La Divina Commedia fu scritta da Dante. (Anche: venne scritta)"
     },
     {
      "id": "s10",
@@ -135,7 +135,7 @@
       "sia organizzato",
       "venga organizzato"
      ],
-     "modelAnswer": "Penso che lo scambio sia organizzato / venga organizzato dalla scuola."
+     "modelAnswer": "Penso che lo scambio sia organizzato dalla scuola. (Anche: venga organizzato)"
     }
    ]
   }

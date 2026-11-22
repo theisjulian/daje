@@ -40,7 +40,7 @@
   "difficulty": "schwer",
   "origin": "own",
   "order": 31,
-  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire di no |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen."
  },
  "questions": [
@@ -51,20 +51,22 @@
    "explanation": "secondo l’autore (laut) · il testo tratta di … · a mio avviso · essere d’accordo con · avere senso · la maggioranza · frequentare una scuola · interessarsi di · conoscere un luogo o una persona, sapere un fatto.",
    "explanationHelp": "secondo l’autore = laut dem Autor · il testo tratta di = der Text handelt von · a mio avviso · einverstanden mit = d’accordo con · Sinn machen/ergeben = avere senso · Mehrheit = la maggioranza · eine Schule besuchen = frequentare · sich interessieren für = interessarsi di · kennen = conoscere, wissen = sapere.",
    "type": "error_correction",
-   "text": "[[g1]] l’autore, i giovani leggono sempre meno.\nIl testo [[g2]] della vita degli immigrati italiani in Germania.\nL’articolo tratta [[g3]] problema della disoccupazione giovanile.\n[[g4]] mio avviso, l’autrice ha ragione.\nSono d’accordo [[g5]] l’autrice su questo punto.\nQuesto argomento non [[g6]] senso.\nLa [[g7]] dei giovani usa i social ogni giorno.\nHo [[g8]] il liceo per otto anni.\nMi interesso molto [[g9]] politica.\n[[g10]] bene questa città, perché ci ho vissuto due anni.",
+   "text": "[[g1]] l’autore, i giovani leggono sempre meno.\nIl testo [[g2]] della vita degli immigrati italiani in Germania.\nL’articolo tratta [[g3]] problema della disoccupazione giovanile.\n[[g4]] mio avviso, l’autrice ha ragione.\nSono d’accordo [[g5]] l’autrice su questo punto.\nQuesto argomento non [[g6]] senso.\nLa [[g7]] dei giovani usa i social ogni giorno.\nDopo le elementari ho [[g8]] il liceo fino alla maturità.\nMi interesso molto [[g9]] politica.\n[[g10]] bene questa città, perché ci ho vissuto due anni.",
    "errors": [
     {
      "id": "g1",
      "wrong": "Dopo",
      "acceptedAnswers": [
-      "Secondo"
+      "Secondo",
+      "Per"
      ]
     },
     {
      "id": "g2",
      "wrong": "si tratta",
      "acceptedAnswers": [
-      "tratta"
+      "tratta",
+      "parla"
      ]
     },
     {
@@ -99,14 +101,16 @@
      "id": "g7",
      "wrong": "maggiorità",
      "acceptedAnswers": [
-      "maggioranza"
+      "maggioranza",
+      "maggior parte"
      ]
     },
     {
      "id": "g8",
      "wrong": "visitato",
      "acceptedAnswers": [
-      "frequentato"
+      "frequentato",
+      "fatto"
      ]
     },
     {

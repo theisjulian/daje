@@ -14,7 +14,7 @@ Ma: **anche se, dopo che, siccome, poiché, mentre** + indicativo.
 **Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._
 **Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._
 **Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._
-**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre.
+**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).
 #regel-de
 **Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.
 **Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.
@@ -50,7 +50,7 @@ Sono contenta che ieri tu {sia venuto*|sei venuto|verresti} con noi.
 Pensavo che il film {fosse già cominciato*|sia già cominciato|è già cominciato}.
 Dopo che {ha finito*|abbia finito|finisse} la scuola, Matteo ha lavorato un anno in Spagna.
 Il professore ha detto che il giorno dopo {avrebbe restituito*|restituirà|restituisca} i compiti.
-! Verbo principale al presente → congiuntivo presente o passato; al passato (speravo, pensavo) → congiuntivo imperfetto o trapassato. dopo che + indicativo. Futuro nel passato → condizionale passato. || Hauptsatz im Präsens → congiuntivo presente oder passato; in der Vergangenheit (speravo, pensavo) → congiuntivo imperfetto oder trapassato. dopo che + Indikativ. Zukunft in der Vergangenheit → condizionale passato.
+! Verbo principale al presente → congiuntivo presente o passato; al passato (speravo, pensavo) → congiuntivo imperfetto o trapassato. dopo che + indicativo. Futuro nel passato → condizionale passato. Nel parlato si sente spesso l’indicativo anche dopo benché o sono contenta che, ma nei testi scritti e all’esame è considerato un errore. || Hauptsatz im Präsens → congiuntivo presente oder passato; in der Vergangenheit (speravo, pensavo) → congiuntivo imperfetto oder trapassato. dopo che + Indikativ. Zukunft in der Vergangenheit → condizionale passato. In der gesprochenen Sprache hört man auch nach benché oder sono contenta che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.
 
 %übung leicht | Se … allora …
 ?zuordnen | Abbina l’inizio e la fine di ogni periodo ipotetico. || Verbinde Anfang und Ende jedes Bedingungssatzes.
@@ -80,16 +80,16 @@ Oggi sono felice che i miei genitori mi (convincere) [abbiano convinta/abbiano c
 
 %übung mittel | Una frase sola
 ?ergaenzen | Unisci o trasforma le frasi. Usa la parola o la forma tra parentesi. || Verbinde die Sätze oder forme sie um. Verwende das Wort oder die Form in Klammern.
-Ho finito i compiti. Poi sono uscito. (dopo) | dopo aver finito/dopo avere finito | Dopo aver finito / Dopo avere finito i compiti, sono uscito.
+Ho finito i compiti. Poi sono uscito. (dopo) | dopo aver finito/dopo avere finito | Dopo aver finito i compiti, sono uscito. (Anche: Dopo avere finito …)
 Luca è arrivato a casa. Poi ha cenato. (dopo) | dopo essere arrivato | Dopo essere arrivato a casa, Luca ha cenato.
-Prima parto, poi ti telefono. (prima di) | prima di partire | Prima di partire ti telefono.
-Lavoro in estate perché voglio pagare il viaggio. (per) | per pagare | Lavoro in estate per pagare il viaggio.
+Ti telefono e poi parto. (prima di) | prima di partire | Prima di partire ti telefono.
+Lavoro in estate perché voglio pagare il viaggio. (per) | per pagare/per pagarmi | Lavoro in estate per pagare il viaggio.
 Marco è uscito e non ha salutato. (senza) | senza salutare | Marco è uscito senza salutare.
-Sara studia e intanto ascolta musica. (gerundio) | ascoltando musica | Sara studia ascoltando musica.
+Sara studia e intanto ascolta musica. (gerundio) | ascoltando musica/ascoltando la musica/ascolta musica studiando | Sara studia ascoltando musica.
 Siccome era stanca, Giulia è andata a letto presto. (gerundio) | essendo stanca | Essendo stanca, Giulia è andata a letto presto.
 Anche se è giovane, Davide ha molta esperienza. (pur) | pur essendo giovane | Pur essendo giovane, Davide ha molta esperienza.
 Quando la lezione è finita, siamo andati al bar. (participio) | finita la lezione | Finita la lezione, siamo andati al bar.
-Io penso: «Ho ragione.» (di) | penso di avere ragione/penso di aver ragione | Io penso di avere ragione. / Io penso di aver ragione.
+Io penso: «Ho ragione.» (di) | penso di avere ragione/penso di aver ragione | Io penso di avere ragione. (Anche: di aver ragione)
 ! Con lo stesso soggetto si usa l’infinito: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundio = mentre / siccome; pur + gerundio = anche se. || Bei gleichem Subjekt steht der Infinitiv: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundium = während / weil; pur + Gerundium = obwohl.
 
 %übung mittel | Sempre connessi
@@ -100,7 +100,7 @@ Il successo di un video dipende [dal] numero di visualizzazioni.
 Non tutti sono capaci [di] distinguere una notizia vera da una falsa.
 Io cerco [di] leggere almeno due giornali diversi.
 Mio fratello invece si fida [di] tutto quello che trova in rete.
-Ieri ha partecipato [a] una discussione online e si è arrabbiato molto.
+Ieri ha partecipato [a/ad] una discussione online e si è arrabbiato molto.
 Gli ho consigliato [di] spegnere il computer e di uscire.
 Alla fine ha smesso [di] scrivere e ha cominciato [a] ridere.
 ! abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da. || abituato a, rinunciare a, partecipare a, cominciare a · capace di, cercare di, fidarsi di, consigliare di, smettere di · dipendere da (abhängen von).
@@ -125,11 +125,11 @@ Spero che [vieni=>venga/verrai] anche tu alla festa di sabato.
 2. Paolo ha detto: «Domani partirò per Napoli.» | sarebbe partito | Paolo ha detto che il giorno dopo sarebbe partito per Napoli.
 3. Marta ha detto: «Ieri ho visto un bel film.» | aveva visto | Marta ha detto che il giorno prima aveva visto un bel film.
 4. Il professore ci ha detto: «Scrivete un commento!» | di scrivere | Il professore ci ha detto di scrivere un commento.
-5. Sara mi ha chiesto: «Hai fame?» | se avevo fame/se avessi fame | Sara mi ha chiesto se avevo fame / se avessi fame.
+5. Sara mi ha chiesto: «Hai fame?» | se avevo fame/se avessi fame | Sara mi ha chiesto se avevo fame. (Anche: se avessi fame)
 6. Luca ha detto: «Questo libro mi piace.» | gli piaceva | Luca ha detto che quel libro gli piaceva.
 7. Gli studenti hanno organizzato la festa. | è stata organizzata | La festa è stata organizzata dagli studenti.
 8. La polizia aveva chiuso la strada. | era stata chiusa | La strada era stata chiusa dalla polizia.
-9. Leonardo dipinse la Gioconda. | fu dipinta/venne dipinta | La Gioconda fu dipinta / venne dipinta da Leonardo.
+9. Leonardo dipinse la Gioconda. | fu dipinta/venne dipinta | La Gioconda fu dipinta da Leonardo. (Anche: venne dipinta)
 10. Bisogna leggere questo libro. (andare) | va letto | Questo libro va letto.
 ! Discorso indiretto al passato: presente → imperfetto, futuro → condizionale passato, passato prossimo → trapassato, imperativo → di + infinito; domani → il giorno dopo, ieri → il giorno prima, questo → quello. Passivo: essere nello stesso tempo del verbo attivo + participio. || Indirekte Rede in der Vergangenheit: Präsens → imperfetto, Futur → condizionale passato, passato prossimo → trapassato, Imperativ → di + Infinitiv; domani → il giorno dopo, ieri → il giorno prima, questo → quello. Passiv: essere in der Zeit des aktiven Verbs + Partizip.
 
@@ -138,7 +138,7 @@ Spero che [vieni=>venga/verrai] anche tu alla festa di sabato.
 Cara Elena, ti scrivo subito dopo l’esame di maturità.
 Se un anno fa tu mi (chiedere) [avessi chiesto] come sarebbe andata, ti (rispondere, io) [avrei risposto] che non ce l’avrei mai fatta.
 Avevo paura che la prova scritta (essere) [fosse] troppo difficile.
-Invece è andata bene, sebbene la notte prima io non (dormire) [avessi dormito] quasi per niente.
+Invece è andata bene, sebbene la notte prima io non (dormire) [avessi dormito/abbia dormito] quasi per niente.
 Se tu e io non (studiare) [avessimo studiato] insieme tutto l’inverno, oggi io non (essere) [sarei] così tranquilla.
 I miei genitori vorrebbero che io (iscriversi) [mi iscrivessi] subito all’università.
 Io invece penso che (essere) [sia] meglio fare prima un anno di volontariato.
@@ -205,7 +205,7 @@ Dentro {c’era*|ci fu|c’è stata} una stanza piena di libri che brillavano co
 Mentre la ragazza {guardava*|guardò|ha guardato} i libri, arrivò un vecchio con una lunga barba.
 Il vecchio le {disse*|diceva|dicendo}: «Puoi prendere un solo libro.»
 Stella {scelse*|sceglieva|sceglie} il più piccolo e tornò al castello.
-Da quel giorno il re e le sue figlie {vissero*|vivevano|vivono} felici e contenti.
+Da quel giorno il re e le sue figlie {vissero*|visse|vivono} felici e contenti.
 ! Imperfetto per descrizioni e abitudini (si chiamava, ogni mattina andava, c’era) e dopo mentre; passato remoto per le azioni che fanno andare avanti la storia (vide, aprì, disse, scelse). || Imperfetto für Beschreibungen und Gewohnheiten (si chiamava, ogni mattina andava, c’era) und nach mentre; passato remoto für die Handlungen, die die Geschichte voranbringen (vide, aprì, disse, scelse).
 
 %übung mittel | Il bisnonno in America
@@ -239,7 +239,7 @@ Dante Alighieri (nascere) [nacque] a Firenze nel 1265.
 Da ragazzo (conoscere) [conobbe] Beatrice, che (diventare) [diventò/divenne] la figura centrale della sua poesia.
 Da adulto (prendere) [prese] parte alla vita politica della sua città.
 Nel 1302, però, i suoi nemici lo (condannare) [condannarono] all’esilio.
-Dante (dovere) [dovette/dové] lasciare Firenze e non vi (tornare) [tornò] mai più.
+Dante (dovere) [dovette/dové] vivere lontano da Firenze e non vi (tornare) [tornò] mai più.
 Negli anni dell’esilio (vivere) [visse] in diverse città italiane e (scrivere) [scrisse] la _Divina Commedia_.
 Per quest’opera (scegliere) [scelse] il volgare e non il latino.
 Il poeta (morire) [morì] a Ravenna nel 1321.
@@ -253,7 +253,7 @@ Il vecchio libraio {stava*|stette|era stato} per chiudere il negozio, quando qua
 «Cerco un libro molto raro», {disse*|diceva|aveva detto} la ragazza.
 Lo {aveva visto*|vide|vedeva} molti anni prima nella biblioteca di suo nonno.
 Il libraio {conosceva*|conobbe|ebbe conosciuto} bene quel titolo: era un libro suo.
-Nessuno lo sapeva, perché lo {aveva pubblicato*|pubblicò|pubblicava} trent’anni prima con un altro nome.
+Nessuno lo sapeva, perché lo {aveva pubblicato*|pubblicò|pubblicava} trent’anni prima sotto un altro nome.
 Senza dire niente, {prese*|prendeva|aveva preso} una scala e salì fino all’ultimo scaffale.
 Mentre {cercava*|cercò|aveva cercato} tra i volumi pieni di polvere, la ragazza lo guardava in silenzio.
 Finalmente {trovò*|trovava|aveva trovato} il libro e glielo mise tra le mani.
@@ -276,7 +276,7 @@ Quando finalmente (svegliarsi) [si svegliò], era già notte e la grotta (sparir
 Il nonno di Sara [nascé=>nacque] in un piccolo paese della Calabria.
 A sedici anni [lasciava=>lasciò] la scuola e cominciò a lavorare nei campi.
 Una sera [dicé=>disse] ai genitori: «Parto per il Nord.»
-I genitori non [volerono=>vollero] lasciarlo partire,
+I genitori non [volerono=>vollero/volevano] lasciarlo partire,
 ma lui [prendé=>prese] il treno lo stesso.
 A Torino [facette=>fece] l’operaio in una grande fabbrica.
 Lì conobbe la nonna di Sara, che [arrivò=>era arrivata] dal Veneto due anni prima.
@@ -294,7 +294,7 @@ Non [tornai=>tornò] mai a vivere in Calabria, ma la portò sempre nel cuore.
 | affermare, sostenere | dire con convinzione (una tesi) |
 | dichiarare | dire in modo ufficiale |
 | ammettere | riconoscere una cosa spiacevole |
-| negare | dire di no |
+| negare | dire che una cosa non è vera |
 | promettere | dire che si farà qualcosa |
 | aggiungere | dire ancora una cosa |
 | spiegare | dire come o perché |
@@ -318,7 +318,7 @@ le energie rinnovabili > b
 la raccolta differenziata > b
 la notizia falsa > c
 il telegiornale > c
-la rete sociale > c
+il social network > c
 il colloquio di lavoro > d
 il tirocinio > d
 la disoccupazione > d
@@ -365,16 +365,16 @@ Il testimone ha {confermato*|chiesto|proposto} la versione della polizia: tutto 
 %übung mittel | Dal verbo al nome
 ?luecke | Stile nominale: completa con il sostantivo che corrisponde al verbo. || Nominalstil: Ergänze das Nomen, das zum Verb gehört.
 prima che il treno parta → prima della [partenza] del treno
-perché i prezzi aumentano → a causa dell’[aumento] dei prezzi
+perché i prezzi aumentano → a causa dell’[aumento/incremento] dei prezzi
 quando è nato suo figlio → alla [nascita] di suo figlio
-per proteggere l’ambiente → per la [protezione] dell’ambiente
+per proteggere l’ambiente → per la [protezione/tutela/difesa/salvaguardia] dell’ambiente
 dopo che è caduto il muro → dopo la [caduta] del muro
 perché la popolazione cresce → a causa della [crescita] della popolazione
 per sviluppare nuove tecnologie → per lo [sviluppo] di nuove tecnologie
 dopo che è stata scoperta l’America → dopo la [scoperta] dell’America
-perché manca il lavoro → per la [mancanza] di lavoro
+perché manca il lavoro → per la [mancanza/carenza] di lavoro
 dopo che la legge è stata approvata → dopo l’[approvazione] della legge
-! partire → la partenza · aumentare → l’aumento · nascere → la nascita · proteggere → la protezione · cadere → la caduta · crescere → la crescita · sviluppare → lo sviluppo · scoprire → la scoperta · mancare → la mancanza · approvare → l’approvazione. || Im Nominalstil wird der Nebensatz zu Präposition + Nomen: perché i prezzi aumentano → a causa dell’aumento dei prezzi (wegen des Preisanstiegs).
+! partire → la partenza · aumentare → l’aumento · nascere → la nascita · proteggere → la protezione (anche: la tutela, la difesa) · cadere → la caduta · crescere → la crescita · sviluppare → lo sviluppo · scoprire → la scoperta · mancare → la mancanza · approvare → l’approvazione. || Im Nominalstil wird der Nebensatz zu Präposition + Nomen: perché i prezzi aumentano → a causa dell’aumento dei prezzi (wegen des Preisanstiegs).
 
 %übung mittel | Un commento in sette frasi
 ?ordnen | Metti in ordine le frasi del commento. || Bringe die Sätze des Kommentars in die richtige Reihenfolge.
@@ -389,14 +389,14 @@ In conclusione, penso che vadano usati con regole chiare.
 
 %übung schwer | Tedesco in italiano?
 ?fehler | In ogni frase c’è un’espressione sbagliata, tipica di chi traduce dal tedesco. Correggila. || In jedem Satz ist ein Ausdruck falsch – ein typischer Fehler beim Übersetzen aus dem Deutschen. Korrigiere ihn.
-[Dopo=>Secondo] l’autore, i giovani leggono sempre meno.
-Il testo [si tratta=>tratta] della vita degli immigrati italiani in Germania.
+[Dopo=>Secondo/Per] l’autore, i giovani leggono sempre meno.
+Il testo [si tratta=>tratta/parla] della vita degli immigrati italiani in Germania.
 L’articolo tratta [sul=>del] problema della disoccupazione giovanile.
 [In=>A] mio avviso, l’autrice ha ragione.
 Sono d’accordo [a=>con] l’autrice su questo punto.
 Questo argomento non [fa=>ha] senso.
-La [maggiorità=>maggioranza] dei giovani usa i social ogni giorno.
-Ho [visitato=>frequentato] il liceo per otto anni.
+La [maggiorità=>maggioranza/maggior parte] dei giovani usa i social ogni giorno.
+Dopo le elementari ho [visitato=>frequentato/fatto] il liceo fino alla maturità.
 Mi interesso molto [per la=>di/della/alla] politica.
 [So=>Conosco] bene questa città, perché ci ho vissuto due anni.
 ! secondo l’autore (laut) · il testo tratta di … · a mio avviso · essere d’accordo con · avere senso · la maggioranza · frequentare una scuola · interessarsi di · conoscere un luogo o una persona, sapere un fatto. || secondo l’autore = laut dem Autor · il testo tratta di = der Text handelt von · a mio avviso · einverstanden mit = d’accordo con · Sinn machen/ergeben = avere senso · Mehrheit = la maggioranza · eine Schule besuchen = frequentare · sich interessieren für = interessarsi di · kennen = conoscere, wissen = sapere.
@@ -406,13 +406,13 @@ Mi interesso molto [per la=>di/della/alla] politica.
 Siamo partiti «dopo che era arrivato il medico». (dopo l’…) | dopo l’arrivo del medico | Siamo partiti dopo l’arrivo del medico.
 Il volo è stato cancellato «perché i piloti scioperavano». (a causa dello …) | a causa dello sciopero dei piloti | Il volo è stato cancellato a causa dello sciopero dei piloti.
 «Prima che cominci la lezione», spegnete i cellulari. (prima dell’…) | prima dell’inizio della lezione | Prima dell’inizio della lezione, spegnete i cellulari.
-Molti emigrano «perché sperano in una vita migliore». (nella …) | nella speranza di una vita migliore | Molti emigrano nella speranza di una vita migliore.
+Molti emigrano «perché sperano in una vita migliore». (nella …) | nella speranza di una vita migliore/nella speranza in una vita migliore | Molti emigrano nella speranza di una vita migliore.
 «Anche se pioveva», la manifestazione è continuata. (nonostante la …) | nonostante la pioggia | Nonostante la pioggia, la manifestazione è continuata.
 «Dopo che è finita la guerra», il paese è stato ricostruito. (dopo la …) | dopo la fine della guerra | Dopo la fine della guerra, il paese è stato ricostruito.
-«Poiché mancava l’acqua», il raccolto è andato perduto. (per la …) | per la mancanza d’acqua/per la mancanza di acqua | Per la mancanza d’acqua / Per la mancanza di acqua il raccolto è andato perduto.
+«Poiché mancava l’acqua», il raccolto è andato perduto. (per la …) | per la mancanza d’acqua/per la mancanza di acqua/per la mancanza dell’acqua | Per la mancanza d’acqua il raccolto è andato perduto. (Anche: di acqua)
 «Quando è tornato dal viaggio», Davide era cambiato. (al suo …) | al suo ritorno dal viaggio | Al suo ritorno dal viaggio, Davide era cambiato.
-«Se la temperatura aumenta», i ghiacciai si sciolgono. (con l’…) | con l’aumento della temperatura/con l’aumento delle temperature | Con l’aumento della temperatura / Con l’aumento delle temperature i ghiacciai si sciolgono.
-Il governo vuole «che i consumi di energia si riducano». (la …) | la riduzione dei consumi | Il governo vuole la riduzione dei consumi di energia.
+«Se la temperatura aumenta», i ghiacciai si sciolgono. (con l’…) | con l’aumento della temperatura/con l’aumento delle temperature | Con l’aumento della temperatura i ghiacciai si sciolgono. (Anche: delle temperature)
+Il governo vuole «che i consumi di energia si riducano». (la …) | la riduzione dei consumi/la riduzione del consumo/la diminuzione dei consumi/la diminuzione del consumo | Il governo vuole la riduzione dei consumi di energia.
 ! arrivare → l’arrivo · scioperare → lo sciopero · cominciare → l’inizio · sperare → la speranza · piovere → la pioggia · finire → la fine · mancare → la mancanza · tornare → il ritorno · aumentare → l’aumento · ridurre → la riduzione. || Nominalstil: Der Nebensatz wird zu Präposition + Nomen (dopo che era arrivato → dopo l’arrivo; anche se pioveva → nonostante la pioggia).
 
 %übung schwer | La fuga dei cervelli

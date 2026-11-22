@@ -52,7 +52,7 @@ Vorrei che tu mi {dicessi*|dici|dirai} la verità.
 Secondo me, il turismo di massa {è*|sia|fosse} un problema per molte città.
 Dopo che {ha finito*|abbia finito|finisse} gli studi, Sara si è trasferita a Milano.
 Dobbiamo ridurre i rifiuti prima che {sia*|è|sarà} troppo tardi.
-! penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. || Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale.
+! penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. Nel parlato si sente spesso l’indicativo (_penso che hanno_), ma nei testi scritti e all’esame è considerato un errore. || Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale. In der gesprochenen Sprache hört man nach penso che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.
 
 %übung leicht | Il relativo giusto
 ?luecke wortkasten | Completa le frasi con i pronomi relativi. || Ergänze die Sätze mit den Relativpronomen aus dem Kasten.
@@ -84,16 +84,16 @@ Se non ci fosse Internet, la nostra vita (essere) [sarebbe] molto diversa.
 
 %übung mittel | Dall’attivo al passivo
 ?ergaenzen | Trasforma la frase al passivo. Usa la forma tra parentesi, se c’è. || Setze den Satz ins Passiv. Verwende die Form in Klammern, wenn eine angegeben ist.
-Ogni anno milioni di turisti visitano Venezia. | è visitata/viene visitata | Ogni anno Venezia è visitata / viene visitata da milioni di turisti.
+Ogni anno milioni di turisti visitano Venezia. | è visitata/viene visitata | Ogni anno Venezia è visitata da milioni di turisti. (Anche: viene visitata)
 Un giovane ingegnere ha inventato questa app. | è stata inventata | Questa app è stata inventata da un giovane ingegnere.
-Il Parlamento approverà la nuova legge a dicembre. | sarà approvata/verrà approvata | La nuova legge sarà approvata / verrà approvata dal Parlamento a dicembre.
+Il Parlamento approverà la nuova legge a dicembre. | sarà approvata/verrà approvata | La nuova legge sarà approvata dal Parlamento a dicembre. (Anche: verrà approvata)
 I volontari hanno pulito le spiagge. | sono state pulite | Le spiagge sono state pulite dai volontari.
-In passato i contadini coltivavano questi campi. | erano coltivati/venivano coltivati | In passato questi campi erano coltivati / venivano coltivati dai contadini.
+In passato i contadini coltivavano questi campi. | erano coltivati/venivano coltivati | In passato questi campi erano coltivati dai contadini. (Anche: venivano coltivati)
 Bisogna rispettare le regole. (andare) | vanno rispettate | Le regole vanno rispettate.
 Bisogna spegnere i cellulari. (andare) | vanno spenti | I cellulari vanno spenti.
 In Italia la gente beve molto caffè. (si) | si beve molto caffè | In Italia si beve molto caffè.
-Dante scrisse la Divina Commedia. | fu scritta/venne scritta | La Divina Commedia fu scritta / venne scritta da Dante.
-Penso che la scuola organizzi lo scambio. (Penso che lo scambio …) | sia organizzato/venga organizzato | Penso che lo scambio sia organizzato / venga organizzato dalla scuola.
+Dante scrisse la Divina Commedia. | fu scritta/venne scritta | La Divina Commedia fu scritta da Dante. (Anche: venne scritta)
+Penso che la scuola organizzi lo scambio. (Penso che lo scambio …) | sia organizzato/venga organizzato | Penso che lo scambio sia organizzato dalla scuola. (Anche: venga organizzato)
 ! Il participio concorda con il soggetto (le spiagge sono state pulite). Nei tempi composti solo essere: è stata inventata. andare + participio = deve / devono essere … || Das Partizip richtet sich nach dem Subjekt. In zusammengesetzten Zeiten nur essere (è stata inventata, nicht mit venire). andare + Partizip = „muss / müssen … werden“.
 
 %übung mittel | Che cosa hanno detto?
@@ -104,7 +104,7 @@ La prof: «Leggete l’articolo!» → La prof ci ha detto di [leggere] l’arti
 Chiara: «Non mi piace questa città.» → Chiara ha detto che non le [piaceva] quella città.
 Davide: «Hai tempo?» → Davide mi ha chiesto se [avessi/avevo] tempo.
 Giulia: «Ieri sono andata a una manifestazione.» → Giulia ha raccontato che il giorno prima [era andata] a una manifestazione.
-Il sindaco: «Costruiremo una nuova pista ciclabile.» → Il sindaco e i suoi colleghi hanno promesso che [avrebbero costruito] una nuova pista ciclabile.
+Il sindaco e gli assessori: «Costruiremo una nuova pista ciclabile.» → Il sindaco e gli assessori hanno promesso che [avrebbero costruito] una nuova pista ciclabile.
 Mia madre: «Non tornare tardi!» → Mia madre mi ha detto di non [tornare] tardi.
 I nonni: «Qui stiamo bene.» → I nonni hanno detto che [lì/là] stavano bene.
 Luca: «Dove lavora tuo padre?» → Luca mi ha chiesto dove [lavorasse/lavorava] mio padre.
@@ -116,7 +116,7 @@ Benché il turismo [porta=>porti] lavoro, crea anche molti problemi.
 Molti abitanti hanno rinunciato [di=>a] vivere nel centro storico.
 Il problema dipende anche [di=>da] noi visitatori.
 È un luogo [il cui=>la cui] bellezza attira persone da tutto il mondo.
-L’anno scorso il sindaco aveva promesso che [introdurrà=>avrebbe introdotto] un biglietto d’ingresso.
+L’anno scorso il sindaco aveva promesso che [introdurrà=>avrebbe introdotto] un biglietto d’ingresso entro Natale, ma poi non l’ha fatto.
 Molte decisioni [sono venute prese=>sono state prese] senza ascoltare i cittadini.
 Se il Comune avesse limitato prima il numero delle navi, oggi il mare [fosse=>sarebbe] più pulito.
 [Avendo arrivati=>Essendo arrivati] troppo tardi, non abbiamo trovato posto sul battello.
@@ -135,7 +135,7 @@ Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe,
 | noi | parl**ammo** | cred**emmo** | part**immo** |
 | voi | parl**aste** | cred**este** | part**iste** |
 | loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |
-Molti verbi in -ere sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.
+Molti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.
 | scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |
 | prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |
 | decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |
@@ -146,7 +146,7 @@ _Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **t
 #regel-de
 Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.
 Regelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …
-Viele Verben auf -ere sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.
+Viele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.
 Ganz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).
 
 %übung leicht | Infinito e passato remoto
@@ -201,12 +201,12 @@ lavorare | [lavorai] | [lavorò] | [lavorarono]
 credere | [credei/credetti] | [credé/credette] | [crederono/credettero]
 dormire | [dormii] | [dormì] | [dormirono]
 perdere | [persi/perdetti/perdei] | [perse/perdette/perdé] | [persero/perdettero/perderono]
-! -are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Perdere ha anche le forme irregolari persi, perse, persero. || Achte auf die Akzente (lavorò, credé, dormì) und auf das doppelte i in dormii. Perdere hat zusätzlich die unregelmäßigen Formen persi, perse, persero.
+! -are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Attenzione agli accenti (lavorò, credé, dormì) e alla doppia i di dormii. Perdere ha anche le forme irregolari persi, perse, persero, che sono le più usate. || -are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Achte auf die Akzente (lavorò, credé, dormì) und auf das doppelte i in dormii. Perdere hat zusätzlich die unregelmäßigen Formen persi, perse, persero; sie sind die üblichsten.
 
 %übung mittel | Galileo Galilei
 ?luecke | Completa la biografia con il passato remoto dei verbi. || Ergänze die Biografie mit dem passato remoto der Verben.
 Galileo Galilei (nascere) [nacque] a Pisa nel 1564.
-Da giovane (studiare) [studiò] medicina e matematica all’università della sua città.
+Da giovane (studiare) [studiò] medicina all’università della sua città, ma la sua vera passione era la matematica.
 Più tardi (diventare) [diventò/divenne] professore di matematica e (vivere) [visse] per molti anni a Padova.
 Nel 1609 (costruire) [costruì] un cannocchiale e lo (usare) [usò] per osservare il cielo.
 Così (vedere) [vide] le montagne della Luna e (scoprire) [scoprì] quattro satelliti di Giove.
@@ -277,25 +277,25 @@ di conseguenza > d
 
 %übung mittel | Dopo la maturità
 ?luecke | Completa con il verbo giusto nella forma giusta. Usa ogni verbo una volta: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere. || Ergänze das passende Verb in der richtigen Form. Verwende jedes Verb einmal: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere.
-Dopo la maturità Giulia deve [prendere] una decisione importante: studiare o lavorare?
-Ieri ha già [fatto] domanda per un tirocinio in un’azienda di Bologna.
+Dopo la maturità Giulia ha finalmente [preso] una decisione: prima di studiare vuole fare un’esperienza di lavoro.
+Ieri ha [fatto] domanda per un tirocinio in un’azienda di Bologna.
 Nella scelta vuole [tenere] conto anche dei consigli dei suoi genitori.
 Secondo lei, gli insegnanti [svolgono] un ruolo importante nell’orientamento degli studenti.
 Chi vuole [raggiungere] i propri obiettivi deve avere pazienza.
 Prima o poi bisogna [affrontare] i problemi: non si può sempre scappare.
-Chi sceglie un lavoro solo per i soldi [corre] un grosso rischio.
-Nel suo blog Giulia [esprime] spesso un’opinione molto chiara su questi temi.
+Chi sceglie un lavoro solo per i soldi [corre] il rischio di annoiarsi presto.
+Nel suo blog Giulia [esprime] spesso la sua opinione su questi temi.
 ! prendere una decisione · fare domanda · tenere conto di · svolgere un ruolo · raggiungere un obiettivo · affrontare un problema · correre un rischio · esprimere un’opinione. || Kollokationen als Ganzes lernen: eine Entscheidung treffen = prendere una decisione, sich bewerben = fare domanda, berücksichtigen = tenere conto di.
 
 %übung mittel | Una mail formale
 ?ergaenzen | Riscrivi la frase in modo formale (con il Lei). Usa le parole tra parentesi. || Schreibe den Satz formell um (mit Lei). Verwende die Wörter in Klammern.
-Voglio sapere quanto costa il corso. (desiderare) | desidererei sapere/desidero sapere | Desidererei sapere / Desidero sapere quanto costa il corso.
-Mi puoi mandare il programma? (potrebbe) | potrebbe mandarmi/mi potrebbe mandare | Potrebbe mandarmi / Mi potrebbe mandare il programma?
+Voglio sapere quanto costa il corso. (desiderare) | desidererei sapere/desidero sapere | Desidererei sapere quanto costa il corso. (Anche: Desidero sapere …)
+Mi puoi mandare il programma? (potrebbe) | potrebbe mandarmi/mi potrebbe mandare | Potrebbe mandarmi il programma? (Anche: Mi potrebbe mandare il programma?)
 Grazie per la risposta! (ringraziare) | La ringrazio | La ringrazio per la risposta.
-Rispondimi presto! (attendere, una Sua risposta) | attendo una Sua risposta | Attendo una Sua risposta.
-Ti scrivo perché cerco un lavoro per l’estate. (un impiego) | Le scrivo perché cerco un impiego | Le scrivo perché cerco un impiego per l’estate.
-Scusa se ti disturbo. (scusarsi, il disturbo) | mi scuso per il disturbo | Mi scuso per il disturbo.
-Ti mando il mio curriculum. (inviare, in allegato) | Le invio in allegato/in allegato Le invio | Le invio in allegato il mio curriculum. / In allegato Le invio il mio curriculum.
+Rispondimi presto! (attendere, una Sua risposta) | attendo una Sua risposta/attendo una Sua cortese risposta/attendo la Sua risposta | Attendo una Sua risposta.
+Ti scrivo perché cerco un lavoro per l’estate. (un impiego) | Le scrivo perché cerco un impiego/Le scrivo perché sto cercando un impiego/Le scrivo poiché cerco un impiego | Le scrivo perché cerco un impiego per l’estate.
+Scusa se ti disturbo. (scusarsi, il disturbo) | mi scuso per il disturbo/mi scuso del disturbo | Mi scuso per il disturbo.
+Ti mando il mio curriculum. (inviare, in allegato) | Le invio in allegato/in allegato Le invio/Le invio il mio curriculum in allegato | Le invio in allegato il mio curriculum. (Anche: In allegato Le invio il mio curriculum.)
 Ciao, a presto! (distinti) | distinti saluti | Distinti saluti
 ! Nel registro formale: Lei (Le scrivo, La ringrazio, una Sua risposta), condizionale di cortesia (desidererei, potrebbe), parole più precise (impiego, inviare). || Formelles Register: Höflichkeitsform Lei (Le scrivo, La ringrazio, una Sua risposta), höfliches condizionale (desidererei, potrebbe), genauere Wörter (impiego, inviare).
 
@@ -321,7 +321,7 @@ Mio zio ha fondato una piccola [firma=>ditta/azienda/impresa/società] di traspo
 La mia nuova [camera=>macchina fotografica/fotocamera] fa foto bellissime.
 Ho comprato [un regalo=>uno scaffale] nuovo per mettere in ordine tutti i miei libri.
 Prima di scegliere l’università devo [fare=>prendere] una decisione difficile.
-Dopo tre anni di lavoro abbiamo finalmente [arrivato=>raggiunto] il nostro obiettivo.
+Dopo tre anni di lavoro abbiamo finalmente [arrivato=>raggiunto/conseguito] il nostro obiettivo.
 Un buon giornalista deve tenere conto [a=>di] tutte le opinioni.
 Gentile signora Bianchi, [ti=>Le] scrivo per chiedere informazioni sul corso di lingua.
 Egregio dottor Verdi, [puoi=>può/potrebbe] mandarmi il modulo d’iscrizione?

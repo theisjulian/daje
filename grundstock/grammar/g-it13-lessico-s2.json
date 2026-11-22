@@ -40,7 +40,7 @@
   "difficulty": "schwer",
   "origin": "own",
   "order": 32,
-  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire di no |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
+  "rule": "**Per l’analisi del testo:** _Il testo **tratta di** … · L’autore **sostiene che** … · **mette in evidenza** … · Nella prima parte … / Nella seconda parte …_\n**Per il commento:** _**A mio avviso** … · **Da un lato** …, **dall’altro** … · Inoltre … · Tuttavia … · **Per quanto riguarda** … · Bisogna **prendere in considerazione** … · **In conclusione** …_\n**Invece di «dire»:**\n| affermare, sostenere | dire con convinzione (una tesi) |\n| dichiarare | dire in modo ufficiale |\n| ammettere | riconoscere una cosa spiacevole |\n| negare | dire che una cosa non è vera |\n| promettere | dire che si farà qualcosa |\n| aggiungere | dire ancora una cosa |\n| spiegare | dire come o perché |\n**Stile nominale** (tipico dei testi scritti): _perché i prezzi aumentano_ → _a causa dell’**aumento** dei prezzi_ · _dopo che è caduto il muro_ → _dopo la **caduta** del muro_ · _per proteggere l’ambiente_ → _per la **protezione** dell’ambiente_.\n**Modi di dire:** _In bocca al lupo!_ (Buona fortuna!) · _Non vedo l’ora._ · _Costa un occhio della testa._ · _È un gioco da ragazzi._ · _Acqua in bocca!_",
   "ruleHelp": "**Textanalyse:** _Il testo tratta di …_ (handelt von), _L’autore sostiene che …_ (vertritt die Auffassung), _mette in evidenza …_ (hebt hervor). Achtung: _il testo **tratta di**_, aber _**si tratta di** un articolo_ (es handelt sich um) – nie „il testo si tratta di“.\n**Kommentar:** _A mio avviso_ (meiner Meinung nach), _Da un lato … dall’altro_ (einerseits … andererseits), _Per quanto riguarda_ (was … betrifft), _In conclusione_ (abschließend). „Laut dem Autor“ = **secondo** l’autore (nicht „dopo“).\n**Statt immer „dire“:** affermare / sostenere (behaupten, die These vertreten), dichiarare (offiziell erklären), ammettere (zugeben), negare (bestreiten), promettere (versprechen), aggiungere (hinzufügen), spiegare (erklären).\n**Nominalstil** macht Texte sachlicher: Verb → Nomen (_aumentare → l’aumento, crescere → la crescita, cadere → la caduta, proteggere → la protezione, sviluppare → lo sviluppo_).\n**Redewendungen** nicht wörtlich übersetzen: _In bocca al lupo!_ = Viel Glück! · _Costa un occhio della testa._ = Das kostet ein Vermögen."
  },
  "questions": [
@@ -80,7 +80,8 @@
      "id": "s4",
      "start": "Molti emigrano «perché sperano in una vita migliore». (nella …)",
      "acceptedAnswers": [
-      "nella speranza di una vita migliore"
+      "nella speranza di una vita migliore",
+      "nella speranza in una vita migliore"
      ],
      "modelAnswer": "Molti emigrano nella speranza di una vita migliore."
     },
@@ -105,9 +106,10 @@
      "start": "«Poiché mancava l’acqua», il raccolto è andato perduto. (per la …)",
      "acceptedAnswers": [
       "per la mancanza d’acqua",
-      "per la mancanza di acqua"
+      "per la mancanza di acqua",
+      "per la mancanza dell’acqua"
      ],
-     "modelAnswer": "Per la mancanza d’acqua / Per la mancanza di acqua il raccolto è andato perduto."
+     "modelAnswer": "Per la mancanza d’acqua il raccolto è andato perduto. (Anche: di acqua)"
     },
     {
      "id": "s8",
@@ -124,13 +126,16 @@
       "con l’aumento della temperatura",
       "con l’aumento delle temperature"
      ],
-     "modelAnswer": "Con l’aumento della temperatura / Con l’aumento delle temperature i ghiacciai si sciolgono."
+     "modelAnswer": "Con l’aumento della temperatura i ghiacciai si sciolgono. (Anche: delle temperature)"
     },
     {
      "id": "s10",
      "start": "Il governo vuole «che i consumi di energia si riducano». (la …)",
      "acceptedAnswers": [
-      "la riduzione dei consumi"
+      "la riduzione dei consumi",
+      "la riduzione del consumo",
+      "la diminuzione dei consumi",
+      "la diminuzione del consumo"
      ],
      "modelAnswer": "Il governo vuole la riduzione dei consumi di energia."
     }

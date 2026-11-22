@@ -410,6 +410,8 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 **Neue Grammatikübungen** (alle aus DSL-Quellen, je Thema Merkkasten it/de, drei Stufen, zweite unabhängige Gegenprüfung):
 `werkzeuge/grammatik/anno2/` (Secondo anno, alle Lektionen), `anno3/` (Terzo anno), `anno4/` (Jgst. 11, Präfix `it11`),
 `anno5/`, `anno6/` (Präfixe `it12`, `it13`). `grammatik.py` kennt die Lernjahre 4–6.
+  Zusammen 589 neue Übungen zu 71 Themen (Secondo anno 314, Terzo anno 154, Lernjahr 4: 75, 5: 19, 6: 27); der Bestand hat jetzt 1490
+  Grammatikübungen. Übersetzungsaufgaben DE→IT kommen in den neuen Übungen nicht vor (nur Zuordnen italienischer Sätze zur Bedeutung).
 - Neues Prüfwerkzeug `werkzeuge/pruef_uebung.py <pakete>`: formale Fehler, die beim Schreiben typisch sind (Lösung nicht in den Optionen,
   doppelte Optionen, Zusatzwort = Lösung, zu kurze Schlüssel, leere Kategorien, fehlende deutsche Hilfe).
 

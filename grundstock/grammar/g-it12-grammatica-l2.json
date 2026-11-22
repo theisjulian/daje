@@ -48,8 +48,8 @@
    "id": "q1",
    "prompt": "Scegli la forma giusta del verbo.",
    "promptHelp": "Wähle die richtige Verbform.",
-   "explanation": "penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale.",
-   "explanationHelp": "Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale.",
+   "explanation": "penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. Nel parlato si sente spesso l’indicativo (_penso che hanno_), ma nei testi scritti e all’esame è considerato un errore.",
+   "explanationHelp": "Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale. In der gesprochenen Sprache hört man nach penso che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.",
    "type": "gap_choice",
    "text": "Penso che oggi i social [[g1]] troppa influenza sui giovani.\nCredevo che il treno [[g2]] alle otto, invece era già partito.\nSebbene [[g3]] tardi, continuiamo a discutere.\nSe avessi più tempo, [[g4]] volontariato.\nSe ieri avessi studiato, oggi non [[g5]] paura dell’esame.\nÈ importante che tutti [[g6]] esprimere la propria opinione.\nVorrei che tu mi [[g7]] la verità.\nSecondo me, il turismo di massa [[g8]] un problema per molte città.\nDopo che [[g9]] gli studi, Sara si è trasferita a Milano.\nDobbiamo ridurre i rifiuti prima che [[g10]] troppo tardi.",
    "gaps": [

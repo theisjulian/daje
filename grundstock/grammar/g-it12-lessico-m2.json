@@ -59,7 +59,7 @@
       "desidererei sapere",
       "desidero sapere"
      ],
-     "modelAnswer": "Desidererei sapere / Desidero sapere quanto costa il corso."
+     "modelAnswer": "Desidererei sapere quanto costa il corso. (Anche: Desidero sapere …)"
     },
     {
      "id": "s2",
@@ -68,7 +68,7 @@
       "potrebbe mandarmi",
       "mi potrebbe mandare"
      ],
-     "modelAnswer": "Potrebbe mandarmi / Mi potrebbe mandare il programma?"
+     "modelAnswer": "Potrebbe mandarmi il programma? (Anche: Mi potrebbe mandare il programma?)"
     },
     {
      "id": "s3",
@@ -82,7 +82,9 @@
      "id": "s4",
      "start": "Rispondimi presto! (attendere, una Sua risposta)",
      "acceptedAnswers": [
-      "attendo una Sua risposta"
+      "attendo una Sua risposta",
+      "attendo una Sua cortese risposta",
+      "attendo la Sua risposta"
      ],
      "modelAnswer": "Attendo una Sua risposta."
     },
@@ -90,7 +92,9 @@
      "id": "s5",
      "start": "Ti scrivo perché cerco un lavoro per l’estate. (un impiego)",
      "acceptedAnswers": [
-      "Le scrivo perché cerco un impiego"
+      "Le scrivo perché cerco un impiego",
+      "Le scrivo perché sto cercando un impiego",
+      "Le scrivo poiché cerco un impiego"
      ],
      "modelAnswer": "Le scrivo perché cerco un impiego per l’estate."
     },
@@ -98,7 +102,8 @@
      "id": "s6",
      "start": "Scusa se ti disturbo. (scusarsi, il disturbo)",
      "acceptedAnswers": [
-      "mi scuso per il disturbo"
+      "mi scuso per il disturbo",
+      "mi scuso del disturbo"
      ],
      "modelAnswer": "Mi scuso per il disturbo."
     },
@@ -107,9 +112,10 @@
      "start": "Ti mando il mio curriculum. (inviare, in allegato)",
      "acceptedAnswers": [
       "Le invio in allegato",
-      "in allegato Le invio"
+      "in allegato Le invio",
+      "Le invio il mio curriculum in allegato"
      ],
-     "modelAnswer": "Le invio in allegato il mio curriculum. / In allegato Le invio il mio curriculum."
+     "modelAnswer": "Le invio in allegato il mio curriculum. (Anche: In allegato Le invio il mio curriculum.)"
     },
     {
      "id": "s8",

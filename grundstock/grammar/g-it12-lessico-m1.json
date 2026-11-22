@@ -51,12 +51,12 @@
    "explanation": "prendere una decisione · fare domanda · tenere conto di · svolgere un ruolo · raggiungere un obiettivo · affrontare un problema · correre un rischio · esprimere un’opinione.",
    "explanationHelp": "Kollokationen als Ganzes lernen: eine Entscheidung treffen = prendere una decisione, sich bewerben = fare domanda, berücksichtigen = tenere conto di.",
    "type": "gap_fill",
-   "text": "Dopo la maturità Giulia deve [[g1]] una decisione importante: studiare o lavorare?\nIeri ha già [[g2]] domanda per un tirocinio in un’azienda di Bologna.\nNella scelta vuole [[g3]] conto anche dei consigli dei suoi genitori.\nSecondo lei, gli insegnanti [[g4]] un ruolo importante nell’orientamento degli studenti.\nChi vuole [[g5]] i propri obiettivi deve avere pazienza.\nPrima o poi bisogna [[g6]] i problemi: non si può sempre scappare.\nChi sceglie un lavoro solo per i soldi [[g7]] un grosso rischio.\nNel suo blog Giulia [[g8]] spesso un’opinione molto chiara su questi temi.",
+   "text": "Dopo la maturità Giulia ha finalmente [[g1]] una decisione: prima di studiare vuole fare un’esperienza di lavoro.\nIeri ha [[g2]] domanda per un tirocinio in un’azienda di Bologna.\nNella scelta vuole [[g3]] conto anche dei consigli dei suoi genitori.\nSecondo lei, gli insegnanti [[g4]] un ruolo importante nell’orientamento degli studenti.\nChi vuole [[g5]] i propri obiettivi deve avere pazienza.\nPrima o poi bisogna [[g6]] i problemi: non si può sempre scappare.\nChi sceglie un lavoro solo per i soldi [[g7]] il rischio di annoiarsi presto.\nNel suo blog Giulia [[g8]] spesso la sua opinione su questi temi.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "prendere"
+      "preso"
      ]
     },
     {
