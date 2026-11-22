@@ -6,9 +6,9 @@
  "title": "Il giardino dietro la mensa",
  "language": "it",
  "level": "B1",
- "description": "La forma passiva con essere e venire · Il giardino dietro la mensa · livello medio.",
+ "description": "Raccontare esperienze interculturali · Il giardino dietro la mensa · livello medio.",
  "topics": [
-  "La forma passiva con essere e venire",
+  "Raccontare esperienze interculturali",
   "Grammatik"
  ],
  "sources": [
@@ -29,14 +29,14 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "3",
-   "unit": "3 · Società e solidarietà",
+   "unit": "2 · Vivere all’estero",
    "section": "Parte B"
   },
   "curriculum": "It10 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco3-passivo",
-  "topicTitle": "La forma passiva con essere e venire",
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
   "difficulty": "mittel",
   "origin": "own",
   "order": 3052

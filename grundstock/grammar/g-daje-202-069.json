@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-daje-202-069",
- "title": "Venire, sapere e i verbi modali (1)",
+ "title": "Il presente: verbi regolari ed essere",
  "language": "it",
  "level": "A1",
- "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (1) · livello medio.",
+ "description": "I verbi in -ere al presente · Il presente: verbi regolari ed essere · livello medio.",
  "topics": [
-  "Venire, sapere e i verbi modali",
+  "I verbi in -ere al presente",
   "Grammatik"
  ],
  "sources": [
@@ -24,8 +24,8 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "1",
-   "unit": "4 · Tempo libero",
-   "section": "Parte A"
+   "unit": "1 · La città",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -36,8 +36,8 @@
   "curriculum": "It8 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco1-modali",
-  "topicTitle": "Venire, sapere e i verbi modali",
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "I verbi in -ere al presente",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1069

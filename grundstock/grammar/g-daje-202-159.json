@@ -6,9 +6,9 @@
  "title": "La mia prima presentazione pubblica",
  "language": "it",
  "level": "A2",
- "description": "Il futuro semplice · La mia prima presentazione pubblica · livello medio.",
+ "description": "Raccontare un’esperienza · La mia prima presentazione pubblica · livello medio.",
  "topics": [
-  "Il futuro semplice",
+  "Raccontare un’esperienza",
   "Grammatik"
  ],
  "sources": [
@@ -24,8 +24,8 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "2",
-   "unit": "5 · Ieri e oggi",
-   "section": "Parte A"
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -36,8 +36,8 @@
   "curriculum": "It9 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco2-futuro",
-  "topicTitle": "Il futuro semplice",
+  "topic": "ecco2-raccontare",
+  "topicTitle": "Raccontare un’esperienza",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1159

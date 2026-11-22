@@ -226,7 +226,7 @@ function learnerHome(list, p) {
       <div class="today-copy">
         <div class="eyebrow">Mein Lernbereich</div>
         <h1>${fresh ? 'Sprachen lernen,<br><em>Schritt für Schritt.</em>' : 'Weiter geht’s.'}</h1>
-        <p>${fresh ? 'Grammatik mit Merkkasten, Wortschatz, Verben und Hörverstehen. Mit Rückmeldung, in deinem Tempo, ohne Anmeldung.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
+        <p>${fresh ? 'Grammatik mit Merkkasten, Wortschatz, Verben und Hörverstehen. Mit Rückmeldung und in deinem Tempo.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
         ${lernSwitch()}
       </div>
       <div class="today-side">

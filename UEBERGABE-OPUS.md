@@ -374,3 +374,50 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
   Druckfläche 240 mm (Reserve für Safari mit Kopf-/Fußzeile); drei Designs (Schlicht, Klassisch, Heft);
   Quellen bei CILS nur die echte Textquelle, Standardsätze auf Italienisch (`printSources`).
 - Fortschrittsbalken der Aufgaben springen zur Aufgabe (vorher Anker-Link → Router → falsche Seite).
+
+### 7e · Gesamtprüfung der Übungen, Teilpunkte, Grammatik für die Lernjahre 2–6 (22.11.2026)
+
+**Fachliche Prüfung des Bestands** (jede Übung gelesen, Maßstab: nichts Falsches lernen, keine richtige Antwort als falsch werten):
+- Grammatik Primo anno (`werkzeuge/grammatik/anno1/*.txt`): rund 230 Zeilen korrigiert (Ablenker, die auch richtig waren, z. B. Präsens
+  neben stare + gerundio, „in casa“, nachgestelltes già/ancora; fehlende zweite Lösungen; mehrdeutige Zuordnungen und Reihenfolgen;
+  Fehleraufgaben ohne echten Fehler; Pleonasmen „a me mi“ in Mustersätzen).
+- Importierte Übungen (`g-daje-202-*`, `g-daje-b1b2-*`): rund 170 Dateien korrigiert. Häufigste Mängel: nur eine Zeit/Präposition/Artikelform
+  hinterlegt, obwohl mehrere richtig sind; Klammerhinweise ohne Zeit/Modus; vom Imperativ getrennte Pronomen („tieni le“); Hinweise, die die
+  Lösung verraten. Diese Pakete haben keine Quelle mehr im Repository (der Import lief aus einem privaten Ordner): **die JSON-Dateien
+  sind jetzt die Quelle; `gpt_import.py` nicht erneut über sie laufen lassen**, sonst gehen die Korrekturen verloren.
+- Schablonen-Anweisungen entfernt, die die App nicht erfüllen kann („spiega la tua scelta“, „motiva …“, „sono accettabili varianti“),
+  inhaltsleere Erklärungen („Controlla ogni forma nel contesto.“) gestrichen, leere Kategorien entfernt, 16 falsch einsortierte Übungen
+  dem passenden Thema zugeordnet, Thementitel „Essere und avere“ → „Testi e forme: ripasso“.
+- Wortschatz: 146 Erklärungen/Beispielsätze korrigiert (falsche Bedeutung, Germanismen, falsche verwandte Wörter), kaputte
+  `acceptedAnswers` bei Stichwörtern mit Klammern („ilfilm“, „a da“) repariert, Platzhalter „Abc“ in `usage` durch Formenangaben ersetzt.
+- Hörverstehen: eine falsche Lösung (Via del Corso: 1 km e mezzo), 23 Aufgaben mit zu engen Antwortlisten, Hörfehler der Untertitel im
+  sichtbaren Transkript, Aufgaben, die einander die Lösung verraten. Offen (am Audio prüfen): „Vittorio Emanuele I“ im Rom-Transkript
+  (richtig wäre II), „chiesa francescana“ bei Trinità dei Monti (vermutlich „francese“).
+- Trainer: Zahlen (centotré, milletré; „e tre quarti“; Datum mit Vorspann), Verben (weibliches Subjekt verlangt die feminine Form;
+  vivere/appartenere mit beiden Hilfsverben; perduto, siederò, debbo), Würfeln (Nomen mit l’ kamen nie vor; falsche Plurale von
+  Fremdwörtern und unzählbaren Nomen; Nomen mit zwei Geschlechtern).
+
+**Bewertung und Bedienung:**
+- **Teilpunkte** (`TheisContent.scoreAnswer`): jede Lücke, jedes Paar, jeder Satz zählt einzeln. Vorher machte eine falsche Lücke von
+  dreißig die ganze Aufgabe falsch („0 von 1“). `lastResult.correct/total` sind jetzt Punkte; ältere gespeicherte Ergebnisse bleiben gültig.
+  Rückmeldung je Aufgabe „Teilweise richtig 5 / 8“, Lösungen nur zu den falschen Stellen als Liste (`solutionListHTML`).
+- **Satzergänzung** wertet den Schlüssel nur noch als ganze Wörter (`containsKey`): „si vanno“ enthält „si va“ nicht mehr.
+- Merkkasten in der Übung ist am Handy zugeklappt (Aufgabe sofort sichtbar), breite Merkkasten-Tabellen wischen im Rahmen (vorher war die
+  Themenseite am Handy 51 px zu breit), Korrekturfelder so breit wie die Lösung, Wortkasten ohne Dopplung „Hai/hai“, Themenliste nennt die
+  Aufgabenart statt „1 Aufgabe“, gewähltes Lernjahr 4–6 wird gemerkt, Text „ohne Anmeldung“ auf der Startseite entfernt.
+- Vertrag: Zuordnung bis 10 Paare, Satzergänzung bis 12 Sätze.
+
+**Neue Grammatikübungen** (alle aus DSL-Quellen, je Thema Merkkasten it/de, drei Stufen, zweite unabhängige Gegenprüfung):
+`werkzeuge/grammatik/anno2/` (Secondo anno, alle Lektionen), `anno3/` (Terzo anno), `anno4/` (Jgst. 11, Präfix `it11`),
+`anno5/`, `anno6/` (Präfixe `it12`, `it13`). `grammatik.py` kennt die Lernjahre 4–6.
+- Neues Prüfwerkzeug `werkzeuge/pruef_uebung.py <pakete>`: formale Fehler, die beim Schreiben typisch sind (Lösung nicht in den Optionen,
+  doppelte Optionen, Zusatzwort = Lösung, zu kurze Schlüssel, leere Kategorien, fehlende deutsche Hilfe).
+
+**Didaktische Einschätzung (aus Sicht einer Fremdsprachenlehrkraft), offen:**
+- 89 importierte Übungen bestehen nur aus offenen Antworten (Formenanalyse, Schreiben). Im Selbstlernen gibt es dafür keine Rückmeldung;
+  sinnvoll nur mit Lehrkraft. In der Themenliste jetzt als „Offene Antwort“ erkennbar.
+- 26 Formentabellen mit 24–30 gleichartigen Lücken in einer Aufgabe: als Drill brauchbar, aber eintönig.
+- Mehrere Lesetexte werden in drei bis fünf Übungen wiederverwendet; wer eine gelöst hat, kennt Teile der nächsten.
+- Elf Textrekonstruktionen (Blöcke per Buchstabe) lassen teils mehrere stimmige Reihenfolgen zu, gewertet wird eine.
+- Ordnungsaufgaben im Primo anno geben den Zielsatz auf Deutsch vor; das ist nah an einer Übersetzung DE→IT.
+- Lernjahre 4–6: Die Kompetenz- und Themenfelder des Lehrplans (Mediation, Hören, Landeskunde) haben weiterhin keine Übungen.

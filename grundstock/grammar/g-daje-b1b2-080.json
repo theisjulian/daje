@@ -6,9 +6,9 @@
  "title": "Due modi di raccontare il pranzo",
  "language": "it",
  "level": "B1",
- "description": "Riconoscere la formazione delle parole · Due modi di raccontare il pranzo · livello medio.",
+ "description": "Lessico, registri e significati nel contesto · Due modi di raccontare il pranzo · livello medio.",
  "topics": [
-  "Riconoscere la formazione delle parole",
+  "Lessico, registri e significati nel contesto",
   "Grammatik"
  ],
  "sources": [
@@ -29,14 +29,14 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "3",
-   "unit": "4 · Nord e Sud",
-   "section": "Parte B"
+   "unit": "Extra · Approfondire",
+   "section": "Laboratorio"
   },
   "curriculum": "It10 Methodische Kompetenzen"
  },
  "grammar": {
-  "topic": "ecco3-formazione-parole",
-  "topicTitle": "Riconoscere la formazione delle parole",
+  "topic": "daje3-lessico-contesto",
+  "topicTitle": "Lessico, registri e significati nel contesto",
   "difficulty": "mittel",
   "origin": "own",
   "order": 3080

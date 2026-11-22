@@ -9,7 +9,7 @@ const GR_KEY = 'daje-grammatik-v1';
 const GR_STATE = Object.assign({ band: 1, level: 'alle', topic: null }, (() => {
   try {
     const x = JSON.parse(localStorage.getItem(GR_KEY) || '{}');
-    return { band: [0, 1, 2, 3].includes(x.band) ? x.band : 1, level: ['alle', 'leicht', 'mittel', 'schwer'].includes(x.level) ? x.level : 'alle' };
+    return { band: [0, 1, 2, 3, 4, 5, 6].includes(x.band) ? x.band : 1, level: ['alle', 'leicht', 'mittel', 'schwer'].includes(x.level) ? x.level : 'alle' };
   } catch (e) {
     return {};
   }

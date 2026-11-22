@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-daje-202-073",
- "title": "Venire, sapere e i verbi modali (2)",
+ "title": "Andare, venire e fare al presente",
  "language": "it",
  "level": "A1",
- "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (2) · livello medio.",
+ "description": "I verbi in -ire e andare · Andare, venire e fare al presente · livello medio.",
  "topics": [
-  "Venire, sapere e i verbi modali",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -24,8 +24,8 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "1",
-   "unit": "4 · Tempo libero",
-   "section": "Parte A"
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -36,8 +36,8 @@
   "curriculum": "It8 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco1-modali",
-  "topicTitle": "Venire, sapere e i verbi modali",
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1073

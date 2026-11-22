@@ -6,9 +6,9 @@
  "title": "Un colloquio diverso",
  "language": "it",
  "level": "B1",
- "description": "Riconoscere la formazione delle parole · Un colloquio diverso · livello medio.",
+ "description": "Raccontare esperienze interculturali · Un colloquio diverso · livello medio.",
  "topics": [
-  "Riconoscere la formazione delle parole",
+  "Raccontare esperienze interculturali",
   "Grammatik"
  ],
  "sources": [
@@ -29,14 +29,14 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "3",
-   "unit": "4 · Nord e Sud",
+   "unit": "2 · Vivere all’estero",
    "section": "Parte B"
   },
   "curriculum": "It10 Methodische Kompetenzen"
  },
  "grammar": {
-  "topic": "ecco3-formazione-parole",
-  "topicTitle": "Riconoscere la formazione delle parole",
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
   "difficulty": "mittel",
   "origin": "own",
   "order": 3055
