@@ -635,7 +635,7 @@ function questionHTML(x, q, index, state) {
       `<p class="gap-text ec-text" lang="${x.language}">${gapHTML(q.text, (id, n) => {
         const e = q.errors.find(v => v.id === id);
         const val = ownPart(parts, id) ? parts[id] : '';
-        return `<span class="ec"><s>${esc(e.wrong)}</s> <input class="gap${mark(sameAnswer(e.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(22, Math.max(...e.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Korrektur ${n}"></span>`;
+        return `<span class="ec"><s>${esc(e.wrong)}</s> <input class="gap${mark(TheisContent.assessAnswer({ type: 'error_correction', errors: [e] }, JSON.stringify({ [id]: val })))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(22, Math.max(...e.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Korrektur ${n}"></span>`;
       })}</p>`;
   else if (q.type === 'table_fill')
     field = `<div class="tbl-wrap"><table class="fill-table" lang="${x.language}"><thead><tr>${q.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${q.rows

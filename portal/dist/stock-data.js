@@ -109664,7 +109664,7 @@ const STOCK_PACKAGES = [
     "explanation": "che non cambia mai; il verbo va con il nome.",
     "promptHelp": "Korrigiere die Fehler mit che.",
     "explanationHelp": "che bleibt gleich; das Verb richtet sich nach dem Nomen.",
-    "text": "Ho un’amica [[g1]] abita a Roma.\nI ragazzi che [[g2]] sono miei amici.\nIl libro [[g3]] leggo è bello.\nÈ un film che [[g4]] a tutti.\nHo due gatti che [[g5]] sempre.\nLa ragazza [[g6]] parla è mia cugina.\nLe scarpe che [[g7]] sono nuove.\nIl nonno che [[g8]] storie è simpatico.",
+    "text": "Ho un’amica [[g1]] abita a Roma.\nI ragazzi che [[g2]] sono miei amici.\nIl libro [[g3]] leggo è bello.\nÈ un film che [[g4]] a tutti.\nHo due gatti che [[g5]] sempre.\nLa ragazza [[g6]] parla è mia cugina.\nLe scarpe che [[g7]] poco sono nuove.\nIl nonno che [[g8]] storie è simpatico.",
     "errors": [
      {
       "id": "g1",
@@ -109710,9 +109710,9 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "g7",
-      "wrong": "compro",
+      "wrong": "costa",
       "acceptedAnswers": [
-       "compro"
+       "costano"
       ]
      },
      {

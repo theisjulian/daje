@@ -608,7 +608,16 @@
     }
     if (q.type === 'error_correction') {
       const v = parts();
-      return q.errors.every(g => has(v, g.id) && g.acceptedAnswers.some(a => norm(a) === norm(v[g.id])));
+      // Ist der Fehler nur die Groß-/Kleinschreibung („Dicembre“ → „dicembre“), zählt die Schreibung mit;
+      // sonst wäre der unveränderte Fehler schon richtig.
+      const exact = x => norm(x) && String(x).normalize('NFC').replace(/[’‘ʼ´`]/g, "'").trim().replace(/[.!?]+$/g, '').trim().replace(/\s+/g, ' ');
+      return q.errors.every(
+        g =>
+          has(v, g.id) &&
+          g.acceptedAnswers.some(a =>
+            norm(a) === norm(g.wrong) ? exact(a) === exact(v[g.id]) : norm(a) === norm(v[g.id])
+          )
+      );
     }
     if (q.type === 'table_fill') {
       const v = parts();

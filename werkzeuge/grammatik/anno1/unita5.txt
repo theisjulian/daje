@@ -360,7 +360,7 @@ Il libro [cosa=>che] leggo è bello.
 È un film che [piacciono=>piace] a tutti.
 Ho due gatti che [dorme=>dormono] sempre.
 La ragazza [quale=>che] parla è mia cugina.
-Le scarpe che [compro=>compro] sono nuove.
+Le scarpe che [costa=>costano] poco sono nuove.
 Il nonno che [raccontano=>racconta] storie è simpatico.
 ! che non cambia mai; il verbo va con il nome. || che bleibt gleich; das Verb richtet sich nach dem Nomen.
 
