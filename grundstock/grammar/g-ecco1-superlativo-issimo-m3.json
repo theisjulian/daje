@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 9,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -78,18 +78,23 @@
     },
     {
      "id": "p6",
-     "left": "zitto zitto",
-     "right": "ganz still"
-    },
-    {
-     "id": "p7",
      "left": "bello bello",
      "right": "richtig schön"
     },
     {
-     "id": "p8",
+     "id": "p7",
      "left": "forte forte",
      "right": "ganz fest"
+    },
+    {
+     "id": "p8",
+     "left": "zitto zitto",
+     "right": "ganz still"
+    },
+    {
+     "id": "p9",
+     "left": "solo solo",
+     "right": "ganz allein"
     }
    ]
   }

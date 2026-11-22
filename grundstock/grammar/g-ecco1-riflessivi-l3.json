@@ -81,19 +81,19 @@
    "items": [
     {
      "id": "i1",
-     "text": "Torna a casa."
+     "text": "Alle sei torna a casa."
     },
     {
      "id": "i2",
-     "text": "Si fa la doccia."
+     "text": "Alle otto si fa la doccia."
     },
     {
      "id": "i3",
-     "text": "Si mette il pigiama."
+     "text": "Alle dieci si mette il pigiama."
     },
     {
      "id": "i4",
-     "text": "Si addormenta."
+     "text": "Alle dieci e mezza si addormenta."
     }
    ]
   },

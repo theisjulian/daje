@@ -327,10 +327,10 @@ sedia > a
 camera > a
 scrivania > a
 libri > i
-poster > i
+zaini > i
 riviste > e
 scarpe > e
-! poster è maschile (il poster → i poster): questi poster. || poster ist männlich (il poster → i poster): questi poster.
+! libri e zaini sono maschili plurali: questi libri, questi zaini. || libri und zaini sind männlich im Plural: questi libri, questi zaini.
 
 %übung leicht | Che cos’è?
 ?auswahl | Scegli questo o questi, questa o queste. || Wähle die passende Form.

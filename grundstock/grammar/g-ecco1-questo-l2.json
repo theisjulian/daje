@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Quale forma di questo?",
    "promptHelp": "Welche Form von questo passt?",
-   "explanation": "poster è maschile (il poster → i poster): questi poster.",
-   "explanationHelp": "poster ist männlich (il poster → i poster): questi poster.",
+   "explanation": "libri e zaini sono maschili plurali: questi libri, questi zaini.",
+   "explanationHelp": "libri und zaini sind männlich im Plural: questi libri, questi zaini.",
    "type": "categorize",
    "categories": [
     {
@@ -108,7 +108,7 @@
     },
     {
      "id": "i8",
-     "text": "poster",
+     "text": "zaini",
      "category": "i"
     },
     {

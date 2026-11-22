@@ -100,7 +100,8 @@
      "acceptedAnswers": [
       "un pacco di riso",
       "un pacchetto di riso",
-      "una scatola di riso"
+      "una scatola di riso",
+      "una confezione di riso"
      ],
      "modelAnswer": "un pacco di riso"
     },
@@ -117,7 +118,8 @@
      "id": "s8",
      "start": "(ein halbes Kilo Kirschen)",
      "acceptedAnswers": [
-      "mezzo chilo di ciliegie"
+      "mezzo chilo di ciliegie",
+      "cinque etti di ciliegie"
      ],
      "modelAnswer": "mezzo chilo di ciliegie"
     }

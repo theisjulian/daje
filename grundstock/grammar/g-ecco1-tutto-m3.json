@@ -87,11 +87,11 @@
     },
     {
      "id": "s5",
-     "start": "ogni estate",
+     "start": "ogni notte",
      "acceptedAnswers": [
-      "tutte le estati"
+      "tutte le notti"
      ],
-     "modelAnswer": "tutte le estati"
+     "modelAnswer": "tutte le notti"
     },
     {
      "id": "s6",

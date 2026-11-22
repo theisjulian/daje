@@ -2319,8 +2319,7 @@ const STOCK_PACKAGES = [
     "id": "m1-giro-ditalia-015",
     "target": "spostarsi",
     "translations": [
-     "wegbewegen",
-     "hier: Platz machen"
+     "sich bewegen / hier: Platz machen"
     ],
     "acceptedAnswers": [],
     "example": "Non li vedo. Puoi spostarti un po’?",
@@ -2960,7 +2959,7 @@ const STOCK_PACKAGES = [
     "id": "m2-arte-cultura-scienze-034",
     "target": "l’opera",
     "translations": [
-     "die Oper"
+     "die Oper / das Werk"
     ],
     "acceptedAnswers": [],
     "example": "«La Traviata» è un’opera di Verdi.",
@@ -3885,7 +3884,7 @@ const STOCK_PACKAGES = [
     "id": "m4-incontro-con-liga-015",
     "target": "Roba da matti!",
     "translations": [
-     "Ich werde verrückt!"
+     "Das ist doch verrückt!"
     ],
     "acceptedAnswers": [],
     "example": "Il treno è in ritardo di tre ore: roba da matti!",
@@ -8932,7 +8931,7 @@ const STOCK_PACKAGES = [
     "id": "u3-3b-014",
     "target": "la lettrice",
     "translations": [
-     "die Fremdsprachenassistentin"
+     "die Fremdsprachenassistentin / Lektorin"
     ],
     "acceptedAnswers": [],
     "example": "La lettrice parla con la classe.",
@@ -9359,8 +9358,7 @@ const STOCK_PACKAGES = [
     "id": "u3-3b-046",
     "target": "il caffè",
     "translations": [
-     "der Kaffee",
-     "das Kaffee(-haus)"
+     "der Kaffee / das Café"
     ],
     "acceptedAnswers": [],
     "example": "Prendiamo un caffè?",
@@ -11381,7 +11379,7 @@ const STOCK_PACKAGES = [
     "id": "u4-4b-041",
     "target": "Mi dispiace.",
     "translations": [
-     "Es tut mir Leid."
+     "Es tut mir leid."
     ],
     "acceptedAnswers": [],
     "example": "Mi dispiace, non posso venire.",
@@ -13411,9 +13409,7 @@ const STOCK_PACKAGES = [
     "id": "u5-approccio-002",
     "target": "il figlio",
     "translations": [
-     "der Sohn",
-     "die Tochter",
-     "das Kind"
+     "der Sohn / das Kind"
     ],
     "acceptedAnswers": [],
     "example": "Il figlio di Anna ha sei anni.",
@@ -13454,8 +13450,7 @@ const STOCK_PACKAGES = [
     "id": "u5-approccio-004",
     "target": "il nonno",
     "translations": [
-     "der Opa",
-     "die Oma"
+     "der Opa / Großvater"
     ],
     "acceptedAnswers": [],
     "example": "Mia nonna ha 70 anni.",
@@ -13475,7 +13470,7 @@ const STOCK_PACKAGES = [
     "id": "u5-approccio-005",
     "target": "il cugino",
     "translations": [
-     "der/die Kusin/-e"
+     "der Cousin / Vetter"
     ],
     "acceptedAnswers": [],
     "example": "Mio cugino Frank è tedesco.",
@@ -14440,7 +14435,7 @@ const STOCK_PACKAGES = [
     "id": "u6-6b-032",
     "target": "la fontina",
     "translations": [
-     "Käsesorte"
+     "die Fontina (Käsesorte)"
     ],
     "acceptedAnswers": [],
     "example": "La fontina è un formaggio della Valle d’Aosta.",
@@ -15743,7 +15738,7 @@ const STOCK_PACKAGES = [
     "id": "u7-7a-029",
     "target": "il grado",
     "translations": [
-     "das Grad (Temperatur)"
+     "der Grad (Temperatur)"
     ],
     "acceptedAnswers": [],
     "example": "Che fresco! Sono solo 12 gradi!",
@@ -31321,7 +31316,7 @@ const STOCK_PACKAGES = [
     "id": "u5-per-parlare-012",
     "target": "la casa mobile",
     "translations": [
-     "mobile home"
+     "das Mobilheim"
     ],
     "acceptedAnswers": [],
     "example": "Dormiamo in una casa mobile.",
@@ -46872,19 +46867,22 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
       "id": "g4",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
@@ -46897,7 +46895,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -46910,7 +46909,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -46922,7 +46922,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g10",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
@@ -47516,43 +47517,50 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "La"
+       "La",
+       "Una"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g4",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g5",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g6",
       "acceptedAnswers": [
-       "lo"
+       "lo",
+       "uno"
       ]
      },
      {
       "id": "g7",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
@@ -50164,31 +50172,36 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "La"
+       "La",
+       "Una"
       ]
      },
      {
       "id": "g4",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g5",
       "acceptedAnswers": [
-       "uno"
+       "uno",
+       "lo"
       ]
      },
      {
@@ -50201,19 +50214,22 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g9",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
@@ -50225,7 +50241,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g11",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -50238,31 +50255,36 @@ const STOCK_PACKAGES = [
      {
       "id": "g13",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g14",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g15",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g16",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g17",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
@@ -50274,19 +50296,22 @@ const STOCK_PACKAGES = [
      {
       "id": "g19",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g20",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
       "id": "g21",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      }
     ]
@@ -52615,19 +52640,22 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "La"
+       "La",
+       "Una"
       ]
      },
      {
@@ -52651,13 +52679,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
@@ -52676,25 +52706,29 @@ const STOCK_PACKAGES = [
      {
       "id": "g11",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g12",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g13",
       "acceptedAnswers": [
-       "La"
+       "La",
+       "Una"
       ]
      },
      {
       "id": "g14",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -54781,13 +54815,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
@@ -54812,7 +54848,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
@@ -54824,7 +54861,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -54837,7 +54875,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g10",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
@@ -54849,25 +54888,29 @@ const STOCK_PACKAGES = [
      {
       "id": "g12",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g13",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
       "id": "g14",
       "acceptedAnswers": [
-       "La"
+       "La",
+       "Una"
       ]
      },
      {
       "id": "g15",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
@@ -54886,7 +54929,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g18",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      }
     ]
@@ -65922,7 +65966,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
@@ -65934,13 +65979,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -65952,7 +65999,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g10",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -65971,7 +66019,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g13",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -65983,7 +66032,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g15",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -65995,7 +66045,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g17",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -66007,13 +66058,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g19",
       "acceptedAnswers": [
-       "la"
+       "la",
+       "una"
       ]
      },
      {
       "id": "g20",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
@@ -66025,7 +66078,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g22",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -66037,13 +66091,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g24",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g25",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
@@ -73578,13 +73634,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "uno"
+       "uno",
+       "lo"
       ]
      },
      {
@@ -73596,7 +73654,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -73621,31 +73680,36 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      },
      {
       "id": "g9",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g10",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g11",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
       "id": "g12",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      }
     ]
@@ -88243,25 +88307,29 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "uno"
+       "uno",
+       "lo"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g4",
       "acceptedAnswers": [
-       "Un"
+       "Un",
+       "Il"
       ]
      },
      {
@@ -88273,25 +88341,29 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
       "id": "g7",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
-       "Una"
+       "Una",
+       "La"
       ]
      },
      {
       "id": "g9",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -88304,13 +88376,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g11",
       "acceptedAnswers": [
-       "il"
+       "il",
+       "un"
       ]
      },
      {
       "id": "g12",
       "acceptedAnswers": [
-       "Il"
+       "Il",
+       "Un"
       ]
      }
     ]
@@ -90032,9 +90106,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo.",
+    "prompt": "Completa il testo. Usa gli articoli determinativi.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text.",
+    "promptHelp": "Ergänze den Text. Verwende bestimmte Artikel.",
     "text": "L’orologiaio del paese mandò un invito a ogni abitante: domenica avrebbe aperto il laboratorio, ma nessuno doveva portare un orologio. La richiesta sorprese molti. Una vicina pensò che si trattasse di uno scherzo; un ragazzo immaginò una mostra segreta. Il maestro, che conosceva l’orologiaio da anni, disse soltanto che sarebbe andato.\nLa domenica il laboratorio era pieno di sedie. Sul banco non c’erano strumenti, ma fogli e matite. L’orologiaio chiese a ciascuno di raccontare un momento in cui il tempo era sembrato passare in modo diverso. Una donna parlò di un’attesa alla stazione; un bambino descrisse una partita finita troppo presto. Nessuno misurava quei racconti con un cronometro.\nQuando arrivò il suo turno, il maestro disse che ricordava una lezione in cui nessuno aveva guardato l’ora. Non era successo perché lui fosse particolarmente brillante: gli studenti avevano trovato una domanda che interessava tutti. Avrebbe voluto ricordarla esattamente, ma [[g1]] (al maestro) restava soltanto la sensazione di quel pomeriggio. L’orologiaio [[g2]] (al maestro) rispose che poteva scrivere anche questo.\nAlla fine i fogli furono appesi alla parete. Non indicavano minuti o secondi e non sostituivano gli orologi. Mostravano semplicemente che raccontare un’esperienza richiede parole diverse da quelle necessarie per misurarne la durata. Il ragazzo che aspettava una mostra segreta non fu deluso. Tornando a casa pensò che avrebbe invitato suo nonno a raccontargli una giornata di scuola. Questa storia è originale e non riprende personaggi o vicende di un testo letterario pubblicato.\nIl ragazzo conservò i fogli che gli autori gli affidarono. [[g3]] (diretto, i fogli) mise in una cartella e [[g4]] (diretto, la cartella) mostrò all’orologiaio. «Posso portar[[g5]] (diretto, i fogli) a scuola?» domandò. L’uomo [[g6]] (indiretto, al ragazzo) rispose di chiedere prima agli autori. Il ragazzo [[g7]] (di fogli) scelse soltanto due, perché quelle persone avevano già dato il consenso. Gli altri non [[g8]] (diretto, gli altri fogli) copiò. Quando tornò a casa, [[g9]] (riflessivo, il ragazzo) ricordò anche della domanda per il nonno e [[g10]] (indiretto, al nonno) telefonò.",
     "gaps": [
      {
@@ -109666,7 +109740,7 @@ const STOCK_PACKAGES = [
    ],
    "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-che-relativo",
    "topicTitle": "Il pronome relativo che",
@@ -109724,6 +109798,16 @@ const STOCK_PACKAGES = [
       "id": "p8",
       "left": "Conosco una signora",
       "right": "che ha novant’anni."
+     },
+     {
+      "id": "p9",
+      "left": "Ho una sorella",
+      "right": "che ha otto anni."
+     },
+     {
+      "id": "p10",
+      "left": "Ecco la torta",
+      "right": "che prepara mia nonna."
      }
     ],
     "distractors": []
@@ -110534,7 +110618,9 @@ const STOCK_PACKAGES = [
       "id": "s2",
       "start": "(il frigorifero: tiene fresco il cibo)",
       "acceptedAnswers": [
-       "è una cosa che tiene fresco il cibo"
+       "è una cosa che tiene fresco il cibo",
+       "è un oggetto che tiene fresco il cibo",
+       "è un elettrodomestico che tiene fresco il cibo"
       ],
       "modelAnswer": "È una cosa che tiene fresco il cibo."
      },
@@ -110550,7 +110636,8 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "(la penna: serve per scrivere)",
       "acceptedAnswers": [
-       "è una cosa che serve per scrivere"
+       "è una cosa che serve per scrivere",
+       "è un oggetto che serve per scrivere"
       ],
       "modelAnswer": "È una cosa che serve per scrivere."
      },
@@ -110574,7 +110661,9 @@ const STOCK_PACKAGES = [
       "id": "s7",
       "start": "(il letto: usiamo per dormire)",
       "acceptedAnswers": [
-       "è una cosa che usiamo per dormire"
+       "è una cosa che usiamo per dormire",
+       "è un mobile che usiamo per dormire",
+       "è un oggetto che usiamo per dormire"
       ],
       "modelAnswer": "È una cosa che usiamo per dormire."
      },
@@ -111454,7 +111543,8 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "i pantaloni blu",
        "pantaloni blu",
-       "dei pantaloni blu"
+       "dei pantaloni blu",
+       "un paio di pantaloni blu"
       ],
       "modelAnswer": "Luca porta i pantaloni blu."
      },
@@ -111522,7 +111612,9 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "camicie azzurre",
        "le camicie azzurre",
-       "delle camicie azzurre"
+       "delle camicie azzurre",
+       "camicie celesti",
+       "le camicie celesti"
       ],
       "modelAnswer": "Il nonno porta camicie azzurre."
      }
@@ -113530,7 +113622,7 @@ const STOCK_PACKAGES = [
     "explanation": "bisogno = è necessario; voglia = mi piacerebbe.",
     "promptHelp": "Wähle ho bisogno di oder ho voglia di.",
     "explanationHelp": "bisogno = brauchen; voglia = Lust haben.",
-    "text": "Fa caldo: [[g1]] un gelato!\nDomani c’è il test: [[g2]] studiare.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nSono stanco: [[g8]] dormire.",
+    "text": "Fa caldo: [[g1]] un gelato!\nNon ho più soldi: [[g2]] un lavoro.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nHo la febbre: [[g8]] un medico.",
     "gaps": [
      {
       "id": "g1",
@@ -113798,7 +113890,8 @@ const STOCK_PACKAGES = [
       "id": "g2",
       "acceptedAnswers": [
        "Vorrei",
-       "Prendo"
+       "Prendo",
+       "Desidero"
       ]
      },
      {
@@ -114288,7 +114381,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p5",
       "left": "Le",
-      "right": "Ihnen"
+      "right": "Ihnen (höflich)"
      },
      {
       "id": "p6",
@@ -114303,7 +114396,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p8",
       "left": "gli (a loro)",
-      "right": "ihnen"
+      "right": "ihnen (mehrere Personen)"
      }
     ],
     "distractors": [
@@ -116970,7 +117063,8 @@ const STOCK_PACKAGES = [
       "id": "s3",
       "start": "Abito a Napoli.",
       "acceptedAnswers": [
-       "Dove abiti"
+       "Dove abiti",
+       "Dove vivi"
       ],
       "modelAnswer": "Dove abiti?"
      },
@@ -116978,7 +117072,8 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "Sono di Genova.",
       "acceptedAnswers": [
-       "Di dove sei"
+       "Di dove sei",
+       "Da dove vieni"
       ],
       "modelAnswer": "Di dove sei?"
      },
@@ -117512,6 +117607,7 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "(fratelli)",
       "acceptedAnswers": [
+       "Hai fratelli o sorelle",
        "Hai fratelli",
        "Quanti fratelli hai",
        "Hai dei fratelli",
@@ -117548,7 +117644,8 @@ const STOCK_PACKAGES = [
       "id": "s7",
       "start": "(materia preferita)",
       "acceptedAnswers": [
-       "Qual è la tua materia preferita"
+       "Qual è la tua materia preferita",
+       "Quale è la tua materia preferita"
       ],
       "modelAnswer": "Qual è la tua materia preferita?"
      },
@@ -121001,7 +121098,8 @@ const STOCK_PACKAGES = [
       "id": "s1",
       "start": "Hai fatto i compiti? (sì) – Sì, …",
       "acceptedAnswers": [
-       "ho già fatto i compiti"
+       "ho già fatto i compiti",
+       "li ho già fatti"
       ],
       "modelAnswer": "Sì, ho già fatto i compiti."
      },
@@ -121009,7 +121107,8 @@ const STOCK_PACKAGES = [
       "id": "s2",
       "start": "Hai visto il film? (no) – No, …",
       "acceptedAnswers": [
-       "non ho ancora visto il film"
+       "non ho ancora visto il film",
+       "non l’ho ancora visto"
       ],
       "modelAnswer": "No, non ho ancora visto il film."
      },
@@ -121041,7 +121140,8 @@ const STOCK_PACKAGES = [
       "id": "s6",
       "start": "Hai comprato il pane? (no) – No, …",
       "acceptedAnswers": [
-       "non ho ancora comprato il pane"
+       "non ho ancora comprato il pane",
+       "non l’ho ancora comprato"
       ],
       "modelAnswer": "No, non ho ancora comprato il pane."
      },
@@ -121230,7 +121330,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "ordering",
-    "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+    "prompt": "Metti le parole in ordine: „Ich habe das Buch noch nicht gelesen.“",
     "explanation": "",
     "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
     "items": [
@@ -122309,7 +122409,8 @@ const STOCK_PACKAGES = [
       "id": "g6",
       "acceptedAnswers": [
        "fa’",
-       "fai"
+       "fai",
+       "fa"
       ]
      },
      {
@@ -125237,7 +125338,8 @@ const STOCK_PACKAGES = [
       "id": "g6",
       "acceptedAnswers": [
        "va’",
-       "vai"
+       "vai",
+       "va"
       ]
      },
      {
@@ -129651,7 +129753,7 @@ const STOCK_PACKAGES = [
     "explanation": "sapere: hai imparato a fare una cosa. potere: è possibile o hai il permesso.",
     "promptHelp": "sapere oder potere?",
     "explanationHelp": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
-    "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l’anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.\nNon [[g6]] venire, sono malato.\nMio fratello non [[g7]] nuotare, non ha mai imparato.\n[[g8]] entrare? – Sì, prego.",
+    "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l’anno scorso.\n[[g4]] aprire la finestra, per favore?\nMia sorella [[g5]] parlare tre lingue.\nNon [[g6]] venire, sono malato.\nMio fratello non [[g7]] nuotare, non ha mai imparato.\n[[g8]] entrare? – Sì, prego.",
     "gaps": [
      {
       "id": "g1",
@@ -131319,7 +131421,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa con niente, nessuno, mai o più.",
     "explanation": "",
     "promptHelp": "Ergänze niente, nessuno, mai oder più.",
-    "text": "Oggi è una giornata storta. Apro il frigo: non c’è [[g1]].\nTelefono a Marta, ma non risponde [[g2]].\nVado alla fermata, ma l’autobus non arriva [[g3]]: è passato!\nA scuola non capisco [[g4]] di matematica.\nIn mensa non c’è [[g5]] dei miei amici.\nLa sera mio fratello dice: «Non mi aiuti [[g6]]!»\nIo rispondo: «Non è vero!» Ma non dico [[g7]] di più.\nStasera non voglio vedere [[g8]]: vado a letto presto!",
+    "text": "Oggi è una giornata storta. Apro il frigo: non c’è [[g1]].\nTelefono a Marta, ma non risponde [[g2]].\nVado alla fermata, ma l’autobus non arriva [[g3]]: è passato!\nA scuola non capisco [[g4]] di matematica.\nIn mensa non c’è [[g5]] dei miei amici.\nLa sera mio fratello dice: «Non mi aiuti [[g6]]!»\nIo rispondo: «Non è vero!» Ma non dico [[g7]] di più.\nStasera non voglio vedere [[g8]] dei miei amici: vado a letto presto!",
     "gaps": [
      {
       "id": "g1",
@@ -134025,7 +134127,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g3",
       "acceptedAnswers": [
-       "dalle undici alle dodici"
+       "dalle undici alle dodici",
+       "dalle undici a mezzogiorno"
       ]
      },
      {
@@ -135371,7 +135474,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scrivi i verbi al passato prossimo.",
     "explanation": "",
     "promptHelp": "Setze die Verben ins passato prossimo.",
-    "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
+    "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare, io) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
     "gaps": [
      {
       "id": "g1",
@@ -135611,7 +135714,7 @@ const STOCK_PACKAGES = [
     "explanation": "avere → avuto, ricevere → ricevuto.",
     "promptHelp": "Setze die Verben ins passato prossimo.",
     "explanationHelp": "avere → avuto, ricevere → ricevuto.",
-    "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.\nLei (raccontare) [[g8]] una storia divertente.",
+    "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere, io) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.\nLei (raccontare) [[g8]] una storia divertente.",
     "gaps": [
      {
       "id": "g1",
@@ -135858,7 +135961,7 @@ const STOCK_PACKAGES = [
     "prompt": "E adesso completa.",
     "explanation": "",
     "promptHelp": "Und jetzt ergänze.",
-    "text": "Sabato io (dormire) [[g1]] fino alle nove.\nPoi (giocare) [[g2]] ai videogiochi.\nI miei genitori (lavorare) [[g3]] in giardino.\nLa sera noi (mangiare) [[g4]] insieme.",
+    "text": "Sabato io (dormire) [[g1]] fino alle nove.\nPoi (giocare, io) [[g2]] ai videogiochi.\nI miei genitori (lavorare) [[g3]] in giardino.\nLa sera noi (mangiare) [[g4]] insieme.",
     "gaps": [
      {
       "id": "g1",
@@ -135946,7 +136049,7 @@ const STOCK_PACKAGES = [
     "explanation": "di solito, ogni giorno, adesso, quest’anno → presente · ieri, scorso → passato prossimo.",
     "promptHelp": "Setze die Verben im Präsens oder im passato prossimo ein.",
     "explanationHelp": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l’anno scorso → passato prossimo.",
-    "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
+    "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare, io) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare, lei) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
     "gaps": [
      {
       "id": "g1",
@@ -137003,9 +137106,9 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_fill",
     "prompt": "Scrivi i verbi al passato prossimo (essere o avere).",
-    "explanation": "io e mia sorella = noi (femminile) → siamo andate, siamo arrivate.",
+    "explanation": "io e mia sorella = noi: se parla una ragazza → siamo andate, se parla un ragazzo → siamo andati.",
     "promptHelp": "Setze die Verben ins passato prossimo (essere oder avere).",
-    "explanationHelp": "io e mia sorella = noi (weiblich) → siamo andate.",
+    "explanationHelp": "io e mia sorella = noi: spricht ein Mädchen → siamo andate, spricht ein Junge → siamo andati.",
     "text": "Domenica io (Giulia) e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
     "gaps": [
      {
@@ -137023,7 +137126,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g3",
       "acceptedAnswers": [
-       "Siamo arrivate"
+       "Siamo arrivate",
+       "Siamo arrivati"
       ]
      },
      {
@@ -137047,13 +137151,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "siamo rimaste"
+       "siamo rimaste",
+       "siamo rimasti"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
-       "siamo tornate"
+       "siamo tornate",
+       "siamo tornati"
       ]
      }
     ]
@@ -138425,7 +138531,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "ci siamo svegliati"
+       "ci siamo svegliati",
+       "ci siamo svegliate"
       ]
      },
      {
@@ -142386,8 +142493,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 21
   },
   "vocabularyIds": [],
@@ -142514,8 +142621,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 22
   },
   "vocabularyIds": [],
@@ -142619,8 +142726,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 23
   },
   "vocabularyIds": [],
@@ -142629,10 +142736,10 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "gap_choice",
     "prompt": "Scegli la forma giusta.",
-    "explanation": "Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo.",
+    "explanation": "Parole affettuose (mamma, papà) e con aggettivo davanti al nome (piccola sorella) → con articolo.",
     "promptHelp": "Wähle die richtige Form.",
-    "explanationHelp": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
-    "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all’asilo.",
+    "explanationHelp": "Koseform (mamma, papà) und Adjektiv vor dem Nomen (piccola sorella) → mit Artikel.",
+    "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] piccola sorella va all’asilo.",
     "gaps": [
      {
       "id": "g1",
@@ -142747,8 +142854,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 21
   },
   "vocabularyIds": [],
@@ -142865,8 +142972,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 22
   },
   "vocabularyIds": [],
@@ -142976,8 +143083,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 23
   },
   "vocabularyIds": [],
@@ -143027,6 +143134,7 @@ const STOCK_PACKAGES = [
       "start": "Che lavoro fa vostro padre? (medico) – …",
       "acceptedAnswers": [
        "Nostro padre è medico",
+       "Nostro padre è un medico",
        "Nostro padre fa il medico"
       ],
       "modelAnswer": "Nostro padre è medico."
@@ -143105,8 +143213,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 21
   },
   "vocabularyIds": [],
@@ -143224,8 +143332,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 22
   },
   "vocabularyIds": [],
@@ -143268,7 +143376,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "acceptedAnswers": [
-       "Il mio"
+       "Il mio",
+       "Mio"
       ]
      }
     ]
@@ -143320,8 +143429,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 23
   },
   "vocabularyIds": [],
@@ -143444,8 +143553,8 @@ const STOCK_PACKAGES = [
    "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 24
   },
   "vocabularyIds": [],
@@ -144099,7 +144208,8 @@ const STOCK_PACKAGES = [
       "id": "g2",
       "acceptedAnswers": [
        "siamo potuti",
-       "siamo potute"
+       "siamo potute",
+       "abbiamo potuto"
       ]
      },
      {
@@ -144117,7 +144227,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "è dovuto"
+       "è dovuto",
+       "ha dovuto"
       ]
      },
      {
@@ -144129,14 +144240,16 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "sono potuti"
+       "sono potuti",
+       "hanno potuto"
       ]
      },
      {
       "id": "g8",
       "acceptedAnswers": [
        "Siamo dovuti",
-       "Siamo dovute"
+       "Siamo dovute",
+       "Abbiamo dovuto"
       ]
      }
     ]
@@ -144211,7 +144324,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "acceptedAnswers": [
-       "è dovuta"
+       "è dovuta",
+       "ha dovuto"
       ]
      },
      {
@@ -144229,7 +144343,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "siamo dovuti"
+       "siamo dovuti",
+       "abbiamo dovuto"
       ]
      },
      {
@@ -144247,7 +144362,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "acceptedAnswers": [
-       "è voluta"
+       "è voluta",
+       "ha voluto"
       ]
      }
     ]
@@ -144459,7 +144575,8 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "Perché Marco non è a scuola? (dovere andare dal medico) – …",
       "acceptedAnswers": [
-       "È dovuto andare dal medico"
+       "È dovuto andare dal medico",
+       "Ha dovuto andare dal medico"
       ],
       "modelAnswer": "È dovuto andare dal medico."
      },
@@ -144467,7 +144584,8 @@ const STOCK_PACKAGES = [
       "id": "s5",
       "start": "Perché le ragazze non sono qui? (volere restare a casa) – …",
       "acceptedAnswers": [
-       "Sono volute restare a casa"
+       "Sono volute restare a casa",
+       "Hanno voluto restare a casa"
       ],
       "modelAnswer": "Sono volute restare a casa."
      },
@@ -144491,7 +144609,9 @@ const STOCK_PACKAGES = [
       "id": "s8",
       "start": "Perché siete tornati presto? (dovere tornare per cena) – …",
       "acceptedAnswers": [
-       "Siamo dovuti tornare"
+       "Siamo dovuti tornare",
+       "Siamo dovute tornare",
+       "Abbiamo dovuto tornare"
       ],
       "modelAnswer": "Siamo dovuti tornare per cena."
      }
@@ -144571,7 +144691,8 @@ const STOCK_PACKAGES = [
       "id": "g1",
       "acceptedAnswers": [
        "sono potuto",
-       "sono potuta"
+       "sono potuta",
+       "ho potuto"
       ]
      },
      {
@@ -144584,7 +144705,8 @@ const STOCK_PACKAGES = [
       "id": "g3",
       "acceptedAnswers": [
        "sono dovuto",
-       "sono dovuta"
+       "sono dovuta",
+       "ho dovuto"
       ]
      },
      {
@@ -149874,7 +149996,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "ognuno"
+       "ognuno",
+       "qualcuno"
       ]
      },
      {
@@ -151816,7 +151939,7 @@ const STOCK_PACKAGES = [
       "options": [
        "mazzo",
        "litro",
-       "etto"
+       "bottiglia"
       ],
       "answer": "mazzo"
      },
@@ -152007,7 +152130,7 @@ const STOCK_PACKAGES = [
     "explanation": "Dopo la quantità: di senza articolo (un pezzo di parmigiano).",
     "promptHelp": "Ergänze den Dialog mit Mengen und di.",
     "explanationHelp": "Nach der Menge: di ohne Artikel.",
-    "text": "Commessa: Buongiorno! Che cosa desidera?\nCliente: Buongiorno, vorrei un [[g1]] [[g2]] mele.\nCommessa: Ecco. Altro?\nCliente: Sì, due [[g3]] [[g4]] prosciutto e un pezzo [[g5]] parmigiano.\nCommessa: Benissimo. Nient’altro?\nCliente: Ah sì, una [[g6]] [[g7]] acqua e un [[g8]] [[g9]] biscotti.\nCommessa: Sono dodici euro.",
+    "text": "Commessa: Buongiorno! Che cosa desidera?\nCliente: Buongiorno, vorrei un [[g1]] [[g2]] mele.\nCommessa: Ecco. Altro?\nCliente: Sì, due [[g3]] [[g4]] prosciutto (200 g) e un pezzo [[g5]] parmigiano (Stück).\nCommessa: Benissimo. Nient’altro?\nCliente: Ah sì, una [[g6]] [[g7]] acqua e un [[g8]] [[g9]] biscotti.\nCommessa: Sono dodici euro.",
     "gaps": [
      {
       "id": "g1",
@@ -152177,7 +152300,8 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "un pacco di riso",
        "un pacchetto di riso",
-       "una scatola di riso"
+       "una scatola di riso",
+       "una confezione di riso"
       ],
       "modelAnswer": "un pacco di riso"
      },
@@ -152194,7 +152318,8 @@ const STOCK_PACKAGES = [
       "id": "s8",
       "start": "(ein halbes Kilo Kirschen)",
       "acceptedAnswers": [
-       "mezzo chilo di ciliegie"
+       "mezzo chilo di ciliegie",
+       "cinque etti di ciliegie"
       ],
       "modelAnswer": "mezzo chilo di ciliegie"
      }
@@ -154303,7 +154428,8 @@ const STOCK_PACKAGES = [
       "id": "s7",
       "start": "Quale vestito porti? (lila) – …",
       "acceptedAnswers": [
-       "Quello viola"
+       "Quello viola",
+       "Quello lilla"
       ],
       "modelAnswer": "Quello viola."
      },
@@ -154982,9 +155108,9 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "categorize",
     "prompt": "Quale forma di questo?",
-    "explanation": "poster è maschile (il poster → i poster): questi poster.",
+    "explanation": "libri e zaini sono maschili plurali: questi libri, questi zaini.",
     "promptHelp": "Welche Form von questo passt?",
-    "explanationHelp": "poster ist männlich (il poster → i poster): questi poster.",
+    "explanationHelp": "libri und zaini sind männlich im Plural: questi libri, questi zaini.",
     "categories": [
      {
       "id": "o",
@@ -155041,7 +155167,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "i8",
-      "text": "poster",
+      "text": "zaini",
       "category": "i"
      },
      {
@@ -156273,19 +156399,19 @@ const STOCK_PACKAGES = [
     "items": [
      {
       "id": "i1",
-      "text": "Torna a casa."
+      "text": "Alle sei torna a casa."
      },
      {
       "id": "i2",
-      "text": "Si fa la doccia."
+      "text": "Alle otto si fa la doccia."
      },
      {
       "id": "i3",
-      "text": "Si mette il pigiama."
+      "text": "Alle dieci si mette il pigiama."
      },
      {
       "id": "i4",
-      "text": "Si addormenta."
+      "text": "Alle dieci e mezza si addormenta."
      }
     ]
    },
@@ -160145,7 +160271,7 @@ const STOCK_PACKAGES = [
    ],
    "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 9,
   "grammar": {
    "topic": "ecco1-superlativo-issimo",
    "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
@@ -160191,18 +160317,23 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "p6",
-      "left": "zitto zitto",
-      "right": "ganz still"
-     },
-     {
-      "id": "p7",
       "left": "bello bello",
       "right": "richtig schön"
      },
      {
-      "id": "p8",
+      "id": "p7",
       "left": "forte forte",
       "right": "ganz fest"
+     },
+     {
+      "id": "p8",
+      "left": "zitto zitto",
+      "right": "ganz still"
+     },
+     {
+      "id": "p9",
+      "left": "solo solo",
+      "right": "ganz allein"
      }
     ],
     "distractors": []
@@ -161281,11 +161412,11 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "s5",
-      "start": "ogni estate",
+      "start": "ogni notte",
       "acceptedAnswers": [
-       "tutte le estati"
+       "tutte le notti"
       ],
-      "modelAnswer": "tutte le estati"
+      "modelAnswer": "tutte le notti"
      },
      {
       "id": "s6",

@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Hai fatto i compiti? (sì) – Sì, …",
      "acceptedAnswers": [
-      "ho già fatto i compiti"
+      "ho già fatto i compiti",
+      "li ho già fatti"
      ],
      "modelAnswer": "Sì, ho già fatto i compiti."
     },
@@ -65,7 +66,8 @@
      "id": "s2",
      "start": "Hai visto il film? (no) – No, …",
      "acceptedAnswers": [
-      "non ho ancora visto il film"
+      "non ho ancora visto il film",
+      "non l’ho ancora visto"
      ],
      "modelAnswer": "No, non ho ancora visto il film."
     },
@@ -97,7 +99,8 @@
      "id": "s6",
      "start": "Hai comprato il pane? (no) – No, …",
      "acceptedAnswers": [
-      "non ho ancora comprato il pane"
+      "non ho ancora comprato il pane",
+      "non l’ho ancora comprato"
      ],
      "modelAnswer": "No, non ho ancora comprato il pane."
     },

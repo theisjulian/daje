@@ -47,9 +47,7 @@
    "id": "u5-approccio-002",
    "target": "il figlio",
    "translations": [
-    "der Sohn",
-    "die Tochter",
-    "das Kind"
+    "der Sohn / das Kind"
    ],
    "definition": "Persona rispetto ai suoi genitori.",
    "example": "Il figlio di Anna ha sei anni.",
@@ -88,8 +86,7 @@
    "id": "u5-approccio-004",
    "target": "il nonno",
    "translations": [
-    "der Opa",
-    "die Oma"
+    "der Opa / Großvater"
    ],
    "definition": "Padre del padre o della madre.",
    "example": "Mia nonna ha 70 anni.",
@@ -108,7 +105,7 @@
    "id": "u5-approccio-005",
    "target": "il cugino",
    "translations": [
-    "der/die Kusin/-e"
+    "der Cousin / Vetter"
    ],
    "definition": "Figlio di uno zio.",
    "example": "Mio cugino Frank è tedesco.",

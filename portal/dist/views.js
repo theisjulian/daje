@@ -688,7 +688,7 @@ function questionHTML(x, q, index, state) {
     field = q.items
       .map((it, n) => {
         const val = ownPart(parts, it.id) ? parts[it.id] : '';
-        const ok = it.acceptedAnswers.some(a => TheisContent.containsKey(val, a));
+        const ok = it.acceptedAnswers.some(a => TheisContent.containsKey(val, a, it.start));
         return `<label class="sc-row${mark(ok)}"><span class="sc-start" lang="${x.language}">${esc(it.start)}</span><input class="sc-input" data-listen-part="${q.id}" data-part="${it.id}" value="${esc(val)}" maxlength="200" lang="${x.language}" autocomplete="off" aria-label="Satz ${n + 1} ergänzen"></label>`;
       })
       .join('');

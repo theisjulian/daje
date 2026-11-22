@@ -71,7 +71,8 @@
      "id": "s3",
      "start": "Abito a Napoli.",
      "acceptedAnswers": [
-      "Dove abiti"
+      "Dove abiti",
+      "Dove vivi"
      ],
      "modelAnswer": "Dove abiti?"
     },
@@ -79,7 +80,8 @@
      "id": "s4",
      "start": "Sono di Genova.",
      "acceptedAnswers": [
-      "Di dove sei"
+      "Di dove sei",
+      "Da dove vieni"
      ],
      "modelAnswer": "Di dove sei?"
     },

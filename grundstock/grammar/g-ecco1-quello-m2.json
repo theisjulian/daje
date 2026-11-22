@@ -104,7 +104,8 @@
      "id": "s7",
      "start": "Quale vestito porti? (lila) – …",
      "acceptedAnswers": [
-      "Quello viola"
+      "Quello viola",
+      "Quello lilla"
      ],
      "modelAnswer": "Quello viola."
     },

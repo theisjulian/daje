@@ -60,19 +60,22 @@
         {
           "id": "g2",
           "acceptedAnswers": [
-            "una"
+            "una",
+            "la"
           ]
         },
         {
           "id": "g3",
           "acceptedAnswers": [
-            "la"
+            "la",
+            "una"
           ]
         },
         {
           "id": "g4",
           "acceptedAnswers": [
-            "Il"
+            "Il",
+            "Un"
           ]
         },
         {
@@ -85,7 +88,8 @@
         {
           "id": "g6",
           "acceptedAnswers": [
-            "il"
+            "il",
+            "un"
           ]
         },
         {
@@ -98,7 +102,8 @@
         {
           "id": "g8",
           "acceptedAnswers": [
-            "un"
+            "un",
+            "il"
           ]
         },
         {
@@ -110,7 +115,8 @@
         {
           "id": "g10",
           "acceptedAnswers": [
-            "Il"
+            "Il",
+            "Un"
           ]
         },
         {

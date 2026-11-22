@@ -63,7 +63,9 @@
      "id": "s2",
      "start": "(il frigorifero: tiene fresco il cibo)",
      "acceptedAnswers": [
-      "è una cosa che tiene fresco il cibo"
+      "è una cosa che tiene fresco il cibo",
+      "è un oggetto che tiene fresco il cibo",
+      "è un elettrodomestico che tiene fresco il cibo"
      ],
      "modelAnswer": "È una cosa che tiene fresco il cibo."
     },
@@ -79,7 +81,8 @@
      "id": "s4",
      "start": "(la penna: serve per scrivere)",
      "acceptedAnswers": [
-      "è una cosa che serve per scrivere"
+      "è una cosa che serve per scrivere",
+      "è un oggetto che serve per scrivere"
      ],
      "modelAnswer": "È una cosa che serve per scrivere."
     },
@@ -103,7 +106,9 @@
      "id": "s7",
      "start": "(il letto: usiamo per dormire)",
      "acceptedAnswers": [
-      "è una cosa che usiamo per dormire"
+      "è una cosa che usiamo per dormire",
+      "è un mobile che usiamo per dormire",
+      "è un oggetto che usiamo per dormire"
      ],
      "modelAnswer": "È una cosa che usiamo per dormire."
     },

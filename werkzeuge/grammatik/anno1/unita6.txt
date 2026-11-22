@@ -81,14 +81,14 @@ un pantalone marrone | [due pantaloni marroni]
 
 %übung mittel | Che cosa portano?
 ?ergaenzen | Descrivi i vestiti con il colore giusto. || Beschreibe die Kleidung mit der richtigen Farbe.
-Luca porta … (Hose, blau) | i pantaloni blu/pantaloni blu/dei pantaloni blu | Luca porta i pantaloni blu.
+Luca porta … (Hose, blau) | i pantaloni blu/pantaloni blu/dei pantaloni blu/un paio di pantaloni blu | Luca porta i pantaloni blu.
 Sara porta … (Rock, rot) | una gonna rossa/la gonna rossa | Sara porta una gonna rossa.
 Paolo porta … (Schuhe, schwarz) | le scarpe nere/scarpe nere | Paolo porta le scarpe nere.
 Anna porta … (Pullover, grau) | un maglione grigio/il maglione grigio/un pullover grigio | Anna porta un maglione grigio.
 Marco porta … (Mütze, grün) | un cappello verde/il cappello verde/un berretto verde/il berretto verde | Marco porta un cappello verde.
 Giulia porta … (Socken, rosa) | le calze rosa/calze rosa/calzini rosa | Giulia porta le calze rosa.
 La prof porta … (Jacke, weiß) | una giacca bianca/la giacca bianca | La prof porta una giacca bianca.
-Il nonno porta … (Hemden, hellblau) | camicie azzurre/le camicie azzurre/delle camicie azzurre | Il nonno porta camicie azzurre.
+Il nonno porta … (Hemden, hellblau) | camicie azzurre/le camicie azzurre/delle camicie azzurre/camicie celesti/le camicie celesti | Il nonno porta camicie azzurre.
 ! Il colore va dopo il nome e cambia (tranne blu, rosa, viola). || Farbe nach dem Nomen und angepasst (außer blu, rosa, viola).
 
 %übung schwer | Trova gli errori
@@ -191,7 +191,7 @@ Quale cappello ti piace? (blau) – … | Quello blu | Quello blu.
 Quali scarpe compri? (weiß) – … | Quelle bianche | Quelle bianche.
 Quale gonna provi? (grün) – … | Quella verde | Quella verde.
 Quali calzini vuoi? (gelb) – … | Quelli gialli | Quelli gialli.
-Quale vestito porti? (lila) – … | Quello viola | Quello viola.
+Quale vestito porti? (lila) – … | Quello viola/Quello lilla | Quello viola.
 Quali felpe ti piacciono? (grau) – … | Quelle grigie | Quelle grigie.
 ! Come pronome: quello, quella, quelli, quelle (non quel, quei). || Als Pronomen: quello, quella, quelli, quelle.
 
@@ -526,7 +526,7 @@ Prendo un {chilo*|litro|mazzo} di mele.
 Una {bottiglia*|fetta|chilo} di acqua minerale, per favore.
 Compro un {pacco*|litro|vasetto} di spaghetti.
 Mi dà una {fetta*|bottiglia|litro} di torta?
-Ci vuole un {mazzo*|litro|etto} di basilico.
+Ci vuole un {mazzo*|litro|bottiglia} di basilico.
 Vorrei mezzo {chilo*|litro|fetta} di pane.
 
 %übung mittel | La lista della mamma
@@ -546,7 +546,7 @@ Vorrei mezzo {chilo*|litro|fetta} di pane.
 Commessa: Buongiorno! Che cosa desidera?
 Cliente: Buongiorno, vorrei un [chilo/kilo] [di] mele.
 Commessa: Ecco. Altro?
-Cliente: Sì, due [etti] [di] prosciutto e un pezzo [di] parmigiano.
+Cliente: Sì, due [etti] [di] prosciutto (200 g) e un pezzo [di] parmigiano (Stück).
 Commessa: Benissimo. Nient’altro?
 Cliente: Ah sì, una [bottiglia] [d’/di] acqua e un [pacco/pacchetto] [di] biscotti.
 Commessa: Sono dodici euro.
@@ -559,9 +559,9 @@ Commessa: Sono dodici euro.
 (1 Liter Saft) | un litro di succo | un litro di succo
 (1 Flasche Öl) | una bottiglia d’olio/una bottiglia di olio | una bottiglia d’olio
 (3 Scheiben Brot) | tre fette di pane | tre fette di pane
-(1 Packung Reis) | un pacco di riso/un pacchetto di riso/una scatola di riso | un pacco di riso
+(1 Packung Reis) | un pacco di riso/un pacchetto di riso/una scatola di riso/una confezione di riso | un pacco di riso
 (ein Stück Kuchen) | un pezzo di torta/una fetta di torta | un pezzo di torta
-(ein halbes Kilo Kirschen) | mezzo chilo di ciliegie | mezzo chilo di ciliegie
+(ein halbes Kilo Kirschen) | mezzo chilo di ciliegie/cinque etti di ciliegie | mezzo chilo di ciliegie
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi gli errori. || Korrigiere die Fehler.
@@ -918,13 +918,13 @@ Commessa: Trenta euro. Può pagare alla [cassa], grazie.
 %übung mittel | Bisogno o voglia?
 ?auswahl | Scegli ho bisogno di o ho voglia di. || Wähle ho bisogno di oder ho voglia di.
 Fa caldo: {ho voglia di*|ho bisogno di} un gelato!
-Domani c’è il test: {ho bisogno di*|ho voglia di} studiare.
+Non ho più soldi: {ho bisogno di*|ho voglia di} un lavoro.
 Le scarpe sono rotte: {ho bisogno di*|ho voglia di} scarpe nuove.
 Che bella giornata! {Ho voglia di*|Ho bisogno di} andare al mare.
 Non vedo bene: {ho bisogno di*|ho voglia di} occhiali.
 Stasera {ho voglia di*|ho bisogno di} una pizza!
 Per la ricetta {ho bisogno di*|ho voglia di} due uova.
-Sono stanco: {ho bisogno di*|ho voglia di} dormire.
+Ho la febbre: {ho bisogno di*|ho voglia di} un medico.
 ! bisogno = è necessario; voglia = mi piacerebbe. || bisogno = brauchen; voglia = Lust haben.
 
 %übung mittel | Dal tu al Lei
@@ -942,7 +942,7 @@ Che cosa prendi? → … | Che cosa prende | Che cosa prende?
 %übung schwer | Al bar
 ?luecke | Completa il dialogo al bar con le forme di cortesia. || Ergänze den Dialog im Café.
 Cameriere: Buongiorno, che cosa (desiderare, Lei) [desidera]?
-Signora: [Vorrei/Prendo] un cappuccino e una brioche, per favore.
+Signora: [Vorrei/Prendo/Desidero] un cappuccino e una brioche, per favore.
 Cameriere: Certo. E Lei, signore, che cosa (prendere) [prende]?
 Signore: Mi (dare) [dia] un caffè, grazie.
 Cameriere: Ecco a [Lei].

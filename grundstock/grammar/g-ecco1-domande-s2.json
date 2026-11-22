@@ -81,6 +81,7 @@
      "id": "s4",
      "start": "(fratelli)",
      "acceptedAnswers": [
+      "Hai fratelli o sorelle",
       "Hai fratelli",
       "Quanti fratelli hai",
       "Hai dei fratelli",
@@ -117,7 +118,8 @@
      "id": "s7",
      "start": "(materia preferita)",
      "acceptedAnswers": [
-      "Qual è la tua materia preferita"
+      "Qual è la tua materia preferita",
+      "Quale è la tua materia preferita"
      ],
      "modelAnswer": "Qual è la tua materia preferita?"
     },

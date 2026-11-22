@@ -58,7 +58,7 @@
    "prompt": "E adesso completa.",
    "promptHelp": "Und jetzt ergänze.",
    "type": "gap_fill",
-   "text": "Sabato io (dormire) [[g1]] fino alle nove.\nPoi (giocare) [[g2]] ai videogiochi.\nI miei genitori (lavorare) [[g3]] in giardino.\nLa sera noi (mangiare) [[g4]] insieme.",
+   "text": "Sabato io (dormire) [[g1]] fino alle nove.\nPoi (giocare, io) [[g2]] ai videogiochi.\nI miei genitori (lavorare) [[g3]] in giardino.\nLa sera noi (mangiare) [[g4]] insieme.",
    "gaps": [
     {
      "id": "g1",

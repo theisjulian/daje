@@ -41,18 +41,18 @@
   "difficulty": "leicht",
   "origin": "own",
   "order": 23,
-  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
-  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo davanti al nome: _la mia mamma, il mio papà, la mia piccola sorella_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, la mia piccola sorella_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
    "prompt": "Scegli la forma giusta.",
    "promptHelp": "Wähle die richtige Form.",
-   "explanation": "Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo.",
-   "explanationHelp": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
+   "explanation": "Parole affettuose (mamma, papà) e con aggettivo davanti al nome (piccola sorella) → con articolo.",
+   "explanationHelp": "Koseform (mamma, papà) und Adjektiv vor dem Nomen (piccola sorella) → mit Artikel.",
    "type": "gap_choice",
-   "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all’asilo.",
+   "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] piccola sorella va all’asilo.",
    "gaps": [
     {
      "id": "g1",

@@ -436,3 +436,7 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 - Fachliche Durchsicht aller Quellen (anno1–6, g-daje-202, g-daje-b1b2, Hören): rund 100 Korrekturen – Auswahl mit zwei richtigen
   Lösungen, fehlende gleichwertige Antworten, als Fehler markierte korrekte Formen, falsche Fehlerzahlen, Übersetzungen,
   Vittoriano (Vittorio Emanuele II), Hörfragen, die dem Transkript nicht entsprachen.
+- Nachgezogen: `claude/getrennt-abmelden` (Abmelden nur lokal, forza bleibt angemeldet) und `claude/upbeat-babbage-h49zwd`
+  (8.11.: Druck, Übungskorrekturen, Wortschatz-Übersetzungen). Bei Konflikten gilt die am 22.11. geprüfte Fassung, zusätzliche
+  richtige Varianten des älteren Stands sind übernommen. Satzergänzung: Schlüssel als ganze Wörter, nicht verneint
+  (außer der Satzanfang gibt „non …“ vor), keine längere Uhrzeit („alle nove e mezza“ ≠ „alle nove“).

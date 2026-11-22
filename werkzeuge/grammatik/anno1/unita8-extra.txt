@@ -207,7 +207,7 @@ A scuola non capisco [niente] di matematica.
 In mensa non c’è [nessuno] dei miei amici.
 La sera mio fratello dice: «Non mi aiuti [mai/più]!»
 Io rispondo: «Non è vero!» Ma non dico [niente] di più.
-Stasera non voglio vedere [nessuno]: vado a letto presto!
+Stasera non voglio vedere [nessuno] dei miei amici: vado a letto presto!
 + qualcosa, sempre
 
 %übung mittel | Il contrario
@@ -558,8 +558,8 @@ di dove? = woher?
 ?ergaenzen | Leggi la risposta e scrivi la domanda. || Lies die Antwort und schreibe die Frage.
 Mi chiamo Sara. | Come ti chiami | Come ti chiami?
 Ho quindici anni. | Quanti anni hai | Quanti anni hai?
-Abito a Napoli. | Dove abiti | Dove abiti?
-Sono di Genova. | Di dove sei | Di dove sei?
+Abito a Napoli. | Dove abiti/Dove vivi | Dove abiti?
+Sono di Genova. | Di dove sei/Da dove vieni | Di dove sei?
 Il film comincia alle otto. | A che ora comincia il film/Quando comincia il film/A che ora inizia il film/Quando inizia il film | A che ora comincia il film?
 Il gelato costa due euro. | Quanto costa il gelato | Quanto costa il gelato?
 Domani vado al cinema. | Che cosa fai domani/Cosa fai domani/Che fai domani/Dove vai domani/Quando vai al cinema | Che cosa fai domani?
@@ -593,10 +593,10 @@ Vado a casa perché sono stanca. | Perché vai a casa | Perché vai a casa?
 (nome) | Come ti chiami/Qual è il tuo nome | Come ti chiami?
 (età) | Quanti anni hai | Quanti anni hai?
 (città di origine) | Di dove sei/Da dove vieni | Di dove sei?
-(fratelli) | Hai fratelli/Quanti fratelli hai/Hai dei fratelli/Hai un fratello | Hai fratelli?
+(fratelli) | Hai fratelli o sorelle/Hai fratelli/Quanti fratelli hai/Hai dei fratelli/Hai un fratello | Hai fratelli?
 (sport) | Quale sport fai/Che sport fai/Quali sport fai/Fai sport/Quale sport pratichi/Che sport pratichi/Quali sport pratichi | Quale sport fai?
 (perché in Germania) | Perché sei in Germania/Perché sei qui/Perché sei venuto in Germania/Perché sei venuta in Germania | Perché sei in Germania?
-(materia preferita) | Qual è la tua materia preferita | Qual è la tua materia preferita?
+(materia preferita) | Qual è la tua materia preferita/Quale è la tua materia preferita | Qual è la tua materia preferita?
 (tempo libero) | Che cosa fai nel tempo libero/Cosa fai nel tempo libero/Che fai nel tempo libero | Che cosa fai nel tempo libero?
 
 %übung schwer | Intervista una star
@@ -680,9 +680,10 @@ presto presto = ganz schnell
 lontano lontano = ganz weit weg
 caldo caldo = ganz warm
 vicino vicino = ganz nah
-zitto zitto = ganz still
 bello bello = richtig schön
 forte forte = ganz fest
+zitto zitto = ganz still
+solo solo = ganz allein
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
@@ -811,7 +812,7 @@ Le vacanze mi sono [piaciuti=>piaciute].
 
 %übung schwer | Una gita a Verona
 ?luecke | Racconta al passato prossimo. || Erzähle im passato prossimo.
-Sabato io e la mia classe (svegliarsi) [ci siamo svegliati] prestissimo.
+Sabato io e la mia classe (svegliarsi) [ci siamo svegliati/ci siamo svegliate] prestissimo.
 Il pullman (partire) [è partito] alle sei.
 Durante il viaggio Luca (addormentarsi) [si è addormentato].
 A Verona (noi, vedere) [abbiamo visto] l’Arena.
@@ -895,7 +896,7 @@ Io porto una torta: la faccio [ogni] anno.
 Matteo chiede: «C’è [qualcuno] che porta la musica?»
 Lia dice: «Io! Ho [qualcosa] di nuovo da ascoltare.»
 Alla festa [qualcuno] suona la chitarra.
-Alle undici [ognuno] torna a casa, stanco ma felice.
+Alle undici [ognuno/qualcuno] torna a casa, stanco ma felice.
 Matteo dice: «Facciamo una festa [ogni] mese!»
 + nessuno, niente
 

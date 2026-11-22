@@ -59,7 +59,8 @@
      "acceptedAnswers": [
       "i pantaloni blu",
       "pantaloni blu",
-      "dei pantaloni blu"
+      "dei pantaloni blu",
+      "un paio di pantaloni blu"
      ],
      "modelAnswer": "Luca porta i pantaloni blu."
     },
@@ -127,7 +128,9 @@
      "acceptedAnswers": [
       "camicie azzurre",
       "le camicie azzurre",
-      "delle camicie azzurre"
+      "delle camicie azzurre",
+      "camicie celesti",
+      "le camicie celesti"
      ],
      "modelAnswer": "Il nonno porta camicie azzurre."
     }

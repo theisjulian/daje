@@ -552,11 +552,23 @@
       .replace(/\s+/g, ' ');
   /* Satzergänzung: Der Schlüssel muss als ganze Wörter in der Antwort stehen („si va“ steckt nicht in „si vanno“,
      „parli“ nicht in „parliamo“). Satzzeichen zählen nicht. */
+  // Außerdem: nicht verneint („non mi piace“ ≠ „mi piace“) und keine andere Uhrzeit („alle nove e mezza“ ≠ „alle nove“).
+  const PHRASE_CONT = /^ (e (mezz[ao]|un quarto|quindici|dieci|venti|venticinque|trenta|quaranta|quarantacinque|cinquanta|cinque)|meno )/;
   const looseText = x => normAnswer(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-  const containsKey = (answer, key) => {
-    const a = ' ' + looseText(answer) + ' ', k = looseText(key);
-    return !!k && a.includes(' ' + k + ' ');
-  };
+  // start: der vorgegebene Satzanfang; endet er mit „non …“, ist die Verneinung schon gegeben.
+  function containsKey(given, key, start) {
+    const negGiven = /(^|\s)non(\s|$)/.test(looseText(start || ''));
+    const g = looseText(given), k = looseText(key);
+    if (!k) return false;
+    for (let i = g.indexOf(k); i !== -1; i = g.indexOf(k, i + 1)) {
+      const before = g.slice(0, i), after = g.slice(i + k.length);
+      if (/[\p{L}\p{N}]$/u.test(before) || /^[\p{L}\p{N}]/u.test(after)) continue;
+      if (!negGiven && !/^non\b/.test(k) && /(^|\s)non\s$/.test(before)) continue;
+      if (PHRASE_CONT.test(after) && !PHRASE_CONT.test(' ' + k)) continue;
+      return true;
+    }
+    return false;
+  }
   /* Fehlerkorrektur: Ist der Fehler nur die Groß-/Kleinschreibung („Dicembre“ → „dicembre“), zählt die Schreibung mit;
      sonst wäre der unveränderte Fehler schon richtig. */
   const exactAnswer = x => String(x ?? '').normalize('NFC').replace(/[’‘ʼ´`]/g, "'").trim().replace(/[.!?]+$/g, '').trim().replace(/\s+/g, ' ');
@@ -636,7 +648,7 @@
       const v = parts();
       {
         // Satzzeichen zählen beim Ergänzen nicht: „No non sono di Roma“ = „No, non sono di Roma.“
-        return q.items.every(it => has(v, it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a)));
+        return q.items.every(it => has(v, it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a, it.start)));
       }
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
@@ -669,7 +681,7 @@
       };
       list = q.pairs.map(p => [p.id, has(p.id) && textOf(v[p.id]) !== undefined && norm(textOf(v[p.id])) === norm(p.right)]);
     } else if (q.type === 'sentence_completion') {
-      list = q.items.map(it => [it.id, has(it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a))]);
+      list = q.items.map(it => [it.id, has(it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a, it.start))]);
     }
     if (q.type === 'open_answer') return { got: 0, max: 0, units: {} };
     if (!list) {
@@ -678,7 +690,7 @@
     }
     return { got: list.filter(x => x[1]).length, max: list.length, units: Object.fromEntries(list) };
   }
-  const api = { validatePackage, assessAnswer, scoreAnswer, containsKey, normAnswer, LANGUAGES, QUESTION_TYPES };
+  const api = { validatePackage, assessAnswer, scoreAnswer, containsKey, phraseHas: containsKey, sameFix: fixedError, normAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

@@ -61,7 +61,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "è dovuta"
+      "è dovuta",
+      "ha dovuto"
      ]
     },
     {
@@ -79,7 +80,8 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "siamo dovuti"
+      "siamo dovuti",
+      "abbiamo dovuto"
      ]
     },
     {
@@ -97,7 +99,8 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "è voluta"
+      "è voluta",
+      "ha voluto"
      ]
     }
    ]

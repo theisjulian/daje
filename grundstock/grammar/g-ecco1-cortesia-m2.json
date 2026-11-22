@@ -52,7 +52,7 @@
    "explanation": "bisogno = è necessario; voglia = mi piacerebbe.",
    "explanationHelp": "bisogno = brauchen; voglia = Lust haben.",
    "type": "gap_choice",
-   "text": "Fa caldo: [[g1]] un gelato!\nDomani c’è il test: [[g2]] studiare.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nSono stanco: [[g8]] dormire.",
+   "text": "Fa caldo: [[g1]] un gelato!\nNon ho più soldi: [[g2]] un lavoro.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nHo la febbre: [[g8]] un medico.",
    "gaps": [
     {
      "id": "g1",

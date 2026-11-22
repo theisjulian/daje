@@ -72,7 +72,7 @@ all’una = um ein Uhr
 ?luecke | Scrivi l’ora in lettere. || Ergänze die Uhrzeiten in Worten.
 Il lunedì la scuola comincia (8.00) [alle otto].
 La pausa è (10.30) [alle dieci e mezza/alle dieci e mezzo/alle dieci e trenta].
-Ho matematica (11.00–12.00) [dalle undici alle dodici].
+Ho matematica (11.00–12.00) [dalle undici alle dodici/dalle undici a mezzogiorno].
 Il martedì finisco (13.00) [all’una/alle tredici].
 Il mercoledì ho educazione fisica (9.15) [alle nove e un quarto/alle nove e quindici].
 Il giovedì torno a casa (14.45) [alle tre meno un quarto/alle due e quarantacinque/alle quattordici e quarantacinque].
@@ -366,7 +366,7 @@ Ragazzi, (aprire) [aprite] il libro!
 Sara, (scrivere) [scrivi] la soluzione alla LIM!
 Luca, non (parlare) [parlare]!
 Ragazzi, non (gridare) [gridate]!
-Giulia, (fare) [fa’/fai] l’esercizio, per favore!
+Giulia, (fare) [fa’/fai/fa] l’esercizio, per favore!
 Ragazzi, (ascoltare) [ascoltate] il dialogo!
 Paolo, (chiudere) [chiudi] la porta!
 
@@ -411,7 +411,7 @@ Sara, non (dimenticare) [dimenticare] il quaderno!
 Ragazzi, (ascoltare) [ascoltate] bene!
 Marco, (finire) [finisci] l’esercizio!
 Ragazzi, non (correre) [correte]!
-Giulia, (andare) [va’/vai] alla lavagna!
+Giulia, (andare) [va’/vai/va] alla lavagna!
 Paolo, non (fare) [fare] rumore!
 Ragazzi, (fare) [fate] silenzio!
 ! tu: -are → -a (ascolta), -ere/-ire → -i (chiudi, finisci). || tu-Imperativ der Verben auf -are endet auf -a, der auf -ere/-ire auf -i.
@@ -462,10 +462,10 @@ mi = mir
 ti = dir
 gli = ihm
 le = ihr
-Le = Ihnen
+Le = Ihnen (höflich)
 ci = uns
 vi = euch
-gli (a loro) = ihnen
+gli (a loro) = ihnen (mehrere Personen)
 + dich
 + mich
 
