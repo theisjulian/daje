@@ -45444,7 +45444,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "acceptedAnswers": [
-       "nostro"
+       "nostro",
+       "mio"
       ]
      },
      {
@@ -45476,7 +45477,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "acceptedAnswers": [
-       "mio"
+       "mio",
+       "nostro"
       ]
      },
      {
@@ -46888,7 +46890,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -46925,7 +46928,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g11",
       "acceptedAnswers": [
-       "una"
+       "una",
+       "la"
       ]
      },
      {
@@ -47382,7 +47386,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "scegliamo"
+       "scegliamo",
+       "sceglie"
       ]
      },
      {
@@ -47436,13 +47441,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g14",
       "acceptedAnswers": [
-       "Ringrazio"
+       "Ringrazio",
+       "Ringraziamo"
       ]
      },
      {
       "id": "g15",
       "acceptedAnswers": [
-       "aspetto"
+       "aspetto",
+       "aspettiamo"
       ]
      }
     ]
@@ -48245,7 +48252,9 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "acceptedAnswers": [
-       "devono"
+       "devono",
+       "devi",
+       "dovete"
       ]
      },
      {
@@ -48364,9 +48373,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
     "text": "Nel laboratorio di teatro prepariamo [[g1]] costumi per una storia sul mare. [[g2]] protagonista indossa una giacca blu e una gonna [[g3]]. [[g4]] due pescatori hanno pantaloni grigi e maglie [[g5]]. [[g6]] barche sono [[g7]], costruite con scatole [[g8]]. Per [[g9]] onde usiamo stoffe [[g10]]; per [[g11]] sole un disco [[g12]]. Una studentessa disegna pesci [[g13]] e stelle [[g14]]. [[g15]] sfondi sono [[g16]], ma molto [[g17]]. [[g18]] scarpe [[g19]] degli attori non si vedono dietro alle onde. Sulla scena arriva anche una turista [[g20]] con una valigia [[g21]]. Incontra un fotografo [[g22]], due musicisti [[g23]] e alcune viaggiatrici [[g24]]. Non tutti parlano la stessa lingua, ma la musica li aiuta a capirsi. I personaggi indossano cappelli diversi: quello della turista è bianco, quello del fotografo è marrone. Alla fine della storia, le luci diventano viola e tutti cantano insieme. I costumi non sono costosi: vengono dal mercatino della scuola. Gli studenti trasformano vestiti usati in oggetti nuovi e originali.",
     "gaps": [
      {
@@ -50015,7 +50024,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "acceptedAnswers": [
-       "devono"
+       "devono",
+       "dovete"
       ]
      },
      {
@@ -50184,7 +50194,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "l’"
       ]
      },
      {
@@ -50701,9 +50712,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
     "text": "Una biblioteca non è soltanto una stanza piena di libri. Nel [[g1]] centro [[g2]], [[g3]] biblioteca propone quattro servizi. [[g4]] [[g5]] è un banco per [[g6]] prestito: una bibliotecaria spiega come cercare un titolo e controlla [[g7]] restituzioni. [[g8]] secondo è una sala per [[g9]] giornali e riviste. Qui [[g10]] persone parlano a voce [[g11]] e lasciano [[g12]] tavoli in ordine. [[g13]] terzo servizio è un laboratorio digitale. [[g14]] partecipanti imparano a usare [[g15]] catalogo, a scrivere un messaggio e a riconoscere informazioni poco [[g16]]. Non devono comunicare password o dati personali agli altri. [[g17]] quarto servizio è uno spazio per [[g18]] lingue. Una volta alla settimana si incontrano [[g19]] gruppi di conversazione. Ogni gruppo sceglie un tema semplice, come [[g20]] casa, [[g21]] tempo libero o [[g22]] cibo. Una volontaria prepara [[g23]] domande e aiuta chi non trova una parola. Gli incontri sono [[g24]]; per partecipare occorre prenotare un posto. [[g25]] attività cambiano ogni mese. [[g26]] orari aggiornati sono esposti vicino alla porta, insieme al programma degli incontri. Prima di andare via, ogni visitatore può lasciare una proposta nella scatola delle idee.",
     "gaps": [
      {
@@ -54862,7 +54873,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g16",
       "acceptedAnswers": [
-       "un"
+       "un",
+       "il"
       ]
      },
      {
@@ -55387,7 +55399,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "mi incontro"
+       "mi incontro",
+       "ci incontriamo"
       ]
      },
      {
@@ -55979,7 +55992,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "i2",
-      "text": "marciapiede",
+      "text": "zebre",
       "category": "c2"
      },
      {
@@ -56712,7 +56725,7 @@ const STOCK_PACKAGES = [
   },
   "estimatedMinutes": 15,
   "reading": {
-   "text": "Per la mostra prepariamo anche un pannello con ritratti e figure intere. Il pannello non dà consigli di ginnastica: presenta parole utili per descrivere le persone nei disegni. Nel primo ritratto vediamo la fronte, il naso, un occhio, un orecchio, la bocca, il mento, una guancia e i capelli. Il volto è disegnato di lato, quindi non tutte le parti sono visibili due volte.\nLa figura intera mostra anche il tronco. Sui cartellini compaiono petto, schiena, pancia, addome, fianco e torace. Alcune parole hanno significati vicini, ma non si usano sempre negli stessi contesti. Per questo non scriviamo che pancia e addome siano identici in ogni situazione.\nInfine osserviamo gli arti: un braccio, il gomito, una mano, un dito e il polso; poi una gamba, il ginocchio, un piede, la caviglia e la coscia. Prima di appendere il pannello, controlliamo gli articoli e i plurali. Il cartellino con mano richiede attenzione: una mano, due mani. Usiamo disegni originali della classe, senza fotografare i visitatori. Questo testo aggiuntivo collega il lessico del corpo al progetto della mostra e non riprende gli esercizi fisici del libro."
+   "text": "Per la mostra prepariamo anche un pannello con ritratti e figure intere. Il pannello presenta parole utili per descrivere le persone nei disegni. Nel primo ritratto vediamo la fronte, il naso, un occhio, un orecchio, la bocca, il mento, una guancia e i capelli. Il volto è disegnato di lato, quindi non tutte le parti sono visibili due volte.\nLa figura intera mostra anche il tronco. Sui cartellini compaiono petto, schiena, pancia, addome, fianco e torace. Alcune parole hanno significati vicini, ma non si usano sempre negli stessi contesti. Per questo non scriviamo che pancia e addome siano identici in ogni situazione.\nInfine osserviamo gli arti: un braccio, il gomito, una mano, un dito e il polso; poi una gamba, il ginocchio, un piede, la caviglia e la coscia. Prima di appendere il pannello, controlliamo gli articoli e i plurali. Il cartellino con mano richiede attenzione: una mano, due mani. Usiamo disegni originali della classe, senza fotografare i visitatori."
   },
   "grammar": {
    "topic": "daje-lessico-contesto",
@@ -59702,9 +59715,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
     "text": "Ciao Rocco, sono uscita prima del previsto perché [[g1]] hanno chiamata dalla scuola. [[g2]] lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] e [[g4]] vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; [[g5]] soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g6]] prima di distribuirle. Se arriva Emma, [[g7]] che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri [[g8]] ho messi sullo scaffale; scegli quelli con le immagini grandi e [[g9]] al gruppo. Se qualcuno [[g10]] chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
     "gaps": [
      {
@@ -60866,7 +60879,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
     "explanation": "",
     "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
-    "text": "Lunedì [[g1]] (ordinare, passato prossimo) alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. [[g2]] (ricevere, passato prossimo) una conferma e [[g3]] (comunicare, passato prossimo) la data ai compagni. Giovedì, però, il pacco non [[g4]] (arrivare, passato prossimo). [[g5]] (controllare, passato prossimo) il messaggio del corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. [[g6]] (accorgersi, passato prossimo) di un errore nel modulo: mancava il numero dell’edificio. [[g7]] (telefonare, passato prossimo) al servizio clienti e [[g8]] (spiegare, passato prossimo) il problema. L’addetta [[g9]] (avere, presente) corretto i dati e [[g10]] (avere, presente) confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "text": "Lunedì [[g1]] (ordinare, passato prossimo) alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. [[g2]] (ricevere, passato prossimo) una conferma e [[g3]] (comunicare, passato prossimo) la data ai compagni. Giovedì, però, il pacco non [[g4]] (arrivare, passato prossimo). [[g5]] (controllare, passato prossimo) il messaggio del corriere: la via era corretta, ma il corriere non aveva trovato il numero dell’edificio. [[g6]] (accorgersi, passato prossimo) di un errore nel modulo: mancava il numero dell’edificio. [[g7]] (telefonare, passato prossimo) al servizio clienti e [[g8]] (spiegare, passato prossimo) il problema. L’addetta [[g9]] (avere, presente) corretto i dati e [[g10]] (avere, presente) confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
     "gaps": [
      {
       "id": "g1",
@@ -60974,7 +60987,7 @@ const STOCK_PACKAGES = [
   },
   "estimatedMinutes": 15,
   "reading": {
-   "text": "Lunedì ho ordinato alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data ai compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio del corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. Mi sono accorta di un errore nel modulo: mancava il numero dell’edificio. Ho telefonato al servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale."
+   "text": "Lunedì ho ordinato alcuni materiali per la mostra della classe. Sul sito del negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data ai compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio del corriere: la via era corretta, ma il corriere non aveva trovato il numero dell’edificio. Mi sono accorta di un errore nel modulo: mancava il numero dell’edificio. Ho telefonato al servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\nNel frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili nella scuola e abbiamo spostato il lavoro più impegnativo al pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto della scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale."
   },
   "grammar": {
    "topic": "ecco2-raccontare",
@@ -63872,9 +63885,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
     "text": "Ciao Rocco, sono uscita prima del previsto perché [[g1]] hanno chiamata dalla scuola. [[g2]] lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] e [[g4]] vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; [[g5]] soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g6]] prima di distribuirle. Se arriva Emma, [[g7]] che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri [[g8]] ho messi sullo scaffale; scegli quelli con le immagini grandi e [[g9]] al gruppo. Se qualcuno [[g10]] chiede un foglio, [[g11]] quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. [[g12]] interessa che tutti partecipino. [[g13]] soltanto se c’è un problema urgente; altrimenti [[g14]] sentiamo quando torno. Alla fine raccogli gli strumenti, [[g15]] e [[g16]] nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
     "gaps": [
      {
@@ -65324,10 +65337,6 @@ const STOCK_PACKAGES = [
       "label": "azione abituale"
      },
      {
-      "id": "c2",
-      "label": "azione ripetuta in una situazione ricorrente"
-     },
-     {
       "id": "c3",
       "label": "stato/sfondo"
      }
@@ -65361,7 +65370,7 @@ const STOCK_PACKAGES = [
      {
       "id": "i6",
       "text": "ci fermavamo",
-      "category": "c2"
+      "category": "c1"
      },
      {
       "id": "i7",
@@ -65677,7 +65686,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo con le preposizioni articolate.",
     "explanation": "",
     "promptHelp": "Ergänze den Text mit den passenden Präpositionen mit Artikel (preposizioni articolate).",
-    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data [[g4]] compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio [[g5]] corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. Mi sono accorto di un errore [[g6]] modulo: mancava il numero dell’edificio. Ho telefonato [[g7]] servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\n[[g8]] frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g9]] scuola e abbiamo spostato il lavoro più impegnativo [[g10]] pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto [[g11]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato [[g12]] negozio, che ha risposto subito. [[g13]] fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data [[g4]] compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio [[g5]] corriere: la via era corretta, ma il corriere non aveva trovato il numero dell’edificio. Mi sono accorto di un errore [[g6]] modulo: mancava il numero dell’edificio. Ho telefonato [[g7]] servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\n[[g8]] frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g9]] scuola e abbiamo spostato il lavoro più impegnativo [[g10]] pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto [[g11]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato [[g12]] negozio, che ha risposto subito. [[g13]] fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
     "gaps": [
      {
       "id": "g1",
@@ -65882,7 +65891,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo con gli articoli e le preposizioni articolate.",
     "explanation": "",
     "promptHelp": "Ergänze den Text mit Artikeln und Präpositionen mit Artikel (preposizioni articolate).",
-    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto [[g4]] conferma e ho comunicato [[g5]] data [[g6]] compagni. Giovedì, però, [[g7]] pacco non è arrivato. Ho controllato [[g8]] messaggio [[g9]] corriere: l’indirizzo era corretto, ma mancava [[g10]] numero dell’edificio. Mi sono accorto di [[g11]] errore [[g12]] modulo: mancava [[g13]] numero dell’edificio. Ho telefonato [[g14]] servizio clienti e ho spiegato [[g15]] problema. L’addetta ha corretto [[g16]] dati e ha confermato la consegna per [[g17]] giorno seguente.\n[[g18]] frattempo [[g19]] classe ha preparato [[g20]] soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g21]] scuola e abbiamo spostato [[g22]] lavoro più impegnativo [[g23]] pomeriggio di venerdì. Quando [[g24]] corriere è arrivato, due compagni hanno controllato [[g25]] contenuto [[g26]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
+    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto [[g4]] conferma e ho comunicato [[g5]] data [[g6]] compagni. Giovedì, però, [[g7]] pacco non è arrivato. Ho controllato [[g8]] messaggio [[g9]] corriere: la via era corretta, ma il corriere non aveva trovato [[g10]] numero dell’edificio. Mi sono accorto di [[g11]] errore [[g12]] modulo: mancava [[g13]] numero dell’edificio. Ho telefonato [[g14]] servizio clienti e ho spiegato [[g15]] problema. L’addetta ha corretto [[g16]] dati e ha confermato la consegna per [[g17]] giorno seguente.\n[[g18]] frattempo [[g19]] classe ha preparato [[g20]] soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g21]] scuola e abbiamo spostato [[g22]] lavoro più impegnativo [[g23]] pomeriggio di venerdì. Quando [[g24]] corriere è arrivato, due compagni hanno controllato [[g25]] contenuto [[g26]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato al negozio, che ha risposto subito. Alla fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
     "gaps": [
      {
       "id": "g1",
@@ -66470,7 +66479,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "acceptedAnswers": [
-       "siamo arrivate"
+       "siamo arrivate",
+       "sono arrivata"
       ]
      },
      {
@@ -70339,9 +70349,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+    "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
     "explanation": "",
-    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal.",
+    "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals.",
     "text": "Ciao Rocco, sono uscita prima del previsto perché [[g1]] hanno chiamata dalla scuola. [[g2]] lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] e [[g4]] vicino alla parete, ma non appenderli ancora. La colla è nell’armadio; [[g5]] soltanto sui fogli di prova. Ho comprato nuove forbici: le trovi nella scatola blu. [[g6]] prima di distribuirle. Se arriva Emma, [[g7]] che il suo gruppo lavorerà vicino alla finestra. Ho già telefonato a suo padre e gli ho spiegato l’orario.\nPer favore, prepara i tavoli e lascia libero il passaggio. Non spostare la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri [[g8]] ho messi sullo scaffale; scegli quelli con le immagini grandi e [[g9]] al gruppo. Se qualcuno [[g10]] chiede un foglio, [[g11]] quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. [[g12]] interessa che tutti partecipino. [[g13]] soltanto se c’è un problema urgente; altrimenti [[g14]] sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
     "gaps": [
      {
@@ -73228,7 +73238,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "è stata"
+       "è stata",
+       "era"
       ]
      },
      {
@@ -75561,44 +75572,52 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "Apri la finestra."
+       "Apri la finestra.",
+       "Apri"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "Apra la finestra."
+       "Apra la finestra.",
+       "Apra"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "Leggi l’avviso."
+       "Leggi l’avviso.",
+       "Leggi"
       ]
      },
      {
       "id": "g4",
       "acceptedAnswers": [
-       "Legga l’avviso."
+       "Legga l’avviso.",
+       "Legga"
       ]
      },
      {
       "id": "g5",
       "acceptedAnswers": [
-       "Aspetta qui."
+       "Aspetta qui.",
+       "Aspetta"
       ]
      },
      {
       "id": "g6",
       "acceptedAnswers": [
-       "Aspetti qui."
+       "Aspetti qui.",
+       "Aspetti"
       ]
      },
      {
       "id": "g7",
       "acceptedAnswers": [
        "Fa’ attenzione.",
-       "Fai attenzione."
+       "Fai attenzione.",
+       "Fa’",
+       "Fai"
       ]
      }
     ]
@@ -75613,19 +75632,22 @@ const STOCK_PACKAGES = [
      {
       "id": "g1",
       "acceptedAnswers": [
-       "Faccia attenzione."
+       "Faccia attenzione.",
+       "Faccia"
       ]
      },
      {
       "id": "g2",
       "acceptedAnswers": [
-       "Di’ il nome."
+       "Di’ il nome.",
+       "Di’"
       ]
      },
      {
       "id": "g3",
       "acceptedAnswers": [
-       "Dica il nome."
+       "Dica il nome.",
+       "Dica"
       ]
      },
      {
@@ -75643,7 +75665,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "Venga domani."
+       "Venga domani.",
+       "Venga"
       ]
      }
     ]
@@ -76108,7 +76131,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "acceptedAnswers": [
-       "capisco"
+       "capisco",
+       "ho capito"
       ]
      },
      {
@@ -76132,7 +76156,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "aveva abitato"
+       "aveva abitato",
+       "abitava"
       ]
      },
      {
@@ -76399,7 +76424,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "acceptedAnswers": [
-       "capisco"
+       "capisco",
+       "ho capito"
       ]
      },
      {
@@ -76958,7 +76984,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
     "explanation": "",
     "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
-    "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. Potremmo cominciare con una prova, [[g10]] (volere, noi, condizionale) ascoltare il parere di tutti: [[g11]] (essere) le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] (essere) un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] (essere) contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
+    "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. «Potremmo cominciare con una prova», «[[g10]] (volere, noi, condizionale) ascoltare il parere di tutti»: [[g11]] (essere) le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] (essere) un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] (essere) contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
     "gaps": [
      {
       "id": "g1",
@@ -77593,7 +77619,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g12",
       "acceptedAnswers": [
-       "ho osservato"
+       "ho osservato",
+       "abbiamo osservato"
       ]
      }
     ]
@@ -79708,7 +79735,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "è stata"
+       "è stata",
+       "era"
       ]
      },
      {
@@ -80003,7 +80031,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "l’ha segnalata"
+       "l’ha segnalata",
+       "l’aveva segnalata"
       ]
      },
      {
@@ -80938,7 +80967,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g9",
       "acceptedAnswers": [
-       "ho osservato"
+       "ho osservato",
+       "abbiamo osservato"
       ]
      }
     ]
@@ -83607,7 +83637,7 @@ const STOCK_PACKAGES = [
   },
   "estimatedMinutes": 15,
   "reading": {
-   "text": "A — Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio.\n\nB — Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto.\n\nC — Una piccola esposizione raccontava la costruzione del vecchio acquedotto.\n\nD — Nel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno.\n\nE — Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo. All’uscita un volontario ha mostrato alcune fotografie.\n\nF — La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida.\n\nG — Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino.\n\nH — Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata. La guida ha proposto un itinerario diverso, lungo una strada accessibile.\n\nI — Il percorso previsto non era praticabile.\n\nJ — Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.\n\nK — Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci."
+   "text": "A — Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio.\n\nB — Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto.\n\nC — Una piccola esposizione raccontava la costruzione del vecchio acquedotto.\n\nD — Nel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno.\n\nE — Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo. All’uscita un volontario ha mostrato alcune fotografie.\n\nF — La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida.\n\nG — Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino.\n\nH — Marta aveva preparato lo zaino la sera prima ed era delusa, ma non voleva rinunciare all’intera giornata. La guida ha proposto un itinerario diverso, lungo una strada accessibile.\n\nI — Il percorso previsto non era praticabile.\n\nJ — Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.\n\nK — Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci."
   },
   "grammar": {
    "topic": "daje3-coesione-dialoghi",
@@ -84033,25 +84063,25 @@ const STOCK_PACKAGES = [
    {
     "id": "q3a",
     "type": "open_answer",
-    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/3)\n1. noi: «conserviamo»\n2. voi: «telefoniate»\n3. loro: «andassero»\n4. lui/lei: «telefoni»\n5. lui/lei: «tema»\n6. io: «vada»\n7. voi: «aveste»\n8. voi: «telefonaste»",
+    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/3)\n1. io: «conservi»\n2. voi: «telefoniate»\n3. loro: «andassero»\n4. lui/lei: «telefoni»\n5. lui/lei: «tema»\n6. io: «vada»\n7. voi: «aveste»\n8. voi: «telefonaste»",
     "explanation": "",
-    "modelAnswer": "1. conservare — congiuntivo — presente — noi\n2. telefonare — congiuntivo — presente — voi\n3. andare — congiuntivo — imperfetto — loro\n4. telefonare — congiuntivo — presente — lui/lei\n5. temere — congiuntivo — presente — lui/lei\n6. andare — congiuntivo — presente — io\n7. avere — congiuntivo — imperfetto — voi\n8. telefonare — congiuntivo — imperfetto — voi",
+    "modelAnswer": "1. conservare — congiuntivo — presente — io\n2. telefonare — congiuntivo — presente — voi\n3. andare — congiuntivo — imperfetto — loro\n4. telefonare — congiuntivo — presente — lui/lei\n5. temere — congiuntivo — presente — lui/lei\n6. andare — congiuntivo — presente — io\n7. avere — congiuntivo — imperfetto — voi\n8. telefonare — congiuntivo — imperfetto — voi",
     "lines": 9
    },
    {
     "id": "q3b",
     "type": "open_answer",
-    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/3)\n1. io: «ascolti»\n2. tu: «conservassi»\n3. lui/lei: «inviti»\n4. noi: «andiamo»\n5. noi: «ricevessimo»\n6. loro: «telefonino»\n7. tu: «venga»\n8. noi: «possiamo»",
+    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 2/3)\n1. io: «ascolti»\n2. tu: «conservassi»\n3. lui/lei: «inviti»\n4. tu: «vada»\n5. noi: «ricevessimo»\n6. loro: «telefonino»\n7. tu: «venga»\n8. io: «possa»",
     "explanation": "",
-    "modelAnswer": "1. ascoltare — congiuntivo — presente — io\n2. conservare — congiuntivo — imperfetto — tu\n3. invitare — congiuntivo — presente — lui/lei\n4. andare — congiuntivo — presente — noi\n5. ricevere — congiuntivo — imperfetto — noi\n6. telefonare — congiuntivo — presente — loro\n7. venire — congiuntivo — presente — tu\n8. potere — congiuntivo — presente — noi",
+    "modelAnswer": "1. ascoltare — congiuntivo — presente — io\n2. conservare — congiuntivo — imperfetto — tu\n3. invitare — congiuntivo — presente — lui/lei\n4. andare — congiuntivo — presente — tu\n5. ricevere — congiuntivo — imperfetto — noi\n6. telefonare — congiuntivo — presente — loro\n7. venire — congiuntivo — presente — tu\n8. potere — congiuntivo — presente — io",
     "lines": 9
    },
    {
     "id": "q3c",
     "type": "open_answer",
-    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 3/3)\n1. tu: «parli»\n2. tu: «dormissi»\n3. voi: «osserviate»\n4. loro: «avessero»\n5. tu: «dicessi»\n6. lui/lei: «abbia»\n7. io: «partissi»\n8. loro: «facciano»",
+    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 3/3)\n1. io: «parli»\n2. tu: «dormissi»\n3. voi: «osserviate»\n4. loro: «avessero»\n5. tu: «dicessi»\n6. lui/lei: «abbia»\n7. io: «partissi»\n8. loro: «facciano»",
     "explanation": "",
-    "modelAnswer": "1. parlare — congiuntivo — presente — tu\n2. dormire — congiuntivo — imperfetto — tu\n3. osservare — congiuntivo — presente — voi\n4. avere — congiuntivo — imperfetto — loro\n5. dire — congiuntivo — imperfetto — tu\n6. avere — congiuntivo — presente — lui/lei\n7. partire — congiuntivo — imperfetto — io\n8. fare — congiuntivo — presente — loro",
+    "modelAnswer": "1. parlare — congiuntivo — presente — io\n2. dormire — congiuntivo — imperfetto — tu\n3. osservare — congiuntivo — presente — voi\n4. avere — congiuntivo — imperfetto — loro\n5. dire — congiuntivo — imperfetto — tu\n6. avere — congiuntivo — presente — lui/lei\n7. partire — congiuntivo — imperfetto — io\n8. fare — congiuntivo — presente — loro",
     "lines": 9
    }
   ]
@@ -86204,7 +86234,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
     "explanation": "",
     "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
-    "text": "La mattina della passeggiata Marta [[g1]] (controllare, imperfetto) il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non [[g2]] (essere, imperfetto) praticabile. Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida [[g3]] (proporre, passato prossimo) un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta [[g4]] (conoscere, imperfetto) quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo [[g5]] (domandare, passato prossimo) chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida [[g6]] (spiegare, passato prossimo) che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. [[g7]] (avere, imperfetto) però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+    "text": "La mattina della passeggiata Marta [[g1]] (controllare, imperfetto) il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non [[g2]] (essere, imperfetto) praticabile. Marta aveva preparato lo zaino la sera prima ed era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida [[g3]] (proporre, passato prossimo) un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta [[g4]] (conoscere, imperfetto) quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo [[g5]] (domandare, passato prossimo) chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida [[g6]] (spiegare, passato prossimo) che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. [[g7]] (avere, imperfetto) però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
     "gaps": [
      {
       "id": "g1",
@@ -86306,7 +86336,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il testo.",
     "explanation": "",
     "promptHelp": "Ergänze den Text.",
-    "text": "Quando il nostro gruppo cercava un luogo per una rassegna, il cortile del centro civico sembrava perfetto. Alcuni vicini però temevano il rumore e il custode diceva che mancavano prese adatte. Prima di annunciare il programma, abbiamo organizzato un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente avrebbe creato troppe difficoltà.\nUna vicina ha suggerito due serate al mese. Un tecnico ha controllato l’impianto e ha spiegato quali attrezzature servivano. Noi prendevamo appunti e confrontavamo le possibilità. Potremmo cominciare con una prova, vorremmo ascoltare il parere di tutti: erano le frasi che ripetevamo più spesso.\nIl primo appuntamento è stato un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza [[g1]] (relativo soggetto) studiava suono ha regolato il volume. Il telo [[g2]] (relativo oggetto) avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona [[g3]] (relativo soggetto) inizialmente era contraria ci ha chiesto la data successiva. Non tutti i problemi erano risolti, ma il confronto aveva prodotto un programma possibile. La rassegna non è diventata enorme: è rimasta abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
+    "text": "Quando il nostro gruppo cercava un luogo per una rassegna, il cortile del centro civico sembrava perfetto. Alcuni vicini però temevano il rumore e il custode diceva che mancavano prese adatte. Prima di annunciare il programma, abbiamo organizzato un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente avrebbe creato troppe difficoltà.\nUna vicina ha suggerito due serate al mese. Un tecnico ha controllato l’impianto e ha spiegato quali attrezzature servivano. Noi prendevamo appunti e confrontavamo le possibilità. «Potremmo cominciare con una prova», «vorremmo ascoltare il parere di tutti»: erano le frasi che ripetevamo più spesso.\nIl primo appuntamento è stato un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza [[g1]] (relativo soggetto) studiava suono ha regolato il volume. Il telo [[g2]] (relativo oggetto) avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona [[g3]] (relativo soggetto) inizialmente era contraria ci ha chiesto la data successiva. Non tutti i problemi erano risolti, ma il confronto aveva prodotto un programma possibile. La rassegna non è diventata enorme: è rimasta abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
     "gaps": [
      {
       "id": "g1",
@@ -87314,7 +87344,7 @@ const STOCK_PACKAGES = [
   },
   "estimatedMinutes": 15,
   "reading": {
-   "text": "La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non era praticabile. Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida ha proposto un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
+   "text": "La mattina della passeggiata Marta controllava il cielo dalla finestra. Durante la notte aveva piovuto e il gruppo aveva ricevuto un messaggio dalla guida. Il percorso previsto non era praticabile. Marta aveva preparato lo zaino la sera prima ed era delusa, ma non voleva rinunciare all’intera giornata.\nLa guida ha proposto un itinerario diverso, lungo una strada accessibile. Non sarebbe stato corretto cercare un passaggio improvvisato. Il gruppo ha accettato e si è fermato nel paese vicino. Una piccola esposizione raccontava la costruzione del vecchio acquedotto. Marta conosceva quel paese soltanto come un punto sulla carta; ora scopriva un motivo per visitarlo.\nAll’uscita un volontario ha mostrato alcune fotografie. Il gruppo ha domandato chi le avesse scattate e se fosse possibile citarle nel diario di viaggio. Il volontario non sapeva rispondere per tutte le immagini e ha indicato i recapiti dell’archivio. Marta ha annotato la domanda invece di fotografare tutto senza pensarci.\nNel pomeriggio il tempo è migliorato, ma il percorso iniziale è rimasto escluso. La guida ha spiegato che un cielo sereno non elimina automaticamente i problemi del terreno. Tornando a casa, Marta ha scritto che il viaggio non era andato come previsto. Aveva però imparato a cambiare programma senza trattare l’imprevisto come un fallimento. Il luogo e la vicenda sono inventati; il testo non fornisce indicazioni per un’escursione reale.",
    "title": "Il sentiero interrotto"
   },
   "grammar": {
@@ -95589,7 +95619,7 @@ const STOCK_PACKAGES = [
     "id": "q1s4",
     "type": "ordering",
     "prompt": "Frase 4: riordina i gruppi di parole.",
-    "explanation": "Marta aveva preparato lo zaino la sera prima e era delusa, ma non voleva rinunciare all’intera giornata.",
+    "explanation": "Marta aveva preparato lo zaino la sera prima ed era delusa, ma non voleva rinunciare all’intera giornata.",
     "items": [
      {
       "id": "p1",
@@ -95601,7 +95631,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "p3",
-      "text": "sera prima e"
+      "text": "sera prima ed"
      },
      {
       "id": "p4",
@@ -212176,7 +212206,7 @@ const STOCK_PACKAGES = [
     "explanation": "presente → imperfetto · passato prossimo → trapassato prossimo · futuro → condizionale composto · imperativo → di + infinito · l’imperfetto non cambia.",
     "promptHelp": "Vor vielen Jahren ist Opa Salvatore aus Apulien nach Turin gezogen. Was hat er an dem Tag gesagt? Wähle die richtige Form.",
     "explanationHelp": "Präsens → imperfetto · passato prossimo → trapassato prossimo · Futur → condizionale composto · Imperativ → di + Infinitiv · das imperfetto bleibt.",
-    "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto che ci [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
+    "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto alla famiglia che le [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
     "gaps": [
      {
       "id": "g1",

@@ -38,7 +38,7 @@ due giorni fa = due giorni prima
 «Parto per Torino.» → Ha detto che {partiva*|era partito|partisse} per Torino.
 «Ho comprato il biglietto.» → Ha detto che {aveva comprato*|comprava|avrebbe comprato} il biglietto.
 «Troverò un lavoro.» → Ha detto che {avrebbe trovato*|aveva trovato|troverebbe} un lavoro.
-«Vi scriverò ogni settimana.» → Ha detto che ci {avrebbe scritto*|scriverebbe|aveva scritto} ogni settimana.
+«Vi scriverò ogni settimana.» → Ha detto alla famiglia che le {avrebbe scritto*|scriverebbe|aveva scritto} ogni settimana.
 «Da ragazzo sognavo la città.» → Ha detto che da ragazzo {sognava*|sognasse|avrebbe sognato} la città.
 «Non piangete!» → Ha detto alle sorelle {di non piangere*|che non piangete|di non piangete}.
 «Aspettatemi!» → Ha chiesto agli amici {di aspettarlo*|di aspettarmi|che lo aspettate}.

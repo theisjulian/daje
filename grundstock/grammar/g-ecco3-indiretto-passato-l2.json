@@ -52,7 +52,7 @@
    "explanation": "presente → imperfetto · passato prossimo → trapassato prossimo · futuro → condizionale composto · imperativo → di + infinito · l’imperfetto non cambia.",
    "explanationHelp": "Präsens → imperfetto · passato prossimo → trapassato prossimo · Futur → condizionale composto · Imperativ → di + Infinitiv · das imperfetto bleibt.",
    "type": "gap_choice",
-   "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto che ci [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
+   "text": "«Parto per Torino.» → Ha detto che [[g1]] per Torino.\n«Ho comprato il biglietto.» → Ha detto che [[g2]] il biglietto.\n«Troverò un lavoro.» → Ha detto che [[g3]] un lavoro.\n«Vi scriverò ogni settimana.» → Ha detto alla famiglia che le [[g4]] ogni settimana.\n«Da ragazzo sognavo la città.» → Ha detto che da ragazzo [[g5]] la città.\n«Non piangete!» → Ha detto alle sorelle [[g6]].\n«Aspettatemi!» → Ha chiesto agli amici [[g7]].\n«Mio cugino abita già lì.» → Ha detto che suo cugino [[g8]] già lì.",
    "gaps": [
     {
      "id": "g1",

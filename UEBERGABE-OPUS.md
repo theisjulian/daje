@@ -424,3 +424,15 @@ Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.
 - Elf Textrekonstruktionen (Blöcke per Buchstabe) lassen teils mehrere stimmige Reihenfolgen zu, gewertet wird eine.
 - Ordnungsaufgaben im Primo anno geben den Zielsatz auf Deutsch vor; das ist nah an einer Übersetzung DE→IT.
 - Lernjahre 4–6: Die Kompetenz- und Themenfelder des Lehrplans (Mediation, Hören, Landeskunde) haben weiterhin keine Übungen.
+
+### 7e · Gesamtprüfung aller Übungen, live (22.11.2026)
+
+- Branch `claude/keen-brown-p3irjq` (Lernjahre 2–6, Teilpunkte je Lücke, 1490 Grammatikübungen) zusammengeführt und veröffentlicht.
+- Neuer Test `portal/tests/uebungen.test.cjs` (in `npm test`): jede ausgelieferte Aufgabe (Grundstock, Hören samt Erweiterungen,
+  Arbeitskatalog) – Musterlösung voll richtig und volle Teilpunkte, Gegenteil/Teilauswahl/vertauschte Reihenfolge/jeder einzeln
+  unkorrigierte Fehler/leere Antwort werden abgelehnt, keine doppelten Optionen.
+- Bewertung: Fehlerkorrektur, bei der nur die Großschreibung falsch ist („Dicembre“ → „dicembre“), prüft jetzt die Schreibung
+  (`fixedError` in content-contract.js, auch in `scoreAnswer` und der Markierung je Feld). Vorher zählte der unveränderte Fehler.
+- Fachliche Durchsicht aller Quellen (anno1–6, g-daje-202, g-daje-b1b2, Hören): rund 100 Korrekturen – Auswahl mit zwei richtigen
+  Lösungen, fehlende gleichwertige Antworten, als Fehler markierte korrekte Formen, falsche Fehlerzahlen, Übersetzungen,
+  Vittoriano (Vittorio Emanuele II), Hörfragen, die dem Transkript nicht entsprachen.
