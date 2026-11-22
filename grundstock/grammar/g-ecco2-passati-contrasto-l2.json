@@ -52,7 +52,7 @@
    "explanation": "da bambino, di solito, mentre, descrizione → imperfetto; ieri alle otto, sabato scorso, nel 2019, all’improvviso, tre volte → passato prossimo.",
    "explanationHelp": "da bambino, di solito, mentre, Beschreibung → imperfetto; ieri alle otto, sabato scorso, nel 2019, all’improvviso, tre volte → passato prossimo.",
    "type": "gap_choice",
-   "text": "Da bambino [[g1]] ogni estate dai nonni.\nIeri alle otto Luca [[g2]] di casa.\nMentre [[g3]] i compiti, è arrivato un messaggio.\nMentre dormivamo, all’improvviso [[g4]] il gatto.\nSabato scorso [[g5]] la partita 3 a 1.\nDi solito la nonna [[g6]] la pasta fatta in casa.\nNel 2019 la mia famiglia [[g7]] casa.\nQuando avevo sei anni, [[g8]] paura del buio.\nEra una bella giornata: [[g9]] il sole e faceva caldo.\nChiara racconta: «L’anno scorso [[g10]] tre volte a Roma.»",
+   "text": "Da bambino [[g1]] ogni estate dai nonni.\nIeri alle otto in punto Luca [[g2]] di casa e ha preso l’autobus.\nMentre [[g3]] i compiti, è arrivato un messaggio.\nMentre dormivamo, all’improvviso [[g4]] il gatto.\nSabato scorso [[g5]] la partita 3 a 1.\nDi solito la nonna [[g6]] la pasta fatta in casa.\nNel 2019 la mia famiglia [[g7]] casa.\nQuando avevo sei anni, [[g8]] paura del buio.\nEra una bella giornata: [[g9]] il sole e faceva caldo.\nChiara racconta: «L’anno scorso [[g10]] tre volte a Roma.»",
    "gaps": [
     {
      "id": "g1",

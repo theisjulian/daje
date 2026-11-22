@@ -63,7 +63,8 @@
      "id": "s2",
      "start": "Mi può aiutare?",
      "acceptedAnswers": [
-      "Mi potrebbe aiutare"
+      "Mi potrebbe aiutare",
+      "Potrebbe aiutarmi"
      ],
      "modelAnswer": "Mi potrebbe aiutare?"
     },
@@ -87,7 +88,8 @@
      "id": "s5",
      "start": "Sa dirmi l’ora?",
      "acceptedAnswers": [
-      "Saprebbe dirmi l’ora"
+      "Saprebbe dirmi l’ora",
+      "Mi saprebbe dire l’ora"
      ],
      "modelAnswer": "Saprebbe dirmi l’ora?"
     },

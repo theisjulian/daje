@@ -46,7 +46,7 @@
    "acceptedAnswers": [
     "capire"
    ],
-   "usage": "Abc"
+   "usage": "pres. capisco, capisci, capisce, capiamo, capite, capiscono"
   },
   {
    "id": "u3-3a-003",
@@ -104,7 +104,12 @@
    "example": "Lo Scifo è il prof di mate.",
    "related": "F le/la professeur",
    "acceptedAnswers": [
-    "il/la prof"
+    "il/la prof",
+    "il prof",
+    "la prof",
+    "il professore",
+    "la professoressa",
+    "il/la professore/-ssa"
    ],
    "contrast": "il professore – il professor De Carli"
   },
@@ -229,7 +234,7 @@
    "acceptedAnswers": [
     "spiegare"
    ],
-   "usage": "Abc"
+   "usage": "pres. spiego, spieghi, spiega, spieghiamo, spiegate, spiegano"
   },
   {
    "id": "u3-3a-018",
@@ -260,7 +265,7 @@
    "acceptedAnswers": [
     "dire"
    ],
-   "usage": "Abc"
+   "usage": "pres. dico, dici, dice, diciamo, dite, dicono; p.p. detto"
   },
   {
    "id": "u3-3a-020",
@@ -349,7 +354,7 @@
    "acceptedAnswers": [
     "restituire"
    ],
-   "usage": "Abc"
+   "usage": "pres. restituisco, restituisci, restituisce, restituiamo, restituite, restituiscono"
   },
   {
    "id": "u3-3a-026",
@@ -401,9 +406,9 @@
    "definition": "Aver ricevuto una valutazione a scuola.",
    "example": "Ho preso un otto in matematica.",
    "acceptedAnswers": [
-    "avere preso un"
+    "avere preso un voto"
    ],
-   "usage": "Abc"
+   "usage": "passato prossimo di prendere (p.p. preso)"
   },
   {
    "id": "u3-3a-029",
@@ -501,7 +506,7 @@
    "definition": "Concentrarsi su quello che succede.",
    "example": "Ragazzi, fate attenzione!",
    "related": "E attention",
-   "usage": "Abc"
+   "usage": "pres. faccio, fai, fa, facciamo, fate, fanno; p.p. fatto"
   },
   {
    "id": "u3-3a-036",
@@ -517,7 +522,7 @@
    "acceptedAnswers": [
     "finire"
    ],
-   "usage": "Abc"
+   "usage": "pres. finisco, finisci, finisce, finiamo, finite, finiscono"
   },
   {
    "id": "u3-3a-037",
@@ -618,7 +623,7 @@
    ],
    "definition": "Parola che introduce una cosa contraria.",
    "example": "È bello, però costa molto.",
-   "usage": "avv."
+   "usage": "cong."
   },
   {
    "id": "u3-3a-045",

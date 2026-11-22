@@ -53,16 +53,8 @@
      "label": "il"
     },
     {
-     "id": "c2",
-     "label": "lo"
-    },
-    {
      "id": "c3",
      "label": "la"
-    },
-    {
-     "id": "c4",
-     "label": "l’"
     }
    ],
    "items": [
@@ -141,10 +133,6 @@
     {
      "id": "c2",
      "label": "lo"
-    },
-    {
-     "id": "c3",
-     "label": "la"
     },
     {
      "id": "c4",

@@ -114,7 +114,11 @@
    "definition": "Indicazione della data rispetto alla nascita di Gesù.",
    "example": "Cesare è morto nel 44 avanti Cristo.",
    "acceptedAnswers": [
-    "avanti/dopo Cristo"
+    "avanti/dopo Cristo",
+    "avanti Cristo",
+    "dopo Cristo",
+    "a. C.",
+    "d. C."
    ]
   },
   {

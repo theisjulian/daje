@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.",
    "text": "«una» — articolo: scegli genere e numero in base al nome → [[g1]]\n«della» — preposizione semplice o articolata → [[g2]]\n«sono» — essere → [[g3]]\n«in» — preposizione semplice o articolata → [[g4]]\n«aprirei» — aprire, io → [[g5]]\n«una» — articolo: scegli genere e numero in base al nome → [[g6]]\n«di» — preposizione semplice o articolata → [[g7]]\n«abbiano» — avere, loro → [[g8]]\n«di» — preposizione semplice o articolata → [[g9]]\n«a» — preposizione semplice o articolata → [[g10]]\n«un» — articolo: scegli genere e numero in base al nome → [[g11]]\n«avessimo» — avere, noi → [[g12]]",
    "gaps": [
     {

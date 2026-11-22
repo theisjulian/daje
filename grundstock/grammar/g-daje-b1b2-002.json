@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "open_answer",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «aveva telefonato» — telefonare\n2. «aveva chiesto» — chiedere\n3. «aveva suggerito» — suggerire\n4. «aveva preparato» — preparare\n5. «aveva dimenticato» — dimenticare\n6. «aveva ingrandito» — ingrandire\n7. «aveva visto» — vedere",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.\n1. «aveva telefonato» — telefonare\n2. «aveva chiesto» — chiedere\n3. «aveva suggerito» — suggerire\n4. «aveva preparato» — preparare\n5. «aveva dimenticato» — dimenticare\n6. «aveva ingrandito» — ingrandire\n7. «aveva visto» — vedere",
    "modelAnswer": "1. indicativo trapassato prossimo\n2. indicativo trapassato prossimo\n3. indicativo trapassato prossimo\n4. indicativo trapassato prossimo\n5. indicativo trapassato prossimo\n6. indicativo trapassato prossimo\n7. indicativo trapassato prossimo",
    "lines": 8,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."

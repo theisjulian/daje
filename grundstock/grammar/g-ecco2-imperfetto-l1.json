@@ -71,10 +71,6 @@
     },
     {
      "id": "e",
-     "label": "voi"
-    },
-    {
-     "id": "f",
      "label": "loro"
     }
    ],
@@ -121,23 +117,23 @@
     },
     {
      "id": "i9",
-     "text": "eravate",
-     "category": "e"
+     "text": "eravamo",
+     "category": "d"
     },
     {
      "id": "i10",
-     "text": "leggevate",
+     "text": "erano",
      "category": "e"
     },
     {
      "id": "i11",
-     "text": "erano",
-     "category": "f"
+     "text": "uscivano",
+     "category": "e"
     },
     {
      "id": "i12",
-     "text": "uscivano",
-     "category": "f"
+     "text": "leggevano",
+     "category": "e"
     }
    ]
   }

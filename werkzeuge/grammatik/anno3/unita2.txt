@@ -19,7 +19,7 @@ Achtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se v
 
 %übung leicht | Se … allora?
 ?zuordnen | Abbina l’inizio e la fine della frase. || Verbinde Satzanfang und Satzende.
-Se non capisci una parola, = chiedi alla tua compagna di banco.
+Se non capisci una parola, = chiedi alla tua compagna di banco che cosa significa.
 Se perdi l’autobus delle sette, = arrivi in ritardo a scuola.
 Se ti mancano i tuoi genitori, = fai una videochiamata con loro.
 Se domani nevicherà, = non potremo fare la gita in bicicletta.
@@ -72,8 +72,8 @@ A presto! Paola
 Ho nostalgia di casa. (chiamare i tuoi amici) → Se hai nostalgia di casa, … | chiama i tuoi amici | Se hai nostalgia di casa, chiama i tuoi amici!
 Non capisco la prof. (chiedere aiuto a un compagno) → Se non capisci la prof, … | chiedi aiuto a un compagno | Se non capisci la prof, chiedi aiuto a un compagno!
 Mi annoio il pomeriggio. (iscriversi a un corso) → Se ti annoi il pomeriggio, … | iscriviti a un corso | Se ti annoi il pomeriggio, iscriviti a un corso!
-Non conosco nessuno. (andare alle feste della scuola) → Se non conosci nessuno, … | vai alle feste della scuola/va’ alle feste della scuola | Se non conosci nessuno, vai alle feste della scuola!
-Il cibo non mi piace. (dirlo con gentilezza alla famiglia) → Se il cibo non ti piace, … | dillo con gentilezza alla famiglia | Se il cibo non ti piace, dillo con gentilezza alla famiglia!
+Non conosco nessuno. (andare alle feste della scuola) → Se non conosci nessuno, … | vai alle feste della scuola/va’ alle feste della scuola/va alle feste della scuola | Se non conosci nessuno, vai alle feste della scuola!
+Il cibo non mi piace. (dirlo con gentilezza alla famiglia) → Se il cibo non ti piace, … | dillo con gentilezza alla famiglia/dillo alla famiglia con gentilezza | Se il cibo non ti piace, dillo con gentilezza alla famiglia!
 Sono stanco la mattina. (non andare a letto tardi) → Se sei stanco la mattina, … | non andare a letto tardi | Se sei stanco la mattina, non andare a letto tardi!
 Perdo sempre l’autobus. (alzarsi prima) → Se perdi sempre l’autobus, … | alzati prima | Se perdi sempre l’autobus, alzati prima!
 Voglio migliorare il mio inglese. (guardare i film in lingua originale) → Se vuoi migliorare il tuo inglese, … | guarda i film in lingua originale | Se vuoi migliorare il tuo inglese, guarda i film in lingua originale!
@@ -245,7 +245,7 @@ Se mi dici la verità, ti aiuto. → … | Se mi dicessi la verità, ti aiuterei
 
 %übung schwer | Reale o no?
 ?luecke | Guarda l’altro verbo della frase: realtà o possibilità? Completa con la forma giusta. || Sieh dir das andere Verb im Satz an: reale oder nur mögliche Bedingung? Ergänze die passende Form.
-Non ho la patente. Ma se (avere, io) [avessi] la macchina, ti accompagnerei all’aeroporto.
+Non ho ancora la patente. Ma se (avere, io) [avessi] già diciotto anni, ti accompagnerei io all’aeroporto in macchina.
 Domani sono libera: se (fare) [fa/farà] bel tempo, andiamo al lago?
 Se tu studiassi un po’ di più, (passare, tu) [passeresti] l’esame senza problemi.
 Se perdi il treno delle otto, (prendere, tu) [prendi/prenderai] quello delle nove.
@@ -327,7 +327,7 @@ eri stato > tp
 * Ha dimenticato il cellulare.
 - Non ha trovato la strada.
 - Ha comprato un cellulare nuovo.
-?mc | Appena avevamo finito di cenare, è arrivato lo zio. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
+?mc | Avevamo appena finito di cenare quando è arrivato lo zio. Che cosa è successo **prima**? || Was ist **zuerst** passiert?
 - È arrivato lo zio.
 * Abbiamo finito di cenare.
 - Lo zio ha cenato con noi.
@@ -353,7 +353,7 @@ eri stato > tp
 Quando siamo arrivati al cinema, = il film era già cominciato.
 Non ho potuto pagare il biglietto perché = avevo lasciato il portafoglio a casa.
 Ero stanchissima perché = non avevo dormito durante il volo.
-Quando ho chiamato la nonna, = era già andata a letto.
+La nonna non ha risposto al telefono perché = era già andata a letto.
 Ho finalmente letto il libro che = mi avevi regalato per il compleanno.
 Conoscevo già un po’ Dublino perché = ci ero stata con la mia classe.
 Paolo non è venuto in gita perché = si era rotto una gamba.
@@ -369,7 +369,7 @@ I ragazzi erano stanchi perché [erano=>avevano] camminato tutto il giorno.
 Siamo arrivati tardi perché avevamo [prenduto=>preso] il treno sbagliato.
 Le mie sorelle [era=>erano] già uscite quando ho telefonato.
 Luca conosceva bene Londra perché ci [aveva=>era] già stato due volte.
-Appena [avevo=>ero] arrivata a casa, ha cominciato a piovere.
+[Avevo=>Ero] appena arrivata a casa quando ha cominciato a piovere.
 ! Trapassato prossimo: imperfetto di essere / avere + participio. Con essere il participio concorda. || Trapassato prossimo: Imperfekt von essere / avere + Partizip; bei essere wird das Partizip angeglichen.
 
 %übung schwer | Un arrivo difficile
@@ -388,9 +388,9 @@ La sera (addormentarsi, io · PP) [mi sono addormentata] alle nove: (essere · T
 Prima il treno è partito. Poi sono arrivato alla stazione. → Quando sono arrivato alla stazione, il treno … | era già partito | Quando sono arrivato alla stazione, il treno era già partito.
 Prima la lezione è finita. Poi Sara è entrata in classe. → Quando Sara è entrata in classe, la lezione … | era già finita | Quando Sara è entrata in classe, la lezione era già finita.
 Prima i miei hanno cenato. Poi sono tornata a casa. → Quando sono tornata a casa, i miei … | avevano già cenato | Quando sono tornata a casa, i miei avevano già cenato.
-Prima abbiamo comprato i biglietti. Poi è arrivato Luca. → Quando è arrivato Luca, noi … | avevamo già comprato i biglietti | Quando è arrivato Luca, noi avevamo già comprato i biglietti.
+Prima abbiamo comprato i biglietti. Poi è arrivato Luca. → Quando è arrivato Luca, noi … | avevamo già comprato | Quando è arrivato Luca, noi avevamo già comprato i biglietti.
 Prima le ragazze sono uscite. Poi ho telefonato. → Quando ho telefonato, le ragazze … | erano già uscite | Quando ho telefonato, le ragazze erano già uscite.
-Prima hai fatto la valigia. Poi ti ho chiamato. → Quando ti ho chiamato, tu … | avevi già fatto la valigia | Quando ti ho chiamato, tu avevi già fatto la valigia.
+Prima hai fatto la valigia. Poi ti ho chiamato. → Quando ti ho chiamato, tu … | avevi già fatto | Quando ti ho chiamato, tu avevi già fatto la valigia.
 Prima il negozio ha chiuso. Poi siamo arrivati in centro. → Quando siamo arrivati in centro, il negozio … | aveva già chiuso | Quando siamo arrivati in centro, il negozio aveva già chiuso.
 Prima Marta si è addormentata. Poi è cominciato il film. → Quando è cominciato il film, Marta … | si era già addormentata | Quando è cominciato il film, Marta si era già addormentata.
 ! **già** sta tra l’ausiliare e il participio: _era **già** partito_. || **già** steht zwischen Hilfsverb und Partizip.
@@ -429,7 +429,7 @@ infatti = tatsächlich, nämlich
 %übung leicht | Il mio primo giorno a Cork
 ?auswahl | Lena racconta il primo giorno nella scuola irlandese. Scegli la parola giusta. || Lena erzählt vom ersten Tag an der irischen Schule. Wähle das passende Wort.
 {All’inizio*|Infatti|Quindi} non capivo quasi niente: tutti parlavano troppo in fretta.
-{Siccome*|Però|Infatti} non conoscevo nessuno, a pranzo mi sono seduta da sola.
+{Siccome*|Però|Quindi} non conoscevo nessuno, a pranzo mi sono seduta da sola.
 {Mentre*|Quindi|Alla fine} mangiavo il mio panino, una ragazza si è avvicinata.
 Si chiamava Aoife e mi ha chiesto da dove venivo. {Poi*|Siccome|Mentre} mi ha presentato i suoi amici.
 Erano simpatici, {però*|siccome|quindi} parlavano velocissimo.
@@ -490,6 +490,6 @@ Il sabato, di solito, [siamo andati=>andavamo] in centro a mangiare un gelato.
 Un giorno [perdevo=>ho perso] l’autobus e sono arrivato a scuola a piedi.
 La prof non era arrabbiata, [siccome=>però/ma] mi ha chiesto di spiegare il ritardo in italiano.
 In quel momento non [ho conosciuto=>conoscevo] ancora la parola «fermata», quindi ho detto «stazione dell’autobus».
-[Quindi=>Siccome/Poiché/Dato che/Visto che] un mio compagno abitava vicino a me, da quel giorno siamo andati a scuola insieme.
-Quando sono tornato in Germania, [ho già imparato=>avevo già imparato] moltissime parole nuove.
+[Quindi=>Siccome/Poiché/Dato che/Visto che] un mio compagno abitava vicino a me, da quel giorno siamo sempre andati a scuola insieme.
+Quando sono tornato in Germania, [ho già imparato=>avevo già imparato/avevo imparato] moltissime parole nuove.
 ! Abitudine o azione in corso → imperfetto; fatto unico → passato prossimo; fatto successo prima → trapassato prossimo. || Gewohnheit oder Verlauf → imperfetto; einmaliges Ereignis → passato prossimo; Vorzeitigkeit → trapassato prossimo.

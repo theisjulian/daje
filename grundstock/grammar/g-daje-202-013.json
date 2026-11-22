@@ -55,14 +55,6 @@
     {
      "id": "c2",
      "label": "materiali scolastici"
-    },
-    {
-     "id": "c3",
-     "label": "indumenti"
-    },
-    {
-     "id": "c4",
-     "label": "mezzi di trasporto"
     }
    ],
    "items": [
@@ -114,14 +106,6 @@
    "type": "categorize",
    "prompt": "Classifica le parole secondo il significato indicato. (parte 2/2)",
    "categories": [
-    {
-     "id": "c1",
-     "label": "strumenti musicali"
-    },
-    {
-     "id": "c2",
-     "label": "materiali scolastici"
-    },
     {
      "id": "c3",
      "label": "indumenti"

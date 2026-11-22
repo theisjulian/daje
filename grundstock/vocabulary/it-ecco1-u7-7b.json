@@ -209,7 +209,7 @@
    "acceptedAnswers": [
     "sedersi"
    ],
-   "usage": "Abc"
+   "usage": "pres. mi siedo, ti siedi, si siede, ci sediamo, vi sedete, si siedono"
   },
   {
    "id": "u7-7b-014",
@@ -484,7 +484,7 @@
    ],
    "definition": "Via dove passano le auto.",
    "example": "La strada è piena di auto.",
-   "family": "la via",
+   "synonyms": "la via",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

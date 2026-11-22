@@ -152,7 +152,7 @@
    "acceptedAnswers": [
     "dovere"
    ],
-   "usage": "Abc"
+   "usage": "pres. devo, devi, deve, dobbiamo, dovete, devono"
   },
   {
    "id": "u4-4a-010",
@@ -166,7 +166,7 @@
    "acceptedAnswers": [
     "venire"
    ],
-   "usage": "Abc"
+   "usage": "pres. vengo, vieni, viene, veniamo, venite, vengono"
   },
   {
    "id": "u4-4a-011",
@@ -229,7 +229,10 @@
    "example": "Anna, non vengo. Devi andare da sola.",
    "related": "L solus",
    "acceptedAnswers": [
-    "solo/-a"
+    "solo/-a",
+    "da solo/-a",
+    "da solo",
+    "da sola"
    ],
    "contrast": "Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere."
   },
@@ -241,7 +244,7 @@
    ],
    "definition": "Forma del passato: ho ricevuto.",
    "example": "Per il mio compleanno ho avuto uno snowboard.",
-   "usage": "Abc"
+   "usage": "passato prossimo di avere"
   },
   {
    "id": "u4-4a-017",
@@ -298,7 +301,7 @@
    "acceptedAnswers": [
     "potere"
    ],
-   "usage": "Abc"
+   "usage": "pres. posso, puoi, può, possiamo, potete, possono"
   },
   {
    "id": "u4-4a-021",
@@ -392,7 +395,7 @@
    "acceptedAnswers": [
     "volere"
    ],
-   "usage": "Abc"
+   "usage": "pres. voglio, vuoi, vuole, vogliamo, volete, vogliono"
   },
   {
    "id": "u4-4a-029",
@@ -407,7 +410,7 @@
    "acceptedAnswers": [
     "sapere"
    ],
-   "usage": "Abc"
+   "usage": "pres. so, sai, sa, sappiamo, sapete, sanno"
   },
   {
    "id": "u4-4a-030",
@@ -500,7 +503,8 @@
    "definition": "Per attirare l’attenzione.",
    "example": "Ehi, aspettami!",
    "acceptedAnswers": [
-    "Ehi!"
+    "Ehi!",
+    "Ehilà!"
    ]
   },
   {
@@ -608,7 +612,7 @@
    "acceptedAnswers": [
     "dimenticare"
    ],
-   "usage": "Abc"
+   "usage": "pres. dimentico, dimentichi, dimentica, dimentichiamo, dimenticate, dimenticano"
   },
   {
    "id": "u4-4a-046",

@@ -52,7 +52,7 @@
    "explanation": "Abitudine o azione in corso → imperfetto; fatto unico → passato prossimo; fatto successo prima → trapassato prossimo.",
    "explanationHelp": "Gewohnheit oder Verlauf → imperfetto; einmaliges Ereignis → passato prossimo; Vorzeitigkeit → trapassato prossimo.",
    "type": "error_correction",
-   "text": "L’anno scorso [[g1]] sei mesi a Siena.\nOgni mattina [[g2]] l’autobus delle sette e un quarto.\nMentre [[g3]] alla fermata, ripetevo i verbi irregolari.\nIl sabato, di solito, [[g4]] in centro a mangiare un gelato.\nUn giorno [[g5]] l’autobus e sono arrivato a scuola a piedi.\nLa prof non era arrabbiata, [[g6]] mi ha chiesto di spiegare il ritardo in italiano.\nIn quel momento non [[g7]] ancora la parola «fermata», quindi ho detto «stazione dell’autobus».\n[[g8]] un mio compagno abitava vicino a me, da quel giorno siamo andati a scuola insieme.\nQuando sono tornato in Germania, [[g9]] moltissime parole nuove.",
+   "text": "L’anno scorso [[g1]] sei mesi a Siena.\nOgni mattina [[g2]] l’autobus delle sette e un quarto.\nMentre [[g3]] alla fermata, ripetevo i verbi irregolari.\nIl sabato, di solito, [[g4]] in centro a mangiare un gelato.\nUn giorno [[g5]] l’autobus e sono arrivato a scuola a piedi.\nLa prof non era arrabbiata, [[g6]] mi ha chiesto di spiegare il ritardo in italiano.\nIn quel momento non [[g7]] ancora la parola «fermata», quindi ho detto «stazione dell’autobus».\n[[g8]] un mio compagno abitava vicino a me, da quel giorno siamo sempre andati a scuola insieme.\nQuando sono tornato in Germania, [[g9]] moltissime parole nuove.",
    "errors": [
     {
      "id": "g1",
@@ -118,7 +118,8 @@
      "id": "g9",
      "wrong": "ho già imparato",
      "acceptedAnswers": [
-      "avevo già imparato"
+      "avevo già imparato",
+      "avevo imparato"
      ]
     }
    ]

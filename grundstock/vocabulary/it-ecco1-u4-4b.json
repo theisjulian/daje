@@ -101,7 +101,7 @@
    "acceptedAnswers": [
     "rimanere"
    ],
-   "usage": "Abc; p.p. rimasto"
+   "usage": "pres. rimango, rimani, rimane, rimaniamo, rimanete, rimangono; p.p. rimasto"
   },
   {
    "id": "u4-4b-007",
@@ -131,7 +131,10 @@
    "definition": "Senza energia dopo molta attività.",
    "example": "Anna ha fatto molto sport. Adesso è stanca.",
    "acceptedAnswers": [
-    "stanco/-a"
+    "stanco/-a",
+    "stanco/-a morto/-a",
+    "stanco morto",
+    "stanca morta"
    ],
    "usage": "pl. stanchi/-che"
   },
@@ -370,7 +373,7 @@
    "definition": "Parola che introduce una conclusione.",
    "example": "Dunque … Come posso dire? Ah, ecco …",
    "related": "F donc",
-   "usage": "avv."
+   "usage": "cong."
   },
   {
    "id": "u4-4b-027",

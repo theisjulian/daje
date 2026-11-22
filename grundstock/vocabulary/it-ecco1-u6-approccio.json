@@ -190,7 +190,7 @@
    "acceptedAnswers": [
     "scegliere"
    ],
-   "usage": "Abc; p.p. scelto"
+   "usage": "pres. scelgo, scegli, sceglie, scegliamo, scegliete, scelgono; p.p. scelto"
   },
   {
    "id": "u6-approccio-013",
@@ -479,7 +479,8 @@
    "example": "Con gli occhiali vedo bene.",
    "family": "l’occhio",
    "acceptedAnswers": [
-    "gli occhiali"
+    "gli occhiali",
+    "gli occhiali da sole"
    ],
    "usage": "pl.",
    "grammar": {

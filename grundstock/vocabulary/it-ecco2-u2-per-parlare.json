@@ -134,7 +134,8 @@
    "definition": "Storia girata per essere vista sul piccolo schermo.",
    "example": "Stasera c’è un telefilm divertente.",
    "acceptedAnswers": [
-    "ilfilm"
+    "il film",
+    "il telefilm"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -236,7 +237,7 @@
    "definition": "Dice quanto tempo occupa un film.",
    "example": "Il film dura novanta minuti.",
    "acceptedAnswers": [
-    "il film dura"
+    "il film dura 90 minuti"
    ],
    "grammar": {
     "partOfSpeech": "noun",

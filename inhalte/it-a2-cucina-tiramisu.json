@@ -130,7 +130,10 @@
         "23.15",
         "23,15 euro",
         "23.15 euro",
-        "ventitré euro e quindici centesimi"
+        "ventitré euro e quindici centesimi",
+        "23 euro e 15",
+        "23,15 €",
+        "23.15 €"
       ],
       "modelAnswer": "23 euro e 15 centesimi",
       "explanation": "Der Gesamtbetrag ist 23 Euro und 15 Cent.",

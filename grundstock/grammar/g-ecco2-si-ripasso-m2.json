@@ -81,7 +81,7 @@
      "id": "s4",
      "start": "In montagna la gente va a letto presto. → In montagna …",
      "acceptedAnswers": [
-      "si va"
+      "si va a letto"
      ],
      "modelAnswer": "In montagna si va a letto presto."
     },
@@ -89,7 +89,7 @@
      "id": "s5",
      "start": "In questo bar la gente paga alla cassa. → In questo bar …",
      "acceptedAnswers": [
-      "si paga"
+      "si paga alla cassa"
      ],
      "modelAnswer": "In questo bar si paga alla cassa."
     },
@@ -105,7 +105,7 @@
      "id": "s7",
      "start": "A casa mia tutti parlano italiano. → A casa mia …",
      "acceptedAnswers": [
-      "si parla"
+      "si parla italiano"
      ],
      "modelAnswer": "A casa mia si parla italiano."
     },

@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Completa il testo: scrivi in lettere gli ordinali e le frazioni.",
-   "promptHelp": "Ergänze den Text: Schreibe Ordnungszahlen und Brüche in Buchstaben.",
+   "prompt": "Completa il testo: scrivi in lettere gli ordinali e le frazioni. Attenzione: senza articolo l’ordinale concorda con il soggetto (noi → -i)!",
+   "promptHelp": "Ergänze den Text: Schreibe Ordnungszahlen und Brüche in Buchstaben. Achtung: Ohne Artikel richtet sich die Ordnungszahl nach dem Subjekt (noi → -i)!",
    "explanation": "Noi suoniamo per diciassettesimi / arriviamo quinti: l’ordinale concorda con il soggetto (noi → -i). Frazioni: un terzo, tre quarti.",
    "explanationHelp": "Die Ordnungszahl richtet sich nach dem Subjekt (noi → -i). Brüche: un terzo (ein Drittel), tre quarti (drei Viertel).",
    "type": "gap_fill",

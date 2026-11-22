@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Correggi i dieci errori.",
    "promptHelp": "Korrigiere die zehn Fehler.",
-   "explanation": "Con un verbo → avverbio (lavora bene). Con un nome o dopo essere → aggettivo (sono gentili).",
-   "explanationHelp": "Beim Verb → Adverb (lavora bene). Beim Nomen oder nach essere → Adjektiv (sono gentili).",
+   "explanation": "Con un verbo → avverbio (lavora bene). Con un nome o dopo essere → aggettivo (sono gentili). Davanti a un aggettivo → avverbio (particolarmente brava).",
+   "explanationHelp": "Beim Verb → Adverb (lavora bene). Beim Nomen oder nach essere → Adjektiv (sono gentili). Vor einem Adjektiv → Adverb (particolarmente brava).",
    "type": "error_correction",
    "text": "Sara lavora molto [[g1]].\nRispondo [[g2]] a tutte le domande.\nFaccio sport [[g3]].\nIl treno è arrivato [[g4]].\nLuca guida [[g5]].\nIl mio cellulare funziona [[g6]].\nLe mie colleghe sono molto [[g7]].\nIl tempo passa [[g8]].\nFare il medico è un lavoro [[g9]].\nMarta è [[g10]] brava in matematica.",
    "errors": [

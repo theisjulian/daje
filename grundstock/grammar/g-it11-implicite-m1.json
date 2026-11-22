@@ -51,7 +51,7 @@
    "explanation": "fare → facendo, dire → dicendo, bere → bevendo. Pronomi: leggendolo, parlandone, alzandosi.",
    "explanationHelp": "Unregelmäßig: facendo, dicendo, bevendo. Pronomen werden angehängt.",
    "type": "gap_fill",
-   "text": "(ripetere) [[g1]] un po’ ogni giorno, non avrai problemi prima dell’esame.\nMolti studenti imparano meglio (scrivere) [[g2]] dei riassunti.\n(fare) [[g3]] delle pause regolari, ci si concentra di più.\n(essere) [[g4]] molto nervosa, Sara preferisce studiare con un’amica.\nIl testo è difficile, ma (leggerlo) [[g5]] due volte lo capirai.\n(dire) [[g6]] le regole ad alta voce, Matteo le ricorda meglio.\n(bere) [[g7]] molta acqua e (dormire) [[g8]] abbastanza, il cervello lavora meglio.\nHai un dubbio? (parlarne) [[g9]] con il professore, troverai una soluzione.\n(alzarsi) [[g10]] presto, Davide ha tutta la mattina per ripassare.",
+   "text": "(ripetere) [[g1]] un po’ ogni giorno, non avrai problemi prima dell’esame.\nMolti studenti imparano meglio (scrivere) [[g2]] dei riassunti.\n(fare) [[g3]] delle pause regolari, ci si concentra di più.\n(essere) [[g4]] molto nervosa, Sara preferisce studiare con un’amica.\nIl testo è difficile, ma (leggerlo) [[g5]] due volte lo capirai.\n(dire) [[g6]] le regole ad alta voce, Matteo le ricorda meglio.\n(bere) [[g7]] molta acqua e (dormire) [[g8]] abbastanza, ti concentri meglio.\nHai un dubbio? (parlarne) [[g9]] con il professore, troverai una soluzione.\n(alzarsi) [[g10]] presto, Davide ha tutta la mattina per ripassare.",
    "gaps": [
     {
      "id": "g1",

@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "open_answer",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «uscì» — uscire\n2. «vide» — vedere\n3. «disse» — dire\n4. «Chiese» — chiedere\n5. «prese» — prendere\n6. «portò» — portare\n7. «Chiese» — chiedere\n8. «dissero» — dire\n9. «Disse» — dire\n10. «prese» — prendere",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.\n1. «uscì» — uscire\n2. «vide» — vedere\n3. «disse» — dire\n4. «Chiese» — chiedere\n5. «prese» — prendere\n6. «portò» — portare\n7. «Chiese» — chiedere\n8. «dissero» — dire\n9. «Disse» — dire\n10. «prese» — prendere",
    "modelAnswer": "1. indicativo passato remoto\n2. indicativo passato remoto\n3. indicativo passato remoto\n4. indicativo passato remoto\n5. indicativo passato remoto\n6. indicativo passato remoto\n7. indicativo passato remoto\n8. indicativo passato remoto\n9. indicativo passato remoto\n10. indicativo passato remoto",
    "lines": 11,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."

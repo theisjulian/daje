@@ -110,7 +110,7 @@
   },
   {
    "id": "q4",
-   "prompt": "Appena avevamo finito di cenare, è arrivato lo zio. Che cosa è successo **prima**?",
+   "prompt": "Avevamo appena finito di cenare quando è arrivato lo zio. Che cosa è successo **prima**?",
    "promptHelp": "Was ist **zuerst** passiert?",
    "type": "single_choice",
    "options": [

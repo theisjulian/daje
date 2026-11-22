@@ -254,7 +254,10 @@
    "definition": "Persona della stessa classe.",
    "example": "Il mio compagno di classe si chiama Luca.",
    "acceptedAnswers": [
-    "il/la compagno/-a"
+    "il/la compagno/-a",
+    "il/la compagno/-a di classe",
+    "il compagno di classe",
+    "la compagna di classe"
    ]
   },
   {

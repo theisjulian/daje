@@ -50,12 +50,13 @@
    "prompt": "Completa il messaggio di Sara con il congiuntivo presente o passato.",
    "promptHelp": "Ergänze Saras Nachricht mit dem congiuntivo presente oder passato.",
    "type": "gap_fill",
-   "text": "Ciao Matteo! Mi dispiace che ieri tu non (potere) [[g1]] venire al festival.\nPenso che (essere) [[g2]] la serata più bella dell’estate.\nCredo che ieri sera il primo gruppo (cantare) [[g3]] almeno dieci canzoni.\nSpero che adesso tu (stare) [[g4]] meglio\ne che sabato prossimo (venire) [[g5]] con noi al concerto in piazza.",
+   "text": "Ciao Matteo! Mi dispiace che ieri tu non (potere) [[g1]] venire al festival.\nPenso che ieri (essere) [[g2]] la serata più bella dell’estate.\nCredo che il primo gruppo (cantare) [[g3]] almeno dieci canzoni.\nSpero che adesso tu (stare) [[g4]] meglio\ne che sabato prossimo (venire) [[g5]] con noi al concerto in piazza.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "abbia potuto"
+      "abbia potuto",
+      "sia potuto"
      ]
     },
     {

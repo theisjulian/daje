@@ -99,7 +99,10 @@
      "start": "Anch’io ho un profilo. → …",
      "acceptedAnswers": [
       "Neanch’io ho un profilo",
-      "Neanche io ho un profilo"
+      "Neanche io ho un profilo",
+      "Nemmeno io ho un profilo",
+      "Non ho un profilo neanch’io",
+      "Non ho un profilo neanche io"
      ],
      "modelAnswer": "Neanch’io ho un profilo. (Anche: Neanche io ho un profilo.)"
     },

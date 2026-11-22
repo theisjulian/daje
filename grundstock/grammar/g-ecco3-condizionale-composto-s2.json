@@ -52,7 +52,7 @@
    "explanation": "Passato (sabato, all’inizio) → condizionale composto; presente e futuro (adesso, la prossima volta) → condizionale presente.",
    "explanationHelp": "Vergangenheit → composto; Gegenwart und Zukunft → presente.",
    "type": "gap_fill",
-   "text": "Cara Marta, ti scrivo dopo la giornata ecologica della scuola.\nSabato mattina (volere, io) [[g1]] dormire fino a tardi, e invece alle otto ero già al parco!\nAll’inizio pensavo che (essere) [[g2]] una giornata noiosa.\nIl prof aveva detto che (venire) [[g3]] venti persone: ne sono arrivate cinquanta!\nCon più sacchi (noi, raccogliere) [[g4]] ancora più rifiuti.\nSenza la pioggia del pomeriggio io e le mie amiche (restare) [[g5]] fino a sera.\nTu (divertirsi) [[g6]] un sacco.\nAdesso (volere, io) [[g7]] organizzare un’altra giornata a maggio.\nLa prossima volta (dovere, noi) [[g8]] invitare anche i vicini.\n(venire, tu) [[g9]] con me?\nUn abbraccio, Elena",
+   "text": "Cara Marta, ti scrivo dopo la giornata ecologica della scuola.\nSabato mattina (volere, io) [[g1]] dormire fino a tardi, e invece alle otto ero già al parco!\nAll’inizio pensavo che (essere) [[g2]] una giornata noiosa.\nIl prof aveva detto che (venire) [[g3]] venti persone: ne sono arrivate cinquanta!\nCon più sacchi (noi, raccogliere) [[g4]] ancora più rifiuti.\nSenza la pioggia del pomeriggio io e le mie amiche (rimanere) [[g5]] fino a sera.\nTu (divertirsi) [[g6]] un sacco.\nAdesso (volere, io) [[g7]] organizzare un’altra giornata a maggio.\nLa prossima volta (dovere, noi) [[g8]] invitare anche i vicini.\n(venire, tu) [[g9]] con me?\nUn abbraccio, Elena",
    "gaps": [
     {
      "id": "g1",

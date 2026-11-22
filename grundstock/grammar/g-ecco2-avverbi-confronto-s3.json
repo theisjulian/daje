@@ -52,7 +52,7 @@
    "explanation": "bene → meglio → benissimo · male → peggio → malissimo · buono (aggettivo) → migliore.",
    "explanationHelp": "bene → meglio → benissimo · male → peggio → malissimo · buono (Adjektiv) → migliore.",
    "type": "gap_fill",
-   "text": "Cara Giulia, ieri ho fatto il colloquio: è andato (++ bene) [[g1]]!\nMi sono preparato (+ bene) [[g2]] dell’ultima volta.\nHo parlato (+ lento) [[g3]] e ho ascoltato (+ attento) [[g4]].\nL’anno scorso invece il colloquio è andato (++ male) [[g5]].\nEro nervoso e ho risposto (+ male) [[g6]] degli altri candidati.\nAdesso ho un posto (+ buono) [[g7]], vicino a casa.\nDevo rispondere alla direttrice il (+ presto) [[g8]] possibile. A presto, Davide",
+   "text": "Cara Giulia, ieri ho fatto il colloquio: è andato (++ bene) [[g1]]!\nMi sono preparato (+ bene) [[g2]] dell’ultima volta.\nHo parlato (+ lento) [[g3]] e ho ascoltato (+ attento) [[g4]].\nL’anno scorso invece il colloquio è andato (++ male) [[g5]].\nEro nervoso e ho risposto (+ male) [[g6]] degli altri candidati.\nQuesto posto è (+ buono) [[g7]] di quello dell’anno scorso: è anche vicino a casa.\nDevo rispondere alla direttrice il (+ presto) [[g8]] possibile. A presto, Davide",
    "gaps": [
     {
      "id": "g1",

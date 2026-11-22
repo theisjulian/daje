@@ -54,7 +54,7 @@
    "items": [
     {
      "id": "s1",
-     "start": "Luca: «Devo alzarmi alle cinque.» → Ieri Luca dice: «…»",
+     "start": "Luca: «Devo alzarmi alle cinque.» → Luca: «Ieri …»",
      "acceptedAnswers": [
       "mi sono dovuto alzare",
       "ho dovuto alzarmi"
@@ -63,7 +63,7 @@
     },
     {
      "id": "s2",
-     "start": "Sara: «Non posso fermarmi.» → Ieri Sara dice: «…»",
+     "start": "Sara: «Non posso fermarmi.» → Sara: «Ieri …»",
      "acceptedAnswers": [
       "non mi sono potuta fermare",
       "non ho potuto fermarmi"
@@ -72,7 +72,7 @@
     },
     {
      "id": "s3",
-     "start": "Davide: «Voglio iscrivermi al corso.» → Ieri Davide dice: «…»",
+     "start": "Davide: «Voglio iscrivermi al corso.» → Davide: «Ieri …»",
      "acceptedAnswers": [
       "mi sono voluto iscrivere",
       "ho voluto iscrivermi"
@@ -81,7 +81,7 @@
     },
     {
      "id": "s4",
-     "start": "Chiara e Giulia: «Dobbiamo prepararci in fretta.» → «…»",
+     "start": "Chiara e Giulia: «Dobbiamo prepararci in fretta.» → Chiara e Giulia: «Ieri …»",
      "acceptedAnswers": [
       "ci siamo dovute preparare",
       "abbiamo dovuto prepararci"

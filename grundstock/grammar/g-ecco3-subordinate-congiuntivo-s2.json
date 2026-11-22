@@ -90,7 +90,8 @@
      "id": "s5",
      "start": "Luca può venire alla festa. Condizione: porta un dolce. (a patto che)",
      "acceptedAnswers": [
-      "a patto che porti un dolce"
+      "a patto che porti un dolce",
+      "a patto che lui porti un dolce"
      ],
      "modelAnswer": "Luca può venire alla festa a patto che porti un dolce."
     },
@@ -106,7 +107,8 @@
      "id": "s7",
      "start": "Sara esce di casa. I genitori non lo sanno. (senza che)",
      "acceptedAnswers": [
-      "senza che i genitori lo sappiano"
+      "senza che i genitori lo sappiano",
+      "senza che lo sappiano i genitori"
      ],
      "modelAnswer": "Sara esce di casa senza che i genitori lo sappiano."
     },

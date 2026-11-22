@@ -41,8 +41,8 @@
   "difficulty": "mittel",
   "origin": "own",
   "order": 43,
-  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché: _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
-  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché; **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché (causa): _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché (= weil); **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
  },
  "questions": [
   {
@@ -105,15 +105,15 @@
     },
     {
      "id": "i2",
-     "text": "Luca"
+     "text": "Luca abbia già comprato"
     },
     {
      "id": "i3",
-     "text": "abbia già comprato"
+     "text": "i biglietti"
     },
     {
      "id": "i4",
-     "text": "i biglietti."
+     "text": "per il concerto."
     }
    ]
   },
@@ -149,15 +149,15 @@
     },
     {
      "id": "i2",
-     "text": "il concerto"
+     "text": "il concerto è cominciato"
     },
     {
      "id": "i3",
-     "text": "è cominciato"
+     "text": "alle otto"
     },
     {
      "id": "i4",
-     "text": "alle otto."
+     "text": "in punto."
     }
    ]
   }

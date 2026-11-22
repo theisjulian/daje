@@ -144,7 +144,8 @@
    "example": "La guida racconta la storia della città.",
    "related": "E guide",
    "acceptedAnswers": [
-    "la guida"
+    "la guida",
+    "la guida turistica"
    ],
    "usage": "f.",
    "grammar": {

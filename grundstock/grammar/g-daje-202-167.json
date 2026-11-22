@@ -6,9 +6,9 @@
  "title": "Due compagni, un progetto",
  "language": "it",
  "level": "A2",
- "description": "Essere und avere · Due compagni, un progetto · livello medio.",
+ "description": "Testi e forme: ripasso · Due compagni, un progetto · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1167

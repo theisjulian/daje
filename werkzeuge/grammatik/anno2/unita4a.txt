@@ -49,11 +49,6 @@ Sara: «Il mio capo è simpatico.»
 - Sara dice che il mio capo è simpatico.
 - Sara dice che il tuo capo è simpatico.
 ?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
-Luca: «Oggi ho un colloquio.»
-* Luca dice che oggi ha un colloquio.
-- Luca dice che oggi ho un colloquio.
-- Luca dice che oggi hai un colloquio.
-?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
 Giulia e Anna: «Cerchiamo un lavoro per l’estate.»
 * Giulia e Anna dicono che cercano un lavoro per l’estate.
 - Giulia e Anna dicono che cerchiamo un lavoro per l’estate.
@@ -63,11 +58,6 @@ Paolo mi chiede: «Hai tempo?»
 * Paolo mi chiede se ho tempo.
 - Paolo mi chiede se hai tempo.
 - Paolo mi chiede che ho tempo.
-?mc | Qual è la frase giusta? || Welcher Satz gibt die Aufforderung richtig wieder?
-La mamma mi dice: «Apri la finestra!»
-* La mamma mi dice di aprire la finestra.
-- La mamma mi dice che apri la finestra.
-- La mamma mi dice di apri la finestra.
 ?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
 Chiara: «Mi piace il mio lavoro.»
 * Chiara dice che le piace il suo lavoro.
@@ -78,11 +68,11 @@ Davide mi chiede: «Dove lavora tua madre?»
 * Davide mi chiede dove lavora mia madre.
 - Davide mi chiede dove lavora tua madre.
 - Davide mi chiede se lavora mia madre.
-?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
-I nonni al telefono: «Qui stiamo bene.»
-* I nonni dicono che lì stanno bene.
-- I nonni dicono che qui stiamo bene.
-- I nonni dicono che lì stiamo bene.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Luca: «Oggi ho un colloquio.» → Luca dice che oggi {ha*|ho|hai} un colloquio.
+La mamma mi dice: «Apri la finestra!» → La mamma mi dice {di aprire*|che apri|di apri} la finestra.
+I nonni al telefono: «Qui stiamo bene.» → I nonni dicono che lì {stanno*|stiamo|state} bene.
+! Cambia la persona: io → lui / lei, noi → loro. Imperativo → di + infinito. || Die Person ändert sich: io → lui / lei, noi → loro. Imperativ → di + Infinitiv.
 
 %übung mittel | La nonna non sente bene
 ?luecke | Paolo telefona dal suo tirocinio. La nonna non sente bene, così Sara ripete tutto. Scrivi una parola per ogni spazio. || Paolo ruft aus dem Praktikum an. Die Oma hört schlecht, deshalb wiederholt Sara alles. Schreibe in jede Lücke ein Wort.
@@ -103,12 +93,12 @@ I nonni al telefono: «Qui stiamo bene.»
 «Come ti chiami?» → Il direttore chiede … | come mi chiamo | Il direttore chiede come mi chiamo.
 «Quanti anni hai?» → Chiede … | quanti anni ho | Chiede quanti anni ho.
 «Dove abiti?» → Chiede … | dove abito | Chiede dove abito.
-«Parli inglese?» → Chiede … | se parlo inglese | Chiede se parlo inglese.
+«Parli inglese?» → Chiede … | se parlo inglese/se parlo l’inglese | Chiede se parlo inglese.
 «Perché vuoi lavorare in un albergo?» → Chiede … | perché voglio lavorare in un albergo | Chiede perché voglio lavorare in un albergo.
 «Hai già esperienza?» → Chiede … | se ho già esperienza | Chiede se ho già esperienza.
 «Quando puoi cominciare?» → Chiede … | quando posso cominciare | Chiede quando posso cominciare.
 «Sai usare il computer?» → Chiede … | se so usare il computer | Chiede se so usare il computer.
-«Che cosa fai nel tempo libero?» → Chiede … | cosa faccio nel tempo libero | Chiede che cosa faccio nel tempo libero.
+«Che cosa fai nel tempo libero?» → Chiede … | cosa faccio nel tempo libero/che faccio nel tempo libero | Chiede che cosa faccio nel tempo libero.
 ! Domanda senza parola interrogativa → chiede se. Con dove, quando, perché, come … → la parola interrogativa resta. || Frage ohne Fragewort → chiede se (ob). Mit Fragewort → das Fragewort bleibt.
 
 %übung mittel | Costruisci la frase
@@ -269,7 +259,7 @@ Arrivo sempre in ritardo. (prendere l’autobus prima) – Al posto tuo … | pr
 Il mio curriculum è troppo lungo. (scrivere solo le cose importanti) – Al posto tuo … | scriverei solo le cose importanti | Al posto tuo scriverei solo le cose importanti.
 Ho litigato con una collega. (parlare con lei) – Al posto tuo … | parlerei con lei | Al posto tuo parlerei con lei.
 Ho sempre sete al lavoro. (bere più acqua) – Al posto tuo … | berrei più acqua | Al posto tuo berrei più acqua.
-! al posto tuo + condizionale = an deiner Stelle würde ich … || al posto tuo + Konditional = an deiner Stelle würde ich …
+! Con «al posto tuo» + condizionale diamo un consiglio. || al posto tuo + Konditional = an deiner Stelle würde ich …
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
@@ -304,10 +294,10 @@ Cordiali saluti, Elena
 %übung schwer | Più gentile, per favore!
 ?ergaenzen | Riscrivi le frasi in modo più gentile: metti il verbo al condizionale. || Formuliere höflicher: Setze das Verb ins Konditional.
 Voglio un’informazione. | Vorrei un’informazione | Vorrei un’informazione.
-Mi può aiutare? | Mi potrebbe aiutare | Mi potrebbe aiutare?
+Mi può aiutare? | Mi potrebbe aiutare/Potrebbe aiutarmi | Mi potrebbe aiutare?
 Devi studiare di più. | Dovresti studiare di più | Dovresti studiare di più.
 Mi dai il tuo numero? | Mi daresti il tuo numero | Mi daresti il tuo numero?
-Sa dirmi l’ora? | Saprebbe dirmi l’ora | Saprebbe dirmi l’ora?
+Sa dirmi l’ora? | Saprebbe dirmi l’ora/Mi saprebbe dire l’ora | Saprebbe dirmi l’ora?
 Preferisco il turno di mattina. | Preferirei il turno di mattina | Preferirei il turno di mattina.
 Ci fate vedere l’ufficio? | Ci fareste vedere l’ufficio | Ci fareste vedere l’ufficio?
 Potete aspettare un momento? | Potreste aspettare un momento | Potreste aspettare un momento?
@@ -407,7 +397,7 @@ Le mie colleghe sono molto [gentilmente=>gentili].
 Il tempo passa [velocamente=>velocemente].
 Fare il medico è un lavoro [difficilmente=>difficile].
 Marta è [particolare=>particolarmente] brava in matematica.
-! Con un verbo → avverbio (lavora bene). Con un nome o dopo essere → aggettivo (sono gentili). || Beim Verb → Adverb (lavora bene). Beim Nomen oder nach essere → Adjektiv (sono gentili).
+! Con un verbo → avverbio (lavora bene). Con un nome o dopo essere → aggettivo (sono gentili). Davanti a un aggettivo → avverbio (particolarmente brava). || Beim Verb → Adverb (lavora bene). Beim Nomen oder nach essere → Adjektiv (sono gentili). Vor einem Adjektiv → Adverb (particolarmente brava).
 
 %übung schwer | La lettera di Giulia
 ?luecke | Aggettivo o avverbio? Scrivi la forma giusta della parola tra parentesi. || Adjektiv oder Adverb? Schreibe die richtige Form des Wortes in Klammern.
@@ -494,10 +484,6 @@ Ho dormito {malissimo*|benissimo|meglio}: sono stanchissimo.
 - Il secondo colloquio è andato peggiore del primo.
 - Il secondo colloquio è andato più peggio del primo.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Luca corre più velocemente di Marco.
-- Luca corre più velocemente che Marco.
-- Luca corre velocemente più di Marco.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Vieni il più presto possibile!
 - Vieni il più presto possibilmente!
 - Vieni il presto più possibile!
@@ -505,14 +491,11 @@ Ho dormito {malissimo*|benissimo|meglio}: sono stanchissimo.
 * Dovresti studiare di più.
 - Dovresti studiare più molto.
 - Dovresti studiare il più.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Hai risposto benissimo.
-- Hai risposto buonissimo.
-- Hai risposto molto benissimo.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Parla più lentamente, per favore.
-- Parla più lentamento, per favore.
-- Parla lentamente più, per favore.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Luca corre più velocemente {di*|che|come} Marco.
+Hai risposto {benissimo*|buonissimo|molto benissimo}.
+Parla {più lentamente*|più lentamento|lentamente più}, per favore.
+! meglio / peggio con un verbo, migliore / peggiore con un nome; «als» = di. || meglio / peggio beim Verb, migliore / peggiore beim Nomen; „als“ = di.
 
 %übung mittel | In ufficio
 ?luecke | Scrivi il comparativo dell’avverbio (+ = più, – = meno). || Schreibe den Komparativ des Adverbs (+ = mehr, – = weniger).
@@ -597,7 +580,7 @@ Mi sono preparato (+ bene) [meglio] dell’ultima volta.
 Ho parlato (+ lento) [più lentamente] e ho ascoltato (+ attento) [più attentamente].
 L’anno scorso invece il colloquio è andato (++ male) [malissimo].
 Ero nervoso e ho risposto (+ male) [peggio] degli altri candidati.
-Adesso ho un posto (+ buono) [migliore], vicino a casa.
+Questo posto è (+ buono) [migliore] di quello dell’anno scorso: è anche vicino a casa.
 Devo rispondere alla direttrice il (+ presto) [più presto] possibile. A presto, Davide
 ! bene → meglio → benissimo · male → peggio → malissimo · buono (aggettivo) → migliore. || bene → meglio → benissimo · male → peggio → malissimo · buono (Adjektiv) → migliore.
 ?frei | Confronta te stesso/a con un amico o un’amica: che cosa fate meglio, peggio, di più, di meno, più velocemente …? Scrivi 5 frasi. || Vergleiche dich mit einem Freund oder einer Freundin: Was macht ihr besser, schlechter, mehr, weniger, schneller …? Schreibe 5 Sätze.

@@ -82,7 +82,8 @@
      "start": "Non conosco nessuno. (andare alle feste della scuola) → Se non conosci nessuno, …",
      "acceptedAnswers": [
       "vai alle feste della scuola",
-      "va’ alle feste della scuola"
+      "va’ alle feste della scuola",
+      "va alle feste della scuola"
      ],
      "modelAnswer": "Se non conosci nessuno, vai alle feste della scuola!"
     },
@@ -90,7 +91,8 @@
      "id": "s5",
      "start": "Il cibo non mi piace. (dirlo con gentilezza alla famiglia) → Se il cibo non ti piace, …",
      "acceptedAnswers": [
-      "dillo con gentilezza alla famiglia"
+      "dillo con gentilezza alla famiglia",
+      "dillo alla famiglia con gentilezza"
      ],
      "modelAnswer": "Se il cibo non ti piace, dillo con gentilezza alla famiglia!"
     },

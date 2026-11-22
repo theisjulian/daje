@@ -52,7 +52,7 @@
    "explanation": "Il participio concorda con lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Con ne + numero: gliene ho dati tre.",
    "explanationHelp": "Das Partizip richtet sich nach lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Mit ne + Zahl: gliene ho dati tre.",
    "type": "gap_fill",
-   "text": "– Hai dato il regalo a Matteo? – Sì, [[g1]] ieri.\n– Hai mandato la cartolina ai nonni? – Sì, [[g2]] lunedì.\n– Avete portato i dolci alla zia? – Sì, [[g3]] domenica.\n– Chi vi ha preparato le lasagne? – [[g4]] la nonna.\n– Chi ti ha fatto questa foto? – [[g5]] mio cugino.\n– Luca ti ha restituito i guanti? – No, non [[g6]] ancora.\n– Hai detto la verità a tua madre? – Sì, [[g7]].\n– Quanti cioccolatini hai dato a tuo fratello? – [[g8]] tre.\n– Vi hanno spiegato le regole del gioco? – Sì, [[g9]] bene.",
+   "text": "– Hai dato il regalo a Matteo? – Sì, [[g1]] ieri.\n– Hai mandato la cartolina ai nonni? – Sì, [[g2]] lunedì.\n– Avete portato i dolci alla zia? – Sì, [[g3]] domenica.\n– Chi vi ha preparato le lasagne? – [[g4]] la nonna.\n– Chi ti ha fatto questa foto? – [[g5]] mio cugino.\n– Luca ti ha restituito i guanti? – No, purtroppo non [[g6]].\n– Hai detto la verità a tua madre? – Sì, [[g7]].\n– Quanti cioccolatini hai dato a tuo fratello? – [[g8]] tre.\n– Vi hanno spiegato le regole del gioco? – Sì, [[g9]] bene.",
    "gaps": [
     {
      "id": "g1",

@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
+   "prompt": "Ricostruisci il testo dai blocchi. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante. Scrivi la lettera di ogni blocco nella posizione giusta.",
    "text": "1. [[g1]] · 2. [[g2]] · 3. [[g3]] · 4. [[g4]] · 5. [[g5]] · 6. [[g6]] · 7. [[g7]] · 8. [[g8]]",
    "gaps": [
     {

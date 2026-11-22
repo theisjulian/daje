@@ -6,9 +6,9 @@
  "title": "Piccole decisioni insieme (1)",
  "language": "it",
  "level": "A2",
- "description": "Essere und avere · Piccole decisioni insieme (1) · livello difficile.",
+ "description": "Testi e forme: ripasso · Piccole decisioni insieme (1) · livello difficile.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "schwer",
   "origin": "own",
   "order": 1132
@@ -46,7 +46,7 @@
   {
    "id": "q1s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -79,7 +79,7 @@
   {
    "id": "q2s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -111,7 +111,7 @@
   {
    "id": "q3s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -135,7 +135,7 @@
   {
    "id": "q4s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",

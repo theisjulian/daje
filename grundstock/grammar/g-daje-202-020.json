@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-daje-202-020",
- "title": "Synonyme im Kontext",
+ "title": "Sinonimi nel contesto",
  "language": "it",
  "level": "A1",
- "description": "Essere und avere · Synonyme im Kontext · livello facile.",
+ "description": "Testi e forme: ripasso · Sinonimi nel contesto · livello facile.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "leicht",
   "origin": "own",
   "order": 1020

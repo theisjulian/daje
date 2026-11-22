@@ -93,7 +93,8 @@
    "definition": "Veicolo con quattro ruote.",
    "example": "L’automobile è nuova.",
    "acceptedAnswers": [
-    "l’auto"
+    "l’auto",
+    "l’automobile"
    ],
    "usage": "f."
   },
@@ -278,7 +279,8 @@
    "example": "Traggo vantaggio dallo studio.",
    "related": "L trahere",
    "acceptedAnswers": [
-    "trarre, tratto"
+    "trarre, tratto",
+    "trarre"
    ],
    "usage": "p.p. tratto"
   },
@@ -313,7 +315,8 @@
    "family": "il/la turista",
    "related": "E tourism",
    "acceptedAnswers": [
-    "il turismo"
+    "il turismo",
+    "il turismo balneare"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -335,7 +338,8 @@
    "example": "La città attrae molti turisti.",
    "related": "E to attract",
    "acceptedAnswers": [
-    "attrarre, attratto"
+    "attrarre, attratto",
+    "attrarre"
    ],
    "usage": "p.p. attratto"
   },

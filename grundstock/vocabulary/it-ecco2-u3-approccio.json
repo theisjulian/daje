@@ -224,7 +224,8 @@
    "definition": "Arrivare in un luogo.",
    "example": "Raggiungo la stazione in dieci minuti.",
    "acceptedAnswers": [
-    "raggiungere, raggiunto"
+    "raggiungere, raggiunto",
+    "raggiungere"
    ],
    "usage": "p.p. raggiunto"
   },
@@ -325,7 +326,8 @@
    "example": "Prendo la metro per andare a scuola.",
    "related": "F le métro",
    "acceptedAnswers": [
-    "la metro"
+    "la metro",
+    "la metropolitana"
    ],
    "grammar": {
     "partOfSpeech": "noun",

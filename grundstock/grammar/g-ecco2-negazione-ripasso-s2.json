@@ -50,7 +50,7 @@
    "prompt": "Completa il testo con: mai, niente, nessuno, più, ancora, neanche, né.",
    "promptHelp": "Ergänze den Text mit: mai, niente, nessuno, più, ancora, neanche, né.",
    "type": "gap_fill",
-   "text": "Sabato mattina, all’improvviso, Internet a casa nostra non funzionava [[g1]].\nHo spento e riacceso il router, ma non è cambiato [[g2]].\nIo non potevo chattare, e [[g3]] mio fratello poteva giocare online.\nNon avevamo [[g4]] la TV [[g5]] la radio: da noi tutto funziona con Internet!\nHo telefonato a tre amici, ma [[g6]] di loro aveva tempo.\nAlle sei di sera il tecnico non era [[g7]] arrivato.\nCosì ho preso un libro: non ho [[g8]] letto così tanto in un giorno!\nLa sera abbiamo giocato a carte e [[g9]] ha guardato il telefono.\nForse un giorno senza Internet non è [[g10]] di grave!",
+   "text": "Sabato mattina, all’improvviso, Internet a casa nostra non funzionava [[g1]].\nHo spento e riacceso il router, ma non è cambiato [[g2]].\nIo non potevo chattare, e [[g3]] mio fratello poteva giocare online.\nNon avevamo [[g4]] la TV [[g5]] la radio: da noi tutto funziona con Internet!\nHo telefonato a tre amici, ma [[g6]] di loro aveva tempo.\nIl tecnico doveva venire alle tre, ma alle sei di sera non c’era [[g7]].\nCosì ho preso un libro: non ho [[g8]] letto così tanto in un giorno!\nLa sera abbiamo giocato a carte e [[g9]] ha guardato il telefono.\nForse un giorno senza Internet non è [[g10]] di grave!",
    "gaps": [
     {
      "id": "g1",

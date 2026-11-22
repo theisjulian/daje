@@ -81,7 +81,8 @@
      "id": "s4",
      "start": "«Parli inglese?» → Chiede …",
      "acceptedAnswers": [
-      "se parlo inglese"
+      "se parlo inglese",
+      "se parlo l’inglese"
      ],
      "modelAnswer": "Chiede se parlo inglese."
     },
@@ -121,7 +122,8 @@
      "id": "s9",
      "start": "«Che cosa fai nel tempo libero?» → Chiede …",
      "acceptedAnswers": [
-      "cosa faccio nel tempo libero"
+      "cosa faccio nel tempo libero",
+      "che faccio nel tempo libero"
      ],
      "modelAnswer": "Chiede che cosa faccio nel tempo libero."
     }

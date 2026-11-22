@@ -81,7 +81,7 @@
      "id": "s4",
      "start": "Prima abbiamo comprato i biglietti. Poi è arrivato Luca. → Quando è arrivato Luca, noi …",
      "acceptedAnswers": [
-      "avevamo già comprato i biglietti"
+      "avevamo già comprato"
      ],
      "modelAnswer": "Quando è arrivato Luca, noi avevamo già comprato i biglietti."
     },
@@ -97,7 +97,7 @@
      "id": "s6",
      "start": "Prima hai fatto la valigia. Poi ti ho chiamato. → Quando ti ho chiamato, tu …",
      "acceptedAnswers": [
-      "avevi già fatto la valigia"
+      "avevi già fatto"
      ],
      "modelAnswer": "Quando ti ho chiamato, tu avevi già fatto la valigia."
     },

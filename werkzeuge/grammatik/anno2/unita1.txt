@@ -54,17 +54,9 @@ Ti mando tre {belle*|bei|begli} foto. Un abbraccio, Mia
 - Ho una rossa maglietta.
 - Ho rossa una maglietta.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Marta ha un amico tedesco.
-- Marta ha un tedesco amico.
-- Marta ha tedesco un amico.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Che bel film!
 - Che bello film!
 - Che film bel!
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* In cucina c’è un tavolo rotondo.
-- In cucina c’è un rotondo tavolo.
-- In cucina c’è rotondo un tavolo.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * È un bell’albergo.
 - È un bel albergo.
@@ -77,10 +69,11 @@ Ti mando tre {belle*|bei|begli} foto. Un abbraccio, Mia
 * Questi fiori sono belli.
 - Questi fiori sono bei.
 - Questi fiori sono begli.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Leggo un libro italiano.
-- Leggo un italiano libro.
-- Leggo italiano un libro.
+?auswahl | Prima o dopo il nome? Scegli. || Vor oder nach dem Nomen? Wähle.
+Marta ha un {amico tedesco*|tedesco amico} a Monaco.
+In cucina c’è un {tavolo rotondo*|rotondo tavolo}.
+A scuola leggiamo un {libro italiano*|italiano libro}.
+! Nazionalità, forma e colore stanno dopo il nome. || Nationalität, Form und Farbe stehen nach dem Nomen.
 
 %übung mittel | Le foto delle vacanze
 ?luecke | Completa con la forma giusta di bello. || Ergänze die richtige Form von bello.
@@ -271,7 +264,7 @@ Colombo è arrivato in America nel 1492: nel [millequattrocentonovantadue].
 Il Colosseo ha quasi 2.000 anni: quasi [duemila] anni.
 In Italia ci sono 20 regioni e quasi 8.000 comuni: quasi [ottomila] comuni.
 Il Monte Bianco è alto più di 4.800 metri: più di [quattromilaottocento] metri.
-Nel 1990 i Mondiali di calcio sono stati in Italia: nel [millenovecentonovanta].
+Nel 1990 i Mondiali di calcio si sono giocati in Italia: nel [millenovecentonovanta].
 L’Italia ha vinto i Mondiali nel 2006: nel [duemilasei].
 
 %übung schwer | Fai i conti
@@ -308,7 +301,7 @@ Signalwörter: da bambino, di solito, sempre, ogni estate, una volta (früher).
 
 %übung leicht | Chi è?
 ?sortieren | Quale persona è? Metti le forme al posto giusto. || Welche Person ist das? Ordne die Formen zu.
-Kategorien: a=io; b=tu; c=lui / lei; d=noi; e=voi; f=loro
+Kategorien: a=io; b=tu; c=lui / lei; d=noi; e=loro
 giocavo > a
 ero > a
 avevi > b
@@ -317,10 +310,10 @@ faceva > c
 dormiva > c
 andavamo > d
 bevevamo > d
-eravate > e
-leggevate > e
-erano > f
-uscivano > f
+eravamo > d
+erano > e
+uscivano > e
+leggevano > e
 ! -vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro). || -vo (io), -vi (tu), -va (lui / lei), -vamo (noi), -vate (voi), -vano (loro).
 
 %übung leicht | Da bambini
@@ -439,10 +432,10 @@ E la domenica (vedere) [si vedono] i nonni.
 In Italia la gente beve molto caffè. → In Italia … | si beve | In Italia si beve molto caffè.
 In Germania la gente mangia molte patate. → In Germania … | si mangiano | In Germania si mangiano molte patate.
 A scuola tutti rispettano le regole. → A scuola … | si rispettano | A scuola si rispettano le regole.
-In montagna la gente va a letto presto. → In montagna … | si va | In montagna si va a letto presto.
-In questo bar la gente paga alla cassa. → In questo bar … | si paga | In questo bar si paga alla cassa.
+In montagna la gente va a letto presto. → In montagna … | si va a letto | In montagna si va a letto presto.
+In questo bar la gente paga alla cassa. → In questo bar … | si paga alla cassa | In questo bar si paga alla cassa.
 In Italia la gente compra i biglietti dell’autobus in tabaccheria. → In Italia … | si comprano | In Italia si comprano i biglietti dell’autobus in tabaccheria.
-A casa mia tutti parlano italiano. → A casa mia … | si parla | A casa mia si parla italiano.
+A casa mia tutti parlano italiano. → A casa mia … | si parla italiano | A casa mia si parla italiano.
 D’estate la gente fa molte feste in piazza. → D’estate … | si fanno | D’estate si fanno molte feste in piazza.
 ! la gente / tutti + verbo → si + verbo; con un nome plurale il verbo va al plurale. || la gente / tutti + Verb → si + Verb; bei einem Nomen im Plural steht das Verb im Plural.
 
@@ -506,7 +499,7 @@ E oggi? Anche oggi, per fortuna, la domenica (mangiare) [si mangiano] le lasagne
 %übung schwer | Regole e abitudini
 ?ergaenzen | Rispondi con si + verbo al presente. || Antworte mit si + Verb im Präsens.
 I biglietti del treno? … alla stazione. (comprare) | si comprano | Si comprano alla stazione.
-Il tiramisù? … con il mascarpone. (fare) | si fa | Si fa con il mascarpone.
+Il tiramisù? … con il mascarpone. (fare) | si fa con | Si fa con il mascarpone.
 Le lasagne? … calde. (mangiare) | si mangiano | Si mangiano calde.
 La parola «perché»? … con l’accento. (scrivere) | si scrive | Si scrive con l’accento.
 ?frei | Un ragazzo italiano arriva nella tua scuola. Spiega 5 regole o abitudini con si. || Ein italienischer Junge kommt an deine Schule. Erkläre 5 Regeln oder Gewohnheiten mit si.
@@ -545,7 +538,7 @@ Sabato scorso Marta ha vinto la gara. > c
 %übung leicht | Guarda le parole chiave
 ?auswahl | Scegli il tempo giusto. Le parole chiave ti aiutano. || Wähle die richtige Zeit. Die Signalwörter helfen dir.
 Da bambino {andavo*|sono andato} ogni estate dai nonni.
-Ieri alle otto Luca {è uscito*|usciva} di casa.
+Ieri alle otto in punto Luca {è uscito*|usciva} di casa e ha preso l’autobus.
 Mentre {facevo*|ho fatto} i compiti, è arrivato un messaggio.
 Mentre dormivamo, all’improvviso {è entrato*|entrava} il gatto.
 Sabato scorso {abbiamo vinto*|vincevamo} la partita 3 a 1.
@@ -562,10 +555,6 @@ Chiara racconta: «L’anno scorso {sono stata*|ero} tre volte a Roma.»
 - Mentre ho mangiato, arrivava Paolo.
 - Mentre ho mangiato, è arrivato Paolo.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Da piccola andavo ogni estate al mare.
-- Da piccola sono andata ogni estate al mare.
-- Da piccola vado ogni estate al mare.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Ieri sono uscito alle otto e sono tornato alle dieci.
 - Ieri uscivo alle otto e sono tornato alle dieci.
 - Ieri sono uscito alle otto e tornavo alle dieci.
@@ -574,10 +563,6 @@ Chiara racconta: «L’anno scorso {sono stata*|ero} tre volte a Roma.»
 - Ieri ha fatto freddo, così mettevo la giacca.
 - Ieri faceva freddo, così mettevo la giacca.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Quando avevo cinque anni, abitavo a Bari.
-- Quando ho avuto cinque anni, ho abitato a Bari.
-- Quando ho avuto cinque anni, abitavo a Bari.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Parlavamo tutti, ma all’improvviso è entrato il preside.
 - Abbiamo parlato tutti, ma all’improvviso entrava il preside.
 - Parlavamo tutti, ma all’improvviso entrava il preside.
@@ -585,10 +570,11 @@ Chiara racconta: «L’anno scorso {sono stata*|ero} tre volte a Roma.»
 * Di solito pranzavamo a casa, ma quel giorno abbiamo mangiato fuori.
 - Di solito abbiamo pranzato a casa, ma quel giorno mangiavamo fuori.
 - Di solito pranzavamo a casa, ma quel giorno mangiavamo fuori.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Mentre Sara leggeva, suo fratello ascoltava la musica.
-- Mentre Sara ha letto, suo fratello ascoltava la musica.
-- Mentre Sara ha letto, suo fratello ha ascoltato la musica.
+?auswahl | Scegli il tempo giusto. || Wähle die richtige Zeit.
+Quando avevo cinque anni, {abitavo*|ho abitato} a Bari.
+Da piccola Marta {aveva*|ha avuto} i capelli lunghi.
+Mentre Sara {leggeva*|ha letto}, suo fratello ascoltava la musica.
+! Età, descrizione e mentre → imperfetto. || Alter, Beschreibung und mentre → imperfetto.
 
 %übung mittel | Il messaggio nella bottiglia
 ?luecke | Davide racconta. Metti i verbi all’imperfetto o al passato prossimo. || Davide erzählt. Setze die Verben ins imperfetto oder ins passato prossimo.
@@ -624,8 +610,7 @@ bel tempo.
 Quando
 sono arrivata,
 tutti
-dormivano
-già.
+dormivano già.
 
 @thema riflessivi-passato | 1 · Ricordi | Ripasso | Verbi riflessivi al passato | 6
 #lehrplan Jgst. 9 · reflexive Verben im passato prossimo und imperfetto
@@ -693,7 +678,7 @@ Ciao, sono Matteo. Ieri mattina (svegliarsi) [mi sono svegliato] tardi: erano gi
 (alzarsi) [Mi sono alzato] subito e (lavarsi) [mi sono lavato] in due minuti.
 Mia sorella Elena, invece, (prepararsi) [si è preparata] con calma.
 Io (vestirsi) [mi sono vestito] in fretta e (mettersi) [mi sono messo] due calze diverse!
-Poi io ed Elena (sedersi) [ci siamo seduti] sull’autobus sbagliato.
+Sull’autobus io ed Elena (sedersi) [ci siamo seduti] in fondo, vicino ai nostri compagni.
 A scuola i miei compagni (divertirsi) [si sono divertiti] molto quando hanno visto le mie calze.
 Anche la prof (mettersi) [si è messa] a ridere.
 Solo io non (divertirsi) [mi sono divertito] per niente.

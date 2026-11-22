@@ -51,7 +51,7 @@
    "explanation": "Nelle fiabe: passato remoto per le azioni (prese, vide, disse), imperfetto per le descrizioni (c’era, viveva).",
    "explanationHelp": "Im Märchen: passato remoto für Handlungen, imperfetto für Beschreibungen.",
    "type": "gap_choice",
-   "text": "C’era una volta un giovane pescatore che viveva in un piccolo paese sul mare.\nUn giorno **prese** (= [[g1]]) la sua barca e **andò** (= [[g2]]) al largo.\nNella rete **vide** (= [[g3]]) un pesce d’oro.\nIl pesce **disse** (= [[g4]]): «Lasciami libero e un giorno ti aiuterò.»\nIl pescatore **ebbe** (= [[g5]]) pietà e lo **mise** (= [[g6]]) di nuovo in acqua.\nQuella sera a casa sua **vennero** (= [[g7]]) tutti i vicini: sulla tavola c’era un grande tesoro.\nIl pescatore **fu** (= [[g8]]) molto felice e **fece** (= [[g9]]) una grande festa.\nE tutti **vissero** (= [[g10]]) felici e contenti.",
+   "text": "C’era una volta un giovane pescatore che viveva in un piccolo paese sul mare.\nUn giorno **prese** (= [[g1]]) la sua barca e **andò** (= [[g2]]) al largo.\nNella rete **vide** (= [[g3]]) un pesce d’oro.\nIl pesce **disse** (= [[g4]]): «Lasciami libero e un giorno ti aiuterò.»\nIl pescatore **ebbe** (= [[g5]]) pietà e lo **mise** (= [[g6]]) di nuovo in acqua.\nQuella sera sulla tavola c’era un grande tesoro, e a casa sua **vennero** (= [[g7]]) tutti i vicini per vederlo.\nIl pescatore **fu** (= [[g8]]) molto felice e **fece** (= [[g9]]) una grande festa.\nE tutti **vissero** (= [[g10]]) felici e contenti.",
    "gaps": [
     {
      "id": "g1",

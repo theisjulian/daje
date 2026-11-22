@@ -74,7 +74,8 @@
      "id": "s3",
      "start": "Giulia mi ha salutato come se … (noi: non litigare mai)",
      "acceptedAnswers": [
-      "non avessimo mai litigato"
+      "non avessimo mai litigato",
+      "non avessimo litigato mai"
      ],
      "modelAnswer": "Giulia mi ha salutato come se non avessimo mai litigato."
     },

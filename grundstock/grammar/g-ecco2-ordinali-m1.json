@@ -52,7 +52,7 @@
    "explanation": "L’ordinale concorda con il nome: la quindicesima edizione, il ventesimo anniversario.",
    "explanationHelp": "Die Ordnungszahl richtet sich nach dem Nomen: la quindicesima edizione, il ventesimo anniversario.",
    "type": "gap_fill",
-   "text": "Quest’anno il festival della nostra scuola festeggia la (15) [[g1]] edizione.\nPer il coro, invece, è il (20) [[g2]] anniversario.\nIn programma ci sono trenta gruppi: il nostro è il (23) [[g3]].\nLa (11) [[g4]] canzone del concerto è la mia preferita.\nSiamo seduti nella (14) [[g5]] fila.\nL’anno scorso la nostra band è arrivata al (13) [[g6]] posto.\nMio cugino abita al (16) [[g7]] piano: da lì sente tutta la musica della piazza!\nÈ la (30) [[g8]] volta che ascolto questa canzone.\nI miei nonni festeggiano il (50) [[g9]] anniversario di matrimonio con una serenata.\nLa (100) [[g10]] persona che entra vince una maglietta del festival.",
+   "text": "Quest’anno il festival della nostra scuola festeggia la (15) [[g1]] edizione.\nPer il coro, invece, è il (20) [[g2]] anniversario.\nIn programma ci sono trenta gruppi: il nostro è il (23) [[g3]].\nSara canta per (11) [[g4]]: la sua canzone è la mia preferita.\nSiamo seduti nella (14) [[g5]] fila.\nL’anno scorso la nostra band è arrivata al (13) [[g6]] posto.\nMio cugino abita al (16) [[g7]] piano: da lì sente tutta la musica della piazza!\nÈ la (30) [[g8]] volta che ascolto questa canzone.\nI miei nonni festeggiano il (50) [[g9]] anniversario di matrimonio con una serenata.\nLa (100) [[g10]] persona che entra vince una maglietta del festival.",
    "gaps": [
     {
      "id": "g1",

@@ -283,7 +283,7 @@
    "definition": "Essere alto un certo numero di metri.",
    "example": "Questa montagna ha un’altezza di 3000 metri.",
    "acceptedAnswers": [
-    "avere un’altezza di metri"
+    "avere un’altezza di 6500 metri"
    ]
   },
   {
@@ -369,7 +369,8 @@
    "definition": "Essere situato in un luogo.",
    "example": "Milano si trova nel nord Italia.",
    "acceptedAnswers": [
-    "trovarsi"
+    "trovarsi",
+    "trovarsi nel nord"
    ]
   },
   {
@@ -381,7 +382,7 @@
    "definition": "A poca distanza dai monti.",
    "example": "Il villaggio è vicino alle montagne.",
    "acceptedAnswers": [
-    "vicino alle"
+    "vicino alle montagne"
    ]
   },
   {
@@ -394,7 +395,7 @@
    "definition": "A poca distanza dal mare.",
    "example": "Casa mia non è lontana dal mare.",
    "acceptedAnswers": [
-    "non lontano dal"
+    "non lontano dal mare"
    ]
   },
   {
@@ -435,7 +436,10 @@
    "definition": "Essere caratteristico di un luogo.",
    "example": "Il tiramisù è tipico dell’Italia.",
    "acceptedAnswers": [
-    "tipico/-a"
+    "tipico/-a",
+    "essere tipico/-a",
+    "essere tipico",
+    "essere tipica"
    ]
   },
   {
@@ -447,7 +451,10 @@
    "definition": "Essere conosciuto per una cosa.",
    "example": "Venezia è famosa per i canali.",
    "acceptedAnswers": [
-    "famoso/-a per …"
+    "famoso/-a per …",
+    "essere famoso/-a per …",
+    "essere famoso per …",
+    "essere famosa per …"
    ]
   }
  ],

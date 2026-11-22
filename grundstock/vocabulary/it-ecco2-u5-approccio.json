@@ -54,7 +54,7 @@
    "definition": "Molto vicino a.",
    "example": "Casa mia è a due passi da scuola.",
    "acceptedAnswers": [
-    "a da"
+    "a due passi da"
    ]
   },
   {
@@ -294,7 +294,8 @@
    "definition": "Nel centro di qualcosa.",
    "example": "La casa è in mezzo al bosco.",
    "acceptedAnswers": [
-    "in mezzo"
+    "in mezzo",
+    "in mezzo a"
    ],
    "usage": "prep."
   },

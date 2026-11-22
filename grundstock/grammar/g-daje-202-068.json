@@ -49,14 +49,6 @@
    "prompt": "Classifica le parole secondo il significato indicato. (parte 1/2)",
    "categories": [
     {
-     "id": "c1",
-     "label": "come?"
-    },
-    {
-     "id": "c2",
-     "label": "dove?"
-    },
-    {
      "id": "c3",
      "label": "quando?"
     },
@@ -136,14 +128,6 @@
     {
      "id": "c2",
      "label": "dove?"
-    },
-    {
-     "id": "c3",
-     "label": "quando?"
-    },
-    {
-     "id": "c4",
-     "label": "quanto?"
     }
    ],
    "items": [

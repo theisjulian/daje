@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Essere o avere? Scegli l’ausiliare giusto.",
    "promptHelp": "Essere oder avere? Wähle das richtige Hilfsverb.",
-   "explanation": "Come al passato prossimo: verbi di movimento, restare, riflessivi → essere; gli altri → avere.",
-   "explanationHelp": "Wie im passato prossimo: Bewegungsverben, restare, reflexive Verben → essere; die anderen → avere.",
+   "explanation": "Come al passato prossimo: verbi di movimento, rimanere / restare, riflessivi e anche cominciare / finire senza oggetto (la festa è cominciata) → essere; gli altri → avere.",
+   "explanationHelp": "Wie im passato prossimo: Bewegungsverben, rimanere / restare, reflexive Verben und auch cominciare / finire ohne Objekt (la festa è cominciata) → essere; die anderen → avere.",
    "type": "gap_choice",
    "text": "Penso che Luca [[g1]] andato al Palio di Siena.\nCredo che la nonna [[g2]] preparato i tortellini.\nSpero che i ragazzi [[g3]] arrivati in tempo.\nMi sembra che la festa [[g4]] cominciata alle otto.\nÈ possibile che Sara [[g5]] rimasta a casa.\nNon credo che voi [[g6]] visto i fuochi d’artificio.\nPeccato che tu non [[g7]] venuto al Carnevale!\nTemo che i bambini [[g8]] mangiato troppi dolci.\nSono contenta che vi [[g9]] divertiti.\nPenso che la Befana [[g10]] portato il carbone a mio fratello!",
    "gaps": [

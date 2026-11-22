@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Leggi che cosa è successo e completa la frase ipotetica.",
    "promptHelp": "Lies, was passiert ist, und ergänze den Bedingungssatz.",
-   "explanation": "Realtà: non ho studiato → ipotesi: se avessi studiato. Attenzione alla negazione!",
-   "explanationHelp": "Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Achte auf die Verneinung!",
+   "explanation": "Realtà: non ho studiato → ipotesi: se avessi studiato. Realtà: ho perso l’autobus → ipotesi: se non avessi perso l’autobus. Attenzione alla negazione!",
+   "explanationHelp": "Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Wirklichkeit: ho perso l’autobus → Annahme: se non avessi perso l’autobus. Achte auf die Verneinung!",
    "type": "sentence_completion",
    "items": [
     {
@@ -63,11 +63,11 @@
     },
     {
      "id": "s2",
-     "start": "Luca non è venuto, quindi non ha conosciuto Amina. → Se Luca fosse venuto, …",
+     "start": "Luca è rimasto a casa, quindi ha perso il concerto. → Se Luca fosse venuto con noi, …",
      "acceptedAnswers": [
-      "avrebbe conosciuto Amina"
+      "non avrebbe perso il concerto"
      ],
-     "modelAnswer": "Se Luca fosse venuto, avrebbe conosciuto Amina."
+     "modelAnswer": "Se Luca fosse venuto con noi, non avrebbe perso il concerto."
     },
     {
      "id": "s3",
@@ -79,43 +79,43 @@
     },
     {
      "id": "s4",
-     "start": "Pioveva, quindi i ragazzi non sono usciti. → Se non avesse piovuto, i ragazzi …",
+     "start": "Pioveva, quindi i ragazzi sono rimasti a casa. → Se non avesse piovuto, i ragazzi …",
      "acceptedAnswers": [
-      "sarebbero usciti"
+      "non sarebbero rimasti a casa"
      ],
-     "modelAnswer": "Se non avesse piovuto, i ragazzi sarebbero usciti."
+     "modelAnswer": "Se non avesse piovuto, i ragazzi non sarebbero rimasti a casa."
     },
     {
      "id": "s5",
-     "start": "Non mi hai chiamato, quindi non ti ho aiutato. → Se tu …, ti avrei aiutato.",
+     "start": "Hai spento il telefono, quindi non ti ho trovato. → Se tu …, ti avrei trovato.",
      "acceptedAnswers": [
-      "mi avessi chiamato"
+      "non avessi spento il telefono"
      ],
-     "modelAnswer": "Se tu mi avessi chiamato, ti avrei aiutato."
+     "modelAnswer": "Se tu non avessi spento il telefono, ti avrei trovato."
     },
     {
      "id": "s6",
-     "start": "I ragazzi non hanno letto l’avviso, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi.",
+     "start": "I ragazzi hanno perso l’autobus, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi.",
      "acceptedAnswers": [
-      "avessero letto l’avviso"
+      "non avessero perso l’autobus"
      ],
-     "modelAnswer": "Se i ragazzi avessero letto l’avviso, non sarebbero arrivati tardi."
+     "modelAnswer": "Se i ragazzi non avessero perso l’autobus, non sarebbero arrivati tardi."
     },
     {
      "id": "s7",
-     "start": "Giulia non ha messo la crema, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata.",
+     "start": "Giulia ha dimenticato la crema solare, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata.",
      "acceptedAnswers": [
-      "avesse messo la crema"
+      "non avesse dimenticato la crema"
      ],
-     "modelAnswer": "Se Giulia avesse messo la crema, non si sarebbe bruciata."
+     "modelAnswer": "Se Giulia non avesse dimenticato la crema solare, non si sarebbe bruciata."
     },
     {
      "id": "s8",
-     "start": "Luca e Paolo non sono partiti presto, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico.",
+     "start": "Luca e Paolo sono partiti tardi, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico.",
      "acceptedAnswers": [
-      "fossero partiti presto"
+      "non fossero partiti tardi"
      ],
-     "modelAnswer": "Se Luca e Paolo fossero partiti presto, non avrebbero trovato traffico."
+     "modelAnswer": "Se Luca e Paolo non fossero partiti tardi, non avrebbero trovato traffico."
     }
    ]
   }

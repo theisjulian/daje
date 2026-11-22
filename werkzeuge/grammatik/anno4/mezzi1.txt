@@ -453,7 +453,7 @@ Sie lässt ihr Handy im Laden reparieren. > a
 Meine Eltern lassen mich allein nach Rom fahren. > b
 Lass mich bitte ausreden! > b
 Er lässt sein Auto waschen. > a
-Der Trainer lässt mich heute nicht mitspielen. > b
+Lass die Suppe noch fünf Minuten kochen. > b
 Wir lassen die Einladungen drucken. > a
 
 %übung leicht | La forma giusta
@@ -462,7 +462,7 @@ Il computer non funziona: domani lo faccio {riparare*|riparato|riparo}.
 Ho i capelli troppo lunghi: sabato mi faccio {tagliare*|tagliato|a tagliare} i capelli.
 Questo video è divertente: {te lo faccio*|faccio te lo|te faccio lo} vedere subito.
 Quando arrivi, {fammelo*|mi lo fai|fa mi lo} sapere!
-Sto parlando: {lasciami*|mi lascia|lascia mi} finire, per favore!
+Sto parlando: {lasciami*|mi lasciare|lascia mi} finire, per favore!
 La prof ha fatto {leggere*|letto|leggendo} il testo a tutta la classe.
 I miei genitori mi lasciano {uscire*|uscito|a uscire} il sabato sera.
 Ieri Giulia si {è*|ha} fatta tagliare i capelli.
@@ -513,8 +513,7 @@ da sola.
 Abbiamo
 fatto
 riparare
-la macchina
-dal meccanico.
+la macchina dal meccanico.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
@@ -629,10 +628,10 @@ E oggi i nonni dicono che in tutti questi anni (divertirsi) [si sono divertiti] 
 
 %übung mittel | Con dovere, potere, volere
 ?ergaenzen | Scrivi la frase al passato prossimo. Ci sono due soluzioni giuste: basta scriverne una. || Schreibe den Satz im passato prossimo. Es gibt zwei richtige Lösungen: eine genügt.
-Luca: «Devo alzarmi alle cinque.» → Ieri Luca dice: «…» | mi sono dovuto alzare/ho dovuto alzarmi | Mi sono dovuto alzare alle cinque. / Ho dovuto alzarmi alle cinque.
-Sara: «Non posso fermarmi.» → Ieri Sara dice: «…» | non mi sono potuta fermare/non ho potuto fermarmi | Non mi sono potuta fermare. / Non ho potuto fermarmi.
-Davide: «Voglio iscrivermi al corso.» → Ieri Davide dice: «…» | mi sono voluto iscrivere/ho voluto iscrivermi | Mi sono voluto iscrivere al corso. / Ho voluto iscrivermi al corso.
-Chiara e Giulia: «Dobbiamo prepararci in fretta.» → «…» | ci siamo dovute preparare/abbiamo dovuto prepararci | Ci siamo dovute preparare in fretta. / Abbiamo dovuto prepararci in fretta.
+Luca: «Devo alzarmi alle cinque.» → Luca: «Ieri …» | mi sono dovuto alzare/ho dovuto alzarmi | Mi sono dovuto alzare alle cinque. / Ho dovuto alzarmi alle cinque.
+Sara: «Non posso fermarmi.» → Sara: «Ieri …» | non mi sono potuta fermare/non ho potuto fermarmi | Non mi sono potuta fermare. / Non ho potuto fermarmi.
+Davide: «Voglio iscrivermi al corso.» → Davide: «Ieri …» | mi sono voluto iscrivere/ho voluto iscrivermi | Mi sono voluto iscrivere al corso. / Ho voluto iscrivermi al corso.
+Chiara e Giulia: «Dobbiamo prepararci in fretta.» → Chiara e Giulia: «Ieri …» | ci siamo dovute preparare/abbiamo dovuto prepararci | Ci siamo dovute preparare in fretta. / Abbiamo dovuto prepararci in fretta.
 I ragazzi non possono addormentarsi. → Ieri i ragazzi … | non si sono potuti addormentare/non hanno potuto addormentarsi | Ieri i ragazzi non si sono potuti addormentare. / Ieri i ragazzi non hanno potuto addormentarsi.
 Matteo deve scusarsi con la prof. → Ieri Matteo … | si è dovuto scusare/ha dovuto scusarsi | Ieri Matteo si è dovuto scusare con la prof. / Ieri Matteo ha dovuto scusarsi con la prof.
 Giulia vuole riposarsi un po’. → Ieri Giulia … | si è voluta riposare/ha voluto riposarsi | Ieri Giulia si è voluta riposare un po’. / Ieri Giulia ha voluto riposarsi un po’.

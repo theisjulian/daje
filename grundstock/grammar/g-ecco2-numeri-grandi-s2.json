@@ -50,7 +50,7 @@
    "prompt": "Scrivi i numeri in lettere.",
    "promptHelp": "Schreibe die Zahlen in Buchstaben.",
    "type": "gap_fill",
-   "text": "Il Po è lungo 652 chilometri: [[g1]] chilometri.\nRoma ha quasi 3.000.000 di abitanti: quasi [[g2]] di abitanti.\nL’Italia è unita dal 1861: dal [[g3]].\nL’Italia è una repubblica dal 1946: dal [[g4]].\nColombo è arrivato in America nel 1492: nel [[g5]].\nIl Colosseo ha quasi 2.000 anni: quasi [[g6]] anni.\nIn Italia ci sono 20 regioni e quasi 8.000 comuni: quasi [[g7]] comuni.\nIl Monte Bianco è alto più di 4.800 metri: più di [[g8]] metri.\nNel 1990 i Mondiali di calcio sono stati in Italia: nel [[g9]].\nL’Italia ha vinto i Mondiali nel 2006: nel [[g10]].",
+   "text": "Il Po è lungo 652 chilometri: [[g1]] chilometri.\nRoma ha quasi 3.000.000 di abitanti: quasi [[g2]] di abitanti.\nL’Italia è unita dal 1861: dal [[g3]].\nL’Italia è una repubblica dal 1946: dal [[g4]].\nColombo è arrivato in America nel 1492: nel [[g5]].\nIl Colosseo ha quasi 2.000 anni: quasi [[g6]] anni.\nIn Italia ci sono 20 regioni e quasi 8.000 comuni: quasi [[g7]] comuni.\nIl Monte Bianco è alto più di 4.800 metri: più di [[g8]] metri.\nNel 1990 i Mondiali di calcio si sono giocati in Italia: nel [[g9]].\nL’Italia ha vinto i Mondiali nel 2006: nel [[g10]].",
    "gaps": [
     {
      "id": "g1",

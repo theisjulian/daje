@@ -265,7 +265,8 @@
    "example": "Mi impegno nel volontariato.",
    "synonyms": "darsi da fare",
    "acceptedAnswers": [
-    "impegnarsi"
+    "impegnarsi",
+    "impegnarsi in qs"
    ]
   },
   {
@@ -414,7 +415,8 @@
    "definition": "Prendere qualcosa da terra o da più posti.",
    "example": "Raccolgo le mele nel frutteto.",
    "acceptedAnswers": [
-    "raccogliere, raccolto"
+    "raccogliere, raccolto",
+    "raccogliere"
    ],
    "usage": "p.p. raccolto"
   },
@@ -487,7 +489,8 @@
    "definition": "Essere valido; anche avere un certo valore.",
    "example": "Questa regola vale per tutti.",
    "acceptedAnswers": [
-    "valere, valso"
+    "valere, valso",
+    "valere"
    ],
    "usage": "p.p. valso"
   },

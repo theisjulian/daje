@@ -52,7 +52,7 @@
    "explanation": "telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.",
    "explanationHelp": "telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.",
    "type": "error_correction",
-   "text": "Hai il biglietto? – Sì, [[g1]].\nQuanti fratelli hai? – [[g2]] ho due.\nBasta, sono stanco: [[g3]] vado!\nVai alla riunione? – Sì, [[g4]] vado con Luca.\nHai telefonato a Giulia? – Sì, [[g5]] ho telefonato ieri.\nHai dato il libro a Marco? – Sì, [[g6]] ho dato.\nQuante mele ci sono? – [[g7]] sono sei.\nHo comprato le pizze e [[g8]] ho mangiate con gli amici.",
+   "text": "Hai il biglietto? – Sì, [[g1]].\nQuanti fratelli hai? – [[g2]] ho due.\nBasta, sono stanco: [[g3]] vado!\nVai alla riunione? – Sì, [[g4]] vado con Luca.\nHai telefonato a Giulia? – Sì, [[g5]] ho telefonato ieri.\nDai tu il libro a Marco? – Sì, [[g6]] do domani.\nQuante mele ci sono? – [[g7]] sono sei.\nHo comprato le pizze e [[g8]] ho mangiate con gli amici.",
    "errors": [
     {
      "id": "g1",

@@ -15,9 +15,10 @@ Per **presentare una statistica** o un sondaggio usiamo queste espressioni:
 | **circa**, **quasi** | più o meno / un po’ meno di |
 Prima di **per cento** c’è sempre l’**articolo**: _**il** 20 per cento_, ma _**l’**8 per cento, **l’**11 per cento, **l’**80 per cento_ (otto, undici, ottanta cominciano con una vocale) e _**lo** 0 per cento_.
 _**La metà** della classe preferisce il Natale. **Uno** studente **su** quattro ha scelto il Carnevale. **Rispetto all’**anno scorso le risposte sono **in aumento**._
+Dopo _il … per cento di, la metà di, un terzo di, la maggior parte di_ il verbo è di solito al **singolare**: _Il 40 per cento degli studenti **preferisce** il Natale._
 #regel-de
 Redemittel für **Statistiken und Umfragen**: _il 40 per cento di_ (40 Prozent der …), _la metà_ (die Hälfte), _un terzo / un quarto_ (ein Drittel / Viertel), _la maggior parte_ (die meisten), _uno su tre_ (einer von dreien – mit **su**, nicht mit di oder da), _in aumento / in calo_ (steigend / sinkend), _rispetto a_ (im Vergleich zu), _circa_ (ungefähr), _quasi_ (fast).
-Anders als im Deutschen steht vor der Prozentzahl immer der **Artikel**: _il 20 per cento_, vor Vokal _l’8, l’11, l’80 per cento_, bei null _lo 0 per cento_. „Die Hälfte“ heißt **la metà** (nicht _la mezza_).
+Anders als im Deutschen steht vor der Prozentzahl immer der **Artikel**: _il 20 per cento_, vor Vokal _l’8, l’11, l’80 per cento_, bei null _lo 0 per cento_. „Die Hälfte“ heißt **la metà** (nicht _la mezza_). Nach _il … per cento di, la metà di, un terzo di, la maggior parte di_ steht das Verb meist im **Singular**: _Il 40 per cento degli studenti preferisce …_ (deutsch: 40 Prozent der Schüler bevorzug**en** …).
 
 %übung leicht | Numeri e parole
 ?zuordnen | Abbina l’espressione al numero. || Verbinde den Ausdruck mit der Zahl.
@@ -80,7 +81,7 @@ il 10 per cento = uno su … | dieci | uno su dieci
 più del 50 per cento = la … parte | maggior | la maggior parte
 il 100 per cento degli studenti = … gli studenti | tutti | tutti gli studenti
 lo 0 per cento degli studenti = … studente | nessuno | nessuno studente
-Il numero sale. = Il numero è in … | aumento | Il numero è in aumento.
+Il numero sale. = Il numero è in … | aumento/crescita | Il numero è in aumento.
 Il numero scende. = Il numero è in … | calo/diminuzione | Il numero è in calo. (anche: in diminuzione)
 
 %übung mittel | Costruisci la frase
@@ -172,7 +173,7 @@ Peccato che tu non {sia*|abbia} venuto al Carnevale!
 Temo che i bambini {abbiano*|siano} mangiato troppi dolci.
 Sono contenta che vi {siate*|abbiate} divertiti.
 Penso che la Befana {abbia*|sia} portato il carbone a mio fratello!
-! Come al passato prossimo: verbi di movimento, restare, riflessivi → essere; gli altri → avere. || Wie im passato prossimo: Bewegungsverben, restare, reflexive Verben → essere; die anderen → avere.
+! Come al passato prossimo: verbi di movimento, rimanere / restare, riflessivi e anche cominciare / finire senza oggetto (la festa è cominciata) → essere; gli altri → avere. || Wie im passato prossimo: Bewegungsverben, rimanere / restare, reflexive Verben und auch cominciare / finire ohne Objekt (la festa è cominciata) → essere; die anderen → avere.
 
 %übung leicht | Presente o passato?
 ?sortieren | Congiuntivo presente o congiuntivo passato? || Congiuntivo presente oder congiuntivo passato?
@@ -263,7 +264,7 @@ Temo che adesso Marco {dorma*|abbia dormito} ancora.
 ?luecke | Dopo la Befana la nonna scrive a Giulia. Congiuntivo presente o passato? Decidi tu. || Nach dem Dreikönigsfest schreibt die Oma an Giulia. Congiuntivo presente oder passato? Entscheide selbst.
 Cara Giulia, spero che ieri sera tu (arrivare) [sia arrivata] bene a Monaco.
 Penso che il viaggio (essere) [sia stato] lungo.
-Mi dispiace che le vacanze (finire) [siano finite] così presto!
+Mi dispiace che le tue vacanze qui (finire) [siano finite] già ieri!
 Credo che adesso tu (avere) [abbia] molto da studiare.
 È bello che per la Befana noi (stare) [siamo stati] tutti insieme.
 Spero che la calza con i dolci ti (piacere) [sia piaciuta].
@@ -369,9 +370,9 @@ Piove. La processione parte lo stesso. (benché) | Benché piova | Benché piova
 Il museo è chiuso. I turisti aspettano davanti alla porta. (sebbene) | Sebbene il museo sia chiuso | Sebbene il museo sia chiuso, i turisti aspettano davanti alla porta.
 La guida parla lentamente. Così i turisti capiscono tutto. (affinché) | affinché i turisti capiscano tutto | La guida parla lentamente affinché i turisti capiscano tutto.
 Gli ospiti arrivano. Prima la nonna apparecchia la tavola. (prima che) | prima che arrivino gli ospiti/prima che gli ospiti arrivino | La nonna apparecchia la tavola prima che arrivino gli ospiti. (anche: prima che gli ospiti arrivino)
-Luca può venire alla festa. Condizione: porta un dolce. (a patto che) | a patto che porti un dolce | Luca può venire alla festa a patto che porti un dolce.
+Luca può venire alla festa. Condizione: porta un dolce. (a patto che) | a patto che porti un dolce/a patto che lui porti un dolce | Luca può venire alla festa a patto che porti un dolce.
 Domani facciamo il picnic di Pasquetta. Solo la pioggia può fermarci. (a meno che non) | a meno che non piova | Domani facciamo il picnic di Pasquetta, a meno che non piova.
-Sara esce di casa. I genitori non lo sanno. (senza che) | senza che i genitori lo sappiano | Sara esce di casa senza che i genitori lo sappiano.
+Sara esce di casa. I genitori non lo sanno. (senza che) | senza che i genitori lo sappiano/senza che lo sappiano i genitori | Sara esce di casa senza che i genitori lo sappiano.
 Forse fa freddo. Porto una giacca. (nel caso che) | nel caso che faccia freddo | Porto una giacca nel caso che faccia freddo.
 Il biglietto costa molto. Vado al concerto lo stesso. (anche se) | Anche se il biglietto costa molto | Anche se il biglietto costa molto, vado al concerto lo stesso.
 ! Tutte con il congiuntivo, solo anche se con l’indicativo. || Alle mit congiuntivo, nur anche se mit Indikativ.
@@ -407,7 +408,7 @@ Lo usiamo:
 - dopo **magari** (desiderio): _Magari **avessi** più tempo!_
 - dopo **come se**: _Parla come se **sapesse** tutto._
 #regel-de
-**Congiuntivo imperfetto:** Endungen -assi / -essi / -issi, -assi …, -asse …, -assimo, -aste, -assero. io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.
+**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.
 Gebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob).
 
 %übung leicht | Le forme
@@ -639,14 +640,10 @@ Dai il carbone dolce ai bambini? – Sì, {glielo*|gliela|ce lo} do.
 - Ho dato le chiavi a Marco.
 - Ho dato i biglietti a te.
 * Ho dato i biglietti a Marco.
-?mc | «Gliene regalo tre.» Che cosa può significare? || Was kann der Satz bedeuten?
-* Regalo tre maschere ai bambini.
-- Regalo tre maschere a voi.
-- Regalo una maschera ai bambini.
-?mc | «Te la racconto stasera.» Che cosa può significare? || Was kann der Satz bedeuten?
-- Racconto il film a te.
-* Racconto la storia a te.
-- Racconto la storia a lei.
+?auswahl | E queste frasi? Scegli la parola che va bene. || Und diese Sätze? Wähle das passende Wort.
+«Gliene regalo tre.» = Regalo tre maschere {ai bambini*|a voi|a te}.
+«Te la racconto stasera.» = Stasera racconto {la storia*|il film|le storie} a te.
+«Ce li porta Luca.» = Luca porta {i biglietti*|le pizze|il libro} a noi.
 
 %übung mittel | Sì, certo!
 ?ergaenzen | Rispondi con un pronome combinato. || Antworte mit einem kombinierten Pronomen.
@@ -682,7 +679,7 @@ Mi dai due biscotti? – Sì, … | te ne do due | Sì, te ne do due.
 – Avete portato i dolci alla zia? – Sì, [glieli abbiamo portati] domenica.
 – Chi vi ha preparato le lasagne? – [Ce le ha preparate] la nonna.
 – Chi ti ha fatto questa foto? – [Me l’ha fatta/Me la ha fatta] mio cugino.
-– Luca ti ha restituito i guanti? – No, non [me li ha restituiti] ancora.
+– Luca ti ha restituito i guanti? – No, purtroppo non [me li ha restituiti].
 – Hai detto la verità a tua madre? – Sì, [gliel’ho detta/gliela ho detta].
 – Quanti cioccolatini hai dato a tuo fratello? – [Gliene ho dati] tre.
 – Vi hanno spiegato le regole del gioco? – Sì, [ce le hanno spiegate] bene.

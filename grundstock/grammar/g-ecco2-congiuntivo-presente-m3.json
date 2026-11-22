@@ -105,7 +105,8 @@
      "id": "s7",
      "start": "Secondo me, puoi fidarti di lei. → Credo che …",
      "acceptedAnswers": [
-      "possa fidarti di lei"
+      "possa fidarti di lei",
+      "ti possa fidare di lei"
      ],
      "modelAnswer": "Credo che tu possa fidarti di lei."
     },

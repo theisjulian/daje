@@ -52,7 +52,7 @@
    "explanation": "Trapassato prossimo: imperfetto di essere / avere + participio. Con essere il participio concorda.",
    "explanationHelp": "Trapassato prossimo: Imperfekt von essere / avere + Partizip; bei essere wird das Partizip angeglichen.",
    "type": "error_correction",
-   "text": "Quando sono arrivata alla stazione, il treno [[g1]] già partito.\nSara non è venuta alla festa perché era [[g2]] a casa con la febbre.\nAvevo già [[g3]] tre mail, ma nessuno aveva risposto.\nQuando siamo entrati in classe, la lezione [[g4]].\nI ragazzi erano stanchi perché [[g5]] camminato tutto il giorno.\nSiamo arrivati tardi perché avevamo [[g6]] il treno sbagliato.\nLe mie sorelle [[g7]] già uscite quando ho telefonato.\nLuca conosceva bene Londra perché ci [[g8]] già stato due volte.\nAppena [[g9]] arrivata a casa, ha cominciato a piovere.",
+   "text": "Quando sono arrivata alla stazione, il treno [[g1]] già partito.\nSara non è venuta alla festa perché era [[g2]] a casa con la febbre.\nAvevo già [[g3]] tre mail, ma nessuno aveva risposto.\nQuando siamo entrati in classe, la lezione [[g4]].\nI ragazzi erano stanchi perché [[g5]] camminato tutto il giorno.\nSiamo arrivati tardi perché avevamo [[g6]] il treno sbagliato.\nLe mie sorelle [[g7]] già uscite quando ho telefonato.\nLuca conosceva bene Londra perché ci [[g8]] già stato due volte.\n[[g9]] appena arrivata a casa quando ha cominciato a piovere.",
    "errors": [
     {
      "id": "g1",
@@ -112,9 +112,9 @@
     },
     {
      "id": "g9",
-     "wrong": "avevo",
+     "wrong": "Avevo",
      "acceptedAnswers": [
-      "ero"
+      "Ero"
      ]
     }
    ]

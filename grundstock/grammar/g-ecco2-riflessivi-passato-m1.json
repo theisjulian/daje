@@ -52,7 +52,7 @@
    "explanation": "Un ragazzo e una ragazza insieme → participio maschile plurale: ci siamo seduti.",
    "explanationHelp": "Ein Junge und ein Mädchen zusammen → Partizip maskulin Plural: ci siamo seduti.",
    "type": "gap_fill",
-   "text": "Ciao, sono Matteo. Ieri mattina (svegliarsi) [[g1]] tardi: erano già le sette e mezza!\n(alzarsi) [[g2]] subito e (lavarsi) [[g3]] in due minuti.\nMia sorella Elena, invece, (prepararsi) [[g4]] con calma.\nIo (vestirsi) [[g5]] in fretta e (mettersi) [[g6]] due calze diverse!\nPoi io ed Elena (sedersi) [[g7]] sull’autobus sbagliato.\nA scuola i miei compagni (divertirsi) [[g8]] molto quando hanno visto le mie calze.\nAnche la prof (mettersi) [[g9]] a ridere.\nSolo io non (divertirsi) [[g10]] per niente.",
+   "text": "Ciao, sono Matteo. Ieri mattina (svegliarsi) [[g1]] tardi: erano già le sette e mezza!\n(alzarsi) [[g2]] subito e (lavarsi) [[g3]] in due minuti.\nMia sorella Elena, invece, (prepararsi) [[g4]] con calma.\nIo (vestirsi) [[g5]] in fretta e (mettersi) [[g6]] due calze diverse!\nSull’autobus io ed Elena (sedersi) [[g7]] in fondo, vicino ai nostri compagni.\nA scuola i miei compagni (divertirsi) [[g8]] molto quando hanno visto le mie calze.\nAnche la prof (mettersi) [[g9]] a ridere.\nSolo io non (divertirsi) [[g10]] per niente.",
    "gaps": [
     {
      "id": "g1",

@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "ordering",
-   "prompt": "Ricostruisci il testo dai blocchi. Motiva i collegamenti temporali e i riferimenti. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante.",
+   "prompt": "Ricostruisci il testo dai blocchi. Il modello propone un ordine; eventuali alternative coerenti vanno discusse con l’insegnante.",
    "items": [
     {
      "id": "p1",

@@ -71,19 +71,19 @@
     },
     {
      "id": "s3",
-     "start": "Non abbiamo vinto. → Magari …",
+     "start": "Abbiamo perso la partita. → Magari …",
      "acceptedAnswers": [
-      "avessimo vinto"
+      "non avessimo perso"
      ],
-     "modelAnswer": "Magari avessimo vinto!"
+     "modelAnswer": "Magari non avessimo perso la partita!"
     },
     {
      "id": "s4",
-     "start": "Non ho preso l’ombrello. → Magari …",
+     "start": "Ho dimenticato l’ombrello. → Magari …",
      "acceptedAnswers": [
-      "avessi preso l’ombrello"
+      "non avessi dimenticato l’ombrello"
      ],
-     "modelAnswer": "Magari avessi preso l’ombrello!"
+     "modelAnswer": "Magari non avessi dimenticato l’ombrello!"
     },
     {
      "id": "s5",
@@ -103,11 +103,11 @@
     },
     {
      "id": "s7",
-     "start": "Chiara non è rimasta. → Magari Chiara …",
+     "start": "Chiara è andata via presto. → Magari Chiara …",
      "acceptedAnswers": [
-      "fosse rimasta"
+      "non fosse andata via"
      ],
-     "modelAnswer": "Magari Chiara fosse rimasta!"
+     "modelAnswer": "Magari Chiara non fosse andata via così presto!"
     },
     {
      "id": "s8",

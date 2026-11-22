@@ -48,7 +48,6 @@
    "type": "gap_fill",
    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
    "text": "Caro Davide, ti scrivo [[g1]] (provenienza) una piccola isola dove mia zia vive da anni. Prima della partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso [[g2]] (capire, io) che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e dalle persone che si incontrano.\nIeri [[g3]] (uscire, io femminile) presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. Una signora [[g4]] (chiedere, a me) se conoscevo la strada per la scuola. Lei aveva abitato sull’isola [[g5]] bambina, ma non riconosceva più il quartiere. L’edificio era stato trasformato in una sala per incontri.\nL’ho accompagnata e abbiamo trovato una mostra [[g6]] disegni. Suo padre compariva in una fotografia all’ingresso. La signora [[g7]] (fermarsi) a guardarla a lungo; io aspettavo accanto [[g8]] porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato una storia che nessuna guida avrebbe potuto conoscere.\nOggi [[g9]] (piovere), così resto in casa con i miei appunti. Non [[g10]] (cercare, io) di ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia [[g11]] (in + il) suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. [[g12]] presto, Giada.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",

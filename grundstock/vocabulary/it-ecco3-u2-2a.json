@@ -182,6 +182,8 @@
    "family": "il sogno",
    "acceptedAnswers": [
     "sognare qs",
+    "sognare di fare qs",
+    "sognare di fare",
     "sognare"
    ],
    "contrast": "sognare una vacanza – von einem Urlaub träumen; sognare di andare in vacanza – davon träumen, in den Urlaub zu fahren"
@@ -714,7 +716,8 @@
    "definition": "Si dice per salutare.",
    "example": "Ciao ragazzi, alla prossima!",
    "acceptedAnswers": [
-    "Alla prossima!"
+    "Alla prossima!",
+    "Alla prossima volta!"
    ],
    "usage": "espr."
   }

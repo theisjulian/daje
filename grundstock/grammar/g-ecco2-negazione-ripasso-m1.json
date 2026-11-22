@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Hai già finito i compiti? (ancora) – No, …",
      "acceptedAnswers": [
-      "non ho ancora finito"
+      "non ho ancora finito",
+      "non li ho ancora finiti"
      ],
      "modelAnswer": "No, non ho ancora finito i compiti."
     },
@@ -73,7 +74,8 @@
      "id": "s3",
      "start": "Hai comprato qualcosa online? (niente) – No, …",
      "acceptedAnswers": [
-      "non ho comprato niente"
+      "non ho comprato niente",
+      "non ho comprato nulla"
      ],
      "modelAnswer": "No, non ho comprato niente."
     },
@@ -89,7 +91,8 @@
      "id": "s5",
      "start": "Usi ancora il vecchio telefono? (più) – No, …",
      "acceptedAnswers": [
-      "non uso più"
+      "non uso più",
+      "non lo uso più"
      ],
      "modelAnswer": "No, non uso più il vecchio telefono."
     },
@@ -115,7 +118,8 @@
      "id": "s8",
      "start": "C’è qualcosa di nuovo sul sito? (niente) – No, …",
      "acceptedAnswers": [
-      "non c’è niente di nuovo"
+      "non c’è niente di nuovo",
+      "non c’è nulla di nuovo"
      ],
      "modelAnswer": "No, non c’è niente di nuovo."
     }

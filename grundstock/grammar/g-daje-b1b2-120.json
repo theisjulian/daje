@@ -48,7 +48,6 @@
    "type": "gap_fill",
    "prompt": "Completa il testo con gli articoli (determinativi o indeterminativi).",
    "text": "Dietro la mensa scolastica c’era [[g1]] spazio che nessuno usava. L’erba cresceva fra le pietre e il cancello rimaneva quasi sempre chiuso. Alcuni studenti avevano proposto di trasformarlo in [[g2]] giardino, ma [[g3]] progetto era rimasto in un cassetto. Quando la nuova preside lo ha letto, ha invitato gli autori a discuterne.\nLa prima riunione non è stata semplice. [[g4]] gruppo voleva piantare fiori, [[g5]] altro preferiva gli ortaggi. La cuoca aveva chiesto alcune erbe aromatiche; il custode aveva segnalato [[g6]] problema con l’acqua. Prima di comprare qualcosa, abbiamo misurato lo spazio e abbiamo osservato dove arrivava [[g7]] sole.\nIl sabato successivo sono venute anche alcune famiglie. [[g8]] madre aveva portato guanti di varie misure, mentre [[g9]] vicino aveva preparato due cassette di legno. Noi lavoravamo a piccoli gruppi. Chi non conosceva gli attrezzi chiedeva aiuto, e nessuno aveva fretta di finire.\nA giugno il giardino non era perfetto. Alcune piante sono cresciute, altre no. Abbiamo capito che [[g10]] fotografia del primo giorno non racconta tutto [[g11]] lavoro necessario dopo. Perciò abbiamo organizzato i turni estivi e abbiamo lasciato un quaderno vicino alla porta. Ogni gruppo scrive quello che osserva, anche quando non succede niente di spettacolare. [[g12]] giardino ci insegna soprattutto a tornare.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",

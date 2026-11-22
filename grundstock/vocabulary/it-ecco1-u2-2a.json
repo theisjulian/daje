@@ -478,7 +478,8 @@
    "definition": "Grande contenitore dove ci si lava nell’acqua.",
    "example": "Faccio il bagno nella vasca.",
    "acceptedAnswers": [
-    "la vasca"
+    "la vasca",
+    "la vasca da bagno"
    ],
    "usage": "pl. le vasche",
    "grammar": {
@@ -522,7 +523,7 @@
    "acceptedAnswers": [
     "cercare"
    ],
-   "usage": "Abc"
+   "usage": "pres. cerco, cerchi, cerca, cerchiamo, cercate, cercano"
   },
   {
    "id": "u2-2a-032",

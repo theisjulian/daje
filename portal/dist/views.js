@@ -619,7 +619,14 @@ function questionHTML(x, q, index, state) {
       last = m.index + m[0].length;
     }
     // Wortkasten: alle Lösungen (erste Schreibweise) und Zusatzwörter, alphabetisch.
-    const bank = q.wordBank ? [...new Set([...q.gaps.map(g => g.acceptedAnswers[0]), ...(q.extraWords || [])])].sort((a, b) => a.localeCompare(b)) : [];
+    // Groß-/Kleinschreibung zählt nicht: „Hai“ und „hai“ sind ein Wort im Kasten (die kleingeschriebene Form bleibt).
+    const bankMap = new Map();
+    if (q.wordBank)
+      [...q.gaps.map(g => g.acceptedAnswers[0]), ...(q.extraWords || [])].forEach(w => {
+        const k = w.toLocaleLowerCase();
+        if (!bankMap.has(k) || (bankMap.get(k) !== k && w === k)) bankMap.set(k, w);
+      });
+    const bank = [...bankMap.values()].sort((a, b) => a.localeCompare(b));
     field = `${bank.length ? `<p class="q-hint">Tippe ein Wort an oder ziehe es in die Lücke. Du kannst auch selbst schreiben.</p><div class="word-bank" lang="${x.language}">${bank.map(w => `<button type="button" class="wb-chip" data-ix-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
   } else if (q.type === 'true_false_ng')
     field = option('true', 'Richtig') + option('false', 'Falsch') + option('not_given', 'Nicht im Text');
@@ -653,7 +660,7 @@ function questionHTML(x, q, index, state) {
       `<p class="gap-text ec-text" lang="${x.language}">${gapHTML(q.text, (id, n) => {
         const e = q.errors.find(v => v.id === id);
         const val = ownPart(parts, id) ? parts[id] : '';
-        return `<span class="ec"><s>${esc(e.wrong)}</s> <input class="gap${mark(sameAnswer(e.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(22, Math.max(...e.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Korrektur ${n}"></span>`;
+        return `<span class="ec"><s>${esc(e.wrong)}</s> <input class="gap${gapSize(e.acceptedAnswers) === 3 ? ' gap-short' : ''}${mark(sameAnswer(e.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${gapSize(e.acceptedAnswers)}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Korrektur ${n}"></span>`;
       })}</p>`;
   else if (q.type === 'table_fill')
     field = `<div class="tbl-wrap"><table class="fill-table" lang="${x.language}"><thead><tr>${q.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${q.rows
@@ -681,8 +688,7 @@ function questionHTML(x, q, index, state) {
     field = q.items
       .map((it, n) => {
         const val = ownPart(parts, it.id) ? parts[it.id] : '';
-        const loose = t => String(t).normalize('NFC').toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-        const ok = loose(val) && it.acceptedAnswers.some(a => loose(val).includes(loose(a)));
+        const ok = it.acceptedAnswers.some(a => TheisContent.containsKey(val, a));
         return `<label class="sc-row${mark(ok)}"><span class="sc-start" lang="${x.language}">${esc(it.start)}</span><input class="sc-input" data-listen-part="${q.id}" data-part="${it.id}" value="${esc(val)}" maxlength="200" lang="${x.language}" autocomplete="off" aria-label="Satz ${n + 1} ergänzen"></label>`;
       })
       .join('');
@@ -960,7 +966,7 @@ function ruleHTML(text, lang) {
     .map(({ lines }) => {
       if (lines.every(l => /^\s*\|/.test(l))) {
         const rows = lines.filter(l => !/^\s*\|[\s:|-]*-[\s:|-]*$/.test(l)).map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
-        return `<table class="rule-table"><thead><tr>${rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td lang="${lang}">${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+        return `<div class="rule-scroll"><table class="rule-table"><thead><tr>${rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td lang="${lang}">${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
       }
       if (lines.every(l => /^\s*- /.test(l))) return `<ul>${lines.map(l => `<li>${inline(l.replace(/^\s*- /, ''))}</li>`).join('')}</ul>`;
       return `<p>${lines.map(inline).join('<br>')}</p>`;
@@ -996,7 +1002,7 @@ function readingHTML(x) {
 }
 function grammarSideHTML(x) {
   const g = x.grammar;
-  return readingHTML(x) + (g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary>${ruleBodyHTML(g.rule, g.ruleHelp, x.language)}</details>` : '');
+  return readingHTML(x) + (g.rule ? `<details class="rule-card rule-fold"${window.innerWidth >= 760 ? ' open' : ''}><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary>${ruleBodyHTML(g.rule, g.ruleHelp, x.language)}</details>` : '');
 }
 function renderListening(preview = false) {
   const x = currentLesson();

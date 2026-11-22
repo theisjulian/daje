@@ -49,16 +49,8 @@
    "prompt": "Classifica le parole secondo il significato indicato. (parte 1/4)",
    "categories": [
     {
-     "id": "c1",
-     "label": "per cucinare"
-    },
-    {
      "id": "c2",
      "label": "per apparecchiare"
-    },
-    {
-     "id": "c3",
-     "label": "per pulire il pavimento"
     },
     {
      "id": "c4",
@@ -119,16 +111,8 @@
      "label": "per cucinare"
     },
     {
-     "id": "c2",
-     "label": "per apparecchiare"
-    },
-    {
      "id": "c3",
      "label": "per pulire il pavimento"
-    },
-    {
-     "id": "c4",
-     "label": "per lavare i vestiti"
     }
    ],
    "items": [
@@ -180,20 +164,12 @@
    "prompt": "Classifica le parole secondo il significato indicato. (parte 3/4)",
    "categories": [
     {
-     "id": "c1",
-     "label": "per dormire"
-    },
-    {
      "id": "c2",
      "label": "per studiare"
     },
     {
      "id": "c3",
      "label": "per lavarsi"
-    },
-    {
-     "id": "c4",
-     "label": "per conservare gli alimenti"
     }
    ],
    "items": [
@@ -247,14 +223,6 @@
     {
      "id": "c1",
      "label": "per dormire"
-    },
-    {
-     "id": "c2",
-     "label": "per studiare"
-    },
-    {
-     "id": "c3",
-     "label": "per lavarsi"
     },
     {
      "id": "c4",

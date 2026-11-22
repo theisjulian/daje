@@ -48,7 +48,6 @@
    "type": "gap_fill",
    "prompt": "Completa il testo. Dove ci sono, usa le indicazioni tra parentesi.",
    "text": "Quando [[g1]] (leggere, io, passato prossimo) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere, imperfetto) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione [[g3]] una festa e possedevo alcune competenze utili. Nella candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g4]] gruppo.\nLa responsabile mi ha invitato a [[g5]] colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come avrei reagito [[g6]] un errore durante uno spettacolo. «Chiederei aiuto», ho risposto. «E prima [[g7]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\n[[g8]] contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. [[g9]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor [[g10]] (a me, il narratore) ha seguito nelle prove. Ogni sera prendevo appunti su quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",

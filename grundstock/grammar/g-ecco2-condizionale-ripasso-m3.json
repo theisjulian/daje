@@ -49,7 +49,7 @@
    "id": "q1",
    "prompt": "Dai un consiglio con il condizionale (io).",
    "promptHelp": "Gib einen Rat mit dem Konditional (ich-Form).",
-   "explanation": "al posto tuo + condizionale = an deiner Stelle würde ich …",
+   "explanation": "Con «al posto tuo» + condizionale diamo un consiglio.",
    "explanationHelp": "al posto tuo + Konditional = an deiner Stelle würde ich …",
    "type": "sentence_completion",
    "items": [

@@ -2,7 +2,9 @@
 /*
  * Neu würfeln: Übungen, die bei jeder Runde neue Wörter ziehen. Grundlage sind die Wortlisten des Lernjahrs
  * (Nomen mit Artikel und Genus) und die Verbtabellen (verbs.js). Die Formen entstehen nach festen Regeln;
- * unsichere Fälle (Plural auf -co/-go/-io, Fremdwörter, Sprachen, Nomen mit Akzent am Ende) werden ausgelassen.
+ * unsichere Fälle (Plural auf -co/-go/-io, Fremdwörter, Sprachen, Nomen mit Akzent am Ende, Mehrwortausdrücke,
+ * Nomen mit zwei Geschlechtern) werden ausgelassen. Nomen mit l’ haben in den Wortlisten kein grammar-Objekt; ihr Genus
+ * kommt aus der Angabe „m.“/„f.“ oder aus der Endung.
  * Eine Runde ist ein gewöhnliches Grammatikpaket (kind „grammar“, ID „wf-…“) und läuft über dieselbe Aufgabenansicht.
  * Die aktuelle Runde liegt im Browser (daje-wuerfel-v1), damit Neuladen und Zurück-Taste funktionieren.
  */
@@ -26,7 +28,36 @@ const wfPickN = (a, n) => wfShuffle(a).slice(0, n);
 const APO = '’';
 
 /* ---------- Wörter ---------- */
-const WF_SKIP = new Set(['burro', 'calma', 'zucchero', 'sangue', 'oro', 'ferro', 'olio', 'riso', 'pazienza', 'fortuna', 'salute', 'aria', 'pace', 'storia', 'matematica', 'fisica', 'chimica', 'biologia', 'arte', 'ginnastica', 'religione', 'informatica', 'filosofia', 'economia', 'natura', 'moda', 'fame', 'sete', 'italiano', 'francese', 'tedesco', 'inglese', 'sardo', 'arabo', 'spagnolo', 'cinese', 'russo', 'latino', 'greco', 'portoghese', 'giapponese', 'turco', 'latte', 'gente', 'acqua', 'sale', 'pepe', 'carne', 'frutta', 'verdura', 'pasta', 'musica', 'pioggia', 'neve', 'fame', 'sete', 'paura']);
+/* Unzählbares, Schulfächer, Sprachen, Abstrakta: kein Plural und kein unbestimmter Artikel (un burro, un caos). */
+const WF_SKIP = new Set([
+  'burro', 'calma', 'zucchero', 'sangue', 'oro', 'ferro', 'olio', 'riso', 'pazienza', 'fortuna', 'salute', 'aria', 'pace', 'storia', 'matematica', 'fisica', 'chimica', 'biologia', 'arte', 'ginnastica', 'religione', 'informatica', 'filosofia', 'economia', 'natura', 'moda', 'fame', 'sete',
+  'italiano', 'francese', 'tedesco', 'inglese', 'sardo', 'arabo', 'spagnolo', 'cinese', 'russo', 'latino', 'greco', 'portoghese', 'giapponese', 'turco', 'ladino',
+  'latte', 'gente', 'acqua', 'sale', 'pepe', 'carne', 'frutta', 'verdura', 'pasta', 'musica', 'pioggia', 'neve', 'paura', 'aglio',
+  'fama', 'ciclismo', 'caldo', 'chiasso', 'fascino', 'settentrione', 'meridione', 'mezzogiorno', 'nord', 'sud', 'est', 'ovest', 'percento', 'disoccupazione', 'corruzione', 'consapevolezza', 'concorrenza', 'giustizia', 'pesca', 'fanatismo', 'roba', 'caos', 'giurisprudenza', 'turismo',
+  'entusiasmo', 'orgoglio', 'estero', 'adolescenza', 'infanzia', 'agricoltura', 'importanza', 'inquinamento', 'immigrazione', 'integrazione', 'istruzione', 'antimafia', 'ingegneria', 'architettura', 'eccellenza', 'efficienza', 'utilizzo', 'orientamento', 'insieme', 'verde', 'prevenzione', 'sintonia', 'passato', 'futuro', 'concentrazione', 'meccanica', 'geometria', 'età'
+]);
+/* Unveränderliche Wörter, die der Fremdwort-Filter in wfPlural nicht erkennt */
+const WF_INVAR = new Set(['stage', 'reportage', 'pappamolle', 'garage', 'collage', 'beige']);
+/* Nomen mit zwei Geschlechtern (il/la turista): il und la wären beide richtig, deshalb bleiben sie draußen. */
+const WF_BOTH = new Set(['turista', 'ciclista', 'parente', 'collega', 'cantante', 'custode', 'testimone', 'artista', 'atleta', 'insegnante', 'abitante', 'ospite', 'giornalista', 'regista', 'pilota', 'dentista', 'farmacista', 'nipote', 'giovane', 'preside', 'cliente', 'interprete', 'adulto']);
+function wfBothGenders(noun, usage, de) {
+  if (WF_BOTH.has(noun) || /^m\.\s*\/\s*f\./.test(usage)) return true;
+  // „f. la turista“: die weibliche Form ist dasselbe Wort
+  if (new RegExp('f\\. (la |l[’\'])' + noun.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![\\p{L}])', 'u').test(usage)) return true;
+  // deutsche Entsprechung nennt beide Geschlechter: der/die Tourist/-in
+  return /\bder\/die\b|\/-?in(nen)?\b/.test(de);
+}
+/* Genus für Einträge ohne grammar-Objekt (alle Nomen mit l’): aus usage („m.“, „f.“, „pl. gli …“), sonst aus der Endung; unsicher → null */
+function wfGuessGender(noun, usage) {
+  if (/^m\./.test(usage)) return 'm';
+  if (/^f\./.test(usage)) return 'f';
+  if (/\bpl\. gli\s/.test(usage)) return 'm';
+  if (/\bpl\. le\s/.test(usage)) return 'f';
+  if (/([zsg]ione|tà|tù)$/.test(noun)) return 'f';
+  if (/o$/.test(noun)) return 'm';
+  if (/a$/.test(noun)) return 'f';
+  return null;
+}
 /* Lektionen eines Lernjahrs (aus den Wortlisten), in Buchreihenfolge */
 function wfUnits(band) {
   const units = new Set();
@@ -35,6 +66,35 @@ function wfUnits(band) {
     if (t && isCourseSeries(t.series) && Number(t.volume || 1) === band && t.unit) units.add(t.unit);
   });
   return [...units].sort((a, b) => grUnitNo(a) - grUnitNo(b));
+}
+/* Ein Wortlisten-Eintrag als Nomen { noun, art, g, de, countable, indef, plHint } oder null, wenn er sich nicht eignet */
+function wfNounOf(e) {
+  const g = e.grammar || {};
+  const usage = String(e.usage || '');
+  // „il disco, i dischi“: die Pluralangabe hinter dem Komma gehört nicht zum Wort
+  const target = String(e.target).normalize('NFC').replace(/,\s*(i|gli|le)\s+\S+$/, '');
+  let m;
+  if (g.partOfSpeech === 'noun') {
+    if (!['il', 'lo', 'la', "l'", 'l’'].includes(g.article)) return null;
+    m = target.match(/^(il|lo|la)\s+(.+)$/) || target.match(/^(l['’])\s*(.+)$/);
+  } else if (!e.grammar) {
+    // Nomen mit l’ stehen ohne grammar-Objekt in den Wortlisten
+    if (/\b(avv|agg|prep|pron)\./.test(usage)) return null;
+    m = target.match(/^(l['’])\s*(.+)$/);
+  }
+  if (!m) return null;
+  const noun = m[2].trim();
+  // keine Mehrwortausdrücke (la maggior parte di, il mare del Nord), keine Eigennamen, keine Doppelformen (amico/-a)
+  if (!noun || /[()/…;,.!?\s]|\d/.test(noun) || noun[0] !== noun[0].toLocaleLowerCase()) return null;
+  const de = (e.translations || [])[0] || '';
+  if (wfBothGenders(noun, usage, de)) return null;
+  const gender = g.gender ? (g.gender === 'feminine' ? 'f' : 'm') : wfGuessGender(noun, usage);
+  if (!gender) return null;
+  // Plural nur bei zählbaren deutschen Entsprechungen mit Artikel, ohne Schulfächer
+  const countable = /^(der|die|das)\s/.test(de) && !/Schulfach|Sprache/.test(de) && !WF_SKIP.has(noun);
+  const ph = usage.match(/(?:^|[\s;,.])pl\.\s+(i|gli|le)\s+([\p{L}’']+)/u);
+  // Die deutsche Bedeutung bleibt mit Artikel stehen: ohne ihn stünde ein gebeugtes Adjektiv allein („erste Gang“, „Grüne“).
+  return { noun, art: m[1].replace("'", APO), g: gender, de, countable, indef: !WF_SKIP.has(noun) && !/Sprache|Schulfach/.test(de), plHint: ph ? ph[1] + ' ' + ph[2] : '' };
 }
 function wfNouns() {
   const out = new Map();
@@ -45,30 +105,20 @@ function wfNouns() {
     if (vol > WF.band) return;
     if (vol === WF.band && WF.upto && grUnitNo(t.unit || '') > grUnitNo(WF.upto)) return;
     (x.entries || []).forEach(e => {
-      const g = e.grammar || {};
-      if (g.partOfSpeech !== 'noun' || !['il', 'lo', 'la', "l'", 'l’'].includes(g.article)) return;
-      const m = String(e.target).match(/^(il|lo|la|l['’])\s*(.+)$/);
-      if (!m) return;
-      const noun = m[2].trim();
-      if (!noun || /[()/…;,.!?]|\d/.test(noun) || noun[0] !== noun[0].toLocaleLowerCase() || noun.split(' ').length > 3) return;
-      const art = m[1].replace("'", APO);
-      const gender = g.gender === 'feminine' ? 'f' : 'm';
-      const de0 = (e.translations || [])[0] || '';
-      // Deutsche Bedeutung ohne Artikel anzeigen (das deutsche Geschlecht führt sonst in die Irre)
-      const de = de0.replace(/^(der|die|das)\s+/, '');
-      // Plural nur bei zählbaren deutschen Entsprechungen mit Artikel, ohne Schulfächer
-      const countable = /^(der|die|das)\s/.test(de0) && !/Schulfach/.test(de0);
-      if (!out.has(noun)) out.set(noun, { noun, art, g: gender, de, countable });
+      const n = wfNounOf(e);
+      if (n && !out.has(n.noun)) out.set(n.noun, n);
     });
   });
   return [...out.values()];
 }
+/* Nomen, die einen unbestimmten Artikel vertragen (nicht: il burro, l’italiano, il caos) */
+const wfIndefNouns = () => wfNouns().filter(n => n.indef);
 const wfIndef = n => (n.art === 'lo' ? 'uno' : n.art === 'la' ? 'una' : n.art === 'l’' ? (n.g === 'f' ? 'un’' : 'un') : 'un');
 /* Plural nur nach sicheren Regeln; sonst null */
 function wfPlural(n) {
   const w = n.noun;
-  // nur heimische, zählbare Wörter (keine Fremdwörter wie roulotte, sport, film)
-  if (!n.countable || /\s/.test(w) || /[àèéìòù]$/.test(w) || /[kwyjx]|ou|oo|ee|th|sh/.test(w) || WF_SKIP.has(w)) return null;
+  // nur heimische, zählbare Wörter (keine Fremdwörter wie roulotte, sport, film, stage)
+  if (!n.countable || /\s/.test(w) || /[àèéìòù]$/.test(w) || /[kwyjx]|ou|oo|ee|th|sh|age$/.test(w) || WF_SKIP.has(w) || WF_INVAR.has(w)) return null;
   let pl = null;
   if (n.g === 'm') {
     if (/(co|go|io|ia)$/.test(w)) return null;
@@ -82,6 +132,8 @@ function wfPlural(n) {
   }
   if (!pl) return null;
   const art = n.g === 'f' ? 'le' : n.art === 'il' ? 'i' : 'gli';
+  // Die Wortliste nennt einen anderen Plural (l’uovo → le uova, l’uomo → gli uomini): unregelmäßig, auslassen
+  if (n.plHint && n.plHint !== art + ' ' + pl) return null;
   return { pl, art };
 }
 /* Adjektive: [m. Sg., f. Sg., m. Pl., f. Pl., Deutsch] – passen zu fast allen Nomen */
@@ -114,7 +166,7 @@ const WF_DRILLS = [
     ruleHelp: 'Maskulin: **il** vor Konsonant, **lo** vor s + Konsonant, z, gn, ps, **l’** vor Vokal.\nFeminin: **la** vor Konsonant, **l’** vor Vokal.',
     ok: () => wfNouns().length >= 8,
     make(level) {
-      const ns = wfPickN(wfNouns(), level === 'schwer' ? 8 : WF_N);
+      const ns = wfPickN(level === 'schwer' ? wfIndefNouns() : wfNouns(), level === 'schwer' ? 8 : WF_N);
       if (level === 'leicht')
         return [wfChoice('Scegli l’articolo giusto.', 'Wähle den richtigen Artikel.', ns.map(n => [n.art, ['il', 'lo', 'la', 'l’'], ' ' + n.noun, n.de]), 'il, lo, la o l’? Guarda la prima lettera e il genere.', 'Achte auf den ersten Buchstaben und das Geschlecht.')];
       if (level === 'mittel')
@@ -128,9 +180,9 @@ const WF_DRILLS = [
     de: 'un, uno, una, un’',
     rule: 'Maschile: **un** (_un libro, un amico_), **uno** + s + consonante, z, gn, ps (_uno zaino_).\nFemminile: **una** + consonante (_una casa_), **un’** + vocale (_un’amica_).',
     ruleHelp: 'Maskulin: **un**, vor s + Konsonant, z, gn, ps **uno**. Feminin: **una**, vor Vokal **un’**. Maskulin vor Vokal ohne Apostroph: _un amico_.',
-    ok: () => wfNouns().length >= 8,
+    ok: () => wfIndefNouns().length >= 8,
     make(level) {
-      const ns = wfPickN(wfNouns(), WF_N);
+      const ns = wfPickN(wfIndefNouns(), WF_N);
       if (level === 'leicht')
         return [wfChoice('Scegli l’articolo giusto.', 'Wähle den richtigen Artikel.', ns.map(n => [wfIndef(n), ['un', 'uno', 'una', 'un’'], ' ' + n.noun, n.de]), 'Maschile davanti a vocale: un (senza apostrofo). Femminile: un’.', 'Maskulin vor Vokal: un (ohne Apostroph), feminin: un’.')];
       return [wfFill(level === 'schwer' ? 'Scrivi l’articolo indeterminativo. Attenzione all’apostrofo!' : 'Scrivi l’articolo indeterminativo.', 'Schreibe den unbestimmten Artikel.', ns.map(n => ['', wfAlts(wfIndef(n)), ' ' + n.noun + (level === 'schwer' ? '' : n.de ? ` (${n.de})` : '')]), 'un, uno, una o un’: come l’articolo determinativo, ma senza plurale.', 'un, uno, una oder un’: Die Regeln sind wie beim bestimmten Artikel.')];
@@ -195,7 +247,7 @@ const WF_DRILLS = [
           // lui oder lei: bei veränderlichem Partizip nur die passende Form
           const fem = Math.random() < 0.5;
           who = fem ? 'lei' : 'lui';
-          if (forms.length === 2) forms = [forms[fem ? 1 : 0]];
+          forms = vbGenderForms(v, forms, fem ? 'f' : 'm');
         }
         if (items.some(x => x.v === v && x.t === t)) continue;
         items.push({ v, t, p, who, forms });

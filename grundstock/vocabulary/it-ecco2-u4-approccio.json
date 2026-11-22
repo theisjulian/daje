@@ -389,7 +389,8 @@
    "definition": "Impresa che vende prodotti all’estero.",
    "example": "Lavora in un’azienda di export.",
    "acceptedAnswers": [
-    "l’azienda"
+    "l’azienda",
+    "l’azienda di export"
    ]
   },
   {
@@ -563,7 +564,8 @@
    "example": "Aggiungo un po’ di sale.",
    "related": "L adiungere",
    "acceptedAnswers": [
-    "aggiungere, aggiunto"
+    "aggiungere, aggiunto",
+    "aggiungere"
    ],
    "usage": "p.p. aggiunto"
   },

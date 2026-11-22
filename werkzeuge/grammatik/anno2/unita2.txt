@@ -53,17 +53,9 @@ Che noia, oggi online non succede {niente*|nessuno|né}.
 - Nessuno non ha letto il mio messaggio.
 - Non nessuno ha letto il mio messaggio.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Non ho visto niente.
-- Non ho niente visto.
-- Ho visto niente.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Non ho ancora scaricato l’app.
 - Ho ancora non scaricato l’app.
 - Non ancora ho scaricato l’app.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Non ho incontrato nessuno.
-- Non ho nessuno incontrato.
-- Ho incontrato nessuno.
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Niente è gratis su questo sito.
 - Niente non è gratis su questo sito.
@@ -72,21 +64,22 @@ Che noia, oggi online non succede {niente*|nessuno|né}.
 * Non ho né tempo né voglia.
 - Ho né tempo né voglia.
 - Non ho né tempo non voglia.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Non guardo più la TV.
-- Non più guardo la TV.
-- Guardo non più la TV.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Ieri in centro {non ho incontrato nessuno*|non ho nessuno incontrato|ho incontrato nessuno}.
+Il video era senza audio: {non ho sentito niente*|non ho niente sentito|ho sentito niente}.
+Da un mese {non guardo più*|non più guardo|guardo non più} la TV.
+! non + verbo + nessuno / niente / più. || non + Verb + nessuno / niente / più.
 
 %übung mittel | No, per niente!
 ?ergaenzen | Rispondi di no. Usa la parola tra parentesi. || Antworte verneinend. Benutze das Wort in Klammern.
-Hai già finito i compiti? (ancora) – No, … | non ho ancora finito | No, non ho ancora finito i compiti.
+Hai già finito i compiti? (ancora) – No, … | non ho ancora finito/non li ho ancora finiti | No, non ho ancora finito i compiti.
 Hai visto qualcuno in chat? (nessuno) – No, … | non ho visto nessuno | No, non ho visto nessuno.
-Hai comprato qualcosa online? (niente) – No, … | non ho comprato niente | No, non ho comprato niente.
+Hai comprato qualcosa online? (niente) – No, … | non ho comprato niente/non ho comprato nulla | No, non ho comprato niente.
 Hai mai giocato a questo gioco? (mai) – No, … | non ho mai giocato | No, non ho mai giocato a questo gioco.
-Usi ancora il vecchio telefono? (più) – No, … | non uso più | No, non uso più il vecchio telefono.
+Usi ancora il vecchio telefono? (più) – No, … | non uso più/non lo uso più | No, non uso più il vecchio telefono.
 Ti ha scritto anche Sara? (neanche) – No, … | non mi ha scritto neanche Sara/neanche Sara mi ha scritto | No, non mi ha scritto neanche Sara. (Anche: Neanche Sara mi ha scritto.)
 Parli francese o spagnolo? (né … né) – No, … | non parlo né francese né spagnolo/non parlo né il francese né lo spagnolo | No, non parlo né francese né spagnolo. (Anche: Non parlo né il francese né lo spagnolo.)
-C’è qualcosa di nuovo sul sito? (niente) – No, … | non c’è niente di nuovo | No, non c’è niente di nuovo.
+C’è qualcosa di nuovo sul sito? (niente) – No, … | non c’è niente di nuovo/non c’è nulla di nuovo | No, non c’è niente di nuovo.
 ! Passato prossimo: non ho **ancora / mai** finito, ma: non ho visto **niente / nessuno**. || Im passato prossimo: ancora / mai vor dem Partizip, niente / nessuno danach.
 
 %übung mittel | Costruisci la frase
@@ -114,7 +107,7 @@ Ho già letto la mail. → … | Non ho ancora letto la mail | Non ho ancora let
 Ho sempre usato questa password. → … | Non ho mai usato questa password | Non ho mai usato questa password.
 Gioco ancora a quel videogioco. → … | Non gioco più a quel videogioco | Non gioco più a quel videogioco.
 Ho capito tutto. → … | Non ho capito niente/Non ho capito nulla | Non ho capito niente. (Anche: Non ho capito nulla.)
-Anch’io ho un profilo. → … | Neanch’io ho un profilo/Neanche io ho un profilo | Neanch’io ho un profilo. (Anche: Neanche io ho un profilo.)
+Anch’io ho un profilo. → … | Neanch’io ho un profilo/Neanche io ho un profilo/Nemmeno io ho un profilo/Non ho un profilo neanch’io/Non ho un profilo neanche io | Neanch’io ho un profilo. (Anche: Neanche io ho un profilo.)
 Ho il telefono e il tablet. → … | Non ho né il telefono né il tablet | Non ho né il telefono né il tablet.
 Qualcuno ha commentato la foto. → … | Nessuno ha commentato la foto | Nessuno ha commentato la foto.
 ! tutti / qualcuno ↔ nessuno · già ↔ non … ancora · sempre ↔ non … mai · ancora ↔ non … più · tutto ↔ non … niente · anche ↔ neanche · e ↔ né … né. || Gegensatzpaare: già ↔ non … ancora, ancora ↔ non … più usw.
@@ -139,7 +132,7 @@ Ho spento e riacceso il router, ma non è cambiato [niente/nulla].
 Io non potevo chattare, e [neanche/nemmeno/neppure] mio fratello poteva giocare online.
 Non avevamo [né] la TV [né] la radio: da noi tutto funziona con Internet!
 Ho telefonato a tre amici, ma [nessuno] di loro aveva tempo.
-Alle sei di sera il tecnico non era [ancora] arrivato.
+Il tecnico doveva venire alle tre, ma alle sei di sera non c’era [ancora].
 Così ho preso un libro: non ho [mai] letto così tanto in un giorno!
 La sera abbiamo giocato a carte e [nessuno] ha guardato il telefono.
 Forse un giorno senza Internet non è [niente/nulla] di grave!
@@ -227,7 +220,7 @@ Mia madre vuole che io [faccia] prima i compiti.
 Spero che tu [possa] restare fino a tardi.
 Non credo che Luca [sappia] dove abito.
 Adesso è importante che io [vada] a dormire: domani ho un test!
-+ dica, diano
++ dia, diano
 
 %übung mittel | La tabella del congiuntivo
 ?tabelle | Completa la tabella con le forme del congiuntivo presente. || Ergänze die Tabelle mit den Formen des congiuntivo presente.
@@ -257,7 +250,7 @@ Secondo me, Sara ha troppe app. → Mi sembra che … | Sara abbia troppe app | 
 Secondo me, dovete cambiare password. → Penso che … | dobbiate cambiare password | Penso che dobbiate cambiare password.
 Secondo me, Luca sa usare bene il computer. → Credo che … | Luca sappia usare bene il computer | Credo che Luca sappia usare bene il computer.
 Secondo me, i social fanno perdere tempo. → Penso che … | i social facciano perdere tempo | Penso che i social facciano perdere tempo.
-Secondo me, puoi fidarti di lei. → Credo che … | possa fidarti di lei | Credo che tu possa fidarti di lei.
+Secondo me, puoi fidarti di lei. → Credo che … | possa fidarti di lei/ti possa fidare di lei | Credo che tu possa fidarti di lei.
 Secondo me, questa app non serve a niente. → Mi sembra che … | questa app non serva a niente | Mi sembra che questa app non serva a niente.
 ! secondo me + indicativo → penso / credo / mi sembra che + congiuntivo. || secondo me + Indikativ → penso / credo / mi sembra che + congiuntivo.
 
@@ -295,11 +288,11 @@ Io spero. Tu vinci il torneo. → Spero … | che tu vinca il torneo | Spero che
 Luca pensa. Luca ha ragione. → Luca pensa … | di avere ragione/di aver ragione | Luca pensa di avere ragione. (Anche: di aver ragione.)
 Luca pensa. Io ho ragione. → Luca pensa … | che io abbia ragione | Luca pensa che io abbia ragione.
 Noi crediamo. Noi sappiamo la risposta. → Crediamo … | di sapere la risposta | Crediamo di sapere la risposta.
-Noi crediamo. Voi sapete la risposta. → Crediamo … | che voi sappiate la risposta | Crediamo che voi sappiate la risposta.
+Noi crediamo. Voi sapete la risposta. → Crediamo … | che voi sappiate la risposta/che sappiate la risposta | Crediamo che voi sappiate la risposta.
 Sara spera. Sara va a Milano. → Sara spera … | di andare a Milano | Sara spera di andare a Milano.
 Sara spera. I suoi amici vanno a Milano. → Sara spera … | che i suoi amici vadano a Milano | Sara spera che i suoi amici vadano a Milano.
 Io voglio. Tu dici la verità. → Voglio … | che tu dica la verità | Voglio che tu dica la verità.
-Io voglio. Io resto a casa. → Voglio … | restare a casa | Voglio restare a casa.
+Io voglio. Io resto a casa. → … | Voglio restare a casa | Voglio restare a casa.
 ! Stesso soggetto: Spero **di vincere**. Soggetti diversi: Spero **che tu vinca**. Con volere non c’è di: Voglio **restare**. || Gleiches Subjekt: di + Infinitiv (bei volere ohne di). Verschiedene Subjekte: che + congiuntivo.
 
 %übung schwer | Un post sul forum della scuola
@@ -589,21 +582,13 @@ I miei amici giocano online ogni sera. Li vedo solo a scuola.
 * agli amici
 - alle sere
 - alla scuola
-?mc | A che cosa si riferisce **ci**? || Worauf bezieht sich **ci**?
-Vado spesso in biblioteca: ci studio con Davide.
-* alla biblioteca
-- a Davide
-- allo studio
-?mc | A che cosa si riferisce **ne**? || Worauf bezieht sich **ne**?
-Ho tante app sul telefono, ma ne uso solo tre.
-* alle app
-- al telefono
-- ai giochi
-?mc | A chi si riferisce **gli**? || Auf wen bezieht sich **gli**?
-La prof ha dato un compito ai ragazzi. Gli ha spiegato anche le regole.
-* ai ragazzi
-- alla prof
-- al compito
+?zuordnen | A chi o a che cosa si riferisce il pronome tra parentesi? Abbina. || Auf wen oder worauf bezieht sich das Pronomen in Klammern? Ordne zu.
+Vado spesso in biblioteca: ci studio con Davide. (ci) = alla biblioteca
+Ho tante app sul telefono, ma ne uso solo tre. (ne) = alle app
+La prof ha dato un compito ai ragazzi. Gli ha spiegato anche le regole. (gli) = ai ragazzi
++ a Davide
++ al telefono
++ alla prof
 
 %übung leicht | Il pronome giusto
 ?auswahl | Scegli il pronome giusto. || Wähle das richtige Pronomen.

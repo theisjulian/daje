@@ -85,7 +85,7 @@ Molti studenti imparano meglio (scrivere) [scrivendo] dei riassunti.
 (essere) [Essendo] molto nervosa, Sara preferisce studiare con un’amica.
 Il testo è difficile, ma (leggerlo) [leggendolo] due volte lo capirai.
 (dire) [Dicendo] le regole ad alta voce, Matteo le ricorda meglio.
-(bere) [Bevendo] molta acqua e (dormire) [dormendo] abbastanza, il cervello lavora meglio.
+(bere) [Bevendo] molta acqua e (dormire) [dormendo] abbastanza, ti concentri meglio.
 Hai un dubbio? (parlarne) [Parlandone] con il professore, troverai una soluzione.
 (alzarsi) [Alzandosi] presto, Davide ha tutta la mattina per ripassare.
 ! fare → facendo, dire → dicendo, bere → bevendo. Pronomi: leggendolo, parlandone, alzandosi. || Unregelmäßig: facendo, dicendo, bevendo. Pronomen werden angehängt.
@@ -222,7 +222,7 @@ Sei tu = che devi decidere.
 Siamo noi = che abbiamo scelto il film.
 Siete voi = che avete sbagliato strada.
 Sono i miei genitori = che pagano le vacanze.
-È stata la professoressa = a proporre la gita.
+È stata la professoressa a = proporre la gita.
 Quello che mi piace di più = è la musica dal vivo.
 ! Nella frase scissa il verbo dopo che concorda con la persona messa in rilievo: Sono io che pago. || Im Spaltsatz richtet sich das Verb nach che nach der hervorgehobenen Person: Sono io che pago.
 
@@ -481,10 +481,8 @@ venne = venire
 vide = vedere
 nacque = nascere
 visse = vivere
-scrisse = scrivere
 prese = prendere
 mise = mettere
-morì = morire
 
 %übung leicht | Il pescatore e il pesce d’oro
 ?auswahl | Leggi la fiaba. Quale passato prossimo corrisponde al passato remoto in grassetto? || Lies das Märchen. Welches passato prossimo entspricht dem fett gedruckten passato remoto?
@@ -493,7 +491,7 @@ Un giorno **prese** (= {ha preso*|ha perso|hanno preso}) la sua barca e **andò*
 Nella rete **vide** (= {ha visto*|ha vissuto|ha voluto}) un pesce d’oro.
 Il pesce **disse** (= {ha detto*|ha dato|hanno detto}): «Lasciami libero e un giorno ti aiuterò.»
 Il pescatore **ebbe** (= {ha avuto*|è stato|hanno avuto}) pietà e lo **mise** (= {ha messo*|ha mosso|hanno messo}) di nuovo in acqua.
-Quella sera a casa sua **vennero** (= {sono venuti*|è venuto|hanno visto}) tutti i vicini: sulla tavola c’era un grande tesoro.
+Quella sera sulla tavola c’era un grande tesoro, e a casa sua **vennero** (= {sono venuti*|è venuto|hanno visto}) tutti i vicini per vederlo.
 Il pescatore **fu** (= {è stato*|ha avuto|sono stati}) molto felice e **fece** (= {ha fatto*|ha detto|hanno fatto}) una grande festa.
 E tutti **vissero** (= {sono vissuti*|hanno visto|è vissuto}) felici e contenti.
 ! Nelle fiabe: passato remoto per le azioni (prese, vide, disse), imperfetto per le descrizioni (c’era, viveva). || Im Märchen: passato remoto für Handlungen, imperfetto für Beschreibungen.

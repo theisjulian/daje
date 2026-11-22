@@ -52,7 +52,7 @@
    "explanation": "Con essere il participio concorda: la musica → sarebbe piaciuta; Chiara e Marta → sarebbero venute.",
    "explanationHelp": "Bei essere wird das Partizip angeglichen.",
    "type": "gap_fill",
-   "text": "– Sara: Ieri alla festa del quartiere mancavi solo tu!\n– Davide: Lo so. (venire, io) [[g1]] volentieri, ma dovevo aiutare mio padre.\n– Sara: Peccato! Ti (piacere) [[g2]] la musica.\n– Davide: E i dolci? Io (assaggiare) [[g3]] tutte le torte!\n– Sara: Anche Chiara e Marta (venire) [[g4]], ma avevano una partita.\n– Davide: Voi (dovere) [[g5]] fare la festa di domenica!\n– Sara: Hai ragione, di domenica (noi, raccogliere) [[g6]] più soldi per la mensa.\n– Davide: Al tuo posto (io, chiedere) [[g7]] aiuto anche ai genitori.\n– Sara: Matteo ha scritto che (portare, lui) [[g8]] le foto in classe.\n– Davide: Sì, e la prof ha promesso che le (appendere, lei) [[g9]] nel corridoio.",
+   "text": "– Sara: Ieri alla festa del quartiere mancavi solo tu!\n– Davide: Lo so. (venire, io) [[g1]] volentieri, ma dovevo aiutare mio padre.\n– Sara: Peccato! Ti (piacere) [[g2]] la musica.\n– Davide: E i dolci? Io (assaggiare) [[g3]] tutte le torte!\n– Sara: Anche Chiara e Marta (venire) [[g4]], ma avevano una partita.\n– Davide: Voi (dovere) [[g5]] fare la festa di domenica!\n– Sara: Hai ragione, di domenica (noi, raccogliere) [[g6]] più soldi per la mensa.\n– Davide: Al tuo posto (io, chiedere) [[g7]] aiuto anche ai genitori.\n– Sara: Matteo ha scritto che (portare, lui) [[g8]] le foto in classe.\n– Davide: Sì, e la prof ha promesso che (appendere, lei) [[g9]] le più belle nel corridoio.",
    "gaps": [
     {
      "id": "g1",

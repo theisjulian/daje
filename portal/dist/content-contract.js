@@ -550,6 +550,13 @@
       .replace(/[.!?]+$/g, '')
       .trim()
       .replace(/\s+/g, ' ');
+  /* Satzergänzung: Der Schlüssel muss als ganze Wörter in der Antwort stehen („si va“ steckt nicht in „si vanno“,
+     „parli“ nicht in „parliamo“). Satzzeichen zählen nicht. */
+  const looseText = x => normAnswer(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const containsKey = (answer, key) => {
+    const a = ' ' + looseText(answer) + ' ', k = looseText(key);
+    return !!k && a.includes(' ' + k + ' ');
+  };
   function assessAnswer(q, raw) {
     const norm = normAnswer;
     if (q.type === 'single_choice') return raw === q.correctOptionId;
@@ -623,8 +630,7 @@
       const v = parts();
       {
         // Satzzeichen zählen beim Ergänzen nicht: „No non sono di Roma“ = „No, non sono di Roma.“
-        const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-        return q.items.every(it => has(v, it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))));
+        return q.items.every(it => has(v, it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a)));
       }
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
@@ -657,8 +663,7 @@
       };
       list = q.pairs.map(p => [p.id, has(p.id) && textOf(v[p.id]) !== undefined && norm(textOf(v[p.id])) === norm(p.right)]);
     } else if (q.type === 'sentence_completion') {
-      const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-      list = q.items.map(it => [it.id, !!(has(it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))))]);
+      list = q.items.map(it => [it.id, has(it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a))]);
     }
     if (q.type === 'open_answer') return { got: 0, max: 0, units: {} };
     if (!list) {
@@ -667,7 +672,7 @@
     }
     return { got: list.filter(x => x[1]).length, max: list.length, units: Object.fromEntries(list) };
   }
-  const api = { validatePackage, assessAnswer, scoreAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
+  const api = { validatePackage, assessAnswer, scoreAnswer, containsKey, normAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

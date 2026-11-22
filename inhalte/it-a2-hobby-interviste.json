@@ -64,7 +64,15 @@
         "tre ore",
         "3 ore",
         "tre ore alla settimana",
-        "3 ore alla settimana"
+        "3 ore alla settimana",
+        "tre ore a settimana",
+        "3 ore a settimana",
+        "più o meno 3 ore",
+        "più o meno tre ore",
+        "circa 3 ore",
+        "circa tre ore",
+        "più o meno 3",
+        "circa 3"
       ],
       "modelAnswer": "tre",
       "explanation": "Etwa drei Stunden pro Woche. Die Zahl reicht als Antwort."
@@ -83,7 +91,11 @@
         "due",
         "2",
         "due ore",
-        "2 ore"
+        "2 ore",
+        "due ore alla settimana",
+        "2 ore alla settimana",
+        "due ore a settimana",
+        "2 ore a settimana"
       ],
       "modelAnswer": "due",
       "explanation": "Genannt werden zwei Stunden Theater pro Woche.",

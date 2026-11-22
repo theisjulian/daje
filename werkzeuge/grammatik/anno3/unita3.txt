@@ -80,7 +80,7 @@ loro | [avrebbero aiutato] | [sarebbero partiti/sarebbero partite]
 – Sara: Hai ragione, di domenica (noi, raccogliere) [avremmo raccolto] più soldi per la mensa.
 – Davide: Al tuo posto (io, chiedere) [avrei chiesto] aiuto anche ai genitori.
 – Sara: Matteo ha scritto che (portare, lui) [avrebbe portato] le foto in classe.
-– Davide: Sì, e la prof ha promesso che le (appendere, lei) [avrebbe appeso] nel corridoio.
+– Davide: Sì, e la prof ha promesso che (appendere, lei) [avrebbe appeso] le più belle nel corridoio.
 ! Con essere il participio concorda: la musica → sarebbe piaciuta; Chiara e Marta → sarebbero venute. || Bei essere wird das Partizip angeglichen.
 
 %übung mittel | Troppo tardi!
@@ -114,7 +114,7 @@ Sabato mattina (volere, io) [avrei voluto] dormire fino a tardi, e invece alle o
 All’inizio pensavo che (essere) [sarebbe stata] una giornata noiosa.
 Il prof aveva detto che (venire) [sarebbero venute] venti persone: ne sono arrivate cinquanta!
 Con più sacchi (noi, raccogliere) [avremmo raccolto] ancora più rifiuti.
-Senza la pioggia del pomeriggio io e le mie amiche (restare) [saremmo rimaste] fino a sera.
+Senza la pioggia del pomeriggio io e le mie amiche (rimanere) [saremmo rimaste] fino a sera.
 Tu (divertirsi) [ti saresti divertita] un sacco.
 Adesso (volere, io) [vorrei] organizzare un’altra giornata a maggio.
 La prossima volta (dovere, noi) [dovremmo] invitare anche i vicini.
@@ -219,11 +219,11 @@ Magari (cominciare, io) [avessi cominciato] prima a fare volontariato!
 ?ergaenzen | Non è andata così. Esprimi il desiderio con magari + congiuntivo trapassato. || So war es nicht. Drücke den Wunsch mit magari + congiuntivo trapassato aus.
 Non ho studiato. → Magari … | avessi studiato | Magari avessi studiato!
 Luca non è venuto. → Magari Luca … | fosse venuto | Magari Luca fosse venuto!
-Non abbiamo vinto. → Magari … | avessimo vinto | Magari avessimo vinto!
-Non ho preso l’ombrello. → Magari … | avessi preso l’ombrello | Magari avessi preso l’ombrello!
+Abbiamo perso la partita. → Magari … | non avessimo perso | Magari non avessimo perso la partita!
+Ho dimenticato l’ombrello. → Magari … | non avessi dimenticato l’ombrello | Magari non avessi dimenticato l’ombrello!
 I miei amici non hanno visto il messaggio. → Magari i miei amici … | avessero visto il messaggio | Magari i miei amici avessero visto il messaggio!
 Non avete chiesto aiuto. → Magari … | aveste chiesto aiuto | Magari aveste chiesto aiuto!
-Chiara non è rimasta. → Magari Chiara … | fosse rimasta | Magari Chiara fosse rimasta!
+Chiara è andata via presto. → Magari Chiara … | non fosse andata via | Magari Chiara non fosse andata via così presto!
 I ragazzi non sono partiti prima. → Magari i ragazzi … | fossero partiti prima | Magari i ragazzi fossero partiti prima!
 ! Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …! || Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …!
 
@@ -257,7 +257,7 @@ Magari sabato (venire) [fossi venuta] anche tu, Marta!
 ?ergaenzen | Completa con come se + congiuntivo trapassato. Usa le parole tra parentesi. || Ergänze mit come se + congiuntivo trapassato. Verwende die Wörter in Klammern.
 Parla del film come se … (lui: vederlo) | lo avesse visto/l’avesse visto | Parla del film come se lo avesse visto (l’avesse visto).
 Sei stanco come se … (tu: non dormire per tre giorni) | non avessi dormito per tre giorni | Sei stanco come se non avessi dormito per tre giorni.
-Giulia mi ha salutato come se … (noi: non litigare mai) | non avessimo mai litigato | Giulia mi ha salutato come se non avessimo mai litigato.
+Giulia mi ha salutato come se … (noi: non litigare mai) | non avessimo mai litigato/non avessimo litigato mai | Giulia mi ha salutato come se non avessimo mai litigato.
 I bambini ridevano come se … (loro: sentire una barzelletta) | avessero sentito una barzelletta | I bambini ridevano come se avessero sentito una barzelletta.
 Mi guardate come se … (io: dire una bugia) | avessi detto una bugia | Mi guardate come se avessi detto una bugia.
 Il nonno camminava piano, come se … (lui: farsi male) | si fosse fatto male | Il nonno camminava piano, come se si fosse fatto male.
@@ -289,7 +289,7 @@ Se avessi messo la sveglia, = non mi sarei alzato alle dieci.
 Se avessimo chiuso bene i sacchi, = i rifiuti non sarebbero caduti per strada.
 Se Luca avesse studiato di più, = avrebbe preso un voto migliore.
 Se foste venuti alla festa, = vi sareste divertiti con noi.
-Se non avesse piovuto, = avremmo fatto la gita in montagna.
+Se non avesse piovuto, = non avremmo avuto bisogno dell’ombrello.
 Se mi avessi detto che eri solo, = sarei venuto a trovarti.
 Se le ragazze fossero partite prima, = sarebbero arrivate in tempo.
 Se tu avessi letto la mail della prof, = avresti saputo che la lezione era annullata.
@@ -331,14 +331,14 @@ Se il prof (venire) [fosse venuto] con noi, tutto (andare) [sarebbe andato] megl
 %übung mittel | E se invece …?
 ?ergaenzen | Leggi che cosa è successo e completa la frase ipotetica. || Lies, was passiert ist, und ergänze den Bedingungssatz.
 Non ho studiato, quindi ho preso quattro. → Se avessi studiato, … | non avrei preso quattro | Se avessi studiato, non avrei preso quattro.
-Luca non è venuto, quindi non ha conosciuto Amina. → Se Luca fosse venuto, … | avrebbe conosciuto Amina | Se Luca fosse venuto, avrebbe conosciuto Amina.
+Luca è rimasto a casa, quindi ha perso il concerto. → Se Luca fosse venuto con noi, … | non avrebbe perso il concerto | Se Luca fosse venuto con noi, non avrebbe perso il concerto.
 Avete fatto tardi, quindi avete perso il film. → Se non aveste fatto tardi, … | non avreste perso il film | Se non aveste fatto tardi, non avreste perso il film.
-Pioveva, quindi i ragazzi non sono usciti. → Se non avesse piovuto, i ragazzi … | sarebbero usciti | Se non avesse piovuto, i ragazzi sarebbero usciti.
-Non mi hai chiamato, quindi non ti ho aiutato. → Se tu …, ti avrei aiutato. | mi avessi chiamato | Se tu mi avessi chiamato, ti avrei aiutato.
-I ragazzi non hanno letto l’avviso, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi. | avessero letto l’avviso | Se i ragazzi avessero letto l’avviso, non sarebbero arrivati tardi.
-Giulia non ha messo la crema, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata. | avesse messo la crema | Se Giulia avesse messo la crema, non si sarebbe bruciata.
-Luca e Paolo non sono partiti presto, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico. | fossero partiti presto | Se Luca e Paolo fossero partiti presto, non avrebbero trovato traffico.
-! Realtà: non ho studiato → ipotesi: se avessi studiato. Attenzione alla negazione! || Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Achte auf die Verneinung!
+Pioveva, quindi i ragazzi sono rimasti a casa. → Se non avesse piovuto, i ragazzi … | non sarebbero rimasti a casa | Se non avesse piovuto, i ragazzi non sarebbero rimasti a casa.
+Hai spento il telefono, quindi non ti ho trovato. → Se tu …, ti avrei trovato. | non avessi spento il telefono | Se tu non avessi spento il telefono, ti avrei trovato.
+I ragazzi hanno perso l’autobus, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi. | non avessero perso l’autobus | Se i ragazzi non avessero perso l’autobus, non sarebbero arrivati tardi.
+Giulia ha dimenticato la crema solare, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata. | non avesse dimenticato la crema | Se Giulia non avesse dimenticato la crema solare, non si sarebbe bruciata.
+Luca e Paolo sono partiti tardi, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico. | non fossero partiti tardi | Se Luca e Paolo non fossero partiti tardi, non avrebbero trovato traffico.
+! Realtà: non ho studiato → ipotesi: se avessi studiato. Realtà: ho perso l’autobus → ipotesi: se non avessi perso l’autobus. Attenzione alla negazione! || Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Wirklichkeit: ho perso l’autobus → Annahme: se non avessi perso l’autobus. Achte auf die Verneinung!
 
 %übung mittel | Costruisci la frase
 ?ordnen | Metti le parti in ordine: „Wenn ich von dem Fest gewusst hätte, hätte ich einen Kuchen mitgebracht.“ || Bringe die Teile in die richtige Reihenfolge.
@@ -483,7 +483,7 @@ Il parco è stato pulito [dei=>dai] volontari.
 La mostra [è venuta=>è stata] aperta ieri dal sindaco.
 Le lettere sono state [scritto=>scritte] dai bambini.
 Il nuovo centro [ha=>è] stato costruito in soli sei mesi.
-Domani i risultati [verrà=>verranno] presentati ai giornalisti.
+Domani i risultati [verrà=>verranno/saranno] presentati ai giornalisti.
 L’articolo è stato letto [di=>da] più di mille persone.
 ! venire solo nei tempi semplici; chi fa l’azione sempre con da, mai con di. || venire nur in einfachen Zeiten; der Urheber immer mit da, nie mit di.
 
@@ -556,7 +556,7 @@ Quanti fratelli hai? – [Li=>Ne] ho due.
 Basta, sono stanco: [me lo=>me ne] vado!
 Vai alla riunione? – Sì, [ne=>ci] vado con Luca.
 Hai telefonato a Giulia? – Sì, [la=>le] ho telefonato ieri.
-Hai dato il libro a Marco? – Sì, [gli lo=>glielo] ho dato.
+Dai tu il libro a Marco? – Sì, [gli lo=>glielo] do domani.
 Quante mele ci sono? – [Ci ne=>Ce ne] sono sei.
 Ho comprato le pizze e [li=>le] ho mangiate con gli amici.
 ! telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne. || telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.

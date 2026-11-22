@@ -372,7 +372,8 @@ async function step(name, fn) {
     await dp.fill('#q-q7 input', 'alle sei');
     assert.match(await dp.textContent('#listen-answer-count'), /7 \/ 7/);
     await dp.getByRole('button', { name: 'Antworten korrigieren' }).click();
-    assert.equal((await dp.textContent('.result-score b')).trim(), '7');
+    // Teilpunkte: jede Lücke und jedes Paar zählt einzeln
+    assert.match(await dp.textContent('.result-score'), /^\s*9\s*von 9\s*$/);
     await shot(dp, 'desk-alle-typen');
     await dp.reload({ waitUntil: 'networkidle' });
   });
@@ -407,7 +408,7 @@ async function step(name, fn) {
     assert.deepEqual(await dp.locator('.q-section').allTextContents(), ['Primo ascolto', 'Secondo ascolto', 'Terzo ascolto', 'Lessico e lingua', 'Dopo l’ascolto']);
     assert.match(await dp.textContent('#listen-answer-count'), /12 \/ 12/);
     await dp.getByRole('button', { name: 'Antworten korrigieren' }).click();
-    assert.match(await dp.textContent('.result-score'), /^\s*11\s*von 11\s*$/);
+    assert.match(await dp.textContent('.result-score'), /^\s*30\s*von 30\s*$/);
     assert.match(await dp.textContent('#q-n10 .listen-feedback'), /Possibile soluzione|Mögliche Lösung/);
     // Druck: alle drei Ausgaben ohne Überlauf
     const id = await dp.evaluate(() => {
@@ -700,7 +701,7 @@ async function step(name, fn) {
     const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
     for (let i = 0; i < answers.length; i++) await pp.locator('.gc').nth(i).getByRole('button', { name: answers[i], exact: true }).click();
     await pp.click('#listening-form [type=submit]');
-    assert.match(await pp.textContent('.result-score'), /1\s*von 1/);
+    assert.match(await pp.textContent('.result-score'), /^\s*(\d+)\s*von \1\s*$/);
     await pp.click('.result-banner [data-wf-roll]');
     const second = await pp.evaluate(() => currentLesson().questions[0].text);
     assert.notEqual(first, second);
@@ -783,7 +784,7 @@ async function step(name, fn) {
     await pp.evaluate(id => openListening(id), it.payload.id);
     for (const [i, a] of ['ione', 'na', 'sti', 'enti', 'nano', 'sa', 'ne', 'eno'].entries()) await pp.fill(`#listening-form input[data-part="g${i + 1}"]`, a);
     await pp.click('#listening-form [type=submit]');
-    assert.match(await pp.textContent('.result-banner'), /1/);
+    assert.match(await pp.textContent('.result-banner'), /Alles richtig/);
     await pp.evaluate(() => { editorState.items = editorState.items.filter(i => i.payload?.title !== 'In stazione'); saveEditorState(); });
   });
 

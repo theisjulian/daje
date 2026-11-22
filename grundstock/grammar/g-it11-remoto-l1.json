@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 9,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -92,23 +92,13 @@
     },
     {
      "id": "p9",
-     "left": "scrisse",
-     "right": "scrivere"
-    },
-    {
-     "id": "p10",
      "left": "prese",
      "right": "prendere"
     },
     {
-     "id": "p11",
+     "id": "p10",
      "left": "mise",
      "right": "mettere"
-    },
-    {
-     "id": "p12",
-     "left": "morì",
-     "right": "morire"
     }
    ]
   }

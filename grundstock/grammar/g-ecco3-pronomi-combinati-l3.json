@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 16,
+ "estimatedMinutes": 15,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -173,45 +173,39 @@
   },
   {
    "id": "q7",
-   "prompt": "«Gliene regalo tre.» Che cosa può significare?",
-   "promptHelp": "Was kann der Satz bedeuten?",
-   "type": "single_choice",
-   "options": [
+   "prompt": "E queste frasi? Scegli la parola che va bene.",
+   "promptHelp": "Und diese Sätze? Wähle das passende Wort.",
+   "type": "gap_choice",
+   "text": "«Gliene regalo tre.» = Regalo tre maschere [[g1]].\n«Te la racconto stasera.» = Stasera racconto [[g2]] a te.\n«Ce li porta Luca.» = Luca porta [[g3]] a noi.",
+   "gaps": [
     {
-     "id": "o1",
-     "text": "Regalo tre maschere ai bambini."
+     "id": "g1",
+     "options": [
+      "ai bambini",
+      "a voi",
+      "a te"
+     ],
+     "answer": "ai bambini"
     },
     {
-     "id": "o2",
-     "text": "Regalo tre maschere a voi."
+     "id": "g2",
+     "options": [
+      "la storia",
+      "il film",
+      "le storie"
+     ],
+     "answer": "la storia"
     },
     {
-     "id": "o3",
-     "text": "Regalo una maschera ai bambini."
+     "id": "g3",
+     "options": [
+      "i biglietti",
+      "le pizze",
+      "il libro"
+     ],
+     "answer": "i biglietti"
     }
-   ],
-   "correctOptionId": "o1"
-  },
-  {
-   "id": "q8",
-   "prompt": "«Te la racconto stasera.» Che cosa può significare?",
-   "promptHelp": "Was kann der Satz bedeuten?",
-   "type": "single_choice",
-   "options": [
-    {
-     "id": "o1",
-     "text": "Racconto il film a te."
-    },
-    {
-     "id": "o2",
-     "text": "Racconto la storia a te."
-    },
-    {
-     "id": "o3",
-     "text": "Racconto la storia a lei."
-    }
-   ],
-   "correctOptionId": "o2"
+   ]
   }
  ]
 }

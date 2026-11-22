@@ -11,7 +11,7 @@ Una **frase relativa** dà un’informazione in più su una persona, una cosa o 
 | **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |
 | **quello che** | = la cosa che | _Non capisco **quello che** dici._ |
 - **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).
-- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** venire?_
+- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._
 - **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).
 #regel-de
 Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).
@@ -381,18 +381,10 @@ Sara stava uscendo quando ha cominciato a piovere. > b
 * Che cosa mi stai dicendo?
 - Che cosa stai mi dicendo?
 - Che cosa stai dicendo mi?
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Ci stiamo divertendo molto.
-- Stiamo ci divertendo molto.
-- Stiamo divertendo ci molto.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Vi stavamo aspettando.
-- Stavamo vi aspettando.
-- Stavamo aspettando vi.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Le foto? Le sto guardando.
-- Le foto? Sto le guardando.
-- Le foto? Sto guardando le.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Ci stiamo divertendo*|Stiamo ci divertendo|Stiamo divertendo ci} molto.
+{Vi stavamo aspettando*|Stavamo vi aspettando|Stavamo aspettando vi}.
+Le foto? {Le sto guardando*|Sto le guardando|Sto guardando le}.
 ! Il pronome sta prima di stare (lo sto facendo) o attaccato al gerundio (sto facendolo), mai in mezzo. || Das Pronomen steht vor stare oder am Gerundium – nie dazwischen und nie getrennt dahinter.
 
 %übung mittel | Adesso e ieri alle otto

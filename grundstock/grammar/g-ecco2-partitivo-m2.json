@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Rispondi di no. Attenzione: dopo «non» niente partitivo!",
-   "promptHelp": "Antworte mit Nein. Achtung: Nach „non“ steht kein Teilungsartikel!",
+   "prompt": "Rispondi di no e ripeti il nome. Attenzione: dopo «non» niente partitivo!",
+   "promptHelp": "Antworte mit Nein und wiederhole das Nomen. Achtung: Nach „non“ steht kein Teilungsartikel!",
    "explanation": "Hai dei soldi? – No, non ho soldi. (senza partitivo)",
    "explanationHelp": "Hai dei soldi? – No, non ho soldi. (ohne Teilungsartikel; deutsch: „kein Geld“)",
    "type": "sentence_completion",
@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Hai dei soldi? – No, …",
      "acceptedAnswers": [
-      "non ho soldi"
+      "non ho soldi",
+      "non ne ho"
      ],
      "modelAnswer": "No, non ho soldi."
     },
@@ -65,7 +66,8 @@
      "id": "s2",
      "start": "Mangi della carne? – No, …",
      "acceptedAnswers": [
-      "non mangio carne"
+      "non mangio carne",
+      "non ne mangio"
      ],
      "modelAnswer": "No, non mangio carne."
     },
@@ -73,7 +75,8 @@
      "id": "s3",
      "start": "Avete dei biglietti? – No, …",
      "acceptedAnswers": [
-      "non abbiamo biglietti"
+      "non abbiamo biglietti",
+      "non ne abbiamo"
      ],
      "modelAnswer": "No, non abbiamo biglietti."
     },
@@ -81,7 +84,8 @@
      "id": "s4",
      "start": "C’è del pane? – No, …",
      "acceptedAnswers": [
-      "non c’è pane"
+      "non c’è pane",
+      "non ce n’è"
      ],
      "modelAnswer": "No, non c’è pane."
     },
@@ -89,7 +93,8 @@
      "id": "s5",
      "start": "Bevi del caffè? – No, …",
      "acceptedAnswers": [
-      "non bevo caffè"
+      "non bevo caffè",
+      "non ne bevo"
      ],
      "modelAnswer": "No, non bevo caffè."
     },
@@ -97,7 +102,8 @@
      "id": "s6",
      "start": "Ci sono delle sedie libere? – No, …",
      "acceptedAnswers": [
-      "non ci sono sedie libere"
+      "non ci sono sedie libere",
+      "non ce ne sono"
      ],
      "modelAnswer": "No, non ci sono sedie libere."
     },
@@ -105,7 +111,8 @@
      "id": "s7",
      "start": "Hai degli amici a Milano? – No, …",
      "acceptedAnswers": [
-      "non ho amici a Milano"
+      "non ho amici a Milano",
+      "non ne ho"
      ],
      "modelAnswer": "No, non ho amici a Milano."
     },
@@ -113,7 +120,8 @@
      "id": "s8",
      "start": "Compri dell’acqua? – No, …",
      "acceptedAnswers": [
-      "non compro acqua"
+      "non compro acqua",
+      "non ne compro"
      ],
      "modelAnswer": "No, non compro acqua."
     }

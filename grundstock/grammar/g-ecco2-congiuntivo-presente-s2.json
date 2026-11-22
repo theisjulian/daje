@@ -98,7 +98,8 @@
      "id": "s6",
      "start": "Noi crediamo. Voi sapete la risposta. → Crediamo …",
      "acceptedAnswers": [
-      "che voi sappiate la risposta"
+      "che voi sappiate la risposta",
+      "che sappiate la risposta"
      ],
      "modelAnswer": "Crediamo che voi sappiate la risposta."
     },
@@ -128,9 +129,9 @@
     },
     {
      "id": "s10",
-     "start": "Io voglio. Io resto a casa. → Voglio …",
+     "start": "Io voglio. Io resto a casa. → …",
      "acceptedAnswers": [
-      "restare a casa"
+      "Voglio restare a casa"
      ],
      "modelAnswer": "Voglio restare a casa."
     }

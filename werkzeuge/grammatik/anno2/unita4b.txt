@@ -12,12 +12,12 @@ Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. 
 | noi | il nostro · la nostra | i nostri · le nostre |
 | voi | il vostro · la vostra | i vostri · le vostre |
 | loro | il loro · la loro | i loro · le loro |
-Il pronome ha **sempre l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_
+Il pronome ha **l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_
 Dopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._
 **Loro** non cambia mai: _il loro, la loro, i loro, le loro._
 #regel-de
 Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.
-Als Pronomen steht es **immer mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).
+Als Pronomen steht es **mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).
 Nach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert.
 
 %übung leicht | Senza il nome
@@ -150,14 +150,14 @@ Le mie materie preferite sono inglese e arte, {le sue*|i suoi|la sua} sono matem
 | un amico | un **buon** amico |
 | uno studente | un **buono** studente |
 | una scuola | una **buona** scuola |
-| un’amica | una **buon’**amica |
+| un’amica | una **buon’**amica (anche: una **buona** amica) |
 Al plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._
 **Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:
 - _Luca è un **buon** cuoco: cucina **bene**._
 - _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)
 Auguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_
 #regel-de
-**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_. Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._
+**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._
 **buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb).
 
 %übung leicht | Tanti auguri!
@@ -216,7 +216,7 @@ Adesso devo andare: (buono) [buono] studio e (buono) [buona] fortuna per l’esa
 
 %übung mittel | Singolare e plurale
 ?tabelle | Completa la tabella con buono. Attenzione all’articolo! || Ergänze die Tabelle mit buono. Achte auf den Artikel!
-Spalten: senza buono | singolare con buono | plurale con buono
+Spalten: senza buono | singolare con buono | plurale con buono (senza articolo)
 un libro | [un buon libro] | [buoni libri]
 una risposta | [una buona risposta] | [buone risposte]
 uno studente | [un buono studente] | [buoni studenti]
@@ -256,13 +256,12 @@ Ieri la nostra squadra ha giocato [cattivo=>male] e ha perso.
 
 %übung schwer | Dopo il colloquio
 ?luecke | Completa con buono (nella forma giusta), bene, cattivo (nella forma giusta) o male. || Ergänze buono (in der richtigen Form), bene, cattivo (in der richtigen Form) oder male.
-– Allora, com’è andato il colloquio? – [Bene], grazie!
-– La direttrice mi ha fatto una [buona/buon’] impressione.
+– Allora, com’è andato il colloquio?
+– [Bene], grazie! La direttrice è simpatica: mi ha fatto una [buona/buon’] impressione.
 – E tu hai risposto [bene] alle domande?
 – Sì, ma in inglese ho parlato [male]: ero troppo nervoso.
 – Non importa. Hai un [buon] curriculum e [buoni] voti.
-– Speriamo! Il posto è davvero [buono]: lì si impara molto.
-– Ho solo una [cattiva] notizia: devo cominciare alle sei di mattina!
+– Speriamo! Il posto è davvero [buono]: lì si impara molto. Ho solo una [cattiva] notizia: devo cominciare alle sei di mattina!
 – Allora [buon] lavoro e [buona] fortuna!
 – Grazie! Adesso però ho fame: andiamo a mangiare qualcosa di [buono]?
 ! qualcosa di buono: dopo qualcosa di l’aggettivo è sempre maschile singolare. || qualcosa di buono: Nach qualcosa di steht das Adjektiv immer in der männlichen Einzahl.
@@ -289,7 +288,7 @@ Fai una {buona*|buon|bene} colazione prima di uscire.
 Molti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._
 | **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |
 | **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |
-| **chi?** (domanda) | wer? | _**Chi** lavora qui?_ |
+| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |
 #regel-de
 **chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)
 Unterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)
@@ -340,18 +339,10 @@ Questa è la ditta {che*|chi} cerca stagisti.
 * Chi non studia non impara.
 - Chi non studiano non imparano.
 - Che non studia non impara.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Chi arriva per primo sceglie il posto.
-- Chi arrivano per primi scelgono il posto.
-- Che arriva per primo sceglie il posto.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Chi fa sport sta meglio.
-- Chi fanno sport stanno meglio.
-- Chi fa sport stanno meglio.
-?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
-* Lavoro volentieri con chi è gentile.
-- Lavoro volentieri con che è gentile.
-- Lavoro volentieri con chi sono gentili.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Chi arriva per primo {sceglie*|scelgono|scegli} il posto.
+Chi fa sport {sta*|stanno|stai} meglio.
+Lavoro volentieri con {chi*|che|cui} è gentile.
 ! Con chi il verbo è sempre al singolare: chi lavora, chi vuole, chi ha. || Nach chi steht das Verb immer im Singular.
 
 %übung mittel | Le persone che … → Chi …

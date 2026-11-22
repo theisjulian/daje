@@ -336,7 +336,7 @@
    ],
    "definition": "Piccola parola che sostituisce una quantità.",
    "example": "Mi mancano delle mele. Ne prendo cinque.",
-   "usage": "avv. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb."
+   "usage": "pron. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb."
   },
   {
    "id": "u6-6b-021",
@@ -360,7 +360,7 @@
    "acceptedAnswers": [
     "mancare"
    ],
-   "usage": "Abc"
+   "usage": "pres. manco, manchi, manca, manchiamo, mancate, mancano"
   },
   {
    "id": "u6-6b-023",
@@ -411,7 +411,7 @@
    "acceptedAnswers": [
     "avere bisogno di"
    ],
-   "usage": "Abc"
+   "usage": "pres. ho, hai, ha, abbiamo, avete, hanno"
   },
   {
    "id": "u6-6b-027",
@@ -469,7 +469,8 @@
    "example": "D’estate bevo due litri di acqua.",
    "related": "L aqua",
    "acceptedAnswers": [
-    "l’acqua"
+    "l’acqua",
+    "l’acqua minerale"
    ]
   },
   {
@@ -522,7 +523,7 @@
    "acceptedAnswers": [
     "fare un salto da"
    ],
-   "usage": "Abc"
+   "usage": "pres. faccio, fai, fa, facciamo, fate, fanno; p.p. fatto"
   },
   {
    "id": "u6-6b-034",
@@ -733,7 +734,8 @@
    "example": "È pronta la cena? Ho una fame da lupi!",
    "related": "F la faim",
    "acceptedAnswers": [
-    "la fame"
+    "la fame",
+    "la fame da lupi"
    ],
    "grammar": {
     "partOfSpeech": "noun",

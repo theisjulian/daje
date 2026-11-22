@@ -240,7 +240,8 @@
    "definition": "Parlare un po’ in modo informale.",
    "example": "Facciamo due chiacchiere al bar.",
    "acceptedAnswers": [
-    "due chiacchiere"
+    "due chiacchiere",
+    "fare due chiacchiere"
    ]
   },
   {
@@ -460,7 +461,7 @@
    "acceptedAnswers": [
     "avere da fare"
    ],
-   "usage": "Abc"
+   "usage": "pres. ho, hai, ha, abbiamo, avete, hanno"
   },
   {
    "id": "u1-1a-036",
@@ -503,7 +504,7 @@
    "acceptedAnswers": [
     "comunicare"
    ],
-   "usage": "Abc"
+   "usage": "pres. comunico, comunichi, comunica, comunichiamo, comunicate, comunicano"
   },
   {
    "id": "u1-1a-039",

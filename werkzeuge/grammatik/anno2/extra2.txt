@@ -125,9 +125,9 @@ Penso che la nostra band {abbia suonato*|suoni} alla festa della scuola già l�
 
 %übung schwer | Un messaggio dopo il festival
 ?luecke | Completa il messaggio di Sara con il congiuntivo presente o passato. || Ergänze Saras Nachricht mit dem congiuntivo presente oder passato.
-Ciao Matteo! Mi dispiace che ieri tu non (potere) [abbia potuto] venire al festival.
-Penso che (essere) [sia stata] la serata più bella dell’estate.
-Credo che ieri sera il primo gruppo (cantare) [abbia cantato] almeno dieci canzoni.
+Ciao Matteo! Mi dispiace che ieri tu non (potere) [abbia potuto/sia potuto] venire al festival.
+Penso che ieri (essere) [sia stata] la serata più bella dell’estate.
+Credo che il primo gruppo (cantare) [abbia cantato] almeno dieci canzoni.
 Spero che adesso tu (stare) [stia] meglio
 e che sabato prossimo (venire) [venga] con noi al concerto in piazza.
 ?frei | Ieri c’è stata una festa o un concerto nella tua scuola. Scrivi 5 frasi con penso che, credo che, spero che, mi dispiace che, sono contento/-a che + congiuntivo passato. || Gestern war ein Fest oder Konzert an deiner Schule. Schreibe 5 Sätze mit penso che, credo che, spero che, mi dispiace che, sono contento/-a che + congiuntivo passato.
@@ -198,7 +198,7 @@ mille > a
 Quest’anno il festival della nostra scuola festeggia la (15) [quindicesima] edizione.
 Per il coro, invece, è il (20) [ventesimo] anniversario.
 In programma ci sono trenta gruppi: il nostro è il (23) [ventitreesimo].
-La (11) [undicesima] canzone del concerto è la mia preferita.
+Sara canta per (11) [undicesima]: la sua canzone è la mia preferita.
 Siamo seduti nella (14) [quattordicesima] fila.
 L’anno scorso la nostra band è arrivata al (13) [tredicesimo] posto.
 Mio cugino abita al (16) [sedicesimo] piano: da lì sente tutta la musica della piazza!
@@ -225,14 +225,14 @@ I Lupi Blu (11) – I Lupi Blu sono arrivati … | undicesimi | I Lupi Blu sono 
 Le Stelle (20) – Le Stelle sono arrivate … | ventesime | Le Stelle sono arrivate ventesime.
 Matteo (18) – Matteo è arrivato … | diciottesimo | Matteo è arrivato diciottesimo.
 Chiara e Giulia (13) – Chiara e Giulia sono arrivate … | tredicesime | Chiara e Giulia sono arrivate tredicesime.
-Davide e Luca (22) – Davide e Luca sono arrivati … | ventiduesimi | Davide e Luca sono arrivati ventiduesimi.
+Davide e Paolo (22) – Davide e Paolo sono arrivati … | ventiduesimi | Davide e Paolo sono arrivati ventiduesimi.
 la nostra classe (14) – La nostra classe è arrivata … | quattordicesima | La nostra classe è arrivata quattordicesima.
 ! -o / -a al singolare, -i / -e al plurale: sono arrivati undicesimi, sono arrivate ventesime. || -o / -a im Singular, -i / -e im Plural: sono arrivati undicesimi, sono arrivate ventesime.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
 Abito al [dodici=>dodicesimo] piano.
-È la [undicesimo=>undicesima] canzone dell’album.
+È la [tredicesimo=>tredicesima] canzone dell’album.
 Siamo arrivati al [ventitresimo=>ventitreesimo] posto.
 Oggi è il [ventesima=>ventesimo] anniversario della nostra band.
 Il [ventiseesimo=>ventiseiesimo] concerto del coro è a Bari.
@@ -242,7 +242,7 @@ Stasera va in onda la [centoesima=>centesima] puntata del programma.
 Le ragazze sono arrivate [quindicesimi=>quindicesime].
 
 %übung schwer | Note in piazza
-?luecke | Completa il testo: scrivi in lettere gli ordinali e le frazioni. || Ergänze den Text: Schreibe Ordnungszahlen und Brüche in Buchstaben.
+?luecke | Completa il testo: scrivi in lettere gli ordinali e le frazioni. Attenzione: senza articolo l’ordinale concorda con il soggetto (noi → -i)! || Ergänze den Text: Schreibe Ordnungszahlen und Brüche in Buchstaben. Achtung: Ohne Artikel richtet sich die Ordnungszahl nach dem Subjekt (noi → -i)!
 Il festival del nostro paese comincia sempre il (1º) [primo] sabato di luglio.
 Quest’anno è la (25ª) [venticinquesima] edizione.
 Il palco è davanti a una chiesa del (XVI) [sedicesimo] secolo.
@@ -270,18 +270,6 @@ Solo (1/3) [un terzo] delle nostre canzoni è in inglese: le altre sono in itali
 * il sedicesimo secolo
 - il quindicesimo secolo
 - il diciassettesimo secolo
-?mc | Come si dice 3/4? || Wie sagt man 3/4?
-* tre quarti
-- tre quarto
-- terzo quattro
-?mc | Come si dice 1/3? || Wie sagt man 1/3?
-* un terzo
-- un tre
-- uno terzi
-?mc | Dopo il ventesimo viene il … || Nach dem zwanzigsten kommt der …
-* ventunesimo
-- ventiduesimo
-- diciannovesimo
 ?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
 * Le nostre amiche sono arrivate dodicesime.
 - Le nostre amiche sono arrivate dodicesimi.
@@ -290,6 +278,10 @@ Solo (1/3) [un terzo] delle nostre canzoni è in inglese: le altre sono in itali
 * la trentatreesima edizione
 - la trentatresima edizione
 - la trentatreesimo edizione
+?auswahl | Frazioni e ordine: scegli la forma giusta. || Brüche und Reihenfolge: Wähle die richtige Form.
+3/4 = {tre quarti*|tre quarto|terzo quattro}
+1/3 = {un terzo*|un tre|uno terzi}
+Dopo il ventesimo viene il {ventunesimo*|ventiduesimo|diciannovesimo}.
 
 @thema partitivo | Extra 2 · Musica italiana | Modulo | L’articolo partitivo | 3
 #lehrplan Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben
@@ -361,15 +353,15 @@ Chiara mette [della] musica italiana e subito [dei] ragazzi cominciano a ballare
 Alla fine facciamo [delle] foto e a mezzanotte mangiamo [degli] spaghetti!
 
 %übung mittel | No, non ho …
-?ergaenzen | Rispondi di no. Attenzione: dopo «non» niente partitivo! || Antworte mit Nein. Achtung: Nach „non“ steht kein Teilungsartikel!
-Hai dei soldi? – No, … | non ho soldi | No, non ho soldi.
-Mangi della carne? – No, … | non mangio carne | No, non mangio carne.
-Avete dei biglietti? – No, … | non abbiamo biglietti | No, non abbiamo biglietti.
-C’è del pane? – No, … | non c’è pane | No, non c’è pane.
-Bevi del caffè? – No, … | non bevo caffè | No, non bevo caffè.
-Ci sono delle sedie libere? – No, … | non ci sono sedie libere | No, non ci sono sedie libere.
-Hai degli amici a Milano? – No, … | non ho amici a Milano | No, non ho amici a Milano.
-Compri dell’acqua? – No, … | non compro acqua | No, non compro acqua.
+?ergaenzen | Rispondi di no e ripeti il nome. Attenzione: dopo «non» niente partitivo! || Antworte mit Nein und wiederhole das Nomen. Achtung: Nach „non“ steht kein Teilungsartikel!
+Hai dei soldi? – No, … | non ho soldi/non ne ho | No, non ho soldi.
+Mangi della carne? – No, … | non mangio carne/non ne mangio | No, non mangio carne.
+Avete dei biglietti? – No, … | non abbiamo biglietti/non ne abbiamo | No, non abbiamo biglietti.
+C’è del pane? – No, … | non c’è pane/non ce n’è | No, non c’è pane.
+Bevi del caffè? – No, … | non bevo caffè/non ne bevo | No, non bevo caffè.
+Ci sono delle sedie libere? – No, … | non ci sono sedie libere/non ce ne sono | No, non ci sono sedie libere.
+Hai degli amici a Milano? – No, … | non ho amici a Milano/non ne ho | No, non ho amici a Milano.
+Compri dell’acqua? – No, … | non compro acqua/non ne compro | No, non compro acqua.
 ! Hai dei soldi? – No, non ho soldi. (senza partitivo) || Hai dei soldi? – No, non ho soldi. (ohne Teilungsartikel; deutsch: „kein Geld“)
 
 %übung mittel | Tre modi per dire «einige»
@@ -406,7 +398,7 @@ Compriamo due chili {di*|delle|dei} patate.
 C’è {qualche*|alcune|delle} sedia libera in prima fila?
 Ci sono {delle*|qualche|della} sedie libere in prima fila?
 Alla festa c’era {molta*|molta della|molta di} gente.
-Vorrei {del*|qualche|alcuni} formaggio, per favore.
+Vorrei {del*|dei|alcuni} formaggio, per favore.
 Porto {alcuni*|qualche|un po’} dischi di mio padre.
 ! qualche + singolare; alcuni / alcune + plurale; un po’ di + singolare; molto, poco, troppo senza di. || qualche + Singular; alcuni / alcune + Plural; un po’ di + Singular; molto, poco, troppo ohne di.
 
@@ -431,12 +423,12 @@ Quando la frase principale è al **presente** (_penso che, credo che, spero che 
 | l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |
 | l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |
 **Indicativo o congiuntivo?**
-- **indicativo:** so che, è chiaro che, secondo me, anche se, perché: _So che Luca **è** qui. Anche se **piove**, usciamo._
+- **indicativo:** so che, è chiaro che, secondo me, anche se, perché (causa): _So che Luca **è** qui. Anche se **piove**, usciamo._
 - **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._
 **Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._
 #regel-de
 Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).
-**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché; **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!
+**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché (= weil); **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!
 Haben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe).
 
 %übung leicht | Indicativo o congiuntivo?
@@ -447,7 +439,7 @@ so che > a
 secondo me > a
 anche se > a
 sono sicuro che > a
-perché > a
+perché (= weil) > a
 penso che > b
 credo che > b
 spero che > b
@@ -480,14 +472,10 @@ affinché > b
 * prima (è già successo)
 - adesso
 - dopo (deve ancora succedere)
-?mc | Credo che Davide sia in sala prove. – Quando? || Wann?
-* adesso
-- prima (è già successo)
-- domani
-?mc | Sono contenta che siate venuti. – Quando? || Wann?
-* prima (è già successo)
-- adesso
-- dopo (deve ancora succedere)
+?auswahl | E in queste frasi? Prima, adesso o dopo? || Und in diesen Sätzen? Vorher, jetzt oder später?
+Credo che Davide sia ancora in sala prove. → {adesso*|prima|dopo}
+Sono contenta che siate venuti. → {prima*|adesso|dopo}
+Spero che domenica prossima suoniate anche voi. → {dopo*|prima|adesso}
 ! Congiuntivo presente = adesso o dopo; congiuntivo passato = prima. || Congiuntivo presente = jetzt oder später; congiuntivo passato = vorher.
 
 %übung leicht | So che … / Penso che …
@@ -544,18 +532,18 @@ tu stia
 attento.
 ?ordnen | Metti in ordine: „Ich glaube, dass Luca die Karten schon gekauft hat.“ || Bringe die Teile in die richtige Reihenfolge.
 Penso che
-Luca
-abbia già comprato
-i biglietti.
+Luca abbia già comprato
+i biglietti
+per il concerto.
 ?ordnen | Metti in ordine: „Wir beenden die Probe, bevor das Publikum kommt.“ || Bringe die Teile in die richtige Reihenfolge.
 Finiamo le prove
 prima che
 arrivi il pubblico.
 ?ordnen | Metti in ordine: „Ich weiß, dass das Konzert um acht begonnen hat.“ || Bringe die Teile in die richtige Reihenfolge.
 So che
-il concerto
-è cominciato
-alle otto.
+il concerto è cominciato
+alle otto
+in punto.
 
 %übung schwer | Trova gli errori
 ?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
@@ -580,7 +568,7 @@ Secondo me Davide (essere) [è] il più bravo del gruppo, benché (avere) [abbia
 È chiaro che adesso tutti (volere) [vogliono] un altro concerto.
 Spero che sabato prossimo tu (stare) [stia] meglio e che (venire) [venga] a sentirci.
 Credo che Luca (mettere) [abbia messo] il video online ieri sera.
-Te lo mando subito affinché tu (potere) [possa] ascoltare almeno una canzone. Un abbraccio, Chiara
+Ti mando subito il link affinché tu (potere) [possa] ascoltare almeno una canzone. Un abbraccio, Chiara
 
 %übung schwer | Che, di o indicativo?
 ?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
@@ -591,7 +579,7 @@ Giulia è contenta {di aver*|di essere|che ha} cantato davanti a tutti.
 Credo che ieri il gruppo {abbia provato*|provi|ha provato} fino a mezzanotte.
 Vengo anch’io, a patto che {paghi*|paga|pagare} tu i panini.
 Mi dispiace {di essere*|di avere|che sono} arrivata in ritardo.
-Benché ieri {abbia piovuto*|piove|piova} tutto il giorno, il concerto è stato bellissimo.
+Benché ieri {abbia piovuto*|piove|piova} tutto il giorno, oggi il prato del festival è già asciutto.
 È chiaro che Matteo {ha*|abbia|avere} studiato musica per anni.
 ?frei | Scrivi un messaggio a un’amica o a un amico dopo un concerto. Usa: so che …, penso che … (ieri), spero che … (domani), benché …, penso di … || Schreibe einer Freundin oder einem Freund nach einem Konzert. Verwende: so che …, penso che … (gestern), spero che … (morgen), benché …, penso di …
 Ciao Luca! So che ieri eri al concerto anche tu. Penso che la band abbia suonato benissimo. Benché sia stanca, oggi vado alle prove. Spero che domani tu venga con me. Penso di aver trovato la mia canzone preferita!

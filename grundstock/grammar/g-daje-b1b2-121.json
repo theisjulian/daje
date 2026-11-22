@@ -48,7 +48,6 @@
    "type": "gap_choice",
    "prompt": "Completa il testo: scegli la forma giusta.",
    "text": "Alla redazione del giornale scolastico: ieri, uscendo dal laboratorio, ho notato che alcune aule vuote avevano ancora le luci accese. Io non so chi dovesse [[g1]] e non voglio accusare una persona senza conoscere l’organizzazione. Vorrei però capire se esista una procedura chiara.\nLa [[g2]] [[g3]] ha discusso il problema e ha preparato una [[g4]]. I rappresentanti potrebbero incontrare il personale e chiedere quali controlli siano già [[g5]]. Noi pensiamo che un cartello da solo non risolva ogni difficoltà: se nessuno sa chi deve agire, tutti [[g6]] credere che lo farà qualcun altro.\nIl custode ci ha spiegato che alcuni locali [[g7]] usati dopo le lezioni. Questo cambia il quadro. Non basta vedere una stanza momentaneamente vuota per concludere che la luce sia stata dimenticata. Gli abbiamo chiesto se fosse [[g8]] un calendario visibile. Lui ha risposto che lo avrebbe discusso con i colleghi.\nPer una settimana osserveremo soltanto le aree che [[g9]] autorizzati a controllare. Non toccheremo [[g10]] e non pubblicheremo nomi. Alla fine [[g11]] ciò che abbiamo [[g12]], distinguendolo dalle nostre ipotesi. Questa non è una soluzione completa, ma potrebbe essere un primo passo. Una buona iniziativa ambientale comincia anche da una domanda formulata bene, non soltanto da uno slogan. La lettera descrive una situazione immaginaria.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",
