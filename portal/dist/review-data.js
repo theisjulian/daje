@@ -529,10 +529,10 @@ const LISTENING_REVIEW_SEEDS = [
       },
       {
         type: 'true_false',
-        prompt: 'I primi biscotti proposti vanno bene per il tiramisù.',
-        answer: false,
+        prompt: 'Alla fine scelgono biscotti più spugnosi.',
+        answer: true,
         explanation:
-          'Empfohlen wird stattdessen eine andere, saugfähigere Sorte.',
+          '„Meglio questi, sono più spugnosi.“ – Empfohlen wird eine saugfähigere Sorte.',
         id: 'q5'
       },
       {
@@ -895,7 +895,7 @@ const LISTENING_REVIEW_SEEDS = [
       },
       {
         type: 'short_answer',
-        prompt: 'Quale piazza collega la scalinata alla chiesa di Trinità dei Monti?',
+        prompt: 'La scalinata collega la chiesa di Trinità dei Monti con quale piazza?',
         acceptedAnswers: ['Piazza di Spagna', 'la Piazza di Spagna', 'piazza Spagna'],
         modelAnswer: 'Piazza di Spagna',
         explanation: 'Genannt wird die Piazza di Spagna.',

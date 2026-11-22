@@ -50,7 +50,7 @@
    "prompt": "Trasforma la domanda in una proposta.",
    "promptHelp": "Mache aus der Frage einen Vorschlag.",
    "explanation": "La forma è uguale al presente; cambia solo l’intonazione (!).",
-   "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.",
+   "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Satzmelodie ändert sich.",
    "type": "sentence_completion",
    "items": [
     {

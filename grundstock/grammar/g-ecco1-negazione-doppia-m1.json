@@ -117,7 +117,8 @@
      "id": "s8",
      "start": "Giochi ancora a tennis? (più) – No, …",
      "acceptedAnswers": [
-      "non gioco più a tennis"
+      "non gioco più",
+      "non ci gioco più"
      ],
      "modelAnswer": "No, non gioco più a tennis."
     }

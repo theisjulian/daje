@@ -458,7 +458,7 @@ di + gli = degli
 %übung leicht | Una frase, una forma
 ?auswahl | Scegli la preposizione articolata giusta. || Wähle die richtige Form.
 Vado {al*|alla|allo} cinema.
-Torno {dalla*|dal|dallo} scuola.
+Torno {dalla*|dal|dallo} piscina.
 Il libro {della*|del|dello} professoressa è qui.
 Andiamo {allo*|al|all’} stadio.
 Il gatto è {nel*|nella|nei} giardino.
@@ -983,10 +983,10 @@ scarpe
 italiane
 sono
 belle.
-?ordnen | Metti le parole in ordine: „Wir wohnen in einem großen Haus.“ || Bringe die Wörter in die richtige Reihenfolge.
+?ordnen | Metti le parole in ordine: „Wir wohnen in einem gelben Haus.“ || Bringe die Wörter in die richtige Reihenfolge.
 Abitiamo
 in
 una
-grande
-casa.
+casa
+gialla.
 ! Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima. || Adjektive meist nach dem Nomen; bello, grande, buono auch davor.

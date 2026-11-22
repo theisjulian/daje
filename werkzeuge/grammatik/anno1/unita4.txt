@@ -15,7 +15,7 @@ Die Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!)
 
 %übung leicht | Quando o perché?
 ?auswahl | Scegli quando o perché. || Wähle quando oder perché.
-{Quando*|Perché} nevica, vado sullo snowboard.
+{Quando*|Perché} nevica, faccio snowboard.
 Studio molto {perché*|quando} domani ho un compito in classe.
 {Quando*|Perché} sono stanco, ascolto musica.
 Non vengo {perché*|quando} devo studiare.
@@ -180,8 +180,8 @@ Mia sorella {vuole*|voglio|vogliono} un cane.
 Noi {vogliamo*|volete|vogliono} andare al mare.
 Voi {volete*|vogliamo|vuoi} giocare con noi?
 I miei amici {vogliono*|vuole|volete} fare una festa.
-Scusi, {posso*|può|puoi} entrare?
-Mamma, {posso*|può|possono} uscire stasera?
+Scusi, (io) {posso*|può|puoi} entrare?
+Mamma, (io) {posso*|può|possono} uscire stasera?
 
 %übung mittel | Sapere o potere?
 ?auswahl | Sapere o potere? || sapere oder potere?

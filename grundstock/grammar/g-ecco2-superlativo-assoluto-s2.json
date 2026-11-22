@@ -50,7 +50,7 @@
    "prompt": "Scrivi una sola parola al posto delle parole tra parentesi (-issimo, ottimo, pessimo).",
    "promptHelp": "Schreibe statt der Wörter in Klammern ein einziges Wort (-issimo, ottimo, pessimo).",
    "type": "gap_fill",
-   "text": "Il nostro albergo era (molto piccolo) [[g1]], ma la posizione era (molto buona) [[g2]].\nLa colazione, invece, era (molto cattiva) [[g3]]: solo pane vecchio e caffè freddo.\nLe camere erano (molto pulite) [[g4]] e i letti (molto comodi) [[g5]].\nDi notte però ho dormito (molto poco) [[g6]], perché la strada era (molto rumorosa) [[g7]].\nIl personale è stato (molto gentile) [[g8]]: ci ha dato (molti) [[g9]] consigli.\nIn generale siamo stati (molto bene) [[g10]].",
+   "text": "Il nostro albergo era (molto piccolo) [[g1]], ma la posizione era (molto buona) [[g2]].\nLa colazione, invece, era (molto cattiva) [[g3]]: solo pane vecchio e caffè freddo.\nLe camere erano (molto pulite) [[g4]] e i letti (molto comodi) [[g5]].\nDi notte però ho dormito (molto poco) [[g6]], perché la strada era (molto rumorosa) [[g7]].\nIl personale è stato (molto gentile) [[g8]]: ci ha dato (tanti tanti) [[g9]] consigli.\nIn generale siamo stati (molto bene) [[g10]].",
    "gaps": [
     {
      "id": "g1",

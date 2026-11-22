@@ -139,7 +139,7 @@ industria | [l’] | [f]
 zaino | [lo] | [m]
 attrazione | [l’] | [f]
 fiume | [il] | [m]
-! I nomi in -e cambiano: il ponte, il fiume (m), l’attrazione (f). || Bei -e hilft nur das Lernen: il ponte, il fiume (m), l’attrazione (f).
+! I nomi in -e possono essere maschili o femminili: il ponte, il fiume (m), l’attrazione (f). || Nomen auf -e können männlich oder weiblich sein: il ponte, il fiume (m), l’attrazione (f).
 
 %übung schwer | Errori sulla mappa
 ?fehler | Gli articoli segnati sono sbagliati. Scrivi l’articolo giusto. || Die markierten Artikel sind falsch. Schreibe den richtigen Artikel.
@@ -431,7 +431,7 @@ Marco {è*|sta} il mio amico.
 Oggi Giulia non {sta*|è} bene.
 Torino {è*|sta} una città importante.
 Noi {stiamo*|siamo} male oggi.
-Voi {siete*|state} in centro?
+Voi {siete*|state} di Roma?
 Come {state*|siete}, ragazzi?
 Mia nonna {è*|sta} di Napoli.
 I miei amici {stanno*|sono} bene.
@@ -455,7 +455,7 @@ I miei amici {stanno*|sono} bene.
 – Ciao Chiara! Io [sto] bene, grazie. E tu?
 – Così così. Oggi mia madre non [sta] bene.
 – Mi dispiace! E dove [sei] adesso?
-– [Sono] a casa. Anche mio fratello [è] a casa.
+– [Sono/Sto] a casa. Anche mio fratello [è/sta] a casa.
 – E i tuoi nonni? Come [stanno]?
 – Bene, grazie. Loro [sono] in vacanza a Roma.
 + siamo, stiamo
@@ -504,7 +504,7 @@ Noi [siamo] amiche da un mese, che bello!
 %übung schwer | Frasi da costruire
 ?ergaenzen | Scrivi la frase con essere o stare. || Bilde den Satz mit essere oder stare.
 (io / di Monaco) | Sono di Monaco | Sono di Monaco.
-(Marco / bene oggi) | Marco sta bene oggi | Marco sta bene oggi.
+(Marco / bene oggi) | Marco sta bene oggi/Oggi Marco sta bene/Marco oggi sta bene | Marco sta bene oggi.
 (noi / in centro) | Siamo in centro | Siamo in centro.
 (tu / male?) | Stai male | Stai male?
 (la piazza / grande) | La piazza è grande | La piazza è grande.
@@ -970,27 +970,27 @@ edicola > unx
 %übung mittel | Il o un?
 ?tabelle | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.
 Spalten: determinativo | indeterminativo
-il liceo | [un liceo]
-lo stadio | [uno stadio]
-la classe | [una classe]
-l’amica | [un’amica]
-l’amico | [un amico]
-lo zaino | [uno zaino]
-la città | [una città]
-il ponte | [un ponte]
+il liceo | [un liceo/un]
+lo stadio | [uno stadio/uno]
+la classe | [una classe/una]
+l’amica | [un’amica/un’]
+l’amico | [un amico/un]
+lo zaino | [uno zaino/uno]
+la città | [una città/una]
+il ponte | [un ponte/un]
 ! lo → uno, il → un, la → una, l’ → un (m) o un’ (f). || lo → uno, il → un, la → una, l’ → un (m) oder un’ (f).
 
 %übung mittel | Indeterminativo e determinativo
 ?tabelle | Scrivi l’articolo che manca. || Ergänze den fehlenden Artikel.
 Spalten: indeterminativo | determinativo
-[un ragazzo] | il ragazzo
-[uno studente] | lo studente
-[un’isola] | l’isola
-[un albero] | l’albero
-una festa | [la festa]
-uno zio | [lo zio]
-un’idea | [l’idea]
-un ospedale | [l’ospedale]
+[un ragazzo/un] | il ragazzo
+[uno studente/uno] | lo studente
+[un’isola/un’] | l’isola
+[un albero/un] | l’albero
+una festa | [la festa/la]
+uno zio | [lo zio/lo]
+un’idea | [l’idea/l’]
+un ospedale | [l’ospedale/l’]
 
 %übung mittel | Che cosa c’è a Torino?
 ?luecke | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.

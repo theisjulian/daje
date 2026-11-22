@@ -58,7 +58,8 @@
      "start": "Luca porta … (Hose, blau)",
      "acceptedAnswers": [
       "i pantaloni blu",
-      "pantaloni blu"
+      "pantaloni blu",
+      "dei pantaloni blu"
      ],
      "modelAnswer": "Luca porta i pantaloni blu."
     },
@@ -124,7 +125,9 @@
      "id": "s8",
      "start": "Il nonno porta … (Hemden, hellblau)",
      "acceptedAnswers": [
-      "camicie azzurre"
+      "camicie azzurre",
+      "le camicie azzurre",
+      "delle camicie azzurre"
      ],
      "modelAnswer": "Il nonno porta camicie azzurre."
     }

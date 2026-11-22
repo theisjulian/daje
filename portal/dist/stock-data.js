@@ -489,7 +489,7 @@ const STOCK_PACKAGES = [
    "type": "youtube",
    "videoId": "HckSho-OOtA"
   },
-  "transcript": "Roma è la capitale d'Italia una delle strade più importanti è via del Corso\nè conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km e\nmezzo dalla porta del Popolo arriva all'altare della Patria chiamato anche Il\nVittoriano è un grande monumento costruito per ricordare Vittorio Emanuele I il primo re\nd'Italia poco più avanti troviamo il foro romano e i Fori Imperiali una serie di\nmonumenti e piazze dell'antica Roma di fronte il monumento più famoso e simbolo dell'Italia il Colosseo un grande\nanfiteatro di 2000 anni e dietro al Colosseo Ecco il grande\nArco di trionfo di Costantino Roma è una città ricca di monumenti musei teatri e\npiazze tra le più importanti Piazza di Spagna famosa per la sua scalinata che\ndalla fontana La Barcaccia arriva alla chiesa della Trinità dei\nMonti e Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e\nil mercatino di Natale che la riempie di luci e colori\nEcco poi lungo il Tevere il bellissimo Castel Sant'Angelo qui potete visitare il museo\nnazionale e guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro della Città del\nVaticano e se volete tornare a Roma ricordate di lanciare una moneta nella fontana di\nTrevi",
+  "transcript": "Roma è la capitale d'Italia una delle strade più importanti è via del Corso\nè conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km e\nmezzo dalla porta del Popolo arriva all'altare della Patria chiamato anche Il\nVittoriano è un grande monumento costruito per ricordare Vittorio Emanuele II, il primo re\nd'Italia poco più avanti troviamo il foro romano e i Fori Imperiali una serie di\nmonumenti e piazze dell'antica Roma di fronte il monumento più famoso e simbolo dell'Italia il Colosseo un grande\nanfiteatro di 2000 anni e dietro al Colosseo Ecco il grande\nArco di trionfo di Costantino Roma è una città ricca di monumenti musei teatri e\npiazze tra le più importanti Piazza di Spagna famosa per la sua scalinata che\ndalla fontana La Barcaccia arriva alla chiesa della Trinità dei\nMonti e Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e\nil mercatino di Natale che la riempie di luci e colori\nEcco poi lungo il Tevere il bellissimo Castel Sant'Angelo qui potete visitare il museo\nnazionale e guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro della Città del\nVaticano e se volete tornare a Roma ricordate di lanciare una moneta nella fontana di\nTrevi",
   "teacherNotes": {
    "warmup": [
     "Fragen Sie die Lernenden, welche Sehenswürdigkeiten sie in Rom bereits kennen oder gerne sehen würden."
@@ -102012,7 +102012,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q4",
     "type": "ordering",
-    "prompt": "Metti le parole in ordine: „Wir wohnen in einem großen Haus.“",
+    "prompt": "Metti le parole in ordine: „Wir wohnen in einem gelben Haus.“",
     "explanation": "Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima.",
     "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
     "explanationHelp": "Adjektive meist nach dem Nomen; bello, grande, buono auch davor.",
@@ -102031,11 +102031,11 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "i4",
-      "text": "grande"
+      "text": "casa"
      },
      {
       "id": "i5",
-      "text": "casa."
+      "text": "gialla."
      }
     ]
    }
@@ -104628,7 +104628,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c1",
        "acceptedAnswers": [
-        "un liceo"
+        "un liceo",
+        "un"
        ]
       }
      ],
@@ -104637,7 +104638,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c2",
        "acceptedAnswers": [
-        "uno stadio"
+        "uno stadio",
+        "uno"
        ]
       }
      ],
@@ -104646,7 +104648,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c3",
        "acceptedAnswers": [
-        "una classe"
+        "una classe",
+        "una"
        ]
       }
      ],
@@ -104655,7 +104658,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c4",
        "acceptedAnswers": [
-        "un’amica"
+        "un’amica",
+        "un’"
        ]
       }
      ],
@@ -104664,7 +104668,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c5",
        "acceptedAnswers": [
-        "un amico"
+        "un amico",
+        "un"
        ]
       }
      ],
@@ -104673,7 +104678,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c6",
        "acceptedAnswers": [
-        "uno zaino"
+        "uno zaino",
+        "uno"
        ]
       }
      ],
@@ -104682,7 +104688,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c7",
        "acceptedAnswers": [
-        "una città"
+        "una città",
+        "una"
        ]
       }
      ],
@@ -104691,7 +104698,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c8",
        "acceptedAnswers": [
-        "un ponte"
+        "un ponte",
+        "un"
        ]
       }
      ]
@@ -104765,7 +104773,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c1",
        "acceptedAnswers": [
-        "un ragazzo"
+        "un ragazzo",
+        "un"
        ]
       },
       "il ragazzo"
@@ -104774,7 +104783,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c2",
        "acceptedAnswers": [
-        "uno studente"
+        "uno studente",
+        "uno"
        ]
       },
       "lo studente"
@@ -104783,7 +104793,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c3",
        "acceptedAnswers": [
-        "un’isola"
+        "un’isola",
+        "un’"
        ]
       },
       "l’isola"
@@ -104792,7 +104803,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c4",
        "acceptedAnswers": [
-        "un albero"
+        "un albero",
+        "un"
        ]
       },
       "l’albero"
@@ -104802,7 +104814,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c5",
        "acceptedAnswers": [
-        "la festa"
+        "la festa",
+        "la"
        ]
       }
      ],
@@ -104811,7 +104824,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c6",
        "acceptedAnswers": [
-        "lo zio"
+        "lo zio",
+        "lo"
        ]
       }
      ],
@@ -104820,7 +104834,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c7",
        "acceptedAnswers": [
-        "l’idea"
+        "l’idea",
+        "l’"
        ]
       }
      ],
@@ -104829,7 +104844,8 @@ const STOCK_PACKAGES = [
       {
        "id": "c8",
        "acceptedAnswers": [
-        "l’ospedale"
+        "l’ospedale",
+        "l’"
        ]
       }
      ]
@@ -106405,9 +106421,9 @@ const STOCK_PACKAGES = [
     "id": "q1",
     "type": "table_fill",
     "prompt": "Scrivi l’articolo e m (maschile) o f (femminile).",
-    "explanation": "I nomi in -e cambiano: il ponte, il fiume (m), l’attrazione (f).",
+    "explanation": "I nomi in -e possono essere maschili o femminili: il ponte, il fiume (m), l’attrazione (f).",
     "promptHelp": "Schreibe den Artikel und m (männlich) oder f (weiblich).",
-    "explanationHelp": "Bei -e hilft nur das Lernen: il ponte, il fiume (m), l’attrazione (f).",
+    "explanationHelp": "Nomen auf -e können männlich oder weiblich sein: il ponte, il fiume (m), l’attrazione (f).",
     "columns": [
      "nome",
      "articolo",
@@ -111059,7 +111075,7 @@ const STOCK_PACKAGES = [
       "options": [
        "rosa",
        "rose",
-       "rosse"
+       "rosi"
       ],
       "answer": "rosa"
      },
@@ -111407,7 +111423,8 @@ const STOCK_PACKAGES = [
       "start": "Luca porta … (Hose, blau)",
       "acceptedAnswers": [
        "i pantaloni blu",
-       "pantaloni blu"
+       "pantaloni blu",
+       "dei pantaloni blu"
       ],
       "modelAnswer": "Luca porta i pantaloni blu."
      },
@@ -111473,7 +111490,9 @@ const STOCK_PACKAGES = [
       "id": "s8",
       "start": "Il nonno porta … (Hemden, hellblau)",
       "acceptedAnswers": [
-       "camicie azzurre"
+       "camicie azzurre",
+       "le camicie azzurre",
+       "delle camicie azzurre"
       ],
       "modelAnswer": "Il nonno porta camicie azzurre."
      }
@@ -114320,7 +114339,7 @@ const STOCK_PACKAGES = [
     "type": "gap_choice",
     "prompt": "Scegli il pronome.",
     "explanation": "gli vuol dire «a lui», nella lingua di tutti i giorni anche «a loro».",
-    "promptHelp": "Ergänze die Pronomen.",
+    "promptHelp": "Wähle das passende Pronomen.",
     "explanationHelp": "gli bedeutet ihm, im Alltag auch ihnen.",
     "text": "È il compleanno di Marco: [[g1]] do un libro.\nMia sorella ama la musica: [[g2]] do un CD.\nRagazzi, [[g3]] do i biglietti per il concerto.\nMamma, che cosa [[g4]] dai per Natale?\nLa nonna [[g5]] dà sempre i dolci. (a noi)\nSignora, [[g6]] do il mio posto!\nI miei amici mi aiutano: io [[g7]] dico grazie. (ai miei amici)\nPaolo, [[g8]] do il mio numero.",
     "gaps": [
@@ -115953,9 +115972,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Rispondi con la data.",
+    "prompt": "Rispondi con la data in lettere.",
     "explanation": "",
-    "promptHelp": "Antworte mit dem Datum.",
+    "promptHelp": "Antworte mit dem Datum in Worten.",
     "items": [
      {
       "id": "s1",
@@ -116179,7 +116198,7 @@ const STOCK_PACKAGES = [
     "explanation": "il + numero (il venticinque), il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data.",
     "promptHelp": "Korrigiere die acht Fehler.",
     "explanationHelp": "il + Zahl (il venticinque), il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.",
-    "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è [[g3]] venticinque dicembre.\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] undici novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
+    "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è [[g3]] venticinque dicembre.\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
     "errors": [
      {
       "id": "g1",
@@ -116218,9 +116237,9 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "g6",
-      "wrong": "il",
+      "wrong": "il undici",
       "acceptedAnswers": [
-       "l’"
+       "l’undici"
       ]
      },
      {
@@ -119401,7 +119420,7 @@ const STOCK_PACKAGES = [
     "explanation": "essere: nome, origine, com’è una cosa. stare: come va (bene/male).",
     "promptHelp": "essere oder stare? Wähle die passende Form.",
     "explanationHelp": "essere: Name, Herkunft, Eigenschaft. stare: Befinden (bene/male).",
-    "text": "Io [[g1]] di Torino.\nCome [[g2]]? – Bene, grazie.\nMarco [[g3]] il mio amico.\nOggi Giulia non [[g4]] bene.\nTorino [[g5]] una città importante.\nNoi [[g6]] male oggi.\nVoi [[g7]] in centro?\nCome [[g8]], ragazzi?\nMia nonna [[g9]] di Napoli.\nI miei amici [[g10]] bene.",
+    "text": "Io [[g1]] di Torino.\nCome [[g2]]? – Bene, grazie.\nMarco [[g3]] il mio amico.\nOggi Giulia non [[g4]] bene.\nTorino [[g5]] una città importante.\nNoi [[g6]] male oggi.\nVoi [[g7]] di Roma?\nCome [[g8]], ragazzi?\nMia nonna [[g9]] di Napoli.\nI miei amici [[g10]] bene.",
     "gaps": [
      {
       "id": "g1",
@@ -119704,13 +119723,15 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "Sono"
+       "Sono",
+       "Sto"
       ]
      },
      {
       "id": "g7",
       "acceptedAnswers": [
-       "è"
+       "è",
+       "sta"
       ]
      },
      {
@@ -120239,7 +120260,9 @@ const STOCK_PACKAGES = [
       "id": "s2",
       "start": "(Marco / bene oggi)",
       "acceptedAnswers": [
-       "Marco sta bene oggi"
+       "Marco sta bene oggi",
+       "Oggi Marco sta bene",
+       "Marco oggi sta bene"
       ],
       "modelAnswer": "Marco sta bene oggi."
      },
@@ -123320,7 +123343,7 @@ const STOCK_PACKAGES = [
     "prompt": "Trasforma la domanda in una proposta.",
     "explanation": "La forma è uguale al presente; cambia solo l’intonazione (!).",
     "promptHelp": "Mache aus der Frage einen Vorschlag.",
-    "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.",
+    "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Satzmelodie ändert sich.",
     "items": [
      {
       "id": "s1",
@@ -123680,7 +123703,7 @@ const STOCK_PACKAGES = [
     "explanation": "Proposta con noi: andiamo, mangiamo, facciamo.",
     "promptHelp": "Korrigiere die acht falschen Vorschläge.",
     "explanationHelp": "Vorschlag mit noi.",
-    "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani!",
+    "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara insieme, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani, noi due domani!",
     "errors": [
      {
       "id": "g1",
@@ -123803,7 +123826,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p1",
       "left": "Dimmi!",
-      "right": "Sag es mir!"
+      "right": "Sag mir! / Sag mal!"
      },
      {
       "id": "p2",
@@ -124727,7 +124750,8 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "wrong": "mangiarlola",
       "acceptedAnswers": [
-       "mangiarla"
+       "mangiarla",
+       "la mangiare"
       ]
      },
      {
@@ -126685,7 +126709,7 @@ const STOCK_PACKAGES = [
       "id": "g5",
       "options": [
        "faccio",
-       "fo",
+       "facio",
        "fa"
       ],
       "answer": "faccio"
@@ -126963,7 +126987,7 @@ const STOCK_PACKAGES = [
     ],
     "distractors": [
      "facete",
-     "fo"
+     "facio"
     ]
    }
   ]
@@ -127534,7 +127558,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "g2",
-      "wrong": "fo",
+      "wrong": "facio",
       "acceptedAnswers": [
        "faccio"
       ]
@@ -129461,7 +129485,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scegli la forma giusta.",
     "explanation": "",
     "promptHelp": "Wähle die richtige Form.",
-    "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, [[g7]] entrare?\nMamma, [[g8]] uscire stasera?",
+    "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, (io) [[g7]] entrare?\nMamma, (io) [[g8]] uscire stasera?",
     "gaps": [
      {
       "id": "g1",
@@ -131199,7 +131223,8 @@ const STOCK_PACKAGES = [
       "id": "s8",
       "start": "Giochi ancora a tennis? (più) – No, …",
       "acceptedAnswers": [
-       "non gioco più a tennis"
+       "non gioco più",
+       "non ci gioco più"
       ],
       "modelAnswer": "No, non gioco più a tennis."
      }
@@ -131275,7 +131300,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "acceptedAnswers": [
-       "nessuno"
+       "nessuno",
+       "mai"
       ]
      },
      {
@@ -143540,7 +143566,7 @@ const STOCK_PACKAGES = [
     "explanation": "Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere.",
     "promptHelp": "Welches Hilfsverb passt?",
     "explanationHelp": "Das folgende Verb entscheidet.",
-    "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nMarco [[g6]] potuto venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
+    "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nGiulia [[g6]] potuta venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
     "gaps": [
      {
       "id": "g1",
@@ -144255,7 +144281,7 @@ const STOCK_PACKAGES = [
     "prompt": "Correggi le forme segnate.",
     "explanation": "",
     "promptHelp": "Korrigiere die markierten Formen.",
-    "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.\nNoi [[g4]] dovuti partire presto.\nIo [[g5]] voluto vedere il film.\nLe mie amiche sono [[g6]] venire.\nTu [[g7]] dovuto studiare tanto?\nMio fratello [[g8]] voluto restare a casa.",
+    "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.\nNoi [[g4]] dovuti partire presto.\nIo [[g5]] voluto vedere il film.\nLe mie amiche sono [[g6]] venire.\nTu [[g7]] dovuto studiare tanto?\nMia sorella [[g8]] restare a casa.",
     "errors": [
      {
       "id": "g1",
@@ -144308,9 +144334,9 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "g8",
-      "wrong": "ha",
+      "wrong": "ha voluta",
       "acceptedAnswers": [
-       "è"
+       "è voluta"
       ]
      }
     ]
@@ -144500,7 +144526,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo.",
     "explanation": "",
     "promptHelp": "Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.",
-    "modelAnswer": "Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!",
+    "modelAnswer": "Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto scriverti per chiederti scusa. A presto!",
     "lines": 5
    },
    {
@@ -144509,7 +144535,7 @@ const STOCK_PACKAGES = [
     "prompt": "E adesso completa.",
     "explanation": "",
     "promptHelp": "Und jetzt ergänze.",
-    "text": "Sabato non (potere) [[g1]] venire alla festa.\n(Dovere) [[g2]] aiutare mio padre.\nPoi (dovere) [[g3]] andare dai nonni.\n(Volere) [[g4]] telefonarti.",
+    "text": "Sabato non (potere) [[g1]] venire alla festa.\n(Dovere) [[g2]] aiutare mio padre.\nPoi (dovere) [[g3]] andare dai nonni.\n(Volere) [[g4]] scriverti questa mail.",
     "gaps": [
      {
       "id": "g1",
@@ -144858,7 +144884,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scegli la preposizione articolata giusta.",
     "explanation": "",
     "promptHelp": "Wähle die richtige Form.",
-    "text": "Vado [[g1]] cinema.\nTorno [[g2]] scuola.\nIl libro [[g3]] professoressa è qui.\nAndiamo [[g4]] stadio.\nIl gatto è [[g5]] giardino.\nTelefono [[g6]] amici.\nIl poster è [[g7]] porta.\nLa casa [[g8]] nonni è grande.",
+    "text": "Vado [[g1]] cinema.\nTorno [[g2]] piscina.\nIl libro [[g3]] professoressa è qui.\nAndiamo [[g4]] stadio.\nIl gatto è [[g5]] giardino.\nTelefono [[g6]] amici.\nIl poster è [[g7]] porta.\nLa casa [[g8]] nonni è grande.",
     "gaps": [
      {
       "id": "g1",
@@ -148364,7 +148390,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "i3",
-      "text": "una foto",
+      "text": "una foto (singolare)",
       "category": "q"
      },
      {
@@ -150355,7 +150381,7 @@ const STOCK_PACKAGES = [
     "explanation": "quando = wenn (tempo), perché = weil (motivo).",
     "promptHelp": "Wähle quando oder perché.",
     "explanationHelp": "quando = wenn (Zeit), perché = weil (Grund).",
-    "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l’estate [[g6]] è la stagione delle vacanze.\nOggi resto a casa [[g7]] sono malato.\n[[g8]] fa caldo, mangio un gelato.",
+    "text": "[[g1]] nevica, faccio snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l’estate [[g6]] è la stagione delle vacanze.\nOggi resto a casa [[g7]] sono malato.\n[[g8]] fa caldo, mangio un gelato.",
     "gaps": [
      {
       "id": "g1",
@@ -151495,7 +151521,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p6",
       "left": "una scatola di",
-      "right": "biscotti"
+      "right": "uova"
      },
      {
       "id": "p7",
@@ -151568,9 +151594,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Scegli di o d’.",
+    "prompt": "Davanti a vocale di solito usiamo d’. Scegli la forma più comune.",
     "explanation": "Davanti a vocale: d’ (d’acqua, d’olio).",
-    "promptHelp": "Wähle di oder d’.",
+    "promptHelp": "Vor Vokal meist d’. Wähle die übliche Form.",
     "explanationHelp": "Vor Vokal: d’ (d’acqua, d’olio).",
     "text": "una bottiglia [[g1]] acqua\nun litro [[g2]] latte\nun chilo [[g3]] pomodori\nun litro [[g4]] olio\nun etto [[g5]] formaggio\nun pacco [[g6]] riso\nuna scatola [[g7]] biscotti\nun vasetto [[g8]] miele",
     "gaps": [
@@ -151742,7 +151768,7 @@ const STOCK_PACKAGES = [
       "options": [
        "pacco",
        "litro",
-       "etto"
+       "vasetto"
       ],
       "answer": "pacco"
      },
@@ -159388,7 +159414,7 @@ const STOCK_PACKAGES = [
     "type": "open_answer",
     "prompt": "Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio.",
     "explanation": "",
-    "promptHelp": "Was machen deine Familie oder Leute draußen gerade? 5 Sätze.",
+    "promptHelp": "Was macht deine Familie gerade, was machen die Leute draußen? Schreibe 5 Sätze.",
     "modelAnswer": "Mia madre sta lavorando. Mio fratello sta giocando ai videogiochi. Il cane sta dormendo. Due bambini stanno correndo nel parco. Io sto scrivendo questo testo.",
     "lines": 5
    },
@@ -162587,7 +162613,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Scrivi uscire, bere, tenere, andare e fare nella forma giusta.",
+    "prompt": "Scrivi uscire, bere, tenere, andare, arrivare e fare nella forma giusta.",
     "explanation": "",
     "promptHelp": "Ergänze die Verben.",
     "text": "Venerdì sera io e Sara (uscire) [[g1]] presto.\n(Andare, noi) [[g2]] in un bar in centro.\nIo (bere) [[g3]] una limonata, Sara (bere) [[g4]] un tè freddo.\nPoi (arrivare) [[g5]] Luca e Paolo: loro (uscire) [[g6]] dal cinema.\nLuca (tenere) [[g7]] in mano due biglietti per un concerto!\n«Ragazze, (uscire, voi) [[g8]] anche domani?» chiede.\nSì, ma prima (fare, noi) [[g9]] i compiti!",
@@ -167073,7 +167099,7 @@ const STOCK_PACKAGES = [
     "explanation": "Con un verbo (parlare, andare, sentirsi, giocare): bene / male. Con un nome: buono / cattivo.",
     "promptHelp": "Korrigiere die zehn Fehler.",
     "explanationHelp": "Bei einem Verb: bene / male. Bei einem Nomen: buono / cattivo.",
-    "text": "Marco parla molto [[g1]] il tedesco.\nQuesta pasta è proprio [[g2]].\n[[g3]] viaggio e a presto!\nHo trovato un [[g4]] stage in una ditta di Torino.\nOggi mi sento [[g5]]: ho la febbre e resto a casa.\nElena è una [[g6]] collega.\nIl colloquio è andato [[g7]]!\nI tuoi voti non sono [[g8]] quest’anno.\n[[g9]] fortuna per il colloquio!\nIeri la nostra squadra ha giocato [[g10]] e ha perso.",
+    "text": "Marco parla molto [[g1]] il tedesco.\nQuesta pasta è proprio [[g2]].\n[[g3]] viaggio e a presto!\nHo trovato uno stage con un [[g4]] stipendio in una ditta di Torino.\nOggi mi sento [[g5]]: ho la febbre e resto a casa.\nElena è una [[g6]] collega.\nIl colloquio è andato [[g7]]!\nI tuoi voti non sono [[g8]] quest’anno.\n[[g9]] fortuna per il colloquio!\nIeri la nostra squadra ha giocato [[g10]] e ha perso.",
     "errors": [
      {
       "id": "g1",
@@ -176044,7 +176070,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 11
   },
   "vocabularyIds": [],
@@ -176188,7 +176214,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 12
   },
   "vocabularyIds": [],
@@ -176299,7 +176325,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 13
   },
   "vocabularyIds": [],
@@ -176415,7 +176441,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 11
   },
   "vocabularyIds": [],
@@ -176541,7 +176567,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 12
   },
   "vocabularyIds": [],
@@ -176670,7 +176696,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 13
   },
   "vocabularyIds": [],
@@ -176832,7 +176858,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 11
   },
   "vocabularyIds": [],
@@ -176953,7 +176979,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 12
   },
   "vocabularyIds": [],
@@ -177078,7 +177104,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
-   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
+   "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).",
    "order": 13
   },
   "vocabularyIds": [],
@@ -177704,8 +177730,7 @@ const STOCK_PACKAGES = [
      {
       "id": "g7",
       "acceptedAnswers": [
-       "millenovecentottantanove",
-       "millenovecentoottantanove"
+       "millenovecentottantanove"
       ]
      },
      {
@@ -181546,7 +181571,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p1",
       "left": "Dimmi!",
-      "right": "Sag mir!"
+      "right": "Sag mal!"
      },
      {
       "id": "p2",
@@ -182348,7 +182373,8 @@ const STOCK_PACKAGES = [
       "id": "g5",
       "wrong": "dillo",
       "acceptedAnswers": [
-       "dirlo"
+       "dirlo",
+       "lo dire"
       ]
      },
      {
@@ -195945,7 +195971,7 @@ const STOCK_PACKAGES = [
       "options": [
        "Quell’estate",
        "Quel estate",
-       "Quella estate"
+       "Quell estate"
       ],
       "answer": "Quell’estate"
      },
@@ -200202,7 +200228,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q3",
     "type": "ordering",
-    "prompt": "Metti in ordine: „Ich glaube, dass Luca die Karten schon gekauft hat.“",
+    "prompt": "Metti in ordine: „Ich glaube, dass Luca die Karten für das Konzert schon gekauft hat.“",
     "explanation": "",
     "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
     "items": [
@@ -200248,7 +200274,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q5",
     "type": "ordering",
-    "prompt": "Metti in ordine: „Ich weiß, dass das Konzert um acht begonnen hat.“",
+    "prompt": "Metti in ordine: „Ich weiß, dass das Konzert um Punkt acht begonnen hat.“",
     "explanation": "",
     "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
     "items": [
@@ -202335,7 +202361,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g4",
       "acceptedAnswers": [
-       "scriveva"
+       "scriveva",
+       "stava scrivendo"
       ]
      },
      {
@@ -204100,7 +204127,7 @@ const STOCK_PACKAGES = [
     "prompt": "Scrivi una sola parola al posto delle parole tra parentesi (-issimo, ottimo, pessimo).",
     "explanation": "",
     "promptHelp": "Schreibe statt der Wörter in Klammern ein einziges Wort (-issimo, ottimo, pessimo).",
-    "text": "Il nostro albergo era (molto piccolo) [[g1]], ma la posizione era (molto buona) [[g2]].\nLa colazione, invece, era (molto cattiva) [[g3]]: solo pane vecchio e caffè freddo.\nLe camere erano (molto pulite) [[g4]] e i letti (molto comodi) [[g5]].\nDi notte però ho dormito (molto poco) [[g6]], perché la strada era (molto rumorosa) [[g7]].\nIl personale è stato (molto gentile) [[g8]]: ci ha dato (molti) [[g9]] consigli.\nIn generale siamo stati (molto bene) [[g10]].",
+    "text": "Il nostro albergo era (molto piccolo) [[g1]], ma la posizione era (molto buona) [[g2]].\nLa colazione, invece, era (molto cattiva) [[g3]]: solo pane vecchio e caffè freddo.\nLe camere erano (molto pulite) [[g4]] e i letti (molto comodi) [[g5]].\nDi notte però ho dormito (molto poco) [[g6]], perché la strada era (molto rumorosa) [[g7]].\nIl personale è stato (molto gentile) [[g8]]: ci ha dato (tanti tanti) [[g9]] consigli.\nIn generale siamo stati (molto bene) [[g10]].",
     "gaps": [
      {
       "id": "g1",
@@ -208743,8 +208770,8 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "options": [
        "sia",
-       "fosse",
-       "sarebbe"
+       "siano",
+       "sono"
       ],
       "answer": "sia"
      },
@@ -218912,7 +218939,8 @@ const STOCK_PACKAGES = [
       "id": "s9",
       "start": "Mi dai due biscotti? – Sì, …",
       "acceptedAnswers": [
-       "te ne do due"
+       "te ne do due",
+       "te ne do"
       ],
       "modelAnswer": "Sì, te ne do due."
      }
@@ -225726,7 +225754,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "i9",
-      "text": "Lass die Suppe noch fünf Minuten kochen.",
+      "text": "Lass ihn doch reden!",
       "category": "b"
      },
      {
@@ -226503,7 +226531,8 @@ const STOCK_PACKAGES = [
      {
       "id": "g8",
       "acceptedAnswers": [
-       "ho fatte vedere"
+       "ho fatte vedere",
+       "ho fatto vedere"
       ]
      }
     ]
@@ -227865,7 +227894,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 11
   },
   "vocabularyIds": [],
@@ -227992,7 +228021,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 12
   },
   "vocabularyIds": [],
@@ -228114,7 +228143,7 @@ const STOCK_PACKAGES = [
    "difficulty": "leicht",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 13
   },
   "vocabularyIds": [],
@@ -228216,7 +228245,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 11
   },
   "vocabularyIds": [],
@@ -228327,7 +228356,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 12
   },
   "vocabularyIds": [],
@@ -228489,7 +228518,7 @@ const STOCK_PACKAGES = [
    "difficulty": "mittel",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 13
   },
   "vocabularyIds": [],
@@ -228615,7 +228644,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 11
   },
   "vocabularyIds": [],
@@ -228734,7 +228763,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 12
   },
   "vocabularyIds": [],
@@ -228857,7 +228886,7 @@ const STOCK_PACKAGES = [
    "difficulty": "schwer",
    "origin": "own",
    "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
-   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
+   "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)",
    "order": 13
   },
   "vocabularyIds": [],
@@ -238648,7 +238677,7 @@ const STOCK_PACKAGES = [
     "explanation": "se + congiuntivo (mai condizionale) · da + tempo (seit) · tre anni fa (vor drei Jahren) · chiedere a qualcuno · la gente è (singolare) · mi piacciono i film · rimanere con essere · il problema (maschile) · devo alzarmi · sperare che + congiuntivo o futuro.",
     "promptHelp": "In jedem Satz steckt ein typischer Fehler deutschsprachiger Lernender. Korrigiere ihn.",
     "explanationHelp": "se + Konjunktiv (nie condizionale) · da = seit · tre anni fa = vor drei Jahren · chiedere a qualcuno · la gente ist Singular · mi piacciono i film (Plural) · rimanere mit essere · il problema ist maskulin · Pronomen an den Infinitiv (alzarmi) · sperare che + Konjunktiv oder Futur.",
-    "text": "Se [[g1]] più soldi, farei un viaggio in Sicilia.\nStudio l’italiano [[g2]] quattro anni e mi piace ancora.\nSono stato a Roma [[g3]].\nHo chiesto [[g4]] se posso uscire stasera.\nLa gente [[g5]] molto gentile in questo paese.\nMi [[g6]] molto i film italiani degli anni Sessanta.\nSabato scorso [[g7]] rimasto a casa tutto il giorno.\nQual è [[g8]] problema più grande della nostra città?\nDomani devo [[g9]] molto presto.\nSpero che [[g10]] anche tu alla festa di sabato.",
+    "text": "Se [[g1]] più soldi, farei un viaggio in Sicilia.\nStudio l’italiano [[g2]] quattro anni e mi piace ancora.\nSono stato a Roma [[g3]].\nHo chiesto [[g4]] se potevo uscire stasera.\nLa gente [[g5]] molto gentile in questo paese.\nMi [[g6]] molto i film italiani degli anni Sessanta.\nSabato scorso [[g7]] rimasto a casa tutto il giorno.\nQual è [[g8]] problema più grande della nostra città?\nDomani devo [[g9]] molto presto.\nSpero che [[g10]] anche tu alla festa di sabato.",
     "errors": [
      {
       "id": "g1",

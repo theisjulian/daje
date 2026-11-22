@@ -111,7 +111,7 @@ Il nostro albergo era (molto piccolo) [piccolissimo], ma la posizione era (molto
 La colazione, invece, era (molto cattiva) [pessima/cattivissima]: solo pane vecchio e caffè freddo.
 Le camere erano (molto pulite) [pulitissime] e i letti (molto comodi) [comodissimi].
 Di notte però ho dormito (molto poco) [pochissimo], perché la strada era (molto rumorosa) [rumorosissima].
-Il personale è stato (molto gentile) [gentilissimo]: ci ha dato (molti) [moltissimi/tantissimi] consigli.
+Il personale è stato (molto gentile) [gentilissimo]: ci ha dato (tanti tanti) [moltissimi/tantissimi] consigli.
 In generale siamo stati (molto bene) [benissimo].
 
 %übung schwer | La mia città
@@ -485,7 +485,7 @@ Colombo è arrivato in America nel 1492: nel [millequattrocentonovantadue].
 L’Italia è diventata un Paese unito nel 1861: nel [milleottocentosessantuno].
 Gli italiani hanno scelto la repubblica nel 1946: nel [millenovecentoquarantasei].
 Sei Paesi europei hanno firmato i Trattati di Roma nel 1957: nel [millenovecentocinquantasette].
-Il Muro di Berlino è caduto nel 1989: nel [millenovecentottantanove/millenovecentoottantanove].
+Il Muro di Berlino è caduto nel 1989: nel [millenovecentottantanove].
 L’euro è arrivato nelle tasche degli italiani nel 2002: nel [duemiladue].
 ! Una sola parola: mille + novecento + ottantanove. I numeri con tre alla fine hanno l’accento: cinquantatré. || Ein Wort: mille + novecento + ottantanove. Zahlen, die auf drei enden, haben einen Akzent: cinquantatré.
 

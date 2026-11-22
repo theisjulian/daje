@@ -52,7 +52,7 @@
    "explanation": "quando = wenn (tempo), perché = weil (motivo).",
    "explanationHelp": "quando = wenn (Zeit), perché = weil (Grund).",
    "type": "gap_choice",
-   "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l’estate [[g6]] è la stagione delle vacanze.\nOggi resto a casa [[g7]] sono malato.\n[[g8]] fa caldo, mangio un gelato.",
+   "text": "[[g1]] nevica, faccio snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l’estate [[g6]] è la stagione delle vacanze.\nOggi resto a casa [[g7]] sono malato.\n[[g8]] fa caldo, mangio un gelato.",
    "gaps": [
     {
      "id": "g1",

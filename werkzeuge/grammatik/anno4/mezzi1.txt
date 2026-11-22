@@ -19,7 +19,7 @@ Si usa:
 Con **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_
 #regel-de
 **Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.
-Gebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)
+Gebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Präsens oder Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)
 
 %übung leicht | Avere o essere?
 ?auswahl | Scegli l’ausiliare giusto. || Wähle das richtige Hilfsverb.
@@ -453,7 +453,7 @@ Sie lässt ihr Handy im Laden reparieren. > a
 Meine Eltern lassen mich allein nach Rom fahren. > b
 Lass mich bitte ausreden! > b
 Er lässt sein Auto waschen. > a
-Lass die Suppe noch fünf Minuten kochen. > b
+Lass ihn doch reden! > b
 Wir lassen die Einladungen drucken. > a
 
 %übung leicht | La forma giusta
@@ -537,7 +537,7 @@ A pranzo la nonna ci (fare assaggiare) [ha fatto assaggiare] la sua nuova torta.
 Nel pomeriggio Davide (farsi prestare) [si è fatto prestare] la mia bici.
 La sera i miei genitori mi (lasciare uscire) [hanno lasciato uscire] fino a mezzanotte.
 Al cinema il film ci (fare ridere) [ha fatto ridere] tantissimo.
-E le foto della serata? Le (fare vedere, io) [ho fatte vedere] subito a Sara.
+E le foto della serata? Le (fare vedere, io) [ho fatte vedere/ho fatto vedere] subito a Sara.
 ! farsi + infinito → essere (mi sono fatta tagliare); fare / lasciare + infinito → avere. Con lo, la, li, le prima del verbo il participio concorda: le ho fatte vedere. || farsi + Infinitiv → essere; fare / lasciare + Infinitiv → avere. Nach lo, la, li, le wird das Partizip angeglichen: le ho fatte vedere.
 
 %übung schwer | Fare o lasciar fare?

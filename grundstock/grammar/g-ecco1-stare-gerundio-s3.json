@@ -48,7 +48,7 @@
   {
    "id": "q1",
    "prompt": "Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio.",
-   "promptHelp": "Was machen deine Familie oder Leute draußen gerade? 5 Sätze.",
+   "promptHelp": "Was macht deine Familie gerade, was machen die Leute draußen? Schreibe 5 Sätze.",
    "type": "open_answer",
    "modelAnswer": "Mia madre sta lavorando. Mio fratello sta giocando ai videogiochi. Il cane sta dormendo. Due bambini stanno correndo nel parco. Io sto scrivendo questo testo.",
    "lines": 5

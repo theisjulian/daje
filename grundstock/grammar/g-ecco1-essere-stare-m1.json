@@ -52,7 +52,7 @@
    "explanation": "essere: nome, origine, com’è una cosa. stare: come va (bene/male).",
    "explanationHelp": "essere: Name, Herkunft, Eigenschaft. stare: Befinden (bene/male).",
    "type": "gap_choice",
-   "text": "Io [[g1]] di Torino.\nCome [[g2]]? – Bene, grazie.\nMarco [[g3]] il mio amico.\nOggi Giulia non [[g4]] bene.\nTorino [[g5]] una città importante.\nNoi [[g6]] male oggi.\nVoi [[g7]] in centro?\nCome [[g8]], ragazzi?\nMia nonna [[g9]] di Napoli.\nI miei amici [[g10]] bene.",
+   "text": "Io [[g1]] di Torino.\nCome [[g2]]? – Bene, grazie.\nMarco [[g3]] il mio amico.\nOggi Giulia non [[g4]] bene.\nTorino [[g5]] una città importante.\nNoi [[g6]] male oggi.\nVoi [[g7]] di Roma?\nCome [[g8]], ragazzi?\nMia nonna [[g9]] di Napoli.\nI miei amici [[g10]] bene.",
    "gaps": [
     {
      "id": "g1",

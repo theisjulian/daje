@@ -19,7 +19,7 @@ Espressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo 
 #regel-de
 Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.
 _il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._
-Die Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.
+Die Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – wie im Deutschen, aber anders als oft im Englischen – immer **vor** cui.
 Feste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum).
 
 %übung leicht | Che o cui?
@@ -288,7 +288,7 @@ Chi è {quella*|quel|quelle} signora nella foto?
 Ti ricordi {quei*|quegli|quelli} giochi in cortile?
 {Quello*|Quel|Quell’} zaino è troppo pesante.
 {Quelle*|Quella|Quegli} lettere sono molto vecchie.
-{Quell’estate*|Quel estate|Quella estate} faceva molto caldo.
+{Quell’estate*|Quel estate|Quell estate} faceva molto caldo.
 {Quegli*|Quei|Quelle} studenti non avevano il computer.
 Com’era bello {quel*|quello|quell’} giardino!
 ! Come l’articolo: il telefono → quel telefono, l’orologio → quell’orologio, gli occhiali → quegli occhiali, lo zaino → quello zaino. || Wie der Artikel: il → quel, l’ → quell’, gli → quegli, lo → quello.
@@ -661,7 +661,7 @@ Leggo che il concerto comincerà alle nove. > c
 ?luecke | Metti il verbo al tempo giusto (presente, passato prossimo, imperfetto o futuro). || Setze das Verb in die richtige Zeit (Präsens, passato prossimo, imperfetto oder Futur).
 Quando la nonna (essere) [era] giovane, non (esistere) [esistevano] i cellulari.
 Siccome non (avere, lei) [aveva] il telefono a casa, scriveva molte lettere.
-Mentre lei (scrivere) [scriveva], sua madre cucinava.
+Mentre lei (scrivere) [scriveva/stava scrivendo], sua madre cucinava.
 Oggi la nonna dice che la vita (essere) [è] più comoda.
 Usa il tablet ogni giorno, anche se non (capire) [capisce] tutto.
 Appena (ricevere) [riceve] una foto, risponde con un cuore.

@@ -62,7 +62,8 @@
      {
       "id": "c1",
       "acceptedAnswers": [
-       "un liceo"
+       "un liceo",
+       "un"
       ]
      }
     ],
@@ -71,7 +72,8 @@
      {
       "id": "c2",
       "acceptedAnswers": [
-       "uno stadio"
+       "uno stadio",
+       "uno"
       ]
      }
     ],
@@ -80,7 +82,8 @@
      {
       "id": "c3",
       "acceptedAnswers": [
-       "una classe"
+       "una classe",
+       "una"
       ]
      }
     ],
@@ -89,7 +92,8 @@
      {
       "id": "c4",
       "acceptedAnswers": [
-       "un’amica"
+       "un’amica",
+       "un’"
       ]
      }
     ],
@@ -98,7 +102,8 @@
      {
       "id": "c5",
       "acceptedAnswers": [
-       "un amico"
+       "un amico",
+       "un"
       ]
      }
     ],
@@ -107,7 +112,8 @@
      {
       "id": "c6",
       "acceptedAnswers": [
-       "uno zaino"
+       "uno zaino",
+       "uno"
       ]
      }
     ],
@@ -116,7 +122,8 @@
      {
       "id": "c7",
       "acceptedAnswers": [
-       "una città"
+       "una città",
+       "una"
       ]
      }
     ],
@@ -125,7 +132,8 @@
      {
       "id": "c8",
       "acceptedAnswers": [
-       "un ponte"
+       "un ponte",
+       "un"
       ]
      }
     ]

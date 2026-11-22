@@ -274,7 +274,7 @@ C’è {qualche*|alcuni|alcune} nuvola in cielo.
 Kategorien: q=qualche; a=alcuni / alcune
 giorno > q
 amica > q
-una foto > q
+una foto (singolare) > q
 volta > q
 libro > q
 giorni > a

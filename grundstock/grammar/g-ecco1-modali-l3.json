@@ -50,7 +50,7 @@
    "prompt": "Scegli la forma giusta.",
    "promptHelp": "Wähle die richtige Form.",
    "type": "gap_choice",
-   "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, [[g7]] entrare?\nMamma, [[g8]] uscire stasera?",
+   "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, (io) [[g7]] entrare?\nMamma, (io) [[g8]] uscire stasera?",
    "gaps": [
     {
      "id": "g1",

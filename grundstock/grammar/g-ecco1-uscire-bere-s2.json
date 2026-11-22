@@ -47,7 +47,7 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Scrivi uscire, bere, tenere, andare e fare nella forma giusta.",
+   "prompt": "Scrivi uscire, bere, tenere, andare, arrivare e fare nella forma giusta.",
    "promptHelp": "Ergänze die Verben.",
    "type": "gap_fill",
    "text": "Venerdì sera io e Sara (uscire) [[g1]] presto.\n(Andare, noi) [[g2]] in un bar in centro.\nIo (bere) [[g3]] una limonata, Sara (bere) [[g4]] un tè freddo.\nPoi (arrivare) [[g5]] Luca e Paolo: loro (uscire) [[g6]] dal cinema.\nLuca (tenere) [[g7]] in mano due biglietti per un concerto!\n«Ragazze, (uscire, voi) [[g8]] anche domani?» chiede.\nSì, ma prima (fare, noi) [[g9]] i compiti!",

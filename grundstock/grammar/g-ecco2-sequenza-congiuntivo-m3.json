@@ -95,7 +95,7 @@
   },
   {
    "id": "q3",
-   "prompt": "Metti in ordine: „Ich glaube, dass Luca die Karten schon gekauft hat.“",
+   "prompt": "Metti in ordine: „Ich glaube, dass Luca die Karten für das Konzert schon gekauft hat.“",
    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
@@ -139,7 +139,7 @@
   },
   {
    "id": "q5",
-   "prompt": "Metti in ordine: „Ich weiß, dass das Konzert um acht begonnen hat.“",
+   "prompt": "Metti in ordine: „Ich weiß, dass das Konzert um Punkt acht begonnen hat.“",
    "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [

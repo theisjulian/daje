@@ -121,7 +121,8 @@
      "id": "s9",
      "start": "Mi dai due biscotti? – Sì, …",
      "acceptedAnswers": [
-      "te ne do due"
+      "te ne do due",
+      "te ne do"
      ],
      "modelAnswer": "Sì, te ne do due."
     }

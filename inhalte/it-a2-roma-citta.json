@@ -90,7 +90,7 @@
     },
     {
       "type": "short_answer",
-      "prompt": "Quale piazza collega la scalinata alla chiesa di Trinità dei Monti?",
+      "prompt": "La scalinata collega la chiesa di Trinità dei Monti con quale piazza?",
       "acceptedAnswers": [
         "Piazza di Spagna",
         "la Piazza di Spagna",

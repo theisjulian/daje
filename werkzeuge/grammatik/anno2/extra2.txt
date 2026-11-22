@@ -530,7 +530,7 @@ Ti presto la chitarra
 a patto che
 tu stia
 attento.
-?ordnen | Metti in ordine: „Ich glaube, dass Luca die Karten schon gekauft hat.“ || Bringe die Teile in die richtige Reihenfolge.
+?ordnen | Metti in ordine: „Ich glaube, dass Luca die Karten für das Konzert schon gekauft hat.“ || Bringe die Teile in die richtige Reihenfolge.
 Penso che
 Luca abbia già comprato
 i biglietti
@@ -539,7 +539,7 @@ per il concerto.
 Finiamo le prove
 prima che
 arrivi il pubblico.
-?ordnen | Metti in ordine: „Ich weiß, dass das Konzert um acht begonnen hat.“ || Bringe die Teile in die richtige Reihenfolge.
+?ordnen | Metti in ordine: „Ich weiß, dass das Konzert um Punkt acht begonnen hat.“ || Bringe die Teile in die richtige Reihenfolge.
 So che
 il concerto è cominciato
 alle otto

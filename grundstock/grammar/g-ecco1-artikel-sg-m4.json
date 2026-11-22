@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Scrivi l’articolo e m (maschile) o f (femminile).",
    "promptHelp": "Schreibe den Artikel und m (männlich) oder f (weiblich).",
-   "explanation": "I nomi in -e cambiano: il ponte, il fiume (m), l’attrazione (f).",
-   "explanationHelp": "Bei -e hilft nur das Lernen: il ponte, il fiume (m), l’attrazione (f).",
+   "explanation": "I nomi in -e possono essere maschili o femminili: il ponte, il fiume (m), l’attrazione (f).",
+   "explanationHelp": "Nomen auf -e können männlich oder weiblich sein: il ponte, il fiume (m), l’attrazione (f).",
    "type": "table_fill",
    "columns": [
     "nome",

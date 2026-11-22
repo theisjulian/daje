@@ -245,7 +245,7 @@ I ragazzi giocano male. → Sono … (giocatori) | cattivi giocatori | Sono catt
 Marco parla molto [buono=>bene] il tedesco.
 Questa pasta è proprio [bene=>buona].
 [Buono=>Buon] viaggio e a presto!
-Ho trovato un [buon=>buono] stage in una ditta di Torino.
+Ho trovato uno stage con un [buon=>buono] stipendio in una ditta di Torino.
 Oggi mi sento [cattivo=>male]: ho la febbre e resto a casa.
 Elena è una [buon=>buona] collega.
 Il colloquio è andato [buono=>bene]!

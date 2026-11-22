@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Scegli di o d’.",
-   "promptHelp": "Wähle di oder d’.",
+   "prompt": "Davanti a vocale di solito usiamo d’. Scegli la forma più comune.",
+   "promptHelp": "Vor Vokal meist d’. Wähle die übliche Form.",
    "explanation": "Davanti a vocale: d’ (d’acqua, d’olio).",
    "explanationHelp": "Vor Vokal: d’ (d’acqua, d’olio).",
    "type": "gap_choice",

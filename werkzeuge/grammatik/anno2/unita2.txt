@@ -428,7 +428,7 @@ Verneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo
 
 %übung leicht | Che cosa vuol dire?
 ?zuordnen | Abbina la frase italiana alla traduzione. || Verbinde den italienischen Satz mit der Übersetzung.
-Dimmi! = Sag mir!
+Dimmi! = Sag mal!
 Dammi una mano! = Hilf mir!
 Fammi vedere! = Lass mich sehen!
 Fallo subito! = Mach es sofort!
@@ -505,7 +505,7 @@ Dico a Luca la verità? (gli) – Sì, … | digli la verità | Sì, digli la ve
 [Daggli=>Dagli] il mio numero di telefono.
 [Falo=>Fallo] adesso, non domani!
 [Mi da’=>Dammi] il tablet, per favore!
-È un segreto: non [dillo=>dirlo] a nessuno!
+È un segreto: non [dillo=>dirlo/lo dire] a nessuno!
 [Vaci=>Vacci] tu, io non ho tempo.
 Sara è triste: [dile=>dille] qualcosa di gentile!
 [Fami=>Fammi] sapere quando arrivi.

@@ -95,9 +95,9 @@
     },
     {
       "type": "true_false",
-      "prompt": "I primi biscotti proposti vanno bene per il tiramisù.",
-      "answer": false,
-      "explanation": "Empfohlen wird stattdessen eine andere, saugfähigere Sorte.",
+      "prompt": "Alla fine scelgono biscotti più spugnosi.",
+      "answer": true,
+      "explanation": "„Meglio questi, sono più spugnosi.“ – Empfohlen wird eine saugfähigere Sorte.",
       "id": "q5"
     },
     {

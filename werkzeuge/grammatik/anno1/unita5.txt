@@ -84,7 +84,7 @@ Giulia: (13.12.) Il mio compleanno è [il tredici dicembre].
 Leo: (6.4.) Il mio compleanno è [il sei aprile].
 
 %übung mittel | Quando?
-?ergaenzen | Rispondi con la data. || Antworte mit dem Datum.
+?ergaenzen | Rispondi con la data in lettere. || Antworte mit dem Datum in Worten.
 Quando è il tuo compleanno? (14.2.) – È … | il quattordici febbraio | È il quattordici febbraio.
 Quando comincia la scuola? (15.9.) – Comincia … | il quindici settembre | Comincia il quindici settembre.
 Quando è la festa? (1.6.) – È … | il primo giugno | È il primo giugno.
@@ -111,7 +111,7 @@ Oggi è il [uno=>primo] maggio.
 Natale è [la=>il] venticinque dicembre.
 La festa è [l’undicesimo=>l’undici] giugno.
 Il mio compleanno è [lo=>il] tre aprile.
-Oggi è [il=>l’] undici novembre.
+Oggi è [il undici=>l’undici] novembre.
 La gita è [il secondo=>il due] ottobre.
 Ci vediamo [il sabato 14 marzo=>sabato 14 marzo].
 ! il + numero (il venticinque), il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data. || il + Zahl (il venticinque), il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.
@@ -383,7 +383,7 @@ Giulia {è*|ha} voluta partire presto.
 Non {abbiamo*|siamo} potuto comprare i biglietti.
 I ragazzi {sono*|hanno} dovuti tornare a casa.
 {Ho*|Sono} voluto mangiare una pizza.
-Marco {è*|ha} potuto venire alla festa.
+Giulia {è*|ha} potuta venire alla festa.
 Noi {abbiamo*|siamo} voluto vedere il museo.
 Le ragazze {sono*|hanno} dovute uscire.
 ! Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere. || Das folgende Verb entscheidet.
@@ -458,7 +458,7 @@ Noi [abbiamo=>siamo] dovuti partire presto.
 Io [sono=>ho] voluto vedere il film.
 Le mie amiche sono [potuto=>potute] venire.
 Tu [sei=>hai] dovuto studiare tanto?
-Mio fratello [ha=>è] voluto restare a casa.
+Mia sorella [ha voluta=>è voluta] restare a casa.
 
 %übung schwer | Scuse
 ?ergaenzen | Spiega perché non è stato possibile (passato prossimo del modale). || Erkläre, warum es nicht ging.
@@ -473,13 +473,13 @@ Perché siete tornati presto? (dovere tornare per cena) – … | Siamo dovuti t
 
 %übung schwer | Una mail di scuse
 ?frei | Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo. || Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.
-Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!
+Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto scriverti per chiederti scusa. A presto!
 Zeilen: 5
 ?luecke | E adesso completa. || Und jetzt ergänze.
 Sabato non (potere) [sono potuto/sono potuta] venire alla festa.
 (Dovere) [Ho dovuto] aiutare mio padre.
 Poi (dovere) [sono dovuto/sono dovuta] andare dai nonni.
-(Volere) [Ho voluto] telefonarti.
+(Volere) [Ho voluto] scriverti questa mail.
 
 @thema imperativo-noi | 5 · Famiglia e gite | Parte B | L’imperativo della prima persona plurale | 5
 #lehrplan Jgst. 8 · Imperativ der 1. Person Plural
@@ -555,7 +555,7 @@ Chiamiamo Leo? → … | Chiamiamo Leo | Chiamiamo Leo!
 Usciamo stasera? → … | Usciamo stasera | Usciamo stasera!
 Non aspettiamo più? → … | Non aspettiamo più | Non aspettiamo più!
 Giochiamo a pallavolo? → … | Giochiamo a pallavolo | Giochiamo a pallavolo!
-! La forma è uguale al presente; cambia solo l’intonazione (!). || Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.
+! La forma è uguale al presente; cambia solo l’intonazione (!). || Die Form ist gleich wie im Präsens; nur die Satzmelodie ändert sich.
 
 %übung schwer | Imperativo: tu, voi, noi
 ?auswahl | Chi è? Scegli la forma giusta. || Wer ist gemeint? Wähle die passende Form.
@@ -585,10 +585,10 @@ Dai, [andate=>andiamo] al cinema insieme!
 [Mangiate=>Mangiamo] una pizza, ho fame anch’io!
 Non [prendete=>prendiamo] il taxi, è caro!
 [Fate=>Facciamo] una pausa tutti insieme!
-[Chiama=>Chiamiamo] Sara, è sola!
+[Chiama=>Chiamiamo] Sara insieme, è sola!
 [Restano=>Restiamo] a casa, piove!
 [Dimenticamo=>Dimentichiamo] i compiti per oggi!
-[Partite=>Partiamo] presto domani!
+[Partite=>Partiamo] presto domani, noi due domani!
 ! Proposta con noi: andiamo, mangiamo, facciamo. || Vorschlag mit noi.
 
 @thema quantita | 5 · Famiglia e gite | Parte B | Molto, poco, tanto, troppo | 6

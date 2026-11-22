@@ -52,7 +52,7 @@
    "explanation": "Con un verbo (parlare, andare, sentirsi, giocare): bene / male. Con un nome: buono / cattivo.",
    "explanationHelp": "Bei einem Verb: bene / male. Bei einem Nomen: buono / cattivo.",
    "type": "error_correction",
-   "text": "Marco parla molto [[g1]] il tedesco.\nQuesta pasta è proprio [[g2]].\n[[g3]] viaggio e a presto!\nHo trovato un [[g4]] stage in una ditta di Torino.\nOggi mi sento [[g5]]: ho la febbre e resto a casa.\nElena è una [[g6]] collega.\nIl colloquio è andato [[g7]]!\nI tuoi voti non sono [[g8]] quest’anno.\n[[g9]] fortuna per il colloquio!\nIeri la nostra squadra ha giocato [[g10]] e ha perso.",
+   "text": "Marco parla molto [[g1]] il tedesco.\nQuesta pasta è proprio [[g2]].\n[[g3]] viaggio e a presto!\nHo trovato uno stage con un [[g4]] stipendio in una ditta di Torino.\nOggi mi sento [[g5]]: ho la febbre e resto a casa.\nElena è una [[g6]] collega.\nIl colloquio è andato [[g7]]!\nI tuoi voti non sono [[g8]] quest’anno.\n[[g9]] fortuna per il colloquio!\nIeri la nostra squadra ha giocato [[g10]] e ha perso.",
    "errors": [
     {
      "id": "g1",

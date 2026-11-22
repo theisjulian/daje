@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Rispondi con la data.",
-   "promptHelp": "Antworte mit dem Datum.",
+   "prompt": "Rispondi con la data in lettere.",
+   "promptHelp": "Antworte mit dem Datum in Worten.",
    "type": "sentence_completion",
    "items": [
     {

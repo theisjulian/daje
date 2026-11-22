@@ -50,7 +50,7 @@
    "prompt": "Scegli la preposizione articolata giusta.",
    "promptHelp": "Wähle die richtige Form.",
    "type": "gap_choice",
-   "text": "Vado [[g1]] cinema.\nTorno [[g2]] scuola.\nIl libro [[g3]] professoressa è qui.\nAndiamo [[g4]] stadio.\nIl gatto è [[g5]] giardino.\nTelefono [[g6]] amici.\nIl poster è [[g7]] porta.\nLa casa [[g8]] nonni è grande.",
+   "text": "Vado [[g1]] cinema.\nTorno [[g2]] piscina.\nIl libro [[g3]] professoressa è qui.\nAndiamo [[g4]] stadio.\nIl gatto è [[g5]] giardino.\nTelefono [[g6]] amici.\nIl poster è [[g7]] porta.\nLa casa [[g8]] nonni è grande.",
    "gaps": [
     {
      "id": "g1",

@@ -51,7 +51,7 @@
    "explanation": "se + congiuntivo (mai condizionale) · da + tempo (seit) · tre anni fa (vor drei Jahren) · chiedere a qualcuno · la gente è (singolare) · mi piacciono i film · rimanere con essere · il problema (maschile) · devo alzarmi · sperare che + congiuntivo o futuro.",
    "explanationHelp": "se + Konjunktiv (nie condizionale) · da = seit · tre anni fa = vor drei Jahren · chiedere a qualcuno · la gente ist Singular · mi piacciono i film (Plural) · rimanere mit essere · il problema ist maskulin · Pronomen an den Infinitiv (alzarmi) · sperare che + Konjunktiv oder Futur.",
    "type": "error_correction",
-   "text": "Se [[g1]] più soldi, farei un viaggio in Sicilia.\nStudio l’italiano [[g2]] quattro anni e mi piace ancora.\nSono stato a Roma [[g3]].\nHo chiesto [[g4]] se posso uscire stasera.\nLa gente [[g5]] molto gentile in questo paese.\nMi [[g6]] molto i film italiani degli anni Sessanta.\nSabato scorso [[g7]] rimasto a casa tutto il giorno.\nQual è [[g8]] problema più grande della nostra città?\nDomani devo [[g9]] molto presto.\nSpero che [[g10]] anche tu alla festa di sabato.",
+   "text": "Se [[g1]] più soldi, farei un viaggio in Sicilia.\nStudio l’italiano [[g2]] quattro anni e mi piace ancora.\nSono stato a Roma [[g3]].\nHo chiesto [[g4]] se potevo uscire stasera.\nLa gente [[g5]] molto gentile in questo paese.\nMi [[g6]] molto i film italiani degli anni Sessanta.\nSabato scorso [[g7]] rimasto a casa tutto il giorno.\nQual è [[g8]] problema più grande della nostra città?\nDomani devo [[g9]] molto presto.\nSpero che [[g10]] anche tu alla festa di sabato.",
    "errors": [
     {
      "id": "g1",

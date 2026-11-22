@@ -50,7 +50,7 @@
    "prompt": "Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo.",
    "promptHelp": "Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.",
    "type": "open_answer",
-   "modelAnswer": "Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!",
+   "modelAnswer": "Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto scriverti per chiederti scusa. A presto!",
    "lines": 5
   },
   {
@@ -58,7 +58,7 @@
    "prompt": "E adesso completa.",
    "promptHelp": "Und jetzt ergänze.",
    "type": "gap_fill",
-   "text": "Sabato non (potere) [[g1]] venire alla festa.\n(Dovere) [[g2]] aiutare mio padre.\nPoi (dovere) [[g3]] andare dai nonni.\n(Volere) [[g4]] telefonarti.",
+   "text": "Sabato non (potere) [[g1]] venire alla festa.\n(Dovere) [[g2]] aiutare mio padre.\nPoi (dovere) [[g3]] andare dai nonni.\n(Volere) [[g4]] scriverti questa mail.",
    "gaps": [
     {
      "id": "g1",

@@ -180,7 +180,7 @@ Io non {capisco*|capo|capiamo} l’esercizio.
 Tu {capisci*|capisce|capite} il problema?
 La lezione {finisce*|fina|finiscono} alle due.
 Noi {capiamo*|capisciamo|capiscono} tutto.
-Io {faccio*|fo|fa} i compiti.
+Io {faccio*|facio|fa} i compiti.
 Voi {fate*|facete|fanno} attenzione?
 Loro {preferiscono*|preferono|preferisce} la pizza.
 Marco {fa*|fai|fanno} sport.
@@ -213,7 +213,7 @@ loro = fanno
 Giulia e io = facciamo
 tu e Leo = fate
 + facete
-+ fo
++ facio
 
 %übung mittel | In classe
 ?luecke | Scrivi il verbo nella forma giusta. || Setze das Verb in der richtigen Form ein.
@@ -262,7 +262,7 @@ loro | [fanno] | [finiscono]
 %übung schwer | Trova gli errori
 ?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
 Noi [capisciamo=>capiamo] la lezione.
-Io [fo=>faccio] i compiti alle cinque.
+Io [facio=>faccio] i compiti alle cinque.
 La scuola [fine=>finisce] all’una.
 Voi [faciete=>fate] attenzione?
 Loro non [capono=>capiscono] l’esercizio.
@@ -470,7 +470,7 @@ gli (a loro) = ihnen
 + mich
 
 %übung leicht | Regali
-?auswahl | Scegli il pronome. || Ergänze die Pronomen.
+?auswahl | Scegli il pronome. || Wähle das passende Pronomen.
 È il compleanno di Marco: {gli*|le|ci} do un libro.
 Mia sorella ama la musica: {le*|gli|vi} do un CD.
 Ragazzi, {vi*|ci|gli} do i biglietti per il concerto.

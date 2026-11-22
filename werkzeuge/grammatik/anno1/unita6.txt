@@ -50,7 +50,7 @@ Mi piacciono le scarpe {verdi*|verde|verda}.
 Questa sciarpa {rossa*|rosso|rosse} costa 15 euro.
 I calzini {blu*|blui|blue} sono in offerta.
 Ha una gonna {grigia*|grigio|grigie}?
-Le felpe {rosa*|rose|rosse} sono bellissime.
+Le felpe {rosa*|rose|rosi} sono bellissime.
 Il cappotto {marrone*|marrona|marroni} è caro.
 ! Il colore va dopo il nome: una camicia bianca. || Die Farbe steht nach dem Nomen.
 
@@ -81,14 +81,14 @@ un pantalone marrone | [due pantaloni marroni]
 
 %übung mittel | Che cosa portano?
 ?ergaenzen | Descrivi i vestiti con il colore giusto. || Beschreibe die Kleidung mit der richtigen Farbe.
-Luca porta … (Hose, blau) | i pantaloni blu/pantaloni blu | Luca porta i pantaloni blu.
+Luca porta … (Hose, blau) | i pantaloni blu/pantaloni blu/dei pantaloni blu | Luca porta i pantaloni blu.
 Sara porta … (Rock, rot) | una gonna rossa/la gonna rossa | Sara porta una gonna rossa.
 Paolo porta … (Schuhe, schwarz) | le scarpe nere/scarpe nere | Paolo porta le scarpe nere.
 Anna porta … (Pullover, grau) | un maglione grigio/il maglione grigio/un pullover grigio | Anna porta un maglione grigio.
 Marco porta … (Mütze, grün) | un cappello verde/il cappello verde/un berretto verde/il berretto verde | Marco porta un cappello verde.
 Giulia porta … (Socken, rosa) | le calze rosa/calze rosa/calzini rosa | Giulia porta le calze rosa.
 La prof porta … (Jacke, weiß) | una giacca bianca/la giacca bianca | La prof porta una giacca bianca.
-Il nonno porta … (Hemden, hellblau) | camicie azzurre | Il nonno porta camicie azzurre.
+Il nonno porta … (Hemden, hellblau) | camicie azzurre/le camicie azzurre/delle camicie azzurre | Il nonno porta camicie azzurre.
 ! Il colore va dopo il nome e cambia (tranne blu, rosa, viola). || Farbe nach dem Nomen und angepasst (außer blu, rosa, viola).
 
 %übung schwer | Trova gli errori
@@ -463,7 +463,7 @@ Lui [tene=>tiene] il libro.
 Loro [tenono=>tengono] la porta aperta.
 
 %übung schwer | Una serata con gli amici
-?luecke | Scrivi uscire, bere, tenere, andare e fare nella forma giusta. || Ergänze die Verben.
+?luecke | Scrivi uscire, bere, tenere, andare, arrivare e fare nella forma giusta. || Ergänze die Verben.
 Venerdì sera io e Sara (uscire) [usciamo] presto.
 (Andare, noi) [Andiamo] in un bar in centro.
 Io (bere) [bevo] una limonata, Sara (bere) [beve] un tè freddo.
@@ -501,13 +501,13 @@ un chilo di = mele
 un etto di = prosciutto
 una bottiglia di = acqua
 un pacco di = pasta
-una scatola di = biscotti
+una scatola di = uova
 una fetta di = torta
 un mazzo di = basilico
 + scarpe
 
 %übung leicht | Di o d’?
-?auswahl | Scegli di o d’. || Wähle di oder d’.
+?auswahl | Davanti a vocale di solito usiamo d’. Scegli la forma più comune. || Vor Vokal meist d’. Wähle die übliche Form.
 una bottiglia {d’*|di} acqua
 un litro {di*|d’} latte
 un chilo {di*|d’} pomodori
@@ -524,7 +524,7 @@ Vorrei un {litro*|etto|pacco} di latte.
 Mi dà due {etti*|litri|bottiglie} di prosciutto?
 Prendo un {chilo*|litro|mazzo} di mele.
 Una {bottiglia*|fetta|chilo} di acqua minerale, per favore.
-Compro un {pacco*|litro|etto} di spaghetti.
+Compro un {pacco*|litro|vasetto} di spaghetti.
 Mi dà una {fetta*|bottiglia|litro} di torta?
 Ci vuole un {mazzo*|litro|etto} di basilico.
 Vorrei mezzo {chilo*|litro|fetta} di pane.

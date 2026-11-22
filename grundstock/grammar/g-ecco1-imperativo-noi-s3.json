@@ -52,7 +52,7 @@
    "explanation": "Proposta con noi: andiamo, mangiamo, facciamo.",
    "explanationHelp": "Vorschlag mit noi.",
    "type": "error_correction",
-   "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani!",
+   "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara insieme, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani, noi due domani!",
    "errors": [
     {
      "id": "g1",

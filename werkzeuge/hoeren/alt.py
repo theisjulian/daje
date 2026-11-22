@@ -58,7 +58,7 @@ pre.mt(T['P'] + 'Collega verbo e significato.', [('frequentare', 'vedere spesso'
 post = Q(); post.n = 5
 post.mc(T['D'] + 'Che cosa fa nel fine settimana? (più risposte)', ['Esce a cena', 'Chiacchiera con le amiche', 'Beve del buon vino', 'Studia per l’esame', 'Lavora in ufficio'], [0, 1, 2], 'Tre attività sociali.')
 post.tf(T['D'] + 'Fa sport sempre, ogni giorno.', False, 'Dice “quando ho tempo”.')
-post.sc(T['D'] + 'Con quale domanda comincia l’intervista?', ['Come trascorre il fine settimana?', 'Che lavoro fa?', 'Dove abita?', 'Che sport pratica?'], 0, 'La domanda è: “Come trascorre il fine settimana?”')
+post.sc(T['D'] + 'Con quale domanda comincia questa scena?', ['Come trascorre il fine settimana?', 'Che lavoro fa?', 'Dove abita?', 'Che sport pratica?'], 0, 'La domanda è: “Come trascorre il fine settimana?”')
 post.gf(T['L'] + 'Completa con le forme del testo.', '[[a]] insieme a cena, [[b]] del buon vino e ci divertiamo.', [['usciamo'], ['beviamo']], 'Presente, prima persona plurale.')
 post.sc(T['L'] + 'Con “usciamo” la persona parla di…', ['sé e delle amiche (noi)', 'solo di sé', 'di un’altra persona', 'del passato'], 0, 'Prima persona plurale.')
 post.sc(T['L'] + 'Che cosa significa “frequento le amiche”?', ['Vedo spesso le amiche', 'Studio con le amiche', 'Lavoro con le amiche', 'Evito le amiche'], 0, 'Frequentare = vedere regolarmente.')
@@ -90,7 +90,7 @@ post.tf(T['D'] + 'Per Diamante il nome ha un significato diverso nella lingua d�
 post.sa(T['D'] + 'Quanti anni ha la persona che risponde “Ho … anni”?', ['28', 'ventotto', '28 anni', 'ventotto anni', 'ha 28 anni', 'ha ventotto anni'], '28', 'Risponde “Ho 28 anni”.')
 post.sc(T['D'] + 'Quale lavoro ha fatto sempre una delle persone?', ['La badante', 'L’insegnante', 'Il cuoco', 'L’autista'], 0, 'Dice “Ho fatto sempre la badante”.')
 post.tf(T['D'] + 'Una persona dice di essere “più casalinga che mai”.', True, 'La frase è nel testo.')
-post.gf(T['L'] + 'Completa le frasi del testo.', '[[a]] chiamo Diamante, tutti mi chiamano così … [[b]] da Lituania.', [['Mi'], ['vengo']], 'Mi chiamo; venire da: io vengo.')
+post.gf(T['L'] + 'Completa le frasi del testo.', '[[a]] chiamo Diamante, tutti mi chiamano così … [[b]] da Lituania.', [['Mi'], ['vengo']], 'Mi chiamo; venire da: io vengo. In italiano standard: vengo dalla Lituania (con l’articolo).')
 post.sc(T['L'] + 'La domanda “Da quanto tempo sei in Italia?” chiede…', ['la durata', 'il luogo', 'il nome', 'l’età'], 0, 'Durata.')
 post.sc(T['L'] + 'Che cosa significa “casalinga”?', ['donna che si occupa della casa e della famiglia', 'infermiera', 'insegnante', 'cuoca'], 0, 'La casalinga lavora in casa, per la famiglia.')
 post.sc(T['A'] + 'Come ti presenti? Scegli la frase corretta.', ['Mi chiamo Anna, ho 15 anni e vivo a Monaco.', 'Io chiamare Anna, 15 anni Monaco.', 'Chiamo Anna sono 15.', 'Mi chiamare Anna, ho 15.'], 0, 'Presentazione.')
@@ -177,7 +177,7 @@ post.tf(T['D'] + 'The apartment is on Irving Street.', True, '1400 Irving Street
 post.sc(T['D'] + 'Who says “Welcome”?', ['Pete', 'Anna', 'A neighbor', 'A teacher'], 0, 'Pete welcomes Anna.')
 post.od(T['D'] + 'Put the dialogue in order.', ['Are you Anna?', 'Yes! Are you Pete?', 'I am Pete.', 'Is that A-N-A?', 'No. A-N-N-A.'], 'Order of the lines.')
 post.gf(T['L'] + 'Complete the sentences.', 'I’m [[a]]. Nice to [[b]] you.', [['Anna', 'Pete'], ['meet']], 'Introductions.')
-post.sc(T['L'] + 'Which phrase can you use to ask someone to repeat?', ['Let’s try that again.', 'Good morning.', 'I like pizza.', 'How old are you?'], 0, 'Said by Anna.')
+post.sc(T['L'] + 'Which phrase can you use to suggest starting again?', ['Let’s try that again.', 'Good morning.', 'I like pizza.', 'How old are you?'], 0, 'Said by Anna.')
 post.sc(T['A'] + 'How would you introduce yourself?', ['Hi, I’m Max. Nice to meet you.', 'Me Max name.', 'Hello, you Max.', 'Nice meet me.'], 0, 'Transfer.')
 done('en-voa-welcome', pre, post, notes(['Question: What do you say when you meet someone for the first time?'], STEPS_EN, ['Very short audio (about 29 seconds): listen several times, then role-play.'], ['Role-play: introduce yourself and spell your name.', 'Write a short dialogue: meeting a new neighbour.']), 'Level A1 · Introductions')
 
@@ -203,7 +203,7 @@ pre = Q(); pre.n = 10
 pre.sc(T['P'] + 'What is a polyglot?', ['A person who speaks many languages', 'A kind of dictionary', 'A language teacher', 'A translator app'], 0, 'Core vocabulary.')
 pre.mt(T['P'] + 'Match the words and their meanings.', [('fluency', 'speaking easily and correctly'), ('flashcard', 'a card for memorising words'), ('feedback', 'comments about your performance'), ('ingenious', 'very clever')], 'Key vocabulary from the talk.')
 post = Q(); post.n = 12
-post.sa(T['D'] + 'How often does she start a new language? (every … years)', ['two', 'every two years', '2'], 'two', '“Every two years.”')
+post.sa(T['D'] + 'How often does she start a new language? (every … years)', ['two', 'every two years', '2', 'every 2 years', '2 years', 'two years'], 'two', '“Every two years.”')
 post.tf(T['D'] + 'Benny starts speaking to native speakers from day one.', True, 'He doesn’t mind making 200 mistakes a day.')
 post.sa(T['D'] + 'How many Russian speakers did Lucas add on Skype? (number)', ['100', 'a hundred', 'hundred', 'one hundred'], '100', 'A hundred random speakers.')
 post.mt(T['D'] + 'Match the person and the method.', [('Benny', 'speaking from day one'), ('Lucas', 'Skype chats with strangers'), ('The speaker learning Spanish', 'reading a favourite childhood book'), ('The speaker learning German', 'watching a favourite sitcom')], 'Methods in the talk.')

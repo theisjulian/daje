@@ -554,7 +554,7 @@ Mio padre voleva che io {aiutassi*|aiuti|aiuto} allo stand dei dolci, ma io vole
 Mia nonna ballava come se {avesse*|ha|abbia} vent’anni!
 Vorrei tanto che tu {abitassi*|abiti|abiterai} più vicino.
 Spero che la prossima volta tu {venga*|venissi|vieni} con me.
-Penso che questa {sia*|fosse|sarebbe} la festa più bella dell’anno.
+Penso che questa {sia*|siano|sono} la festa più bella dell’anno.
 I miei genitori vorrebbero che tu {passassi*|passi|passerai} qualche giorno da noi.
 Mi piacerebbe che {ci vedessimo*|ci vediamo|ci vedremo} presto. Un abbraccio, Sara
 ! spero che, penso che (presente) → congiuntivo presente; pensavo, voleva, come se, vorrei, mi piacerebbe → congiuntivo imperfetto. || spero che, penso che (Präsens) → congiuntivo presente; pensavo, voleva, come se, vorrei, mi piacerebbe → congiuntivo imperfetto.
@@ -655,7 +655,7 @@ Mi compri le castagne? – Sì, … | te le compro | Sì, te le compro.
 Regali i fiori alla nonna? – Sì, … | glieli regalo | Sì, glieli regalo.
 Ci racconti la leggenda? – Sì, … | ve la racconto | Sì, ve la racconto.
 Spieghi il gioco ai bambini? – Sì, … | glielo spiego | Sì, glielo spiego.
-Mi dai due biscotti? – Sì, … | te ne do due | Sì, te ne do due.
+Mi dai due biscotti? – Sì, … | te ne do due/te ne do | Sì, te ne do due.
 ! mi → te, ci → ve nella risposta; a lui / a lei / a loro → glie- + lo, la, li, le. || In der Antwort: mi → te, ci → ve; a lui / a lei / a loro → glie- + lo, la, li, le.
 
 %übung schwer | Dove va il pronome?

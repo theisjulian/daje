@@ -59,7 +59,8 @@
      {
       "id": "c1",
       "acceptedAnswers": [
-       "un ragazzo"
+       "un ragazzo",
+       "un"
       ]
      },
      "il ragazzo"
@@ -68,7 +69,8 @@
      {
       "id": "c2",
       "acceptedAnswers": [
-       "uno studente"
+       "uno studente",
+       "uno"
       ]
      },
      "lo studente"
@@ -77,7 +79,8 @@
      {
       "id": "c3",
       "acceptedAnswers": [
-       "un’isola"
+       "un’isola",
+       "un’"
       ]
      },
      "l’isola"
@@ -86,7 +89,8 @@
      {
       "id": "c4",
       "acceptedAnswers": [
-       "un albero"
+       "un albero",
+       "un"
       ]
      },
      "l’albero"
@@ -96,7 +100,8 @@
      {
       "id": "c5",
       "acceptedAnswers": [
-       "la festa"
+       "la festa",
+       "la"
       ]
      }
     ],
@@ -105,7 +110,8 @@
      {
       "id": "c6",
       "acceptedAnswers": [
-       "lo zio"
+       "lo zio",
+       "lo"
       ]
      }
     ],
@@ -114,7 +120,8 @@
      {
       "id": "c7",
       "acceptedAnswers": [
-       "l’idea"
+       "l’idea",
+       "l’"
       ]
      }
     ],
@@ -123,7 +130,8 @@
      {
       "id": "c8",
       "acceptedAnswers": [
-       "l’ospedale"
+       "l’ospedale",
+       "l’"
       ]
      }
     ]

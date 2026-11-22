@@ -48,7 +48,7 @@
   {
    "id": "q1",
    "prompt": "Scegli il pronome.",
-   "promptHelp": "Ergänze die Pronomen.",
+   "promptHelp": "Wähle das passende Pronomen.",
    "explanation": "gli vuol dire «a lui», nella lingua di tutti i giorni anche «a loro».",
    "explanationHelp": "gli bedeutet ihm, im Alltag auch ihnen.",
    "type": "gap_choice",

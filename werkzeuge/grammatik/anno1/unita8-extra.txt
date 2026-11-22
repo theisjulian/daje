@@ -108,7 +108,7 @@ Papà (lavorare) [sta lavorando], vero?
 Ti chiamo stasera, adesso (partire, noi) [stiamo partendo] per Siena!
 
 %übung schwer | Che cosa stanno facendo?
-?frei | Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio. || Was machen deine Familie oder Leute draußen gerade? 5 Sätze.
+?frei | Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio. || Was macht deine Familie gerade, was machen die Leute draußen? Schreibe 5 Sätze.
 Mia madre sta lavorando. Mio fratello sta giocando ai videogiochi. Il cane sta dormendo. Due bambini stanno correndo nel parco. Io sto scrivendo questo testo.
 Zeilen: 5
 ?ergaenzen | E adesso scrivi il gerundio. || Und jetzt das Gerundium.
@@ -195,13 +195,13 @@ Abiti ancora a Roma? (più) – No, … | non abito più a Roma/non ci abito pi�
 Mangi qualcosa? (niente) – No, … | non mangio niente | No, non mangio niente.
 Conosci qualcuno qui? (nessuno) – No, … | non conosco nessuno | No, non conosco nessuno.
 Bevi il caffè? (mai) – No, … | non bevo mai il caffè/non bevo mai caffè/non lo bevo mai | No, non bevo mai il caffè.
-Giochi ancora a tennis? (più) – No, … | non gioco più a tennis | No, non gioco più a tennis.
+Giochi ancora a tennis? (più) – No, … | non gioco più/non ci gioco più | No, non gioco più a tennis.
 ! non prima del verbo, niente / nessuno / mai / più dopo. || non vor dem Verb, niente / nessuno / mai / più danach.
 
 %übung mittel | Una giornata storta
 ?luecke wortkasten | Completa con niente, nessuno, mai o più. || Ergänze niente, nessuno, mai oder più.
 Oggi è una giornata storta. Apro il frigo: non c’è [niente].
-Telefono a Marta, ma non risponde [nessuno].
+Telefono a Marta, ma non risponde [nessuno/mai].
 Vado alla fermata, ma l’autobus non arriva [più/mai]: è passato!
 A scuola non capisco [niente] di matematica.
 In mensa non c’è [nessuno] dei miei amici.
@@ -397,7 +397,7 @@ Verneint (tu): _Non lo comprare!_ oder _Non comprarlo!_
 
 %übung leicht | Che cosa vuol dire?
 ?zuordnen | Abbina. || Verbinde.
-Dimmi! = Sag es mir!
+Dimmi! = Sag mir! / Sag mal!
 Fallo! = Mach es!
 Dammi la penna! = Gib mir den Stift!
 Chiamami! = Ruf mich an!
@@ -471,7 +471,7 @@ E quando la torta è pronta, (dare, mi) [dammi] un pezzo!
 La torta? [La mangia=>Mangiala], Marco!
 [Dami=>Dammi] il libro, per favore!
 Ragazzi, i compiti? [Li fate=>Fateli] adesso!
-Non [mangiarlola=>mangiarla], la torta è per la festa!
+Non [mangiarlola=>mangiarla/la mangiare], la torta è per la festa!
 [Vaci=>Vacci] in bici, è vicino!
 
 %übung schwer | Consigli a un amico
