@@ -57,7 +57,8 @@
      "id": "s1",
      "start": "Quanti anni hai? (13) – …",
      "acceptedAnswers": [
-      "Ho tredici anni"
+      "Ho tredici anni",
+      "Ho 13 anni"
      ],
      "modelAnswer": "Ho tredici anni."
     },
@@ -81,7 +82,8 @@
      "id": "s4",
      "start": "Quanti anni ha tua sorella? (8) – …",
      "acceptedAnswers": [
-      "ha otto anni"
+      "ha otto anni",
+      "ha 8 anni"
      ],
      "modelAnswer": "Mia sorella ha otto anni."
     },
@@ -105,7 +107,8 @@
      "id": "s7",
      "start": "Quanti anni avete? (15) – …",
      "acceptedAnswers": [
-      "Abbiamo quindici anni"
+      "Abbiamo quindici anni",
+      "Abbiamo 15 anni"
      ],
      "modelAnswer": "Abbiamo quindici anni."
     },

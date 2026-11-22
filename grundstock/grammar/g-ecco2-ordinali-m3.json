@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ordinali-m3",
+ "title": "La classifica del concorso",
+ "language": "it",
+ "level": "A2",
+ "description": "Gli ordinali dall’undicesimo · La classifica del concorso · livello medio.",
+ "topics": [
+  "Gli ordinali dall’undicesimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Ordnungszahlen ab 11 (Bildung auf -esimo, Angleichung, Jahrhunderte)"
+ },
+ "grammar": {
+  "topic": "ecco2-ordinali",
+  "topicTitle": "Gli ordinali dall’undicesimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Ripasso: **primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo**.\nDall’11 in poi: numero **senza l’ultima vocale** + **-esimo**.\n| undici → **undicesimo** | dodici → **dodicesimo** |\n| venti → **ventesimo** | ventuno → **ventunesimo** |\n| cento → **centesimo** | mille → **millesimo** |\n**Attenzione:** con **-tré** e **-sei** la vocale resta: ventitré → **ventitreesimo** (senza accento), ventisei → **ventiseiesimo**.\nL’ordinale **concorda** con il nome: _il dodicesim**o** piano, la dodicesim**a** canzone, i ventesim**i**, le ventesim**e**_.\nLo usiamo per piani, posti, anniversari, **secoli** e con i nomi di re e papi: _il ventunesimo secolo (XXI secolo), Giovanni XXIII = Giovanni ventitreesimo_.\nFrazioni: _1/3 = **un terzo**, 3/4 = **tre quarti**_.",
+  "ruleHelp": "Ab 11 bildet man die Ordnungszahl aus der Grundzahl **ohne Endvokal + -esimo**: _undicesimo, dodicesimo, ventesimo, centesimo, millesimo_. Ausnahme: Zahlen auf **-tré** und **-sei** behalten den Vokal: _ventitreesimo_ (ohne Akzent), _ventiseiesimo_.\nDie Ordnungszahl ist ein Adjektiv und wird angeglichen (_la dodicesima canzone_). Anders als im Deutschen steht bei Herrschern und Päpsten **kein Artikel**: _Giovanni ventitreesimo_ (Johannes **der** Dreiundzwanzigste). Jahrhunderte: _il ventesimo secolo_ = das 20. Jahrhundert. Brüche: _un terzo, tre quarti_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Guarda la classifica del concorso musicale e completa con l’ordinale (singolare o plurale!).",
+   "promptHelp": "Sieh dir die Rangliste des Musikwettbewerbs an und ergänze die Ordnungszahl (Singular oder Plural!).",
+   "explanation": "-o / -a al singolare, -i / -e al plurale: sono arrivati undicesimi, sono arrivate ventesime.",
+   "explanationHelp": "-o / -a im Singular, -i / -e im Plural: sono arrivati undicesimi, sono arrivate ventesime.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Sara (12) – Sara è arrivata …",
+     "acceptedAnswers": [
+      "dodicesima"
+     ],
+     "modelAnswer": "Sara è arrivata dodicesima."
+    },
+    {
+     "id": "s2",
+     "start": "Luca (15) – Luca è arrivato …",
+     "acceptedAnswers": [
+      "quindicesimo"
+     ],
+     "modelAnswer": "Luca è arrivato quindicesimo."
+    },
+    {
+     "id": "s3",
+     "start": "I Lupi Blu (11) – I Lupi Blu sono arrivati …",
+     "acceptedAnswers": [
+      "undicesimi"
+     ],
+     "modelAnswer": "I Lupi Blu sono arrivati undicesimi."
+    },
+    {
+     "id": "s4",
+     "start": "Le Stelle (20) – Le Stelle sono arrivate …",
+     "acceptedAnswers": [
+      "ventesime"
+     ],
+     "modelAnswer": "Le Stelle sono arrivate ventesime."
+    },
+    {
+     "id": "s5",
+     "start": "Matteo (18) – Matteo è arrivato …",
+     "acceptedAnswers": [
+      "diciottesimo"
+     ],
+     "modelAnswer": "Matteo è arrivato diciottesimo."
+    },
+    {
+     "id": "s6",
+     "start": "Chiara e Giulia (13) – Chiara e Giulia sono arrivate …",
+     "acceptedAnswers": [
+      "tredicesime"
+     ],
+     "modelAnswer": "Chiara e Giulia sono arrivate tredicesime."
+    },
+    {
+     "id": "s7",
+     "start": "Davide e Paolo (22) – Davide e Paolo sono arrivati …",
+     "acceptedAnswers": [
+      "ventiduesimi"
+     ],
+     "modelAnswer": "Davide e Paolo sono arrivati ventiduesimi."
+    },
+    {
+     "id": "s8",
+     "start": "la nostra classe (14) – La nostra classe è arrivata …",
+     "acceptedAnswers": [
+      "quattordicesima"
+     ],
+     "modelAnswer": "La nostra classe è arrivata quattordicesima."
+    }
+   ]
+  }
+ ]
+}

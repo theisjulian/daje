@@ -6,9 +6,9 @@
  "title": "Un laboratorio aperto al quartiere",
  "language": "it",
  "level": "A1",
- "description": "Essere und avere · Un laboratorio aperto al quartiere · livello medio.",
+ "description": "Testi e forme: ripasso · Un laboratorio aperto al quartiere · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1009

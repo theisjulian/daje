@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-s3",
+ "title": "Come se …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Come se … · livello difficile.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con come se + congiuntivo trapassato. Usa le parole tra parentesi.",
+   "promptHelp": "Ergänze mit come se + congiuntivo trapassato. Verwende die Wörter in Klammern.",
+   "explanation": "come se + congiuntivo trapassato = als ob … hätte / wäre.",
+   "explanationHelp": "come se + congiuntivo trapassato = als ob … hätte / wäre.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Parla del film come se … (lui: vederlo)",
+     "acceptedAnswers": [
+      "lo avesse visto",
+      "l’avesse visto"
+     ],
+     "modelAnswer": "Parla del film come se lo avesse visto (l’avesse visto)."
+    },
+    {
+     "id": "s2",
+     "start": "Sei stanco come se … (tu: non dormire per tre giorni)",
+     "acceptedAnswers": [
+      "non avessi dormito per tre giorni"
+     ],
+     "modelAnswer": "Sei stanco come se non avessi dormito per tre giorni."
+    },
+    {
+     "id": "s3",
+     "start": "Giulia mi ha salutato come se … (noi: non litigare mai)",
+     "acceptedAnswers": [
+      "non avessimo mai litigato",
+      "non avessimo litigato mai"
+     ],
+     "modelAnswer": "Giulia mi ha salutato come se non avessimo mai litigato."
+    },
+    {
+     "id": "s4",
+     "start": "I bambini ridevano come se … (loro: sentire una barzelletta)",
+     "acceptedAnswers": [
+      "avessero sentito una barzelletta"
+     ],
+     "modelAnswer": "I bambini ridevano come se avessero sentito una barzelletta."
+    },
+    {
+     "id": "s5",
+     "start": "Mi guardate come se … (io: dire una bugia)",
+     "acceptedAnswers": [
+      "avessi detto una bugia"
+     ],
+     "modelAnswer": "Mi guardate come se avessi detto una bugia."
+    },
+    {
+     "id": "s6",
+     "start": "Il nonno camminava piano, come se … (lui: farsi male)",
+     "acceptedAnswers": [
+      "si fosse fatto male"
+     ],
+     "modelAnswer": "Il nonno camminava piano, come se si fosse fatto male."
+    },
+    {
+     "id": "s7",
+     "start": "Sara conosce il quartiere come se … (lei: nascere qui)",
+     "acceptedAnswers": [
+      "fosse nata qui"
+     ],
+     "modelAnswer": "Sara conosce il quartiere come se fosse nata qui."
+    },
+    {
+     "id": "s8",
+     "start": "Parlate di Roma come se … (voi: abitare lì per anni)",
+     "acceptedAnswers": [
+      "aveste abitato lì per anni"
+     ],
+     "modelAnswer": "Parlate di Roma come se aveste abitato lì per anni."
+    }
+   ]
+  }
+ ]
+}

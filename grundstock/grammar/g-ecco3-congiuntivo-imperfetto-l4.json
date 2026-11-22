@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-l4",
+ "title": "Qual è la forma giusta?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Qual è la forma giusta? · livello facile.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 44,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il congiuntivo imperfetto.",
+   "promptHelp": "Wähle den congiuntivo imperfetto.",
+   "explanation": "Attenzione: dare → dessi, stare → stessi (con -e-, non -a-).",
+   "explanationHelp": "Achtung: dare → dessi, stare → stessi (mit -e-, nicht -a-).",
+   "type": "gap_choice",
+   "text": "fare (io) → [[g1]]\ndire (lui) → [[g2]]\nessere (noi) → [[g3]]\ndare (tu) → [[g4]]\nstare (loro) → [[g5]]\nbere (io) → [[g6]]\navere (voi) → [[g7]]\nandare (lei) → [[g8]]\ncapire (loro) → [[g9]]\nvenire (noi) → [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "facessi",
+      "faressi",
+      "fassi"
+     ],
+     "answer": "facessi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dicesse",
+      "disse",
+      "direbbe"
+     ],
+     "answer": "dicesse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "fossimo",
+      "essessimo",
+      "siamo"
+     ],
+     "answer": "fossimo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "dessi",
+      "dassi",
+      "davi"
+     ],
+     "answer": "dessi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "stessero",
+      "stassero",
+      "stavano"
+     ],
+     "answer": "stessero"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "bevessi",
+      "beressi",
+      "bessi"
+     ],
+     "answer": "bevessi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "aveste",
+      "abbiate",
+      "avevate"
+     ],
+     "answer": "aveste"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "andasse",
+      "andesse",
+      "vada"
+     ],
+     "answer": "andasse"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "capissero",
+      "capiscessero",
+      "capiscano"
+     ],
+     "answer": "capissero"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "venissimo",
+      "veniamo",
+      "vengassimo"
+     ],
+     "answer": "venissimo"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-l2",
+ "title": "Che forma ci vuole?",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Che forma ci vuole? · livello facile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta del verbo.",
+   "promptHelp": "Wähle die richtige Verbform.",
+   "explanation": "penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. Nel parlato si sente spesso l’indicativo (_penso che hanno_), ma nei testi scritti e all’esame è considerato un errore.",
+   "explanationHelp": "Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale. In der gesprochenen Sprache hört man nach penso che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.",
+   "type": "gap_choice",
+   "text": "Penso che oggi i social [[g1]] troppa influenza sui giovani.\nCredevo che il treno [[g2]] alle otto, invece era già partito.\nSebbene [[g3]] tardi, continuiamo a discutere.\nSe avessi più tempo, [[g4]] volontariato.\nSe ieri avessi studiato, oggi non [[g5]] paura dell’esame.\nÈ importante che tutti [[g6]] esprimere la propria opinione.\nVorrei che tu mi [[g7]] la verità.\nSecondo me, il turismo di massa [[g8]] un problema per molte città.\nDopo che [[g9]] gli studi, Sara si è trasferita a Milano.\nDobbiamo ridurre i rifiuti prima che [[g10]] troppo tardi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "abbiano",
+      "hanno",
+      "avere"
+     ],
+     "answer": "abbiano"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "partisse",
+      "parta",
+      "parte"
+     ],
+     "answer": "partisse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sia",
+      "è",
+      "sarebbe"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "farei",
+      "facessi",
+      "farò"
+     ],
+     "answer": "farei"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avrei",
+      "avessi",
+      "avrò"
+     ],
+     "answer": "avrei"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "possano",
+      "possono",
+      "potrebbero"
+     ],
+     "answer": "possano"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "dicessi",
+      "dici",
+      "dirai"
+     ],
+     "answer": "dicessi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "è",
+      "sia",
+      "fosse"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ha finito",
+      "abbia finito",
+      "finisse"
+     ],
+     "answer": "ha finito"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sia",
+      "è",
+      "sarà"
+     ],
+     "answer": "sia"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-l4",
+ "title": "Il sogno di Matteo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Il sogno di Matteo · livello facile.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 24,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con le parole del riquadro.",
+   "promptHelp": "Ergänze den Text mit den Wörtern aus dem Kasten.",
+   "type": "gap_fill",
+   "text": "Matteo sogna: «Se [[g1]] diciotto anni, partirei subito per la Nuova Zelanda.\nSe [[g2]] più coraggioso, lo direi ai miei genitori.\nSe [[g3]] scegliere la scuola, [[g4]] in un liceo vicino al mare.\nIl pomeriggio [[g5]] surf con i nuovi amici.\nCerto, la mia famiglia mi mancherebbe: ma forse i miei cugini [[g6]] a trovarmi a Natale.\nChe cosa [[g7]] mamma e papà?\nForse hanno ragione loro: un anno così lontano da casa [[g8]] troppo lungo.»",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fossi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "potessi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "andrei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "farei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "verrebbero"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "direbbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "avrei",
+    "dicessi"
+   ]
+  }
+ ]
+}

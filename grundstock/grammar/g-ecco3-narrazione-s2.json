@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-narrazione-s2",
+ "title": "Latte caldo",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Latte caldo · livello difficile.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Erlebnisse erzählen: Erzähltempora und Konnektoren"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Per **raccontare** un’esperienza usiamo tre tempi:\n| **imperfetto** | descrizione, abitudine, azione in corso | _Ogni mattina **prendevo** l’autobus. **Faceva** freddo._ |\n| **passato prossimo** | fatto unico e finito | _Il primo giorno **ho conosciuto** la mia classe._ |\n| **trapassato prossimo** | fatto successo prima | _Prima di partire **avevo studiato** l’italiano._ |\nI **connettivi** mettono in ordine il racconto:\n| **all’inizio** → **poi** → **dopo un po’** → **a un certo punto** → **alla fine** | l’ordine nel tempo |\n| **mentre** + imperfetto | due azioni insieme: _**Mentre** aspettavo, è arrivata Sara._ |\n| **siccome** (all’inizio della frase) | la causa: _**Siccome** pioveva, sono rimasto a casa._ |\n| **quindi** | la conseguenza: _Pioveva, **quindi** sono rimasto a casa._ |\n| **però** | il contrasto: _Ero stanco, **però** felice._ |\n| **infatti** | conferma, esempio: _Era bravo: **infatti** ha vinto._ |",
+  "ruleHelp": "Beim **Erzählen**: **imperfetto** für Beschreibung, Gewohnheit, Hintergrund; **passato prossimo** für einmalige, abgeschlossene Ereignisse; **trapassato prossimo** für das, was vorher schon geschehen war.\n**Konnektoren**: all’inizio (am Anfang), poi (dann), dopo un po’ (nach einer Weile), a un certo punto (irgendwann), alla fine (am Ende), mentre (während), siccome (da/weil – am Satzanfang), quindi (deshalb), però (aber), infatti (tatsächlich, nämlich)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il racconto di Lena con l’imperfetto, il passato prossimo o il trapassato prossimo.",
+   "promptHelp": "Ergänze Lenas Erzählung mit imperfetto, passato prossimo oder trapassato prossimo.",
+   "explanation": "di solito, ogni sera, mentre, in quel momento → imperfetto · la prima sera, dopo due minuti, quella sera → passato prossimo · fino a quel giorno → trapassato prossimo.",
+   "explanationHelp": "Gewohnheit / Hintergrund → imperfetto · einmaliges Ereignis → passato prossimo · „bis zu jenem Tag“ → trapassato prossimo.",
+   "type": "gap_fill",
+   "text": "L’anno scorso (passare, io) [[g1]] tre mesi a Verona.\nLa mia madre ospitante (chiamarsi) [[g2]] Paola.\nOgni sera, di solito, (cenare, noi) [[g3]] tutti insieme.\nLa prima sera, però, (succedere) [[g4]] una cosa divertente.\nPaola mi (chiedere) [[g5]]: «Vuoi il latte caldo?»\nIo (rispondere) [[g6]] subito di sì, perché in quel momento (avere, io) [[g7]] molta sete.\nDopo due minuti Paola (tornare) [[g8]] con una tazza di latte bollente!\nFino a quel giorno nessuno mi (spiegare) [[g9]] che «caldo» non vuol dire «kalt».\nMentre io (guardare) [[g10]] la tazza senza parole, tutti (cominciare) [[g11]] a ridere.\nQuella sera (imparare, io) [[g12]] una parola per sempre.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho passato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "si chiamava"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "cenavamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "è successa"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ho risposto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avevo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "è tornata"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aveva spiegato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "guardavo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "hanno cominciato"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "ho imparato"
+     ]
+    }
+   ]
+  }
+ ]
+}

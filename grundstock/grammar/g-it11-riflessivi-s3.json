@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-s3",
+ "title": "Come si sono conosciuti?",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Come si sono conosciuti? · livello difficile.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta come si sono conosciuti i tuoi genitori, i tuoi nonni o due tuoi amici (anche una storia inventata). Scrivi 6 frasi con almeno 5 verbi riflessivi o reciproci al passato prossimo.",
+   "promptHelp": "Erzähle, wie sich deine Eltern, Großeltern oder zwei Freunde kennengelernt haben (auch erfunden). 6 Sätze mit mindestens 5 reflexiven oder reziproken Verben im passato prossimo.",
+   "type": "open_answer",
+   "modelAnswer": "I miei genitori si sono conosciuti all’università. Si sono visti per la prima volta in biblioteca e si sono innamorati subito. Mia madre si è laureata un anno dopo. Poi si sono trasferiti a Monaco e si sono sposati. All’inizio non si sono trovati bene, ma poi si sono abituati. Da allora tutto è cambiato.",
+   "lines": 7
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Prüfe: welche Form?",
+   "type": "gap_choice",
+   "text": "I miei genitori [[g1]] all’università.\nMia madre [[g2]] un anno dopo.\nDopo il matrimonio tutto [[g3]].\nLi [[g4]] per tutto quello che fanno per me.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "si sono conosciuti",
+      "si hanno conosciuto",
+      "hanno conosciuti"
+     ],
+     "answer": "si sono conosciuti"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "si è laureata",
+      "ha laureato",
+      "si è laureato"
+     ],
+     "answer": "si è laureata"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è cambiato",
+      "si è cambiato",
+      "si ha cambiato"
+     ],
+     "answer": "è cambiato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ringrazio",
+      "mi ringrazio",
+      "ringrazio mi"
+     ],
+     "answer": "ringrazio"
+    }
+   ]
+  }
+ ]
+}

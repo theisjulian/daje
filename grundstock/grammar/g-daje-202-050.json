@@ -58,8 +58,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo con gli articoli (determinativi o indeterminativi).",
+   "promptHelp": "Ergänze den Text mit den Artikeln (bestimmt oder unbestimmt).",
    "text": "Cara Bea, oggi ti scrivo da Bologna. Ho [[g1]] bella notizia: questa mattina ho visitato Salaborsa. È [[g2]] biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. [[g3]] biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è [[g4]] pavimento di vetro: sotto si vedono tracce della storia della città. È [[g5]] spazio interessante perché permette di osservare insieme [[g6]] edificio attuale e resti del passato. Qui si trovano libri, giornali, riviste e altri materiali.\nQueste informazioni vengono dal sito della biblioteca; [[g7]] nostro itinerario, invece, è [[g8]] progetto immaginario per [[g9]] classe. Noi arriviamo in treno, lasciamo [[g10]] borse in albergo e raggiungiamo [[g11]] centro a piedi. Due compagni cercano [[g12]] guida della città; [[g13]] compagna prepara domande per [[g14]] gruppo. Dopo la visita facciamo [[g15]] pausa in [[g16]] piazza tranquilla. Io porto [[g17]] piccola macchina fotografica, ma prima di fare fotografie dentro [[g18]] edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie [[g19]] dettaglio da disegnare. [[g20]] mio disegno rappresenta [[g21]] grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
    "gaps": [
     {
@@ -131,7 +131,8 @@
     {
      "id": "g12",
      "acceptedAnswers": [
-      "una"
+      "una",
+      "la"
      ]
     },
     {
@@ -188,8 +189,7 @@
       "una"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

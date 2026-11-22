@@ -35,7 +35,9 @@ const VB_GROUPS = [
   ['all', 'Alle']
 ];
 /* [Infinitiv, Deutsch, Gruppe, Klasse, Besonderheiten, ab Band (Standard 1)] – Klasse: are | ere | ire | isc
-   Besonderheiten: aux, pp, pres, impf (Stamm oder Formen), fut (Stamm), cong/congi/imp (Formen), ger, noImp, noGer */
+   Besonderheiten: aux, pp, pres, impf (Stamm oder Formen), fut (Stamm), cong/congi/imp (Formen), ger, noImp, noGer
+   Nebenformen als Liste: pp ['perso', 'perduto'], fut ['seder', 'sieder'], pres [['devo', 'debbo'], …];
+   auxAlt: zweites zulässiges Hilfsverb (vivere: ha vissuto / è vissuto) */
 const VB_DATA = [
   ['parlare', 'sprechen', 'reg', 'are', {}],
   ['abitare', 'wohnen', 'reg', 'are', {}],
@@ -59,7 +61,7 @@ const VB_DATA = [
   ['mettere', 'stellen, legen', 'reg', 'ere', { pp: 'messo' }],
   ['rispondere', 'antworten', 'reg', 'ere', { pp: 'risposto' }],
   ['vedere', 'sehen', 'reg', 'ere', { pp: 'visto', fut: 'vedr' }],
-  ['vivere', 'leben', 'reg', 'ere', { pp: 'vissuto', fut: 'vivr' }],
+  ['vivere', 'leben', 'reg', 'ere', { pp: 'vissuto', fut: 'vivr', auxAlt: 'essere' }],
   ['conoscere', 'kennen', 'reg', 'ere', { pp: 'conosciuto', pres: ['conosco', 'conosci', 'conosce', 'conosciamo', 'conoscete', 'conoscono'] }],
   ['sentire', 'hören, fühlen', 'reg', 'ire', {}],
   ['dormire', 'schlafen', 'reg', 'ire', {}],
@@ -87,7 +89,7 @@ const VB_DATA = [
     pp: 'voluto', pres: ['voglio', 'vuoi', 'vuole', 'vogliamo', 'volete', 'vogliono'], fut: 'vorr', noImp: true, noGer: true
   }],
   ['dovere', 'müssen', 'aux', 'ere', {
-    pp: 'dovuto', pres: ['devo', 'devi', 'deve', 'dobbiamo', 'dovete', 'devono'], fut: 'dovr', noImp: true, noGer: true,
+    pp: 'dovuto', pres: [['devo', 'debbo'], 'devi', 'deve', 'dobbiamo', 'dovete', ['devono', 'debbono']], fut: 'dovr', noImp: true, noGer: true,
     cong: [['debba', 'deva'], ['debba', 'deva'], ['debba', 'deva'], 'dobbiamo', 'dobbiate', ['debbano', 'devano']]
   }],
   ['sapere', 'wissen, können', 'aux', 'ere', {
@@ -155,7 +157,7 @@ const VB_DATA = [
   ['porre', 'legen, stellen', 'irr', 'ere', {
     pp: 'posto', pres: ['pongo', 'poni', 'pone', 'poniamo', 'ponete', 'pongono'], impf: 'ponev', fut: 'porr'
   }],
-  ['chiamarsi', 'heißen', 'refl', 'are', {}],
+  ['chiamarsi', 'heißen', 'refl', 'are', { noImp: true, noGer: true }],
   ['alzarsi', 'aufstehen', 'refl', 'are', {}],
   ['lavarsi', 'sich waschen', 'refl', 'are', {}],
   ['svegliarsi', 'aufwachen', 'refl', 'are', {}],
@@ -191,7 +193,7 @@ const VB_DATA = [
   ['ricordare', 'sich erinnern an', 'reg', 'are', {}],
   ['chiudere', 'schließen', 'reg', 'ere', { pp: 'chiuso' }],
   ['credere', 'glauben', 'reg', 'ere', {}],
-  ['perdere', 'verlieren', 'reg', 'ere', { pp: 'perso' }],
+  ['perdere', 'verlieren', 'reg', 'ere', { pp: ['perso', 'perduto'] }],
   ['ricevere', 'erhalten', 'reg', 'ere', {}],
   ['ripetere', 'wiederholen', 'reg', 'ere', {}],
   ['spendere', 'ausgeben (Geld)', 'reg', 'ere', { pp: 'speso' }],
@@ -199,7 +201,7 @@ const VB_DATA = [
   ['decidere', 'entscheiden', 'reg', 'ere', { pp: 'deciso' }],
   ['scendere', 'hinuntergehen, aussteigen', 'reg', 'ere', { pp: 'sceso', aux: 'essere' }],
   ['seguire', 'folgen', 'reg', 'ire', {}],
-  ['servire', 'dienen, nützen', 'reg', 'ire', {}],
+  ['servire', 'servieren, bedienen', 'reg', 'ire', {}],
   ['spedire', 'schicken (Post)', 'reg', 'isc', {}],
   ['costruire', 'bauen', 'reg', 'isc', {}],
   ['prepararsi', 'sich vorbereiten', 'refl', 'are', {}],
@@ -231,7 +233,7 @@ const VB_DATA = [
     pp: 'tradotto', pres: ['traduco', 'traduci', 'traduce', 'traduciamo', 'traducete', 'traducono'], impf: 'traducev', fut: 'tradurr'
   }, 2],
   ['sedersi', 'sich setzen', 'refl', 'ere', {
-    pres: ['siedo', 'siedi', 'siede', 'sediamo', 'sedete', 'siedono']
+    pres: ['siedo', 'siedi', 'siede', 'sediamo', 'sedete', 'siedono'], fut: ['seder', 'sieder']
   }, 2],
   ['innamorarsi', 'sich verlieben', 'refl', 'are', {}, 2],
   ['arrabbiarsi', 'sich ärgern', 'refl', 'are', {}, 2],
@@ -269,7 +271,7 @@ const VB_DATA = [
     pp: 'sostenuto', pres: ['sostengo', 'sostieni', 'sostiene', 'sosteniamo', 'sostenete', 'sostengono'], fut: 'sosterr'
   }, 3],
   ['appartenere', 'gehören', 'irr', 'ere', {
-    aux: 'essere', pp: 'appartenuto', pres: ['appartengo', 'appartieni', 'appartiene', 'apparteniamo', 'appartenete', 'appartengono'], fut: 'apparterr', noImp: true, noGer: true
+    aux: 'essere', auxAlt: 'avere', pp: 'appartenuto', pres: ['appartengo', 'appartieni', 'appartiene', 'apparteniamo', 'appartenete', 'appartengono'], fut: 'apparterr', noImp: true, noGer: true
   }, 3],
   ['intervenire', 'einschreiten', 'irr', 'ire', {
     aux: 'essere', pp: 'intervenuto', pres: ['intervengo', 'intervieni', 'interviene', 'interveniamo', 'intervenite', 'intervengono'], fut: 'interverr'
@@ -319,7 +321,9 @@ function vbBuild([inf, de, group, cls, o0, band0]) {
   const join = (s, e) => (s.endsWith('i') && e.startsWith('i') ? s + e.slice(1) : s + e);
   // -care/-gare: h vor e/i
   const hard = /[cg]$/.test(stem) && cls === 'are';
-  const pres = o.pres || ends.map(e => (hard && /^[ie]/.test(e) ? stem + 'h' + e : join(stem, e)));
+  // presAll: alle zulässigen Formen je Person (devo / debbo); pres: die Hauptform, aus der andere Zeiten entstehen
+  const presAll = (o.pres || ends.map(e => (hard && /^[ie]/.test(e) ? stem + 'h' + e : join(stem, e)))).map(vbList6);
+  const pres = presAll.map(x => x[0]);
   const impfStem = typeof o.impf === 'string' ? o.impf : stem + (cls === 'are' ? 'av' : cls === 'ere' ? 'ev' : 'iv');
   const impf = Array.isArray(o.impf) ? o.impf : ['o', 'i', 'a', 'amo', 'ate', 'ano'].map(e => impfStem + e);
   let fs = o.fut;
@@ -329,8 +333,8 @@ function vbBuild([inf, de, group, cls, o0, band0]) {
     else fs = stem + (cls === 'ere' ? 'er' : 'ir');
     if (cls === 'are' && /[cg]$/.test(stem) && !hard) fs = stem + 'er';
   }
-  const fut = ['ò', 'ai', 'à', 'emo', 'ete', 'anno'].map(e => fs + e);
-  const cond = ['ei', 'esti', 'ebbe', 'emmo', 'este', 'ebbero'].map(e => fs + e);
+  const fut = ['ò', 'ai', 'à', 'emo', 'ete', 'anno'].map(e => vbList6(fs).map(s => s + e));
+  const cond = ['ei', 'esti', 'ebbe', 'emmo', 'este', 'ebbero'].map(e => vbList6(fs).map(s => s + e));
   // Congiuntivo presente: aus der 1. Person Präsens (vado → vada) bzw. regelmäßig
   let cong = o.cong;
   if (!cong) {
@@ -356,21 +360,32 @@ function vbBuild([inf, de, group, cls, o0, band0]) {
   }
   // Gerundio mit stare
   const gerF = o.ger || (typeof o.impf === 'string' && /ev$/.test(o.impf) ? o.impf.slice(0, -2) + 'endo' : stem + (cls === 'are' ? 'ando' : 'endo'));
-  const aux = o.aux || 'avere';
-  const pp = o.pp || stem + (cls === 'are' ? 'ato' : cls === 'ere' ? 'uto' : 'ito');
-  const ppForms = person => {
-    if (aux !== 'essere' && !refl) return [pp];
-    const m = pp.replace(/o$/, '');
-    return person < 3 ? [m + 'o', m + 'a'] : [m + 'i', m + 'e'];
+  const auxKey = refl ? 'essere' : o.aux || 'avere';
+  const auxAlt = refl ? '' : o.auxAlt || '';
+  const pps = vbList6(o.pp || stem + (cls === 'are' ? 'ato' : cls === 'ere' ? 'uto' : 'ito'));
+  const pp = pps[0];
+  // Mit essere richtet sich das Partizip nach dem Subjekt; fg merkt sich für jede solche Form das Geschlecht.
+  const fg = {};
+  const withAux = (t, a, i) => {
+    const h = VB_AUX_T[t][a][i];
+    if (a !== 'essere') return pps.map(p => h + ' ' + p);
+    return pps.flatMap(p => {
+      const m = p.replace(/o$/, '');
+      const pair = i < 3 ? [m + 'o', m + 'a'] : [m + 'i', m + 'e'];
+      return pair.map((x, k) => {
+        const f = (refl ? VB_REFL[i] + ' ' : '') + h + ' ' + x;
+        fg[f] = k ? 'f' : 'm';
+        return h + ' ' + x;
+      });
+    });
   };
-  const auxKey = refl ? 'essere' : aux;
-  const compound = t => VB_PERSONS.map((_, i) => ppForms(i).map(p => VB_AUX_T[t][auxKey][i] + ' ' + p));
+  const compound = t => VB_PERSONS.map((_, i) => [auxKey, auxAlt].filter(Boolean).flatMap(a => withAux(t, a, i)));
   const tenses = {
-    pres: pres.map(x => [x]),
+    pres: presAll,
     pp: compound('pp'),
     impf: impf.map(x => [x]),
-    fut: fut.map(x => [x]),
-    cond: cond.map(x => [x]),
+    fut,
+    cond,
     trap: compound('trap'),
     cong,
     congp: compound('congp'),
@@ -385,11 +400,16 @@ function vbBuild([inf, de, group, cls, o0, band0]) {
     });
   }
   if (imp) tenses.imp = imp;
-  return { inf, de, group, band, tenses, pp, aux: auxKey };
+  return { inf, de, group, band, tenses, pp, pps, aux: auxKey, auxAlt, fg };
 }
 const VB_VERBS = VB_DATA.map(vbBuild);
+/* Formen passend zum Geschlecht des Subjekts ('m' | 'f'): bei essere bleibt nur das passende Partizip (Giulia è scesa). */
+const vbGenderForms = (verb, forms, g) => (g ? forms.filter(f => !verb.fg[f] || verb.fg[f] === g) : forms);
+const vbAuxOk = (verb, aux) => aux === verb.aux || (!!verb.auxAlt && aux === verb.auxAlt);
 
-/* Sätze für „Im Satz“ und „Welche Form?“: [Band, Zeit, Verb, Person, Satz mit ___ ]. Person bei imp: 0 tu, 1 Lei, 2 noi, 3 voi. */
+/* Sätze für „Im Satz“ und „Welche Form?“: [Band, Zeit, Verb, Person, Satz mit ___, Geschlecht des Subjekts]. Person bei imp: 0 tu, 1 Lei, 2 noi, 3 voi.
+   Geschlecht 'm' oder 'f' nur, wenn der Satz es festlegt (Giulia, Luca, il treno): Dann zählt bei essere-Verben und Reflexiven allein
+   das passende Partizip. Ohne Angabe (io, tu, noi, voi …) sind beide Formen richtig. */
 const VB_SENT = [
   [1, 'pres', 'aspettare', 0, '(Io) ___ l’autobus davanti alla scuola.'],
   [1, 'pres', 'cucinare', 2, 'La domenica il nonno ___ le lasagne.'],
@@ -398,10 +418,10 @@ const VB_SENT = [
   [1, 'pres', 'spedire', 3, '(Noi) ___ una cartolina ai nonni.'],
   [1, 'pres', 'annoiarsi', 5, 'Durante le vacanze i miei fratelli ___ un po’.'],
   [1, 'pp', 'perdere', 0, 'Ieri (io) ___ le chiavi di casa.'],
-  [1, 'pp', 'scendere', 2, 'Giulia ___ dall’autobus in piazza.'],
+  [1, 'pp', 'scendere', 2, 'Giulia ___ dall’autobus in piazza.', 'f'],
   [1, 'pp', 'incontrare', 3, 'Sabato (noi) ___ Marco al cinema.'],
   [1, 'pp', 'decidere', 5, 'I ragazzi ___ di andare al mare.'],
-  [1, 'pp', 'addormentarsi', 1, 'A che ora ___ ieri sera, Luca?'],
+  [1, 'pp', 'addormentarsi', 1, 'A che ora ___ ieri sera, Luca?', 'm'],
   [2, 'impf', 'nuotare', 3, 'Da bambini (noi) ___ ogni giorno nel lago.'],
   [2, 'fut', 'viaggiare', 0, 'L’anno prossimo (io) ___ in Sicilia.'],
   [2, 'cond', 'spegnere', 1, '___ (tu) la luce, per favore?'],
@@ -425,15 +445,15 @@ const VB_SENT = [
   [1, 'pres', 'finire', 0, '(Io) ___ i compiti alle cinque.'],
   [1, 'pres', 'pagare', 1, 'Oggi ___ tu il gelato?'],
   [1, 'pp', 'mangiare', 0, 'Ieri (io) ___ una pizza con Luca.'],
-  [1, 'pp', 'andare', 2, 'Sabato scorso Anna ___ al cinema.'],
+  [1, 'pp', 'andare', 2, 'Sabato scorso Anna ___ al cinema.', 'f'],
   [1, 'pp', 'vedere', 3, '(Noi) ___ un film bellissimo.'],
   [1, 'pp', 'arrivare', 4, 'A che ora ___ (voi) a scuola?'],
   [1, 'pp', 'scrivere', 5, 'I ragazzi ___ una lettera alla nonna.'],
   [1, 'pp', 'leggere', 1, '___ (tu) il libro per domani?'],
   [1, 'pp', 'svegliarsi', 0, 'Stamattina (io) ___ tardi.'],
-  [1, 'pp', 'partire', 5, 'I miei genitori ___ per Roma.'],
+  [1, 'pp', 'partire', 5, 'I miei genitori ___ per Roma.', 'm'],
   [1, 'pp', 'fare', 1, 'Che cosa ___ (tu) ieri sera?'],
-  [1, 'pp', 'tornare', 2, 'Luca ___ a casa a mezzanotte.'],
+  [1, 'pp', 'tornare', 2, 'Luca ___ a casa a mezzanotte.', 'm'],
   [2, 'impf', 'giocare', 0, 'Da piccolo (io) ___ sempre in giardino.'],
   [2, 'impf', 'dormire', 3, 'In vacanza (noi) ___ fino a tardi.'],
   [2, 'impf', 'studiare', 1, 'Mentre (tu) ___, io cucinavo.'],
@@ -461,7 +481,7 @@ const VB_SENT = [
   [2, 'ger', 'fare', 1, 'Che cosa ___ (tu) in questo momento?'],
   [2, 'ger', 'giocare', 5, 'I bambini ___ in cortile.'],
   [2, 'ger', 'parlare', 2, 'Silenzio, la prof ___.'],
-  [2, 'trap', 'partire', 2, 'Quando siamo arrivati alla stazione, il treno ___.'],
+  [2, 'trap', 'partire', 2, 'Quando siamo arrivati alla stazione, il treno ___.', 'm'],
   [2, 'trap', 'mangiare', 0, 'Non avevo fame perché ___ (io) un panino.'],
   [2, 'trap', 'leggere', 2, 'Anna mi ha detto che ___ il libro.'],
   [2, 'cong', 'avere', 2, 'Penso che Luca ___ ragione.'],
@@ -483,20 +503,20 @@ const VB_SENT = [
   [3, 'congi', 'dormire', 2, 'Sembrava che Marco ___ ancora.'],
   [3, 'congi', 'fare', 1, 'Se (tu) ___ più sport, staresti meglio.'],
   [3, 'congi', 'sostenere', 5, 'Bisognava che tutti ___ il progetto.'],
-  [3, 'congi', 'intervenire', 2, 'Se lo stato ___, la situazione migliorerebbe.'],
-  [3, 'congp', 'partire', 2, 'Penso che Laura ___ ieri.'],
+  [3, 'congi', 'intervenire', 2, 'Se lo Stato ___, la situazione migliorerebbe.'],
+  [3, 'congp', 'partire', 2, 'Penso che Laura ___ ieri.', 'f'],
   [3, 'congp', 'finire', 1, 'Spero che (tu) ___ i compiti.'],
   [3, 'congp', 'capire', 5, 'È possibile che loro non ___ la domanda.'],
   [3, 'congt', 'sapere', 0, 'Se (io) l’___ prima, sarei venuto.'],
   [3, 'congt', 'studiare', 1, 'Se (tu) ___ di più, avresti passato l’esame.'],
-  [3, 'congt', 'partire', 3, 'Se (noi) ___ prima, saremmo arrivati in tempo.'],
+  [3, 'congt', 'partire', 3, 'Se (noi) ___ prima, saremmo arrivati in tempo.', 'm'],
   [3, 'condp', 'accettare', 0, 'Al posto tuo (io) ___ l’invito.'],
   [3, 'condp', 'vedere', 3, 'Con più tempo (noi) ___ anche Napoli.'],
   [3, 'condp', 'arrivare', 2, 'Luca ha detto che ___ alle otto.'],
   [3, 'condp', 'dovere', 5, 'I miei amici ___ chiamare prima.'],
   [3, 'pp', 'risolvere', 3, 'Finalmente (noi) ___ il problema.'],
   [3, 'pp', 'travolgere', 2, 'La valanga ___ due sciatori.'],
-  [3, 'pp', 'intervenire', 5, 'I pompieri ___ subito.'],
+  [3, 'pp', 'intervenire', 5, 'I pompieri ___ subito.', 'm'],
   [3, 'pres', 'produrre', 2, 'Questa azienda ___ biciclette.'],
   [3, 'cond', 'abolire', 0, '(Io) non ___ il Palio.'],
   [3, 'impf', 'stupirsi', 0, 'Ogni volta (io) ___ di quanto fosse bella Venezia.']
@@ -515,7 +535,7 @@ const vbSave = () => {
     localStorage.setItem(VB_KEY, JSON.stringify({ band: VB_STATE.band, mode: VB_STATE.mode }));
   } catch (e) {}
 };
-const vbNorm = x => String(x).normalize('NFC').toLocaleLowerCase().replace(/[’‘`´]/g, "'").replace(/\s+/g, ' ').trim().replace(/[.!?,;]+$/, '');
+const vbNorm = x => String(x).normalize('NFC').toLocaleLowerCase().replace(/[’‘ʼ′`´]/g, "'").replace(/\s+/g, ' ').trim().replace(/[.!?,;]+$/, '');
 const vbPlain = x => vbNorm(x).normalize('NFD').replace(/[̀-ͯ]/g, '');
 function vbJudge(forms, raw) {
   const v = vbNorm(raw);
@@ -602,7 +622,7 @@ function vbTable() {
     return `<tr class="vb-r ${st}"><th scope="row">${p}</th><td><input class="vb-in" data-vb-in="${i}" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" lang="it" value="${esc(VB_STATE.answers[i] || '')}" ${VB_STATE.checked ? 'readonly' : ''} aria-label="${p}"></td><td class="vb-fb" role="status">${esc(msg)}</td></tr>`;
   }).join('');
   const ok = VB_STATE.checked ? persons.filter((_, i) => vbJudge(forms[i], VB_STATE.answers[i] || '') === 'ok').length : 0;
-  const auxNote = ['pp', 'trap', 'congp', 'congt', 'condp'].includes(VB_STATE.tense) ? ` · mit ${v.aux}` : '';
+  const auxNote = ['pp', 'trap', 'congp', 'congt', 'condp'].includes(VB_STATE.tense) ? ` · mit ${v.aux}${v.auxAlt ? ' oder ' + v.auxAlt : ''}` : '';
   return `<section class="vb-card glass"><div class="vb-head"><div><div class="eyebrow">${vbTenseName(VB_STATE.tense)}</div><h2 lang="it">${v.inf}</h2><p class="muted">${esc(v.de)}${auxNote}</p></div><button type="button" class="speak-btn" data-vb="speak" aria-label="Aussprache anhören">🔊</button></div>
   <form id="vb-form" novalidate><table class="vb-table"><tbody>${rows}</tbody></table>${VB_STATE.checked ? '' : vbKeys()}
   <div class="vb-actions">${VB_STATE.checked ? `<div class="vb-score" role="status"><b>${ok} von ${persons.length}</b> richtig</div><button type="button" class="button primary" data-vb="next">Nächstes Verb</button><button type="button" class="button secondary" data-vb="again">Noch einmal</button>` : '<button class="button primary" type="submit">Formen prüfen</button><button type="button" class="button secondary" data-vb="reveal">Lösung zeigen</button>'}</div></form></section>`;
@@ -616,9 +636,9 @@ function vbItems(mode) {
     if (pool.length < 4) pool = VB_SENT.filter(s => s[0] <= band && vbVerb(s[2]).tenses[s[1]]);
     // neueste Inhalte bevorzugen: Sätze des gewählten Bands zuerst
     pool = [...vbWShuffle(pool.filter(s => s[0] === band), s => s[2]), ...vbWShuffle(pool.filter(s => s[0] !== band), s => s[2])].slice(0, 10);
-    return vbShuffle(pool).map(([b, tense, inf, p, text]) => {
+    return vbShuffle(pool).map(([b, tense, inf, p, text, g]) => {
       const verb = vbVerb(inf);
-      return { verb, tense, p, text, forms: verb.tenses[tense][p] };
+      return { verb, tense, p, text, g: g || '', forms: vbGenderForms(verb, verb.tenses[tense][p], g) };
     });
   }
   const verbs = VB_VERBS.filter(v => v.band <= band && (VB_STATE.group === 'all' || v.group === VB_STATE.group));
@@ -626,7 +646,7 @@ function vbItems(mode) {
   for (let i = 0; i < 10 && verbs.length; i++) {
     const verb = vbPick(verbs);
     if (mode === 'aux') {
-      items.push({ verb, tense: 'pp', p: 0, forms: [verb.pp, ...(verb.aux === 'essere' ? [verb.pp.replace(/o$/, 'a')] : [])] });
+      items.push({ verb, tense: 'pp', p: 0, forms: verb.pps.flatMap(x => [x, ...(verb.aux === 'essere' || verb.auxAlt === 'essere' ? [x.replace(/o$/, 'a')] : [])]) });
       continue;
     }
     const ts = tenses.filter(t => verb.tenses[t]);
@@ -637,14 +657,17 @@ function vbItems(mode) {
   }
   return items;
 }
-/* Antwortmöglichkeiten: richtige Form, dieselbe Person in anderen Zeiten, andere Personen derselben Zeit */
+/* Antwortmöglichkeiten: richtige Form, dieselbe Person in anderen Zeiten, andere Personen derselben Zeit.
+   Bei festgelegtem Geschlecht (c.g) stehen auch die falschen Möglichkeiten im passenden Geschlecht; ist es offen,
+   gelten beide Formen als richtig und keine von beiden wird als falsche Möglichkeit angeboten. */
 function vbOptions(c) {
   const right = c.forms[0];
   const pool = [];
+  const first = forms => vbGenderForms(c.verb, forms, c.g)[0] || forms[0];
   vbTensesFor(VB_STATE.band).forEach(([t]) => {
-    if (t !== c.tense && c.verb.tenses[t] && c.verb.tenses[t][c.p] && t !== 'imp') pool.push(c.verb.tenses[t][c.p][0]);
+    if (t !== c.tense && c.verb.tenses[t] && c.verb.tenses[t][c.p] && t !== 'imp') pool.push(first(c.verb.tenses[t][c.p]));
   });
-  c.verb.tenses[c.tense].forEach((f, i) => i !== c.p && pool.push(f[0]));
+  c.verb.tenses[c.tense].forEach((f, i) => i !== c.p && pool.push(first(f)));
   const wrong = vbShuffle([...new Set(pool)].filter(f => !c.forms.some(r => vbNorm(r) === vbNorm(f)))).slice(0, 3);
   return vbShuffle([right, ...wrong]);
 }
@@ -670,7 +693,7 @@ function vbRound() {
   const hint = !q.checked && !q.hint ? '<button type="button" class="quiet" data-vb="hint">Tipp</button>' : q.hint && !q.checked ? `<span class="vb-hint" lang="it">${esc(vbHint(c.forms[0]))}</span>` : '';
   if (m === 'aux') {
     const auxPick = q.aux
-      ? `<p class="vb-auxres ${q.aux === c.verb.aux ? 'ok' : 'wrong'}">${q.aux === c.verb.aux ? 'Richtig: ' : 'Nein, '}<b lang="it">${c.verb.aux}</b>${q.aux === c.verb.aux ? '' : ' ist richtig.'}</p>`
+      ? `<p class="vb-auxres ${vbAuxOk(c.verb, q.aux) ? 'ok' : 'wrong'}">${vbAuxOk(c.verb, q.aux) ? 'Richtig: ' : 'Nein, '}<b lang="it">${c.verb.auxAlt ? esc(q.aux) : c.verb.aux}</b>${c.verb.auxAlt ? ` (auch <span lang="it">${q.aux === c.verb.aux ? c.verb.auxAlt : c.verb.aux}</span> ist möglich)` : vbAuxOk(c.verb, q.aux) ? '' : ' ist richtig.'}</p>`
       : `<div class="vb-two"><button type="button" class="button secondary large" data-vb="aux-pick" data-v="avere">avere</button><button type="button" class="button secondary large" data-vb="aux-pick" data-v="essere">essere</button></div>`;
     return `<section class="vb-card glass vb-quiz">${bar}<div class="eyebrow">Passato prossimo · ${q.i + 1} / ${q.total}</div><h2 lang="it">${c.verb.inf}</h2><p class="muted">${esc(c.verb.de)}</p>${auxPick}${q.aux ? `<form id="vb-qform" novalidate><label class="vb-plabel">Partizip<input class="vb-in vb-big" id="vb-q" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" lang="it" value="${esc(q.answer || '')}" ${q.checked ? 'readonly' : ''}></label>${q.checked ? '' : vbKeys()}<div class="vb-actions">${q.checked ? fb + next : '<button class="button primary" type="submit">Prüfen</button>' + hint}</div></form>` : ''}</section>`;
   }
@@ -809,11 +832,11 @@ document.addEventListener('submit', e => {
     q.res = vbJudge(c.forms, q.answer);
     if (q.res === 'empty') return;
     // Hilfsverb-Übung: nur richtig, wenn auch das Hilfsverb stimmt
-    if (q.mode === 'aux' && q.aux !== c.verb.aux && q.res === 'ok') q.res = 'wrong';
+    if (q.mode === 'aux' && !vbAuxOk(c.verb, q.aux) && q.res === 'ok') q.res = 'wrong';
     vbMark(c.verb.inf, q.res === 'ok');
     if (q.res === 'ok') q.good++;
     q.checked = true;
     verbsPage();
   }
 });
-if (typeof module !== 'undefined') module.exports = { VB_VERBS, VB_SENT, vbJudge, vbOptions };
+if (typeof module !== 'undefined') module.exports = { VB_VERBS, VB_SENT, VB_STATE, vbJudge, vbOptions, vbItems, vbGenderForms, vbAuxOk };

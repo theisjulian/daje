@@ -63,7 +63,9 @@
      "id": "s2",
      "start": "(200 g Käse)",
      "acceptedAnswers": [
-      "due etti di formaggio"
+      "due etti di formaggio",
+      "duecento grammi di formaggio",
+      "200 grammi di formaggio"
      ],
      "modelAnswer": "due etti di formaggio"
     },
@@ -96,7 +98,9 @@
      "id": "s6",
      "start": "(1 Packung Reis)",
      "acceptedAnswers": [
-      "un pacco di riso"
+      "un pacco di riso",
+      "un pacchetto di riso",
+      "una scatola di riso"
      ],
      "modelAnswer": "un pacco di riso"
     },

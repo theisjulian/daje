@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-date-storiche-l2",
+ "title": "Quando?",
+ "language": "it",
+ "level": "A2",
+ "description": "Date e anni nella storia · Quando? · livello facile.",
+ "topics": [
+  "Date e anni nella storia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte"
+ },
+ "grammar": {
+  "topic": "ecco2-date-storiche",
+  "topicTitle": "Date e anni nella storia",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.\n| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |\n| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |\n| **dal** … **al** … | _**dal** 1939 **al** 1945_ |\n| … anni **fa** | _più di cinquecento anni **fa**_ |\n| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |\n**I secoli** hanno due nomi:\n| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |\n| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |\n| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |\n| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |\n_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._\n**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.",
+  "ruleHelp": "**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).\n„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.\n**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das richtige Wort.",
+   "explanation": "nel + anno (nell’80); il + giorno e mese; dal … al …; … anni fa.",
+   "explanationHelp": "nel + Jahr (nell’80); il + Tag und Monat; dal … al …; … anni fa (vor … Jahren).",
+   "type": "gap_choice",
+   "text": "Colombo è arrivato in America [[g1]] 1492.\nL’Italia è un Paese unito [[g2]] 1861.\n[[g3]] 2 giugno 1946 gli italiani hanno scelto la repubblica.\nLa seconda guerra mondiale è durata dal 1939 [[g4]] 1945.\nI Romani hanno inaugurato il Colosseo [[g5]] d.C.\nIl Muro di Berlino è caduto [[g6]] 1989.\nColombo è arrivato in America più di cinquecento anni [[g7]].\nIl 1957 è un anno [[g8]] Novecento.\n[[g9]] 2002 in Italia si paga con l’euro.\nIl Quattrocento è il [[g10]] secolo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "nel",
+      "in",
+      "a"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dal",
+      "da",
+      "al"
+     ],
+     "answer": "dal"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Il",
+      "Nel",
+      "Al"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "al",
+      "a",
+      "nel"
+     ],
+     "answer": "al"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "nell’80",
+      "nel 80",
+      "in 80"
+     ],
+     "answer": "nell’80"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "nel",
+      "il",
+      "al"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "fa",
+      "da",
+      "scorsi"
+     ],
+     "answer": "fa"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "del",
+      "dell’",
+      "nel"
+     ],
+     "answer": "del"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Dal",
+      "Da",
+      "Al"
+     ],
+     "answer": "Dal"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "quindicesimo",
+      "quattordicesimo",
+      "quarto"
+     ],
+     "answer": "quindicesimo"
+    }
+   ]
+  }
+ ]
+}

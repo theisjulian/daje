@@ -67,7 +67,11 @@
       "acceptedAnswers": [
         "una bustina di zucchero",
         "bustina di zucchero",
-        "una bustina"
+        "una bustina",
+        "zucchero",
+        "lo zucchero",
+        "la bustina di zucchero",
+        "dello zucchero"
       ],
       "modelAnswer": "una bustina di zucchero",
       "explanation": "Am Ende wird ein Zuckerpäckchen genannt."
@@ -79,7 +83,11 @@
         "un caffè",
         "caffè",
         "un caffe",
-        "caffe"
+        "caffe",
+        "il caffè",
+        "il caffe",
+        "un caffè da portare via",
+        "un caffe da portare via"
       ],
       "modelAnswer": "un caffè",
       "explanation": "Bestellt wird ein Kaffee. Auch „caffe“ ohne Akzent zählt hier.",

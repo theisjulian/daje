@@ -6,9 +6,9 @@
  "title": "Intervista a una restauratrice",
  "language": "it",
  "level": "A2",
- "description": "Venire, sapere e i verbi modali · Intervista a una restauratrice · livello medio.",
+ "description": "Testi e forme: ripasso · Intervista a una restauratrice · livello medio.",
  "topics": [
-  "Venire, sapere e i verbi modali",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -25,7 +25,7 @@
    "series": "Corso daje",
    "volume": "1",
    "unit": "4 · Tempo libero",
-   "section": "Parte A"
+   "section": "Ripasso"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -36,8 +36,8 @@
   "curriculum": "It8 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco1-modali",
-  "topicTitle": "Venire, sapere e i verbi modali",
+  "topic": "daje-testi-a2",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1085
@@ -95,7 +95,8 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "ha invitata"
+      "ha invitata",
+      "ha invitato"
      ]
     },
     {
@@ -122,8 +123,7 @@
       "Ho aiutato"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

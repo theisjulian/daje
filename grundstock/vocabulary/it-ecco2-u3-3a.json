@@ -63,7 +63,7 @@
     "hier: führen zu/nach"
    ],
    "definition": "Condurre verso un luogo.",
-   "example": "Questa strada porta in centro."
+   "example": "Questa strada porta al Colosseo."
   },
   {
    "id": "u3-3a-004",
@@ -84,7 +84,7 @@
     "die Sage"
    ],
    "definition": "Racconto fantastico del passato.",
-   "example": "Secondo la leggenda Roma fu fondata da Romolo.",
+   "example": "Secondo la leggenda, Romolo ha fondato Roma.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -102,7 +102,7 @@
     "gründen"
    ],
    "definition": "Creare una città o un’organizzazione.",
-   "example": "Romolo fondò Roma.",
+   "example": "Romolo ha fondato Roma.",
    "related": "E to found; F fonder"
   },
   {
@@ -114,7 +114,11 @@
    "definition": "Indicazione della data rispetto alla nascita di Gesù.",
    "example": "Cesare è morto nel 44 avanti Cristo.",
    "acceptedAnswers": [
-    "avanti/dopo Cristo"
+    "avanti/dopo Cristo",
+    "avanti Cristo",
+    "dopo Cristo",
+    "a. C.",
+    "d. C."
    ]
   },
   {
@@ -271,7 +275,7 @@
    "acceptedAnswers": [
     "costruire"
    ],
-   "usage": "Abc"
+   "usage": "(-isc-): costruisco, costruisci"
   },
   {
    "id": "u3-3a-019",
@@ -280,7 +284,7 @@
     "malen"
    ],
    "definition": "Fare un quadro con i colori.",
-   "example": "Leonardo dipinse la Gioconda.",
+   "example": "Leonardo ha dipinto la Gioconda.",
    "usage": "p.p. dipinto"
   },
   {
@@ -371,7 +375,7 @@
    "translations": [
     "die Kuppel"
    ],
-   "definition": "Tetto di forma sferica.",
+   "definition": "Tetto a forma di mezza sfera.",
    "example": "La cupola della chiesa è enorme.",
    "grammar": {
     "partOfSpeech": "noun",

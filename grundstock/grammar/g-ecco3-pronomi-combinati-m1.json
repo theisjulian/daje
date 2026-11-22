@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-pronomi-combinati-m1",
+ "title": "Sì, certo!",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · Sì, certo! · livello medio.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · kombinierte Objektpronomen (me lo, te la, glielo, ce ne …)"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Pronome **indiretto** + pronome **diretto** (o **ne**): prima l’indiretto, poi il diretto. **mi, ti, ci, vi** diventano **me, te, ce, ve**; **gli** e **le** diventano **glie-** (una parola sola).\n| | lo | la | li | le | ne |\n| mi | me lo | me la | me li | me le | me ne |\n| ti | te lo | te la | te li | te le | te ne |\n| gli / le | glielo | gliela | glieli | gliele | gliene |\n| ci | ce lo | ce la | ce li | ce le | ce ne |\n| vi | ve lo | ve la | ve li | ve le | ve ne |\n**Posizione:**\n- prima del verbo: _**Te lo** presto. **Glielo** dico._\n- attaccati all’infinito e all’imperativo: _Voglio dir**glielo**. Dam**melo**! Di**glielo**! Porta**glieli**!_\n- con dovere, potere, volere due posizioni: _**Te lo** posso dare. = Posso dar**telo**._\n**Passato prossimo:** il participio concorda con lo, la, li, le: _Gliel’ho dat**o**. Gliel’ho dat**a**. Glieli ho dat**i**. Gliele ho dat**e**._",
+  "ruleHelp": "Treffen **indirektes** und **direktes Pronomen** (oder **ne**) zusammen, steht zuerst das indirekte: mi, ti, ci, vi werden zu **me, te, ce, ve** (_me lo, te la, ce li, ve ne_); gli und le (ihm, ihr, ihnen) werden beide zu **glie-** und zusammengeschrieben (_glielo, gliela, glieli, gliele, gliene_).\nStellung: vor dem konjugierten Verb (_Te lo presto_), aber angehängt an Infinitiv und Imperativ (_dirglielo, dammelo, diglielo_). Mit Modalverb geht beides: _Te lo posso dare = Posso dartelo._\nIm passato prossimo richtet sich das Partizip nach dem direkten Pronomen: _Gliel’ho data_ (la), _Glieli ho dati_ (li). Anders als im Deutschen (ich gebe **es ihm**) steht im Italienischen der Dativ zuerst."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con un pronome combinato.",
+   "promptHelp": "Antworte mit einem kombinierten Pronomen.",
+   "explanation": "mi → te, ci → ve nella risposta; a lui / a lei / a loro → glie- + lo, la, li, le.",
+   "explanationHelp": "In der Antwort: mi → te, ci → ve; a lui / a lei / a loro → glie- + lo, la, li, le.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Mi presti il costume? – Sì, …",
+     "acceptedAnswers": [
+      "te lo presto"
+     ],
+     "modelAnswer": "Sì, te lo presto."
+    },
+    {
+     "id": "s2",
+     "start": "Mandi le foto a Giulia? – Sì, …",
+     "acceptedAnswers": [
+      "gliele mando"
+     ],
+     "modelAnswer": "Sì, gliele mando."
+    },
+    {
+     "id": "s3",
+     "start": "Ci porti i cannoli? – Sì, …",
+     "acceptedAnswers": [
+      "ve li porto"
+     ],
+     "modelAnswer": "Sì, ve li porto."
+    },
+    {
+     "id": "s4",
+     "start": "Dai la ricetta a tuo fratello? – Sì, …",
+     "acceptedAnswers": [
+      "gliela do"
+     ],
+     "modelAnswer": "Sì, gliela do."
+    },
+    {
+     "id": "s5",
+     "start": "Mi compri le castagne? – Sì, …",
+     "acceptedAnswers": [
+      "te le compro"
+     ],
+     "modelAnswer": "Sì, te le compro."
+    },
+    {
+     "id": "s6",
+     "start": "Regali i fiori alla nonna? – Sì, …",
+     "acceptedAnswers": [
+      "glieli regalo"
+     ],
+     "modelAnswer": "Sì, glieli regalo."
+    },
+    {
+     "id": "s7",
+     "start": "Ci racconti la leggenda? – Sì, …",
+     "acceptedAnswers": [
+      "ve la racconto"
+     ],
+     "modelAnswer": "Sì, ve la racconto."
+    },
+    {
+     "id": "s8",
+     "start": "Spieghi il gioco ai bambini? – Sì, …",
+     "acceptedAnswers": [
+      "glielo spiego"
+     ],
+     "modelAnswer": "Sì, glielo spiego."
+    },
+    {
+     "id": "s9",
+     "start": "Mi dai due biscotti? – Sì, …",
+     "acceptedAnswers": [
+      "te ne do due"
+     ],
+     "modelAnswer": "Sì, te ne do due."
+    }
+   ]
+  }
+ ]
+}

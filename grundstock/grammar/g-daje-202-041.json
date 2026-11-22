@@ -6,9 +6,9 @@
  "title": "Dal disegno alla bottega",
  "language": "it",
  "level": "A1",
- "description": "Essere und avere · Dal disegno alla bottega · livello medio.",
+ "description": "Testi e forme: ripasso · Dal disegno alla bottega · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1041

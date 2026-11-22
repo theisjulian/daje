@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-l2",
+ "title": "La forma giusta dopo il connettivo",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · La forma giusta dopo il connettivo · livello facile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta del verbo.",
+   "promptHelp": "Wähle die richtige Verbform.",
+   "explanation": "Verbo principale al presente → congiuntivo presente o passato; al passato (speravo, pensavo) → congiuntivo imperfetto o trapassato. dopo che + indicativo. Futuro nel passato → condizionale passato. Nel parlato si sente spesso l’indicativo anche dopo benché o sono contenta che, ma nei testi scritti e all’esame è considerato un errore.",
+   "explanationHelp": "Hauptsatz im Präsens → congiuntivo presente oder passato; in der Vergangenheit (speravo, pensavo) → congiuntivo imperfetto oder trapassato. dopo che + Indikativ. Zukunft in der Vergangenheit → condizionale passato. In der gesprochenen Sprache hört man auch nach benché oder sono contenta che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.",
+   "type": "gap_choice",
+   "text": "Benché [[g1]] solo diciotto anni, Sara vive già da sola.\nTi presto il libro affinché tu [[g2]] preparare la relazione.\nNon usciamo, a meno che non [[g3]] di piovere.\nQualora [[g4]] bisogno di aiuto, può scrivermi a questo indirizzo.\nNonostante [[g5]] stanco, Luca ha finito il lavoro.\nSperavo che tu [[g6]] alla festa.\nSono contenta che ieri tu [[g7]] con noi.\nPensavo che il film [[g8]].\nDopo che [[g9]] la scuola, Matteo ha lavorato un anno in Spagna.\nIl professore ha detto che il giorno dopo [[g10]] i compiti.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "abbia",
+      "ha",
+      "avrebbe"
+     ],
+     "answer": "abbia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "possa",
+      "puoi",
+      "potrai"
+     ],
+     "answer": "possa"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "smetta",
+      "smette",
+      "smetterà"
+     ],
+     "answer": "smetta"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "avesse",
+      "avrebbe",
+      "ha"
+     ],
+     "answer": "avesse"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "fosse",
+      "era",
+      "sarebbe"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "venissi",
+      "venga",
+      "verrai"
+     ],
+     "answer": "venissi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sia venuto",
+      "sei venuto",
+      "verresti"
+     ],
+     "answer": "sia venuto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "fosse già cominciato",
+      "sia già cominciato",
+      "è già cominciato"
+     ],
+     "answer": "fosse già cominciato"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ha finito",
+      "abbia finito",
+      "finisse"
+     ],
+     "answer": "ha finito"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "avrebbe restituito",
+      "restituirà",
+      "restituisca"
+     ],
+     "answer": "avrebbe restituito"
+    }
+   ]
+  }
+ ]
+}

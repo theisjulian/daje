@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-s3",
+ "title": "Consigli per un video",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Consigli per un video · livello difficile.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Un amico vuole fare un video per il canale della classe. Completa i consigli con l’imperativo (tu) e il pronome.",
+   "promptHelp": "Ein Freund will ein Video für den Klassenkanal drehen. Ergänze die Tipps mit Imperativ (tu) und Pronomen.",
+   "explanation": "gli non raddoppia (dagli, digli), le sì (falle, dalle). Dopo non: infinito (non dirlo).",
+   "explanationHelp": "gli verdoppelt nicht (dagli, digli), le schon (falle, dalle). Nach non: Infinitiv (non dirlo).",
+   "type": "gap_fill",
+   "text": "Vuoi fare un video? Prima di tutto (fare, lo) [[g1]] breve: massimo due minuti.\nIl testo? (dire, lo) [[g2]] con parole semplici.\nPoi chiama Davide e (dare, gli) [[g3]] la videocamera.\n(dire, gli) [[g4]] di filmare da vicino.\nSe Chiara vuole aiutare, (fare, le) [[g5]] leggere il testo.\n(dare, le) [[g6]] anche il microfono.\nIl parco è perfetto per filmare: (andare, ci) [[g7]] di mattina.\nIl video è una sorpresa per la prof: non (dire, lo) [[g8]] a nessuno!\nE quando hai finito, (fare, mi) [[g9]] sapere e (dare, mi) [[g10]] il link!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fallo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Dillo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dagli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Digli"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "falle"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Dalle"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vacci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dirlo",
+      "lo dire"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "fammi"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dammi"
+     ]
+    }
+   ]
+  }
+ ]
+}

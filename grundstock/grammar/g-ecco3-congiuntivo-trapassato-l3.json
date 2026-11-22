@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-l3",
+ "title": "Pensavo che …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Pensavo che … · livello facile.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Principale al passato + azione precedente → congiuntivo trapassato. Anche dopo magari e come se.",
+   "explanationHelp": "Hauptsatz in der Vergangenheit + Vorzeitigkeit → congiuntivo trapassato. Auch nach magari und come se.",
+   "type": "gap_choice",
+   "text": "Pensavo che Luca [[g1]] per il campo estivo.\nCredevo che voi [[g2]] il turno.\nEra strano che nessuno [[g3]] al nostro annuncio.\nMi sembrava che Giulia [[g4]] prima di tutti.\nMagari [[g5]] di più per la verifica di ieri!\nParla del progetto come se lo [[g6]] lui.\nAvevamo paura che i bambini [[g7]] nel bosco.\nSperavo che tu [[g8]] con la preside.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "fosse già partito",
+      "era già partito",
+      "sia già partito"
+     ],
+     "answer": "fosse già partito"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "aveste già finito",
+      "avete già finito",
+      "abbiate già finito"
+     ],
+     "answer": "aveste già finito"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "avesse risposto",
+      "ha risposto",
+      "abbia risposto"
+     ],
+     "answer": "avesse risposto"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "fosse arrivata",
+      "fosse arrivato",
+      "avesse arrivata"
+     ],
+     "answer": "fosse arrivata"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avessi studiato",
+      "avrei studiato",
+      "ho studiato"
+     ],
+     "answer": "avessi studiato"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "avesse inventato",
+      "ha inventato",
+      "avrebbe inventato"
+     ],
+     "answer": "avesse inventato"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "si fossero persi",
+      "si erano persi",
+      "si avessero persi"
+     ],
+     "answer": "si fossero persi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "avessi già parlato",
+      "hai già parlato",
+      "abbia già parlato"
+     ],
+     "answer": "avessi già parlato"
+    }
+   ]
+  }
+ ]
+}

@@ -50,7 +50,7 @@
    "prompt": "Scegli il pronome.",
    "promptHelp": "Wähle das Pronomen.",
    "type": "gap_choice",
-   "text": "Mamma, [[g1]] aiuti con i compiti?\nCiao Luca, [[g2]] chiamo stasera!\nRagazzi, [[g3]] aspettiamo in piazza.\nI nonni [[g4]] invitano a pranzo. (noi)\nSara, [[g5]] vedo domani?\nProf, [[g6]] aiuta con l’esercizio? (noi)\nPaolo [[g7]] saluta sempre. (me)\nIo e Marco [[g8]] portiamo al cinema. (voi)",
+   "text": "Mamma, [[g1]] aiuti con i compiti? (me)\nCiao Luca, [[g2]] chiamo stasera!\nRagazzi, [[g3]] aspettiamo in piazza.\nI nonni [[g4]] invitano a pranzo. (noi)\nSara, [[g5]] vedo domani?\nProf, [[g6]] aiuta con l’esercizio? (noi)\nPaolo [[g7]] saluta sempre. (me)\nIo e Marco [[g8]] portiamo al cinema. (voi)",
    "gaps": [
     {
      "id": "g1",

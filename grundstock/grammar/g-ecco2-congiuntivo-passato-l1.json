@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-l1",
+ "title": "Dall’indicativo al congiuntivo",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Dall’indicativo al congiuntivo · livello facile.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il passato prossimo e il congiuntivo passato.",
+   "promptHelp": "Verbinde passato prossimo und congiuntivo passato.",
+   "explanation": "ho → abbia, hanno → abbiano; sono → sia / siano. Il participio resta uguale.",
+   "explanationHelp": "ho → abbia, hanno → abbiano; sono → sia / siano. Das Partizip bleibt gleich.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "ho cantato",
+     "right": "che io abbia cantato"
+    },
+    {
+     "id": "p2",
+     "left": "hai cantato",
+     "right": "che tu abbia cantato"
+    },
+    {
+     "id": "p3",
+     "left": "ha cantato",
+     "right": "che lei abbia cantato"
+    },
+    {
+     "id": "p4",
+     "left": "avete cantato",
+     "right": "che voi abbiate cantato"
+    },
+    {
+     "id": "p5",
+     "left": "hanno cantato",
+     "right": "che loro abbiano cantato"
+    },
+    {
+     "id": "p6",
+     "left": "sono arrivato",
+     "right": "che io sia arrivato"
+    },
+    {
+     "id": "p7",
+     "left": "è arrivata",
+     "right": "che lei sia arrivata"
+    },
+    {
+     "id": "p8",
+     "left": "siete arrivate",
+     "right": "che voi siate arrivate"
+    },
+    {
+     "id": "p9",
+     "left": "sono arrivati",
+     "right": "che loro siano arrivati"
+    }
+   ]
+  }
+ ]
+}

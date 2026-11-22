@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-s3",
+ "title": "Un messaggio da Roma",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Un messaggio da Roma · livello difficile.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con la forma giusta: C = comparativo, R = superlativo relativo, A = superlativo assoluto.",
+   "promptHelp": "Ergänze die richtige Form: C = Komparativ, R = relativer Superlativ, A = absoluter Superlativ.",
+   "explanation": "C: più … di · R: (il / la) più … di, con un solo articolo · A: -issimo.",
+   "explanationHelp": "C: più … di · R: (il / la) più … di, mit nur einem Artikel · A: -issimo.",
+   "type": "gap_fill",
+   "text": "Ciao Luca! Roma è (bello / A) [[g1]].\nÈ (grande / C) [[g2]] di Firenze: infatti è la città (grande / R) [[g3]] d’Italia.\nIl Colosseo è il monumento (famoso / R) [[g4]] della città, ma per me il Pantheon è (interessante / C) [[g5]] del Colosseo.\nIeri abbiamo mangiato in una trattoria (piccolo / A) [[g6]]: la carbonara era (buono / R) [[g7]] della mia vita!\nIl caffè, invece, era (cattivo / C) [[g8]] del caffè della scuola.\nChiara è (stanco / R) [[g9]] del gruppo, io invece sto (bene / A) [[g10]].\nDomani visitiamo i Musei Vaticani: lì la fila è sempre (lungo / A) [[g11]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bellissima"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "più grande"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "più grande"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "più famoso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "più interessante"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "piccolissima"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "la migliore",
+      "la più buona"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "peggiore",
+      "più cattivo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "la più stanca"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "benissimo"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "lunghissima"
+     ]
+    }
+   ]
+  }
+ ]
+}

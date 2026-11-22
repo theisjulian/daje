@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-lessico-l1",
+ "title": "Amico o direttore?",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · Amico o direttore? · livello facile.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+ },
+ "grammar": {
+  "topic": "it12-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+  "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’espressione informale a quella formale.",
+   "promptHelp": "Verbinde den informellen Ausdruck mit dem formellen.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "un sacco di problemi",
+     "right": "numerosi problemi"
+    },
+    {
+     "id": "p2",
+     "left": "dare una mano",
+     "right": "offrire il proprio aiuto"
+    },
+    {
+     "id": "p3",
+     "left": "Ciao, a presto!",
+     "right": "Distinti saluti"
+    },
+    {
+     "id": "p4",
+     "left": "comprare",
+     "right": "acquistare"
+    },
+    {
+     "id": "p5",
+     "left": "i soldi",
+     "right": "il denaro"
+    },
+    {
+     "id": "p6",
+     "left": "Fammi sapere!",
+     "right": "La prego di informarmi."
+    },
+    {
+     "id": "p7",
+     "left": "Scusa il ritardo.",
+     "right": "Mi scuso per il ritardo."
+    },
+    {
+     "id": "p8",
+     "left": "il prof",
+     "right": "il docente"
+    },
+    {
+     "id": "p9",
+     "left": "Che ne pensi?",
+     "right": "Qual è la Sua opinione?"
+    },
+    {
+     "id": "p10",
+     "left": "Voglio un’informazione.",
+     "right": "Desidererei un’informazione."
+    }
+   ]
+  }
+ ]
+}

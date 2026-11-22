@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-m1",
+ "title": "Se vivessi in Italia …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Se vivessi in Italia … · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa: dopo **se** il congiuntivo imperfetto, nella frase principale il condizionale presente.",
+   "promptHelp": "Ergänze: nach **se** den congiuntivo imperfetto, im Hauptsatz das condizionale presente.",
+   "type": "gap_fill",
+   "text": "Se (vivere, io) [[g1]] in Italia, (parlare, io) [[g2]] italiano tutto il giorno.\nSe (abitare, noi) [[g3]] a Napoli, (mangiare, noi) [[g4]] la pizza ogni sabato.\nSe tu (venire) [[g5]] a trovarmi, ti (mostrare, io) [[g6]] tutta la città.\nSe i miei amici (essere) [[g7]] qui, (uscire, noi) [[g8]] insieme ogni sera.\nSe Luca (avere) [[g9]] una famiglia ospitante, (potere, lui) [[g10]] restare un anno intero.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vivessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "parlerei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abitassimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mangeremmo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "venissi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mostrerei"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fossero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "usciremmo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avesse"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    }
+   ]
+  }
+ ]
+}

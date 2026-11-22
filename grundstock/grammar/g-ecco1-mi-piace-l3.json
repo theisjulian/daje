@@ -52,7 +52,7 @@
    "explanation": "Anche con un verbo (nuotare, alzarmi) → piace.",
    "explanationHelp": "Auch nach Verben (nuotare, alzarmi) → piace.",
    "type": "gap_choice",
-   "text": "Ti [[g1]] il nuovo film di Pixar?\nNon mi [[g2]] la matematica.\nMi [[g3]] le vacanze al mare.\nNon mi [[g4]] alzarmi presto.\nTi [[g5]] i cani?\nMi [[g6]] molto la mia camera.\nNon mi [[g7]] le verdure.\nTi [[g8]] nuotare?",
+   "text": "Ti [[g1]] il nuovo film della Pixar?\nNon mi [[g2]] la matematica.\nMi [[g3]] le vacanze al mare.\nNon mi [[g4]] alzarmi presto.\nTi [[g5]] i cani?\nMi [[g6]] molto la mia camera.\nNon mi [[g7]] le verdure.\nTi [[g8]] nuotare?",
    "gaps": [
     {
      "id": "g1",

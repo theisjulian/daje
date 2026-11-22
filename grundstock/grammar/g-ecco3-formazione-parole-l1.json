@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-formazione-parole-l1",
+ "title": "Nome, aggettivo o avverbio?",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Nome, aggettivo o avverbio? · livello facile.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+  "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Guarda il suffisso: che tipo di parola è?",
+   "promptHelp": "Achte auf das Suffix: Welche Wortart ist es?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "nome"
+    },
+    {
+     "id": "b",
+     "label": "aggettivo"
+    },
+    {
+     "id": "c",
+     "label": "avverbio"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "informazione",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "cambiamento",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "libertà",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "bellezza",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "famoso",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "nazionale",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "lavabile",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "regionale",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "credibile",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "lentamente",
+     "category": "c"
+    },
+    {
+     "id": "i11",
+     "text": "facilmente",
+     "category": "c"
+    },
+    {
+     "id": "i12",
+     "text": "veramente",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

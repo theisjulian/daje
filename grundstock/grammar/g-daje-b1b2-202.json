@@ -88,7 +88,8 @@
      "id": "e6",
      "wrong": "di una giornalista",
      "acceptedAnswers": [
-      "a una giornalista"
+      "a una giornalista",
+      "con una giornalista"
      ]
     },
     {
@@ -106,7 +107,7 @@
      ]
     }
    ],
-   "explanation": "abbiamo incontrati → abbiamo incontrato: Participio con avere senza pronome oggetto precedente. · Ci hanno proposto → Ci ha proposto: La responsabile: soggetto singolare. · avrebbe bisogno → avrei bisogno: Il soggetto è io. · sarebbero più utile → sarebbe più utile: Costruzione impersonale singolare. · a questo problema → di questo problema: Parlare di un argomento. · di una giornalista → a una giornalista: Parlare a una destinataria. · dovremo chiesto → dovremo chiedere: Dovere regge l’infinito. · ogni persona riconoscessero → ogni persona riconoscesse: Soggetto singolare.",
+   "explanation": "abbiamo incontrati → abbiamo incontrato: Participio con avere senza pronome oggetto precedente. · Ci hanno proposto → Ci ha proposto: La responsabile: soggetto singolare. · avrebbe bisogno → avrei bisogno: Il soggetto è io. · sarebbero più utile → sarebbe più utile: Costruzione impersonale singolare. · a questo problema → di questo problema: Parlare di un argomento. · di una giornalista → a una giornalista: Parlare a (oppure con) una persona. · dovremo chiesto → dovremo chiedere: Dovere regge l’infinito. · ogni persona riconoscessero → ogni persona riconoscesse: Soggetto singolare.",
    "promptHelp": "Korrigiere die Fehler."
   }
  ]

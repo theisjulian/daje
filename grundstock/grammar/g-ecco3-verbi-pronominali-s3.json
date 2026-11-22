@@ -1,0 +1,81 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-verbi-pronominali-s3",
+ "title": "Ce l’ho fatta!",
+ "language": "it",
+ "level": "B1",
+ "description": "Farcela, cavarsela, andarsene e altri verbi pronominali · Ce l’ho fatta! · livello difficile.",
+ "topics": [
+  "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, Extra · Approfondire · Approfondimento.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "Extra · Approfondire",
+   "section": "Approfondimento"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)"
+ },
+ "grammar": {
+  "topic": "ecco3-verbi-pronominali",
+  "topicTitle": "Farcela, cavarsela, andarsene e altri verbi pronominali",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:\n| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |\n| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |\n| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |\n| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |\n| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |\n| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |\n| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |\n| **tenerci** | considerare importante | _Ci tengo molto._ |\n| **sentirsela** | avere il coraggio | _Non me la sento._ |\n| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |\n| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |\n| **entrarci** | avere a che fare | _Io non c’entro niente._ |\nAl passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.",
+  "ruleHelp": "Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).\nIm passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine: „Ich habe es mir nicht zugetraut, allein wegzufahren.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "me la"
+    },
+    {
+     "id": "i3",
+     "text": "sono sentita"
+    },
+    {
+     "id": "i4",
+     "text": "di partire da sola."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Racconta una situazione difficile (a scuola, nello sport, in viaggio) in cui alla fine ce l’hai fatta. Usa almeno 4 verbi pronominali (farcela, cavarsela, mettercela tutta, prendersela, andarsene, volerci …).",
+   "promptHelp": "Erzähle von einer schwierigen Situation (Schule, Sport, Reise), die du am Ende gemeistert hast. Verwende mindestens 4 Pronominalverben.",
+   "type": "open_answer",
+   "modelAnswer": "L’anno scorso ho fatto una gara di nuoto. All’inizio non me la sentivo e volevo andarmene. La mia allenatrice mi ha detto: «Non te la prendere se non vinci, ma metticela tutta!» Ci sono voluti tre mesi di allenamento. Il giorno della gara ce l’ho messa tutta e alla fine ce l’ho fatta: sono arrivata terza. Me la sono cavata bene!",
+   "lines": 6
+  }
+ ]
+}

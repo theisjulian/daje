@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-m1",
+ "title": "Se …",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Se … · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il periodo ipotetico con la forma giusta del verbo.",
+   "promptHelp": "Ergänze den Bedingungssatz mit der richtigen Verbform.",
+   "explanation": "Possibilità: se + congiuntivo imperfetto → condizionale presente. Irrealtà nel passato: se + congiuntivo trapassato → condizionale passato. Tipo misto: se + congiuntivo trapassato → condizionale presente (conseguenza oggi).",
+   "explanationHelp": "Möglich: se + congiuntivo imperfetto → condizionale presente. Irreal in der Vergangenheit: se + congiuntivo trapassato → condizionale passato. Gemischt: Bedingung in der Vergangenheit, Folge heute → condizionale presente.",
+   "type": "gap_fill",
+   "text": "Se (avere, io) [[g1]] più tempo libero, farei un corso di spagnolo.\nSe domani (fare) [[g2]] bel tempo, andiamo al mare in bicicletta.\nSe Luca avesse mandato la domanda in tempo, (ottenere) [[g3]] la borsa di studio.\nSe noi (prendere) [[g4]] il treno delle sette, non saremmo arrivati in ritardo.\nSe tu avessi studiato di più l’anno scorso, adesso non (dovere) [[g5]] ripetere l’esame.\nSe i miei genitori non (trasferirsi) [[g6]] in Germania vent’anni fa, oggi io non parlerei tedesco.\nChe cosa (fare, tu) [[g7]] se vincessi un milione di euro?\nSe tutti (usare) [[g8]] di più i mezzi pubblici, l’aria delle città sarebbe più pulita.\nSe me lo (dire, voi) [[g9]] prima, vi avrei aiutato volentieri.\nSe non ci fosse Internet, la nostra vita (essere) [[g10]] molto diversa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avessi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fa",
+      "farà"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avrebbe ottenuto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "avessimo preso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dovresti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si fossero trasferiti"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "faresti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "usassero"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "aveste detto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    }
+   ]
+  }
+ ]
+}

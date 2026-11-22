@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-s1",
+ "title": "Una città e i suoi turisti",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Una città e i suoi turisti · livello difficile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un errore di grammatica. Correggilo.",
+   "promptHelp": "In jedem Satz steckt ein Grammatikfehler. Korrigiere ihn.",
+   "explanation": "benché + congiuntivo · rinunciare a, dipendere da · la cui bellezza (concorda con bellezza) · futuro nel passato = condizionale passato · passivo nei tempi composti solo con essere · periodo ipotetico misto · gerundio composto con essere per arrivare · dopo + infinito passato.",
+   "explanationHelp": "benché + Konjunktiv · rinunciare a, dipendere da · la cui richtet sich nach bellezza · Zukunft in der Vergangenheit = condizionale passato · Passiv in zusammengesetzten Zeiten nur mit essere · gemischter Bedingungssatz · gerundio composto mit essere bei arrivare · dopo + Infinitiv Perfekt.",
+   "type": "error_correction",
+   "text": "Benché il turismo [[g1]] lavoro, crea anche molti problemi.\nMolti abitanti hanno rinunciato [[g2]] vivere nel centro storico.\nIl problema dipende anche [[g3]] noi visitatori.\nÈ un luogo [[g4]] bellezza attira persone da tutto il mondo.\nL’anno scorso il sindaco aveva promesso che [[g5]] un biglietto d’ingresso entro Natale, ma poi non l’ha fatto.\nMolte decisioni [[g6]] senza ascoltare i cittadini.\nSe il Comune avesse limitato prima il numero delle navi, oggi il mare [[g7]] più pulito.\n[[g8]] troppo tardi, non abbiamo trovato posto sul battello.\nDopo [[g9]] il museo, siamo tornati in albergo.\nÈ necessario che ognuno [[g10]] la sua parte.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "porta",
+     "acceptedAnswers": [
+      "porti"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "di",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "di",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "il cui",
+     "acceptedAnswers": [
+      "la cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "introdurrà",
+     "acceptedAnswers": [
+      "avrebbe introdotto"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "sono venute prese",
+     "acceptedAnswers": [
+      "sono state prese"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "fosse",
+     "acceptedAnswers": [
+      "sarebbe"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Avendo arrivati",
+     "acceptedAnswers": [
+      "Essendo arrivati"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "visitare",
+     "acceptedAnswers": [
+      "aver visitato",
+      "avere visitato"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "fa",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -5,7 +5,7 @@ const fs = require('node:fs'),
   path = require('node:path'),
   assert = require('node:assert/strict');
 const D = path.join(__dirname, '..', 'dist');
-const { validatePackage, assessAnswer, normAnswer: N } = require(path.join(D, 'content-contract.js'));
+const { validatePackage, assessAnswer, scoreAnswer, normAnswer: N } = require(path.join(D, 'content-contract.js'));
 const ctx = {};
 vm.createContext(ctx);
 for (const [f, g] of [
@@ -89,7 +89,8 @@ for (const raw of all) {
         right = obj(q.errors, g => g.acceptedAnswers[0]);
         // Jeder Fehler einzeln unkorrigiert gelassen: darf nicht als richtig gelten.
         for (const g of q.errors)
-          if (ok(JSON.stringify({ ...JSON.parse(right), [g.id]: g.wrong }))) bad('unkorrigierter Fehler gilt als richtig: ' + g.wrong);
+          if (ok(JSON.stringify({ ...JSON.parse(right), [g.id]: g.wrong })) || scoreAnswer(q, JSON.stringify({ [g.id]: g.wrong })).got)
+            bad('unkorrigierter Fehler gilt als richtig: ' + g.wrong);
         break;
       case 'table_fill':
         right = obj(q.rows.flat().filter(c => typeof c === 'object'), g => g.acceptedAnswers[0]);
@@ -105,6 +106,9 @@ for (const raw of all) {
         continue;
     }
     if (!ok(right)) bad('Musterlösung wird als falsch bewertet');
+    const sc = scoreAnswer(q, right);
+    if (sc.got !== sc.max) bad(`Musterlösung bekommt nur ${sc.got}/${sc.max} Punkte`);
+    if (scoreAnswer(q, '').got) bad('leere Antwort bekommt Punkte');
     if (wrong !== undefined && ok(wrong)) bad('falsche Antwort wird als richtig bewertet');
     if (ok('') || ok('{}')) bad('leere Antwort wird als richtig bewertet');
   }

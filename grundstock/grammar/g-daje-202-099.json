@@ -71,13 +71,15 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "brevi"
+      "brevi",
+      "comprensibili"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "comprensibili"
+      "comprensibili",
+      "brevi"
      ]
     },
     {
@@ -99,7 +101,6 @@
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

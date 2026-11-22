@@ -6,9 +6,9 @@
  "title": "Tre voci per la radio della scuola (1)",
  "language": "it",
  "level": "A1",
- "description": "Essere und avere · Tre voci per la radio della scuola (1) · livello medio.",
+ "description": "Testi e forme: ripasso · Tre voci per la radio della scuola (1) · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1003
@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
+   "prompt": "Completa le forme del verbo al presente.",
    "text": "essere · io · presente → [[g1]]\nessere · tu · presente → [[g2]]\nessere · lui/lei · presente → [[g3]]\nessere · noi · presente → [[g4]]\nessere · voi · presente → [[g5]]\nessere · loro · presente → [[g6]]\navere · io · presente → [[g7]]\navere · tu · presente → [[g8]]\navere · lui/lei · presente → [[g9]]\navere · noi · presente → [[g10]]\navere · voi · presente → [[g11]]\navere · loro · presente → [[g12]]",
    "gaps": [
     {
@@ -122,7 +122,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern."
+   "promptHelp": "Ergänze die Verbformen im Präsens."
   }
  ]
 }

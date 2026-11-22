@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-s3",
+ "title": "Regole e abitudini",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · Regole e abitudini · livello difficile.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con si + verbo al presente.",
+   "promptHelp": "Antworte mit si + Verb im Präsens.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "I biglietti del treno? … alla stazione. (comprare)",
+     "acceptedAnswers": [
+      "si comprano"
+     ],
+     "modelAnswer": "Si comprano alla stazione."
+    },
+    {
+     "id": "s2",
+     "start": "Il tiramisù? … con il mascarpone. (fare)",
+     "acceptedAnswers": [
+      "si fa con"
+     ],
+     "modelAnswer": "Si fa con il mascarpone."
+    },
+    {
+     "id": "s3",
+     "start": "Le lasagne? … calde. (mangiare)",
+     "acceptedAnswers": [
+      "si mangiano"
+     ],
+     "modelAnswer": "Si mangiano calde."
+    },
+    {
+     "id": "s4",
+     "start": "La parola «perché»? … con l’accento. (scrivere)",
+     "acceptedAnswers": [
+      "si scrive"
+     ],
+     "modelAnswer": "Si scrive con l’accento."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Un ragazzo italiano arriva nella tua scuola. Spiega 5 regole o abitudini con si.",
+   "promptHelp": "Ein italienischer Junge kommt an deine Schule. Erkläre 5 Regeln oder Gewohnheiten mit si.",
+   "type": "open_answer",
+   "modelAnswer": "Nella mia scuola si entra alle otto. In classe non si usa il telefonino. A mezzogiorno si mangia in mensa. Si studiano due o tre lingue straniere. Il sabato non si va a scuola.",
+   "lines": 5
+  }
+ ]
+}

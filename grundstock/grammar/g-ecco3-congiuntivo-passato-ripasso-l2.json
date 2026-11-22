@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-l2",
+ "title": "Presente o passato?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Presente o passato? · livello facile.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente o congiuntivo passato?",
+   "promptHelp": "Congiuntivo presente oder congiuntivo passato?",
+   "explanation": "Il passato ha sempre due parole: abbia / sia + participio.",
+   "explanationHelp": "Der congiuntivo passato besteht immer aus zwei Wörtern: abbia / sia + Partizip.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "pres",
+     "label": "congiuntivo presente"
+    },
+    {
+     "id": "pass",
+     "label": "congiuntivo passato"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "che io vada",
+     "category": "pres"
+    },
+    {
+     "id": "i2",
+     "text": "che tu sia andato",
+     "category": "pass"
+    },
+    {
+     "id": "i3",
+     "text": "che lei abbia tempo",
+     "category": "pres"
+    },
+    {
+     "id": "i4",
+     "text": "che lui abbia avuto tempo",
+     "category": "pass"
+    },
+    {
+     "id": "i5",
+     "text": "che loro siano contenti",
+     "category": "pres"
+    },
+    {
+     "id": "i6",
+     "text": "che voi siate partiti",
+     "category": "pass"
+    },
+    {
+     "id": "i7",
+     "text": "che lui faccia una torta",
+     "category": "pres"
+    },
+    {
+     "id": "i8",
+     "text": "che io abbia detto tutto",
+     "category": "pass"
+    },
+    {
+     "id": "i9",
+     "text": "che tu venga",
+     "category": "pres"
+    },
+    {
+     "id": "i10",
+     "text": "che loro abbiano visto la sfilata",
+     "category": "pass"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-l1",
+ "title": "Espressioni con ci e ne",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Espressioni con ci e ne · livello facile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina le espressioni alla traduzione.",
+   "promptHelp": "Verbinde die Ausdrücke mit der Übersetzung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Ce l’ho!",
+     "right": "Ich habe es!"
+    },
+    {
+     "id": "p2",
+     "left": "Ce ne sono tre.",
+     "right": "Es gibt drei davon."
+    },
+    {
+     "id": "p3",
+     "left": "Me ne vado.",
+     "right": "Ich gehe weg."
+    },
+    {
+     "id": "p4",
+     "left": "Non ne posso più!",
+     "right": "Ich kann nicht mehr!"
+    },
+    {
+     "id": "p5",
+     "left": "Ci tengo molto.",
+     "right": "Es ist mir sehr wichtig."
+    },
+    {
+     "id": "p6",
+     "left": "Ci penso io.",
+     "right": "Ich kümmere mich darum."
+    },
+    {
+     "id": "p7",
+     "left": "Non ci credo.",
+     "right": "Ich glaube nicht daran."
+    },
+    {
+     "id": "p8",
+     "left": "Che ne dici?",
+     "right": "Was sagst du dazu?"
+    }
+   ]
+  }
+ ]
+}

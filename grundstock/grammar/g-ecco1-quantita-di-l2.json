@@ -52,7 +52,7 @@
    "explanation": "Davanti a vocale: d’ (d’acqua, d’olio).",
    "explanationHelp": "Vor Vokal: d’ (d’acqua, d’olio).",
    "type": "gap_choice",
-   "text": "una bottiglia [[g1]] acqua\nun litro [[g2]] latte\nun chilo [[g3]] pomodori\nun litro [[g4]] olio\nun etto [[g5]] formaggio\nun pacco [[g6]] riso\nuna scatola [[g7]] uova\nun vasetto [[g8]] miele",
+   "text": "una bottiglia [[g1]] acqua\nun litro [[g2]] latte\nun chilo [[g3]] pomodori\nun litro [[g4]] olio\nun etto [[g5]] formaggio\nun pacco [[g6]] riso\nuna scatola [[g7]] biscotti\nun vasetto [[g8]] miele",
    "gaps": [
     {
      "id": "g1",

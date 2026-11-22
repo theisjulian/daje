@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-s3",
+ "title": "Fra dieci anni",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Fra dieci anni · livello difficile.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa avrai già fatto fra dieci anni? E che cosa farai dopo? Scrivi 5 frasi con il futuro anteriore (quando, appena, dopo che, entro …).",
+   "promptHelp": "Was wirst du in zehn Jahren schon gemacht haben? Und was machst du danach? Schreibe 5 Sätze mit dem futuro anteriore.",
+   "type": "open_answer",
+   "modelAnswer": "Fra dieci anni avrò finito l’università. Entro il 2035 avrò visitato molti Paesi. Quando avrò trovato un lavoro, andrò a vivere da solo. Appena avrò risparmiato abbastanza, comprerò una macchina elettrica. Dopo che avrò imparato bene l’italiano, passerò un anno a Roma.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Prüfe: welche Form?",
+   "type": "gap_choice",
+   "text": "Fra dieci anni [[g1]] l’università.\nQuando [[g2]] un lavoro, andrò a vivere da solo.\nEntro l’estate prossima [[g3]] tre Paesi.\nLuca non è in classe: [[g4]] a casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avrò finito",
+      "ho finito",
+      "avevo finito"
+     ],
+     "answer": "avrò finito"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "avrò trovato",
+      "avrei trovato",
+      "avevo trovato"
+     ],
+     "answer": "avrò trovato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "avremo visitato",
+      "abbiamo visitato",
+      "avevamo visitato"
+     ],
+     "answer": "avremo visitato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sarà andato",
+      "sarà andata",
+      "avrà andato"
+     ],
+     "answer": "sarà andato"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-s3",
+ "title": "Il progetto del murale",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · Il progetto del murale · livello difficile.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sara parla con i suoi amici. Completa con una forma di essere o con un pronome.",
+   "promptHelp": "Sara spricht mit ihren Freunden. Ergänze eine Form von essere oder ein Pronomen.",
+   "explanation": "sono io che … · siete voi che … · è domani che …",
+   "explanationHelp": "sono io che … · siete voi che … · è domani che …",
+   "type": "gap_fill",
+   "text": "Ragazzi, [[g1]] io che ho avuto l’idea del murale, ma [[g2]] voi che dovete dipingere!\nIl muro, [[g3]] puliamo domani mattina.\nI colori, [[g4]] porta Matteo.\nA Chiara, [[g5]] ho chiesto di fare le foto.\nDel permesso, [[g6]] ho già parlato con la preside.\nA me piace il blu, ma a Davide no: a [[g7]] piace il rosso.\nE ricordate: [[g8]] domani che cominciamo, non oggi!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sono"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "siete"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "è"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Organizzi una festa con i tuoi amici: chi fa che cosa? Scrivi 5 frasi e metti in rilievo con «È … che …», con l’oggetto all’inizio + pronome e con il soggetto dopo il verbo.",
+   "promptHelp": "Du organisierst mit Freunden ein Fest: Wer macht was? Schreibe 5 Sätze und hebe hervor – mit „È … che …“, mit vorangestelltem Objekt + Pronomen und mit nachgestelltem Subjekt.",
+   "type": "open_answer",
+   "modelAnswer": "La musica, la sceglie Luca. Le bibite, le compro io. È Giulia che prepara la torta. Sono i miei cugini che portano le casse. E alla fine puliamo noi!",
+   "lines": 5
+  }
+ ]
+}

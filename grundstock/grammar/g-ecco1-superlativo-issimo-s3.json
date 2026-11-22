@@ -50,7 +50,7 @@
    "prompt": "Descrivi il tuo posto preferito (una città, un parco, una spiaggia). Usa almeno 5 aggettivi con -issimo.",
    "promptHelp": "Beschreibe deinen Lieblingsort mit mindestens 5 Formen auf -issimo.",
    "type": "open_answer",
-   "modelAnswer": "Il mio posto preferito è il lago di Garda. L’acqua è pulitissima e azzurrissima. I paesi sono bellissimi e il gelato è buonissimo. In estate fa caldissimo, ma la sera è freschissimo.",
+   "modelAnswer": "Il mio posto preferito è il lago di Garda. L’acqua è pulitissima e azzurrissima. I paesi sono bellissimi e il gelato è buonissimo. In estate fa caldissimo, ma la sera è freschissima.",
    "lines": 6
   },
   {

@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-s3",
+ "title": "Una giornata speciale",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Una giornata speciale · livello difficile.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Gestern Abend bin ich nicht sofort eingeschlafen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ieri sera"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "mi sono"
+    },
+    {
+     "id": "i4",
+     "text": "addormentato"
+    },
+    {
+     "id": "i5",
+     "text": "subito."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Racconta una giornata speciale (una gita, una festa, il primo giorno di scuola). Usa almeno 5 verbi riflessivi al passato prossimo.",
+   "promptHelp": "Erzähle von einem besonderen Tag (Ausflug, Fest, erster Schultag). Verwende mindestens 5 reflexive Verben im passato prossimo.",
+   "type": "open_answer",
+   "modelAnswer": "Sabato scorso mi sono svegliata presto perché c’era la gita della classe. Mi sono preparata in fretta e mi sono messa le scarpe da ginnastica. Alla stazione mi sono incontrata con le mie amiche. In treno ci siamo sedute vicino alla finestra. A Verona ci siamo divertite molto e non ci siamo annoiate mai.",
+   "lines": 6
+  }
+ ]
+}

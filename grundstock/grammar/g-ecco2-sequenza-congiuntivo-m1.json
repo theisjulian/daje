@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-sequenza-congiuntivo-m1",
+ "title": "Prima del festival",
+ "language": "it",
+ "level": "A2",
+ "description": "La sequenza dei tempi nel congiuntivo · Prima del festival · livello medio.",
+ "topics": [
+  "La sequenza dei tempi nel congiuntivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Zeitenfolge im congiuntivo (Hauptsatz im Präsens), Indikativ oder congiuntivo, Infinitivkonstruktion"
+ },
+ "grammar": {
+  "topic": "ecco2-sequenza-congiuntivo",
+  "topicTitle": "La sequenza dei tempi nel congiuntivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché (causa): _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché (= weil); **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Congiuntivo presente o passato? Guarda le espressioni di tempo.",
+   "promptHelp": "Congiuntivo presente oder passato? Achte auf die Zeitangaben.",
+   "explanation": "ieri, la settimana scorsa, due giorni fa → congiuntivo passato; adesso, stasera, domani → congiuntivo presente.",
+   "explanationHelp": "ieri, la settimana scorsa, due giorni fa → congiuntivo passato; adesso, stasera, domani → congiuntivo presente.",
+   "type": "gap_fill",
+   "text": "– Credo che Sara (arrivare) [[g1]] già ieri sera.\n– Sì, e penso che domani mattina (provare) [[g2]] con la band.\n– Spero che domani (fare) [[g3]] bel tempo.\n– Mi dispiace che la settimana scorsa tu (perdere) [[g4]] la prova generale.\n– È possibile che i biglietti (finire) [[g5]] già due giorni fa.\n– Penso che adesso Luca (essere) [[g6]] ancora in treno.\n– Sono contento che ieri i tuoi genitori (dire) [[g7]] di sì.\n– Spero che stasera (venire) [[g8]] anche Chiara e Matteo.\n– Credo che il gruppo (scrivere) [[g9]] questa canzone l’anno scorso.\n– È strano che in questo momento Davide non (rispondere) [[g10]] al telefono.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia arrivata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "provi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbia perso"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siano finiti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbiano detto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vengano"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "abbia scritto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "risponda"
+     ]
+    }
+   ]
+  }
+ ]
+}

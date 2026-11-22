@@ -46,7 +46,7 @@
   {
    "id": "q1s1",
    "type": "ordering",
-   "prompt": "Riordina i segmenti di ogni frase. Conserva maiuscole, punteggiatura e legami sintattici; sono accettabili varianti grammaticali che mantengono il significato.",
+   "prompt": "Riordina i segmenti di ogni frase. Fai attenzione a maiuscole, punteggiatura e legami sintattici.",
    "items": [
     {
      "id": "p1",
@@ -91,14 +91,14 @@
     },
     {
      "id": "p4",
-     "text": "consegna le alla"
+     "text": "consegnale alla"
     },
     {
      "id": "p5",
      "text": "nuova coinquilina."
     }
    ],
-   "explanation": "Ti lascio le mie chiavi nel cassetto; per favore, consegna le alla nuova coinquilina."
+   "explanation": "Ti lascio le mie chiavi nel cassetto; per favore, consegnale alla nuova coinquilina."
   },
   {
    "id": "q1s3",

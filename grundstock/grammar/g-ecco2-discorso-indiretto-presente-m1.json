@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-m1",
+ "title": "La nonna non sente bene",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · La nonna non sente bene · livello medio.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Paolo telefona dal suo tirocinio. La nonna non sente bene, così Sara ripete tutto. Scrivi una parola per ogni spazio.",
+   "promptHelp": "Paolo ruft aus dem Praktikum an. Die Oma hört schlecht, deshalb wiederholt Sara alles. Schreibe in jede Lücke ein Wort.",
+   "explanation": "io → lui: faccio → fa, i miei → i suoi, mi → gli, qui → lì. Con l’imperativo: dice di + infinito.",
+   "explanationHelp": "io → lui: faccio → fa, i miei → i suoi, mi → gli, qui → lì. Beim Imperativ: dice di + Infinitiv.",
+   "type": "gap_fill",
+   "text": "«Faccio un tirocinio in un albergo.» → Dice che [[g1]] un tirocinio in un albergo.\n«Comincio alle otto.» → Dice che [[g2]] alle otto.\n«Il lavoro mi piace molto.» → Dice che il lavoro [[g3]] piace molto.\n«I miei colleghi sono gentili.» → Dice che i [[g4]] colleghi sono gentili.\n«Devo parlare inglese con i clienti.» → Dice che [[g5]] parlare inglese con i clienti.\n«Qui fa molto caldo.» → Dice che [[g6]] fa molto caldo.\n«Nonna, stai bene?» → Chiede [[g7]] stai bene.\n«Quando venite a trovarmi?» → Chiede quando [[g8]] a trovarlo.\n«Mandatemi un pacco di biscotti!» → Dice di [[g9]] un pacco di biscotti.\n«Torno a casa sabato.» → Dice che [[g10]] a casa sabato.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "comincia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "suoi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "deve"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lì",
+      "là"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "se"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "veniamo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mandargli"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "torna"
+     ]
+    }
+   ]
+  }
+ ]
+}

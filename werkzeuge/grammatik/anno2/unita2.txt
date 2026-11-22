@@ -1,0 +1,663 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Unità 2 · Vita online. Eigene Übungen.
+
+@thema negazione-ripasso | 2 · Vita online | Per cominciare | La doppia negazione: ripasso | 1
+#lehrplan Jgst. 9 · Verneinung (Wiederholung und Erweiterung: ancora, neanche, né … né)
+#regel
+In italiano la negazione è **doppia**: **non** prima del verbo, la seconda parola dopo il verbo.
+| non … **mai** | nie | _Non gioco mai online._ |
+| non … **niente** (nulla) | nichts | _Non capisco niente._ |
+| non … **nessuno** | niemand | _Non conosco nessuno._ |
+| non … **più** | nicht mehr | _Non uso più quell’app._ |
+| non … **ancora** | noch nicht | _Non ho ancora finito._ |
+| non … **neanche** | auch nicht, nicht einmal | _Non viene neanche Luca._ |
+| non … **né … né** | weder … noch | _Non ho né tempo né voglia._ |
+**Passato prossimo:** _mai, più, ancora_ stanno di solito tra ausiliare e participio: _Non ho **mai** visto questo film._ **Niente** e **nessuno** stanno dopo il participio: _Non ho visto **niente**. Non ho visto **nessuno**._
+**All’inizio della frase** non c’è _non_: _**Nessuno** risponde. **Niente** funziona. **Neanche** io ho un tablet._
+#regel-de
+Im Italienischen verneint man **doppelt**: **non** vor dem Verb, das zweite Wort nach dem Verb: mai (nie), niente (nichts), nessuno (niemand), più (nicht mehr), ancora (noch nicht), neanche (auch nicht), né … né (weder … noch).
+Im passato prossimo stehen _mai, più, ancora_ meist zwischen Hilfsverb und Partizip (_Non ho mai visto …_), _niente_ und _nessuno_ nach dem Partizip (_Non ho visto niente_).
+Steht _nessuno, niente, neanche_ am Satzanfang, fällt **non** weg: _Nessuno risponde._ Anders als im Deutschen ist die doppelte Verneinung kein Fehler, sondern Pflicht.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase italiana alla traduzione. || Verbinde den italienischen Satz mit der Übersetzung.
+Non ho ancora risposto. = Ich habe noch nicht geantwortet.
+Non uso più quell’app. = Ich benutze diese App nicht mehr.
+Non ha chiamato nessuno. = Es hat niemand angerufen.
+Non ho capito niente. = Ich habe nichts verstanden.
+Non gioco mai online. = Ich spiele nie online.
+Neanche io ho il tablet. = Ich habe auch kein Tablet.
+Non ho né il telefono né il computer. = Ich habe weder das Handy noch den Computer.
+Nessuno ha messo «mi piace». = Niemand hat „Gefällt mir“ geklickt.
+
+%übung leicht | Quale parola manca?
+?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
+Ho scritto nella chat, ma non ha risposto {nessuno*|niente|mai} dei miei amici.
+Il telefono è scarico: non funziona {più*|nessuno|né}.
+Sono le undici e Luca non ha {ancora*|niente|nessuno} finito i compiti.
+Non ho {mai*|nessuno|niente} provato questo gioco: com’è?
+Senza Internet non posso fare {niente*|nessuno|mai}.
+Non mi piace questo video. – {Neanche*|Nessuno|Niente} a me!
+Non ho né il tablet {né*|neanche|non} il computer.
+{Nessuno*|Niente|Mai} conosce la mia password: è segreta.
+Che noia, oggi online non succede {niente*|nessuno|né}.
+! niente = cose · nessuno = persone · mai = tempo · più = prima sì, adesso no · ancora = fino ad ora no. || niente = Dinge · nessuno = Personen · mai = nie · più = nicht mehr · ancora = noch nicht.
+
+%übung leicht | La frase giusta
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non ho mai avuto un tablet.
+- Ho mai avuto un tablet.
+- Mai non ho avuto un tablet.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Nessuno ha letto il mio messaggio.
+- Nessuno non ha letto il mio messaggio.
+- Non nessuno ha letto il mio messaggio.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non ho ancora scaricato l’app.
+- Ho ancora non scaricato l’app.
+- Non ancora ho scaricato l’app.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Niente è gratis su questo sito.
+- Niente non è gratis su questo sito.
+- Non niente è gratis su questo sito.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non ho né tempo né voglia.
+- Ho né tempo né voglia.
+- Non ho né tempo non voglia.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Ieri in centro {non ho incontrato nessuno*|non ho nessuno incontrato|ho incontrato nessuno}.
+Il video era senza audio: {non ho sentito niente*|non ho niente sentito|ho sentito niente}.
+Da un mese {non guardo più*|non più guardo|guardo non più} la TV.
+! non + verbo + nessuno / niente / più. || non + Verb + nessuno / niente / più.
+
+%übung mittel | No, per niente!
+?ergaenzen | Rispondi di no. Usa la parola tra parentesi. || Antworte verneinend. Benutze das Wort in Klammern.
+Hai già finito i compiti? (ancora) – No, … | non ho ancora finito/non li ho ancora finiti | No, non ho ancora finito i compiti.
+Hai visto qualcuno in chat? (nessuno) – No, … | non ho visto nessuno | No, non ho visto nessuno.
+Hai comprato qualcosa online? (niente) – No, … | non ho comprato niente/non ho comprato nulla | No, non ho comprato niente.
+Hai mai giocato a questo gioco? (mai) – No, … | non ho mai giocato | No, non ho mai giocato a questo gioco.
+Usi ancora il vecchio telefono? (più) – No, … | non uso più/non lo uso più | No, non uso più il vecchio telefono.
+Ti ha scritto anche Sara? (neanche) – No, … | non mi ha scritto neanche Sara/neanche Sara mi ha scritto | No, non mi ha scritto neanche Sara. (Anche: Neanche Sara mi ha scritto.)
+Parli francese o spagnolo? (né … né) – No, … | non parlo né francese né spagnolo/non parlo né il francese né lo spagnolo | No, non parlo né francese né spagnolo. (Anche: Non parlo né il francese né lo spagnolo.)
+C’è qualcosa di nuovo sul sito? (niente) – No, … | non c’è niente di nuovo/non c’è nulla di nuovo | No, non c’è niente di nuovo.
+! Passato prossimo: non ho **ancora / mai** finito, ma: non ho visto **niente / nessuno**. || Im passato prossimo: ancora / mai vor dem Partizip, niente / nessuno danach.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Ich habe den Film noch nicht gesehen.“ || Bringe die Teile in die richtige Reihenfolge.
+Non ho
+ancora visto
+il film.
+?ordnen | Metti le parti in ordine: „Niemand hat auf meine Nachricht geantwortet.“ || Bringe die Teile in die richtige Reihenfolge.
+Nessuno
+ha risposto
+al mio messaggio.
+?ordnen | Metti le parti in ordine: „Ich habe weder das Handy noch das Tablet.“ || Bringe die Teile in die richtige Reihenfolge.
+Non ho
+né il telefono
+né il tablet.
+?ordnen | Metti le parti in ordine: „Heute hat mir auch Giulia nicht geschrieben.“ || Bringe die Teile in die richtige Reihenfolge.
+Oggi
+non mi ha scritto
+neanche Giulia.
+
+%übung mittel | Tutto il contrario
+?ergaenzen | Scrivi il contrario con una negazione. || Schreibe das Gegenteil mit einer Verneinung.
+Tutti conoscono questo sito. → … | Nessuno conosce questo sito | Nessuno conosce questo sito.
+Ho già letto la mail. → … | Non ho ancora letto la mail | Non ho ancora letto la mail.
+Ho sempre usato questa password. → … | Non ho mai usato questa password | Non ho mai usato questa password.
+Gioco ancora a quel videogioco. → … | Non gioco più a quel videogioco | Non gioco più a quel videogioco.
+Ho capito tutto. → … | Non ho capito niente/Non ho capito nulla | Non ho capito niente. (Anche: Non ho capito nulla.)
+Anch’io ho un profilo. → … | Neanch’io ho un profilo/Neanche io ho un profilo/Nemmeno io ho un profilo/Non ho un profilo neanch’io/Non ho un profilo neanche io | Neanch’io ho un profilo. (Anche: Neanche io ho un profilo.)
+Ho il telefono e il tablet. → … | Non ho né il telefono né il tablet | Non ho né il telefono né il tablet.
+Qualcuno ha commentato la foto. → … | Nessuno ha commentato la foto | Nessuno ha commentato la foto.
+! tutti / qualcuno ↔ nessuno · già ↔ non … ancora · sempre ↔ non … mai · ancora ↔ non … più · tutto ↔ non … niente · anche ↔ neanche · e ↔ né … né. || Gegensatzpaare: già ↔ non … ancora, ancora ↔ non … più usw.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+[Ho visto=>Non ho visto] nessuno alla festa.
+Nessuno [non ha=>ha] risposto al mio messaggio.
+Non ho [niente capito=>capito niente/capito nulla] del video.
+Non [ancora ho=>ho ancora] scaricato l’app.
+Non ho né il tablet [o=>né] il computer.
+[Neanche io non ho=>Neanche io ho/Neanch’io ho] un profilo su quel social.
+Da un anno non [più uso=>uso più] quella chat.
+[Niente non è=>Niente è] cambiato dopo l’aggiornamento.
+Non conosco [niente=>nessuno] dei tuoi amici online.
+! Nessuno / niente / neanche all’inizio: senza non. Dopo il verbo: sempre con non. || Nessuno / niente / neanche am Satzanfang: ohne non. Nach dem Verb: immer mit non.
+
+%übung schwer | Un sabato senza Internet
+?luecke | Completa il testo con: mai, niente, nessuno, più, ancora, neanche, né. || Ergänze den Text mit: mai, niente, nessuno, più, ancora, neanche, né.
+Sabato mattina, all’improvviso, Internet a casa nostra non funzionava [più].
+Ho spento e riacceso il router, ma non è cambiato [niente/nulla].
+Io non potevo chattare, e [neanche/nemmeno/neppure] mio fratello poteva giocare online.
+Non avevamo [né] la TV [né] la radio: da noi tutto funziona con Internet!
+Ho telefonato a tre amici, ma [nessuno] di loro aveva tempo.
+Il tecnico doveva venire alle tre, ma alle sei di sera non c’era [ancora].
+Così ho preso un libro: non ho [mai] letto così tanto in un giorno!
+La sera abbiamo giocato a carte e [nessuno] ha guardato il telefono.
+Forse un giorno senza Internet non è [niente/nulla] di grave!
+
+%übung schwer | Una giornata senza telefono
+?frei | Immagina una giornata senza telefono e senza computer. Che cosa non hai fatto? Scrivi 5 frasi con negazioni diverse (non … mai, niente, nessuno, più, ancora, né … né). || Stell dir einen Tag ohne Handy und Computer vor. Was hast du nicht gemacht? Schreibe 5 Sätze mit verschiedenen Verneinungen.
+Ieri non avevo né il telefono né il computer. Non ho scritto a nessuno e nessuno mi ha cercato. Non ho guardato niente online. Alle dieci di sera non ero ancora stanco. Non ho mai passato una giornata così tranquilla!
+Zeilen: 6
+?auswahl | Controlla: quale parola è giusta? || Prüfe: Welches Wort ist richtig?
+Non ho {mai*|niente} passato una giornata così tranquilla.
+{Nessuno*|Niente} mi ha cercato.
+Non avevo né il telefono {né*|non} il computer.
+Alle dieci di sera non ero {ancora*|nessuno} stanco.
+
+@thema congiuntivo-presente | 2 · Vita online | Parte A | Il congiuntivo presente | 2
+#lehrplan Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)
+#regel
+Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._
+| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |
+| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |
+| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |
+| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |
+| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |
+**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**
+**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.
+**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._
+**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._
+#regel-de
+Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).
+Die drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.
+Unregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.
+**Indikativ** nach _secondo me, so che, è vero che, vedo che_.
+Gleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_).
+
+%übung leicht | Le forme irregolari
+?zuordnen | Abbina l’infinito al congiuntivo (io / tu / lui / lei). || Verbinde den Infinitiv mit dem congiuntivo (Singular).
+essere = sia
+avere = abbia
+andare = vada
+fare = faccia
+dire = dica
+potere = possa
+volere = voglia
+venire = venga
+sapere = sappia
+stare = stia
+
+%übung leicht | Congiuntivo o indicativo?
+?sortieren | Che cosa viene dopo queste espressioni: il congiuntivo o l’indicativo? || Was folgt auf diese Ausdrücke: congiuntivo oder Indikativ?
+Kategorien: c=+ congiuntivo; i=+ indicativo
+Penso che … > c
+Credo che … > c
+Spero che … > c
+Voglio che … > c
+È importante che … > c
+È possibile che … > c
+Mi sembra che … > c
+È necessario che … > c
+Secondo me, … > i
+So che … > i
+È vero che … > i
+Vedo che … > i
+! Opinione, speranza, volontà, necessità → congiuntivo. Fatti sicuri (so che, è vero che, vedo che) e secondo me → indicativo. || Meinung, Hoffnung, Wille, Notwendigkeit → congiuntivo. Sichere Tatsachen und secondo me → Indikativ.
+
+%übung leicht | Che cosa pensi?
+?auswahl | Scegli il congiuntivo. || Wähle den congiuntivo.
+Penso che Luca {passi*|passa|passare} troppo tempo online.
+Credo che i miei genitori non {capiscano*|capiscono|capire} i social.
+Spero che tu {risponda*|rispondi|rispondere} presto al mio messaggio.
+È importante che voi {usiate*|usate|usare} una password sicura.
+Mi sembra che questo gioco {costi*|costa|costare} troppo.
+Voglio che tu {chiuda*|chiudi|chiudere} il computer adesso.
+È possibile che Sara e Davide {arrivino*|arrivano|arrivare} più tardi.
+Credo che Marta non {legga*|legge|leggere} mai le mail.
+È necessario che io {cambi*|cambio|cambiare} la password?
+! -are → -i, -ino · -ere / -ire → -a, -ano (capire: capisca, capiscano). || -are → -i, -ino · -ere / -ire → -a, -ano.
+
+%übung leicht | Un messaggio per Giulia
+?luecke wortkasten | Completa il messaggio con i verbi del riquadro. || Ergänze die Nachricht mit den Verben aus dem Kasten.
+Ciao Giulia! Spero che tu [stia] bene.
+Penso che la festa di sabato [sia] una bella idea.
+Credo che Matteo [abbia] diciassette anni, come noi.
+È possibile che anche i miei cugini [vengano] con noi.
+Mia madre vuole che io [faccia] prima i compiti.
+Spero che tu [possa] restare fino a tardi.
+Non credo che Luca [sappia] dove abito.
+Adesso è importante che io [vada] a dormire: domani ho un test!
++ dia, diano
+
+%übung mittel | La tabella del congiuntivo
+?tabelle | Completa la tabella con le forme del congiuntivo presente. || Ergänze die Tabelle mit den Formen des congiuntivo presente.
+Spalten: infinito | io / tu / lui / lei | noi | voi | loro
+parlare | [parli] | [parliamo] | parliate | [parlino]
+prendere | [prenda] | prendiamo | [prendiate] | [prendano]
+finire | [finisca] | [finiamo] | finiate | [finiscano]
+essere | [sia] | siamo | [siate] | [siano]
+
+%übung mittel | Telefono in classe?
+?luecke | Chiara e Davide discutono. Scrivi i verbi al congiuntivo presente. || Chiara und Davide diskutieren. Setze die Verben in den congiuntivo presente.
+Chiara: Io penso che il telefono a scuola (essere) [sia] utile.
+Davide: Sì, ma è importante che tutti (seguire) [seguano] le regole.
+Chiara: La prof vuole che noi (lasciare) [lasciamo] i telefoni nello zaino.
+Davide: Mi sembra che lei (avere) [abbia] ragione.
+Chiara: Davvero? Non credo che tu (potere) [possa] stare un’ora senza guardare la chat!
+Davide: Spero che i miei amici non mi (scrivere) [scrivano] proprio durante il test.
+Chiara: È possibile che la scuola (fare) [faccia] un regolamento nuovo.
+Davide: Allora è necessario che anche noi studenti (dire) [diciamo] la nostra opinione.
+Chiara: Giusto! Voglio che i prof (sapere) [sappiano] che cosa pensiamo.
+
+%übung mittel | Da «secondo me» a «penso che»
+?ergaenzen | Trasforma la frase: usa il congiuntivo. || Forme den Satz um: Benutze den congiuntivo.
+Secondo me, questo gioco è troppo violento. → Penso che … | questo gioco sia troppo violento | Penso che questo gioco sia troppo violento.
+Secondo me, i ragazzi passano troppe ore online. → Credo che … | i ragazzi passino troppe ore online | Credo che i ragazzi passino troppe ore online.
+Secondo me, Sara ha troppe app. → Mi sembra che … | Sara abbia troppe app | Mi sembra che Sara abbia troppe app.
+Secondo me, dovete cambiare password. → Penso che … | dobbiate cambiare password | Penso che dobbiate cambiare password.
+Secondo me, Luca sa usare bene il computer. → Credo che … | Luca sappia usare bene il computer | Credo che Luca sappia usare bene il computer.
+Secondo me, i social fanno perdere tempo. → Penso che … | i social facciano perdere tempo | Penso che i social facciano perdere tempo.
+Secondo me, puoi fidarti di lei. → Credo che … | possa fidarti di lei/ti possa fidare di lei | Credo che tu possa fidarti di lei.
+Secondo me, questa app non serve a niente. → Mi sembra che … | questa app non serva a niente | Mi sembra che questa app non serva a niente.
+! secondo me + indicativo → penso / credo / mi sembra che + congiuntivo. || secondo me + Indikativ → penso / credo / mi sembra che + congiuntivo.
+
+%übung mittel | Fatto o opinione?
+?auswahl | Indicativo o congiuntivo? Guarda bene l’inizio della frase. || Indikativ oder congiuntivo? Achte auf den Satzanfang.
+Secondo me, i videogiochi {sono*|siano} divertenti.
+Penso che i videogiochi {siano*|sono} divertenti.
+So che Marta {ha*|abbia} un nuovo profilo.
+Credo che Marta {abbia*|ha} un nuovo profilo.
+È vero che Internet {può*|possa} essere pericoloso.
+È possibile che Internet {possa*|può} essere pericoloso.
+Spero che il Wi-Fi {funzioni*|funziona} anche in giardino.
+Vedo che il Wi-Fi {funziona*|funzioni} anche in giardino.
+Mi sembra che tu {stia*|stai} troppo al telefono.
+Anche secondo mia madre {sto*|stia} troppo al telefono.
+! so che, è vero che, vedo che, secondo me → indicativo · penso che, credo che, spero che, mi sembra che, è possibile che → congiuntivo. || Sicheres Wissen und secondo me → Indikativ; Meinung, Hoffnung, Möglichkeit → congiuntivo.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un verbo sbagliato. Correggilo. || In jedem Satz ist ein Verb falsch. Korrigiere es.
+Penso che Luca [è=>sia] online.
+Spero che tu [stai=>stia] meglio oggi.
+Secondo me, questo sito [sia=>è] poco sicuro.
+È importante che voi [leggete=>leggiate] bene le regole della chat.
+So che Giulia [abbia=>ha] due profili.
+Credo che i miei amici [vanno=>vadano] al torneo sabato.
+Mia madre vuole che io [faccio=>faccia] una pausa.
+Mi sembra che loro non [dicono=>dicano] la verità.
+È possibile che Sara [viene=>venga] più tardi.
+! Attenzione: dopo secondo me e so che c’è l’indicativo! || Achtung: Nach secondo me und so che steht der Indikativ!
+
+%übung schwer | Di + infinito o che + congiuntivo?
+?ergaenzen | Unisci le due frasi. Stesso soggetto → (di +) infinito; soggetti diversi → che + congiuntivo. || Verbinde die beiden Sätze. Gleiches Subjekt → (di +) Infinitiv; verschiedene Subjekte → che + congiuntivo.
+Io spero. Io vinco il torneo. → Spero … | di vincere il torneo | Spero di vincere il torneo.
+Io spero. Tu vinci il torneo. → Spero … | che tu vinca il torneo | Spero che tu vinca il torneo.
+Luca pensa. Luca ha ragione. → Luca pensa … | di avere ragione/di aver ragione | Luca pensa di avere ragione. (Anche: di aver ragione.)
+Luca pensa. Io ho ragione. → Luca pensa … | che io abbia ragione | Luca pensa che io abbia ragione.
+Noi crediamo. Noi sappiamo la risposta. → Crediamo … | di sapere la risposta | Crediamo di sapere la risposta.
+Noi crediamo. Voi sapete la risposta. → Crediamo … | che voi sappiate la risposta/che sappiate la risposta | Crediamo che voi sappiate la risposta.
+Sara spera. Sara va a Milano. → Sara spera … | di andare a Milano | Sara spera di andare a Milano.
+Sara spera. I suoi amici vanno a Milano. → Sara spera … | che i suoi amici vadano a Milano | Sara spera che i suoi amici vadano a Milano.
+Io voglio. Tu dici la verità. → Voglio … | che tu dica la verità | Voglio che tu dica la verità.
+Io voglio. Io resto a casa. → … | Voglio restare a casa | Voglio restare a casa.
+! Stesso soggetto: Spero **di vincere**. Soggetti diversi: Spero **che tu vinca**. Con volere non c’è di: Voglio **restare**. || Gleiches Subjekt: di + Infinitiv (bei volere ohne di). Verschiedene Subjekte: che + congiuntivo.
+
+%übung schwer | Un post sul forum della scuola
+?luecke | Indicativo, congiuntivo o infinito? Scrivi la forma giusta del verbo. || Indikativ, congiuntivo oder Infinitiv? Schreibe die richtige Verbform.
+Secondo me, molti ragazzi non (sapere) [sanno] proteggere i loro dati.
+Penso che la privacy (essere) [sia] molto importante.
+So che tanti miei compagni (usare) [usano] la stessa password per tutto.
+Credo che questo (essere) [sia] un errore.
+È necessario che ognuno (avere) [abbia] password diverse.
+È vero che non (essere) [è] facile ricordarle tutte.
+Ma spero che voi (capire) [capiate] il problema.
+Mi sembra che anche i prof (dovere) [debbano] parlare di questo tema in classe.
+Io voglio che la nostra scuola (fare) [faccia] un corso sulla sicurezza online.
+E voi? Pensate di (essere) [essere] al sicuro?
+! secondo me, so che, è vero che → indicativo · pensate di + infinito (stesso soggetto). || secondo me, so che, è vero che → Indikativ · pensate di + Infinitiv (gleiches Subjekt).
+
+%übung schwer | La mia opinione sui social
+?frei | Che cosa pensi dei social? Scrivi 5 frasi. Usa: penso che, credo che, spero che, è importante che, secondo me. || Was denkst du über soziale Medien? Schreibe 5 Sätze mit den angegebenen Ausdrücken.
+Penso che i social siano utili per parlare con gli amici. Credo che molti ragazzi passino troppo tempo online. Spero che i miei amici non pubblichino foto brutte di me. È importante che tutti rispettino gli altri. Secondo me, un giorno senza telefono fa bene.
+Zeilen: 6
+?auswahl | Controlla: quale forma è giusta? || Prüfe: Welche Form ist richtig?
+Penso che i social {siano*|sono} utili.
+Secondo me, i social {sono*|siano} utili.
+Spero di {trovare*|trovi} nuovi amici online.
+È importante che tutti {rispettino*|rispettano} gli altri.
+
+@thema cortesia | 2 · Vita online | Parte B | La cortesia e l’imperativo formale | 3
+#lehrplan Jgst. 9 · Imperativ der Höflichkeitsform (Lei), Stellung der Pronomen
+#regel
+Con **Lei** (forma di cortesia) l’imperativo ha le forme del congiuntivo:
+| -are → **-i** | scusare → **scusi** · aspettare → **aspetti** · guardare → **guardi** |
+| -ere → **-a** | prendere → **prenda** · scrivere → **scriva** |
+| -ire → **-a** | sentire → **senta** · finire → **finisca** |
+**Irregolari:** andare → **vada** · venire → **venga** · dire → **dica** · fare → **faccia** · dare → **dia** · stare → **stia**
+I **pronomi** stanno **prima** del verbo: _**Mi** dica! · **Si** accomodi! · **Lo** prenda pure!_
+Negativo: _**Non** si preoccupi! · **Non** lo dica a nessuno!_
+| tu | Lei |
+| Scusa! | Scusi! |
+| Dimmi! | Mi dica! |
+| Accomodati! | Si accomodi! |
+| Non preoccuparti! | Non si preoccupi! |
+#regel-de
+Der **Imperativ der Höflichkeitsform (Lei)** hat die Formen des congiuntivo: -are → **-i** (scusi, aspetti), -ere / -ire → **-a** (prenda, senta). Unregelmäßig: vada, venga, dica, faccia, dia, stia.
+Wichtig: Beim Lei-Imperativ stehen die Pronomen **vor** dem Verb (_Mi dica! Si accomodi!_), beim tu-Imperativ hängen sie am Verb (_Dimmi! Accomodati!_). Verneint: _Non si preoccupi!_
+
+%übung leicht | Tu o Lei?
+?sortieren | A chi parli: a un amico (tu) o a una persona che non conosci bene (Lei)? || Mit wem sprichst du: mit einem Freund (tu) oder mit jemandem, den du siezt (Lei)?
+Kategorien: tu=tu; lei=Lei
+Scusa! > tu
+Scusi! > lei
+Senti! > tu
+Senta! > lei
+Prendi pure! > tu
+Prenda pure! > lei
+Vieni qui! > tu
+Venga qui! > lei
+Dimmi! > tu
+Mi dica! > lei
+Accomodati! > tu
+Si accomodi! > lei
+
+%übung leicht | Dal tu al Lei
+?zuordnen | Abbina la forma con tu alla forma con Lei. || Verbinde die tu-Form mit der Lei-Form.
+scusa = scusi
+senti = senta
+prendi = prenda
+va’ = vada
+vieni = venga
+di’ = dica
+fa’ = faccia
+aspetta = aspetti
+accomodati = si accomodi
+non preoccuparti = non si preoccupi
+
+%übung leicht | Nel negozio di telefoni
+?auswahl | Il commesso e i clienti si danno del Lei. Scegli la forma giusta. || Der Verkäufer und die Kunden siezen sich. Wähle die richtige Form.
+Buongiorno, signora, {si accomodi*|accomodati|accomodi si}!
+{Scusi*|Scusa|Scusate}, signore, dov’è il reparto dei telefoni?
+Signora Bianchi, {mi dica*|dimmi|dica mi}: che cosa cerca?
+{Guardi*|Guarda|Guardare} questo modello, signore: è nuovo.
+Per pagare {vada*|va’|vai} alla cassa, per favore, signora.
+Signor Rossi, {non si preoccupi*|non preoccuparti|non ti preoccupare}: ripariamo tutto noi.
+{Senta*|Senti|Sentire}, signora, ha dimenticato lo scontrino!
+Dottor Neri, {venga*|vieni|venire} pure domani a prendere il tablet.
+Ecco il telefono, signora: {lo provi*|provalo|provilo} pure!
+! Con Lei: -are → -i (scusi, guardi), -ere / -ire → -a (senta); i pronomi stanno prima del verbo (mi dica, si accomodi, lo provi). || Bei Lei: -are → -i, -ere / -ire → -a; Pronomen stehen vor dem Verb.
+
+%übung schwer | Dammi del Lei!
+?ergaenzen | Trasforma le frasi dal tu al Lei. Attenzione ai pronomi! || Forme die Sätze von tu in Lei um. Achte auf die Pronomen!
+Entra e accomodati! → … | Entri e si accomodi | Entri e si accomodi!
+Dimmi tutto! → … | Mi dica tutto | Mi dica tutto!
+Non preoccuparti! → … | Non si preoccupi | Non si preoccupi!
+Dammi il telefono, per favore! → … | Mi dia il telefono | Mi dia il telefono, per favore!
+Fammi vedere lo schermo! → … | Mi faccia vedere lo schermo | Mi faccia vedere lo schermo!
+Aspettami qui! → … | Mi aspetti qui | Mi aspetti qui!
+Va’ dritto e poi gira a destra! → … | Vada dritto e poi giri a destra | Vada dritto e poi giri a destra!
+Vieni domani e porta il caricabatterie! → … | Venga domani e porti il caricabatterie | Venga domani e porti il caricabatterie!
+Scrivilo qui! → … | Lo scriva qui | Lo scriva qui!
+Non dirlo a nessuno! → … | Non lo dica a nessuno | Non lo dica a nessuno!
+! tu: pronome dopo il verbo (dimmi, scrivilo) · Lei: pronome prima del verbo (mi dica, lo scriva). || tu: Pronomen hinter dem Verb · Lei: Pronomen vor dem Verb.
+
+%übung schwer | Trova gli errori
+?fehler | Qui tutti si danno del Lei, ma in ogni frase c’è un errore. Correggilo. || Hier siezen sich alle, aber in jedem Satz steckt ein Fehler. Korrigiere ihn.
+Buongiorno, signora! [Dimmi=>Mi dica], che cosa desidera?
+[Scusa=>Scusi], signore, questo posto è libero?
+Signor Conti, [accomodisi=>si accomodi], prego!
+Signora, [non preoccuparti=>non si preoccupi]: domani il telefono è pronto.
+Per favore, [prendi=>prenda] un numero e aspetti qui, signore.
+Professoressa, [vieni=>venga] a vedere il nostro progetto!
+Signora Greco, [facci=>ci faccia] sapere se la mail è arrivata.
+Signore, [scrivalo=>lo scriva] qui, per favore.
+[Senti=>Senta], signora, ha perso questo biglietto!
+! Con Lei non si usano le forme del tu, e il pronome sta prima del verbo: ci faccia, lo scriva, si accomodi. || Bei Lei keine tu-Formen, und das Pronomen steht vor dem Verb.
+
+@thema imperativo-raddoppiamento | 2 · Vita online | Parte B | Dimmi, dammi, fallo | 4
+#lehrplan Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen
+#regel
+Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.
+| da’ + mi | **dammi** | _Dammi il telefono!_ |
+| di’ + mi | **dimmi** | _Dimmi tutto!_ |
+| fa’ + mi | **fammi** | _Fammi vedere!_ |
+| sta’ + mi | **stammi** | _Stammi bene!_ |
+| va’ + ci | **vacci** | _Vacci tu!_ |
+| di’ + lo | **dillo** | _Dillo a Sara!_ |
+| fa’ + lo | **fallo** | _Fallo subito!_ |
+Anche: _dacci, dille, falla, falli, dalle …_
+**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._
+**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)
+#regel-de
+Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.
+**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).
+Verneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_).
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase italiana alla traduzione. || Verbinde den italienischen Satz mit der Übersetzung.
+Dimmi! = Sag mir!
+Dammi una mano! = Hilf mir!
+Fammi vedere! = Lass mich sehen!
+Fallo subito! = Mach es sofort!
+Vacci tu! = Geh du hin!
+Stammi bene! = Mach’s gut!
+Dillo a Sara! = Sag es Sara!
+Dagli il telefono! = Gib ihm das Handy!
+Dacci la password! = Gib uns das Passwort!
+Non dirlo! = Sag es nicht!
+
+%übung leicht | Una consonante o due?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Dimmi*|Dimi|Di’ mi} la password del Wi-Fi, per favore!
+Hai fatto una foto? {Fammi*|Fami|Mi fa’} vedere!
+{Dammi*|Dami|Mi da’} il caricabatterie: il mio telefono è scarico.
+Il video è pronto? {Fallo*|Falo|Lo fa’} vedere anche a Chiara!
+Luca aspetta una risposta: {digli*|diggli|dili} che arriviamo.
+In quel negozio ci sono giochi bellissimi: {vacci*|vaci|ci va’} sabato!
+È il compleanno della nonna: {falle*|fale|le fa’} gli auguri!
+Abbiamo fame! {Dacci*|Daci|Ci da’} un pezzo di pizza!
+Ciao, buon viaggio e {stammi*|stami|mi sta’} bene!
+! da’, di’, fa’, sta’, va’ + pronome → doppia consonante; solo gli resta com’è: digli. || da’, di’, fa’, sta’, va’ + Pronomen → Doppelkonsonant; nur gli bleibt: digli.
+
+%übung leicht | Raddoppia o no?
+?sortieren | La consonante del pronome raddoppia o no? || Verdoppelt sich der Konsonant des Pronomens oder nicht?
+Kategorien: d=raddoppia (dimmi); s=non raddoppia (digli)
+di’ + mi > d
+da’ + gli > s
+fa’ + lo > d
+di’ + gli > s
+va’ + ci > d
+fa’ + gli > s
+da’ + le > d
+sta’ + mi > d
+da’ + ci > d
+fa’ + la > d
+! Solo con gli non c’è la doppia consonante: dagli, digli, fagli. || Nur bei gli gibt es keine Verdopplung: dagli, digli, fagli.
+
+%übung mittel | La tabella delle forme
+?tabelle | Unisci l’imperativo e il pronome. || Verbinde Imperativ und Pronomen.
+Spalten: imperativo | + mi | + lo | + gli
+da’ | [dammi] | [dallo] | [dagli]
+di’ | [dimmi] | [dillo] | [digli]
+fa’ | [fammi] | [fallo] | [fagli]
+
+%übung mittel | Sì, fallo!
+?ergaenzen | Rispondi con l’imperativo (tu) e il pronome tra parentesi. || Antworte mit dem Imperativ (tu) und dem Pronomen in Klammern.
+Faccio subito i compiti? (li) – Sì, … | falli | Sì, falli subito!
+Do il libro a Marco? (gli) – Sì, … | dagli il libro | Sì, dagli il libro!
+Dico a Sara che veniamo? (le) – Sì, … | dille che veniamo | Sì, dille che veniamo!
+Vado io al supermercato? (ci) – Sì, … | vacci | Sì, vacci tu!
+Ti faccio vedere le foto? (mi) – Sì, … | fammi vedere le foto | Sì, fammi vedere le foto!
+Vi do il mio numero? (ci) – Sì, … | dacci il tuo numero | Sì, dacci il tuo numero!
+Faccio la torta per la festa? (la) – Sì, … | falla | Sì, falla!
+Dico la notizia agli amici? (la) – Sì, … | dilla | Sì, dilla agli amici!
+Ti do una mano? (mi) – Sì, … | dammi una mano | Sì, dammi una mano!
+Dico a Luca la verità? (gli) – Sì, … | digli la verità | Sì, digli la verità!
+
+%übung mittel | In chat con Matteo
+?luecke | Completa la chat con l’imperativo (tu) e il pronome. || Ergänze den Chat mit dem Imperativ (tu) und dem Pronomen.
+– Ciao Sara! (dire, mi) [Dimmi] una cosa: hai capito i compiti di matematica?
+– Più o meno. (fare, mi) [Fammi] vedere l’esercizio.
+– Ecco la foto. E (dare, mi) [dammi] un consiglio per il numero 3!
+– Il numero 3 è facile: (fare, lo) [fallo] come il numero 2.
+– Grazie! Anche Luca ha dei problemi: (dire, gli) [digli] di guardare la chat.
+– Va bene. E tu (dare, gli) [dagli] il mio numero di telefono.
+– Domani c’è il torneo in biblioteca: (andare, ci) [vacci] anche tu!
+– Volentieri! Ma (dire, lo) [dillo] anche a Chiara.
+– Certo. Ciao e (stare, mi) [stammi] bene!
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+[Dimi=>Dimmi] che cosa è successo!
+[Daggli=>Dagli] il mio numero di telefono.
+[Falo=>Fallo] adesso, non domani!
+[Mi da’=>Dammi] il tablet, per favore!
+È un segreto: non [dillo=>dirlo] a nessuno!
+[Vaci=>Vacci] tu, io non ho tempo.
+Sara è triste: [dile=>dille] qualcosa di gentile!
+[Fami=>Fammi] sapere quando arrivi.
+Abbiamo sete: [daci=>dacci] un po’ d’acqua!
+! Doppia consonante con mi, ci, lo, la, li, le – ma mai con gli. Negativo: non + infinito (non dirlo). || Doppelkonsonant bei mi, ci, lo, la, li, le – nie bei gli. Verneint: non + Infinitiv.
+
+%übung schwer | Devi farlo → Fallo!
+?ergaenzen | Trasforma in un imperativo (tu). || Forme in einen Imperativ (tu) um.
+Devi dirmi tutto. → … | Dimmi tutto | Dimmi tutto!
+Devi farlo oggi. → … | Fallo oggi | Fallo oggi!
+Non devi dirlo a Marta. → … | Non dirlo a Marta/Non lo dire a Marta | Non dirlo a Marta! (Anche: Non lo dire a Marta!)
+Devi dargli una risposta. → … | Dagli una risposta | Dagli una risposta!
+Non devi farlo da solo. → … | Non farlo da solo/Non lo fare da solo | Non farlo da solo! (Anche: Non lo fare da solo!)
+Devi andarci in bici. → … | Vacci in bici | Vacci in bici!
+Devi dirle grazie. → … | Dille grazie | Dille grazie!
+Devi darci una mano. → … | Dacci una mano | Dacci una mano!
+Non devi andarci stasera. → … | Non andarci stasera/Non ci andare stasera | Non andarci stasera! (Anche: Non ci andare stasera!)
+Devi farmi un favore. → … | Fammi un favore | Fammi un favore!
+! Positivo: dimmi, fallo, dagli, vacci. Negativo: non + infinito + pronome (non dirlo) o non + pronome + infinito (non lo dire). || Bejaht: dimmi, fallo, dagli, vacci. Verneint: non dirlo oder non lo dire.
+
+%übung schwer | Consigli per un video
+?luecke | Un amico vuole fare un video per il canale della classe. Completa i consigli con l’imperativo (tu) e il pronome. || Ein Freund will ein Video für den Klassenkanal drehen. Ergänze die Tipps mit Imperativ (tu) und Pronomen.
+Vuoi fare un video? Prima di tutto (fare, lo) [fallo] breve: massimo due minuti.
+Il testo? (dire, lo) [Dillo] con parole semplici.
+Poi chiama Davide e (dare, gli) [dagli] la videocamera.
+(dire, gli) [Digli] di filmare da vicino.
+Se Chiara vuole aiutare, (fare, le) [falle] leggere il testo.
+(dare, le) [Dalle] anche il microfono.
+Il parco è perfetto per filmare: (andare, ci) [vacci] di mattina.
+Il video è una sorpresa per la prof: non (dire, lo) [dirlo/lo dire] a nessuno!
+E quando hai finito, (fare, mi) [fammi] sapere e (dare, mi) [dammi] il link!
+! gli non raddoppia (dagli, digli), le sì (falle, dalle). Dopo non: infinito (non dirlo). || gli verdoppelt nicht (dagli, digli), le schon (falle, dalle). Nach non: Infinitiv (non dirlo).
+
+@thema pronomi-testo | 2 · Vita online | Ripasso | Pronomi e riferimenti nel testo | 5
+#lehrplan Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung
+#regel
+I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.
+| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |
+| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |
+| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |
+| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |
+| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |
+| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |
+Per capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?
+Attenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).
+#regel-de
+**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).
+Um ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?
+Achtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb.
+
+%übung leicht | A chi? A che cosa?
+?mc | A che cosa si riferisce **lo**? || Worauf bezieht sich **lo**?
+Giulia ha comprato un tablet per sua sorella. Lo usa anche lei.
+* al tablet
+- a Giulia
+- alla sorella
+?mc | A che cosa si riferisce **le**? || Worauf bezieht sich **le**?
+Matteo manda le foto a Chiara. Lei le guarda subito.
+* alle foto
+- a Chiara
+- a Matteo
+?mc | A chi si riferisce **gli**? || Auf wen bezieht sich **gli**?
+Sara scrive spesso a suo fratello. Gli manda anche molti video.
+* al fratello
+- a Sara
+- ai video
+?mc | A chi si riferisce **le**? || Auf wen bezieht sich **le**?
+Luca telefona alla nonna ogni domenica e le racconta la settimana.
+* alla nonna
+- a Luca
+- alla settimana
+?mc | A chi si riferisce **li**? || Auf wen bezieht sich **li**?
+I miei amici giocano online ogni sera. Li vedo solo a scuola.
+* agli amici
+- alle sere
+- alla scuola
+?zuordnen | A chi o a che cosa si riferisce il pronome tra parentesi? Abbina. || Auf wen oder worauf bezieht sich das Pronomen in Klammern? Ordne zu.
+Vado spesso in biblioteca: ci studio con Davide. (ci) = alla biblioteca
+Ho tante app sul telefono, ma ne uso solo tre. (ne) = alle app
+La prof ha dato un compito ai ragazzi. Gli ha spiegato anche le regole. (gli) = ai ragazzi
++ a Davide
++ al telefono
++ alla prof
+
+%übung leicht | Il pronome giusto
+?auswahl | Scegli il pronome giusto. || Wähle das richtige Pronomen.
+Questa canzone è bellissima: {la*|lo|le} ascolto sempre.
+I messaggi di Luca sono divertenti: {li*|le|lo} leggo volentieri.
+Dov’è il caricabatterie? Non {lo*|la|li} trovo.
+Le password sono importanti: non {le*|li|la} dico a nessuno.
+Domani è il compleanno di Marco: {gli*|le|lo} mando un messaggio.
+Mia cugina vive in Canada: {le*|gli|la} scrivo ogni settimana.
+Conosci Sara e Marta? – Sì, {le*|li|gli} conosco bene.
+Il mio profilo? {Lo*|La|Gli} vedono solo gli amici.
+Ti piace Roma? – Sì, {ci*|ne|la} vado ogni estate.
+! Guarda il nome: maschile o femminile, singolare o plurale? Con scrivere / mandare **a** una persona: gli (a lui), le (a lei). || Schau auf das Nomen: männlich oder weiblich, Singular oder Plural? Bei „a + Person“: gli (ihm), le (ihr).
+
+%übung leicht | Domanda e risposta
+?zuordnen | Abbina la domanda alla risposta. Guarda bene i pronomi! || Verbinde Frage und Antwort. Achte auf die Pronomen!
+Conosci il nuovo video di Luca? = Sì, lo trovo divertente.
+Usi la nuova app? = Sì, la uso da ieri.
+Leggi i commenti? = No, non li leggo mai.
+Dove metti le foto? = Le metto in una cartella.
+Che cosa regali a Paolo? = Gli regalo un gioco.
+Che cosa dici a tua madre? = Le dico la verità.
+Quando vai in palestra? = Ci vado il martedì.
+Quanti fratelli hai? = Ne ho due.
+
+%übung mittel | La chat della classe
+?luecke | Completa il testo con i pronomi: lo, la, li, le, gli, ci, ne. || Ergänze den Text mit den Pronomen: lo, la, li, le, gli, ci, ne.
+La nostra classe ha una chat: [la] usiamo per i compiti.
+Il prof di italiano non [la] legge, perché a scuola non ha il telefono.
+Quando Davide è malato, [gli] mandiamo le foto della lavagna.
+Lui [le] guarda a casa e fa gli esercizi.
+Chiara scrive dieci messaggi al giorno, ma io [ne] leggo solo due.
+Anche Sara scrive tanto: [le] rispondo sempre con un’emoji.
+I video divertenti? Matteo [li] manda ogni sera.
+Il sabato andiamo spesso al parco: [ci] andiamo in bici.
+E il telefono? [Lo] lasciamo nello zaino!
+! rispondere **a** Sara → le rispondo · mandare le foto **a** Davide → gli mandiamo · dieci messaggi → ne leggo due. || rispondere a Sara → le · mandare a Davide → gli · Menge → ne.
+
+%übung mittel | Senza ripetere
+?ergaenzen | Riscrivi la frase: sostituisci le parole in grassetto con un pronome. || Schreibe den Satz neu: Ersetze die fett gedruckten Wörter durch ein Pronomen.
+Guardo **il video**. → … | Lo guardo | Lo guardo.
+Scrivo **a Marta**. → … | Le scrivo | Le scrivo.
+Non conosco **quei ragazzi**. → … | Non li conosco | Non li conosco.
+Mando una mail **al professore**. → … | Gli mando una mail | Gli mando una mail.
+Carico **le foto** stasera. → … | Le carico stasera | Le carico stasera.
+Vado **in biblioteca** ogni lunedì. → … | Ci vado ogni lunedì | Ci vado ogni lunedì.
+Uso **la password** solo a casa. → … | La uso solo a casa | La uso solo a casa.
+Ho tre **profili**. → … | Ne ho tre | Ne ho tre.
+Voglio vedere **il film**. → … | Lo voglio vedere/Voglio vederlo | Lo voglio vedere. (Anche: Voglio vederlo.)
+Telefono **ai nonni** la domenica. → … | Gli telefono la domenica | Gli telefono la domenica.
+! Il pronome sta prima del verbo coniugato; con volere + infinito anche dopo l’infinito: voglio vederlo. || Das Pronomen steht vor dem konjugierten Verb; bei volere + Infinitiv auch am Infinitiv: voglio vederlo.
+
+%übung schwer | Il telefono perso
+?luecke | Completa la storia con i pronomi: lo, la, li, le, gli, ci, ne. || Ergänze die Geschichte mit den Pronomen: lo, la, li, le, gli, ci, ne.
+Sabato Giulia perde il telefono al parco. [Lo] cerca dappertutto, ma non [lo] trova.
+Con il telefono di Sara chiama i suoi amici e [gli] chiede aiuto.
+Matteo e Davide arrivano subito: Giulia [li] ringrazia.
+Poi torna al parco: [ci] resta un’ora con gli amici.
+Guardano sotto le panchine: [ne] controllano dieci!
+Alla fine arriva una signora con il telefono in mano. Giulia [le] dice «grazie mille».
+Il telefono è un po’ sporco: Giulia [lo] pulisce con cura.
+La sera racconta tutto alla mamma. La mamma [la] guarda e sorride:
+«Le tue foto sono salvate online? Allora non [le] perdi mai!»
+?mc | Nel testo: «… e **gli** chiede aiuto». A chi chiede aiuto Giulia? || Im Text: „… e gli chiede aiuto“. Wen bittet Giulia um Hilfe?
+* agli amici
+- a Sara
+- alla signora
+?mc | Nel testo: «**ci** resta un’ora». Dove resta Giulia? || Im Text: „ci resta un’ora“. Wo bleibt Giulia?
+* al parco
+- a casa
+- a scuola
+! gli = a lui, ma anche a loro (agli amici) · le = a lei (alla signora) oppure plurale femminile (le foto). || gli = ihm, aber auch ihnen · le = ihr oder sie (weiblich Plural).

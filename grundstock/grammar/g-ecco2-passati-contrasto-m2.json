@@ -1,0 +1,153 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-passati-contrasto-m2",
+ "title": "Costruisci le frasi",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Costruisci le frasi · livello medio.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Gebrauch von passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "| **imperfetto** | **passato prossimo** |\n| abitudine: _Ogni estate **andavamo** al mare._ | azione unica e finita: _Ieri **siamo andati** al mare._ |\n| descrizione (tempo, età, persone, luoghi): _**Faceva** caldo. **Avevo** dieci anni._ | azioni una dopo l’altra: _**Sono uscito**, **ho preso** l’autobus e **sono andato** in centro._ |\n| azione in corso: _Mentre **dormivo**, …_ | azione nuova, improvvisa: _… **è suonata** la sveglia._ |\nParole tipiche per l’imperfetto: _da bambino, di solito, sempre, ogni estate, mentre_.\nParole tipiche per il passato prossimo: _ieri, sabato scorso, nel 2020, all’improvviso, a un certo punto, tre volte_.\n_**Mentre** tornavo a casa, **ho incontrato** Marta._",
+  "ruleHelp": "**imperfetto:** Gewohnheit, Beschreibung (Wetter, Alter, Aussehen, Gefühle), Handlung, die gerade im Gang war (**mentre** + imperfetto).\n**passato prossimo:** einmalige, abgeschlossene Handlung; Handlungen nacheinander; etwas Neues, das plötzlich passiert (ieri, sabato scorso, all’improvviso, tre volte).\nDas Deutsche macht diesen Unterschied nicht (beides „ich ging / ich bin gegangen“). Frage dich: „Wie war es? Was machte man immer?“ → imperfetto. „Was ist dann passiert?“ → passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Während ich die Hausaufgaben machte, kam eine Nachricht.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Mentre"
+    },
+    {
+     "id": "i2",
+     "text": "facevo i compiti,"
+    },
+    {
+     "id": "i3",
+     "text": "è arrivato"
+    },
+    {
+     "id": "i4",
+     "text": "un messaggio."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Als Kind hatte Sara Angst vor Hunden.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Da piccola"
+    },
+    {
+     "id": "i2",
+     "text": "Sara"
+    },
+    {
+     "id": "i3",
+     "text": "aveva"
+    },
+    {
+     "id": "i4",
+     "text": "paura"
+    },
+    {
+     "id": "i5",
+     "text": "dei cani."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Gestern sind wir ausgegangen, weil schönes Wetter war.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ieri"
+    },
+    {
+     "id": "i2",
+     "text": "siamo usciti"
+    },
+    {
+     "id": "i3",
+     "text": "perché"
+    },
+    {
+     "id": "i4",
+     "text": "faceva"
+    },
+    {
+     "id": "i5",
+     "text": "bel tempo."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Als ich ankam, schliefen alle schon.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Quando"
+    },
+    {
+     "id": "i2",
+     "text": "sono arrivata,"
+    },
+    {
+     "id": "i3",
+     "text": "tutti"
+    },
+    {
+     "id": "i4",
+     "text": "dormivano già."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-remoto-l3",
+ "title": "Uno o tanti?",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: riconoscere e comprendere · Uno o tanti? · livello facile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 15,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · passato remoto (rezeptiv: erkennen und verstehen)"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Il **passato remoto** si trova nei **testi scritti**: fiabe, romanzi, biografie, testi di storia. Ha lo stesso significato del passato prossimo: _Dante **nacque** a Firenze._ = _Dante **è nato** a Firenze._ Devi solo **riconoscerlo**.\n**Verbi regolari** (lui/lei · loro): parl**ò** · parl**arono** – cred**é** · cred**erono** – part**ì** · part**irono**\n| infinito | lui / lei | loro |\n| essere | **fu** | **furono** |\n| avere | **ebbe** | **ebbero** |\n| fare | **fece** | **fecero** |\n| dire | **disse** | **dissero** |\n| venire | **venne** | **vennero** |\n| vedere | **vide** | **videro** |\n| nascere | **nacque** | **nacquero** |\n| vivere | **visse** | **vissero** |\n| scrivere | **scrisse** | **scrissero** |\n| prendere | **prese** | **presero** |\n| mettere | **mise** | **misero** |\n_C’era una volta un re che **ebbe** tre figli. … E **vissero** tutti felici e contenti._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit **geschriebener Texte** (Märchen, Romane, Biografien, Geschichte). Es bedeutet dasselbe wie das passato prossimo: _nacque_ = _è nato_. Du musst die Formen nur **erkennen** und dem Infinitiv zuordnen, nicht selbst bilden.\nRegelmäßig (3. Person): parlò / parlarono, credé / crederono, partì / partirono. Wichtige unregelmäßige Formen: fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), vide (vedere), nacque (nascere), visse (vivere), scrisse (scrivere), prese (prendere), mise (mettere); Plural auf -ero: furono, ebbero, fecero, dissero …"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Chi fa l’azione: una persona (lui / lei) o più persone (loro)?",
+   "promptHelp": "Wer handelt: eine Person (lui / lei) oder mehrere (loro)?",
+   "explanation": "La forma di loro finisce in -rono (parlarono, furono) o in -ero (ebbero, dissero).",
+   "explanationHelp": "Die Form für loro endet auf -rono (parlarono, furono) oder -ero (ebbero, dissero).",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "lui / lei"
+    },
+    {
+     "id": "b",
+     "label": "loro"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "fu",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "ebbe",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "andò",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "scrisse",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "morì",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "venne",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "furono",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "ebbero",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "parlarono",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "dissero",
+     "category": "b"
+    },
+    {
+     "id": "i11",
+     "text": "nacquero",
+     "category": "b"
+    },
+    {
+     "id": "i12",
+     "text": "presero",
+     "category": "b"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Che cosa significa «Il re ebbe paura»?",
+   "promptHelp": "Was bedeutet «Il re ebbe paura»?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il re ha avuto paura."
+    },
+    {
+     "id": "o2",
+     "text": "Il re avrebbe paura."
+    },
+    {
+     "id": "o3",
+     "text": "Il re è stato paura."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Che cosa significa «Le due sorelle vennero in città»?",
+   "promptHelp": "Was bedeutet «Le due sorelle vennero in città»?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Le due sorelle sono venute in città."
+    },
+    {
+     "id": "o2",
+     "text": "Le due sorelle hanno visto la città."
+    },
+    {
+     "id": "o3",
+     "text": "Le due sorelle verranno in città."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Che cosa significa «La regina non disse niente»?",
+   "promptHelp": "Was bedeutet «La regina non disse niente»?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La regina non ha detto niente."
+    },
+    {
+     "id": "o2",
+     "text": "La regina non ha dato niente."
+    },
+    {
+     "id": "o3",
+     "text": "La regina non direbbe niente."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

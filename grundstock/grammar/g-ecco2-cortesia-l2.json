@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cortesia-l2",
+ "title": "Dal tu al Lei",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Dal tu al Lei · livello facile.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ der Höflichkeitsform (Lei), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Con **Lei** (forma di cortesia) l’imperativo ha le forme del congiuntivo:\n| -are → **-i** | scusare → **scusi** · aspettare → **aspetti** · guardare → **guardi** |\n| -ere → **-a** | prendere → **prenda** · scrivere → **scriva** |\n| -ire → **-a** | sentire → **senta** · finire → **finisca** |\n**Irregolari:** andare → **vada** · venire → **venga** · dire → **dica** · fare → **faccia** · dare → **dia** · stare → **stia**\nI **pronomi** stanno **prima** del verbo: _**Mi** dica! · **Si** accomodi! · **Lo** prenda pure!_\nNegativo: _**Non** si preoccupi! · **Non** lo dica a nessuno!_\n| tu | Lei |\n| Scusa! | Scusi! |\n| Dimmi! | Mi dica! |\n| Accomodati! | Si accomodi! |\n| Non preoccuparti! | Non si preoccupi! |",
+  "ruleHelp": "Der **Imperativ der Höflichkeitsform (Lei)** hat die Formen des congiuntivo: -are → **-i** (scusi, aspetti), -ere / -ire → **-a** (prenda, senta). Unregelmäßig: vada, venga, dica, faccia, dia, stia.\nWichtig: Beim Lei-Imperativ stehen die Pronomen **vor** dem Verb (_Mi dica! Si accomodi!_), beim tu-Imperativ hängen sie am Verb (_Dimmi! Accomodati!_). Verneint: _Non si preoccupi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la forma con tu alla forma con Lei.",
+   "promptHelp": "Verbinde die tu-Form mit der Lei-Form.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "scusa",
+     "right": "scusi"
+    },
+    {
+     "id": "p2",
+     "left": "senti",
+     "right": "senta"
+    },
+    {
+     "id": "p3",
+     "left": "prendi",
+     "right": "prenda"
+    },
+    {
+     "id": "p4",
+     "left": "va’",
+     "right": "vada"
+    },
+    {
+     "id": "p5",
+     "left": "vieni",
+     "right": "venga"
+    },
+    {
+     "id": "p6",
+     "left": "di’",
+     "right": "dica"
+    },
+    {
+     "id": "p7",
+     "left": "fa’",
+     "right": "faccia"
+    },
+    {
+     "id": "p8",
+     "left": "aspetta",
+     "right": "aspetti"
+    },
+    {
+     "id": "p9",
+     "left": "accomodati",
+     "right": "si accomodi"
+    },
+    {
+     "id": "p10",
+     "left": "non preoccuparti",
+     "right": "non si preoccupi"
+    }
+   ]
+  }
+ ]
+}

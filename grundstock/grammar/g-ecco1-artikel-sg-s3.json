@@ -87,11 +87,11 @@
     },
     {
      "id": "s5",
-     "start": "Mio fratello gioca … (Stadion)",
+     "start": "Mio fratello cerca … (Stadion)",
      "acceptedAnswers": [
-      "stadio"
+      "lo stadio"
      ],
-     "modelAnswer": "Mio fratello gioca nello stadio."
+     "modelAnswer": "Mio fratello cerca lo stadio."
     },
     {
      "id": "s6",
@@ -103,11 +103,11 @@
     },
     {
      "id": "s7",
-     "start": "Il sabato vado … (Eisdiele)",
+     "start": "In via Roma c’è … (Eisdiele)",
      "acceptedAnswers": [
-      "gelateria"
+      "la gelateria"
      ],
-     "modelAnswer": "Il sabato vado in gelateria."
+     "modelAnswer": "In via Roma c’è la gelateria."
     },
     {
      "id": "s8",

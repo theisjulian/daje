@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-m1",
+ "title": "Hai fatto tutto?",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Hai fatto tutto? · livello medio.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa le risposte: pronome diretto + passato prossimo.",
+   "promptHelp": "Ergänze die Antworten: direktes Pronomen + passato prossimo.",
+   "explanation": "lo / la + ho → l’ho; li e le restano interi. Il participio prende -o, -a, -i, -e.",
+   "explanationHelp": "lo / la + ho → l’ho; li und le bleiben ganz. Das Partizip bekommt -o, -a, -i, -e.",
+   "type": "gap_fill",
+   "text": "Prima della partenza per Roma la mamma chiede a Luca:\n– Hai preparato lo zaino? – Sì, (preparare) [[g1]] ieri sera.\n– Hai preso la carta d’identità? – Sì, (prendere) [[g2]].\n– Hai comprato i panini? – No, non (comprare) [[g3]]: non ho avuto tempo.\n– Hai salutato le nonne? – Sì, (salutare) [[g4]] al telefono.\n– Hai chiuso la finestra? – Certo, (chiudere) [[g5]].\n– Hai letto il programma della gita? – Sì, (leggere) [[g6]] due volte.\n– Hai messo le scarpe comode nello zaino? – Sì, (mettere) [[g7]] sopra i vestiti.\n– Hai fatto i compiti per lunedì? – Ehm… no, non (fare) [[g8]].\n– E hai visto la tua giacca? – Sì, (vedere) [[g9]] in macchina.\n– E i soldi? – Oh no! (dimenticare) [[g10]] sul tavolo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "l’ho preparato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "l’ho presa"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "li ho comprati"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le ho salutate"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "l’ho chiusa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "l’ho letto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le ho messe"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "li ho fatti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "l’ho vista"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Li ho dimenticati"
+     ]
+    }
+   ]
+  }
+ ]
+}

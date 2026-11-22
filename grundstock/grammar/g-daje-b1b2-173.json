@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "open_answer",
-   "prompt": "Nel resoconto distingue imperfetto di sfondo, futuro nel passato e desiderio non realizzato. Analizza le forme intere.\n1. preparavamo\n2. pensavamo\n3. avremmo pubblicato\n4. lavorava\n5. mancava\n6. controllava\n7. avrebbe raccolto\n8. avrebbe richiesto\n9. Avrei voluto\n10. sarebbe stato",
+   "prompt": "Nel resoconto distingui imperfetto di sfondo, futuro nel passato e desiderio non realizzato. Analizza le forme intere.\n1. preparavamo\n2. pensavamo\n3. avremmo pubblicato\n4. lavorava\n5. mancava\n6. controllava\n7. avrebbe raccolto\n8. avrebbe richiesto\n9. Avrei voluto\n10. sarebbe stato",
    "modelAnswer": "1. Preparare, indicativo imperfetto: attività in corso nel passato.\n2. Pensare, indicativo imperfetto: stato mentale passato.\n3. Pubblicare, condizionale passato: futuro rispetto a pensavamo.\n4. Lavorare, indicativo imperfetto: situazione di sfondo.\n5. Mancare, indicativo imperfetto: situazione ripetuta.\n6. Controllare, indicativo imperfetto: attività nel passato.\n7. Raccogliere, condizionale passato: futuro rispetto a diceva.\n8. Richiedere, condizionale passato: futuro rispetto al momento di non sapevamo.\n9. Volere, condizionale passato: desiderio non realizzato, come chiarisce però non avevo ricevuto il consenso.\n10. Essere, condizionale passato: futuro rispetto a speravamo.",
    "lines": 11,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."

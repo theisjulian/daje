@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-s1",
+ "title": "Caccia all’errore",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Caccia all’errore · livello difficile.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "In ogni frase c’è un errore con che o cui. Correggi.",
+   "promptHelp": "In jedem Satz steckt ein Fehler bei che oder cui. Korrigiere.",
+   "explanation": "parlare **di**, abitare **in**, scrivere **a**, andare **con**, telefonare **a**: la preposizione del verbo resta e sta prima di **cui**. Senza preposizione: **che**.",
+   "explanationHelp": "Die Präposition des Verbs bleibt erhalten und steht vor **cui**. Ohne Präposition: **che**.",
+   "type": "error_correction",
+   "text": "La ragazza con [[g1]] esco si chiama Chiara.\nIl libro [[g2]] ti ho parlato è in biblioteca.\nLa città [[g3]] abito è piccola.\nQuesto è il motivo [[g4]] sono in ritardo.\nL’amico [[g5]] ho scritto non risponde.\nIl film [[g6]] abbiamo visto ieri era noioso.\nGli amici [[g7]] vado in vacanza sono simpatici.\nLa persona [[g8]] telefono più spesso è mia nonna.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "in cui",
+      "dove"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "per cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "a che",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "cui",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "di cui",
+     "acceptedAnswers": [
+      "con cui"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "di cui",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    }
+   ]
+  }
+ ]
+}

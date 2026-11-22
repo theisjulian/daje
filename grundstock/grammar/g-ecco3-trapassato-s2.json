@@ -1,0 +1,127 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-s2",
+ "title": "Un arrivo difficile",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Un arrivo difficile · livello difficile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il racconto di Hanna. **PP** = passato prossimo, **TP** = trapassato prossimo.",
+   "promptHelp": "Ergänze Hannas Bericht. **PP** = passato prossimo, **TP** = trapassato prossimo.",
+   "explanation": "Il trapassato prossimo racconta quello che era successo prima degli altri fatti.",
+   "explanationHelp": "Das trapassato prossimo erzählt, was vor den anderen Ereignissen schon geschehen war.",
+   "type": "gap_fill",
+   "text": "Il mio arrivo a Bologna è stato un piccolo disastro.\nQuando l’aereo (atterrare · PP) [[g1]], io non (dormire · TP) [[g2]] nemmeno un minuto.\nAll’aeroporto (scoprire, io · PP) [[g3]] che la mia valigia (rimanere · TP) [[g4]] a Monaco.\nPoi (cercare, io · PP) [[g5]] il numero della famiglia ospitante, ma non c’era: lo (scrivere, io · TP) [[g6]] su un foglio a casa!\nPer fortuna la signora Paola (venire · TP) [[g7]] a prendermi con un cartello con il mio nome.\nIn macchina mi (chiedere, lei · PP) [[g8]] se (studiare, io · TP) [[g9]] l’italiano a scuola.\nLa sera (addormentarsi, io · PP) [[g10]] alle nove: (essere · TP) [[g11]] una giornata lunghissima.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è atterrato",
+      "ha atterrato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "avevo dormito"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho scoperto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "era rimasta"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ho cercato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avevo scritto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "era venuta"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha chiesto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avevo studiato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "mi sono addormentata"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "era stata"
+     ]
+    }
+   ]
+  }
+ ]
+}

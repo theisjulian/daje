@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-m1",
+ "title": "Dopo la maturità",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Dopo la maturità · livello medio.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sara parla dei suoi progetti. Scrivi i verbi al futuro anteriore.",
+   "promptHelp": "Sara spricht über ihre Pläne. Setze die Verben ins futuro anteriore.",
+   "explanation": "Sara e Chiara sono due ragazze: saremo arrivat**e**, sarò tornat**a**, mi sarò laureat**a**.",
+   "explanationHelp": "Sara und Chiara sind Mädchen: Partizip auf -a / -e.",
+   "type": "gap_fill",
+   "text": "Quando (finire, io) [[g1]] gli esami, partirò per la Sicilia con Chiara.\nAppena (arrivare, noi due) [[g2]] a Palermo, andremo subito al mare.\nDopo che (visitare, noi) [[g3]] la città, prenderemo il treno per Catania.\nA settembre, quando (tornare, io) [[g4]], cercherò una stanza a Bologna.\nMio fratello dice: «Quando (trovare, tu) [[g5]] casa, verrò a trovarti.»\nI miei genitori saranno tranquilli solo dopo che (vedere, loro) [[g6]] la stanza.\nAppena l’università (pubblicare) [[g7]] l’orario, mi iscriverò ai corsi.\nE quando (laurearsi, io) [[g8]], vorrei lavorare all’estero.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avrò finito"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "saremo arrivate"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avremo visitato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sarò tornata"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avrai trovato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avranno visto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avrà pubblicato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "mi sarò laureata"
+     ]
+    }
+   ]
+  }
+ ]
+}

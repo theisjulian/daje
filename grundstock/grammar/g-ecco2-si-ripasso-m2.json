@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-m2",
+ "title": "La gente, tutti … si!",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · La gente, tutti … si! · livello medio.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase con si.",
+   "promptHelp": "Schreibe den Satz mit si neu.",
+   "explanation": "la gente / tutti + verbo → si + verbo; con un nome plurale il verbo va al plurale.",
+   "explanationHelp": "la gente / tutti + Verb → si + Verb; bei einem Nomen im Plural steht das Verb im Plural.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "In Italia la gente beve molto caffè. → In Italia …",
+     "acceptedAnswers": [
+      "si beve"
+     ],
+     "modelAnswer": "In Italia si beve molto caffè."
+    },
+    {
+     "id": "s2",
+     "start": "In Germania la gente mangia molte patate. → In Germania …",
+     "acceptedAnswers": [
+      "si mangiano"
+     ],
+     "modelAnswer": "In Germania si mangiano molte patate."
+    },
+    {
+     "id": "s3",
+     "start": "A scuola tutti rispettano le regole. → A scuola …",
+     "acceptedAnswers": [
+      "si rispettano"
+     ],
+     "modelAnswer": "A scuola si rispettano le regole."
+    },
+    {
+     "id": "s4",
+     "start": "In montagna la gente va a letto presto. → In montagna …",
+     "acceptedAnswers": [
+      "si va a letto"
+     ],
+     "modelAnswer": "In montagna si va a letto presto."
+    },
+    {
+     "id": "s5",
+     "start": "In questo bar la gente paga alla cassa. → In questo bar …",
+     "acceptedAnswers": [
+      "si paga alla cassa"
+     ],
+     "modelAnswer": "In questo bar si paga alla cassa."
+    },
+    {
+     "id": "s6",
+     "start": "In Italia la gente compra i biglietti dell’autobus in tabaccheria. → In Italia …",
+     "acceptedAnswers": [
+      "si comprano"
+     ],
+     "modelAnswer": "In Italia si comprano i biglietti dell’autobus in tabaccheria."
+    },
+    {
+     "id": "s7",
+     "start": "A casa mia tutti parlano italiano. → A casa mia …",
+     "acceptedAnswers": [
+      "si parla italiano"
+     ],
+     "modelAnswer": "A casa mia si parla italiano."
+    },
+    {
+     "id": "s8",
+     "start": "D’estate la gente fa molte feste in piazza. → D’estate …",
+     "acceptedAnswers": [
+      "si fanno"
+     ],
+     "modelAnswer": "D’estate si fanno molte feste in piazza."
+    }
+   ]
+  }
+ ]
+}

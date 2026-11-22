@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-s2",
+ "title": "Una mail dal laboratorio",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Una mail dal laboratorio · livello difficile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con che, chi, quello che, dove o preposizione + cui.",
+   "promptHelp": "Ergänze che, chi, quello che, dove oder Präposition + cui.",
+   "explanation": "partecipare a → a cui · parlare di → di cui · dipingere su → su cui · uscire con → con cui.",
+   "explanationHelp": "Die Präposition hängt vom Verb ab: partecipare a → a cui, parlare di → di cui usw.",
+   "type": "gap_fill",
+   "text": "Cara Chiara, ti scrivo dal laboratorio di street art [[g1]] partecipo questa settimana.\nIl posto [[g2]] lavoriamo è una vecchia fabbrica.\nL’artista [[g3]] ci insegna si chiama Davide.\nÈ una persona [[g4]] tutti parlano bene.\nIl muro [[g5]] dipingiamo è lungo venti metri.\nI ragazzi [[g6]] esco la sera sono molto simpatici.\n[[g7]] non sa disegnare può aiutare con i colori.\n[[g8]] mi piace di più è lavorare all’aperto.\nLa ragione [[g9]] ti scrivo, però, è un’altra.\nSabato c’è una festa [[g10]] sei invitata anche tu!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dove",
+      "in cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "su cui",
+      "dove"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "con cui"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Quello che",
+      "Ciò che"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "per cui"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "a cui"
+     ]
+    }
+   ]
+  }
+ ]
+}

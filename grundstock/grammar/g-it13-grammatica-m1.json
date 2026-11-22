@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-m1",
+ "title": "Un anno a Lisbona",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Un anno a Lisbona · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con il congiuntivo nel tempo giusto.",
+   "promptHelp": "Ergänze den Text mit dem Konjunktiv in der richtigen Zeit.",
+   "explanation": "Verbo principale al presente o al futuro → congiuntivo presente (sia, cambi) o passato (abbiano convinto); verbo principale al passato → congiuntivo imperfetto (potessi, parlasse) o trapassato (avessi studiato).",
+   "explanationHelp": "Hauptsatz im Präsens oder Futur → congiuntivo presente oder passato; Hauptsatz in der Vergangenheit → congiuntivo imperfetto oder trapassato (Vorzeitigkeit).",
+   "type": "gap_fill",
+   "text": "Benché (essere) [[g1]] costoso studiare all’estero, molti giovani scelgono di partire.\nChiara partirà per Lisbona a settembre, a meno che non (cambiare) [[g2]] idea all’ultimo momento.\nL’università accetta gli studenti stranieri purché (conoscere) [[g3]] l’inglese o il portoghese.\nPrima che (cominciare) [[g4]] le lezioni, Chiara vuole visitare la città.\nQualora (avere, Lei) [[g5]] altre domande, può contattare l’ufficio Erasmus.\nUn anno dopo Chiara racconta: «I miei genitori mi avevano dato dei soldi affinché (potere, io) [[g6]] pagare l’affitto.\nTemevo che la mia coinquilina non (parlare) [[g7]] inglese.\nSebbene all’inizio (sentirsi, io) [[g8]] un po’ sola, dopo un mese avevo già molti amici.\nNonostante prima della partenza (studiare, io) [[g9]] il portoghese solo per pochi mesi, capivo quasi tutto.\nOggi sono felice che i miei genitori mi (convincere) [[g10]] a partire.»",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cambi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "conoscano"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "comincino"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avesse",
+      "abbia"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "potessi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "parlasse"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "mi sentissi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avessi studiato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abbiano convinta",
+      "abbiano convinto"
+     ]
+    }
+   ]
+  }
+ ]
+}

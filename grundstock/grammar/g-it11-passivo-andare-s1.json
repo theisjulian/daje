@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "andare + participio (non infinito, non «essere»); solo tempi semplici: andava presentata, non «è andata presentata».",
+   "explanationHelp": "andare + Partizip (kein Infinitiv, kein „essere“); nur einfache Zeiten.",
+   "type": "error_correction",
+   "text": "Le regole della scuola [[g1]] rispettate da tutti.\nIl modulo va [[g2]] in ogni parte.\nLa domanda [[g3]] presentata entro ieri: ormai è troppo tardi.\nQuesto lavoro va [[g4]] con calma.\nLa porta del laboratorio [[g5]] a chiave.\nQuesti dati [[g6]] trattati con attenzione.\nI libri della biblioteca [[g7]] restituiti entro un mese.\nLa password va [[g8]] ogni tre mesi.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "va",
+     "acceptedAnswers": [
+      "vanno"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "compilata",
+     "acceptedAnswers": [
+      "compilato"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "è andata",
+     "acceptedAnswers": [
+      "andava"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "fare",
+     "acceptedAnswers": [
+      "fatto"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "va essere chiusa",
+     "acceptedAnswers": [
+      "va chiusa"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "devono",
+     "acceptedAnswers": [
+      "vanno",
+      "devono essere"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "andano",
+     "acceptedAnswers": [
+      "vanno"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "cambiato",
+     "acceptedAnswers": [
+      "cambiata"
+     ]
+    }
+   ]
+  }
+ ]
+}

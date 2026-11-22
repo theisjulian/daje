@@ -1,0 +1,328 @@
+#!buch series=Corso_daje volume=5 grade=12 cefr=B2 prefix=it12
+## Quinto anno · Lehrplan Jgst. 12 · Sprachliche Mittel: gemischte Grammatik, passato remoto produktiv, Wortschatz und Register. Eigene Übungen.
+
+@thema grammatica | Lehrplan · Sprachliche Mittel |  | Grammatica per comprendere e scrivere | 1
+#lehrplan Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen
+#regel
+Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:
+| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |
+| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |
+| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |
+| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |
+| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |
+| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |
+**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.
+**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).
+**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.
+#regel-de
+Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:
+**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).
+**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.
+**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.
+**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).
+**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.
+**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu).
+
+%übung leicht | A, di o da?
+?sortieren | Quale preposizione manca? Metti ogni espressione nel gruppo giusto. || Welche Präposition fehlt? Ordne jeden Ausdruck der richtigen Gruppe zu.
+Kategorien: a=a; b=di; c=da
+rinunciare … un viaggio in aereo > a
+essere abituato … lavorare in gruppo > a
+partecipare … un progetto europeo > a
+essere interessato … un tirocinio > a
+essere capace … ascoltare gli altri > b
+accorgersi … un errore > b
+fidarsi … un amico > b
+occuparsi … politica > b
+essere orgoglioso … un risultato > b
+dipendere … molti fattori > c
+essere diverso … tutti gli altri > c
+essere lontano … casa > c
+! rinunciare a, abituato a, partecipare a, interessato a · capace di, accorgersi di, fidarsi di, occuparsi di, orgoglioso di · dipendere da, diverso da, lontano da. || Die Präposition gehört fest zum Verb oder Adjektiv und stimmt oft nicht mit dem Deutschen überein (verzichten auf = rinunciare a; abhängen von = dipendere da).
+
+%übung leicht | Che forma ci vuole?
+?auswahl | Scegli la forma giusta del verbo. || Wähle die richtige Verbform.
+Penso che oggi i social {abbiano*|hanno|avere} troppa influenza sui giovani.
+Credevo che il treno {partisse*|parta|parte} alle otto, invece era già partito.
+Sebbene {sia*|è|sarebbe} tardi, continuiamo a discutere.
+Se avessi più tempo, {farei*|facessi|farò} volontariato.
+Se ieri avessi studiato, oggi non {avrei*|avessi|avrò} paura dell’esame.
+È importante che tutti {possano*|possono|potrebbero} esprimere la propria opinione.
+Vorrei che tu mi {dicessi*|dici|dirai} la verità.
+Secondo me, il turismo di massa {è*|sia|fosse} un problema per molte città.
+Dopo che {ha finito*|abbia finito|finisse} gli studi, Sara si è trasferita a Milano.
+Dobbiamo ridurre i rifiuti prima che {sia*|è|sarà} troppo tardi.
+! penso che / è importante che / sebbene / prima che + congiuntivo; verbo principale al passato o al condizionale (credevo, vorrei) → congiuntivo imperfetto; secondo me e dopo che + indicativo; se + congiuntivo → condizionale nella frase principale. Nel parlato si sente spesso l’indicativo (_penso che hanno_), ma nei testi scritti e all’esame è considerato un errore. || Nach penso che, è importante che, sebbene, prima che steht der Konjunktiv; nach Vergangenheit oder condizionale im Hauptsatz (credevo, vorrei) der congiuntivo imperfetto; nach secondo me und dopo che der Indikativ; im se-Satz Konjunktiv, im Hauptsatz condizionale. In der gesprochenen Sprache hört man nach penso che oft den Indikativ; in geschriebenen Texten und in Prüfungen gilt er als Fehler.
+
+%übung leicht | Il relativo giusto
+?luecke wortkasten | Completa le frasi con i pronomi relativi. || Ergänze die Sätze mit den Relativpronomen aus dem Kasten.
+Il giornalista [il cui] articolo ha vinto il premio lavora a Torino.
+La scrittrice [la cui] famiglia viene dalla Sicilia vive a Roma.
+Un’azienda [i cui] dipendenti lavorano da casa risparmia energia.
+È una città [le cui] strade sono sempre piene di turisti.
+Il progetto [del quale] ti ho parlato riguarda l’energia solare.
+I ragazzi [che] partecipano allo scambio partono domani.
+[Chi] vuole studiare all’estero deve informarsi presto.
+[Ciò che] mi preoccupa di più è il cambiamento climatico.
+Ho intervistato venti studenti, molti [dei quali] lavorano già.
+La professoressa [alla quale] ho scritto mi ha risposto subito.
+! il cui / la cui / i cui / le cui: l’articolo concorda con il nome che segue (il cui articolo, le cui strade). Chi = la persona che; ciò che = la cosa che. || Bei il cui / la cui / i cui / le cui richtet sich der Artikel nach dem folgenden Nomen. Chi = wer, derjenige, der; ciò che = das, was.
+
+%übung mittel | Se …
+?luecke | Completa il periodo ipotetico con la forma giusta del verbo. || Ergänze den Bedingungssatz mit der richtigen Verbform.
+Se (avere, io) [avessi] più tempo libero, farei un corso di spagnolo.
+Se domani (fare) [fa/farà] bel tempo, andiamo al mare in bicicletta.
+Se Luca avesse mandato la domanda in tempo, (ottenere) [avrebbe ottenuto] la borsa di studio.
+Se noi (prendere) [avessimo preso] il treno delle sette, non saremmo arrivati in ritardo.
+Se tu avessi studiato di più l’anno scorso, adesso non (dovere) [dovresti] ripetere l’esame.
+Se i miei genitori non (trasferirsi) [si fossero trasferiti] in Germania vent’anni fa, oggi io non parlerei tedesco.
+Che cosa (fare, tu) [faresti] se vincessi un milione di euro?
+Se tutti (usare) [usassero] di più i mezzi pubblici, l’aria delle città sarebbe più pulita.
+Se me lo (dire, voi) [aveste detto] prima, vi avrei aiutato volentieri.
+Se non ci fosse Internet, la nostra vita (essere) [sarebbe] molto diversa.
+! Possibilità: se + congiuntivo imperfetto → condizionale presente. Irrealtà nel passato: se + congiuntivo trapassato → condizionale passato. Tipo misto: se + congiuntivo trapassato → condizionale presente (conseguenza oggi). || Möglich: se + congiuntivo imperfetto → condizionale presente. Irreal in der Vergangenheit: se + congiuntivo trapassato → condizionale passato. Gemischt: Bedingung in der Vergangenheit, Folge heute → condizionale presente.
+
+%übung mittel | Dall’attivo al passivo
+?ergaenzen | Trasforma la frase al passivo. Usa la forma tra parentesi, se c’è. || Setze den Satz ins Passiv. Verwende die Form in Klammern, wenn eine angegeben ist.
+Ogni anno milioni di turisti visitano Venezia. | è visitata/viene visitata | Ogni anno Venezia è visitata da milioni di turisti. (Anche: viene visitata)
+Un giovane ingegnere ha inventato questa app. | è stata inventata | Questa app è stata inventata da un giovane ingegnere.
+Il Parlamento approverà la nuova legge a dicembre. | sarà approvata/verrà approvata | La nuova legge sarà approvata dal Parlamento a dicembre. (Anche: verrà approvata)
+I volontari hanno pulito le spiagge. | sono state pulite | Le spiagge sono state pulite dai volontari.
+In passato i contadini coltivavano questi campi. | erano coltivati/venivano coltivati | In passato questi campi erano coltivati dai contadini. (Anche: venivano coltivati)
+Bisogna rispettare le regole. (andare) | vanno rispettate | Le regole vanno rispettate.
+Bisogna spegnere i cellulari. (andare) | vanno spenti | I cellulari vanno spenti.
+In Italia la gente beve molto caffè. (si) | si beve molto caffè | In Italia si beve molto caffè.
+Dante scrisse la Divina Commedia. | fu scritta/venne scritta | La Divina Commedia fu scritta da Dante. (Anche: venne scritta)
+Penso che la scuola organizzi lo scambio. (Penso che lo scambio …) | sia organizzato/venga organizzato | Penso che lo scambio sia organizzato dalla scuola. (Anche: venga organizzato)
+! Il participio concorda con il soggetto (le spiagge sono state pulite). Nei tempi composti solo essere: è stata inventata. andare + participio = deve / devono essere … || Das Partizip richtet sich nach dem Subjekt. In zusammengesetzten Zeiten nur essere (è stata inventata, nicht mit venire). andare + Partizip = „muss / müssen … werden“.
+
+%übung mittel | Che cosa hanno detto?
+?luecke | Completa il discorso indiretto. || Ergänze die indirekte Rede.
+Sara: «Parto domani.» → Sara ha detto che [sarebbe partita/partiva] il giorno dopo.
+Matteo: «Ho perso il treno.» → Matteo ha detto che [aveva perso] il treno.
+La prof: «Leggete l’articolo!» → La prof ci ha detto di [leggere] l’articolo.
+Chiara: «Non mi piace questa città.» → Chiara ha detto che non le [piaceva] quella città.
+Davide: «Hai tempo?» → Davide mi ha chiesto se [avessi/avevo] tempo.
+Giulia: «Ieri sono andata a una manifestazione.» → Giulia ha raccontato che il giorno prima [era andata] a una manifestazione.
+Il sindaco e gli assessori: «Costruiremo una nuova pista ciclabile.» → Il sindaco e gli assessori hanno promesso che [avrebbero costruito] una nuova pista ciclabile.
+Mia madre: «Non tornare tardi!» → Mia madre mi ha detto di non [tornare] tardi.
+I nonni: «Qui stiamo bene.» → I nonni hanno detto che [lì/là] stavano bene.
+Luca: «Dove lavora tuo padre?» → Luca mi ha chiesto dove [lavorasse/lavorava] mio padre.
+! Dopo ha detto che: presente → imperfetto, passato prossimo → trapassato prossimo, futuro → condizionale passato, imperativo → di + infinito. Cambiano anche domani → il giorno dopo, ieri → il giorno prima, qui → lì. || Nach ha detto che: Präsens → imperfetto, passato prossimo → trapassato prossimo, Futur → condizionale passato, Imperativ → di + Infinitiv. Auch Zeit- und Ortsangaben ändern sich (domani → il giorno dopo, qui → lì).
+
+%übung schwer | Una città e i suoi turisti
+?fehler | In ogni frase c’è un errore di grammatica. Correggilo. || In jedem Satz steckt ein Grammatikfehler. Korrigiere ihn.
+Benché il turismo [porta=>porti] lavoro, crea anche molti problemi.
+Molti abitanti hanno rinunciato [di=>a] vivere nel centro storico.
+Il problema dipende anche [di=>da] noi visitatori.
+È un luogo [il cui=>la cui] bellezza attira persone da tutto il mondo.
+L’anno scorso il sindaco aveva promesso che [introdurrà=>avrebbe introdotto] un biglietto d’ingresso entro Natale, ma poi non l’ha fatto.
+Molte decisioni [sono venute prese=>sono state prese] senza ascoltare i cittadini.
+Se il Comune avesse limitato prima il numero delle navi, oggi il mare [fosse=>sarebbe] più pulito.
+[Avendo arrivati=>Essendo arrivati] troppo tardi, non abbiamo trovato posto sul battello.
+Dopo [visitare=>aver visitato/avere visitato] il museo, siamo tornati in albergo.
+È necessario che ognuno [fa=>faccia] la sua parte.
+! benché + congiuntivo · rinunciare a, dipendere da · la cui bellezza (concorda con bellezza) · futuro nel passato = condizionale passato · passivo nei tempi composti solo con essere · periodo ipotetico misto · gerundio composto con essere per arrivare · dopo + infinito passato. || benché + Konjunktiv · rinunciare a, dipendere da · la cui richtet sich nach bellezza · Zukunft in der Vergangenheit = condizionale passato · Passiv in zusammengesetzten Zeiten nur mit essere · gemischter Bedingungssatz · gerundio composto mit essere bei arrivare · dopo + Infinitiv Perfekt.
+
+@thema remoto-prod | Lehrplan · Sprachliche Mittel |  | Passato remoto: uso produttivo | 2
+#lehrplan Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)
+#regel
+Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.
+| | parl**are** | cred**ere** | part**ire** |
+| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |
+| tu | parl**asti** | cred**esti** | part**isti** |
+| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |
+| noi | parl**ammo** | cred**emmo** | part**immo** |
+| voi | parl**aste** | cred**este** | part**iste** |
+| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |
+Molti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.
+| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |
+| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |
+| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |
+| vedere → vidi | venire → venni | tenere → tenni | volere → volli |
+| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |
+| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |
+_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._
+#regel-de
+Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.
+Regelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …
+Viele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.
+Ganz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …).
+
+%übung leicht | Infinito e passato remoto
+?zuordnen | Abbina l’infinito alla forma del passato remoto (lui / lei). || Verbinde den Infinitiv mit der Form des passato remoto (3. Person Singular).
+essere = fu
+avere = ebbe
+fare = fece
+dire = disse
+dare = diede
+stare = stette
+vedere = vide
+venire = venne
+nascere = nacque
+vivere = visse
+
+%übung leicht | Chi lo fece?
+?sortieren | Io, lui / lei o loro? Metti ogni forma nel gruppo giusto. || Ich, er / sie oder sie (Plural)? Ordne jede Form der richtigen Gruppe zu.
+Kategorien: a=io; b=lui / lei; c=loro
+scrissi > a
+chiesi > a
+conobbi > a
+tenni > a
+prese > b
+rispose > b
+seppe > b
+rimase > b
+misero > c
+lessero > c
+vollero > c
+decisero > c
+! Nei verbi irregolari: io → -i (scrissi), lui / lei → -e (scrisse), loro → -ero (scrissero). || Bei den unregelmäßigen Verben: io → -i, lui / lei → -e, loro → -ero.
+
+%übung leicht | La lettera nella bottiglia
+?auswahl | Leggi la fiaba e scegli la forma giusta del passato remoto. || Lies das Märchen und wähle die richtige Form des passato remoto.
+C’era una volta una ragazza di nome Lucia che viveva con sua madre in un piccolo paese sul mare.
+Un giorno Lucia {trovò*|trovai|trovarono} sulla spiaggia una vecchia bottiglia.
+Dentro c’era una lettera: la ragazza la {lesse*|lessi|lessero} subito.
+Poi {corse*|corsi|corsero} a casa e la mostrò a sua madre.
+Madre e figlia {decisero*|decise|decisi} di cercare la persona che l’aveva scritta.
+Il giorno dopo le due donne {partirono*|partì|partii} per la città.
+Quando arrivarono, {chiesero*|chiese|chiesi} informazioni a un vecchio signore.
+Il vecchio {rispose*|risposi|risposero}: «Conosco bene questa lettera.»
+«Io stesso la {scrissi*|scrisse|scrissero} cinquant’anni fa», disse sorridendo.
+Lucia e sua madre {rimasero*|rimase|rimasi} senza parole.
+Così {nacque*|nacqui|nacquero} una lunga amicizia.
+! Guarda il soggetto: Lucia → -ò / -e (trovò, lesse); madre e figlia → -rono / -ero (partirono, decisero); io → -i (scrissi). || Achte auf das Subjekt: Lucia → 3. Singular (trovò, lesse); Mutter und Tochter → 3. Plural (partirono, decisero); io → -i (scrissi).
+
+%übung mittel | Tre persone, quattro verbi
+?tabelle | Completa la tabella con il passato remoto. || Ergänze die Tabelle mit dem passato remoto.
+Spalten: infinito | io | lui / lei | loro
+lavorare | [lavorai] | [lavorò] | [lavorarono]
+credere | [credei/credetti] | [credé/credette] | [crederono/credettero]
+dormire | [dormii] | [dormì] | [dormirono]
+perdere | [persi/perdetti/perdei] | [perse/perdette/perdé] | [persero/perdettero/perderono]
+! -are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Attenzione agli accenti (lavorò, credé, dormì) e alla doppia i di dormii. Perdere ha anche le forme irregolari persi, perse, persero, che sono le più usate. || -are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Achte auf die Akzente (lavorò, credé, dormì) und auf das doppelte i in dormii. Perdere hat zusätzlich die unregelmäßigen Formen persi, perse, persero; sie sind die üblichsten.
+
+%übung mittel | Galileo Galilei
+?luecke | Completa la biografia con il passato remoto dei verbi. || Ergänze die Biografie mit dem passato remoto der Verben.
+Galileo Galilei (nascere) [nacque] a Pisa nel 1564.
+Da giovane (studiare) [studiò] medicina all’università della sua città, ma la sua vera passione era la matematica.
+Più tardi (diventare) [diventò/divenne] professore di matematica e (vivere) [visse] per molti anni a Padova.
+Nel 1609 (costruire) [costruì] un cannocchiale e lo (usare) [usò] per osservare il cielo.
+Così (vedere) [vide] le montagne della Luna e (scoprire) [scoprì] quattro satelliti di Giove.
+Nei suoi libri (scrivere) [scrisse] che la Terra gira intorno al Sole.
+Per questo nel 1633 la Chiesa lo (condannare) [condannò].
+Galileo (dovere) [dovette/dové] passare gli ultimi anni nella sua casa vicino a Firenze, dove (morire) [morì] nel 1642.
+! Nelle biografie di personaggi storici si usa il passato remoto: nacque, visse, scrisse, morì. || In Biografien historischer Personen steht das passato remoto: nacque, visse, scrisse, morì.
+
+@thema lessico | Lehrplan · Sprachliche Mittel |  | Lessico tematico e registro | 3
+#lehrplan Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde
+#regel
+**Registro:** scegli le parole secondo la situazione.
+| informale (amici, chat) | formale (mail, lettera, commento) |
+| Ciao Marco, | Gentile signora Rossi, |
+| ti scrivo perché … | Le scrivo per … |
+| Mi puoi mandare …? | Potrebbe mandarmi …? |
+| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |
+| Ciao, a presto! | Distinti saluti |
+**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.
+**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.
+**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).
+#regel-de
+**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.
+**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.
+**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).
+**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk.
+
+%übung leicht | Amico o direttore?
+?zuordnen | Abbina l’espressione informale a quella formale. || Verbinde den informellen Ausdruck mit dem formellen.
+un sacco di problemi = numerosi problemi
+dare una mano = offrire il proprio aiuto
+Ciao, a presto! = Distinti saluti
+comprare = acquistare
+i soldi = il denaro
+Fammi sapere! = La prego di informarmi.
+Scusa il ritardo. = Mi scuso per il ritardo.
+il prof = il docente
+Che ne pensi? = Qual è la Sua opinione?
+Voglio un’informazione. = Desidererei un’informazione.
+
+%übung leicht | Attenzione ai falsi amici!
+?zuordnen | Che cosa significano queste parole in tedesco? || Was bedeuten diese Wörter auf Deutsch?
+caldo = warm, heiß
+freddo = kalt
+la firma = die Unterschrift
+la ditta = die Firma
+la camera = das Zimmer
+la macchina fotografica = die Kamera
+il regalo = das Geschenk
+lo scaffale = das Regal
+! caldo, firma, camera e regalo sono «falsi amici»: assomigliano a parole tedesche ma hanno un altro significato. || caldo, firma, camera und regalo sind „falsche Freunde“: Sie klingen wie deutsche Wörter, bedeuten aber etwas anderes.
+
+%übung leicht | A che cosa serve il connettivo?
+?sortieren | Metti ogni connettivo nel gruppo giusto. || Ordne jeden Konnektor der richtigen Gruppe zu.
+Kategorien: a=aggiungere un argomento; b=esprimere un contrasto; c=indicare la causa; d=indicare la conseguenza
+inoltre > a
+in più > a
+non solo … ma anche > a
+tuttavia > b
+invece > b
+al contrario > b
+poiché > c
+dato che > c
+siccome > c
+quindi > d
+perciò > d
+di conseguenza > d
+
+%übung mittel | Dopo la maturità
+?luecke | Completa con il verbo giusto nella forma giusta. Usa ogni verbo una volta: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere. || Ergänze das passende Verb in der richtigen Form. Verwende jedes Verb einmal: affrontare, correre, esprimere, fare, prendere, raggiungere, svolgere, tenere.
+Dopo la maturità Giulia ha finalmente [preso] una decisione: prima di studiare vuole fare un’esperienza di lavoro.
+Ieri ha [fatto] domanda per un tirocinio in un’azienda di Bologna.
+Nella scelta vuole [tenere] conto anche dei consigli dei suoi genitori.
+Secondo lei, gli insegnanti [svolgono] un ruolo importante nell’orientamento degli studenti.
+Chi vuole [raggiungere] i propri obiettivi deve avere pazienza.
+Prima o poi bisogna [affrontare] i problemi: non si può sempre scappare.
+Chi sceglie un lavoro solo per i soldi [corre] il rischio di annoiarsi presto.
+Nel suo blog Giulia [esprime] spesso la sua opinione su questi temi.
+! prendere una decisione · fare domanda · tenere conto di · svolgere un ruolo · raggiungere un obiettivo · affrontare un problema · correre un rischio · esprimere un’opinione. || Kollokationen als Ganzes lernen: eine Entscheidung treffen = prendere una decisione, sich bewerben = fare domanda, berücksichtigen = tenere conto di.
+
+%übung mittel | Una mail formale
+?ergaenzen | Riscrivi la frase in modo formale (con il Lei). Usa le parole tra parentesi. || Schreibe den Satz formell um (mit Lei). Verwende die Wörter in Klammern.
+Voglio sapere quanto costa il corso. (desiderare) | desidererei sapere/desidero sapere | Desidererei sapere quanto costa il corso. (Anche: Desidero sapere …)
+Mi puoi mandare il programma? (potrebbe) | potrebbe mandarmi/mi potrebbe mandare | Potrebbe mandarmi il programma? (Anche: Mi potrebbe mandare il programma?)
+Grazie per la risposta! (ringraziare) | La ringrazio | La ringrazio per la risposta.
+Rispondimi presto! (attendere, una Sua risposta) | attendo una Sua risposta/attendo una Sua cortese risposta/attendo la Sua risposta | Attendo una Sua risposta.
+Ti scrivo perché cerco un lavoro per l’estate. (un impiego) | Le scrivo perché cerco un impiego/Le scrivo perché sto cercando un impiego/Le scrivo poiché cerco un impiego | Le scrivo perché cerco un impiego per l’estate.
+Scusa se ti disturbo. (scusarsi, il disturbo) | mi scuso per il disturbo/mi scuso del disturbo | Mi scuso per il disturbo.
+Ti mando il mio curriculum. (inviare, in allegato) | Le invio in allegato/in allegato Le invio/Le invio il mio curriculum in allegato | Le invio in allegato il mio curriculum. (Anche: In allegato Le invio il mio curriculum.)
+Ciao, a presto! (distinti) | distinti saluti | Distinti saluti
+! Nel registro formale: Lei (Le scrivo, La ringrazio, una Sua risposta), condizionale di cortesia (desidererei, potrebbe), parole più precise (impiego, inviare). || Formelles Register: Höflichkeitsform Lei (Le scrivo, La ringrazio, una Sua risposta), höfliches condizionale (desidererei, potrebbe), genauere Wörter (impiego, inviare).
+
+%übung mittel | Cellulare in classe: sì o no?
+?auswahl | Leggi il testo e scegli il connettivo giusto. || Lies den Text und wähle den passenden Konnektor.
+Secondo molti insegnanti il cellulare va vietato in classe {perché*|perciò|benché} distrae gli studenti.
+Gli studenti, {invece*|quindi|infatti}, pensano che possa essere uno strumento utile.
+Con il cellulare si possono fare ricerche veloci; {inoltre*|tuttavia|altrimenti} esistono molte app per imparare le lingue.
+Da un lato, dunque, il cellulare aiuta a trovare informazioni, {dall’altro*|in conclusione|per esempio} rende più difficile concentrarsi.
+Alcuni ragazzi lo usano fino a tarda notte, {quindi*|eppure|poiché} dormono poco e a scuola sono stanchi.
+{Sebbene*|Siccome|Perciò} il divieto sia già in vigore in molte scuole, non tutti lo rispettano.
+Le regole servono, {a condizione che*|dato che|perciò} siano chiare per tutti.
+Il vero problema, {cioè*|eppure|purché} la distrazione, non riguarda solo i giovani.
+{Per quanto riguarda*|A causa|Grazie} gli adulti, molti di loro guardano lo schermo anche a tavola.
+{In conclusione*|Per esempio|Al contrario}, penso che la soluzione migliore sia un uso limitato e intelligente.
+! perché = causa · invece = contrasto · inoltre = un argomento in più · da un lato … dall’altro · quindi = conseguenza · sebbene, a condizione che + congiuntivo · cioè = spiegazione · in conclusione = alla fine del testo. || perché = Grund · invece = Gegensatz · inoltre = weiteres Argument · da un lato … dall’altro = einerseits … andererseits · quindi = Folge · sebbene, a condizione che + Konjunktiv · cioè = das heißt · in conclusione = am Schluss.
+
+%übung schwer | La parola sbagliata
+?fehler | In ogni frase c’è una parola o un’espressione sbagliata (falso amico, collocazione, registro). Correggila. || In jedem Satz ist ein Wort oder Ausdruck falsch (falscher Freund, Kollokation, Register). Korrigiere ihn.
+Che [caldo=>freddo] oggi! Mettiti il cappotto e la sciarpa.
+Il direttore ha messo la sua [ditta=>firma] sotto il contratto.
+Mio zio ha fondato una piccola [firma=>ditta/azienda/impresa/società] di trasporti.
+La mia nuova [camera=>macchina fotografica/fotocamera] fa foto bellissime.
+Ho comprato [un regalo=>uno scaffale] nuovo per mettere in ordine tutti i miei libri.
+Prima di scegliere l’università devo [fare=>prendere] una decisione difficile.
+Dopo tre anni di lavoro abbiamo finalmente [arrivato=>raggiunto/conseguito] il nostro obiettivo.
+Un buon giornalista deve tenere conto [a=>di] tutte le opinioni.
+Gentile signora Bianchi, [ti=>Le] scrivo per chiedere informazioni sul corso di lingua.
+Egregio dottor Verdi, [puoi=>può/potrebbe] mandarmi il modulo d’iscrizione?
+! Falsi amici: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Collocazioni: prendere una decisione, raggiungere un obiettivo, tenere conto di. In una mail formale si usa il Lei. || Falsche Freunde: caldo ≠ kalt, firma ≠ Firma, camera ≠ Kamera, regalo ≠ Regal. Kollokationen: prendere una decisione, raggiungere un obiettivo, tenere conto di. In einer formellen Mail steht die Höflichkeitsform Lei.

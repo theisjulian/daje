@@ -54,7 +54,7 @@
     {
      "id": "p1",
      "left": "Suono la chitarra",
-     "right": "quando ho tempo libero."
+     "right": "perché amo la musica rock."
     },
     {
      "id": "p2",
@@ -63,18 +63,18 @@
     },
     {
      "id": "p3",
-     "left": "Resto a casa",
+     "left": "Prendo l’ombrello",
      "right": "perché piove."
     },
     {
      "id": "p4",
-     "left": "Ascolto musica",
-     "right": "quando faccio i compiti."
+     "left": "Vado a letto",
+     "right": "quando sono stanca."
     },
     {
      "id": "p5",
      "left": "Non vado alla festa",
-     "right": "perché sono stanca."
+     "right": "perché non mi piace ballare."
     },
     {
      "id": "p6",
@@ -89,7 +89,7 @@
     {
      "id": "p8",
      "left": "Telefono a Sara",
-     "right": "quando sono triste."
+     "right": "quando voglio parlare con lei."
     }
    ]
   }

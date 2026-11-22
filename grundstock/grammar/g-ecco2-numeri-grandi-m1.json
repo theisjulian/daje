@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-numeri-grandi-m1",
+ "title": "Al mercatino dell’usato",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · Al mercatino dell’usato · livello medio.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "| 100 | **cento** | 1.000 | **mille** |\n| 200 | due**cento** | 2.000 | due**mila** |\n| 350 | trecentocinquanta | 10.000 | dieci**mila** |\n| 999 | novecentonovantanove | 100.000 | cento**mila** |\n| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |\n- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.\n- I numeri si scrivono in una sola parola: _millenovecentonovanta_.\n- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.\n- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).\n- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.",
+  "ruleHelp": "**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.\n**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.\nJahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.\nPreise: _tre euro e cinquanta_; **euro** hat keine Pluralform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i prezzi in lettere.",
+   "promptHelp": "Schreibe die Preise in Buchstaben.",
+   "explanation": "I numeri si scrivono in una sola parola: duemilacinquecento.",
+   "explanationHelp": "Zahlen schreibt man in einem Wort: duemilacinquecento.",
+   "type": "gap_fill",
+   "text": "La bici da corsa costa 120 euro: [[g1]] euro.\nIl vecchio motorino costa 950 euro: [[g2]] euro.\nLa chitarra costa 275 euro: [[g3]] euro.\nIl computer costa 430 euro: [[g4]] euro.\nIl divano costa 600 euro: [[g5]] euro.\nIl pianoforte costa 1.300 euro: [[g6]] euro.\nLa macchina del nonno costa 2.500 euro: [[g7]] euro.\nLa barca costa 15.000 euro: [[g8]] euro.\nUn fumetto costa 3,50 euro: tre euro e [[g9]].\nE una casa con giardino? 200.000 euro: [[g10]] euro! Ma non è al mercatino …",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "centoventi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "novecentocinquanta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "duecentosettantacinque"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "quattrocentotrenta"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "seicento"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "milletrecento"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "duemilacinquecento"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "quindicimila"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "cinquanta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "duecentomila"
+     ]
+    }
+   ]
+  }
+ ]
+}

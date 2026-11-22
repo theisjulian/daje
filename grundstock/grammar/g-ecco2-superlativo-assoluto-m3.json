@@ -1,0 +1,154 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-assoluto-m3",
+ "title": "-chissimo e -ghissimo",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo assoluto · -chissimo e -ghissimo · livello medio.",
+ "topics": [
+  "Il superlativo assoluto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-assoluto",
+  "topicTitle": "Il superlativo assoluto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+  "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella.",
+   "promptHelp": "Ergänze die Tabelle.",
+   "explanation": "Guarda il plurale maschile: antichi → antichissimo, lunghi → lunghissimo, ma simpatici → simpaticissimo.",
+   "explanationHelp": "Schau auf den männlichen Plural: antichi → antichissimo, lunghi → lunghissimo, aber simpatici → simpaticissimo.",
+   "type": "table_fill",
+   "columns": [
+    "aggettivo",
+    "maschile singolare",
+    "femminile plurale"
+   ],
+   "rows": [
+    [
+     "antico",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "antichissimo"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "antichissime"
+      ]
+     }
+    ],
+    [
+     "lungo",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "lunghissimo"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "lunghissime"
+      ]
+     }
+    ],
+    [
+     "simpatico",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "simpaticissimo"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "simpaticissime"
+      ]
+     }
+    ],
+    [
+     "ricco",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "ricchissimo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "ricchissime"
+      ]
+     }
+    ],
+    [
+     "largo",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "larghissimo"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "larghissime"
+      ]
+     }
+    ],
+    [
+     "fresco",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "freschissimo"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "freschissime"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

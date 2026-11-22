@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-l1",
+ "title": "Record!",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Record! · livello facile.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la descrizione al nome giusto.",
+   "promptHelp": "Verbinde die Beschreibung mit dem richtigen Namen.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "il fiume più lungo d’Italia",
+     "right": "il Po"
+    },
+    {
+     "id": "p2",
+     "left": "la città più grande d’Italia",
+     "right": "Roma"
+    },
+    {
+     "id": "p3",
+     "left": "il lago più grande d’Italia",
+     "right": "il lago di Garda"
+    },
+    {
+     "id": "p4",
+     "left": "l’isola più grande del Mediterraneo",
+     "right": "la Sicilia"
+    },
+    {
+     "id": "p5",
+     "left": "lo Stato più piccolo del mondo",
+     "right": "la Città del Vaticano"
+    },
+    {
+     "id": "p6",
+     "left": "la montagna più alta del mondo",
+     "right": "l’Everest"
+    },
+    {
+     "id": "p7",
+     "left": "la montagna più alta delle Alpi",
+     "right": "il Monte Bianco"
+    },
+    {
+     "id": "p8",
+     "left": "il mese più corto dell’anno",
+     "right": "febbraio"
+    },
+    {
+     "id": "p9",
+     "left": "il Paese più grande del mondo",
+     "right": "la Russia"
+    },
+    {
+     "id": "p10",
+     "left": "il Paese più piccolo dell’Unione europea",
+     "right": "Malta"
+    }
+   ]
+  }
+ ]
+}

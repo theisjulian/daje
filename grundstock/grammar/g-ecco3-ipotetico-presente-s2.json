@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-presente-s2",
+ "title": "Dalla realtà al sogno",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della possibilità e irrealtà nel presente · Dalla realtà al sogno · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: mögliche und irreale Bedingung der Gegenwart (se + congiuntivo imperfetto, condizionale presente)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-presente",
+  "topicTitle": "Il periodo ipotetico della possibilità e irrealtà nel presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Con questo periodo ipotetico parliamo di una condizione **poco probabile** o **non reale** nel presente.\n| frase con **se**: congiuntivo imperfetto | frase principale: condizionale presente |\n| _Se **avessi** più tempo,_ | _**viaggerei** di più._ |\n| _Se **fossi** in te,_ | _**partirei** subito._ |\n| _Se **potessimo** scegliere,_ | _**vivremmo** al mare._ |\nForme importanti (io): essere → **fossi**, avere → **avessi**, potere → **potessi**, andare → **andassi**, fare → **facessi**, dire → **dicessi**, stare → **stessi**, dare → **dessi**, sapere → **sapessi**, venire → **venissi**, volere → **volessi**.\nConfronta: _Se **ho** tempo, **vengo**._ (è possibile) ↔ _Se **avessi** tempo, **verrei**._ (ma non ho tempo)\n**Attenzione:** dopo **se** mai il condizionale: non _se avrei_, ma _se **avessi**_.",
+  "ruleHelp": "**Wenig wahrscheinliche oder irreale Bedingung** (Gegenwart): **se + congiuntivo imperfetto**, im Hauptsatz **condizionale presente**: _Se avessi tempo, verrei._ (Wenn ich Zeit hätte, würde ich kommen.)\nIm Deutschen kann in beiden Satzteilen „würde“ stehen, im Italienischen steht das Konditional **nur im Hauptsatz**, nie nach **se**.\nVergleiche: _Se ho tempo, vengo._ (gut möglich) ↔ _Se avessi tempo, verrei._ (ich habe aber keine Zeit)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la frase: dalla realtà alla possibilità. Comincia con **Se**.",
+   "promptHelp": "Forme den Satz um: von der realen zur nur möglichen Bedingung. Beginne mit **Se**.",
+   "explanation": "presente → congiuntivo imperfetto (dopo se); presente → condizionale (frase principale).",
+   "explanationHelp": "Präsens → congiuntivo imperfetto (nach se); Präsens → Konditional (Hauptsatz).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Se ho tempo, ti scrivo. → …",
+     "acceptedAnswers": [
+      "Se avessi tempo, ti scriverei"
+     ],
+     "modelAnswer": "Se avessi tempo, ti scriverei."
+    },
+    {
+     "id": "s2",
+     "start": "Se posso, vengo a trovarti. → …",
+     "acceptedAnswers": [
+      "Se potessi, verrei a trovarti"
+     ],
+     "modelAnswer": "Se potessi, verrei a trovarti."
+    },
+    {
+     "id": "s3",
+     "start": "Se fa bel tempo, andiamo al mare. → …",
+     "acceptedAnswers": [
+      "Se facesse bel tempo, andremmo al mare"
+     ],
+     "modelAnswer": "Se facesse bel tempo, andremmo al mare."
+    },
+    {
+     "id": "s4",
+     "start": "Se mi dai il tuo indirizzo, ti mando una cartolina. → …",
+     "acceptedAnswers": [
+      "Se mi dessi il tuo indirizzo, ti manderei una cartolina"
+     ],
+     "modelAnswer": "Se mi dessi il tuo indirizzo, ti manderei una cartolina."
+    },
+    {
+     "id": "s5",
+     "start": "Se i miei sono d’accordo, parto per un anno. → …",
+     "acceptedAnswers": [
+      "Se i miei fossero d’accordo, partirei per un anno"
+     ],
+     "modelAnswer": "Se i miei fossero d’accordo, partirei per un anno."
+    },
+    {
+     "id": "s6",
+     "start": "Se sai l’inglese, trovi subito amici. → …",
+     "acceptedAnswers": [
+      "Se sapessi l’inglese, troveresti subito amici"
+     ],
+     "modelAnswer": "Se sapessi l’inglese, troveresti subito amici."
+    },
+    {
+     "id": "s7",
+     "start": "Se vogliamo, possiamo restare. → …",
+     "acceptedAnswers": [
+      "Se volessimo, potremmo restare"
+     ],
+     "modelAnswer": "Se volessimo, potremmo restare."
+    },
+    {
+     "id": "s8",
+     "start": "Se state da noi, risparmiate molto. → …",
+     "acceptedAnswers": [
+      "Se steste da noi, risparmiereste molto"
+     ],
+     "modelAnswer": "Se steste da noi, risparmiereste molto."
+    },
+    {
+     "id": "s9",
+     "start": "Se mi dici la verità, ti aiuto. → …",
+     "acceptedAnswers": [
+      "Se mi dicessi la verità, ti aiuterei"
+     ],
+     "modelAnswer": "Se mi dicessi la verità, ti aiuterei."
+    }
+   ]
+  }
+ ]
+}

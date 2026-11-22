@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-l3",
+ "title": "Che tipo di frase è?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Che tipo di frase è? · livello facile.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Comparativo, superlativo relativo o superlativo assoluto?",
+   "promptHelp": "Komparativ, relativer Superlativ oder absoluter Superlativ?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "c",
+     "label": "comparativo (due cose)"
+    },
+    {
+     "id": "r",
+     "label": "superlativo relativo (un gruppo)"
+    },
+    {
+     "id": "a",
+     "label": "superlativo assoluto (senza confronto)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il Colosseo è antichissimo.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Il Tevere è più corto del Po.",
+     "category": "c"
+    },
+    {
+     "id": "i3",
+     "text": "Il Po è il fiume più lungo d’Italia.",
+     "category": "r"
+    },
+    {
+     "id": "i4",
+     "text": "La Fontana di Trevi è famosissima.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "Questa è la piazza più bella della città.",
+     "category": "r"
+    },
+    {
+     "id": "i6",
+     "text": "Il treno è meno caro dell’aereo.",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "Chiara è la migliore della classe in storia.",
+     "category": "r"
+    },
+    {
+     "id": "i8",
+     "text": "Oggi fa caldissimo.",
+     "category": "a"
+    },
+    {
+     "id": "i9",
+     "text": "Roma è più grande di Firenze.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "Davide è il meno puntuale del gruppo.",
+     "category": "r"
+    }
+   ]
+  }
+ ]
+}

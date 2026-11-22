@@ -31,7 +31,7 @@ import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'grammar'
-ANNO = {'1': 'Primo anno', '2': 'Secondo anno', '3': 'Terzo anno'}
+ANNO = {'1': 'Primo anno', '2': 'Secondo anno', '3': 'Terzo anno', '4': 'Quarto anno', '5': 'Quinto anno', '6': 'Sesto anno'}
 LIVELLO = {'leicht': 'facile', 'mittel': 'medio', 'schwer': 'difficile'}
 LEVEL_MIN = {'leicht': 1.0, 'mittel': 1.3, 'schwer': 1.6}
 

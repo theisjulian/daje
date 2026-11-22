@@ -1,0 +1,147 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-m3",
+ "title": "Frasi in ordine",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · Frasi in ordine · livello medio.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Siccome"
+    },
+    {
+     "id": "i2",
+     "text": "oggi piove,"
+    },
+    {
+     "id": "i3",
+     "text": "prendiamo"
+    },
+    {
+     "id": "i4",
+     "text": "l’autobus."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "So che"
+    },
+    {
+     "id": "i2",
+     "text": "i miei nonni"
+    },
+    {
+     "id": "i3",
+     "text": "si sono conosciuti"
+    },
+    {
+     "id": "i4",
+     "text": "a una festa."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ti telefono"
+    },
+    {
+     "id": "i2",
+     "text": "appena"
+    },
+    {
+     "id": "i3",
+     "text": "finisco"
+    },
+    {
+     "id": "i4",
+     "text": "i compiti."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "explanation": "In italiano l’ordine delle parole nella subordinata non cambia: perché **sono** stanco, appena **finisco** i compiti.",
+   "explanationHelp": "Im Italienischen bleibt die Wortstellung im Nebensatz gleich: Das Verb wandert nicht ans Ende.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Anche se"
+    },
+    {
+     "id": "i2",
+     "text": "ha novant’anni,"
+    },
+    {
+     "id": "i3",
+     "text": "mia nonna usa"
+    },
+    {
+     "id": "i4",
+     "text": "il computer."
+    }
+   ]
+  }
+ ]
+}

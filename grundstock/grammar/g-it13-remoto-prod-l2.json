@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-remoto-prod-l2",
+ "title": "Dal parlato al racconto",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Dal parlato al racconto · livello facile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+ },
+ "grammar": {
+  "topic": "it13-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+  "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il passato prossimo al passato remoto.",
+   "promptHelp": "Verbinde das passato prossimo mit dem passato remoto.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "ha detto",
+     "right": "disse"
+    },
+    {
+     "id": "p2",
+     "left": "hanno fatto",
+     "right": "fecero"
+    },
+    {
+     "id": "p3",
+     "left": "sono nato",
+     "right": "nacqui"
+    },
+    {
+     "id": "p4",
+     "left": "è venuta",
+     "right": "venne"
+    },
+    {
+     "id": "p5",
+     "left": "abbiamo visto",
+     "right": "vedemmo"
+    },
+    {
+     "id": "p6",
+     "left": "hai scritto",
+     "right": "scrivesti"
+    },
+    {
+     "id": "p7",
+     "left": "ho preso",
+     "right": "presi"
+    },
+    {
+     "id": "p8",
+     "left": "sono stati",
+     "right": "furono"
+    },
+    {
+     "id": "p9",
+     "left": "avete avuto",
+     "right": "aveste"
+    },
+    {
+     "id": "p10",
+     "left": "ha vissuto",
+     "right": "visse"
+    }
+   ]
+  }
+ ]
+}

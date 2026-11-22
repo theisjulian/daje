@@ -1,0 +1,162 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-s3",
+ "title": "Che tempo ci vuole?",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · Che tempo ci vuole? · livello difficile.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 17,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "So che Marta … ieri sera.",
+   "promptHelp": "Welche Form passt?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "tornerà"
+    },
+    {
+     "id": "o2",
+     "text": "è tornata"
+    },
+    {
+     "id": "o3",
+     "text": "torna"
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q2",
+   "prompt": "Sono sicuro che l’anno prossimo … in Italia.",
+   "promptHelp": "Welche Form passt?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "siamo andati"
+    },
+    {
+     "id": "o2",
+     "text": "andavamo"
+    },
+    {
+     "id": "o3",
+     "text": "andremo"
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q3",
+   "prompt": "Vedo che … stanco: vai a letto!",
+   "promptHelp": "Welche Form passt?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "sei"
+    },
+    {
+     "id": "o2",
+     "text": "eri"
+    },
+    {
+     "id": "o3",
+     "text": "sarai"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Anche se piova, usciamo."
+    },
+    {
+     "id": "o2",
+     "text": "Anche se piove, usciamo."
+    },
+    {
+     "id": "o3",
+     "text": "Anche piove, usciamo."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q5",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Siccome sia tardi, torniamo a casa."
+    },
+    {
+     "id": "o2",
+     "text": "Torniamo a casa siccome che è tardi."
+    },
+    {
+     "id": "o3",
+     "text": "Siccome è tardi, torniamo a casa."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q6",
+   "prompt": "Com’era la vita dei tuoi nonni da giovani e com’è la tua oggi? Scrivi 5 frasi. Usa: quando, mentre, perché, anche se, so che.",
+   "promptHelp": "Wie war das Leben deiner Großeltern in ihrer Jugend, und wie ist deins heute? Schreibe 5 Sätze. Verwende: quando, mentre, perché, anche se, so che.",
+   "type": "open_answer",
+   "modelAnswer": "Quando mia nonna era giovane, non aveva il telefono. Scriveva molte lettere perché i suoi amici abitavano lontano. Mentre lei aiutava in casa, i suoi fratelli lavoravano in campagna. Io invece scrivo messaggi ogni giorno, anche se vedo i miei amici a scuola. So che la vita di oggi è più comoda, ma non so se è più bella.",
+   "lines": 6
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-formazione-parole-l2",
+ "title": "Chi è? Che cos’è?",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Chi è? Che cos’è? · livello facile.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+  "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la parola alla spiegazione. Guarda il suffisso!",
+   "promptHelp": "Verbinde das Wort mit der Erklärung. Achte auf das Suffix!",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "il giornalaio",
+     "right": "vende giornali"
+    },
+    {
+     "id": "p2",
+     "left": "la gelateria",
+     "right": "il negozio dove si compra il gelato"
+    },
+    {
+     "id": "p3",
+     "left": "il lavoratore",
+     "right": "una persona che lavora"
+    },
+    {
+     "id": "p4",
+     "left": "la scrittrice",
+     "right": "una donna che scrive libri"
+    },
+    {
+     "id": "p5",
+     "left": "il turista",
+     "right": "una persona che viaggia per piacere"
+    },
+    {
+     "id": "p6",
+     "left": "la libreria",
+     "right": "il negozio dove si comprano i libri"
+    },
+    {
+     "id": "p7",
+     "left": "il fioraio",
+     "right": "vende fiori"
+    },
+    {
+     "id": "p8",
+     "left": "la pizzeria",
+     "right": "il locale dove si mangia la pizza"
+    },
+    {
+     "id": "p9",
+     "left": "l’allenatore",
+     "right": "prepara una squadra sportiva"
+    },
+    {
+     "id": "p10",
+     "left": "il dentista",
+     "right": "cura i denti"
+    }
+   ]
+  }
+ ]
+}

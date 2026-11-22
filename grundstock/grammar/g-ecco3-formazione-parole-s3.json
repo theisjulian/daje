@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-formazione-parole-s3",
+ "title": "Un Paese, tante regioni",
+ "language": "it",
+ "level": "B1",
+ "description": "Riconoscere la formazione delle parole · Un Paese, tante regioni · livello difficile.",
+ "topics": [
+  "Riconoscere la formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati"
+ },
+ "grammar": {
+  "topic": "ecco3-formazione-parole",
+  "topicTitle": "Riconoscere la formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!\n| suffisso | che cosa forma | esempi |\n| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |\n| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |\n| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |\n| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |\n| **-eria** | negozio, locale | gelateria, libreria |\n| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |\n| **-mente** | avverbio | lento → lentamente |\n**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.\n**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.\nAttenzione: _mattone, burrone, tacchino_ **non** sono alterati!",
+  "ruleHelp": "Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).\nPräfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).\nAlterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Forma la parola giusta dalla parola tra parentesi (nome, aggettivo o avverbio).",
+   "promptHelp": "Bilde aus dem Wort in Klammern das passende Wort (Nomen, Adjektiv oder Adverb).",
+   "type": "gap_fill",
+   "text": "In Italia la (diverso) [[g1]] tra le regioni è una grande (ricco) [[g2]].\nOgni regione ha una cucina (tradizione) [[g3]] e spesso anche un dialetto.\nNegli anni del boom economico l’(emigrare) [[g4]] dal Sud verso il Nord è stata molto forte:\nmolti (lavorare) [[g5]] hanno lasciato il loro paese per le fabbriche delle grandi città.\nAll’inizio il (cambiare) [[g6]] non era facile\ne per alcuni trovare una casa era quasi (≠ possibile) [[g7]].\nCerti pregiudizi di allora oggi sembrano (≠ credibile) [[g8]].\n(fortunato) [[g9]] oggi i giovani si muovono (libero) [[g10]] in tutto il Paese,\ne chi parte porta con sé la (bello) [[g11]] della propria terra.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "diversità"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ricchezza"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "tradizionale"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "emigrazione"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lavoratori"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "cambiamento"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "impossibile"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "incredibili"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Fortunatamente"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "liberamente"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "bellezza"
+     ]
+    }
+   ]
+  }
+ ]
+}

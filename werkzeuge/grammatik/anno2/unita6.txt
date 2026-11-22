@@ -1,0 +1,623 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Unità 6 · Città e creatività. Eigene Übungen.
+
+@thema relativi-ripasso | 6 · Città e creatività | Parte A | Le frasi relative | 1
+#lehrplan Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)
+#regel
+Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.
+| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |
+| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |
+| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |
+| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |
+| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |
+- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).
+- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._
+- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).
+#regel-de
+Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).
+**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.
+Anders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl.
+
+%übung leicht | Che, cui o chi?
+?auswahl | Scegli il pronome relativo giusto. || Wähle das richtige Relativpronomen.
+Il murale {che*|cui|chi} vedi in piazza è nuovo.
+La ragazza con {cui*|che|chi} suono si chiama Sara.
+Questo è il quartiere in {cui*|che|chi} abito.
+L’artista {che*|cui|chi} ha dipinto questo muro ha solo vent’anni.
+Il concerto di {cui*|che|chi} ti ho parlato è sabato.
+Le canzoni {che*|cui|chi} ascolto sono quasi tutte italiane.
+È un progetto a {cui*|che|chi} partecipano molti ragazzi.
+Il negozio {che*|cui|chi} vende dischi usati è chiuso il lunedì.
+La ragione per {cui*|che|chi} non vengo è semplice: devo studiare.
+Gli amici da {cui*|che|chi} dormo stasera abitano in centro.
+! Dopo una preposizione (a, di, con, in, per, da) c’è sempre cui. Senza preposizione: che. || Nach einer Präposition steht immer cui, ohne Präposition che. chi steht nie nach einem Bezugswort.
+
+%übung leicht | Che cos’è? Chi è?
+?zuordnen | Abbina la definizione alla parola. || Verbinde die Erklärung mit dem passenden Wort.
+un luogo in cui si guardano i film = il cinema
+una persona che dipinge quadri = la pittrice
+lo strumento con cui si scattano le foto = la macchina fotografica
+un negozio dove si comprano i libri = la libreria
+una persona che scrive canzoni e le canta = il cantautore
+un luogo in cui si vedono quadri e sculture = il museo
+un edificio dove si prendono in prestito i libri = la biblioteca
+un grande disegno che copre un muro = il murale
+il mezzo con cui si viaggia sotto la città = la metropolitana
+chi progetta case e palazzi = l’architetto
+
+%übung leicht | Il mio quartiere
+?luecke wortkasten | Completa il testo con le parole del riquadro. || Ergänze den Text mit den Wörtern aus dem Kasten.
+Abito in un quartiere [che] non è molto famoso.
+La via in [cui] abito è piena di murales.
+C’è anche un piccolo bar [dove] la sera suonano gruppi giovani.
+Il ragazzo con [cui] vado a scuola dipinge sui muri, ma solo [dove] è permesso.
+[Chi] passa di qui si ferma sempre a guardare i suoi disegni.
+Non tutti capiscono [quello] che lui vuole dire.
+Ma [chi] ama l’arte lo capisce subito.
+Il murale [che] preferisco è vicino alla stazione.
+È anche il posto [dove] ci incontriamo ogni sabato.
++ quale, cosa
+! che = soggetto / oggetto · preposizione + cui · dove = luogo · chi = la persona che · quello che = la cosa che. || che = Subjekt / Objekt · Präposition + cui · dove = Ort · chi = wer · quello che = das, was.
+
+%übung mittel | Il festival
+?luecke | Completa con che, cui, chi, dove o quello che. || Ergänze che, cui, chi, dove oder quello che.
+– Hai visto il video [che] ti ho mandato?
+– Sì! È il festival di [cui] parlavi ieri?
+– Esatto. È il festival a [cui] voglio andare a luglio.
+– E il gruppo [che] suona nel video? Lo conosci?
+– Certo, sono i ragazzi con [cui] ha suonato mio cugino.
+– Bello! [Quello che/Ciò che] dice il cantante alla fine mi piace molto.
+– Senti: [chi] compra il biglietto oggi paga di meno.
+– E la città [dove/in cui] fanno il festival è lontana?
+– No, è la città da [cui] viene mia madre. Possiamo dormire dai nonni!
+– Perfetto. È un’idea [che] mi piace!
+! Guarda la parola prima dello spazio: c’è una preposizione? Allora cui. || Schau auf das Wort vor der Lücke: Steht dort eine Präposition, folgt cui.
+
+%übung mittel | Due frasi, una frase
+?ergaenzen | Unisci le due frasi con che, preposizione + cui o dove. || Verbinde die zwei Sätze mit che, Präposition + cui oder dove.
+Ho un amico. L’amico suona la batteria. → Ho un amico … | che suona la batteria | Ho un amico che suona la batteria.
+Questo è il parco. Nel parco facciamo skate. → Questo è il parco … | dove facciamo skate/in cui facciamo skate | Questo è il parco dove facciamo skate.
+Ti presento Sara. Con Sara faccio un corso di disegno. → Ti presento Sara, … | con cui faccio un corso di disegno | Ti presento Sara, con cui faccio un corso di disegno.
+Ho comprato un poster. Il poster costa poco. → Ho comprato un poster … | che costa poco | Ho comprato un poster che costa poco.
+Ecco la canzone. Ti ho parlato della canzone. → Ecco la canzone … | di cui ti ho parlato | Ecco la canzone di cui ti ho parlato.
+Conosco una ragazza. La ragazza disegna fumetti. → Conosco una ragazza … | che disegna fumetti | Conosco una ragazza che disegna fumetti.
+Questo è il professore. Ho chiesto un consiglio al professore. → Questo è il professore … | a cui ho chiesto un consiglio | Questo è il professore a cui ho chiesto un consiglio.
+Leggo il libro. Tu mi hai regalato il libro. → Leggo il libro … | che mi hai regalato/che tu mi hai regalato | Leggo il libro che mi hai regalato tu.
+È una città. Nella città vivono molti artisti. → È una città … | dove vivono molti artisti/in cui vivono molti artisti | È una città dove vivono molti artisti.
+Ho visto il film. Tutti parlano del film. → Ho visto il film … | di cui tutti parlano/di cui parlano tutti | Ho visto il film di cui tutti parlano.
+! La preposizione della seconda frase resta: con Sara → con cui, del film → di cui. || Die Präposition aus dem zweiten Satz bleibt erhalten: con Sara → con cui, del film → di cui.
+
+%übung mittel | Metti in ordine
+?ordnen | Metti in ordine: „Der Junge, mit dem ich Fußball spiele, heißt Davide.“ || Bringe die Teile in die richtige Reihenfolge.
+Il ragazzo
+con cui
+gioco a calcio
+si chiama Davide.
+?ordnen | Metti in ordine: „Das Lied, von dem ich dir erzählt habe, ist ganz neu.“ || Bringe die Teile in die richtige Reihenfolge.
+La canzone
+di cui
+ti ho parlato
+è nuovissima.
+?ordnen | Metti in ordine: „Ich verstehe nicht, was du sagen willst.“ || Bringe die Teile in die richtige Reihenfolge.
+Non capisco
+quello
+che
+vuoi dire.
+?ordnen | Metti in ordine: „Wer keine Eintrittskarte hat, bleibt draußen.“ || Bringe die Teile in die richtige Reihenfolge.
+Chi
+non ha
+il biglietto
+resta fuori.
+?ordnen | Metti in ordine: „Das ist das Café, in dem meine Schwester arbeitet.“ || Bringe die Teile in die richtige Reihenfolge.
+Questo è
+il bar
+dove
+lavora mia sorella.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+La ragazza [chi=>che] canta è mia cugina.
+Il film [che=>di cui] ti ho parlato è al cinema adesso.
+L’amico con [che=>cui] suono abita qui vicino.
+[Che=>Chi] vuole venire deve dirlo oggi.
+Non ho capito [che=>quello che/ciò che/che cosa/cosa] hai detto.
+Questa è la scuola [che=>dove/in cui] ho studiato musica.
+Le persone [cui=>che] lavorano qui sono molto giovani.
+Chi [arrivano=>arriva] tardi non trova posto.
+Il quartiere [in che=>in cui/dove] abito è tranquillo.
+Ecco il libro [quello che=>che] cercavi.
+! chi non ha un nome prima e vuole il verbo al singolare; dopo una preposizione: cui; parlare di → di cui. || chi hat kein Bezugswort und verlangt den Singular; nach Präposition cui; parlare di → di cui.
+
+%übung schwer | Una mail dal laboratorio
+?luecke | Completa con che, chi, quello che, dove o preposizione + cui. || Ergänze che, chi, quello che, dove oder Präposition + cui.
+Cara Chiara, ti scrivo dal laboratorio di street art [a cui] partecipo questa settimana.
+Il posto [dove/in cui] lavoriamo è una vecchia fabbrica.
+L’artista [che] ci insegna si chiama Davide.
+È una persona [di cui] tutti parlano bene.
+Il muro [su cui/dove] dipingiamo è lungo venti metri.
+I ragazzi [con cui] esco la sera sono molto simpatici.
+[Chi] non sa disegnare può aiutare con i colori.
+[Quello che/Ciò che] mi piace di più è lavorare all’aperto.
+La ragione [per cui] ti scrivo, però, è un’altra.
+Sabato c’è una festa [a cui] sei invitata anche tu!
+! partecipare a → a cui · parlare di → di cui · dipingere su → su cui · uscire con → con cui. || Die Präposition hängt vom Verb ab: partecipare a → a cui, parlare di → di cui usw.
+
+%übung schwer | Chi ama la musica …
+?ergaenzen | Trasforma le frasi: usa chi. || Forme die Sätze um: Verwende chi.
+Le persone che amano la musica vengono qui. | Chi ama la musica viene qui | Chi ama la musica viene qui.
+Le persone che non hanno il biglietto non entrano. | Chi non ha il biglietto non entra | Chi non ha il biglietto non entra.
+Le persone che arrivano presto trovano posto. | Chi arriva presto trova posto | Chi arriva presto trova posto.
+Le persone che vogliono dipingere portano i colori. | Chi vuole dipingere porta i colori | Chi vuole dipingere porta i colori.
+Le persone che abitano in centro vanno a piedi. | Chi abita in centro va a piedi | Chi abita in centro va a piedi.
+Le persone che fanno sport stanno meglio. | Chi fa sport sta meglio | Chi fa sport sta meglio.
+! chi = le persone che, ma il verbo è al singolare. || chi = die Leute, die …; das Verb steht aber im Singular.
+?frei | Descrivi il tuo quartiere o la tua città. Scrivi 5 frasi con che, preposizione + cui, dove, chi e quello che. || Beschreibe dein Viertel oder deine Stadt. Schreibe 5 Sätze mit che, Präposition + cui, dove, chi und quello che.
+Abito in un quartiere che è molto verde. La via in cui abito è tranquilla. Vicino a casa c’è un parco dove gioco a basket. Chi ama lo sport qui sta bene. Quello che mi manca è un cinema.
+Zeilen: 5
+
+@thema messa-rilievo | 6 · Città e creatività | Parte A | Mettere in rilievo | 2
+#lehrplan Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)
+#regel
+In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.
+**1. È … che …**
+- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._
+- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._
+**2. L’oggetto all’inizio + pronome**
+| _Il libro, **l’**ho già letto._ | lo, la, li, le |
+| _A Maria, **le** ho scritto ieri._ | gli, le |
+| _Di questo, **ne** parliamo dopo._ | ne |
+| _A Roma, **ci** vado domani._ | ci |
+**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._
+**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._
+#regel-de
+So hebt man im Italienischen etwas hervor:
+**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._
+**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._
+**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)
+Im Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung.
+
+%übung leicht | Qual è il pronome giusto?
+?zuordnen | Abbina le due parti della frase. || Verbinde die beiden Satzteile.
+Il biglietto, = l’ho comprato ieri.
+La chitarra, = l’ho lasciata a casa.
+I colori, = li ho messi nello zaino.
+Le foto, = le ho mandate a tutti.
+A Giulia, = le ho scritto stamattina.
+A Matteo, = gli ho telefonato ieri sera.
+Di questo problema, = ne parliamo domani.
+In centro, = ci vado in bici.
+
+%übung leicht | Sono io che …
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Sono*|È|Sei} io che pago oggi.
+{Sei*|È|Sono} tu che devi decidere.
+{È*|Sono|Sei} Luca che ha fatto questo disegno.
+{Siamo*|È|Sono} noi che organizziamo il concerto.
+{Siete*|È|Siamo} voi che scegliete la musica.
+{Sono*|È|Siamo} i miei amici che hanno avuto l’idea.
+Sono io che {pago*|paga|paghi} il gelato.
+Siete voi che {decidete*|decide|decidono}.
+È a Milano {che*|dove|cui} voglio andare.
+È con Sara {che*|cui|chi} vado al concerto.
+! sono io che pago · sei tu che paghi · è lui che paga · siamo noi che paghiamo · siete voi che pagate · sono loro che pagano. || Beide Verben richten sich nach der Person: sono io che pago, siete voi che pagate.
+
+%übung leicht | Che tipo di frase è?
+?sortieren | Come mette in rilievo la frase? Metti ogni frase nel gruppo giusto. || Wie hebt der Satz etwas hervor? Ordne jeden Satz der richtigen Gruppe zu.
+Kategorien: a=È … che …; b=oggetto all’inizio + pronome; c=soggetto dopo il verbo
+È Marta che canta. > a
+Il biglietto, l’ho già comprato. > b
+Pago io! > c
+Sono loro che suonano stasera. > a
+A Luca, gli scrivo dopo. > b
+Stasera cucino io. > c
+Di musica, ne parliamo sempre. > b
+È domani che parte il treno. > a
+Oggi guidi tu. > c
+Questa canzone, la conosco bene. > b
+
+%übung mittel | Prima del concerto
+?luecke | Completa con il pronome giusto (lo, la, li, le, gli, ne, ci). || Ergänze das passende Pronomen (lo, la, li, le, gli, ne, ci).
+– Hai comprato i biglietti? – Sì, i biglietti, [li] ho comprati ieri.
+– E la chitarra? – La chitarra, [la] porta Davide.
+– Hai scritto a Chiara? – A Chiara, [le] ho scritto stamattina.
+– E a Luca? – A Luca, [gli] telefono dopo.
+– Parliamo del programma? – Del programma, [ne] parliamo stasera.
+– Vai tu in sala prove? – Sì, in sala prove, [ci] vado alle cinque.
+– E le casse? – Le casse, [le] abbiamo già montate.
+– E il manifesto? – Il manifesto, [lo] sta disegnando Sara.
+– Hai detto qualcosa ai tuoi genitori? – Ai miei genitori, [gli] ho detto tutto.
+– E di soldi? – Di soldi, non [ne] abbiamo bisogno: l’ingresso è libero!
+! oggetto diretto → lo, la, li, le · a + persona → gli, le · di + cosa → ne · luogo → ci. || Direktes Objekt → lo, la, li, le · a + Person → gli, le · di + Sache → ne · Ort → ci.
+
+%übung mittel | È … che …
+?ergaenzen | Metti in rilievo la parte tra parentesi con «È … che …». || Hebe den Teil in Klammern mit „È … che …“ hervor.
+Marco ha chiamato. (Marco) | È Marco che ha chiamato | È Marco che ha chiamato.
+Voglio andare a Milano. (a Milano) | È a Milano che voglio andare | È a Milano che voglio andare.
+Io pago. (io) | Sono io che pago | Sono io che pago.
+Voi decidete. (voi) | Siete voi che decidete | Siete voi che decidete.
+Sara ha scritto questa canzone. (Sara) | È Sara che ha scritto questa canzone | È Sara che ha scritto questa canzone.
+Il concerto comincia domani. (domani) | È domani che comincia il concerto/È domani che il concerto comincia | È domani che comincia il concerto.
+Noi abbiamo dipinto il muro. (noi) | Siamo noi che abbiamo dipinto il muro | Siamo noi che abbiamo dipinto il muro.
+Esco con Giulia. (con Giulia) | È con Giulia che esco | È con Giulia che esco.
+I miei cugini suonano stasera. (i miei cugini) | Sono i miei cugini che suonano stasera | Sono i miei cugini che suonano stasera.
+Tu hai avuto l’idea. (tu) | Sei tu che hai avuto l’idea | Sei tu che hai avuto l’idea.
+! Con io, tu, noi, voi, loro cambia anche essere: sono io, sei tu, siamo noi, siete voi, sono loro. || Bei io, tu, noi, voi, loro ändert sich auch essere: sono io, sei tu, siamo noi …
+
+%übung mittel | Parole in ordine
+?ordnen | Metti in ordine: „Mir gefällt Rock, meinem Bruder nicht.“ || Bringe die Teile in die richtige Reihenfolge.
+A me
+piace
+il rock,
+a mio fratello no.
+?ordnen | Metti in ordine: „Diesen Film, den habe ich schon zweimal gesehen.“ || Bringe die Teile in die richtige Reihenfolge.
+Questo film,
+l’ho già
+visto
+due volte.
+?ordnen | Metti in ordine: „Nach Mailand will ich fahren (nicht woandershin).“ || Bringe die Teile in die richtige Reihenfolge.
+È a Milano
+che
+voglio
+andare.
+?ordnen | Metti in ordine: „Darüber sprechen wir nach der Stunde.“ || Bringe die Teile in die richtige Reihenfolge.
+Di questo,
+ne
+parliamo
+dopo la lezione.
+?ordnen | Metti in ordine: „Ich bin es, der das Eis bezahlt.“ || Bringe die Teile in die richtige Reihenfolge.
+Sono io
+che
+pago
+il gelato.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+[È=>Sono] io che pago.
+Siete voi che [decide=>decidete].
+Il libro, [ho=>l’ho] già letto.
+A Maria, [la=>le] ho scritto ieri.
+Di questo, [lo=>ne] parliamo dopo.
+È Marco [chi=>che] ha chiamato.
+[Me=>A me] piace il jazz, a lei no.
+Le foto, le ho [mandato=>mandate] a tutti.
+A Roma, [ne=>ci] vado domani.
+I biglietti, [lo=>li] compro io.
+! Con lo, la, li, le prima di avere il participio concorda: le ho mandate. || Stehen lo, la, li, le vor avere, wird das Partizip angeglichen: le ho mandate.
+
+%übung schwer | L’oggetto all’inizio
+?ergaenzen | Metti l’oggetto all’inizio e continua con il pronome giusto. || Stelle das Objekt an den Anfang und setze mit dem passenden Pronomen fort.
+Ho già letto il libro. → Il libro, … | l’ho già letto | Il libro, l’ho già letto.
+Ho scritto a Maria ieri. → A Maria, … | le ho scritto ieri | A Maria, le ho scritto ieri.
+Parliamo dopo di questo. → Di questo, … | ne parliamo dopo | Di questo, ne parliamo dopo.
+Ho comprato le scarpe in centro. → Le scarpe, … | le ho comprate in centro | Le scarpe, le ho comprate in centro.
+Vado spesso al parco. → Al parco, … | ci vado spesso | Al parco, ci vado spesso.
+Non conosco quei ragazzi. → Quei ragazzi, … | non li conosco | Quei ragazzi, non li conosco.
+Ho visto la mostra sabato. → La mostra, … | l’ho vista sabato | La mostra, l’ho vista sabato.
+Telefono a Luca stasera. → A Luca, … | gli telefono stasera | A Luca, gli telefono stasera.
+Non ho bisogno di aiuto. → Di aiuto, … | non ne ho bisogno | Di aiuto, non ne ho bisogno.
+Ho perso gli occhiali. → Gli occhiali, … | li ho persi | Gli occhiali, li ho persi.
+! Attenzione al participio: la mostra → l’ho vista, le scarpe → le ho comprate, gli occhiali → li ho persi. || Achte auf das Partizip: l’ho vista, le ho comprate, li ho persi.
+
+%übung schwer | Il progetto del murale
+?luecke | Sara parla con i suoi amici. Completa con una forma di essere o con un pronome. || Sara spricht mit ihren Freunden. Ergänze eine Form von essere oder ein Pronomen.
+Ragazzi, [sono] io che ho avuto l’idea del murale, ma [siete] voi che dovete dipingere!
+Il muro, [lo] puliamo domani mattina.
+I colori, [li] porta Matteo.
+A Chiara, [le] ho chiesto di fare le foto.
+Del permesso, [ne] ho già parlato con la preside.
+A me piace il blu, ma a Davide no: a [lui] piace il rosso.
+E ricordate: [è] domani che cominciamo, non oggi!
+! sono io che … · siete voi che … · è domani che … || sono io che … · siete voi che … · è domani che …
+?frei | Organizzi una festa con i tuoi amici: chi fa che cosa? Scrivi 5 frasi e metti in rilievo con «È … che …», con l’oggetto all’inizio + pronome e con il soggetto dopo il verbo. || Du organisierst mit Freunden ein Fest: Wer macht was? Schreibe 5 Sätze und hebe hervor – mit „È … che …“, mit vorangestelltem Objekt + Pronomen und mit nachgestelltem Subjekt.
+La musica, la sceglie Luca. Le bibite, le compro io. È Giulia che prepara la torta. Sono i miei cugini che portano le casse. E alla fine puliamo noi!
+Zeilen: 5
+
+@thema gerundio-ripasso | 6 · Città e creatività | Parte A | Stare + gerundio: ripasso | 3
+#lehrplan Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen
+#regel
+Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).
+| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |
+| suonare → suonando | leggere → leggendo | dormire → dormendo |
+**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.
+| | io | tu | lui / lei | noi | voi | loro |
+| adesso | sto | stai | sta | stiamo | state | stanno |
+| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |
+- _Non posso venire: **sto studiando**._
+- _**Stavo leggendo** quando è arrivata Sara._
+**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._
+Per un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._
+#regel-de
+**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)
+Unregelmäßig: facendo, dicendo, bevendo, traducendo.
+Pronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!
+Für Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“.
+
+%übung leicht | Qual è il gerundio?
+?auswahl | Scegli il gerundio giusto. || Wähle das richtige Gerundium.
+fare → {facendo*|fando|faccendo}
+dire → {dicendo*|direndo|diciendo}
+bere → {bevendo*|berendo|beando}
+tradurre → {traducendo*|tradurendo|traducando}
+dipingere → {dipingendo*|dipingando|dipinto}
+suonare → {suonando*|suonendo|suonato}
+finire → {finendo*|finando|finiscendo}
+leggere → {leggendo*|leggiando|letto}
+uscire → {uscendo*|escendo|uscando}
+disegnare → {disegnando*|disegnendo|disegnato}
+! -are → -ando; -ere e -ire → -endo. Irregolari: facendo, dicendo, bevendo, traducendo. || -are → -ando; -ere und -ire → -endo. Unregelmäßig: facendo, dicendo, bevendo, traducendo.
+
+%übung leicht | Adesso, in quel momento o sempre?
+?sortieren | Che cosa esprime la frase? || Was drückt der Satz aus?
+Kategorien: a=succede proprio adesso; b=in quel momento nel passato; c=abitudine
+Sto finendo il disegno. > a
+Stavo dormendo quando hai chiamato. > b
+Ogni lunedì ho lezione di chitarra. > c
+I ragazzi stanno provando una canzone nuova. > a
+Stavamo cenando quando è andata via la luce. > b
+Di solito prendo l’autobus delle sette. > c
+Che cosa stai dicendo? > a
+Che cosa stavate facendo ieri alle nove? > b
+La domenica dormiamo fino a tardi. > c
+Sara stava uscendo quando ha cominciato a piovere. > b
+
+%übung leicht | Dove va il pronome?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Lo sto facendo adesso.
+- Sto lo facendo adesso.
+- Sto facendo lo adesso.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Sto scrivendole un messaggio.
+- Sto le scrivendo un messaggio.
+- Sto scrivendo le un messaggio.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Ti stavo cercando!
+- Stavo ti cercando!
+- Stavo cercando ti!
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Marco si sta preparando.
+- Marco sta si preparando.
+- Marco sta preparando si.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Che cosa mi stai dicendo?
+- Che cosa stai mi dicendo?
+- Che cosa stai dicendo mi?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Ci stiamo divertendo*|Stiamo ci divertendo|Stiamo divertendo ci} molto.
+{Vi stavamo aspettando*|Stavamo vi aspettando|Stavamo aspettando vi}.
+Le foto? {Le sto guardando*|Sto le guardando|Sto guardando le}.
+! Il pronome sta prima di stare (lo sto facendo) o attaccato al gerundio (sto facendolo), mai in mezzo. || Das Pronomen steht vor stare oder am Gerundium – nie dazwischen und nie getrennt dahinter.
+
+%übung mittel | Adesso e ieri alle otto
+?tabelle | Completa con stare + gerundio: al presente (fare) e all’imperfetto (leggere). || Ergänze stare + Gerundium: im Präsens (fare) und im Imperfekt (leggere).
+Spalten: persona | adesso: fare | ieri alle otto: leggere
+io | [sto facendo] | [stavo leggendo]
+tu | [stai facendo] | [stavi leggendo]
+lui / lei | [sta facendo] | [stava leggendo]
+noi | [stiamo facendo] | [stavamo leggendo]
+voi | [state facendo] | [stavate leggendo]
+loro | [stanno facendo] | [stavano leggendo]
+
+%übung mittel | È andata via la luce!
+?luecke | Che cosa stavano facendo? Scrivi stare all’imperfetto + gerundio. || Was machten sie gerade? Setze stare im Imperfekt + Gerundium ein.
+Ieri sera alle nove è andata via la luce in tutto il quartiere. Io (guardare) [stavo guardando] una serie.
+Mia madre (preparare) [stava preparando] la cena.
+Mio fratello (fare) [stava facendo] i compiti.
+I nonni (bere) [stavano bevendo] un tè in cucina.
+Le mie sorelle (tradurre) [stavano traducendo] un testo d’inglese.
+– E tu, Chiara, che cosa (fare) [stavi facendo]?
+– Io e Sara (tornare) [stavamo tornando] a casa in bici.
+– E voi, ragazzi, (dormire) [stavate dormendo]?
+– No! Il nostro cane (correre) [stava correndo] in giardino e noi lo cercavamo al buio.
+! stavo, stavi, stava, stavamo, stavate, stavano + gerundio: l’azione era in corso in quel momento. || Imperfekt von stare + Gerundium: Die Handlung war in diesem Moment gerade im Gang.
+
+%übung mittel | Con il pronome
+?ergaenzen | Riscrivi la frase: sostituisci le parole dopo il verbo con un pronome. || Schreibe den Satz neu: Ersetze die Wörter nach dem Verb durch ein Pronomen.
+Sto leggendo il libro. | Lo sto leggendo/Sto leggendolo | Lo sto leggendo. / Sto leggendolo.
+Stiamo guardando la partita. | La stiamo guardando/Stiamo guardandola | La stiamo guardando. / Stiamo guardandola.
+Sara sta facendo i compiti. | li sta facendo/sta facendoli | Sara li sta facendo. / Sara sta facendoli.
+Stavo cercando le chiavi. | Le stavo cercando/Stavo cercandole | Le stavo cercando. / Stavo cercandole.
+I ragazzi stanno dipingendo il muro. | lo stanno dipingendo/stanno dipingendolo | I ragazzi lo stanno dipingendo. / I ragazzi stanno dipingendolo.
+Stai scrivendo a Luca? | Gli stai scrivendo/Stai scrivendogli | Gli stai scrivendo? / Stai scrivendogli?
+Stavamo aspettando Giulia. | La stavamo aspettando/Stavamo aspettandola | La stavamo aspettando. / Stavamo aspettandola.
+Sto bevendo il caffè. | Lo sto bevendo/Sto bevendolo | Lo sto bevendo. / Sto bevendolo.
+State ascoltando la canzone? | La state ascoltando/State ascoltandola | La state ascoltando? / State ascoltandola?
+! Due possibilità: pronome + stare + gerundio oppure stare + gerundio con il pronome attaccato. || Zwei Möglichkeiten: Pronomen vor stare oder ans Gerundium angehängt.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Che cosa stai [fando=>facendo]?
+Marco sta [direndo=>dicendo] una cosa importante.
+Stavo [bevando=>bevendo] un succo quando sei arrivato.
+La prof sta [tradurrendo=>traducendo] il testo.
+Ieri alle otto [sto=>stavo] cenando con i miei genitori.
+Noi [stanno=>stiamo] aspettando l’autobus.
+Io [sono=>sto] leggendo un fumetto.
+Ogni sabato [sto giocando=>gioco] a pallavolo.
+Quando hai chiamato, io [stava=>stavo] dormendo.
+[Sto lo facendo=>Lo sto facendo/Sto facendolo] adesso.
+! Abitudine (ogni sabato) → presente. Nel passato → stavo + gerundio. || Gewohnheit (ogni sabato) → Präsens. In der Vergangenheit → stavo + Gerundium.
+
+%übung schwer | Quale forma?
+?auswahl | Abitudine, adesso o in quel momento nel passato? Scegli la forma giusta. || Gewohnheit, jetzt gerade oder in jenem Moment in der Vergangenheit? Wähle die richtige Form.
+Di solito {disegno*|sto disegnando|stavo disegnando} la sera, dopo i compiti.
+Zitti! Il gruppo {sta cominciando*|stava cominciando|cominciava} a suonare.
+Ieri alle dieci di sera {stavo già dormendo*|sto già dormendo|dormo già}.
+Ogni estate {andiamo*|stiamo andando|stavamo andando} a un festival di musica.
+Quando mi hai chiamato, {stavo uscendo*|sto uscendo|esco} di casa.
+Guarda quel ragazzo: che cosa {sta facendo*|stava facendo|faceva} sul muro?
+Da piccola {andavo*|stavo andando|sto andando} a scuola a piedi tutti i giorni.
+Scusa, non ti sento bene: dove {stai andando*|stavi andando|andavi}?
+Mentre noi {stavamo provando*|stiamo provando|proviamo} la canzone, è entrata la prof.
+Il lunedì Chiara {ha*|sta avendo|stava avendo} lezione di pianoforte.
+! di solito, ogni estate, il lunedì → presente; da piccola … tutti i giorni → imperfetto; ieri alle dieci, quando mi hai chiamato → stavo + gerundio. || Gewohnheit → Präsens bzw. imperfetto; bestimmter Moment in der Vergangenheit → stavo + Gerundium.
+
+%übung schwer | In piazza
+?luecke | Adesso o nel passato? Scrivi stare (presente o imperfetto) + gerundio. || Jetzt oder in der Vergangenheit? Setze stare (Präsens oder Imperfekt) + Gerundium ein.
+Sono in piazza e guardo la gente. Un ragazzo (suonare) [sta suonando] la chitarra.
+Due bambine (mangiare) [stanno mangiando] un gelato.
+Ieri alla stessa ora (piovere) [stava piovendo] e la piazza era vuota.
+Adesso invece molti turisti (fare) [stanno facendo] foto.
+Poco fa, mentre io (bere) [stavo bevendo] un succo, è passata Giulia.
+Lei (andare) [stava andando] in biblioteca.
+«Che cosa (scrivere, tu) [stai scrivendo]?», mi ha chiesto.
+«(descrivere, io) [Sto descrivendo] la piazza per il compito d’italiano», ho risposto.
+?frei | Pensa a un posto della tua città (una piazza, un parco, la fermata dell’autobus). Che cosa sta succedendo adesso? E che cosa stavi facendo tu ieri alla stessa ora? Scrivi 5 frasi. || Denk an einen Ort in deiner Stadt (Platz, Park, Bushaltestelle). Was passiert dort gerade? Und was hast du gestern um dieselbe Zeit gerade gemacht? Schreibe 5 Sätze.
+Sono alla fermata dell’autobus. Una signora sta leggendo il giornale. Due ragazzi stanno ascoltando musica con le cuffie. L’autobus sta arrivando. Ieri alla stessa ora stavo facendo i compiti.
+Zeilen: 5
+
+@thema infinito | 6 · Città e creatività | Parte B | Dopo, senza, per + infinito | 4
+#lehrplan Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)
+#regel
+Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:
+| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |
+| **senza** + infinito | | _È uscito **senza salutare**._ |
+| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |
+| **invece di** + infinito | | _**Invece di studiare** guarda video._ |
+| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |
+**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:
+- _Dopo **aver visto** il film, siamo tornati a casa._
+- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._
+**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.
+#regel-de
+Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).
+Nach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!
+Pronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.
+Im Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina l’espressione italiana alla traduzione. || Verbinde den italienischen Ausdruck mit der Übersetzung.
+per comprare il pane = um Brot zu kaufen
+senza dire niente = ohne etwas zu sagen
+prima di uscire = vor dem Hinausgehen
+invece di dormire = anstatt zu schlafen
+dopo aver mangiato = nach dem Essen
+dopo essere arrivati = nach der Ankunft
+per vederlo = um ihn zu sehen
+senza salutare = ohne zu grüßen
+prima di partire = vor der Abreise
+dopo averlo letto = nachdem man es gelesen hat
+
+%übung leicht | Quale parola?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Vado in centro {per*|per di|dopo} comprare un regalo.
+Luca è uscito {senza*|senza di|dopo} prendere le chiavi e adesso non può entrare.
+{Prima di*|Prima|Dopo} uscire metto sempre le cuffie nello zaino.
+{Dopo aver*|Dopo|Dopo essere} finito i compiti, esco con gli amici.
+{Dopo essere*|Dopo aver|Dopo} tornata a casa, Giulia ha chiamato la nonna.
+{Invece di*|Invece|Dopo} studiare, Matteo guarda video tutto il pomeriggio.
+Non puoi dipingere sul muro {senza*|prima|invece} chiedere il permesso.
+Risparmio {per*|per di|a} andare al concerto a luglio.
+Dopo {aver visto*|vedere|essere visto} la mostra, abbiamo mangiato un gelato.
+Dopo {essere arrivati*|essere arrivato|aver arrivato}, i ragazzi hanno montato il palco.
+! prima di e invece di hanno sempre di; per e senza no. Dopo → aver / essere + participio. || prima di und invece di immer mit di; per und senza ohne. Nach dopo: aver / essere + Partizip.
+
+%übung leicht | Aver o essere?
+?sortieren | Dopo aver … o dopo essere …? || Dopo aver … oder dopo essere …?
+Kategorien: a=dopo aver …; e=dopo essere …
+… mangiato la pizza > a
+… arrivati a Torino > e
+… letto il messaggio > a
+… tornata a casa > e
+… visto il film > a
+… uscite da scuola > e
+… fatto i compiti > a
+… andato in palestra > e
+… scritto la mail > a
+… rimasti a casa > e
+! L’ausiliare è lo stesso del passato prossimo: ho mangiato → dopo aver mangiato; sono arrivato → dopo essere arrivato. || Das Hilfsverb ist dasselbe wie im passato prossimo.
+
+%übung mittel | Dopo …
+?luecke | Scrivi l’infinito passato (aver / essere + participio). || Setze den Infinitiv der Vergangenheit ein (aver / essere + Partizip).
+Dopo (mangiare) [aver mangiato/avere mangiato], facciamo una passeggiata in centro.
+Dopo (arrivare) [essere arrivata] a Milano, Chiara ha cercato l’ostello.
+Dopo (vedere) [aver visto/avere visto] il concerto, i ragazzi hanno preso l’ultimo autobus.
+Dopo (tornare) [essere tornati] a casa, Luca e Davide hanno guardato le foto.
+Dopo (fare) [aver fatto/avere fatto] la spesa, la nonna prepara il pranzo.
+Dopo (uscire) [essere uscite] da scuola, Giulia e Sara sono andate al parco.
+Dopo (leggere) [aver letto/avere letto] il libro, Matteo ha visto anche il film.
+Dopo (partire) [essere partito] da Bologna, mio padre mi ha telefonato.
+Dopo (scrivere) [aver scritto/avere scritto] la canzone, il gruppo l’ha registrata.
+Dopo (stare) [essere stata] due ore al museo, Sara era stanca.
+! Con essere il participio concorda con il soggetto: Chiara → arrivata, Luca e Davide → tornati, Giulia e Sara → uscite. || Mit essere richtet sich das Partizip nach dem Subjekt.
+
+%übung mittel | Unisci le frasi
+?ergaenzen | Unisci le due frasi con la parola tra parentesi + infinito. || Verbinde die zwei Sätze mit dem Wort in Klammern + Infinitiv.
+Vado in centro. Voglio comprare i colori. (per) → Vado in centro … | per comprare i colori | Vado in centro per comprare i colori.
+Luca esce. Non saluta. (senza) → Luca esce … | senza salutare | Luca esce senza salutare.
+Faccio i compiti. Poi esco. (prima di) → Faccio i compiti … | prima di uscire | Faccio i compiti prima di uscire.
+Matteo non studia. Gioca al computer. (invece di) → Matteo gioca al computer … | invece di studiare | Matteo gioca al computer invece di studiare.
+Chiara telefona a Sara. Vuole invitarla. (per) → Chiara telefona a Sara … | per invitarla | Chiara telefona a Sara per invitarla.
+Sei partito. Non mi hai detto niente. (senza) → Sei partito … | senza dirmi niente | Sei partito senza dirmi niente.
+Ci laviamo le mani. Poi mangiamo. (prima di) → Ci laviamo le mani … | prima di mangiare | Ci laviamo le mani prima di mangiare.
+Non prendiamo l’autobus. Andiamo a piedi. (invece di) → Andiamo a piedi … | invece di prendere l’autobus | Andiamo a piedi invece di prendere l’autobus.
+Studio l’italiano. Voglio lavorare in Italia. (per) → Studio l’italiano … | per lavorare in Italia | Studio l’italiano per lavorare in Italia.
+Ha comprato il biglietto. Non ha guardato il prezzo. (senza) → Ha comprato il biglietto … | senza guardare il prezzo | Ha comprato il biglietto senza guardare il prezzo.
+! I pronomi vanno attaccati all’infinito: per invitarla, senza dirmi niente. || Pronomen werden an den Infinitiv angehängt: per invitarla, senza dirmi niente.
+
+%übung mittel | Costruisci le frasi
+?ordnen | Metti in ordine: „Bevor ich hinausgehe, mache ich das Licht aus.“ || Bringe die Teile in die richtige Reihenfolge.
+Prima di
+uscire
+spengo
+la luce.
+?ordnen | Metti in ordine: „Ich bin hinausgegangen, ohne den Regenschirm mitzunehmen.“ || Bringe die Teile in die richtige Reihenfolge.
+Sono uscito
+senza
+prendere
+l’ombrello.
+?ordnen | Metti in ordine: „Nach dem Abendessen schauen wir einen Film.“ || Bringe die Teile in die richtige Reihenfolge.
+Dopo
+aver
+cenato,
+guardiamo un film.
+?ordnen | Metti in ordine: „Ich gehe in den Park, um meine Freunde zu treffen.“ || Bringe die Teile in die richtige Reihenfolge.
+Vado al parco
+per
+incontrare
+i miei amici.
+?ordnen | Metti in ordine: „Anstatt zu schlafen, hört sie Musik.“ || Bringe die Teile in die richtige Reihenfolge.
+Invece di
+dormire,
+ascolta
+la musica.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Dopo [mangiare=>aver mangiato/avere mangiato], siamo usciti.
+[Prima=>Prima di] uscire chiudo sempre la finestra.
+Invece [da=>di] studiare, mio fratello dorme.
+È uscita senza [saluta=>salutare].
+Dopo [aver=>essere] arrivati, abbiamo cercato un bar.
+Dopo essere [tornato=>tornata] a casa, Giulia ha fatto i compiti.
+Ti scrivo per [ti invitare=>invitarti] alla festa.
+Dopo [lo aver letto=>averlo letto], ti presto il libro.
+Dopo aver [fare=>fatto] la foto, l’ho mandata a tutti.
+Vado in biblioteca per [studio=>studiare] in silenzio.
+! Dopo non vuole l’infinito semplice: dopo aver mangiato, dopo essere arrivati. || Nach dopo steht nicht der einfache Infinitiv, sondern aver / essere + Partizip.
+
+%übung schwer | Un sabato in centro
+?luecke | Chiara racconta. Completa con le parole tra parentesi nella forma giusta. Attenzione a dopo e ai pronomi! || Chiara erzählt. Ergänze mit den Wörtern in Klammern in der richtigen Form. Achte auf dopo und die Pronomen!
+Sabato sono andata in centro (per / vedere) [per vedere] una mostra di design.
+(prima di / partire) [Prima di partire] ho comprato il biglietto online.
+(dopo / arrivare) [Dopo essere arrivata] in stazione, ho incontrato Giulia.
+(invece di / prendere) [Invece di prendere] l’autobus, siamo andate a piedi.
+(dopo / vedere) [Dopo aver visto/Dopo avere visto] la mostra, abbiamo mangiato un panino.
+Giulia ha fatto cento foto (senza / chiedere) [senza chiedere] il permesso!
+Poi ho visto un poster bellissimo e, (dopo / lo / guardare) [dopo averlo guardato] per dieci minuti, l’ho comprato.
+La sera ho chiamato mio fratello (per / gli / raccontare) [per raccontargli] tutto.
+(dopo / tornare) [Dopo essere tornate] a casa mia, Giulia e io abbiamo guardato le foto.
+Sono andata a letto (senza / cenare) [senza cenare]: ero troppo stanca!
+! Chiara → dopo essere arrivata; Chiara e Giulia → dopo essere tornate. Pronomi: dopo averlo guardato, per raccontargli. || Chiara → arrivata; Chiara und Giulia → tornate. Pronomen werden angehängt: averlo, raccontargli.
+
+%übung schwer | Prima … poi …
+?ergaenzen | Trasforma le frasi con dopo + infinito passato. || Forme die Sätze mit dopo + Infinitiv der Vergangenheit um.
+Prima faccio i compiti, poi esco. → Dopo … | aver fatto i compiti/avere fatto i compiti | Dopo aver fatto i compiti, esco.
+Prima Sara è arrivata a casa, poi ha cenato. → Dopo … | essere arrivata a casa | Dopo essere arrivata a casa, Sara ha cenato.
+Prima i ragazzi hanno provato la canzone, poi l’hanno registrata. → Dopo … | aver provato la canzone/avere provato la canzone | Dopo aver provato la canzone, i ragazzi l’hanno registrata.
+Prima ho letto il messaggio, poi l’ho cancellato. → Dopo … | aver letto il messaggio/avere letto il messaggio | Dopo aver letto il messaggio, l’ho cancellato.
+Prima Luca e Davide sono usciti, poi hanno chiamato Matteo. → Dopo … | essere usciti | Dopo essere usciti, Luca e Davide hanno chiamato Matteo.
+Prima Giulia e Chiara sono tornate da scuola, poi hanno mangiato. → Dopo … | essere tornate da scuola | Dopo essere tornate da scuola, Giulia e Chiara hanno mangiato.
+! ho fatto → dopo aver fatto; è arrivata → dopo essere arrivata; sono usciti → dopo essere usciti. || ho fatto → dopo aver fatto; è arrivata → dopo essere arrivata.
+?frei | Racconta la tua giornata di ieri in 5 frasi. Usa prima di, dopo aver / dopo essere, per, senza e invece di + infinito. || Erzähle in 5 Sätzen von deinem gestrigen Tag. Verwende prima di, dopo aver / dopo essere, per, senza und invece di + Infinitiv.
+Prima di andare a scuola ho fatto colazione. Sono uscito senza prendere la giacca. Dopo essere tornato a casa, ho mangiato. Dopo aver fatto i compiti, sono andato al parco per giocare a basket. La sera, invece di guardare la TV, ho letto un fumetto.
+Zeilen: 5

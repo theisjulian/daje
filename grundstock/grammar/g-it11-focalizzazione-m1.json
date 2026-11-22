@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-focalizzazione-m1",
+ "title": "È … che",
+ "language": "it",
+ "level": "B1",
+ "description": "Messa in rilievo · È … che · livello medio.",
+ "topics": [
+  "Messa in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Hervorhebung: frase scissa, dislocazione, Quello che … è …"
+ },
+ "grammar": {
+  "topic": "it11-focalizzazione",
+  "topicTitle": "Messa in rilievo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Per **mettere in rilievo** una parte della frase l’italiano ha diverse strutture:\n**1. La frase scissa:** essere + elemento + **che** + verbo\n- _**È** Marco **che** ha telefonato._ · _**Sono** i miei genitori **che** decidono._\n- _**Sono io che** pago._ · _**Sei tu che** devi decidere._ (il verbo concorda con io, tu, noi, voi)\n- _**È** a Roma **che** voglio studiare._ · _**È per questo che** sono qui._\nCon il soggetto anche: essere + soggetto + **a + infinito**: _**È stato** Marco **a** dirlo._ · _**Sono state** le ragazze **a** cominciare._\n**2. La dislocazione** (con il pronome!):\n| a sinistra | _Il giornale, **lo** compro io._ · _Le chiavi, **le** ho pres**e** io._ · _Di politica, non **ne** parlo._ |\n| a destra | _**Lo** compro io, il giornale._ |\n**3. Quello che / Ciò che … è …:** _**Quello che** mi piace di Roma **è** la luce._",
+  "ruleHelp": "Im Deutschen hebt man meist durch **Betonung** oder Wortstellung hervor, das Italienische nutzt eigene Satzbaumuster:\n**Frase scissa (Spaltsatz):** _È Marco che ha telefonato._ (MARCO hat angerufen. / Es war Marco, der …) – essere richtet sich nach dem hervorgehobenen Teil (_Sono i miei genitori che …_), das Verb nach che nach der Person (_Sono io che pago_). Mit Subjekt auch **a + Infinitiv**: _È stato Marco a dirlo._ (stato/-a/-i/-e wird angeglichen). _È per questo che …_ = Deshalb …\n**Dislocazione:** Das Satzglied steht vorn (oder hinten) und wird durch ein **Pronomen** wieder aufgenommen: _Il giornale, lo compro io._ (Die Zeitung kaufe ICH.) Im passato prossimo wird das Partizip angeglichen: _Le chiavi, le ho prese io._\n**Quello che mi piace è …** = Was mir gefällt, ist …"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in rilievo la parte in MAIUSCOLO. Usa È … che / Sono … che (essere al presente).",
+   "promptHelp": "Hebe den Teil in GROSSBUCHSTABEN hervor. Verwende È … che / Sono … che (essere im Präsens).",
+   "explanation": "essere concorda con l’elemento in rilievo: Sono io, Sei tu, Siamo noi, Sono i miei amici. Con tempo, luogo e preposizione sempre È.",
+   "explanationHelp": "essere richtet sich nach dem hervorgehobenen Teil; bei Zeit, Ort und Präposition immer È.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "MARCO ha scritto l’articolo. → …",
+     "acceptedAnswers": [
+      "È Marco che ha scritto"
+     ],
+     "modelAnswer": "È Marco che ha scritto l’articolo."
+    },
+    {
+     "id": "s2",
+     "start": "IO preparo la cena stasera. → …",
+     "acceptedAnswers": [
+      "Sono io che preparo"
+     ],
+     "modelAnswer": "Sono io che preparo la cena stasera."
+    },
+    {
+     "id": "s3",
+     "start": "I MIEI AMICI hanno scelto il locale. → …",
+     "acceptedAnswers": [
+      "Sono i miei amici che hanno scelto"
+     ],
+     "modelAnswer": "Sono i miei amici che hanno scelto il locale."
+    },
+    {
+     "id": "s4",
+     "start": "Parto DOMANI. → …",
+     "acceptedAnswers": [
+      "È domani che parto"
+     ],
+     "modelAnswer": "È domani che parto."
+    },
+    {
+     "id": "s5",
+     "start": "Voglio parlare CON TE. → …",
+     "acceptedAnswers": [
+      "È con te che voglio parlare"
+     ],
+     "modelAnswer": "È con te che voglio parlare."
+    },
+    {
+     "id": "s6",
+     "start": "NOI dobbiamo cambiare abitudini. → …",
+     "acceptedAnswers": [
+      "Siamo noi che dobbiamo cambiare"
+     ],
+     "modelAnswer": "Siamo noi che dobbiamo cambiare abitudini."
+    },
+    {
+     "id": "s7",
+     "start": "Sono arrivato in ritardo PER QUESTO. → …",
+     "acceptedAnswers": [
+      "È per questo che sono arrivato"
+     ],
+     "modelAnswer": "È per questo che sono arrivato in ritardo."
+    },
+    {
+     "id": "s8",
+     "start": "TU hai detto di no. → …",
+     "acceptedAnswers": [
+      "Sei tu che hai detto"
+     ],
+     "modelAnswer": "Sei tu che hai detto di no."
+    },
+    {
+     "id": "s9",
+     "start": "Le mie sorelle abitano A PADOVA. → …",
+     "acceptedAnswers": [
+      "È a Padova che abitano le mie sorelle",
+      "È a Padova che le mie sorelle abitano"
+     ],
+     "modelAnswer": "È a Padova che abitano le mie sorelle. (anche: È a Padova che le mie sorelle abitano.)"
+    }
+   ]
+  }
+ ]
+}

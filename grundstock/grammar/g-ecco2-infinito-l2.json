@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-l2",
+ "title": "Quale parola?",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Quale parola? · livello facile.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "prima di e invece di hanno sempre di; per e senza no. Dopo → aver / essere + participio.",
+   "explanationHelp": "prima di und invece di immer mit di; per und senza ohne. Nach dopo: aver / essere + Partizip.",
+   "type": "gap_choice",
+   "text": "Vado in centro [[g1]] comprare un regalo.\nLuca è uscito [[g2]] prendere le chiavi e adesso non può entrare.\n[[g3]] uscire metto sempre le cuffie nello zaino.\n[[g4]] finito i compiti, esco con gli amici.\n[[g5]] tornata a casa, Giulia ha chiamato la nonna.\n[[g6]] studiare, Matteo guarda video tutto il pomeriggio.\nNon puoi dipingere sul muro [[g7]] chiedere il permesso.\nRisparmio [[g8]] andare al concerto a luglio.\nDopo [[g9]] la mostra, abbiamo mangiato un gelato.\nDopo [[g10]], i ragazzi hanno montato il palco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "per",
+      "per di",
+      "dopo"
+     ],
+     "answer": "per"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "senza",
+      "senza di",
+      "dopo"
+     ],
+     "answer": "senza"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Prima di",
+      "Prima",
+      "Dopo"
+     ],
+     "answer": "Prima di"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Dopo aver",
+      "Dopo",
+      "Dopo essere"
+     ],
+     "answer": "Dopo aver"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Dopo essere",
+      "Dopo aver",
+      "Dopo"
+     ],
+     "answer": "Dopo essere"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Invece di",
+      "Invece",
+      "Dopo"
+     ],
+     "answer": "Invece di"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "senza",
+      "prima",
+      "invece"
+     ],
+     "answer": "senza"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "per",
+      "per di",
+      "a"
+     ],
+     "answer": "per"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "aver visto",
+      "vedere",
+      "essere visto"
+     ],
+     "answer": "aver visto"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "essere arrivati",
+      "essere arrivato",
+      "aver arrivato"
+     ],
+     "answer": "essere arrivati"
+    }
+   ]
+  }
+ ]
+}

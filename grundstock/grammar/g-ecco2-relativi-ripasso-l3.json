@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-l3",
+ "title": "Il mio quartiere",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Il mio quartiere · livello facile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con le parole del riquadro.",
+   "promptHelp": "Ergänze den Text mit den Wörtern aus dem Kasten.",
+   "explanation": "che = soggetto / oggetto · preposizione + cui · dove = luogo · chi = la persona che · quello che = la cosa che.",
+   "explanationHelp": "che = Subjekt / Objekt · Präposition + cui · dove = Ort · chi = wer · quello che = das, was.",
+   "type": "gap_fill",
+   "text": "Abito in un quartiere [[g1]] non è molto famoso.\nLa via in [[g2]] abito è piena di murales.\nC’è anche un piccolo bar [[g3]] la sera suonano gruppi giovani.\nIl ragazzo con [[g4]] vado a scuola dipinge sui muri, ma solo [[g5]] è permesso.\n[[g6]] passa di qui si ferma sempre a guardare i suoi disegni.\nNon tutti capiscono [[g7]] che lui vuole dire.\nMa [[g8]] ama l’arte lo capisce subito.\nIl murale [[g9]] preferisco è vicino alla stazione.\nÈ anche il posto [[g10]] ci incontriamo ogni sabato.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dove"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dove"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "quello"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dove"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "quale",
+    "cosa"
+   ]
+  }
+ ]
+}

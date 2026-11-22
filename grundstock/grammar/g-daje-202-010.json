@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/3)",
+   "prompt": "Scegli l’articolo indeterminativo giusto per ogni nome. (parte 1/3)",
    "categories": [
     {
      "id": "c1",
@@ -122,7 +122,7 @@
   {
    "id": "q1b",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/3)",
+   "prompt": "Scegli l’articolo indeterminativo giusto per ogni nome. (parte 2/3)",
    "categories": [
     {
      "id": "c1",
@@ -192,7 +192,7 @@
   {
    "id": "q1c",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 3/3)",
+   "prompt": "Scegli l’articolo indeterminativo giusto per ogni nome. (parte 3/3)",
    "categories": [
     {
      "id": "c1",

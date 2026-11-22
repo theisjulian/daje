@@ -49,10 +49,10 @@
    "id": "q1",
    "prompt": "Correggi gli otto errori.",
    "promptHelp": "Korrigiere die acht Fehler.",
-   "explanation": "I mesi minuscoli, il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data.",
-   "explanationHelp": "Monate klein, il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.",
+   "explanation": "il + numero (il venticinque), il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data.",
+   "explanationHelp": "il + Zahl (il venticinque), il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.",
    "type": "error_correction",
-   "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] undici novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
+   "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è [[g3]] venticinque dicembre.\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] undici novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
    "errors": [
     {
      "id": "g1",
@@ -70,9 +70,9 @@
     },
     {
      "id": "g3",
-     "wrong": "Dicembre",
+     "wrong": "la",
      "acceptedAnswers": [
-      "dicembre"
+      "il"
      ]
     },
     {

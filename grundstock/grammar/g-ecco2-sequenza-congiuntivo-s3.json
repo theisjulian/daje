@@ -1,0 +1,147 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-sequenza-congiuntivo-s3",
+ "title": "Che, di o indicativo?",
+ "language": "it",
+ "level": "A2",
+ "description": "La sequenza dei tempi nel congiuntivo · Che, di o indicativo? · livello difficile.",
+ "topics": [
+  "La sequenza dei tempi nel congiuntivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Zeitenfolge im congiuntivo (Hauptsatz im Präsens), Indikativ oder congiuntivo, Infinitivkonstruktion"
+ },
+ "grammar": {
+  "topic": "ecco2-sequenza-congiuntivo",
+  "topicTitle": "La sequenza dei tempi nel congiuntivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché (causa): _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché (= weil); **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "type": "gap_choice",
+   "text": "Penso [[g1]] dimenticato il biglietto a casa.\nSpero [[g2]] alla festa.\nSo [[g3]] ragione.\nGiulia è contenta [[g4]] cantato davanti a tutti.\nCredo che ieri il gruppo [[g5]] fino a mezzanotte.\nVengo anch’io, a patto che [[g6]] tu i panini.\nMi dispiace [[g7]] arrivata in ritardo.\nBenché ieri [[g8]] tutto il giorno, oggi il prato del festival è già asciutto.\nÈ chiaro che Matteo [[g9]] studiato musica per anni.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "di aver",
+      "che ho",
+      "di essere"
+     ],
+     "answer": "di aver"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "che tu venga",
+      "di venire tu",
+      "che tu vieni"
+     ],
+     "answer": "che tu venga"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "che hai",
+      "che tu abbia",
+      "di avere tu"
+     ],
+     "answer": "che hai"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "di aver",
+      "di essere",
+      "che ha"
+     ],
+     "answer": "di aver"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "abbia provato",
+      "provi",
+      "ha provato"
+     ],
+     "answer": "abbia provato"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "paghi",
+      "paga",
+      "pagare"
+     ],
+     "answer": "paghi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "di essere",
+      "di avere",
+      "che sono"
+     ],
+     "answer": "di essere"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "abbia piovuto",
+      "piove",
+      "piova"
+     ],
+     "answer": "abbia piovuto"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ha",
+      "abbia",
+      "avere"
+     ],
+     "answer": "ha"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Scrivi un messaggio a un’amica o a un amico dopo un concerto. Usa: so che …, penso che … (ieri), spero che … (domani), benché …, penso di …",
+   "promptHelp": "Schreibe einer Freundin oder einem Freund nach einem Konzert. Verwende: so che …, penso che … (gestern), spero che … (morgen), benché …, penso di …",
+   "type": "open_answer",
+   "modelAnswer": "Ciao Luca! So che ieri eri al concerto anche tu. Penso che la band abbia suonato benissimo. Benché sia stanca, oggi vado alle prove. Spero che domani tu venga con me. Penso di aver trovato la mia canzone preferita!",
+   "lines": 5
+  }
+ ]
+}

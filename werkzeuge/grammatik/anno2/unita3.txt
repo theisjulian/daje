@@ -1,0 +1,815 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Unità 3 · Roma ed Europa. Eigene Übungen.
+
+@thema superlativo-assoluto | 3 · Roma ed Europa | Per cominciare | Il superlativo assoluto | 1
+#lehrplan Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo
+#regel
+Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.
+| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |
+| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |
+| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |
+| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |
+**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._
+**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).
+Attenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.
+#regel-de
+Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.
+Bildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.
+Adverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).
+Nie _molto_ und _-issimo_ zusammen.
+
+%übung leicht | Molto = -issimo
+?zuordnen | Abbina le due forme. || Verbinde die beiden Formen.
+molto antico = antichissimo
+molto lungo = lunghissimo
+molto buono = ottimo
+molto cattivo = pessimo
+molto bene = benissimo
+molto male = malissimo
+molto poco = pochissimo
+molto grande = grandissimo
+molto famoso = famosissimo
+molto stanco = stanchissimo
+
+%übung leicht | Una giornata a Roma
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Il Colosseo è {grandissimo*|grandissima|grandissimi}.
+La Fontana di Trevi è {famosissima*|famosissimo|famosissime}.
+Le strade del centro sono {strettissime*|strettissimi|strettissima}.
+I musei sono {interessantissimi*|interessantissime|interessantissimo}.
+Il Pantheon è {antichissimo*|anticissimo|antichissima}.
+La fila davanti ai Musei Vaticani è {lunghissima*|lungissima|lunghissimo}.
+In agosto a Roma fa {caldissimo*|caldissima|caldissimi}.
+I gelati sono {buonissimi*|buonissime|benissimo}.
+La sera siamo {stanchissimi*|stancissimi|stanchissimo}, ma felici.
+A Roma abbiamo mangiato {benissimo*|buonissimo|benissimi}.
+! -issimo concorda con il nome; -co/-go → -chissimo/-ghissimo; l’avverbio (benissimo) non cambia. || -issimo richtet sich nach dem Nomen; -co/-go → -chissimo/-ghissimo; das Adverb (benissimo) bleibt unverändert.
+
+%übung leicht | Aggettivo o avverbio?
+?sortieren | La parola in -issimo (o ottimo / pessimo) è un aggettivo o un avverbio? || Ist das Wort auf -issimo (oder ottimo / pessimo) ein Adjektiv oder ein Adverb?
+Kategorien: a=aggettivo (concorda con il nome); b=avverbio (non cambia)
+È una città bellissima. > a
+Sto benissimo, grazie. > b
+Stanotte ho dormito pochissimo. > b
+È un’ottima idea. > a
+Oggi il tempo è pessimo. > a
+Roma mi piace moltissimo. > b
+Le chiese sono antichissime. > a
+Oggi sto malissimo. > b
+In inverno ci sono pochissimi turisti. > a
+Ieri abbiamo camminato tantissimo. > b
+
+%übung mittel | Una mail da Roma
+?luecke | Completa con il superlativo assoluto in -issimo nella forma giusta. || Ergänze den absoluten Superlativ auf -issimo in der richtigen Form.
+Ciao Matteo, sono a Roma da tre giorni e la città è (bello) [bellissima].
+Ieri abbiamo visitato il Colosseo: è (grande) [grandissimo] e (antico) [antichissimo].
+La fila per entrare era (lungo) [lunghissima], ma la guida era (simpatico) [simpaticissima].
+Le strade del centro sono (stretto) [strettissime] e i motorini sono (veloce) [velocissimi].
+Il gelato vicino al Pantheon costa (poco) [pochissimo] ed è (buono) [buonissimo/ottimo].
+Adesso sono (stanco) [stanchissimo], ma sto (bene) [benissimo]. A presto, Davide
+! Guarda il nome: la città → bellissima, i motorini → velocissimi. Gli avverbi (pochissimo, benissimo) non cambiano. || Achte auf das Nomen: la città → bellissima, i motorini → velocissimi. Adverbien (pochissimo, benissimo) bleiben unverändert.
+
+%übung mittel | Dillo con una parola
+?ergaenzen | Sostituisci molto + aggettivo / avverbio con una forma in -issimo. || Ersetze molto + Adjektiv / Adverb durch eine Form auf -issimo.
+Il Pantheon è molto antico. → Il Pantheon è … | antichissimo | Il Pantheon è antichissimo.
+La cupola è molto alta. → La cupola è … | altissima | La cupola è altissima.
+I biglietti sono molto cari. → I biglietti sono … | carissimi | I biglietti sono carissimi.
+Le piazze di Roma sono molto famose. → Le piazze di Roma sono … | famosissime | Le piazze di Roma sono famosissime.
+Il viaggio in treno è molto lungo. → Il viaggio in treno è … | lunghissimo | Il viaggio in treno è lunghissimo.
+Le guide sono molto simpatiche. → Le guide sono … | simpaticissime | Le guide sono simpaticissime.
+Ho dormito molto male. → Ho dormito … | malissimo | Ho dormito malissimo.
+La gita è andata molto bene. → La gita è andata … | benissimo | La gita è andata benissimo.
+Siamo molto stanchi. → Siamo … | stanchissimi | Siamo stanchissimi.
+
+%übung mittel | -chissimo e -ghissimo
+?tabelle | Completa la tabella. || Ergänze die Tabelle.
+Spalten: aggettivo | maschile singolare | femminile plurale
+antico | [antichissimo] | [antichissime]
+lungo | [lunghissimo] | [lunghissime]
+simpatico | [simpaticissimo] | [simpaticissime]
+ricco | [ricchissimo] | [ricchissime]
+largo | [larghissimo] | [larghissime]
+fresco | [freschissimo] | [freschissime]
+! Guarda il plurale maschile: antichi → antichissimo, lunghi → lunghissimo, ma simpatici → simpaticissimo. || Schau auf den männlichen Plural: antichi → antichissimo, lunghi → lunghissimo, aber simpatici → simpaticissimo.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+La Fontana di Trevi è [famosissimo=>famosissima].
+Le strade sono [lungissime=>lunghissime].
+Il Foro Romano è [anticissimo=>antichissimo].
+Il gelato è [molto buonissimo=>buonissimo/molto buono/ottimo].
+I miei compagni sono [simpatichissimi=>simpaticissimi].
+A Roma abbiamo mangiato [buonissimo=>benissimo].
+Le ragazze sono [stanchissimi=>stanchissime].
+Ieri ho dormito [pochissima=>pochissimo].
+Ieri il tempo era [pessimissimo=>pessimo].
+! Mai molto + -issimo; ottimo e pessimo sono già superlativi; dopo un verbo come mangiare o dormire serve l’avverbio (benissimo, pochissimo). || Nie molto + -issimo; ottimo und pessimo sind schon Superlative; nach einem Verb wie mangiare oder dormire steht das Adverb (benissimo, pochissimo).
+
+%übung schwer | La recensione di Sara
+?luecke | Scrivi una sola parola al posto delle parole tra parentesi (-issimo, ottimo, pessimo). || Schreibe statt der Wörter in Klammern ein einziges Wort (-issimo, ottimo, pessimo).
+Il nostro albergo era (molto piccolo) [piccolissimo], ma la posizione era (molto buona) [ottima/buonissima].
+La colazione, invece, era (molto cattiva) [pessima/cattivissima]: solo pane vecchio e caffè freddo.
+Le camere erano (molto pulite) [pulitissime] e i letti (molto comodi) [comodissimi].
+Di notte però ho dormito (molto poco) [pochissimo], perché la strada era (molto rumorosa) [rumorosissima].
+Il personale è stato (molto gentile) [gentilissimo]: ci ha dato (molti) [moltissimi/tantissimi] consigli.
+In generale siamo stati (molto bene) [benissimo].
+
+%übung schwer | La mia città
+?frei | Descrivi una città che conosci bene. Usa almeno cinque superlativi assoluti (aggettivi e avverbi). || Beschreibe eine Stadt, die du gut kennst. Verwende mindestens fünf absolute Superlative (Adjektive und Adverbien).
+Monaco è una città bellissima. Il centro è antichissimo e i parchi sono grandissimi. In inverno fa freddissimo, ma io qui sto benissimo. I musei sono interessantissimi e i miei amici sono simpaticissimi.
+Zeilen: 6
+?auswahl | Controlla: quale forma è giusta? || Prüfe: Welche Form ist richtig?
+Il centro è {antichissimo*|anticissimo}.
+I parchi sono {grandissimi*|grandissime}.
+Qui si mangia {benissimo*|buonissimo}.
+I miei amici sono {simpaticissimi*|simpatichissimi}.
+
+@thema comparativo | 3 · Roma ed Europa | Parte A | Il comparativo | 2
+#lehrplan Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen
+#regel
+| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |
+| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |
+| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |
+**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.
+**che** quando confrontiamo
+- due aggettivi: _La piazza è più lunga **che** larga._
+- due verbi: _È più facile leggere **che** parlare._
+- due quantità: _In classe ci sono più ragazze **che** ragazzi._
+- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._
+**Forme speciali:**
+| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |
+Avverbi: bene → **meglio**, male → **peggio**.
+_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)
+#regel-de
+Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.
+**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.
+Unregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase italiana alla traduzione. || Verbinde den italienischen Satz mit der Übersetzung.
+Roma è più grande di Firenze. = Rom ist größer als Florenz.
+Il treno è meno caro dell’aereo. = Der Zug ist weniger teuer als das Flugzeug.
+Luca è alto come suo padre. = Luca ist so groß wie sein Vater.
+Questa pizzeria è migliore dell’altra. = Diese Pizzeria ist besser als die andere.
+Oggi sto meglio di ieri. = Heute geht es mir besser als gestern.
+La sorella maggiore di Luca studia a Roma. = Lucas ältere Schwester studiert in Rom.
+Il fratello minore di Sara ha sei anni. = Saras jüngerer Bruder ist sechs Jahre alt.
+Oggi il tempo è peggiore di ieri. = Heute ist das Wetter schlechter als gestern.
+È più facile capire che parlare. = Verstehen ist leichter als sprechen.
+
+%übung leicht | Più, meno o uguale?
+?sortieren | Che cosa dice la frase: più (+), meno (–) o uguale (=)? || Was sagt der Satz: mehr (+), weniger (–) oder gleich (=)?
+Kategorien: p=più (+); m=meno (–); u=uguale (=)
+Il Colosseo è più antico della Basilica di San Pietro. > p
+L’autobus è meno veloce della metro. > m
+Chiara è alta come Giulia. > u
+Questo gelato è migliore del gelato di ieri. > p
+Il museo è meno caro del concerto. > m
+Davide è simpatico quanto suo fratello. > u
+Il Po è più lungo del Tevere. > p
+Oggi fa meno caldo di ieri. > m
+La pizza è buona come la pasta. > u
+
+%übung leicht | Di o che?
+?auswahl | Scegli la parola giusta. || Wähle das richtige Wort.
+Roma è più grande {di*|che} Firenze.
+Sara è più alta {di*|che} me.
+Il Colosseo è più antico {della*|che la|di} Basilica di San Pietro.
+A Roma fa più caldo {che*|di} a Monaco.
+È più divertente viaggiare {che*|di} stare a casa.
+Questa strada è più lunga {che*|di} larga.
+In classe ci sono più ragazze {che*|di} ragazzi.
+L’aereo è più veloce {del*|che|dello} treno.
+Matteo è meno sportivo {di*|che} sua sorella.
+Mi piace più leggere {che*|di} guardare la TV.
+! di (+ articolo) prima di un nome o pronome; che tra due aggettivi, due verbi, due quantità e prima di una preposizione. || di (+ Artikel) vor Nomen oder Pronomen; che zwischen zwei Adjektiven, zwei Verben, zwei Mengen und vor einer Präposition.
+
+%übung mittel | In giro per l’Europa
+?luecke | Completa con di, del, della, dell’, dei, delle o che. || Ergänze di, del, della, dell’, dei, delle oder che.
+Roma è più grande [di] Milano.
+L’Italia è più piccola [della] Germania.
+Il Po è più lungo [del] Tevere.
+Il Monte Bianco è più alto [dell’]Etna.
+In agosto fa più caldo a Roma [che] a Berlino.
+Per Chiara è più interessante visitare una città [che] stare in spiaggia.
+I panini del supermercato sono meno cari [dei] panini del bar.
+Mia cugina parla inglese meglio [di] me.
+Nella nostra classe ci sono più ragazzi [che] ragazze.
+Secondo Luca le pizze di Napoli sono più buone [delle] pizze di Roma.
+Il viaggio in pullman è più lungo [che] comodo.
+! Prima di un nome: di + articolo (del Tevere, della Germania). Prima di una preposizione, tra due verbi, due aggettivi o due quantità: che. || Vor einem Nomen: di + Artikel (del Tevere, della Germania). Vor einer Präposition, zwischen zwei Verben, zwei Adjektiven oder zwei Mengen: che.
+
+%übung mittel | Fai il confronto
+?ergaenzen | Scrivi una frase con più (+), meno (–) o come (=). || Schreibe einen Satz mit più (+), meno (–) oder come (=).
+(il Colosseo / + antico / la Basilica di San Pietro) | Il Colosseo è più antico della Basilica di San Pietro | Il Colosseo è più antico della Basilica di San Pietro.
+(Sara / – alta / Giulia) | Sara è meno alta di Giulia | Sara è meno alta di Giulia.
+(il treno / + comodo / l’autobus) | Il treno è più comodo dell’autobus | Il treno è più comodo dell’autobus.
+(Luca / = simpatico / Matteo) | simpatico come Matteo/simpatico quanto Matteo | Luca è simpatico come Matteo. (Anche: Luca è simpatico quanto Matteo.)
+(le scarpe / + care / i jeans) | Le scarpe sono più care dei jeans | Le scarpe sono più care dei jeans.
+(la metro / – lenta / il tram) | La metro è meno lenta del tram | La metro è meno lenta del tram.
+(Roma / + grande / Firenze) | Roma è più grande di Firenze | Roma è più grande di Firenze.
+(i musei / = interessanti / le chiese) | interessanti come le chiese/interessanti quanto le chiese | I musei sono interessanti come le chiese. (Anche: I musei sono interessanti quanto le chiese.)
+(l’estate a Roma / + calda / l’estate a Monaco) | L’estate a Roma è più calda dell’estate a Monaco | L’estate a Roma è più calda dell’estate a Monaco.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „In Rom ist es wärmer als in München.“ || Bringe die Teile in die richtige Reihenfolge.
+A Roma
+fa più caldo
+che
+a Monaco.
+?ordnen | Metti le parti in ordine: „Giulia ist so groß wie ihr Bruder.“ || Bringe die Teile in die richtige Reihenfolge.
+Giulia
+è alta
+quanto
+suo fratello.
+?ordnen | Metti le parti in ordine: „Es ist leichter zu lesen als zu sprechen.“ || Bringe die Teile in die richtige Reihenfolge.
+È più facile
+leggere
+che
+parlare.
+?ordnen | Metti le parti in ordine: „Meine Freundin singt besser als ich.“ || Bringe die Teile in die richtige Reihenfolge.
+La mia amica
+canta
+meglio
+di me.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Roma è più grande [che=>di] Firenze.
+Questo ristorante è [più migliore=>migliore/più buono] dell’altro.
+Marco gioca a calcio [migliore=>meglio] di me.
+A Milano fa più freddo [di=>che] a Roma.
+Il Colosseo è più antico [di=>della] Basilica di San Pietro.
+Sara è alta [che=>come/quanto] sua madre.
+È più bello viaggiare [di=>che] restare a casa.
+Oggi sto [più bene=>meglio] di ieri.
+Luca è più alto [come=>di] Davide.
+! migliore è un aggettivo (un ristorante migliore), meglio è un avverbio (gioca meglio). Il tedesco „als“ non è mai come. || migliore ist ein Adjektiv (un ristorante migliore), meglio ein Adverb (gioca meglio). Das deutsche „als“ ist nie come.
+
+%übung schwer | In cucina con i fratelli
+?luecke | Completa con migliore, migliori, peggiore, meglio, peggio, maggiore o minore. || Ergänze migliore, migliori, peggiore, meglio, peggio, maggiore oder minore.
+Ho due fratelli: Paolo ha vent’anni ed è il fratello [maggiore]; Tommaso ha otto anni ed è il fratello [minore].
+Paolo cucina bene, ma la mamma cucina [meglio] di lui.
+Le lasagne della mamma sono [migliori] delle lasagne del ristorante!
+Io invece cucino male, e Tommaso cucina ancora [peggio] di me.
+Ieri ho fatto una pizza cattiva, ma la pizza di Tommaso era ancora [peggiore].
+Per fortuna la nonna ha avuto un’idea [migliore]: ordinare la cena in pizzeria.
+Così abbiamo mangiato molto [meglio].
+! Aggettivi (con un nome): migliore, peggiore, maggiore, minore. Avverbi (con un verbo): meglio, peggio. || Adjektive (beim Nomen): migliore, peggiore, maggiore, minore. Adverbien (beim Verb): meglio, peggio.
+
+%übung schwer | Dillo in un altro modo
+?ergaenzen | Completa la seconda frase: il significato non cambia. || Ergänze den zweiten Satz: Die Bedeutung bleibt gleich.
+Luca è più alto di Marco. → Marco è … | meno alto di Luca/più basso di Luca | Marco è meno alto di Luca. (Anche: Marco è più basso di Luca.)
+Il treno è più caro dell’autobus. → L’autobus è … | meno caro del treno/più economico del treno | L’autobus è meno caro del treno. (Anche: più economico del treno.)
+Sara canta meglio di me. → Io canto … | peggio di Sara | Io canto peggio di Sara.
+Il primo film è migliore del secondo. → Il secondo film è … | peggiore del primo/meno buono del primo | Il secondo film è peggiore del primo. (Anche: meno buono del primo.)
+Giulia è alta 1,65 m e anche Chiara è alta 1,65 m. → Giulia è … | alta come Chiara/alta quanto Chiara | Giulia è alta come Chiara. (Anche: alta quanto Chiara.)
+Mi piace leggere, ma mi piace di più viaggiare. → Mi piace più viaggiare … | che leggere | Mi piace più viaggiare che leggere.
+A Roma ci sono 30 gradi, a Monaco 22. → A Roma fa più caldo … | che a Monaco | A Roma fa più caldo che a Monaco.
+Paolo ha 20 anni, Tommaso ha 8 anni. → Paolo è … | maggiore di Tommaso/più grande di Tommaso/più vecchio di Tommaso | Paolo è maggiore di Tommaso. (Anche: più grande di Tommaso, più vecchio di Tommaso.)
+In classe ci sono 15 ragazze e 10 ragazzi. → Ci sono più ragazze … | che ragazzi | Ci sono più ragazze che ragazzi.
+
+@thema superlativo-relativo | 3 · Roma ed Europa | Parte A | Il superlativo relativo | 3
+#lehrplan Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore
+#regel
+Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:
+| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |
+| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |
+- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).
+- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.
+- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.
+Confronta:
+| comparativo (due cose) | _Roma è **più grande di** Milano._ |
+| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |
+| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |
+#regel-de
+Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.
+Der Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.
+Sonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).
+Unterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_).
+
+%übung leicht | Record!
+?zuordnen | Abbina la descrizione al nome giusto. || Verbinde die Beschreibung mit dem richtigen Namen.
+il fiume più lungo d’Italia = il Po
+la città più grande d’Italia = Roma
+il lago più grande d’Italia = il lago di Garda
+l’isola più grande del Mediterraneo = la Sicilia
+lo Stato più piccolo del mondo = la Città del Vaticano
+la montagna più alta del mondo = l’Everest
+la montagna più alta delle Alpi = il Monte Bianco
+il mese più corto dell’anno = febbraio
+il Paese più grande del mondo = la Russia
+il Paese più piccolo dell’Unione europea = Malta
+
+%übung leicht | Il più, la più, i più, le più
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Il Po è {il*|la|lo} fiume più lungo d’Italia.
+Roma è la città {più*|la più|molto} grande d’Italia.
+Febbraio è il mese più corto {dell’*|che l’|come l’}anno.
+Di tutte le ragazze, Sara è {la più*|la molto|la tanto} alta.
+Questa gelateria è {la migliore*|la più migliore|la meglio} di Roma.
+Luca è {il meno*|il poco|meno il} sportivo della famiglia.
+L’Everest è la montagna più alta {del*|che il|come il} mondo.
+Per Matteo il lunedì è {il giorno peggiore*|il giorno più peggiore|il peggio giorno} della settimana.
+Le ragazze della 9B sono {le più*|la più|i più} brave della scuola.
+I miei nonni sono {i più*|le più|il più} simpatici del mondo.
+! articolo + più / meno + aggettivo + di: l’articolo c’è una sola volta. || Artikel + più / meno + Adjektiv + di: Der Artikel steht nur einmal.
+
+%übung leicht | Che tipo di frase è?
+?sortieren | Comparativo, superlativo relativo o superlativo assoluto? || Komparativ, relativer Superlativ oder absoluter Superlativ?
+Kategorien: c=comparativo (due cose); r=superlativo relativo (un gruppo); a=superlativo assoluto (senza confronto)
+Il Colosseo è antichissimo. > a
+Il Tevere è più corto del Po. > c
+Il Po è il fiume più lungo d’Italia. > r
+La Fontana di Trevi è famosissima. > a
+Questa è la piazza più bella della città. > r
+Il treno è meno caro dell’aereo. > c
+Chiara è la migliore della classe in storia. > r
+Oggi fa caldissimo. > a
+Roma è più grande di Firenze. > c
+Davide è il meno puntuale del gruppo. > r
+
+%übung mittel | Record italiani e non
+?ergaenzen | Scrivi una frase con il superlativo relativo (+ = più, – = meno). || Schreibe einen Satz mit dem relativen Superlativ (+ = più, – = meno).
+(Roma / città / + grande / l’Italia) | la città più grande d’Italia/la più grande città d’Italia | Roma è la città più grande d’Italia. (Anche: Roma è la più grande città d’Italia.)
+(il Po / fiume / + lungo / l’Italia) | il fiume più lungo d’Italia/il più lungo fiume d’Italia | Il Po è il fiume più lungo d’Italia. (Anche: Il Po è il più lungo fiume d’Italia.)
+(febbraio / mese / + corto / l’anno) | il mese più corto dell’anno | Febbraio è il mese più corto dell’anno.
+(la Sicilia / isola / + grande / il Mediterraneo) | l’isola più grande del Mediterraneo/la più grande isola del Mediterraneo | La Sicilia è l’isola più grande del Mediterraneo. (Anche: La Sicilia è la più grande isola del Mediterraneo.)
+(Malta / Paese / + piccolo / l’Unione europea) | il Paese più piccolo dell’Unione europea/il più piccolo Paese dell’Unione europea | Malta è il Paese più piccolo dell’Unione europea. (Anche: Malta è il più piccolo Paese dell’Unione europea.)
+(Sara / ragazza / + sportiva / la classe) | la ragazza più sportiva della classe | Sara è la ragazza più sportiva della classe.
+(questo / albergo / – caro / la città) | l’albergo meno caro della città | Questo è l’albergo meno caro della città.
+(l’Everest / montagna / + alta / il mondo) | la montagna più alta del mondo/la più alta montagna del mondo | L’Everest è la montagna più alta del mondo. (Anche: L’Everest è la più alta montagna del mondo.)
+(queste / scarpe / + comode / il negozio) | le scarpe più comode del negozio | Queste sono le scarpe più comode del negozio.
+! articolo + nome + più / meno + aggettivo + di (+ articolo): d’Italia, dell’anno, del mondo, della classe. || Artikel + Nomen + più / meno + Adjektiv + di (+ Artikel): d’Italia, dell’anno, del mondo, della classe.
+
+%übung mittel | I voti di Davide
+?luecke | Completa con il superlativo relativo (+ = più, – = meno). Attenzione: l’articolo c’è una sola volta! Per buono e cattivo usa migliore e peggiore. || Ergänze den relativen Superlativ (+ = più, – = meno). Achtung: Der Artikel steht nur einmal! Für buono und cattivo nimm migliore und peggiore.
+La gita a Roma è stata (+ bello) [la più bella] dell’anno.
+Il Colosseo è stato il monumento (+ interessante) [più interessante] di tutti.
+Il primo giorno è stato (+ faticoso) [il più faticoso] della settimana: venti chilometri a piedi!
+Per la cena abbiamo scelto il ristorante (– caro) [meno caro] del quartiere.
+La pizza di Trastevere era (+ buono) [la migliore/la più buona] del viaggio.
+Il momento (+ cattivo) [peggiore] è stato il ritorno: sei ore di ritardo.
+Matteo e Luca erano (+ stanco) [i più stanchi] del gruppo.
+Le guide del Vaticano erano (+ bravo) [le più brave] di tutte.
+La sera in Piazza Navona è stata la serata (+ divertente) [più divertente] della gita.
+E la nostra prof è stata (+ paziente) [la più paziente] del mondo!
+! Se l’articolo è già prima del nome (il monumento, il ristorante, la serata), non si ripete: il monumento più interessante. || Steht der Artikel schon vor dem Nomen (il monumento, il ristorante, la serata), wird er nicht wiederholt: il monumento più interessante.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Rom ist die größte Stadt Italiens.“ || Bringe die Teile in die richtige Reihenfolge.
+Roma
+è
+la città
+più grande d’Italia.
+?ordnen | Metti le parti in ordine: „Sara ist die Sportlichste der Klasse.“ || Bringe die Teile in die richtige Reihenfolge.
+Sara
+è
+la più
+sportiva
+della classe.
+?ordnen | Metti le parti in ordine: „Das ist das am wenigsten teure Hotel der Stadt.“ || Bringe die Teile in die richtige Reihenfolge.
+Questo
+è
+l’albergo
+meno caro della città.
+?ordnen | Metti le parti in ordine: „Die beste Eisdiele Roms ist hier in der Nähe.“ || Bringe die Teile in die richtige Reihenfolge.
+La migliore
+gelateria
+di Roma
+è qui vicino.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Roma è [la città la più grande=>la città più grande/la più grande città] d’Italia.
+Questo ristorante è [il più migliore=>il migliore/il più buono] del quartiere.
+Le mie amiche sono [la più simpatiche=>le più simpatiche] della scuola.
+Febbraio è [più corto mese=>il mese più corto] dell’anno.
+Luca è il più alto [di la=>della] classe.
+Il Monte Bianco è la montagna [altissima=>più alta] delle Alpi.
+Chiara è [la meglio=>la migliore/la più brava] della squadra.
+È stato il giorno [più peggiore=>peggiore/più brutto] della mia vita.
+! Un solo articolo; mai più + migliore / peggiore; con un gruppo (delle Alpi) non -issimo, ma il più … || Nur ein Artikel; nie più + migliore / peggiore; mit einer Gruppe (delle Alpi) nicht -issimo, sondern il più …
+
+%übung schwer | Nessuno è più …
+?ergaenzen | Completa la seconda frase con il superlativo relativo: il significato non cambia. || Ergänze den zweiten Satz mit dem relativen Superlativ: Die Bedeutung bleibt gleich.
+Nessun fiume italiano è più lungo del Po. → Il Po è … | il fiume più lungo d’Italia/il fiume italiano più lungo/il più lungo fiume d’Italia | Il Po è il fiume più lungo d’Italia. (Anche: il fiume italiano più lungo, il più lungo fiume d’Italia.)
+Nessuna città italiana è più grande di Roma. → Roma è … | la città più grande d’Italia/la città italiana più grande/la più grande città d’Italia | Roma è la città più grande d’Italia. (Anche: la città italiana più grande, la più grande città d’Italia.)
+Nella classe nessuno è più alto di Davide. → Davide è … | il più alto della classe | Davide è il più alto della classe.
+Nessun mese è più corto di febbraio. → Febbraio è … | il mese più corto/il più corto dell’anno/il più corto di tutti | Febbraio è il mese più corto dell’anno. (Anche: il più corto dell’anno, il più corto di tutti.)
+Nella squadra nessuna gioca meglio di Giulia. → Giulia è … | la migliore della squadra/la più brava della squadra/la giocatrice migliore della squadra/la giocatrice più brava della squadra | Giulia è la migliore della squadra. (Anche: la più brava della squadra, la giocatrice migliore della squadra, la giocatrice più brava della squadra.)
+Tutti gli altri alberghi della città sono più cari di questo. → Questo è … | l’albergo meno caro della città/il meno caro della città | Questo è l’albergo meno caro della città. (Anche: il meno caro della città.)
+Nessuna montagna del mondo è più alta dell’Everest. → L’Everest è … | la montagna più alta del mondo/la più alta montagna del mondo/la più alta del mondo | L’Everest è la montagna più alta del mondo. (Anche: la più alta montagna del mondo, la più alta del mondo.)
+Tutti i miei amici sono più puntuali di Luca. → Luca è … | il meno puntuale | Luca è il meno puntuale dei miei amici.
+
+%übung schwer | Un messaggio da Roma
+?luecke | Completa con la forma giusta: C = comparativo, R = superlativo relativo, A = superlativo assoluto. || Ergänze die richtige Form: C = Komparativ, R = relativer Superlativ, A = absoluter Superlativ.
+Ciao Luca! Roma è (bello / A) [bellissima].
+È (grande / C) [più grande] di Firenze: infatti è la città (grande / R) [più grande] d’Italia.
+Il Colosseo è il monumento (famoso / R) [più famoso] della città, ma per me il Pantheon è (interessante / C) [più interessante] del Colosseo.
+Ieri abbiamo mangiato in una trattoria (piccolo / A) [piccolissima]: la carbonara era (buono / R) [la migliore/la più buona] della mia vita!
+Il caffè, invece, era (cattivo / C) [peggiore/più cattivo] del caffè della scuola.
+Chiara è (stanco / R) [la più stanca] del gruppo, io invece sto (bene / A) [benissimo].
+Domani visitiamo i Musei Vaticani: lì la fila è sempre (lungo / A) [lunghissima].
+! C: più … di · R: (il / la) più … di, con un solo articolo · A: -issimo. || C: più … di · R: (il / la) più … di, mit nur einem Artikel · A: -issimo.
+
+@thema date-storiche | 3 · Roma ed Europa | Parte A | Date e anni nella storia | 4
+#lehrplan Jgst. 9 · Jahreszahlen, Jahrhunderte und Zeitangaben in der Geschichte
+#regel
+**Gli anni** si leggono come numeri normali e si scrivono in una sola parola: _1492 = millequattrocentonovantadue_, _1861 = milleottocentosessantuno_, _2002 = duemiladue_. Attenzione all’accento: _settecentocinquanta**tré**_.
+| **nel** + anno | _**Nel** 1989 è caduto il Muro di Berlino._ (**nell’**80 d.C., **nell’**Ottocento) |
+| **il** + giorno + mese + anno | _**il** 2 giugno 1946_ (ma: _il **primo** maggio_) |
+| **dal** … **al** … | _**dal** 1939 **al** 1945_ |
+| … anni **fa** | _più di cinquecento anni **fa**_ |
+| **a.C.** / **d.C.** | avanti Cristo / dopo Cristo: _nel 753 a.C._ |
+**I secoli** hanno due nomi:
+| il Duecento = il XIII (tredicesimo) secolo | il Trecento = il XIV (quattordicesimo) secolo |
+| il Quattrocento = il XV (quindicesimo) secolo | il Cinquecento = il XVI (sedicesimo) secolo |
+| il Seicento = il XVII (diciassettesimo) secolo | il Settecento = il XVIII (diciottesimo) secolo |
+| l’Ottocento = il XIX (diciannovesimo) secolo | il Novecento = il XX (ventesimo) secolo |
+_Il 1492 è un anno del Quattrocento, cioè del quindicesimo secolo. Oggi siamo nel ventunesimo (XXI) secolo._
+**Numeri romani:** I = 1, V = 5, X = 10: XIII = 13, XIV = 14, XV = 15, XIX = 19, XX = 20, XXI = 21.
+#regel-de
+**Jahreszahlen** liest man wie normale Zahlen und schreibt sie in einem Wort: 1492 = _millequattrocentonovantadue_ (nicht wie im Deutschen „vierzehnhundert…“).
+„Im Jahr 1989“ = **nel** 1989 (nell’80, nell’Ottocento); Datum mit **il**: _il 2 giugno 1946_ (ohne Präposition, nicht „al“); „von … bis“ = **dal … al**; „vor 500 Jahren“ = _cinquecento anni **fa**_ (fa steht hinten!). a.C. = v. Chr., d.C. = n. Chr.
+**Jahrhunderte:** _il Quattrocento_ = die 1400er-Jahre = _il quindicesimo secolo_ (15. Jahrhundert), _il Novecento_ = _il ventesimo secolo_ (20. Jahrhundert). Jahrhunderte schreibt man oft mit römischen Zahlen: _il XX secolo_.
+
+%übung leicht | Cifre e parole
+?zuordnen | Abbina l’anno alla parola. || Verbinde die Jahreszahl mit dem Zahlwort.
+1492 = millequattrocentonovantadue
+1861 = milleottocentosessantuno
+1946 = millenovecentoquarantasei
+1957 = millenovecentocinquantasette
+1989 = millenovecentottantanove
+2002 = duemiladue
+753 = settecentocinquantatré
+476 = quattrocentosettantasei
+2020 = duemilaventi
+1999 = millenovecentonovantanove
++ duemilledue
++ millequattrocentoventinove
+
+%übung leicht | Quando?
+?auswahl | Scegli la parola giusta. || Wähle das richtige Wort.
+Colombo è arrivato in America {nel*|in|a} 1492.
+L’Italia è un Paese unito {dal*|da|al} 1861.
+{Il*|Nel|Al} 2 giugno 1946 gli italiani hanno scelto la repubblica.
+La seconda guerra mondiale è durata dal 1939 {al*|a|nel} 1945.
+I Romani hanno inaugurato il Colosseo {nell’80*|nel 80|in 80} d.C.
+Il Muro di Berlino è caduto {nel*|il|al} 1989.
+Colombo è arrivato in America più di cinquecento anni {fa*|da|scorsi}.
+Il 1957 è un anno {del*|dell’|nel} Novecento.
+{Dal*|Da|Al} 2002 in Italia si paga con l’euro.
+Il Quattrocento è il {quindicesimo*|quattordicesimo|quarto} secolo.
+! nel + anno (nell’80); il + giorno e mese; dal … al …; … anni fa. || nel + Jahr (nell’80); il + Tag und Monat; dal … al …; … anni fa (vor … Jahren).
+
+%übung leicht | In che secolo?
+?sortieren | Leggi gli anni: in che secolo sono? || Lies die Jahreszahlen: In welchem Jahrhundert liegen sie?
+Kategorien: a=il Quattrocento (XV secolo); b=l’Ottocento (XIX secolo); c=il Novecento (XX secolo); d=il XXI secolo
+millequattrocentonovantadue > a
+millequattrocentocinquanta > a
+milleottocentosessantuno > b
+milleottocentoquindici > b
+milleottocentosettanta > b
+millenovecentoquarantasei > c
+millenovecentocinquantasette > c
+millenovecentottantanove > c
+duemiladue > d
+duemilaventi > d
+
+%übung mittel | Una linea del tempo
+?luecke | Scrivi gli anni in lettere. || Schreibe die Jahreszahlen in Buchstaben.
+Secondo la leggenda, Romolo ha fondato Roma nel 753 a.C.: nel [settecentocinquantatré] avanti Cristo.
+L’Impero romano d’Occidente è finito nel 476 d.C.: nel [quattrocentosettantasei] dopo Cristo.
+Colombo è arrivato in America nel 1492: nel [millequattrocentonovantadue].
+L’Italia è diventata un Paese unito nel 1861: nel [milleottocentosessantuno].
+Gli italiani hanno scelto la repubblica nel 1946: nel [millenovecentoquarantasei].
+Sei Paesi europei hanno firmato i Trattati di Roma nel 1957: nel [millenovecentocinquantasette].
+Il Muro di Berlino è caduto nel 1989: nel [millenovecentottantanove/millenovecentoottantanove].
+L’euro è arrivato nelle tasche degli italiani nel 2002: nel [duemiladue].
+! Una sola parola: mille + novecento + ottantanove. I numeri con tre alla fine hanno l’accento: cinquantatré. || Ein Wort: mille + novecento + ottantanove. Zahlen, die auf drei enden, haben einen Akzent: cinquantatré.
+
+%übung mittel | I secoli
+?tabelle | Completa la tabella: scrivi il numero in cifre e l’altro nome del secolo. || Ergänze die Tabelle: Schreibe die Zahl in Ziffern und den anderen Namen des Jahrhunderts.
+Spalten: numero romano | in cifre | il secolo | un altro nome
+XIII | [13] | il tredicesimo secolo | [il Duecento/Duecento]
+XIV | [14] | il quattordicesimo secolo | [il Trecento/Trecento]
+XVI | [16] | il sedicesimo secolo | [il Cinquecento/Cinquecento]
+XVIII | [18] | il diciottesimo secolo | [il Settecento/Settecento]
+XIX | [19] | il diciannovesimo secolo | [l’Ottocento/Ottocento]
+XX | [20] | il ventesimo secolo | [il Novecento/Novecento]
+! Il Duecento sono gli anni «milleduecento…»: è il tredicesimo secolo. Il nome in -cento ha sempre un numero in meno: Duecento (2) → XIII (13). || Il Duecento sind die Jahre „zwölfhundert…“: das 13. Jahrhundert. Der Name auf -cento ist immer um eins kleiner: Duecento (2) → XIII (13).
+
+%übung mittel | Domande di storia
+?ergaenzen | Rispondi con una frase intera. Usa l’informazione tra parentesi. || Antworte mit einem ganzen Satz. Verwende die Angabe in Klammern.
+Quando è arrivato Colombo in America? (1492) | nel 1492 | Colombo è arrivato in America nel 1492.
+Quando è caduto il Muro di Berlino? (1989) | nel 1989 | Il Muro di Berlino è caduto nel 1989.
+Quando hanno scelto la repubblica gli italiani? (2 giugno 1946) | il 2 giugno 1946 | Gli italiani hanno scelto la repubblica il 2 giugno 1946.
+Da quando a quando è durata la seconda guerra mondiale? (1939 → 1945) | dal 1939 al 1945 | La seconda guerra mondiale è durata dal 1939 al 1945.
+Quando hanno inaugurato il Colosseo i Romani? (80 d.C.) | nell’80 | I Romani hanno inaugurato il Colosseo nell’80 d.C.
+Da quando si paga con l’euro in Italia? (2002 → oggi) | dal 2002 | In Italia si paga con l’euro dal 2002.
+Quando hanno firmato i Trattati di Roma? (1957) | nel 1957 | Hanno firmato i Trattati di Roma nel 1957.
+Quando è nato il nonno di Sara? (1950) | nel 1950 | Il nonno di Sara è nato nel 1950.
+Da quando a quando ha abitato a Roma la nonna di Luca? (1975 → 1990) | dal 1975 al 1990 | La nonna di Luca ha abitato a Roma dal 1975 al 1990.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Colombo è arrivato in America [in=>nel] 1492.
+[Al=>Il] 2 giugno 1946 gli italiani hanno scelto la repubblica.
+La seconda guerra mondiale è durata dal 1939 [a=>al] 1945.
+I Romani hanno inaugurato il Colosseo [nel 80=>nell’80] d.C.
+Colombo è arrivato in America [fa più di cinquecento anni=>più di cinquecento anni fa].
+Il 1989 è un anno del [diciannovesimo=>ventesimo] secolo.
+L’euro è arrivato nel [duemilledue=>duemiladue].
+[Nel Ottocento=>Nell’Ottocento] l’Italia è diventata un Paese unito.
+In Italia la festa del lavoro è [il uno=>il primo/il 1º/il 1°] maggio.
+! nel + anno, nell’ davanti a vocale (nell’80, nell’Ottocento); il + data; fa sta dopo «anni»; 1989 = Novecento = ventesimo secolo. || nel + Jahr, nell’ vor Vokal (nell’80, nell’Ottocento); il + Datum; fa steht nach „anni“; 1989 = Novecento = 20. Jahrhundert.
+
+%übung schwer | Dalla leggenda a oggi
+?ordnen | Leggi gli anni e metti gli eventi in ordine cronologico, dal più antico al più recente. || Lies die Jahreszahlen und bringe die Ereignisse in die zeitliche Reihenfolge, vom ältesten zum jüngsten.
+settecentocinquantatré a.C.: secondo la leggenda, Romolo fonda Roma
+ottanta d.C.: i Romani inaugurano il Colosseo
+quattrocentosettantasei d.C.: finisce l’Impero romano d’Occidente
+millequattrocentonovantadue: Colombo arriva in America
+milleottocentosessantuno: l’Italia diventa un Paese unito
+millenovecentoquarantasei: gli italiani scelgono la repubblica
+millenovecentocinquantasette: sei Paesi europei firmano i Trattati di Roma
+millenovecentottantanove: cade il Muro di Berlino
+! Gli anni a.C. vengono prima degli anni d.C. || Die Jahre v. Chr. liegen vor den Jahren n. Chr.
+
+%übung schwer | La guida racconta
+?luecke | Completa il racconto della guida con una parola per ogni spazio (nel, nell’, dal, al, il, fa, secolo, …). || Ergänze die Erzählung der Stadtführerin mit einem Wort pro Lücke (nel, nell’, dal, al, il, fa, secolo, …).
+«Benvenuti a Roma! Secondo la leggenda, la città è nata [nel] 753 a.C., cioè più di 2700 anni [fa].
+Il Colosseo è del primo [secolo] dopo Cristo: i Romani lo inaugurano [nell’]80 d.C.
+Facciamo un salto di molti secoli: [dal] 1939 [al] 1945 c’è la seconda guerra mondiale.
+Poi, [il] 2 giugno 1946, gli italiani scelgono la repubblica.
+[Nel] 1957, proprio qui a Roma, sei Paesi europei firmano i Trattati di Roma.
+E oggi? Oggi siamo nel [ventunesimo/XXI] secolo, ma a Roma la storia è dappertutto!»
+
+@thema participio-pronomi | 3 · Roma ed Europa | Parte B | L’accordo del participio con i pronomi diretti | 5
+#lehrplan Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)
+#regel
+Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:
+| il biglietto | **L’**ho comprat**o**. |
+| la cartolina | **L’**ho comprat**a**. |
+| i biglietti | **Li** ho comprat**i**. |
+| le cartoline | **Le** ho comprat**e**. |
+- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.
+- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._
+- Con la negazione: _**Non** l’ho vista._
+- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._
+#regel-de
+Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.
+Nur **lo** und **la** werden zu **l’**; **li** und **le** nie.
+Ohne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.
+Auch bei **ne** + Menge: _Ne ho fatte venti._
+
+%übung leicht | A Roma con la classe
+?auswahl | Scegli il participio giusto. || Wähle das richtige Partizip.
+Il Colosseo? L’abbiamo {visitato*|visitata|visitati} ieri.
+La Fontana di Trevi? L’ho {vista*|visto|viste} di sera.
+I biglietti? Li ha {comprati*|comprato|comprate} la prof.
+Le cartoline? Le ho {scritte*|scritti|scritto} ai nonni.
+La pizza al taglio? L’abbiamo {mangiata*|mangiato|mangiate} a Trastevere.
+I Musei Vaticani? Non li abbiamo ancora {visti*|visto|viste}.
+Le foto? Le ha {fatte*|fatti|fatto} Chiara.
+Il gelato? L’ho {preso*|presa|presi} al pistacchio.
+La metro? Oggi non l’abbiamo {presa*|preso|prese}.
+Le chiavi della camera? Le ho {perse*|persi|perso}!
+! lo → -o, la → -a, li → -i, le → -e. || lo → -o, la → -a, li → -i, le → -e.
+
+%übung leicht | Domanda e risposta
+?zuordnen | Abbina la domanda alla risposta giusta. Guarda il pronome e il participio! || Verbinde die Frage mit der passenden Antwort. Achte auf Pronomen und Partizip!
+Hai visto il Colosseo? = Sì, l’ho visto stamattina.
+Hai visto la Fontana di Trevi? = Sì, l’ho vista ieri sera.
+Hai comprato i biglietti? = Sì, li ho comprati online.
+Hai comprato le cartoline? = Sì, le ho comprate in centro.
+Hai chiamato Luca e Davide? = No, non li ho chiamati.
+Hai chiamato Sara e Chiara? = No, non le ho chiamate.
+Hai preso la metro? = No, non l’ho presa.
+Hai preso l’autobus? = No, non l’ho preso.
+
+%übung leicht | Di che cosa parlano?
+?sortieren | Guarda il pronome e il participio: di che cosa parlano? || Achte auf Pronomen und Partizip: Wovon ist die Rede?
+Kategorien: a=il museo; b=la chiesa; c=i monumenti; d=le piazze
+L’ho visitato lunedì. > a
+L’ho visitata lunedì. > b
+Li ho fotografati tutti. > c
+Le ho fotografate tutte. > d
+Non l’ho trovata. > b
+L’abbiamo trovato chiuso. > a
+Le abbiamo attraversate a piedi. > d
+Li abbiamo visti dal pullman. > c
+L’hanno costruita nel Seicento. > b
+Non le ho ancora viste. > d
+Li ha spiegati la guida. > c
+
+%übung mittel | Hai fatto tutto?
+?luecke | Completa le risposte: pronome diretto + passato prossimo. || Ergänze die Antworten: direktes Pronomen + passato prossimo.
+Prima della partenza per Roma la mamma chiede a Luca:
+– Hai preparato lo zaino? – Sì, (preparare) [l’ho preparato] ieri sera.
+– Hai preso la carta d’identità? – Sì, (prendere) [l’ho presa].
+– Hai comprato i panini? – No, non (comprare) [li ho comprati]: non ho avuto tempo.
+– Hai salutato le nonne? – Sì, (salutare) [le ho salutate] al telefono.
+– Hai chiuso la finestra? – Certo, (chiudere) [l’ho chiusa].
+– Hai letto il programma della gita? – Sì, (leggere) [l’ho letto] due volte.
+– Hai messo le scarpe comode nello zaino? – Sì, (mettere) [le ho messe] sopra i vestiti.
+– Hai fatto i compiti per lunedì? – Ehm… no, non (fare) [li ho fatti].
+– E hai visto la tua giacca? – Sì, (vedere) [l’ho vista] in macchina.
+– E i soldi? – Oh no! (dimenticare) [Li ho dimenticati] sul tavolo!
+! lo / la + ho → l’ho; li e le restano interi. Il participio prende -o, -a, -i, -e. || lo / la + ho → l’ho; li und le bleiben ganz. Das Partizip bekommt -o, -a, -i, -e.
+
+%übung mittel | Sì o no?
+?ergaenzen | Rispondi con il pronome diretto. || Antworte mit dem direkten Pronomen.
+Hai visto il Pantheon? – Sì, … | l’ho visto | Sì, l’ho visto.
+Avete visitato la Basilica di San Pietro? – Sì, … | l’abbiamo visitata | Sì, l’abbiamo visitata.
+Hai fatto le foto? – Sì, … | le ho fatte | Sì, le ho fatte.
+Avete comprato i souvenir? – No, non … | li abbiamo comprati | No, non li abbiamo comprati.
+Hai scritto la mail ai tuoi genitori? – Sì, … | l’ho scritta | Sì, l’ho scritta.
+Sara ha trovato le chiavi? – No, non … | le ha trovate | No, non le ha trovate.
+I ragazzi hanno preso il tram? – Sì, … | l’hanno preso | Sì, l’hanno preso.
+Hai assaggiato i supplì? – Sì, … | li ho assaggiati | Sì, li ho assaggiati.
+Avete chiamato la prof? – Sì, … | l’abbiamo chiamata | Sì, l’abbiamo chiamata.
+
+%übung mittel | Letto, letta, letti, lette
+?tabelle | Completa la tabella: pronome + ho + participio. || Ergänze die Tabelle: Pronomen + ho + Partizip.
+Spalten: verbo | il libro | la mail | i messaggi | le lettere
+leggere | [l’ho letto] | [l’ho letta] | [li ho letti] | [le ho lette]
+scrivere | [l’ho scritto] | [l’ho scritta] | [li ho scritti] | [le ho scritte]
+aprire | [l’ho aperto] | [l’ho aperta] | [li ho aperti] | [le ho aperte]
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+La Fontana di Trevi? L’ho [visto=>vista] ieri sera.
+I biglietti? [L’ho=>Li ho] comprati online.
+Le cartoline? Le ho [scritto=>scritte] stamattina.
+Il museo? [Ho lo visitato=>L’ho visitato] con la classe.
+Le chiavi? Non le ho [trovati=>trovate].
+I miei amici? Li ho [incontrato=>incontrati] in piazza.
+Ieri ho [comprate=>comprato] le cartoline in centro.
+Le foto? [Li=>Le] ho fatte con il telefono.
+Il Colosseo? L’abbiamo [visitata=>visitato] lunedì.
+! Il pronome sta prima di avere. Li e le non diventano mai l’. Senza pronome davanti al verbo: nessun accordo (ho comprato le cartoline). || Das Pronomen steht vor avere. Li und le werden nie zu l’. Ohne Pronomen vor dem Verb: keine Angleichung (ho comprato le cartoline).
+
+%übung schwer | Il diario di Chiara
+?luecke | Completa con il pronome (l’, li, le, ne) e con il participio del verbo tra parentesi. || Ergänze das Pronomen (l’, li, le, ne) und das Partizip des Verbs in Klammern.
+Lunedì abbiamo visitato i Fori Imperiali: [li] abbiamo (vedere) [visti] con una guida.
+La guida era bravissima: [l’]abbiamo (ascoltare) [ascoltata] per due ore.
+Poi ho comprato dieci cartoline e [ne] ho già (scrivere) [scritte] quattro.
+Le altre sei? Non [le] ho ancora (scrivere) [scritte].
+A pranzo ho preso un supplì. Buonissimo! Matteo [ne] ha (mangiare) [mangiati] tre.
+La sera ho cercato la mia sciarpa, ma non [l’]ho (trovare) [trovata].
+! ne + quantità: il participio concorda con la cosa (cartoline → scritte, supplì → mangiati). || ne + Menge: Das Partizip richtet sich nach der Sache (cartoline → scritte, supplì → mangiati).
+
+%übung schwer | Non ripetere!
+?ergaenzen | Riscrivi la seconda frase con un pronome (lo, la, li, le o ne). || Schreibe den zweiten Satz mit einem Pronomen neu (lo, la, li, le oder ne).
+Ho perso la chiave. Ho cercato la chiave dappertutto. → … | L’ho cercata | L’ho cercata dappertutto.
+Abbiamo comprato i biglietti. Abbiamo pagato i biglietti online. → … | Li abbiamo pagati | Li abbiamo pagati online.
+Sara ha fatto molte foto. Ha mandato le foto alla nonna. → … | Le ha mandate | Le ha mandate alla nonna.
+Ho letto il messaggio di Luca. Non ho capito il messaggio. → … | Non l’ho capito | Non l’ho capito.
+I ragazzi hanno trovato una trattoria. Hanno scelto la trattoria per la cena. → … | L’hanno scelta | L’hanno scelta per la cena.
+Ho scritto due mail. Ho spedito le mail stamattina. → … | Le ho spedite | Le ho spedite stamattina.
+Abbiamo visto i gladiatori davanti al Colosseo. Abbiamo fotografato i gladiatori. → … | Li abbiamo fotografati | Li abbiamo fotografati.
+Ho comprato sei cartoline. Ho spedito tre cartoline. (ne) → … | Ne ho spedite tre | Ne ho spedite tre.
+Davide ha ordinato due pizze. Ha mangiato solo una pizza. (ne) → … | Ne ha mangiata | Ne ha mangiata solo una.
+
+@thema quello-che | 3 · Roma ed Europa | Parte B | Quello che e ciò che | 6
+#lehrplan Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che
+#regel
+**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:
+- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._
+- _Non capisco **quello che** dice la guida._
+- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)
+_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.
+Confronta:
+| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |
+| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |
+| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |
+Attenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.
+#regel-de
+**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.
+„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).
+Unterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase italiana alla traduzione. || Verbinde den italienischen Satz mit der Übersetzung.
+Quello che dici è vero. = Was du sagst, stimmt.
+Non capisco ciò che dice. = Ich verstehe nicht, was er sagt.
+Prendi tutto quello che vuoi. = Nimm alles, was du willst.
+Che cosa vuoi? = Was willst du?
+È il libro che voglio. = Das ist das Buch, das ich will.
+Faccio quello che posso. = Ich tue, was ich kann.
+Ecco ciò che ho trovato. = Hier ist, was ich gefunden habe.
+Che cosa hai trovato? = Was hast du gefunden?
+Racconta tutto quello che sai. = Erzähl alles, was du weißt.
+
+%übung leicht | Che, quello che o che cosa?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Il monumento {che*|quello che|che cosa} preferisco è il Pantheon.
+{Quello che*|Che|Che cosa} dice la guida è molto interessante.
+{Che cosa*|Quello che|Ciò che} visitiamo domani?
+Non ho capito {quello che*|quello|quale} ha detto il prof.
+La pizza {che*|ciò che|che cosa} abbiamo mangiato ieri era ottima.
+Ti racconto tutto {quello che*|che|quale} è successo.
+{Ciò che*|Che|Che cosa} mi piace di Roma è la luce.
+Questa è la piazza {che*|quello che|ciò che} ti ho mostrato in foto.
+{Che cosa*|Ciò che|Tutto quello che} hai comprato per i tuoi genitori?
+Non è vero {quello che*|quello|che cosa} hai scritto nel messaggio.
+! Dopo un nome: che. Senza nome: quello che / ciò che. In una domanda diretta: che cosa. || Nach einem Nomen: che. Ohne Nomen: quello che / ciò che. In der direkten Frage: che cosa.
+
+%übung leicht | Che cosa manca?
+?sortieren | Che cosa manca al posto dei puntini? || Was fehlt an der Stelle der Punkte?
+Kategorien: a=che (dopo un nome); b=quello che / ciò che (senza nome); c=che cosa (domanda)
+Il treno … prendiamo parte alle otto. > a
+… prendiamo da bere? > c
+… mi piace di più è il gelato. > b
+Ho perso la cartolina … ho comprato ieri. > a
+… ha detto la guida? > c
+Non credo a tutto … leggo online. > b
+… fate stasera? > c
+La ragazza … parla con Luca è mia cugina. > a
+… scrivi nel tema è molto bello. > b
+
+%übung mittel | Nella chat della classe
+?luecke | Completa con che, quello che o che cosa. || Ergänze che, quello che oder che cosa.
+– Ragazzi, [che cosa/cosa/che] facciamo sabato a Roma?
+– Io voglio vedere il Colosseo: è il monumento [che] mi interessa di più.
+– Per me va bene tutto [quello che/ciò che] decidete voi.
+– [Quello che/Ciò che] dice Sara non è giusto: dobbiamo decidere insieme!
+– Ok. Allora [che cosa/cosa/che] preferite, i Musei Vaticani o il Pantheon?
+– Il Pantheon! La guida [che] ho letto dice che è bellissimo.
+– E la sera? Mangiamo nella pizzeria [che] ci ha consigliato la prof?
+– Sì! Lì ognuno può ordinare [quello che/ciò che] vuole.
+– Perfetto. [Quello che/Ciò che] abbiamo deciso mi piace molto.
+– Un’ultima domanda: [che cosa/cosa/che] portiamo da mangiare per il viaggio?
+! Al posto di quello che va bene anche ciò che. || Statt quello che ist auch ciò che richtig.
+
+%übung mittel | La cosa che …
+?ergaenzen | Riscrivi la frase con quello che (o ciò che). || Schreibe den Satz mit quello che (oder ciò che) neu.
+La cosa che mi piace di più a Roma è il gelato. → … è il gelato. | Quello che mi piace/Ciò che mi piace | Quello che mi piace di più a Roma è il gelato. (Anche: Ciò che mi piace di più a Roma è il gelato.)
+Non capisco le cose che dice la guida. → Non capisco … | quello che dice la guida/ciò che dice la guida | Non capisco quello che dice la guida. (Anche: ciò che dice la guida.)
+Hai comprato le cose che volevi? → Hai comprato …? | quello che volevi/ciò che volevi | Hai comprato quello che volevi? (Anche: ciò che volevi?)
+Tutte le cose che vedi qui sono antiche. → … è antico. | Tutto quello che vedi qui/Tutto ciò che vedi qui | Tutto quello che vedi qui è antico. (Anche: Tutto ciò che vedi qui è antico.)
+La cosa che ha detto Luca è vera. → … è vero. | Quello che ha detto Luca/Ciò che ha detto Luca | Quello che ha detto Luca è vero. (Anche: Ciò che ha detto Luca è vero.)
+Ti racconto tutte le cose che ho visto. → Ti racconto … | tutto quello che ho visto/tutto ciò che ho visto | Ti racconto tutto quello che ho visto. (Anche: tutto ciò che ho visto.)
+La cosa che non mi piace è il traffico. → … è il traffico. | Quello che non mi piace/Ciò che non mi piace | Quello che non mi piace è il traffico. (Anche: Ciò che non mi piace è il traffico.)
+Faccio sempre le cose che dice la prof. → Faccio sempre … | quello che dice la prof/ciò che dice la prof | Faccio sempre quello che dice la prof. (Anche: ciò che dice la prof.)
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Ich verstehe nicht, was die Stadtführerin sagt.“ || Bringe die Teile in die richtige Reihenfolge.
+Non capisco
+quello che
+dice la guida.
+?ordnen | Metti le parti in ordine: „Alles, was du hier siehst, ist uralt.“ || Bringe die Teile in die richtige Reihenfolge.
+Tutto
+quello che
+vedi qui
+è antichissimo.
+?ordnen | Metti le parti in ordine: „Was mir an Rom gefällt, ist die Küche.“ || Bringe die Teile in die richtige Reihenfolge.
+Ciò che
+mi piace di Roma
+è la cucina.
+?ordnen | Metti le parti in ordine: „Erzähl mir alles, was du gesehen hast!“ || Bringe die Teile in die richtige Reihenfolge.
+Raccontami
+tutto
+quello che
+hai visto!
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+[Che=>Quello che/Ciò che] dici è vero.
+Ti do tutto [che=>quello che/ciò che] ho.
+[Quello che=>Che cosa/Cosa/Che] fai stasera?
+La città [quello che=>che] preferisco è Roma.
+Non mi piace [che=>quello che/ciò che] hai detto.
+Quello che mi piace di più [sono=>è] il mare.
+[Ciò=>Ciò che/Quello che] vedi qui è il Foro Romano.
+Il film [ciò che=>che] abbiamo visto ieri era noioso.
+Racconta [tutto quello=>tutto quello che/tutto ciò che] sai!
+! Senza nome davanti: quello che / ciò che; con tutto: tutto quello che / tutto ciò che; dopo un nome solo che; nella domanda che cosa. || „das, was“ = quello che / ciò che; „alles, was“ = tutto quello che; nach einem Nomen nur che; in der Frage che cosa.
+
+%übung schwer | Una mail a casa
+?luecke | Completa la mail con che, quello che o che cosa. || Ergänze die Mail mit che, quello che oder che cosa.
+Cari mamma e papà, Roma è fantastica! [Quello che/Ciò che] mi piace di più è il centro storico.
+L’albergo [che] ha scelto la scuola è piccolo, ma pulito.
+La guida è bravissima: capisco quasi tutto [quello che/ciò che] dice.
+Ieri abbiamo visto il Colosseo. E [che cosa/cosa/che] ha detto Matteo davanti al Colosseo? «Sembra un film!»
+Le foto [che] ho fatto sono più di duecento!
+Non tutto è perfetto: [quello che/ciò che] non mi piace è il traffico.
+Anche i panini [che] vendono vicino ai monumenti sono carissimi.
+Stasera possiamo fare [quello che/ciò che] vogliamo: la prof ci lascia due ore libere.
+E voi, [che cosa/cosa/che] fate senza di me?
+Quando torno vi racconto tutto [quello che/ciò che] ho visto. Un abbraccio, Giulia
+! che ha sempre un nome davanti (l’albergo che, le foto che, i panini che); quello che no. || che hat immer ein Nomen vor sich (l’albergo che, le foto che, i panini che); quello che nicht.
+
+%übung schwer | Quello che penso io
+?ergaenzen | Unisci le due frasi in una sola. Usa quello che, tutto quello che o che. || Verbinde die beiden Sätze zu einem. Verwende quello che, tutto quello che oder che.
+Tu dici una cosa. Questa cosa è giusta. → … | Quello che dici è giusto/Ciò che dici è giusto | Quello che dici è giusto.
+Tu scrivi molte cose. Io capisco tutto. → Capisco … | tutto quello che scrivi/tutto ciò che scrivi | Capisco tutto quello che scrivi.
+Cerco un libro. È questo. → Questo è … | il libro che cerco/il libro che sto cercando | Questo è il libro che cerco.
+Mi piace una cosa: la musica. → … | Quello che mi piace è la musica/Ciò che mi piace è la musica | Quello che mi piace è la musica.
+Vuoi qualcosa? Prendilo! → Prendi … | quello che vuoi/ciò che vuoi | Prendi quello che vuoi!
+A Roma ho visto molte cose. Ti racconto tutto. → Ti racconto … | tutto quello che ho visto/tutto ciò che ho visto | Ti racconto tutto quello che ho visto a Roma.
+?frei | Scrivi cinque frasi su una città o un viaggio: che cosa ti è piaciuto, che cosa no? Usa quello che, ciò che e tutto quello che. || Schreibe fünf Sätze über eine Stadt oder eine Reise: Was hat dir gefallen, was nicht? Verwende quello che, ciò che und tutto quello che.
+Quello che mi è piaciuto di più a Roma è il Colosseo. Ciò che non mi è piaciuto è il traffico. Tutto quello che abbiamo mangiato era buonissimo. Non ho capito tutto quello che ha detto la guida, ma quello che ho visto era bellissimo.
+Zeilen: 6

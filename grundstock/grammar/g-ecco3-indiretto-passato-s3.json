@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-s3",
+ "title": "Mi ha chiesto se …",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · Mi ha chiesto se … · livello difficile.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Giulia fa alcune domande a Leon, un compagno nuovo. Leon racconta. Trasforma le domande.",
+   "promptHelp": "Giulia stellt Leon, einem neuen Mitschüler, Fragen. Leon erzählt davon. Forme die Fragen um.",
+   "explanation": "Nelle domande indirette vanno bene l’indicativo (se ero stato) e il congiuntivo (se fossi stato).",
+   "explanationHelp": "In indirekten Fragen sind Indikativ (se ero stato) und congiuntivo (se fossi stato) möglich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "«Sei mai stato in Sardegna?» → Giulia mi ha chiesto se …",
+     "acceptedAnswers": [
+      "ero mai stato in Sardegna",
+      "fossi mai stato in Sardegna"
+     ],
+     "modelAnswer": "Giulia mi ha chiesto se ero mai stato in Sardegna."
+    },
+    {
+     "id": "s2",
+     "start": "«Dove hai imparato l’italiano?» → Mi ha chiesto dove …",
+     "acceptedAnswers": [
+      "avevo imparato l’italiano",
+      "avessi imparato l’italiano"
+     ],
+     "modelAnswer": "Mi ha chiesto dove avevo imparato l’italiano."
+    },
+    {
+     "id": "s3",
+     "start": "«Quando tornerai a casa?» → Mi ha chiesto quando …",
+     "acceptedAnswers": [
+      "sarei tornato a casa"
+     ],
+     "modelAnswer": "Mi ha chiesto quando sarei tornato a casa."
+    },
+    {
+     "id": "s4",
+     "start": "«Ti piace il mare?» → Mi ha chiesto se …",
+     "acceptedAnswers": [
+      "mi piaceva il mare",
+      "mi piacesse il mare"
+     ],
+     "modelAnswer": "Mi ha chiesto se mi piaceva il mare."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Che cosa ti ha detto o chiesto ieri un amico, un’amica o un parente? Scrivi 5 frasi al discorso indiretto (ha detto che …, mi ha chiesto se …, mi ha detto di …).",
+   "promptHelp": "Was hat dir gestern ein Freund, eine Freundin oder ein Verwandter gesagt oder dich gefragt? Schreibe 5 Sätze in indirekter Rede.",
+   "type": "open_answer",
+   "modelAnswer": "Ieri mia cugina mi ha detto che aveva trovato un lavoro a Verona. Ha detto che era molto contenta e che sarebbe partita a settembre. Mi ha chiesto se volevo andare a trovarla. Poi mi ha detto di non raccontare ancora niente ai nonni. Ha aggiunto che il giorno dopo avrebbe parlato lei con loro.",
+   "lines": 6
+  }
+ ]
+}

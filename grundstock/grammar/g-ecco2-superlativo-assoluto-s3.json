@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-assoluto-s3",
+ "title": "La mia città",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo assoluto · La mia città · livello difficile.",
+ "topics": [
+  "Il superlativo assoluto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · absoluter Superlativ (-issimo, molto + Adjektiv), ottimo / pessimo"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-assoluto",
+  "topicTitle": "Il superlativo assoluto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **superlativo assoluto** dice che una qualità è **molto** forte, senza confronto: _Roma è **bellissima**_ = _Roma è **molto bella**_.\n| aggettivo senza l’ultima vocale + **-issimo** | bell-o → bell**issimo** · grand-e → grand**issimo** |\n| concorda con il nome | un museo famosissim**o**, una piazza famosissim**a**, musei famosissim**i**, piazze famosissim**e** |\n| -co / -go → **-chissimo / -ghissimo** | antico → anti**ch**issimo · lungo → lun**gh**issimo · stanco → stan**ch**issimo |\n| plurale in -ci → **-cissimo** | simpatico (simpatici) → simpati**c**issimo |\n**Avverbi** (non cambiano mai): bene → **benissimo**, male → **malissimo**, molto → **moltissimo**, poco → **pochissimo**. _A Roma abbiamo mangiato benissimo._\n**Forme speciali:** buono → **ottimo** (o buonissimo), cattivo → **pessimo** (o cattivissimo).\nAttenzione: mai _molto_ insieme a _-issimo_! _molto bello_ **o** _bellissimo_.",
+  "ruleHelp": "Der **absolute Superlativ** drückt einen sehr hohen Grad aus, ohne Vergleich: _bellissimo_ = _molto bello_ = „sehr schön“. Im Deutschen gibt es dafür keine eigene Endung.\nBildung: Adjektiv ohne Endvokal + **-issimo/-issima/-issimi/-issime** (richtet sich nach dem Nomen). -co/-go → **-chissimo/-ghissimo** (antichissimo, lunghissimo); aber simpatico (Plural simpatici) → simpaticissimo.\nAdverbien bleiben unverändert: **benissimo, malissimo, moltissimo, pochissimo**. Sonderformen: **ottimo** (sehr gut), **pessimo** (sehr schlecht).\nNie _molto_ und _-issimo_ zusammen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi una città che conosci bene. Usa almeno cinque superlativi assoluti (aggettivi e avverbi).",
+   "promptHelp": "Beschreibe eine Stadt, die du gut kennst. Verwende mindestens fünf absolute Superlative (Adjektive und Adverbien).",
+   "type": "open_answer",
+   "modelAnswer": "Monaco è una città bellissima. Il centro è antichissimo e i parchi sono grandissimi. In inverno fa freddissimo, ma io qui sto benissimo. I musei sono interessantissimi e i miei amici sono simpaticissimi.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma è giusta?",
+   "promptHelp": "Prüfe: Welche Form ist richtig?",
+   "type": "gap_choice",
+   "text": "Il centro è [[g1]].\nI parchi sono [[g2]].\nQui si mangia [[g3]].\nI miei amici sono [[g4]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "antichissimo",
+      "anticissimo"
+     ],
+     "answer": "antichissimo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "grandissimi",
+      "grandissime"
+     ],
+     "answer": "grandissimi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "benissimo",
+      "buonissimo"
+     ],
+     "answer": "benissimo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "simpaticissimi",
+      "simpatichissimi"
+     ],
+     "answer": "simpaticissimi"
+    }
+   ]
+  }
+ ]
+}

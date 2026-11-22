@@ -1,0 +1,700 @@
+#!buch series=Corso_daje volume=3 grade=10 cefr=B1 prefix=ecco3
+## Terzo anno · Unità 1 · Tradizioni. Eigene Übungen. Alle Zahlen in den Statistik-Übungen stammen aus erfundenen Klassenumfragen.
+
+@thema statistiche | 1 · Tradizioni | Per cominciare | Leggere e presentare statistiche | 1
+#lehrplan Jgst. 10 · Statistiken und Umfragen versprachlichen (Redemittel)
+#regel
+Per **presentare una statistica** o un sondaggio usiamo queste espressioni:
+| **il 40 per cento** (40 %) di … | 40 persone su 100 |
+| **la metà** di … | 50 % |
+| **un terzo**, **un quarto**, **tre quarti** di … | 1/3, 1/4, 3/4 |
+| **la maggior parte** di … | più della metà |
+| **uno su tre** | una persona in un gruppo di tre |
+| **in aumento** / **in calo** | il numero sale / scende |
+| **rispetto a** … | in confronto a … |
+| **circa**, **quasi** | più o meno / un po’ meno di |
+Prima di **per cento** c’è sempre l’**articolo**: _**il** 20 per cento_, ma _**l’**8 per cento, **l’**11 per cento, **l’**80 per cento_ (otto, undici, ottanta cominciano con una vocale) e _**lo** 0 per cento_.
+_**La metà** della classe preferisce il Natale. **Uno** studente **su** quattro ha scelto il Carnevale. **Rispetto all’**anno scorso le risposte sono **in aumento**._
+Dopo _il … per cento di, la metà di, un terzo di, la maggior parte di_ il verbo è di solito al **singolare**: _Il 40 per cento degli studenti **preferisce** il Natale._
+#regel-de
+Redemittel für **Statistiken und Umfragen**: _il 40 per cento di_ (40 Prozent der …), _la metà_ (die Hälfte), _un terzo / un quarto_ (ein Drittel / Viertel), _la maggior parte_ (die meisten), _uno su tre_ (einer von dreien – mit **su**, nicht mit di oder da), _in aumento / in calo_ (steigend / sinkend), _rispetto a_ (im Vergleich zu), _circa_ (ungefähr), _quasi_ (fast).
+Anders als im Deutschen steht vor der Prozentzahl immer der **Artikel**: _il 20 per cento_, vor Vokal _l’8, l’11, l’80 per cento_, bei null _lo 0 per cento_. „Die Hälfte“ heißt **la metà** (nicht _la mezza_). Nach _il … per cento di, la metà di, un terzo di, la maggior parte di_ steht das Verb meist im **Singular**: _Il 40 per cento degli studenti preferisce …_ (deutsch: 40 Prozent der Schüler bevorzug**en** …).
+
+%übung leicht | Numeri e parole
+?zuordnen | Abbina l’espressione al numero. || Verbinde den Ausdruck mit der Zahl.
+la metà = 50 %
+un quarto = 25 %
+un terzo = circa 33 %
+tre quarti = 75 %
+due terzi = circa 67 %
+uno su dieci = 10 %
+uno su cinque = 20 %
+tutti = 100 %
+nessuno = 0 %
+
+%übung leicht | Il, l’ o lo?
+?auswahl | Scegli l’articolo giusto prima della percentuale. Leggi il numero a voce alta! || Wähle den richtigen Artikel vor der Prozentzahl. Lies die Zahl laut!
+{Il*|L’|Lo} 25 per cento
+{L’*|Il|Lo} 80 per cento
+{L’*|Il|Lo} 8 per cento
+{Il*|L’|Lo} 15 per cento
+{L’*|Il|Lo} 11 per cento
+{Il*|L’|Lo} 50 per cento
+{L’*|Il|Lo} 85 per cento
+{Il*|L’|Lo} 70 per cento
+{Lo*|Il|L’} 0 per cento
+{L’*|Il|Lo} 1 per cento
+! il venticinque, il settanta … ma: l’otto, l’undici, l’ottanta, l’uno (vocale) e lo zero. || il vor Konsonant; l’ vor Vokal (otto, undici, ottanta, uno); lo vor zero.
+
+%übung leicht | Sale o scende?
+?sortieren | Che cosa succede al numero? Metti le frasi nel gruppo giusto. || Was passiert mit der Zahl? Ordne die Sätze der richtigen Gruppe zu.
+Kategorien: su=↑ il numero sale; giu=↓ il numero scende; uguale=→ il numero resta uguale
+Il numero è in aumento. > su
+Il numero cresce. > su
+Il numero aumenta. > su
+Il numero è in calo. > giu
+Il numero diminuisce. > giu
+Il numero cala. > giu
+Il numero è stabile. > uguale
+Il numero non cambia. > uguale
+Il numero è lo stesso dell’anno scorso. > uguale
+
+%übung mittel | Il sondaggio della 3B
+?luecke wortkasten | Sondaggio (inventato) nella classe 3B, 20 studenti: «Qual è la tua festa preferita?» Natale 10 · Carnevale 5 · Capodanno 3 · Ferragosto 2. Completa la presentazione. || Erfundene Umfrage in der Klasse 3B (20 Schüler): Lieblingsfest. Ergänze die Präsentation mit den Wörtern aus dem Kasten.
+Abbiamo fatto un sondaggio nella nostra classe: hanno risposto 20 studenti.
+Per [la metà] della classe la festa preferita è il Natale.
+Un [quarto] degli studenti, cioè il 25 per [cento], ha scelto il Carnevale.
+Tre studenti [su] venti preferiscono il Capodanno.
+Solo il 10 per cento ha indicato il Ferragosto: è la festa [meno] amata.
+[Quasi] nessuno, infatti, l’ha scelto: solo due studenti.
+[Rispetto] al Natale, il Carnevale ha la metà dei voti.
+Insieme, Natale e Carnevale arrivano a [tre quarti] dei voti.
++ terzo, aumento
+
+%übung mittel | Dillo in un altro modo
+?ergaenzen | Di’ la stessa cosa con un’altra espressione. || Sag dasselbe mit einem anderen Ausdruck.
+il 50 per cento della classe = … della classe | la metà | la metà della classe
+il 25 per cento dei ragazzi = … dei ragazzi | un quarto | un quarto dei ragazzi
+il 75 per cento delle famiglie = … delle famiglie | tre quarti | tre quarti delle famiglie
+il 20 per cento = uno su … | cinque | uno su cinque
+il 10 per cento = uno su … | dieci | uno su dieci
+più del 50 per cento = la … parte | maggior | la maggior parte
+il 100 per cento degli studenti = … gli studenti | tutti | tutti gli studenti
+lo 0 per cento degli studenti = … studente | nessuno | nessuno studente
+Il numero sale. = Il numero è in … | aumento/crescita | Il numero è in aumento.
+Il numero scende. = Il numero è in … | calo/diminuzione | Il numero è in calo. (anche: in diminuzione)
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Die Hälfte der Klasse feiert Weihnachten mit den Großeltern.“ || Bringe die Wörter in die richtige Reihenfolge.
+La metà
+della classe
+festeggia
+il Natale con i nonni.
+?ordnen | Metti le parole in ordine: „Einer von drei Schülern kennt diese Tradition nicht.“ || Bringe die Wörter in die richtige Reihenfolge.
+Uno studente
+su tre
+non conosce
+questa tradizione.
+?ordnen | Metti le parole in ordine: „Nur 10 Prozent der Befragten haben Ferragosto gewählt.“ || Bringe die Wörter in die richtige Reihenfolge.
+Solo
+il 10 per cento
+degli intervistati
+ha scelto
+il Ferragosto.
+?ordnen | Metti le parole in ordine: „Im Vergleich zum letzten Jahr steigt die Zahl der Antworten.“ || Bringe die Wörter in die richtige Reihenfolge.
+Rispetto
+all’anno scorso,
+il numero delle risposte
+è
+in aumento.
+
+%übung schwer | Trova gli errori
+?fehler | Luca presenta il sondaggio della 3B, ma fa nove errori. Correggili. || Luca stellt die Umfrage der 3B vor, macht aber neun Fehler. Korrigiere sie.
+[Il=>L’] 80 per cento degli studenti ama il Carnevale.
+Uno studente [da=>su] quattro non passa il Capodanno con la famiglia.
+[La mezza=>La metà] della classe mangia il panettone a Natale.
+[20 per cento=>Il 20 per cento] degli studenti non ha risposto.
+La maggior parte [dei=>degli] studenti festeggia il compleanno con gli amici.
+Il 30 [percenti=>per cento/percento] della classe preferisce il pandoro.
+[Un tre=>Un terzo] della classe non ha mai visto una sfilata di Carnevale.
+Rispetto [di=>a] ieri, le risposte al sondaggio sono di più.
+Il numero delle risposte è in [aumenta=>aumento].
+! Articolo prima della percentuale; uno **su** quattro; **la metà**; un **terzo**; rispetto **a**; in **aumento**. || Artikel vor der Prozentzahl; uno **su** quattro; **la metà**; un **terzo**; rispetto **a**; in **aumento**.
+
+%übung schwer | Con chi passi il Ferragosto?
+?auswahl | Sondaggio (inventato) nella classe 3B, 20 studenti: «Con chi passi il Ferragosto?» Quest’anno: famiglia 12 · amici 6 · a casa da solo/a 2. L’anno scorso: famiglia 14 · amici 4 · a casa 2. Scegli l’espressione giusta. || Erfundene Umfrage in der 3B (20 Schüler): Mit wem verbringst du Ferragosto? Wähle den passenden Ausdruck.
+Nel nostro sondaggio {la maggior parte*|la metà|un terzo} della classe, cioè 12 studenti su 20, passa il Ferragosto con la famiglia: è {il 60*|il 12|l’80} per cento.
+Sei studenti, cioè {il*|l’|lo} 30 per cento, lo passano con gli amici: sono {quasi un terzo*|la metà|un quinto} della classe.
+Solo {uno su dieci*|uno su due|uno su cinque} resta a casa.
+{Rispetto*|Secondo|Circa} all’anno scorso, gli studenti che scelgono la famiglia sono {in calo*|in aumento|stabili}: erano 14, ora sono 12.
+Sono invece {in aumento*|in calo|stabili} gli studenti che preferiscono gli amici: da 4 a 6.
+Conclusione: per {più della metà*|meno della metà|un quarto} della 3B il Ferragosto è una festa di famiglia.
+! 12 su 20 = 60 % (più della metà); 6 su 20 = 30 % (quasi un terzo); 2 su 20 = 10 % (uno su dieci). || 12 von 20 = 60 % (mehr als die Hälfte); 6 von 20 = 30 % (fast ein Drittel); 2 von 20 = 10 % (einer von zehn).
+
+%übung schwer | Il nostro sondaggio
+?frei | Fai un piccolo sondaggio (vero o inventato) nella tua classe su una festa o una tradizione e presenta i risultati in 5–6 frasi. Usa: la metà, un terzo / un quarto, uno su …, il … per cento, rispetto a, in aumento / in calo. || Mach eine kleine (echte oder erfundene) Umfrage in deiner Klasse zu einem Fest oder Brauch und stelle die Ergebnisse in 5–6 Sätzen vor.
+Abbiamo fatto un sondaggio nella nostra classe: «Qual è il tuo dolce di Natale preferito?» Hanno risposto 24 studenti. La metà della classe preferisce il panettone. Un terzo ha scelto il pandoro. Solo uno studente su sei non mangia dolci di Natale. Rispetto all’anno scorso, il pandoro è in aumento.
+Zeilen: 6
+?auswahl | Controlla: quale espressione è giusta? || Prüfe: Welcher Ausdruck ist richtig?
+{La metà*|La mezza} della classe preferisce il panettone.
+Uno studente {su*|da} sei non mangia dolci di Natale.
+Rispetto {all’*|dell’}anno scorso, il pandoro è in aumento.
+{L’*|Il} 8 per cento non ha risposto.
+
+@thema congiuntivo-passato-ripasso | 1 · Tradizioni | Parte A | Il congiuntivo passato: ripasso | 2
+#lehrplan Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels
+#regel
+Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.
+| | avere + fatto | essere + andato |
+| che io | **abbia** fatto | **sia** andato/-a |
+| che tu | **abbia** fatto | **sia** andato/-a |
+| che lui / lei | **abbia** fatto | **sia** andato/-a |
+| che noi | **abbiamo** fatto | **siamo** andati/-e |
+| che voi | **abbiate** fatto | **siate** andati/-e |
+| che loro | **abbiano** fatto | **siano** andati/-e |
+Lo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:
+- _Penso che Luca **sia arrivato** ieri._ (prima)
+- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)
+Con **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._
+#regel-de
+Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.
+Er steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.
+Mit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_.
+
+%übung leicht | Sia o abbia?
+?auswahl | Essere o avere? Scegli l’ausiliare giusto. || Essere oder avere? Wähle das richtige Hilfsverb.
+Penso che Luca {sia*|abbia} andato al Palio di Siena.
+Credo che la nonna {abbia*|sia} preparato i tortellini.
+Spero che i ragazzi {siano*|abbiano} arrivati in tempo.
+Mi sembra che la festa {sia*|abbia} cominciata alle otto.
+È possibile che Sara {sia*|abbia} rimasta a casa.
+Non credo che voi {abbiate*|siate} visto i fuochi d’artificio.
+Peccato che tu non {sia*|abbia} venuto al Carnevale!
+Temo che i bambini {abbiano*|siano} mangiato troppi dolci.
+Sono contenta che vi {siate*|abbiate} divertiti.
+Penso che la Befana {abbia*|sia} portato il carbone a mio fratello!
+! Come al passato prossimo: verbi di movimento, rimanere / restare, riflessivi e anche cominciare / finire senza oggetto (la festa è cominciata) → essere; gli altri → avere. || Wie im passato prossimo: Bewegungsverben, rimanere / restare, reflexive Verben und auch cominciare / finire ohne Objekt (la festa è cominciata) → essere; die anderen → avere.
+
+%übung leicht | Presente o passato?
+?sortieren | Congiuntivo presente o congiuntivo passato? || Congiuntivo presente oder congiuntivo passato?
+Kategorien: pres=congiuntivo presente; pass=congiuntivo passato
+che io vada > pres
+che tu sia andato > pass
+che lei abbia tempo > pres
+che lui abbia avuto tempo > pass
+che loro siano contenti > pres
+che voi siate partiti > pass
+che lui faccia una torta > pres
+che io abbia detto tutto > pass
+che tu venga > pres
+che loro abbiano visto la sfilata > pass
+! Il passato ha sempre due parole: abbia / sia + participio. || Der congiuntivo passato besteht immer aus zwei Wörtern: abbia / sia + Partizip.
+
+%übung leicht | Dall’indicativo al congiuntivo
+?zuordnen | Abbina il passato prossimo al congiuntivo passato. || Verbinde das passato prossimo mit dem congiuntivo passato.
+ho mangiato = che io abbia mangiato
+sei uscita = che tu sia uscita
+ha scritto = che lui abbia scritto
+è rimasta = che lei sia rimasta
+abbiamo visto = che noi abbiamo visto
+siete venuti = che voi siate venuti
+hanno preso = che loro abbiano preso
+sono partite = che loro siano partite
+
+%übung mittel | Le forme
+?tabelle | Completa la tabella con il congiuntivo passato. || Ergänze die Tabelle mit dem congiuntivo passato.
+Spalten: persona | fare | andare
+che io | [abbia fatto] | [sia andato/sia andata]
+che tu | [abbia fatto] | [sia andato/sia andata]
+che lui / lei | [abbia fatto] | [sia andato/sia andata]
+che noi | [abbiamo fatto] | [siamo andati/siamo andate]
+che voi | [abbiate fatto] | [siate andati/siate andate]
+che loro | [abbiano fatto] | [siano andati/siano andate]
+
+%übung mittel | Dopo il Carnevale
+?luecke | Davide e Sara chattano dopo il Carnevale. Metti i verbi al congiuntivo passato. || Davide und Sara chatten nach dem Karneval. Setze die Verben in den congiuntivo passato.
+– Davide: Ciao Sara! Spero che ieri tu (divertirsi) [ti sia divertita] a Venezia.
+– Sara: Tantissimo! Peccato che tu, Davide, non (venire) [sia venuto] con noi.
+– Davide: Avevo la febbre… Ma sono contento che voi (vedere) [abbiate visto] le maschere.
+– Sara: Bellissime! Penso che Chiara (fare) [abbia fatto] almeno duecento foto.
+– Sara: È possibile che lei (mettere) [abbia messo] già tutto online.
+– Davide: E Matteo e Luca? Mi sembra che (perdersi) [si siano persi] tra i canali!
+– Sara: Sì, che ridere! Credo che (arrivare, loro) [siano arrivati] alla stazione all’ultimo minuto.
+– Davide: Sono felice che la gita (andare) [sia andata] bene.
+
+%übung mittel | Penso che …
+?ergaenzen | Non sei sicuro/a: trasforma la frase con il congiuntivo passato. || Du bist nicht sicher: Forme den Satz mit dem congiuntivo passato um.
+Marta è già partita. – Penso che … | Marta sia già partita | Penso che Marta sia già partita.
+I ragazzi hanno visto la sfilata. – Credo che … | i ragazzi abbiano visto la sfilata | Credo che i ragazzi abbiano visto la sfilata.
+Luca ha dimenticato il costume. – Ho paura che … | Luca abbia dimenticato il costume | Ho paura che Luca abbia dimenticato il costume.
+Le zie sono arrivate ieri. – Mi sembra che … | le zie siano arrivate ieri | Mi sembra che le zie siano arrivate ieri.
+Avete mangiato bene. – Spero che … | abbiate mangiato bene | Spero che abbiate mangiato bene.
+Sei stato al Palio. – È possibile che tu … | sia stato al Palio | È possibile che tu sia stato al Palio.
+La festa è finita tardi. – È probabile che … | la festa sia finita tardi | È probabile che la festa sia finita tardi.
+Nessuno ha fatto foto. – È strano che … | nessuno abbia fatto foto | È strano che nessuno abbia fatto foto.
+! ha → abbia, è → sia, hanno → abbiano, sono → siano; il participio non cambia. || ha → abbia, è → sia, hanno → abbiano, sono → siano; das Partizip bleibt gleich.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Penso che Anna [è=>sia] andata alla festa del paese.
+Credo che i ragazzi [abbiano=>siano] partiti presto.
+Spero che tu [sia=>abbia] trovato il regalo per la nonna.
+Mi sembra che le zie siano [arrivati=>arrivate] ieri sera.
+È possibile che Luca non [ha=>abbia] capito l’invito.
+Peccato che voi non [abbiate=>siate] venuti a Ferragosto.
+Sono contento che Giulia si [abbia=>sia] divertita.
+Non credo che i bambini [abbia=>abbiano] mangiato tutto.
+È strano che Marco non [sia=>abbia] telefonato.
+! Dopo penso che, credo che, spero che … → congiuntivo; attenzione all’ausiliare e all’accordo del participio. || Nach penso che, credo che, spero che … → congiuntivo; auf Hilfsverb und Angleichung des Partizips achten.
+
+%übung schwer | Adesso o prima?
+?auswahl | Congiuntivo presente o passato? Guarda le espressioni di tempo. || Congiuntivo presente oder passato? Achte auf die Zeitangaben.
+Penso che domani Luca {venga*|sia venuto} alla festa.
+Penso che ieri Luca {sia arrivato*|arrivi} in ritardo.
+Credo che in questo momento la nonna {stia*|sia stata} cucinando.
+Spero che la settimana scorsa tu {abbia passato*|passi} un bel Ferragosto.
+Mi sembra che l’anno scorso la sagra {sia stata*|sia} più grande.
+È probabile che stasera {ci siano*|ci siano stati} i fuochi d’artificio.
+Non credo che ieri Sara {abbia finito*|finisca} i compiti.
+Sono felice che ieri sera voi {siate venuti*|veniate} a cena da noi.
+Temo che adesso Marco {dorma*|abbia dormito} ancora.
+! Fatto di adesso o del futuro → congiuntivo presente; fatto già successo → congiuntivo passato. || Geschehen jetzt oder in der Zukunft → congiuntivo presente; schon vorbei → congiuntivo passato.
+
+%übung schwer | Una mail della nonna
+?luecke | Dopo la Befana la nonna scrive a Giulia. Congiuntivo presente o passato? Decidi tu. || Nach dem Dreikönigsfest schreibt die Oma an Giulia. Congiuntivo presente oder passato? Entscheide selbst.
+Cara Giulia, spero che ieri sera tu (arrivare) [sia arrivata] bene a Monaco.
+Penso che il viaggio (essere) [sia stato] lungo.
+Mi dispiace che le tue vacanze qui (finire) [siano finite] già ieri!
+Credo che adesso tu (avere) [abbia] molto da studiare.
+È bello che per la Befana noi (stare) [siamo stati] tutti insieme.
+Spero che la calza con i dolci ti (piacere) [sia piaciuta].
+Non credo però che tuo fratello (mangiare) [abbia mangiato] il carbone dolce!
+Mi sembra che lui (preferire) [preferisca] il cioccolato.
+Spero che voi (tornare) [torniate] presto: vi aspetto a Pasqua! Un abbraccio, la nonna
+
+@thema subordinate-congiuntivo | 1 · Tradizioni | Parte A | Il congiuntivo nelle subordinate | 3
+#lehrplan Jgst. 10 · congiuntivo nach Konjunktionen (benché, affinché, prima che, a meno che, purché …)
+#regel
+Dopo alcune **congiunzioni** usiamo sempre il **congiuntivo**:
+| **benché, sebbene, nonostante** | _Benché **piova**, usciamo._ |
+| **affinché, perché** (scopo) | _Parlo piano affinché tutti **capiscano**._ |
+| **prima che** | _Torno prima che **faccia** buio._ |
+| **a meno che (non)** | _Vengo, a meno che non **sia** malato._ |
+| **a patto che, purché** | _Ti aiuto, purché tu **stia** attento._ |
+| **senza che** | _Esce senza che i genitori lo **sappiano**._ |
+| **nel caso che** | _Porto l’ombrello nel caso che **piova**._ |
+**Attenzione!** Con queste parole usiamo l’**indicativo**:
+- **anche se**: _Anche se **piove**, usciamo._
+- **dopo che**: _Dopo che **ha mangiato**, esce._
+- **perché** (causa): _Resto a casa perché **sono** stanco._
+Se il **soggetto è lo stesso**, usiamo l’**infinito**: _**prima di** uscire, **senza** salutare, **per** capire_.
+#regel-de
+Nach bestimmten **Konjunktionen** steht immer der **congiuntivo**: _benché / sebbene / nonostante_ (obwohl), _affinché / perché_ (damit), _prima che_ (bevor), _a meno che (non)_ (es sei denn), _a patto che / purché_ (vorausgesetzt, dass), _senza che_ (ohne dass), _nel caso che_ (falls).
+**Aber Indikativ** nach _anche se_ (auch wenn / obwohl), _dopo che_ (nachdem) und _perché_ = weil. Achtung: _perché_ + Indikativ = weil, _perché_ + congiuntivo = damit.
+Bei **gleichem Subjekt** steht der Infinitiv: _prima di uscire_ (bevor ich gehe), _senza salutare_ (ohne zu grüßen), _per capire_ (um zu verstehen).
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le congiunzioni alla traduzione. || Verbinde die Konjunktionen mit der Übersetzung.
+benché, sebbene, nonostante = obwohl
+affinché, perché (+ congiuntivo) = damit
+perché (+ indicativo) = weil
+prima che = bevor
+dopo che = nachdem
+a meno che (non) = es sei denn, dass
+a patto che, purché = vorausgesetzt, dass
+senza che = ohne dass
+nel caso che = falls
+anche se = auch wenn
+
+%übung leicht | Congiuntivo o indicativo?
+?sortieren | Che modo c’è dopo queste parole? || Welcher Modus steht nach diesen Wörtern?
+Kategorien: c=+ congiuntivo; i=+ indicativo
+benché > c
+sebbene > c
+anche se > i
+prima che > c
+dopo che > i
+affinché > c
+a meno che > c
+purché > c
+senza che > c
+perché (= weil) > i
+nel caso che > c
+! Attenzione: anche se, dopo che e perché (= weil) vogliono l’indicativo. || Achtung: anche se, dopo che und perché (= weil) verlangen den Indikativ.
+
+%übung leicht | La festa in piazza
+?auswahl | Scegli la congiunzione giusta. Guarda bene il verbo: congiuntivo o indicativo? || Wähle die richtige Konjunktion. Achte auf das Verb: congiuntivo oder Indikativ?
+Usciamo {benché*|anche se|dopo che} faccia freddo.
+La nonna prepara tutto {prima che*|dopo che|anche se} arrivino gli ospiti.
+Presto la maschera a Luca {a patto che*|anche se|dopo che} la riporti domani.
+La guida parla piano {affinché*|anche se|dopo che} tutti capiscano.
+Andiamo al concerto {anche se*|benché|sebbene} i biglietti sono cari.
+{Dopo che*|Prima che|Benché} la nonna ha tagliato il panettone, tutti fanno un brindisi.
+Resto a casa {perché*|affinché|benché} ho la febbre.
+Veniamo alla sagra {a meno che*|anche se|dopo che} non ci sia sciopero dei treni.
+Puoi venire con noi {purché*|anche se|dopo che} tu sia puntuale.
+Luca esce di casa {senza che*|anche se|dopo che} i genitori lo sappiano.
+! faccia, arrivino, capiscano, sia … sono congiuntivi → benché, prima che, affinché …; sono, ha, ho sono indicativi → anche se, dopo che, perché. || faccia, arrivino, capiscano, sia … sind congiuntivo-Formen → benché, prima che, affinché …; sono, ha, ho sind Indikativ → anche se, dopo che, perché.
+
+%übung mittel | La festa del paese
+?luecke | Metti i verbi al modo giusto (congiuntivo presente; una volta indicativo!). || Setze die Verben im richtigen Modus ein (congiuntivo presente; einmal Indikativ!).
+Benché (piovere) [piova], la festa comincia alle sei.
+Gli organizzatori montano un tendone affinché la gente (potere) [possa] ballare.
+Prima che (arrivare) [arrivino] i musicisti, i ragazzi preparano il palco.
+La banda suona fino a mezzanotte, a meno che i vicini non (protestare) [protestino].
+Possiamo restare fino alla fine, purché papà (venire) [venga] a prenderci.
+Sebbene i dolci (essere) [siano] cari, li compriamo lo stesso.
+Nel caso che (fare) [faccia] freddo, porto una giacca.
+Chiara vuole andare via senza che nessuno la (vedere) [veda].
+Anche se (essere, io) [sono] stanca, resto: la festa è troppo bella!
+! Dopo anche se c’è l’indicativo: anche se sono stanca. || Nach anche se steht der Indikativ: anche se sono stanca.
+
+%übung schwer | Congiuntivo, indicativo o infinito?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Mi lavo le mani prima di {mangiare*|mangi|mangio}.
+Mi lavo le mani prima che la mamma {porti*|porta|portare} la pasta in tavola.
+Marco esce senza {salutare*|saluti|saluta}.
+Marco esce senza che i genitori lo {sentano*|sentono|sentire}.
+Studio l’italiano per {parlare*|parli|parlo} con i miei cugini di Napoli.
+La prof ripete la regola affinché tutti la {capiscano*|capiscono|capire}.
+Non vengo al cenone perché {ho*|abbia|avere} la febbre.
+Anche se {nevica*|nevichi|nevicare}, andiamo a vedere i carri di Carnevale.
+Sebbene {sia*|è|essere} tardi, i bambini aspettano la Befana.
+Dopo che la nonna {ha cucinato*|abbia cucinato|cucinare}, laviamo i piatti.
+Vengo anch’io in pizzeria, a patto che {paghi*|paga|pagare} tu!
+! Stesso soggetto → prima di / senza / per + infinito. Soggetti diversi → prima che / senza che / affinché + congiuntivo. || Gleiches Subjekt → prima di / senza / per + Infinitiv. Verschiedene Subjekte → prima che / senza che / affinché + congiuntivo.
+
+%übung schwer | Unisci le frasi
+?ergaenzen | Fai una sola frase con la congiunzione tra parentesi. || Bilde einen einzigen Satz mit der Konjunktion in Klammern.
+Piove. La processione parte lo stesso. (benché) | Benché piova | Benché piova, la processione parte lo stesso.
+Il museo è chiuso. I turisti aspettano davanti alla porta. (sebbene) | Sebbene il museo sia chiuso | Sebbene il museo sia chiuso, i turisti aspettano davanti alla porta.
+La guida parla lentamente. Così i turisti capiscono tutto. (affinché) | affinché i turisti capiscano tutto | La guida parla lentamente affinché i turisti capiscano tutto.
+Gli ospiti arrivano. Prima la nonna apparecchia la tavola. (prima che) | prima che arrivino gli ospiti/prima che gli ospiti arrivino | La nonna apparecchia la tavola prima che arrivino gli ospiti. (anche: prima che gli ospiti arrivino)
+Luca può venire alla festa. Condizione: porta un dolce. (a patto che) | a patto che porti un dolce/a patto che lui porti un dolce | Luca può venire alla festa a patto che porti un dolce.
+Domani facciamo il picnic di Pasquetta. Solo la pioggia può fermarci. (a meno che non) | a meno che non piova | Domani facciamo il picnic di Pasquetta, a meno che non piova.
+Sara esce di casa. I genitori non lo sanno. (senza che) | senza che i genitori lo sappiano/senza che lo sappiano i genitori | Sara esce di casa senza che i genitori lo sappiano.
+Forse fa freddo. Porto una giacca. (nel caso che) | nel caso che faccia freddo | Porto una giacca nel caso che faccia freddo.
+Il biglietto costa molto. Vado al concerto lo stesso. (anche se) | Anche se il biglietto costa molto | Anche se il biglietto costa molto, vado al concerto lo stesso.
+! Tutte con il congiuntivo, solo anche se con l’indicativo. || Alle mit congiuntivo, nur anche se mit Indikativ.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori (modo del verbo o infinito). || Korrigiere die zehn Fehler (Modus des Verbs oder Infinitiv).
+Benché [fa=>faccia] freddo, mangiamo in giardino.
+Anche se [sia=>è] stanco, Luca va alla festa.
+Ti scrivo l’indirizzo affinché Marta [trova=>trovi] la casa.
+Prima [che partire=>di partire], salutiamo i nonni.
+Dopo che [abbia=>ha] finito i compiti, Sara esce con le amiche.
+Vengo anch’io, a meno che non [devo=>debba/deva] studiare.
+Sebbene i nonni [abitano=>abitino] lontano, li vediamo a ogni festa.
+Esco piano piano, senza [che fare=>fare] rumore.
+Resto a casa perché [abbia=>ho] il raffreddore.
+Puoi usare la mia bici purché tu [stai=>stia] attento.
+
+@thema congiuntivo-imperfetto | 1 · Tradizioni | Parte B | Il congiuntivo imperfetto | 4
+#lehrplan Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)
+#regel
+Il **congiuntivo imperfetto** si forma così:
+| | parl**are** | prend**ere** | dorm**ire** |
+| che io | parl**assi** | prend**essi** | dorm**issi** |
+| che tu | parl**assi** | prend**essi** | dorm**issi** |
+| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |
+| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |
+| che voi | parl**aste** | prend**este** | dorm**iste** |
+| che loro | parl**assero** | prend**essero** | dorm**issero** |
+**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.
+Lo usiamo:
+- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._
+- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._
+- dopo **magari** (desiderio): _Magari **avessi** più tempo!_
+- dopo **come se**: _Parla come se **sapesse** tutto._
+#regel-de
+**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.
+Gebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob).
+
+%übung leicht | Le forme
+?zuordnen | Abbina l’infinito al congiuntivo imperfetto (io). || Verbinde den Infinitiv mit dem congiuntivo imperfetto (io).
+parlare = che io parlassi
+prendere = che io prendessi
+dormire = che io dormissi
+essere = che io fossi
+dare = che io dessi
+stare = che io stessi
+fare = che io facessi
+dire = che io dicessi
+bere = che io bevessi
+
+%übung leicht | Chi?
+?sortieren | Di quale persona è la forma? || Zu welcher Person gehört die Form?
+Kategorien: io=io / tu; lui=lui / lei; noi=noi; voi=voi; loro=loro
+parlassi > io
+avessi > io
+fosse > lui
+desse > lui
+facessimo > noi
+venissimo > noi
+diceste > voi
+dormiste > voi
+stessero > loro
+bevessero > loro
+! -ssi = io / tu · -sse = lui / lei · -ssimo = noi · -ste = voi · -ssero = loro. || -ssi = io / tu · -sse = lui / lei · -ssimo = noi · -ste = voi · -ssero = loro.
+
+%übung leicht | Pensavo che …
+?luecke wortkasten | Completa con le forme del riquadro. || Ergänze mit den Formen aus dem Kasten.
+Pensavo che tu [fossi] ancora a Siena.
+Credevo che Luca [avesse] paura delle maschere.
+Volevo che voi [veniste] con noi alla sagra.
+Vorrei che questa festa non [finisse] mai.
+Magari [facesse] bel tempo domani!
+Non sapevo che i tuoi nonni [abitassero] in Sicilia.
+La nonna sperava che [potessimo] restare fino alla Befana.
+Mio fratello parla del Palio come se [sapesse] già chi vince.
++ sia, avessimo
+
+%übung leicht | Qual è la forma giusta?
+?auswahl | Scegli il congiuntivo imperfetto. || Wähle den congiuntivo imperfetto.
+fare (io) → {facessi*|faressi|fassi}
+dire (lui) → {dicesse*|disse|direbbe}
+essere (noi) → {fossimo*|essessimo|siamo}
+dare (tu) → {dessi*|dassi|davi}
+stare (loro) → {stessero*|stassero|stavano}
+bere (io) → {bevessi*|beressi|bessi}
+avere (voi) → {aveste*|abbiate|avevate}
+andare (lei) → {andasse*|andesse|vada}
+capire (loro) → {capissero*|capiscessero|capiscano}
+venire (noi) → {venissimo*|veniamo|vengassimo}
+! Attenzione: dare → dessi, stare → stessi (con -e-, non -a-). || Achtung: dare → dessi, stare → stessi (mit -e-, nicht -a-).
+
+%übung mittel | Essere e fare
+?tabelle | Completa la tabella. || Ergänze die Tabelle.
+Spalten: persona | parlare | essere | fare
+che io | parlassi | [fossi] | [facessi]
+che tu | parlassi | [fossi] | [facessi]
+che lui / lei | parlasse | [fosse] | [facesse]
+che noi | parlassimo | [fossimo] | [facessimo]
+che voi | parlaste | [foste] | [faceste]
+che loro | parlassero | [fossero] | [facessero]
+
+%übung mittel | Quando ero piccolo
+?luecke | Matteo racconta. Metti i verbi al congiuntivo imperfetto. || Matteo erzählt. Setze die Verben in den congiuntivo imperfetto.
+Da piccolo credevo che la Befana (esistere) [esistesse] davvero.
+Pensavo che (entrare, lei) [entrasse] dal camino con la sua scopa.
+I miei genitori volevano che io e mia sorella (andare) [andassimo] a letto presto.
+Io avevo paura che la Befana mi (portare) [portasse] solo carbone.
+Mia sorella sperava che nella calza (esserci) [ci fossero] tanti cioccolatini.
+La nonna voleva che noi (lasciare) [lasciassimo] un bicchiere di latte sul tavolo.
+Non immaginavo che i regali li (comprare) [comprassero] mamma e papà!
+Mi sembrava che quella notte (essere) [fosse] magica.
+! Frase principale al passato (credevo, pensavo, volevano …) → congiuntivo imperfetto. || Hauptsatz in der Vergangenheit (credevo, pensavo, volevano …) → congiuntivo imperfetto.
+
+%übung mittel | Desideri
+?ergaenzen | Esprimi un desiderio con il congiuntivo imperfetto. || Drücke einen Wunsch mit dem congiuntivo imperfetto aus.
+(tu / venire al Carnevale con me) Vorrei che … | venissi al Carnevale con me | Vorrei che tu venissi al Carnevale con me.
+(voi / restare a cena) Mi piacerebbe che … | restaste a cena | Mi piacerebbe che voi restaste a cena.
+(la nonna / fare le lasagne) Vorrei che … | la nonna facesse le lasagne | Vorrei che la nonna facesse le lasagne.
+(domani / esserci il sole) Magari domani … | ci fosse il sole | Magari domani ci fosse il sole!
+(i miei amici / stare qui per le feste) Mi piacerebbe che … | i miei amici stessero qui per le feste | Mi piacerebbe che i miei amici stessero qui per le feste.
+(mio fratello / dire la verità) Vorrei che … | mio fratello dicesse la verità | Vorrei che mio fratello dicesse la verità.
+(noi / avere più giorni di vacanza) Magari … | avessimo più giorni di vacanza | Magari avessimo più giorni di vacanza!
+(tu / darmi una mano in cucina) Vorrei che tu … | mi dessi una mano in cucina | Vorrei che tu mi dessi una mano in cucina.
+! Dopo vorrei che, mi piacerebbe che e magari → congiuntivo imperfetto. || Nach vorrei che, mi piacerebbe che und magari → congiuntivo imperfetto.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Ich dachte, du wärst schon abgereist.“ || Bringe die Wörter in die richtige Reihenfolge.
+Pensavo
+che tu
+fossi
+già partito.
+?ordnen | Metti le parole in ordine: „Ich möchte, dass meine Cousins uns besuchen kommen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Vorrei
+che i miei cugini
+venissero
+a trovarci.
+?ordnen | Metti le parole in ordine: „Mein Bruder redet, als ob er alles wüsste.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mio fratello
+parla
+come se
+sapesse tutto.
+?ordnen | Metti le parole in ordine: „Könnten wir doch noch eine Woche bleiben!“ || Bringe die Wörter in die richtige Reihenfolge.
+Magari
+potessimo
+restare
+un’altra settimana!
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Pensavo che tu [sia=>fossi] già a casa.
+Vorrei che voi [venite=>veniste] alla sagra con noi.
+Magari [avrei=>avessi] più tempo per le feste!
+Credevo che la nonna [fasse=>facesse] il tiramisù.
+Volevo che Luca mi [dasse=>desse] una mano.
+Speravamo che i ragazzi [stassero=>stessero] più attenti.
+Mio cugino parla come se [è=>fosse] il re del Carnevale.
+Mi piacerebbe che tu [dici=>dicessi] sempre la verità.
+Mi sembrava che i bambini [dormissino=>dormissero] già.
+
+%übung schwer | Presente o imperfetto?
+?luecke | Congiuntivo presente o imperfetto? Guarda la frase principale. || Congiuntivo presente oder imperfetto? Achte auf den Hauptsatz.
+Penso che oggi la piazza (essere) [sia] piena di gente.
+Pensavo che la piazza (essere) [fosse] vuota, invece c’era tutto il paese.
+Voglio che tu (assaggiare) [assaggi] questo dolce.
+Vorrei che tu (assaggiare) [assaggiassi] anche il panettone della nonna.
+Spero che domani non (piovere) [piova].
+Speravo che ieri non (piovere) [piovesse], ma ha piovuto tutto il giorno.
+I miei genitori vogliono che io (tornare) [torni] prima di mezzanotte.
+Quando ero bambino, i miei genitori volevano che io (tornare) [tornassi] a casa alle otto.
+Magari (potere, noi) [potessimo] andare a Siena per il Palio!
+Luca parla come se (conoscere) [conoscesse] tutte le tradizioni italiane.
+! penso, voglio, spero → congiuntivo presente; pensavo, volevo, speravo, vorrei, magari, come se → congiuntivo imperfetto. || penso, voglio, spero → congiuntivo presente; pensavo, volevo, speravo, vorrei, magari, come se → congiuntivo imperfetto.
+
+%übung schwer | Una mail dopo la sagra
+?auswahl | Sara scrive a Chiara. Scegli la forma giusta. || Sara schreibt an Chiara. Wähle die richtige Form.
+Cara Chiara, ieri sono stata alla sagra del mio paese. Pensavo che {fosse*|sia|è} noiosa, invece mi sono divertita tantissimo!
+Non immaginavo che così tante persone {venissero*|vengano|verranno} da altre città.
+Mio padre voleva che io {aiutassi*|aiuti|aiuto} allo stand dei dolci, ma io volevo ballare.
+Mia nonna ballava come se {avesse*|ha|abbia} vent’anni!
+Vorrei tanto che tu {abitassi*|abiti|abiterai} più vicino.
+Spero che la prossima volta tu {venga*|venissi|vieni} con me.
+Penso che questa {sia*|fosse|sarebbe} la festa più bella dell’anno.
+I miei genitori vorrebbero che tu {passassi*|passi|passerai} qualche giorno da noi.
+Mi piacerebbe che {ci vedessimo*|ci vediamo|ci vedremo} presto. Un abbraccio, Sara
+! spero che, penso che (presente) → congiuntivo presente; pensavo, voleva, come se, vorrei, mi piacerebbe → congiuntivo imperfetto. || spero che, penso che (Präsens) → congiuntivo presente; pensavo, voleva, come se, vorrei, mi piacerebbe → congiuntivo imperfetto.
+
+%übung schwer | Da piccolo credevo che …
+?frei | Che cosa credevi da bambino/a sulle feste (Babbo Natale, la Befana, il Carnevale …)? Scrivi 4 frasi con credevo / pensavo / volevo che … e 2 desideri con vorrei che … o magari … || Was hast du als Kind über Feste geglaubt? Schreibe 4 Sätze mit credevo / pensavo / volevo che … und 2 Wünsche mit vorrei che … oder magari …
+Da piccola credevo che Babbo Natale abitasse al Polo Nord. Pensavo che le renne volassero davvero. Volevo che i miei genitori mi lasciassero sveglia fino a mezzanotte. Avevo paura che la Befana non trovasse la nostra casa. Oggi vorrei che le feste durassero di più. Magari nevicasse a Natale!
+Zeilen: 6
+?auswahl | Controlla: quale forma è giusta? || Prüfe: Welche Form ist richtig?
+Credevo che Babbo Natale {abitasse*|abiti} al Polo Nord.
+Pensavo che le renne {volassero*|volano} davvero.
+Vorrei che le feste {durassero*|durano} di più.
+Magari {nevicasse*|nevicherebbe} a Natale!
+
+@thema pronomi-combinati | 1 · Tradizioni | Parte B | I pronomi combinati | 5
+#lehrplan Jgst. 10 · kombinierte Objektpronomen (me lo, te la, glielo, ce ne …)
+#regel
+Pronome **indiretto** + pronome **diretto** (o **ne**): prima l’indiretto, poi il diretto. **mi, ti, ci, vi** diventano **me, te, ce, ve**; **gli** e **le** diventano **glie-** (una parola sola).
+| | lo | la | li | le | ne |
+| mi | me lo | me la | me li | me le | me ne |
+| ti | te lo | te la | te li | te le | te ne |
+| gli / le | glielo | gliela | glieli | gliele | gliene |
+| ci | ce lo | ce la | ce li | ce le | ce ne |
+| vi | ve lo | ve la | ve li | ve le | ve ne |
+**Posizione:**
+- prima del verbo: _**Te lo** presto. **Glielo** dico._
+- attaccati all’infinito e all’imperativo: _Voglio dir**glielo**. Dam**melo**! Di**glielo**! Porta**glieli**!_
+- con dovere, potere, volere due posizioni: _**Te lo** posso dare. = Posso dar**telo**._
+**Passato prossimo:** il participio concorda con lo, la, li, le: _Gliel’ho dat**o**. Gliel’ho dat**a**. Glieli ho dat**i**. Gliele ho dat**e**._
+#regel-de
+Treffen **indirektes** und **direktes Pronomen** (oder **ne**) zusammen, steht zuerst das indirekte: mi, ti, ci, vi werden zu **me, te, ce, ve** (_me lo, te la, ce li, ve ne_); gli und le (ihm, ihr, ihnen) werden beide zu **glie-** und zusammengeschrieben (_glielo, gliela, glieli, gliele, gliene_).
+Stellung: vor dem konjugierten Verb (_Te lo presto_), aber angehängt an Infinitiv und Imperativ (_dirglielo, dammelo, diglielo_). Mit Modalverb geht beides: _Te lo posso dare = Posso dartelo._
+Im passato prossimo richtet sich das Partizip nach dem direkten Pronomen: _Gliel’ho data_ (la), _Glieli ho dati_ (li). Anders als im Deutschen (ich gebe **es ihm**) steht im Italienischen der Dativ zuerst.
+
+%übung leicht | Uno più uno
+?zuordnen | Abbina: quale pronome combinato nasce? || Verbinde: Welches kombinierte Pronomen entsteht?
+mi + lo = me lo
+ti + la = te la
+gli + lo = glielo
+le + la = gliela
+gli + li = glieli
+ci + le = ce le
+vi + li = ve li
+mi + ne = me ne
+gli + ne = gliene
+
+%übung leicht | Sì, te lo presto!
+?auswahl | Scegli il pronome combinato giusto. || Wähle das richtige kombinierte Pronomen.
+Mi presti la maschera? – Sì, {te la*|te lo|me la} presto volentieri.
+Mi dai il tuo numero? – Certo, {te lo*|te la|ce lo} do subito.
+Porti i dolci alla nonna? – Sì, {glieli*|gliele|gliela} porto domani.
+Regali le rose a Marta? – Sì, {gliele*|glieli|gliela} regalo per il compleanno.
+Ci mandi le foto del Palio? – Sì, {ve le*|ve li|ce le} mando stasera.
+Mi racconti la storia della Befana? – Sì, {te la*|te lo|gliela} racconto.
+Dai il regalo a Luca? – Sì, {glielo*|gliela|te lo} do adesso.
+Vi piace questa torta? Volete la ricetta? – Sì! {Ce la*|Ve la|Ce lo} scrivi?
+Quante fette di panettone vuoi? – {Me ne*|Me le|Me li} bastano due.
+Dai il carbone dolce ai bambini? – Sì, {glielo*|gliela|ce lo} do.
+! Primo pronome = la persona (a chi?), secondo pronome = la cosa (lo, la, li, le, ne). || Erstes Pronomen = die Person (wem?), zweites Pronomen = die Sache (lo, la, li, le, ne).
+
+%übung leicht | A chi? Che cosa?
+?mc | «Gliela porto domani.» Che cosa può significare? || Was kann der Satz bedeuten?
+* Porto la torta alla zia.
+- Porto il vino alla zia.
+- Porto la torta a te.
+?mc | «Te li presto.» Che cosa può significare? || Was kann der Satz bedeuten?
+- Presto le mie scarpe a te.
+* Presto i miei guanti a te.
+- Presto i miei guanti a lui.
+?mc | «Ce lo ha regalato la nonna.» Che cosa può significare? || Was kann der Satz bedeuten?
+- La nonna ha regalato il gioco a voi.
+- La nonna ha regalato la bambola a noi.
+* La nonna ha regalato il gioco a noi.
+?mc | «Me le ha mandate Sara.» Che cosa può significare? || Was kann der Satz bedeuten?
+* Sara ha mandato le foto a me.
+- Sara ha mandato i messaggi a me.
+- Sara ha mandato le foto a lui.
+?mc | «Ve lo spiego dopo.» Che cosa può significare? || Was kann der Satz bedeuten?
+- Spiego la regola a voi.
+* Spiego il gioco a voi.
+- Spiego il gioco a loro.
+?mc | «Glieli ho dati ieri.» Che cosa può significare? || Was kann der Satz bedeuten?
+- Ho dato le chiavi a Marco.
+- Ho dato i biglietti a te.
+* Ho dato i biglietti a Marco.
+?auswahl | E queste frasi? Scegli la parola che va bene. || Und diese Sätze? Wähle das passende Wort.
+«Gliene regalo tre.» = Regalo tre maschere {ai bambini*|a voi|a te}.
+«Te la racconto stasera.» = Stasera racconto {la storia*|il film|le storie} a te.
+«Ce li porta Luca.» = Luca porta {i biglietti*|le pizze|il libro} a noi.
+
+%übung mittel | Sì, certo!
+?ergaenzen | Rispondi con un pronome combinato. || Antworte mit einem kombinierten Pronomen.
+Mi presti il costume? – Sì, … | te lo presto | Sì, te lo presto.
+Mandi le foto a Giulia? – Sì, … | gliele mando | Sì, gliele mando.
+Ci porti i cannoli? – Sì, … | ve li porto | Sì, ve li porto.
+Dai la ricetta a tuo fratello? – Sì, … | gliela do | Sì, gliela do.
+Mi compri le castagne? – Sì, … | te le compro | Sì, te le compro.
+Regali i fiori alla nonna? – Sì, … | glieli regalo | Sì, glieli regalo.
+Ci racconti la leggenda? – Sì, … | ve la racconto | Sì, ve la racconto.
+Spieghi il gioco ai bambini? – Sì, … | glielo spiego | Sì, glielo spiego.
+Mi dai due biscotti? – Sì, … | te ne do due | Sì, te ne do due.
+! mi → te, ci → ve nella risposta; a lui / a lei / a loro → glie- + lo, la, li, le. || In der Antwort: mi → te, ci → ve; a lui / a lei / a loro → glie- + lo, la, li, le.
+
+%übung schwer | Dove va il pronome?
+?luecke | Completa con il verbo e il pronome combinato. Con dovere, potere e volere ci sono due soluzioni. || Ergänze Verb und kombiniertes Pronomen. Bei dovere, potere und volere gibt es zwei Lösungen.
+– Devi restituire il libro a Sara? – Sì, [glielo devo restituire/devo restituirglielo] oggi.
+– Puoi prestarmi la tua bici? – Certo, [te la posso prestare/posso prestartela].
+– Vuoi regalare questi fiori alla nonna? – Sì, [glieli voglio regalare/voglio regalarglieli].
+– Dobbiamo spiegare le regole ai nuovi compagni? – Sì, [gliele dobbiamo spiegare/dobbiamo spiegargliele].
+– Il regalo per Luca? (dare, tu – imperativo) [Daglielo] stasera!
+– Le foto della festa? (mandare a me, tu – imperativo) [Mandamele] subito!
+– Marta non sa la verità? (dire, tu – imperativo) [Digliela]!
+– I biglietti per noi? (portare, voi – imperativo) [Portateceli] domani!
+– Il numero di Chiara? (dare a me, tu – imperativo) [Dammelo], per favore!
+– Il finale del film? No, non (dire a me, tu – imperativo negativo) [dirmelo/me lo dire]!
+! Imperativo e infinito: pronomi attaccati (daglielo, dammelo, dirmelo). Con da’, di’ + mi: doppia m (dammelo, dimmelo); con gli niente doppia (daglielo, diglielo). || Imperativ und Infinitiv: Pronomen angehängt. Bei da’, di’ + mi: Doppel-m (dammelo); bei gli keine Verdopplung (daglielo, diglielo).
+
+%übung schwer | Dopo le feste
+?luecke | Rispondi al passato prossimo con il pronome combinato. Attenzione al participio! || Antworte im passato prossimo mit dem kombinierten Pronomen. Achte auf das Partizip!
+– Hai dato il regalo a Matteo? – Sì, [gliel’ho dato/glielo ho dato] ieri.
+– Hai mandato la cartolina ai nonni? – Sì, [gliel’ho mandata/gliela ho mandata] lunedì.
+– Avete portato i dolci alla zia? – Sì, [glieli abbiamo portati] domenica.
+– Chi vi ha preparato le lasagne? – [Ce le ha preparate] la nonna.
+– Chi ti ha fatto questa foto? – [Me l’ha fatta/Me la ha fatta] mio cugino.
+– Luca ti ha restituito i guanti? – No, purtroppo non [me li ha restituiti].
+– Hai detto la verità a tua madre? – Sì, [gliel’ho detta/gliela ho detta].
+– Quanti cioccolatini hai dato a tuo fratello? – [Gliene ho dati] tre.
+– Vi hanno spiegato le regole del gioco? – Sì, [ce le hanno spiegate] bene.
+! Il participio concorda con lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Con ne + numero: gliene ho dati tre. || Das Partizip richtet sich nach lo, la, li, le: gliel’ho dato / data, glieli ho dati, gliele ho date. Mit ne + Zahl: gliene ho dati tre.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Il libro? [Lo ti=>Te lo] porto domani.
+Marta vuole la ricetta: [le la=>gliela] scrivo subito.
+I biscotti per i bambini? [Gli li=>Glieli] porto io.
+Le foto? Te [li=>le] mando stasera.
+Questa torta? [Mi la=>Me la] prepara sempre la nonna.
+La verità? [Dimmila=>Dimmela] subito!
+La sciarpa per la zia? Gliel’ho [regalato=>regalata] a Natale.
+I regali per Luca? Glieli ho [dato=>dati] ieri.
+Il costume? Posso [prestarlote=>prestartelo] io.
+Che buona la colomba! [Mi ne=>Me ne] dai un pezzo?
+! Ordine: persona + cosa (te lo, non lo ti); mi, ti → me, te; gli / le + lo → glielo. || Reihenfolge: Person + Sache (te lo, nicht lo ti); mi, ti → me, te; gli / le + lo → glielo.

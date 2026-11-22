@@ -46,16 +46,8 @@
   {
    "id": "q1a",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 1/2)",
    "categories": [
-    {
-     "id": "c1",
-     "label": "come?"
-    },
-    {
-     "id": "c2",
-     "label": "dove?"
-    },
     {
      "id": "c3",
      "label": "quando?"
@@ -127,7 +119,7 @@
   {
    "id": "q1b",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/2)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 2/2)",
    "categories": [
     {
      "id": "c1",
@@ -136,14 +128,6 @@
     {
      "id": "c2",
      "label": "dove?"
-    },
-    {
-     "id": "c3",
-     "label": "quando?"
-    },
-    {
-     "id": "c4",
-     "label": "quanto?"
     }
    ],
    "items": [

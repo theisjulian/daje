@@ -52,7 +52,7 @@
    "explanation": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
    "explanationHelp": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
    "type": "gap_choice",
-   "text": "Marco ha fame: [[g1]] preparo un panino.\nAnna ha freddo: [[g2]] do la mia giacca.\nRagazzi, [[g3]] piace la pizza?\nMamma, [[g4]] compri un gelato?\nAi nonni [[g5]] porto i fiori.\nSignora, [[g6]] piace questo vestito?\nLuca, [[g7]] sta bene quella felpa!\nA noi [[g8]] manca l’Italia.",
+   "text": "Marco ha fame: [[g1]] preparo un panino.\nAnna ha freddo: [[g2]] do la mia giacca.\nRagazzi, [[g3]] piace la pizza?\nMamma, ho caldo: [[g4]] compri un gelato?\nI nonni arrivano oggi: [[g5]] porto i fiori.\nSignora, [[g6]] piace questo vestito?\nLuca, [[g7]] sta bene quella felpa!\nSiamo in Germania: [[g8]] manca l’Italia.",
    "gaps": [
     {
      "id": "g1",

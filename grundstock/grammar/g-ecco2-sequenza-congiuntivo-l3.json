@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-sequenza-congiuntivo-l3",
+ "title": "So che … / Penso che …",
+ "language": "it",
+ "level": "A2",
+ "description": "La sequenza dei tempi nel congiuntivo · So che … / Penso che … · livello facile.",
+ "topics": [
+  "La sequenza dei tempi nel congiuntivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Zeitenfolge im congiuntivo (Hauptsatz im Präsens), Indikativ oder congiuntivo, Infinitivkonstruktion"
+ },
+ "grammar": {
+  "topic": "ecco2-sequenza-congiuntivo",
+  "topicTitle": "La sequenza dei tempi nel congiuntivo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Quando la frase principale è al **presente** (_penso che, credo che, spero che …_):\n| l’azione succede **adesso o dopo** | **congiuntivo presente** | _Penso che Luca **arrivi** oggi / domani._ |\n| l’azione è successa **prima** | **congiuntivo passato** | _Penso che Luca **sia arrivato** ieri._ |\n**Indicativo o congiuntivo?**\n- **indicativo:** so che, è chiaro che, secondo me, anche se, perché (causa): _So che Luca **è** qui. Anche se **piove**, usciamo._\n- **congiuntivo:** penso / credo / spero che, **benché**, **prima che**, **affinché**, **a patto che**: _Benché **piova**, usciamo._\n**Stesso soggetto → di + infinito:** _Penso **di venire**._ (io penso, io vengo) · _Penso **di aver sbagliato**._ (prima) · _Spero **di essere arrivata** in tempo._",
+  "ruleHelp": "Steht der Hauptsatz im **Präsens**, gilt: Handlung **gleichzeitig oder später** → **congiuntivo presente** (_Penso che arrivi domani_); Handlung **vorher** → **congiuntivo passato** (_Penso che sia arrivato ieri_).\n**Indikativ** nach so che, è chiaro che, secondo me, anche se, perché (= weil); **congiuntivo** nach penso/credo/spero che und nach **benché** (obwohl), **prima che** (bevor), **affinché** (damit), **a patto che** (unter der Bedingung, dass). Achtung: _anche se_ und _benché_ heißen beide „obwohl / auch wenn“, verlangen aber verschiedene Modi!\nHaben Haupt- und Nebensatz **dasselbe Subjekt**, steht **di + Infinitiv**: _Penso di venire_ (Ich glaube, dass ich komme), vorzeitig **di + aver/essere + Partizip**: _Penso di aver sbagliato_ (Ich glaube, dass ich einen Fehler gemacht habe)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta: indicativo o congiuntivo?",
+   "promptHelp": "Wähle die richtige Form: Indikativ oder congiuntivo?",
+   "explanation": "so che, è chiaro che, secondo me, anche se + indicativo; penso / credo / spero che, benché, affinché, prima che + congiuntivo.",
+   "explanationHelp": "so che, è chiaro che, secondo me, anche se + Indikativ; penso / credo / spero che, benché, affinché, prima che + congiuntivo.",
+   "type": "gap_choice",
+   "text": "So che il concerto [[g1]] alle nove.\nPenso che il concerto [[g2]] alle nove.\nSecondo me questa canzone [[g3]] bellissima.\nCredo che questa canzone [[g4]] bellissima.\nÈ chiaro che Davide [[g5]] meglio di me.\nBenché Davide [[g6]] bene, non vuole salire sul palco.\nAnche se [[g7]], il festival non si ferma.\nSpero che non [[g8]] durante il festival.\nVi mando il link affinché [[g9]] ascoltare la canzone.\nEntriamo prima che [[g10]] il concerto!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "comincia",
+      "cominci"
+     ],
+     "answer": "comincia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "cominci",
+      "comincia"
+     ],
+     "answer": "cominci"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "sia"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sia",
+      "è"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "suona",
+      "suoni"
+     ],
+     "answer": "suona"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "suoni",
+      "suona"
+     ],
+     "answer": "suoni"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "piove",
+      "piova"
+     ],
+     "answer": "piove"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "piova",
+      "piove"
+     ],
+     "answer": "piova"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "possiate",
+      "potete"
+     ],
+     "answer": "possiate"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "cominci",
+      "comincia"
+     ],
+     "answer": "cominci"
+    }
+   ]
+  }
+ ]
+}

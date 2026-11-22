@@ -46,7 +46,7 @@
   {
    "id": "q1r1",
    "type": "single_choice",
-   "prompt": "Trova la parola che non appartiene al gruppo e spiega il criterio.\nGruppo 1",
+   "prompt": "Trova la parola che non appartiene al gruppo.\nGruppo 1",
    "options": [
     {
      "id": "o1",

@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-l2",
+ "title": "Il più, la più, i più, le più",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Il più, la più, i più, le più · livello facile.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "articolo + più / meno + aggettivo + di: l’articolo c’è una sola volta.",
+   "explanationHelp": "Artikel + più / meno + Adjektiv + di: Der Artikel steht nur einmal.",
+   "type": "gap_choice",
+   "text": "Il Po è [[g1]] fiume più lungo d’Italia.\nRoma è la città [[g2]] grande d’Italia.\nFebbraio è il mese più corto [[g3]]anno.\nDi tutte le ragazze, Sara è [[g4]] alta.\nQuesta gelateria è [[g5]] di Roma.\nLuca è [[g6]] sportivo della famiglia.\nL’Everest è la montagna più alta [[g7]] mondo.\nPer Matteo il lunedì è [[g8]] della settimana.\nLe ragazze della 9B sono [[g9]] brave della scuola.\nI miei nonni sono [[g10]] simpatici del mondo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "il",
+      "la",
+      "lo"
+     ],
+     "answer": "il"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "più",
+      "la più",
+      "molto"
+     ],
+     "answer": "più"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "dell’",
+      "che l’",
+      "come l’"
+     ],
+     "answer": "dell’"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "la più",
+      "la molto",
+      "la tanto"
+     ],
+     "answer": "la più"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "la migliore",
+      "la più migliore",
+      "la meglio"
+     ],
+     "answer": "la migliore"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "il meno",
+      "il poco",
+      "meno il"
+     ],
+     "answer": "il meno"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "del",
+      "che il",
+      "come il"
+     ],
+     "answer": "del"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "il giorno peggiore",
+      "il giorno più peggiore",
+      "il peggio giorno"
+     ],
+     "answer": "il giorno peggiore"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "le più",
+      "la più",
+      "i più"
+     ],
+     "answer": "le più"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "i più",
+      "le più",
+      "il più"
+     ],
+     "answer": "i più"
+    }
+   ]
+  }
+ ]
+}

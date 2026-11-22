@@ -6,9 +6,9 @@
  "title": "Cerchiamo compagni di progetto",
  "language": "it",
  "level": "A2",
- "description": "Essere und avere · Cerchiamo compagni di progetto · livello medio.",
+ "description": "Testi e forme: ripasso · Cerchiamo compagni di progetto · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1088
@@ -70,31 +70,38 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "strade"
+      "strade",
+      "botteghe",
+      "storie"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "posti"
+      "posti",
+      "cortili"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "botteghe"
+      "botteghe",
+      "strade",
+      "storie"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "cortili"
+      "cortili",
+      "posti"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "storie"
+      "storie",
+      "botteghe"
      ]
     },
     {

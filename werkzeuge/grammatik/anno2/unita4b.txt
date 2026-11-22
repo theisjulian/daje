@@ -1,0 +1,436 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Lektion 4 · Lavoro e futuro · Parte B: Possessivpronomen, buono/bene, Relativpronomen chi. Eigene Übungen.
+
+@thema possessivi-pronomi | 4 · Lavoro e futuro | Parte B | I pronomi possessivi | 5
+#lehrplan Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)
+#regel
+Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)
+| | singolare | plurale |
+| io | il mio · la mia | i miei · le mie |
+| tu | il tuo · la tua | i tuoi · le tue |
+| lui / lei | il suo · la sua | i suoi · le sue |
+| noi | il nostro · la nostra | i nostri · le nostre |
+| voi | il vostro · la vostra | i vostri · le vostre |
+| loro | il loro · la loro | i loro · le loro |
+Il pronome ha **l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_
+Dopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._
+**Loro** non cambia mai: _il loro, la loro, i loro, le loro._
+#regel-de
+Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.
+Als Pronomen steht es **mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).
+Nach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert.
+
+%übung leicht | Senza il nome
+?zuordnen | Abbina: quale pronome sta al posto del nome? || Verbinde: Welches Pronomen ersetzt die Wortgruppe?
+la mia bici = la mia
+i miei colleghi = i miei
+le tue idee = le tue
+il suo capo = il suo
+la nostra ditta = la nostra
+le loro domande = le loro
+tuo padre = il tuo
+sua sorella = la sua
+! Il pronome prende il genere e il numero del nome. Con la famiglia: tuo padre → il tuo. || Das Pronomen übernimmt Geschlecht und Zahl des Nomens. Bei Verwandten: tuo padre → il tuo (mit Artikel).
+
+%übung leicht | E il tuo?
+?auswahl | Scegli il pronome giusto. || Wähle das richtige Pronomen.
+Il mio stage è in una banca. E {il tuo*|la tua|i tuoi}?
+La mia scuola è grande, {la vostra*|il vostro|le vostre} è piccola.
+I miei colleghi sono simpatici. Anche {i tuoi*|le tue|il tuo}?
+Le nostre giornate sono lunghe, ma {le loro*|i loro|la loro} sono più lunghe.
+Questo è il mio curriculum. Dov’è {il suo*|la sua|i suoi}?
+La mia tutor si chiama Elena. Come si chiama {la tua*|il tuo|le tue}?
+Il nostro ufficio è al primo piano, {il loro*|la loro|i loro} è al terzo.
+Ho dimenticato le chiavi. Mi presti {le tue*|i tuoi|la tua}?
+! Il pronome concorda con il nome che sostituisce: lo stage → il tuo, le chiavi → le tue. || Das Pronomen richtet sich nach dem ersetzten Nomen: lo stage → il tuo, le chiavi → le tue.
+
+%übung leicht | Con il nome o senza?
+?sortieren | Il possessivo sta con un nome (aggettivo) o da solo (pronome)? || Steht das Possessivum bei einem Nomen (Begleiter) oder allein (Pronomen)?
+Kategorien: a=con un nome; p=da solo (pronome)
+Il mio lavoro è interessante. > a
+Bello zaino! È il tuo? > p
+Mia sorella fa la cuoca. > a
+Questa penna è la tua? > p
+I nostri professori sono severi. > a
+Di chi sono queste chiavi? – Sono le mie. > p
+Ecco le sue foto. > a
+Non trovo il telefono. Mi dai il tuo? > p
+Il loro capo è gentile. > a
+Che belle foto! Sono le sue? > p
+
+%übung mittel | In ufficio
+?luecke | Completa con il pronome possessivo (con l’articolo). || Ergänze das Possessivpronomen (mit Artikel).
+Il mio computer non funziona. Posso usare (tu) [il tuo]?
+La nostra pausa è alle dieci. Quando è (voi) [la vostra]?
+I miei orari sono comodi. Come sono (tu) [i tuoi]?
+Sara ha portato le sue cuffie, ma Luca ha dimenticato (lui) [le sue].
+La mia scrivania è vicino alla finestra, (loro) [la loro] è vicino alla porta.
+Noi abbiamo già i nostri badge. I nuovi stagisti non hanno ancora (loro) [i loro].
+Mio padre lavora in ospedale. E (tu) [il tuo]?
+Mia madre lavora in banca, (Giulia) [la sua] lavora in un negozio.
+Le tue idee mi piacciono, ma anche (io) [le mie] sono buone!
+Il vostro progetto è già finito, (noi) [il nostro] no.
+! Il pronome ha sempre l’articolo: mio padre → il tuo, mia madre → la sua. || Das Pronomen hat immer den Artikel: mio padre → il tuo, mia madre → la sua.
+
+%übung mittel | Di chi è?
+?ergaenzen | Rispondi con il possessivo giusto. || Antworte mit dem passenden Possessivum.
+Di chi è questo zaino? (io) – È … | mio | È mio. / È il mio.
+Di chi è questa giacca? (tu) – È … | tua | È tua. / È la tua.
+Di chi sono questi libri? (Marco) – Sono … | suoi | Sono suoi. / Sono i suoi.
+Di chi sono queste chiavi? (voi) – Sono … | vostre | Sono vostre. / Sono le vostre.
+Di chi è questo tablet? (noi) – È … | nostro | È nostro. / È il nostro.
+Di chi sono queste cuffie? (Elena) – Sono … | sue | Sono sue. / Sono le sue.
+Di chi è questa tazza? (la prof) – È … | sua | È sua. / È la sua.
+Di chi sono questi appunti? (tu) – Sono … | tuoi | Sono tuoi. / Sono i tuoi.
+! Dopo essere: È mio. o È il mio. Tutte e due le forme sono giuste. || Nach essere geht beides: È mio. oder È il mio.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti in ordine: „Mein Praktikum ist interessant, und deins?“ || Bringe die Teile in die richtige Reihenfolge.
+Il mio stage
+è interessante,
+e il tuo?
+?ordnen | Metti in ordine: „Unser Büro ist klein, ihres ist groß.“ || Bringe die Teile in die richtige Reihenfolge.
+Il nostro ufficio
+è piccolo,
+il loro
+è grande.
+?ordnen | Metti in ordine: „Meine Mutter arbeitet in Mailand, und deine?“ || Bringe die Teile in die richtige Reihenfolge.
+Mia madre
+lavora a Milano,
+e la tua?
+?ordnen | Metti in ordine: „Diese Schlüssel gehören nicht mir: Es sind seine.“ || Bringe die Teile in die richtige Reihenfolge.
+Queste chiavi
+non sono mie:
+sono
+le sue.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Mia sorella studia a Bologna. E [tua=>la tua]?
+Il mio stage è finito, [la tua=>il tuo] comincia lunedì.
+Noi abbiamo i nostri problemi, loro hanno [i lori=>i loro].
+Di chi sono questi occhiali? – Sono [mii=>miei/i miei].
+Le mie scarpe sono nuove, [le tuoi=>le tue] sono vecchie.
+[Il mio=>Mio] fratello cerca lavoro, il tuo ha già un posto.
+Questa non è la mia giacca, è [il suo=>la sua].
+La vostra classe è grande, [la nostre=>la nostra] è piccola.
+I tuoi genitori lavorano in centro, [i mie=>i miei] lavorano a casa.
+! Pronome: sempre con l’articolo (la tua). Aggettivo + famiglia al singolare: senza articolo (mio fratello). Loro non cambia. || Pronomen: immer mit Artikel (la tua). Begleiter + Verwandte im Singular: ohne Artikel (mio fratello). loro bleibt unverändert.
+
+%übung schwer | Una mail dallo stage
+?luecke | Completa con il possessivo. Attenzione: con l’articolo o senza? || Ergänze das Possessivum. Achtung: mit oder ohne Artikel?
+Ciao Davide, come va (tu) [il tuo] stage?
+(io) [Il mio] è cominciato lunedì.
+(io) [Mia] madre dice che è un’esperienza importante.
+Lavoro con (io) [mio] cugino Paolo: (noi) [il nostro] capo è molto gentile.
+Paolo ha già (lui) [la sua] scrivania; (io) [la mia] arriva domani.
+I colleghi mangiano in mensa con (loro) [i loro] amici.
+E (voi) [i vostri] colleghi come sono? (noi) [I nostri] sono simpatici.
+(tu) [Tua] sorella lavora ancora in farmacia? (io) [La mia] ha cambiato lavoro.
+A presto, Matteo
+! mia madre, mio cugino, tua sorella: senza articolo. Ma il pronome: la mia. || mia madre, mio cugino, tua sorella: ohne Artikel. Aber das Pronomen: la mia.
+
+%übung schwer | La mia vita e la sua
+?frei | Confronta la tua vita con la vita di un amico o di un’amica (scuola, famiglia, orari, sogni). Usa almeno 5 pronomi possessivi. || Vergleiche dein Leben mit dem eines Freundes oder einer Freundin (Schule, Familie, Zeiten, Träume). Verwende mindestens 5 Possessivpronomen.
+La mia scuola comincia alle otto, la sua alle otto e mezza. I miei genitori lavorano in ufficio, i suoi hanno un negozio. Mio fratello è piccolo, il suo è già grande. Le mie materie preferite sono inglese e arte, le sue sono matematica e fisica. Il mio sogno è fare il medico, il suo è fare la giornalista.
+Zeilen: 6
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+Mio fratello è piccolo, {il suo*|suo|la sua} è già grande.
+I miei genitori lavorano in ufficio, {i suoi*|le sue|suoi} hanno un negozio.
+La mia scuola comincia alle otto, {la sua*|il suo|sua} alle otto e mezza.
+{Mia*|La mia|Il mio} sorella studia a Pisa.
+Le mie materie preferite sono inglese e arte, {le sue*|i suoi|la sua} sono matematica e fisica.
+! Come soggetto il pronome ha sempre l’articolo: il suo, i suoi, la sua. || Als Subjekt hat das Pronomen immer den Artikel: il suo, i suoi, la sua.
+
+@thema buono | 4 · Lavoro e futuro | Parte B | Buono e bene | 6
+#lehrplan Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)
+#regel
+**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:
+| un lavoro | un **buon** lavoro |
+| un amico | un **buon** amico |
+| uno studente | un **buono** studente |
+| una scuola | una **buona** scuola |
+| un’amica | una **buon’**amica (anche: una **buona** amica) |
+Al plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._
+**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:
+- _Luca è un **buon** cuoco: cucina **bene**._
+- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)
+Auguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_
+#regel-de
+**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._
+**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb).
+
+%übung leicht | Tanti auguri!
+?zuordnen | Che cosa dici in questa situazione? Abbina. || Was sagst du in dieser Situation? Verbinde.
+Un amico parte per le vacanze. = Buon viaggio!
+La famiglia comincia a mangiare. = Buon appetito!
+Un’amica ha un esame difficile domani. = Buona fortuna!
+Un compagno va a casa a preparare il test. = Buono studio!
+Tua madre va in ufficio. = Buon lavoro!
+Un’amica compie quindici anni. = Buon compleanno!
+Sono le undici di sera e vai a letto. = Buonanotte!
+È venerdì pomeriggio e la scuola è finita. = Buon fine settimana!
+
+%übung leicht | Buon, buono, buona?
+?auswahl | Scegli la forma giusta di buono. || Wähle die richtige Form von buono.
+un {buon*|buono|buona} lavoro
+un {buono*|buon|buona} stipendio
+una {buona*|buon|buono} idea
+un {buon*|buono|buona} amico
+un {buono*|buon|buoni} studente
+una {buona*|buono|buon} scuola
+due {buoni*|buone|buon} colleghi
+tante {buone*|buoni|buona} notizie
+un {buon*|buono|buona} esempio
+una {buon’*|buon|buono} amica
+! buon come un (un lavoro), buono come uno (uno stipendio, uno studente), buona come una, buon’ come un’. || buon wie un, buono wie uno (vor s + Konsonant, z), buona wie una, buon’ wie un’.
+
+%übung leicht | Aggettivo o avverbio?
+?sortieren | Che cosa manca: una forma di buono o bene? || Was fehlt: eine Form von buono oder bene?
+Kategorien: a=buono (buon, buona, buoni, buone); b=bene
+Il mio capo parla … l’inglese. > b
+Questa pizza è molto … > a
+Oggi non sto … > b
+Luca è un … amico. > a
+Sara canta molto … > b
+I biscotti della nonna sono … > a
+Hai dormito … stanotte? > b
+Che … idea! > a
+Va tutto …, grazie! > b
+Ho ricevuto due … notizie. > a
+! buono descrive un nome (pizza, amico, idea); bene descrive un verbo (parlare, stare, cantare). || buono beschreibt ein Nomen; bene beschreibt ein Verb.
+
+%übung mittel | Una mail dall’albergo
+?luecke | Scrivi la forma giusta di buono. || Schreibe die richtige Form von buono.
+Cara Chiara, ti scrivo dal mio stage in un albergo. È un (buono) [buon] posto per imparare.
+Il direttore è una (buono) [buona] persona.
+Non ho ancora un (buono) [buono] stipendio, ma imparo molto.
+I colleghi mi danno sempre (buono) [buoni] consigli.
+La cucina dell’albergo è molto (buono) [buona].
+Ieri ho ricevuto una (buono) [buona] notizia: posso restare un mese in più!
+I dolci del cuoco sono (buono) [buoni].
+Per me è un (buono) [buon] inizio.
+Anche le recensioni dei clienti sono (buono) [buone].
+Adesso devo andare: (buono) [buono] studio e (buono) [buona] fortuna per l’esame!
+! Davanti al nome: buon posto, buono stipendio, buono studio. Dopo essere: buono, buona, buoni, buone. || Vor dem Nomen: buon posto, buono stipendio, buono studio. Nach essere: die volle Form.
+
+%übung mittel | Singolare e plurale
+?tabelle | Completa la tabella con buono. Attenzione all’articolo! || Ergänze die Tabelle mit buono. Achte auf den Artikel!
+Spalten: senza buono | singolare con buono | plurale con buono (senza articolo)
+un libro | [un buon libro] | [buoni libri]
+una risposta | [una buona risposta] | [buone risposte]
+uno studente | [un buono studente] | [buoni studenti]
+un amico | [un buon amico] | [buoni amici]
+un’amica | [una buon’amica/una buona amica] | [buone amiche]
+uno zaino | [un buono zaino] | [buoni zaini]
+! uno studente → un buono studente: l’articolo sta davanti a buono e diventa un. || uno studente → un buono studente: Der Artikel steht vor buono und wird zu un.
+
+%übung mittel | È bravo? Sì, lavora bene!
+?ergaenzen | Trasforma la frase: aggettivo → avverbio. || Forme um: Adjektiv → Adverb.
+È un buon cuoco. → Cucina … | bene | Cucina bene.
+È una cattiva cantante. → Canta … | male | Canta male.
+Sono buoni giocatori. → Giocano … | bene | Giocano bene.
+È un cattivo ballerino. → Balla … | male | Balla male.
+È una buona insegnante. → Insegna … | bene | Insegna bene.
+?ergaenzen | E adesso al contrario: avverbio → aggettivo + nome. || Und jetzt umgekehrt: Adverb → Adjektiv + Nomen.
+Luca cucina bene. → È un … (cuoco) | buon cuoco | È un buon cuoco.
+Marta studia bene. → È una … (studentessa) | buona studentessa | È una buona studentessa.
+Paolo studia bene. → È un … (studente) | buono studente | È un buono studente.
+Rita guida male. → È una … (autista) | cattiva autista | È una cattiva autista.
+I ragazzi giocano male. → Sono … (giocatori) | cattivi giocatori | Sono cattivi giocatori.
+! buono → bene, cattivo → male. L’avverbio non cambia mai. || buono → bene, cattivo → male. Das Adverb bleibt immer gleich.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Marco parla molto [buono=>bene] il tedesco.
+Questa pasta è proprio [bene=>buona].
+[Buono=>Buon] viaggio e a presto!
+Ho trovato un [buon=>buono] stage in una ditta di Torino.
+Oggi mi sento [cattivo=>male]: ho la febbre e resto a casa.
+Elena è una [buon=>buona] collega.
+Il colloquio è andato [buono=>bene]!
+I tuoi voti non sono [bene=>buoni] quest’anno.
+[Buon=>Buona] fortuna per il colloquio!
+Ieri la nostra squadra ha giocato [cattivo=>male] e ha perso.
+! Con un verbo (parlare, andare, sentirsi, giocare): bene / male. Con un nome: buono / cattivo. || Bei einem Verb: bene / male. Bei einem Nomen: buono / cattivo.
+
+%übung schwer | Dopo il colloquio
+?luecke | Completa con buono (nella forma giusta), bene, cattivo (nella forma giusta) o male. || Ergänze buono (in der richtigen Form), bene, cattivo (in der richtigen Form) oder male.
+– Allora, com’è andato il colloquio?
+– [Bene], grazie! La direttrice è simpatica: mi ha fatto una [buona/buon’] impressione.
+– E tu hai risposto [bene] alle domande?
+– Sì, ma in inglese ho parlato [male]: ero troppo nervoso.
+– Non importa. Hai un [buon] curriculum e [buoni] voti.
+– Speriamo! Il posto è davvero [buono]: lì si impara molto. Ho solo una [cattiva] notizia: devo cominciare alle sei di mattina!
+– Allora [buon] lavoro e [buona] fortuna!
+– Grazie! Adesso però ho fame: andiamo a mangiare qualcosa di [buono]?
+! qualcosa di buono: dopo qualcosa di l’aggettivo è sempre maschile singolare. || qualcosa di buono: Nach qualcosa di steht das Adjektiv immer in der männlichen Einzahl.
+
+%übung schwer | Auguri per il primo giorno
+?frei | Un amico o un’amica comincia uno stage. Scrivi un messaggio: fai gli auguri e dai tre consigli. Usa almeno tre volte buono e due volte bene. || Ein Freund oder eine Freundin beginnt ein Praktikum. Schreibe eine Nachricht mit guten Wünschen und drei Tipps. Verwende mindestens dreimal buono und zweimal bene.
+Ciao Sara! Domani cominci lo stage: buona fortuna! Fai una buona colazione e arriva puntuale. Ascolta bene quando il capo spiega. Un buono stagista fa molte domande. Se dormi bene, lavori meglio. Buon lavoro e a presto!
+Zeilen: 6
+?auswahl | Controlla: quale parola? || Prüfe: welches Wort?
+{Buon*|Buono|Bene} lavoro per il primo giorno!
+Ascolta {bene*|buono|buona} quando il capo spiega.
+Un {buono*|buon|bene} stagista fa molte domande.
+Se dormi {male*|cattivo|cattiva}, lavori {male*|cattivo|cattivi}.
+Porta sempre il {buon*|buono|bene} umore!
+Fai una {buona*|buon|bene} colazione prima di uscire.
+{Buona*|Buon|Buono} fortuna!
+
+@thema chi-relativo | 4 · Lavoro e futuro | Parte B | Il pronome relativo chi | 7
+#lehrplan Jgst. 9 · Relativpronomen chi (wer / derjenige, der)
+#regel
+**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:
+- _**Chi** studia impara._ (= Le persone che studiano imparano.)
+- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)
+Molti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._
+| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |
+| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |
+| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |
+#regel-de
+**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)
+Unterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)
+
+%übung leicht | Proverbi italiani
+?zuordnen | Che cosa vuol dire il proverbio? Abbina. || Was bedeutet das Sprichwort? Verbinde.
+Chi cerca trova. = Wer sucht, der findet.
+Chi dorme non piglia pesci. = Wer schläft, fängt keine Fische.
+Chi va piano va sano e va lontano. = Wer langsam geht, kommt gesund und weit.
+Chi trova un amico trova un tesoro. = Wer einen Freund findet, findet einen Schatz.
+Ride bene chi ride ultimo. = Wer zuletzt lacht, lacht am besten.
+Chi tace acconsente. = Wer schweigt, stimmt zu.
+Chi non risica non rosica. = Wer nicht wagt, der nicht gewinnt.
+Chi fa da sé fa per tre. = Wer etwas selbst macht, schafft so viel wie drei.
+
+%übung leicht | Chi o che?
+?auswahl | Scegli: chi o che? || Wähle: chi oder che?
+{Chi*|Che} cerca un lavoro deve scrivere un curriculum.
+La ragazza {che*|chi} lavora al bar è mia cugina.
+Il ragazzo {che*|chi} fa lo stage con me si chiama Davide.
+{Chi*|Che} arriva tardi deve chiedere scusa.
+Ho trovato un lavoro {che*|chi} mi piace molto.
+{Chi*|Che} non ha il biglietto non può entrare.
+I colleghi {che*|chi} ho conosciuto oggi sono simpatici.
+Non mi piace {chi*|che} parla sempre di soldi.
+{Chi*|Che} vuole può fare una pausa adesso.
+Questa è la ditta {che*|chi} cerca stagisti.
+! Dopo un nome (la ragazza, un lavoro): che. Senza nome: chi (= la persona che). || Nach einem Nomen: che. Ohne Bezugswort: chi (= derjenige, der).
+
+%übung leicht | Sempre al singolare
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Chi lavora bene riceve un premio.
+- Chi lavorano bene ricevono un premio.
+- Che lavora bene riceve un premio.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Chi vuole venire deve dirlo oggi.
+- Chi vogliono venire devono dirlo oggi.
+- Che vuole venire deve dirlo oggi.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Chi ha finito può uscire.
+- Chi hanno finito possono uscire.
+- La chi ha finito può uscire.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Aiuto chi ha bisogno.
+- Aiuto che ha bisogno.
+- Aiuto chi hanno bisogno.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Chi non studia non impara.
+- Chi non studiano non imparano.
+- Che non studia non impara.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Chi arriva per primo {sceglie*|scelgono|scegli} il posto.
+Chi fa sport {sta*|stanno|stai} meglio.
+Lavoro volentieri con {chi*|che|cui} è gentile.
+! Con chi il verbo è sempre al singolare: chi lavora, chi vuole, chi ha. || Nach chi steht das Verb immer im Singular.
+
+%übung mittel | Le persone che … → Chi …
+?ergaenzen | Riscrivi la frase con chi. Attenzione al verbo! || Schreibe den Satz mit chi neu. Achte auf das Verb!
+Le persone che studiano imparano. → … | Chi studia impara | Chi studia impara.
+Le persone che lavorano troppo dormono poco. → … | Chi lavora troppo dorme poco | Chi lavora troppo dorme poco.
+Le persone che parlano tre lingue trovano lavoro più facilmente. → … | Chi parla tre lingue trova lavoro più facilmente | Chi parla tre lingue trova lavoro più facilmente.
+Le persone che non hanno esperienza possono fare uno stage. → … | Chi non ha esperienza può fare uno stage | Chi non ha esperienza può fare uno stage.
+Le persone che vogliono lavorare in Italia devono imparare la lingua. → … | Chi vuole lavorare in Italia deve imparare la lingua | Chi vuole lavorare in Italia deve imparare la lingua.
+Le persone che arrivano tardi perdono il treno. → … | Chi arriva tardi perde il treno | Chi arriva tardi perde il treno.
+Le persone che fanno domande capiscono meglio. → … | Chi fa domande capisce meglio | Chi fa domande capisce meglio.
+Le persone che sanno ascoltare hanno molti amici. → … | Chi sa ascoltare ha molti amici | Chi sa ascoltare ha molti amici.
+! le persone che + plurale → chi + singolare (tutti e due i verbi!). || le persone che + Plural → chi + Singular (beide Verben!).
+
+%übung mittel | Con chi? Con il collega che …
+?luecke | Completa con chi o che. || Ergänze chi oder che.
+Esco con [chi] mi è simpatico.
+Esco con gli amici [che] mi sono simpatici.
+Regalo questi libri a [chi] li vuole leggere.
+Regalo questi libri alla collega [che] ama leggere.
+Questo corso è per [chi] cerca il primo lavoro.
+Questo corso è per i giovani [che] cercano il primo lavoro.
+Mi fido solo di [chi] dice la verità.
+Mi fido solo delle persone [che] dicono la verità.
+Ho imparato molto da [chi] lavora qui da tanti anni.
+Ho imparato molto dal cuoco [che] lavora qui da tanti anni.
+! preposizione + chi (con chi, a chi, per chi, di chi, da chi) = senza nome. Preposizione + nome + che. || Präposition + chi = ohne Bezugswort. Präposition + Nomen + che.
+
+%übung mittel | Costruisci il proverbio
+?ordnen | Metti in ordine: „Wer schläft, fängt keine Fische.“ || Bringe die Teile in die richtige Reihenfolge.
+Chi dorme
+non piglia
+pesci.
+?ordnen | Metti in ordine: „Wer langsam geht, kommt gesund und weit.“ || Bringe die Teile in die richtige Reihenfolge.
+Chi va piano
+va sano
+e va lontano.
+?ordnen | Metti in ordine: „Ich spreche mit dem, der mich versteht.“ || Bringe die Teile in die richtige Reihenfolge.
+Parlo
+con chi
+mi capisce.
+?ordnen | Metti in ordine: „Wer einen Freund findet, findet einen Schatz.“ || Bringe die Teile in die richtige Reihenfolge.
+Chi trova
+un amico
+trova
+un tesoro.
+
+%übung schwer | Domanda o relativo?
+?sortieren | Chi è una parola interrogativa (wer?) o un pronome relativo (= la persona che)? || Ist chi ein Fragewort (wer?) oder ein Relativpronomen (= derjenige, der)?
+Kategorien: a=chi interrogativo (wer?); b=chi relativo (= la persona che)
+Chi ha scritto questa mail? > a
+Chi ha scritto questa mail deve firmarla. > b
+Non so chi viene alla riunione. > a
+Chi viene alla riunione riceve il programma. > b
+Con chi lavori quest’estate? > a
+Lavoro bene con chi è puntuale. > b
+Dimmi chi ti ha aiutato. > a
+Ringrazio chi mi ha aiutato. > b
+Di chi è questo curriculum? > a
+Chi dorme non piglia pesci. > b
+! Anche nella domanda indiretta (Non so chi …, Dimmi chi …) chi è interrogativo. || Auch in der indirekten Frage (Non so chi …, Dimmi chi …) ist chi ein Fragewort.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Chi [studiano=>studia] le lingue trova lavoro più facilmente.
+La collega [chi=>che] lavora con me è di Napoli.
+[Che=>Chi] arriva in ritardo deve avvisare il capo.
+Chi dorme non [pigliano=>piglia] pesci.
+Parlo volentieri con [che=>chi] mi capisce.
+Il libro [chi=>che] leggo parla di lavoro e di sogni.
+Chi [vogliono=>vuole] fare lo stage deve mandare una mail.
+Do una mano a [che=>chi] ha bisogno.
+Chi va piano va sano e [vanno=>va] lontano.
+Gli studenti [chi=>che] hanno finito possono uscire.
+! chi: senza nome, verbo al singolare. che: dopo un nome (la collega che, il libro che). || chi: ohne Bezugswort, Verb im Singular. che: nach einem Nomen.
+
+%übung schwer | Consigli per il primo colloquio
+?luecke | Completa il testo con chi o che. || Ergänze den Text mit chi oder che.
+[Chi] cerca il primo lavoro è spesso nervoso: è normale!
+Il curriculum [che] mandi deve essere breve e chiaro.
+Le persone [che] leggono il tuo curriculum hanno poco tempo.
+[Chi] arriva in ritardo fa subito una brutta impressione.
+Rispondi con calma alle domande [che] ti fanno.
+[Chi] non capisce una domanda può chiedere di ripetere.
+Parla dei lavori [che] hai già fatto, anche piccoli.
+Alla fine ringrazia [chi] ti ha ascoltato.
+Un lavoro [che] ti piace vale più di tanti soldi.
+E ricorda il proverbio: [chi] cerca trova!
+?frei | Inventa cinque «regole» per uno stage perfetto. Ogni frase comincia con chi. || Erfinde fünf „Regeln“ für ein perfektes Praktikum. Jeder Satz beginnt mit chi.
+Chi arriva puntuale fa una buona impressione. Chi non capisce deve fare domande. Chi lavora in gruppo impara di più. Chi sbaglia non deve avere paura. Chi aiuta i colleghi trova nuovi amici.
+Zeilen: 5

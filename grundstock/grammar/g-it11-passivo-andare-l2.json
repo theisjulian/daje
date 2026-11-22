@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-l2",
+ "title": "La raccolta differenziata",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · La raccolta differenziata · livello facile.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Soggetto singolare → va, plurale → vanno; il participio concorda con il soggetto.",
+   "explanationHelp": "Subjekt im Singular → va, im Plural → vanno; das Partizip gleicht sich an das Subjekt an.",
+   "type": "gap_choice",
+   "text": "La plastica [[g1]] buttata nel contenitore giusto.\nLe bottiglie di vetro [[g2]] portate alla campana del vetro.\nLa carta va [[g3]] prima di buttarla.\nI cartoni vanno [[g4]].\nLe pile scariche [[g5]] riportate al negozio.\nL’olio usato non va [[g6]] nel lavandino.\nI vestiti vecchi vanno [[g7]] negli appositi contenitori.\nIl sacco dei rifiuti organici [[g8]] chiuso bene.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "va",
+      "vanno",
+      "andare"
+     ],
+     "answer": "va"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "vanno",
+      "va",
+      "andiamo"
+     ],
+     "answer": "vanno"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "piegata",
+      "piegato",
+      "piegate"
+     ],
+     "answer": "piegata"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "schiacciati",
+      "schiacciate",
+      "schiacciato"
+     ],
+     "answer": "schiacciati"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "vanno",
+      "va",
+      "vai"
+     ],
+     "answer": "vanno"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "versato",
+      "versata",
+      "versati"
+     ],
+     "answer": "versato"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "messi",
+      "messe",
+      "messo"
+     ],
+     "answer": "messi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "va",
+      "vanno",
+      "vado"
+     ],
+     "answer": "va"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-possessivi-pronomi-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi possessivi · Costruisci la frase · livello medio.",
+ "topics": [
+  "I pronomi possessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-pronomi",
+  "topicTitle": "I pronomi possessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)\n| | singolare | plurale |\n| io | il mio · la mia | i miei · le mie |\n| tu | il tuo · la tua | i tuoi · le tue |\n| lui / lei | il suo · la sua | i suoi · le sue |\n| noi | il nostro · la nostra | i nostri · le nostre |\n| voi | il vostro · la vostra | i vostri · le vostre |\n| loro | il loro · la loro | i loro · le loro |\nIl pronome ha **l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_\nDopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._\n**Loro** non cambia mai: _il loro, la loro, i loro, le loro._",
+  "ruleHelp": "Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.\nAls Pronomen steht es **mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).\nNach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine: „Mein Praktikum ist interessant, und deins?“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il mio stage"
+    },
+    {
+     "id": "i2",
+     "text": "è interessante,"
+    },
+    {
+     "id": "i3",
+     "text": "e il tuo?"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti in ordine: „Unser Büro ist klein, ihres ist groß.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il nostro ufficio"
+    },
+    {
+     "id": "i2",
+     "text": "è piccolo,"
+    },
+    {
+     "id": "i3",
+     "text": "il loro"
+    },
+    {
+     "id": "i4",
+     "text": "è grande."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti in ordine: „Meine Mutter arbeitet in Mailand, und deine?“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Mia madre"
+    },
+    {
+     "id": "i2",
+     "text": "lavora a Milano,"
+    },
+    {
+     "id": "i3",
+     "text": "e la tua?"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti in ordine: „Diese Schlüssel gehören nicht mir: Es sind seine.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Queste chiavi"
+    },
+    {
+     "id": "i2",
+     "text": "non sono mie:"
+    },
+    {
+     "id": "i3",
+     "text": "sono"
+    },
+    {
+     "id": "i4",
+     "text": "le sue."
+    }
+   ]
+  }
+ ]
+}

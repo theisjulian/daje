@@ -1,0 +1,134 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-tempo-s2",
+ "title": "La storia di nonna Rosa",
+ "language": "it",
+ "level": "B1",
+ "description": "Espressioni temporali e racconto · La storia di nonna Rosa · livello difficile.",
+ "topics": [
+  "Espressioni temporali e racconto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+ },
+ "grammar": {
+  "topic": "ecco3-tempo",
+  "topicTitle": "Espressioni temporali e racconto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+  "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il racconto con: a partire da, a un tratto, al, da, dal, entro, fa, fino a, fra, il giorno dopo, nel frattempo, ogni volta che, per. (Un’espressione resta fuori.)",
+   "promptHelp": "Ergänze die Erzählung mit den angegebenen Ausdrücken. (Ein Ausdruck bleibt übrig.)",
+   "type": "gap_fill",
+   "text": "Mia nonna Rosa è nata in un piccolo paese della Basilicata.\nSessant’anni [[g1]], quando aveva vent’anni, è partita per Torino.\nHa lavorato in una fabbrica [[g2]] quarant’anni, [[g3]] lunedì [[g4]] sabato.\n[[g5]] tornava al paese per le vacanze, portava regali per tutti.\nUna sera aspettava l’autobus quando, [[g6]], ha sentito qualcuno parlare il suo dialetto: era Antonio, il mio futuro nonno.\n[[g7]] si sono rivisti alla stessa fermata, e un anno più tardi si sono sposati.\nI nonni abitano a Torino [[g8]] quasi sessant’anni, ma si sentono ancora lucani.\nOgni estate restano al paese [[g9]] settembre.\n[[g10]] quest’anno, però, vogliono viverci tutto l’anno.\nLa partenza è [[g11]] due settimane. [[g12]] io imparo qualche parola del loro dialetto!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "per"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dal",
+      "da"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "al",
+      "a"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Ogni volta che"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "a un tratto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Il giorno dopo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "fino a"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "A partire da",
+      "Da"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "fra",
+      "tra"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "Nel frattempo"
+     ]
+    }
+   ]
+  }
+ ]
+}

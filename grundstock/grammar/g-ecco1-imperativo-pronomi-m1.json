@@ -103,7 +103,8 @@
      "id": "s7",
      "start": "Ti dico la verità? – Sì, …",
      "acceptedAnswers": [
-      "dimmela"
+      "dimmela",
+      "dimmi la verità"
      ],
      "modelAnswer": "Sì, dimmela!"
     },

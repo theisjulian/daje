@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-buono-l2",
+ "title": "Buon, buono, buona?",
+ "language": "it",
+ "level": "A2",
+ "description": "Buono e bene · Buon, buono, buona? · livello facile.",
+ "topics": [
+  "Buono e bene",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)"
+ },
+ "grammar": {
+  "topic": "ecco2-buono",
+  "topicTitle": "Buono e bene",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:\n| un lavoro | un **buon** lavoro |\n| un amico | un **buon** amico |\n| uno studente | un **buono** studente |\n| una scuola | una **buona** scuola |\n| un’amica | una **buon’**amica (anche: una **buona** amica) |\nAl plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._\n**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:\n- _Luca è un **buon** cuoco: cucina **bene**._\n- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)\nAuguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_",
+  "ruleHelp": "**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._\n**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta di buono.",
+   "promptHelp": "Wähle die richtige Form von buono.",
+   "explanation": "buon come un (un lavoro), buono come uno (uno stipendio, uno studente), buona come una, buon’ come un’.",
+   "explanationHelp": "buon wie un, buono wie uno (vor s + Konsonant, z), buona wie una, buon’ wie un’.",
+   "type": "gap_choice",
+   "text": "un [[g1]] lavoro\nun [[g2]] stipendio\nuna [[g3]] idea\nun [[g4]] amico\nun [[g5]] studente\nuna [[g6]] scuola\ndue [[g7]] colleghi\ntante [[g8]] notizie\nun [[g9]] esempio\nuna [[g10]] amica",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "buon",
+      "buono",
+      "buona"
+     ],
+     "answer": "buon"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "buono",
+      "buon",
+      "buona"
+     ],
+     "answer": "buono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "buona",
+      "buon",
+      "buono"
+     ],
+     "answer": "buona"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "buon",
+      "buono",
+      "buona"
+     ],
+     "answer": "buon"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "buono",
+      "buon",
+      "buoni"
+     ],
+     "answer": "buono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "buona",
+      "buono",
+      "buon"
+     ],
+     "answer": "buona"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "buoni",
+      "buone",
+      "buon"
+     ],
+     "answer": "buoni"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "buone",
+      "buoni",
+      "buona"
+     ],
+     "answer": "buone"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "buon",
+      "buono",
+      "buona"
+     ],
+     "answer": "buon"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "buon’",
+      "buon",
+      "buono"
+     ],
+     "answer": "buon’"
+    }
+   ]
+  }
+ ]
+}

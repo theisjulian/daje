@@ -454,7 +454,8 @@
    "definition": "Avere la capacità di.",
    "example": "Sono in grado di nuotare.",
    "acceptedAnswers": [
-    "essere in grado di"
+    "essere in grado di",
+    "essere in grado di fare qs"
    ]
   },
   {
@@ -742,7 +743,8 @@
    "definition": "Documento con le esperienze di una persona.",
    "example": "Invio il curriculum.",
    "acceptedAnswers": [
-    "il curriculum"
+    "il curriculum",
+    "il curriculum vitae"
    ],
    "grammar": {
     "partOfSpeech": "noun",

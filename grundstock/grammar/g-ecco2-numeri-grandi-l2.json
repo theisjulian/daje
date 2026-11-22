@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-numeri-grandi-l2",
+ "title": "Mille o mila?",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · Mille o mila? · livello facile.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "| 100 | **cento** | 1.000 | **mille** |\n| 200 | due**cento** | 2.000 | due**mila** |\n| 350 | trecentocinquanta | 10.000 | dieci**mila** |\n| 999 | novecentonovantanove | 100.000 | cento**mila** |\n| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |\n- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.\n- I numeri si scrivono in una sola parola: _millenovecentonovanta_.\n- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.\n- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).\n- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.",
+  "ruleHelp": "**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.\n**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.\nJahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.\nPreise: _tre euro e cinquanta_; **euro** hat keine Pluralform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "cento non cambia; mille → -mila; un milione di …; nel + anno.",
+   "explanationHelp": "cento bleibt gleich; mille → -mila; un milione di …; nel + Jahr.",
+   "type": "gap_choice",
+   "text": "300 = [[g1]]\n2.000 = [[g2]]\n1.000 = [[g3]]\n600 = [[g4]]\n1.200 = [[g5]]\n20.000 = [[g6]]\n5.000.000 = [[g7]]\nLa città ha un milione [[g8]].\nIl biglietto costa 150 [[g9]].\nMia sorella è nata [[g10]] 2010.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "trecento",
+      "trecenti",
+      "trecentoni"
+     ],
+     "answer": "trecento"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "duemila",
+      "duemille",
+      "duemili"
+     ],
+     "answer": "duemila"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "mille",
+      "un mille",
+      "unmila"
+     ],
+     "answer": "mille"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "seicento",
+      "seicenti",
+      "seiscento"
+     ],
+     "answer": "seicento"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "milleduecento",
+      "milladuecento",
+      "milleduecenti"
+     ],
+     "answer": "milleduecento"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ventimila",
+      "ventimille",
+      "ventemila"
+     ],
+     "answer": "ventimila"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "cinque milioni",
+      "cinque milione",
+      "cinque mila"
+     ],
+     "answer": "cinque milioni"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "di abitanti",
+      "abitanti",
+      "degli abitanti"
+     ],
+     "answer": "di abitanti"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "euro",
+      "euri",
+      "euros"
+     ],
+     "answer": "euro"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "nel",
+      "in",
+      "a"
+     ],
+     "answer": "nel"
+    }
+   ]
+  }
+ ]
+}

@@ -53,16 +53,8 @@
      "label": "maschile singolare"
     },
     {
-     "id": "c2",
-     "label": "maschile plurale"
-    },
-    {
      "id": "c3",
      "label": "femminile singolare"
-    },
-    {
-     "id": "c4",
-     "label": "femminile plurale"
     }
    ],
    "items": [
@@ -125,16 +117,8 @@
    "prompt": "Classifica i nomi indicati per genere e numero. Usa il testo per capire il significato. (parte 2/2)",
    "categories": [
     {
-     "id": "c1",
-     "label": "maschile singolare"
-    },
-    {
      "id": "c2",
      "label": "maschile plurale"
-    },
-    {
-     "id": "c3",
-     "label": "femminile singolare"
     },
     {
      "id": "c4",

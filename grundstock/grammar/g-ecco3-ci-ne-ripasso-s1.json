@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Trova gli errori · livello difficile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.",
+   "explanationHelp": "telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.",
+   "type": "error_correction",
+   "text": "Hai il biglietto? – Sì, [[g1]].\nQuanti fratelli hai? – [[g2]] ho due.\nBasta, sono stanco: [[g3]] vado!\nVai alla riunione? – Sì, [[g4]] vado con Luca.\nHai telefonato a Giulia? – Sì, [[g5]] ho telefonato ieri.\nDai tu il libro a Marco? – Sì, [[g6]] do domani.\nQuante mele ci sono? – [[g7]] sono sei.\nHo comprato le pizze e [[g8]] ho mangiate con gli amici.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "c’è l’ho",
+     "acceptedAnswers": [
+      "ce l’ho"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Li",
+     "acceptedAnswers": [
+      "Ne"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "me lo",
+     "acceptedAnswers": [
+      "me ne"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ne",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "la",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "gli lo",
+     "acceptedAnswers": [
+      "glielo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Ci ne",
+     "acceptedAnswers": [
+      "Ce ne"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "li",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ]
+  }
+ ]
+}

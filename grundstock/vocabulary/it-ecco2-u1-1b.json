@@ -82,7 +82,7 @@
     "eines Tages"
    ],
    "definition": "In un momento qualsiasi del passato o del futuro.",
-   "example": "Un giorno visiterò Roma.",
+   "example": "Un giorno voglio visitare Roma.",
    "usage": "avv."
   },
   {
@@ -117,7 +117,7 @@
    "acceptedAnswers": [
     "colpire"
    ],
-   "usage": "Abc"
+   "usage": "pres. colpisco, colpisci, colpisce, colpiamo, colpite, colpiscono"
   },
   {
    "id": "u1-1b-008",
@@ -243,7 +243,8 @@
    "example": "Mi tolgo la giacca.",
    "acceptedAnswers": [
     "togliersi qs, tolto",
-    "togliersi, tolto"
+    "togliersi qs",
+    "togliersi"
    ],
    "usage": "p.p. tolto"
   },
@@ -274,7 +275,7 @@
     "das Freiluftkino",
     "das Open-air-Kino"
    ],
-   "definition": "Sala dove si guardano film sotto le stelle.",
+   "definition": "Luogo dove si guardano film sotto le stelle.",
    "example": "D’estate c’è il cinema all’aperto.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -422,7 +423,10 @@
    "example": "Riesco a nuotare per un’ora.",
    "related": "F réussir",
    "acceptedAnswers": [
-    "riuscire a + inf., riuscito"
+    "riuscire a + inf., riuscito",
+    "riuscire a + inf.",
+    "riuscire a",
+    "riuscire"
    ],
    "usage": "p.p. riuscito"
   },

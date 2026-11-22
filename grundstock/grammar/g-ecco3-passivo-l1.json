@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-passivo-l1",
+ "title": "Attivo o passivo?",
+ "language": "it",
+ "level": "B1",
+ "description": "La forma passiva con essere e venire · Attivo o passivo? · livello facile.",
+ "topics": [
+  "La forma passiva con essere e venire",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Passiv mit essere und venire"
+ },
+ "grammar": {
+  "topic": "ecco3-passivo",
+  "topicTitle": "La forma passiva con essere e venire",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).\n| attivo | I volontari **puliscono** il parco. |\n| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |\nNei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:\n| tempo | essere | venire |\n| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |\n| imperfetto | **era pulita** | **veniva pulita** |\n| futuro | **sarà pulita** | **verrà pulita** |\n| passato prossimo | **è stata pulita** | – |\n| trapassato | **era stata pulita** | – |\n_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._",
+  "ruleHelp": "Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)\nIn den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "La frase è attiva o passiva?",
+   "promptHelp": "Ist der Satz aktiv oder passiv?",
+   "explanation": "Attenzione: è arrivato, sono andati, è rimasta sono forme attive del passato prossimo con essere.",
+   "explanationHelp": "Achtung: è arrivato, sono andati, è rimasta sind aktive Formen des passato prossimo mit essere.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "attivo"
+    },
+    {
+     "id": "p",
+     "label": "passivo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "I volontari distribuiscono i pasti.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "I pasti vengono distribuiti dai volontari.",
+     "category": "p"
+    },
+    {
+     "id": "i3",
+     "text": "La scuola ha organizzato una raccolta di vestiti.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "La raccolta è stata organizzata dalla scuola.",
+     "category": "p"
+    },
+    {
+     "id": "i5",
+     "text": "Il nuovo centro è stato aperto dal sindaco.",
+     "category": "p"
+    },
+    {
+     "id": "i6",
+     "text": "Il sindaco è arrivato alle dieci.",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "Molti ragazzi sono andati alla manifestazione.",
+     "category": "a"
+    },
+    {
+     "id": "i8",
+     "text": "Il progetto verrà presentato domani.",
+     "category": "p"
+    },
+    {
+     "id": "i9",
+     "text": "I rifiuti venivano raccolti ogni lunedì.",
+     "category": "p"
+    },
+    {
+     "id": "i10",
+     "text": "Giulia è rimasta al centro fino a sera.",
+     "category": "a"
+    }
+   ]
+  }
+ ]
+}

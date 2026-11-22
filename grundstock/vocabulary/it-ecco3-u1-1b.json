@@ -55,7 +55,8 @@
    "definition": "Non essere sicuri di una cosa.",
    "example": "Ho dubbi che lui dica la verità.",
    "acceptedAnswers": [
-    "avere dubbi che"
+    "avere dubbi che",
+    "avere dubbi sul fatto che"
    ],
    "usage": "+ cong."
   },
@@ -487,6 +488,8 @@
    "example": "Ho sbattuto la testa contro la porta.",
    "acceptedAnswers": [
     "sbattere qs",
+    "sbattere contro qs",
+    "sbattere contro",
     "sbattere"
    ],
    "usage": "p.p. sbattuto"

@@ -109,7 +109,7 @@
     "aus",
     "seit"
    ],
-   "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
+   "definition": "Piccola parola che indica il punto di partenza nello spazio o nel tempo.",
    "example": "Torno da Lecce."
   },
   {
@@ -263,7 +263,7 @@
     "die Sache"
    ],
    "definition": "Oggetto o fatto, quando non si dice il nome preciso.",
-   "example": "Che cosa è questa cosa?",
+   "example": "Nello zaino ho molte cose.",
    "related": "F la chose",
    "grammar": {
     "partOfSpeech": "noun",
@@ -478,7 +478,8 @@
    "definition": "Grande contenitore dove ci si lava nell’acqua.",
    "example": "Faccio il bagno nella vasca.",
    "acceptedAnswers": [
-    "la vasca"
+    "la vasca",
+    "la vasca da bagno"
    ],
    "usage": "pl. le vasche",
    "grammar": {
@@ -522,7 +523,7 @@
    "acceptedAnswers": [
     "cercare"
    ],
-   "usage": "Abc"
+   "usage": "pres. cerco, cerchi, cerca, cerchiamo, cercate, cercano"
   },
   {
    "id": "u2-2a-032",
@@ -768,7 +769,7 @@
     "So läuft das nicht!"
    ],
    "definition": "Si dice quando una situazione non è accettabile.",
-   "example": "Hai sempre ritardo: così non va!"
+   "example": "Sei sempre in ritardo: così non va!"
   },
   {
    "id": "u2-2a-048",

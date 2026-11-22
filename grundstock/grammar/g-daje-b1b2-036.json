@@ -53,16 +53,8 @@
      "label": "persone"
     },
     {
-     "id": "c2",
-     "label": "parti del libro"
-    },
-    {
      "id": "c3",
      "label": "generi"
-    },
-    {
-     "id": "c4",
-     "label": "attività"
     }
    ],
    "items": [
@@ -130,16 +122,8 @@
    "prompt": "Classifica le 21 parole: persone, parti del libro, generi e attività. Per editrice usa qui il significato di persona che dirige o cura l’edizione. (parte 2/2)",
    "categories": [
     {
-     "id": "c1",
-     "label": "persone"
-    },
-    {
      "id": "c2",
      "label": "parti del libro"
-    },
-    {
-     "id": "c3",
-     "label": "generi"
     },
     {
      "id": "c4",

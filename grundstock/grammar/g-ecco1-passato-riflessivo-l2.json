@@ -52,7 +52,7 @@
    "explanation": "Con essere il participio prende -o, -a, -i, -e come il soggetto.",
    "explanationHelp": "Mit essere passt sich das Partizip an.",
    "type": "gap_choice",
-   "text": "Giulia si è [[g1]] presto.\nI ragazzi si sono [[g2]].\nLe mie sorelle si sono [[g3]].\nPaolo si è [[g4]].\nNoi (Anna e io) ci siamo [[g5]].\nLa torta mi è [[g6]].\nI libri ti sono [[g7]]?\nLe vacanze ci sono [[g8]].",
+   "text": "Giulia si è [[g1]] presto.\nI ragazzi si sono [[g2]].\nLe mie sorelle si sono [[g3]].\nPaolo si è [[g4]].\nNoi ragazze ci siamo [[g5]].\nLa torta mi è [[g6]].\nI libri ti sono [[g7]]?\nLe vacanze ci sono [[g8]].",
    "gaps": [
     {
      "id": "g1",

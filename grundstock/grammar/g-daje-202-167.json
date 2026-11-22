@@ -6,9 +6,9 @@
  "title": "Due compagni, un progetto",
  "language": "it",
  "level": "A2",
- "description": "Essere und avere · Due compagni, un progetto · livello medio.",
+ "description": "Testi e forme: ripasso · Due compagni, un progetto · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1167
@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
+   "prompt": "Completa il testo con le parole date. Alcune parole si usano più volte.",
    "text": "[[g1]] e Sami lavoriamo allo stesso giornale, ma affrontiamo i compiti in modo diverso. Io preparo una lista [[g2]] di cominciare; [[g3]] preferisce discutere le idee ad alta voce. [[g4]] [[g5]] siedo davanti al computer, voglio sapere [[g6]] testo scriverò. Sami, [[g7]], apre [[g8]] pagine, prende appunti e trova collegamenti inattesi. [[g9]] mi sorprende con una proposta molto [[g10]] che risolve un problema. Io [[g11]] ricordo le scadenze e [[g12]] mi aiuta a non fermarmi al primo errore.\nDurante le interviste, io mi occupo delle domande e lui registra. Mi preoccupo se una risposta è troppo breve; Sami mi suggerisce di aspettare e ascoltare. Spesso l’intervistato continua da solo. Quando rileggo il testo, mi accorgo di nuovi dettagli. A lui interessa soprattutto il ritmo del racconto, a me la chiarezza delle informazioni. Non siamo sempre d’accordo. Se una frase non funziona, la leggiamo a un terzo compagno e chiediamo che cosa capisce. Così la discussione non diventa una gara tra noi.\nFuori dalla redazione abbiamo interessi diversi, ma questo rende il lavoro più ricco. Sami conosce molti musicisti; io seguo le attività della biblioteca. Ci scambiamo notizie e scegliamo insieme che cosa raccontare. Non devo diventare come lui e lui non deve diventare come me. Dobbiamo soltanto imparare a usare bene le nostre differenze.",
    "gaps": [
     {
@@ -123,7 +123,7 @@
     }
    ],
    "wordBank": true,
-   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Verwende jedes Wort einmal."
+   "promptHelp": "Ergänze den Text mit den vorgegebenen Wörtern. Manche Wörter brauchst du mehrmals."
   }
  ]
 }

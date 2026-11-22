@@ -1,0 +1,159 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-m1",
+ "title": "Essere e fare",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Essere e fare · livello medio.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella.",
+   "promptHelp": "Ergänze die Tabelle.",
+   "type": "table_fill",
+   "columns": [
+    "persona",
+    "parlare",
+    "essere",
+    "fare"
+   ],
+   "rows": [
+    [
+     "che io",
+     "parlassi",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "fossi"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "facessi"
+      ]
+     }
+    ],
+    [
+     "che tu",
+     "parlassi",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "fossi"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "facessi"
+      ]
+     }
+    ],
+    [
+     "che lui / lei",
+     "parlasse",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "fosse"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "facesse"
+      ]
+     }
+    ],
+    [
+     "che noi",
+     "parlassimo",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "fossimo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "facessimo"
+      ]
+     }
+    ],
+    [
+     "che voi",
+     "parlaste",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "foste"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "faceste"
+      ]
+     }
+    ],
+    [
+     "che loro",
+     "parlassero",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "fossero"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "facessero"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

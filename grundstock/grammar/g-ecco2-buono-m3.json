@@ -1,0 +1,147 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-buono-m3",
+ "title": "È bravo? Sì, lavora bene!",
+ "language": "it",
+ "level": "A2",
+ "description": "Buono e bene · È bravo? Sì, lavora bene! · livello medio.",
+ "topics": [
+  "Buono e bene",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)"
+ },
+ "grammar": {
+  "topic": "ecco2-buono",
+  "topicTitle": "Buono e bene",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:\n| un lavoro | un **buon** lavoro |\n| un amico | un **buon** amico |\n| uno studente | un **buono** studente |\n| una scuola | una **buona** scuola |\n| un’amica | una **buon’**amica (anche: una **buona** amica) |\nAl plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._\n**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:\n- _Luca è un **buon** cuoco: cucina **bene**._\n- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)\nAuguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_",
+  "ruleHelp": "**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._\n**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la frase: aggettivo → avverbio.",
+   "promptHelp": "Forme um: Adjektiv → Adverb.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "È un buon cuoco. → Cucina …",
+     "acceptedAnswers": [
+      "bene"
+     ],
+     "modelAnswer": "Cucina bene."
+    },
+    {
+     "id": "s2",
+     "start": "È una cattiva cantante. → Canta …",
+     "acceptedAnswers": [
+      "male"
+     ],
+     "modelAnswer": "Canta male."
+    },
+    {
+     "id": "s3",
+     "start": "Sono buoni giocatori. → Giocano …",
+     "acceptedAnswers": [
+      "bene"
+     ],
+     "modelAnswer": "Giocano bene."
+    },
+    {
+     "id": "s4",
+     "start": "È un cattivo ballerino. → Balla …",
+     "acceptedAnswers": [
+      "male"
+     ],
+     "modelAnswer": "Balla male."
+    },
+    {
+     "id": "s5",
+     "start": "È una buona insegnante. → Insegna …",
+     "acceptedAnswers": [
+      "bene"
+     ],
+     "modelAnswer": "Insegna bene."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso al contrario: avverbio → aggettivo + nome.",
+   "promptHelp": "Und jetzt umgekehrt: Adverb → Adjektiv + Nomen.",
+   "explanation": "buono → bene, cattivo → male. L’avverbio non cambia mai.",
+   "explanationHelp": "buono → bene, cattivo → male. Das Adverb bleibt immer gleich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca cucina bene. → È un … (cuoco)",
+     "acceptedAnswers": [
+      "buon cuoco"
+     ],
+     "modelAnswer": "È un buon cuoco."
+    },
+    {
+     "id": "s2",
+     "start": "Marta studia bene. → È una … (studentessa)",
+     "acceptedAnswers": [
+      "buona studentessa"
+     ],
+     "modelAnswer": "È una buona studentessa."
+    },
+    {
+     "id": "s3",
+     "start": "Paolo studia bene. → È un … (studente)",
+     "acceptedAnswers": [
+      "buono studente"
+     ],
+     "modelAnswer": "È un buono studente."
+    },
+    {
+     "id": "s4",
+     "start": "Rita guida male. → È una … (autista)",
+     "acceptedAnswers": [
+      "cattiva autista"
+     ],
+     "modelAnswer": "È una cattiva autista."
+    },
+    {
+     "id": "s5",
+     "start": "I ragazzi giocano male. → Sono … (giocatori)",
+     "acceptedAnswers": [
+      "cattivi giocatori"
+     ],
+     "modelAnswer": "Sono cattivi giocatori."
+    }
+   ]
+  }
+ ]
+}

@@ -129,7 +129,7 @@
    "id": "q4",
    "prompt": "Metti le parole in ordine: „Nein, wir hören keine Musik.“",
    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
-   "explanation": "non steht direkt vor dem Verb.",
+   "explanation": "non va subito prima del verbo.",
    "explanationHelp": "non steht direkt vor dem Verb.",
    "type": "ordering",
    "items": [

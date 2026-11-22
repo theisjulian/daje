@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-m3",
+ "title": "Magari!",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Magari! · livello medio.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Non è andata così. Esprimi il desiderio con magari + congiuntivo trapassato.",
+   "promptHelp": "So war es nicht. Drücke den Wunsch mit magari + congiuntivo trapassato aus.",
+   "explanation": "Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …!",
+   "explanationHelp": "Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …!",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Non ho studiato. → Magari …",
+     "acceptedAnswers": [
+      "avessi studiato"
+     ],
+     "modelAnswer": "Magari avessi studiato!"
+    },
+    {
+     "id": "s2",
+     "start": "Luca non è venuto. → Magari Luca …",
+     "acceptedAnswers": [
+      "fosse venuto"
+     ],
+     "modelAnswer": "Magari Luca fosse venuto!"
+    },
+    {
+     "id": "s3",
+     "start": "Abbiamo perso la partita. → Magari …",
+     "acceptedAnswers": [
+      "non avessimo perso"
+     ],
+     "modelAnswer": "Magari non avessimo perso la partita!"
+    },
+    {
+     "id": "s4",
+     "start": "Ho dimenticato l’ombrello. → Magari …",
+     "acceptedAnswers": [
+      "non avessi dimenticato l’ombrello"
+     ],
+     "modelAnswer": "Magari non avessi dimenticato l’ombrello!"
+    },
+    {
+     "id": "s5",
+     "start": "I miei amici non hanno visto il messaggio. → Magari i miei amici …",
+     "acceptedAnswers": [
+      "avessero visto il messaggio"
+     ],
+     "modelAnswer": "Magari i miei amici avessero visto il messaggio!"
+    },
+    {
+     "id": "s6",
+     "start": "Non avete chiesto aiuto. → Magari …",
+     "acceptedAnswers": [
+      "aveste chiesto aiuto"
+     ],
+     "modelAnswer": "Magari aveste chiesto aiuto!"
+    },
+    {
+     "id": "s7",
+     "start": "Chiara è andata via presto. → Magari Chiara …",
+     "acceptedAnswers": [
+      "non fosse andata via"
+     ],
+     "modelAnswer": "Magari Chiara non fosse andata via così presto!"
+    },
+    {
+     "id": "s8",
+     "start": "I ragazzi non sono partiti prima. → Magari i ragazzi …",
+     "acceptedAnswers": [
+      "fossero partiti prima"
+     ],
+     "modelAnswer": "Magari i ragazzi fossero partiti prima!"
+    }
+   ]
+  }
+ ]
+}

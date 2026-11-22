@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-passati-contrasto-m1",
+ "title": "Il messaggio nella bottiglia",
+ "language": "it",
+ "level": "A2",
+ "description": "Passato prossimo e imperfetto · Il messaggio nella bottiglia · livello medio.",
+ "topics": [
+  "Passato prossimo e imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Gebrauch von passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-passati-contrasto",
+  "topicTitle": "Passato prossimo e imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "| **imperfetto** | **passato prossimo** |\n| abitudine: _Ogni estate **andavamo** al mare._ | azione unica e finita: _Ieri **siamo andati** al mare._ |\n| descrizione (tempo, età, persone, luoghi): _**Faceva** caldo. **Avevo** dieci anni._ | azioni una dopo l’altra: _**Sono uscito**, **ho preso** l’autobus e **sono andato** in centro._ |\n| azione in corso: _Mentre **dormivo**, …_ | azione nuova, improvvisa: _… **è suonata** la sveglia._ |\nParole tipiche per l’imperfetto: _da bambino, di solito, sempre, ogni estate, mentre_.\nParole tipiche per il passato prossimo: _ieri, sabato scorso, nel 2020, all’improvviso, a un certo punto, tre volte_.\n_**Mentre** tornavo a casa, **ho incontrato** Marta._",
+  "ruleHelp": "**imperfetto:** Gewohnheit, Beschreibung (Wetter, Alter, Aussehen, Gefühle), Handlung, die gerade im Gang war (**mentre** + imperfetto).\n**passato prossimo:** einmalige, abgeschlossene Handlung; Handlungen nacheinander; etwas Neues, das plötzlich passiert (ieri, sabato scorso, all’improvviso, tre volte).\nDas Deutsche macht diesen Unterschied nicht (beides „ich ging / ich bin gegangen“). Frage dich: „Wie war es? Was machte man immer?“ → imperfetto. „Was ist dann passiert?“ → passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Davide racconta. Metti i verbi all’imperfetto o al passato prossimo.",
+   "promptHelp": "Davide erzählt. Setze die Verben ins imperfetto oder ins passato prossimo.",
+   "explanation": "da bambino, di solito, mentre, descrizioni → imperfetto; un giorno, quella sera → passato prossimo.",
+   "explanationHelp": "da bambino, di solito, mentre, Beschreibungen → imperfetto; un giorno, quella sera → passato prossimo.",
+   "type": "gap_fill",
+   "text": "Mi chiamo Davide. Da bambino (passare) [[g1]] ogni estate in Puglia dai nonni.\nLa loro casa (essere) [[g2]] vicino al mare e (avere) [[g3]] un grande giardino.\nDi solito la mattina io e mio cugino (andare) [[g4]] in spiaggia.\nUn giorno, nell’estate del 2018, mio cugino (trovare) [[g5]] una bottiglia con un messaggio.\nMentre lui (leggere) [[g6]] il foglio, (arrivare) [[g7]] la nonna.\nLa nonna (dire) [[g8]]: «Quel messaggio è mio!»\nQuella sera (noi, mangiare) [[g9]] tutti insieme in giardino.\n(fare) [[g10]] caldo e il cielo (essere) [[g11]] pieno di stelle.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "passavo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "andavamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha trovato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "leggeva"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "è arrivata"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha detto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "abbiamo mangiato"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Faceva"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "era"
+     ]
+    }
+   ]
+  }
+ ]
+}

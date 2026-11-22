@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-implicite-m3",
+ "title": "Finita la lezione …",
+ "language": "it",
+ "level": "B1",
+ "description": "Gerundio e participi · Finita la lezione … · livello medio.",
+ "topics": [
+  "Gerundio e participi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)"
+ },
+ "grammar": {
+  "topic": "it11-implicite",
+  "topicTitle": "Gerundio e participi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.\n| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |\n| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |\n\n| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |\n| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |\n| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |\n| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |\n| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |\n**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).\nI **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.\nIl **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.",
+  "ruleHelp": "**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.\ngerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.\nPartizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.\nPronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma: comincia la frase con il participio passato.",
+   "promptHelp": "Forme um: Beginne den Satz mit dem Partizip Perfekt.",
+   "explanation": "Il participio concorda: con l’oggetto (chiusa la porta, fatti i compiti) o, con i verbi con essere, con il soggetto (arrivati, tornata).",
+   "explanationHelp": "Das Partizip richtet sich nach dem Objekt (chiusa la porta) oder, bei Verben mit essere, nach dem Subjekt (arrivati, tornata).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Dopo che la lezione era finita, siamo andati al bar. → …",
+     "acceptedAnswers": [
+      "Finita la lezione"
+     ],
+     "modelAnswer": "Finita la lezione, siamo andati al bar."
+    },
+    {
+     "id": "s2",
+     "start": "Dopo essere arrivati a casa, abbiamo cenato. → …",
+     "acceptedAnswers": [
+      "Arrivati a casa"
+     ],
+     "modelAnswer": "Arrivati a casa, abbiamo cenato."
+    },
+    {
+     "id": "s3",
+     "start": "Dopo aver letto il libro, Sara l’ha prestato a un’amica. → …",
+     "acceptedAnswers": [
+      "Letto il libro"
+     ],
+     "modelAnswer": "Letto il libro, Sara l’ha prestato a un’amica."
+    },
+    {
+     "id": "s4",
+     "start": "Quando gli esami sono finiti, gli studenti hanno fatto una festa. → …",
+     "acceptedAnswers": [
+      "Finiti gli esami"
+     ],
+     "modelAnswer": "Finiti gli esami, gli studenti hanno fatto una festa."
+    },
+    {
+     "id": "s5",
+     "start": "Dopo essere tornata dall’Italia, Giulia ha cominciato un corso di cucina. → …",
+     "acceptedAnswers": [
+      "Tornata dall’Italia"
+     ],
+     "modelAnswer": "Tornata dall’Italia, Giulia ha cominciato un corso di cucina."
+    },
+    {
+     "id": "s6",
+     "start": "Dopo aver chiuso la porta, Marco è sceso in strada. → …",
+     "acceptedAnswers": [
+      "Chiusa la porta"
+     ],
+     "modelAnswer": "Chiusa la porta, Marco è sceso in strada."
+    },
+    {
+     "id": "s7",
+     "start": "Dopo che le vacanze erano passate, è ricominciata la scuola. → …",
+     "acceptedAnswers": [
+      "Passate le vacanze"
+     ],
+     "modelAnswer": "Passate le vacanze, è ricominciata la scuola."
+    },
+    {
+     "id": "s8",
+     "start": "Dopo essere usciti dal cinema, i ragazzi hanno discusso del film. → …",
+     "acceptedAnswers": [
+      "Usciti dal cinema"
+     ],
+     "modelAnswer": "Usciti dal cinema, i ragazzi hanno discusso del film."
+    },
+    {
+     "id": "s9",
+     "start": "Dopo aver fatto i compiti, Luca ha guardato una serie. → …",
+     "acceptedAnswers": [
+      "Fatti i compiti"
+     ],
+     "modelAnswer": "Fatti i compiti, Luca ha guardato una serie."
+    }
+   ]
+  }
+ ]
+}

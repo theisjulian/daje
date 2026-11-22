@@ -187,7 +187,8 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "Lo abbiamo letto."
+      "Lo abbiamo letto.",
+      "L’abbiamo letto."
      ]
     },
     {
@@ -199,7 +200,8 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "L’hai vista?"
+      "L’hai vista?",
+      "La hai vista?"
      ]
     }
    ],

@@ -77,25 +77,29 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "tavoli"
+      "tavoli",
+      "scaffali"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "sedie"
+      "sedie",
+      "lampade"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "scaffali"
+      "scaffali",
+      "tavoli"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "lampade"
+      "lampade",
+      "sedie"
      ]
     },
     {
@@ -111,7 +115,6 @@
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

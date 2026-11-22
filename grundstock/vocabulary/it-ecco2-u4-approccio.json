@@ -296,7 +296,7 @@
    "translations": [
     "das Möbel(-stück)"
    ],
-   "definition": "Oggetto di legno per la casa.",
+   "definition": "Oggetto per arredare la casa, come un tavolo o un armadio.",
    "example": "Un mobile antico.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -358,7 +358,7 @@
    "acceptedAnswers": [
     "dare fastidio a"
    ],
-   "usage": "Abc"
+   "usage": "mi dà fastidio = es stört mich"
   },
   {
    "id": "u4-approccio-024",
@@ -389,7 +389,8 @@
    "definition": "Impresa che vende prodotti all’estero.",
    "example": "Lavora in un’azienda di export.",
    "acceptedAnswers": [
-    "l’azienda"
+    "l’azienda",
+    "l’azienda di export"
    ]
   },
   {
@@ -530,7 +531,7 @@
    ],
    "definition": "Forma gentile di “vuole”.",
    "example": "Vorrebbe un caffè.",
-   "family": "3. Pers. von vorrei",
+   "family": "volere",
    "usage": "3. Pers. von vorrei"
   },
   {
@@ -563,7 +564,8 @@
    "example": "Aggiungo un po’ di sale.",
    "related": "L adiungere",
    "acceptedAnswers": [
-    "aggiungere, aggiunto"
+    "aggiungere, aggiunto",
+    "aggiungere"
    ],
    "usage": "p.p. aggiunto"
   },

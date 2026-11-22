@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-possessivi-pronomi-m1",
+ "title": "In ufficio",
+ "language": "it",
+ "level": "A2",
+ "description": "I pronomi possessivi · In ufficio · livello medio.",
+ "topics": [
+  "I pronomi possessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Possessivpronomen (il mio, la tua, i suoi …)"
+ },
+ "grammar": {
+  "topic": "ecco2-possessivi-pronomi",
+  "topicTitle": "I pronomi possessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Il **pronome possessivo** sta **al posto di un nome**: _Questo è il mio zaino. Dov’è **il tuo**?_ (= il tuo zaino)\n| | singolare | plurale |\n| io | il mio · la mia | i miei · le mie |\n| tu | il tuo · la tua | i tuoi · le tue |\n| lui / lei | il suo · la sua | i suoi · le sue |\n| noi | il nostro · la nostra | i nostri · le nostre |\n| voi | il vostro · la vostra | i vostri · le vostre |\n| loro | il loro · la loro | i loro · le loro |\nIl pronome ha **l’articolo**, anche con la famiglia: _**Mia** madre lavora in banca. E **la tua**?_\nDopo **essere** l’articolo può mancare: _Di chi è questa penna? – È **mia**._ / _È **la mia**._\n**Loro** non cambia mai: _il loro, la loro, i loro, le loro._",
+  "ruleHelp": "Das **Possessivpronomen** steht **statt eines Nomens**: _Dov’è il tuo?_ (Wo ist deiner / deins?). Es richtet sich nach dem Nomen, das es ersetzt, nicht nach dem Besitzer.\nAls Pronomen steht es **mit Artikel**, auch bei Verwandten: _mia madre_ (Begleiter, ohne Artikel) – _la mia_ (Pronomen, mit Artikel).\nNach **essere** kann der Artikel fehlen: _È mio._ / _È il mio._ (Das ist meiner. / Das gehört mir.) **loro** bleibt unverändert."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il pronome possessivo (con l’articolo).",
+   "promptHelp": "Ergänze das Possessivpronomen (mit Artikel).",
+   "explanation": "Il pronome ha sempre l’articolo: mio padre → il tuo, mia madre → la sua.",
+   "explanationHelp": "Das Pronomen hat immer den Artikel: mio padre → il tuo, mia madre → la sua.",
+   "type": "gap_fill",
+   "text": "Il mio computer non funziona. Posso usare (tu) [[g1]]?\nLa nostra pausa è alle dieci. Quando è (voi) [[g2]]?\nI miei orari sono comodi. Come sono (tu) [[g3]]?\nSara ha portato le sue cuffie, ma Luca ha dimenticato (lui) [[g4]].\nLa mia scrivania è vicino alla finestra, (loro) [[g5]] è vicino alla porta.\nNoi abbiamo già i nostri badge. I nuovi stagisti non hanno ancora (loro) [[g6]].\nMio padre lavora in ospedale. E (tu) [[g7]]?\nMia madre lavora in banca, (Giulia) [[g8]] lavora in un negozio.\nLe tue idee mi piacciono, ma anche (io) [[g9]] sono buone!\nIl vostro progetto è già finito, (noi) [[g10]] no.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il tuo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "la vostra"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "i tuoi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le sue"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "la loro"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "i loro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "il tuo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "la sua"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "le mie"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "il nostro"
+     ]
+    }
+   ]
+  }
+ ]
+}

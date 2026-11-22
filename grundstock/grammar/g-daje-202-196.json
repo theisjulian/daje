@@ -6,9 +6,9 @@
  "title": "Piccole decisioni insieme (2)",
  "language": "it",
  "level": "A2",
- "description": "Essere und avere · Piccole decisioni insieme (2) · livello medio.",
+ "description": "Testi e forme: ripasso · Piccole decisioni insieme (2) · livello medio.",
  "topics": [
-  "Essere und avere",
+  "Testi e forme: ripasso",
   "Grammatik"
  ],
  "sources": [
@@ -37,7 +37,7 @@
  },
  "grammar": {
   "topic": "daje-testi-a2",
-  "topicTitle": "Essere und avere",
+  "topicTitle": "Testi e forme: ripasso",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1196
@@ -58,13 +58,15 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "visto"
+      "visto",
+      "letto"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "letto"
+      "letto",
+      "visto"
      ]
     },
     {

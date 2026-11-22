@@ -87,7 +87,10 @@
      "id": "s5",
      "start": "Il film comincia alle otto.",
      "acceptedAnswers": [
-      "A che ora comincia il film"
+      "A che ora comincia il film",
+      "Quando comincia il film",
+      "A che ora inizia il film",
+      "Quando inizia il film"
      ],
      "modelAnswer": "A che ora comincia il film?"
     },
@@ -103,7 +106,11 @@
      "id": "s7",
      "start": "Domani vado al cinema.",
      "acceptedAnswers": [
-      "Che cosa fai domani"
+      "Che cosa fai domani",
+      "Cosa fai domani",
+      "Che fai domani",
+      "Dove vai domani",
+      "Quando vai al cinema"
      ],
      "modelAnswer": "Che cosa fai domani?"
     },

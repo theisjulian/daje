@@ -32,7 +32,7 @@
    "translations": [
     "fliegen"
    ],
-   "definition": "Viaggiare con il velivolo.",
+   "definition": "Viaggiare volando.",
    "example": "Vado in aereo a Londra."
   },
   {
@@ -107,7 +107,7 @@
    "definition": "Salire su una linea della metro o del bus.",
    "example": "Prendo la linea A.",
    "acceptedAnswers": [
-    "prendere la linea"
+    "prendere la linea A"
    ]
   },
   {
@@ -261,7 +261,7 @@
    "translations": [
     "die Vorspeise"
    ],
-   "definition": "Piatto che si mangia prima della pasta.",
+   "definition": "Piccolo piatto che si mangia all’inizio del pasto.",
    "example": "Come antipasto prendo il prosciutto."
   },
   {
@@ -496,7 +496,7 @@
    "translations": [
     "das Gedeck"
    ],
-   "definition": "Piccola somma da pagare al ristorante per il servizio.",
+   "definition": "Piccola somma che si paga al ristorante per il pane e il posto a tavola.",
    "example": "Il coperto costa due euro.",
    "grammar": {
     "partOfSpeech": "noun",

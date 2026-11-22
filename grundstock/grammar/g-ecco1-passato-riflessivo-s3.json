@@ -58,7 +58,7 @@
    "prompt": "Controlla: quale forma?",
    "promptHelp": "Welche Form?",
    "type": "gap_choice",
-   "text": "Ieri (io, Lena) mi [[g1]].\nIl film mi [[g2]].\nIo e Sara ci [[g3]].\nLe lezioni mi [[g4]].",
+   "text": "Ieri (io, Lena) mi [[g1]].\nIl film mi [[g2]].\nIo (Lena) e Sara ci [[g3]].\nLe lezioni mi [[g4]].",
    "gaps": [
     {
      "id": "g1",

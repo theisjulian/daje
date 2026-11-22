@@ -43,10 +43,10 @@ tu e Sara = vi alzate
 %übung leicht | La giornata in ordine
 ?ordnen | Metti in ordine la mattina di Anna. || Ordne Annas Morgen.
 Si sveglia alle sette.
-Si alza dal letto.
-Si lava la faccia.
-Si veste.
-Fa colazione.
+Alle sette e cinque si alza dal letto.
+Alle sette e dieci si lava la faccia.
+Alle sette e un quarto si veste.
+Alle sette e mezza fa colazione.
 ?ordnen | E la sera? || Und am Abend?
 Torna a casa.
 Si fa la doccia.
@@ -77,7 +77,7 @@ Come si chiama tua sorella? (Anna) – … | Si chiama Anna | Si chiama Anna.
 Vi divertite al mare? (sì) – … | Sì, ci divertiamo | Sì, ci divertiamo.
 A che ora si alzano i tuoi? (alle sei) – … | Si alzano alle sei | Si alzano alle sei.
 Ti annoi a scuola? (no) – … | No, non mi annoio | No, non mi annoio.
-Quando vi riposate? (il pomeriggio) – … | Ci riposiamo il pomeriggio | Ci riposiamo il pomeriggio.
+Quando vi riposate? (il pomeriggio) – … | Ci riposiamo il pomeriggio/Ci riposiamo nel pomeriggio/Ci riposiamo di pomeriggio/Il pomeriggio ci riposiamo/Nel pomeriggio ci riposiamo | Ci riposiamo il pomeriggio.
 Come ti senti? (bene) – … | Mi sento bene | Mi sento bene.
 Ti metti il cappello? (sì) – … | Sì, mi metto il cappello | Sì, mi metto il cappello.
 
@@ -274,12 +274,12 @@ C’è {qualche*|alcuni|alcune} nuvola in cielo.
 Kategorien: q=qualche; a=alcuni / alcune
 giorno > q
 amica > q
-foto > q
+una foto > q
 volta > q
 libro > q
 giorni > a
 amiche > a
-foto (plurale) > a
+due foto > a
 volte > a
 libri > a
 

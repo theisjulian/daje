@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Trova gli errori · livello difficile.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Dopo non vuole l’infinito semplice: dopo aver mangiato, dopo essere arrivati.",
+   "explanationHelp": "Nach dopo steht nicht der einfache Infinitiv, sondern aver / essere + Partizip.",
+   "type": "error_correction",
+   "text": "Dopo [[g1]], siamo usciti.\n[[g2]] uscire chiudo sempre la finestra.\nInvece [[g3]] studiare, mio fratello dorme.\nÈ uscita senza [[g4]].\nDopo [[g5]] arrivati, abbiamo cercato un bar.\nDopo essere [[g6]] a casa, Giulia ha fatto i compiti.\nTi scrivo per [[g7]] alla festa.\nDopo [[g8]], ti presto il libro.\nDopo aver [[g9]] la foto, l’ho mandata a tutti.\nVado in biblioteca per [[g10]] in silenzio.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "mangiare",
+     "acceptedAnswers": [
+      "aver mangiato",
+      "avere mangiato"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Prima",
+     "acceptedAnswers": [
+      "Prima di"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "da",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "saluta",
+     "acceptedAnswers": [
+      "salutare"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "aver",
+     "acceptedAnswers": [
+      "essere"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "tornato",
+     "acceptedAnswers": [
+      "tornata"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "ti invitare",
+     "acceptedAnswers": [
+      "invitarti"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "lo aver letto",
+     "acceptedAnswers": [
+      "averlo letto"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "fare",
+     "acceptedAnswers": [
+      "fatto"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "studio",
+     "acceptedAnswers": [
+      "studiare"
+     ]
+    }
+   ]
+  }
+ ]
+}

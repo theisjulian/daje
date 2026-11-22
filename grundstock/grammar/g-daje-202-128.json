@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo con l’imperfetto di essere.",
+   "promptHelp": "Ergänze den Text mit dem imperfetto von essere.",
    "text": "Ciao gruppo, grazie per il pomeriggio di ieri! La sala [[g1]] luminosa, i tavoli erano ordinati e le fotografie [[g2]] davvero interessanti. Il programma [[g3]] semplice, ma ogni attività aveva uno scopo chiaro. Le spiegazioni [[g4]] brevi e comprensibili. La musica [[g5]] piacevole e il volume non [[g6]] troppo alto. I volontari [[g7]] disponibili; anche le persone nuove si sentivano a proprio agio. La pausa [[g8]] un momento tranquillo: le bevande erano fresche e la torta era buonissima. I bambini erano curiosi e facevano domande divertenti. Il nostro ospite era un po’ stanco, però era felice di raccontare il suo lavoro. Io ero preoccupata prima dell’incontro, perché non conoscevo quasi nessuno. Alla fine ero contenta e avevo molti spunti per il progetto. Siete stati gentili anche con chi è arrivato tardi. Ho apprezzato soprattutto il tempo dedicato alle domande. Non sempre un evento piccolo riesce a creare un’atmosfera così accogliente. Grazie ancora e alla prossima, Luce.",
    "gaps": [
     {
@@ -98,8 +98,7 @@
       "era"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

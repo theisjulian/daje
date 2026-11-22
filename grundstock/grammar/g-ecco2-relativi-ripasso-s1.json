@@ -1,0 +1,135 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Trova gli errori · livello difficile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "chi non ha un nome prima e vuole il verbo al singolare; dopo una preposizione: cui; parlare di → di cui.",
+   "explanationHelp": "chi hat kein Bezugswort und verlangt den Singular; nach Präposition cui; parlare di → di cui.",
+   "type": "error_correction",
+   "text": "La ragazza [[g1]] canta è mia cugina.\nIl film [[g2]] ti ho parlato è al cinema adesso.\nL’amico con [[g3]] suono abita qui vicino.\n[[g4]] vuole venire deve dirlo oggi.\nNon ho capito [[g5]] hai detto.\nQuesta è la scuola [[g6]] ho studiato musica.\nLe persone [[g7]] lavorano qui sono molto giovani.\nChi [[g8]] tardi non trova posto.\nIl quartiere [[g9]] abito è tranquillo.\nEcco il libro [[g10]] cercavi.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "di cui"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "cui"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Che",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "quello che",
+      "ciò che",
+      "che cosa",
+      "cosa"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "dove",
+      "in cui"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "cui",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "arrivano",
+     "acceptedAnswers": [
+      "arriva"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "in che",
+     "acceptedAnswers": [
+      "in cui",
+      "dove"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "quello che",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -65,7 +65,8 @@
     {
      "id": "g1",
      "acceptedAnswers": [
-      "bella"
+      "bella",
+      "grande"
      ]
     },
     {
@@ -101,7 +102,9 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "piccola"
+      "piccola",
+      "grande",
+      "bella"
      ]
     },
     {
@@ -119,11 +122,12 @@
     {
      "id": "g10",
      "acceptedAnswers": [
-      "grande"
+      "grande",
+      "bella",
+      "piccola"
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

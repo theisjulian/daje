@@ -6,9 +6,9 @@
  "title": "Un colloquio diverso",
  "language": "it",
  "level": "B1",
- "description": "Riconoscere la formazione delle parole · Un colloquio diverso · livello medio.",
+ "description": "Raccontare esperienze interculturali · Un colloquio diverso · livello medio.",
  "topics": [
-  "Riconoscere la formazione delle parole",
+  "Raccontare esperienze interculturali",
   "Grammatik"
  ],
  "sources": [
@@ -29,14 +29,14 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "3",
-   "unit": "4 · Nord e Sud",
+   "unit": "2 · Vivere all’estero",
    "section": "Parte B"
   },
   "curriculum": "It10 Methodische Kompetenzen"
  },
  "grammar": {
-  "topic": "ecco3-formazione-parole",
-  "topicTitle": "Riconoscere la formazione delle parole",
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
   "difficulty": "mittel",
   "origin": "own",
   "order": 3055
@@ -48,7 +48,6 @@
    "type": "gap_fill",
    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
    "text": "Quando [[g1]] (leggere, forma composta) l’offerta del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum [[g2]] (essere) breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. [[g3]] (avere, imperfetto) però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. Nella candidatura [[g4]] (spiegare, forma composta) che sapevo montare piccoli video e lavorare in gruppo.\nLa responsabile mi [[g5]] (invitare, forma composta) a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. [[g6]] (volere) sapere come avrei reagito a un errore durante uno spettacolo. «[[g7]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g8]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. [[g9]] (leggere, forma composta) tutto con calma. [[g10]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi [[g11]] (seguire, forma composta) nelle prove. Ogni sera prendevo appunti su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; [[g12]] (avere, imperfetto) però imparato a fare domande precise e a rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",

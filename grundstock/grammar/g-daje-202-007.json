@@ -61,14 +61,14 @@
   {
    "id": "q1r3",
    "type": "open_answer",
-   "prompt": "Fino a che ora apre la sala studio il mercoledì?",
+   "prompt": "Fino a che ora resta aperta la sala studio il mercoledì?",
    "modelAnswer": "Fino alle venti.",
    "lines": 3
   },
   {
    "id": "q1r4",
    "type": "open_answer",
-   "prompt": "Come si può dimostrare che un oggetto trovato è proprio?",
+   "prompt": "Come si può dimostrare che un oggetto trovato è tuo?",
    "modelAnswer": "Descrivendo il colore e il giorno in cui è stato perso.",
    "lines": 3
   }

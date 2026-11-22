@@ -1,0 +1,143 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-m2",
+ "title": "Dall’attivo al passivo",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Dall’attivo al passivo · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la frase al passivo. Usa la forma tra parentesi, se c’è.",
+   "promptHelp": "Setze den Satz ins Passiv. Verwende die Form in Klammern, wenn eine angegeben ist.",
+   "explanation": "Il participio concorda con il soggetto (le spiagge sono state pulite). Nei tempi composti solo essere: è stata inventata. andare + participio = deve / devono essere …",
+   "explanationHelp": "Das Partizip richtet sich nach dem Subjekt. In zusammengesetzten Zeiten nur essere (è stata inventata, nicht mit venire). andare + Partizip = „muss / müssen … werden“.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ogni anno milioni di turisti visitano Venezia.",
+     "acceptedAnswers": [
+      "è visitata",
+      "viene visitata"
+     ],
+     "modelAnswer": "Ogni anno Venezia è visitata da milioni di turisti. (Anche: viene visitata)"
+    },
+    {
+     "id": "s2",
+     "start": "Un giovane ingegnere ha inventato questa app.",
+     "acceptedAnswers": [
+      "è stata inventata"
+     ],
+     "modelAnswer": "Questa app è stata inventata da un giovane ingegnere."
+    },
+    {
+     "id": "s3",
+     "start": "Il Parlamento approverà la nuova legge a dicembre.",
+     "acceptedAnswers": [
+      "sarà approvata",
+      "verrà approvata"
+     ],
+     "modelAnswer": "La nuova legge sarà approvata dal Parlamento a dicembre. (Anche: verrà approvata)"
+    },
+    {
+     "id": "s4",
+     "start": "I volontari hanno pulito le spiagge.",
+     "acceptedAnswers": [
+      "sono state pulite"
+     ],
+     "modelAnswer": "Le spiagge sono state pulite dai volontari."
+    },
+    {
+     "id": "s5",
+     "start": "In passato i contadini coltivavano questi campi.",
+     "acceptedAnswers": [
+      "erano coltivati",
+      "venivano coltivati"
+     ],
+     "modelAnswer": "In passato questi campi erano coltivati dai contadini. (Anche: venivano coltivati)"
+    },
+    {
+     "id": "s6",
+     "start": "Bisogna rispettare le regole. (andare)",
+     "acceptedAnswers": [
+      "vanno rispettate"
+     ],
+     "modelAnswer": "Le regole vanno rispettate."
+    },
+    {
+     "id": "s7",
+     "start": "Bisogna spegnere i cellulari. (andare)",
+     "acceptedAnswers": [
+      "vanno spenti"
+     ],
+     "modelAnswer": "I cellulari vanno spenti."
+    },
+    {
+     "id": "s8",
+     "start": "In Italia la gente beve molto caffè. (si)",
+     "acceptedAnswers": [
+      "si beve molto caffè"
+     ],
+     "modelAnswer": "In Italia si beve molto caffè."
+    },
+    {
+     "id": "s9",
+     "start": "Dante scrisse la Divina Commedia.",
+     "acceptedAnswers": [
+      "fu scritta",
+      "venne scritta"
+     ],
+     "modelAnswer": "La Divina Commedia fu scritta da Dante. (Anche: venne scritta)"
+    },
+    {
+     "id": "s10",
+     "start": "Penso che la scuola organizzi lo scambio. (Penso che lo scambio …)",
+     "acceptedAnswers": [
+      "sia organizzato",
+      "venga organizzato"
+     ],
+     "modelAnswer": "Penso che lo scambio sia organizzato dalla scuola. (Anche: venga organizzato)"
+    }
+   ]
+  }
+ ]
+}

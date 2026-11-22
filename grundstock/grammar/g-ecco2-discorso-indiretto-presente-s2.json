@@ -1,0 +1,138 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-s2",
+ "title": "Che cosa dicono?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Che cosa dicono? · livello difficile.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma nel discorso indiretto.",
+   "promptHelp": "Forme in die indirekte Rede um.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca: «Voglio diventare cuoco.» → Luca dice …",
+     "acceptedAnswers": [
+      "che vuole diventare cuoco"
+     ],
+     "modelAnswer": "Luca dice che vuole diventare cuoco."
+    },
+    {
+     "id": "s2",
+     "start": "Sara: «Il mio tirocinio finisce venerdì.» → Sara dice …",
+     "acceptedAnswers": [
+      "che il suo tirocinio finisce venerdì"
+     ],
+     "modelAnswer": "Sara dice che il suo tirocinio finisce venerdì."
+    },
+    {
+     "id": "s3",
+     "start": "Il prof a noi: «Avete già scritto il curriculum?» → Il prof ci chiede …",
+     "acceptedAnswers": [
+      "se abbiamo già scritto il curriculum"
+     ],
+     "modelAnswer": "Il prof ci chiede se abbiamo già scritto il curriculum."
+    },
+    {
+     "id": "s4",
+     "start": "La mamma a me: «Telefona subito in ufficio!» → La mamma mi dice …",
+     "acceptedAnswers": [
+      "di telefonare subito in ufficio"
+     ],
+     "modelAnswer": "La mamma mi dice di telefonare subito in ufficio."
+    },
+    {
+     "id": "s5",
+     "start": "Matteo a me: «Quando cominci a lavorare?» → Matteo mi chiede …",
+     "acceptedAnswers": [
+      "quando comincio a lavorare"
+     ],
+     "modelAnswer": "Matteo mi chiede quando comincio a lavorare."
+    },
+    {
+     "id": "s6",
+     "start": "Giulia: «Mi piace lavorare con i bambini.» → Giulia dice …",
+     "acceptedAnswers": [
+      "che le piace lavorare con i bambini"
+     ],
+     "modelAnswer": "Giulia dice che le piace lavorare con i bambini."
+    },
+    {
+     "id": "s7",
+     "start": "Il capo a noi: «Non usate il cellulare!» → Il capo ci dice …",
+     "acceptedAnswers": [
+      "di non usare il cellulare"
+     ],
+     "modelAnswer": "Il capo ci dice di non usare il cellulare."
+    },
+    {
+     "id": "s8",
+     "start": "Chiara e Anna: «Cerchiamo un lavoro per l’estate.» → Chiara e Anna dicono …",
+     "acceptedAnswers": [
+      "che cercano un lavoro per l’estate"
+     ],
+     "modelAnswer": "Chiara e Anna dicono che cercano un lavoro per l’estate."
+    },
+    {
+     "id": "s9",
+     "start": "Davide a me: «Puoi aiutarmi con la lettera?» → Davide mi chiede …",
+     "acceptedAnswers": [
+      "se posso aiutarlo con la lettera",
+      "se lo posso aiutare con la lettera"
+     ],
+     "modelAnswer": "Davide mi chiede se posso aiutarlo con la lettera."
+    },
+    {
+     "id": "s10",
+     "start": "La nonna a me: «Perché non mi scrivi mai?» → La nonna mi chiede …",
+     "acceptedAnswers": [
+      "perché non le scrivo mai"
+     ],
+     "modelAnswer": "La nonna mi chiede perché non le scrivo mai."
+    }
+   ]
+  }
+ ]
+}

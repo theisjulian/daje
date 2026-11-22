@@ -1,0 +1,155 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-buono-m2",
+ "title": "Singolare e plurale",
+ "language": "it",
+ "level": "A2",
+ "description": "Buono e bene · Singolare e plurale · livello medio.",
+ "topics": [
+  "Buono e bene",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)"
+ },
+ "grammar": {
+  "topic": "ecco2-buono",
+  "topicTitle": "Buono e bene",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:\n| un lavoro | un **buon** lavoro |\n| un amico | un **buon** amico |\n| uno studente | un **buono** studente |\n| una scuola | una **buona** scuola |\n| un’amica | una **buon’**amica (anche: una **buona** amica) |\nAl plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._\n**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:\n- _Luca è un **buon** cuoco: cucina **bene**._\n- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)\nAuguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_",
+  "ruleHelp": "**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._\n**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con buono. Attenzione all’articolo!",
+   "promptHelp": "Ergänze die Tabelle mit buono. Achte auf den Artikel!",
+   "explanation": "uno studente → un buono studente: l’articolo sta davanti a buono e diventa un.",
+   "explanationHelp": "uno studente → un buono studente: Der Artikel steht vor buono und wird zu un.",
+   "type": "table_fill",
+   "columns": [
+    "senza buono",
+    "singolare con buono",
+    "plurale con buono (senza articolo)"
+   ],
+   "rows": [
+    [
+     "un libro",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "un buon libro"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "buoni libri"
+      ]
+     }
+    ],
+    [
+     "una risposta",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "una buona risposta"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "buone risposte"
+      ]
+     }
+    ],
+    [
+     "uno studente",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "un buono studente"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "buoni studenti"
+      ]
+     }
+    ],
+    [
+     "un amico",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "un buon amico"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "buoni amici"
+      ]
+     }
+    ],
+    [
+     "un’amica",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "una buon’amica",
+       "una buona amica"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "buone amiche"
+      ]
+     }
+    ],
+    [
+     "uno zaino",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "un buono zaino"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "buoni zaini"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

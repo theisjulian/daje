@@ -1,0 +1,133 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-m3",
+ "title": "Costruisci il proverbio",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Costruisci il proverbio · livello medio.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 73,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine: „Wer schläft, fängt keine Fische.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Chi dorme"
+    },
+    {
+     "id": "i2",
+     "text": "non piglia"
+    },
+    {
+     "id": "i3",
+     "text": "pesci."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti in ordine: „Wer langsam geht, kommt gesund und weit.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Chi va piano"
+    },
+    {
+     "id": "i2",
+     "text": "va sano"
+    },
+    {
+     "id": "i3",
+     "text": "e va lontano."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti in ordine: „Ich spreche mit dem, der mich versteht.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Parlo"
+    },
+    {
+     "id": "i2",
+     "text": "con chi"
+    },
+    {
+     "id": "i3",
+     "text": "mi capisce."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti in ordine: „Wer einen Freund findet, findet einen Schatz.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Chi trova"
+    },
+    {
+     "id": "i2",
+     "text": "un amico"
+    },
+    {
+     "id": "i3",
+     "text": "trova"
+    },
+    {
+     "id": "i4",
+     "text": "un tesoro."
+    }
+   ]
+  }
+ ]
+}

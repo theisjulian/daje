@@ -62,7 +62,7 @@
    "definition": "Insegnare uno strumento.",
    "example": "Do lezioni di pianoforte.",
    "acceptedAnswers": [
-    "dare lezioni di"
+    "dare lezioni di pianoforte"
    ]
   },
   {
@@ -83,7 +83,8 @@
    "definition": "Aggiustare le biciclette rotte.",
    "example": "Riparo biciclette.",
    "acceptedAnswers": [
-    "riparare"
+    "riparare",
+    "riparare biciclette"
    ]
   },
   {
@@ -143,7 +144,7 @@
    "definition": "Avere un impiego in un negozio.",
    "example": "Lavoro al supermercato.",
    "acceptedAnswers": [
-    "lavorare al"
+    "lavorare al supermercato"
    ]
   },
   {
@@ -321,7 +322,7 @@
    "definition": "Trascorrere un periodo in un luogo.",
    "example": "Passo un anno in Italia.",
    "acceptedAnswers": [
-    "passare in …"
+    "passare un anno in …"
    ]
   },
   {

@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-remoto-l1",
+ "title": "Di quale verbo è?",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: riconoscere e comprendere · Di quale verbo è? · livello facile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · passato remoto (rezeptiv: erkennen und verstehen)"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Il **passato remoto** si trova nei **testi scritti**: fiabe, romanzi, biografie, testi di storia. Ha lo stesso significato del passato prossimo: _Dante **nacque** a Firenze._ = _Dante **è nato** a Firenze._ Devi solo **riconoscerlo**.\n**Verbi regolari** (lui/lei · loro): parl**ò** · parl**arono** – cred**é** · cred**erono** – part**ì** · part**irono**\n| infinito | lui / lei | loro |\n| essere | **fu** | **furono** |\n| avere | **ebbe** | **ebbero** |\n| fare | **fece** | **fecero** |\n| dire | **disse** | **dissero** |\n| venire | **venne** | **vennero** |\n| vedere | **vide** | **videro** |\n| nascere | **nacque** | **nacquero** |\n| vivere | **visse** | **vissero** |\n| scrivere | **scrisse** | **scrissero** |\n| prendere | **prese** | **presero** |\n| mettere | **mise** | **misero** |\n_C’era una volta un re che **ebbe** tre figli. … E **vissero** tutti felici e contenti._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit **geschriebener Texte** (Märchen, Romane, Biografien, Geschichte). Es bedeutet dasselbe wie das passato prossimo: _nacque_ = _è nato_. Du musst die Formen nur **erkennen** und dem Infinitiv zuordnen, nicht selbst bilden.\nRegelmäßig (3. Person): parlò / parlarono, credé / crederono, partì / partirono. Wichtige unregelmäßige Formen: fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), vide (vedere), nacque (nascere), visse (vivere), scrisse (scrivere), prese (prendere), mise (mettere); Plural auf -ero: furono, ebbero, fecero, dissero …"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il passato remoto e l’infinito.",
+   "promptHelp": "Verbinde das passato remoto mit dem Infinitiv.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "fu",
+     "right": "essere"
+    },
+    {
+     "id": "p2",
+     "left": "ebbe",
+     "right": "avere"
+    },
+    {
+     "id": "p3",
+     "left": "fece",
+     "right": "fare"
+    },
+    {
+     "id": "p4",
+     "left": "disse",
+     "right": "dire"
+    },
+    {
+     "id": "p5",
+     "left": "venne",
+     "right": "venire"
+    },
+    {
+     "id": "p6",
+     "left": "vide",
+     "right": "vedere"
+    },
+    {
+     "id": "p7",
+     "left": "nacque",
+     "right": "nascere"
+    },
+    {
+     "id": "p8",
+     "left": "visse",
+     "right": "vivere"
+    },
+    {
+     "id": "p9",
+     "left": "prese",
+     "right": "prendere"
+    },
+    {
+     "id": "p10",
+     "left": "mise",
+     "right": "mettere"
+    }
+   ]
+  }
+ ]
+}

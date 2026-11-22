@@ -1,0 +1,184 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-avverbi-formazione-s3",
+ "title": "Un annuncio di lavoro",
+ "language": "it",
+ "level": "A2",
+ "description": "Aggettivi, avverbi e formazione delle parole · Un annuncio di lavoro · livello difficile.",
+ "topics": [
+  "Aggettivi, avverbi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 18,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adverbien auf -mente, Adjektiv und Adverb, Wortbildung"
+ },
+ "grammar": {
+  "topic": "ecco2-avverbi-formazione",
+  "topicTitle": "Aggettivi, avverbi e formazione delle parole",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "**L’avverbio in -mente** si forma dall’aggettivo **femminile** + **-mente**:\n| lento → lenta | **lentamente** |\n| veloce | **velocemente** |\n| facile | **facilmente** (-le → senza e) |\n| regolare | **regolarmente** (-re → senza e) |\nIrregolari: buono → **bene**, cattivo → **male**.\n**Aggettivo o avverbio?** L’aggettivo descrive un **nome** e concorda: _una risposta **chiara**_. L’avverbio descrive un **verbo** e non cambia mai: _Sara risponde **chiaramente**._\n**Formazione delle parole:**\n| verbo → nome | informare → l’informa**zione** |\n| aggettivo → nome | possibile → la possibili**tà** |\n| mestieri | giornale → il / la giornal**ista** · lavorare → il lavora**tore**, la lavora**trice** |\n| contrario | utile → **in**utile · possibile → **im**possibile · fortunato → **s**fortunato · occupato → **dis**occupato |\n| di nuovo | leggere → **ri**leggere |",
+  "ruleHelp": "**Adverb auf -mente:** weibliche Form des Adjektivs + **-mente** (_lenta → lentamente_). Adjektive auf **-le / -re** verlieren das **e**: _facilmente, regolarmente_. Unregelmäßig: _buono → bene, cattivo → male_.\nDas **Adjektiv** gehört zum Nomen und passt sich an, das **Adverb** gehört zum Verb und bleibt unverändert. Im Deutschen sehen beide oft gleich aus („eine klare Antwort“ – „sie antwortet klar“), im Italienischen nicht: _chiara – chiaramente_.\n**Wortbildung:** Nomen auf **-zione** (immer weiblich), **-tà** (immer weiblich, Plural gleich), Berufe auf **-ista** und **-tore / -trice**; Gegenteil mit **in-** (vor p, b, m: **im-**), **s-**, **dis-**; **ri-** = noch einmal."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Forma la parola giusta dalla parola tra parentesi (≠ = il contrario).",
+   "promptHelp": "Bilde aus dem Wort in Klammern das passende Wort (≠ = das Gegenteil).",
+   "type": "gap_fill",
+   "text": "La nostra (organizzare) [[g1]] cerca un (giornale) [[g2]] per il sito web.\nOffriamo la (possibile) [[g3]] di lavorare anche da casa.\nIl lavoro richiede molta (responsabile) [[g4]] e (creativo) [[g5]].\nSei (≠ occupato) [[g6]] o (≠ contento) [[g7]] del tuo lavoro? Allora scrivici!\nUn colloquio in inglese ti sembra (≠ possibile) [[g8]]? Nessun problema: ti aiutiamo noi.\nManda la tua (presentare) [[g9]] alla nostra (direttore) [[g10]], la dottoressa Neri.\nMa prima devi (leggere di nuovo) [[g11]] tutto (attento) [[g12]]!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "organizzazione"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "giornalista"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "possibilità"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "responsabilità"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "creatività"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "disoccupato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scontento"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "impossibile"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "presentazione"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "direttrice"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "rileggere"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "attentamente"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso: aggettivo o avverbio?",
+   "promptHelp": "Und jetzt: Adjektiv oder Adverb?",
+   "type": "gap_choice",
+   "text": "Il direttore parla sempre [[g1]] con i clienti.\nLa sua segretaria è una persona molto [[g2]].\nIl mio capo cucina molto [[g3]].\nLa sua pizza è davvero [[g4]].\n[[g5]] comincio a lavorare alle nove.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "tranquillamente",
+      "tranquilla",
+      "tranquille"
+     ],
+     "answer": "tranquillamente"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "tranquilla",
+      "tranquillamente",
+      "tranquillo"
+     ],
+     "answer": "tranquilla"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "bene",
+      "buono",
+      "buona"
+     ],
+     "answer": "bene"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "buona",
+      "bene",
+      "buono"
+     ],
+     "answer": "buona"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Normalmente",
+      "Normale",
+      "Normali"
+     ],
+     "answer": "Normalmente"
+    }
+   ]
+  }
+ ]
+}

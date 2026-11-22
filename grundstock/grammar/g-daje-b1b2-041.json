@@ -48,7 +48,6 @@
    "type": "gap_fill",
    "prompt": "Completa il testo con le parole date. Usa ogni parola una volta.",
    "text": "Quando ho letto l’[[g1]] del laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare in [[g3]].\nLa responsabile mi ha [[g4]] a un colloquio. Non mi ha chiesto soltanto quali [[g5]] [[g6]]. Voleva sapere come avrei reagito a un errore durante uno [[g7]]. «Chiederei aiuto», ho risposto. «E prima cercherei di capire se il [[g8]] [[g9]] il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto con calma. Vorrei imparare, ma preferirei conoscere bene le responsabilità prima di accettare.\nDurante la prima settimana un tutor mi ha seguito [[g10]] prove. Ogni sera prendevo [[g11]] su quello che non capivo. Alla fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e a rispettare le scadenze. È questa l’[[g12]] che oggi racconto quando qualcuno mi domanda che cosa so fare.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",

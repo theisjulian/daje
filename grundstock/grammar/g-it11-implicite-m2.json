@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-implicite-m2",
+ "title": "Prima una cosa, poi l’altra",
+ "language": "it",
+ "level": "B1",
+ "description": "Gerundio e participi · Prima una cosa, poi l’altra · livello medio.",
+ "topics": [
+  "Gerundio e participi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)"
+ },
+ "grammar": {
+  "topic": "it11-implicite",
+  "topicTitle": "Gerundio e participi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.\n| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |\n| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |\n\n| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |\n| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |\n| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |\n| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |\n| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |\n**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).\nI **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.\nIl **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.",
+  "ruleHelp": "**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.\ngerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.\nPartizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.\nPronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il gerundio composto (avendo / essendo + participio).",
+   "promptHelp": "Schreibe das gerundio composto (avendo / essendo + Partizip).",
+   "explanation": "Con essendo il participio concorda con il soggetto: essendo arrivata, essendo partiti.",
+   "explanationHelp": "Mit essendo wird das Partizip ans Subjekt angeglichen.",
+   "type": "gap_fill",
+   "text": "(finire) [[g1]] la scuola, Giulia ha deciso di fare un anno di volontariato.\n(arrivare) [[g2]] in ritardo, Chiara non ha trovato posto.\n(perdere) [[g3]] il treno, i ragazzi hanno aspettato un’ora.\n(partire) [[g4]] presto, Luca e Matteo sono arrivati prima di tutti.\n(leggere) [[g5]] il romanzo, Sara ha voluto vedere anche il film.\n(nascere) [[g6]] a Roma, le due sorelle parlano con l’accento romano.\n(vedere) Non [[g7]] il messaggio, Davide non è venuto alla riunione.\n(rimanere) [[g8]] solo in casa, Luca ha invitato gli amici.\n(fare) Pur [[g9]] molti errori, Giulia ha superato l’esame.\n(crescere) [[g10]] in campagna, mia nonna ama la natura.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Avendo finito"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Essendo arrivata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Avendo perso"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Essendo partiti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Avendo letto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Essendo nate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avendo visto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Essendo rimasto"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avendo fatto"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Essendo cresciuta"
+     ]
+    }
+   ]
+  }
+ ]
+}

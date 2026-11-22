@@ -47,8 +47,8 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Scrivi che cosa piace a te: «Mi piace / Non mi piace …».",
-   "promptHelp": "Schreibe, was dir gefällt.",
+   "prompt": "Scrivi una frase con «ma», come nell’esempio: il mare (☺) e la montagna (☹) → Mi piace il mare, ma non mi piace la montagna.",
+   "promptHelp": "Schreibe einen Satz mit „ma“ wie im Beispiel: Mi piace il mare, ma non mi piace la montagna.",
    "explanation": "Ogni parte della frase ha la sua forma.",
    "explanationHelp": "Jeder Satzteil hat seine eigene Form.",
    "type": "sentence_completion",

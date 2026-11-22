@@ -1,0 +1,184 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-avverbi-formazione-m2",
+ "title": "Parole nuove",
+ "language": "it",
+ "level": "A2",
+ "description": "Aggettivi, avverbi e formazione delle parole · Parole nuove · livello medio.",
+ "topics": [
+  "Aggettivi, avverbi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adverbien auf -mente, Adjektiv und Adverb, Wortbildung"
+ },
+ "grammar": {
+  "topic": "ecco2-avverbi-formazione",
+  "topicTitle": "Aggettivi, avverbi e formazione delle parole",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "**L’avverbio in -mente** si forma dall’aggettivo **femminile** + **-mente**:\n| lento → lenta | **lentamente** |\n| veloce | **velocemente** |\n| facile | **facilmente** (-le → senza e) |\n| regolare | **regolarmente** (-re → senza e) |\nIrregolari: buono → **bene**, cattivo → **male**.\n**Aggettivo o avverbio?** L’aggettivo descrive un **nome** e concorda: _una risposta **chiara**_. L’avverbio descrive un **verbo** e non cambia mai: _Sara risponde **chiaramente**._\n**Formazione delle parole:**\n| verbo → nome | informare → l’informa**zione** |\n| aggettivo → nome | possibile → la possibili**tà** |\n| mestieri | giornale → il / la giornal**ista** · lavorare → il lavora**tore**, la lavora**trice** |\n| contrario | utile → **in**utile · possibile → **im**possibile · fortunato → **s**fortunato · occupato → **dis**occupato |\n| di nuovo | leggere → **ri**leggere |",
+  "ruleHelp": "**Adverb auf -mente:** weibliche Form des Adjektivs + **-mente** (_lenta → lentamente_). Adjektive auf **-le / -re** verlieren das **e**: _facilmente, regolarmente_. Unregelmäßig: _buono → bene, cattivo → male_.\nDas **Adjektiv** gehört zum Nomen und passt sich an, das **Adverb** gehört zum Verb und bleibt unverändert. Im Deutschen sehen beide oft gleich aus („eine klare Antwort“ – „sie antwortet klar“), im Italienischen nicht: _chiara – chiaramente_.\n**Wortbildung:** Nomen auf **-zione** (immer weiblich), **-tà** (immer weiblich, Plural gleich), Berufe auf **-ista** und **-tore / -trice**; Gegenteil mit **in-** (vor p, b, m: **im-**), **s-**, **dis-**; **ri-** = noch einmal."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Forma la parola nuova.",
+   "promptHelp": "Bilde das neue Wort.",
+   "explanation": "-are → -azione · -ile → -ilità · -ivo → -ività.",
+   "explanationHelp": "-are → -azione · -ile → -ilità · -ivo → -ività.",
+   "type": "table_fill",
+   "columns": [
+    "parola",
+    "con",
+    "parola nuova"
+   ],
+   "rows": [
+    [
+     "informare",
+     "-zione",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "informazione"
+      ]
+     }
+    ],
+    [
+     "organizzare",
+     "-zione",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "organizzazione"
+      ]
+     }
+    ],
+    [
+     "possibile",
+     "-tà",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "possibilità"
+      ]
+     }
+    ],
+    [
+     "creativo",
+     "-tà",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "creatività"
+      ]
+     }
+    ],
+    [
+     "responsabile",
+     "-tà",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "responsabilità"
+      ]
+     }
+    ],
+    [
+     "giornale",
+     "-ista",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "giornalista"
+      ]
+     }
+    ],
+    [
+     "lavorare",
+     "-tore",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "lavoratore"
+      ]
+     }
+    ],
+    [
+     "allenare",
+     "-trice",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "allenatrice"
+      ]
+     }
+    ],
+    [
+     "utile",
+     "in-",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "inutile"
+      ]
+     }
+    ],
+    [
+     "fortunato",
+     "s-",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "sfortunato"
+      ]
+     }
+    ],
+    [
+     "occupato",
+     "dis-",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "disoccupato"
+      ]
+     }
+    ],
+    [
+     "leggere",
+     "ri-",
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "rileggere"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

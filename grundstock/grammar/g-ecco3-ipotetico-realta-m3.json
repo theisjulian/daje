@@ -1,0 +1,157 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-m3",
+ "title": "Costruisci la frase",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Costruisci la frase · livello medio.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 17,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Wenn du Heimweh hast, ruf mich an!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se"
+    },
+    {
+     "id": "i2",
+     "text": "hai nostalgia"
+    },
+    {
+     "id": "i3",
+     "text": "di casa,"
+    },
+    {
+     "id": "i4",
+     "text": "chiamami!"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Wenn wir den Bus verpassen, gehen wir zu Fuß.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se"
+    },
+    {
+     "id": "i2",
+     "text": "perdiamo"
+    },
+    {
+     "id": "i3",
+     "text": "l’autobus,"
+    },
+    {
+     "id": "i4",
+     "text": "andiamo"
+    },
+    {
+     "id": "i5",
+     "text": "a piedi."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Wenn du in Irland bleibst, wirst du gut Englisch lernen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se"
+    },
+    {
+     "id": "i2",
+     "text": "resti"
+    },
+    {
+     "id": "i3",
+     "text": "in Irlanda,"
+    },
+    {
+     "id": "i4",
+     "text": "imparerai bene"
+    },
+    {
+     "id": "i5",
+     "text": "l’inglese."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Wenn ihr nach München kommt, zeige ich euch meine Schule.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se"
+    },
+    {
+     "id": "i2",
+     "text": "venite"
+    },
+    {
+     "id": "i3",
+     "text": "a Monaco,"
+    },
+    {
+     "id": "i4",
+     "text": "vi mostro"
+    },
+    {
+     "id": "i5",
+     "text": "la mia scuola."
+    }
+   ]
+  }
+ ]
+}

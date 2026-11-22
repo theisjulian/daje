@@ -9,7 +9,7 @@ const GR_KEY = 'daje-grammatik-v1';
 const GR_STATE = Object.assign({ band: 1, level: 'alle', topic: null }, (() => {
   try {
     const x = JSON.parse(localStorage.getItem(GR_KEY) || '{}');
-    return { band: [0, 1, 2, 3].includes(x.band) ? x.band : 1, level: ['alle', 'leicht', 'mittel', 'schwer'].includes(x.level) ? x.level : 'alle' };
+    return { band: [0, 1, 2, 3, 4, 5, 6].includes(x.band) ? x.band : 1, level: ['alle', 'leicht', 'mittel', 'schwer'].includes(x.level) ? x.level : 'alle' };
   } catch (e) {
     return {};
   }
@@ -122,6 +122,11 @@ function grOverview() {
   </div>`;
 }
 
+/* Was erwartet mich? Die Aufgabenarten einer Übung (höchstens zwei genannt) statt der bloßen Zahl „1 Aufgabe“. */
+function grFormats(x) {
+  const kinds = [...new Set(x.questions.map(q => LISTENING_FORMAT_LABELS[q.type] || q.type))];
+  return kinds.slice(0, 2).join(' + ') + (kinds.length > 2 ? ' …' : '');
+}
 function grTopicPage() {
   const t = grTopics().find(z => z.id === GR_STATE.topic);
   if (!t) {
@@ -132,7 +137,7 @@ function grTopicPage() {
   const row = x => {
     const st = lessonStatus(x);
     const state = st.done ? `${st.progress.lastResult.correct} von ${st.progress.lastResult.total} richtig` : st.answered ? 'Angefangen' : 'Noch nicht geübt';
-    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><button class="gr-ex-text" data-lesson="${esc(x.id)}"><b>${esc(x.title)}</b><small>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')} · ${esc(teacher ? GRAMMAR_LEVELS[x.grammar.difficulty] || '' : state)}</small></button><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}${teacher && typeof liveEditButton === 'function' ? liveEditButton(x.id, 'quiet') : ''}${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">Bearbeiten</button>` : ''}${teacher ? '' : `<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button>`}</span></li>`;
+    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><button class="gr-ex-text" data-lesson="${esc(x.id)}"><b>${esc(x.title)}</b><small>${esc(grFormats(x))} · ${esc(teacher ? GRAMMAR_LEVELS[x.grammar.difficulty] || '' : state)}</small></button><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}${teacher && typeof liveEditButton === 'function' ? liveEditButton(x.id, 'quiet') : ''}${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">Bearbeiten</button>` : ''}${teacher ? '' : `<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button>`}</span></li>`;
   };
   const levels = GR_LEVELS.map(([k, l]) => {
     const items = t.items.filter(x => x.grammar.difficulty === k);

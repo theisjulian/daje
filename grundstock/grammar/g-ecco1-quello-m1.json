@@ -51,7 +51,7 @@
    "explanation": "quell’ davanti a vocale; quello e quegli con s + consonante, z, e (quegli) vocale.",
    "explanationHelp": "quell’ vor Vokal; quello/quegli vor s + Konsonant, z; quegli auch vor Vokal (Plural).",
    "type": "gap_fill",
-   "text": "Quanto costa [[g1]] formaggio?\nE [[g2]] mozzarella?\nMi dà due chili di [[g3]] mele, per favore?\n[[g4]] pomodori sono freschi?\n[[g5]] olio è italiano?\nVorrei un etto di [[g6]] speck.\n[[g7]] spinaci sono molto buoni.\nE [[g8]] insalata quanto costa?",
+   "text": "Quanto costa [[g1]] formaggio?\nE [[g2]] mozzarella?\nMi dà due chili di [[g3]] mele, per favore?\n[[g4]] pomodori sono freschi?\n[[g5]]olio è italiano?\nVorrei un etto di [[g6]] speck.\n[[g7]] spinaci sono molto buoni.\nE [[g8]]insalata quanto costa?",
    "gaps": [
     {
      "id": "g1",

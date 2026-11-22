@@ -97,7 +97,8 @@
    "example": "La matematica è difficile.",
    "related": "E mathematics; F les mathématiques",
    "acceptedAnswers": [
-    "la mate"
+    "la mate",
+    "la matematica"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -210,7 +211,7 @@
     "Sport (Schulfach)"
    ],
    "definition": "Materia in cui si fa ginnastica e sport.",
-   "example": "L’educazione fisica è il mio corso preferito.",
+   "example": "L’educazione fisica è la mia materia preferita.",
    "related": "E physical education",
    "usage": "f."
   },
@@ -223,7 +224,7 @@
    "definition": "Materia che si occupa di pittura e disegno.",
    "example": "L’arte è la mia passione.",
    "related": "E art; F l’art",
-   "usage": "m."
+   "usage": "f."
   },
   {
    "id": "u3-approccio-013",
@@ -281,7 +282,7 @@
    "definition": "Essere nel giusto, dire una cosa vera.",
    "example": "Hai ragione, è così!",
    "related": "F avoir raison",
-   "usage": "Abc"
+   "usage": "pres. ho, hai, ha, abbiamo, avete, hanno"
   },
   {
    "id": "u3-approccio-019",
@@ -316,7 +317,7 @@
    "acceptedAnswers": [
     "interrogare"
    ],
-   "usage": "Abc"
+   "usage": "pres. interrogo, interroghi, interroga, interroghiamo, interrogate, interrogano"
   },
   {
    "id": "u3-approccio-022",
@@ -438,7 +439,8 @@
    "definition": "Mezz’ora dopo l’una.",
    "example": "Torno a casa alle due e mezzo.",
    "acceptedAnswers": [
-    "e mezzo"
+    "e mezzo",
+    "l’una e mezzo"
    ]
   },
   {
@@ -450,7 +452,8 @@
    "definition": "Quindici minuti prima delle due.",
    "example": "Che ore sono? – Sono le due meno un quarto.",
    "acceptedAnswers": [
-    "meno un quarto"
+    "meno un quarto",
+    "le due meno un quarto"
    ]
   },
   {
@@ -460,7 +463,7 @@
     "das Viertel"
    ],
    "definition": "Una delle quattro parti uguali.",
-   "example": "Il quarto d’ora ha quindici minuti.",
+   "example": "Un quarto d’ora sono quindici minuti.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -591,7 +594,7 @@
    ],
    "definition": "Ricevere una punizione scritta dall’insegnante.",
    "example": "Ho preso una nota sul registro.",
-   "usage": "Abc"
+   "usage": "p.p. preso"
   }
  ],
  "catalog": {

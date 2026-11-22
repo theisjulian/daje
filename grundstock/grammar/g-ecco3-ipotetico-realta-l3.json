@@ -1,0 +1,119 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-l3",
+ "title": "Giusto o sbagliato?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Giusto o sbagliato? · livello facile.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "La frase è corretta o sbagliata? Guarda il verbo dopo **se**.",
+   "promptHelp": "Ist der Satz richtig oder falsch? Achte auf das Verb nach **se**.",
+   "explanation": "_se avrei, se verresti, se sarebbe, se potresti, se pioverebbe_ sono sbagliati: dopo **se** non c’è il condizionale.",
+   "explanationHelp": "Nach **se** steht kein Konditional.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "g",
+     "label": "Frase corretta"
+    },
+    {
+     "id": "s",
+     "label": "Frase sbagliata"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Se ho tempo, stasera ti chiamo.",
+     "category": "g"
+    },
+    {
+     "id": "i2",
+     "text": "Se avrei più tempo, ti chiamo ogni giorno.",
+     "category": "s"
+    },
+    {
+     "id": "i3",
+     "text": "Se verrai a Monaco, ti mostrerò la mia scuola.",
+     "category": "g"
+    },
+    {
+     "id": "i4",
+     "text": "Se verresti in Germania, vedrai la neve.",
+     "category": "s"
+    },
+    {
+     "id": "i5",
+     "text": "Se perdi il treno, prendi quello dopo!",
+     "category": "g"
+    },
+    {
+     "id": "i6",
+     "text": "Se sarebbe troppo tardi, prendi un taxi!",
+     "category": "s"
+    },
+    {
+     "id": "i7",
+     "text": "Se non capisci, chiedi alla prof.",
+     "category": "g"
+    },
+    {
+     "id": "i8",
+     "text": "Se non potresti venire, mandami un messaggio.",
+     "category": "s"
+    },
+    {
+     "id": "i9",
+     "text": "Se piove, restiamo in albergo.",
+     "category": "g"
+    },
+    {
+     "id": "i10",
+     "text": "Se pioverebbe, resteremo in albergo.",
+     "category": "s"
+    }
+   ]
+  }
+ ]
+}

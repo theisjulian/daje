@@ -46,9 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
-   "text": "Quando ho letto l’offerta [[g1]] laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g3]] gruppo.\nLa responsabile mi ha invitato a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come [[g4]] (reagire, forma composta) a un errore durante uno spettacolo. «[[g5]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g6]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto [[g7]] calma. [[g8]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima [[g9]] accettare.\nDurante la prima settimana un tutor mi ha seguito nelle prove. Ogni sera prendevo appunti [[g10]] quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
-   "explanation": "Controlla ogni forma nel contesto.",
+   "prompt": "Completa il testo: dove non c’è un’indicazione manca una preposizione (semplice o articolata); coniuga i verbi tra parentesi.",
+   "text": "Quando ho letto l’offerta [[g1]] laboratorio teatrale, cercavo un lavoro estivo. Il mio curriculum era breve: frequentavo ancora la scuola e non avevo un vero impiego precedente. Avevo però collaborato all’organizzazione di una festa e possedevo alcune competenze utili. [[g2]] candidatura ho spiegato che sapevo montare piccoli video e lavorare [[g3]] gruppo.\nLa responsabile mi ha invitato a un colloquio. Non mi ha chiesto soltanto quali programmi conoscessi. Voleva sapere come [[g4]] (reagire, io, condizionale passato) a un errore durante uno spettacolo. «[[g5]] (chiedere, io, condizionale) aiuto», ho risposto. «E prima [[g6]] (cercare, io, condizionale) di capire se il problema riguarda il suono o l’immagine». Lei ha sorriso: non cercava qualcuno che sapesse fare tutto.\nIl contratto indicava l’orario, il compenso e le mansioni. Ho letto tutto [[g7]] calma. [[g8]] (volere, io, condizionale) imparare, ma preferirei conoscere bene le responsabilità prima [[g9]] accettare.\nDurante la prima settimana un tutor mi ha seguito nelle prove. Ogni sera prendevo appunti [[g10]] quello che non capivo. [[g11]] fine dell’estate non ero diventato un tecnico esperto; avevo però imparato a fare domande precise e [[g12]] rispettare le scadenze. È questa l’esperienza che oggi racconto quando qualcuno mi domanda che cosa so fare.",
    "gaps": [
     {
      "id": "g1",
@@ -123,7 +122,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+   "promptHelp": "Ergänze den Text: Wo keine Angabe steht, fehlt eine Präposition (einfach oder mit Artikel verschmolzen); die Verben in Klammern setzt du in die richtige Form."
   }
  ]
 }

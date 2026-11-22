@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-l3",
+ "title": "Che cosa vuol dire?",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Che cosa vuol dire? · livello facile.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina le frasi alla traduzione.",
+   "promptHelp": "Verbinde die Sätze mit der Übersetzung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Quando avrò finito, uscirò.",
+     "right": "Wenn ich fertig bin, gehe ich raus."
+    },
+    {
+     "id": "p2",
+     "left": "Sarà uscito.",
+     "right": "Er ist wohl ausgegangen."
+    },
+    {
+     "id": "p3",
+     "left": "Avrà dimenticato l’appuntamento.",
+     "right": "Er hat den Termin wohl vergessen."
+    },
+    {
+     "id": "p4",
+     "left": "Entro domani avrò letto il libro.",
+     "right": "Bis morgen werde ich das Buch gelesen haben."
+    },
+    {
+     "id": "p5",
+     "left": "Appena sarà arrivata, ti chiamerà.",
+     "right": "Sobald sie angekommen ist, ruft sie dich an."
+    },
+    {
+     "id": "p6",
+     "left": "Saranno partiti ieri.",
+     "right": "Sie sind wohl gestern abgereist."
+    },
+    {
+     "id": "p7",
+     "left": "Avrai capito male.",
+     "right": "Du hast es wohl falsch verstanden."
+    },
+    {
+     "id": "p8",
+     "left": "Dopo che avremo mangiato, partiremo.",
+     "right": "Nachdem wir gegessen haben, fahren wir los."
+    }
+   ]
+  }
+ ]
+}

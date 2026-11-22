@@ -1,0 +1,142 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-s2",
+ "title": "Devi farlo → Fallo!",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Devi farlo → Fallo! · livello difficile.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma in un imperativo (tu).",
+   "promptHelp": "Forme in einen Imperativ (tu) um.",
+   "explanation": "Positivo: dimmi, fallo, dagli, vacci. Negativo: non + infinito + pronome (non dirlo) o non + pronome + infinito (non lo dire).",
+   "explanationHelp": "Bejaht: dimmi, fallo, dagli, vacci. Verneint: non dirlo oder non lo dire.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Devi dirmi tutto. → …",
+     "acceptedAnswers": [
+      "Dimmi tutto"
+     ],
+     "modelAnswer": "Dimmi tutto!"
+    },
+    {
+     "id": "s2",
+     "start": "Devi farlo oggi. → …",
+     "acceptedAnswers": [
+      "Fallo oggi"
+     ],
+     "modelAnswer": "Fallo oggi!"
+    },
+    {
+     "id": "s3",
+     "start": "Non devi dirlo a Marta. → …",
+     "acceptedAnswers": [
+      "Non dirlo a Marta",
+      "Non lo dire a Marta"
+     ],
+     "modelAnswer": "Non dirlo a Marta! (Anche: Non lo dire a Marta!)"
+    },
+    {
+     "id": "s4",
+     "start": "Devi dargli una risposta. → …",
+     "acceptedAnswers": [
+      "Dagli una risposta"
+     ],
+     "modelAnswer": "Dagli una risposta!"
+    },
+    {
+     "id": "s5",
+     "start": "Non devi farlo da solo. → …",
+     "acceptedAnswers": [
+      "Non farlo da solo",
+      "Non lo fare da solo"
+     ],
+     "modelAnswer": "Non farlo da solo! (Anche: Non lo fare da solo!)"
+    },
+    {
+     "id": "s6",
+     "start": "Devi andarci in bici. → …",
+     "acceptedAnswers": [
+      "Vacci in bici"
+     ],
+     "modelAnswer": "Vacci in bici!"
+    },
+    {
+     "id": "s7",
+     "start": "Devi dirle grazie. → …",
+     "acceptedAnswers": [
+      "Dille grazie"
+     ],
+     "modelAnswer": "Dille grazie!"
+    },
+    {
+     "id": "s8",
+     "start": "Devi darci una mano. → …",
+     "acceptedAnswers": [
+      "Dacci una mano"
+     ],
+     "modelAnswer": "Dacci una mano!"
+    },
+    {
+     "id": "s9",
+     "start": "Non devi andarci stasera. → …",
+     "acceptedAnswers": [
+      "Non andarci stasera",
+      "Non ci andare stasera"
+     ],
+     "modelAnswer": "Non andarci stasera! (Anche: Non ci andare stasera!)"
+    },
+    {
+     "id": "s10",
+     "start": "Devi farmi un favore. → …",
+     "acceptedAnswers": [
+      "Fammi un favore"
+     ],
+     "modelAnswer": "Fammi un favore!"
+    }
+   ]
+  }
+ ]
+}

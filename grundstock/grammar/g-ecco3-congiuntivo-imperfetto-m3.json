@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-m3",
+ "title": "Desideri",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Desideri · livello medio.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Esprimi un desiderio con il congiuntivo imperfetto.",
+   "promptHelp": "Drücke einen Wunsch mit dem congiuntivo imperfetto aus.",
+   "explanation": "Dopo vorrei che, mi piacerebbe che e magari → congiuntivo imperfetto.",
+   "explanationHelp": "Nach vorrei che, mi piacerebbe che und magari → congiuntivo imperfetto.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(tu / venire al Carnevale con me) Vorrei che …",
+     "acceptedAnswers": [
+      "venissi al Carnevale con me"
+     ],
+     "modelAnswer": "Vorrei che tu venissi al Carnevale con me."
+    },
+    {
+     "id": "s2",
+     "start": "(voi / restare a cena) Mi piacerebbe che …",
+     "acceptedAnswers": [
+      "restaste a cena"
+     ],
+     "modelAnswer": "Mi piacerebbe che voi restaste a cena."
+    },
+    {
+     "id": "s3",
+     "start": "(la nonna / fare le lasagne) Vorrei che …",
+     "acceptedAnswers": [
+      "la nonna facesse le lasagne"
+     ],
+     "modelAnswer": "Vorrei che la nonna facesse le lasagne."
+    },
+    {
+     "id": "s4",
+     "start": "(domani / esserci il sole) Magari domani …",
+     "acceptedAnswers": [
+      "ci fosse il sole"
+     ],
+     "modelAnswer": "Magari domani ci fosse il sole!"
+    },
+    {
+     "id": "s5",
+     "start": "(i miei amici / stare qui per le feste) Mi piacerebbe che …",
+     "acceptedAnswers": [
+      "i miei amici stessero qui per le feste"
+     ],
+     "modelAnswer": "Mi piacerebbe che i miei amici stessero qui per le feste."
+    },
+    {
+     "id": "s6",
+     "start": "(mio fratello / dire la verità) Vorrei che …",
+     "acceptedAnswers": [
+      "mio fratello dicesse la verità"
+     ],
+     "modelAnswer": "Vorrei che mio fratello dicesse la verità."
+    },
+    {
+     "id": "s7",
+     "start": "(noi / avere più giorni di vacanza) Magari …",
+     "acceptedAnswers": [
+      "avessimo più giorni di vacanza"
+     ],
+     "modelAnswer": "Magari avessimo più giorni di vacanza!"
+    },
+    {
+     "id": "s8",
+     "start": "(tu / darmi una mano in cucina) Vorrei che tu …",
+     "acceptedAnswers": [
+      "mi dessi una mano in cucina"
+     ],
+     "modelAnswer": "Vorrei che tu mi dessi una mano in cucina."
+    }
+   ]
+  }
+ ]
+}

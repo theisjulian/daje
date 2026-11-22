@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-buono-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Buono e bene · Trova gli errori · livello difficile.",
+ "topics": [
+  "Buono e bene",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)"
+ },
+ "grammar": {
+  "topic": "ecco2-buono",
+  "topicTitle": "Buono e bene",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:\n| un lavoro | un **buon** lavoro |\n| un amico | un **buon** amico |\n| uno studente | un **buono** studente |\n| una scuola | una **buona** scuola |\n| un’amica | una **buon’**amica (anche: una **buona** amica) |\nAl plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._\n**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:\n- _Luca è un **buon** cuoco: cucina **bene**._\n- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)\nAuguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_",
+  "ruleHelp": "**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._\n**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "Con un verbo (parlare, andare, sentirsi, giocare): bene / male. Con un nome: buono / cattivo.",
+   "explanationHelp": "Bei einem Verb: bene / male. Bei einem Nomen: buono / cattivo.",
+   "type": "error_correction",
+   "text": "Marco parla molto [[g1]] il tedesco.\nQuesta pasta è proprio [[g2]].\n[[g3]] viaggio e a presto!\nHo trovato un [[g4]] stage in una ditta di Torino.\nOggi mi sento [[g5]]: ho la febbre e resto a casa.\nElena è una [[g6]] collega.\nIl colloquio è andato [[g7]]!\nI tuoi voti non sono [[g8]] quest’anno.\n[[g9]] fortuna per il colloquio!\nIeri la nostra squadra ha giocato [[g10]] e ha perso.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "buono",
+     "acceptedAnswers": [
+      "bene"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "bene",
+     "acceptedAnswers": [
+      "buona"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Buono",
+     "acceptedAnswers": [
+      "Buon"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "buon",
+     "acceptedAnswers": [
+      "buono"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "cattivo",
+     "acceptedAnswers": [
+      "male"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "buon",
+     "acceptedAnswers": [
+      "buona"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "buono",
+     "acceptedAnswers": [
+      "bene"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "bene",
+     "acceptedAnswers": [
+      "buoni"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "Buon",
+     "acceptedAnswers": [
+      "Buona"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "cattivo",
+     "acceptedAnswers": [
+      "male"
+     ]
+    }
+   ]
+  }
+ ]
+}

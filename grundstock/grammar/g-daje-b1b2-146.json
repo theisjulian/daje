@@ -46,9 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
+   "prompt": "Completa il testo con articoli e preposizioni (semplici o articolate). Dove ci sono, usa le indicazioni tra parentesi.",
    "text": "Caro Davide, ti scrivo [[g1]] (provenienza) una piccola isola dove mia zia vive da anni. Prima [[g2]] partenza avevo preparato un programma preciso: visite, passeggiate e fotografie. Adesso capisco che quel foglio mi serve poco. Qui le giornate dipendono anche dal vento e [[g3]] (da + le) persone che si incontrano.\nIeri sono uscita presto. Il porto era quasi vuoto e alcuni pescatori parlavano vicino alle barche. [[g4]] signora mi ha chiesto se conoscevo la strada per la scuola. Lei aveva abitato sull’isola da bambina, ma non riconosceva più [[g5]] quartiere. L’edificio era stato trasformato in una sala [[g6]] incontri.\nL’ho accompagnata e abbiamo trovato una mostra di disegni. Suo padre compariva [[g7]] una fotografia all’ingresso. La signora si è fermata a guardarla [[g8]] lungo; io aspettavo accanto alla porta. Poi abbiamo bevuto un caffè e lei mi ha raccontato [[g9]] storia che nessuna guida avrebbe potuto conoscere.\nOggi piove, così resto in casa con i miei appunti. Non cerco [[g10]] ricordare tutto: scelgo un dettaglio e lo descrivo. Domani forse andrò alla spiaggia, oppure aiuterò mia zia [[g11]] (in + il) suo negozio. La tua idea di viaggiare senza prenotare ogni minuto comincia a sembrarmi ragionevole. [[g12]] presto, Giada.",
-   "explanation": "Controlla ogni forma nel contesto.",
    "gaps": [
     {
      "id": "g1",
@@ -123,7 +122,7 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern."
+   "promptHelp": "Ergänze den Text mit Artikeln und Präpositionen (einfach oder mit Artikel verschmolzen). Beachte die Angaben in Klammern, wo es welche gibt."
   }
  ]
 }

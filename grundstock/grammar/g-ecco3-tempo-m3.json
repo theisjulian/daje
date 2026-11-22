@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-tempo-m3",
+ "title": "Matteo ed Elisa",
+ "language": "it",
+ "level": "B1",
+ "description": "Espressioni temporali e racconto · Matteo ed Elisa · livello medio.",
+ "topics": [
+  "Espressioni temporali e racconto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+ },
+ "grammar": {
+  "topic": "ecco3-tempo",
+  "topicTitle": "Espressioni temporali e racconto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+  "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine la storia.",
+   "promptHelp": "Bringe die Geschichte in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Due anni fa Matteo ha lasciato Cosenza per andare a studiare a Padova."
+    },
+    {
+     "id": "i2",
+     "text": "Il primo giorno ha cercato per ore la sua nuova casa e alla fine si è perso."
+    },
+    {
+     "id": "i3",
+     "text": "A un tratto una ragazza gli ha chiesto: «Hai bisogno di aiuto?»"
+    },
+    {
+     "id": "i4",
+     "text": "Lei si chiamava Elisa e lo ha accompagnato fino alla porta di casa."
+    },
+    {
+     "id": "i5",
+     "text": "Il giorno dopo si sono incontrati di nuovo, questa volta all’università."
+    },
+    {
+     "id": "i6",
+     "text": "Da allora studiano insieme ogni settimana."
+    },
+    {
+     "id": "i7",
+     "text": "E fra un mese Elisa andrà per la prima volta in Calabria con lui."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Scegli l’espressione giusta.",
+   "promptHelp": "Wähle den richtigen Ausdruck.",
+   "type": "gap_choice",
+   "text": "[[g1]] Matteo torna a Cosenza, porta a Elisa i dolci della nonna.\nMatteo cucinava; [[g2]] Elisa apparecchiava la tavola.\nStavano mangiando quando, [[g3]], è andata via la luce.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Ogni volta che",
+      "Nel frattempo",
+      "A un tratto"
+     ],
+     "answer": "Ogni volta che"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "nel frattempo",
+      "ogni volta che",
+      "fino a"
+     ],
+     "answer": "nel frattempo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "a un tratto",
+      "fino a",
+      "entro"
+     ],
+     "answer": "a un tratto"
+    }
+   ]
+  }
+ ]
+}

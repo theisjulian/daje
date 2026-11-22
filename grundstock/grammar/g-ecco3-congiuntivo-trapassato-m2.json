@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-trapassato-m2",
+ "title": "Il primo giorno al doposcuola",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo trapassato · Il primo giorno al doposcuola · livello medio.",
+ "topics": [
+  "Il congiuntivo trapassato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-trapassato",
+  "topicTitle": "Il congiuntivo trapassato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.\n| persona | avere | essere |\n| io | **avessi** parlato | **fossi** andato/-a |\n| tu | **avessi** parlato | **fossi** andato/-a |\n| lui / lei | **avesse** parlato | **fosse** andato/-a |\n| noi | **avessimo** parlato | **fossimo** andati/-e |\n| voi | **aveste** parlato | **foste** andati/-e |\n| loro | **avessero** parlato | **fossero** andati/-e |\nLo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:\n- _Pensavo che Luca **fosse** già **partito**._\nAnche dopo **magari** (desiderio impossibile nel passato) e **come se**:\n- _Magari **avessi studiato** di più!_\n- _Parla come se **avesse visto** tutto._",
+  "ruleHelp": "Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.\nEr steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)\nAußerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Marta racconta. Scrivi i verbi al congiuntivo trapassato.",
+   "promptHelp": "Marta erzählt. Setze die Verben in den congiuntivo trapassato.",
+   "type": "gap_fill",
+   "text": "Lunedì sono andata per la prima volta al doposcuola per bambini appena arrivati in Italia.\nPensavo che la responsabile (ricevere) [[g1]] la mia mail, ma non sapeva niente.\nCredevo che gli altri volontari (arrivare) [[g2]] prima di me, invece ero la prima.\nMi sembrava strano che nessuno (preparare) [[g3]] i materiali.\nUn bambino, Amir, parlava italiano come se (nascere) [[g4]] qui.\nNon immaginavo che lui (imparare) [[g5]] tutto in un solo anno.\nEra contento che io (portare) [[g6]] dei libri illustrati.\nAlla fine mi dispiaceva che il pomeriggio (passare) [[g7]] così in fretta.\nMagari (cominciare, io) [[g8]] prima a fare volontariato!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "avesse ricevuto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fossero arrivati"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avesse preparato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fosse nato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avesse imparato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avessi portato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fosse passato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avessi cominciato"
+     ]
+    }
+   ]
+  }
+ ]
+}

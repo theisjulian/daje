@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-passato-s3",
+ "title": "Che cosa sarebbe successo?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico dell’irrealtà nel passato · Che cosa sarebbe successo? · livello difficile.",
+ "topics": [
+  "Il periodo ipotetico dell’irrealtà nel passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-passato",
+  "topicTitle": "Il periodo ipotetico dell’irrealtà nel passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per parlare di una condizione **non realizzata nel passato** usiamo:\n**se + congiuntivo trapassato** → **condizionale composto**\n- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)\nI tre tipi a confronto:\n| tipo | dopo se | frase principale | esempio |\n| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |\n| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |\n| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |\n**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._\n**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.",
+  "ruleHelp": "Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)\nGemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._\n**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Pensa a tre o quattro momenti del tuo passato: che cosa sarebbe successo se …? Scrivi 4 frasi con se + congiuntivo trapassato e il condizionale composto.",
+   "promptHelp": "Denk an drei oder vier Momente deiner Vergangenheit: Was wäre passiert, wenn …? Schreibe 4 Sätze mit se + congiuntivo trapassato und condizionale composto.",
+   "type": "open_answer",
+   "modelAnswer": "Se fossi nata in Italia, avrei imparato l’italiano da piccola. Se non avessi scelto l’italiano a scuola, non avrei conosciuto la mia amica di Verona. Se l’estate scorsa fossimo andati al mare, avrei fatto un corso di vela. Se avessi cominciato prima a suonare la chitarra, sarei entrata nella band della scuola.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma è giusta?",
+   "promptHelp": "Prüfe: Welche Form ist richtig?",
+   "type": "gap_choice",
+   "text": "Se [[g1]] saputo la verità, non avrei detto niente.\nSe fossi nato in Italia, [[g2]] l’italiano da piccolo.\nSe ieri fossi andato a letto presto, adesso non [[g3]] stanco.\nSe non [[g4]] l’autobus, saremmo arrivati in tempo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avessi",
+      "avrei"
+     ],
+     "answer": "avessi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "avrei imparato",
+      "avessi imparato"
+     ],
+     "answer": "avrei imparato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sarei",
+      "fossi"
+     ],
+     "answer": "sarei"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "avessimo perso",
+      "avremmo perso"
+     ],
+     "answer": "avessimo perso"
+    }
+   ]
+  }
+ ]
+}

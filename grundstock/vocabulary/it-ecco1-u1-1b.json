@@ -417,10 +417,11 @@
    "translations": [
     "inlineskaten"
    ],
-   "definition": "Muoversi su ruote o su ghiaccio con speciali scarpe.",
+   "definition": "Muoversi su ruote o su ghiaccio con scarpe speciali.",
    "example": "Mi piace pattinare nel parco.",
    "acceptedAnswers": [
-    "pattinare"
+    "pattinare",
+    "pattinare inline"
    ]
   },
   {
@@ -444,7 +445,8 @@
    "example": "Metto i pattini e vado al parco.",
    "family": "pattinare inline",
    "acceptedAnswers": [
-    "i pattini"
+    "i pattini",
+    "i pattini in linea"
    ],
    "usage": "pl.",
    "grammar": {

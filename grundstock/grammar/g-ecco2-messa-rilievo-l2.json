@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-l2",
+ "title": "Sono io che …",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · Sono io che … · livello facile.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "sono io che pago · sei tu che paghi · è lui che paga · siamo noi che paghiamo · siete voi che pagate · sono loro che pagano.",
+   "explanationHelp": "Beide Verben richten sich nach der Person: sono io che pago, siete voi che pagate.",
+   "type": "gap_choice",
+   "text": "[[g1]] io che pago oggi.\n[[g2]] tu che devi decidere.\n[[g3]] Luca che ha fatto questo disegno.\n[[g4]] noi che organizziamo il concerto.\n[[g5]] voi che scegliete la musica.\n[[g6]] i miei amici che hanno avuto l’idea.\nSono io che [[g7]] il gelato.\nSiete voi che [[g8]].\nÈ a Milano [[g9]] voglio andare.\nÈ con Sara [[g10]] vado al concerto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Sono",
+      "È",
+      "Sei"
+     ],
+     "answer": "Sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Sei",
+      "È",
+      "Sono"
+     ],
+     "answer": "Sei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "È",
+      "Sono",
+      "Sei"
+     ],
+     "answer": "È"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Siamo",
+      "È",
+      "Sono"
+     ],
+     "answer": "Siamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Siete",
+      "È",
+      "Siamo"
+     ],
+     "answer": "Siete"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Sono",
+      "È",
+      "Siamo"
+     ],
+     "answer": "Sono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "pago",
+      "paga",
+      "paghi"
+     ],
+     "answer": "pago"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "decidete",
+      "decide",
+      "decidono"
+     ],
+     "answer": "decidete"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "che",
+      "dove",
+      "cui"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    }
+   ]
+  }
+ ]
+}

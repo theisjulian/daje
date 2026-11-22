@@ -83,7 +83,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "Mi sono accorto"
+      "Mi sono accorto",
+      "Mi sono accorta"
      ]
     },
     {
@@ -110,8 +111,7 @@
       "ha"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

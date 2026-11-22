@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-l1",
+ "title": "Avere o essere?",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Avere o essere? · livello facile.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli l’ausiliare giusto.",
+   "promptHelp": "Wähle das richtige Hilfsverb.",
+   "explanation": "L’ausiliare è lo stesso del passato prossimo: ho finito → avrò finito; sono partito → sarò partito; il film è finito → sarà finito.",
+   "explanationHelp": "Das Hilfsverb ist dasselbe wie im passato prossimo.",
+   "type": "gap_choice",
+   "text": "Quando [[g1]] finito i compiti, ti chiamerò.\nAppena Giulia [[g2]] arrivata, cominceremo la riunione.\nDopo che [[g3]] mangiato, andremo al cinema.\nQuando i miei genitori [[g4]] partiti, inviterò gli amici.\nAppena [[g5]] letto la mail, rispondimi.\nQuando vi [[g6]] riposati, continueremo il lavoro.\nDopo che il film [[g7]] finito, andremo a mangiare una pizza.\nFra un anno Luca [[g8]] preso la patente.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "avrò",
+      "sarò"
+     ],
+     "answer": "avrò"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sarà",
+      "avrà"
+     ],
+     "answer": "sarà"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "avremo",
+      "saremo"
+     ],
+     "answer": "avremo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "saranno",
+      "avranno"
+     ],
+     "answer": "saranno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avrai",
+      "sarai"
+     ],
+     "answer": "avrai"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sarete",
+      "avrete"
+     ],
+     "answer": "sarete"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sarà",
+      "avrà"
+     ],
+     "answer": "sarà"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "avrà",
+      "sarà"
+     ],
+     "answer": "avrà"
+    }
+   ]
+  }
+ ]
+}

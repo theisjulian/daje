@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-s3",
+ "title": "Consigli per il primo colloquio",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Consigli per il primo colloquio · livello difficile.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 73,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con chi o che.",
+   "promptHelp": "Ergänze den Text mit chi oder che.",
+   "type": "gap_fill",
+   "text": "[[g1]] cerca il primo lavoro è spesso nervoso: è normale!\nIl curriculum [[g2]] mandi deve essere breve e chiaro.\nLe persone [[g3]] leggono il tuo curriculum hanno poco tempo.\n[[g4]] arriva in ritardo fa subito una brutta impressione.\nRispondi con calma alle domande [[g5]] ti fanno.\n[[g6]] non capisce una domanda può chiedere di ripetere.\nParla dei lavori [[g7]] hai già fatto, anche piccoli.\nAlla fine ringrazia [[g8]] ti ha ascoltato.\nUn lavoro [[g9]] ti piace vale più di tanti soldi.\nE ricorda il proverbio: [[g10]] cerca trova!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Inventa cinque «regole» per uno stage perfetto. Ogni frase comincia con chi.",
+   "promptHelp": "Erfinde fünf „Regeln“ für ein perfektes Praktikum. Jeder Satz beginnt mit chi.",
+   "type": "open_answer",
+   "modelAnswer": "Chi arriva puntuale fa una buona impressione. Chi non capisce deve fare domande. Chi lavora in gruppo impara di più. Chi sbaglia non deve avere paura. Chi aiuta i colleghi trova nuovi amici.",
+   "lines": 5
+  }
+ ]
+}

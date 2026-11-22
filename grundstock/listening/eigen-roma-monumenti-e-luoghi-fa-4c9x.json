@@ -27,7 +27,7 @@
     "type": "youtube",
     "videoId": "HckSho-OOtA"
   },
-  "transcript": "0:000 secondi[Musica]\n0:2222 secondiRoma è la capitale d'Italia una delle strade più importanti è via del Corso\n0:3131 secondiè conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km e\n0:4040 secondiMeo dalla porta del Popolo arriva all'altare della Patria chiamato anche Il\n0:4949 secondiVittoriano è un grande monumento costruito per ricordare Vittorio Emanuele I il primo re\n0:5656 secondi[Musica]\n0:5858 secondid'Italia poco più avanti troviamo il foro romano e i Fori Imperiali una serie di\n1:051 minuto e 5 secondimonumenti e piazze dell'antica Roma di fronte il monumento più famoso e simbolo dell'Italia il Colosseo un grande\n1:151 minuto e 15 secondianfiteatro di 2000 anni e dietro al Colosseo Ecco il grande\n1:211 minuto e 21 secondiArco di trionfo di Costantino Roma è una città ricca di monumenti musei teatri e\n1:311 minuto e 31 secondipiazze tra le più importanti Piazza di Spagna famosa per la sua scalinata che\n1:381 minuto e 38 secondidalla fontana La Barcaccia arriva alla chiesa della Trinità dei\n1:441 minuto e 44 secondiMonti e Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e\n1:531 minuto e 53 secondiil mercatino di Natale che la riempie di luci e colori\n2:032 minuti e 3 secondiEcco poi lungo il Tevere il bellissimo Castel Sant'Angelo qui potete visitare il museo\n2:102 minuti e 10 secondinazionale e guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro della Città del\n2:192 minuti e 19 secondiVaticano e se volete tornare a Roma ricordate di lanciare una moneta nella fontana di\n2:262 minuti e 26 secondi[Musica]\n2:282 minuti e 28 secondiTrevi\n2:422 minuti e 42 secondi[Musica]\n2:482 minuti e 48 secondiK",
+  "transcript": "Roma è la capitale d'Italia una delle strade più importanti è via del Corso\nè conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km e\nmezzo dalla porta del Popolo arriva all'altare della Patria chiamato anche Il\nVittoriano è un grande monumento costruito per ricordare Vittorio Emanuele I il primo re\nd'Italia poco più avanti troviamo il foro romano e i Fori Imperiali una serie di\nmonumenti e piazze dell'antica Roma di fronte il monumento più famoso e simbolo dell'Italia il Colosseo un grande\nanfiteatro di 2000 anni e dietro al Colosseo Ecco il grande\nArco di trionfo di Costantino Roma è una città ricca di monumenti musei teatri e\npiazze tra le più importanti Piazza di Spagna famosa per la sua scalinata che\ndalla fontana La Barcaccia arriva alla chiesa della Trinità dei\nMonti e Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e\nil mercatino di Natale che la riempie di luci e colori\nEcco poi lungo il Tevere il bellissimo Castel Sant'Angelo qui potete visitare il museo\nnazionale e guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro della Città del\nVaticano e se volete tornare a Roma ricordate di lanciare una moneta nella fontana di\nTrevi",
   "teacherNotes": {
     "warmup": [
       "Fragen Sie die Lernenden, welche Sehenswürdigkeiten sie in Rom bereits kennen oder gerne sehen würden."
@@ -51,7 +51,7 @@
     {
       "id": "q1",
       "type": "single_choice",
-      "prompt": "Prima dell'ascolto: Qual è l'argomento principale del video?",
+      "prompt": "Primo ascolto: Qual è l'argomento principale del video?",
       "explanation": "Il video presenta le strade, i monumenti e le piazze principali della città di Roma.",
       "options": [
         {
@@ -76,7 +76,7 @@
     {
       "id": "q2",
       "type": "true_false",
-      "prompt": "Prima dell'ascolto: Il video parla della capitale d'Italia.",
+      "prompt": "Primo ascolto: Il video parla della capitale d'Italia.",
       "explanation": "Roma è la capitale d'Italia, come viene detto all'inizio del video.",
       "answer": true
     },
@@ -84,9 +84,9 @@
       "id": "q3",
       "type": "single_choice",
       "prompt": "Primo ascolto: Quanto è lunga via del Corso?",
-      "explanation": "Nel testo viene specificato che via del Corso ha una lunghezza di un chilometro.",
+      "explanation": "Nel testo viene specificato che via del Corso ha una lunghezza di un chilometro e mezzo.",
       "evidenceAt": 38,
-      "evidence": "via del Corso è lunga 1 km",
+      "evidence": "via del Corso è lunga 1 km e mezzo",
       "options": [
         {
           "id": "a",
@@ -94,7 +94,7 @@
         },
         {
           "id": "b",
-          "text": "1 chilometro"
+          "text": "1 chilometro e mezzo"
         },
         {
           "id": "c",
@@ -137,7 +137,7 @@
     {
       "id": "q5",
       "type": "table_fill",
-      "prompt": "Secondo ascolto: Associa i luoghi alle loro caratteristiche o descrizioni.",
+      "prompt": "Secondo ascolto: Completa la tabella con una parola per ogni luogo: Via del Corso è la via dello …; il Colosseo è un grande … .",
       "explanation": "Via del Corso è nota per lo shopping, mentre il Colosseo è definito un grande anfiteatro.",
       "evidenceAt": 31,
       "evidence": "è conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km",
@@ -151,7 +151,10 @@
           {
             "id": "t1",
             "acceptedAnswers": [
-              "shopping"
+              "shopping",
+              "lo shopping",
+              "via dello shopping",
+              "la via dello shopping"
             ]
           }
         ],
@@ -160,7 +163,10 @@
           {
             "id": "t2",
             "acceptedAnswers": [
-              "anfiteatro"
+              "anfiteatro",
+              "un anfiteatro",
+              "grande anfiteatro",
+              "un grande anfiteatro"
             ]
           }
         ]
@@ -176,7 +182,11 @@
       "acceptedAnswers": [
         "Arco di trionfo di Costantino",
         "Costantino",
-        "Arco di Costantino"
+        "Arco di Costantino",
+        "l'Arco di Costantino",
+        "l'Arco di trionfo di Costantino",
+        "il grande Arco di trionfo di Costantino",
+        "grande Arco di trionfo di Costantino"
       ],
       "modelAnswer": "Arco di trionfo di Costantino"
     },
@@ -190,7 +200,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Per la sua grande fontana dei quattro fiumi"
+          "text": "Per le sue chiese e i suoi palazzi"
         },
         {
           "id": "b",
@@ -198,7 +208,7 @@
         },
         {
           "id": "c",
-          "text": "Per il mercatino di Natale"
+          "text": "Per il suo castello"
         },
         {
           "id": "d",
@@ -220,7 +230,9 @@
           "id": "g1",
           "acceptedAnswers": [
             "dei quattro fiumi",
-            "quattro fiumi"
+            "quattro fiumi",
+            "dei 4 fiumi",
+            "4 fiumi"
           ]
         },
         {

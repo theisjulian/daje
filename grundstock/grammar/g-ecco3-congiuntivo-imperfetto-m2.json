@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-imperfetto-m2",
+ "title": "Quando ero piccolo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo imperfetto · Quando ero piccolo · livello medio.",
+ "topics": [
+  "Il congiuntivo imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo imperfetto (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-imperfetto",
+  "topicTitle": "Il congiuntivo imperfetto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Il **congiuntivo imperfetto** si forma così:\n| | parl**are** | prend**ere** | dorm**ire** |\n| che io | parl**assi** | prend**essi** | dorm**issi** |\n| che tu | parl**assi** | prend**essi** | dorm**issi** |\n| che lui / lei | parl**asse** | prend**esse** | dorm**isse** |\n| che noi | parl**assimo** | prend**essimo** | dorm**issimo** |\n| che voi | parl**aste** | prend**este** | dorm**iste** |\n| che loro | parl**assero** | prend**essero** | dorm**issero** |\n**Irregolari:** essere → **fossi**, dare → **dessi**, stare → **stessi**, fare → **facessi**, dire → **dicessi**, bere → **bevessi**.\nLo usiamo:\n- quando la frase principale è al **passato**: _Pensavo che tu **fossi** a casa. Volevo che Luca **venisse**._\n- dopo **vorrei che / mi piacerebbe che**: _Vorrei che tu **restassi** qui._\n- dopo **magari** (desiderio): _Magari **avessi** più tempo!_\n- dopo **come se**: _Parla come se **sapesse** tutto._",
+  "ruleHelp": "**Congiuntivo imperfetto:** Endungen bei -are: -assi, -assi, -asse, -assimo, -aste, -assero; bei -ere und -ire genauso mit -e- bzw. -i- (prendessi, dormissi). io und tu haben dieselbe Form. Unregelmäßig: essere → fossi, dare → dessi, stare → stessi, fare → facessi, dire → dicessi, bere → bevessi.\nGebrauch: wenn der Hauptsatz in der **Vergangenheit** steht (_Pensavo che tu fossi a casa_ – Ich dachte, du wärst zu Hause), nach **vorrei che / mi piacerebbe che** (_Vorrei che tu restassi_ – Ich möchte, dass du bleibst), nach **magari** für einen Wunsch (_Magari avessi più tempo!_ – Hätte ich doch mehr Zeit!) und nach **come se** (als ob)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Matteo racconta. Metti i verbi al congiuntivo imperfetto.",
+   "promptHelp": "Matteo erzählt. Setze die Verben in den congiuntivo imperfetto.",
+   "explanation": "Frase principale al passato (credevo, pensavo, volevano …) → congiuntivo imperfetto.",
+   "explanationHelp": "Hauptsatz in der Vergangenheit (credevo, pensavo, volevano …) → congiuntivo imperfetto.",
+   "type": "gap_fill",
+   "text": "Da piccolo credevo che la Befana (esistere) [[g1]] davvero.\nPensavo che (entrare, lei) [[g2]] dal camino con la sua scopa.\nI miei genitori volevano che io e mia sorella (andare) [[g3]] a letto presto.\nIo avevo paura che la Befana mi (portare) [[g4]] solo carbone.\nMia sorella sperava che nella calza (esserci) [[g5]] tanti cioccolatini.\nLa nonna voleva che noi (lasciare) [[g6]] un bicchiere di latte sul tavolo.\nNon immaginavo che i regali li (comprare) [[g7]] mamma e papà!\nMi sembrava che quella notte (essere) [[g8]] magica.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "esistesse"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "entrasse"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "andassimo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "portasse"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ci fossero"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lasciassimo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "comprassero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "fosse"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -52,7 +52,7 @@
    "explanation": "Città → a; paese, regione, via → in; a scuola, a casa.",
    "explanationHelp": "Stadt → a; Land, Region und Straße → in; a scuola, a casa.",
    "type": "gap_choice",
-   "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.\nOggi resto [[g7]] casa.\nIl museo è [[g8]] piazza Castello.\nMio zio abita [[g9]] Sicilia.\nStudio [[g10]] biblioteca.",
+   "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.\nDopo la scuola torno [[g7]] casa.\nIl museo è [[g8]] piazza Castello.\nMio zio abita [[g9]] Sicilia.\nStudio [[g10]] biblioteca.",
    "gaps": [
     {
      "id": "g1",

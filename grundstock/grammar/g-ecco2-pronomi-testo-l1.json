@@ -1,0 +1,182 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-pronomi-testo-l1",
+ "title": "A chi? A che cosa?",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · A chi? A che cosa? · livello facile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.\n| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |\n| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |\n| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |\n| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |\n| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |\n| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |\nPer capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?\nAttenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).",
+  "ruleHelp": "**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).\nUm ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?\nAchtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "A che cosa si riferisce **lo**?\nGiulia ha comprato un tablet per sua sorella. Lo usa anche lei.",
+   "promptHelp": "Worauf bezieht sich **lo**?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "al tablet"
+    },
+    {
+     "id": "o2",
+     "text": "a Giulia"
+    },
+    {
+     "id": "o3",
+     "text": "alla sorella"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "A che cosa si riferisce **le**?\nMatteo manda le foto a Chiara. Lei le guarda subito.",
+   "promptHelp": "Worauf bezieht sich **le**?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "alle foto"
+    },
+    {
+     "id": "o2",
+     "text": "a Chiara"
+    },
+    {
+     "id": "o3",
+     "text": "a Matteo"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "A chi si riferisce **gli**?\nSara scrive spesso a suo fratello. Gli manda anche molti video.",
+   "promptHelp": "Auf wen bezieht sich **gli**?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "al fratello"
+    },
+    {
+     "id": "o2",
+     "text": "a Sara"
+    },
+    {
+     "id": "o3",
+     "text": "ai video"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "A chi si riferisce **le**?\nLuca telefona alla nonna ogni domenica e le racconta la settimana.",
+   "promptHelp": "Auf wen bezieht sich **le**?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "alla nonna"
+    },
+    {
+     "id": "o2",
+     "text": "a Luca"
+    },
+    {
+     "id": "o3",
+     "text": "alla settimana"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "A chi si riferisce **li**?\nI miei amici giocano online ogni sera. Li vedo solo a scuola.",
+   "promptHelp": "Auf wen bezieht sich **li**?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "agli amici"
+    },
+    {
+     "id": "o2",
+     "text": "alle sere"
+    },
+    {
+     "id": "o3",
+     "text": "alla scuola"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "A chi o a che cosa si riferisce il pronome tra parentesi? Abbina.",
+   "promptHelp": "Auf wen oder worauf bezieht sich das Pronomen in Klammern? Ordne zu.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Vado spesso in biblioteca: ci studio con Davide. (ci)",
+     "right": "alla biblioteca"
+    },
+    {
+     "id": "p2",
+     "left": "Ho tante app sul telefono, ma ne uso solo tre. (ne)",
+     "right": "alle app"
+    },
+    {
+     "id": "p3",
+     "left": "La prof ha dato un compito ai ragazzi. Gli ha spiegato anche le regole. (gli)",
+     "right": "ai ragazzi"
+    }
+   ],
+   "distractors": [
+    "a Davide",
+    "al telefono",
+    "alla prof"
+   ]
+  }
+ ]
+}

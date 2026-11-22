@@ -1,0 +1,216 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-si-m3",
+ "title": "La traduzione giusta",
+ "language": "it",
+ "level": "B1",
+ "description": "Si impersonale e si passivante · La traduzione giusta · livello medio.",
+ "topics": [
+  "Si impersonale e si passivante",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 21,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · si impersonale und si passivante"
+ },
+ "grammar": {
+  "topic": "it11-si",
+  "topicTitle": "Si impersonale e si passivante",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "**si** = «la gente, tutti» (tedesco: _man_).\n- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._\n- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._\n- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._\n- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._\nTempi composti: sempre con **essere**.\n| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |\n| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |\n| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |",
+  "ruleHelp": "**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).\nAdjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).\nZusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la traduzione giusta?\n„Wenn man müde ist, arbeitet man schlecht.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Quando si è stanchi, si lavora male."
+    },
+    {
+     "id": "o2",
+     "text": "Quando si è stanco, si lavora male."
+    },
+    {
+     "id": "o3",
+     "text": "Quando si sono stanchi, si lavora male."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la traduzione giusta?\n„Im Urlaub steht man spät auf.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "In vacanza ci si alza tardi."
+    },
+    {
+     "id": "o2",
+     "text": "In vacanza si si alza tardi."
+    },
+    {
+     "id": "o3",
+     "text": "In vacanza si alzarsi tardi."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la traduzione giusta?\n„Hier verkauft man alte Schallplatten.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Qui si vendono vecchi dischi."
+    },
+    {
+     "id": "o2",
+     "text": "Qui si vende vecchi dischi."
+    },
+    {
+     "id": "o3",
+     "text": "Qui si vendiamo vecchi dischi."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la traduzione giusta?\n„Man hat gut gegessen.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Si è mangiato bene."
+    },
+    {
+     "id": "o2",
+     "text": "Si ha mangiato bene."
+    },
+    {
+     "id": "o3",
+     "text": "Si sono mangiato bene."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la traduzione giusta?\n„Man ist früh abgefahren.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Si è partiti presto."
+    },
+    {
+     "id": "o2",
+     "text": "Si è partito presto."
+    },
+    {
+     "id": "o3",
+     "text": "Si ha partito presto."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la traduzione giusta?\n„In Italien trinkt man viel Kaffee.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "In Italia si beve molto caffè."
+    },
+    {
+     "id": "o2",
+     "text": "In Italia si bevono molto caffè."
+    },
+    {
+     "id": "o3",
+     "text": "In Italia uomo beve molto caffè."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la traduzione giusta?\n„Hier amüsiert man sich sehr.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Qui ci si diverte molto."
+    },
+    {
+     "id": "o2",
+     "text": "Qui si si diverte molto."
+    },
+    {
+     "id": "o3",
+     "text": "Qui si divertirsi molto."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la traduzione giusta?\n„Man hat viele Museen gesehen.“",
+   "promptHelp": "Welche Übersetzung ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Si sono visti molti musei."
+    },
+    {
+     "id": "o2",
+     "text": "Si è visto molti musei."
+    },
+    {
+     "id": "o3",
+     "text": "Si hanno visto molti musei."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

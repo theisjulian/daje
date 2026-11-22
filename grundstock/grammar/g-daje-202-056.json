@@ -46,19 +46,11 @@
   {
    "id": "q1a",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/4)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 1/4)",
    "categories": [
-    {
-     "id": "c1",
-     "label": "per cucinare"
-    },
     {
      "id": "c2",
      "label": "per apparecchiare"
-    },
-    {
-     "id": "c3",
-     "label": "per pulire il pavimento"
     },
     {
      "id": "c4",
@@ -112,23 +104,15 @@
   {
    "id": "q1b",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 2/4)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 2/4)",
    "categories": [
     {
      "id": "c1",
      "label": "per cucinare"
     },
     {
-     "id": "c2",
-     "label": "per apparecchiare"
-    },
-    {
      "id": "c3",
      "label": "per pulire il pavimento"
-    },
-    {
-     "id": "c4",
-     "label": "per lavare i vestiti"
     }
    ],
    "items": [
@@ -177,12 +161,8 @@
   {
    "id": "q1c",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 3/4)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 3/4)",
    "categories": [
-    {
-     "id": "c1",
-     "label": "per dormire"
-    },
     {
      "id": "c2",
      "label": "per studiare"
@@ -190,10 +170,6 @@
     {
      "id": "c3",
      "label": "per lavarsi"
-    },
-    {
-     "id": "c4",
-     "label": "per conservare gli alimenti"
     }
    ],
    "items": [
@@ -242,19 +218,11 @@
   {
    "id": "q1d",
    "type": "categorize",
-   "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 4/4)",
+   "prompt": "Classifica le parole secondo il significato indicato. (parte 4/4)",
    "categories": [
     {
      "id": "c1",
      "label": "per dormire"
-    },
-    {
-     "id": "c2",
-     "label": "per studiare"
-    },
-    {
-     "id": "c3",
-     "label": "per lavarsi"
     },
     {
      "id": "c4",

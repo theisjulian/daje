@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-riflessivi-passato-s1",
+ "title": "Dieci errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Verbi riflessivi al passato · Dieci errori · livello difficile.",
+ "topics": [
+  "Verbi riflessivi al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · reflexive Verben im passato prossimo und imperfetto"
+ },
+ "grammar": {
+  "topic": "ecco2-riflessivi-passato",
+  "topicTitle": "Verbi riflessivi al passato",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Passato prossimo:** i verbi riflessivi usano sempre **essere**. Il participio **concorda** con il soggetto.\n| io | **mi sono** alzato / alzata |\n| tu | **ti sei** alzato / alzata |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati / alzate |\n| voi | **vi siete** alzati / alzate |\n| loro | **si sono** alzati / alzate |\n- Negazione: **non** sta prima del pronome: _Ieri **non mi sono** divertita._\n- Anche: _Ci siamo incontrat**i** in piazza. Vi siete conosciut**i** a scuola?_\n**Imperfetto:** senza ausiliare: _Da piccolo **mi alzavo** presto. **Ci divertivamo** molto._",
+  "ruleHelp": "Reflexive Verben bilden das **passato prossimo** immer mit **essere** (anders als im Deutschen: „ich **habe** mich gewaschen“ → _mi **sono** lavato_). Das Partizip richtet sich nach dem Subjekt: _Anna si è alzat**a**, i ragazzi si sono divertit**i**._\n**non** steht vor dem Pronomen: _non mi sono divertita_.\nIm **imperfetto** gibt es kein Hilfsverb: _mi alzavo, ci divertivamo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi l’errore in ogni frase.",
+   "promptHelp": "Korrigiere den Fehler in jedem Satz.",
+   "explanation": "Sempre essere, mai avere; il pronome sta prima di essere; da bambino + sempre → imperfetto.",
+   "explanationHelp": "Immer essere, nie avere; das Pronomen steht vor essere; da bambino + sempre → imperfetto.",
+   "type": "error_correction",
+   "text": "Stamattina Marta si [[g1]] alzata alle sei.\nI miei fratelli si sono [[g2]] tardi.\nIeri [[g3]] divertito molto.\nLe ragazze si sono [[g4]] per la festa.\nNoi [[g5]] incontrati davanti al cinema.\nSara [[g6]] seduta vicino a me.\nDa bambino [[g7]] sempre alle sei.\nIeri sera non [[g8]] addormentata subito.\nRagazzi, [[g9]] lavati le mani?\nMia madre si è [[g10]] con me.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "svegliato",
+     "acceptedAnswers": [
+      "svegliati"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "mi ho",
+     "acceptedAnswers": [
+      "mi sono"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "truccati",
+     "acceptedAnswers": [
+      "truccate"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ci abbiamo",
+     "acceptedAnswers": [
+      "ci siamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "è si",
+     "acceptedAnswers": [
+      "si è"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "mi sono alzato",
+     "acceptedAnswers": [
+      "mi alzavo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "sono mi",
+     "acceptedAnswers": [
+      "mi sono"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "vi avete",
+     "acceptedAnswers": [
+      "vi siete"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "arrabbiato",
+     "acceptedAnswers": [
+      "arrabbiata"
+     ]
+    }
+   ]
+  }
+ ]
+}

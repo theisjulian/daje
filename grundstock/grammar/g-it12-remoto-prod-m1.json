@@ -1,0 +1,157 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-remoto-prod-m1",
+ "title": "Tre persone, quattro verbi",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · Tre persone, quattro verbi · livello medio.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · passato remoto bilden und beim Erzählen verwenden (regelmäßige und häufige unregelmäßige Formen)"
+ },
+ "grammar": {
+  "topic": "it12-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **passato remoto** si usa per raccontare fatti **lontani e conclusi**: fiabe, romanzi, storia, biografie.\n| | parl**are** | cred**ere** | part**ire** |\n| io | parl**ai** | cred**ei** / cred**etti** | part**ii** |\n| tu | parl**asti** | cred**esti** | part**isti** |\n| lui / lei | parl**ò** | cred**é** / cred**ette** | part**ì** |\n| noi | parl**ammo** | cred**emmo** | part**immo** |\n| voi | parl**aste** | cred**este** | part**iste** |\n| loro | parl**arono** | cred**erono** / cred**ettero** | part**irono** |\nMolti verbi (soprattutto in -ere) sono irregolari solo in **tre persone** (io, lui/lei, loro): _pres**i**, prendesti, pres**e**, prendemmo, prendeste, pres**ero**_.\n| scrivere → scrissi | leggere → lessi | dire → dissi | vivere → vissi |\n| prendere → presi | mettere → misi | chiedere → chiesi | rispondere → risposi |\n| decidere → decisi | rimanere → rimasi | perdere → persi (perdetti, perdei) | vincere → vinsi |\n| vedere → vidi | venire → venni | tenere → tenni | volere → volli |\n| sapere → seppi | conoscere → conobbi | nascere → nacqui | avere → ebbi |\n| fare → feci (facesti) | dare → diedi / detti (desti) | stare → stetti (stesti) | essere → fui, fosti, fu, fummo, foste, furono |\n_Galileo **nacque** a Pisa. · I due fratelli **partirono** all’alba e non **tornarono** più._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit für **weit zurückliegende, abgeschlossene** Ereignisse: Märchen, Romane, Geschichte, Biografien. In der gesprochenen Sprache (vor allem im Norden) steht dafür das passato prossimo.\nRegelmäßig: parlai, parlasti, parlò … · credei/credetti, credesti, credé/credette … · partii, partisti, partì …\nViele Verben (vor allem auf -ere) sind nur in **drei Personen** unregelmäßig (io, lui/lei, loro): _presi, prendesti, prese, prendemmo, prendeste, presero_. Wer die 1. Person kennt (scrissi, lessi, vidi, venni, seppi, nacqui …), kann die 3. Singular (-e) und die 3. Plural (-ero) ableiten.\nGanz unregelmäßig: essere (fui, fosti, fu, fummo, foste, furono), fare (feci, facesti …), dare (diedi/detti, desti …), stare (stetti, stesti …)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con il passato remoto.",
+   "promptHelp": "Ergänze die Tabelle mit dem passato remoto.",
+   "explanation": "-are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Attenzione agli accenti (lavorò, credé, dormì) e alla doppia i di dormii. Perdere ha anche le forme irregolari persi, perse, persero, che sono le più usate.",
+   "explanationHelp": "-are: -ai, -ò, -arono · -ere: -ei / -etti, -é / -ette, -erono / -ettero · -ire: -ii, -ì, -irono. Achte auf die Akzente (lavorò, credé, dormì) und auf das doppelte i in dormii. Perdere hat zusätzlich die unregelmäßigen Formen persi, perse, persero; sie sind die üblichsten.",
+   "type": "table_fill",
+   "columns": [
+    "infinito",
+    "io",
+    "lui / lei",
+    "loro"
+   ],
+   "rows": [
+    [
+     "lavorare",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "lavorai"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "lavorò"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "lavorarono"
+      ]
+     }
+    ],
+    [
+     "credere",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "credei",
+       "credetti"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "credé",
+       "credette"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "crederono",
+       "credettero"
+      ]
+     }
+    ],
+    [
+     "dormire",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "dormii"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "dormì"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "dormirono"
+      ]
+     }
+    ],
+    [
+     "perdere",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "persi",
+       "perdetti",
+       "perdei"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "perse",
+       "perdette",
+       "perdé"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "persero",
+       "perdettero",
+       "perderono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

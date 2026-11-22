@@ -48,7 +48,7 @@
   {
    "id": "q1",
    "prompt": "Rispondi con la forma di io.",
-   "promptHelp": "Antworte mit derselben Verbform (io).",
+   "promptHelp": "Antworte mit der io-Form.",
    "explanation": "A una domanda con tu rispondiamo con io: parli → parlo.",
    "explanationHelp": "Auf eine Frage mit tu antwortet man mit io: parli → parlo.",
    "type": "sentence_completion",

@@ -54,7 +54,7 @@
    "definition": "Molto vicino a.",
    "example": "Casa mia è a due passi da scuola.",
    "acceptedAnswers": [
-    "a da"
+    "a due passi da"
    ]
   },
   {
@@ -65,7 +65,7 @@
    ],
    "definition": "Bosco di pini.",
    "example": "Passeggiamo nella pineta.",
-   "related": "F la pinière",
+   "related": "F la pinède",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -294,7 +294,8 @@
    "definition": "Nel centro di qualcosa.",
    "example": "La casa è in mezzo al bosco.",
    "acceptedAnswers": [
-    "in mezzo"
+    "in mezzo",
+    "in mezzo a"
    ],
    "usage": "prep."
   },
@@ -456,7 +457,7 @@
     "das Fernrohr"
    ],
    "definition": "Strumento con lenti per guardare lontano.",
-   "example": "Galileo usò il cannocchiale.",
+   "example": "Galileo ha osservato le stelle con il cannocchiale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-l1",
+ "title": "Quel, quello, quell’ …",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello come accompagnatore · Quel, quello, quell’ … · livello facile.",
+ "topics": [
+  "Quello come accompagnatore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Demonstrativbegleiter quello (Formen wie der bestimmte Artikel), questo und quello"
+ },
+ "grammar": {
+  "topic": "ecco2-quello",
+  "topicTitle": "Quello come accompagnatore",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**Questo** = vicino a chi parla (_qui_). **Quello** = lontano (_là_).\nDavanti a un nome, **quello** cambia come l’**articolo determinativo**:\n| il libro | **quel** libro | i libri | **quei** libri |\n| lo zaino | **quello** zaino | gli zaini | **quegli** zaini |\n| l’amico | **quell’**amico | gli amici | **quegli** amici |\n| la casa | **quella** casa | le case | **quelle** case |\n| l’amica | **quell’**amica | le amiche | **quelle** amiche |\n_Guarda **quel** telefono! In **quegli** anni non c’era Internet._\nDa solo (senza nome) ha solo quattro forme: **quello, quella, quelli, quelle**.\n_– Quale telefono vuoi? – **Quello** nero. – Quali libri? – **Quelli** di ieri._",
+  "ruleHelp": "**Questo** = nah beim Sprecher (dieser hier), **quello** = weiter weg (der dort, jener).\nVor einem Nomen richtet sich **quello** nach dem **bestimmten Artikel**: il → **quel**, lo → **quello**, l’ → **quell’**, la → **quella**, i → **quei**, gli → **quegli**, le → **quelle**. Entscheidend ist das Wort, das direkt folgt: _quel piccolo orologio_, aber _quell’orologio_.\nAllein (ohne Nomen) gibt es nur vier Formen: **quello, quella, quelli, quelle**: _Quello nero._ (Das schwarze.) _Quelli di ieri._ (Die von gestern.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale forma di quello va bene? Pensa all’articolo (il, lo, l’, i, gli).",
+   "promptHelp": "Welche Form von quello passt? Denke an den Artikel (il, lo, l’, i, gli).",
+   "explanation": "il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli.",
+   "explanationHelp": "il → quel, lo → quello, l’ → quell’, i → quei, gli → quegli.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "quel"
+    },
+    {
+     "id": "b",
+     "label": "quello"
+    },
+    {
+     "id": "c",
+     "label": "quell’"
+    },
+    {
+     "id": "d",
+     "label": "quei"
+    },
+    {
+     "id": "e",
+     "label": "quegli"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "… telefono",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "… giornale",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "… disco",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "… zaino",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "… studente",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "… schermo",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "… amico",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "… orologio",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "… libri",
+     "category": "d"
+    },
+    {
+     "id": "i10",
+     "text": "… nonni",
+     "category": "d"
+    },
+    {
+     "id": "i11",
+     "text": "… amici",
+     "category": "e"
+    },
+    {
+     "id": "i12",
+     "text": "… zii",
+     "category": "e"
+    }
+   ]
+  }
+ ]
+}

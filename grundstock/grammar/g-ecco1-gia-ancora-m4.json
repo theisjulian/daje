@@ -57,19 +57,19 @@
     },
     {
      "id": "i2",
-     "text": "ho"
+     "text": "ho ancora"
     },
     {
      "id": "i3",
-     "text": "ancora"
-    },
-    {
-     "id": "i4",
      "text": "fatto"
     },
     {
+     "id": "i4",
+     "text": "i"
+    },
+    {
      "id": "i5",
-     "text": "i compiti."
+     "text": "compiti."
     }
    ]
   },
@@ -95,7 +95,7 @@
   },
   {
    "id": "q3",
-   "prompt": "Metti le parole in ordine: „Luca ist schon nach Hause gegangen.“",
+   "prompt": "Metti le parole in ordine: „Luca ist schon nach Hause zurückgekommen.“",
    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
@@ -105,19 +105,19 @@
     },
     {
      "id": "i2",
-     "text": "è"
+     "text": "è già"
     },
     {
      "id": "i3",
-     "text": "già"
-    },
-    {
-     "id": "i4",
      "text": "tornato"
     },
     {
+     "id": "i4",
+     "text": "a"
+    },
+    {
      "id": "i5",
-     "text": "a casa."
+     "text": "casa."
     }
    ]
   },

@@ -1,0 +1,169 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-m3",
+ "title": "Parole in ordine",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · Parole in ordine · livello medio.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 18,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine: „Mir gefällt Rock, meinem Bruder nicht.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "A me"
+    },
+    {
+     "id": "i2",
+     "text": "piace"
+    },
+    {
+     "id": "i3",
+     "text": "il rock,"
+    },
+    {
+     "id": "i4",
+     "text": "a mio fratello no."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti in ordine: „Diesen Film, den habe ich schon zweimal gesehen.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Questo film,"
+    },
+    {
+     "id": "i2",
+     "text": "l’ho già"
+    },
+    {
+     "id": "i3",
+     "text": "visto"
+    },
+    {
+     "id": "i4",
+     "text": "due volte."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti in ordine: „Nach Mailand will ich fahren (nicht woandershin).“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "È a Milano"
+    },
+    {
+     "id": "i2",
+     "text": "che"
+    },
+    {
+     "id": "i3",
+     "text": "voglio"
+    },
+    {
+     "id": "i4",
+     "text": "andare."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti in ordine: „Darüber sprechen wir nach der Stunde.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Di questo,"
+    },
+    {
+     "id": "i2",
+     "text": "ne"
+    },
+    {
+     "id": "i3",
+     "text": "parliamo"
+    },
+    {
+     "id": "i4",
+     "text": "dopo la lezione."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "prompt": "Metti in ordine: „Ich bin es, der das Eis bezahlt.“",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Sono io"
+    },
+    {
+     "id": "i2",
+     "text": "che"
+    },
+    {
+     "id": "i3",
+     "text": "pago"
+    },
+    {
+     "id": "i4",
+     "text": "il gelato."
+    }
+   ]
+  }
+ ]
+}

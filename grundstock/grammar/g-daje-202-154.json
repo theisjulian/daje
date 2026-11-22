@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa il testo.",
-   "promptHelp": "Ergänze den Text.",
+   "prompt": "Completa il testo con le preposizioni articolate.",
+   "promptHelp": "Ergänze den Text mit den passenden Präpositionen mit Artikel (preposizioni articolate).",
    "text": "Lunedì ho ordinato alcuni materiali per la mostra [[g1]] classe. [[g2]] sito [[g3]] negozio la consegna era prevista per giovedì. Ho ricevuto una conferma e ho comunicato la data [[g4]] compagni. Giovedì, però, il pacco non è arrivato. Ho controllato il messaggio [[g5]] corriere: l’indirizzo era corretto, ma mancava il numero dell’edificio. Mi sono accorto di un errore [[g6]] modulo: mancava il numero dell’edificio. Ho telefonato [[g7]] servizio clienti e ho spiegato il problema. L’addetta ha corretto i dati e ha confermato la consegna per il giorno seguente.\n[[g8]] frattempo la classe ha preparato una soluzione provvisoria. Abbiamo usato cartoncini già disponibili [[g9]] scuola e abbiamo spostato il lavoro più impegnativo [[g10]] pomeriggio di venerdì. Quando il corriere è arrivato, due compagni hanno controllato il contenuto [[g11]] scatola. C’erano tutti i materiali, tranne un rotolo di carta. L’abbiamo segnalato [[g12]] negozio, che ha risposto subito. [[g13]] fine la mostra è stata pronta in tempo. Ho imparato a controllare l’indirizzo prima di inviare un ordine e a non organizzare tutto intorno a una sola consegna. Il racconto è inventato e non descrive un’azienda reale.",
    "gaps": [
     {
@@ -59,7 +59,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "Sul"
+      "Sul",
+      "Nel"
      ]
     },
     {
@@ -83,7 +84,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "nel"
+      "nel",
+      "sul"
      ]
     },
     {
@@ -128,8 +130,7 @@
       "Alla"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   },
   {
    "id": "q2",

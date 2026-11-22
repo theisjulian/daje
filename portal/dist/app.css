@@ -9340,3 +9340,22 @@ dialog[tabindex='-1']:focus { outline: none; }
 #teaching-print .hb-exn { flex: none; display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 6px; border-radius: 8px; background: var(--ac, #111); color: #fff; font-size: 11pt; font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 #teaching-print[data-design='klassisch'] .hb-exn { background: #fff; color: #111; border: 1.5px solid #111; border-radius: 2px; }
 #teaching-print .hb-q-solo .hb-qh .n { visibility: hidden; }
+
+/* Teilpunkte: Rückmeldung je Aufgabe mit Punktzahl; Lösungen nur zu den falschen Stellen als Liste */
+.listen-feedback.partial { border-color: var(--amber, #c9891a); background: color-mix(in srgb, var(--amber, #c9891a) 10%, transparent); }
+.listen-feedback .fb-score { display: inline-block; margin-left: 0.35em; padding: 0.05em 0.55em; border-radius: 999px; font-size: 0.82em; font-weight: 700; font-variant-numeric: tabular-nums; background: color-mix(in srgb, currentColor 10%, transparent); }
+.listen-feedback .sol-list { margin: 0.3em 0 0.5em; padding-left: 1.7em; display: grid; gap: 0.2em; }
+.listen-feedback ul.sol-list { padding-left: 1.2em; }
+.listen-feedback .sol-list li { padding-left: 0.15em; }
+
+/* Merkkasten: breite Tabellen (fünf Spalten) wischen am Handy in ihrem Rahmen, statt die Seite zu verbreitern */
+.rule-scroll { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.rule-scroll .rule-table { min-width: max-content; }
+@media print { .rule-scroll { overflow: visible; } .rule-scroll .rule-table { min-width: 0; } }
+
+/* Merkkasten in der Übung: am Handy zugeklappt (ein Tipp öffnet ihn), damit die Aufgabe sofort sichtbar ist */
+.rule-fold > summary { position: relative; padding-right: 2.2em; }
+.rule-fold > summary::after { content: ''; position: absolute; right: 0.3em; top: 50%; width: 0.55em; height: 0.55em; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-70%) rotate(45deg); opacity: 0.55; transition: transform 0.15s; }
+.rule-fold[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
+.rule-fold[open] > summary { margin-bottom: 0.5em; }
+.listening-side > details, .rule-fold { box-sizing: border-box; width: 100%; }

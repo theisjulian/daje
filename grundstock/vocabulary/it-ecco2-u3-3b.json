@@ -221,7 +221,7 @@
    "definition": "Essere gradito.",
    "example": "Mi piace la musica.",
    "related": "F plaire; L placere",
-   "usage": "Abc"
+   "usage": "mi piace + sg., mi piacciono + pl."
   },
   {
    "id": "u3-3b-016",
@@ -316,7 +316,7 @@
    "translations": [
     "Gebühr für Tischgedeck"
    ],
-   "definition": "Piccola somma da pagare al ristorante per il servizio.",
+   "definition": "Piccola somma che si paga al ristorante per il pane e il posto a tavola.",
    "example": "Il coperto costa due euro.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -531,7 +531,7 @@
    ],
    "definition": "Poiché.",
    "example": "Visto che piove, restiamo a casa.",
-   "synonyms": "perché"
+   "synonyms": "siccome, dato che"
   },
   {
    "id": "u3-3b-041",

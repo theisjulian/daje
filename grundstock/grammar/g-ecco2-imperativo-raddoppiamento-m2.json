@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-m2",
+ "title": "Sì, fallo!",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Sì, fallo! · livello medio.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con l’imperativo (tu) e il pronome tra parentesi.",
+   "promptHelp": "Antworte mit dem Imperativ (tu) und dem Pronomen in Klammern.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Faccio subito i compiti? (li) – Sì, …",
+     "acceptedAnswers": [
+      "falli"
+     ],
+     "modelAnswer": "Sì, falli subito!"
+    },
+    {
+     "id": "s2",
+     "start": "Do il libro a Marco? (gli) – Sì, …",
+     "acceptedAnswers": [
+      "dagli il libro"
+     ],
+     "modelAnswer": "Sì, dagli il libro!"
+    },
+    {
+     "id": "s3",
+     "start": "Dico a Sara che veniamo? (le) – Sì, …",
+     "acceptedAnswers": [
+      "dille che veniamo"
+     ],
+     "modelAnswer": "Sì, dille che veniamo!"
+    },
+    {
+     "id": "s4",
+     "start": "Vado io al supermercato? (ci) – Sì, …",
+     "acceptedAnswers": [
+      "vacci"
+     ],
+     "modelAnswer": "Sì, vacci tu!"
+    },
+    {
+     "id": "s5",
+     "start": "Ti faccio vedere le foto? (mi) – Sì, …",
+     "acceptedAnswers": [
+      "fammi vedere le foto"
+     ],
+     "modelAnswer": "Sì, fammi vedere le foto!"
+    },
+    {
+     "id": "s6",
+     "start": "Vi do il mio numero? (ci) – Sì, …",
+     "acceptedAnswers": [
+      "dacci il tuo numero"
+     ],
+     "modelAnswer": "Sì, dacci il tuo numero!"
+    },
+    {
+     "id": "s7",
+     "start": "Faccio la torta per la festa? (la) – Sì, …",
+     "acceptedAnswers": [
+      "falla"
+     ],
+     "modelAnswer": "Sì, falla!"
+    },
+    {
+     "id": "s8",
+     "start": "Dico la notizia agli amici? (la) – Sì, …",
+     "acceptedAnswers": [
+      "dilla"
+     ],
+     "modelAnswer": "Sì, dilla agli amici!"
+    },
+    {
+     "id": "s9",
+     "start": "Ti do una mano? (mi) – Sì, …",
+     "acceptedAnswers": [
+      "dammi una mano"
+     ],
+     "modelAnswer": "Sì, dammi una mano!"
+    },
+    {
+     "id": "s10",
+     "start": "Dico a Luca la verità? (gli) – Sì, …",
+     "acceptedAnswers": [
+      "digli la verità"
+     ],
+     "modelAnswer": "Sì, digli la verità!"
+    }
+   ]
+  }
+ ]
+}

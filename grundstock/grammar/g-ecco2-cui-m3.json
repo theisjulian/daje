@@ -1,0 +1,155 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-m3",
+ "title": "Metti in ordine",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Metti in ordine · livello medio.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Questa è la ragazza"
+    },
+    {
+     "id": "i2",
+     "text": "con cui"
+    },
+    {
+     "id": "i3",
+     "text": "vado a scuola"
+    },
+    {
+     "id": "i4",
+     "text": "ogni mattina."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Il motivo"
+    },
+    {
+     "id": "i2",
+     "text": "per cui"
+    },
+    {
+     "id": "i3",
+     "text": "non ho risposto"
+    },
+    {
+     "id": "i4",
+     "text": "è semplice."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ricordo bene"
+    },
+    {
+     "id": "i2",
+     "text": "il giorno"
+    },
+    {
+     "id": "i3",
+     "text": "in cui"
+    },
+    {
+     "id": "i4",
+     "text": "ho ricevuto"
+    },
+    {
+     "id": "i5",
+     "text": "il mio primo telefono."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parti in ordine e forma una frase.",
+   "promptHelp": "Bringe die Teile in die richtige Reihenfolge.",
+   "explanation": "La preposizione sta sempre **prima** di cui: con cui, per cui, in cui.",
+   "explanationHelp": "Die Präposition steht immer **vor** cui: con cui, per cui, in cui.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non mi piace"
+    },
+    {
+     "id": "i2",
+     "text": "il modo"
+    },
+    {
+     "id": "i3",
+     "text": "in cui"
+    },
+    {
+     "id": "i4",
+     "text": "parli"
+    },
+    {
+     "id": "i5",
+     "text": "con tua sorella."
+    }
+   ]
+  }
+ ]
+}

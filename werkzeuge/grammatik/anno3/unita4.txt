@@ -1,0 +1,614 @@
+#!buch series=Corso_daje volume=3 grade=10 cefr=B1 prefix=ecco3
+## Terzo anno · Lektion 4 · Nord e Sud (und ein Thema aus „Extra · Approfondire“). Eigene Übungen.
+
+@thema indiretto-passato | 4 · Nord e Sud | Parte A | Il discorso indiretto al passato | 1
+#lehrplan Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)
+#regel
+Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:
+| discorso diretto | discorso indiretto |
+| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |
+| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |
+| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |
+| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |
+| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |
+Cambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:
+| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |
+| qui → **lì** | questo → **quello** | adesso → **in quel momento** |
+| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |
+Le domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)
+#regel-de
+Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.
+Auch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.
+Fragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv.
+
+%übung leicht | Oggi diventa quel giorno
+?zuordnen | Abbina le parole del discorso diretto a quelle del discorso indiretto al passato. || Verbinde die Wörter der direkten Rede mit denen der indirekten Rede in der Vergangenheit.
+oggi = quel giorno
+domani = il giorno dopo
+ieri = il giorno prima
+qui = lì
+questo libro = quel libro
+adesso = in quel momento
+stasera = quella sera
+la settimana prossima = la settimana dopo
+due giorni fa = due giorni prima
+
+%übung leicht | La partenza del nonno
+?auswahl | Tanti anni fa il nonno Salvatore è partito dalla Puglia per Torino. Che cosa ha detto quel giorno? Scegli la forma giusta. || Vor vielen Jahren ist Opa Salvatore aus Apulien nach Turin gezogen. Was hat er an dem Tag gesagt? Wähle die richtige Form.
+«Parto per Torino.» → Ha detto che {partiva*|era partito|partisse} per Torino.
+«Ho comprato il biglietto.» → Ha detto che {aveva comprato*|comprava|avrebbe comprato} il biglietto.
+«Troverò un lavoro.» → Ha detto che {avrebbe trovato*|aveva trovato|troverebbe} un lavoro.
+«Vi scriverò ogni settimana.» → Ha detto che ci {avrebbe scritto*|scriverebbe|aveva scritto} ogni settimana.
+«Da ragazzo sognavo la città.» → Ha detto che da ragazzo {sognava*|sognasse|avrebbe sognato} la città.
+«Non piangete!» → Ha detto alle sorelle {di non piangere*|che non piangete|di non piangete}.
+«Aspettatemi!» → Ha chiesto agli amici {di aspettarlo*|di aspettarmi|che lo aspettate}.
+«Mio cugino abita già lì.» → Ha detto che suo cugino {abitava*|aveva abitato|avrebbe abitato} già lì.
+! presente → imperfetto · passato prossimo → trapassato prossimo · futuro → condizionale composto · imperativo → di + infinito · l’imperfetto non cambia. || Präsens → imperfetto · passato prossimo → trapassato prossimo · Futur → condizionale composto · Imperativ → di + Infinitiv · das imperfetto bleibt.
+
+%übung leicht | Quale tempo diventa?
+?sortieren | Ha detto che … / Ha detto di …: quale forma serve nel discorso indiretto al passato? || Ha detto che … / Ha detto di …: Welche Form braucht man in der indirekten Rede der Vergangenheit?
+Kategorien: a=imperfetto; b=trapassato prossimo; c=condizionale composto; d=di + infinito
+«Ho fame.» > a
+«Abbiamo perso il treno.» > b
+«Ti chiamerò.» > c
+«Chiudi la porta!» > d
+«Fa freddo.» > a
+«Sono arrivata tardi.» > b
+«Verremo in agosto.» > c
+«Scrivetemi!» > d
+«Da bambino giocavo qui.» > a
+«Ho capito tutto.» > b
+«Pioverà.» > c
+«Non partire!» > d
+
+%übung mittel | La telefonata di Chiara
+?luecke | Ieri Chiara, che studia a Milano, ha telefonato alla nonna a Palermo. Suo fratello racconta. Completa con il verbo nella forma giusta. || Gestern hat Chiara, die in Mailand studiert, ihre Oma in Palermo angerufen. Ihr Bruder erzählt. Ergänze das Verb in der richtigen Form.
+«Sto bene.» → Chiara ha detto che [stava] bene.
+«Ho trovato una stanza vicino all’università.» → Ha detto che [aveva trovato] una stanza vicino all’università.
+«I miei coinquilini sono simpatici.» → Ha detto che i suoi coinquilini [erano] simpatici.
+«Ieri sono andata al Duomo.» → Ha detto che il giorno prima [era andata] al Duomo.
+«Tornerò a Palermo a Natale.» → Ha detto che [sarebbe tornata] a Palermo a Natale.
+«Qui piove spesso.» → Ha detto che lì [pioveva] spesso.
+«Mi mancano le tue arancine.» → Ha detto che le [mancavano] le arancine della nonna.
+«Mandami la ricetta!» → Ha chiesto alla nonna di [mandarle] la ricetta.
+«Domani comincerò il corso di inglese.» → Ha detto che il giorno dopo [avrebbe cominciato] il corso di inglese.
+«Da piccola avevo paura della nebbia.» → Ha detto che da piccola [aveva] paura della nebbia.
+! Attenzione al futuro: tornerò → sarebbe tornata (condizionale composto, con essere il participio concorda). || Achtung beim Futur: tornerò → sarebbe tornata (condizionale composto; mit essere wird das Partizip angeglichen).
+
+%übung mittel | Che cosa hanno detto?
+?ergaenzen | Trasforma al discorso indiretto. || Forme in die indirekte Rede um.
+Luca: «Non capisco il dialetto.» → Luca ha detto che … | non capiva il dialetto | Luca ha detto che non capiva il dialetto.
+Sara: «Ho visitato Matera.» → Sara ha detto che … | aveva visitato Matera | Sara ha detto che aveva visitato Matera.
+Davide: «Andrò a vivere a Bologna.» → Davide ha detto che … | sarebbe andato a vivere a Bologna | Davide ha detto che sarebbe andato a vivere a Bologna.
+La prof: «Aprite il libro!» → La prof ha detto agli studenti di … | aprire il libro | La prof ha detto agli studenti di aprire il libro.
+Giulia: «Mia zia abita a Napoli.» → Giulia ha detto che … | sua zia abitava a Napoli | Giulia ha detto che sua zia abitava a Napoli.
+Matteo: «Ieri ho perso l’autobus.» → Matteo ha detto che … | il giorno prima aveva perso l’autobus/aveva perso l’autobus il giorno prima/il giorno precedente aveva perso l’autobus/aveva perso l’autobus il giorno precedente | Matteo ha detto che il giorno prima aveva perso l’autobus.
+I nonni: «Domani partiremo presto.» → I nonni hanno detto che … | il giorno dopo sarebbero partiti presto/sarebbero partiti presto il giorno dopo/il giorno seguente sarebbero partiti presto/sarebbero partiti presto il giorno seguente/il giorno successivo sarebbero partiti presto/sarebbero partiti presto il giorno successivo | I nonni hanno detto che il giorno dopo sarebbero partiti presto.
+Chiara: «Non dimenticare le chiavi!» → Chiara ha detto a Marco di … | non dimenticare le chiavi | Chiara ha detto a Marco di non dimenticare le chiavi.
+! Cambiano il tempo, la persona (mia → sua) e le parole di tempo (ieri → il giorno prima, domani → il giorno dopo). || Es ändern sich Zeit, Person (mia → sua) und Zeitangaben (ieri → il giorno prima, domani → il giorno dopo).
+
+%übung mittel | Le domande indirette
+?ordnen | Metti in ordine: „Die Frau fragte mich, ob ich den Weg ins Zentrum kannte.“ || Bringe die Teile in die richtige Reihenfolge.
+La signora mi ha chiesto
+se
+conoscevo
+la strada per il centro.
+?ordnen | Metti in ordine: „Der Lehrer fragte Sara, seit wann sie in Verona wohnte.“ || Bringe die Teile in die richtige Reihenfolge.
+Il professore ha chiesto a Sara
+da quanto tempo
+abitava
+a Verona.
+?ordnen | Metti in ordine: „Meine Cousins fragten mich, wann ich nach Sizilien zurückkommen würde.“ || Bringe die Teile in die richtige Reihenfolge.
+I miei cugini
+mi hanno chiesto
+quando
+sarei tornato
+in Sicilia.
+?auswahl | Se, che, di o una parola interrogativa? Scegli. || Se, che, di oder ein Fragewort? Wähle aus.
+Il turista ha chiesto {se*|che|di} il museo era aperto la domenica.
+Mia madre mi ha chiesto {dove*|che|di} avevo messo le chiavi.
+Il controllore ci ha chiesto {di*|se|che} mostrare il biglietto.
+! Domanda sì / no → se; domanda con parola interrogativa → dove, quando, perché …; richiesta → di + infinito. || Ja/Nein-Frage → se (ob); Frage mit Fragewort → dove, quando, perché …; Bitte → di + Infinitiv.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Paolo ha detto che il giorno dopo [partirebbe=>sarebbe partito] per Milano.
+La mamma mi ha detto di [metto=>mettere] in ordine la camera.
+Il vicino mi ha chiesto [che=>se] parlavo il dialetto.
+I miei amici hanno detto che [avrebbero arrivati=>sarebbero arrivati] in ritardo.
+Anna ha detto a Paolo di [aspettami=>aspettarla].
+Il prof ci ha chiesto se [avremmo capito=>avevamo capito/avessimo capito] la lezione del giorno prima.
+Marco ha detto che quel giorno non [avesse=>aveva] tempo di uscire.
+Luisa ha detto [di=>che] non aveva fame.
+! Futuro nel passato → condizionale composto (sarebbe partito), non condizionale semplice. Dopo dire: che + indicativo (non congiuntivo!), di + infinito. || Zukunft in der Vergangenheit → condizionale composto (sarebbe partito), nicht condizionale semplice. Nach dire: che + Indikativ (kein congiuntivo!), di + Infinitiv.
+
+%übung schwer | Il messaggio di Davide
+?luecke | Un mese dopo la mamma racconta alla zia che cosa ha scritto Davide. Completa: verbi, parole di tempo e di luogo. || Einen Monat später erzählt die Mutter der Tante, was Davide geschrieben hat. Ergänze Verben, Zeit- und Ortsangaben.
+Il messaggio di Davide: «Sono arrivato ieri a Trento. Qui fa freddo, ma la città mi piace. Oggi ho conosciuto i miei compagni. Domani visiteremo un castello. Questa settimana non avrò tempo di chiamarvi. Salutate la nonna!»
+Davide ha scritto che [era arrivato] il giorno [prima/precedente] a Trento.
+Ha scritto che [lì/là] faceva freddo, ma che la città gli [piaceva].
+Ha raccontato che [quel] giorno [aveva conosciuto] i suoi compagni
+e che il giorno [dopo/seguente/successivo] [avrebbero visitato] un castello.
+Ha aggiunto che [quella] settimana non [avrebbe avuto] tempo di chiamarci
+e ci ha chiesto di [salutare] la nonna.
+
+%übung schwer | Mi ha chiesto se …
+?ergaenzen | Giulia fa alcune domande a Leon, un compagno nuovo. Leon racconta. Trasforma le domande. || Giulia stellt Leon, einem neuen Mitschüler, Fragen. Leon erzählt davon. Forme die Fragen um.
+«Sei mai stato in Sardegna?» → Giulia mi ha chiesto se … | ero mai stato in Sardegna/fossi mai stato in Sardegna | Giulia mi ha chiesto se ero mai stato in Sardegna.
+«Dove hai imparato l’italiano?» → Mi ha chiesto dove … | avevo imparato l’italiano/avessi imparato l’italiano | Mi ha chiesto dove avevo imparato l’italiano.
+«Quando tornerai a casa?» → Mi ha chiesto quando … | sarei tornato a casa | Mi ha chiesto quando sarei tornato a casa.
+«Ti piace il mare?» → Mi ha chiesto se … | mi piaceva il mare/mi piacesse il mare | Mi ha chiesto se mi piaceva il mare.
+! Nelle domande indirette vanno bene l’indicativo (se ero stato) e il congiuntivo (se fossi stato). || In indirekten Fragen sind Indikativ (se ero stato) und congiuntivo (se fossi stato) möglich.
+?frei | Che cosa ti ha detto o chiesto ieri un amico, un’amica o un parente? Scrivi 5 frasi al discorso indiretto (ha detto che …, mi ha chiesto se …, mi ha detto di …). || Was hat dir gestern ein Freund, eine Freundin oder ein Verwandter gesagt oder dich gefragt? Schreibe 5 Sätze in indirekter Rede.
+Ieri mia cugina mi ha detto che aveva trovato un lavoro a Verona. Ha detto che era molto contenta e che sarebbe partita a settembre. Mi ha chiesto se volevo andare a trovarla. Poi mi ha detto di non raccontare ancora niente ai nonni. Ha aggiunto che il giorno dopo avrebbe parlato lei con loro.
+Zeilen: 6
+
+@thema sequenza-tempi | 4 · Nord e Sud | Parte A | La sequenza dei tempi II | 2
+#lehrplan Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)
+#regel
+Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).
+| frase principale | prima | nello stesso momento | dopo |
+| **So che** … (presente + indicativo) | è venuto | viene | verrà |
+| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |
+| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |
+| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |
+- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._
+- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._
+- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._
+#regel-de
+Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).
+Hauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._
+Nachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo.
+
+%übung leicht | Prima, adesso o dopo?
+?sortieren | Quando succede l’azione della frase secondaria rispetto alla frase principale? || Wann passiert die Handlung des Nebensatzes im Verhältnis zum Hauptsatz?
+Kategorien: a=prima; b=nello stesso momento; c=dopo
+Penso che Luca sia già partito. > a
+Credo che Sara abbia sbagliato treno. > a
+Pensavo che fossero già arrivati. > a
+Sapevo che aveva studiato a Padova. > a
+Credo che Marta sia a casa. > b
+Pensavo che tu avessi fame. > b
+So che lavori molto. > b
+Sapevo che abitava a Genova. > b
+Penso che domani pioverà. > c
+Pensavo che sarebbe venuto più tardi. > c
+So che tornerai presto. > c
+Ero sicuro che avresti vinto. > c
+
+%übung leicht | Penso o pensavo?
+?auswahl | Guarda il verbo della frase principale e scegli la forma giusta. || Achte auf das Verb im Hauptsatz und wähle die richtige Form.
+Penso che adesso Giulia {sia*|fosse|sarebbe stata} in vacanza.
+Pensavo che Giulia {fosse*|sia|sarà} ancora in vacanza, invece era già tornata.
+Credo che ieri Matteo {abbia perso*|perda|perderà} il treno.
+Credevo che Matteo {avesse perso*|abbia perso|perderà} il treno, per questo l’ho chiamato.
+Sono sicura che domani {verranno*|venissero|sarebbero venuti} tutti alla festa.
+Ero sicura che il giorno dopo {sarebbero venuti*|verranno|vengano} tutti alla festa.
+Non pensavo che tu {parlassi*|parli|parlerai} così bene il napoletano.
+Mi sembra che oggi i ragazzi {siano*|fossero|sarebbero} un po’ stanchi.
+! Principale al presente → congiuntivo presente / passato, futuro. Principale al passato → congiuntivo imperfetto / trapassato, condizionale composto. || Hauptsatz im Präsens → congiuntivo presente / passato, Futur. Hauptsatz in der Vergangenheit → congiuntivo imperfetto / trapassato, condizionale composto.
+
+%übung leicht | Lo schema
+?zuordnen | Abbina ogni frase alla sua descrizione. || Ordne jedem Satz seine Beschreibung zu (Hauptsatz · Zeitverhältnis · Form).
+Penso che venga. = principale al presente · stesso momento · congiuntivo presente
+Penso che sia venuto. = principale al presente · prima · congiuntivo passato
+Penso che verrà. = principale al presente · dopo · futuro
+Pensavo che venisse. = principale al passato · stesso momento · congiuntivo imperfetto
+Pensavo che fosse venuto. = principale al passato · prima · congiuntivo trapassato
+Pensavo che sarebbe venuto. = principale al passato · dopo · condizionale composto
+So che è venuto. = principale al presente · prima · passato prossimo
+Sapevo che era venuto. = principale al passato · prima · trapassato prossimo
+
+%übung schwer | Da Torino a Bari
+?luecke | Elena si è trasferita da Torino a Bari e racconta. Metti i verbi nella forma giusta. || Elena ist von Turin nach Bari gezogen und erzählt. Setze die Verben in die richtige Form.
+Prima di trasferirmi da Torino a Bari pensavo che al Sud (fare) [facesse] sempre caldo.
+Credevo anche che in classe tutti (parlare) [parlassero] solo in dialetto.
+Mia madre, invece, sapeva che io (trovare) [avrei trovato] presto nuovi amici.
+Il primo giorno ho capito che i miei compagni (preparare) [avevano preparato] una festa per me già la settimana prima.
+Non immaginavo che il mare d’inverno (potere) [potesse] essere così bello.
+Adesso so che la mia amica Rosa (nascere) [è nata] a Milano e si è trasferita qui da bambina, come me.
+Penso che questi primi mesi a Bari mi (cambiare) [abbiano cambiata/abbiano cambiato] molto: non sono più la stessa di prima.
+Spero che l’anno prossimo i miei amici di Torino (venire) [vengano/verranno] a trovarmi.
+E credo che oggi molti pregiudizi tra Nord e Sud (essere) [siano] solo vecchie storie.
+! pensavo / credevo che + congiuntivo imperfetto (stesso momento) · sapeva che + condizionale composto (dopo) · ho capito che + trapassato prossimo (prima). || pensavo / credevo che + congiuntivo imperfetto (gleichzeitig) · sapeva che + condizionale composto (nachher) · ho capito che + trapassato prossimo (vorher).
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore nel tempo o nel modo. Correggilo. || In jedem Satz steckt ein Fehler bei Zeit oder Modus. Korrigiere ihn.
+Pensavo che tu [sia=>fossi] di Napoli.
+Spero che tu [avessi=>abbia] capito tutto.
+Sapevo che Luisa [verrà=>sarebbe venuta] alla festa del giorno dopo.
+Non credevo che i biglietti [costino=>costassero] così tanto.
+Mi sembrava che Paolo [abbia dimenticato=>avesse dimenticato] l’appuntamento.
+Penso che domani [piovesse=>pioverà/piova].
+Eravamo sicuri che voi [arriverete=>sareste arrivati/sareste arrivate] prima di noi.
+So che l’anno scorso Sara [abbia studiato=>ha studiato] a Bologna.
+! Dopo sapere e essere sicuro: indicativo. Dopo pensare, credere, sperare, sembrare: congiuntivo. || Nach sapere und essere sicuro: Indikativ. Nach pensare, credere, sperare, sembrare: congiuntivo.
+
+%übung schwer | Dal presente al passato
+?ergaenzen | Metti la frase principale al passato e cambia la frase secondaria. || Setze den Hauptsatz in die Vergangenheit und passe den Nebensatz an.
+Penso che Luca abbia ragione. → Pensavo che Luca … | avesse ragione | Pensavo che Luca avesse ragione.
+Credo che Sara sia già partita. → Credevo che Sara … | fosse già partita | Credevo che Sara fosse già partita.
+So che Davide verrà. → Sapevo che Davide … | sarebbe venuto | Sapevo che Davide sarebbe venuto.
+Mi sembra che i ragazzi non capiscano. → Mi sembrava che i ragazzi … | non capissero | Mi sembrava che i ragazzi non capissero.
+Spero che abbiate trovato la strada. → Speravo che … | aveste trovato la strada | Speravo che aveste trovato la strada.
+Sono sicuro che vincerà la nostra squadra. → Ero sicuro che … | avrebbe vinto la nostra squadra/la nostra squadra avrebbe vinto | Ero sicuro che avrebbe vinto la nostra squadra.
+È strano che nessuno risponda. → Era strano che nessuno … | rispondesse | Era strano che nessuno rispondesse.
+Dicono che il treno è partito in orario. → Dicevano che il treno … | era partito in orario/fosse partito in orario | Dicevano che il treno era partito in orario.
+! congiuntivo presente → imperfetto · congiuntivo passato → trapassato · futuro → condizionale composto · passato prossimo → trapassato prossimo. || congiuntivo presente → imperfetto · congiuntivo passato → trapassato · Futur → condizionale composto · passato prossimo → trapassato prossimo.
+
+@thema tempo | 4 · Nord e Sud | Parte B | Espressioni temporali e racconto | 3
+#lehrplan Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)
+#regel
+| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |
+| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |
+| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |
+| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |
+| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |
+| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |
+| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |
+| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |
+| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |
+Per raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.
+#regel-de
+**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.
+Achtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.
+Zum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina l’espressione italiana alla traduzione. || Verbinde den italienischen Ausdruck mit der Übersetzung.
+due anni fa = vor zwei Jahren
+da due anni = seit zwei Jahren
+per due anni = zwei Jahre lang
+fra due anni = in zwei Jahren (von jetzt an)
+in due ore = innerhalb von zwei Stunden
+entro venerdì = bis spätestens Freitag
+fino a venerdì = bis Freitag (die ganze Zeit über)
+a partire da lunedì = ab Montag
+nel frattempo = inzwischen
+a un tratto = plötzlich
+
+%übung leicht | Fa, da, fra …?
+?auswahl | Scegli l’espressione giusta. || Wähle den richtigen Ausdruck.
+Mio nonno è arrivato a Milano cinquant’anni {fa*|da|fra}.
+Abito a Torino {da*|fa|fra} tre anni e mi trovo bene.
+Il treno per Lecce parte {fra*|fa|da} dieci minuti.
+Devi consegnare il lavoro {entro*|fa|fra} venerdì.
+L’ufficio è aperto {dal*|al|fra} lunedì al venerdì.
+Ho vissuto a Bari {per*|fra|fa} due anni, poi sono tornata a Verona.
+Resto dai nonni {fino a*|fa|entro} domenica, poi torno a casa.
+{Ogni volta che*|Nel frattempo|A un tratto} torno in Calabria, la nonna prepara la pasta al forno.
+! fa = passato (dopo il tempo) · da = continua ancora · per = durata finita · fra = futuro · entro = non più tardi di. || fa = Vergangenheit (nachgestellt) · da = dauert noch an · per = abgeschlossene Dauer · fra = Zukunft · entro = bis spätestens.
+
+%übung leicht | In treno verso sud
+?luecke wortkasten | Sara racconta il suo viaggio. Completa con le parole del riquadro. || Sara erzählt von ihrer Reise. Ergänze mit den Wörtern aus dem Kasten.
+Tre giorni [fa] sono partita da Bolzano per andare dai nonni a Palermo.
+Conosco bene questo viaggio: lo faccio [da] dieci anni, ogni estate.
+A Bologna ho aspettato la coincidenza [per] due ore.
+Il treno era in ritardo. [Nel frattempo] ho mangiato un panino e ho letto un po’.
+La notte dormivo tranquilla quando, [a un tratto], il treno si è fermato in mezzo alla campagna.
+Siamo arrivati a Palermo solo [il giorno dopo], alle sei di mattina.
+I nonni mi aspettavano in stazione: resto da loro [fino a] Ferragosto.
+E [fra] due settimane arriva anche mio fratello!
++ ogni volta che, dal
+
+%übung mittel | Una parola sola
+?luecke | Completa con da, per, fa, fra, in o entro. || Ergänze da, per, fa, fra, in oder entro.
+Studio italiano [da] due anni e mi piace sempre di più.
+Mia madre ha studiato tedesco [per] tre anni, ma poi ha smesso.
+Abbiamo cambiato casa sei mesi [fa].
+Sbrigati! Il film comincia [fra/tra] cinque minuti.
+Sono stata brava: ho finito tutti i compiti [in] mezz’ora!
+Dovete iscrivervi al corso [entro/per] venerdì prossimo.
+Non vedo i miei cugini di Catania [da] Natale.
+Ieri ho camminato [per] due ore sotto la pioggia.
+Tre anni [fa] non sapevo una parola di italiano.
+Le vacanze cominciano [fra/tra] tre settimane: non vedo l’ora!
+! da + presente: l’azione continua. per + passato prossimo: l’azione è finita. || da + Präsens: Die Handlung dauert an. per + passato prossimo: Die Handlung ist abgeschlossen.
+
+%übung mittel | Rispondi alle domande
+?ergaenzen | Rispondi con le parole tra parentesi e la parola di tempo giusta (da, per, fa, fra, in, entro, fino a …). || Antworte mit den Wörtern in Klammern und dem passenden Zeitwort (da, per, fa, fra, in, entro, fino a …).
+Da quanto tempo studi italiano? (due anni) – Lo studio … | da due anni | Lo studio da due anni.
+Per quanto tempo hai aspettato? (un’ora) – Ho aspettato … | per un’ora | Ho aspettato per un’ora.
+Quando sei arrivato? (tre giorni) – Sono arrivato … | tre giorni fa | Sono arrivato tre giorni fa.
+Quando parte il treno? (venti minuti) – Parte … | fra venti minuti/tra venti minuti | Parte fra venti minuti.
+Entro quando devi rispondere? (lunedì) – Devo rispondere … | entro lunedì | Devo rispondere entro lunedì.
+In quanto tempo hai letto il libro? (una settimana) – L’ho letto … | in una settimana | L’ho letto in una settimana.
+Fino a quando resti a Napoli? (domenica) – Resto … | fino a domenica | Resto fino a domenica.
+Quando è aperto il negozio? (lunedì → sabato) – È aperto … | dal lunedì al sabato/da lunedì a sabato | È aperto dal lunedì al sabato.
+Da quando vale il nuovo orario? (a partire / lunedì) – Vale … | a partire da lunedì | Vale a partire da lunedì.
+
+%übung mittel | Matteo ed Elisa
+?ordnen | Metti in ordine la storia. || Bringe die Geschichte in die richtige Reihenfolge.
+Due anni fa Matteo ha lasciato Cosenza per andare a studiare a Padova.
+Il primo giorno ha cercato per ore la sua nuova casa e alla fine si è perso.
+A un tratto una ragazza gli ha chiesto: «Hai bisogno di aiuto?»
+Lei si chiamava Elisa e lo ha accompagnato fino alla porta di casa.
+Il giorno dopo si sono incontrati di nuovo, questa volta all’università.
+Da allora studiano insieme ogni settimana.
+E fra un mese Elisa andrà per la prima volta in Calabria con lui.
+?auswahl | Scegli l’espressione giusta. || Wähle den richtigen Ausdruck.
+{Ogni volta che*|Nel frattempo|A un tratto} Matteo torna a Cosenza, porta a Elisa i dolci della nonna.
+Matteo cucinava; {nel frattempo*|ogni volta che|fino a} Elisa apparecchiava la tavola.
+Stavano mangiando quando, {a un tratto*|fino a|entro}, è andata via la luce.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Studio italiano [per=>da] due anni e continuo a migliorare.
+Sono arrivata a Torino [fa tre mesi=>tre mesi fa].
+Sbrigati, il treno parte [in=>fra/tra] dieci minuti!
+Ho abitato a Lecce [da=>per] cinque anni, poi mi sono trasferito a Parma.
+Dovete consegnare il progetto [fino a=>entro/per] venerdì.
+Abito in questa casa [da=>dal] 2019.
+Ti aspetto qui [entro le=>fino alle] otto, poi vado via.
+Ho letto tutto il libro [per=>in] due giorni.
+! Errori tipici dal tedesco: „seit“ = da + presente, „in zehn Minuten“ = fra dieci minuti, „bis Freitag abgeben“ = entro venerdì. || Typische Fehler aus dem Deutschen: „seit“ = da + Präsens, „in zehn Minuten“ = fra dieci minuti, „bis Freitag abgeben“ = entro venerdì.
+
+%übung schwer | La storia di nonna Rosa
+?luecke | Completa il racconto con: a partire da, a un tratto, al, da, dal, entro, fa, fino a, fra, il giorno dopo, nel frattempo, ogni volta che, per. (Un’espressione resta fuori.) || Ergänze die Erzählung mit den angegebenen Ausdrücken. (Ein Ausdruck bleibt übrig.)
+Mia nonna Rosa è nata in un piccolo paese della Basilicata.
+Sessant’anni [fa], quando aveva vent’anni, è partita per Torino.
+Ha lavorato in una fabbrica [per] quarant’anni, [dal/da] lunedì [al/a] sabato.
+[Ogni volta che] tornava al paese per le vacanze, portava regali per tutti.
+Una sera aspettava l’autobus quando, [a un tratto], ha sentito qualcuno parlare il suo dialetto: era Antonio, il mio futuro nonno.
+[Il giorno dopo] si sono rivisti alla stessa fermata, e un anno più tardi si sono sposati.
+I nonni abitano a Torino [da] quasi sessant’anni, ma si sentono ancora lucani.
+Ogni estate restano al paese [fino a] settembre.
+[A partire da/Da] quest’anno, però, vogliono viverci tutto l’anno.
+La partenza è [fra/tra] due settimane. [Nel frattempo] io imparo qualche parola del loro dialetto!
+
+%übung schwer | Una persona, due città
+?auswahl | Scegli l’espressione giusta. || Wähle den richtigen Ausdruck.
+Non vedo Paolo {da*|per|fa} quando si è trasferito a Trieste.
+Ho finito il tema {in*|per|da} un’ora, ma poi l’ho corretto {per*|in|fra} tutta la sera.
+Il museo resta chiuso {fino al*|entro il|fra il} 15 marzo.
+! da quando + frase: da un momento del passato fino a oggi · in un’ora: il tempo necessario per finire · per tutta la sera: la durata · fino al 15 marzo: la fine del periodo. || da quando = seit (Zeitpunkt) · in un’ora = innerhalb einer Stunde (fertig!) · per tutta la sera = den ganzen Abend lang.
+?frei | Racconta in 6–8 frasi la storia di una persona (vera o inventata) che ha cambiato città. Usa almeno 5 espressioni di tempo (fa, da, per, fra, a un tratto, nel frattempo, il giorno dopo …). || Erzähle in 6–8 Sätzen die Geschichte einer (echten oder erfundenen) Person, die in eine andere Stadt gezogen ist. Verwende mindestens 5 Zeitangaben.
+Cinque anni fa mio zio Franco ha lasciato Bari ed è andato a vivere a Bergamo. All’inizio ha lavorato per sei mesi in un ristorante. Nel frattempo ha cercato un lavoro come meccanico. Un giorno, a un tratto, un cliente gli ha offerto un posto nella sua officina. Il giorno dopo ha cominciato subito. Abita a Bergamo da cinque anni e si trova bene. Fra un mese torna a Bari per le vacanze e resta fino a Ferragosto.
+Zeilen: 8
+
+@thema formazione-parole | 4 · Nord e Sud | Parte B | Riconoscere la formazione delle parole | 4
+#lehrplan Jgst. 10 · Wortbildung erkennen: Suffixe, Präfixe, Wortfamilien, alterati
+#regel
+Molte parole nascono da un’altra parola + **suffisso** (alla fine) o **prefisso** (all’inizio). Così capisci parole nuove!
+| suffisso | che cosa forma | esempi |
+| **-zione, -mento** | nome (azione) | informare → informazione, cambiare → cambiamento |
+| **-tà, -ezza** | nome (qualità) | libero → libertà, bello → bellezza |
+| **-ismo, -ista** | nome (idea, persona) | turismo, turista, giornalista |
+| **-tore / -trice, -aio** | persona | lavoratore, scrittrice, giornalaio |
+| **-eria** | negozio, locale | gelateria, libreria |
+| **-oso, -ale, -abile / -ibile** | aggettivo | famoso, nazionale, lavabile, credibile |
+| **-mente** | avverbio | lento → lentamente |
+**Prefissi:** **in-** (im-, il-, ir-), **s-**, **dis-** = contrario: _inutile, impossibile, illegale, irregolare, sfortunato, disordine_ · **ri-** = di nuovo: _rifare_ · **pre-** = prima: _prevedere_ · **anti-** = contro: _antifurto_ · **inter-** = tra: _internazionale_.
+**Alterati:** **-ino, -etto** (piccolo): _gattino, casetta_ · **-one** (grande): _librone_ · **-accio** (brutto, cattivo): _tempaccio_.
+Attenzione: _mattone, burrone, tacchino_ **non** sono alterati!
+#regel-de
+Viele Wörter erkennst du an **Suffix** und **Präfix**: -zione / -mento (Nomen zu Verben, dt. oft „-ung“), -tà / -ezza (Eigenschaft, dt. „-heit / -keit“), -ista / -tore / -trice / -aio (Personen), -eria (Geschäft), -oso / -ale / -abile / -ibile (Adjektive, dt. oft „-bar“), -mente (Adverb).
+Präfixe: in- / im- / il- / ir-, s-, dis- (Gegenteil, dt. „un-“), ri- (wieder), pre- (vor), anti- (gegen), inter- (zwischen).
+Alterati: -ino / -etto (klein), -one (groß), -accio (schlecht). Aber: _mattone_ (Ziegel), _burrone_ (Schlucht), _tacchino_ (Truthahn) sind eigene Wörter!
+
+%übung leicht | Nome, aggettivo o avverbio?
+?sortieren | Guarda il suffisso: che tipo di parola è? || Achte auf das Suffix: Welche Wortart ist es?
+Kategorien: a=nome; b=aggettivo; c=avverbio
+informazione > a
+cambiamento > a
+libertà > a
+bellezza > a
+famoso > b
+nazionale > b
+lavabile > b
+regionale > b
+credibile > b
+lentamente > c
+facilmente > c
+veramente > c
+
+%übung leicht | Chi è? Che cos’è?
+?zuordnen | Abbina la parola alla spiegazione. Guarda il suffisso! || Verbinde das Wort mit der Erklärung. Achte auf das Suffix!
+il giornalaio = vende giornali
+la gelateria = il negozio dove si compra il gelato
+il lavoratore = una persona che lavora
+la scrittrice = una donna che scrive libri
+il turista = una persona che viaggia per piacere
+la libreria = il negozio dove si comprano i libri
+il fioraio = vende fiori
+la pizzeria = il locale dove si mangia la pizza
+l’allenatore = prepara una squadra sportiva
+il dentista = cura i denti
+
+%übung leicht | Il prefisso giusto
+?auswahl | Scegli la parola giusta. || Wähle das richtige Wort.
+Il contrario di «possibile» è {impossibile*|inpossibile|dispossibile}.
+Il contrario di «utile» è {inutile*|irutile|sutile}.
+Il contrario di «legale» è {illegale*|inlegale|slegale}.
+Il contrario di «regolare» è {irregolare*|inregolare|disregolare}.
+Il contrario di «fortunato» è {sfortunato*|infortunato|disfortunato}.
+Il contrario di «ordine» è {disordine*|inordine|sordine}.
+«Fare di nuovo» si dice {rifare*|disfare|prefare}.
+Un allarme contro i furti è un allarme {antifurto*|interfurto|prefurto}.
+! in- diventa im- davanti a p / b / m, il- davanti a l, ir- davanti a r. (Infortunato esiste, ma vuol dire «ferito».) || in- wird vor p / b / m zu im-, vor l zu il-, vor r zu ir-. (Infortunato gibt es, es bedeutet aber „verletzt“.)
+
+%übung schwer | Alterato vero o falso?
+?sortieren | Che cosa esprime la parola? Attenzione ai falsi alterati! || Was drückt das Wort aus? Achtung, falsche alterati!
+Kategorien: a=piccolo (diminutivo); b=grande (accrescitivo); c=brutto o cattivo (peggiorativo); d=non è un alterato
+gattino > a
+casetta > a
+fratellino > a
+librone > b
+nasone > b
+tempaccio > c
+parolaccia > c
+giornataccia > c
+mattone > d
+burrone > d
+tacchino > d
+postino > d
+! Il mattone non è un «grande matto», il burrone non è «molto burro», il tacchino non è un «piccolo tacco» e il postino porta la posta. || Der mattone (Ziegel) ist kein „großer Verrückter“, der burrone (Schlucht) nicht „viel Butter“, der tacchino (Truthahn) kein „kleiner Absatz“, und der postino ist der Briefträger.
+
+%übung schwer | Dal verbo e dall’aggettivo al nome
+?tabelle | Forma il nome con il suffisso indicato. Attenzione all’ortografia! || Bilde das Nomen mit dem angegebenen Suffix. Achte auf die Schreibung!
+Spalten: parola di base | suffisso | nome
+informare | -zione | [informazione]
+emigrare | -zione | [emigrazione]
+produrre | -zione | [produzione]
+cambiare | -mento | [cambiamento]
+trasferire | -mento | [trasferimento]
+inquinare | -mento | [inquinamento]
+povero | -tà | [povertà]
+felice | -tà | [felicità]
+sicuro | -ezza | [sicurezza]
+ricco | -ezza | [ricchezza]
+! produrre → produzione (come tradurre → traduzione); ricco → ricchezza (con h, per mantenere il suono k). || produrre → produzione (wie tradurre → traduzione); ricco → ricchezza (mit h, damit der k-Laut bleibt).
+
+%übung schwer | Un Paese, tante regioni
+?luecke | Forma la parola giusta dalla parola tra parentesi (nome, aggettivo o avverbio). || Bilde aus dem Wort in Klammern das passende Wort (Nomen, Adjektiv oder Adverb).
+In Italia la (diverso) [diversità] tra le regioni è una grande (ricco) [ricchezza].
+Ogni regione ha una cucina (tradizione) [tradizionale] e spesso anche un dialetto.
+Negli anni del boom economico l’(emigrare) [emigrazione] dal Sud verso il Nord è stata molto forte:
+molti (lavorare) [lavoratori] hanno lasciato il loro paese per le fabbriche delle grandi città.
+All’inizio il (cambiare) [cambiamento] non era facile
+e per alcuni trovare una casa era quasi (≠ possibile) [impossibile].
+Certi pregiudizi di allora oggi sembrano (≠ credibile) [incredibili].
+(fortunato) [Fortunatamente] oggi i giovani si muovono (libero) [liberamente] in tutto il Paese,
+e chi parte porta con sé la (bello) [bellezza] della propria terra.
+
+@thema verbi-pronominali | Extra · Approfondire | Approfondimento | Farcela, cavarsela, andarsene e altri verbi pronominali | 5
+#lehrplan Jgst. 10 · idiomatische Pronominalverben (farcela, andarsene, cavarsela, prendersela …)
+#regel
+Alcuni verbi hanno uno o due **pronomi fissi** (ci, ne, la, si) e un **significato speciale**:
+| **farcela** | riuscire | _Ce la faccio! · Ce l’ho fatt**a**._ |
+| **andarsene** | andare via | _Me ne vado. · Se n’è andat**o/a**._ |
+| **cavarsela** | riuscire abbastanza bene | _Me la cavo. · Me la sono cavat**a**._ |
+| **prendersela** | offendersi, arrabbiarsi | _Non te la prendere! · Se l’è pres**a**._ |
+| **mettercela tutta** | fare il massimo | _Ce la metto tutta._ |
+| **volerci** | essere necessario | _Ci vuole un’ora. Ci vogliono due ore._ |
+| **metterci** | avere bisogno di tempo (persona) | _Ci metto dieci minuti._ |
+| **tenerci** | considerare importante | _Ci tengo molto._ |
+| **sentirsela** | avere il coraggio | _Non me la sento._ |
+| **smetterla / finirla** | non continuare | _Smettila! Finiscila!_ |
+| **avercela con** | essere arrabbiato con | _Ce l’ho con te._ |
+| **entrarci** | avere a che fare | _Io non c’entro niente._ |
+Al passato prossimo: con **-la** il participio finisce sempre in **-a** (_ce l’ho fatt**a**, me la sono cavat**a**_). **Andarsene** vuole **essere** e il participio concorda con il soggetto (_Luca se n’è andat**o**, Anna se n’è andat**a**_). Anche **volerci** vuole **essere**: _c’è volut**a** un’ora, ci sono volut**e** due ore_.
+#regel-de
+Einige Verben haben **feste Pronomen** und eine **eigene Bedeutung**: farcela (es schaffen), andarsene (weggehen), cavarsela (zurechtkommen), prendersela (etwas übel nehmen), mettercela tutta (sein Bestes geben), volerci (nötig sein: _ci vuole un’ora, ci vogliono due ore_), metterci (brauchen, mit Person: _ci metto dieci minuti_), tenerci (Wert legen auf), sentirsela (sich etwas zutrauen), smetterla / finirla (aufhören), avercela con (sauer sein auf), entrarci (damit zu tun haben).
+Im passato prossimo endet das Partizip bei **-la** immer auf **-a**: _ce l’ho fatta, me la sono cavata, se l’è presa_. **Andarsene** mit essere: _se n’è andato / andata_. Auch **volerci** mit essere: _c’è voluta un’ora, ci sono volute due ore_.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina la frase alla traduzione. || Verbinde den Satz mit der Übersetzung.
+Ce la faccio! = Ich schaffe es!
+Me ne vado. = Ich gehe weg.
+Me la cavo. = Ich komme zurecht.
+Non te la prendere! = Nimm es nicht übel!
+Ce la metto tutta. = Ich gebe mein Bestes.
+Ci vogliono due ore. = Man braucht zwei Stunden.
+Ci tengo molto. = Das ist mir sehr wichtig.
+Non me la sento. = Ich traue es mir nicht zu.
+Smettila! = Hör auf damit!
+Ce l’ha con me. = Er ist sauer auf mich.
+
+%übung leicht | Quale verbo?
+?auswahl | Scegli il verbo che va bene nella situazione. || Wähle das Verb, das zur Situation passt.
+L’esame era difficile, ma alla fine {ce l’ho fatta*|me ne sono andata|me la sono presa}!
+La festa era noiosa, così alle dieci Luca {se n’è andato*|ce l’ha fatta|ci ha tenuto}.
+Non parlo bene il tedesco, ma in vacanza {me la cavo*|me la prendo|ce l’ho}.
+Era solo uno scherzo: perché {te la prendi*|te la cavi|ce la fai}?
+Da casa mia alla stazione {ci vogliono*|ci vuole|ci tengono} venti minuti a piedi.
+Basta, {smettila*|mettila|prenditela} di fare rumore!
+Per questa gara {ce la metto*|ce la faccio|me la sento} tutta.
+Perché non mi saluti? {Ce l’hai*|Te la cavi|Ci tieni} con me?
+
+%übung leicht | Hai capito bene?
+?mc | Sara dice: «Non me la sento di cantare davanti a tutti.» Che cosa vuol dire? || Was bedeutet der Satz?
+* Non ha il coraggio di farlo.
+- Non sente bene la musica.
+- Non ha voglia di ascoltare.
+?mc | Luca dice: «Io non c’entro niente!» Che cosa vuol dire? || Was bedeutet der Satz?
+- Non posso entrare.
+* Non è colpa mia.
+- Non ho capito niente.
+?mc | Giulia dice: «Ci tengo molto alla nostra amicizia.» Che cosa vuol dire? || Was bedeutet der Satz?
+- La tengo segreta.
+- Non mi interessa più.
+* Per me è molto importante.
+?mc | La mamma chiede: «Quanto ci metti a prepararti?» Che cosa vuol dire? || Was bedeutet der Satz?
+* Di quanto tempo hai bisogno?
+- Che vestiti ti metti?
+- Dove metti le tue cose?
+?mc | Il papà dice ai bambini: «Finitela!» Che cosa vuol dire? || Was bedeutet der Satz?
+- Finite i compiti!
+* Smettete subito!
+- Mangiate tutto!
+?auswahl | Ci vuole, ci vogliono o ci metto? || Ci vuole, ci vogliono oder ci metto?
+Per fare un buon ragù {ci vogliono*|ci vuole|ci mette} almeno due ore.
+Per imparare una lingua {ci vuole*|ci vogliono|ci mettono} pazienza.
+Io {ci metto*|ci voglio|ci vuole} dieci minuti per arrivare a scuola.
+! ci vuole + singolare, ci vogliono + plurale (in generale); metterci con una persona: io ci metto … || ci vuole + Singular, ci vogliono + Plural (allgemein); metterci mit Person: io ci metto …
+
+%übung mittel | Le forme del presente
+?tabelle | Completa la tabella al presente. || Ergänze die Tabelle im Präsens.
+Spalten: persona | farcela | andarsene | cavarsela
+io | ce la faccio | [me ne vado] | [me la cavo]
+tu | [ce la fai] | te ne vai | [te la cavi]
+lui / lei | [ce la fa] | [se ne va] | se la cava
+noi | ce la facciamo | [ce ne andiamo] | [ce la caviamo]
+voi | [ce la fate] | [ve ne andate] | ve la cavate
+loro | [ce la fanno] | se ne vanno | [se la cavano]
+
+%übung mittel | Prima della partita
+?luecke | Completa il dialogo con i verbi al presente. || Ergänze den Dialog mit den Verben im Präsens.
+– Sei pronto per la partita? – Sì, oggi (mettercela, io) [ce la metto] tutta!
+– E Davide? Perché non parla con nessuno? – (avercela, lui) [Ce l’ha] con l’allenatore.
+– Ancora? Ma perché (prendersela, lui) [se la prende] sempre?
+– Non lo so. Senti, quanto (volerci) [ci vuole] per arrivare al campo?
+– In bici noi (metterci) [ci mettiamo] un quarto d’ora.
+– Allora (andarsene, noi) [ce ne andiamo/andiamocene] subito, è tardi!
+– Tranquillo. Tu a calcio (cavarsela) [te la cavi] benissimo.
+– Grazie. Sai, a questa partita (tenerci, io) [ci tengo] davvero.
+– Lo so. Vedrai che noi (farcela) [ce la facciamo/ce la faremo]!
+
+%übung mittel | E ieri?
+?ergaenzen | Metti il verbo al passato prossimo. || Setze das Verb ins passato prossimo.
+Oggi ce la faccio. → Anche ieri … | ce l’ho fatta | Anche ieri ce l’ho fatta.
+Marta se ne va presto. → Anche ieri Marta … | se n’è andata presto/se ne è andata presto | Anche ieri Marta se n’è andata presto.
+Me la cavo bene. → Anche all’esame … | me la sono cavata bene | Anche all’esame me la sono cavata bene.
+Luca se la prende. → Anche ieri Luca … | se l’è presa/se la è presa | Anche ieri Luca se l’è presa.
+Ce la mettiamo tutta. → Anche nella partita di ieri … | ce l’abbiamo messa tutta | Anche nella partita di ieri ce l’abbiamo messa tutta.
+I miei amici se ne vanno. → Ieri sera i miei amici … | se ne sono andati | Ieri sera i miei amici se ne sono andati.
+Ci vuole un’ora. → Anche ieri … | c’è voluta un’ora/ci è voluta un’ora | Anche ieri c’è voluta un’ora.
+Ci metto venti minuti. → Anche ieri … | ci ho messo venti minuti/c’ho messo venti minuti | Anche ieri ci ho messo venti minuti.
+Ragazzi, ce la fate? → Ragazzi, ieri …? | ce l’avete fatta | Ragazzi, ieri ce l’avete fatta?
+! Con -la il participio finisce in -a: fatta, cavata, presa, messa. Andarsene e volerci vogliono essere. || Bei -la endet das Partizip auf -a: fatta, cavata, presa, messa. Andarsene und volerci bilden das Perfekt mit essere.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Alla fine ce l’ho [fatto=>fatta]!
+Anna [se ne ha andata=>se n’è andata/se ne è andata] senza salutare.
+Per arrivare a Bari ci [vuole=>vogliono] tre ore.
+Non [la te=>te la] prendere, scherzavo!
+Io ci [voglio=>metto] mezz’ora per fare i compiti.
+Paolo [se l’ha presa=>se l’è presa] per una battuta.
+Ragazzi, [smettetelo=>smettetela] di litigare!
+All’inizio non parlavo bene, ma [mi la=>me la] cavavo.
+! mi, ti, si, ci, vi diventano me, te, se, ce, ve davanti a la e ne. Il pronome fisso è sempre la, mai lo. || mi, ti, si, ci, vi werden vor la und ne zu me, te, se, ce, ve. Das feste Pronomen ist immer la, nie lo.
+
+%übung schwer | Il primo anno a Bologna
+?luecke | Giulia, di Reggio Calabria, racconta. Metti i verbi pronominali nella forma giusta (presente, passato prossimo, imperfetto o infinito). || Giulia aus Reggio Calabria erzählt. Setze die Pronominalverben in die richtige Form (Präsens, passato prossimo, imperfetto oder Infinitiv).
+Quando sono arrivata a Bologna per studiare, non conoscevo nessuno.
+All’inizio pensavo: «Non (farcela) [ce la faccio/ce la farò]!»
+La mia coinquilina Marta, dopo due settimane, (andarsene) [se n’è andata/se ne è andata]: non sopportava il rumore.
+Io invece sono rimasta e (mettercela) [ce l’ho messa] tutta.
+Con la cucina (cavarsela) [me la sono cavata] subito: la nonna mi aveva insegnato tutto.
+Una volta un compagno ha riso del mio accento e io (prendersela) [me la sono presa] molto.
+Poi ho capito che lui non (avercela) [ce l’aveva] con me: voleva solo scherzare.
+Oggi a Bologna sto benissimo. Per tornare a casa in treno (volerci) [ci vogliono] molte ore,
+ma (tenerci, io) [ci tengo] troppo ai miei amici di qui per (andarsene) [andarmene].
+E a giugno ho dato l’ultimo esame dell’anno: anche questa volta (farcela) [ce l’ho fatta]!
+
+%übung schwer | Ce l’ho fatta!
+?ordnen | Metti in ordine: „Ich habe es mir nicht zugetraut, allein wegzufahren.“ || Bringe die Teile in die richtige Reihenfolge.
+Non
+me la
+sono sentita
+di partire da sola.
+?frei | Racconta una situazione difficile (a scuola, nello sport, in viaggio) in cui alla fine ce l’hai fatta. Usa almeno 4 verbi pronominali (farcela, cavarsela, mettercela tutta, prendersela, andarsene, volerci …). || Erzähle von einer schwierigen Situation (Schule, Sport, Reise), die du am Ende gemeistert hast. Verwende mindestens 4 Pronominalverben.
+L’anno scorso ho fatto una gara di nuoto. All’inizio non me la sentivo e volevo andarmene. La mia allenatrice mi ha detto: «Non te la prendere se non vinci, ma metticela tutta!» Ci sono voluti tre mesi di allenamento. Il giorno della gara ce l’ho messa tutta e alla fine ce l’ho fatta: sono arrivata terza. Me la sono cavata bene!
+Zeilen: 6

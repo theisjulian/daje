@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Abitudine (presente) o proprio adesso (stare + gerundio)?",
    "promptHelp": "Gewohnheit oder gerade jetzt?",
-   "explanation": "di solito, ogni giorno → presente; proprio adesso → stare + gerundio.",
-   "explanationHelp": "Gewohnheit → Präsens; gerade jetzt → stare + Gerundium.",
+   "explanation": "di solito, ogni giorno → solo presente; proprio adesso → stare + gerundio (va bene anche il presente: Il gatto dorme).",
+   "explanationHelp": "Gewohnheit → nur Präsens; gerade jetzt → stare + Gerundium (auch das Präsens ist möglich: Il gatto dorme).",
    "type": "gap_choice",
    "text": "Di solito [[g1]] la sera.\nSilenzio! [[g2]] per il test.\nOgni giorno Marco [[g3]] a scuola in bici.\nGuarda! Il gatto [[g4]] sul tavolo.\nIl sabato [[g5]] a calcio.\nNon posso parlare, [[g6]]!\nIn estate [[g7]] al mare.\nAscolta: qualcuno [[g8]] alla porta.",
    "gaps": [
@@ -66,7 +66,8 @@
      "id": "g2",
      "options": [
       "Sto studiando",
-      "Studio"
+      "Sto studiare",
+      "Studiando"
      ],
      "answer": "Sto studiando"
     },
@@ -82,7 +83,8 @@
      "id": "g4",
      "options": [
       "sta dormendo",
-      "dorme"
+      "sta dormire",
+      "dormendo"
      ],
      "answer": "sta dormendo"
     },
@@ -98,7 +100,8 @@
      "id": "g6",
      "options": [
       "sto guidando",
-      "guido"
+      "sto guidare",
+      "guidando"
      ],
      "answer": "sto guidando"
     },
@@ -114,7 +117,8 @@
      "id": "g8",
      "options": [
       "sta suonando",
-      "suona"
+      "sta suonare",
+      "suonando"
      ],
      "answer": "sta suonando"
     }

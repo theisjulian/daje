@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ipotetico-realta-l1",
+ "title": "Se … allora?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il periodo ipotetico della realtà · Se … allora? · livello facile.",
+ "topics": [
+  "Il periodo ipotetico della realtà",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Bedingungssätze: reale Bedingung (se + Indikativ)"
+ },
+ "grammar": {
+  "topic": "ecco3-ipotetico-realta",
+  "topicTitle": "Il periodo ipotetico della realtà",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Con il **periodo ipotetico della realtà** parliamo di una condizione **reale o molto probabile**.\n| frase con **se** | frase principale | esempio |\n| se + **presente** | presente | _Se piove, resto a casa._ |\n| se + **presente** | futuro | _Se piove, resterò a casa._ |\n| se + **presente** | imperativo | _Se piove, prendi l’ombrello!_ |\n| se + **futuro** | futuro | _Se pioverà, resterò a casa._ |\n**Attenzione:** dopo **se** non c’è **mai** il condizionale. Non si dice _se avrei_, _se verrebbe_, ma _se **ho**_, _se **viene**_.\nL’ordine delle due frasi è libero: _Se ho tempo, ti chiamo._ = _Ti chiamo se ho tempo._",
+  "ruleHelp": "**Reale Bedingung** (es ist gut möglich): **se + Präsens** → Präsens, Futur oder Imperativ; **se + Futur** → Futur.\n_Se ho tempo, ti chiamo. · Se pioverà, resteremo a casa. · Se hai fame, mangia qualcosa!_\nAchtung: Nach **se** steht **nie** das Konditional (kein „se avrei“, „se verrebbe“) – auch wenn man im Deutschen oft „wenn ich … würde“ sagt. Die Reihenfolge der Teilsätze ist frei."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’inizio e la fine della frase.",
+   "promptHelp": "Verbinde Satzanfang und Satzende.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Se non capisci una parola,",
+     "right": "chiedi alla tua compagna di banco che cosa significa."
+    },
+    {
+     "id": "p2",
+     "left": "Se perdi l’autobus delle sette,",
+     "right": "arrivi in ritardo a scuola."
+    },
+    {
+     "id": "p3",
+     "left": "Se ti mancano i tuoi genitori,",
+     "right": "fai una videochiamata con loro."
+    },
+    {
+     "id": "p4",
+     "left": "Se domani nevicherà,",
+     "right": "non potremo fare la gita in bicicletta."
+    },
+    {
+     "id": "p5",
+     "left": "Se vuoi conoscere gente nuova,",
+     "right": "iscriviti a una squadra sportiva."
+    },
+    {
+     "id": "p6",
+     "left": "Se hai fame dopo la scuola,",
+     "right": "prendi pure qualcosa dal frigo."
+    },
+    {
+     "id": "p7",
+     "left": "Se sei stanca dopo il viaggio,",
+     "right": "vai a letto presto stasera."
+    },
+    {
+     "id": "p8",
+     "left": "Se il tuo cellulare non funziona all’estero,",
+     "right": "puoi usare il mio."
+    }
+   ]
+  }
+ ]
+}

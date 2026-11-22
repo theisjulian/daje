@@ -44,9 +44,9 @@
     "warm sein",
     "heiß sein"
    ],
-   "definition": "Dire che la temperatura è alta.",
+   "definition": "Esserci una temperatura alta.",
    "example": "In estate fa caldo.",
-   "usage": "Abc"
+   "usage": "unpersönlich: fa caldo"
   },
   {
    "id": "u7-7a-003",
@@ -108,10 +108,10 @@
    "translations": [
     "kühl sein"
    ],
-   "definition": "Dire che la temperatura è bassa ma piacevole.",
+   "definition": "Esserci una temperatura bassa ma piacevole.",
    "example": "La sera fa fresco. Vado dentro.",
    "family": "fresco",
-   "usage": "Abc"
+   "usage": "unpersönlich: fa fresco"
   },
   {
    "id": "u7-7a-008",
@@ -192,7 +192,7 @@
    "translations": [
     "vor etw."
    ],
-   "definition": "Prima di fare un’azione.",
+   "definition": "Espressione: un’azione avviene in anticipo rispetto a un’altra.",
    "example": "Prima di andare a letto Filippo si fa la doccia."
   },
   {
@@ -203,7 +203,7 @@
    ],
    "definition": "Lavarsi sotto l’acqua.",
    "example": "Dopo lo sport mi faccio la doccia.",
-   "usage": "Abc"
+   "usage": "pres. mi faccio, ti fai, si fa, ci facciamo, vi fate, si fanno"
   },
   {
    "id": "u7-7a-016",
@@ -218,7 +218,7 @@
    "acceptedAnswers": [
     "rinfrescarsi"
    ],
-   "usage": "Abc"
+   "usage": "pres. mi rinfresco, ti rinfreschi, si rinfresca, ci rinfreschiamo, vi rinfrescate, si rinfrescano"
   },
   {
    "id": "u7-7a-017",
@@ -285,7 +285,7 @@
     "teuer",
     "auch: liebe/-r (Brief)"
    ],
-   "definition": "Persona amata; oggetto che costa molto.",
+   "definition": "Amato, a cui si vuole bene; che costa molto.",
    "example": "Cara Greta, caro Filippo, …",
    "related": "F cher, chère; L carus"
   },
@@ -410,7 +410,8 @@
    "definition": "Sport con una tavola e un grande aquilone.",
    "example": "Faccio kitesurf in vacanza.",
    "acceptedAnswers": [
-    "il kite"
+    "il kite",
+    "il kitesurf"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -487,7 +488,7 @@
    ],
    "definition": "Provocare dolore.",
    "example": "Sono caduta. Mi fa male il piede.",
-   "usage": "Abc"
+   "usage": "pres. faccio, fai, fa, facciamo, fate, fanno; p.p. fatto"
   },
   {
    "id": "u7-7a-037",
@@ -516,7 +517,7 @@
    ],
    "definition": "Essere disgustoso.",
    "example": "Il caffè non è abbastanza caldo. Così fa schifo!",
-   "usage": "Abc"
+   "usage": "pres. faccio, fai, fa, facciamo, fate, fanno; p.p. fatto"
   },
   {
    "id": "u7-7a-039",
@@ -575,9 +576,10 @@
    "definition": "Mostrare qualcosa.",
    "example": "Leo, fai vedere la cartolina di Anna!",
    "acceptedAnswers": [
-    "far vedere"
+    "far vedere",
+    "fare vedere"
    ],
-   "usage": "Abc"
+   "usage": "pres. faccio, fai, fa, facciamo, fate, fanno; p.p. fatto"
   },
   {
    "id": "u7-7a-043",

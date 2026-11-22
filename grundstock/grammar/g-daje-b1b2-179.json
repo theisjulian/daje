@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa le forme richieste. Persona, modo e tempo sono tra parentesi.",
+   "prompt": "Scrivi le forme richieste. Sono indicati il verbo, il modo e il tempo, la persona.",
    "text": "1. portare — condizionale presente — io → [[g1]]\n2. vendere — congiuntivo imperfetto — tu → [[g2]]\n3. avere — congiuntivo presente — lui/lei → [[g3]]\n4. volere — congiuntivo presente — lui/lei → [[g4]]\n5. potere — congiuntivo presente — io → [[g5]]\n6. preparare — trapassato prossimo — voi → [[g6]]\n7. portare — trapassato prossimo — io → [[g7]]\n8. lavorare — congiuntivo imperfetto — voi → [[g8]]\n9. conservare — congiuntivo presente — noi → [[g9]]\n10. vendere — presente — tu → [[g10]]\n11. ascoltare — condizionale presente — noi → [[g11]]\n12. temere — imperfetto — lui/lei → [[g12]]\n13. lavorare — trapassato prossimo — io → [[g13]]\n14. ricevere — presente — noi → [[g14]]\n15. dire — congiuntivo imperfetto — tu → [[g15]]\n16. volere — condizionale presente — lui/lei → [[g16]]\n17. fare — condizionale presente — tu → [[g17]]\n18. dire — condizionale presente — io → [[g18]]\n19. vendere — congiuntivo presente — loro → [[g19]]\n20. osservare — congiuntivo presente — lui/lei → [[g20]]\n21. lavorare — presente — lui/lei → [[g21]]\n22. partire — imperfetto — lui/lei → [[g22]]\n23. invitare — condizionale presente — voi → [[g23]]\n24. ascoltare — imperfetto — voi → [[g24]]",
    "gaps": [
     {
@@ -194,7 +194,7 @@
      ]
     }
    ],
-   "promptHelp": "Bilde die verlangten Formen. Person, Modus und Zeit stehen in Klammern."
+   "promptHelp": "Bilde die verlangten Formen. Angegeben sind Verb, Modus und Zeit sowie die Person."
   }
  ]
 }

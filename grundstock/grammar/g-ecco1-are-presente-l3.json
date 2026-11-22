@@ -49,8 +49,8 @@
    "id": "q1",
    "prompt": "Abbina la persona e la forma.",
    "promptHelp": "Verbinde Person und Verbform.",
-   "explanation": "cercare → tu cerchi (con h), giocare → gioca; con mangiare e studiare c’è una sola i: mangiamo, studiano.",
-   "explanationHelp": "cercare → tu cerchi (mit h), giocare → gioca; bei mangiare und studiare fällt ein i weg: mangiamo, studiano.",
+   "explanation": "cercare → tu cerchi (con h), giocare → gioca; mangiare → noi mangiamo (una sola i); studiare → loro studiano.",
+   "explanationHelp": "cercare → tu cerchi (mit h), giocare → gioca; mangiare → noi mangiamo (nur ein i); studiare → loro studiano.",
    "type": "matching",
    "pairs": [
     {

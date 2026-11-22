@@ -1,0 +1,154 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-condizionale-ripasso-m1",
+ "title": "Con h o senza i?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il condizionale semplice: ripasso · Con h o senza i? · livello medio.",
+ "topics": [
+  "Il condizionale semplice: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · condizionale presente (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco2-condizionale-ripasso",
+  "topicTitle": "Il condizionale semplice: ripasso",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Il **condizionale** si forma dall’infinito senza **-e**. Attenzione: nei verbi in **-are** la **a** diventa **e**.\n| | lavor**are** | prend**ere** | dorm**ire** |\n| io | lavor**erei** | prend**erei** | dorm**irei** |\n| tu | lavor**eresti** | prend**eresti** | dorm**iresti** |\n| lui / lei / Lei | lavor**erebbe** | prend**erebbe** | dorm**irebbe** |\n| noi | lavor**eremmo** | prend**eremmo** | dorm**iremmo** |\n| voi | lavor**ereste** | prend**ereste** | dorm**ireste** |\n| loro | lavor**erebbero** | prend**erebbero** | dorm**irebbero** |\n**Ortografia:** cercare → cer**ch**erei, pagare → pa**gh**erei · cominciare → comin**c**erei, mangiare → man**g**erei.\n**Irregolari:** essere → **sarei**, avere → **avrei**, andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**, volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**, fare → **farei**, dire → **direi**, stare → **starei**, dare → **darei**.\n**Uso:**\n- desiderio: _**Mi piacerebbe** fare il medico._\n- richiesta gentile: _**Potrebbe** ripetere, per favore?_\n- consiglio: _Al posto tuo **parlerei** con il prof._\n- ipotesi: _**Sarebbe** un lavoro perfetto per te._",
+  "ruleHelp": "Das **Konditional** bildet man vom Infinitiv ohne **-e**; bei Verben auf **-are** wird das **a** zu **e**: _lavorare → lavorerei_. Endungen: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\nSchreibung: _cercherei, pagherei_ (mit h), _comincerei, mangerei_ (ohne i).\nUnregelmäßige Stämme: sar-, avr-, andr-, potr-, dovr-, sapr-, vedr-, vivr-, vorr-, verr-, berr-, rimarr-, terr-, far-, dir-, star-, dar-.\nGebrauch: Wunsch (_mi piacerebbe_ = ich würde gern), höfliche Bitte (_potrebbe …?_), Rat (_al posto tuo …_ = an deiner Stelle würde ich …), Vermutung. Das Deutsche braucht meist „würde“ + Infinitiv, das Italienische nur **eine** Verbform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la tabella con le forme del condizionale.",
+   "promptHelp": "Ergänze die Tabelle mit den Formen des Konditionals.",
+   "explanation": "-care / -gare → -cher- / -gher- · -ciare / -giare → -cer- / -ger- (senza i).",
+   "explanationHelp": "-care / -gare → mit h · -ciare / -giare → ohne i.",
+   "type": "table_fill",
+   "columns": [
+    "infinito",
+    "io",
+    "lui / lei",
+    "noi",
+    "loro"
+   ],
+   "rows": [
+    [
+     "cercare",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "cercherei"
+      ]
+     },
+     "cercherebbe",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "cercheremmo"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "cercherebbero"
+      ]
+     }
+    ],
+    [
+     "pagare",
+     "pagherei",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "pagherebbe"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "pagheremmo"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "pagherebbero"
+      ]
+     }
+    ],
+    [
+     "cominciare",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "comincerei"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "comincerebbe"
+      ]
+     },
+     "cominceremmo",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "comincerebbero"
+      ]
+     }
+    ],
+    [
+     "mangiare",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "mangerei"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "mangerebbe"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "mangeremmo"
+      ]
+     },
+     "mangerebbero"
+    ]
+   ]
+  }
+ ]
+}

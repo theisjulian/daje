@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-buono-l1",
+ "title": "Tanti auguri!",
+ "language": "it",
+ "level": "A2",
+ "description": "Buono e bene · Tanti auguri! · livello facile.",
+ "topics": [
+  "Buono e bene",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · buono vor dem Nomen; Adjektiv und Adverb (buono – bene, cattivo – male)"
+ },
+ "grammar": {
+  "topic": "ecco2-buono",
+  "topicTitle": "Buono e bene",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Buono** davanti a un nome al singolare cambia come **un / uno / una / un’**:\n| un lavoro | un **buon** lavoro |\n| un amico | un **buon** amico |\n| uno studente | un **buono** studente |\n| una scuola | una **buona** scuola |\n| un’amica | una **buon’**amica (anche: una **buona** amica) |\nAl plurale: **buoni** amici, **buone** idee. Dopo il nome o dopo **essere**: sempre _buono, buona, buoni, buone_: _Il caffè è **buono**._\n**Buono** è un **aggettivo** (com’è una cosa o una persona?), **bene** è un **avverbio** (come si fa qualcosa?) e non cambia mai:\n- _Luca è un **buon** cuoco: cucina **bene**._\n- _È un **cattivo** film._ · _Oggi sto **male**._ (cattivo → male)\nAuguri: _**Buon** viaggio! **Buona** fortuna! **Buon** appetito! **Buono** studio! **Buon** lavoro!_",
+  "ruleHelp": "**buono** vor einem Nomen im Singular verhält sich wie **un / uno / una / un’**: _buon lavoro, buon amico, buono studente, buona scuola, buon’amica_ (auch: _buona amica_). Plural: _buoni, buone_. Nach dem Nomen oder nach essere immer die volle Form: _Il caffè è buono._\n**buono** = Adjektiv (wie ist etwas?), **bene** = Adverb (wie tut man etwas?) und unveränderlich. Im Deutschen heißt beides „gut“: _ein guter Koch_ → _un buon cuoco_; _er kocht gut_ → _cucina bene_. Genauso: **cattivo** (schlecht, Adjektiv) – **male** (schlecht, Adverb)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa dici in questa situazione? Abbina.",
+   "promptHelp": "Was sagst du in dieser Situation? Verbinde.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Un amico parte per le vacanze.",
+     "right": "Buon viaggio!"
+    },
+    {
+     "id": "p2",
+     "left": "La famiglia comincia a mangiare.",
+     "right": "Buon appetito!"
+    },
+    {
+     "id": "p3",
+     "left": "Un’amica ha un esame difficile domani.",
+     "right": "Buona fortuna!"
+    },
+    {
+     "id": "p4",
+     "left": "Un compagno va a casa a preparare il test.",
+     "right": "Buono studio!"
+    },
+    {
+     "id": "p5",
+     "left": "Tua madre va in ufficio.",
+     "right": "Buon lavoro!"
+    },
+    {
+     "id": "p6",
+     "left": "Un’amica compie quindici anni.",
+     "right": "Buon compleanno!"
+    },
+    {
+     "id": "p7",
+     "left": "Sono le undici di sera e vai a letto.",
+     "right": "Buonanotte!"
+    },
+    {
+     "id": "p8",
+     "left": "È venerdì pomeriggio e la scuola è finita.",
+     "right": "Buon fine settimana!"
+    }
+   ]
+  }
+ ]
+}

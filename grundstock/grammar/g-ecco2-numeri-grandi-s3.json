@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-numeri-grandi-s3",
+ "title": "Fai i conti",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · Fai i conti · livello difficile.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "| 100 | **cento** | 1.000 | **mille** |\n| 200 | due**cento** | 2.000 | due**mila** |\n| 350 | trecentocinquanta | 10.000 | dieci**mila** |\n| 999 | novecentonovantanove | 100.000 | cento**mila** |\n| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |\n- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.\n- I numeri si scrivono in una sola parola: _millenovecentonovanta_.\n- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.\n- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).\n- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.",
+  "ruleHelp": "**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.\n**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.\nJahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.\nPreise: _tre euro e cinquanta_; **euro** hat keine Pluralform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi, fai il conto e scrivi il risultato in lettere.",
+   "promptHelp": "Lies, rechne und schreibe das Ergebnis in Buchstaben.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Un biglietto per il concerto costa cinquanta euro. Quanto costano quattro biglietti? … euro",
+     "acceptedAnswers": [
+      "duecento"
+     ],
+     "modelAnswer": "duecento euro"
+    },
+    {
+     "id": "s2",
+     "start": "Il paese ha novecento abitanti. Arrivano cento persone nuove. Quanti abitanti ha adesso?",
+     "acceptedAnswers": [
+      "mille"
+     ],
+     "modelAnswer": "mille abitanti"
+    },
+    {
+     "id": "s3",
+     "start": "Il motorino costa mille euro. Marta ha già settecento euro. Quanti euro mancano?",
+     "acceptedAnswers": [
+      "trecento"
+     ],
+     "modelAnswer": "trecento euro"
+    },
+    {
+     "id": "s4",
+     "start": "Lo stadio ha diecimila posti. Oggi ci sono ottomila persone. Quanti posti sono liberi?",
+     "acceptedAnswers": [
+      "duemila"
+     ],
+     "modelAnswer": "duemila posti"
+    },
+    {
+     "id": "s5",
+     "start": "Una città ha cinquecentomila abitanti e un’altra città anche. Quanti abitanti hanno insieme?",
+     "acceptedAnswers": [
+      "un milione"
+     ],
+     "modelAnswer": "un milione di abitanti"
+    },
+    {
+     "id": "s6",
+     "start": "La nonna è nata nel millenovecentocinquanta. In che anno ha compiuto cinquant’anni? Nel …",
+     "acceptedAnswers": [
+      "duemila"
+     ],
+     "modelAnswer": "Nel duemila."
+    },
+    {
+     "id": "s7",
+     "start": "Un telefono costa trecento euro. Quanto costano tre telefoni? … euro",
+     "acceptedAnswers": [
+      "novecento"
+     ],
+     "modelAnswer": "novecento euro"
+    },
+    {
+     "id": "s8",
+     "start": "Il viaggio è lungo milleduecento chilometri. Abbiamo già fatto settecento chilometri. Quanti chilometri mancano?",
+     "acceptedAnswers": [
+      "cinquecento"
+     ],
+     "modelAnswer": "cinquecento chilometri"
+    },
+    {
+     "id": "s9",
+     "start": "Un milione di persone guarda la partita in TV e due milioni la guardano online. Quante persone guardano la partita?",
+     "acceptedAnswers": [
+      "tre milioni"
+     ],
+     "modelAnswer": "tre milioni di persone"
+    }
+   ]
+  }
+ ]
+}

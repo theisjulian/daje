@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-che-s2",
+ "title": "Una mail a casa",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello che e ciò che · Una mail a casa · livello difficile.",
+ "topics": [
+  "Quello che e ciò che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+ },
+ "grammar": {
+  "topic": "ecco2-quello-che",
+  "topicTitle": "Quello che e ciò che",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+  "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la mail con che, quello che o che cosa.",
+   "promptHelp": "Ergänze die Mail mit che, quello che oder che cosa.",
+   "explanation": "che ha sempre un nome davanti (l’albergo che, le foto che, i panini che); quello che no.",
+   "explanationHelp": "che hat immer ein Nomen vor sich (l’albergo che, le foto che, i panini che); quello che nicht.",
+   "type": "gap_fill",
+   "text": "Cari mamma e papà, Roma è fantastica! [[g1]] mi piace di più è il centro storico.\nL’albergo [[g2]] ha scelto la scuola è piccolo, ma pulito.\nLa guida è bravissima: capisco quasi tutto [[g3]] dice.\nIeri abbiamo visto il Colosseo. E [[g4]] ha detto Matteo davanti al Colosseo? «Sembra un film!»\nLe foto [[g5]] ho fatto sono più di duecento!\nNon tutto è perfetto: [[g6]] non mi piace è il traffico.\nAnche i panini [[g7]] vendono vicino ai monumenti sono carissimi.\nStasera possiamo fare [[g8]] vogliamo: la prof ci lascia due ore libere.\nE voi, [[g9]] fate senza di me?\nQuando torno vi racconto tutto [[g10]] ho visto. Un abbraccio, Giulia",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Quello che",
+      "Ciò che"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "quello che",
+      "ciò che"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "che cosa",
+      "cosa",
+      "che"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quello che",
+      "ciò che"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "quello che",
+      "ciò che"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che cosa",
+      "cosa",
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "quello che",
+      "ciò che"
+     ]
+    }
+   ]
+  }
+ ]
+}

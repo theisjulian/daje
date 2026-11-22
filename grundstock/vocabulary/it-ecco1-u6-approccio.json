@@ -77,7 +77,7 @@
    "translations": [
     "jdm stehen (Kleidung)"
    ],
-   "definition": "Dire se un vestito ti sta bene o male.",
+   "definition": "Andare bene o male a una persona (detto di un vestito).",
    "example": "Questo vestito mi sta bene.",
    "related": "L stare",
    "acceptedAnswers": [
@@ -157,7 +157,7 @@
    "translations": [
     "anziehen"
    ],
-   "definition": "Collocare una cosa in un posto.",
+   "definition": "Indossare un vestito.",
    "example": "Che cosa metto oggi?"
   },
   {
@@ -190,7 +190,7 @@
    "acceptedAnswers": [
     "scegliere"
    ],
-   "usage": "Abc; p.p. scelto"
+   "usage": "pres. scelgo, scegli, sceglie, scegliamo, scegliete, scelgono; p.p. scelto"
   },
   {
    "id": "u6-approccio-013",
@@ -475,11 +475,12 @@
    "translations": [
     "die (Sonnen-)Brille"
    ],
-   "definition": "Lenti per proteggere gli occhi dal sole.",
+   "definition": "Lenti per vedere meglio o per proteggere gli occhi dal sole.",
    "example": "Con gli occhiali vedo bene.",
    "family": "l’occhio",
    "acceptedAnswers": [
-    "gli occhiali"
+    "gli occhiali",
+    "gli occhiali da sole"
    ],
    "usage": "pl.",
    "grammar": {

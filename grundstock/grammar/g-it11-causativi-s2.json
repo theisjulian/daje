@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-causativi-s2",
+ "title": "Il sabato di Chiara",
+ "language": "it",
+ "level": "B1",
+ "description": "Fare e lasciare + infinito · Il sabato di Chiara · livello difficile.",
+ "topics": [
+  "Fare e lasciare + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · fare / lasciare + Infinitiv"
+ },
+ "grammar": {
+  "topic": "it11-causativi",
+  "topicTitle": "Fare e lasciare + infinito",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "**fare + infinito** = un’altra persona fa l’azione per me, o io provoco l’azione:\n- _**Faccio riparare** la bici._ · _Questo film mi **fa ridere**._\n- Chi fa l’azione? **a / da** + persona: _Faccio leggere il testo **agli** studenti. Faccio riparare la bici **dal** meccanico._\n**farsi + infinito** (per sé; ausiliare **essere**): _**Mi faccio tagliare** i capelli. Giulia **si è fatta tagliare** i capelli._\n**lasciare + infinito** = permettere, non impedire: _I miei genitori mi **lasciano uscire**. **Lasciami parlare**!_\n**Pronomi:** prima di fare / lasciare, non dopo l’infinito: _**Lo** faccio riparare. **Glielo** faccio vedere._\nCon l’imperativo, attaccati: _**Fammelo** sapere! **Lasciami** dormire!_",
+  "ruleHelp": "Deutsches „**lassen**“ hat zwei Entsprechungen:\n- **fare + Infinitiv** = veranlassen, beauftragen, jemanden zu etwas bringen: _Faccio riparare la bici._ (Ich lasse das Rad reparieren.) _Mi fai ridere._ (Du bringst mich zum Lachen.)\n- **lasciare + Infinitiv** = zulassen, erlauben: _Lasciami dormire!_ (Lass mich schlafen!)\nDer Ausführende steht mit **a** oder **da**: _Faccio riparare la bici dal meccanico._ **farsi + Infinitiv** mit essere: _Mi sono fatto/fatta tagliare i capelli._\nPronomen stehen **vor** fare/lasciare (_glielo faccio vedere_), beim Imperativ angehängt (_fammelo sapere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Chiara racconta il suo sabato. Scrivi i verbi al passato prossimo.",
+   "promptHelp": "Chiara erzählt von ihrem Samstag. Setze die Verben ins passato prossimo.",
+   "explanation": "farsi + infinito → essere (mi sono fatta tagliare); fare / lasciare + infinito → avere. Con lo, la, li, le prima del verbo il participio concorda: le ho fatte vedere.",
+   "explanationHelp": "farsi + Infinitiv → essere; fare / lasciare + Infinitiv → avere. Nach lo, la, li, le wird das Partizip angeglichen: le ho fatte vedere.",
+   "type": "gap_fill",
+   "text": "Sabato mattina sono andata dal parrucchiere e (farsi tagliare) [[g1]] i capelli.\nPoi ho portato il telefono in negozio e l’(fare riparare) [[g2]].\nMio fratello voleva guidare la macchina, ma papà non l’(lasciare guidare) [[g3]].\nA pranzo la nonna ci (fare assaggiare) [[g4]] la sua nuova torta.\nNel pomeriggio Davide (farsi prestare) [[g5]] la mia bici.\nLa sera i miei genitori mi (lasciare uscire) [[g6]] fino a mezzanotte.\nAl cinema il film ci (fare ridere) [[g7]] tantissimo.\nE le foto della serata? Le (fare vedere, io) [[g8]] subito a Sara.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi sono fatta tagliare"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho fatto riparare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha lasciato guidare"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha fatto assaggiare"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si è fatto prestare"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "hanno lasciato uscire"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha fatto ridere"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho fatte vedere"
+     ]
+    }
+   ]
+  }
+ ]
+}

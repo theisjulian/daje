@@ -1,0 +1,192 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-discorso-indiretto-presente-l3",
+ "title": "Chi è «io»?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il discorso indiretto al presente · Chi è «io»? · livello facile.",
+ "topics": [
+  "Il discorso indiretto al presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)"
+ },
+ "grammar": {
+  "topic": "ecco2-discorso-indiretto-presente",
+  "topicTitle": "Il discorso indiretto al presente",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.\n| frase | «Sono stanco.» | Luca **dice che** è stanco. |\n| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |\n| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |\n| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |\n**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:\n- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._\n- _«Non **parlare**!» → Dice **di non parlare**._\n- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._",
+  "ruleHelp": "In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.\nAussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).\nEs ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?\nSara: «Il mio capo è simpatico.»",
+   "promptHelp": "Welcher Satz gibt die Aussage richtig wieder?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sara dice che il suo capo è simpatico."
+    },
+    {
+     "id": "o2",
+     "text": "Sara dice che il mio capo è simpatico."
+    },
+    {
+     "id": "o3",
+     "text": "Sara dice che il tuo capo è simpatico."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?\nGiulia e Anna: «Cerchiamo un lavoro per l’estate.»",
+   "promptHelp": "Welcher Satz gibt die Aussage richtig wieder?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Giulia e Anna dicono che cercano un lavoro per l’estate."
+    },
+    {
+     "id": "o2",
+     "text": "Giulia e Anna dicono che cerchiamo un lavoro per l’estate."
+    },
+    {
+     "id": "o3",
+     "text": "Giulia e Anna dicono che cercate un lavoro per l’estate."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?\nPaolo mi chiede: «Hai tempo?»",
+   "promptHelp": "Welcher Satz gibt die Frage richtig wieder?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Paolo mi chiede se ho tempo."
+    },
+    {
+     "id": "o2",
+     "text": "Paolo mi chiede se hai tempo."
+    },
+    {
+     "id": "o3",
+     "text": "Paolo mi chiede che ho tempo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?\nChiara: «Mi piace il mio lavoro.»",
+   "promptHelp": "Welcher Satz gibt die Aussage richtig wieder?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Chiara dice che le piace il suo lavoro."
+    },
+    {
+     "id": "o2",
+     "text": "Chiara dice che mi piace il suo lavoro."
+    },
+    {
+     "id": "o3",
+     "text": "Chiara dice che le piace il mio lavoro."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?\nDavide mi chiede: «Dove lavora tua madre?»",
+   "promptHelp": "Welcher Satz gibt die Frage richtig wieder?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Davide mi chiede dove lavora mia madre."
+    },
+    {
+     "id": "o2",
+     "text": "Davide mi chiede dove lavora tua madre."
+    },
+    {
+     "id": "o3",
+     "text": "Davide mi chiede se lavora mia madre."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Cambia la persona: io → lui / lei, noi → loro. Imperativo → di + infinito.",
+   "explanationHelp": "Die Person ändert sich: io → lui / lei, noi → loro. Imperativ → di + Infinitiv.",
+   "type": "gap_choice",
+   "text": "Luca: «Oggi ho un colloquio.» → Luca dice che oggi [[g1]] un colloquio.\nLa mamma mi dice: «Apri la finestra!» → La mamma mi dice [[g2]] la finestra.\nI nonni al telefono: «Qui stiamo bene.» → I nonni dicono che lì [[g3]] bene.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha",
+      "ho",
+      "hai"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "di aprire",
+      "che apri",
+      "di apri"
+     ],
+     "answer": "di aprire"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "stanno",
+      "stiamo",
+      "state"
+     ],
+     "answer": "stanno"
+    }
+   ]
+  }
+ ]
+}

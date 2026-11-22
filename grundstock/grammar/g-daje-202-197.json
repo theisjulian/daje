@@ -89,17 +89,18 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "le tue pause"
+      "le tue pause",
+      "le tue idee"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "le tue idee"
+      "le tue idee",
+      "le tue pause"
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

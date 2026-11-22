@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-l2",
+ "title": "Che cos’è? Chi è?",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Che cos’è? Chi è? · livello facile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la definizione alla parola.",
+   "promptHelp": "Verbinde die Erklärung mit dem passenden Wort.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "un luogo in cui si guardano i film",
+     "right": "il cinema"
+    },
+    {
+     "id": "p2",
+     "left": "una persona che dipinge quadri",
+     "right": "la pittrice"
+    },
+    {
+     "id": "p3",
+     "left": "lo strumento con cui si scattano le foto",
+     "right": "la macchina fotografica"
+    },
+    {
+     "id": "p4",
+     "left": "un negozio dove si comprano i libri",
+     "right": "la libreria"
+    },
+    {
+     "id": "p5",
+     "left": "una persona che scrive canzoni e le canta",
+     "right": "il cantautore"
+    },
+    {
+     "id": "p6",
+     "left": "un luogo in cui si vedono quadri e sculture",
+     "right": "il museo"
+    },
+    {
+     "id": "p7",
+     "left": "un edificio dove si prendono in prestito i libri",
+     "right": "la biblioteca"
+    },
+    {
+     "id": "p8",
+     "left": "un grande disegno che copre un muro",
+     "right": "il murale"
+    },
+    {
+     "id": "p9",
+     "left": "il mezzo con cui si viaggia sotto la città",
+     "right": "la metropolitana"
+    },
+    {
+     "id": "p10",
+     "left": "chi progetta case e palazzi",
+     "right": "l’architetto"
+    }
+   ]
+  }
+ ]
+}

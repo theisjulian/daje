@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-narrazione-l2",
+ "title": "Il mio primo giorno a Cork",
+ "language": "it",
+ "level": "B1",
+ "description": "Raccontare esperienze interculturali · Il mio primo giorno a Cork · livello facile.",
+ "topics": [
+  "Raccontare esperienze interculturali",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Erlebnisse erzählen: Erzähltempora und Konnektoren"
+ },
+ "grammar": {
+  "topic": "ecco3-narrazione",
+  "topicTitle": "Raccontare esperienze interculturali",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Per **raccontare** un’esperienza usiamo tre tempi:\n| **imperfetto** | descrizione, abitudine, azione in corso | _Ogni mattina **prendevo** l’autobus. **Faceva** freddo._ |\n| **passato prossimo** | fatto unico e finito | _Il primo giorno **ho conosciuto** la mia classe._ |\n| **trapassato prossimo** | fatto successo prima | _Prima di partire **avevo studiato** l’italiano._ |\nI **connettivi** mettono in ordine il racconto:\n| **all’inizio** → **poi** → **dopo un po’** → **a un certo punto** → **alla fine** | l’ordine nel tempo |\n| **mentre** + imperfetto | due azioni insieme: _**Mentre** aspettavo, è arrivata Sara._ |\n| **siccome** (all’inizio della frase) | la causa: _**Siccome** pioveva, sono rimasto a casa._ |\n| **quindi** | la conseguenza: _Pioveva, **quindi** sono rimasto a casa._ |\n| **però** | il contrasto: _Ero stanco, **però** felice._ |\n| **infatti** | conferma, esempio: _Era bravo: **infatti** ha vinto._ |",
+  "ruleHelp": "Beim **Erzählen**: **imperfetto** für Beschreibung, Gewohnheit, Hintergrund; **passato prossimo** für einmalige, abgeschlossene Ereignisse; **trapassato prossimo** für das, was vorher schon geschehen war.\n**Konnektoren**: all’inizio (am Anfang), poi (dann), dopo un po’ (nach einer Weile), a un certo punto (irgendwann), alla fine (am Ende), mentre (während), siccome (da/weil – am Satzanfang), quindi (deshalb), però (aber), infatti (tatsächlich, nämlich)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Lena racconta il primo giorno nella scuola irlandese. Scegli la parola giusta.",
+   "promptHelp": "Lena erzählt vom ersten Tag an der irischen Schule. Wähle das passende Wort.",
+   "explanation": "siccome = causa (inizio della frase) · quindi = conseguenza · però = contrasto · infatti = conferma · mentre = due azioni insieme.",
+   "explanationHelp": "siccome = Grund (am Satzanfang) · quindi = Folge · però = Gegensatz · infatti = Bestätigung · mentre = gleichzeitig.",
+   "type": "gap_choice",
+   "text": "[[g1]] non capivo quasi niente: tutti parlavano troppo in fretta.\n[[g2]] non conoscevo nessuno, a pranzo mi sono seduta da sola.\n[[g3]] mangiavo il mio panino, una ragazza si è avvicinata.\nSi chiamava Aoife e mi ha chiesto da dove venivo. [[g4]] mi ha presentato i suoi amici.\nErano simpatici, [[g5]] parlavano velocissimo.\nIo non capivo le loro battute, [[g6]] sorridevo e basta.\n[[g7]] uno di loro ha detto qualcosa in tedesco: aveva una nonna di Amburgo!\nAbbiamo riso tutti, e [[g8]] non avevo più paura di parlare.\nAoife è diventata davvero una buona amica: [[g9]] ci scriviamo ancora ogni settimana.\n[[g10]] quel primo giorno è stato molto più bello del previsto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "All’inizio",
+      "Infatti",
+      "Quindi"
+     ],
+     "answer": "All’inizio"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Siccome",
+      "Però",
+      "Quindi"
+     ],
+     "answer": "Siccome"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Mentre",
+      "Quindi",
+      "Alla fine"
+     ],
+     "answer": "Mentre"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Poi",
+      "Siccome",
+      "Mentre"
+     ],
+     "answer": "Poi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "però",
+      "siccome",
+      "quindi"
+     ],
+     "answer": "però"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "quindi",
+      "siccome",
+      "mentre"
+     ],
+     "answer": "quindi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "A un certo punto",
+      "Siccome",
+      "Mentre"
+     ],
+     "answer": "A un certo punto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "dopo un po’",
+      "siccome",
+      "all’inizio"
+     ],
+     "answer": "dopo un po’"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "infatti",
+      "però",
+      "siccome"
+     ],
+     "answer": "infatti"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "Alla fine",
+      "Mentre",
+      "Siccome"
+     ],
+     "answer": "Alla fine"
+    }
+   ]
+  }
+ ]
+}

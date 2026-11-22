@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-condizionale-ripasso-l2",
+ "title": "Desiderio, richiesta o consiglio?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il condizionale semplice: ripasso · Desiderio, richiesta o consiglio? · livello facile.",
+ "topics": [
+  "Il condizionale semplice: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · condizionale presente (Formen und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco2-condizionale-ripasso",
+  "topicTitle": "Il condizionale semplice: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il **condizionale** si forma dall’infinito senza **-e**. Attenzione: nei verbi in **-are** la **a** diventa **e**.\n| | lavor**are** | prend**ere** | dorm**ire** |\n| io | lavor**erei** | prend**erei** | dorm**irei** |\n| tu | lavor**eresti** | prend**eresti** | dorm**iresti** |\n| lui / lei / Lei | lavor**erebbe** | prend**erebbe** | dorm**irebbe** |\n| noi | lavor**eremmo** | prend**eremmo** | dorm**iremmo** |\n| voi | lavor**ereste** | prend**ereste** | dorm**ireste** |\n| loro | lavor**erebbero** | prend**erebbero** | dorm**irebbero** |\n**Ortografia:** cercare → cer**ch**erei, pagare → pa**gh**erei · cominciare → comin**c**erei, mangiare → man**g**erei.\n**Irregolari:** essere → **sarei**, avere → **avrei**, andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**, volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**, fare → **farei**, dire → **direi**, stare → **starei**, dare → **darei**.\n**Uso:**\n- desiderio: _**Mi piacerebbe** fare il medico._\n- richiesta gentile: _**Potrebbe** ripetere, per favore?_\n- consiglio: _Al posto tuo **parlerei** con il prof._\n- ipotesi: _**Sarebbe** un lavoro perfetto per te._",
+  "ruleHelp": "Das **Konditional** bildet man vom Infinitiv ohne **-e**; bei Verben auf **-are** wird das **a** zu **e**: _lavorare → lavorerei_. Endungen: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\nSchreibung: _cercherei, pagherei_ (mit h), _comincerei, mangerei_ (ohne i).\nUnregelmäßige Stämme: sar-, avr-, andr-, potr-, dovr-, sapr-, vedr-, vivr-, vorr-, verr-, berr-, rimarr-, terr-, far-, dir-, star-, dar-.\nGebrauch: Wunsch (_mi piacerebbe_ = ich würde gern), höfliche Bitte (_potrebbe …?_), Rat (_al posto tuo …_ = an deiner Stelle würde ich …), Vermutung. Das Deutsche braucht meist „würde“ + Infinitiv, das Italienische nur **eine** Verbform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "A che cosa serve il condizionale in queste frasi?",
+   "promptHelp": "Wozu dient das Konditional in diesen Sätzen?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "d",
+     "label": "desiderio (Wunsch)"
+    },
+    {
+     "id": "r",
+     "label": "richiesta gentile (höfliche Bitte)"
+    },
+    {
+     "id": "c",
+     "label": "consiglio (Rat)"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Mi piacerebbe fare il medico.",
+     "category": "d"
+    },
+    {
+     "id": "i2",
+     "text": "Vorrei lavorare all’estero.",
+     "category": "d"
+    },
+    {
+     "id": "i3",
+     "text": "Vivrei volentieri in una grande città.",
+     "category": "d"
+    },
+    {
+     "id": "i4",
+     "text": "Potrebbe ripetere, per favore?",
+     "category": "r"
+    },
+    {
+     "id": "i5",
+     "text": "Mi daresti una mano con il curriculum?",
+     "category": "r"
+    },
+    {
+     "id": "i6",
+     "text": "Scusi, mi direbbe dov’è l’ufficio?",
+     "category": "r"
+    },
+    {
+     "id": "i7",
+     "text": "Potresti chiudere la finestra?",
+     "category": "r"
+    },
+    {
+     "id": "i8",
+     "text": "Dovresti dormire di più.",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "Al posto tuo parlerei con il prof.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "Faresti bene a studiare l’inglese.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

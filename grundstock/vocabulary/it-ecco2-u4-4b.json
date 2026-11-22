@@ -80,7 +80,7 @@
    ],
    "definition": "Usare il tu o il Lei parlando.",
    "example": "Ci diamo del tu.",
-   "usage": "Abc"
+   "usage": "ci diamo del tu"
   },
   {
    "id": "u4-4b-006",
@@ -144,7 +144,8 @@
    "example": "La guida racconta la storia della città.",
    "related": "E guide",
    "acceptedAnswers": [
-    "la guida"
+    "la guida",
+    "la guida turistica"
    ],
    "usage": "f.",
    "grammar": {
@@ -298,7 +299,7 @@
    ],
    "definition": "Conversazione fatta per raccogliere informazioni.",
    "example": "Il giornalista fa un’intervista al cantante.",
-   "related": "E the interview; F le interview"
+   "related": "E interview; F l’interview"
   },
   {
    "id": "u4-4b-022",
@@ -378,7 +379,7 @@
     "überall"
    ],
    "definition": "In qualunque luogo.",
-   "example": "Dovunque vada, trovo amici."
+   "example": "Ho amici dovunque."
   },
   {
    "id": "u4-4b-027",

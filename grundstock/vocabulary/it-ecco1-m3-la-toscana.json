@@ -36,7 +36,7 @@
     "fakultativ"
    ],
    "definition": "Espressione che introduce un caso concreto.",
-   "example": "Mi piacciono i frutti, per esempio le mele.",
+   "example": "Mi piace la frutta, per esempio le mele.",
    "related": "E for example; F par exemple"
   },
   {
@@ -127,7 +127,7 @@
    "tags": [
     "fakultativ"
    ],
-   "definition": "Non vincere; non trovare più.",
+   "definition": "Non riuscire a prendere un treno o un autobus; non trovare più; non vincere.",
    "example": "Oggi Laura ha perso il treno.",
    "usage": "p.p. perso"
   },
@@ -153,7 +153,7 @@
    "tags": [
     "fakultativ"
    ],
-   "definition": "In nessun momento.",
+   "definition": "Almeno una volta, in qualche momento (nelle domande).",
    "example": "Voi siete mai andati a un concerto di Liga?"
   },
   {
@@ -272,7 +272,7 @@
     "fakultativ"
    ],
    "definition": "Parola che conferma quello che si è detto.",
-   "example": "Marco è già tornato. Infatti lo vedo oggi."
+   "example": "Marco è già tornato: infatti l’ho visto ieri."
   },
   {
    "id": "m3-la-toscana-015",
@@ -310,7 +310,7 @@
    "acceptedAnswers": [
     "pagare"
    ],
-   "usage": "Abc"
+   "usage": "pres. pago, paghi, paga, paghiamo, pagate, pagano"
   },
   {
    "id": "m3-la-toscana-017",
@@ -368,7 +368,7 @@
    "acceptedAnswers": [
     "prendere in giro"
    ],
-   "usage": "Abc"
+   "usage": "p.p. preso in giro"
   },
   {
    "id": "m3-la-toscana-020",

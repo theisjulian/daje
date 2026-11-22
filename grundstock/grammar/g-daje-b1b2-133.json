@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "categorize",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.",
    "categories": [
     {
      "id": "c1",
@@ -89,7 +89,7 @@
     },
     {
      "id": "i6",
-     "text": "«parlò» — parlare, passato remoto",
+     "text": "«parlò» — parlare",
      "category": "c1"
     },
     {

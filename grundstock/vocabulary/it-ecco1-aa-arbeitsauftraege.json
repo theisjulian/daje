@@ -33,7 +33,8 @@
    ],
    "definition": "Consegna di un esercizio: collega le parole alle immagini.",
    "acceptedAnswers": [
-    "Abbina alle vignette."
+    "Abbina le frasi alle vignette.",
+    "Abbina le parole alle vignette."
    ]
   },
   {
@@ -84,7 +85,9 @@
    ],
    "definition": "Consegna: fai una domanda a un compagno.",
    "acceptedAnswers": [
-    "Chiedi."
+    "Chiedi.",
+    "Chiedi al tuo compagno.",
+    "Chiedi alla tua compagna."
    ]
   },
   {
@@ -119,7 +122,8 @@
    ],
    "definition": "Consegna: riscrivi la lista sul quaderno.",
    "acceptedAnswers": [
-    "Copia nel tuo quaderno."
+    "Copia nel tuo quaderno.",
+    "Copia la lista nel tuo quaderno."
    ]
   },
   {
@@ -138,7 +142,8 @@
    ],
    "definition": "Consegna: inventate e scrivete un dialogo.",
    "acceptedAnswers": [
-    "Create."
+    "Create.",
+    "Create un dialogo."
    ]
   },
   {
@@ -157,7 +162,8 @@
    ],
    "definition": "Consegna: spiega come sono diverse.",
    "acceptedAnswers": [
-    "Descrivi."
+    "Descrivi.",
+    "Descrivi la differenza tra … e …."
    ]
   },
   {
@@ -198,7 +204,7 @@
    "translations": [
     "Gib die Zeile an."
    ],
-   "definition": "Consegna: dì in quale riga si trova."
+   "definition": "Consegna: di’ in quale riga si trova."
   },
   {
    "id": "aa-arbeitsauftraege-021",
@@ -216,7 +222,8 @@
    ],
    "definition": "Consegna: cambia la forma dei verbi.",
    "acceptedAnswers": [
-    "Metti i verbi."
+    "Metti i verbi al singolare.",
+    "Metti i verbi al passato prossimo."
    ]
   },
   {
@@ -236,7 +243,8 @@
    ],
    "definition": "Consegna: metti in sequenza corretta.",
    "acceptedAnswers": [
-    "Metti nell’ordine giusto."
+    "Metti nell’ordine giusto.",
+    "Metti le frasi nell’ordine giusto."
    ]
   },
   {
@@ -270,7 +278,7 @@
     "Wiederhole.",
     "Sprich nach."
    ],
-   "definition": "Consegna: dì di nuovo."
+   "definition": "Consegna: di’ di nuovo."
   },
   {
    "id": "aa-arbeitsauftraege-029",

@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "open_answer",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.\n1. «legno» — materiale ricavato dagli alberi\n2. «cartone» — materiale spesso fatto di carta\n3. «metallo» — materiale come ferro o alluminio\n4. «stoffa» — materiale tessile\n5. «vetro» — materiale trasparente e fragile",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.\n1. «legno» — materiale ricavato dagli alberi\n2. «cartone» — materiale spesso fatto di carta\n3. «metallo» — materiale come ferro o alluminio\n4. «stoffa» — materiale tessile\n5. «vetro» — materiale trasparente e fragile",
    "modelAnswer": "1. nome di materiale\n2. nome di materiale\n3. nome di materiale\n4. nome di materiale\n5. nome di materiale",
    "lines": 6,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."

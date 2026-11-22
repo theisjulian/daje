@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-s2",
+ "title": "Il diario di Chiara",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Il diario di Chiara · livello difficile.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il pronome (l’, li, le, ne) e con il participio del verbo tra parentesi.",
+   "promptHelp": "Ergänze das Pronomen (l’, li, le, ne) und das Partizip des Verbs in Klammern.",
+   "explanation": "ne + quantità: il participio concorda con la cosa (cartoline → scritte, supplì → mangiati).",
+   "explanationHelp": "ne + Menge: Das Partizip richtet sich nach der Sache (cartoline → scritte, supplì → mangiati).",
+   "type": "gap_fill",
+   "text": "Lunedì abbiamo visitato i Fori Imperiali: [[g1]] abbiamo (vedere) [[g2]] con una guida.\nLa guida era bravissima: [[g3]]abbiamo (ascoltare) [[g4]] per due ore.\nPoi ho comprato dieci cartoline e [[g5]] ho già (scrivere) [[g6]] quattro.\nLe altre sei? Non [[g7]] ho ancora (scrivere) [[g8]].\nA pranzo ho preso un supplì. Buonissimo! Matteo [[g9]] ha (mangiare) [[g10]] tre.\nLa sera ho cercato la mia sciarpa, ma non [[g11]]ho (trovare) [[g12]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "visti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "l’"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ascoltata"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "scritte"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "scritte"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "mangiati"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "l’"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "trovata"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,588 @@
+#!buch series=Corso_daje volume=3 grade=10 cefr=B1 prefix=ecco3
+## Terzo anno · Lektion 3 · Società e solidarietà. Eigene Übungen.
+
+@thema condizionale-composto | 3 · Società e solidarietà | Parte A | Il condizionale composto | 1
+#lehrplan Jgst. 10 · condizionale composto (Bildung und Gebrauch)
+#regel
+Il **condizionale composto** si forma con il condizionale presente di **avere** o **essere** + **participio passato**. Con essere il participio **concorda** con il soggetto.
+| persona | avere | essere |
+| io | **avrei** parlato | **sarei** andato/-a |
+| tu | **avresti** parlato | **saresti** andato/-a |
+| lui / lei | **avrebbe** parlato | **sarebbe** andato/-a |
+| noi | **avremmo** parlato | **saremmo** andati/-e |
+| voi | **avreste** parlato | **sareste** andati/-e |
+| loro | **avrebbero** parlato | **sarebbero** andati/-e |
+Lo usiamo per:
+- un **desiderio non realizzato** nel passato: _**Avrei voluto** aiutare, ma ero malato._
+- un **rimprovero** o un consiglio in ritardo: _**Avresti dovuto** dirmelo!_
+- un’azione che **non è successa**: _**Sarei venuta**, ma ho perso il treno._
+- il **futuro nel passato**: _Ha detto che **sarebbe venuto**._
+#regel-de
+Das **condizionale composto** = Konditional von **avere/essere** + Partizip (bei essere wird das Partizip angeglichen): _avrei parlato_ (ich hätte gesprochen), _sarei andata_ (ich wäre gegangen).
+Gebrauch: unerfüllter Wunsch (_Avrei voluto …_ – Ich hätte gern …), Vorwurf (_Avresti dovuto dirmelo!_ – Du hättest es mir sagen sollen!), nicht eingetretene Handlung (_Sarei venuto, ma …_).
+**Achtung, anders als im Deutschen:** Die Zukunft aus Sicht der Vergangenheit steht im condizionale **composto**: _Ha detto che **sarebbe venuto**._ (Er hat gesagt, dass er kommen **würde**.)
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Avrei voluto aiutarti. = Ich hätte dir gern geholfen.
+Avresti dovuto dirmelo. = Du hättest es mir sagen sollen.
+Sarei venuta volentieri. = Ich wäre gern gekommen.
+Avremmo potuto fare di più. = Wir hätten mehr tun können.
+Sarebbe stato meglio aspettare. = Es wäre besser gewesen zu warten.
+Ha detto che avrebbe chiamato. = Er hat gesagt, dass er anrufen würde.
+Al tuo posto sarei rimasto a casa. = An deiner Stelle wäre ich zu Hause geblieben.
+Avreste dovuto partire prima. = Ihr hättet früher losfahren sollen.
+
+%übung leicht | Avere o essere?
+?auswahl | Una giornata di volontariato: scegli l’ausiliare giusto. || Ein Tag im Ehrenamt: Wähle das richtige Hilfsverb.
+Io {avrei*|sarei} partecipato volentieri alla raccolta di vestiti, ma avevo la febbre.
+Giulia {sarebbe*|avrebbe} venuta con noi, ma doveva studiare.
+Noi {avremmo*|saremmo} preparato più panini, ma il pane era finito.
+I ragazzi {sarebbero*|avrebbero} arrivati prima, ma l’autobus era in ritardo.
+Tu {avresti*|saresti} dovuto avvisare il gruppo.
+Voi {sareste*|avreste} rimasti ancora un’ora?
+Matteo {avrebbe*|sarebbe} portato anche le coperte, ma le ha dimenticate a casa.
+Sara e Chiara {sarebbero*|avrebbero} andate al centro anziani, ma era chiuso.
+! L’ausiliare è lo stesso del passato prossimo: ho partecipato → avrei partecipato; sono venuta → sarei venuta. || Das Hilfsverb ist dasselbe wie im passato prossimo.
+
+%übung leicht | Desiderio, rimprovero o futuro nel passato?
+?sortieren | Che cosa esprime il condizionale composto? || Was drückt das condizionale composto aus?
+Kategorien: a=desiderio non realizzato; b=rimprovero; c=futuro nel passato
+Avrei voluto fare il volontario in estate, ma ero troppo giovane. > a
+Mi sarebbe piaciuto partecipare al progetto. > a
+Avremmo voluto aiutare di più. > a
+Avresti dovuto avvisarmi prima! > b
+Avreste potuto almeno chiedere scusa! > b
+Non avresti dovuto buttare la plastica nel bosco! > b
+Luca ha promesso che sarebbe venuto alle otto. > c
+La prof ha detto che avremmo visitato un centro di accoglienza. > c
+Sapevo che avresti detto di sì. > c
+
+%übung mittel | Le forme
+?tabelle | Completa la tabella con il condizionale composto. || Ergänze die Tabelle mit dem condizionale composto.
+Spalten: persona | aiutare | partire
+io | [avrei aiutato] | [sarei partito/sarei partita]
+tu | avresti aiutato | [saresti partito/saresti partita]
+lui | [avrebbe aiutato] | sarebbe partito
+lei | avrebbe aiutato | [sarebbe partita]
+noi | [avremmo aiutato] | [saremmo partiti/saremmo partite]
+voi | [avreste aiutato] | sareste partiti/-e
+loro | [avrebbero aiutato] | [sarebbero partiti/sarebbero partite]
+
+%übung mittel | Dopo la festa del quartiere
+?luecke | Sara e Davide parlano della festa. Scrivi i verbi al condizionale composto. || Sara und Davide sprechen über das Fest. Setze die Verben ins condizionale composto.
+– Sara: Ieri alla festa del quartiere mancavi solo tu!
+– Davide: Lo so. (venire, io) [Sarei venuto] volentieri, ma dovevo aiutare mio padre.
+– Sara: Peccato! Ti (piacere) [sarebbe piaciuta] la musica.
+– Davide: E i dolci? Io (assaggiare) [avrei assaggiato] tutte le torte!
+– Sara: Anche Chiara e Marta (venire) [sarebbero venute], ma avevano una partita.
+– Davide: Voi (dovere) [avreste dovuto] fare la festa di domenica!
+– Sara: Hai ragione, di domenica (noi, raccogliere) [avremmo raccolto] più soldi per la mensa.
+– Davide: Al tuo posto (io, chiedere) [avrei chiesto] aiuto anche ai genitori.
+– Sara: Matteo ha scritto che (portare, lui) [avrebbe portato] le foto in classe.
+– Davide: Sì, e la prof ha promesso che (appendere, lei) [avrebbe appeso] le più belle nel corridoio.
+! Con essere il participio concorda: la musica → sarebbe piaciuta; Chiara e Marta → sarebbero venute. || Bei essere wird das Partizip angeglichen.
+
+%übung mittel | Troppo tardi!
+?ergaenzen | Che cosa avrebbero dovuto fare? Scrivi un rimprovero con il condizionale composto di dovere. || Was hätten sie tun sollen? Schreibe einen Vorwurf mit dem condizionale composto von dovere.
+Luca non ha studiato. → Luca … | avrebbe dovuto studiare | Luca avrebbe dovuto studiare.
+Non avete chiesto aiuto. → … | Avreste dovuto chiedere aiuto | Avreste dovuto chiedere aiuto.
+Non ho portato i guanti. → … | Avrei dovuto portare i guanti | Avrei dovuto portare i guanti.
+I ragazzi non hanno letto le istruzioni. → I ragazzi … | avrebbero dovuto leggere le istruzioni | I ragazzi avrebbero dovuto leggere le istruzioni.
+Non hai detto la verità. → … | Avresti dovuto dire la verità | Avresti dovuto dire la verità.
+Giulia non ha chiuso il rubinetto. → Giulia … | avrebbe dovuto chiudere il rubinetto | Giulia avrebbe dovuto chiudere il rubinetto.
+Non abbiamo separato i rifiuti. → … | Avremmo dovuto separare i rifiuti | Avremmo dovuto separare i rifiuti.
+Non hai spento la luce. → … | Avresti dovuto spegnere la luce | Avresti dovuto spegnere la luce.
+! avrei dovuto + infinito = ich hätte … sollen. || avrei dovuto + Infinitiv = ich hätte … sollen.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Paolo dice: «Ieri [verrei=>sarei venuto] volentieri, ma avevo un impegno.»
+Anna [avrebbe=>sarebbe] venuta alla riunione, ma era malata.
+Le ragazze sarebbero [arrivato=>arrivate] in tempo, ma hanno perso il treno.
+Marco ha detto che [verrebbe=>sarebbe venuto] alle cinque, ma non è mai arrivato.
+Avresti [dovere=>dovuto] dirmelo prima!
+Noi [saremmo=>avremmo] voluto aiutare, ma non sapevamo come.
+Mi [avrebbe=>sarebbe] piaciuto lavorare con i bambini.
+Sapevo che voi [avrete=>avreste] vinto il premio.
+! Passato → condizionale composto. Dopo «ha detto che», «sapevo che» il futuro nel passato è sempre composto. || Vergangenheit → condizionale composto. Nach „ha detto che“, „sapevo che“ steht für Zukünftiges immer das composto.
+
+%übung schwer | Una mail a Marta
+?luecke | Condizionale presente o composto? Completa la mail di Elena. || Condizionale presente oder composto? Ergänze Elenas Mail.
+Cara Marta, ti scrivo dopo la giornata ecologica della scuola.
+Sabato mattina (volere, io) [avrei voluto] dormire fino a tardi, e invece alle otto ero già al parco!
+All’inizio pensavo che (essere) [sarebbe stata] una giornata noiosa.
+Il prof aveva detto che (venire) [sarebbero venute] venti persone: ne sono arrivate cinquanta!
+Con più sacchi (noi, raccogliere) [avremmo raccolto] ancora più rifiuti.
+Senza la pioggia del pomeriggio io e le mie amiche (rimanere) [saremmo rimaste] fino a sera.
+Tu (divertirsi) [ti saresti divertita] un sacco.
+Adesso (volere, io) [vorrei] organizzare un’altra giornata a maggio.
+La prossima volta (dovere, noi) [dovremmo] invitare anche i vicini.
+(venire, tu) [Verresti] con me?
+Un abbraccio, Elena
+! Passato (sabato, all’inizio) → condizionale composto; presente e futuro (adesso, la prossima volta) → condizionale presente. || Vergangenheit → composto; Gegenwart und Zukunft → presente.
+
+%übung schwer | Con il senno di poi
+?frei | Pensa all’anno scorso: che cosa avresti voluto fare? Che cosa avresti dovuto fare in modo diverso? Scrivi 5 frasi con il condizionale composto. || Denk an das letzte Jahr: Was hättest du gern getan? Was hättest du anders machen sollen? Schreibe 5 Sätze im condizionale composto.
+L’anno scorso avrei voluto fare uno scambio con una scuola italiana. Avrei dovuto studiare di più per la verifica di matematica. Mi sarebbe piaciuto partecipare al progetto sull’ambiente. Sarei andata volentieri al concerto, ma non avevo il biglietto. Avrei potuto aiutare di più i miei genitori.
+Zeilen: 6
+?auswahl | Controlla: quale forma è giusta? || Prüfe: Welche Form ist richtig?
+L’anno scorso {avrei dovuto*|dovrei} studiare di più.
+Mi {sarebbe piaciuto*|avrebbe piaciuto} fare uno scambio.
+Lena dice: «{Sarei andata*|Avrei andata} volentieri in Italia con la classe.»
+Sapevo che {sarebbe stato*|sarebbe} un anno difficile.
+
+@thema congiuntivo-trapassato | 3 · Società e solidarietà | Parte A | Il congiuntivo trapassato | 2
+#lehrplan Jgst. 10 · congiuntivo trapassato (Bildung und Gebrauch)
+#regel
+Il **congiuntivo trapassato** si forma con il congiuntivo imperfetto di **avere** o **essere** + **participio passato**.
+| persona | avere | essere |
+| io | **avessi** parlato | **fossi** andato/-a |
+| tu | **avessi** parlato | **fossi** andato/-a |
+| lui / lei | **avesse** parlato | **fosse** andato/-a |
+| noi | **avessimo** parlato | **fossimo** andati/-e |
+| voi | **aveste** parlato | **foste** andati/-e |
+| loro | **avessero** parlato | **fossero** andati/-e |
+Lo usiamo quando la frase principale è **al passato** e l’azione è successa **prima**:
+- _Pensavo che Luca **fosse** già **partito**._
+Anche dopo **magari** (desiderio impossibile nel passato) e **come se**:
+- _Magari **avessi studiato** di più!_
+- _Parla come se **avesse visto** tutto._
+#regel-de
+Der **congiuntivo trapassato** = congiuntivo imperfetto von **avere/essere** + Partizip: _avessi parlato, fossi andata_.
+Er steht, wenn der Hauptsatz in der **Vergangenheit** steht und die Handlung im Nebensatz **vorher** passiert ist: _Pensavo che fosse già partito._ (Ich dachte, er sei schon abgefahren.)
+Außerdem nach **magari** (_Magari avessi studiato!_ – Hätte ich doch gelernt!) und nach **come se** (_come se avesse visto tutto_ – als ob er alles gesehen hätte).
+
+%übung leicht | Chi è?
+?zuordnen | Abbina persona e infinito alla forma del congiuntivo trapassato. || Verbinde Person und Infinitiv mit der Form des congiuntivo trapassato.
+lui – fare = avesse fatto
+noi – vedere = avessimo visto
+voi – dire = aveste detto
+loro – scrivere = avessero scritto
+lei – partire = fosse partita
+noi – arrivare = fossimo arrivati
+voi – rimanere = foste rimasti
+loro (Anna e Sara) – venire = fossero venute
+
+%übung leicht | Tre tempi
+?sortieren | Che forma è? || Welche Form ist das?
+Kategorien: a=congiuntivo imperfetto; b=congiuntivo trapassato; c=trapassato prossimo (indicativo)
+fosse > a
+avesse > a
+andassimo > a
+facessero > a
+avessi visto > b
+fossero partiti > b
+aveste detto > b
+fossimo rimasti > b
+avevo visto > c
+era partito > c
+avevamo detto > c
+erano rimaste > c
+
+%übung leicht | Pensavo che …
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Pensavo che Luca {fosse già partito*|era già partito|sia già partito} per il campo estivo.
+Credevo che voi {aveste già finito*|avete già finito|abbiate già finito} il turno.
+Era strano che nessuno {avesse risposto*|ha risposto|abbia risposto} al nostro annuncio.
+Mi sembrava che Giulia {fosse arrivata*|fosse arrivato|avesse arrivata} prima di tutti.
+Magari {avessi studiato*|avrei studiato|ho studiato} di più per la verifica di ieri!
+Parla del progetto come se lo {avesse inventato*|ha inventato|avrebbe inventato} lui.
+Avevamo paura che i bambini {si fossero persi*|si erano persi|si avessero persi} nel bosco.
+Speravo che tu {avessi già parlato*|hai già parlato|abbia già parlato} con la preside.
+! Principale al passato + azione precedente → congiuntivo trapassato. Anche dopo magari e come se. || Hauptsatz in der Vergangenheit + Vorzeitigkeit → congiuntivo trapassato. Auch nach magari und come se.
+
+%übung mittel | Le forme
+?tabelle | Completa la tabella con il congiuntivo trapassato. || Ergänze die Tabelle mit dem congiuntivo trapassato.
+Spalten: persona | fare | arrivare
+che io | [avessi fatto] | fossi arrivato/-a
+che tu | avessi fatto | [fossi arrivato/fossi arrivata]
+che lui | [avesse fatto] | [fosse arrivato]
+che lei | avesse fatto | [fosse arrivata]
+che noi | [avessimo fatto] | [fossimo arrivati/fossimo arrivate]
+che voi | [aveste fatto] | foste arrivati/-e
+che loro | [avessero fatto] | [fossero arrivati/fossero arrivate]
+
+%übung mittel | Il primo giorno al doposcuola
+?luecke | Marta racconta. Scrivi i verbi al congiuntivo trapassato. || Marta erzählt. Setze die Verben in den congiuntivo trapassato.
+Lunedì sono andata per la prima volta al doposcuola per bambini appena arrivati in Italia.
+Pensavo che la responsabile (ricevere) [avesse ricevuto] la mia mail, ma non sapeva niente.
+Credevo che gli altri volontari (arrivare) [fossero arrivati] prima di me, invece ero la prima.
+Mi sembrava strano che nessuno (preparare) [avesse preparato] i materiali.
+Un bambino, Amir, parlava italiano come se (nascere) [fosse nato] qui.
+Non immaginavo che lui (imparare) [avesse imparato] tutto in un solo anno.
+Era contento che io (portare) [avessi portato] dei libri illustrati.
+Alla fine mi dispiaceva che il pomeriggio (passare) [fosse passato] così in fretta.
+Magari (cominciare, io) [avessi cominciato] prima a fare volontariato!
+
+%übung mittel | Magari!
+?ergaenzen | Non è andata così. Esprimi il desiderio con magari + congiuntivo trapassato. || So war es nicht. Drücke den Wunsch mit magari + congiuntivo trapassato aus.
+Non ho studiato. → Magari … | avessi studiato | Magari avessi studiato!
+Luca non è venuto. → Magari Luca … | fosse venuto | Magari Luca fosse venuto!
+Abbiamo perso la partita. → Magari … | non avessimo perso | Magari non avessimo perso la partita!
+Ho dimenticato l’ombrello. → Magari … | non avessi dimenticato l’ombrello | Magari non avessi dimenticato l’ombrello!
+I miei amici non hanno visto il messaggio. → Magari i miei amici … | avessero visto il messaggio | Magari i miei amici avessero visto il messaggio!
+Non avete chiesto aiuto. → Magari … | aveste chiesto aiuto | Magari aveste chiesto aiuto!
+Chiara è andata via presto. → Magari Chiara … | non fosse andata via | Magari Chiara non fosse andata via così presto!
+I ragazzi non sono partiti prima. → Magari i ragazzi … | fossero partiti prima | Magari i ragazzi fossero partiti prima!
+! Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …! || Magari + congiuntivo trapassato = Hätte ich doch …! / Wäre er doch …!
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Pensavo che Marta [era=>fosse] già tornata dal campo di lavoro.
+Credevamo che i ragazzi [avessero=>fossero] partiti il giorno prima.
+Magari [avrei=>avessi] ascoltato i tuoi consigli!
+Mi guardava come se [ho=>avessi] detto una cosa strana.
+Era strano che le ragazze non fossero [venuto=>venute] alla riunione.
+Non pensavo che tu [abbia=>avessi] già letto il mio articolo.
+Avevo paura che voi vi [eravate=>foste] dimenticati di me.
+Teneva la scopa in mano come se non ne [fosse=>avesse] mai vista una.
+! Dopo pensavo che, credevo che, era strano che, avevo paura che, magari, come se: congiuntivo, non indicativo o condizionale. || Nach diesen Ausdrücken steht der congiuntivo, nicht Indikativ oder Konditional.
+
+%übung schwer | Il mercatino in piazza
+?luecke | Congiuntivo imperfetto (stesso momento o dopo) o trapassato (prima)? Completa il racconto di Luca. || Congiuntivo imperfetto (gleichzeitig oder später) oder trapassato (vorher)? Ergänze Lucas Bericht.
+Sabato abbiamo organizzato un mercatino per la mensa del quartiere.
+Quando sono arrivato in piazza, pensavo che i miei compagni (montare) [avessero montato] i tavoli la sera prima: invece non c’era niente.
+Credevo che Davide (essere) [fosse] ancora a letto, e invece era lì da un’ora.
+La prof voleva che ognuno (portare) [portasse] qualcosa da vendere.
+Mi sembrava impossibile che Chiara (fare) [avesse fatto] trenta torte in una sola notte!
+Avevamo paura che nel pomeriggio (piovere) [piovesse], ma è uscito il sole.
+Alla fine il sindaco ci ha ringraziato come se (noi, salvare) [avessimo salvato] la città.
+Benché (essere, noi) [fossimo] stanchi morti, abbiamo pulito tutta la piazza.
+Quando abbiamo contato i soldi, non potevamo credere che la gente ci (dare) [avesse dato] più di ottocento euro.
+Magari sabato (venire) [fossi venuta] anche tu, Marta!
+! Stesso momento o dopo → congiuntivo imperfetto (fosse, portasse). Prima → congiuntivo trapassato (avessero montato). || Gleichzeitig oder später → imperfetto; vorher → trapassato.
+
+%übung schwer | Come se …
+?ergaenzen | Completa con come se + congiuntivo trapassato. Usa le parole tra parentesi. || Ergänze mit come se + congiuntivo trapassato. Verwende die Wörter in Klammern.
+Parla del film come se … (lui: vederlo) | lo avesse visto/l’avesse visto | Parla del film come se lo avesse visto (l’avesse visto).
+Sei stanco come se … (tu: non dormire per tre giorni) | non avessi dormito per tre giorni | Sei stanco come se non avessi dormito per tre giorni.
+Giulia mi ha salutato come se … (noi: non litigare mai) | non avessimo mai litigato/non avessimo litigato mai | Giulia mi ha salutato come se non avessimo mai litigato.
+I bambini ridevano come se … (loro: sentire una barzelletta) | avessero sentito una barzelletta | I bambini ridevano come se avessero sentito una barzelletta.
+Mi guardate come se … (io: dire una bugia) | avessi detto una bugia | Mi guardate come se avessi detto una bugia.
+Il nonno camminava piano, come se … (lui: farsi male) | si fosse fatto male | Il nonno camminava piano, come se si fosse fatto male.
+Sara conosce il quartiere come se … (lei: nascere qui) | fosse nata qui | Sara conosce il quartiere come se fosse nata qui.
+Parlate di Roma come se … (voi: abitare lì per anni) | aveste abitato lì per anni | Parlate di Roma come se aveste abitato lì per anni.
+! come se + congiuntivo trapassato = als ob … hätte / wäre. || come se + congiuntivo trapassato = als ob … hätte / wäre.
+
+@thema ipotetico-passato | 3 · Società e solidarietà | Parte A | Il periodo ipotetico dell’irrealtà nel passato | 3
+#lehrplan Jgst. 10 · periodo ipotetico (Irrealis der Vergangenheit)
+#regel
+Per parlare di una condizione **non realizzata nel passato** usiamo:
+**se + congiuntivo trapassato** → **condizionale composto**
+- _**Se avessi saputo** della festa, **sarei venuto**._ (Ma non lo sapevo e non sono venuto.)
+I tre tipi a confronto:
+| tipo | dopo se | frase principale | esempio |
+| I (realtà) | indicativo | indicativo / imperativo | Se **ho** tempo, **vengo**. |
+| II (possibilità) | congiuntivo imperfetto | condizionale presente | Se **avessi** tempo, **verrei**. |
+| III (irrealtà nel passato) | congiuntivo trapassato | condizionale composto | Se **avessi avuto** tempo, **sarei venuto**. |
+**Tipo misto:** condizione nel passato, conseguenza adesso: _Se ieri **avessi studiato**, ora **sarei** tranquillo._
+**Attenzione:** dopo **se** non c’è mai il condizionale! Non «se avrei avuto», «se sarei stato», ma _se **avessi** avuto, se **fossi** stato_.
+#regel-de
+Irreale Bedingung in der **Vergangenheit**: **se + congiuntivo trapassato**, im Hauptsatz **condizionale composto**: _Se avessi saputo della festa, sarei venuto._ (Wenn ich von dem Fest gewusst hätte, wäre ich gekommen.)
+Gemischter Typ (Bedingung früher, Folge jetzt): _Se ieri avessi studiato, ora sarei tranquillo._
+**Achtung:** Im Deutschen steht in beiden Satzteilen „hätte/wäre“. Im Italienischen steht nach **se** nie das Konditional: nicht „se avrei avuto“, sondern _se **avessi** avuto_.
+
+%übung leicht | Le due metà
+?zuordnen | Abbina l’inizio e la fine delle frasi. || Verbinde Satzanfang und Satzende.
+Se avessi messo la sveglia, = non mi sarei alzato alle dieci.
+Se avessimo chiuso bene i sacchi, = i rifiuti non sarebbero caduti per strada.
+Se Luca avesse studiato di più, = avrebbe preso un voto migliore.
+Se foste venuti alla festa, = vi sareste divertiti con noi.
+Se non avesse piovuto, = non avremmo avuto bisogno dell’ombrello.
+Se mi avessi detto che eri solo, = sarei venuto a trovarti.
+Se le ragazze fossero partite prima, = sarebbero arrivate in tempo.
+Se tu avessi letto la mail della prof, = avresti saputo che la lezione era annullata.
+
+%übung leicht | Tipo I, II o III?
+?sortieren | Che tipo di periodo ipotetico è? || Welcher Typ von Bedingungssatz ist das?
+Kategorien: a=tipo I (realtà); b=tipo II (possibilità); c=tipo III (irrealtà nel passato)
+Se domani c’è il sole, puliamo la spiaggia. > a
+Se avrò tempo, verrò alla riunione. > a
+Se hai bisogno di aiuto, chiamami. > a
+Se avessi più tempo, farei volontariato. > b
+Se fossi il sindaco, costruirei più piste ciclabili. > b
+Se tutti usassero la bici, l’aria sarebbe più pulita. > b
+Se avessi saputo della raccolta, avrei portato dei vestiti. > c
+Se fossimo partiti prima, non avremmo perso il treno. > c
+Se non avesse piovuto, la festa sarebbe stata in piazza. > c
+
+%übung leicht | Quale forma?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Se {avessi saputo*|avrei saputo|abbia saputo} della raccolta di libri, avrei portato i miei.
+Se fossimo arrivati prima, {avremmo trovato*|avessimo trovato|troveremo} posto.
+Se tu {fossi venuta*|saresti venuta|sei venuta} con noi, ti saresti divertita.
+Se non avesse nevicato, i volontari {sarebbero partiti*|fossero partiti|partiranno} alle sei.
+Se Matteo {avesse chiesto*|avrebbe chiesto|chiederebbe} aiuto, lo avremmo aiutato.
+Se aveste letto l’avviso, {avreste capito*|aveste capito|capirete} tutto.
+Se i ragazzi {fossero stati*|sarebbero stati|siano stati} più attenti, non avrebbero rotto il vetro.
+Se me lo avessi detto, {sarei rimasto*|fossi rimasto|rimarrò} a casa.
+! Dopo se: congiuntivo trapassato (avessi, fossi …). Nella frase principale: condizionale composto (avrei, sarei …). || Nach se: congiuntivo trapassato; im Hauptsatz: condizionale composto.
+
+%übung mittel | Una giornata andata storta
+?luecke | Completa con il congiuntivo trapassato (dopo se) e il condizionale composto. || Ergänze den congiuntivo trapassato (nach se) und das condizionale composto.
+Che disastro, la nostra giornata ecologica!
+Se (noi, guardare) [avessimo guardato] le previsioni, (portare) [avremmo portato] gli ombrelli.
+Se Davide non (dimenticare) [avesse dimenticato] i guanti a casa, (noi, cominciare) [avremmo cominciato] subito.
+Se le ragazze (arrivare) [fossero arrivate] in orario, il gruppo (essere) [sarebbe stato] completo.
+Se io (leggere) [avessi letto] bene la mail, non (sbagliare) [avrei sbagliato] parco.
+Se il prof (venire) [fosse venuto] con noi, tutto (andare) [sarebbe andato] meglio.
+
+%übung mittel | E se invece …?
+?ergaenzen | Leggi che cosa è successo e completa la frase ipotetica. || Lies, was passiert ist, und ergänze den Bedingungssatz.
+Non ho studiato, quindi ho preso quattro. → Se avessi studiato, … | non avrei preso quattro | Se avessi studiato, non avrei preso quattro.
+Luca è rimasto a casa, quindi ha perso il concerto. → Se Luca fosse venuto con noi, … | non avrebbe perso il concerto | Se Luca fosse venuto con noi, non avrebbe perso il concerto.
+Avete fatto tardi, quindi avete perso il film. → Se non aveste fatto tardi, … | non avreste perso il film | Se non aveste fatto tardi, non avreste perso il film.
+Pioveva, quindi i ragazzi sono rimasti a casa. → Se non avesse piovuto, i ragazzi … | non sarebbero rimasti a casa | Se non avesse piovuto, i ragazzi non sarebbero rimasti a casa.
+Hai spento il telefono, quindi non ti ho trovato. → Se tu …, ti avrei trovato. | non avessi spento il telefono | Se tu non avessi spento il telefono, ti avrei trovato.
+I ragazzi hanno perso l’autobus, quindi sono arrivati tardi. → Se i ragazzi …, non sarebbero arrivati tardi. | non avessero perso l’autobus | Se i ragazzi non avessero perso l’autobus, non sarebbero arrivati tardi.
+Giulia ha dimenticato la crema solare, quindi si è bruciata. → Se Giulia …, non si sarebbe bruciata. | non avesse dimenticato la crema | Se Giulia non avesse dimenticato la crema solare, non si sarebbe bruciata.
+Luca e Paolo sono partiti tardi, quindi hanno trovato traffico. → Se Luca e Paolo …, non avrebbero trovato traffico. | non fossero partiti tardi | Se Luca e Paolo non fossero partiti tardi, non avrebbero trovato traffico.
+! Realtà: non ho studiato → ipotesi: se avessi studiato. Realtà: ho perso l’autobus → ipotesi: se non avessi perso l’autobus. Attenzione alla negazione! || Wirklichkeit: non ho studiato → Annahme: se avessi studiato. Wirklichkeit: ho perso l’autobus → Annahme: se non avessi perso l’autobus. Achte auf die Verneinung!
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Wenn ich von dem Fest gewusst hätte, hätte ich einen Kuchen mitgebracht.“ || Bringe die Teile in die richtige Reihenfolge.
+Se avessi
+saputo della festa,
+avrei portato
+una torta.
+?ordnen | Metti le parti in ordine: „Wenn Sara früher losgefahren wäre, hätte sie den Zug nicht verpasst.“ || Bringe die Teile in die richtige Reihenfolge.
+Se Sara
+fosse partita prima,
+non avrebbe
+perso il treno.
+?ordnen | Metti le parti in ordine: „Wenn ihr die Schlüssel nicht vergessen hättet, wären wir sofort hineingegangen.“ || Bringe die Teile in die richtige Reihenfolge.
+Se non aveste
+dimenticato le chiavi,
+saremmo
+entrati subito.
+?ordnen | Metti le parti in ordine: „Wenn sie uns um Hilfe gebeten hätten, hätten wir ihnen gern geholfen.“ || Bringe die Teile in die richtige Reihenfolge.
+Se ci avessero
+chiesto aiuto,
+li avremmo
+aiutati volentieri.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Se [avrei=>avessi] avuto tempo, sarei venuto alla riunione.
+Se [sarei=>fossi] stato al tuo posto, avrei detto la verità.
+Se avessimo saputo del concerto, [avessimo=>avremmo] comprato i biglietti.
+Se Chiara fosse [venuto=>venuta] con noi, si sarebbe divertita.
+Se non [avrebbe=>avesse] piovuto, saremmo andati al lago.
+Se me lo avessi detto prima, ti [avessi=>avrei] aiutato.
+Se i ragazzi [avessero=>fossero] arrivati in tempo, avrebbero visto l’inizio.
+Se foste rimasti, [avrete=>avreste] conosciuto la nuova volontaria.
+! Mai il condizionale dopo se: se avessi avuto, se fossi stato. || Nach se nie das Konditional: se avessi avuto, se fossi stato.
+
+%übung schwer | Tutti i tipi
+?luecke | Tipo I, II, III o misto? Guarda le espressioni di tempo e l’altra metà della frase, poi completa. || Typ I, II, III oder gemischt? Achte auf die Zeitangaben und die andere Satzhälfte und ergänze.
+Ieri non hai aperto il libro. Se ieri (studiare, tu) [avessi studiato], oggi non (avere) [avresti] paura della verifica.
+Se domani (fare) [fa/farà] bel tempo, andremo a pulire la spiaggia.
+Se io (essere) [fossi] ricco, darei molti soldi alle associazioni del quartiere.
+Se la settimana scorsa Luca non (rompersi) [si fosse rotto] il braccio, sabato scorso (giocare) [avrebbe giocato] con noi.
+Se tu non mi (aiutare) [avessi aiutato] l’anno scorso, adesso io non (essere) [sarei] in questa classe.
+Se (voi, avere) [avete] voglia, venite con noi stasera!
+Se stamattina (noi, prendere) [avessimo preso] il treno delle sette, ora (essere) [saremmo] già a Roma.
+! Tipo misto: condizione nel passato (se + congiuntivo trapassato), conseguenza adesso (condizionale presente). || Gemischter Typ: Bedingung in der Vergangenheit (congiuntivo trapassato), Folge jetzt (condizionale presente).
+
+%übung schwer | Che cosa sarebbe successo?
+?frei | Pensa a tre o quattro momenti del tuo passato: che cosa sarebbe successo se …? Scrivi 4 frasi con se + congiuntivo trapassato e il condizionale composto. || Denk an drei oder vier Momente deiner Vergangenheit: Was wäre passiert, wenn …? Schreibe 4 Sätze mit se + congiuntivo trapassato und condizionale composto.
+Se fossi nata in Italia, avrei imparato l’italiano da piccola. Se non avessi scelto l’italiano a scuola, non avrei conosciuto la mia amica di Verona. Se l’estate scorsa fossimo andati al mare, avrei fatto un corso di vela. Se avessi cominciato prima a suonare la chitarra, sarei entrata nella band della scuola.
+Zeilen: 6
+?auswahl | Controlla: quale forma è giusta? || Prüfe: Welche Form ist richtig?
+Se {avessi*|avrei} saputo la verità, non avrei detto niente.
+Se fossi nato in Italia, {avrei imparato*|avessi imparato} l’italiano da piccolo.
+Se ieri fossi andato a letto presto, adesso non {sarei*|fossi} stanco.
+Se non {avessimo perso*|avremmo perso} l’autobus, saremmo arrivati in tempo.
+
+@thema passivo | 3 · Società e solidarietà | Parte B | La forma passiva con essere e venire | 4
+#lehrplan Jgst. 10 · Passiv mit essere und venire
+#regel
+La forma passiva: **essere + participio passato**. Il participio **concorda** con il soggetto. Chi fa l’azione si indica con **da** (dal, dalla, dai, dagli, dalle …).
+| attivo | I volontari **puliscono** il parco. |
+| passivo | Il parco **è pulito** / **viene pulito** **dai** volontari. |
+Nei **tempi semplici** possiamo usare anche **venire**; nei **tempi composti** solo **essere**:
+| tempo | essere | venire |
+| presente | la spiaggia **è pulita** | la spiaggia **viene pulita** |
+| imperfetto | **era pulita** | **veniva pulita** |
+| futuro | **sarà pulita** | **verrà pulita** |
+| passato prossimo | **è stata pulita** | – |
+| trapassato | **era stata pulita** | – |
+_La festa **è stata organizzata dagli** studenti. I pacchi **vengono distribuiti** ogni venerdì._
+#regel-de
+Passiv: **essere + Partizip**; das Partizip richtet sich nach dem Subjekt. Der Urheber steht mit **da** (+ Artikel: dal, dalla, dai, dagli …): _Il parco è pulito **dai** volontari._ (… **von** den Freiwilligen – nicht „di“!)
+In den **einfachen Zeiten** geht auch **venire** (_viene pulito, veniva pulito, verrà pulito_ – betont den Vorgang, wie deutsch „wird“). In den **zusammengesetzten Zeiten** nur **essere**: _è stato pulito_ (ist geputzt worden), nie „è venuto pulito“.
+
+%übung leicht | Attivo o passivo?
+?sortieren | La frase è attiva o passiva? || Ist der Satz aktiv oder passiv?
+Kategorien: a=attivo; p=passivo
+I volontari distribuiscono i pasti. > a
+I pasti vengono distribuiti dai volontari. > p
+La scuola ha organizzato una raccolta di vestiti. > a
+La raccolta è stata organizzata dalla scuola. > p
+Il nuovo centro è stato aperto dal sindaco. > p
+Il sindaco è arrivato alle dieci. > a
+Molti ragazzi sono andati alla manifestazione. > a
+Il progetto verrà presentato domani. > p
+I rifiuti venivano raccolti ogni lunedì. > p
+Giulia è rimasta al centro fino a sera. > a
+! Attenzione: è arrivato, sono andati, è rimasta sono forme attive del passato prossimo con essere. || Achtung: è arrivato, sono andati, è rimasta sind aktive Formen des passato prossimo mit essere.
+
+%übung leicht | Participio e preposizione
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+La spiaggia viene {pulita*|pulito|pulite} ogni sabato.
+I libri sono stati {raccolti*|raccolto|raccolte} dagli studenti.
+Le coperte verranno {distribuite*|distribuiti|distribuita} stasera.
+Il progetto è stato presentato {dalla*|della|dal} professoressa Conti.
+La mensa è gestita {dai*|dei|dagli} volontari del quartiere.
+L’articolo è stato scritto {dagli*|dai|degli} studenti della 3B.
+La lettera è stata {firmata*|firmato|firmati} da tutta la classe.
+L’orto della scuola è curato {dall’insegnante*|dal insegnante|dell’insegnante} di scienze.
+! Il participio concorda con il soggetto. Chi fa l’azione: da + articolo (dal, dalla, dall’, dai, dagli, dalle). || Das Partizip richtet sich nach dem Subjekt. Urheber: da + Artikel.
+
+%übung leicht | Dall’attivo al passivo
+?zuordnen | Abbina la frase attiva alla frase passiva con lo stesso tempo. || Verbinde den Aktivsatz mit dem Passivsatz in derselben Zeit.
+Il sindaco apre la mostra. = La mostra è aperta dal sindaco.
+Il sindaco ha aperto la mostra. = La mostra è stata aperta dal sindaco.
+Il sindaco aprirà la mostra. = La mostra sarà aperta dal sindaco.
+Il sindaco apriva la mostra ogni anno. = La mostra era aperta dal sindaco ogni anno.
+Gli studenti scrivono gli articoli. = Gli articoli vengono scritti dagli studenti.
+Gli studenti hanno scritto gli articoli. = Gli articoli sono stati scritti dagli studenti.
+Gli studenti scriveranno gli articoli. = Gli articoli verranno scritti dagli studenti.
+Gli studenti scrivevano gli articoli. = Gli articoli venivano scritti dagli studenti.
+
+%übung mittel | Essere e venire
+?tabelle | Completa la tabella con il passivo di pulire. Attenzione al soggetto! || Ergänze die Tabelle mit dem Passiv von pulire. Achte auf das Subjekt!
+Spalten: soggetto e tempo | con essere | con venire
+il parco – presente | è pulito | [viene pulito]
+il parco – imperfetto | [era pulito] | [veniva pulito]
+il parco – futuro | [sarà pulito] | [verrà pulito]
+il parco – passato prossimo | [è stato pulito] | –
+le strade – presente | [sono pulite] | [vengono pulite]
+le strade – futuro | [saranno pulite] | [verranno pulite]
+le strade – condizionale presente | [sarebbero pulite] | [verrebbero pulite]
+le strade – passato prossimo | [sono state pulite] | –
+
+%übung schwer | Trasforma al passivo
+?ergaenzen | Trasforma le frasi al passivo. Mantieni il tempo del verbo. Dove c’è (essere) o (venire), usa quel verbo. || Forme die Sätze ins Passiv um. Behalte die Zeit bei. Wo (essere) oder (venire) steht, verwende dieses Verb.
+I volontari preparano i pacchi. → I pacchi … (venire) | vengono preparati dai volontari | I pacchi vengono preparati dai volontari.
+La classe 3B ha organizzato la festa. → La festa … | è stata organizzata dalla classe 3B | La festa è stata organizzata dalla classe 3B.
+Il Comune pagherà i lavori. → I lavori … (essere) | saranno pagati dal Comune | I lavori saranno pagati dal Comune.
+Molti studenti leggevano il giornalino. → Il giornalino … (venire) | veniva letto da molti studenti | Il giornalino veniva letto da molti studenti.
+Gli alunni hanno piantato venti alberi. → Venti alberi … | sono stati piantati dagli alunni | Venti alberi sono stati piantati dagli alunni.
+Una giornalista intervisterà le ragazze. → Le ragazze … (venire) | verranno intervistate da una giornalista | Le ragazze verranno intervistate da una giornalista.
+L’associazione aveva invitato il sindaco. → Il sindaco … | era stato invitato dall’associazione | Il sindaco era stato invitato dall’associazione.
+Tutti rispettano le regole. → Le regole … (essere) | sono rispettate da tutti | Le regole sono rispettate da tutti.
+! Tempi composti (ha organizzato, aveva invitato) → solo essere: è stata organizzata, era stato invitato. || Zusammengesetzte Zeiten → nur essere: è stata organizzata, era stato invitato.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+La festa è [stato=>stata] organizzata dagli studenti.
+I pacchi vengono [preparato=>preparati] ogni venerdì.
+Il parco è stato pulito [dei=>dai] volontari.
+La mostra [è venuta=>è stata] aperta ieri dal sindaco.
+Le lettere sono state [scritto=>scritte] dai bambini.
+Il nuovo centro [ha=>è] stato costruito in soli sei mesi.
+Domani i risultati [verrà=>verranno/saranno] presentati ai giornalisti.
+L’articolo è stato letto [di=>da] più di mille persone.
+! venire solo nei tempi semplici; chi fa l’azione sempre con da, mai con di. || venire nur in einfachen Zeiten; der Urheber immer mit da, nie mit di.
+
+%übung schwer | Dal giornalino della scuola
+?luecke | Completa l’articolo con il passivo nel tempo indicato. || Ergänze den Artikel mit dem Passiv in der angegebenen Zeit.
+Sabato scorso la «Giornata della solidarietà» (organizzare, passato prossimo) [è stata organizzata] per la terza volta dal nostro liceo.
+Ogni anno la giornata (preparare, presente) [è preparata/viene preparata] dagli studenti delle terze.
+Quest’anno più di duecento pacchi di cibo (raccogliere, passato prossimo) [sono stati raccolti].
+I pacchi (portare, passato prossimo) [sono stati portati] alla mensa del quartiere dai genitori.
+Durante la festa (vendere, imperfetto) [erano vendute/venivano vendute] torte fatte in casa.
+La musica (suonare, passato prossimo) [è stata suonata] dalla band della scuola.
+Alla fine tutti i volontari (ringraziare, passato prossimo) [sono stati ringraziati] dalla preside.
+I soldi (usare, futuro) [saranno usati/verranno usati] per comprare libri per il doposcuola.
+Il prossimo anno anche le altre scuole della città (invitare, futuro) [saranno invitate/verranno invitate].
+! Nei tempi semplici vanno bene essere e venire; nel passato prossimo solo essere. || In den einfachen Zeiten sind essere und venire richtig; im passato prossimo nur essere.
+
+@thema ci-ne-ripasso | 3 · Società e solidarietà | Ripasso | Ci, ne e pronomi personali: ripasso | 5
+#lehrplan Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen
+#regel
+| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |
+| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |
+| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |
+| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |
+Pronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).
+Espressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_
+#regel-de
+**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._
+Direktes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.
+Feste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum).
+
+%übung leicht | Espressioni con ci e ne
+?zuordnen | Abbina le espressioni alla traduzione. || Verbinde die Ausdrücke mit der Übersetzung.
+Ce l’ho! = Ich habe es!
+Ce ne sono tre. = Es gibt drei davon.
+Me ne vado. = Ich gehe weg.
+Non ne posso più! = Ich kann nicht mehr!
+Ci tengo molto. = Es ist mir sehr wichtig.
+Ci penso io. = Ich kümmere mich darum.
+Non ci credo. = Ich glaube nicht daran.
+Che ne dici? = Was sagst du dazu?
+
+%übung leicht | Ci o ne?
+?auswahl | Scegli la parola giusta. || Wähle das richtige Wort.
+Vai spesso al centro giovani? – Sì, {ci*|ne|lo} vado ogni martedì.
+Quanti volontari ci sono? – Ce {ne*|ci|li} sono venti.
+Pensi mai al futuro? – Sì, {ci*|ne|li} penso spesso.
+Hai bisogno di aiuto? – No, grazie, non {ne*|ci|lo} ho bisogno.
+Parlate spesso di ambiente? – Sì, {ne*|ci|lo} parliamo in classe.
+Credi a questa storia? – No, non {ci*|ne|li} credo.
+Vuoi delle fragole? – Sì, {ne*|ci|le} prendo un po’.
+Sei mai stato a Palermo? – No, non {ci*|ne|lo} sono mai stato.
+! ci = a / in + luogo o cosa (andare a, pensare a, credere a); ne = di + cosa o quantità (parlare di, avere bisogno di, un po’ di). || ci ersetzt a/in + Ort oder Sache; ne ersetzt di + Sache oder eine Menge.
+
+%übung leicht | Prima del mercatino
+?luecke wortkasten | Completa il dialogo con le parole del riquadro. || Ergänze den Dialog mit den Wörtern aus dem Kasten.
+– Chiara, hai i volantini? – Sì, [li] ho qui nello zaino.
+– E la lista dei nomi? – [La] porta Davide.
+– Hai scritto a Matteo? – Sì, [gli] ho scritto ieri sera.
+– E alla professoressa Conti? – [Le] ho mandato una mail stamattina.
+– Le torte, chi [le] porta? – Mia nonna: [ne] ha fatte quattro!
+– Andiamo al mercato insieme? – Sì, [ci] andiamo in bici.
+– E il tavolo? – Non preoccuparti, [lo] chiede Luca al bidello.
++ si
+! Diretto: lo, la, li, le. Indiretto: gli (a lui), le (a lei). Quantità: ne. Luogo: ci. || Direkt: lo, la, li, le. Indirekt: gli (ihm), le (ihr). Menge: ne. Ort: ci.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Hai il biglietto? – Sì, [c’è l’ho=>ce l’ho].
+Quanti fratelli hai? – [Li=>Ne] ho due.
+Basta, sono stanco: [me lo=>me ne] vado!
+Vai alla riunione? – Sì, [ne=>ci] vado con Luca.
+Hai telefonato a Giulia? – Sì, [la=>le] ho telefonato ieri.
+Dai tu il libro a Marco? – Sì, [gli lo=>glielo] do domani.
+Quante mele ci sono? – [Ci ne=>Ce ne] sono sei.
+Ho comprato le pizze e [li=>le] ho mangiate con gli amici.
+! telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne. || telefonare a → le / gli; gli + lo → glielo; ci + ne → ce ne.
+
+%übung schwer | Dopo la riunione
+?luecke | Completa il dialogo con ci, ne o un pronome combinato (me ne, te la, ce ne, gliene, gliele …). || Ergänze den Dialog mit ci, ne oder einem kombinierten Pronomen.
+– Davide, mi presti la tua bici per sabato? – Certo, [te la] presto volentieri.
+– Hai parlato a Sara del progetto? – Sì, [gliene] ho parlato ieri.
+– Quanti volantini restano? – [Ce ne] sono ancora cinquanta.
+– E chi li porta a scuola? – Tranquilla, [ci] penso io!
+– Hai le chiavi della sala? – Sì, [ce le/le] ho.
+– La prof aspetta le foto. – Lo so: (a lei + le foto) [gliele] mando stasera.
+– Vieni anche tu al mercatino? – Certo, [ci] tengo molto!
+– Io invece sono stanchissima: non [ne] posso più.
+– Allora io [me ne] vado. Ci vediamo sabato!
+! parlare a Sara del progetto → gliene parlo; mandare le foto alla prof → gliele mando; andarsene → me ne vado. || parlare a Sara del progetto → gliene parlo; mandare le foto alla prof → gliele mando; andarsene → me ne vado.
+
+%übung schwer | Rispondi con i pronomi
+?ergaenzen | Rispondi e sostituisci le parole con ci, ne o i pronomi giusti. || Antworte und ersetze die Wörter durch ci, ne oder die passenden Pronomen.
+Hai dato i volantini a Luca? – Sì, … | glieli ho dati | Sì, glieli ho dati.
+Hai parlato del progetto ai tuoi genitori? – Sì, … | gliene ho parlato | Sì, gliene ho parlato.
+Mi presti la penna? – Sì, … | te la presto | Sì, te la presto.
+Quante torte hai fatto? (tre) – … | Ne ho fatte tre | Ne ho fatte tre.
+Giulia, sei andata alla mensa sabato? – Sì, … | ci sono andata | Sì, ci sono andata.
+Hai il numero di Sara? – Sì, … | ce l’ho | Sì, ce l’ho.
+Mandi la mail alla preside? – Sì, … | gliela mando | Sì, gliela mando.
+Pensi tu alle bevande? – Sì, … | ci penso io | Sì, ci penso io.
+Vi ricordate della riunione? – Sì, … | ce ne ricordiamo | Sì, ce ne ricordiamo.
+! Con lo, la, li, le e ne il participio concorda: glieli ho dati, ne ho fatte tre. || Bei lo, la, li, le und ne wird das Partizip angeglichen: glieli ho dati, ne ho fatte tre.

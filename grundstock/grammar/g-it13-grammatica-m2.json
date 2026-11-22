@@ -1,0 +1,143 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-m2",
+ "title": "Una frase sola",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Una frase sola · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci o trasforma le frasi. Usa la parola o la forma tra parentesi.",
+   "promptHelp": "Verbinde die Sätze oder forme sie um. Verwende das Wort oder die Form in Klammern.",
+   "explanation": "Con lo stesso soggetto si usa l’infinito: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundio = mentre / siccome; pur + gerundio = anche se.",
+   "explanationHelp": "Bei gleichem Subjekt steht der Infinitiv: prima di partire, dopo aver finito / dopo essere arrivato, per pagare, senza salutare, penso di avere. Gerundium = während / weil; pur + Gerundium = obwohl.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho finito i compiti. Poi sono uscito. (dopo)",
+     "acceptedAnswers": [
+      "dopo aver finito",
+      "dopo avere finito"
+     ],
+     "modelAnswer": "Dopo aver finito i compiti, sono uscito. (Anche: Dopo avere finito …)"
+    },
+    {
+     "id": "s2",
+     "start": "Luca è arrivato a casa. Poi ha cenato. (dopo)",
+     "acceptedAnswers": [
+      "dopo essere arrivato"
+     ],
+     "modelAnswer": "Dopo essere arrivato a casa, Luca ha cenato."
+    },
+    {
+     "id": "s3",
+     "start": "Ti telefono e poi parto. (prima di)",
+     "acceptedAnswers": [
+      "prima di partire"
+     ],
+     "modelAnswer": "Prima di partire ti telefono."
+    },
+    {
+     "id": "s4",
+     "start": "Lavoro in estate perché voglio pagare il viaggio. (per)",
+     "acceptedAnswers": [
+      "per pagare",
+      "per pagarmi"
+     ],
+     "modelAnswer": "Lavoro in estate per pagare il viaggio."
+    },
+    {
+     "id": "s5",
+     "start": "Marco è uscito e non ha salutato. (senza)",
+     "acceptedAnswers": [
+      "senza salutare"
+     ],
+     "modelAnswer": "Marco è uscito senza salutare."
+    },
+    {
+     "id": "s6",
+     "start": "Sara studia e intanto ascolta musica. (gerundio)",
+     "acceptedAnswers": [
+      "ascoltando musica",
+      "ascoltando la musica",
+      "ascolta musica studiando"
+     ],
+     "modelAnswer": "Sara studia ascoltando musica."
+    },
+    {
+     "id": "s7",
+     "start": "Siccome era stanca, Giulia è andata a letto presto. (gerundio)",
+     "acceptedAnswers": [
+      "essendo stanca"
+     ],
+     "modelAnswer": "Essendo stanca, Giulia è andata a letto presto."
+    },
+    {
+     "id": "s8",
+     "start": "Anche se è giovane, Davide ha molta esperienza. (pur)",
+     "acceptedAnswers": [
+      "pur essendo giovane"
+     ],
+     "modelAnswer": "Pur essendo giovane, Davide ha molta esperienza."
+    },
+    {
+     "id": "s9",
+     "start": "Quando la lezione è finita, siamo andati al bar. (participio)",
+     "acceptedAnswers": [
+      "finita la lezione"
+     ],
+     "modelAnswer": "Finita la lezione, siamo andati al bar."
+    },
+    {
+     "id": "s10",
+     "start": "Io penso: «Ho ragione.» (di)",
+     "acceptedAnswers": [
+      "penso di avere ragione",
+      "penso di aver ragione"
+     ],
+     "modelAnswer": "Io penso di avere ragione. (Anche: di aver ragione)"
+    }
+   ]
+  }
+ ]
+}

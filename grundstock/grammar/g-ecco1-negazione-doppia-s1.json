@@ -49,7 +49,7 @@
    "id": "q1",
    "prompt": "Correggi gli otto errori.",
    "promptHelp": "Korrigiere die acht Fehler.",
-   "explanation": "niente = cose, nessuno = persone, mai = tempo, più = non ancora.",
+   "explanation": "niente = cose, nessuno = persone, mai = tempo, più = prima sì, adesso no.",
    "explanationHelp": "niente = Dinge, nessuno = Personen, mai = Zeit, più = nicht mehr.",
    "type": "error_correction",
    "text": "[[g1]] niente.\n[[g2]] nessuno.\nNon vado [[g3]] al cinema.\n[[g4]].\nNon conosco [[g5]] qui.\n[[g6]] mai il pesce.\nNon abito [[g7]] a Torino, ora abito a Roma.\nNon compro [[g8]].",
@@ -72,7 +72,8 @@
      "id": "g3",
      "wrong": "niente",
      "acceptedAnswers": [
-      "mai"
+      "mai",
+      "più"
      ]
     },
     {
@@ -107,7 +108,9 @@
      "id": "g8",
      "wrong": "nessuno",
      "acceptedAnswers": [
-      "niente"
+      "niente",
+      "mai",
+      "più"
      ]
     }
    ]

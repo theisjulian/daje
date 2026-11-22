@@ -47,7 +47,7 @@
    "id": "q1a",
    "type": "open_answer",
    "prompt": "Analizza le forme: indica infinito, modo, tempo e persona. Il soggetto indicato elimina le omonimie. (parte 1/2)\n1. noi: «lavoriamo»\n2. tu: «avevi»\n3. tu: «facessi»\n4. tu: «dormissi»\n5. noi: «invitiamo»\n6. noi: «conserviamo»\n7. io: «parto»\n8. noi: «osservavamo»\n9. tu: «porteresti»",
-   "modelAnswer": "1. lavorare — congiuntivo — presente — noi\n2. avere — indicativo — imperfetto — tu\n3. fare — congiuntivo — imperfetto — tu\n4. dormire — congiuntivo — imperfetto — tu\n5. invitare — indicativo — presente — noi\n6. conservare — indicativo — presente — noi\n7. partire — indicativo — presente — io\n8. osservare — indicativo — imperfetto — noi\n9. portare — condizionale — presente — tu",
+   "modelAnswer": "1. lavorare — indicativo (o congiuntivo) — presente — noi\n2. avere — indicativo — imperfetto — tu\n3. fare — congiuntivo — imperfetto — tu\n4. dormire — congiuntivo — imperfetto — tu\n5. invitare — indicativo (o congiuntivo) — presente — noi\n6. conservare — indicativo (o congiuntivo) — presente — noi\n7. partire — indicativo — presente — io\n8. osservare — indicativo — imperfetto — noi\n9. portare — condizionale — presente — tu",
    "lines": 10,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
   },

@@ -46,61 +46,124 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo (esempio: andare; passato prossimo). Osserva il contesto del testo.",
    "text": "hai cominciato → [[g1]]\nHo studiato → [[g2]]\nho frequentato → [[g3]]\nho conosciuto → [[g4]]\nha invitata → [[g5]]\nSono rimasta → [[g6]]\nho imparato → [[g7]]\nHai lavorato → [[g8]]\nHo aiutato → [[g9]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "cominciare; passato prossimo"
+      "cominciare; passato prossimo",
+      "cominciare, passato prossimo",
+      "cominciare passato prossimo",
+      "cominciare - passato prossimo",
+      "cominciare (passato prossimo)",
+      "cominciare;passato prossimo",
+      "cominciare,passato prossimo",
+      "cominciare – passato prossimo"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "studiare; passato prossimo"
+      "studiare; passato prossimo",
+      "studiare, passato prossimo",
+      "studiare passato prossimo",
+      "studiare - passato prossimo",
+      "studiare (passato prossimo)",
+      "studiare;passato prossimo",
+      "studiare,passato prossimo",
+      "studiare – passato prossimo"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "frequentare; passato prossimo"
+      "frequentare; passato prossimo",
+      "frequentare, passato prossimo",
+      "frequentare passato prossimo",
+      "frequentare - passato prossimo",
+      "frequentare (passato prossimo)",
+      "frequentare;passato prossimo",
+      "frequentare,passato prossimo",
+      "frequentare – passato prossimo"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "conoscere; passato prossimo"
+      "conoscere; passato prossimo",
+      "conoscere, passato prossimo",
+      "conoscere passato prossimo",
+      "conoscere - passato prossimo",
+      "conoscere (passato prossimo)",
+      "conoscere;passato prossimo",
+      "conoscere,passato prossimo",
+      "conoscere – passato prossimo"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "invitare; passato prossimo"
+      "invitare; passato prossimo",
+      "invitare, passato prossimo",
+      "invitare passato prossimo",
+      "invitare - passato prossimo",
+      "invitare (passato prossimo)",
+      "invitare;passato prossimo",
+      "invitare,passato prossimo",
+      "invitare – passato prossimo"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "rimanere; passato prossimo"
+      "rimanere; passato prossimo",
+      "rimanere, passato prossimo",
+      "rimanere passato prossimo",
+      "rimanere - passato prossimo",
+      "rimanere (passato prossimo)",
+      "rimanere;passato prossimo",
+      "rimanere,passato prossimo",
+      "rimanere – passato prossimo"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "imparare; passato prossimo"
+      "imparare; passato prossimo",
+      "imparare, passato prossimo",
+      "imparare passato prossimo",
+      "imparare - passato prossimo",
+      "imparare (passato prossimo)",
+      "imparare;passato prossimo",
+      "imparare,passato prossimo",
+      "imparare – passato prossimo"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "lavorare; passato prossimo"
+      "lavorare; passato prossimo",
+      "lavorare, passato prossimo",
+      "lavorare passato prossimo",
+      "lavorare - passato prossimo",
+      "lavorare (passato prossimo)",
+      "lavorare;passato prossimo",
+      "lavorare,passato prossimo",
+      "lavorare – passato prossimo"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "aiutare; passato prossimo"
+      "aiutare; passato prossimo",
+      "aiutare, passato prossimo",
+      "aiutare passato prossimo",
+      "aiutare - passato prossimo",
+      "aiutare (passato prossimo)",
+      "aiutare;passato prossimo",
+      "aiutare,passato prossimo",
+      "aiutare – passato prossimo"
      ]
     }
    ],

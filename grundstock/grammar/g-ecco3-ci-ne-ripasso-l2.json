@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-ci-ne-ripasso-l2",
+ "title": "Ci o ne?",
+ "language": "it",
+ "level": "B1",
+ "description": "Ci, ne e pronomi personali: ripasso · Ci o ne? · livello facile.",
+ "topics": [
+  "Ci, ne e pronomi personali: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Ripasso"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Wiederholung: ci, ne, Objektpronomen und kombinierte Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco3-ci-ne-ripasso",
+  "topicTitle": "Ci, ne e pronomi personali: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "| **ci** | luogo: _Vai al centro? – Sì, **ci** vado._ · a qualcosa: _**Ci** penso. Non **ci** credo._ |\n| **ne** | quantità: _Quanti libri hai? – **Ne** ho due._ · di qualcosa: _**Ne** parliamo domani._ |\n| **lo, la, li, le** | oggetto diretto: _Il libro? **Lo** leggo. Le foto? **Le** mando._ |\n| **gli, le** | oggetto indiretto: _Scrivo a Luca → **gli** scrivo. Telefono a Sara → **le** telefono._ |\nPronomi combinati: _**me lo**, **te la**, **glielo**, **gliene**, **ce ne**_ (mi, ti, ci, vi → me, te, ce, ve).\nEspressioni utili: _**Ce l’ho.** · **Ce ne sono** tre. · **Me ne vado.** · **Non ne posso più!** · **Ci tengo.** · **Ci penso io.**_",
+  "ruleHelp": "**ci** = dort(hin) oder „daran/darauf“ (a qualcosa): _Ci vado. Ci penso._ **ne** = „davon/darüber“ oder Menge: _Ne ho due. Ne parliamo._\nDirektes Objekt: **lo, la, li, le**; indirektes: **gli** (ihm, ihnen), **le** (ihr). Kombiniert: _me lo, te la, glielo, gliene, ce ne_.\nFeste Wendungen: _Ce l’ho_ (ich habe es), _Ce ne sono tre_ (es gibt drei davon), _Me ne vado_ (ich gehe weg), _Non ne posso più_ (ich kann nicht mehr), _Ci tengo_ (es ist mir wichtig), _Ci penso io_ (ich kümmere mich darum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das richtige Wort.",
+   "explanation": "ci = a / in + luogo o cosa (andare a, pensare a, credere a); ne = di + cosa o quantità (parlare di, avere bisogno di, un po’ di).",
+   "explanationHelp": "ci ersetzt a/in + Ort oder Sache; ne ersetzt di + Sache oder eine Menge.",
+   "type": "gap_choice",
+   "text": "Vai spesso al centro giovani? – Sì, [[g1]] vado ogni martedì.\nQuanti volontari ci sono? – Ce [[g2]] sono venti.\nPensi mai al futuro? – Sì, [[g3]] penso spesso.\nHai bisogno di aiuto? – No, grazie, non [[g4]] ho bisogno.\nParlate spesso di ambiente? – Sì, [[g5]] parliamo in classe.\nCredi a questa storia? – No, non [[g6]] credo.\nVuoi delle fragole? – Sì, [[g7]] prendo un po’.\nSei mai stato a Palermo? – No, non [[g8]] sono mai stato.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ci",
+      "ne",
+      "lo"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ne",
+      "ci",
+      "li"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ci",
+      "ne",
+      "li"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ne",
+      "ci",
+      "lo"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ne",
+      "ci",
+      "lo"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ci",
+      "ne",
+      "li"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ne",
+      "ci",
+      "le"
+     ],
+     "answer": "ne"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ci",
+      "ne",
+      "lo"
+     ],
+     "answer": "ci"
+    }
+   ]
+  }
+ ]
+}

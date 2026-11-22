@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperativo-raddoppiamento-l2",
+ "title": "Una consonante o due?",
+ "language": "it",
+ "level": "A2",
+ "description": "Dimmi, dammi, fallo · Una consonante o due? · livello facile.",
+ "topics": [
+  "Dimmi, dammi, fallo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ (tu) der Verben dare, dire, fare, stare, andare mit Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-imperativo-raddoppiamento",
+  "topicTitle": "Dimmi, dammi, fallo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Gli imperativi corti **da’, di’, fa’, sta’, va’** + pronome: la consonante del pronome **raddoppia**.\n| da’ + mi | **dammi** | _Dammi il telefono!_ |\n| di’ + mi | **dimmi** | _Dimmi tutto!_ |\n| fa’ + mi | **fammi** | _Fammi vedere!_ |\n| sta’ + mi | **stammi** | _Stammi bene!_ |\n| va’ + ci | **vacci** | _Vacci tu!_ |\n| di’ + lo | **dillo** | _Dillo a Sara!_ |\n| fa’ + lo | **fallo** | _Fallo subito!_ |\nAnche: _dacci, dille, falla, falli, dalle …_\n**Eccezione: gli** non raddoppia: _da**gli**, di**gli**, fa**gli**._\n**Negativo:** non + infinito: _**Non dirlo** a nessuno!_ (anche: _Non **lo** dire!_)",
+  "ruleHelp": "Bei den kurzen Imperativen **da’, di’, fa’, sta’, va’** verdoppelt sich der Anfangskonsonant des angehängten Pronomens: _dammi, dimmi, fammi, stammi, vacci, dillo, fallo_.\n**Ausnahme gli:** keine Verdopplung (_dagli, digli, fagli_).\nVerneint: non + Infinitiv + Pronomen (_Non dirlo!_) oder Pronomen davor (_Non lo dire!_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "da’, di’, fa’, sta’, va’ + pronome → doppia consonante; solo gli resta com’è: digli.",
+   "explanationHelp": "da’, di’, fa’, sta’, va’ + Pronomen → Doppelkonsonant; nur gli bleibt: digli.",
+   "type": "gap_choice",
+   "text": "[[g1]] la password del Wi-Fi, per favore!\nHai fatto una foto? [[g2]] vedere!\n[[g3]] il caricabatterie: il mio telefono è scarico.\nIl video è pronto? [[g4]] vedere anche a Chiara!\nLuca aspetta una risposta: [[g5]] che arriviamo.\nIn quel negozio ci sono giochi bellissimi: [[g6]] sabato!\nÈ il compleanno della nonna: [[g7]] gli auguri!\nAbbiamo fame! [[g8]] un pezzo di pizza!\nCiao, buon viaggio e [[g9]] bene!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Dimmi",
+      "Dimi",
+      "Di’ mi"
+     ],
+     "answer": "Dimmi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Fammi",
+      "Fami",
+      "Mi fa’"
+     ],
+     "answer": "Fammi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Dammi",
+      "Dami",
+      "Mi da’"
+     ],
+     "answer": "Dammi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Fallo",
+      "Falo",
+      "Lo fa’"
+     ],
+     "answer": "Fallo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "digli",
+      "diggli",
+      "dili"
+     ],
+     "answer": "digli"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "vacci",
+      "vaci",
+      "ci va’"
+     ],
+     "answer": "vacci"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "falle",
+      "fale",
+      "le fa’"
+     ],
+     "answer": "falle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Dacci",
+      "Daci",
+      "Ci da’"
+     ],
+     "answer": "Dacci"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "stammi",
+      "stami",
+      "mi sta’"
+     ],
+     "answer": "stammi"
+    }
+   ]
+  }
+ ]
+}

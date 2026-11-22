@@ -46,79 +46,91 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
-   "text": "«una» — articolo: scegli genere e numero in base al nome → [[g1]]\n«della» — preposizione semplice o articolata → [[g2]]\n«sono» — essere, presente → [[g3]]\n«A» — preposizione semplice o articolata → [[g4]]\n«aprirei» — aprire, io, condizionale → [[g5]]\n«una» — articolo: scegli genere e numero in base al nome → [[g6]]\n«di» — preposizione semplice o articolata → [[g7]]\n«abbiano» — avere, loro, congiuntivo presente → [[g8]]\n«di» — preposizione semplice o articolata → [[g9]]\n«a» — preposizione semplice o articolata → [[g10]]\n«un» — articolo: scegli genere e numero in base al nome → [[g11]]\n«avessimo» — avere, noi, congiuntivo imperfetto → [[g12]]",
+   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo.",
+   "text": "«una» — articolo: scegli genere e numero in base al nome → [[g1]]\n«della» — preposizione semplice o articolata → [[g2]]\n«sono» — essere → [[g3]]\n«in» — preposizione semplice o articolata → [[g4]]\n«aprirei» — aprire, io → [[g5]]\n«una» — articolo: scegli genere e numero in base al nome → [[g6]]\n«di» — preposizione semplice o articolata → [[g7]]\n«abbiano» — avere, loro → [[g8]]\n«di» — preposizione semplice o articolata → [[g9]]\n«a» — preposizione semplice o articolata → [[g10]]\n«un» — articolo: scegli genere e numero in base al nome → [[g11]]\n«avessimo» — avere, noi → [[g12]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "articolo"
+      "articolo",
+      "articolo indeterminativo"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione articolata"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "indicativo presente"
+      "indicativo presente",
+      "presente indicativo"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "condizionale presente"
+      "condizionale presente",
+      "presente condizionale"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "articolo"
+      "articolo",
+      "articolo indeterminativo"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "congiuntivo presente"
+      "congiuntivo presente",
+      "presente congiuntivo"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "preposizione"
+      "preposizione",
+      "preposizione semplice"
      ]
     },
     {
      "id": "g11",
      "acceptedAnswers": [
-      "articolo"
+      "articolo",
+      "articolo indeterminativo"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "congiuntivo imperfetto"
+      "congiuntivo imperfetto",
+      "imperfetto congiuntivo"
      ]
     }
    ],

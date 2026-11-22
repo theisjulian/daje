@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "gap_fill",
-   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 1/3)",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. Esempio: portalo → portare + lo. (parte 1/3)",
    "text": "Comincia → [[g1]]\nScegli → [[g2]]\ncontrolla → [[g3]]\nLeggi → [[g4]]\nscrivi → [[g5]]\nNon copiare → [[g6]]\nPrepara → [[g7]]\naggiungi → [[g8]]\nPrendi → [[g9]]\ndisegna → [[g10]]",
    "gaps": [
     {
@@ -82,7 +82,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "non copiare"
+      "non copiare",
+      "copiare"
      ]
     },
     {
@@ -110,12 +111,12 @@
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Schreibe den Infinitiv. Hängt ein Pronomen am Verb, trenne es mit + ab (Beispiel: portalo → portare + lo)."
   },
   {
    "id": "q1b",
    "type": "gap_fill",
-   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 2/3)",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. Esempio: portalo → portare + lo. (parte 2/3)",
    "text": "Lascia → [[g1]]\nnon bloccare → [[g2]]\nChiedi → [[g3]]\nriscrivila → [[g4]]\nMetti → [[g5]]\nusa → [[g6]]\nGuarda → [[g7]]\nverifica → [[g8]]\nPorta → [[g9]]",
    "gaps": [
     {
@@ -127,7 +128,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "non bloccare"
+      "non bloccare",
+      "bloccare"
      ]
     },
     {
@@ -139,7 +141,11 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "riscrivere + la"
+      "riscrivere + la",
+      "riscrivere+la",
+      "riscrivere la",
+      "riscrivere, la",
+      "riscrivere e la"
      ]
     },
     {
@@ -177,7 +183,7 @@
   {
    "id": "q1c",
    "type": "gap_fill",
-   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. (parte 3/3)",
+   "prompt": "Trova le forme di comando indicate e scrivi l’infinito. Quando c’è un pronome, separalo dal verbo. Esempio: portalo → portare + lo. (parte 3/3)",
    "text": "prova → [[g1]]\nAscolta → [[g2]]\nannota → [[g3]]\ncorreggi → [[g4]]\nsaluta → [[g5]]\nrispondi → [[g6]]\nammetti → [[g7]]\nraccogli → [[g8]]\nconserva → [[g9]]",
    "gaps": [
     {

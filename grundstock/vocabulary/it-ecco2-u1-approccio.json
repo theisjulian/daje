@@ -72,10 +72,11 @@
    "translations": [
     "der (Quadrat-)Kilometer"
    ],
-   "definition": "Misura di lunghezza o di area di mille metri.",
+   "definition": "Misura di lunghezza: mille metri; il chilometro quadrato misura le superfici.",
    "example": "Il paese è lungo due chilometri.",
    "acceptedAnswers": [
-    "il chilometro"
+    "il chilometro",
+    "il chilometro quadrato"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -251,7 +252,7 @@
     "tatsächlich"
    ],
    "definition": "Parola che conferma quello che si è detto.",
-   "example": "Piove: infatti prendo l’ombrello.",
+   "example": "Luca è stanco: infatti ha dormito poco.",
    "related": "E in fact; F en effet"
   },
   {
@@ -321,7 +322,8 @@
    "example": "Visitiamo una città medievale.",
    "related": "E medieval; F médiéval(e)",
    "acceptedAnswers": [
-    "medievale"
+    "medievale",
+    "medioevale"
    ]
   },
   {

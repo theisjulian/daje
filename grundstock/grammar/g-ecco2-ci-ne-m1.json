@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ci-ne-m1",
+ "title": "La nonna e il tablet",
+ "language": "it",
+ "level": "A2",
+ "description": "Ci e ne · La nonna e il tablet · livello medio.",
+ "topics": [
+  "Ci e ne",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+ },
+ "grammar": {
+  "topic": "ecco2-ci-ne",
+  "topicTitle": "Ci e ne",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+  "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Davide parla con sua nonna. Completa con ci o ne.",
+   "promptHelp": "Davide spricht mit seiner Oma. Ergänze ci oder ne.",
+   "explanation": "riuscire **a**, pensare **a**, credere **a**, andare / tornare **a** → ci. Quantità (due, tanta, tre), parlare **di**, avere bisogno **di** → ne.",
+   "explanationHelp": "riuscire a, pensare a, credere a, Ort → ci. Menge, parlare di, avere bisogno di → ne.",
+   "type": "gap_fill",
+   "text": "– Nonna, sai mandare le foto con il tablet? – Provo sempre, ma non [[g1]] riesco!\n– Quante mail scrivi? – [[g2]] scrivo due o tre alla settimana.\n– Vai ancora al mercato? – Certo, [[g3]] vado ogni sabato.\n– Compri molta verdura? – Sì, [[g4]] compro sempre tanta.\n– Pensi mai alla tua vecchia casa? – Sì, [[g5]] penso spesso.\n– Parli dei vecchi tempi con il nonno? – Sì, [[g6]] parliamo quasi ogni sera.\n– Torni qualche volta al tuo paese? – [[g7]] torno una volta all’anno.\n– Hai ancora amiche lì? – Sì, [[g8]] ho ancora tre.\n– Credi a tutto quello che leggi su Internet? – No, non [[g9]] credo!\n– Hai bisogno di aiuto con il tablet? – No, grazie, oggi non [[g10]] ho bisogno.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ne"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Ci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ne"
+     ]
+    }
+   ]
+  }
+ ]
+}

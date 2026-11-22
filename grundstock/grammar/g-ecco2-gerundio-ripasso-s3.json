@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-gerundio-ripasso-s3",
+ "title": "In piazza",
+ "language": "it",
+ "level": "A2",
+ "description": "Stare + gerundio: ripasso · In piazza · livello difficile.",
+ "topics": [
+  "Stare + gerundio: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · stare + Gerundium (Präsens und Imperfekt), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-gerundio-ripasso",
+  "topicTitle": "Stare + gerundio: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Con **stare + gerundio** diciamo che un’azione è **in corso** (= succede proprio in quel momento).\n| -are → **-ando** | -ere → **-endo** | -ire → **-endo** |\n| suonare → suonando | leggere → leggendo | dormire → dormendo |\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**, tradurre → **traducendo**.\n| | io | tu | lui / lei | noi | voi | loro |\n| adesso | sto | stai | sta | stiamo | state | stanno |\n| in quel momento (passato) | stavo | stavi | stava | stavamo | stavate | stavano |\n- _Non posso venire: **sto studiando**._\n- _**Stavo leggendo** quando è arrivata Sara._\n**I pronomi** stanno prima di stare o attaccati al gerundio: _**Lo** sto facendo._ = _Sto facendo**lo**._\nPer un’**abitudine** non usiamo stare + gerundio: _Ogni sabato **gioco** a calcio._",
+  "ruleHelp": "**stare + Gerundium** drückt aus, dass etwas **gerade** geschieht: _Sto studiando._ (Ich lerne gerade.) Mit dem **imperfetto** von stare für die Vergangenheit: _Stavo leggendo, quando è arrivata Sara._ (Ich las gerade, als …)\nUnregelmäßig: facendo, dicendo, bevendo, traducendo.\nPronomen stehen **vor stare** oder **am Gerundium**: _Lo sto facendo._ = _Sto facendolo._ Nie dazwischen!\nFür Gewohnheiten (di solito, ogni giorno) nimmt man das einfache Präsens bzw. imperfetto. Deutsch hat keine eigene Form – man sagt „gerade“."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Adesso o nel passato? Scrivi stare (presente o imperfetto) + gerundio.",
+   "promptHelp": "Jetzt oder in der Vergangenheit? Setze stare (Präsens oder Imperfekt) + Gerundium ein.",
+   "type": "gap_fill",
+   "text": "Sono in piazza e guardo la gente. Un ragazzo (suonare) [[g1]] la chitarra.\nDue bambine (mangiare) [[g2]] un gelato.\nIeri alla stessa ora (piovere) [[g3]] e la piazza era vuota.\nAdesso invece molti turisti (fare) [[g4]] foto.\nPoco fa, mentre io (bere) [[g5]] un succo, è passata Giulia.\nLei (andare) [[g6]] in biblioteca.\n«Che cosa (scrivere, tu) [[g7]]?», mi ha chiesto.\n«(descrivere, io) [[g8]] la piazza per il compito d’italiano», ho risposto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sta suonando"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "stanno mangiando"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "stava piovendo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "stanno facendo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "stavo bevendo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "stava andando"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "stai scrivendo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Sto descrivendo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Pensa a un posto della tua città (una piazza, un parco, la fermata dell’autobus). Che cosa sta succedendo adesso? E che cosa stavi facendo tu ieri alla stessa ora? Scrivi 5 frasi.",
+   "promptHelp": "Denk an einen Ort in deiner Stadt (Platz, Park, Bushaltestelle). Was passiert dort gerade? Und was hast du gestern um dieselbe Zeit gerade gemacht? Schreibe 5 Sätze.",
+   "type": "open_answer",
+   "modelAnswer": "Sono alla fermata dell’autobus. Una signora sta leggendo il giornale. Due ragazzi stanno ascoltando musica con le cuffie. L’autobus sta arrivando. Ieri alla stessa ora stavo facendo i compiti.",
+   "lines": 5
+  }
+ ]
+}

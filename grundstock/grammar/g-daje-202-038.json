@@ -59,49 +59,59 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "piccolo"
+      "piccolo",
+      "vecchio",
+      "grande",
+      "elegante"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "elegante"
+      "elegante",
+      "grande"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "luminosa"
+      "luminosa",
+      "tranquilla"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "tranquilla"
+      "tranquilla",
+      "luminosa"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "grande"
+      "grande",
+      "elegante"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "bianchi"
+      "bianchi",
+      "trasparenti"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "trasparenti"
+      "trasparenti",
+      "bianchi"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "diverse"
+      "diverse",
+      "piccole"
      ]
     },
     {
@@ -113,29 +123,36 @@
     {
      "id": "g11",
      "acceptedAnswers": [
-      "comodo"
+      "comodo",
+      "vecchio",
+      "piccolo",
+      "grande",
+      "elegante",
+      "pulito"
      ]
     },
     {
      "id": "g12",
      "acceptedAnswers": [
-      "vecchio"
+      "vecchio",
+      "piccolo"
      ]
     },
     {
      "id": "g13",
      "acceptedAnswers": [
-      "pulito"
+      "pulito",
+      "comodo"
      ]
     },
     {
      "id": "g14",
      "acceptedAnswers": [
-      "piccole"
+      "piccole",
+      "diverse"
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

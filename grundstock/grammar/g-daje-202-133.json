@@ -65,7 +65,9 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "rapporto"
+      "rapporto",
+      "contesto",
+      "ruolo"
      ]
     },
     {
@@ -77,13 +79,15 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "amici"
+      "amici",
+      "compagni"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "compagni"
+      "compagni",
+      "amici"
      ]
     },
     {
@@ -95,13 +99,17 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "contesto"
+      "contesto",
+      "ruolo",
+      "rapporto"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "ruolo"
+      "ruolo",
+      "contesto",
+      "rapporto"
      ]
     },
     {
@@ -111,7 +119,6 @@
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

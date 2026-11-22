@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-grammatica-m3",
+ "title": "Che cosa hanno detto?",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Che cosa hanno detto? · livello medio.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Konjunktiv und Zeitenfolge, Bedingungssätze, indirekte Rede, Passiv, Relativsätze, Präpositionen"
+ },
+ "grammar": {
+  "topic": "it12-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Per capire e scrivere testi difficili devi usare con sicurezza queste strutture:\n| **congiuntivo** | _Penso che **sia** giusto._ · _Pensavo che **fosse** giusto._ · _Benché **piova**, esco._ |\n| **periodo ipotetico** | _Se **ho** tempo, **vengo**._ · _Se **avessi** tempo, **verrei**._ · _Se **avessi avuto** tempo, **sarei venuto**._ |\n| **tipo misto** | _Se **avessi studiato** ieri, oggi **sarei** tranquillo._ |\n| **discorso indiretto** (passato) | «Parto domani.» → _Ha detto che **sarebbe partito il giorno dopo**._ · «Vieni!» → _Mi ha detto **di venire**._ |\n| **passivo** | _La legge **è / viene** approvata._ · _La legge **è stata** approvata._ · _Le regole **vanno** rispettate._ (= devono essere) · _Qui **si parlano** tre lingue._ |\n| **relativi** | _il libro **di cui** parlo_ · _la ragione **per la quale** parto_ · _l’autore **il cui** libro …_ · _la città **le cui** strade …_ |\n**venire** + participio solo nei tempi semplici: _viene fatto, veniva fatto_ – ma: _è stato fatto_.\n**il cui / la cui / i cui / le cui**: l’articolo concorda con il nome che **segue** (_la scrittrice **il cui** romanzo_).\n**Verbi e aggettivi con preposizione:** rinunciare **a**, abituarsi **a**, partecipare **a**, riuscire **a** · accorgersi **di**, fidarsi **di**, capace **di**, cercare **di** · dipendere **da**, diverso **da**.",
+  "ruleHelp": "Auf B2 geht es darum, die bekannten Strukturen sicher zu verwenden:\n**Konjunktiv und Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente/passato (_Penso che sia …_); Hauptsatz in der Vergangenheit → congiuntivo imperfetto/trapassato (_Pensavo che fosse …_).\n**Bedingungssätze:** real (_Se ho tempo, vengo_), möglich (_Se avessi …, verrei_), irreal in der Vergangenheit (_Se avessi avuto …, sarei venuto_), gemischt (_Se avessi studiato, oggi sarei tranquillo_). Anders als im Deutschen steht nach **se** nie das condizionale.\n**Indirekte Rede in der Vergangenheit:** Präsens → imperfetto, passato prossimo → trapassato, Futur → condizionale passato, Imperativ → di + Infinitiv; _domani_ → _il giorno dopo_, _questo_ → _quello_, _qui_ → _lì_.\n**Passiv:** essere oder (nur in einfachen Zeiten) venire + Partizip; **andare** + Partizip = „muss … werden“; **si** + Verb (_Qui si parlano tre lingue_).\n**Relativsätze:** Präposition + cui / il quale; **il cui** = dessen/deren – der Artikel richtet sich nach dem folgenden Nomen.\n**Präpositionen** nach Verben und Adjektiven muss man mitlernen: rinunciare **a** (verzichten auf), dipendere **da** (abhängen von), capace **di** (fähig zu)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il discorso indiretto.",
+   "promptHelp": "Ergänze die indirekte Rede.",
+   "explanation": "Dopo ha detto che: presente → imperfetto, passato prossimo → trapassato prossimo, futuro → condizionale passato, imperativo → di + infinito. Cambiano anche domani → il giorno dopo, ieri → il giorno prima, qui → lì.",
+   "explanationHelp": "Nach ha detto che: Präsens → imperfetto, passato prossimo → trapassato prossimo, Futur → condizionale passato, Imperativ → di + Infinitiv. Auch Zeit- und Ortsangaben ändern sich (domani → il giorno dopo, qui → lì).",
+   "type": "gap_fill",
+   "text": "Sara: «Parto domani.» → Sara ha detto che [[g1]] il giorno dopo.\nMatteo: «Ho perso il treno.» → Matteo ha detto che [[g2]] il treno.\nLa prof: «Leggete l’articolo!» → La prof ci ha detto di [[g3]] l’articolo.\nChiara: «Non mi piace questa città.» → Chiara ha detto che non le [[g4]] quella città.\nDavide: «Hai tempo?» → Davide mi ha chiesto se [[g5]] tempo.\nGiulia: «Ieri sono andata a una manifestazione.» → Giulia ha raccontato che il giorno prima [[g6]] a una manifestazione.\nIl sindaco e gli assessori: «Costruiremo una nuova pista ciclabile.» → Il sindaco e gli assessori hanno promesso che [[g7]] una nuova pista ciclabile.\nMia madre: «Non tornare tardi!» → Mia madre mi ha detto di non [[g8]] tardi.\nI nonni: «Qui stiamo bene.» → I nonni hanno detto che [[g9]] stavano bene.\nLuca: «Dove lavora tuo padre?» → Luca mi ha chiesto dove [[g10]] mio padre.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "sarebbe partita",
+      "partiva"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva perso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "leggere"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "piaceva"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avessi",
+      "avevo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "era andata"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avrebbero costruito"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tornare"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "lì",
+      "là"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "lavorasse",
+      "lavorava"
+     ]
+    }
+   ]
+  }
+ ]
+}

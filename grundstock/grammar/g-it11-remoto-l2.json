@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-remoto-l2",
+ "title": "Il pescatore e il pesce d’oro",
+ "language": "it",
+ "level": "B1",
+ "description": "Passato remoto: riconoscere e comprendere · Il pescatore e il pesce d’oro · livello facile.",
+ "topics": [
+  "Passato remoto: riconoscere e comprendere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · passato remoto (rezeptiv: erkennen und verstehen)"
+ },
+ "grammar": {
+  "topic": "it11-remoto",
+  "topicTitle": "Passato remoto: riconoscere e comprendere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Il **passato remoto** si trova nei **testi scritti**: fiabe, romanzi, biografie, testi di storia. Ha lo stesso significato del passato prossimo: _Dante **nacque** a Firenze._ = _Dante **è nato** a Firenze._ Devi solo **riconoscerlo**.\n**Verbi regolari** (lui/lei · loro): parl**ò** · parl**arono** – cred**é** · cred**erono** – part**ì** · part**irono**\n| infinito | lui / lei | loro |\n| essere | **fu** | **furono** |\n| avere | **ebbe** | **ebbero** |\n| fare | **fece** | **fecero** |\n| dire | **disse** | **dissero** |\n| venire | **venne** | **vennero** |\n| vedere | **vide** | **videro** |\n| nascere | **nacque** | **nacquero** |\n| vivere | **visse** | **vissero** |\n| scrivere | **scrisse** | **scrissero** |\n| prendere | **prese** | **presero** |\n| mettere | **mise** | **misero** |\n_C’era una volta un re che **ebbe** tre figli. … E **vissero** tutti felici e contenti._",
+  "ruleHelp": "Das **passato remoto** ist die Erzählzeit **geschriebener Texte** (Märchen, Romane, Biografien, Geschichte). Es bedeutet dasselbe wie das passato prossimo: _nacque_ = _è nato_. Du musst die Formen nur **erkennen** und dem Infinitiv zuordnen, nicht selbst bilden.\nRegelmäßig (3. Person): parlò / parlarono, credé / crederono, partì / partirono. Wichtige unregelmäßige Formen: fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), vide (vedere), nacque (nascere), visse (vivere), scrisse (scrivere), prese (prendere), mise (mettere); Plural auf -ero: furono, ebbero, fecero, dissero …"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Leggi la fiaba. Quale passato prossimo corrisponde al passato remoto in grassetto?",
+   "promptHelp": "Lies das Märchen. Welches passato prossimo entspricht dem fett gedruckten passato remoto?",
+   "explanation": "Nelle fiabe: passato remoto per le azioni (prese, vide, disse), imperfetto per le descrizioni (c’era, viveva).",
+   "explanationHelp": "Im Märchen: passato remoto für Handlungen, imperfetto für Beschreibungen.",
+   "type": "gap_choice",
+   "text": "C’era una volta un giovane pescatore che viveva in un piccolo paese sul mare.\nUn giorno **prese** (= [[g1]]) la sua barca e **andò** (= [[g2]]) al largo.\nNella rete **vide** (= [[g3]]) un pesce d’oro.\nIl pesce **disse** (= [[g4]]): «Lasciami libero e un giorno ti aiuterò.»\nIl pescatore **ebbe** (= [[g5]]) pietà e lo **mise** (= [[g6]]) di nuovo in acqua.\nQuella sera sulla tavola c’era un grande tesoro, e a casa sua **vennero** (= [[g7]]) tutti i vicini per vederlo.\nIl pescatore **fu** (= [[g8]]) molto felice e **fece** (= [[g9]]) una grande festa.\nE tutti **vissero** (= [[g10]]) felici e contenti.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha preso",
+      "ha perso",
+      "hanno preso"
+     ],
+     "answer": "ha preso"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è andato",
+      "sono andati",
+      "è venuto"
+     ],
+     "answer": "è andato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ha visto",
+      "ha vissuto",
+      "ha voluto"
+     ],
+     "answer": "ha visto"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ha detto",
+      "ha dato",
+      "hanno detto"
+     ],
+     "answer": "ha detto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ha avuto",
+      "è stato",
+      "hanno avuto"
+     ],
+     "answer": "ha avuto"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ha messo",
+      "ha mosso",
+      "hanno messo"
+     ],
+     "answer": "ha messo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sono venuti",
+      "è venuto",
+      "hanno visto"
+     ],
+     "answer": "sono venuti"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "è stato",
+      "ha avuto",
+      "sono stati"
+     ],
+     "answer": "è stato"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ha fatto",
+      "ha detto",
+      "hanno fatto"
+     ],
+     "answer": "ha fatto"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "sono vissuti",
+      "hanno visto",
+      "è vissuto"
+     ],
+     "answer": "sono vissuti"
+    }
+   ]
+  }
+ ]
+}

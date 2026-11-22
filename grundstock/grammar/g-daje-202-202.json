@@ -58,7 +58,7 @@
   {
    "id": "q1a",
    "type": "matching",
-   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 1/2)",
+   "prompt": "Abbina ogni verbo al nome corrispondente. (parte 1/2)",
    "pairs": [
     {
      "id": "p1",
@@ -96,7 +96,7 @@
   {
    "id": "q1b",
    "type": "matching",
-   "prompt": "Completa le coppie. Usa la forma adatta al contesto. (parte 2/2)",
+   "prompt": "Abbina ogni verbo al nome corrispondente. (parte 2/2)",
    "pairs": [
     {
      "id": "p1",

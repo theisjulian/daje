@@ -60,7 +60,7 @@
    "type": "gap_fill",
    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
-   "text": "Cara Bea, oggi ti [[g1]] (scrivere, presente) da Bologna. [[g2]] (avere, presente) una bella notizia: questa mattina ho visitato Salaborsa. [[g3]] una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si [[g4]] (vedere, presente) tracce della storia della città. [[g5]] uno spazio interessante perché [[g6]] (permettere, presente) di osservare insieme un edificio attuale e resti del passato. Qui si [[g7]] (trovare, presente) libri, giornali, riviste e altri materiali.\nQueste informazioni [[g8]] (venire, presente) dal sito della biblioteca; il nostro itinerario, invece, [[g9]] un progetto immaginario per la classe. Noi [[g10]] (arrivare, presente) in treno, [[g11]] (lasciare, presente) le borse in albergo e [[g12]] (raggiungere, presente) il centro a piedi. Due compagni [[g13]] (cercare, presente) una guida della città; una compagna [[g14]] (preparare, presente) domande per il gruppo. Dopo la [[g15]] (visitare, presente) [[g16]] (fare, presente) una pausa in una piazza tranquilla. Io porto una piccola macchina fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il mio disegno rappresenta una grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
+   "text": "Cara Bea, oggi ti [[g1]] (scrivere, presente) da Bologna. [[g2]] (avere, presente) una bella notizia: questa mattina ho visitato Salaborsa. [[g3]] (essere, presente) una biblioteca dentro Palazzo d’Accursio, vicino a Piazza Maggiore. La biblioteca è stata inaugurata nel dicembre del 2001. Nella Piazza Coperta c’è un pavimento di vetro: sotto si [[g4]] (vedere, presente) tracce della storia della città. [[g5]] (essere, presente) uno spazio interessante perché [[g6]] (permettere, presente) di osservare insieme un edificio attuale e resti del passato. Qui si [[g7]] (trovare, presente) libri, giornali, riviste e altri materiali.\nQueste informazioni [[g8]] (venire, presente) dal sito della biblioteca; il nostro itinerario, invece, [[g9]] (essere, presente) un progetto immaginario per la classe. Noi [[g10]] (arrivare, presente) in treno, [[g11]] (lasciare, presente) le borse in albergo e [[g12]] (raggiungere, presente) il centro a piedi. Due compagni [[g13]] (cercare, presente) una guida della città; una compagna [[g14]] (preparare, presente) domande per il gruppo. Poi [[g15]] (visitare, presente) la biblioteca e [[g16]] (fare, presente) una pausa in una piazza tranquilla. Io porto una piccola macchina fotografica, ma prima di fare fotografie dentro gli edifici chiedo sempre se è possibile. Nel pomeriggio ognuno sceglie un dettaglio da disegnare. Il mio disegno rappresenta una grande finestra; i tuoi amici preferiscono le porte antiche. Domani raccoglieremo tutti i lavori in un quaderno comune. Un saluto dal nostro gruppo!",
    "gaps": [
     {
      "id": "g1",
@@ -149,7 +149,7 @@
     {
      "id": "g15",
      "acceptedAnswers": [
-      "visita"
+      "visitiamo"
      ]
     },
     {
@@ -158,8 +158,7 @@
       "facciamo"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

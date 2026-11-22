@@ -46,7 +46,7 @@
   {
    "id": "q1s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -87,7 +87,7 @@
   {
    "id": "q2s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -115,7 +115,7 @@
   {
    "id": "q3s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",
@@ -155,7 +155,7 @@
   {
    "id": "q4s1",
    "type": "ordering",
-   "prompt": "Riordina i gruppi di parole. Puoi confrontare il risultato con il significato della situazione.",
+   "prompt": "Riordina i gruppi di parole.",
    "items": [
     {
      "id": "p1",

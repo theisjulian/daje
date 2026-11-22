@@ -48,7 +48,7 @@
    "type": "gap_fill",
    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
    "promptHelp": "Ergänze den Text. Beachte die Angaben in Klammern.",
-   "text": "Ciao Rocco, [[g1]] (uscire, passato prossimo) prima del previsto perché mi [[g2]] (chiamare, passato prossimo) dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] (prendere + li) e [[g4]] (mettere + li) vicino alla parete, ma [[g5]] (non appendere + li) ancora. La colla è nell’armadio; [[g6]] (usare + la) soltanto sui fogli di prova. [[g7]] (comprare, passato prossimo) nuove forbici: le trovi nella scatola blu. [[g8]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g9]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. [[g10]] (telefonare, passato prossimo) a suo padre e gli [[g11]] (spiegare, passato prossimo) l’orario.\nPer favore, [[g12]] (preparare) i tavoli e [[g13]] (lasciare) libero il passaggio. [[g14]] (non spostare) la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
+   "text": "Ciao Rocco, [[g1]] (uscire, passato prossimo) prima del previsto perché mi [[g2]] (chiamare, passato prossimo) dalla scuola. Ti lascio alcune indicazioni per il laboratorio di oggi. I cartelloni sono sul tavolo: [[g3]] (prendere + li) e [[g4]] (mettere + li) vicino alla parete, ma [[g5]] (non appendere + li) ancora. La colla è nell’armadio; [[g6]] (usare + la) soltanto sui fogli di prova. [[g7]] (comprare, passato prossimo) nuove forbici: le trovi nella scatola blu. [[g8]] (controllare + le) prima di distribuirle. Se arriva Emma, [[g9]] (dire + le) che il suo gruppo lavorerà vicino alla finestra. [[g10]] (telefonare, passato prossimo + già) a suo padre e gli [[g11]] (spiegare, passato prossimo) l’orario.\nPer favore, [[g12]] (preparare) i tavoli e [[g13]] (lasciare) libero il passaggio. [[g14]] (non spostare) la pianta: ieri l’ho sistemata lì perché riceve più luce. I libri li ho messi sullo scaffale; scegli quelli con le immagini grandi e portali al gruppo. Se qualcuno ti chiede un foglio, dagli quelli nel primo cassetto. Ricordati di fare una pausa e non preoccuparti se non finite tutto. Mi interessa che tutti partecipino. Scrivimi soltanto se c’è un problema urgente; altrimenti ci sentiamo quando torno. Alla fine raccogli gli strumenti, contali e riponili nella scatola. Chiudi le finestre, spegni le luci e lascia la chiave alla reception. Grazie per il tuo aiuto, Silvia.",
    "gaps": [
     {
      "id": "g1",
@@ -59,7 +59,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "hanno chiamata"
+      "hanno chiamata",
+      "hanno chiamato"
      ]
     },
     {
@@ -77,7 +78,8 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "non appenderli"
+      "non appenderli",
+      "non li appendere"
      ]
     },
     {
@@ -107,7 +109,8 @@
     {
      "id": "g10",
      "acceptedAnswers": [
-      "Ho già telefonato"
+      "Ho già telefonato",
+      "Ho telefonato già"
      ]
     },
     {
@@ -134,8 +137,7 @@
       "Non spostare"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

@@ -1,0 +1,138 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-passivo-andare-s2",
+ "title": "Obbligo o no?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il passivo con andare · Obbligo o no? · livello difficile.",
+ "topics": [
+  "Il passivo con andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Passiv mit andare (Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "it11-passivo-andare",
+  "topicTitle": "Il passivo con andare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "**andare + participio passato** = **dover essere** + participio (obbligo, necessità):\n- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.\n- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.\nIl participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.\nSolo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).\nConfronto:\n| Il modulo **è / viene compilato**. | passivo «normale»: succede |\n| Il modulo **va compilato**. | passivo con obbligo: è necessario |",
+  "ruleHelp": "**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)\nDas Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).\nUnterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma al passivo: con andare + participio se c’è un obbligo (dovere, bisogna), con venire + participio se non c’è.",
+   "promptHelp": "Setze ins Passiv: mit andare + Partizip bei einer Pflicht (dovere, bisogna), sonst mit venire + Partizip.",
+   "explanation": "va fatto = deve essere fatto (obbligo); viene fatto = è fatto (nessun obbligo).",
+   "explanationHelp": "va fatto = muss gemacht werden; viene fatto = wird gemacht.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Gli studenti devono consegnare la relazione entro lunedì. → La relazione …",
+     "acceptedAnswers": [
+      "va consegnata"
+     ],
+     "modelAnswer": "La relazione va consegnata entro lunedì."
+    },
+    {
+     "id": "s2",
+     "start": "Il bidello apre la scuola alle sette. → La scuola …",
+     "acceptedAnswers": [
+      "viene aperta"
+     ],
+     "modelAnswer": "La scuola viene aperta alle sette."
+    },
+    {
+     "id": "s3",
+     "start": "Tutti devono rispettare l’ambiente. → L’ambiente …",
+     "acceptedAnswers": [
+      "va rispettato"
+     ],
+     "modelAnswer": "L’ambiente va rispettato da tutti."
+    },
+    {
+     "id": "s4",
+     "start": "Molti giovani usano i social ogni giorno. → I social …",
+     "acceptedAnswers": [
+      "vengono usati"
+     ],
+     "modelAnswer": "I social vengono usati ogni giorno da molti giovani."
+    },
+    {
+     "id": "s5",
+     "start": "Dovete spegnere le luci quando uscite. → Le luci …",
+     "acceptedAnswers": [
+      "vanno spente"
+     ],
+     "modelAnswer": "Le luci vanno spente quando uscite."
+    },
+    {
+     "id": "s6",
+     "start": "Una giornalista famosa scrive questo blog. → Questo blog …",
+     "acceptedAnswers": [
+      "viene scritto"
+     ],
+     "modelAnswer": "Questo blog viene scritto da una giornalista famosa."
+    },
+    {
+     "id": "s7",
+     "start": "Dobbiamo ridurre i rifiuti di plastica. → I rifiuti di plastica …",
+     "acceptedAnswers": [
+      "vanno ridotti"
+     ],
+     "modelAnswer": "I rifiuti di plastica vanno ridotti."
+    },
+    {
+     "id": "s8",
+     "start": "La scuola organizza uno scambio con Monaco. → Uno scambio con Monaco …",
+     "acceptedAnswers": [
+      "viene organizzato"
+     ],
+     "modelAnswer": "Uno scambio con Monaco viene organizzato dalla scuola."
+    },
+    {
+     "id": "s9",
+     "start": "Bisogna verificare le notizie prima di condividerle. → Le notizie …",
+     "acceptedAnswers": [
+      "vanno verificate"
+     ],
+     "modelAnswer": "Le notizie vanno verificate prima di condividerle."
+    },
+    {
+     "id": "s10",
+     "start": "Dovevamo prenotare i biglietti una settimana fa. → I biglietti …",
+     "acceptedAnswers": [
+      "andavano prenotati"
+     ],
+     "modelAnswer": "I biglietti andavano prenotati una settimana fa."
+    }
+   ]
+  }
+ ]
+}

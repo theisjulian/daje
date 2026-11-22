@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-quello-che-m2",
+ "title": "La cosa che …",
+ "language": "it",
+ "level": "A2",
+ "description": "Quello che e ciò che · La cosa che … · livello medio.",
+ "topics": [
+  "Quello che e ciò che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze ohne Bezugswort: quello che, ciò che, tutto quello che"
+ },
+ "grammar": {
+  "topic": "ecco2-quello-che",
+  "topicTitle": "Quello che e ciò che",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Quello che** e **ciò che** significano «la cosa che» / «le cose che». Prima **non c’è un nome**:\n- _**Quello che** dici è vero._ = _**Ciò che** dici è vero._\n- _Non capisco **quello che** dice la guida._\n- _Compra **tutto quello che** vuoi!_ (= tutto ciò che)\n_Quello che_ si usa di più quando si parla, _ciò che_ quando si scrive. Non cambiano mai.\nConfronta:\n| **che** (dopo un nome) | _Il museo **che** abbiamo visitato è grande._ |\n| **quello che / ciò che** (senza nome) | _**Quello che** abbiamo visto è bellissimo._ |\n| **che cosa?** (domanda) | _**Che cosa** avete visto?_ |\nAttenzione: mai _tutto che_! Sempre **tutto quello che** o **tutto ciò che**.",
+  "ruleHelp": "**quello che** und **ciò che** heißen „das, was“. Davor steht **kein Nomen**: _Quello che dici è vero._ (Was du sagst, stimmt.) Beide sind gleichbedeutend und unveränderlich; _ciò che_ klingt etwas schriftlicher.\n„alles, was“ = **tutto quello che / tutto ciò che** (nie _tutto che_).\nUnterschied: nach einem Nomen steht nur **che** (_il museo che …_ = das Museum, das …); in der Frage „Was …?“ steht **che cosa** (_Che cosa vuoi?_). Das deutsche „was“ hat also drei Entsprechungen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase con quello che (o ciò che).",
+   "promptHelp": "Schreibe den Satz mit quello che (oder ciò che) neu.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "La cosa che mi piace di più a Roma è il gelato. → … è il gelato.",
+     "acceptedAnswers": [
+      "Quello che mi piace",
+      "Ciò che mi piace"
+     ],
+     "modelAnswer": "Quello che mi piace di più a Roma è il gelato. (Anche: Ciò che mi piace di più a Roma è il gelato.)"
+    },
+    {
+     "id": "s2",
+     "start": "Non capisco le cose che dice la guida. → Non capisco …",
+     "acceptedAnswers": [
+      "quello che dice la guida",
+      "ciò che dice la guida"
+     ],
+     "modelAnswer": "Non capisco quello che dice la guida. (Anche: ciò che dice la guida.)"
+    },
+    {
+     "id": "s3",
+     "start": "Hai comprato le cose che volevi? → Hai comprato …?",
+     "acceptedAnswers": [
+      "quello che volevi",
+      "ciò che volevi"
+     ],
+     "modelAnswer": "Hai comprato quello che volevi? (Anche: ciò che volevi?)"
+    },
+    {
+     "id": "s4",
+     "start": "Tutte le cose che vedi qui sono antiche. → … è antico.",
+     "acceptedAnswers": [
+      "Tutto quello che vedi qui",
+      "Tutto ciò che vedi qui"
+     ],
+     "modelAnswer": "Tutto quello che vedi qui è antico. (Anche: Tutto ciò che vedi qui è antico.)"
+    },
+    {
+     "id": "s5",
+     "start": "La cosa che ha detto Luca è vera. → … è vero.",
+     "acceptedAnswers": [
+      "Quello che ha detto Luca",
+      "Ciò che ha detto Luca"
+     ],
+     "modelAnswer": "Quello che ha detto Luca è vero. (Anche: Ciò che ha detto Luca è vero.)"
+    },
+    {
+     "id": "s6",
+     "start": "Ti racconto tutte le cose che ho visto. → Ti racconto …",
+     "acceptedAnswers": [
+      "tutto quello che ho visto",
+      "tutto ciò che ho visto"
+     ],
+     "modelAnswer": "Ti racconto tutto quello che ho visto. (Anche: tutto ciò che ho visto.)"
+    },
+    {
+     "id": "s7",
+     "start": "La cosa che non mi piace è il traffico. → … è il traffico.",
+     "acceptedAnswers": [
+      "Quello che non mi piace",
+      "Ciò che non mi piace"
+     ],
+     "modelAnswer": "Quello che non mi piace è il traffico. (Anche: Ciò che non mi piace è il traffico.)"
+    },
+    {
+     "id": "s8",
+     "start": "Faccio sempre le cose che dice la prof. → Faccio sempre …",
+     "acceptedAnswers": [
+      "quello che dice la prof",
+      "ciò che dice la prof"
+     ],
+     "modelAnswer": "Faccio sempre quello che dice la prof. (Anche: ciò che dice la prof.)"
+    }
+   ]
+  }
+ ]
+}

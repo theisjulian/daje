@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-s2",
+ "title": "In cucina con i fratelli",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · In cucina con i fratelli · livello difficile.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con migliore, migliori, peggiore, meglio, peggio, maggiore o minore.",
+   "promptHelp": "Ergänze migliore, migliori, peggiore, meglio, peggio, maggiore oder minore.",
+   "explanation": "Aggettivi (con un nome): migliore, peggiore, maggiore, minore. Avverbi (con un verbo): meglio, peggio.",
+   "explanationHelp": "Adjektive (beim Nomen): migliore, peggiore, maggiore, minore. Adverbien (beim Verb): meglio, peggio.",
+   "type": "gap_fill",
+   "text": "Ho due fratelli: Paolo ha vent’anni ed è il fratello [[g1]]; Tommaso ha otto anni ed è il fratello [[g2]].\nPaolo cucina bene, ma la mamma cucina [[g3]] di lui.\nLe lasagne della mamma sono [[g4]] delle lasagne del ristorante!\nIo invece cucino male, e Tommaso cucina ancora [[g5]] di me.\nIeri ho fatto una pizza cattiva, ma la pizza di Tommaso era ancora [[g6]].\nPer fortuna la nonna ha avuto un’idea [[g7]]: ordinare la cena in pizzeria.\nCosì abbiamo mangiato molto [[g8]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "maggiore"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "minore"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "meglio"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "migliori"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "peggio"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "peggiore"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "migliore"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "meglio"
+     ]
+    }
+   ]
+  }
+ ]
+}

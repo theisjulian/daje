@@ -46,7 +46,7 @@
   {
    "id": "q1",
    "type": "categorize",
-   "prompt": "Classifica gli elementi nel loro contesto: categoria grammaticale oppure modo e tempo. Spiega quale indizio ti aiuta.",
+   "prompt": "Classifica le forme verbali del testo secondo il tempo.",
    "categories": [
     {
      "id": "c1",
@@ -69,12 +69,12 @@
     },
     {
      "id": "i2",
-     "text": "«ricevette» — ricevere, passato remoto",
+     "text": "«ricevette» — ricevere",
      "category": "c2"
     },
     {
      "id": "i3",
-     "text": "«Partì» — partire, passato remoto",
+     "text": "«Partì» — partire",
      "category": "c2"
     },
     {
@@ -89,12 +89,12 @@
     },
     {
      "id": "i6",
-     "text": "«incontrò» — incontrare, passato remoto",
+     "text": "«incontrò» — incontrare",
      "category": "c2"
     },
     {
      "id": "i7",
-     "text": "«disse» — dire, passato remoto",
+     "text": "«disse» — dire",
      "category": "c2"
     }
    ],

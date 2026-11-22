@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-l3",
+ "title": "Che tipo di frase è?",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · Che tipo di frase è? · livello facile.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Come mette in rilievo la frase? Metti ogni frase nel gruppo giusto.",
+   "promptHelp": "Wie hebt der Satz etwas hervor? Ordne jeden Satz der richtigen Gruppe zu.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "È … che …"
+    },
+    {
+     "id": "b",
+     "label": "oggetto all’inizio + pronome"
+    },
+    {
+     "id": "c",
+     "label": "soggetto dopo il verbo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "È Marta che canta.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Il biglietto, l’ho già comprato.",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "Pago io!",
+     "category": "c"
+    },
+    {
+     "id": "i4",
+     "text": "Sono loro che suonano stasera.",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "A Luca, gli scrivo dopo.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "Stasera cucino io.",
+     "category": "c"
+    },
+    {
+     "id": "i7",
+     "text": "Di musica, ne parliamo sempre.",
+     "category": "b"
+    },
+    {
+     "id": "i8",
+     "text": "È domani che parte il treno.",
+     "category": "a"
+    },
+    {
+     "id": "i9",
+     "text": "Oggi guidi tu.",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "Questa canzone, la conosco bene.",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

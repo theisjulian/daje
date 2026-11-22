@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-presente-s4",
+ "title": "La mia opinione sui social",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo presente · La mia opinione sui social · livello difficile.",
+ "topics": [
+  "Il congiuntivo presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-presente",
+  "topicTitle": "Il congiuntivo presente",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 24,
+  "rule": "Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._\n| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |\n| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |\n| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |\n| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |\n| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |\n**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**\n**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.\n**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._\n**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._",
+  "ruleHelp": "Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).\nDie drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.\nUnregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.\n**Indikativ** nach _secondo me, so che, è vero che, vedo che_.\nGleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa pensi dei social? Scrivi 5 frasi. Usa: penso che, credo che, spero che, è importante che, secondo me.",
+   "promptHelp": "Was denkst du über soziale Medien? Schreibe 5 Sätze mit den angegebenen Ausdrücken.",
+   "type": "open_answer",
+   "modelAnswer": "Penso che i social siano utili per parlare con gli amici. Credo che molti ragazzi passino troppo tempo online. Spero che i miei amici non pubblichino foto brutte di me. È importante che tutti rispettino gli altri. Secondo me, un giorno senza telefono fa bene.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma è giusta?",
+   "promptHelp": "Prüfe: Welche Form ist richtig?",
+   "type": "gap_choice",
+   "text": "Penso che i social [[g1]] utili.\nSecondo me, i social [[g2]] utili.\nSpero di [[g3]] nuovi amici online.\nÈ importante che tutti [[g4]] gli altri.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "siano",
+      "sono"
+     ],
+     "answer": "siano"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sono",
+      "siano"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "trovare",
+      "trovi"
+     ],
+     "answer": "trovare"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "rispettino",
+      "rispettano"
+     ],
+     "answer": "rispettino"
+    }
+   ]
+  }
+ ]
+}

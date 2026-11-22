@@ -73,7 +73,8 @@
      "id": "s3",
      "start": "Aiutami! (tu)",
      "acceptedAnswers": [
-      "Potresti aiutarmi"
+      "Potresti aiutarmi",
+      "Mi potresti aiutare"
      ],
      "modelAnswer": "Potresti aiutarmi?"
     },
@@ -97,7 +98,8 @@
      "id": "s6",
      "start": "Mi dica l’ora! (Lei)",
      "acceptedAnswers": [
-      "Potrebbe dirmi l’ora"
+      "Potrebbe dirmi l’ora",
+      "Mi potrebbe dire l’ora"
      ],
      "modelAnswer": "Potrebbe dirmi l’ora?"
     },
@@ -105,7 +107,8 @@
      "id": "s7",
      "start": "Prestami il libro! (tu)",
      "acceptedAnswers": [
-      "Potresti prestarmi il libro"
+      "Potresti prestarmi il libro",
+      "Mi potresti prestare il libro"
      ],
      "modelAnswer": "Potresti prestarmi il libro?"
     },

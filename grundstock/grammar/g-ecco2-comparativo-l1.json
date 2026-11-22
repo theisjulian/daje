@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-comparativo-l1",
+ "title": "Che cosa vuol dire?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il comparativo · Che cosa vuol dire? · livello facile.",
+ "topics": [
+  "Il comparativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Komparativ (più / meno … di / che, così … come), unregelmäßige Formen"
+ },
+ "grammar": {
+  "topic": "ecco2-comparativo",
+  "topicTitle": "Il comparativo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "| **più** … **di** | + | _Roma è **più** grande **di** Milano._ |\n| **meno** … **di** | – | _Il treno è **meno** caro **dell’**aereo._ |\n| (così) … **come** / (tanto) … **quanto** | = | _Luca è alto **come** Sara. Luca è alto **quanto** Sara._ |\n**di** (+ articolo: del, della, dell’, dei, delle …) prima di un **nome** o di un **pronome**: _più alto **di** me, più lungo **del** Tevere_.\n**che** quando confrontiamo\n- due aggettivi: _La piazza è più lunga **che** larga._\n- due verbi: _È più facile leggere **che** parlare._\n- due quantità: _In classe ci sono più ragazze **che** ragazzi._\n- e prima di una preposizione: _Fa più caldo a Roma **che** a Monaco._\n**Forme speciali:**\n| buono → **migliore** | cattivo → **peggiore** | grande → **maggiore** | piccolo → **minore** |\nAvverbi: bene → **meglio**, male → **peggio**.\n_Questa pizza è **migliore** dell’altra._ (aggettivo) · _Qui si mangia **meglio**._ (avverbio) · _il fratello **maggiore**, la sorella **minore**_ (età)",
+  "ruleHelp": "Komparativ: **più … di** (mehr), **meno … di** (weniger), **(così) … come / (tanto) … quanto** (genauso … wie). Das deutsche „als“ heißt meistens **di** (mit Artikel: del, della …), nämlich vor Nomen und Pronomen.\n**che** steht, wenn man zwei Adjektive, zwei Verben oder zwei Mengen vergleicht, und vor einer Präposition: _più a Roma **che** a Monaco_.\nUnregelmäßig: **migliore** (besser, Adjektiv), **peggiore** (schlechter), **maggiore** (älter / größer), **minore** (jünger / kleiner); Adverbien: **meglio**, **peggio**. Nie _più migliore_ oder _più meglio_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la frase italiana alla traduzione.",
+   "promptHelp": "Verbinde den italienischen Satz mit der Übersetzung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Roma è più grande di Firenze.",
+     "right": "Rom ist größer als Florenz."
+    },
+    {
+     "id": "p2",
+     "left": "Il treno è meno caro dell’aereo.",
+     "right": "Der Zug ist weniger teuer als das Flugzeug."
+    },
+    {
+     "id": "p3",
+     "left": "Luca è alto come suo padre.",
+     "right": "Luca ist so groß wie sein Vater."
+    },
+    {
+     "id": "p4",
+     "left": "Questa pizzeria è migliore dell’altra.",
+     "right": "Diese Pizzeria ist besser als die andere."
+    },
+    {
+     "id": "p5",
+     "left": "Oggi sto meglio di ieri.",
+     "right": "Heute geht es mir besser als gestern."
+    },
+    {
+     "id": "p6",
+     "left": "La sorella maggiore di Luca studia a Roma.",
+     "right": "Lucas ältere Schwester studiert in Rom."
+    },
+    {
+     "id": "p7",
+     "left": "Il fratello minore di Sara ha sei anni.",
+     "right": "Saras jüngerer Bruder ist sechs Jahre alt."
+    },
+    {
+     "id": "p8",
+     "left": "Oggi il tempo è peggiore di ieri.",
+     "right": "Heute ist das Wetter schlechter als gestern."
+    },
+    {
+     "id": "p9",
+     "left": "È più facile capire che parlare.",
+     "right": "Verstehen ist leichter als sprechen."
+    }
+   ]
+  }
+ ]
+}

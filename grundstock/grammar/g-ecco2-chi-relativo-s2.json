@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-s2",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 72,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i dieci errori.",
+   "promptHelp": "Korrigiere die zehn Fehler.",
+   "explanation": "chi: senza nome, verbo al singolare. che: dopo un nome (la collega che, il libro che).",
+   "explanationHelp": "chi: ohne Bezugswort, Verb im Singular. che: nach einem Nomen.",
+   "type": "error_correction",
+   "text": "Chi [[g1]] le lingue trova lavoro più facilmente.\nLa collega [[g2]] lavora con me è di Napoli.\n[[g3]] arriva in ritardo deve avvisare il capo.\nChi dorme non [[g4]] pesci.\nParlo volentieri con [[g5]] mi capisce.\nIl libro [[g6]] leggo parla di lavoro e di sogni.\nChi [[g7]] fare lo stage deve mandare una mail.\nDo una mano a [[g8]] ha bisogno.\nChi va piano va sano e [[g9]] lontano.\nGli studenti [[g10]] hanno finito possono uscire.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "studiano",
+     "acceptedAnswers": [
+      "studia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Che",
+     "acceptedAnswers": [
+      "Chi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "pigliano",
+     "acceptedAnswers": [
+      "piglia"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "vogliono",
+     "acceptedAnswers": [
+      "vuole"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "che",
+     "acceptedAnswers": [
+      "chi"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "vanno",
+     "acceptedAnswers": [
+      "va"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    }
+   ]
+  }
+ ]
+}

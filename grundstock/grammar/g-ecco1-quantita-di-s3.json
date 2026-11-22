@@ -73,7 +73,9 @@
      "start": "(500 g Nudeln)",
      "acceptedAnswers": [
       "mezzo chilo di pasta",
-      "cinque etti di pasta"
+      "cinque etti di pasta",
+      "cinquecento grammi di pasta",
+      "500 grammi di pasta"
      ],
      "modelAnswer": "mezzo chilo di pasta"
     },
@@ -82,7 +84,8 @@
      "start": "(1 Packung Kekse)",
      "acceptedAnswers": [
       "un pacco di biscotti",
-      "una scatola di biscotti"
+      "una scatola di biscotti",
+      "un pacchetto di biscotti"
      ],
      "modelAnswer": "un pacco di biscotti"
     },
@@ -90,7 +93,9 @@
      "id": "s4",
      "start": "(300 g Schinken)",
      "acceptedAnswers": [
-      "tre etti di prosciutto"
+      "tre etti di prosciutto",
+      "trecento grammi di prosciutto",
+      "300 grammi di prosciutto"
      ],
      "modelAnswer": "tre etti di prosciutto"
     }

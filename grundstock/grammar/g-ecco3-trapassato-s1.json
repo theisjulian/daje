@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-trapassato-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "B1",
+ "description": "Il trapassato prossimo · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il trapassato prossimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 2 · Vivere all’estero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · trapassato prossimo (Vorvergangenheit)"
+ },
+ "grammar": {
+  "topic": "ecco3-trapassato",
+  "topicTitle": "Il trapassato prossimo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "Il **trapassato prossimo** = **imperfetto** di _avere_ o _essere_ + **participio passato**.\n| avere | **avevo, avevi, aveva, avevamo, avevate, avevano** + visto |\n| essere | **ero, eri, era, eravamo, eravate, erano** + partito / partita / partiti / partite |\nIndica un’azione che è successa **prima** di un’altra azione nel passato:\n_Quando sono arrivato alla stazione, il treno **era** già **partito**._ (prima: il treno parte · dopo: io arrivo)\nSi usa spesso con **già**, **appena**, **non … ancora**, **mai … prima**: _Non **avevo** mai **visto** il mare prima._\nCon **essere** il participio concorda con il soggetto: _Sara **era** già **uscita**._",
+  "ruleHelp": "**Trapassato prossimo** (Plusquamperfekt) = Imperfekt von avere / essere + Partizip: _avevo visto_ (ich hatte gesehen), _ero partito/-a_ (ich war abgefahren).\nEs drückt aus, was **vor** einem anderen Ereignis in der Vergangenheit passiert war: _Quando sono arrivato, il treno era già partito._\nHäufig mit già, appena, non … ancora, mai … prima. Hilfsverb und Angleichung wie beim passato prossimo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i nove errori: ausiliare, participio o tempo.",
+   "promptHelp": "Korrigiere die neun Fehler: Hilfsverb, Partizip oder Zeitform.",
+   "explanation": "Trapassato prossimo: imperfetto di essere / avere + participio. Con essere il participio concorda.",
+   "explanationHelp": "Trapassato prossimo: Imperfekt von essere / avere + Partizip; bei essere wird das Partizip angeglichen.",
+   "type": "error_correction",
+   "text": "Quando sono arrivata alla stazione, il treno [[g1]] già partito.\nSara non è venuta alla festa perché era [[g2]] a casa con la febbre.\nAvevo già [[g3]] tre mail, ma nessuno aveva risposto.\nQuando siamo entrati in classe, la lezione [[g4]].\nI ragazzi erano stanchi perché [[g5]] camminato tutto il giorno.\nSiamo arrivati tardi perché avevamo [[g6]] il treno sbagliato.\nLe mie sorelle [[g7]] già uscite quando ho telefonato.\nLuca conosceva bene Londra perché ci [[g8]] già stato due volte.\n[[g9]] appena arrivata a casa quando ha cominciato a piovere.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "aveva",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "rimasto",
+     "acceptedAnswers": [
+      "rimasta"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "scrivuto",
+     "acceptedAnswers": [
+      "scritto"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "è già cominciata",
+     "acceptedAnswers": [
+      "era già cominciata"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "erano",
+     "acceptedAnswers": [
+      "avevano"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "prenduto",
+     "acceptedAnswers": [
+      "preso"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "era",
+     "acceptedAnswers": [
+      "erano"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "aveva",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "Avevo",
+     "acceptedAnswers": [
+      "Ero"
+     ]
+    }
+   ]
+  }
+ ]
+}

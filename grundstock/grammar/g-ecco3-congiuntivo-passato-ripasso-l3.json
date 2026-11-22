@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-congiuntivo-passato-ripasso-l3",
+ "title": "Dall’indicativo al congiuntivo",
+ "language": "it",
+ "level": "B1",
+ "description": "Il congiuntivo passato: ripasso · Dall’indicativo al congiuntivo · livello facile.",
+ "topics": [
+  "Il congiuntivo passato: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · congiuntivo passato (Wiederholung), Vorzeitigkeit nach Ausdrücken der Meinung, des Gefühls und des Zweifels"
+ },
+ "grammar": {
+  "topic": "ecco3-congiuntivo-passato-ripasso",
+  "topicTitle": "Il congiuntivo passato: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | avere + fatto | essere + andato |\n| che io | **abbia** fatto | **sia** andato/-a |\n| che tu | **abbia** fatto | **sia** andato/-a |\n| che lui / lei | **abbia** fatto | **sia** andato/-a |\n| che noi | **abbiamo** fatto | **siamo** andati/-e |\n| che voi | **abbiate** fatto | **siate** andati/-e |\n| che loro | **abbiano** fatto | **siano** andati/-e |\nLo usiamo dopo _penso che, credo che, spero che, mi sembra che, è possibile che, sono contento che_ …, quando il fatto è **già successo**:\n- _Penso che Luca **sia arrivato** ieri._ (prima)\n- _Penso che Luca **arrivi** domani._ (adesso o dopo → congiuntivo presente)\nCon **essere** il participio concorda con il soggetto: _Credo che le ragazze **siano partite**._",
+  "ruleHelp": "Der **congiuntivo passato** wird mit dem congiuntivo presente von **avere/essere + Partizip** gebildet: _abbia fatto, sia andato/-a_.\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, spero che, è possibile che …), wenn das Geschehen **schon vorbei** ist: _Penso che Luca sia arrivato ieri._ (Ich glaube, dass Luca gestern angekommen ist.) Im Deutschen steht hier einfach das Perfekt im Indikativ.\nMit **essere** wird das Partizip an das Subjekt angeglichen: _siano partite_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il passato prossimo al congiuntivo passato.",
+   "promptHelp": "Verbinde das passato prossimo mit dem congiuntivo passato.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "ho mangiato",
+     "right": "che io abbia mangiato"
+    },
+    {
+     "id": "p2",
+     "left": "sei uscita",
+     "right": "che tu sia uscita"
+    },
+    {
+     "id": "p3",
+     "left": "ha scritto",
+     "right": "che lui abbia scritto"
+    },
+    {
+     "id": "p4",
+     "left": "è rimasta",
+     "right": "che lei sia rimasta"
+    },
+    {
+     "id": "p5",
+     "left": "abbiamo visto",
+     "right": "che noi abbiamo visto"
+    },
+    {
+     "id": "p6",
+     "left": "siete venuti",
+     "right": "che voi siate venuti"
+    },
+    {
+     "id": "p7",
+     "left": "hanno preso",
+     "right": "che loro abbiano preso"
+    },
+    {
+     "id": "p8",
+     "left": "sono partite",
+     "right": "che loro siano partite"
+    }
+   ]
+  }
+ ]
+}

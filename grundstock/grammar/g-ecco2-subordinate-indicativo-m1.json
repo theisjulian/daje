@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-m1",
+ "title": "La nonna ieri e oggi",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · La nonna ieri e oggi · livello medio.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti il verbo al tempo giusto (presente, passato prossimo, imperfetto o futuro).",
+   "promptHelp": "Setze das Verb in die richtige Zeit (Präsens, passato prossimo, imperfetto oder Futur).",
+   "explanation": "quando / siccome / mentre + imperfetto per descrivere il passato; ieri → passato prossimo; domani → futuro (o presente).",
+   "explanationHelp": "quando / siccome / mentre + imperfetto für Beschreibungen in der Vergangenheit; ieri → passato prossimo; domani → Futur (oder Präsens).",
+   "type": "gap_fill",
+   "text": "Quando la nonna (essere) [[g1]] giovane, non (esistere) [[g2]] i cellulari.\nSiccome non (avere, lei) [[g3]] il telefono a casa, scriveva molte lettere.\nMentre lei (scrivere) [[g4]], sua madre cucinava.\nOggi la nonna dice che la vita (essere) [[g5]] più comoda.\nUsa il tablet ogni giorno, anche se non (capire) [[g6]] tutto.\nAppena (ricevere) [[g7]] una foto, risponde con un cuore.\nSo che ieri (mandare, lei) [[g8]] dieci messaggi alla zia.\nE sono sicura che domani mi (chiamare, lei) [[g9]] di nuovo.\nSe domani (fare) [[g10]] bel tempo, andiamo insieme al parco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "era"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "esistevano"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "scriveva"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "capisce"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "riceve"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ha mandato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "chiamerà",
+      "chiama"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "fa",
+      "farà"
+     ]
+    }
+   ]
+  }
+ ]
+}

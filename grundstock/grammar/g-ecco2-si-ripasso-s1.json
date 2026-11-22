@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-s1",
+ "title": "Dieci errori con si",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · Dieci errori con si · livello difficile.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi l’errore in ogni frase.",
+   "promptHelp": "Korrigiere den Fehler in jedem Satz.",
+   "explanation": "Nome singolare o nessun nome → verbo al singolare; nome plurale → verbo al plurale; non sta prima di si.",
+   "explanationHelp": "Nomen im Singular oder kein Nomen → Verb im Singular; Nomen im Plural → Verb im Plural; non steht vor si.",
+   "type": "error_correction",
+   "text": "In Italia si [[g1]] molta pasta.\nIn questa scuola si [[g2]] tre lingue.\nA Ferragosto [[g3]] al mare.\nQui [[g4]] parla tedesco.\nD’inverno si [[g5]] molte gite sulla neve.\nCome [[g6]] «grazie» in tedesco?\nIn biblioteca [[g7]] parlare piano.\nAl mercato si [[g8]] i pomodori freschi.\nUna volta in paese si [[g9]] per strada.\nUna volta si [[g10]] molte lettere.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "mangiano",
+     "acceptedAnswers": [
+      "mangia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "studia",
+     "acceptedAnswers": [
+      "studiano"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "si vanno",
+     "acceptedAnswers": [
+      "si va"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "si non",
+     "acceptedAnswers": [
+      "non si"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "fa",
+     "acceptedAnswers": [
+      "fanno"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "si dicono",
+     "acceptedAnswers": [
+      "si dice"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "si devono",
+     "acceptedAnswers": [
+      "si deve"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "compra",
+     "acceptedAnswers": [
+      "comprano"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "giocavano",
+     "acceptedAnswers": [
+      "giocava"
+     ]
+    },
+    {
+     "id": "g10",
+     "wrong": "scriveva",
+     "acceptedAnswers": [
+      "scrivevano"
+     ]
+    }
+   ]
+  }
+ ]
+}

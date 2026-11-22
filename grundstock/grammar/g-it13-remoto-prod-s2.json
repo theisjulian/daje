@@ -1,0 +1,127 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-remoto-prod-s2",
+ "title": "La grotta d’argento",
+ "language": "it",
+ "level": "B2",
+ "description": "Passato remoto: uso produttivo · La grotta d’argento · livello difficile.",
+ "topics": [
+  "Passato remoto: uso produttivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · passato remoto beim literarischen und historischen Erzählen; Abgrenzung zu imperfetto und trapassato prossimo"
+ },
+ "grammar": {
+  "topic": "it13-remoto-prod",
+  "topicTitle": "Passato remoto: uso produttivo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Nei racconti letterari e storici i tempi del passato lavorano insieme:\n| **passato remoto** | azioni concluse, una dopo l’altra (la storia va avanti) | _**Aprì** la porta, **entrò** e **vide** una stanza vuota._ |\n| **imperfetto** | descrizioni, abitudini, azioni in corso (lo sfondo) | _**Era** notte e **pioveva**. Ogni mattina **andava** nel bosco._ |\n| **trapassato prossimo** | quello che era successo **prima** | _Riconobbe l’uomo che **aveva visto** il giorno prima._ |\n| **trapassato remoto** (solo da riconoscere) | dopo _dopo che, appena, quando_ in testi letterari | _Dopo che **ebbe finito**, uscì._ |\n_**Mentre** + imperfetto, … passato remoto:_ **Mentre camminava** nel bosco, **sentì** una voce.\n**Dal passato prossimo al passato remoto:** _è nato_ → **nacque** · _ha scritto_ → **scrisse** · _sono partiti_ → **partirono** · _hanno avuto_ → **ebbero** · _ha conosciuto_ → **conobbe** · _è stato_ → **fu**.\nFormule delle fiabe: _**C’era** una volta … · Un giorno … · … e **vissero** felici e contenti._",
+  "ruleHelp": "In literarischen und historischen Erzählungen arbeiten die Vergangenheitszeiten zusammen:\n**passato remoto** = abgeschlossene Handlungen nacheinander, die Geschichte geht voran (_Aprì la porta, entrò e vide …_); **imperfetto** = Hintergrund: Beschreibungen, Gewohnheiten, laufende Handlungen (_Era notte e pioveva._); **trapassato prossimo** = was vorher geschehen war (_l’uomo che aveva visto il giorno prima_).\nDas **trapassato remoto** (_dopo che ebbe finito_) musst du nur erkennen; es steht in literarischen Texten nach _dopo che, appena, quando_.\nTypisch: _Mentre_ + imperfetto, dann passato remoto für das neu eintretende Ereignis. Das Deutsche hat für all das nur das Präteritum (bzw. Plusquamperfekt) – im Italienischen musst du jedes Mal entscheiden: Hintergrund oder Ereignis?"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la leggenda: scegli tu tra passato remoto, imperfetto e trapassato prossimo.",
+   "promptHelp": "Ergänze die Legende: Entscheide selbst zwischen passato remoto, imperfetto und trapassato prossimo.",
+   "explanation": "Sfondo e azione in corso → imperfetto (riposava, c’era, brillava); fatti che succedono uno dopo l’altro → passato remoto (sentì, si alzò, bevve, si svegliò); quello che era successo prima → trapassato prossimo (era passato, era sparita).",
+   "explanationHelp": "Hintergrund und laufende Handlung → imperfetto (riposava, c’era, brillava); Ereignisse nacheinander → passato remoto (sentì, si alzò, bevve, si svegliò); Vorzeitiges → trapassato prossimo (era passato, era sparita).",
+   "type": "gap_fill",
+   "text": "Molti secoli fa, in un villaggio di montagna, (vivere) [[g1]] un giovane pastore di nome Tonio.\nUn giorno d’estate, mentre (riposare) [[g2]] sotto un albero, (sentire) [[g3]] una musica strana.\n(alzarsi) [[g4]] e, seguendo il suono, arrivò davanti a una grotta.\nTonio (passare) [[g5]] di lì cento volte, ma non l’aveva mai notata.\nDentro (esserci) [[g6]] un piccolo lago che (brillare) [[g7]] come l’argento.\nIl pastore (bere) [[g8]] un po’ d’acqua e subito (addormentarsi) [[g9]].\nQuando finalmente (svegliarsi) [[g10]], era già notte e la grotta (sparire) [[g11]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "viveva",
+      "visse"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "riposava"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sentì"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Si alzò"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "era passato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "c’era"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "brillava"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "bevve",
+      "bevette"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "si addormentò"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "si svegliò"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "era sparita"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-implicite-l2",
+ "title": "Che forma è?",
+ "language": "it",
+ "level": "B1",
+ "description": "Gerundio e participi · Che forma è? · livello facile.",
+ "topics": [
+  "Gerundio e participi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)"
+ },
+ "grammar": {
+  "topic": "it11-implicite",
+  "topicTitle": "Gerundio e participi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.\n| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |\n| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |\n\n| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |\n| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |\n| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |\n| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |\n| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |\n**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).\nI **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.\nIl **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.",
+  "ruleHelp": "**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.\ngerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.\nPartizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.\nPronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti ogni forma nel gruppo giusto.",
+   "promptHelp": "Ordne jede Form der richtigen Gruppe zu.",
+   "explanation": "-ando/-endo = gerundio; avendo/essendo + participio = gerundio composto; -ante/-ente = participio presente.",
+   "explanationHelp": "-ando/-endo = Gerundium; avendo/essendo + Partizip = gerundio composto; -ante/-ente = Partizip Präsens.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "gerundio semplice"
+    },
+    {
+     "id": "b",
+     "label": "gerundio composto"
+    },
+    {
+     "id": "c",
+     "label": "participio passato"
+    },
+    {
+     "id": "d",
+     "label": "participio presente"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "uscendo",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "facendo",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "bevendo",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "avendo visto",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "essendo partiti",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "essendosi alzata",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "arrivati",
+     "category": "c"
+    },
+    {
+     "id": "i8",
+     "text": "finita",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "scritto",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "interessante",
+     "category": "d"
+    },
+    {
+     "id": "i11",
+     "text": "sorridente",
+     "category": "d"
+    },
+    {
+     "id": "i12",
+     "text": "cantante",
+     "category": "d"
+    }
+   ]
+  }
+ ]
+}

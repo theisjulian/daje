@@ -23,7 +23,8 @@ function nuBelow1000(n) {
   const h = Math.floor(n / 100), r = n % 100;
   const head = h ? (h === 1 ? 'cento' : NU_ONES[h] + 'cento') : '';
   if (!r) return head || 'zero';
-  const rest = nuBelow100(r);
+  // zusammengesetzt trägt -tré den Akzent: centotré, duecentotré (wie ventitré)
+  const rest = head && r === 3 ? 'tré' : nuBelow100(r);
   // centotto, centottanta: das o von cento entfällt vor otto/ottanta
   return head && /^o/.test(rest) ? head.slice(0, -1) + rest : head + rest;
 }
@@ -31,10 +32,12 @@ function numIt(n) {
   if (n === 0) return 'zero';
   const parts = [];
   const mio = Math.floor(n / 1e6), th = Math.floor((n % 1e6) / 1000), r = n % 1000;
-  if (mio) parts.push(mio === 1 ? 'un milione' : nuBelow1000(mio).replace(/tré$/, 'tre') + ' milioni');
+  // „milioni“ ist ein eigenes Wort: ventitré milioni behält den Akzent, tre milioni hat keinen
+  if (mio) parts.push(mio === 1 ? 'un milione' : nuBelow1000(mio) + ' milioni');
   let tail = '';
   if (th) tail += th === 1 ? 'mille' : nuBelow1000(th).replace(/tré$/, 'tre') + 'mila';
-  if (r) tail += nuBelow1000(r);
+  // milletré, duemilatré: auch nach mille/-mila mit Akzent (tremila dagegen ohne)
+  if (r) tail += th && r === 3 ? 'tré' : nuBelow1000(r);
   if (tail) parts.push(tail);
   return parts.join(' ');
 }
@@ -70,7 +73,7 @@ function timeIt(h, m) {
   const next = hourWord((h + 1) % 24);
   if (m === 0) base.forEach(b => out.add(b));
   else {
-    const plus = [m === 15 ? 'e un quarto' : '', m === 30 ? 'e mezza' : '', m === 30 ? 'e mezzo' : '', 'e ' + numIt(m)].filter(Boolean);
+    const plus = [m === 15 ? 'e un quarto' : '', m === 30 ? 'e mezza' : '', m === 30 ? 'e mezzo' : '', 'e ' + numIt(m), m === 45 ? 'e tre quarti' : ''].filter(Boolean);
     base.forEach(b => plus.forEach(p => out.add(b + ' ' + p)));
     if (m >= 35) {
       const minus = [m === 45 ? 'meno un quarto' : '', 'meno ' + numIt(60 - m)].filter(Boolean);
@@ -79,6 +82,8 @@ function timeIt(h, m) {
   }
   // offiziell (Bahnhof, Radio): „sono le quindici e trenta“
   if (h > 12) out.add('sono le ' + numIt(h) + (m ? ' e ' + numIt(m) : ''));
+  // 00:15 offiziell: „sono le zero e quindici“
+  if (h === 0 && m) out.add('sono le zero e ' + numIt(m));
   const list = [...out];
   // bevorzugte Lösung: Viertel/halb, sonst „meno“ ab 35 Minuten
   const pref = list.find(x => / (un quarto|mezza)$/.test(x) && (m !== 45 || /meno/.test(x))) || (m >= 35 ? list.find(x => /meno/.test(x)) : null) || list[0];
@@ -156,7 +161,7 @@ function nuItem(mode, level) {
     const mo = nuRand(0, 11), d = nuRand(1, 28);
     const ans = dateIt(d, mo);
     const wrong = [dateIt(d, (mo + 1) % 12)[0], dateIt(Math.max(1, d - 1), mo)[0], dateIt(d, (mo + 11) % 12)[0], dateIt(Math.min(28, d + 10), mo)[0]];
-    return mk(`<p class="nu-big">${d}.${mo + 1}.</p><p class="muted">Oggi è …</p>`, ans, wrong, 'oggi è ' + ans[0]);
+    return mk(`<p class="nu-big">${d}.${mo + 1}.</p><p class="muted">Oggi è …</p>`, ans, wrong, 'oggi è ' + ans[0], { lead: true });
   }
   if (mode === 'ord') {
     const max = level === 'schwer' ? 30 : 10;
@@ -186,6 +191,8 @@ function nuJudge(item, raw) {
   const forms = item.answers.map(nuNorm);
   // Uhrzeit: „le tre e mezza“ oder nur „tre e mezza“ genügt auch
   const alt = item.prefix ? forms.flatMap(f => [f, f.replace(/^(sono le|è l'|è) ?/, '').replace(/^una/, "l'una"), f.replace(/^sono /, '')]) : forms;
+  // Datum: der ganze Satz („Oggi è il tre maggio“, „È il tre maggio“) zählt ebenfalls
+  if (item.lead) alt.push(...forms.flatMap(f => ['oggi è ' + f, 'è ' + f]));
   if (alt.includes(v)) return 'ok';
   const plain = x => x.normalize('NFD').replace(/[̀-ͯ]/g, '');
   if (alt.some(f => plain(f) === plain(v))) return 'accent';
@@ -278,4 +285,4 @@ document.addEventListener('submit', e => {
   if (!it.digits) nuSpeak(it.say);
   numbersPage();
 });
-if (typeof module !== 'undefined') module.exports = { numIt, numVariants, ordIt, timeIt, dateIt, nuJudge, nuItem };
+if (typeof module !== 'undefined') module.exports = { numIt, numVariants, ordIt, timeIt, dateIt, nuJudge, nuItem, nuNorm };

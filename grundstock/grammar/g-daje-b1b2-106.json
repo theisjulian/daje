@@ -47,7 +47,7 @@
    "id": "q1",
    "type": "gap_fill",
    "prompt": "Completa il testo.",
-   "text": "Nel nostro laboratorio di storia locale abbiamo osservato una serie di fotografie di un vecchio forno. Non conoscevamo tutte le persone ritratte e non volevamo inventare dettagli per completare il racconto. Perciò abbiamo separato le informazioni scritte sul retro dalle nostre ipotesi. Una data [[g1]] (essere) leggibile, mentre un nome [[g2]] (essere) quasi cancellato.\nNelle immagini il pane [[g3]] (disporre, passivo imperfetto, pane) su lunghi ripiani. Le ceste [[g4]] (trasportare, passivo imperfetto, ceste) a mano e i sacchi [[g5]] (conservare, passivo imperfetto, sacchi) vicino alla parete. Tuttavia una fotografia non permette di ricostruire ogni fase del lavoro. Abbiamo cercato altri documenti, perché non bastava descrivere ciò che sembrava evidente.\nUn abitante ci [[g6]] (prestare, forma composta) un quaderno. Alcune pagine [[g7]] (fotografare, passivo passato prossimo, pagine) con il suo consenso e poi [[g8]] (confrontare, passivo passato prossimo, pagine) con le immagini. Il quaderno conteneva quantità e nomi, ma non spiegava tutte le abbreviazioni. Quindi abbiamo lasciato alcuni punti aperti.\nIl risultato è un pannello con tre sezioni: osservazioni, documenti e domande. Prima abbiamo mostrato le fonti; poi abbiamo proposto una possibile ricostruzione. Infine abbiamo invitato i visitatori a segnalarci altri materiali. La mostra è immaginaria e le fotografie non vengono riprodotte. Il suo obiettivo è mostrare un metodo: un racconto del passato diventa più affidabile quando rende visibile anche quello che ancora non sappiamo.",
+   "text": "Nel nostro laboratorio di storia locale abbiamo osservato una serie di fotografie di un vecchio forno. Non conoscevamo tutte le persone ritratte e non volevamo inventare dettagli per completare il racconto. Perciò abbiamo separato le informazioni scritte sul retro dalle nostre ipotesi. Una data [[g1]] (essere, imperfetto) leggibile, mentre un nome [[g2]] (essere, imperfetto) quasi cancellato.\nNelle immagini il pane [[g3]] (disporre, passivo imperfetto, pane) su lunghi ripiani. Le ceste [[g4]] (trasportare, passivo imperfetto, ceste) a mano e i sacchi [[g5]] (conservare, passivo imperfetto, sacchi) vicino alla parete. Tuttavia una fotografia non permette di ricostruire ogni fase del lavoro. Abbiamo cercato altri documenti, perché non bastava descrivere ciò che sembrava evidente.\nUn abitante ci [[g6]] (prestare, passato prossimo) un quaderno. Alcune pagine [[g7]] (fotografare, passivo passato prossimo, pagine) con il suo consenso e poi [[g8]] (confrontare, passivo passato prossimo, pagine) con le immagini. Il quaderno conteneva quantità e nomi, ma non spiegava tutte le abbreviazioni. Quindi abbiamo lasciato alcuni punti aperti.\nIl risultato è un pannello con tre sezioni: osservazioni, documenti e domande. Prima abbiamo mostrato le fonti; poi abbiamo proposto una possibile ricostruzione. Infine abbiamo invitato i visitatori a segnalarci altri materiali. La mostra è immaginaria e le fotografie non vengono riprodotte. Il suo obiettivo è mostrare un metodo: un racconto del passato diventa più affidabile quando rende visibile anche quello che ancora non sappiamo.",
    "gaps": [
     {
      "id": "g1",
@@ -64,19 +64,22 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "veniva disposto"
+      "veniva disposto",
+      "era disposto"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "erano trasportate"
+      "erano trasportate",
+      "venivano trasportate"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "venivano conservati"
+      "venivano conservati",
+      "erano conservati"
      ]
     },
     {

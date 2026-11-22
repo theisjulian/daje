@@ -1,0 +1,139 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-messa-rilievo-s2",
+ "title": "L’oggetto all’inizio",
+ "language": "it",
+ "level": "A2",
+ "description": "Mettere in rilievo · L’oggetto all’inizio · livello difficile.",
+ "topics": [
+  "Mettere in rilievo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Hervorhebung (È … che …, Linksversetzung, betonte Pronomen)"
+ },
+ "grammar": {
+  "topic": "ecco2-messa-rilievo",
+  "topicTitle": "Mettere in rilievo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "In italiano possiamo **mettere in rilievo** (= dare importanza a) una parte della frase.\n**1. È … che …**\n- _**È** Marco **che** ha chiamato._ · _**È** a Milano **che** voglio andare._\n- Con i pronomi il verbo cambia: _**Sono io** che pag**o**._ · _**Sei tu** che decid**i**._ · _**Siete voi** che decid**ete**._\n**2. L’oggetto all’inizio + pronome**\n| _Il libro, **l’**ho già letto._ | lo, la, li, le |\n| _A Maria, **le** ho scritto ieri._ | gli, le |\n| _Di questo, **ne** parliamo dopo._ | ne |\n| _A Roma, **ci** vado domani._ | ci |\n**3. I pronomi tonici:** _**A me** piace il rock, **a lui** no._\n**4. Il soggetto dopo il verbo:** _Pago **io**!_ · _Stasera cucina **Luca**._",
+  "ruleHelp": "So hebt man im Italienischen etwas hervor:\n**1. È … che …** („Es ist …, der / das …“): _È Marco che ha chiamato._ Bei Pronomen richten sich beide Verben nach der Person: _Sono io che pago. Siete voi che decidete._\n**2. Linksversetzung:** Das Objekt steht vorn und wird durch ein Pronomen wieder aufgenommen: _Il libro, l’ho già letto._ (Das Buch, das habe ich schon gelesen.) _A Maria, le ho scritto._ · _Di questo, ne parliamo dopo._\n**3. Betonte Pronomen:** _A me piace …, a lui no._ **4. Subjekt nach dem Verb:** _Pago io!_ (Ich zahle!)\nIm Deutschen betont man meist nur mit der Stimme; im Italienischen ändert man die Wortstellung."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti l’oggetto all’inizio e continua con il pronome giusto.",
+   "promptHelp": "Stelle das Objekt an den Anfang und setze mit dem passenden Pronomen fort.",
+   "explanation": "Attenzione al participio: la mostra → l’ho vista, le scarpe → le ho comprate, gli occhiali → li ho persi.",
+   "explanationHelp": "Achte auf das Partizip: l’ho vista, le ho comprate, li ho persi.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho già letto il libro. → Il libro, …",
+     "acceptedAnswers": [
+      "l’ho già letto"
+     ],
+     "modelAnswer": "Il libro, l’ho già letto."
+    },
+    {
+     "id": "s2",
+     "start": "Ho scritto a Maria ieri. → A Maria, …",
+     "acceptedAnswers": [
+      "le ho scritto ieri"
+     ],
+     "modelAnswer": "A Maria, le ho scritto ieri."
+    },
+    {
+     "id": "s3",
+     "start": "Parliamo dopo di questo. → Di questo, …",
+     "acceptedAnswers": [
+      "ne parliamo dopo"
+     ],
+     "modelAnswer": "Di questo, ne parliamo dopo."
+    },
+    {
+     "id": "s4",
+     "start": "Ho comprato le scarpe in centro. → Le scarpe, …",
+     "acceptedAnswers": [
+      "le ho comprate in centro"
+     ],
+     "modelAnswer": "Le scarpe, le ho comprate in centro."
+    },
+    {
+     "id": "s5",
+     "start": "Vado spesso al parco. → Al parco, …",
+     "acceptedAnswers": [
+      "ci vado spesso"
+     ],
+     "modelAnswer": "Al parco, ci vado spesso."
+    },
+    {
+     "id": "s6",
+     "start": "Non conosco quei ragazzi. → Quei ragazzi, …",
+     "acceptedAnswers": [
+      "non li conosco"
+     ],
+     "modelAnswer": "Quei ragazzi, non li conosco."
+    },
+    {
+     "id": "s7",
+     "start": "Ho visto la mostra sabato. → La mostra, …",
+     "acceptedAnswers": [
+      "l’ho vista sabato"
+     ],
+     "modelAnswer": "La mostra, l’ho vista sabato."
+    },
+    {
+     "id": "s8",
+     "start": "Telefono a Luca stasera. → A Luca, …",
+     "acceptedAnswers": [
+      "gli telefono stasera"
+     ],
+     "modelAnswer": "A Luca, gli telefono stasera."
+    },
+    {
+     "id": "s9",
+     "start": "Non ho bisogno di aiuto. → Di aiuto, …",
+     "acceptedAnswers": [
+      "non ne ho bisogno"
+     ],
+     "modelAnswer": "Di aiuto, non ne ho bisogno."
+    },
+    {
+     "id": "s10",
+     "start": "Ho perso gli occhiali. → Gli occhiali, …",
+     "acceptedAnswers": [
+      "li ho persi"
+     ],
+     "modelAnswer": "Gli occhiali, li ho persi."
+    }
+   ]
+  }
+ ]
+}

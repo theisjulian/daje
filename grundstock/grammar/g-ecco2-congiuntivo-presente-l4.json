@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-presente-l4",
+ "title": "Un messaggio per Giulia",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo presente · Un messaggio per Giulia · livello facile.",
+ "topics": [
+  "Il congiuntivo presente",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo presente (Formen und Gebrauch nach Ausdrücken der Meinung, des Wunsches, der Notwendigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-presente",
+  "topicTitle": "Il congiuntivo presente",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 24,
+  "rule": "Dopo verbi di **opinione, speranza, volontà, necessità** + **che** usiamo il **congiuntivo**: _Penso che Luca **sia** online._\n| persona | parl**are** | prend**ere** | dorm**ire** | fin**ire** |\n| io, tu, lui / lei | parl**i** | prend**a** | dorm**a** | fin**isca** |\n| noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |\n| voi | parl**iate** | prend**iate** | dorm**iate** | fin**iate** |\n| loro | parl**ino** | prend**ano** | dorm**ano** | fin**iscano** |\n**Irregolari:** essere → **sia** · avere → **abbia** · andare → **vada** · fare → **faccia** · dire → **dica** · potere → **possa** · volere → **voglia** · dovere → **debba** · venire → **venga** · sapere → **sappia** · stare → **stia** · dare → **dia**\n**Con il congiuntivo:** penso che, credo che, spero che, voglio che, mi sembra che, è importante / necessario / possibile che.\n**Con l’indicativo:** secondo me, so che, è vero che, vedo che: _Secondo me, Luca **è** online._\n**Stesso soggetto → di + infinito:** _Penso **di avere** ragione._ (io – io) · _Penso **che tu abbia** ragione._ (io – tu) · Con volere senza di: _Voglio **restare**._",
+  "ruleHelp": "Nach Ausdrücken der **Meinung, Hoffnung, des Willens und der Notwendigkeit** + **che** steht der **congiuntivo**: _Penso che Luca sia online._ Das Deutsche hat hier meist den Indikativ („Ich glaube, dass Luca online ist“).\nDie drei Singularformen sind gleich (parli, prenda, finisca); deshalb nennt man oft das Subjekt (_che tu parli_). -are → -i, -ere / -ire → -a.\nUnregelmäßig: sia, abbia, vada, faccia, dica, possa, voglia, debba, venga, sappia, stia, dia.\n**Indikativ** nach _secondo me, so che, è vero che, vedo che_.\nGleiches Subjekt: **di + Infinitiv** (_Spero di vincere_), bei volere ohne di (_Voglio vincere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il messaggio con i verbi del riquadro.",
+   "promptHelp": "Ergänze die Nachricht mit den Verben aus dem Kasten.",
+   "type": "gap_fill",
+   "text": "Ciao Giulia! Spero che tu [[g1]] bene.\nPenso che la festa di sabato [[g2]] una bella idea.\nCredo che Matteo [[g3]] diciassette anni, come noi.\nÈ possibile che anche i miei cugini [[g4]] con noi.\nMia madre vuole che io [[g5]] prima i compiti.\nSpero che tu [[g6]] restare fino a tardi.\nNon credo che Luca [[g7]] dove abito.\nAdesso è importante che io [[g8]] a dormire: domani ho un test!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "stia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vengano"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "faccia"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "possa"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sappia"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vada"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "dia",
+    "diano"
+   ]
+  }
+ ]
+}

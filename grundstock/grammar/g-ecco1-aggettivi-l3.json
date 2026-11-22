@@ -47,48 +47,48 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Abbina nome e aggettivo.",
-   "promptHelp": "Verbinde Nomen und Adjektiv.",
+   "prompt": "Abbina il nome e la forma giusta dell’aggettivo tra parentesi.",
+   "promptHelp": "Verbinde das Nomen mit der passenden Form des Adjektivs in Klammern.",
    "type": "matching",
    "pairs": [
     {
      "id": "p1",
-     "left": "una camera",
+     "left": "una camera (piccolo)",
      "right": "piccola"
     },
     {
      "id": "p2",
-     "left": "un letto",
+     "left": "un letto (piccolo)",
      "right": "piccolo"
     },
     {
      "id": "p3",
-     "left": "due letti",
+     "left": "due letti (piccolo)",
      "right": "piccoli"
     },
     {
      "id": "p4",
-     "left": "due camere",
+     "left": "due camere (piccolo)",
      "right": "piccole"
     },
     {
      "id": "p5",
-     "left": "una borsa",
+     "left": "una borsa (grande)",
      "right": "grande"
     },
     {
      "id": "p6",
-     "left": "due zaini",
+     "left": "due zaini (grande)",
      "right": "grandi"
     },
     {
      "id": "p7",
-     "left": "un poster",
+     "left": "un poster (vecchio)",
      "right": "vecchio"
     },
     {
      "id": "p8",
-     "left": "le riviste",
+     "left": "le riviste (vecchio)",
      "right": "vecchie"
     }
    ]

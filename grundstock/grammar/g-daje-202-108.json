@@ -49,20 +49,12 @@
    "prompt": "Classifica le parole secondo il significato indicato. Nei casi in cui sono possibili più usi, spiega la tua scelta. (parte 1/2)",
    "categories": [
     {
-     "id": "c1",
-     "label": "fotografia"
-    },
-    {
      "id": "c2",
      "label": "musica"
     },
     {
      "id": "c3",
      "label": "scuola"
-    },
-    {
-     "id": "c4",
-     "label": "bicicletta"
     }
    ],
    "items": [
@@ -137,14 +129,6 @@
     {
      "id": "c1",
      "label": "fotografia"
-    },
-    {
-     "id": "c2",
-     "label": "musica"
-    },
-    {
-     "id": "c3",
-     "label": "scuola"
     },
     {
      "id": "c4",

@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-pronomi-combinati-l2",
+ "title": "Sì, te lo presto!",
+ "language": "it",
+ "level": "B1",
+ "description": "I pronomi combinati · Sì, te lo presto! · livello facile.",
+ "topics": [
+  "I pronomi combinati",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 1 · Tradizioni · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · kombinierte Objektpronomen (me lo, te la, glielo, ce ne …)"
+ },
+ "grammar": {
+  "topic": "ecco3-pronomi-combinati",
+  "topicTitle": "I pronomi combinati",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Pronome **indiretto** + pronome **diretto** (o **ne**): prima l’indiretto, poi il diretto. **mi, ti, ci, vi** diventano **me, te, ce, ve**; **gli** e **le** diventano **glie-** (una parola sola).\n| | lo | la | li | le | ne |\n| mi | me lo | me la | me li | me le | me ne |\n| ti | te lo | te la | te li | te le | te ne |\n| gli / le | glielo | gliela | glieli | gliele | gliene |\n| ci | ce lo | ce la | ce li | ce le | ce ne |\n| vi | ve lo | ve la | ve li | ve le | ve ne |\n**Posizione:**\n- prima del verbo: _**Te lo** presto. **Glielo** dico._\n- attaccati all’infinito e all’imperativo: _Voglio dir**glielo**. Dam**melo**! Di**glielo**! Porta**glieli**!_\n- con dovere, potere, volere due posizioni: _**Te lo** posso dare. = Posso dar**telo**._\n**Passato prossimo:** il participio concorda con lo, la, li, le: _Gliel’ho dat**o**. Gliel’ho dat**a**. Glieli ho dat**i**. Gliele ho dat**e**._",
+  "ruleHelp": "Treffen **indirektes** und **direktes Pronomen** (oder **ne**) zusammen, steht zuerst das indirekte: mi, ti, ci, vi werden zu **me, te, ce, ve** (_me lo, te la, ce li, ve ne_); gli und le (ihm, ihr, ihnen) werden beide zu **glie-** und zusammengeschrieben (_glielo, gliela, glieli, gliele, gliene_).\nStellung: vor dem konjugierten Verb (_Te lo presto_), aber angehängt an Infinitiv und Imperativ (_dirglielo, dammelo, diglielo_). Mit Modalverb geht beides: _Te lo posso dare = Posso dartelo._\nIm passato prossimo richtet sich das Partizip nach dem direkten Pronomen: _Gliel’ho data_ (la), _Glieli ho dati_ (li). Anders als im Deutschen (ich gebe **es ihm**) steht im Italienischen der Dativ zuerst."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome combinato giusto.",
+   "promptHelp": "Wähle das richtige kombinierte Pronomen.",
+   "explanation": "Primo pronome = la persona (a chi?), secondo pronome = la cosa (lo, la, li, le, ne).",
+   "explanationHelp": "Erstes Pronomen = die Person (wem?), zweites Pronomen = die Sache (lo, la, li, le, ne).",
+   "type": "gap_choice",
+   "text": "Mi presti la maschera? – Sì, [[g1]] presto volentieri.\nMi dai il tuo numero? – Certo, [[g2]] do subito.\nPorti i dolci alla nonna? – Sì, [[g3]] porto domani.\nRegali le rose a Marta? – Sì, [[g4]] regalo per il compleanno.\nCi mandi le foto del Palio? – Sì, [[g5]] mando stasera.\nMi racconti la storia della Befana? – Sì, [[g6]] racconto.\nDai il regalo a Luca? – Sì, [[g7]] do adesso.\nVi piace questa torta? Volete la ricetta? – Sì! [[g8]] scrivi?\nQuante fette di panettone vuoi? – [[g9]] bastano due.\nDai il carbone dolce ai bambini? – Sì, [[g10]] do.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "te la",
+      "te lo",
+      "me la"
+     ],
+     "answer": "te la"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "te lo",
+      "te la",
+      "ce lo"
+     ],
+     "answer": "te lo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "glieli",
+      "gliele",
+      "gliela"
+     ],
+     "answer": "glieli"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "gliele",
+      "glieli",
+      "gliela"
+     ],
+     "answer": "gliele"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ve le",
+      "ve li",
+      "ce le"
+     ],
+     "answer": "ve le"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "te la",
+      "te lo",
+      "gliela"
+     ],
+     "answer": "te la"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "glielo",
+      "gliela",
+      "te lo"
+     ],
+     "answer": "glielo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Ce la",
+      "Ve la",
+      "Ce lo"
+     ],
+     "answer": "Ce la"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Me ne",
+      "Me le",
+      "Me li"
+     ],
+     "answer": "Me ne"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "glielo",
+      "gliela",
+      "ce lo"
+     ],
+     "answer": "glielo"
+    }
+   ]
+  }
+ ]
+}

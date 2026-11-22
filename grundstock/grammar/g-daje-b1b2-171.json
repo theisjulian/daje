@@ -53,7 +53,7 @@
    "id": "q1",
    "type": "gap_fill",
    "prompt": "Completa il testo.",
-   "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato nel 1957. [[g1]] (essere) un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva dalla pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti [[g2]] (vedere) immagini di satelliti, ma non [[g3]] (sapere) distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e [[g4]] (chiedere) di annotare la fonte di ogni data. Un gruppo [[g5]] (raccogliere) informazioni da pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione [[g6]] (mostrare, passato remoto) quanto fosse facile confondere un’immagine illustrativa con la documentazione di un evento. Gli studenti [[g7]] (decidere, passato remoto) allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate a persone reali.\nAlla fine il cartellone era più semplice di quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande sulle funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. [[g8]] (imparare, forma composta) a costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma da ciò che un lettore aggiunge. La scelta dei tempi verbali nel racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
+   "text": "L’ESA ricorda che il primo satellite artificiale, Sputnik 1, fu lanciato nel 1957. [[g1]] (essere) un piccolo oggetto sferico dotato di antenne e trasmetteva un segnale radio. Questo evento segnò l’inizio dell’era spaziale. Il breve quadro storico deriva dalla pagina divulgativa dell’ESA sui satelliti; la vicenda scolastica seguente è invece inventata.\nQuando la classe ha cominciato il laboratorio, molti studenti [[g2]] (vedere, trapassato prossimo) immagini di satelliti, ma non [[g3]] (sapere) distinguerne le funzioni. L’insegnante ha proposto di costruire una linea del tempo e [[g4]] (chiedere) di annotare la fonte di ogni data. Un gruppo [[g5]] (raccogliere, trapassato prossimo) informazioni da pagine diverse; un altro cercava soltanto fotografie.\nLa prima presentazione [[g6]] (mostrare, passato remoto) quanto fosse facile confondere un’immagine illustrativa con la documentazione di un evento. Gli studenti [[g7]] (decidere, passato remoto) allora di aggiungere didascalie precise. Non inserirono audio ricostruiti fingendo che fossero registrazioni originali e non attribuirono parole inventate a persone reali.\nAlla fine il cartellone era più semplice di quanto avessero immaginato. Conteneva poche date controllate, collegamenti alle fonti e domande sulle funzioni dei satelliti. Il gruppo non pretendeva di raccontare tutta la storia dell’esplorazione spaziale. [[g8]] (imparare, trapassato prossimo) a costruire un piccolo percorso documentato e a distinguere ciò che una fonte afferma da ciò che un lettore aggiunge. La scelta dei tempi verbali nel racconto cambia la prospettiva narrativa, non la data storica riportata all’inizio.",
    "gaps": [
     {
      "id": "g1",
@@ -64,7 +64,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "avevano già visto"
+      "avevano già visto",
+      "avevano visto"
      ]
     },
     {

@@ -1,0 +1,136 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-superlativo-relativo-m1",
+ "title": "Record italiani e non",
+ "language": "it",
+ "level": "A2",
+ "description": "Il superlativo relativo · Record italiani e non · livello medio.",
+ "topics": [
+  "Il superlativo relativo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · relativer Superlativ (il più … di), il migliore / il peggiore"
+ },
+ "grammar": {
+  "topic": "ecco2-superlativo-relativo",
+  "topicTitle": "Il superlativo relativo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "Il **superlativo relativo** confronta una persona o una cosa con **tutto un gruppo**:\n| articolo + nome + **più / meno** + aggettivo + **di** | _Roma è **la** città **più** grande **d’**Italia._ |\n| articolo + **più / meno** + aggettivo + **di** | _Sara è **la più** alta **della** classe._ |\n- L’articolo c’è **una sola volta**: _la città più grande_ (non: la città **la** più grande).\n- Il gruppo si introduce con **di** (+ articolo): _il fiume più lungo **del** mondo, il più bravo **della** squadra_.\n- **Forme speciali:** il più buono = **il migliore**, il più cattivo = **il peggiore**.\nConfronta:\n| comparativo (due cose) | _Roma è **più grande di** Milano._ |\n| superlativo relativo (un gruppo) | _Roma è **la** città **più grande d’**Italia._ |\n| superlativo assoluto (senza confronto) | _Roma è **grandissima**._ |",
+  "ruleHelp": "Der **relative Superlativ** vergleicht mit einer ganzen Gruppe: bestimmter Artikel + **più / meno** + Adjektiv: _la città più grande d’Italia_ (die größte Stadt Italiens), _Sara è la più alta della classe_.\nDer Artikel steht nur **einmal** (nicht: la città la più grande). Die Gruppe steht mit **di** (+ Artikel): Deutsch „in der Klasse“, „der Welt“ → _della classe_, _del mondo_.\nSonderformen: **il migliore** (der beste), **il peggiore** (der schlechteste).\nUnterschied: Komparativ = zwei Dinge (_più grande di_), relativer Superlativ = Gruppe (_il più grande di_), absoluter Superlativ = ohne Vergleich (_grandissimo_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi una frase con il superlativo relativo (+ = più, – = meno).",
+   "promptHelp": "Schreibe einen Satz mit dem relativen Superlativ (+ = più, – = meno).",
+   "explanation": "articolo + nome + più / meno + aggettivo + di (+ articolo): d’Italia, dell’anno, del mondo, della classe.",
+   "explanationHelp": "Artikel + Nomen + più / meno + Adjektiv + di (+ Artikel): d’Italia, dell’anno, del mondo, della classe.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(Roma / città / + grande / l’Italia)",
+     "acceptedAnswers": [
+      "la città più grande d’Italia",
+      "la più grande città d’Italia"
+     ],
+     "modelAnswer": "Roma è la città più grande d’Italia. (Anche: Roma è la più grande città d’Italia.)"
+    },
+    {
+     "id": "s2",
+     "start": "(il Po / fiume / + lungo / l’Italia)",
+     "acceptedAnswers": [
+      "il fiume più lungo d’Italia",
+      "il più lungo fiume d’Italia"
+     ],
+     "modelAnswer": "Il Po è il fiume più lungo d’Italia. (Anche: Il Po è il più lungo fiume d’Italia.)"
+    },
+    {
+     "id": "s3",
+     "start": "(febbraio / mese / + corto / l’anno)",
+     "acceptedAnswers": [
+      "il mese più corto dell’anno"
+     ],
+     "modelAnswer": "Febbraio è il mese più corto dell’anno."
+    },
+    {
+     "id": "s4",
+     "start": "(la Sicilia / isola / + grande / il Mediterraneo)",
+     "acceptedAnswers": [
+      "l’isola più grande del Mediterraneo",
+      "la più grande isola del Mediterraneo"
+     ],
+     "modelAnswer": "La Sicilia è l’isola più grande del Mediterraneo. (Anche: La Sicilia è la più grande isola del Mediterraneo.)"
+    },
+    {
+     "id": "s5",
+     "start": "(Malta / Paese / + piccolo / l’Unione europea)",
+     "acceptedAnswers": [
+      "il Paese più piccolo dell’Unione europea",
+      "il più piccolo Paese dell’Unione europea"
+     ],
+     "modelAnswer": "Malta è il Paese più piccolo dell’Unione europea. (Anche: Malta è il più piccolo Paese dell’Unione europea.)"
+    },
+    {
+     "id": "s6",
+     "start": "(Sara / ragazza / + sportiva / la classe)",
+     "acceptedAnswers": [
+      "la ragazza più sportiva della classe"
+     ],
+     "modelAnswer": "Sara è la ragazza più sportiva della classe."
+    },
+    {
+     "id": "s7",
+     "start": "(questo / albergo / – caro / la città)",
+     "acceptedAnswers": [
+      "l’albergo meno caro della città"
+     ],
+     "modelAnswer": "Questo è l’albergo meno caro della città."
+    },
+    {
+     "id": "s8",
+     "start": "(l’Everest / montagna / + alta / il mondo)",
+     "acceptedAnswers": [
+      "la montagna più alta del mondo",
+      "la più alta montagna del mondo"
+     ],
+     "modelAnswer": "L’Everest è la montagna più alta del mondo. (Anche: L’Everest è la più alta montagna del mondo.)"
+    },
+    {
+     "id": "s9",
+     "start": "(queste / scarpe / + comode / il negozio)",
+     "acceptedAnswers": [
+      "le scarpe più comode del negozio"
+     ],
+     "modelAnswer": "Queste sono le scarpe più comode del negozio."
+    }
+   ]
+  }
+ ]
+}

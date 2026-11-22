@@ -47,8 +47,7 @@
    "id": "q1",
    "type": "gap_fill",
    "prompt": "Completa il testo. Usa le indicazioni tra parentesi.",
-   "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. Potremmo cominciare con una prova, [[g10]] (volere, noi, condizionale) ascoltare il parere di tutti: [[g11]] le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
-   "explanation": "Controlla ogni forma nel contesto.",
+   "text": "Quando il nostro gruppo [[g1]] (cercare) un luogo per una rassegna, il cortile del centro civico [[g2]] (sembrare) perfetto. Alcuni vicini però temevano il rumore e il custode [[g3]] (dire) che mancavano prese adatte. Prima di annunciare il programma, [[g4]] (organizzare, noi) un incontro. Ci sarebbe piaciuto mostrare un film ogni sera, ma una proposta così frequente [[g5]] (avere, condizionale) creato troppe difficoltà.\nUna vicina [[g6]] (suggerire) due serate al mese. Un tecnico [[g7]] (controllare) l’impianto e ha spiegato quali attrezzature servivano. Noi [[g8]] (prendere) appunti e [[g9]] (confrontare) le possibilità. Potremmo cominciare con una prova, [[g10]] (volere, noi, condizionale) ascoltare il parere di tutti: [[g11]] (essere) le frasi che ripetevamo più spesso.\nIl primo appuntamento [[g12]] (essere) un pomeriggio dedicato a brevi lavori degli studenti. Ogni autore aveva autorizzato la proiezione. Una ragazza che studiava suono ha regolato il volume. Il telo che avevamo preparato si muoveva al vento, così abbiamo cambiato posizione.\nAlla fine una persona che inizialmente [[g13]] (essere) contraria ci [[g14]] (chiedere, forma composta) la data successiva. Non tutti i problemi erano risolti, ma il confronto [[g15]] (avere) prodotto un programma possibile. La rassegna non è diventata enorme: [[g16]] (rimanere, forma composta; accordo con il soggetto) abbastanza piccola da poter ascoltare chi abitava vicino. Per noi questo risultato contava più di una fotografia con molte sedie occupate.",
    "gaps": [
     {
      "id": "g1",
@@ -65,7 +64,8 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "diceva"
+      "diceva",
+      "ha detto"
      ]
     },
     {
@@ -95,13 +95,15 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "prendevamo"
+      "prendevamo",
+      "abbiamo preso"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "confrontavamo"
+      "confrontavamo",
+      "abbiamo confrontato"
      ]
     },
     {
@@ -119,13 +121,15 @@
     {
      "id": "g12",
      "acceptedAnswers": [
-      "è stato"
+      "è stato",
+      "era"
      ]
     },
     {
      "id": "g13",
      "acceptedAnswers": [
-      "era"
+      "era",
+      "era stata"
      ]
     },
     {
@@ -137,7 +141,8 @@
     {
      "id": "g15",
      "acceptedAnswers": [
-      "aveva"
+      "aveva",
+      "ha"
      ]
     },
     {

@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-pronomi-testo-m2",
+ "title": "Senza ripetere",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Senza ripetere · livello medio.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.\n| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |\n| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |\n| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |\n| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |\n| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |\n| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |\nPer capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?\nAttenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).",
+  "ruleHelp": "**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).\nUm ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?\nAchtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase: sostituisci le parole in grassetto con un pronome.",
+   "promptHelp": "Schreibe den Satz neu: Ersetze die fett gedruckten Wörter durch ein Pronomen.",
+   "explanation": "Il pronome sta prima del verbo coniugato; con volere + infinito anche dopo l’infinito: voglio vederlo.",
+   "explanationHelp": "Das Pronomen steht vor dem konjugierten Verb; bei volere + Infinitiv auch am Infinitiv: voglio vederlo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Guardo **il video**. → …",
+     "acceptedAnswers": [
+      "Lo guardo"
+     ],
+     "modelAnswer": "Lo guardo."
+    },
+    {
+     "id": "s2",
+     "start": "Scrivo **a Marta**. → …",
+     "acceptedAnswers": [
+      "Le scrivo"
+     ],
+     "modelAnswer": "Le scrivo."
+    },
+    {
+     "id": "s3",
+     "start": "Non conosco **quei ragazzi**. → …",
+     "acceptedAnswers": [
+      "Non li conosco"
+     ],
+     "modelAnswer": "Non li conosco."
+    },
+    {
+     "id": "s4",
+     "start": "Mando una mail **al professore**. → …",
+     "acceptedAnswers": [
+      "Gli mando una mail"
+     ],
+     "modelAnswer": "Gli mando una mail."
+    },
+    {
+     "id": "s5",
+     "start": "Carico **le foto** stasera. → …",
+     "acceptedAnswers": [
+      "Le carico stasera"
+     ],
+     "modelAnswer": "Le carico stasera."
+    },
+    {
+     "id": "s6",
+     "start": "Vado **in biblioteca** ogni lunedì. → …",
+     "acceptedAnswers": [
+      "Ci vado ogni lunedì"
+     ],
+     "modelAnswer": "Ci vado ogni lunedì."
+    },
+    {
+     "id": "s7",
+     "start": "Uso **la password** solo a casa. → …",
+     "acceptedAnswers": [
+      "La uso solo a casa"
+     ],
+     "modelAnswer": "La uso solo a casa."
+    },
+    {
+     "id": "s8",
+     "start": "Ho tre **profili**. → …",
+     "acceptedAnswers": [
+      "Ne ho tre"
+     ],
+     "modelAnswer": "Ne ho tre."
+    },
+    {
+     "id": "s9",
+     "start": "Voglio vedere **il film**. → …",
+     "acceptedAnswers": [
+      "Lo voglio vedere",
+      "Voglio vederlo"
+     ],
+     "modelAnswer": "Lo voglio vedere. (Anche: Voglio vederlo.)"
+    },
+    {
+     "id": "s10",
+     "start": "Telefono **ai nonni** la domenica. → …",
+     "acceptedAnswers": [
+      "Gli telefono la domenica"
+     ],
+     "modelAnswer": "Gli telefono la domenica."
+    }
+   ]
+  }
+ ]
+}

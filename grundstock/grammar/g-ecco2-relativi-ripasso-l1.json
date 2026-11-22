@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-relativi-ripasso-l1",
+ "title": "Che, cui o chi?",
+ "language": "it",
+ "level": "A2",
+ "description": "Le frasi relative · Che, cui o chi? · livello facile.",
+ "topics": [
+  "Le frasi relative",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativsätze (che, cui, chi, quello che, dove)"
+ },
+ "grammar": {
+  "topic": "ecco2-relativi-ripasso",
+  "topicTitle": "Le frasi relative",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "Una **frase relativa** dà un’informazione in più su una persona, una cosa o un luogo.\n| **che** | soggetto o oggetto diretto | _la ragazza **che** canta · il murale **che** vedi_ |\n| preposizione + **cui** | dopo a, di, con, in, su, per, da | _l’amico **con cui** suono · il film **di cui** parlo_ |\n| **dove** | luogo (= in cui) | _il quartiere **dove** abito = il quartiere **in cui** abito_ |\n| **chi** | = la persona che, le persone che | _**Chi** arriva tardi resta fuori._ |\n| **quello che** | = la cosa che | _Non capisco **quello che** dici._ |\n- **che** non cambia mai e non sta mai dopo una preposizione: _la città **in cui** vivo_ (non: in che).\n- Dopo **chi** il verbo è sempre al **singolare**: _Chi vuol**e** entrare paga il biglietto._\n- **chi** non ha un nome prima: _la ragazza **che** canta_ (non: la ragazza chi canta).",
+  "ruleHelp": "Relativsätze: **che** (der, die, das – Subjekt oder direktes Objekt, unveränderlich), nach einer Präposition immer **cui** (_con cui, di cui, a cui, in cui_), für Orte **dove** (= in cui).\n**chi** = „wer / derjenige, der“ (ohne Bezugswort davor, Verb im Singular): _Chi arriva tardi resta fuori._ **quello che** = „das, was“.\nAnders als im Deutschen steht vor dem Relativsatz meist **kein Komma**, und che richtet sich nicht nach Geschlecht oder Zahl."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome relativo giusto.",
+   "promptHelp": "Wähle das richtige Relativpronomen.",
+   "explanation": "Dopo una preposizione (a, di, con, in, per, da) c’è sempre cui. Senza preposizione: che.",
+   "explanationHelp": "Nach einer Präposition steht immer cui, ohne Präposition che. chi steht nie nach einem Bezugswort.",
+   "type": "gap_choice",
+   "text": "Il murale [[g1]] vedi in piazza è nuovo.\nLa ragazza con [[g2]] suono si chiama Sara.\nQuesto è il quartiere in [[g3]] abito.\nL’artista [[g4]] ha dipinto questo muro ha solo vent’anni.\nIl concerto di [[g5]] ti ho parlato è sabato.\nLe canzoni [[g6]] ascolto sono quasi tutte italiane.\nÈ un progetto a [[g7]] partecipano molti ragazzi.\nIl negozio [[g8]] vende dischi usati è chiuso il lunedì.\nLa ragione per [[g9]] non vengo è semplice: devo studiare.\nGli amici da [[g10]] dormo stasera abitano in centro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "che",
+      "cui",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "cui",
+      "che",
+      "chi"
+     ],
+     "answer": "cui"
+    }
+   ]
+  }
+ ]
+}

@@ -46,71 +46,221 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo.",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. Scrivi così: infinito; tempo (esempio: andare; presente).",
    "text": "presenteremo → [[g1]]\navrà → [[g2]]\npotrà → [[g3]]\nfaremo → [[g4]]\nraccoglieremo → [[g5]]\nandremo → [[g6]]\nPorteremo → [[g7]]\ndivideremo → [[g8]]\nsaranno → [[g9]]\nincontreremo → [[g10]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "presentare; futuro"
+      "presentare; futuro",
+      "presentare, futuro",
+      "presentare futuro",
+      "presentare - futuro",
+      "presentare: futuro",
+      "presentare;futuro",
+      "presentare,futuro",
+      "presentare / futuro",
+      "presentare; futuro semplice",
+      "presentare, futuro semplice",
+      "presentare futuro semplice",
+      "presentare - futuro semplice",
+      "presentare: futuro semplice",
+      "presentare;futuro semplice",
+      "presentare,futuro semplice",
+      "presentare / futuro semplice"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "avere; futuro"
+      "avere; futuro",
+      "avere, futuro",
+      "avere futuro",
+      "avere - futuro",
+      "avere: futuro",
+      "avere;futuro",
+      "avere,futuro",
+      "avere / futuro",
+      "avere; futuro semplice",
+      "avere, futuro semplice",
+      "avere futuro semplice",
+      "avere - futuro semplice",
+      "avere: futuro semplice",
+      "avere;futuro semplice",
+      "avere,futuro semplice",
+      "avere / futuro semplice"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "potere; futuro"
+      "potere; futuro",
+      "potere, futuro",
+      "potere futuro",
+      "potere - futuro",
+      "potere: futuro",
+      "potere;futuro",
+      "potere,futuro",
+      "potere / futuro",
+      "potere; futuro semplice",
+      "potere, futuro semplice",
+      "potere futuro semplice",
+      "potere - futuro semplice",
+      "potere: futuro semplice",
+      "potere;futuro semplice",
+      "potere,futuro semplice",
+      "potere / futuro semplice"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "fare; futuro"
+      "fare; futuro",
+      "fare, futuro",
+      "fare futuro",
+      "fare - futuro",
+      "fare: futuro",
+      "fare;futuro",
+      "fare,futuro",
+      "fare / futuro",
+      "fare; futuro semplice",
+      "fare, futuro semplice",
+      "fare futuro semplice",
+      "fare - futuro semplice",
+      "fare: futuro semplice",
+      "fare;futuro semplice",
+      "fare,futuro semplice",
+      "fare / futuro semplice"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "raccogliere; futuro"
+      "raccogliere; futuro",
+      "raccogliere, futuro",
+      "raccogliere futuro",
+      "raccogliere - futuro",
+      "raccogliere: futuro",
+      "raccogliere;futuro",
+      "raccogliere,futuro",
+      "raccogliere / futuro",
+      "raccogliere; futuro semplice",
+      "raccogliere, futuro semplice",
+      "raccogliere futuro semplice",
+      "raccogliere - futuro semplice",
+      "raccogliere: futuro semplice",
+      "raccogliere;futuro semplice",
+      "raccogliere,futuro semplice",
+      "raccogliere / futuro semplice"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "andare; futuro"
+      "andare; futuro",
+      "andare, futuro",
+      "andare futuro",
+      "andare - futuro",
+      "andare: futuro",
+      "andare;futuro",
+      "andare,futuro",
+      "andare / futuro",
+      "andare; futuro semplice",
+      "andare, futuro semplice",
+      "andare futuro semplice",
+      "andare - futuro semplice",
+      "andare: futuro semplice",
+      "andare;futuro semplice",
+      "andare,futuro semplice",
+      "andare / futuro semplice"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "portare; futuro"
+      "portare; futuro",
+      "portare, futuro",
+      "portare futuro",
+      "portare - futuro",
+      "portare: futuro",
+      "portare;futuro",
+      "portare,futuro",
+      "portare / futuro",
+      "portare; futuro semplice",
+      "portare, futuro semplice",
+      "portare futuro semplice",
+      "portare - futuro semplice",
+      "portare: futuro semplice",
+      "portare;futuro semplice",
+      "portare,futuro semplice",
+      "portare / futuro semplice"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "dividere; futuro"
+      "dividere; futuro",
+      "dividere, futuro",
+      "dividere futuro",
+      "dividere - futuro",
+      "dividere: futuro",
+      "dividere;futuro",
+      "dividere,futuro",
+      "dividere / futuro",
+      "dividere; futuro semplice",
+      "dividere, futuro semplice",
+      "dividere futuro semplice",
+      "dividere - futuro semplice",
+      "dividere: futuro semplice",
+      "dividere;futuro semplice",
+      "dividere,futuro semplice",
+      "dividere / futuro semplice"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "essere; futuro"
+      "essere; futuro",
+      "essere, futuro",
+      "essere futuro",
+      "essere - futuro",
+      "essere: futuro",
+      "essere;futuro",
+      "essere,futuro",
+      "essere / futuro",
+      "essere; futuro semplice",
+      "essere, futuro semplice",
+      "essere futuro semplice",
+      "essere - futuro semplice",
+      "essere: futuro semplice",
+      "essere;futuro semplice",
+      "essere,futuro semplice",
+      "essere / futuro semplice"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "incontrare; futuro"
+      "incontrare; futuro",
+      "incontrare, futuro",
+      "incontrare futuro",
+      "incontrare - futuro",
+      "incontrare: futuro",
+      "incontrare;futuro",
+      "incontrare,futuro",
+      "incontrare / futuro",
+      "incontrare; futuro semplice",
+      "incontrare, futuro semplice",
+      "incontrare futuro semplice",
+      "incontrare - futuro semplice",
+      "incontrare: futuro semplice",
+      "incontrare;futuro semplice",
+      "incontrare,futuro semplice",
+      "incontrare / futuro semplice"
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Schreibe Infinitiv und Zeitform, getrennt durch einen Strichpunkt (Beispiel: andare; presente)."
   }
  ],
  "reading": {

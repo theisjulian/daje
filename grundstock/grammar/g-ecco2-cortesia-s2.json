@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cortesia-s2",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A2",
+ "description": "La cortesia e l’imperativo formale · Trova gli errori · livello difficile.",
+ "topics": [
+  "La cortesia e l’imperativo formale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Imperativ der Höflichkeitsform (Lei), Stellung der Pronomen"
+ },
+ "grammar": {
+  "topic": "ecco2-cortesia",
+  "topicTitle": "La cortesia e l’imperativo formale",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Con **Lei** (forma di cortesia) l’imperativo ha le forme del congiuntivo:\n| -are → **-i** | scusare → **scusi** · aspettare → **aspetti** · guardare → **guardi** |\n| -ere → **-a** | prendere → **prenda** · scrivere → **scriva** |\n| -ire → **-a** | sentire → **senta** · finire → **finisca** |\n**Irregolari:** andare → **vada** · venire → **venga** · dire → **dica** · fare → **faccia** · dare → **dia** · stare → **stia**\nI **pronomi** stanno **prima** del verbo: _**Mi** dica! · **Si** accomodi! · **Lo** prenda pure!_\nNegativo: _**Non** si preoccupi! · **Non** lo dica a nessuno!_\n| tu | Lei |\n| Scusa! | Scusi! |\n| Dimmi! | Mi dica! |\n| Accomodati! | Si accomodi! |\n| Non preoccuparti! | Non si preoccupi! |",
+  "ruleHelp": "Der **Imperativ der Höflichkeitsform (Lei)** hat die Formen des congiuntivo: -are → **-i** (scusi, aspetti), -ere / -ire → **-a** (prenda, senta). Unregelmäßig: vada, venga, dica, faccia, dia, stia.\nWichtig: Beim Lei-Imperativ stehen die Pronomen **vor** dem Verb (_Mi dica! Si accomodi!_), beim tu-Imperativ hängen sie am Verb (_Dimmi! Accomodati!_). Verneint: _Non si preoccupi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qui tutti si danno del Lei, ma in ogni frase c’è un errore. Correggilo.",
+   "promptHelp": "Hier siezen sich alle, aber in jedem Satz steckt ein Fehler. Korrigiere ihn.",
+   "explanation": "Con Lei non si usano le forme del tu, e il pronome sta prima del verbo: ci faccia, lo scriva, si accomodi.",
+   "explanationHelp": "Bei Lei keine tu-Formen, und das Pronomen steht vor dem Verb.",
+   "type": "error_correction",
+   "text": "Buongiorno, signora! [[g1]], che cosa desidera?\n[[g2]], signore, questo posto è libero?\nSignor Conti, [[g3]], prego!\nSignora, [[g4]]: domani il telefono è pronto.\nPer favore, [[g5]] un numero e aspetti qui, signore.\nProfessoressa, [[g6]] a vedere il nostro progetto!\nSignora Greco, [[g7]] sapere se la mail è arrivata.\nSignore, [[g8]] qui, per favore.\n[[g9]], signora, ha perso questo biglietto!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Dimmi",
+     "acceptedAnswers": [
+      "Mi dica"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Scusa",
+     "acceptedAnswers": [
+      "Scusi"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "accomodisi",
+     "acceptedAnswers": [
+      "si accomodi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "non preoccuparti",
+     "acceptedAnswers": [
+      "non si preoccupi"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "prendi",
+     "acceptedAnswers": [
+      "prenda"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "vieni",
+     "acceptedAnswers": [
+      "venga"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "facci",
+     "acceptedAnswers": [
+      "ci faccia"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "scrivalo",
+     "acceptedAnswers": [
+      "lo scriva"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "Senti",
+     "acceptedAnswers": [
+      "Senta"
+     ]
+    }
+   ]
+  }
+ ]
+}

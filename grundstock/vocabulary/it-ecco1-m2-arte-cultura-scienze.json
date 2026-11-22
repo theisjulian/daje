@@ -164,7 +164,7 @@
     "fakultativ"
    ],
    "definition": "Pezzo di metallo da un euro.",
-   "example": "Per comprare il biglietto devi avere monete.",
+   "example": "Hai una moneta da un euro per me?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -425,7 +425,7 @@
    "acceptedAnswers": [
     "costruire"
    ],
-   "usage": "Abc"
+   "usage": "pres. costruisco, costruisci, costruisce, costruiamo, costruite, costruiscono"
   },
   {
    "id": "m2-arte-cultura-scienze-026",
@@ -557,7 +557,7 @@
    "id": "m2-arte-cultura-scienze-034",
    "target": "l’opera",
    "translations": [
-    "Oper"
+    "die Oper"
    ],
    "tags": [
     "fakultativ"

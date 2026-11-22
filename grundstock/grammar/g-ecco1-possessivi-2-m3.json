@@ -71,7 +71,8 @@
      "id": "s3",
      "start": "Quanti anni ha tuo fratello? (12) – …",
      "acceptedAnswers": [
-      "Mio fratello ha dodici anni"
+      "Mio fratello ha dodici anni",
+      "Mio fratello ha 12 anni"
      ],
      "modelAnswer": "Mio fratello ha dodici anni."
     },
@@ -112,7 +113,8 @@
      "id": "s8",
      "start": "Com’è il tuo papà? (simpatico) – …",
      "acceptedAnswers": [
-      "Il mio papà è simpatico"
+      "Il mio papà è simpatico",
+      "Mio papà è simpatico"
      ],
      "modelAnswer": "Il mio papà è simpatico."
     }

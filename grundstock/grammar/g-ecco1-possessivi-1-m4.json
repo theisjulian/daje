@@ -57,7 +57,7 @@
      "id": "s1",
      "start": "È il tuo zaino? – Sì, è …",
      "acceptedAnswers": [
-      "il mio zaino"
+      "il mio"
      ],
      "modelAnswer": "Sì, è il mio zaino."
     },
@@ -65,7 +65,7 @@
      "id": "s2",
      "start": "Sono le tue scarpe? – Sì, sono …",
      "acceptedAnswers": [
-      "le mie scarpe"
+      "le mie"
      ],
      "modelAnswer": "Sì, sono le mie scarpe."
     },
@@ -73,7 +73,7 @@
      "id": "s3",
      "start": "È la borsa di Anna? – Sì, è …",
      "acceptedAnswers": [
-      "la sua borsa"
+      "la sua"
      ],
      "modelAnswer": "Sì, è la sua borsa."
     },
@@ -81,7 +81,7 @@
      "id": "s4",
      "start": "Sono i libri di Marco? – Sì, sono …",
      "acceptedAnswers": [
-      "i suoi libri"
+      "i suoi"
      ],
      "modelAnswer": "Sì, sono i suoi libri."
     },
@@ -89,7 +89,7 @@
      "id": "s5",
      "start": "È la vostra classe? – Sì, è …",
      "acceptedAnswers": [
-      "la nostra classe"
+      "la nostra"
      ],
      "modelAnswer": "Sì, è la nostra classe."
     },
@@ -97,7 +97,7 @@
      "id": "s6",
      "start": "Sono i vostri amici? – Sì, sono …",
      "acceptedAnswers": [
-      "i nostri amici"
+      "i nostri"
      ],
      "modelAnswer": "Sì, sono i nostri amici."
     },
@@ -105,7 +105,7 @@
      "id": "s7",
      "start": "È la casa dei nonni? – Sì, è …",
      "acceptedAnswers": [
-      "la loro casa"
+      "la loro"
      ],
      "modelAnswer": "Sì, è la loro casa."
     },
@@ -113,7 +113,7 @@
      "id": "s8",
      "start": "È il tuo cellulare? – Sì, è …",
      "acceptedAnswers": [
-      "il mio cellulare"
+      "il mio"
      ],
      "modelAnswer": "Sì, è il mio cellulare."
     }

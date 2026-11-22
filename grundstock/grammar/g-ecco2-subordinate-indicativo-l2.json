@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-subordinate-indicativo-l2",
+ "title": "Qual è la congiunzione giusta?",
+ "language": "it",
+ "level": "A2",
+ "description": "Subordinate e sequenza dei tempi I · Qual è la congiunzione giusta? · livello facile.",
+ "topics": [
+  "Subordinate e sequenza dei tempi I",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Nebensätze mit Indikativ (Konjunktionen), einfache Zeitenfolge"
+ },
+ "grammar": {
+  "topic": "ecco2-subordinate-indicativo",
+  "topicTitle": "Subordinate e sequenza dei tempi I",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Dopo queste **congiunzioni** usiamo l’**indicativo**:\n| **perché** / **siccome** (causa) | Resto a casa **perché** piove. **Siccome** piove, resto a casa. |\n| **quando** / **mentre** / **appena** / **dopo che** (tempo) | **Quando** ero piccolo, giocavo fuori. Ti chiamo **appena** arrivo. |\n| **se** (condizione) | **Se** hai tempo, vieni con noi. |\n| **anche se** | Esco **anche se** piove. |\n| **che** (dopo _sapere, dire, vedere, essere sicuro_) | So **che** hai ragione. |\n**Siccome** sta all’inizio della frase. Nel passato: **mentre** + imperfetto: _Mentre mangiavo, è arrivato Paolo._\nChe tempo dopo **che**?\n| prima (ieri) | So che Luca **è partito**. |\n| adesso | So che Luca **parte** / **sta partendo**. |\n| dopo (domani) | So che Luca **partirà**. (Anche: So che Luca **parte** domani.) |\nAttenzione: _penso che, credo che, spero che_ → congiuntivo. Ma: **so che, dico che, vedo che, sono sicuro che** → **indicativo**.",
+  "ruleHelp": "Nach diesen **Konjunktionen** steht der **Indikativ**: **perché** (weil), **siccome** (da – am Satzanfang), **quando** (als / wenn), **mentre** (während), **appena** (sobald), **dopo che** (nachdem), **se** (wenn, falls), **anche se** (auch wenn, obwohl), **che** (dass) nach sapere, dire, vedere, essere sicuro.\nZeitenfolge nach _So che …_: vorher → passato prossimo / imperfetto (_è partito_), gleichzeitig → Präsens (_parte_), später → Futur (_partirà_; mit Zeitangabe geht auch das Präsens: _parte domani_). In der Vergangenheit steht nach **mentre** das imperfetto: _Mentre mangiavo, è arrivato Paolo._\nAnders als im Deutschen ändert sich die Wortstellung im Nebensatz nicht: _perché **sono** stanco_ (weil ich müde **bin**). Achtung: _penso che, credo che, spero che_ verlangen den congiuntivo – _so che, dico che, vedo che_ nicht."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la congiunzione giusta.",
+   "promptHelp": "Wähle die passende Konjunktion.",
+   "explanation": "perché / siccome = causa; quando / mentre / appena / dopo che = tempo; se = condizione; anche se = contrasto; dire che …",
+   "explanationHelp": "perché / siccome = Grund; quando / mentre / appena / dopo che = Zeit; se = Bedingung; anche se = Gegensatz; dire che = sagen, dass.",
+   "type": "gap_choice",
+   "text": "Stasera vado a letto presto [[g1]] sono molto stanco.\n[[g2]] ero piccolo, non avevo il telefono.\nÈ vero [[g3]] una volta si scrivevano molte lettere.\n[[g4]] la nonna cucinava, il nonno leggeva il giornale.\n[[g5]] domani piove, restiamo a casa.\nVado a scuola in bici [[g6]] piove forte.\n[[g7]] non c’era la televisione, la sera si parlava molto.\nTi chiamo [[g8]] arrivo a casa.\n[[g9]] ho finito i compiti, esco con gli amici.\nLa nonna dice [[g10]] una volta la vita era più semplice.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "perché",
+      "per",
+      "che"
+     ],
+     "answer": "perché"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Quando",
+      "Che",
+      "Anche"
+     ],
+     "answer": "Quando"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "che",
+      "quando",
+      "mentre"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Mentre",
+      "Che",
+      "Dopo"
+     ],
+     "answer": "Mentre"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Se",
+      "Che",
+      "Per"
+     ],
+     "answer": "Se"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "anche se",
+      "anche",
+      "che"
+     ],
+     "answer": "anche se"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Siccome",
+      "Che",
+      "Per"
+     ],
+     "answer": "Siccome"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "appena",
+      "appena che",
+      "che"
+     ],
+     "answer": "appena"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Dopo che",
+      "Che",
+      "Dopo"
+     ],
+     "answer": "Dopo che"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "che",
+      "di",
+      "siccome"
+     ],
+     "answer": "che"
+    }
+   ]
+  }
+ ]
+}

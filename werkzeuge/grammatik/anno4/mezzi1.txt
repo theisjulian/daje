@@ -1,0 +1,684 @@
+#!buch series=Corso_daje volume=4 grade=11 cefr=B1 prefix=it11
+## Quarto anno · Lehrplan Jgst. 11 · Sprachliche Mittel (Teil 1): futuro anteriore, passivo con andare, si, causativi, riflessivi. Eigene Übungen.
+
+@thema futuro-anteriore | Lehrplan · Sprachliche Mittel |  | Futuro anteriore | 1
+#lehrplan Jgst. 11 · Futuro anteriore
+#regel
+Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:
+| | finire | partire |
+| io | **avrò** finito | **sarò** partito/-a |
+| tu | **avrai** finito | **sarai** partito/-a |
+| lui / lei | **avrà** finito | **sarà** partito/-a |
+| noi | **avremo** finito | **saremo** partiti/-e |
+| voi | **avrete** finito | **sarete** partiti/-e |
+| loro | **avranno** finito | **saranno** partiti/-e |
+Si usa:
+- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._
+- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._
+- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._
+Con **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_
+#regel-de
+**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.
+Gebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)
+
+%übung leicht | Avere o essere?
+?auswahl | Scegli l’ausiliare giusto. || Wähle das richtige Hilfsverb.
+Quando {avrò*|sarò} finito i compiti, ti chiamerò.
+Appena Giulia {sarà*|avrà} arrivata, cominceremo la riunione.
+Dopo che {avremo*|saremo} mangiato, andremo al cinema.
+Quando i miei genitori {saranno*|avranno} partiti, inviterò gli amici.
+Appena {avrai*|sarai} letto la mail, rispondimi.
+Quando vi {sarete*|avrete} riposati, continueremo il lavoro.
+Dopo che il film {sarà*|avrà} finito, andremo a mangiare una pizza.
+Fra un anno Luca {avrà*|sarà} preso la patente.
+! L’ausiliare è lo stesso del passato prossimo: ho finito → avrò finito; sono partito → sarò partito; il film è finito → sarà finito. || Das Hilfsverb ist dasselbe wie im passato prossimo.
+
+%übung leicht | Prima nel futuro o supposizione?
+?sortieren | Che cosa esprime il futuro anteriore in queste frasi? || Was drückt das futuro anteriore in diesen Sätzen aus?
+Kategorien: a=azione futura conclusa prima di un altro momento; b=supposizione sul passato
+Quando avrò finito la scuola, farò un lungo viaggio. > a
+Marco non risponde: avrà dimenticato il telefono a casa. > b
+Appena sarete arrivati, mandateci un messaggio. > a
+Sara non è venuta alla festa: sarà rimasta a casa a studiare. > b
+Dopo che avremo visto il film, ne parleremo in classe. > a
+Dov’è il mio libro? L’avrò lasciato a scuola. > b
+Entro venerdì avrò consegnato la relazione. > a
+I ragazzi sono in ritardo: avranno perso l’autobus. > b
+Ti presterò il romanzo quando l’avrò letto. > a
+Chi ha mangiato la torta? – Mah, sarà stato Davide. > b
+! Supposizione: in tedesco „wohl“ + Perfekt (Er hat wohl den Bus verpasst). || Vermutung: im Deutschen „wohl“ + Perfekt.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Quando avrò finito, uscirò. = Wenn ich fertig bin, gehe ich raus.
+Sarà uscito. = Er ist wohl ausgegangen.
+Avrà dimenticato l’appuntamento. = Er hat den Termin wohl vergessen.
+Entro domani avrò letto il libro. = Bis morgen werde ich das Buch gelesen haben.
+Appena sarà arrivata, ti chiamerà. = Sobald sie angekommen ist, ruft sie dich an.
+Saranno partiti ieri. = Sie sind wohl gestern abgereist.
+Avrai capito male. = Du hast es wohl falsch verstanden.
+Dopo che avremo mangiato, partiremo. = Nachdem wir gegessen haben, fahren wir los.
+
+%übung mittel | Dopo la maturità
+?luecke | Sara parla dei suoi progetti. Scrivi i verbi al futuro anteriore. || Sara spricht über ihre Pläne. Setze die Verben ins futuro anteriore.
+Quando (finire, io) [avrò finito] gli esami, partirò per la Sicilia con Chiara.
+Appena (arrivare, noi due) [saremo arrivate] a Palermo, andremo subito al mare.
+Dopo che (visitare, noi) [avremo visitato] la città, prenderemo il treno per Catania.
+A settembre, quando (tornare, io) [sarò tornata], cercherò una stanza a Bologna.
+Mio fratello dice: «Quando (trovare, tu) [avrai trovato] casa, verrò a trovarti.»
+I miei genitori saranno tranquilli solo dopo che (vedere, loro) [avranno visto] la stanza.
+Appena l’università (pubblicare) [avrà pubblicato] l’orario, mi iscriverò ai corsi.
+E quando (laurearsi, io) [mi sarò laureata], vorrei lavorare all’estero.
+! Sara e Chiara sono due ragazze: saremo arrivat**e**, sarò tornat**a**, mi sarò laureat**a**. || Sara und Chiara sind Mädchen: Partizip auf -a / -e.
+
+%übung mittel | Tutte le forme
+?tabelle | Completa la tabella con il futuro anteriore. || Ergänze die Tabelle mit dem futuro anteriore.
+Spalten: persona | finire | partire
+io | [avrò finito] | [sarò partito/sarò partita]
+tu | [avrai finito] | [sarai partito/sarai partita]
+lui / lei | [avrà finito] | [sarà partito/sarà partita]
+noi | [avremo finito] | [saremo partiti/saremo partite]
+voi | [avrete finito] | [sarete partiti/sarete partite]
+loro | [avranno finito] | [saranno partiti/saranno partite]
+
+%übung mittel | Chissà perché …
+?ergaenzen | Fai una supposizione con il futuro anteriore. || Äußere eine Vermutung mit dem futuro anteriore.
+Perché Luca non è venuto? (dimenticare l’appuntamento) | avrà dimenticato | Avrà dimenticato l’appuntamento.
+Perché Giulia è così stanca? (dormire poco) | avrà dormito | Avrà dormito poco.
+Perché i vicini non aprono la porta? (uscire) | saranno usciti | Saranno usciti.
+Perché Sara ha preso un voto così bello? (studiare molto) | avrà studiato | Avrà studiato molto.
+Perché il treno non è ancora arrivato? (partire in ritardo) | sarà partito | Sarà partito in ritardo.
+Perché Matteo e Davide ridono? (vedere un video divertente) | avranno visto | Avranno visto un video divertente.
+Perché Chiara non ha risposto? (non sentire il telefono) | non avrà sentito | Non avrà sentito il telefono.
+Perché le ragazze sono già a casa? (tornare prima) | saranno tornate | Saranno tornate prima.
+! Supposizione sul passato = futuro anteriore: Avrà dormito poco. (Sie hat wohl wenig geschlafen.) || Vermutung über Vergangenes = futuro anteriore.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Quando [avrò=>sarò] tornato dall’Italia, ti farò vedere le foto.
+Appena Chiara sarà [arrivato=>arrivata], potremo cominciare.
+Marco non c’è ancora: [sarà=>avrà] perso il treno.
+Entro giugno i ragazzi [avrà=>avranno] finito il progetto.
+Quando avrete [leggiuto=>letto] l’articolo, ne discuteremo in classe.
+Sara e Giulia non rispondono: saranno già [usciti=>uscite].
+Dopo che [avrei=>avrò] parlato con la prof, ti dirò tutto.
+Dove sono gli occhiali? Li avrò [lasciato=>lasciati] in cucina.
+! Attenzione all’ausiliare, alla concordanza del participio (anche con lo, la, li, le) e a non confondere avrò (futuro) con avrei (condizionale). || Achte auf Hilfsverb, Angleichung des Partizips (auch nach lo, la, li, le) und verwechsle avrò (Futur) nicht mit avrei (Konditional).
+
+%übung schwer | Un anno a Dublino
+?luecke | Davide scrive a Giulia. Usa il futuro anteriore per l’azione che viene prima (anche dopo «entro») e per le supposizioni sul passato; negli altri casi il futuro semplice. || Davide schreibt an Giulia. Verwende das futuro anteriore für die Handlung, die vorher abgeschlossen ist (auch nach „entro“), und für Vermutungen über Vergangenes; sonst das futuro semplice.
+Cara Giulia, ad agosto (partire, io) [partirò] per Dublino.
+Appena (trovare, io) [avrò trovato] una stanza, ti (mandare) [manderò] l’indirizzo.
+Entro Natale (imparare, io) [avrò imparato] bene l’inglese, spero!
+Dopo che (finire, io) [avrò finito] il corso di lingua, (cercare) [cercherò] un lavoro in un bar.
+Tu intanto (fare) [farai] la maturità.
+Quando (dare, tu) [avrai dato] l’ultimo esame, (venire) [verrai] a trovarmi, vero?
+La scuola di lingue non mi ha ancora risposto: forse (perdere, loro) [avranno perso] la mia mail.
+A presto, Davide
+! Prima → futuro anteriore, dopo → futuro semplice: Appena avrò trovato una stanza, ti manderò l’indirizzo. || Zuerst → futuro anteriore, danach → futuro semplice.
+
+%übung schwer | Fra dieci anni
+?frei | Che cosa avrai già fatto fra dieci anni? E che cosa farai dopo? Scrivi 5 frasi con il futuro anteriore (quando, appena, dopo che, entro …). || Was wirst du in zehn Jahren schon gemacht haben? Und was machst du danach? Schreibe 5 Sätze mit dem futuro anteriore.
+Fra dieci anni avrò finito l’università. Entro il 2035 avrò visitato molti Paesi. Quando avrò trovato un lavoro, andrò a vivere da solo. Appena avrò risparmiato abbastanza, comprerò una macchina elettrica. Dopo che avrò imparato bene l’italiano, passerò un anno a Roma.
+Zeilen: 6
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+Fra dieci anni {avrò finito*|ho finito|avevo finito} l’università.
+Quando {avrò trovato*|avrei trovato|avevo trovato} un lavoro, andrò a vivere da solo.
+Entro l’estate prossima {avremo visitato*|abbiamo visitato|avevamo visitato} tre Paesi.
+Luca non è in classe: {sarà andato*|sarà andata|avrà andato} a casa.
+
+@thema passivo-andare | Lehrplan · Sprachliche Mittel |  | Il passivo con andare | 2
+#lehrplan Jgst. 11 · Passiv mit andare (Notwendigkeit)
+#regel
+**andare + participio passato** = **dover essere** + participio (obbligo, necessità):
+- _Il modulo **va compilato**._ = Il modulo **deve essere compilato**.
+- _Le regole **vanno rispettate**._ = Le regole **devono essere rispettate**.
+Il participio concorda con il soggetto: _la domanda va presentat**a**, i documenti vanno firmat**i**_.
+Solo nei **tempi semplici**: _va fatto, andava fatto, andrà fatto, andrebbe fatto_ (non: ~~è andato fatto~~).
+Confronto:
+| Il modulo **è / viene compilato**. | passivo «normale»: succede |
+| Il modulo **va compilato**. | passivo con obbligo: è necessario |
+#regel-de
+**andare + Partizip** = „muss … werden“: _Il modulo va compilato._ (Das Formular muss ausgefüllt werden.) _Le regole vanno rispettate._ (Die Regeln müssen eingehalten werden.)
+Das Partizip richtet sich nach dem Subjekt. Nur in **einfachen Zeiten** (va, andava, andrà, andrebbe + Partizip).
+Unterschied: _viene/è compilato_ = wird ausgefüllt (neutral); _va compilato_ = muss ausgefüllt werden = _deve essere compilato_.
+
+%übung leicht | Stesso significato
+?zuordnen | Abbina le frasi con lo stesso significato. || Verbinde die Sätze mit gleicher Bedeutung.
+Il modulo va compilato. = Il modulo deve essere compilato.
+Le regole vanno rispettate. = Le regole devono essere rispettate.
+I compiti vanno fatti subito. = I compiti devono essere fatti subito.
+La domanda va presentata entro maggio. = La domanda deve essere presentata entro maggio.
+Il telefono va spento. = Il telefono deve essere spento.
+Le finestre vanno chiuse. = Le finestre devono essere chiuse.
+I rifiuti vanno separati. = I rifiuti devono essere separati.
+La password va cambiata. = La password deve essere cambiata.
+
+%übung leicht | La raccolta differenziata
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+La plastica {va*|vanno|andare} buttata nel contenitore giusto.
+Le bottiglie di vetro {vanno*|va|andiamo} portate alla campana del vetro.
+La carta va {piegata*|piegato|piegate} prima di buttarla.
+I cartoni vanno {schiacciati*|schiacciate|schiacciato}.
+Le pile scariche {vanno*|va|vai} riportate al negozio.
+L’olio usato non va {versato*|versata|versati} nel lavandino.
+I vestiti vecchi vanno {messi*|messe|messo} negli appositi contenitori.
+Il sacco dei rifiuti organici {va*|vanno|vado} chiuso bene.
+! Soggetto singolare → va, plurale → vanno; il participio concorda con il soggetto. || Subjekt im Singular → va, im Plural → vanno; das Partizip gleicht sich an das Subjekt an.
+
+%übung leicht | Movimento o obbligo?
+?sortieren | Che cosa significa andare in queste frasi? || Was bedeutet andare in diesen Sätzen?
+Kategorien: a=andare = „gehen / fahren“; b=andare + participio = „muss … werden“
+Luca va a scuola in bici. > a
+Il compito va consegnato domani. > b
+Le ragazze vanno al cinema. > a
+Le mani vanno lavate spesso. > b
+Questa mail va scritta in modo formale. > b
+Stasera andiamo a mangiare una pizza. > a
+I biglietti vanno comprati in anticipo. > b
+Mia sorella va spesso in Italia. > a
+Questo errore va corretto. > b
+I miei nonni vanno in vacanza a giugno. > a
+
+%übung mittel | Nel laboratorio di chimica
+?luecke | Scrivi le regole con andare + participio (presente). || Schreibe die Regeln mit andare + Partizip (Präsens).
+Gli occhiali di protezione (mettere) [vanno messi] sempre.
+I capelli lunghi (legare) [vanno legati].
+Ogni esperimento (descrivere) [va descritto] nel quaderno.
+Le sostanze pericolose (tenere) [vanno tenute] lontano dal fuoco.
+Il tavolo (pulire) [va pulito] alla fine della lezione.
+Le provette (lavare) [vanno lavate] con attenzione.
+Il gas (chiudere) [va chiuso] prima di uscire.
+Le istruzioni dell’insegnante (seguire) [vanno seguite] con precisione.
+
+%übung mittel | La candidatura per uno stage
+?ergaenzen | Trasforma con andare + participio. || Forme um mit andare + Partizip.
+Bisogna firmare il contratto. → Il contratto … | va firmato | Il contratto va firmato.
+Bisogna rispettare le scadenze. → Le scadenze … | vanno rispettate | Le scadenze vanno rispettate.
+Bisogna allegare una foto. → Una foto … | va allegata | Una foto va allegata.
+Bisogna inviare i documenti per posta elettronica. → I documenti … | vanno inviati | I documenti vanno inviati per posta elettronica.
+Bisogna pagare la tassa d’iscrizione. → La tassa d’iscrizione … | va pagata | La tassa d’iscrizione va pagata.
+Bisogna scrivere il curriculum in italiano. → Il curriculum … | va scritto | Il curriculum va scritto in italiano.
+Bisogna indicare le lingue conosciute. → Le lingue conosciute … | vanno indicate | Le lingue conosciute vanno indicate.
+Bisogna prenotare il colloquio. → Il colloquio … | va prenotato | Il colloquio va prenotato.
+! bisogna + infinito = andare + participio: Bisogna firmare il contratto. = Il contratto va firmato. || bisogna + Infinitiv = andare + Partizip.
+
+%übung mittel | Costruisci la regola
+?ordnen | Metti le parole in ordine: „Das Formular muss in Druckbuchstaben ausgefüllt werden.“ || Bringe die Wörter in die richtige Reihenfolge.
+Il modulo
+va
+compilato
+in stampatello.
+?ordnen | Metti le parole in ordine: „Diese Medikamente dürfen nicht auf nüchternen Magen eingenommen werden.“ || Bringe die Wörter in die richtige Reihenfolge.
+Queste medicine
+non
+vanno
+prese
+a stomaco vuoto.
+?ordnen | Metti le parole in ordine: „Der Antrag hätte bis gestern eingereicht werden müssen.“ || Bringe die Wörter in die richtige Reihenfolge.
+La domanda
+andava
+presentata
+entro ieri.
+?ordnen | Metti le parole in ordine: „Die Handys müssen während der Prüfung ausgeschaltet werden.“ || Bringe die Wörter in die richtige Reihenfolge.
+I telefoni
+vanno
+spenti
+durante l’esame.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Le regole della scuola [va=>vanno] rispettate da tutti.
+Il modulo va [compilata=>compilato] in ogni parte.
+La domanda [è andata=>andava] presentata entro ieri: ormai è troppo tardi.
+Questo lavoro va [fare=>fatto] con calma.
+La porta del laboratorio [va essere chiusa=>va chiusa] a chiave.
+Questi dati [devono=>vanno/devono essere] trattati con attenzione.
+I libri della biblioteca [andano=>vanno] restituiti entro un mese.
+La password va [cambiato=>cambiata] ogni tre mesi.
+! andare + participio (non infinito, non «essere»); solo tempi semplici: andava presentata, non «è andata presentata». || andare + Partizip (kein Infinitiv, kein „essere“); nur einfache Zeiten.
+
+%übung schwer | Obbligo o no?
+?ergaenzen | Trasforma al passivo: con andare + participio se c’è un obbligo (dovere, bisogna), con venire + participio se non c’è. || Setze ins Passiv: mit andare + Partizip bei einer Pflicht (dovere, bisogna), sonst mit venire + Partizip.
+Gli studenti devono consegnare la relazione entro lunedì. → La relazione … | va consegnata | La relazione va consegnata entro lunedì.
+Il bidello apre la scuola alle sette. → La scuola … | viene aperta | La scuola viene aperta alle sette.
+Tutti devono rispettare l’ambiente. → L’ambiente … | va rispettato | L’ambiente va rispettato da tutti.
+Molti giovani usano i social ogni giorno. → I social … | vengono usati | I social vengono usati ogni giorno da molti giovani.
+Dovete spegnere le luci quando uscite. → Le luci … | vanno spente | Le luci vanno spente quando uscite.
+Una giornalista famosa scrive questo blog. → Questo blog … | viene scritto | Questo blog viene scritto da una giornalista famosa.
+Dobbiamo ridurre i rifiuti di plastica. → I rifiuti di plastica … | vanno ridotti | I rifiuti di plastica vanno ridotti.
+La scuola organizza uno scambio con Monaco. → Uno scambio con Monaco … | viene organizzato | Uno scambio con Monaco viene organizzato dalla scuola.
+Bisogna verificare le notizie prima di condividerle. → Le notizie … | vanno verificate | Le notizie vanno verificate prima di condividerle.
+Dovevamo prenotare i biglietti una settimana fa. → I biglietti … | andavano prenotati | I biglietti andavano prenotati una settimana fa.
+! va fatto = deve essere fatto (obbligo); viene fatto = è fatto (nessun obbligo). || va fatto = muss gemacht werden; viene fatto = wird gemacht.
+
+@thema si | Lehrplan · Sprachliche Mittel |  | Si impersonale e si passivante | 3
+#lehrplan Jgst. 11 · si impersonale und si passivante
+#regel
+**si** = «la gente, tutti» (tedesco: _man_).
+- **si impersonale** (senza oggetto): si + 3ª persona **singolare**: _In Italia **si cena** tardi._
+- **si passivante** (con oggetto): il verbo concorda con il nome: _Qui **si vende** il pane. Qui **si vendono** i giornali._
+- con **aggettivo**: sempre al **plurale**: _Quando **si è giovani**, si hanno molti sogni._
+- con i verbi **riflessivi**: **ci si**: _In vacanza **ci si alza** tardi._
+Tempi composti: sempre con **essere**.
+| verbo con avere, senza oggetto | _Si è mangiat**o** bene._ |
+| verbo con essere / riflessivo | _Si è partit**i** presto. Ci si è divertit**i**._ |
+| con oggetto (si passivante) | _Si sono vist**e** molte cose. Si è visitat**a** la città._ |
+#regel-de
+**si** = „man“. Ohne Objekt: si + 3. Person **Singular** (_si cena tardi_). Mit Objekt richtet sich das Verb nach dem Nomen: _si vende il pane_, aber _si vendono i giornali_ (Deutsch immer: „man verkauft“).
+Adjektive stehen im **Plural**: _quando si è giovani_. Reflexive Verben: **ci si** (_ci si alza_, nicht „si si“).
+Zusammengesetzte Zeiten immer mit **essere**: _si è mangiato bene_ (avere-Verb ohne Objekt: -o), _si è partiti_ (essere-Verb: -i), _si sono viste molte cose_ (mit Objekt: Angleichung an das Nomen).
+
+%übung leicht | Singolare o plurale?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+In Italia si {mangia*|mangiano} la pasta quasi ogni giorno.
+In questo negozio si {vendono*|vende} libri usati.
+A scuola si {studiano*|studia} tre lingue straniere.
+In biblioteca non si {parla*|parlano} ad alta voce.
+In estate si {va*|vanno} volentieri al mare.
+In Italia si {cena*|cenano} più tardi che in Germania.
+Dalla torre si {vedono*|vede} le montagne.
+In questa pizzeria si {fa*|fanno} una pizza buonissima.
+Con questa app si {imparano*|impara} molte parole nuove.
+! Senza oggetto o con oggetto singolare → verbo al singolare; con oggetto plurale → verbo al plurale. || Ohne Objekt oder mit Objekt im Singular → Verb im Singular; mit Objekt im Plural → Verb im Plural.
+
+%übung leicht | Come si dice in tedesco?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Qui si parla italiano. = Hier spricht man Italienisch.
+Come si dice? = Wie sagt man?
+Come si scrive? = Wie schreibt man das?
+Non si sa mai. = Man weiß nie.
+Si vede che sei stanco. = Man sieht, dass du müde bist.
+Qui non si fuma. = Hier raucht man nicht.
+Ci si alza presto. = Man steht früh auf.
+Quando si è giovani … = Wenn man jung ist …
+Si vendono biglietti. = Es werden Karten verkauft.
+
+%übung leicht | Tre tipi di si
+?sortieren | Che tipo di si è? || Welches si ist das?
+Kategorien: a=si impersonale (senza oggetto: „man“); b=si passivante (con oggetto: il verbo concorda); c=si riflessivo (lui, lei, loro)
+In Italia si cena tardi. > a
+Qui si vendono biglietti. > b
+Marco si alza alle sette. > c
+In questo ristorante si mangia bene. > a
+A scuola si studiano le lingue. > b
+Giulia si prepara per l’esame. > c
+Da qui si vede il mare. > b
+In treno si viaggia comodi. > a
+I ragazzi si divertono alla festa. > c
+In Svizzera si parlano quattro lingue. > b
+Con questo caldo si dorme male. > a
+Mio fratello si è laureato a Pisa. > c
+
+%übung mittel | Una città sostenibile
+?luecke | Completa con si + verbo al presente. || Ergänze si + Verb im Präsens.
+In una città sostenibile (usare) [si usano] poco le automobili.
+(andare) [Si va] al lavoro in bici o con i mezzi pubblici.
+(comprare) [Si comprano] prodotti locali al mercato.
+Non (sprecare) [si spreca] l’acqua.
+(separare) [Si separano] i rifiuti con attenzione.
+(risparmiare) [Si risparmia] energia con le lampadine a LED.
+Nei parchi (piantare) [si piantano] nuovi alberi.
+E la sera (incontrarsi) [ci si incontra] in piazza, senza macchine e senza rumore.
+Così (vivere) [si vive] meglio, no?
+! Oggetto plurale → verbo plurale (si usano le automobili); verbo riflessivo → ci si. || Objekt im Plural → Verb im Plural; reflexives Verb → ci si.
+
+%übung mittel | La gente → si
+?ergaenzen | Riscrivi le frasi con si. || Schreibe die Sätze mit si.
+In Germania la gente cena presto. → In Germania … | si cena presto | In Germania si cena presto.
+A Natale la gente mangia il panettone. → A Natale … | si mangia il panettone | A Natale si mangia il panettone.
+In questa scuola tutti studiano due lingue. → In questa scuola … | si studiano due lingue | In questa scuola si studiano due lingue.
+In montagna la gente si alza presto. → In montagna … | ci si alza presto | In montagna ci si alza presto.
+Oggi tutti leggono le notizie online. → Oggi … | si leggono le notizie online | Oggi si leggono le notizie online.
+Quando uno è stanco, dorme male. → Quando …, si dorme male. | si è stanchi | Quando si è stanchi, si dorme male.
+In Italia la gente si saluta con due baci. → In Italia … | ci si saluta con due baci | In Italia ci si saluta con due baci.
+Sui social le persone condividono troppe foto. → Sui social … | si condividono troppe foto | Sui social si condividono troppe foto.
+Quando uno è giovane, vuole cambiare il mondo. → Quando …, si vuole cambiare il mondo. | si è giovani | Quando si è giovani, si vuole cambiare il mondo.
+
+%übung mittel | La traduzione giusta
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Wenn man müde ist, arbeitet man schlecht.“
+* Quando si è stanchi, si lavora male.
+- Quando si è stanco, si lavora male.
+- Quando si sono stanchi, si lavora male.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Im Urlaub steht man spät auf.“
+* In vacanza ci si alza tardi.
+- In vacanza si si alza tardi.
+- In vacanza si alzarsi tardi.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Hier verkauft man alte Schallplatten.“
+* Qui si vendono vecchi dischi.
+- Qui si vende vecchi dischi.
+- Qui si vendiamo vecchi dischi.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Man hat gut gegessen.“
+* Si è mangiato bene.
+- Si ha mangiato bene.
+- Si sono mangiato bene.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Man ist früh abgefahren.“
+* Si è partiti presto.
+- Si è partito presto.
+- Si ha partito presto.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„In Italien trinkt man viel Kaffee.“
+* In Italia si beve molto caffè.
+- In Italia si bevono molto caffè.
+- In Italia uomo beve molto caffè.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Hier amüsiert man sich sehr.“
+* Qui ci si diverte molto.
+- Qui si si diverte molto.
+- Qui si divertirsi molto.
+?mc | Qual è la traduzione giusta? || Welche Übersetzung ist richtig?
+„Man hat viele Museen gesehen.“
+* Si sono visti molti musei.
+- Si è visto molti musei.
+- Si hanno visto molti musei.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+In questo negozio si [vende=>vendono] scarpe sportive.
+Quando si è [giovane=>giovani], si hanno molti sogni.
+In vacanza [si si=>ci si] alza tardi.
+Ieri sera si [ha=>è] mangiato benissimo.
+In Italia si [bevono=>beve] molto caffè.
+Alla festa si è [ballati=>ballato] fino a mezzanotte.
+Dopo la gita si è [tornato=>tornati] a casa tardi.
+A Roma si sono [visto=>visti] molti monumenti.
+[Uomo=>Si] dice che questo film sia bellissimo.
+! „man“ non è «uomo»! Tempi composti: si è ballato (ballare → avere), si è tornati (tornare → essere), si sono visti i monumenti (con oggetto). || „man“ heißt nicht „uomo“! Zusammengesetzte Zeiten: si è ballato, si è tornati, si sono visti i monumenti.
+
+%übung schwer | Com’è andata la gita?
+?luecke | Racconta la gita con si al passato prossimo. || Erzähle den Ausflug mit si im passato prossimo.
+Ieri (partire) [si è partiti] alle sei di mattina.
+In pullman (dormire) [si è dormito] poco.
+A Torino (visitare) [si è visitato] il Museo Egizio.
+Poi (vedere) [si sono viste] molte piazze eleganti.
+A pranzo (mangiare) [si è mangiato] benissimo.
+Nel pomeriggio (fare) [si sono fatte] tante foto.
+(camminare) [Si è camminato] per ore.
+La sera (tornare) [si è tornati] a casa stanchi.
+Insomma, (divertirsi) [ci si è divertiti] molto!
+! Verbo con avere senza oggetto: participio in -o (si è dormito). Verbo con essere o riflessivo: participio in -i (si è partiti, ci si è divertiti). Con oggetto: il participio concorda con il nome (si sono viste molte piazze). || avere-Verb ohne Objekt: Partizip auf -o. essere-Verb oder reflexiv: Partizip auf -i. Mit Objekt: Angleichung an das Nomen.
+
+%übung schwer | Da noi si fa così
+?frei | Che cosa si fa (e non si fa) nella tua città o nella tua scuola? Che cosa si è fatto durante l’ultima gita? Scrivi 6 frasi con si. || Was macht man (nicht) in deiner Stadt oder Schule? Was hat man beim letzten Ausflug gemacht? Schreibe 6 Sätze mit si.
+Nella mia città si vive bene. In centro si trovano molti negozi e si va spesso in bici. A scuola non si usano i telefoni durante le lezioni. Il sabato sera ci si incontra in piazza. Durante l’ultima gita si è camminato molto e si sono visitati due musei. Ci si è divertiti tantissimo.
+Zeilen: 6
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+Nella mia città si {vive*|vivono} bene.
+In centro si {trovano*|trova} molti negozi.
+Il sabato sera {ci si*|si si} incontra in piazza.
+Durante l’ultima gita si {è*|ha} camminato molto.
+
+@thema causativi | Lehrplan · Sprachliche Mittel |  | Fare e lasciare + infinito | 4
+#lehrplan Jgst. 11 · fare / lasciare + Infinitiv
+#regel
+**fare + infinito** = un’altra persona fa l’azione per me, o io provoco l’azione:
+- _**Faccio riparare** la bici._ · _Questo film mi **fa ridere**._
+- Chi fa l’azione? **a / da** + persona: _Faccio leggere il testo **agli** studenti. Faccio riparare la bici **dal** meccanico._
+**farsi + infinito** (per sé; ausiliare **essere**): _**Mi faccio tagliare** i capelli. Giulia **si è fatta tagliare** i capelli._
+**lasciare + infinito** = permettere, non impedire: _I miei genitori mi **lasciano uscire**. **Lasciami parlare**!_
+**Pronomi:** prima di fare / lasciare, non dopo l’infinito: _**Lo** faccio riparare. **Glielo** faccio vedere._
+Con l’imperativo, attaccati: _**Fammelo** sapere! **Lasciami** dormire!_
+#regel-de
+Deutsches „**lassen**“ hat zwei Entsprechungen:
+- **fare + Infinitiv** = veranlassen, beauftragen, jemanden zu etwas bringen: _Faccio riparare la bici._ (Ich lasse das Rad reparieren.) _Mi fai ridere._ (Du bringst mich zum Lachen.)
+- **lasciare + Infinitiv** = zulassen, erlauben: _Lasciami dormire!_ (Lass mich schlafen!)
+Der Ausführende steht mit **a** oder **da**: _Faccio riparare la bici dal meccanico._ **farsi + Infinitiv** mit essere: _Mi sono fatto/fatta tagliare i capelli._
+Pronomen stehen **vor** fare/lasciare (_glielo faccio vedere_), beim Imperativ angehängt (_fammelo sapere_).
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Faccio riparare il computer. = Ich lasse den Computer reparieren.
+Lascio dormire i bambini. = Ich lasse die Kinder schlafen.
+Mi faccio tagliare i capelli. = Ich lasse mir die Haare schneiden.
+Fammi vedere! = Zeig mal her!
+Lasciami in pace! = Lass mich in Ruhe!
+Fammelo sapere. = Lass es mich wissen.
+Mi fai ridere. = Du bringst mich zum Lachen.
+Lascia stare! = Lass es sein!
+Ci ha fatto aspettare. = Er hat uns warten lassen.
+
+%übung leicht | „Lassen“: fare o lasciare?
+?sortieren | Il tedesco dice sempre „lassen“. E l’italiano? || Im Deutschen heißt es immer „lassen“. Und auf Italienisch?
+Kategorien: a=fare + infinito (veranlassen, jemanden zu etwas bringen); b=lasciare + infinito (erlauben, nicht hindern)
+Ich lasse mir die Haare schneiden. > a
+Lass die Kinder noch ein bisschen spielen! > b
+Wir lassen die Pizza nach Hause liefern. > a
+Lass ihn doch schlafen, er ist müde. > b
+Sie lässt ihr Handy im Laden reparieren. > a
+Meine Eltern lassen mich allein nach Rom fahren. > b
+Lass mich bitte ausreden! > b
+Er lässt sein Auto waschen. > a
+Lass die Suppe noch fünf Minuten kochen. > b
+Wir lassen die Einladungen drucken. > a
+
+%übung leicht | La forma giusta
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Il computer non funziona: domani lo faccio {riparare*|riparato|riparo}.
+Ho i capelli troppo lunghi: sabato mi faccio {tagliare*|tagliato|a tagliare} i capelli.
+Questo video è divertente: {te lo faccio*|faccio te lo|te faccio lo} vedere subito.
+Quando arrivi, {fammelo*|mi lo fai|fa mi lo} sapere!
+Sto parlando: {lasciami*|mi lasciare|lascia mi} finire, per favore!
+La prof ha fatto {leggere*|letto|leggendo} il testo a tutta la classe.
+I miei genitori mi lasciano {uscire*|uscito|a uscire} il sabato sera.
+Ieri Giulia si {è*|ha} fatta tagliare i capelli.
+Con la nostra presentazione abbiamo fatto {ridere*|ridendo|riso} tutti.
+! fare / lasciare + infinito (senza preposizione); i pronomi stanno prima di fare / lasciare, con l’imperativo sono attaccati. || fare / lasciare + Infinitiv (ohne Präposition); Pronomen stehen vor fare / lasciare, beim Imperativ angehängt.
+
+%übung mittel | La festa della scuola
+?luecke | Chi organizza la festa non fa tutto da solo. Completa con fare (presente) + infinito. || Wer das Fest organisiert, macht nicht alles selbst. Ergänze fare (Präsens) + Infinitiv.
+Per la festa della scuola noi (preparare) [facciamo preparare] il buffet da una pizzeria.
+Il preside (stampare) [fa stampare] gli inviti.
+Io (riparare) [faccio riparare] le casse dal tecnico.
+Le ragazze della quinta B (venire) [fanno venire] un DJ da Bologna.
+I professori (decorare) [fanno decorare] la palestra agli studenti di arte.
+E tu, (controllare) [fai controllare] le luci a tuo fratello?
+Ragazzi, (sentire) [fate sentire] la playlist anche a noi?
+Le canzoni italiane (ballare) [fanno ballare] tutti!
+
+%übung mittel | Sì, te lo faccio vedere
+?ergaenzen | Rispondi con i pronomi. || Antworte mit Pronomen.
+Fai vedere le foto a Giulia? – Sì, … | gliele faccio vedere | Sì, gliele faccio vedere.
+Fai riparare la bici? – Sì, … | la faccio riparare | Sì, la faccio riparare.
+Lasci guidare tuo fratello? – No, … | non lo lascio guidare | No, non lo lascio guidare.
+Mi fai sapere l’orario? – Sì, … | te lo faccio sapere | Sì, te lo faccio sapere.
+Fate leggere l’articolo agli studenti? – Sì, … | glielo facciamo leggere | Sì, glielo facciamo leggere.
+Ci fai sentire la canzone? – Sì, … | ve la faccio sentire | Sì, ve la faccio sentire.
+I tuoi genitori ti lasciano uscire? – Sì, … | mi lasciano uscire | Sì, mi lasciano uscire.
+Fai controllare i compiti alla prof? – Sì, … | glieli faccio controllare | Sì, glieli faccio controllare.
+! I pronomi stanno prima di fare / lasciare: gliele faccio vedere (non: faccio vederle a lei). || Die Pronomen stehen vor fare / lasciare.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Ich lasse mir die Haare schneiden.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mi
+faccio
+tagliare
+i capelli.
+?ordnen | Metti le parole in ordine: „Lass es mich bald wissen!“ || Bringe die Wörter in die richtige Reihenfolge.
+Fammelo
+sapere
+presto!
+?ordnen | Metti le parole in ordine: „Meine Eltern lassen mich nicht allein verreisen.“ || Bringe die Wörter in die richtige Reihenfolge.
+I miei genitori
+non
+mi
+lasciano
+viaggiare
+da sola.
+?ordnen | Metti le parole in ordine: „Wir haben das Auto vom Mechaniker reparieren lassen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Abbiamo
+fatto
+riparare
+la macchina dal meccanico.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Ogni due mesi mi [lascio=>faccio] tagliare i capelli dal parrucchiere.
+Ieri mi [ho=>sono] fatto controllare la vista.
+Sara si è [fatto=>fatta] tagliare i capelli cortissimi.
+Il mio nuovo telefono? [Faccio lo vedere=>Lo faccio vedere] a tutti!
+Luca ha sbagliato: la prof [lo=>gli] fa ripetere la frase.
+[Fami=>Fammi] vedere il tuo disegno!
+I miei genitori non mi lasciano [di uscire=>uscire] durante la settimana.
+Ho fatto [riparato=>riparare] la bici da mio zio.
+[Fammilo=>Fammelo] sapere appena puoi!
+! Un servizio (parrucchiere, meccanico) = fare + infinito, non lasciare. Se c’è un oggetto diretto (la frase), la persona è oggetto indiretto: gli fa ripetere la frase. || Dienstleistung (Friseur, Mechaniker) = fare + Infinitiv, nicht lasciare. Gibt es ein direktes Objekt (la frase), steht die Person im Dativ: gli fa ripetere la frase.
+
+%übung schwer | Il sabato di Chiara
+?luecke | Chiara racconta il suo sabato. Scrivi i verbi al passato prossimo. || Chiara erzählt von ihrem Samstag. Setze die Verben ins passato prossimo.
+Sabato mattina sono andata dal parrucchiere e (farsi tagliare) [mi sono fatta tagliare] i capelli.
+Poi ho portato il telefono in negozio e l’(fare riparare) [ho fatto riparare].
+Mio fratello voleva guidare la macchina, ma papà non l’(lasciare guidare) [ha lasciato guidare].
+A pranzo la nonna ci (fare assaggiare) [ha fatto assaggiare] la sua nuova torta.
+Nel pomeriggio Davide (farsi prestare) [si è fatto prestare] la mia bici.
+La sera i miei genitori mi (lasciare uscire) [hanno lasciato uscire] fino a mezzanotte.
+Al cinema il film ci (fare ridere) [ha fatto ridere] tantissimo.
+E le foto della serata? Le (fare vedere, io) [ho fatte vedere] subito a Sara.
+! farsi + infinito → essere (mi sono fatta tagliare); fare / lasciare + infinito → avere. Con lo, la, li, le prima del verbo il participio concorda: le ho fatte vedere. || farsi + Infinitiv → essere; fare / lasciare + Infinitiv → avere. Nach lo, la, li, le wird das Partizip angeglichen: le ho fatte vedere.
+
+%übung schwer | Fare o lasciar fare?
+?frei | Che cosa fai fare ad altri (parrucchiere, meccanico, fratelli …)? Che cosa ti lasciano fare i tuoi genitori, e che cosa no? Scrivi 5 frasi con fare / farsi / lasciare + infinito. || Was lässt du andere machen? Was erlauben dir deine Eltern, was nicht? Schreibe 5 Sätze mit fare / farsi / lasciare + Infinitiv.
+Ogni tre mesi mi faccio tagliare i capelli. Quando la mia bici è rotta, la faccio riparare da mio padre. I miei genitori mi lasciano uscire il sabato sera, ma non mi lasciano tornare dopo mezzanotte. La mia sorellina mi fa sempre ridere. A scuola la prof ci fa scrivere molti testi.
+Zeilen: 6
+?ergaenzen | Completa con fare, farsi o lasciare + infinito. || Ergänze mit fare, farsi oder lasciare + Infinitiv.
+La mia bici è rotta, ma io non so ripararla: la porto dal meccanico. → La … (riparare) | faccio riparare | La faccio riparare dal meccanico.
+Ho sonno, non svegliarmi! → Per favore, … (dormire) | lasciami dormire | Per favore, lasciami dormire!
+Hai una foto nuova? Voglio vederla anch’io! → Dai, … (vedere) | fammela vedere | Dai, fammela vedere!
+Giulia è stata dal parrucchiere e adesso ha i capelli rossi. → Giulia … i capelli. (tingere) | si è fatta tingere | Giulia si è fatta tingere i capelli.
+
+@thema riflessivi | Lehrplan · Sprachliche Mittel |  | Verbi riflessivi: confronto con il tedesco | 5
+#lehrplan Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen
+#regel
+Non sempre l’italiano e il tedesco sono uguali!
+| **italiano: riflessivo** | **tedesco: non riflessivo** |
+| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |
+| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |
+| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |
+
+| **italiano: non riflessivo** | **tedesco: riflessivo** |
+| ringraziare qualcuno | sich bei jemandem bedanken |
+| cambiare | sich ändern |
+| succedere | sich ereignen |
+Passato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._
+Reciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._
+Con **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._
+#regel-de
+**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).
+**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).
+Im passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere).
+
+%übung leicht | Riflessivo in quale lingua?
+?sortieren | Confronta l’italiano e il tedesco. || Vergleiche Italienisch und Deutsch.
+Kategorien: a=riflessivo solo in italiano; b=riflessivo in tutte e due le lingue; c=riflessivo solo in tedesco
+alzarsi (aufstehen) > a
+svegliarsi (aufwachen) > a
+addormentarsi (einschlafen) > a
+chiamarsi (heißen) > a
+sposarsi (heiraten) > a
+laurearsi (das Studium abschließen) > a
+vergognarsi (sich schämen) > b
+trovarsi (sich befinden) > b
+divertirsi (sich amüsieren) > b
+ringraziare (sich bedanken) > c
+succedere (sich ereignen) > c
+cambiare (sich ändern) > c
+
+%übung leicht | Con o senza pronome?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+La mattina {mi alzo*|alzo|alzo mi} alle sette.
+Mia sorella {si chiama*|chiama|chiama sé} Elena.
+L’anno scorso mio cugino {si è laureato*|ha laureato|si ha laureato} in medicina.
+Ti {ringrazio*|mi ringrazio|ringrazio mi} per il regalo!
+Che cosa {è successo*|si è successo|ha successo} ieri a scuola?
+Con gli anni la città {è cambiata*|si è cambiata|ha cambiata} molto.
+Ieri sera {mi sono addormentato*|ho addormentato|sono addormentato} sul divano.
+Scusa, {mi sono dimenticato*|mi ho dimenticato|sono dimenticato} del tuo compleanno!
+L’autobus {si ferma*|ferma si|si ferme} davanti alla scuola.
+! alzarsi, chiamarsi, laurearsi, addormentarsi, dimenticarsi, fermarsi: riflessivi (con essere). ringraziare, succedere, cambiare („sich ändern“): senza pronome riflessivo. || Reflexiv (mit essere): alzarsi, chiamarsi, laurearsi … Ohne Reflexivpronomen: ringraziare, succedere, cambiare („sich ändern“).
+
+%übung leicht | Come si dice in tedesco?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Ci vediamo domani. = Wir sehen uns morgen.
+Si sono conosciuti a Roma. = Sie haben sich in Rom kennengelernt.
+Mi sono accorto dell’errore. = Ich habe den Fehler bemerkt.
+Si è sposata a giugno. = Sie hat im Juni geheiratet.
+Ti ringrazio. = Ich bedanke mich bei dir.
+È successo ieri. = Es hat sich gestern ereignet.
+Mi vergogno. = Ich schäme mich.
+Dove ti trovi? = Wo befindest du dich?
+Ci sentiamo stasera. = Wir hören uns heute Abend.
+Tutto è cambiato. = Alles hat sich geändert.
+
+%übung mittel | La storia dei miei nonni
+?luecke | Scrivi i verbi al passato prossimo. || Setze die Verben ins passato prossimo.
+I miei nonni (conoscersi) [si sono conosciuti] a Napoli, a una festa.
+(innamorarsi) [Si sono innamorati] subito.
+Due anni dopo (sposarsi) [si sono sposati].
+Poi la nonna (laurearsi) [si è laureata] in lettere.
+Il nonno invece (trasferirsi) [si è trasferito] a Monaco per lavoro.
+All’inizio la nonna non (trovarsi) [si è trovata] bene in Germania.
+Ma poi (abituarsi) [si è abituata] alla nuova vita.
+Mia madre e mia zia (iscriversi) [si sono iscritte] a una scuola tedesca.
+E oggi i nonni dicono che in tutti questi anni (divertirsi) [si sono divertiti] tantissimo.
+! Verbi riflessivi e reciproci: sempre essere, il participio concorda con il soggetto. || Reflexive und reziproke Verben: immer essere, das Partizip gleicht sich an das Subjekt an.
+
+%übung mittel | Con dovere, potere, volere
+?ergaenzen | Scrivi la frase al passato prossimo. Ci sono due soluzioni giuste: basta scriverne una. || Schreibe den Satz im passato prossimo. Es gibt zwei richtige Lösungen: eine genügt.
+Luca: «Devo alzarmi alle cinque.» → Luca: «Ieri …» | mi sono dovuto alzare/ho dovuto alzarmi | Mi sono dovuto alzare alle cinque. / Ho dovuto alzarmi alle cinque.
+Sara: «Non posso fermarmi.» → Sara: «Ieri …» | non mi sono potuta fermare/non ho potuto fermarmi | Non mi sono potuta fermare. / Non ho potuto fermarmi.
+Davide: «Voglio iscrivermi al corso.» → Davide: «Ieri …» | mi sono voluto iscrivere/ho voluto iscrivermi | Mi sono voluto iscrivere al corso. / Ho voluto iscrivermi al corso.
+Chiara e Giulia: «Dobbiamo prepararci in fretta.» → Chiara e Giulia: «Ieri …» | ci siamo dovute preparare/abbiamo dovuto prepararci | Ci siamo dovute preparare in fretta. / Abbiamo dovuto prepararci in fretta.
+I ragazzi non possono addormentarsi. → Ieri i ragazzi … | non si sono potuti addormentare/non hanno potuto addormentarsi | Ieri i ragazzi non si sono potuti addormentare. / Ieri i ragazzi non hanno potuto addormentarsi.
+Matteo deve scusarsi con la prof. → Ieri Matteo … | si è dovuto scusare/ha dovuto scusarsi | Ieri Matteo si è dovuto scusare con la prof. / Ieri Matteo ha dovuto scusarsi con la prof.
+Giulia vuole riposarsi un po’. → Ieri Giulia … | si è voluta riposare/ha voluto riposarsi | Ieri Giulia si è voluta riposare un po’. / Ieri Giulia ha voluto riposarsi un po’.
+Marco, devi svegliarti presto. → Marco, ieri … | ti sei dovuto svegliare/hai dovuto svegliarti | Marco, ieri ti sei dovuto svegliare presto. / Marco, ieri hai dovuto svegliarti presto.
+! Pronome prima del verbo modale → essere + concordanza (mi sono dovuta alzare); pronome attaccato all’infinito → avere (ho dovuto alzarmi). || Pronomen vor dem Modalverb → essere + Angleichung; Pronomen am Infinitiv → avere.
+
+%übung mittel | Tedesco – italiano
+?tabelle | Scrivi il verbo italiano (infinito) e il passato prossimo per «lei». || Schreibe das italienische Verb (Infinitiv) und das passato prossimo für „lei“ (sie).
+Spalten: tedesco | italiano (infinito) | passato prossimo (lei)
+aufstehen (al…) | [alzarsi] | [si è alzata]
+einschlafen (ad…) | [addormentarsi] | [si è addormentata]
+heiraten (sp…) | [sposarsi] | [si è sposata]
+etwas bemerken (ac… di) | [accorgersi] | [si è accorta]
+sich bedanken (rin…) | [ringraziare] | [ha ringraziato]
+sich ändern (ca…) | [cambiare] | [è cambiata]
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i nove errori. || Korrigiere die neun Fehler.
+Ieri mi [ho=>sono] svegliato tardi.
+Giulia si è [laureato=>laureata] a Bologna.
+Vorrei [ringraziarmi=>ringraziarvi] per il vostro aiuto.
+Che cosa [si è successo=>è successo] ieri sera?
+Negli ultimi anni il clima [si è cambiato=>è cambiato] molto.
+Luca e Sara [si hanno=>si sono] conosciuti in vacanza.
+Non mi sono accorta [l’errore=>dell’errore].
+Stamattina mi [ho=>sono] dovuto alzare prestissimo.
+Mio fratello [chiama=>si chiama] Davide.
+! „sich bedanken“ = ringraziare qualcuno; „sich ereignen“ = succedere; „sich ändern“ = cambiare: senza pronome riflessivo! accorgersi **di** qualcosa. || ringraziare, succedere, cambiare: ohne Reflexivpronomen! accorgersi di.
+
+%übung schwer | Lo stage di Matteo
+?luecke | Matteo racconta il suo stage a Verona. Scrivi i verbi al passato prossimo. Attenzione: riflessivo in italiano o no? || Matteo erzählt von seinem Praktikum in Verona. Setze die Verben ins passato prossimo. Achtung: im Italienischen reflexiv oder nicht?
+Il primo giorno io (aufwachen) [mi sono svegliato] prestissimo.
+Ma sull’autobus (einschlafen) [mi sono addormentato] e ho quasi perso la fermata!
+Per fortuna l’autobus (anhalten) [si è fermato] proprio davanti all’ufficio.
+Lì io e la mia tutor Elena (sich kennenlernen) [ci siamo conosciuti].
+Dopo una settimana io (bemerken) [mi sono accorto] di un errore nel sito dell’azienda.
+Il capo mi (sich bedanken) [ha ringraziato] davanti a tutti.
+In un mese (sich ändern) [sono cambiate] molte cose: ora parlo italiano senza paura.
+E l’ultimo giorno (sich ereignen) [è successa] una cosa bellissima: mi hanno offerto un lavoro per l’estate!
+! svegliarsi, addormentarsi, fermarsi, conoscersi, accorgersi: riflessivi. ringraziare (avere), cambiare e succedere (essere): non riflessivi. || Reflexiv: svegliarsi, addormentarsi, fermarsi, conoscersi, accorgersi. Nicht reflexiv: ringraziare (avere), cambiare und succedere (essere).
+
+%übung schwer | Come si sono conosciuti?
+?frei | Racconta come si sono conosciuti i tuoi genitori, i tuoi nonni o due tuoi amici (anche una storia inventata). Scrivi 6 frasi con almeno 5 verbi riflessivi o reciproci al passato prossimo. || Erzähle, wie sich deine Eltern, Großeltern oder zwei Freunde kennengelernt haben (auch erfunden). 6 Sätze mit mindestens 5 reflexiven oder reziproken Verben im passato prossimo.
+I miei genitori si sono conosciuti all’università. Si sono visti per la prima volta in biblioteca e si sono innamorati subito. Mia madre si è laureata un anno dopo. Poi si sono trasferiti a Monaco e si sono sposati. All’inizio non si sono trovati bene, ma poi si sono abituati. Da allora tutto è cambiato.
+Zeilen: 7
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+I miei genitori {si sono conosciuti*|si hanno conosciuto|hanno conosciuti} all’università.
+Mia madre {si è laureata*|ha laureato|si è laureato} un anno dopo.
+Dopo il matrimonio tutto {è cambiato*|si è cambiato|si ha cambiato}.
+Li {ringrazio*|mi ringrazio|ringrazio mi} per tutto quello che fanno per me.

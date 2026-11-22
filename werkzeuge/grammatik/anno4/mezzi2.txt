@@ -1,0 +1,539 @@
+#!buch series=Corso_daje volume=4 grade=11 cefr=B1 prefix=it11
+## Quarto anno · Lehrplan Jgst. 11 · Sprachliche Mittel (Teil 2): implizite Sätze, Hervorhebung, Relativsätze, passato remoto. Eigene Übungen.
+
+@thema implicite | Lehrplan · Sprachliche Mittel |  | Gerundio e participi | 1
+#lehrplan Jgst. 11 · Gerundium und Partizipien als verkürzte Nebensätze (frasi implicite)
+#regel
+Il **gerundio** e il **participio passato** possono sostituire una frase secondaria. Il soggetto è di solito **lo stesso** della frase principale.
+| **gerundio semplice** | parlando, leggendo, partendo | azione nello stesso momento |
+| **gerundio composto** | avendo parlato, essendo partito/-a/-i/-e | azione che succede prima |
+
+| tempo (mentre) | _**Tornando** a casa, ho incontrato Sara._ |
+| causa (siccome) | _**Essendo** stanca, Giulia resta a casa._ |
+| modo (come?) | _Ho imparato l’italiano **ascoltando** canzoni._ |
+| condizione (se) | _**Partendo** adesso, arrivi in tempo._ |
+| concessione (anche se) | _**Pur essendo** stanca, Giulia esce._ |
+**Participio passato** al posto di _dopo che / quando_: _**Finita** la lezione, siamo usciti._ · _**Arrivati** a casa, abbiamo cenato._ Il participio concorda (finit**a** la lezione, arrivat**i** noi).
+I **pronomi** si attaccano: _vedendo**lo**, avendo**lo** letto, alzando**si**_.
+Il **participio presente** (-ante, -ente) oggi è quasi sempre aggettivo o nome: _un film divertente, i partecipanti_.
+#regel-de
+**Gerundium** und **Partizip Perfekt** verkürzen Nebensätze; das Subjekt ist normalerweise **dasselbe** wie im Hauptsatz. Das Deutsche braucht dafür fast immer einen Nebensatz (während, weil, wenn, obwohl, nachdem) oder „indem“.
+gerundio semplice = gleichzeitig (_Tornando a casa …_ = Als ich nach Hause ging …), gerundio composto = vorher (_Avendo finito …_ = Nachdem/Weil ich fertig war …; mit essere wird angeglichen: _essendo arrivata_). **pur + gerundio** = obwohl.
+Partizip Perfekt: _Finita la lezione, …_ (Nachdem die Stunde zu Ende war, …), _Arrivati a casa, …_ – das Partizip wird angeglichen.
+Pronomen werden angehängt: _vedendolo, avendolo letto_. Das participio presente (_divertente, cantante_) musst du nur erkennen.
+
+%übung leicht | Due modi per dire la stessa cosa
+?zuordnen | Abbina le frasi che hanno lo stesso significato. || Verbinde die Sätze mit gleicher Bedeutung.
+Tornando a casa, ho incontrato Sara. = Mentre tornavo a casa, ho incontrato Sara.
+Essendo malato, Luca non è venuto a scuola. = Siccome era malato, Luca non è venuto a scuola.
+Prendendo il treno delle sette, arrivate in tempo. = Se prendete il treno delle sette, arrivate in tempo.
+Pur avendo studiato molto, ho preso un brutto voto. = Anche se avevo studiato molto, ho preso un brutto voto.
+Avendo finito i compiti, Chiara è uscita. = Dopo aver finito i compiti, Chiara è uscita.
+Finita la partita, i tifosi sono tornati a casa. = Quando la partita è finita, i tifosi sono tornati a casa.
+Non avendo soldi, non compro il biglietto. = Poiché non ho soldi, non compro il biglietto.
+Leggendo molto, si impara meglio una lingua. = Se si legge molto, si impara meglio una lingua.
+! Il gerundio può esprimere tempo, causa, condizione; pur + gerundio = anche se. || Das Gerundium kann Zeit, Grund oder Bedingung ausdrücken; pur + Gerundium = obwohl.
+
+%übung leicht | Che forma è?
+?sortieren | Metti ogni forma nel gruppo giusto. || Ordne jede Form der richtigen Gruppe zu.
+Kategorien: a=gerundio semplice; b=gerundio composto; c=participio passato; d=participio presente
+uscendo > a
+facendo > a
+bevendo > a
+avendo visto > b
+essendo partiti > b
+essendosi alzata > b
+arrivati > c
+finita > c
+scritto > c
+interessante > d
+sorridente > d
+cantante > d
+! -ando/-endo = gerundio; avendo/essendo + participio = gerundio composto; -ante/-ente = participio presente. || -ando/-endo = Gerundium; avendo/essendo + Partizip = gerundio composto; -ante/-ente = Partizip Präsens.
+
+%übung leicht | La forma giusta
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Camminando*|Camminato|Camminare} per il centro, abbiamo scoperto una piccola libreria.
+Si impara una lingua {parlando*|parlato|parlante} con la gente.
+{Arrivata*|Arrivato|Arrivate} in stazione, Giulia ha subito chiamato sua madre.
+{Avendo*|Essendo|Avuto} perso l’autobus, Davide è arrivato tardi.
+{Essendo*|Avendo|Stato} nata a Bologna, Sara conosce bene la città.
+Matteo si rilassa {facendo*|fando|facciando} sport.
+{Bevendo*|Bevando|Berendo} troppo caffè, si dorme male.
+{Pur*|Però|Perché} essendo stanchi, abbiamo finito il progetto.
+{Vedendolo*|Lo vedendo|Vedendo lo} così triste, gli ho chiesto che cosa fosse successo.
+{Finito*|Finita|Finiti} il film, tutti sono rimasti in silenzio.
+! Gerundio composto: avendo o essendo come nel passato prossimo. Il pronome va attaccato al gerundio. || Gerundio composto: avendo oder essendo wie im passato prossimo. Das Pronomen wird ans Gerundium angehängt.
+
+%übung leicht | Sei mesi a Bologna
+?luecke wortkasten | Chiara racconta il suo scambio. Completa con i gerundi. || Chiara erzählt von ihrem Austausch. Ergänze die Gerundien.
+[Abitando] a Bologna per sei mesi, ho scoperto una città vivace e piena di studenti.
+La mattina andavo a scuola [prendendo] l’autobus numero 20.
+[Conoscendo] poche persone, all’inizio ero un po’ timida.
+Poi ho trovato nuovi amici [giocando] a pallavolo nella squadra della scuola.
+[Parlando] ogni giorno con loro, ho perso la paura di sbagliare.
+La sera mi rilassavo [ascoltando] musica italiana.
+Pur [avendo] nostalgia di casa, alla fine non volevo più partire.
+[Ripensando] a quei mesi, capisco quanto sono cambiata.
++ stato, vissuto
+
+%übung mittel | Consigli per l’esame
+?luecke | Scrivi il gerundio semplice. Attenzione ai pronomi! || Schreibe das gerundio semplice. Achte auf die Pronomen!
+(ripetere) [Ripetendo] un po’ ogni giorno, non avrai problemi prima dell’esame.
+Molti studenti imparano meglio (scrivere) [scrivendo] dei riassunti.
+(fare) [Facendo] delle pause regolari, ci si concentra di più.
+(essere) [Essendo] molto nervosa, Sara preferisce studiare con un’amica.
+Il testo è difficile, ma (leggerlo) [leggendolo] due volte lo capirai.
+(dire) [Dicendo] le regole ad alta voce, Matteo le ricorda meglio.
+(bere) [Bevendo] molta acqua e (dormire) [dormendo] abbastanza, ti concentri meglio.
+Hai un dubbio? (parlarne) [Parlandone] con il professore, troverai una soluzione.
+(alzarsi) [Alzandosi] presto, Davide ha tutta la mattina per ripassare.
+! fare → facendo, dire → dicendo, bere → bevendo. Pronomi: leggendolo, parlandone, alzandosi. || Unregelmäßig: facendo, dicendo, bevendo. Pronomen werden angehängt.
+
+%übung mittel | Prima una cosa, poi l’altra
+?luecke | Scrivi il gerundio composto (avendo / essendo + participio). || Schreibe das gerundio composto (avendo / essendo + Partizip).
+(finire) [Avendo finito] la scuola, Giulia ha deciso di fare un anno di volontariato.
+(arrivare) [Essendo arrivata] in ritardo, Chiara non ha trovato posto.
+(perdere) [Avendo perso] il treno, i ragazzi hanno aspettato un’ora.
+(partire) [Essendo partiti] presto, Luca e Matteo sono arrivati prima di tutti.
+(leggere) [Avendo letto] il romanzo, Sara ha voluto vedere anche il film.
+(nascere) [Essendo nate] a Roma, le due sorelle parlano con l’accento romano.
+(vedere) Non [avendo visto] il messaggio, Davide non è venuto alla riunione.
+(rimanere) [Essendo rimasto] solo in casa, Luca ha invitato gli amici.
+(fare) Pur [avendo fatto] molti errori, Giulia ha superato l’esame.
+(crescere) [Essendo cresciuta] in campagna, mia nonna ama la natura.
+! Con essendo il participio concorda con il soggetto: essendo arrivata, essendo partiti. || Mit essendo wird das Partizip ans Subjekt angeglichen.
+
+%übung mittel | Finita la lezione …
+?ergaenzen | Trasforma: comincia la frase con il participio passato. || Forme um: Beginne den Satz mit dem Partizip Perfekt.
+Dopo che la lezione era finita, siamo andati al bar. → … | Finita la lezione | Finita la lezione, siamo andati al bar.
+Dopo essere arrivati a casa, abbiamo cenato. → … | Arrivati a casa | Arrivati a casa, abbiamo cenato.
+Dopo aver letto il libro, Sara l’ha prestato a un’amica. → … | Letto il libro | Letto il libro, Sara l’ha prestato a un’amica.
+Quando gli esami sono finiti, gli studenti hanno fatto una festa. → … | Finiti gli esami | Finiti gli esami, gli studenti hanno fatto una festa.
+Dopo essere tornata dall’Italia, Giulia ha cominciato un corso di cucina. → … | Tornata dall’Italia | Tornata dall’Italia, Giulia ha cominciato un corso di cucina.
+Dopo aver chiuso la porta, Marco è sceso in strada. → … | Chiusa la porta | Chiusa la porta, Marco è sceso in strada.
+Dopo che le vacanze erano passate, è ricominciata la scuola. → … | Passate le vacanze | Passate le vacanze, è ricominciata la scuola.
+Dopo essere usciti dal cinema, i ragazzi hanno discusso del film. → … | Usciti dal cinema | Usciti dal cinema, i ragazzi hanno discusso del film.
+Dopo aver fatto i compiti, Luca ha guardato una serie. → … | Fatti i compiti | Fatti i compiti, Luca ha guardato una serie.
+! Il participio concorda: con l’oggetto (chiusa la porta, fatti i compiti) o, con i verbi con essere, con il soggetto (arrivati, tornata). || Das Partizip richtet sich nach dem Objekt (chiusa la porta) oder, bei Verben mit essere, nach dem Subjekt (arrivati, tornata).
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Obwohl sie sehr müde waren, haben die Jugendlichen das Projekt beendet.“ || Bringe die Teile in die richtige Reihenfolge.
+Pur essendo
+molto stanchi,
+i ragazzi hanno finito
+il progetto.
+?ordnen | Metti le parti in ordine: „Da ich ihn schon gesehen habe, will ich diesen Film nicht noch einmal sehen.“ || Bringe die Teile in die richtige Reihenfolge.
+Avendolo
+già visto,
+non voglio
+rivedere quel film.
+?ordnen | Metti le parti in ordine: „Nachdem das Spiel zu Ende war, sind die Fans nach Hause gegangen.“ || Bringe die Teile in die richtige Reihenfolge.
+Finita
+la partita,
+i tifosi
+sono tornati a casa.
+?ordnen | Metti le parti in ordine: „Eine Fremdsprache lernt man besser, wenn man sie jeden Tag spricht.“ || Bringe die Teile in die richtige Reihenfolge.
+Una lingua straniera
+si impara meglio
+parlandola
+ogni giorno.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+[Avendo=>Essendo] arrivata tardi, Giulia ha perso l’inizio del film.
+Marco studia [ascoltante=>ascoltando] musica.
+[Finito=>Finita] la riunione, tutti sono andati a casa.
+[Lo vedendo=>Vedendolo] entrare, l’ho salutato subito.
+Essendo [partito=>partite] alle sei, le ragazze sono arrivate prima di pranzo.
+[Anche se=>Pur] avendo poco tempo, Luca aiuta sempre i compagni.
+[Fando=>Facendo] sport tre volte alla settimana, ci si sente meglio.
+[Avendo lo=>Avendolo] già letto, non ho comprato quel romanzo.
+[Arrivato=>Arrivati] in albergo, i turisti hanno lasciato le valigie in camera.
+[Essendo=>Avendo] dormito poco, oggi non riesco a concentrarmi.
+! Controlla sempre: ausiliare (avendo / essendo), accordo del participio, posizione del pronome. || Prüfe immer: Hilfsverb (avendo / essendo), Angleichung des Partizips, Stellung des Pronomens.
+
+%übung schwer | Dalla frase esplicita al gerundio
+?ergaenzen | Trasforma la parte in corsivo in una frase con il gerundio (semplice o composto; _anche se_ → pur + gerundio). || Forme den kursiven Teil in einen Gerundium-Satz um (einfach oder zusammengesetzt; _anche se_ → pur + Gerundium).
+_Siccome non aveva la patente_, Davide andava al lavoro in bici. | Non avendo la patente | Non avendo la patente, Davide andava al lavoro in bici.
+_Mentre aspettavo l’autobus_, ho letto le notizie sul cellulare. | Aspettando l’autobus | Aspettando l’autobus, ho letto le notizie sul cellulare.
+_Se usi meno la macchina_, inquini di meno. | Usando meno la macchina | Usando meno la macchina, inquini di meno.
+_Anche se abita lontano_, Sara viene sempre a piedi. | Pur abitando lontano | Pur abitando lontano, Sara viene sempre a piedi.
+_Poiché aveva già visto il film_, Luca è rimasto a casa. | Avendo già visto il film | Avendo già visto il film, Luca è rimasto a casa.
+_Siccome era arrivata troppo presto_, Chiara ha fatto un giro in centro. | Essendo arrivata troppo presto | Essendo arrivata troppo presto, Chiara ha fatto un giro in centro.
+_Se lo leggi con attenzione_, capirai l’articolo. | Leggendolo con attenzione | Leggendolo con attenzione, capirai l’articolo.
+_Anche se aveva studiato tutta la notte_, Matteo non ricordava niente. | Pur avendo studiato tutta la notte | Pur avendo studiato tutta la notte, Matteo non ricordava niente.
+_Dato che conosce bene l’inglese_, Giulia ha trovato subito uno stage. | Conoscendo bene l’inglese | Conoscendo bene l’inglese, Giulia ha trovato subito uno stage.
+! Stesso momento → gerundio semplice; azione precedente (aveva visto, era arrivata) → gerundio composto. || Gleichzeitig → gerundio semplice; vorzeitig (aveva visto, era arrivata) → gerundio composto.
+
+%übung schwer | Uno stage in redazione
+?auswahl | Leggi il testo e scegli la forma giusta. || Lies den Text und wähle die richtige Form.
+{Finita*|Finito|Finite} la scuola, Sara ha fatto uno stage nella redazione di un giornale locale.
+{Essendo*|Avendo|Stando} appassionata di scrittura, era molto motivata.
+Ogni mattina cominciava {leggendo*|letto|avendo letto} i giornali della concorrenza.
+{Avendo*|Essendo|Avuto} già scritto per il giornalino della scuola, sapeva come si prepara un’intervista.
+Una giornalista le ha dato un articolo da correggere e Sara, {leggendolo*|lo leggendo|leggendo lo}, ha trovato tre errori.
+{Pur*|Anche se|Benché} avendo paura di sbagliare, ha fatto molte domande.
+{Tornata*|Tornato|Tornati} a casa la sera, era stanca ma contenta.
+Ha imparato moltissimo {osservando*|osservato|osservante} i colleghi.
+{Essendosi*|Avendosi|Essendo si} trovata così bene, adesso vuole studiare giornalismo.
+{Terminato*|Terminata|Terminati} lo stage, ha ricevuto una bella lettera di raccomandazione.
+! anche se / benché + verbo coniugato, ma pur + gerundio. I verbi riflessivi: essendosi + participio. || anche se / benché + konjugiertes Verb, aber pur + Gerundium. Reflexive Verben: essendosi + Partizip.
+
+%übung schwer | Come ho imparato …
+?frei | Racconta come hai imparato qualcosa (uno sport, uno strumento, una lingua). Usa almeno tre gerundi (anche uno con pur) e un participio passato all’inizio della frase (Finito …, Arrivata …). || Erzähle, wie du etwas gelernt hast (Sport, Instrument, Sprache). Verwende mindestens drei Gerundien (eines mit pur) und ein Partizip Perfekt am Satzanfang.
+Ho imparato a suonare la chitarra guardando video su Internet. Non avendo un insegnante, all’inizio facevo molti errori. Pur esercitandomi ogni giorno, per mesi non sono riuscito a suonare una canzone intera. Finito il primo anno, però, ho suonato alla festa della scuola. Avendo superato la paura, adesso suono in un gruppo.
+Zeilen: 6
+?zuordnen | Il participio presente: abbina le espressioni con lo stesso significato. || Das Partizip Präsens: Verbinde die Ausdrücke mit gleicher Bedeutung.
+un film divertente = un film che diverte
+gli studenti partecipanti = gli studenti che partecipano
+una storia commovente = una storia che commuove
+l’acqua bollente = l’acqua che bolle
+i paesi confinanti = i paesi che confinano
+una persona sorridente = una persona che sorride
+il sole nascente = il sole che nasce
+un libro interessante = un libro che interessa
+! Il participio presente (-ante, -ente) corrisponde a una frase relativa con che. || Das Partizip Präsens (-ante, -ente) entspricht einem Relativsatz mit che.
+
+@thema focalizzazione | Lehrplan · Sprachliche Mittel |  | Messa in rilievo | 2
+#lehrplan Jgst. 11 · Hervorhebung: frase scissa, dislocazione, Quello che … è …
+#regel
+Per **mettere in rilievo** una parte della frase l’italiano ha diverse strutture:
+**1. La frase scissa:** essere + elemento + **che** + verbo
+- _**È** Marco **che** ha telefonato._ · _**Sono** i miei genitori **che** decidono._
+- _**Sono io che** pago._ · _**Sei tu che** devi decidere._ (il verbo concorda con io, tu, noi, voi)
+- _**È** a Roma **che** voglio studiare._ · _**È per questo che** sono qui._
+Con il soggetto anche: essere + soggetto + **a + infinito**: _**È stato** Marco **a** dirlo._ · _**Sono state** le ragazze **a** cominciare._
+**2. La dislocazione** (con il pronome!):
+| a sinistra | _Il giornale, **lo** compro io._ · _Le chiavi, **le** ho pres**e** io._ · _Di politica, non **ne** parlo._ |
+| a destra | _**Lo** compro io, il giornale._ |
+**3. Quello che / Ciò che … è …:** _**Quello che** mi piace di Roma **è** la luce._
+#regel-de
+Im Deutschen hebt man meist durch **Betonung** oder Wortstellung hervor, das Italienische nutzt eigene Satzbaumuster:
+**Frase scissa (Spaltsatz):** _È Marco che ha telefonato._ (MARCO hat angerufen. / Es war Marco, der …) – essere richtet sich nach dem hervorgehobenen Teil (_Sono i miei genitori che …_), das Verb nach che nach der Person (_Sono io che pago_). Mit Subjekt auch **a + Infinitiv**: _È stato Marco a dirlo._ (stato/-a/-i/-e wird angeglichen). _È per questo che …_ = Deshalb …
+**Dislocazione:** Das Satzglied steht vorn (oder hinten) und wird durch ein **Pronomen** wieder aufgenommen: _Il giornale, lo compro io._ (Die Zeitung kaufe ICH.) Im passato prossimo wird das Partizip angeglichen: _Le chiavi, le ho prese io._
+**Quello che mi piace è …** = Was mir gefällt, ist …
+
+%übung leicht | Chi è che …?
+?zuordnen | Abbina l’inizio e la fine della frase. || Verbinde Satzanfang und Satzende.
+Sono io = che pago il conto stasera.
+Sei tu = che devi decidere.
+È Giulia = che ha organizzato la festa.
+Siamo noi = che abbiamo scelto il film.
+Siete voi = che avete sbagliato strada.
+Sono i miei genitori = che pagano le vacanze.
+È stata la professoressa a = proporre la gita.
+Quello che mi piace di più = è la musica dal vivo.
+! Nella frase scissa il verbo dopo che concorda con la persona messa in rilievo: Sono io che pago. || Im Spaltsatz richtet sich das Verb nach che nach der hervorgehobenen Person: Sono io che pago.
+
+%übung leicht | La forma giusta
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Sono io che {pago*|paga|pagano} oggi.
+{Sono*|È|Siamo} i ragazzi che hanno avuto l’idea.
+È stata Chiara {a*|che|di} dirmelo.
+È Luca {che*|a|chi} ha vinto la gara.
+Il giornale, {lo*|la|li} compro io.
+Le chiavi, {le*|li|la} ho prese io.
+{È*|Sono|Sei} per questo che ti ho chiamato.
+Siete voi che {dovete*|devono|dobbiamo} decidere.
+{L’hai*|Li hai|Le hai} già visto, questo film?
+Quello che mi piace di Napoli {è*|sono|ha} la gente.
+! È / Sono … che + verbo coniugato; È stato/-a … a + infinito. Nella dislocazione il pronome concorda con il nome. || È / Sono … che + konjugiertes Verb; È stato/-a … a + Infinitiv. Bei der dislocazione richtet sich das Pronomen nach dem Nomen.
+
+%übung leicht | Che struttura è?
+?sortieren | Frase scissa, dislocazione o frase normale? || Spaltsatz, dislocazione oder normaler Satz?
+Kategorien: a=frase scissa; b=dislocazione; c=frase normale
+È Sara che ha chiamato. > a
+Sono loro che non vogliono venire. > a
+È stato mio fratello a rompere il vetro. > a
+È in Sicilia che andiamo quest’estate. > a
+Il caffè, lo prendo senza zucchero. > b
+La pizza, la mangiamo stasera. > b
+Lo conosco bene, quel ragazzo. > b
+Di calcio, non ne capisco niente. > b
+Sara ha chiamato ieri sera. > c
+Prendo il caffè senza zucchero. > c
+Andiamo in Sicilia quest’estate. > c
+Conosco bene quel ragazzo. > c
+! Frase scissa: essere + … + che / a + infinito. Dislocazione: il nome è ripreso da un pronome (lo, la, li, le, ne …). || Spaltsatz: essere + … + che / a + Infinitiv. Dislocazione: Das Nomen wird durch ein Pronomen wieder aufgenommen.
+
+%übung mittel | È … che
+?ergaenzen | Metti in rilievo la parte in MAIUSCOLO. Usa È … che / Sono … che (essere al presente). || Hebe den Teil in GROSSBUCHSTABEN hervor. Verwende È … che / Sono … che (essere im Präsens).
+MARCO ha scritto l’articolo. → … | È Marco che ha scritto | È Marco che ha scritto l’articolo.
+IO preparo la cena stasera. → … | Sono io che preparo | Sono io che preparo la cena stasera.
+I MIEI AMICI hanno scelto il locale. → … | Sono i miei amici che hanno scelto | Sono i miei amici che hanno scelto il locale.
+Parto DOMANI. → … | È domani che parto | È domani che parto.
+Voglio parlare CON TE. → … | È con te che voglio parlare | È con te che voglio parlare.
+NOI dobbiamo cambiare abitudini. → … | Siamo noi che dobbiamo cambiare | Siamo noi che dobbiamo cambiare abitudini.
+Sono arrivato in ritardo PER QUESTO. → … | È per questo che sono arrivato | È per questo che sono arrivato in ritardo.
+TU hai detto di no. → … | Sei tu che hai detto | Sei tu che hai detto di no.
+Le mie sorelle abitano A PADOVA. → … | È a Padova che abitano le mie sorelle/È a Padova che le mie sorelle abitano | È a Padova che abitano le mie sorelle. (anche: È a Padova che le mie sorelle abitano.)
+! essere concorda con l’elemento in rilievo: Sono io, Sei tu, Siamo noi, Sono i miei amici. Con tempo, luogo e preposizione sempre È. || essere richtet sich nach dem hervorgehobenen Teil; bei Zeit, Ort und Präposition immer È.
+
+%übung mittel | Chi fa che cosa per la festa?
+?luecke | La classe organizza una festa. Completa con il pronome giusto (lo, la, li, le, gli, ne, ci). || Die Klasse organisiert ein Fest. Ergänze das passende Pronomen (lo, la, li, le, gli, ne, ci).
+La musica, [la] porta Davide.
+Le bibite, [le] compriamo noi due.
+Il dolce, [lo] prepara mia nonna.
+Gli inviti, [li] ho già mandati ieri.
+A Chiara, [le] ho scritto stamattina.
+A Matteo, [gli] telefono io stasera.
+Di soldi, non [ne] abbiamo molti.
+A casa di Sara, [ci] andiamo tutti in bici.
+[Li] hai invitati tutti, i compagni di classe?
+Non [la] sopporto più, questa canzone!
+! Dislocazione: il pronome riprende il nome (la musica → la, a Matteo → gli, di soldi → ne, a casa di Sara → ci). || Dislocazione: Das Pronomen nimmt das Nomen wieder auf.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parti in ordine: „Es war die Lehrerin, die den Ausflug nach Turin vorgeschlagen hat.“ || Bringe die Teile in die richtige Reihenfolge.
+È stata
+la professoressa
+a proporre
+la gita a Torino.
+?ordnen | Metti le parti in ordine: „Es sind die jungen Leute, die mehr Aufmerksamkeit für das Klima fordern.“ || Bringe die Teile in die richtige Reihenfolge.
+Sono
+i giovani
+che chiedono
+più attenzione per il clima.
+?ordnen | Metti le parti in ordine: „Die Fahrkarte habe ich schon im Internet gekauft.“ || Bringe die Teile in die richtige Reihenfolge.
+Il biglietto,
+l’ho
+già comprato
+su Internet.
+?ordnen | Metti le parti in ordine: „Deshalb benutze ich die sozialen Netzwerke nicht mehr.“ || Bringe die Teile in die richtige Reihenfolge.
+È per questo
+che non uso
+più
+i social.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase c’è un errore. Correggilo. || In jedem Satz steckt ein Fehler. Korrigiere ihn.
+Sono io che [paga=>pago] il conto.
+[È=>Sono] i tuoi amici che hanno telefonato.
+È stato Luca [che=>a] dirmelo.
+Le foto, le ho [messo=>messe] sul profilo della classe.
+[È stato=>È stata] Giulia a organizzare tutto.
+È [perché questo=>per questo] che non sono venuto.
+Siete voi che [devono=>dovete] scusarvi.
+[Che=>Quello che/Ciò che] mi piace di questa città è il mare.
+Di questo problema, [lo=>ne] parliamo domani.
+A Sara, [la=>le] ho regalato un libro.
+! Attenzione: „Was mir gefällt“ = Quello che mi piace (non solo che). || Achtung: „Was mir gefällt“ = Quello che mi piace (nicht nur che).
+
+%übung schwer | Dillo con più forza
+?ergaenzen | Trasforma. (a) = È stato/-a … / Sono stati/-e … a + infinito · (d) = dislocazione a sinistra con il pronome. || Forme um. (a) = È stato/-a … a + Infinitiv · (d) = dislocazione nach links mit Pronomen.
+Dante ha scritto la Divina Commedia. (a) | È stato Dante a scrivere | È stato Dante a scrivere la Divina Commedia.
+Mia madre mi ha insegnato a nuotare. (a) | È stata mia madre a insegnarmi | È stata mia madre a insegnarmi a nuotare.
+I miei nonni hanno comprato questa casa. (a) | Sono stati i miei nonni a comprare | Sono stati i miei nonni a comprare questa casa.
+Le mie amiche hanno trovato la soluzione. (a) | Sono state le mie amiche a trovare | Sono state le mie amiche a trovare la soluzione.
+Compro io il pane. (d) | Il pane lo compro io | Il pane, lo compro io.
+Non guardo mai questa serie. (d) | Questa serie non la guardo mai | Questa serie, non la guardo mai.
+Abbiamo invitato i vicini. (d) | I vicini li abbiamo invitati | I vicini, li abbiamo invitati.
+Non parlo mai di politica. (d) | Di politica non ne parlo mai | Di politica, non ne parlo mai.
+Ho mandato le foto a Luca. (d: le foto) | Le foto le ho mandate a Luca | Le foto, le ho mandate a Luca.
+! È stato / È stata / Sono stati / Sono state concorda con il soggetto. Con lo, la, li, le il participio concorda: li abbiamo invitati, le ho mandate. || stato/-a/-i/-e richtet sich nach dem Subjekt. Nach lo, la, li, le wird das Partizip angeglichen.
+
+%übung schwer | Chi ha rotto il proiettore?
+?luecke | Completa il dialogo: una parola per ogni spazio. || Ergänze den Dialog: ein Wort pro Lücke.
+– Chi ha rotto il proiettore? [Sei] stato tu, Davide?
+– No, non [sono] stato io! È stata Chiara [a] toccarlo per ultima.
+– Non è vero! [Sono] stati Luca e Matteo [a] giocare con i cavi.
+– Va bene, ma il proiettore, chi [lo] ripara adesso?
+– È il tecnico [che] deve ripararlo, non noi.
+– E la presentazione, [la] facciamo lo stesso?
+– Certo. Quello [che] conta [è] il contenuto, non le immagini.
+– È per [questo/ciò] che ti voglio sempre nel mio gruppo!
+?frei | Che cosa ti piace e che cosa non ti piace della tua città o della tua scuola? Scrivi 5 frasi con la messa in rilievo (Quello che … è …, È … che …, È per questo che …, dislocazione). || Was gefällt dir an deiner Stadt oder Schule, was nicht? Schreibe 5 Sätze mit Hervorhebung.
+Quello che mi piace della mia città è il fiume. È lì che incontro i miei amici in estate. I negozi del centro, invece, non li amo molto: sono troppo cari. Sono soprattutto i giovani che chiedono più piste ciclabili. È per questo che vado spesso alle riunioni del consiglio dei giovani.
+Zeilen: 6
+
+@thema relativi | Lehrplan · Sprachliche Mittel |  | Relativi, il/la cui e il che | 3
+#lehrplan Jgst. 11 · Relativpronomen (che, cui, il quale, il cui, il che, chi)
+#regel
+| **che** | soggetto o oggetto diretto | _il libro **che** leggo_ |
+| preposizione + **cui** | di cui, a cui, con cui, in cui, per cui, da cui, su cui | _l’amico **con cui** esco_ |
+| preposizione + **il quale / la quale / i quali / le quali** | più formale; concorda con il nome | _l’amica **con la quale** esco_ · _il tema **del quale** parliamo_ |
+| **il cui / la cui / i cui / le cui** | possesso (dessen, deren) | _la scrittrice **i cui** romanzi amo_ |
+| **il che** | = e questo (tutta la frase prima) | _Arriva sempre tardi, **il che** mi dà fastidio._ |
+| **chi** | = la persona che (verbo al singolare) | _**Chi** arriva tardi non trova posto._ |
+| **colui che / colei che / coloro che** | formale: quello che / quella che / quelli che | _**Coloro che** vogliono possono restare._ |
+Attenzione: l’articolo davanti a **cui** concorda con la cosa **posseduta**, non con il possessore: _un ragazzo **la cui** sorell**a** …_, _una ragazza **il cui** padr**e** …_
+#regel-de
+**che** = der/die/das (Subjekt oder direktes Objekt); nach **Präposition** steht **cui** (unveränderlich) oder förmlicher **il quale / la quale / i quali / le quali** (angeglichen, mit verschmolzener Präposition: del quale, alla quale, nei quali).
+**il cui / la cui / i cui / le cui** = dessen/deren. Anders als im Deutschen richtet sich der Artikel nach dem **Besitz**, nicht nach dem Besitzer: _un ragazzo la cui sorella …_ (ein Junge, dessen Schwester …).
+**il che** = „was“ mit Bezug auf den ganzen Satz: _Arriva sempre tardi, il che mi dà fastidio._
+**chi** = „wer / derjenige, der“ (Verb im Singular); förmlich **colui che, colei che, coloro che**.
+
+%übung leicht | Che, cui o chi?
+?auswahl | Scegli il pronome giusto. || Wähle das richtige Pronomen.
+Il film {che*|cui|chi} abbiamo visto ieri era lunghissimo.
+La ragazza con {cui*|che|chi} divido la stanza viene da Bari.
+È un problema di {cui*|che|quale} si parla molto.
+Il professore {che*|cui|il cui} insegna storia è molto giovane.
+La città in {cui*|che|chi} sono nata è piccola.
+{Chi*|Che|Cui} arriva tardi non trova posto.
+Ecco il motivo per {cui*|che|chi} non ti ho scritto.
+Gli amici {che*|cui|chi} ho invitato arrivano alle otto.
+È una persona a {cui*|che|quale} voglio molto bene.
+Il sito da {cui*|che|chi} ho scaricato la canzone non funziona più.
+! Dopo una preposizione: cui. Senza preposizione: che. Chi = la persona che (senza nome prima). || Nach Präposition: cui. Ohne Präposition: che. Chi = „wer“ (ohne Bezugswort davor).
+
+%übung leicht | Il cui, la cui, i cui, le cui
+?sortieren | Quale forma manca al posto dei puntini? || Welche Form fehlt an der Stelle der Punkte?
+Kategorien: a=il cui; b=la cui; c=i cui; d=le cui
+una ragazza … padre è attore > a
+un amico … sogno è fare il giro del mondo > a
+una città … centro è chiuso al traffico > a
+un’azienda … sede è a Torino > b
+un ragazzo … sorella canta in un gruppo > b
+un museo … collezione è famosa > b
+uno scrittore … romanzi sono tradotti in molte lingue > c
+un paese … abitanti sono molto ospitali > c
+una regista … film hanno vinto molti premi > c
+una cantante … canzoni piacciono a tutti > d
+un vicino … figlie studiano all’estero > d
+un film … scene finali sono bellissime > d
+! L’articolo concorda con la parola DOPO cui (la cosa posseduta): una ragazza il cui padre, un ragazzo la cui sorella. || Der Artikel richtet sich nach dem Wort NACH cui (dem Besitz), nicht nach dem Besitzer.
+
+%übung leicht | Il quale, il che, chi, coloro
+?luecke wortkasten | Completa le frasi con le parole del riquadro. || Ergänze die Sätze mit den Wörtern aus dem Kasten.
+La collega con [la quale] lavoro è simpaticissima.
+Il motivo per [il quale] ho cambiato scuola è semplice.
+Gli amici con [i quali] vado in vacanza sono di Verona.
+Le ragioni per [le quali] molti giovani vanno all’estero sono diverse.
+Luca non ha salutato nessuno, [il che] mi ha sorpreso molto.
+[Chi] vuole partecipare deve iscriversi entro venerdì.
+[Coloro] che hanno già il biglietto possono entrare subito.
+[Colui] che ha scritto questo articolo conosce bene il tema.
++ dove, cosa
+! il quale concorda con il nome prima (la collega → la quale). chi + verbo al singolare, coloro che + verbo al plurale. || il quale richtet sich nach dem Bezugswort. chi + Verb im Singular, coloro che + Verb im Plural.
+
+%übung mittel | Da cui a il quale
+?tabelle | Sostituisci cui con la forma giusta di il quale (preposizione + articolo!). || Ersetze cui durch die richtige Form von il quale (Präposition + Artikel!).
+Spalten: con cui | con il quale
+il libro di cui parlo | [del quale]
+la città in cui vivo | [nella quale]
+gli amici a cui scrivo | [ai quali]
+le persone da cui dipende tutto | [dalle quali]
+il tema su cui discutiamo | [sul quale]
+la ragione per cui parto | [per la quale]
+i compagni con cui studio | [con i quali/coi quali]
+le amiche a cui penso | [alle quali]
+lo sport di cui è appassionato | [del quale]
+i paesi in cui ha vissuto | [nei quali]
+
+%übung mittel | Una serie di successo
+?luecke | Completa con che, preposizione + cui, il cui / la cui / i cui / le cui oppure il che. || Ergänze che, Präposition + cui, il cui / la cui / i cui / le cui oder il che.
+Ieri ho finito una serie [di cui/della quale] tutti parlano.
+La protagonista è una giovane giornalista [il cui] capo non le dà mai fiducia.
+Lavora in una redazione [in cui/nella quale/dove] nessuno la prende sul serio.
+Un giorno riceve una lettera [che] cambia tutto.
+La lettera viene da un uomo [la cui] figlia è scomparsa.
+La giornalista decide di aiutarlo, [il che] non piace affatto al suo capo.
+Gli amici [a cui/ai quali/cui] chiede aiuto hanno paura.
+Alla fine scopre un segreto [le cui] conseguenze toccano tutta la città.
+Gli attori, [i cui] nomi non conoscevo, sono bravissimi.
+È una serie [che] consiglio a tutti.
+! il che si riferisce a tutta la frase prima (= e questo). il cui / la cui … concorda con il nome che segue. || il che bezieht sich auf den ganzen Satz davor (= und das). il cui / la cui … richtet sich nach dem folgenden Nomen.
+
+%übung mittel | Una frase sola
+?ergaenzen | Unisci le due frasi con il relativo tra parentesi. Scrivi la frase relativa. || Verbinde die zwei Sätze mit dem Relativpronomen in Klammern. Schreibe den Relativsatz.
+Ho un’amica. Suo padre è medico. (cui) → Ho un’amica … | il cui padre è medico | Ho un’amica il cui padre è medico.
+Questo è il libro. Ti ho parlato di questo libro. (cui) → Questo è il libro … | di cui ti ho parlato | Questo è il libro di cui ti ho parlato.
+Conosco un ragazzo. Le sue sorelle giocano a pallavolo. (cui) → Conosco un ragazzo … | le cui sorelle giocano a pallavolo | Conosco un ragazzo le cui sorelle giocano a pallavolo.
+Sara è arrivata in ritardo. Questo ha irritato il professore. (il che) → Sara è arrivata in ritardo, … | il che ha irritato il professore | Sara è arrivata in ritardo, il che ha irritato il professore.
+Ecco la collega. Lavoro con lei. (la quale) → Ecco la collega … | con la quale lavoro | Ecco la collega con la quale lavoro.
+È uno scrittore. I suoi libri hanno molto successo. (cui) → È uno scrittore … | i cui libri hanno molto successo | È uno scrittore i cui libri hanno molto successo.
+Abbiamo visitato una città. La sua piazza è famosa. (cui) → Abbiamo visitato una città … | la cui piazza è famosa | Abbiamo visitato una città la cui piazza è famosa.
+Sono gli amici. Esco spesso con loro. (i quali) → Sono gli amici … | con i quali esco spesso/coi quali esco spesso | Sono gli amici con i quali esco spesso. (anche: coi quali esco spesso)
+Matteo non ha studiato niente. Questo non mi sorprende. (il che) → Matteo non ha studiato niente, … | il che non mi sorprende | Matteo non ha studiato niente, il che non mi sorprende.
+! suo / sua / suoi / sue → il cui / la cui / i cui / le cui (senza suo!). || suo / sua / suoi / sue → il cui / la cui / i cui / le cui (ohne suo!).
+
+@thema remoto | Lehrplan · Sprachliche Mittel |  | Passato remoto: riconoscere e comprendere | 4
+#lehrplan Jgst. 11 · passato remoto (rezeptiv: erkennen und verstehen)
+#regel
+Il **passato remoto** si trova nei **testi scritti**: fiabe, romanzi, biografie, testi di storia. Ha lo stesso significato del passato prossimo: _Dante **nacque** a Firenze._ = _Dante **è nato** a Firenze._ Devi solo **riconoscerlo**.
+**Verbi regolari** (lui/lei · loro): parl**ò** · parl**arono** – cred**é** · cred**erono** – part**ì** · part**irono**
+| infinito | lui / lei | loro |
+| essere | **fu** | **furono** |
+| avere | **ebbe** | **ebbero** |
+| fare | **fece** | **fecero** |
+| dire | **disse** | **dissero** |
+| venire | **venne** | **vennero** |
+| vedere | **vide** | **videro** |
+| nascere | **nacque** | **nacquero** |
+| vivere | **visse** | **vissero** |
+| scrivere | **scrisse** | **scrissero** |
+| prendere | **prese** | **presero** |
+| mettere | **mise** | **misero** |
+_C’era una volta un re che **ebbe** tre figli. … E **vissero** tutti felici e contenti._
+#regel-de
+Das **passato remoto** ist die Erzählzeit **geschriebener Texte** (Märchen, Romane, Biografien, Geschichte). Es bedeutet dasselbe wie das passato prossimo: _nacque_ = _è nato_. Du musst die Formen nur **erkennen** und dem Infinitiv zuordnen, nicht selbst bilden.
+Regelmäßig (3. Person): parlò / parlarono, credé / crederono, partì / partirono. Wichtige unregelmäßige Formen: fu (essere), ebbe (avere), fece (fare), disse (dire), venne (venire), vide (vedere), nacque (nascere), visse (vivere), scrisse (scrivere), prese (prendere), mise (mettere); Plural auf -ero: furono, ebbero, fecero, dissero …
+
+%übung leicht | Di quale verbo è?
+?zuordnen | Abbina il passato remoto e l’infinito. || Verbinde das passato remoto mit dem Infinitiv.
+fu = essere
+ebbe = avere
+fece = fare
+disse = dire
+venne = venire
+vide = vedere
+nacque = nascere
+visse = vivere
+prese = prendere
+mise = mettere
+
+%übung leicht | Il pescatore e il pesce d’oro
+?auswahl | Leggi la fiaba. Quale passato prossimo corrisponde al passato remoto in grassetto? || Lies das Märchen. Welches passato prossimo entspricht dem fett gedruckten passato remoto?
+C’era una volta un giovane pescatore che viveva in un piccolo paese sul mare.
+Un giorno **prese** (= {ha preso*|ha perso|hanno preso}) la sua barca e **andò** (= {è andato*|sono andati|è venuto}) al largo.
+Nella rete **vide** (= {ha visto*|ha vissuto|ha voluto}) un pesce d’oro.
+Il pesce **disse** (= {ha detto*|ha dato|hanno detto}): «Lasciami libero e un giorno ti aiuterò.»
+Il pescatore **ebbe** (= {ha avuto*|è stato|hanno avuto}) pietà e lo **mise** (= {ha messo*|ha mosso|hanno messo}) di nuovo in acqua.
+Quella sera sulla tavola c’era un grande tesoro, e a casa sua **vennero** (= {sono venuti*|è venuto|hanno visto}) tutti i vicini per vederlo.
+Il pescatore **fu** (= {è stato*|ha avuto|sono stati}) molto felice e **fece** (= {ha fatto*|ha detto|hanno fatto}) una grande festa.
+E tutti **vissero** (= {sono vissuti*|hanno visto|è vissuto}) felici e contenti.
+! Nelle fiabe: passato remoto per le azioni (prese, vide, disse), imperfetto per le descrizioni (c’era, viveva). || Im Märchen: passato remoto für Handlungen, imperfetto für Beschreibungen.
+
+%übung leicht | Uno o tanti?
+?sortieren | Chi fa l’azione: una persona (lui / lei) o più persone (loro)? || Wer handelt: eine Person (lui / lei) oder mehrere (loro)?
+Kategorien: a=lui / lei; b=loro
+fu > a
+ebbe > a
+andò > a
+scrisse > a
+morì > a
+venne > a
+furono > b
+ebbero > b
+parlarono > b
+dissero > b
+nacquero > b
+presero > b
+! La forma di loro finisce in -rono (parlarono, furono) o in -ero (ebbero, dissero). || Die Form für loro endet auf -rono (parlarono, furono) oder -ero (ebbero, dissero).
+?mc | Che cosa significa «Il re ebbe paura»? || Was bedeutet «Il re ebbe paura»?
+* Il re ha avuto paura.
+- Il re avrebbe paura.
+- Il re è stato paura.
+?mc | Che cosa significa «Le due sorelle vennero in città»? || Was bedeutet «Le due sorelle vennero in città»?
+* Le due sorelle sono venute in città.
+- Le due sorelle hanno visto la città.
+- Le due sorelle verranno in città.
+?mc | Che cosa significa «La regina non disse niente»? || Was bedeutet «La regina non disse niente»?
+* La regina non ha detto niente.
+- La regina non ha dato niente.
+- La regina non direbbe niente.
+
+%übung mittel | Due grandi italiani
+?luecke | Leggi le due biografie. Scrivi il passato prossimo che corrisponde al passato remoto in grassetto. || Lies die zwei Biografien. Schreibe das passato prossimo, das dem fett gedruckten passato remoto entspricht.
+Dante Alighieri **nacque** (= [è nato]) a Firenze nel 1265.
+Da giovane **scrisse** (= [ha scritto]) poesie d’amore per Beatrice.
+**Ebbe** (= [ha avuto]) anche un ruolo politico nella sua città.
+Nel 1302 i suoi nemici lo **condannarono** (= [hanno condannato]) all’esilio e Dante non **tornò** (= [è tornato]) mai più a Firenze.
+Negli anni dell’esilio **lavorò** (= [ha lavorato]) alla Divina Commedia.
+**Visse** (= [è vissuto/ha vissuto]) gli ultimi anni a Ravenna, dove **morì** (= [è morto]) nel 1321.
+Leonardo da Vinci, nato nel 1452, **fu** (= [è stato]) pittore, scienziato e inventore.
+**Fece** (= [ha fatto]) moltissimi disegni di macchine e del corpo umano.
+Alla fine della sua vita **andò** (= [è andato]) in Francia, dove morì nel 1519.
+! nacque → è nato, visse → è vissuto, fu → è stato, ebbe → ha avuto, fece → ha fatto. || Die wichtigsten Entsprechungen: nacque → è nato, visse → è vissuto, fu → è stato.

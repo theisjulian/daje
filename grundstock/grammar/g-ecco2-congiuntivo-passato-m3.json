@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-congiuntivo-passato-m3",
+ "title": "Sono contento che …",
+ "language": "it",
+ "level": "A2",
+ "description": "Il congiuntivo passato · Sono contento che … · livello medio.",
+ "topics": [
+  "Il congiuntivo passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · congiuntivo passato (Bildung und Gebrauch nach Verben des Meinens, Hoffens und Fühlens)"
+ },
+ "grammar": {
+  "topic": "ecco2-congiuntivo-passato",
+  "topicTitle": "Il congiuntivo passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Il **congiuntivo passato** = congiuntivo presente di **avere** o **essere** + **participio passato**.\n| | cantare (avere) | arrivare (essere) |\n| io | **abbia** cantato | **sia** arrivato/-a |\n| tu | **abbia** cantato | **sia** arrivato/-a |\n| lui / lei | **abbia** cantato | **sia** arrivato/-a |\n| noi | **abbiamo** cantato | **siamo** arrivati/-e |\n| voi | **abbiate** cantato | **siate** arrivati/-e |\n| loro | **abbiano** cantato | **siano** arrivati/-e |\nLo usiamo dopo **penso che, credo che, spero che, mi dispiace che, sono contento che …**, quando l’azione è **già successa**:\n- _Penso che Luca **arrivi** oggi._ (oggi → congiuntivo presente)\n- _Penso che Luca **sia arrivato** ieri._ (ieri → congiuntivo passato)\nCon **essere** il participio concorda: _Spero che Giulia sia arrivat**a**. Credo che i ragazzi siano partit**i**._",
+  "ruleHelp": "Der **congiuntivo passato** besteht aus dem congiuntivo presente von **avere** oder **essere** + **Partizip**: _abbia cantato, sia arrivato_. Hilfsverb wie im passato prossimo; bei **essere** wird das Partizip angeglichen (_sia arrivat**a**, siano partit**i**_).\nEr steht nach denselben Auslösern wie der congiuntivo presente (penso che, credo che, spero che, mi dispiace che, sono contento che …), wenn die Handlung **schon vorbei** ist: _Penso che sia arrivato ieri._ Im Deutschen steht hier einfach das Perfekt („Ich glaube, dass er gestern angekommen ist“)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci le due frasi con il congiuntivo passato.",
+   "promptHelp": "Verbinde die beiden Sätze mit dem congiuntivo passato.",
+   "explanation": "che + soggetto + abbia / sia … + participio.",
+   "explanationHelp": "che + Subjekt + abbia / sia … + Partizip.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Marta ha vinto il concorso. – Sono contento che …",
+     "acceptedAnswers": [
+      "Marta abbia vinto il concorso"
+     ],
+     "modelAnswer": "Sono contento che Marta abbia vinto il concorso."
+    },
+    {
+     "id": "s2",
+     "start": "Il treno è partito senza di noi. – Mi dispiace che …",
+     "acceptedAnswers": [
+      "il treno sia partito senza di noi"
+     ],
+     "modelAnswer": "Mi dispiace che il treno sia partito senza di noi."
+    },
+    {
+     "id": "s3",
+     "start": "I ragazzi hanno trovato i biglietti. – Spero che …",
+     "acceptedAnswers": [
+      "i ragazzi abbiano trovato i biglietti"
+     ],
+     "modelAnswer": "Spero che i ragazzi abbiano trovato i biglietti."
+    },
+    {
+     "id": "s4",
+     "start": "Giulia è tornata a casa. – Penso che …",
+     "acceptedAnswers": [
+      "Giulia sia tornata a casa"
+     ],
+     "modelAnswer": "Penso che Giulia sia tornata a casa."
+    },
+    {
+     "id": "s5",
+     "start": "Hai perso il telefono. – Mi dispiace che tu …",
+     "acceptedAnswers": [
+      "abbia perso il telefono"
+     ],
+     "modelAnswer": "Mi dispiace che tu abbia perso il telefono."
+    },
+    {
+     "id": "s6",
+     "start": "Le ragazze sono arrivate prime. – Sono felice che …",
+     "acceptedAnswers": [
+      "le ragazze siano arrivate prime"
+     ],
+     "modelAnswer": "Sono felice che le ragazze siano arrivate prime."
+    },
+    {
+     "id": "s7",
+     "start": "Il gruppo ha scritto una canzone nuova. – Credo che …",
+     "acceptedAnswers": [
+      "il gruppo abbia scritto una canzone nuova"
+     ],
+     "modelAnswer": "Credo che il gruppo abbia scritto una canzone nuova."
+    },
+    {
+     "id": "s8",
+     "start": "Avete capito il testo. – Spero che voi …",
+     "acceptedAnswers": [
+      "abbiate capito il testo"
+     ],
+     "modelAnswer": "Spero che voi abbiate capito il testo."
+    }
+   ]
+  }
+ ]
+}

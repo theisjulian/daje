@@ -65,7 +65,8 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "verde"
+      "verde",
+      "rossa"
      ]
     },
     {
@@ -77,7 +78,10 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "bianche"
+      "bianche",
+      "azzurre",
+      "leggere",
+      "nere"
      ]
     },
     {
@@ -89,13 +93,21 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "piccole"
+      "piccole",
+      "leggere",
+      "bianche",
+      "azzurre",
+      "nere"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "leggere"
+      "leggere",
+      "piccole",
+      "bianche",
+      "azzurre",
+      "nere"
      ]
     },
     {
@@ -107,7 +119,9 @@
     {
      "id": "g10",
      "acceptedAnswers": [
-      "azzurre"
+      "azzurre",
+      "bianche",
+      "leggere"
      ]
     },
     {
@@ -161,7 +175,11 @@
     {
      "id": "g19",
      "acceptedAnswers": [
-      "nere"
+      "nere",
+      "bianche",
+      "azzurre",
+      "leggere",
+      "piccole"
      ]
     },
     {
@@ -173,7 +191,8 @@
     {
      "id": "g21",
      "acceptedAnswers": [
-      "rossa"
+      "rossa",
+      "verde"
      ]
     },
     {
@@ -195,7 +214,6 @@
      ]
     }
    ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate.",
    "wordBank": true
   }
  ]

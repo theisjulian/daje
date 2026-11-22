@@ -1,0 +1,151 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-relativi-m1",
+ "title": "Da cui a il quale",
+ "language": "it",
+ "level": "B1",
+ "description": "Relativi, il/la cui e il che · Da cui a il quale · livello medio.",
+ "topics": [
+  "Relativi, il/la cui e il che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Relativpronomen (che, cui, il quale, il cui, il che, chi)"
+ },
+ "grammar": {
+  "topic": "it11-relativi",
+  "topicTitle": "Relativi, il/la cui e il che",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "| **che** | soggetto o oggetto diretto | _il libro **che** leggo_ |\n| preposizione + **cui** | di cui, a cui, con cui, in cui, per cui, da cui, su cui | _l’amico **con cui** esco_ |\n| preposizione + **il quale / la quale / i quali / le quali** | più formale; concorda con il nome | _l’amica **con la quale** esco_ · _il tema **del quale** parliamo_ |\n| **il cui / la cui / i cui / le cui** | possesso (dessen, deren) | _la scrittrice **i cui** romanzi amo_ |\n| **il che** | = e questo (tutta la frase prima) | _Arriva sempre tardi, **il che** mi dà fastidio._ |\n| **chi** | = la persona che (verbo al singolare) | _**Chi** arriva tardi non trova posto._ |\n| **colui che / colei che / coloro che** | formale: quello che / quella che / quelli che | _**Coloro che** vogliono possono restare._ |\nAttenzione: l’articolo davanti a **cui** concorda con la cosa **posseduta**, non con il possessore: _un ragazzo **la cui** sorell**a** …_, _una ragazza **il cui** padr**e** …_",
+  "ruleHelp": "**che** = der/die/das (Subjekt oder direktes Objekt); nach **Präposition** steht **cui** (unveränderlich) oder förmlicher **il quale / la quale / i quali / le quali** (angeglichen, mit verschmolzener Präposition: del quale, alla quale, nei quali).\n**il cui / la cui / i cui / le cui** = dessen/deren. Anders als im Deutschen richtet sich der Artikel nach dem **Besitz**, nicht nach dem Besitzer: _un ragazzo la cui sorella …_ (ein Junge, dessen Schwester …).\n**il che** = „was“ mit Bezug auf den ganzen Satz: _Arriva sempre tardi, il che mi dà fastidio._\n**chi** = „wer / derjenige, der“ (Verb im Singular); förmlich **colui che, colei che, coloro che**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sostituisci cui con la forma giusta di il quale (preposizione + articolo!).",
+   "promptHelp": "Ersetze cui durch die richtige Form von il quale (Präposition + Artikel!).",
+   "type": "table_fill",
+   "columns": [
+    "con cui",
+    "con il quale"
+   ],
+   "rows": [
+    [
+     "il libro di cui parlo",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "del quale"
+      ]
+     }
+    ],
+    [
+     "la città in cui vivo",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "nella quale"
+      ]
+     }
+    ],
+    [
+     "gli amici a cui scrivo",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "ai quali"
+      ]
+     }
+    ],
+    [
+     "le persone da cui dipende tutto",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "dalle quali"
+      ]
+     }
+    ],
+    [
+     "il tema su cui discutiamo",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "sul quale"
+      ]
+     }
+    ],
+    [
+     "la ragione per cui parto",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "per la quale"
+      ]
+     }
+    ],
+    [
+     "i compagni con cui studio",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "con i quali",
+       "coi quali"
+      ]
+     }
+    ],
+    [
+     "le amiche a cui penso",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "alle quali"
+      ]
+     }
+    ],
+    [
+     "lo sport di cui è appassionato",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "del quale"
+      ]
+     }
+    ],
+    [
+     "i paesi in cui ha vissuto",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "nei quali"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

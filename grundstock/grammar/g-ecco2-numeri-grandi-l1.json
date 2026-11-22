@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-numeri-grandi-l1",
+ "title": "Cifre e parole",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · Cifre e parole · livello facile.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "| 100 | **cento** | 1.000 | **mille** |\n| 200 | due**cento** | 2.000 | due**mila** |\n| 350 | trecentocinquanta | 10.000 | dieci**mila** |\n| 999 | novecentonovantanove | 100.000 | cento**mila** |\n| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |\n- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.\n- I numeri si scrivono in una sola parola: _millenovecentonovanta_.\n- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.\n- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).\n- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.",
+  "ruleHelp": "**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.\n**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.\nJahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.\nPreise: _tre euro e cinquanta_; **euro** hat keine Pluralform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina il numero alla parola.",
+   "promptHelp": "Verbinde die Zahl mit dem Zahlwort.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "200",
+     "right": "duecento"
+    },
+    {
+     "id": "p2",
+     "left": "350",
+     "right": "trecentocinquanta"
+    },
+    {
+     "id": "p3",
+     "left": "999",
+     "right": "novecentonovantanove"
+    },
+    {
+     "id": "p4",
+     "left": "1.000",
+     "right": "mille"
+    },
+    {
+     "id": "p5",
+     "left": "1.500",
+     "right": "millecinquecento"
+    },
+    {
+     "id": "p6",
+     "left": "2.000",
+     "right": "duemila"
+    },
+    {
+     "id": "p7",
+     "left": "10.000",
+     "right": "diecimila"
+    },
+    {
+     "id": "p8",
+     "left": "100.000",
+     "right": "centomila"
+    },
+    {
+     "id": "p9",
+     "left": "1.000.000",
+     "right": "un milione"
+    },
+    {
+     "id": "p10",
+     "left": "2.000.000",
+     "right": "due milioni"
+    }
+   ],
+   "distractors": [
+    "duemille",
+    "due milione"
+   ]
+  }
+ ]
+}

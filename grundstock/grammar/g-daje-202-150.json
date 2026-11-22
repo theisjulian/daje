@@ -46,136 +46,292 @@
   {
    "id": "q1a",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 1/2)",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. Scrivi così: infinito; tempo (esempio: andare; presente). (parte 1/2)",
    "text": "era → [[g1]]\nEravamo → [[g2]]\nconoscevano → [[g3]]\ncontrollavamo → [[g4]]\nriempivamo → [[g5]]\nleggevamo → [[g6]]\nPartivamo → [[g7]]\nseguivamo → [[g8]]\nera → [[g9]]\nfermavamo → [[g10]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "essere; imperfetto"
+      "essere; imperfetto",
+      "essere, imperfetto",
+      "essere imperfetto",
+      "essere - imperfetto",
+      "essere: imperfetto",
+      "essere;imperfetto",
+      "essere,imperfetto",
+      "essere / imperfetto"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "essere; imperfetto"
+      "essere; imperfetto",
+      "essere, imperfetto",
+      "essere imperfetto",
+      "essere - imperfetto",
+      "essere: imperfetto",
+      "essere;imperfetto",
+      "essere,imperfetto",
+      "essere / imperfetto"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "conoscere; imperfetto"
+      "conoscere; imperfetto",
+      "conoscere, imperfetto",
+      "conoscere imperfetto",
+      "conoscere - imperfetto",
+      "conoscere: imperfetto",
+      "conoscere;imperfetto",
+      "conoscere,imperfetto",
+      "conoscere / imperfetto"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "controllare; imperfetto"
+      "controllare; imperfetto",
+      "controllare, imperfetto",
+      "controllare imperfetto",
+      "controllare - imperfetto",
+      "controllare: imperfetto",
+      "controllare;imperfetto",
+      "controllare,imperfetto",
+      "controllare / imperfetto"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "riempire; imperfetto"
+      "riempire; imperfetto",
+      "riempire, imperfetto",
+      "riempire imperfetto",
+      "riempire - imperfetto",
+      "riempire: imperfetto",
+      "riempire;imperfetto",
+      "riempire,imperfetto",
+      "riempire / imperfetto"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "leggere; imperfetto"
+      "leggere; imperfetto",
+      "leggere, imperfetto",
+      "leggere imperfetto",
+      "leggere - imperfetto",
+      "leggere: imperfetto",
+      "leggere;imperfetto",
+      "leggere,imperfetto",
+      "leggere / imperfetto"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "partire; imperfetto"
+      "partire; imperfetto",
+      "partire, imperfetto",
+      "partire imperfetto",
+      "partire - imperfetto",
+      "partire: imperfetto",
+      "partire;imperfetto",
+      "partire,imperfetto",
+      "partire / imperfetto"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "seguire; imperfetto"
+      "seguire; imperfetto",
+      "seguire, imperfetto",
+      "seguire imperfetto",
+      "seguire - imperfetto",
+      "seguire: imperfetto",
+      "seguire;imperfetto",
+      "seguire,imperfetto",
+      "seguire / imperfetto"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "essere; imperfetto"
+      "essere; imperfetto",
+      "essere, imperfetto",
+      "essere imperfetto",
+      "essere - imperfetto",
+      "essere: imperfetto",
+      "essere;imperfetto",
+      "essere,imperfetto",
+      "essere / imperfetto"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "fermare; imperfetto"
+      "fermare; imperfetto",
+      "fermare, imperfetto",
+      "fermare imperfetto",
+      "fermare - imperfetto",
+      "fermare: imperfetto",
+      "fermare;imperfetto",
+      "fermare,imperfetto",
+      "fermare / imperfetto",
+      "fermarsi; imperfetto",
+      "fermarsi, imperfetto",
+      "fermarsi imperfetto",
+      "fermarsi - imperfetto",
+      "fermarsi: imperfetto",
+      "fermarsi;imperfetto",
+      "fermarsi,imperfetto",
+      "fermarsi / imperfetto"
      ]
     }
    ],
-   "promptHelp": "Ergänze die Lücken."
+   "promptHelp": "Schreibe Infinitiv und Zeitform, getrennt durch einen Strichpunkt (Beispiel: andare; presente)."
   },
   {
    "id": "q1b",
    "type": "gap_fill",
-   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. (parte 2/2)",
+   "prompt": "Per ogni forma verbale indica l’infinito e il tempo. Osserva il contesto del testo. Scrivi così: infinito; tempo (esempio: andare; presente). (parte 2/2)",
    "text": "avevo → [[g1]]\naspettavano → [[g2]]\ndavano → [[g3]]\nsentivo → [[g4]]\ncompravamo → [[g5]]\ncercavamo → [[g6]]\nvisitavamo → [[g7]]\nparlavamo → [[g8]]\nlavorava → [[g9]]\nDormivamo → [[g10]]",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "avere; imperfetto"
+      "avere; imperfetto",
+      "avere, imperfetto",
+      "avere imperfetto",
+      "avere - imperfetto",
+      "avere: imperfetto",
+      "avere;imperfetto",
+      "avere,imperfetto",
+      "avere / imperfetto"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "aspettare; imperfetto"
+      "aspettare; imperfetto",
+      "aspettare, imperfetto",
+      "aspettare imperfetto",
+      "aspettare - imperfetto",
+      "aspettare: imperfetto",
+      "aspettare;imperfetto",
+      "aspettare,imperfetto",
+      "aspettare / imperfetto"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "dare; imperfetto"
+      "dare; imperfetto",
+      "dare, imperfetto",
+      "dare imperfetto",
+      "dare - imperfetto",
+      "dare: imperfetto",
+      "dare;imperfetto",
+      "dare,imperfetto",
+      "dare / imperfetto"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "sentire; imperfetto"
+      "sentire; imperfetto",
+      "sentire, imperfetto",
+      "sentire imperfetto",
+      "sentire - imperfetto",
+      "sentire: imperfetto",
+      "sentire;imperfetto",
+      "sentire,imperfetto",
+      "sentire / imperfetto",
+      "sentirsi; imperfetto",
+      "sentirsi, imperfetto",
+      "sentirsi imperfetto",
+      "sentirsi - imperfetto",
+      "sentirsi: imperfetto",
+      "sentirsi;imperfetto",
+      "sentirsi,imperfetto",
+      "sentirsi / imperfetto"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "comprare; imperfetto"
+      "comprare; imperfetto",
+      "comprare, imperfetto",
+      "comprare imperfetto",
+      "comprare - imperfetto",
+      "comprare: imperfetto",
+      "comprare;imperfetto",
+      "comprare,imperfetto",
+      "comprare / imperfetto"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "cercare; imperfetto"
+      "cercare; imperfetto",
+      "cercare, imperfetto",
+      "cercare imperfetto",
+      "cercare - imperfetto",
+      "cercare: imperfetto",
+      "cercare;imperfetto",
+      "cercare,imperfetto",
+      "cercare / imperfetto"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "visitare; imperfetto"
+      "visitare; imperfetto",
+      "visitare, imperfetto",
+      "visitare imperfetto",
+      "visitare - imperfetto",
+      "visitare: imperfetto",
+      "visitare;imperfetto",
+      "visitare,imperfetto",
+      "visitare / imperfetto"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "parlare; imperfetto"
+      "parlare; imperfetto",
+      "parlare, imperfetto",
+      "parlare imperfetto",
+      "parlare - imperfetto",
+      "parlare: imperfetto",
+      "parlare;imperfetto",
+      "parlare,imperfetto",
+      "parlare / imperfetto"
      ]
     },
     {
      "id": "g9",
      "acceptedAnswers": [
-      "lavorare; imperfetto"
+      "lavorare; imperfetto",
+      "lavorare, imperfetto",
+      "lavorare imperfetto",
+      "lavorare - imperfetto",
+      "lavorare: imperfetto",
+      "lavorare;imperfetto",
+      "lavorare,imperfetto",
+      "lavorare / imperfetto"
      ]
     },
     {
      "id": "g10",
      "acceptedAnswers": [
-      "dormire; imperfetto"
+      "dormire; imperfetto",
+      "dormire, imperfetto",
+      "dormire imperfetto",
+      "dormire - imperfetto",
+      "dormire: imperfetto",
+      "dormire;imperfetto",
+      "dormire,imperfetto",
+      "dormire / imperfetto"
      ]
     }
    ]

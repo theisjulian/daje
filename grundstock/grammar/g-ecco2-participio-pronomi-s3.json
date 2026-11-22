@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-s3",
+ "title": "Non ripetere!",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Non ripetere! · livello difficile.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la seconda frase con un pronome (lo, la, li, le o ne).",
+   "promptHelp": "Schreibe den zweiten Satz mit einem Pronomen neu (lo, la, li, le oder ne).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ho perso la chiave. Ho cercato la chiave dappertutto. → …",
+     "acceptedAnswers": [
+      "L’ho cercata"
+     ],
+     "modelAnswer": "L’ho cercata dappertutto."
+    },
+    {
+     "id": "s2",
+     "start": "Abbiamo comprato i biglietti. Abbiamo pagato i biglietti online. → …",
+     "acceptedAnswers": [
+      "Li abbiamo pagati"
+     ],
+     "modelAnswer": "Li abbiamo pagati online."
+    },
+    {
+     "id": "s3",
+     "start": "Sara ha fatto molte foto. Ha mandato le foto alla nonna. → …",
+     "acceptedAnswers": [
+      "Le ha mandate"
+     ],
+     "modelAnswer": "Le ha mandate alla nonna."
+    },
+    {
+     "id": "s4",
+     "start": "Ho letto il messaggio di Luca. Non ho capito il messaggio. → …",
+     "acceptedAnswers": [
+      "Non l’ho capito"
+     ],
+     "modelAnswer": "Non l’ho capito."
+    },
+    {
+     "id": "s5",
+     "start": "I ragazzi hanno trovato una trattoria. Hanno scelto la trattoria per la cena. → …",
+     "acceptedAnswers": [
+      "L’hanno scelta"
+     ],
+     "modelAnswer": "L’hanno scelta per la cena."
+    },
+    {
+     "id": "s6",
+     "start": "Ho scritto due mail. Ho spedito le mail stamattina. → …",
+     "acceptedAnswers": [
+      "Le ho spedite"
+     ],
+     "modelAnswer": "Le ho spedite stamattina."
+    },
+    {
+     "id": "s7",
+     "start": "Abbiamo visto i gladiatori davanti al Colosseo. Abbiamo fotografato i gladiatori. → …",
+     "acceptedAnswers": [
+      "Li abbiamo fotografati"
+     ],
+     "modelAnswer": "Li abbiamo fotografati."
+    },
+    {
+     "id": "s8",
+     "start": "Ho comprato sei cartoline. Ho spedito tre cartoline. (ne) → …",
+     "acceptedAnswers": [
+      "Ne ho spedite tre"
+     ],
+     "modelAnswer": "Ne ho spedite tre."
+    },
+    {
+     "id": "s9",
+     "start": "Davide ha ordinato due pizze. Ha mangiato solo una pizza. (ne) → …",
+     "acceptedAnswers": [
+      "Ne ha mangiata"
+     ],
+     "modelAnswer": "Ne ha mangiata solo una."
+    }
+   ]
+  }
+ ]
+}

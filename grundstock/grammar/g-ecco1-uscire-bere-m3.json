@@ -79,7 +79,9 @@
      "id": "s4",
      "start": "Che cosa bevete? (acqua) – …",
      "acceptedAnswers": [
-      "Beviamo acqua"
+      "Beviamo acqua",
+      "Beviamo l’acqua",
+      "Beviamo dell’acqua"
      ],
      "modelAnswer": "Beviamo acqua."
     },
@@ -95,8 +97,9 @@
      "id": "s6",
      "start": "Tieni tu le chiavi? (sì) – …",
      "acceptedAnswers": [
-      "Sì, tengo io le chiavi",
-      "Sì, le tengo io"
+      "tengo io le chiavi",
+      "le tengo",
+      "tengo le chiavi"
      ],
      "modelAnswer": "Sì, le tengo io."
     },
@@ -104,7 +107,8 @@
      "id": "s7",
      "start": "Beve il latte tuo fratello? (no) – …",
      "acceptedAnswers": [
-      "No, non beve il latte"
+      "non beve il latte",
+      "non lo beve"
      ],
      "modelAnswer": "No, non beve il latte."
     },

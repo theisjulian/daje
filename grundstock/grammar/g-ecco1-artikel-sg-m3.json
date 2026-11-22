@@ -52,7 +52,7 @@
    "explanation": "fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’.",
    "explanationHelp": "fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’.",
    "type": "gap_fill",
-   "text": "Cara Lisa,\noggi visito Torino con [[g1]] mia famiglia.\nPrima vediamo [[g2]] fiume Po e [[g3]] ponte Vittorio Emanuele.\nPoi andiamo in centro: [[g4]] piazza Castello è bellissima.\nVicino c’è [[g5]] museo egizio, [[g6]] attrazione più famosa della città.\nMio fratello vuole vedere [[g7]] stadio della Juventus.\n[[g8]] amica di mia madre abita in via Garibaldi.\n[[g9]] via è lunga e c’è [[g10]] tram.\nDomani prendiamo [[g11]] zaino e andiamo al parco.\nUn abbraccio, Sara",
+   "text": "Cara Lisa,\noggi visito Torino con [[g1]] mia famiglia.\nPrima vediamo [[g2]] fiume Po e [[g3]] ponte Vittorio Emanuele.\nPoi andiamo in centro: [[g4]] piazza Castello è bellissima.\nVicino c’è [[g5]] museo egizio, [[g6]]attrazione più famosa della città.\nMio fratello vuole vedere [[g7]] stadio della Juventus.\n[[g8]]amica di mia madre abita in via Garibaldi.\n[[g9]] via è lunga e c’è [[g10]] tram.\nDomani prendiamo [[g11]] zaino e andiamo al parco.\nUn abbraccio, Sara",
    "gaps": [
     {
      "id": "g1",

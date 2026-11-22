@@ -1,0 +1,151 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-riflessivi-m3",
+ "title": "Tedesco – italiano",
+ "language": "it",
+ "level": "B1",
+ "description": "Verbi riflessivi: confronto con il tedesco · Tedesco – italiano · livello medio.",
+ "topics": [
+  "Verbi riflessivi: confronto con il tedesco",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · reflexive Verben im Vergleich mit dem Deutschen"
+ },
+ "grammar": {
+  "topic": "it11-riflessivi",
+  "topicTitle": "Verbi riflessivi: confronto con il tedesco",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Non sempre l’italiano e il tedesco sono uguali!\n| **italiano: riflessivo** | **tedesco: non riflessivo** |\n| alzarsi, svegliarsi, addormentarsi | aufstehen, aufwachen, einschlafen |\n| chiamarsi, sposarsi, laurearsi | heißen, heiraten, das Studium abschließen |\n| accorgersi di, dimenticarsi di, fermarsi | bemerken, vergessen, stehen bleiben |\n\n| **italiano: non riflessivo** | **tedesco: riflessivo** |\n| ringraziare qualcuno | sich bei jemandem bedanken |\n| cambiare | sich ändern |\n| succedere | sich ereignen |\nPassato prossimo: sempre **essere**, il participio concorda: _Giulia **si è laureata**. I ragazzi **si sono svegliati** tardi._\nReciproco (_einander_): _**Ci vediamo** domani. **Si sono conosciuti** a Roma._\nCon **dovere, potere, volere** ci sono due possibilità: _**Mi sono dovuto** alzare presto._ = _**Ho dovuto** alzar**mi** presto._",
+  "ruleHelp": "**Italienisch reflexiv – deutsch nicht:** alzarsi (aufstehen), svegliarsi (aufwachen), addormentarsi (einschlafen), chiamarsi (heißen), sposarsi (heiraten), laurearsi, accorgersi di (bemerken), dimenticarsi di (vergessen), fermarsi (stehen bleiben).\n**Deutsch reflexiv – italienisch nicht:** ringraziare (sich bedanken), cambiare (sich ändern), succedere (sich ereignen).\nIm passato prossimo immer **essere** + Angleichung: _si è laureata, si sono conosciuti_. Mit Modalverb zwei Möglichkeiten: _mi sono dovuto alzare_ (Pronomen vorn → essere) = _ho dovuto alzarmi_ (Pronomen am Infinitiv → avere)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il verbo italiano (infinito) e il passato prossimo per «lei».",
+   "promptHelp": "Schreibe das italienische Verb (Infinitiv) und das passato prossimo für „lei“ (sie).",
+   "type": "table_fill",
+   "columns": [
+    "tedesco",
+    "italiano (infinito)",
+    "passato prossimo (lei)"
+   ],
+   "rows": [
+    [
+     "aufstehen (al…)",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "alzarsi"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "si è alzata"
+      ]
+     }
+    ],
+    [
+     "einschlafen (ad…)",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "addormentarsi"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "si è addormentata"
+      ]
+     }
+    ],
+    [
+     "heiraten (sp…)",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "sposarsi"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "si è sposata"
+      ]
+     }
+    ],
+    [
+     "etwas bemerken (ac… di)",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "accorgersi"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "si è accorta"
+      ]
+     }
+    ],
+    [
+     "sich bedanken (rin…)",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "ringraziare"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "ha ringraziato"
+      ]
+     }
+    ],
+    [
+     "sich ändern (ca…)",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "cambiare"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "è cambiata"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

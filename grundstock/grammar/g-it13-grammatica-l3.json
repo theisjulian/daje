@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-l3",
+ "title": "Se … allora …",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Se … allora … · livello facile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’inizio e la fine di ogni periodo ipotetico.",
+   "promptHelp": "Verbinde Anfang und Ende jedes Bedingungssatzes.",
+   "explanation": "se + indicativo → indicativo · se + congiuntivo imperfetto → condizionale presente · se + congiuntivo trapassato → condizionale passato (o presente, se la conseguenza è oggi: tipo misto).",
+   "explanationHelp": "se + Indikativ → Indikativ · se + congiuntivo imperfetto → condizionale presente · se + congiuntivo trapassato → condizionale passato (oder presente, wenn die Folge heute gilt: gemischter Typ).",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Se piove anche domani,",
+     "right": "porto l’ombrello."
+    },
+    {
+     "id": "p2",
+     "left": "Se avessi una macchina,",
+     "right": "ti accompagnerei io alla stazione."
+    },
+    {
+     "id": "p3",
+     "left": "Se fossimo partiti prima,",
+     "right": "non avremmo perso l’aereo."
+    },
+    {
+     "id": "p4",
+     "left": "Se avessi studiato medicina,",
+     "right": "oggi farei il medico."
+    },
+    {
+     "id": "p5",
+     "left": "Se i miei nonni non fossero emigrati,",
+     "right": "io non sarei nata in Germania."
+    },
+    {
+     "id": "p6",
+     "left": "Se tu leggessi di più,",
+     "right": "scriveresti meglio."
+    },
+    {
+     "id": "p7",
+     "left": "Se non spegnete il cellulare,",
+     "right": "il professore ve lo prende."
+    },
+    {
+     "id": "p8",
+     "left": "Se Marta avesse puntato la sveglia,",
+     "right": "non sarebbe arrivata in ritardo."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it12-lessico-m2",
+ "title": "Una mail formale",
+ "language": "it",
+ "level": "B2",
+ "description": "Lessico tematico e registro · Una mail formale · livello medio.",
+ "topics": [
+  "Lessico tematico e registro",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quinto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "5",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 12,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 12 · Themenwortschatz, Register (formell/informell), Kollokationen, Konnektoren des Argumentierens, falsche Freunde"
+ },
+ "grammar": {
+  "topic": "it12-lessico",
+  "topicTitle": "Lessico tematico e registro",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "**Registro:** scegli le parole secondo la situazione.\n| informale (amici, chat) | formale (mail, lettera, commento) |\n| Ciao Marco, | Gentile signora Rossi, |\n| ti scrivo perché … | Le scrivo per … |\n| Mi puoi mandare …? | Potrebbe mandarmi …? |\n| Grazie! Fammi sapere! | La ringrazio. Attendo una Sua risposta. |\n| Ciao, a presto! | Distinti saluti |\n**Collocazioni** (parole che stanno insieme): **prendere** una decisione · **svolgere** un ruolo · **affrontare** un problema · **raggiungere** un obiettivo · **fare** domanda · **tenere** conto **di** · **correre** un rischio · **esprimere** un’opinione.\n**Connettivi per argomentare:** aggiungere: _inoltre, in più_ · contrastare: _tuttavia, invece, al contrario_ · causa: _poiché, dato che, siccome_ · conseguenza: _quindi, perciò, di conseguenza_ · concludere: _in conclusione_.\n**Falsi amici:** caldo = warm, heiß (kalt = **freddo**) · la firma = Unterschrift (Firma = **la ditta**) · la camera = Zimmer (Kamera = **la macchina fotografica**) · il regalo = Geschenk (Regal = **lo scaffale**).",
+  "ruleHelp": "**Register:** In Mails an Unbekannte, Bewerbungen und Kommentaren schreibst du formell: Anrede _Gentile signora … / Egregio signor …_, Höflichkeitsform **Lei** (großgeschrieben: _Le scrivo, La ringrazio, una Sua risposta_), condizionale statt Imperativ (_Potrebbe mandarmi …?_), Schluss _Distinti saluti_.\n**Kollokationen** lernt man als Ganzes; oft passt das deutsche Verb nicht: eine Entscheidung treffen = **prendere** una decisione; sich bewerben = **fare** domanda; berücksichtigen = **tenere conto di**; ein Ziel erreichen = **raggiungere** un obiettivo.\n**Konnektoren** ordnen die Argumentation: ergänzen (_inoltre_), entgegensetzen (_tuttavia, invece_), begründen (_poiché, dato che, siccome_), folgern (_quindi, perciò_), abschließen (_in conclusione_).\n**Falsche Freunde:** caldo heißt warm/heiß, la firma ist die Unterschrift, la camera das Zimmer, il regalo das Geschenk."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase in modo formale (con il Lei). Usa le parole tra parentesi.",
+   "promptHelp": "Schreibe den Satz formell um (mit Lei). Verwende die Wörter in Klammern.",
+   "explanation": "Nel registro formale: Lei (Le scrivo, La ringrazio, una Sua risposta), condizionale di cortesia (desidererei, potrebbe), parole più precise (impiego, inviare).",
+   "explanationHelp": "Formelles Register: Höflichkeitsform Lei (Le scrivo, La ringrazio, una Sua risposta), höfliches condizionale (desidererei, potrebbe), genauere Wörter (impiego, inviare).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Voglio sapere quanto costa il corso. (desiderare)",
+     "acceptedAnswers": [
+      "desidererei sapere",
+      "desidero sapere"
+     ],
+     "modelAnswer": "Desidererei sapere quanto costa il corso. (Anche: Desidero sapere …)"
+    },
+    {
+     "id": "s2",
+     "start": "Mi puoi mandare il programma? (potrebbe)",
+     "acceptedAnswers": [
+      "potrebbe mandarmi",
+      "mi potrebbe mandare"
+     ],
+     "modelAnswer": "Potrebbe mandarmi il programma? (Anche: Mi potrebbe mandare il programma?)"
+    },
+    {
+     "id": "s3",
+     "start": "Grazie per la risposta! (ringraziare)",
+     "acceptedAnswers": [
+      "La ringrazio"
+     ],
+     "modelAnswer": "La ringrazio per la risposta."
+    },
+    {
+     "id": "s4",
+     "start": "Rispondimi presto! (attendere, una Sua risposta)",
+     "acceptedAnswers": [
+      "attendo una Sua risposta",
+      "attendo una Sua cortese risposta",
+      "attendo la Sua risposta"
+     ],
+     "modelAnswer": "Attendo una Sua risposta."
+    },
+    {
+     "id": "s5",
+     "start": "Ti scrivo perché cerco un lavoro per l’estate. (un impiego)",
+     "acceptedAnswers": [
+      "Le scrivo perché cerco un impiego",
+      "Le scrivo perché sto cercando un impiego",
+      "Le scrivo poiché cerco un impiego"
+     ],
+     "modelAnswer": "Le scrivo perché cerco un impiego per l’estate."
+    },
+    {
+     "id": "s6",
+     "start": "Scusa se ti disturbo. (scusarsi, il disturbo)",
+     "acceptedAnswers": [
+      "mi scuso per il disturbo",
+      "mi scuso del disturbo"
+     ],
+     "modelAnswer": "Mi scuso per il disturbo."
+    },
+    {
+     "id": "s7",
+     "start": "Ti mando il mio curriculum. (inviare, in allegato)",
+     "acceptedAnswers": [
+      "Le invio in allegato",
+      "in allegato Le invio",
+      "Le invio il mio curriculum in allegato"
+     ],
+     "modelAnswer": "Le invio in allegato il mio curriculum. (Anche: In allegato Le invio il mio curriculum.)"
+    },
+    {
+     "id": "s8",
+     "start": "Ciao, a presto! (distinti)",
+     "acceptedAnswers": [
+      "distinti saluti"
+     ],
+     "modelAnswer": "Distinti saluti"
+    }
+   ]
+  }
+ ]
+}

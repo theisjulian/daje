@@ -52,7 +52,7 @@
    "explanation": "uno con s + consonante e z; un’ solo con parole femminili + vocale.",
    "explanationHelp": "uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.",
    "type": "gap_fill",
-   "text": "A Torino c’è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c’è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.\nLeo ha [[g7]] zaino rosso.\nÈ [[g8]] idea fantastica!\nPaolo è [[g9]] studente di Lecce.",
+   "text": "A Torino c’è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]]amica a Milano.\nIn piazza c’è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.\nLeo ha [[g7]] zaino rosso.\nÈ [[g8]]idea fantastica!\nPaolo è [[g9]] studente di Lecce.",
    "gaps": [
     {
      "id": "g1",

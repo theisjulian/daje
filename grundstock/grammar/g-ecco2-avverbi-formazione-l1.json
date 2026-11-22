@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-avverbi-formazione-l1",
+ "title": "Dall’aggettivo all’avverbio",
+ "language": "it",
+ "level": "A2",
+ "description": "Aggettivi, avverbi e formazione delle parole · Dall’aggettivo all’avverbio · livello facile.",
+ "topics": [
+  "Aggettivi, avverbi e formazione delle parole",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Adverbien auf -mente, Adjektiv und Adverb, Wortbildung"
+ },
+ "grammar": {
+  "topic": "ecco2-avverbi-formazione",
+  "topicTitle": "Aggettivi, avverbi e formazione delle parole",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**L’avverbio in -mente** si forma dall’aggettivo **femminile** + **-mente**:\n| lento → lenta | **lentamente** |\n| veloce | **velocemente** |\n| facile | **facilmente** (-le → senza e) |\n| regolare | **regolarmente** (-re → senza e) |\nIrregolari: buono → **bene**, cattivo → **male**.\n**Aggettivo o avverbio?** L’aggettivo descrive un **nome** e concorda: _una risposta **chiara**_. L’avverbio descrive un **verbo** e non cambia mai: _Sara risponde **chiaramente**._\n**Formazione delle parole:**\n| verbo → nome | informare → l’informa**zione** |\n| aggettivo → nome | possibile → la possibili**tà** |\n| mestieri | giornale → il / la giornal**ista** · lavorare → il lavora**tore**, la lavora**trice** |\n| contrario | utile → **in**utile · possibile → **im**possibile · fortunato → **s**fortunato · occupato → **dis**occupato |\n| di nuovo | leggere → **ri**leggere |",
+  "ruleHelp": "**Adverb auf -mente:** weibliche Form des Adjektivs + **-mente** (_lenta → lentamente_). Adjektive auf **-le / -re** verlieren das **e**: _facilmente, regolarmente_. Unregelmäßig: _buono → bene, cattivo → male_.\nDas **Adjektiv** gehört zum Nomen und passt sich an, das **Adverb** gehört zum Verb und bleibt unverändert. Im Deutschen sehen beide oft gleich aus („eine klare Antwort“ – „sie antwortet klar“), im Italienischen nicht: _chiara – chiaramente_.\n**Wortbildung:** Nomen auf **-zione** (immer weiblich), **-tà** (immer weiblich, Plural gleich), Berufe auf **-ista** und **-tore / -trice**; Gegenteil mit **in-** (vor p, b, m: **im-**), **s-**, **dis-**; **ri-** = noch einmal."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina l’aggettivo all’avverbio.",
+   "promptHelp": "Verbinde das Adjektiv mit dem Adverb.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "lento",
+     "right": "lentamente"
+    },
+    {
+     "id": "p2",
+     "left": "veloce",
+     "right": "velocemente"
+    },
+    {
+     "id": "p3",
+     "left": "facile",
+     "right": "facilmente"
+    },
+    {
+     "id": "p4",
+     "left": "regolare",
+     "right": "regolarmente"
+    },
+    {
+     "id": "p5",
+     "left": "chiaro",
+     "right": "chiaramente"
+    },
+    {
+     "id": "p6",
+     "left": "gentile",
+     "right": "gentilmente"
+    },
+    {
+     "id": "p7",
+     "left": "sicuro",
+     "right": "sicuramente"
+    },
+    {
+     "id": "p8",
+     "left": "particolare",
+     "right": "particolarmente"
+    },
+    {
+     "id": "p9",
+     "left": "buono",
+     "right": "bene"
+    },
+    {
+     "id": "p10",
+     "left": "cattivo",
+     "right": "male"
+    }
+   ]
+  }
+ ]
+}

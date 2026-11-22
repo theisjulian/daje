@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. avrei bisogno\n2. informazioni\n3. Mi dica\n4. serale\n5. Lavoro\n6. alle diciotto\n7. Quattro settimane\n8. Può usare",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 1/2)\n1. avrei bisogno\n2. informazioni\n3. Mi dica\n4. serale\n5. Lavoro\n6. alle diciotto\n7. Quattro settimane\n8. Può usare",
    "modelAnswer": "1. condizionale presente, io\n2. sostantivo femminile plurale\n3. disponibilità ad ascoltare\n4. aggettivo\n5. presente indicativo, io\n6. preposizione articolata a + le\n7. durata\n8. possibilità espressa con potere",
    "lines": 9,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
@@ -54,7 +54,7 @@
   {
    "id": "q1b",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. Guardi\n2. Per favore\n3. salga\n4. prenda\n5. Compili\n6. lo consegni\n7. Non si preoccupi",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 2/2)\n1. Guardi\n2. Per favore\n3. salga\n4. prenda\n5. Compili\n6. lo consegni\n7. Non si preoccupi",
    "modelAnswer": "1. imperativo formale\n2. espressione di cortesia\n3. imperativo formale di salire\n4. imperativo formale di prendere\n5. imperativo formale di compilare\n6. lo si riferisce al modulo\n7. invito a non preoccuparsi, registro formale",
    "lines": 8
   }

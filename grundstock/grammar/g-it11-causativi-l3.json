@@ -1,0 +1,139 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-causativi-l3",
+ "title": "La forma giusta",
+ "language": "it",
+ "level": "B1",
+ "description": "Fare e lasciare + infinito · La forma giusta · livello facile.",
+ "topics": [
+  "Fare e lasciare + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · fare / lasciare + Infinitiv"
+ },
+ "grammar": {
+  "topic": "it11-causativi",
+  "topicTitle": "Fare e lasciare + infinito",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "**fare + infinito** = un’altra persona fa l’azione per me, o io provoco l’azione:\n- _**Faccio riparare** la bici._ · _Questo film mi **fa ridere**._\n- Chi fa l’azione? **a / da** + persona: _Faccio leggere il testo **agli** studenti. Faccio riparare la bici **dal** meccanico._\n**farsi + infinito** (per sé; ausiliare **essere**): _**Mi faccio tagliare** i capelli. Giulia **si è fatta tagliare** i capelli._\n**lasciare + infinito** = permettere, non impedire: _I miei genitori mi **lasciano uscire**. **Lasciami parlare**!_\n**Pronomi:** prima di fare / lasciare, non dopo l’infinito: _**Lo** faccio riparare. **Glielo** faccio vedere._\nCon l’imperativo, attaccati: _**Fammelo** sapere! **Lasciami** dormire!_",
+  "ruleHelp": "Deutsches „**lassen**“ hat zwei Entsprechungen:\n- **fare + Infinitiv** = veranlassen, beauftragen, jemanden zu etwas bringen: _Faccio riparare la bici._ (Ich lasse das Rad reparieren.) _Mi fai ridere._ (Du bringst mich zum Lachen.)\n- **lasciare + Infinitiv** = zulassen, erlauben: _Lasciami dormire!_ (Lass mich schlafen!)\nDer Ausführende steht mit **a** oder **da**: _Faccio riparare la bici dal meccanico._ **farsi + Infinitiv** mit essere: _Mi sono fatto/fatta tagliare i capelli._\nPronomen stehen **vor** fare/lasciare (_glielo faccio vedere_), beim Imperativ angehängt (_fammelo sapere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "fare / lasciare + infinito (senza preposizione); i pronomi stanno prima di fare / lasciare, con l’imperativo sono attaccati.",
+   "explanationHelp": "fare / lasciare + Infinitiv (ohne Präposition); Pronomen stehen vor fare / lasciare, beim Imperativ angehängt.",
+   "type": "gap_choice",
+   "text": "Il computer non funziona: domani lo faccio [[g1]].\nHo i capelli troppo lunghi: sabato mi faccio [[g2]] i capelli.\nQuesto video è divertente: [[g3]] vedere subito.\nQuando arrivi, [[g4]] sapere!\nSto parlando: [[g5]] finire, per favore!\nLa prof ha fatto [[g6]] il testo a tutta la classe.\nI miei genitori mi lasciano [[g7]] il sabato sera.\nIeri Giulia si [[g8]] fatta tagliare i capelli.\nCon la nostra presentazione abbiamo fatto [[g9]] tutti.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "riparare",
+      "riparato",
+      "riparo"
+     ],
+     "answer": "riparare"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "tagliare",
+      "tagliato",
+      "a tagliare"
+     ],
+     "answer": "tagliare"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "te lo faccio",
+      "faccio te lo",
+      "te faccio lo"
+     ],
+     "answer": "te lo faccio"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "fammelo",
+      "mi lo fai",
+      "fa mi lo"
+     ],
+     "answer": "fammelo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "lasciami",
+      "mi lasciare",
+      "lascia mi"
+     ],
+     "answer": "lasciami"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "leggere",
+      "letto",
+      "leggendo"
+     ],
+     "answer": "leggere"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "uscire",
+      "uscito",
+      "a uscire"
+     ],
+     "answer": "uscire"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ridere",
+      "ridendo",
+      "riso"
+     ],
+     "answer": "ridere"
+    }
+   ]
+  }
+ ]
+}

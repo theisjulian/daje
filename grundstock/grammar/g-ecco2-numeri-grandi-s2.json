@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-numeri-grandi-s2",
+ "title": "L’Italia in numeri",
+ "language": "it",
+ "level": "A2",
+ "description": "I numeri oltre cento · L’Italia in numeri · livello difficile.",
+ "topics": [
+  "I numeri oltre cento",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Grundzahlen über 100, Jahreszahlen, Preise"
+ },
+ "grammar": {
+  "topic": "ecco2-numeri-grandi",
+  "topicTitle": "I numeri oltre cento",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "| 100 | **cento** | 1.000 | **mille** |\n| 200 | due**cento** | 2.000 | due**mila** |\n| 350 | trecentocinquanta | 10.000 | dieci**mila** |\n| 999 | novecentonovantanove | 100.000 | cento**mila** |\n| 1.000.000 | **un milione** | 2.000.000 | due **milioni** |\n- **cento** non cambia: _duecento, trecento_. **mille** ha il plurale **-mila**: _duemila, tremila_.\n- I numeri si scrivono in una sola parola: _millenovecentonovanta_.\n- **milione** è un nome: _un milione **di** abitanti, due milioni **di** euro_.\n- Gli anni: _**nel** 1492_ (nel millequattrocentonovantadue), _nel 2006_ (nel duemilasei).\n- I prezzi: _3,50 € = tre euro e cinquanta_. **euro** non cambia: _duecento euro_.",
+  "ruleHelp": "**cento** bleibt unverändert (duecento, trecento). **mille** hat den Plural **-mila** (duemila, diecimila). Zahlen schreibt man in einem Wort.\n**milione** ist ein Nomen: _un milione **di** abitanti_, Plural _due milioni_.\nJahreszahlen: Anders als im Deutschen („neunzehnhundertneunzig“) sagt man **mille**novecentonovanta, und das Jahr steht mit **nel**: _nel 1990_.\nPreise: _tre euro e cinquanta_; **euro** hat keine Pluralform."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i numeri in lettere.",
+   "promptHelp": "Schreibe die Zahlen in Buchstaben.",
+   "type": "gap_fill",
+   "text": "Il Po è lungo 652 chilometri: [[g1]] chilometri.\nRoma ha quasi 3.000.000 di abitanti: quasi [[g2]] di abitanti.\nL’Italia è unita dal 1861: dal [[g3]].\nL’Italia è una repubblica dal 1946: dal [[g4]].\nColombo è arrivato in America nel 1492: nel [[g5]].\nIl Colosseo ha quasi 2.000 anni: quasi [[g6]] anni.\nIn Italia ci sono 20 regioni e quasi 8.000 comuni: quasi [[g7]] comuni.\nIl Monte Bianco è alto più di 4.800 metri: più di [[g8]] metri.\nNel 1990 i Mondiali di calcio si sono giocati in Italia: nel [[g9]].\nL’Italia ha vinto i Mondiali nel 2006: nel [[g10]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "seicentocinquantadue"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tre milioni"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "milleottocentosessantuno"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "millenovecentoquarantasei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "millequattrocentonovantadue"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "duemila"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ottomila"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "quattromilaottocento"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "millenovecentonovanta"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "duemilasei"
+     ]
+    }
+   ]
+  }
+ ]
+}

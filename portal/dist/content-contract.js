@@ -302,7 +302,7 @@
             fail(path + '.correctOptionIds', 'mindestens eine Antwort muss falsch sein');
         } else if (q.type === 'matching') {
           const ids = new Set();
-          z.pairs = arr(q.pairs, path + '.pairs', 2, 8).map((v, j) => {
+          z.pairs = arr(q.pairs, path + '.pairs', 2, 10).map((v, j) => {
             v = obj(v, path + '.pairs[' + j + ']');
             const p = {
               id: id(v.id, path + '.pairs[' + j + '].id'),
@@ -415,7 +415,7 @@
           });
         } else if (q.type === 'sentence_completion') {
           const ids = new Set();
-          z.items = arr(q.items, path + '.items', 1, 8).map((v, j) => {
+          z.items = arr(q.items, path + '.items', 1, 12).map((v, j) => {
             const ip = path + '.items[' + j + ']';
             v = obj(v, ip);
             const o = { id: id(v.id, ip + '.id'), start: str(v.start, ip + '.start', 300), acceptedAnswers: strings(v.acceptedAnswers, ip + '.acceptedAnswers') };
@@ -550,6 +550,19 @@
       .replace(/[.!?]+$/g, '')
       .trim()
       .replace(/\s+/g, ' ');
+  /* Satzergänzung: Der Schlüssel muss als ganze Wörter in der Antwort stehen („si va“ steckt nicht in „si vanno“,
+     „parli“ nicht in „parliamo“). Satzzeichen zählen nicht. */
+  const looseText = x => normAnswer(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const containsKey = (answer, key) => {
+    const a = ' ' + looseText(answer) + ' ', k = looseText(key);
+    return !!k && a.includes(' ' + k + ' ');
+  };
+  /* Fehlerkorrektur: Ist der Fehler nur die Groß-/Kleinschreibung („Dicembre“ → „dicembre“), zählt die Schreibung mit;
+     sonst wäre der unveränderte Fehler schon richtig. */
+  const exactAnswer = x => String(x ?? '').normalize('NFC').replace(/[’‘ʼ´`]/g, "'").trim().replace(/[.!?]+$/g, '').trim().replace(/\s+/g, ' ');
+  const fixedError = (g, val) =>
+    !!normAnswer(val) &&
+    g.acceptedAnswers.some(a => (normAnswer(a) === normAnswer(g.wrong) ? exactAnswer(a) === exactAnswer(val) : normAnswer(a) === normAnswer(val)));
   function assessAnswer(q, raw) {
     const norm = normAnswer;
     if (q.type === 'single_choice') return raw === q.correctOptionId;
@@ -608,16 +621,7 @@
     }
     if (q.type === 'error_correction') {
       const v = parts();
-      // Ist der Fehler nur die Groß-/Kleinschreibung („Dicembre“ → „dicembre“), zählt die Schreibung mit;
-      // sonst wäre der unveränderte Fehler schon richtig.
-      const exact = x => norm(x) && String(x).normalize('NFC').replace(/[’‘ʼ´`]/g, "'").trim().replace(/[.!?]+$/g, '').trim().replace(/\s+/g, ' ');
-      return q.errors.every(
-        g =>
-          has(v, g.id) &&
-          g.acceptedAnswers.some(a =>
-            norm(a) === norm(g.wrong) ? exact(a) === exact(v[g.id]) : norm(a) === norm(v[g.id])
-          )
-      );
+      return q.errors.every(g => has(v, g.id) && fixedError(g, v[g.id]));
     }
     if (q.type === 'table_fill') {
       const v = parts();
@@ -632,15 +636,49 @@
       const v = parts();
       {
         // Satzzeichen zählen beim Ergänzen nicht: „No non sono di Roma“ = „No, non sono di Roma.“
-        const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
-        return q.items.every(it => has(v, it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))));
+        return q.items.every(it => has(v, it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a)));
       }
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;
     return q.acceptedAnswers.some(a => norm(a) === norm(raw));
   }
-  const api = { validatePackage, assessAnswer, normAnswer, LANGUAGES, QUESTION_TYPES };
+  /* Teilpunkte: je Lücke, Paar, Satz oder Zuordnung ein Punkt; Auswahl-, Kurzantwort- und Ordnungsaufgaben zählen als ein Punkt.
+     Ergebnis { got, max, units: { id: true|false } }; offene Antworten haben max 0 (keine automatische Bewertung). */
+  function scoreAnswer(q, raw) {
+    const norm = normAnswer;
+    let v = {};
+    try {
+      const j = JSON.parse(raw);
+      if (j && typeof j === 'object' && !Array.isArray(j)) v = j;
+    } catch {}
+    const has = k => Object.prototype.hasOwnProperty.call(v, k);
+    const some = (g, k) => has(k) && g.acceptedAnswers.some(a => norm(a) === norm(v[k]));
+    let list = null;
+    if (q.type === 'gap_fill' || q.type === 'note_fill') list = q.gaps.map(g => [g.id, some(g, g.id)]);
+    else if (q.type === 'gap_choice') list = q.gaps.map(g => [g.id, has(g.id) && v[g.id] === g.answer]);
+    else if (q.type === 'error_correction') list = q.errors.map(g => [g.id, has(g.id) && fixedError(g, v[g.id])]);
+    else if (q.type === 'table_fill') list = q.rows.flat().filter(c => typeof c === 'object').map(g => [g.id, some(g, g.id)]);
+    else if (q.type === 'categorize' || q.type === 'speaker_match') list = q.items.map(it => [it.id, has(it.id) && v[it.id] === it.category]);
+    else if (q.type === 'matching') {
+      const textOf = id => {
+        const pr = q.pairs.find(z => z.id === id);
+        if (pr) return pr.right;
+        const m = /^x(\d+)$/.exec(String(id));
+        return m && q.distractors ? q.distractors[Number(m[1])] : undefined;
+      };
+      list = q.pairs.map(p => [p.id, has(p.id) && textOf(v[p.id]) !== undefined && norm(textOf(v[p.id])) === norm(p.right)]);
+    } else if (q.type === 'sentence_completion') {
+      list = q.items.map(it => [it.id, has(it.id) && it.acceptedAnswers.some(a => containsKey(v[it.id], a))]);
+    }
+    if (q.type === 'open_answer') return { got: 0, max: 0, units: {} };
+    if (!list) {
+      const ok = !!assessAnswer(q, raw);
+      return { got: ok ? 1 : 0, max: 1, units: {} };
+    }
+    return { got: list.filter(x => x[1]).length, max: list.length, units: Object.fromEntries(list) };
+  }
+  const api = { validatePackage, assessAnswer, scoreAnswer, containsKey, normAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

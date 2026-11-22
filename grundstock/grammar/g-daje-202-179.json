@@ -46,7 +46,7 @@
   {
    "id": "q1a",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 1/2)\n1. ci basta\n2. ci ha chiesto\n3. Le abbiamo mostrato\n4. lei ci ha suggerito\n5. si è offerto\n6. aiutarci\n7. Gli abbiamo spiegato\n8. vi invitiamo",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 1/2)\n1. ci basta\n2. ci ha chiesto\n3. Le abbiamo mostrato\n4. lei ci ha suggerito\n5. si è offerto\n6. aiutarci\n7. Gli abbiamo spiegato\n8. vi invitiamo",
    "modelAnswer": "1. a noi studenti\n2. a noi studenti\n3. alla rappresentante\n4. la rappresentante / a noi\n5. il soggetto è l’insegnante, verbo offrirsi\n6. aiutare noi\n7. all’insegnante\n8. invitiamo voi lettori",
    "lines": 9,
    "promptHelp": "Antworte frei und vergleiche danach mit der möglichen Lösung."
@@ -54,7 +54,7 @@
   {
    "id": "q1b",
    "type": "open_answer",
-   "prompt": "Analizza le espressioni nel contesto. Indica la funzione, il referente o il significato richiesto dalla tabella. (parte 2/2)\n1. Scriveteci\n2. Ci incontriamo\n3. risorse\n4. un’alternativa\n5. concreta\n6. coinvolgere\n7. realizzato\n8. accogliente",
+   "prompt": "Analizza le espressioni nel contesto. Indica per ogni espressione la funzione, il referente o il significato. (parte 2/2)\n1. Scriveteci\n2. Ci incontriamo\n3. risorse\n4. un’alternativa\n5. concreta\n6. coinvolgere\n7. realizzato\n8. accogliente",
    "modelAnswer": "1. scrivete a noi\n2. noi, valore reciproco\n3. mezzi disponibili\n4. un’altra possibilità\n5. realistica e definita\n6. far partecipare\n7. messo in pratica\n8. che fa sentire benvenute le persone",
    "lines": 9
   }

@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-tempo-m2",
+ "title": "Rispondi alle domande",
+ "language": "it",
+ "level": "B1",
+ "description": "Espressioni temporali e racconto · Rispondi alle domande · livello medio.",
+ "topics": [
+  "Espressioni temporali e racconto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte B"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitangaben und Erzählkonnektoren (fa, da, per, fra, in, entro, fino a, nel frattempo …)"
+ },
+ "grammar": {
+  "topic": "ecco3-tempo",
+  "topicTitle": "Espressioni temporali e racconto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "| due anni **fa** | nel passato (fa sta **dopo**!) | _Sono arrivata due anni fa._ |\n| **da** due anni | comincia nel passato e **continua**: presente | _Studio italiano da due anni._ |\n| **per** due anni | durata **finita**: passato prossimo | _Ho studiato per due anni._ |\n| **fra / tra** due anni | nel futuro | _Parto fra due giorni._ |\n| **in** due ore | tempo necessario per finire | _Ho letto il libro in due ore._ |\n| **entro** venerdì | non più tardi di | _Rispondi entro venerdì!_ |\n| **fino a** venerdì | la fine di un periodo | _Resto fino a venerdì._ |\n| **dal** … **al** … | inizio e fine | _dal lunedì al sabato_ |\n| **a partire da** lunedì | l’inizio | _A partire da lunedì cambia l’orario._ |\nPer raccontare: **ogni volta che** (jedes Mal, wenn), **nel frattempo** (inzwischen), **a un tratto** (plötzlich), **il giorno dopo / il giorno prima**.",
+  "ruleHelp": "**fa** = vor (steht hinten: _due anni fa_), **da** + Präsens = seit (dauert noch an: _Studio da due anni_), **per** + passato prossimo = … lang (abgeschlossen: _Ho studiato per due anni_), **fra / tra** = in (Zukunft), **in** = innerhalb von, **entro** = bis spätestens, **fino a** = bis (Ende eines Zeitraums), **dal … al** = von … bis, **a partire da** = ab.\nAchtung: Deutsch „Ich lerne seit zwei Jahren“ → Präsens + da; deutsches „in zehn Minuten“ (Zukunft) → _fra dieci minuti_, nicht _in_.\nZum Erzählen: ogni volta che, nel frattempo, a un tratto, il giorno dopo / prima."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con le parole tra parentesi e la parola di tempo giusta (da, per, fa, fra, in, entro, fino a …).",
+   "promptHelp": "Antworte mit den Wörtern in Klammern und dem passenden Zeitwort (da, per, fa, fra, in, entro, fino a …).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Da quanto tempo studi italiano? (due anni) – Lo studio …",
+     "acceptedAnswers": [
+      "da due anni"
+     ],
+     "modelAnswer": "Lo studio da due anni."
+    },
+    {
+     "id": "s2",
+     "start": "Per quanto tempo hai aspettato? (un’ora) – Ho aspettato …",
+     "acceptedAnswers": [
+      "per un’ora"
+     ],
+     "modelAnswer": "Ho aspettato per un’ora."
+    },
+    {
+     "id": "s3",
+     "start": "Quando sei arrivato? (tre giorni) – Sono arrivato …",
+     "acceptedAnswers": [
+      "tre giorni fa"
+     ],
+     "modelAnswer": "Sono arrivato tre giorni fa."
+    },
+    {
+     "id": "s4",
+     "start": "Quando parte il treno? (venti minuti) – Parte …",
+     "acceptedAnswers": [
+      "fra venti minuti",
+      "tra venti minuti"
+     ],
+     "modelAnswer": "Parte fra venti minuti."
+    },
+    {
+     "id": "s5",
+     "start": "Entro quando devi rispondere? (lunedì) – Devo rispondere …",
+     "acceptedAnswers": [
+      "entro lunedì"
+     ],
+     "modelAnswer": "Devo rispondere entro lunedì."
+    },
+    {
+     "id": "s6",
+     "start": "In quanto tempo hai letto il libro? (una settimana) – L’ho letto …",
+     "acceptedAnswers": [
+      "in una settimana"
+     ],
+     "modelAnswer": "L’ho letto in una settimana."
+    },
+    {
+     "id": "s7",
+     "start": "Fino a quando resti a Napoli? (domenica) – Resto …",
+     "acceptedAnswers": [
+      "fino a domenica"
+     ],
+     "modelAnswer": "Resto fino a domenica."
+    },
+    {
+     "id": "s8",
+     "start": "Quando è aperto il negozio? (lunedì → sabato) – È aperto …",
+     "acceptedAnswers": [
+      "dal lunedì al sabato",
+      "da lunedì a sabato"
+     ],
+     "modelAnswer": "È aperto dal lunedì al sabato."
+    },
+    {
+     "id": "s9",
+     "start": "Da quando vale il nuovo orario? (a partire / lunedì) – Vale …",
+     "acceptedAnswers": [
+      "a partire da lunedì"
+     ],
+     "modelAnswer": "Vale a partire da lunedì."
+    }
+   ]
+  }
+ ]
+}

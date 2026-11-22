@@ -56,27 +56,27 @@ Pranziamo {all’*|alle} una e un quarto.
 12.00 → {È mezzogiorno.*|Sono mezzogiorno.|È la mezzanotte.}
 ! È l’una / è mezzogiorno / è mezzanotte (singolare), altrimenti sono le … || È l’una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …
 
-%übung leicht | La settimana di Marta
-?zuordnen | Che cosa fa Marta e quando? || Was macht Marta wann?
-il lunedì = ha matematica alle otto
-il martedì = va in piscina
-il mercoledì = ha un’interrogazione di storia
-il giovedì = suona la chitarra
-il venerdì = mangia la pizza con gli amici
-il sabato = dorme fino alle dieci
-la domenica = pranza dai nonni
-ogni giorno = fa i compiti alle quattro
-+ il lunedì sera
+%übung leicht | Quando? Giorni e momenti
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
+il lunedì = montags (jeden Montag)
+lunedì = am (nächsten) Montag
+la domenica = sonntags (jeden Sonntag)
+ogni giorno = jeden Tag
+martedì prossimo = nächsten Dienstag
+il sabato sera = samstagabends
+dalle otto alle due = von acht bis zwei Uhr
+all’una = um ein Uhr
++ am Sonntagabend
 
 %übung mittel | Il mio orario
 ?luecke | Scrivi l’ora in lettere. || Ergänze die Uhrzeiten in Worten.
 Il lunedì la scuola comincia (8.00) [alle otto].
-La pausa è (10.30) [alle dieci e mezza/alle dieci e mezzo].
+La pausa è (10.30) [alle dieci e mezza/alle dieci e mezzo/alle dieci e trenta].
 Ho matematica (11.00–12.00) [dalle undici alle dodici].
-Il martedì finisco (13.00) [all’una].
+Il martedì finisco (13.00) [all’una/alle tredici].
 Il mercoledì ho educazione fisica (9.15) [alle nove e un quarto/alle nove e quindici].
-Il giovedì torno a casa (14.45) [alle tre meno un quarto/alle due e quarantacinque].
-Il venerdì la scuola finisce (12.30) [a mezzogiorno e mezzo/alle dodici e mezza/alle dodici e mezzo].
+Il giovedì torno a casa (14.45) [alle tre meno un quarto/alle due e quarantacinque/alle quattordici e quarantacinque].
+Il venerdì la scuola finisce (12.30) [a mezzogiorno e mezzo/a mezzogiorno e mezza/alle dodici e mezza/alle dodici e mezzo/alle dodici e trenta].
 Il sabato non c’è scuola, mi alzo (10.00) [alle dieci].
 ! Con mezza e mezzo sono giusti tutti e due. || Bei halb sind e mezza und e mezzo beide richtig.
 
@@ -103,7 +103,7 @@ La sveglia suona (6.45) [alle sette meno un quarto/alle sei e quarantacinque].
 Prendo l’autobus (7.20) [alle sette e venti].
 La prima lezione comincia (8.00) [alle otto].
 L’intervallo è (10.15) [alle dieci e un quarto/alle dieci e quindici].
-La scuola finisce (13.30) [all’una e mezza/all’una e mezzo/alle tredici e trenta].
+La scuola finisce (13.30) [all’una e mezza/all’una e mezzo/all’una e trenta/alle tredici e trenta].
 Pranzo (14.00) [alle due/alle quattordici].
 Faccio i compiti (15.00–17.00) [dalle tre alle cinque/dalle quindici alle diciassette].
 Vado a letto (22.00) [alle dieci/alle ventidue].
@@ -114,10 +114,10 @@ Vado a letto (22.00) [alle dieci/alle ventidue].
 A che ora comincia la scuola? (8.10) – … | alle otto e dieci | La scuola comincia alle otto e dieci.
 A che ora hai inglese? (9.00) – … | alle nove | Ho inglese alle nove.
 Quando finisce la lezione? (1.00) – … | all’una | La lezione finisce all’una.
-A che ora mangi? (12.30) – … | alle dodici e mezza/alle dodici e mezzo/a mezzogiorno e mezzo | Mangio a mezzogiorno e mezzo.
+A che ora mangi? (12.30) – … | alle dodici e mezza/alle dodici e mezzo/alle dodici e trenta/a mezzogiorno e mezzo/a mezzogiorno e mezza | Mangio a mezzogiorno e mezzo.
 Che ore sono? (3.40) – … | le quattro meno venti/le tre e quaranta | Sono le quattro meno venti.
 A che ora torni a casa? (2.15) – … | alle due e un quarto/alle due e quindici | Torno alle due e un quarto.
-Che ore sono? (1.30) – … | l’una e mezza/l’una e mezzo | È l’una e mezza.
+Che ore sono? (1.30) – … | l’una e mezza/l’una e mezzo/l’una e trenta | È l’una e mezza.
 A che ora vai a letto? (10.00) – … | alle dieci | Vado a letto alle dieci.
 
 %übung schwer | Il lunedì o lunedì?
@@ -136,23 +136,23 @@ Questo {mercoledì*|il mercoledì} non c’è scuola: è festa!
 ?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
 La scuola comincia [all’=>alle] otto.
 [Sono=>È] l’una e mezza.
-Il [Lunedì=>lunedì] ho latino.
+Il [lunedi=>lunedì] ho latino.
 Finisco [alle=>all’] una.
 [Sono=>È] mezzogiorno.
 [Il=>La] domenica dormo molto.
 Il film è [all’=>alle] nove.
-Ci vediamo [Venerdì=>venerdì] prossimo.
-! I giorni con la minuscola · la domenica (femminile!) · all’una, alle otto. || Wochentage klein · la domenica (weiblich!) · all’una, alle otto.
+Ho inglese dalle nove [all’=>alle] dieci.
+! lunedì con l’accento · la domenica (femminile!) · all’una, alle otto · è l’una, è mezzogiorno. || lunedì mit Akzent · la domenica (weiblich!) · all’una, alle otto · è l’una, è mezzogiorno.
 
 %übung schwer | Il mio orario
 ?frei | Descrivi il tuo lunedì: quando comincia la scuola, che materie hai e quando, quando torni a casa? || Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?
 Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all’una e mezza.
 Zeilen: 5
 ?luecke | E adesso completa con le ore in lettere. || Und jetzt ergänze die Uhrzeiten in Worten.
-Mi sveglio (6.30) [alle sei e mezza/alle sei e mezzo].
+Mi sveglio (6.30) [alle sei e mezza/alle sei e mezzo/alle sei e trenta].
 Esco di casa (7.15) [alle sette e un quarto/alle sette e quindici].
 La prima ora comincia (8.00) [alle otto].
-Torno a casa (13.45) [alle due meno un quarto/all’una e quarantacinque].
+Torno a casa (13.45) [alle due meno un quarto/all’una e quarantacinque/alle tredici e quarantacinque].
 
 @thema isc-fare | 3 · La scuola | Parte A | I verbi in -isc- e fare | 2
 #lehrplan Jgst. 8 · Präsens: fare, Verben auf -isc-
@@ -228,7 +228,7 @@ Io (finire) [finisco] il compito in classe.
 
 %übung mittel | Che cosa fai?
 ?luecke | Scrivi fare nella forma giusta. || Ergänze fare in der richtigen Form.
-Che cosa [fai] stasera? – [Faccio] i compiti.
+Che cosa [fai] stasera, Luca? – [Faccio] i compiti.
 Marco [fa] sport tutti i giorni.
 Noi [facciamo] una gita a Torino.
 Voi [fate] colazione a scuola?
@@ -282,7 +282,7 @@ loro | [capiscono] | [preferiscono] | [puliscono]
 
 %übung schwer | Una mail da scuola
 ?luecke | Scrivi i verbi (fare, capire, finire, preferire, dormire). || Ergänze die Verben.
-Ciao Lena! Oggi a scuola (fare) [facciamo] un test di geografia.
+Ciao Lena! Oggi a scuola (fare, noi) [facciamo] un test di geografia.
 Io (capire) [capisco] tutto, ma la mia amica no.
 Il test (finire) [finisce] alle dieci.
 Dopo, noi (fare) [facciamo] educazione fisica: io (preferire) [preferisco] la pallavolo.
@@ -496,11 +496,11 @@ Anna è triste: {le*|gli|vi} racconto una storia.
 %übung mittel | Pronomi al posto giusto
 ?luecke wortkasten | Scrivi mi, ti, gli, le, ci o vi. || Ergänze mi, ti, gli, le, ci oder vi.
 Marco, [ti] do il mio numero.
-La prof è contenta: [ci] dà un bel voto.
+La prof è contenta: [ci] dà un bel voto. (a noi)
 Giulia è triste, io [le] racconto una storia.
 Paolo non capisce, la prof [gli] spiega la regola.
 Ragazzi, [vi] dico una cosa importante!
-Mamma, [mi] dai dieci euro?
+Mamma, [mi/ci] dai dieci euro?
 Sara? Domani [le] scrivo una mail.
 Leo? [Gli] telefono stasera.
 
@@ -518,7 +518,7 @@ loro | [danno] | [dicono]
 %übung mittel | Pronome invece del nome
 ?ergaenzen | Sostituisci le parole con un pronome. || Ersetze die Wörter durch ein Pronomen.
 Scrivo a Luca. → … scrivo. | Gli | Gli scrivo.
-Telefono a Sara. → … telefono. | Le | Le telefono.
+Do un libro a Sara. → … do un libro. | Le | Le do un libro.
 Do il libro a te. → … do il libro. | Ti | Ti do il libro.
 La prof dà i compiti a noi. → La prof … dà i compiti. | ci | La prof ci dà i compiti.
 Dico la verità a voi. → … dico la verità. | Vi | Vi dico la verità.

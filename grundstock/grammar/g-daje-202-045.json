@@ -71,7 +71,8 @@
     {
      "id": "g4",
      "acceptedAnswers": [
-      "deve"
+      "deve",
+      "debba"
      ]
     },
     {
@@ -122,8 +123,7 @@
       "prepara"
      ]
     }
-   ],
-   "explanation": "Controlla le forme nel testo e confrontale con le soluzioni mostrate."
+   ]
   }
  ]
 }

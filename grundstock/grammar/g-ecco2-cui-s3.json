@@ -1,0 +1,164 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-cui-s3",
+ "title": "Qual è la frase giusta?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo cui · Qual è la frase giusta? · livello difficile.",
+ "topics": [
+  "Il pronome relativo cui",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 17,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen cui mit Präposition"
+ },
+ "grammar": {
+  "topic": "ecco2-cui",
+  "topicTitle": "Il pronome relativo cui",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "Dopo una **preposizione** non usiamo _che_, ma **cui**. **Cui** non cambia mai (maschile, femminile, singolare, plurale).\n| **che** (senza preposizione) | il libro **che** leggo · la ragazza **che** abita qui |\n| **preposizione + cui** | il libro **di cui** parlo · la ragazza **con cui** esco |\n\n| parlare **di** | l’amico **di cui** ti parlo |\n| scrivere **a** | l’amica **a cui** scrivo |\n| uscire **con** | i ragazzi **con cui** esco |\n| abitare **in** | la casa **in cui** abito |\n| venire **da** | il paese **da cui** vengo |\n| contare **su** | la persona **su cui** conto |\n| **per** questo motivo | il motivo **per cui** sono qui |\nEspressioni utili: _il giorno **in cui** …, il modo **in cui** …, il motivo **per cui** …_",
+  "ruleHelp": "Nach einer **Präposition** steht nicht _che_, sondern **cui**. **Cui** ist unveränderlich.\n_il libro **che** leggo_ (ohne Präposition) – aber: _il libro **di cui** parlo, l’amica **con cui** esco, la casa **in cui** abito._\nDie Präposition hängt vom Verb ab (parlare **di**, scrivere **a**, uscire **con** …) und steht – anders als oft im Deutschen oder Englischen – immer **vor** cui.\nFeste Wendungen: _il giorno in cui_ (der Tag, an dem), _il modo in cui_ (die Art, wie), _il motivo per cui_ (der Grund, warum)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ecco il ragazzo di cui ti ho parlato."
+    },
+    {
+     "id": "o2",
+     "text": "Ecco il ragazzo che ti ho parlato."
+    },
+    {
+     "id": "o3",
+     "text": "Ecco il ragazzo di che ti ho parlato."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il giorno in che siamo partiti pioveva."
+    },
+    {
+     "id": "o2",
+     "text": "Il giorno in cui siamo partiti pioveva."
+    },
+    {
+     "id": "o3",
+     "text": "Il giorno cui siamo partiti pioveva."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q3",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Il telefono cui ho comprato è nuovo."
+    },
+    {
+     "id": "o2",
+     "text": "Il telefono di cui ho comprato è nuovo."
+    },
+    {
+     "id": "o3",
+     "text": "Il telefono che ho comprato è nuovo."
+    }
+   ],
+   "correctOptionId": "o3"
+  },
+  {
+   "id": "q4",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non capisco il modo in che parla."
+    },
+    {
+     "id": "o2",
+     "text": "Non capisco il modo in cui parla."
+    },
+    {
+     "id": "o3",
+     "text": "Non capisco il modo cui parla."
+    }
+   ],
+   "correctOptionId": "o2"
+  },
+  {
+   "id": "q5",
+   "prompt": "Quale frase è corretta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "explanation": "andare **da** una persona → i cugini **da cui** vado.",
+   "explanationHelp": "andare **da** (zu jemandem gehen/fahren) → i cugini **da cui** vado.",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sono i cugini da cui vado ogni estate."
+    },
+    {
+     "id": "o2",
+     "text": "Sono i cugini a cui vado ogni estate."
+    },
+    {
+     "id": "o3",
+     "text": "Sono i cugini che vado ogni estate."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Scrivi quattro frasi su persone, luoghi e cose della tua vita. Usa: con cui, di cui, in cui, a cui.",
+   "promptHelp": "Schreibe vier Sätze über Personen, Orte und Dinge aus deinem Leben. Verwende: con cui, di cui, in cui, a cui.",
+   "type": "open_answer",
+   "modelAnswer": "Sara è l’amica con cui vado a scuola ogni giorno. Il calcio è lo sport di cui parlo sempre con mio fratello. La città in cui abito non è molto grande. Mia nonna è la persona a cui telefono ogni domenica.",
+   "lines": 5
+  }
+ ]
+}

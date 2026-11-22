@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-condizionale-composto-m2",
+ "title": "Dopo la festa del quartiere",
+ "language": "it",
+ "level": "B1",
+ "description": "Il condizionale composto · Dopo la festa del quartiere · livello medio.",
+ "topics": [
+  "Il condizionale composto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 3 · Società e solidarietà · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · condizionale composto (Bildung und Gebrauch)"
+ },
+ "grammar": {
+  "topic": "ecco3-condizionale-composto",
+  "topicTitle": "Il condizionale composto",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **condizionale composto** si forma con il condizionale presente di **avere** o **essere** + **participio passato**. Con essere il participio **concorda** con il soggetto.\n| persona | avere | essere |\n| io | **avrei** parlato | **sarei** andato/-a |\n| tu | **avresti** parlato | **saresti** andato/-a |\n| lui / lei | **avrebbe** parlato | **sarebbe** andato/-a |\n| noi | **avremmo** parlato | **saremmo** andati/-e |\n| voi | **avreste** parlato | **sareste** andati/-e |\n| loro | **avrebbero** parlato | **sarebbero** andati/-e |\nLo usiamo per:\n- un **desiderio non realizzato** nel passato: _**Avrei voluto** aiutare, ma ero malato._\n- un **rimprovero** o un consiglio in ritardo: _**Avresti dovuto** dirmelo!_\n- un’azione che **non è successa**: _**Sarei venuta**, ma ho perso il treno._\n- il **futuro nel passato**: _Ha detto che **sarebbe venuto**._",
+  "ruleHelp": "Das **condizionale composto** = Konditional von **avere/essere** + Partizip (bei essere wird das Partizip angeglichen): _avrei parlato_ (ich hätte gesprochen), _sarei andata_ (ich wäre gegangen).\nGebrauch: unerfüllter Wunsch (_Avrei voluto …_ – Ich hätte gern …), Vorwurf (_Avresti dovuto dirmelo!_ – Du hättest es mir sagen sollen!), nicht eingetretene Handlung (_Sarei venuto, ma …_).\n**Achtung, anders als im Deutschen:** Die Zukunft aus Sicht der Vergangenheit steht im condizionale **composto**: _Ha detto che **sarebbe venuto**._ (Er hat gesagt, dass er kommen **würde**.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sara e Davide parlano della festa. Scrivi i verbi al condizionale composto.",
+   "promptHelp": "Sara und Davide sprechen über das Fest. Setze die Verben ins condizionale composto.",
+   "explanation": "Con essere il participio concorda: la musica → sarebbe piaciuta; Chiara e Marta → sarebbero venute.",
+   "explanationHelp": "Bei essere wird das Partizip angeglichen.",
+   "type": "gap_fill",
+   "text": "– Sara: Ieri alla festa del quartiere mancavi solo tu!\n– Davide: Lo so. (venire, io) [[g1]] volentieri, ma dovevo aiutare mio padre.\n– Sara: Peccato! Ti (piacere) [[g2]] la musica.\n– Davide: E i dolci? Io (assaggiare) [[g3]] tutte le torte!\n– Sara: Anche Chiara e Marta (venire) [[g4]], ma avevano una partita.\n– Davide: Voi (dovere) [[g5]] fare la festa di domenica!\n– Sara: Hai ragione, di domenica (noi, raccogliere) [[g6]] più soldi per la mensa.\n– Davide: Al tuo posto (io, chiedere) [[g7]] aiuto anche ai genitori.\n– Sara: Matteo ha scritto che (portare, lui) [[g8]] le foto in classe.\n– Davide: Sì, e la prof ha promesso che (appendere, lei) [[g9]] le più belle nel corridoio.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Sarei venuto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sarebbe piaciuta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "avrei assaggiato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sarebbero venute"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avreste dovuto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avremmo raccolto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avrei chiesto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "avrebbe portato"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avrebbe appeso"
+     ]
+    }
+   ]
+  }
+ ]
+}

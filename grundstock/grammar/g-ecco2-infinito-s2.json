@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-infinito-s2",
+ "title": "Un sabato in centro",
+ "language": "it",
+ "level": "A2",
+ "description": "Dopo, senza, per + infinito · Un sabato in centro · livello difficile.",
+ "topics": [
+  "Dopo, senza, per + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 6 · Città e creatività · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Infinitivkonstruktionen (per, senza, prima di, invece di + Infinitiv; dopo + infinito passato)"
+ },
+ "grammar": {
+  "topic": "ecco2-infinito",
+  "topicTitle": "Dopo, senza, per + infinito",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Se il **soggetto è lo stesso**, dopo queste parole usiamo l’**infinito**:\n| **per** + infinito | scopo | _Vado in centro **per comprare** i colori._ |\n| **senza** + infinito | | _È uscito **senza salutare**._ |\n| **prima di** + infinito | | _**Prima di uscire** spengo la luce._ |\n| **invece di** + infinito | | _**Invece di studiare** guarda video._ |\n| **dopo** + infinito passato | | _**Dopo aver mangiato** usciamo._ |\n**L’infinito passato:** **aver(e)** + participio oppure **essere** + participio. Con essere il participio **concorda**:\n- _Dopo **aver visto** il film, siamo tornati a casa._\n- _Dopo **essere arrivata**, Sara ha telefonato._ · _Dopo **essere arrivati**, i ragazzi hanno telefonato._\n**I pronomi** sono attaccati all’infinito: _per veder**lo**_ · _senza dir**mi** niente_ · _dopo aver**lo** letto_.",
+  "ruleHelp": "Bei **gleichem Subjekt** steht nach diesen Wörtern der **Infinitiv**: **per** (um … zu), **senza** (ohne … zu), **prima di** (bevor), **invece di** (anstatt … zu).\nNach **dopo** (nachdem) steht der **Infinitiv der Vergangenheit**: _dopo aver mangiato_, _dopo essere arrivato/-a/-i/-e_ (mit essere wird das Partizip angeglichen). Nicht: dopo mangiare!\nPronomen werden angehängt: _per vederlo, senza dirmi niente, dopo averlo letto_.\nIm Deutschen steht bei „bevor“ und „nachdem“ ein Nebensatz, im Italienischen genügt der Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Chiara racconta. Completa con le parole tra parentesi nella forma giusta. Attenzione a dopo e ai pronomi!",
+   "promptHelp": "Chiara erzählt. Ergänze mit den Wörtern in Klammern in der richtigen Form. Achte auf dopo und die Pronomen!",
+   "explanation": "Chiara → dopo essere arrivata; Chiara e Giulia → dopo essere tornate. Pronomi: dopo averlo guardato, per raccontargli.",
+   "explanationHelp": "Chiara → arrivata; Chiara und Giulia → tornate. Pronomen werden angehängt: averlo, raccontargli.",
+   "type": "gap_fill",
+   "text": "Sabato sono andata in centro (per / vedere) [[g1]] una mostra di design.\n(prima di / partire) [[g2]] ho comprato il biglietto online.\n(dopo / arrivare) [[g3]] in stazione, ho incontrato Giulia.\n(invece di / prendere) [[g4]] l’autobus, siamo andate a piedi.\n(dopo / vedere) [[g5]] la mostra, abbiamo mangiato un panino.\nGiulia ha fatto cento foto (senza / chiedere) [[g6]] il permesso!\nPoi ho visto un poster bellissimo e, (dopo / lo / guardare) [[g7]] per dieci minuti, l’ho comprato.\nLa sera ho chiamato mio fratello (per / gli / raccontare) [[g8]] tutto.\n(dopo / tornare) [[g9]] a casa mia, Giulia e io abbiamo guardato le foto.\nSono andata a letto (senza / cenare) [[g10]]: ero troppo stanca!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "per vedere"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Prima di partire"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Dopo essere arrivata"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Invece di prendere"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Dopo aver visto",
+      "Dopo avere visto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "senza chiedere"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dopo averlo guardato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "per raccontargli"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Dopo essere tornate"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "senza cenare"
+     ]
+    }
+   ]
+  }
+ ]
+}

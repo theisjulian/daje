@@ -4,7 +4,7 @@ ROWS = [
 ["Sprachen lernen","Imparare le lingue","Learning languages","Apprendre les langues","Imparare le lingue"],
 ["Sprachen lernen,","Imparare le lingue,","Learning languages,","Apprendre les langues,","Imparare le lingue,"],
 ["Schritt für Schritt.","passo dopo passo.","step by step.","pas à pas.","passo dopo passo."],
-["Grammatik mit Merkkasten, Wortschatz, Verben und Hörverstehen. Mit Rückmeldung, in deinem Tempo, ohne Anmeldung.","Grammatica con schede, lessico, verbi e ascolto. Con correzione, al tuo ritmo, senza registrazione.","Grammar with rule boxes, vocabulary, verbs and listening. With feedback, at your own pace, no sign-in needed.","Grammaire avec encadrés, vocabulaire, verbes et compréhension orale. Avec correction, à ton rythme, sans inscription.","Grammatica, parole, verbi e ascolto. Senza registrazione."],
+["Grammatik mit Merkkasten, Wortschatz, Verben und Hörverstehen. Mit Rückmeldung und in deinem Tempo.","Grammatica con schede, lessico, verbi e ascolto. Con correzione e al tuo ritmo.","Grammar with rule boxes, vocabulary, verbs and listening. With feedback and at your own pace.","Grammaire avec encadrés, vocabulaire, verbes et compréhension orale. Avec correction et à ton rythme.","Grammatica, parole, verbi e ascolto. Al tuo ritmo."],
 ["Ich lerne","Imparo","I’m learning","J’apprends","Imparo"],
 ["Alle Sprachen","Tutte le lingue","All languages","Toutes les langues","Tutte le lingue"],
 ["Lernsprache","Lingua che impari","Language you learn","Langue apprise","Lingua"],

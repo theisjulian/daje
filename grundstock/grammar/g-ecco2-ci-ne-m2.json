@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-ci-ne-m2",
+ "title": "Rispondi!",
+ "language": "it",
+ "level": "A2",
+ "description": "Ci e ne · Rispondi! · livello medio.",
+ "topics": [
+  "Ci e ne",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 5 · Ieri e oggi · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Pronominaladverbien ci und ne"
+ },
+ "grammar": {
+  "topic": "ecco2-ci-ne",
+  "topicTitle": "Ci e ne",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "**Ci** sostituisce un **luogo** (a, in, da + luogo) o **a + cosa**:\n- _– Vai **a Roma**? – Sì, **ci** vado domani._\n- pensare **a**, credere **a**, riuscire **a**: _– Pensi **al futuro**? – Sì, **ci** penso spesso. Non **ci** riesco!_\n**Ne** sostituisce una **quantità** o **di + cosa**:\n- _– Quanti fratelli hai? – **Ne** ho due. Non **ne** ho._\n- parlare **di**, avere bisogno **di**: _– Parlate **della scuola**? – Sì, **ne** parliamo spesso._\n| c’è + ne → **ce n’è** | _– C’è una farmacia? – Sì, **ce n’è** una._ |\n| ci sono + ne → **ce ne sono** | _– Ci sono biscotti? – Sì, **ce ne sono** tre._ |\n| **ci vuole** + singolare | _**Ci vuole** un’ora._ |\n| **ci vogliono** + plurale | _**Ci vogliono** due ore._ |\n**Posizione:** prima del verbo (_Non **ci** vado. **Ne** prendo due._) o attaccati all’infinito (_Voglio andar**ci**. Voglio comprar**ne** due._).",
+  "ruleHelp": "**Ci** ersetzt eine **Ortsangabe** (dort, dorthin) oder **a + Sache**: _Ci vado domani._ (Ich gehe morgen hin.) _Ci penso._ (Ich denke daran.) _Non ci credo._ _Non ci riesco._ (Ich schaffe es nicht.)\n**Ne** ersetzt eine **Menge** (davon) oder **di + Sache**: _Ne ho due._ (Ich habe zwei [davon].) _Ne parliamo._ (Wir sprechen darüber.) _Ne ho bisogno._ (Ich brauche es.) Achtung: Bei einer Mengenangabe muss **ne** stehen – im Deutschen fehlt „davon“ meistens!\n**ce n’è** (+ Singular) / **ce ne sono** (+ Plural) = es gibt davon … **Ci vuole** un’ora / **ci vogliono** due ore = man braucht …\nStellung: vor dem konjugierten Verb oder an den Infinitiv angehängt: _Voglio andarci._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con ci o ne.",
+   "promptHelp": "Antworte mit ci oder ne.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "– Vai spesso al cinema? – Sì, …",
+     "acceptedAnswers": [
+      "ci vado"
+     ],
+     "modelAnswer": "Sì, ci vado spesso."
+    },
+    {
+     "id": "s2",
+     "start": "– Quanti messaggi scrivi al giorno? (cinquanta) – …",
+     "acceptedAnswers": [
+      "ne scrivo cinquanta"
+     ],
+     "modelAnswer": "Ne scrivo cinquanta."
+    },
+    {
+     "id": "s3",
+     "start": "– Sei mai stata a Venezia? – No, …",
+     "acceptedAnswers": [
+      "non ci sono mai stata",
+      "non ci sono stata"
+     ],
+     "modelAnswer": "No, non ci sono mai stata."
+    },
+    {
+     "id": "s4",
+     "start": "– Hai fratelli? – No, …",
+     "acceptedAnswers": [
+      "non ne ho"
+     ],
+     "modelAnswer": "No, non ne ho."
+    },
+    {
+     "id": "s5",
+     "start": "– Pensi spesso al futuro? – Sì, …",
+     "acceptedAnswers": [
+      "ci penso"
+     ],
+     "modelAnswer": "Sì, ci penso spesso."
+    },
+    {
+     "id": "s6",
+     "start": "– Parlate mai di politica? – No, …",
+     "acceptedAnswers": [
+      "non ne parliamo"
+     ],
+     "modelAnswer": "No, non ne parliamo mai."
+    },
+    {
+     "id": "s7",
+     "start": "– Quanto tempo ci vuole per andare a scuola? (dieci minuti) – …",
+     "acceptedAnswers": [
+      "ci vogliono dieci minuti"
+     ],
+     "modelAnswer": "Ci vogliono dieci minuti."
+    },
+    {
+     "id": "s8",
+     "start": "– Quante lingue parli? (tre) – …",
+     "acceptedAnswers": [
+      "ne parlo tre"
+     ],
+     "modelAnswer": "Ne parlo tre."
+    }
+   ]
+  }
+ ]
+}

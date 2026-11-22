@@ -82,7 +82,14 @@
         "18",
         "18:00",
         "6",
-        "sei"
+        "sei",
+        "alle 6:00",
+        "6:00",
+        "alle 6.00",
+        "6.00",
+        "alle 18.00",
+        "18.00",
+        "alle sei di sera"
       ],
       "modelAnswer": "alle sei",
       "explanation": "Der erste Filmtermin ist um sechs Uhr am Abend.",

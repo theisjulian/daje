@@ -52,7 +52,7 @@
    "explanation": "noi = proposta (faccio anch’io) · voi = ordine a più persone · tu negativo: non + infinito.",
    "explanationHelp": "noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.",
    "type": "gap_choice",
-   "text": "(a Luca) [[g1]] il libro!\n(alla classe, tu sei con loro) [[g2]] in palestra!\n(a Sara e Paolo) [[g3]]!\n(a Marco, negativo) Non [[g4]]!\n(a te e ai tuoi amici) [[g5]] una foto!\n(ai bambini, negativo) Non [[g6]]!\n(a Giulia) [[g7]] la porta!\n(a te e a tua sorella) [[g8]] la camera!",
+   "text": "(a Luca) [[g1]] il libro!\n(alla classe, tu sei con loro) [[g2]] in palestra!\n(a Sara e Paolo) [[g3]]!\n(a Marco, negativo) Non [[g4]]!\n(ai tuoi amici, tu sei con loro) [[g5]] una foto!\n(ai bambini, negativo) Non [[g6]]!\n(a Giulia) [[g7]] la porta!\n(a tua sorella, tu lavori con lei) [[g8]] la camera!",
    "gaps": [
     {
      "id": "g1",

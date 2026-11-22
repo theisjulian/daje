@@ -1,0 +1,588 @@
+#!buch series=Corso_daje volume=2 grade=9 cefr=A2 prefix=ecco2
+## Secondo anno · Unità 4 · Lavoro e futuro (prima parte). Eigene Übungen.
+
+@thema discorso-indiretto-presente | 4 · Lavoro e futuro | Per cominciare | Il discorso indiretto al presente | 1
+#lehrplan Jgst. 9 · indirekte Rede und indirekte Frage (Einleitung im Präsens)
+#regel
+Con il **discorso indiretto** raccontiamo quello che dice un’altra persona. Se il verbo che introduce è al **presente** (_dice, chiede, risponde_), il **tempo** del verbo **non cambia**.
+| frase | «Sono stanco.» | Luca **dice che** è stanco. |
+| domanda sì / no | «Hai tempo?» | Luca **chiede se** ho tempo. |
+| domanda con dove, quando, perché … | «Dove lavori?» | Luca **chiede dove** lavoro. |
+| imperativo | «Scrivi il curriculum!» | Luca **dice di** scrivere il curriculum. |
+**Che cosa cambia?** La persona del verbo, i possessivi e i pronomi:
+- _Sara: «**Il mio** capo **mi** aiuta.» → Sara dice che **il suo** capo **la** aiuta._
+- _«Non **parlare**!» → Dice **di non parlare**._
+- **qui → lì**: _«**Qui** fa caldo.» → Dice che **lì** fa caldo._
+#regel-de
+In der **indirekten Rede** gibst du wieder, was jemand sagt. Steht das einleitende Verb im **Präsens** (_dice, chiede_), bleibt die **Zeit** des Verbs gleich.
+Aussage: **dice che** … · Ja/Nein-Frage: **chiede se** … (ob) · Frage mit Fragewort: **chiede dove / quando / perché** … · Aufforderung: **dice di + Infinitiv** (verneint: _di non_ + Infinitiv).
+Es ändern sich Person, Possessiv und Pronomen (_io → lui/lei, mio → suo, mi → gli/le/lo/la_), außerdem _qui → lì_. Anders als im Deutschen gibt es **keinen Konjunktiv** („er sagt, er sei müde“) und **kein Komma** vor _che_.
+
+%übung leicht | Diretto e indiretto
+?zuordnen | Abbina il discorso diretto al discorso indiretto. || Verbinde die direkte Rede mit der indirekten Rede.
+«Sono stanco.» = Dice che è stanco.
+«Sei stanco?» = Chiede se sono stanco.
+«Perché sei stanco?» = Chiede perché sono stanco.
+«Lavoro in banca.» = Dice che lavora in banca.
+«Dove lavori?» = Chiede dove lavoro.
+«Quando cominci?» = Chiede quando comincio.
+«Lavora di più!» = Dice di lavorare di più.
+«Non lavorare troppo!» = Dice di non lavorare troppo.
+
+%übung leicht | Che, se o di?
+?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
+Sara dice {che*|se|di} vuole fare la veterinaria.
+Il prof chiede {se*|che|di} abbiamo già un’idea per il tirocinio.
+La mamma dice {di*|che|se} mandare subito la mail.
+Matteo chiede {dove*|che|di} si trova l’ufficio.
+Chiara dice {che*|se|di} il suo tirocinio comincia lunedì.
+Il direttore chiede {quando*|che|di} possiamo cominciare.
+Davide chiede {se*|che|di} il lavoro è interessante.
+La segretaria dice {di*|se|che} aspettare un momento.
+Luca chiede {perché*|che|di} Giulia non risponde.
+! frase → dice che · domanda → chiede se / dove / quando / perché · imperativo → dice di + infinito. || Aussage → dice che · Frage → chiede se / dove / quando / perché · Aufforderung → dice di + Infinitiv.
+
+%übung leicht | Chi è «io»?
+?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
+Sara: «Il mio capo è simpatico.»
+* Sara dice che il suo capo è simpatico.
+- Sara dice che il mio capo è simpatico.
+- Sara dice che il tuo capo è simpatico.
+?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
+Giulia e Anna: «Cerchiamo un lavoro per l’estate.»
+* Giulia e Anna dicono che cercano un lavoro per l’estate.
+- Giulia e Anna dicono che cerchiamo un lavoro per l’estate.
+- Giulia e Anna dicono che cercate un lavoro per l’estate.
+?mc | Qual è la frase giusta? || Welcher Satz gibt die Frage richtig wieder?
+Paolo mi chiede: «Hai tempo?»
+* Paolo mi chiede se ho tempo.
+- Paolo mi chiede se hai tempo.
+- Paolo mi chiede che ho tempo.
+?mc | Qual è la frase giusta? || Welcher Satz gibt die Aussage richtig wieder?
+Chiara: «Mi piace il mio lavoro.»
+* Chiara dice che le piace il suo lavoro.
+- Chiara dice che mi piace il suo lavoro.
+- Chiara dice che le piace il mio lavoro.
+?mc | Qual è la frase giusta? || Welcher Satz gibt die Frage richtig wieder?
+Davide mi chiede: «Dove lavora tua madre?»
+* Davide mi chiede dove lavora mia madre.
+- Davide mi chiede dove lavora tua madre.
+- Davide mi chiede se lavora mia madre.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Luca: «Oggi ho un colloquio.» → Luca dice che oggi {ha*|ho|hai} un colloquio.
+La mamma mi dice: «Apri la finestra!» → La mamma mi dice {di aprire*|che apri|di apri} la finestra.
+I nonni al telefono: «Qui stiamo bene.» → I nonni dicono che lì {stanno*|stiamo|state} bene.
+! Cambia la persona: io → lui / lei, noi → loro. Imperativo → di + infinito. || Die Person ändert sich: io → lui / lei, noi → loro. Imperativ → di + Infinitiv.
+
+%übung mittel | La nonna non sente bene
+?luecke | Paolo telefona dal suo tirocinio. La nonna non sente bene, così Sara ripete tutto. Scrivi una parola per ogni spazio. || Paolo ruft aus dem Praktikum an. Die Oma hört schlecht, deshalb wiederholt Sara alles. Schreibe in jede Lücke ein Wort.
+«Faccio un tirocinio in un albergo.» → Dice che [fa] un tirocinio in un albergo.
+«Comincio alle otto.» → Dice che [comincia] alle otto.
+«Il lavoro mi piace molto.» → Dice che il lavoro [gli] piace molto.
+«I miei colleghi sono gentili.» → Dice che i [suoi] colleghi sono gentili.
+«Devo parlare inglese con i clienti.» → Dice che [deve] parlare inglese con i clienti.
+«Qui fa molto caldo.» → Dice che [lì/là] fa molto caldo.
+«Nonna, stai bene?» → Chiede [se] stai bene.
+«Quando venite a trovarmi?» → Chiede quando [veniamo] a trovarlo.
+«Mandatemi un pacco di biscotti!» → Dice di [mandargli] un pacco di biscotti.
+«Torno a casa sabato.» → Dice che [torna] a casa sabato.
+! io → lui: faccio → fa, i miei → i suoi, mi → gli, qui → lì. Con l’imperativo: dice di + infinito. || io → lui: faccio → fa, i miei → i suoi, mi → gli, qui → lì. Beim Imperativ: dice di + Infinitiv.
+
+%übung mittel | Le domande del colloquio
+?ergaenzen | Dopo il colloquio racconti a un’amica che cosa chiede il direttore. Completa. || Nach dem Vorstellungsgespräch erzählst du einer Freundin, was der Direktor fragt. Ergänze.
+«Come ti chiami?» → Il direttore chiede … | come mi chiamo | Il direttore chiede come mi chiamo.
+«Quanti anni hai?» → Chiede … | quanti anni ho | Chiede quanti anni ho.
+«Dove abiti?» → Chiede … | dove abito | Chiede dove abito.
+«Parli inglese?» → Chiede … | se parlo inglese/se parlo l’inglese | Chiede se parlo inglese.
+«Perché vuoi lavorare in un albergo?» → Chiede … | perché voglio lavorare in un albergo | Chiede perché voglio lavorare in un albergo.
+«Hai già esperienza?» → Chiede … | se ho già esperienza | Chiede se ho già esperienza.
+«Quando puoi cominciare?» → Chiede … | quando posso cominciare | Chiede quando posso cominciare.
+«Sai usare il computer?» → Chiede … | se so usare il computer | Chiede se so usare il computer.
+«Che cosa fai nel tempo libero?» → Chiede … | cosa faccio nel tempo libero/che faccio nel tempo libero | Chiede che cosa faccio nel tempo libero.
+! Domanda senza parola interrogativa → chiede se. Con dove, quando, perché, come … → la parola interrogativa resta. || Frage ohne Fragewort → chiede se (ob). Mit Fragewort → das Fragewort bleibt.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Die Lehrerin fragt, ob wir den Lebenslauf schon geschrieben haben.“ || Bringe die Wörter in die richtige Reihenfolge.
+La professoressa
+chiede
+se
+abbiamo già scritto
+il curriculum.
+?ordnen | Metti le parole in ordine: „Mein Bruder sagt, dass sein Chef sehr nett ist.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mio fratello
+dice che
+il suo capo
+è molto simpatico.
+?ordnen | Metti le parole in ordine: „Der Direktor sagt, wir sollen pünktlich um acht kommen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Il direttore
+dice di
+arrivare
+alle otto in punto.
+?ordnen | Metti le parole in ordine: „Giulia fragt, wohin sie den Lebenslauf schicken soll.“ || Bringe die Wörter in die richtige Reihenfolge.
+Giulia
+chiede
+dove
+deve mandare
+il curriculum.
+
+%übung schwer | Trova gli errori
+?fehler | In ogni frase indiretta c’è un errore. Correggi. || In jedem indirekten Satz steckt ein Fehler. Korrigiere ihn.
+«Hai tempo?» → Marta chiede [che=>se] ho tempo.
+«Chiudi la porta!» → Il capo dice [che=>di] chiudere la porta.
+«Sono in ritardo.» → Luca dice che [sono=>è] in ritardo.
+«Il mio lavoro è duro.» → Anna dice che il [mio=>suo] lavoro è duro.
+«Dove abiti?» → Paolo chiede [se=>dove] abito.
+«Mi piace questo lavoro.» → Sara dice che [mi=>le] piace questo lavoro.
+«Aspettate un momento!» → La segretaria dice di [aspettate=>aspettare] un momento.
+«Non parlare troppo!» → La mamma dice di non [parla=>parlare] troppo.
+«Vogliamo lavorare all’estero.» → I ragazzi dicono che [vogliamo=>vogliono] lavorare all’estero.
+! Attenzione a tre cose: che / se / di, la persona del verbo, i possessivi e i pronomi. || Achte auf drei Dinge: che / se / di, die Person des Verbs, Possessive und Pronomen.
+
+%übung schwer | Che cosa dicono?
+?ergaenzen | Trasforma nel discorso indiretto. || Forme in die indirekte Rede um.
+Luca: «Voglio diventare cuoco.» → Luca dice … | che vuole diventare cuoco | Luca dice che vuole diventare cuoco.
+Sara: «Il mio tirocinio finisce venerdì.» → Sara dice … | che il suo tirocinio finisce venerdì | Sara dice che il suo tirocinio finisce venerdì.
+Il prof a noi: «Avete già scritto il curriculum?» → Il prof ci chiede … | se abbiamo già scritto il curriculum | Il prof ci chiede se abbiamo già scritto il curriculum.
+La mamma a me: «Telefona subito in ufficio!» → La mamma mi dice … | di telefonare subito in ufficio | La mamma mi dice di telefonare subito in ufficio.
+Matteo a me: «Quando cominci a lavorare?» → Matteo mi chiede … | quando comincio a lavorare | Matteo mi chiede quando comincio a lavorare.
+Giulia: «Mi piace lavorare con i bambini.» → Giulia dice … | che le piace lavorare con i bambini | Giulia dice che le piace lavorare con i bambini.
+Il capo a noi: «Non usate il cellulare!» → Il capo ci dice … | di non usare il cellulare | Il capo ci dice di non usare il cellulare.
+Chiara e Anna: «Cerchiamo un lavoro per l’estate.» → Chiara e Anna dicono … | che cercano un lavoro per l’estate | Chiara e Anna dicono che cercano un lavoro per l’estate.
+Davide a me: «Puoi aiutarmi con la lettera?» → Davide mi chiede … | se posso aiutarlo con la lettera/se lo posso aiutare con la lettera | Davide mi chiede se posso aiutarlo con la lettera.
+La nonna a me: «Perché non mi scrivi mai?» → La nonna mi chiede … | perché non le scrivo mai | La nonna mi chiede perché non le scrivo mai.
+
+%übung schwer | Un messaggio per Pietro
+?luecke | Telefona la signora Riva dell’agenzia. Pietro non è a casa, così sua sorella prende il messaggio. Completa con che, se, di, quando o con il verbo al presente. || Frau Riva von der Agentur ruft an. Pietro ist nicht da, seine Schwester nimmt die Nachricht entgegen. Ergänze che, se, di, quando oder das Verb im Präsens.
+La signora Riva dice [che] il colloquio di Pietro è giovedì alle dieci.
+Chiede [se] Pietro (potere) [può] portare il suo curriculum.
+Dice anche [di] non dimenticare un documento.
+Poi chiede [quando] finisce la scuola: a giugno o a luglio?
+Alla fine dice che Pietro (dovere) [deve] richiamare domani mattina.
+Io rispondo che mio fratello (essere) [è] ancora a scuola e che la (richiamare) [richiama] più tardi.
+?frei | Un amico italiano ti scrive: «Ciao! Come stai? Ho trovato un tirocinio in una pizzeria. Il lavoro mi piace. Vieni a trovarmi in estate? Scrivimi presto!» Racconta ai tuoi genitori che cosa dice e che cosa chiede (5 frasi). || Ein italienischer Freund schreibt dir. Erzähle deinen Eltern in 5 Sätzen, was er sagt und was er fragt.
+Marco chiede come sto. Dice che ha trovato un tirocinio in una pizzeria. Dice che il lavoro gli piace. Chiede se vengo a trovarlo in estate. Dice di scrivergli presto.
+Zeilen: 5
+
+@thema condizionale-ripasso | 4 · Lavoro e futuro | Parte A | Il condizionale semplice: ripasso | 2
+#lehrplan Jgst. 9 · condizionale presente (Formen und Gebrauch)
+#regel
+Il **condizionale** si forma dall’infinito senza **-e**. Attenzione: nei verbi in **-are** la **a** diventa **e**.
+| | lavor**are** | prend**ere** | dorm**ire** |
+| io | lavor**erei** | prend**erei** | dorm**irei** |
+| tu | lavor**eresti** | prend**eresti** | dorm**iresti** |
+| lui / lei / Lei | lavor**erebbe** | prend**erebbe** | dorm**irebbe** |
+| noi | lavor**eremmo** | prend**eremmo** | dorm**iremmo** |
+| voi | lavor**ereste** | prend**ereste** | dorm**ireste** |
+| loro | lavor**erebbero** | prend**erebbero** | dorm**irebbero** |
+**Ortografia:** cercare → cer**ch**erei, pagare → pa**gh**erei · cominciare → comin**c**erei, mangiare → man**g**erei.
+**Irregolari:** essere → **sarei**, avere → **avrei**, andare → **andrei**, potere → **potrei**, dovere → **dovrei**, sapere → **saprei**, vedere → **vedrei**, vivere → **vivrei**, volere → **vorrei**, venire → **verrei**, bere → **berrei**, rimanere → **rimarrei**, tenere → **terrei**, fare → **farei**, dire → **direi**, stare → **starei**, dare → **darei**.
+**Uso:**
+- desiderio: _**Mi piacerebbe** fare il medico._
+- richiesta gentile: _**Potrebbe** ripetere, per favore?_
+- consiglio: _Al posto tuo **parlerei** con il prof._
+- ipotesi: _**Sarebbe** un lavoro perfetto per te._
+#regel-de
+Das **Konditional** bildet man vom Infinitiv ohne **-e**; bei Verben auf **-are** wird das **a** zu **e**: _lavorare → lavorerei_. Endungen: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.
+Schreibung: _cercherei, pagherei_ (mit h), _comincerei, mangerei_ (ohne i).
+Unregelmäßige Stämme: sar-, avr-, andr-, potr-, dovr-, sapr-, vedr-, vivr-, vorr-, verr-, berr-, rimarr-, terr-, far-, dir-, star-, dar-.
+Gebrauch: Wunsch (_mi piacerebbe_ = ich würde gern), höfliche Bitte (_potrebbe …?_), Rat (_al posto tuo …_ = an deiner Stelle würde ich …), Vermutung. Das Deutsche braucht meist „würde“ + Infinitiv, das Italienische nur **eine** Verbform.
+
+%übung leicht | Le forme irregolari
+?zuordnen | Abbina l’infinito al condizionale (io). || Verbinde den Infinitiv mit dem Konditional (ich-Form).
+essere = sarei
+avere = avrei
+andare = andrei
+potere = potrei
+dovere = dovrei
+volere = vorrei
+venire = verrei
+fare = farei
+sapere = saprei
+vedere = vedrei
+
+%übung leicht | Desiderio, richiesta o consiglio?
+?sortieren | A che cosa serve il condizionale in queste frasi? || Wozu dient das Konditional in diesen Sätzen?
+Kategorien: d=desiderio (Wunsch); r=richiesta gentile (höfliche Bitte); c=consiglio (Rat)
+Mi piacerebbe fare il medico. > d
+Vorrei lavorare all’estero. > d
+Vivrei volentieri in una grande città. > d
+Potrebbe ripetere, per favore? > r
+Mi daresti una mano con il curriculum? > r
+Scusi, mi direbbe dov’è l’ufficio? > r
+Potresti chiudere la finestra? > r
+Dovresti dormire di più. > c
+Al posto tuo parlerei con il prof. > c
+Faresti bene a studiare l’inglese. > c
+
+%übung leicht | Il lavoro dei sogni
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io {lavorerei*|lavoreresti|lavorerebbe} volentieri con gli animali.
+Tu, Luca, {faresti*|farei|farebbe} il pilota?
+Mia sorella {vivrebbe*|vivrei|vivrebbero} volentieri a Londra.
+Noi {apriremmo*|aprireste|aprirebbero} un ristorante sul mare.
+E voi, {verreste*|verremmo|verresti} a mangiare da noi?
+I miei amici {sarebbero*|sarebbe|sareste} contenti di un lavoro all’aperto.
+Con più tempo libero io {studierei*|studieresti|studierebbe} il giapponese.
+Sara e Anna {andrebbero*|andrebbe|andremmo} a lavorare in Australia.
+Signora, {avrebbe*|avresti|avrei} un minuto per me?
+! -ei, -esti, -ebbe, -emmo, -este, -ebbero. || Endungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.
+
+%übung mittel | Con h o senza i?
+?tabelle | Completa la tabella con le forme del condizionale. || Ergänze die Tabelle mit den Formen des Konditionals.
+Spalten: infinito | io | lui / lei | noi | loro
+cercare | [cercherei] | cercherebbe | [cercheremmo] | [cercherebbero]
+pagare | pagherei | [pagherebbe] | [pagheremmo] | [pagherebbero]
+cominciare | [comincerei] | [comincerebbe] | cominceremmo | [comincerebbero]
+mangiare | [mangerei] | [mangerebbe] | [mangeremmo] | mangerebbero
+! -care / -gare → -cher- / -gher- · -ciare / -giare → -cer- / -ger- (senza i). || -care / -gare → mit h · -ciare / -giare → ohne i.
+
+%übung mittel | Il tirocinio ideale
+?luecke | Completa il dialogo con il condizionale. || Ergänze den Dialog mit dem Konditional.
+– Chiara, dove (fare, tu) [faresti] il tirocinio?
+– Io (andare) [andrei] in un giornale: mi (piacere) [piacerebbe] scrivere articoli.
+– E (dovere, tu) [dovresti] lavorare anche il sabato?
+– Non lo so. Ma (essere, io) [sarei] pronta a farlo!
+– Mio fratello invece (volere) [vorrebbe] lavorare in un’officina.
+– E i tuoi genitori che cosa (dire) [direbbero]?
+– Loro (preferire) [preferirebbero] un ufficio, ma lui (rimanere) [rimarrebbe] volentieri tutto il giorno tra le macchine.
+– Senti, (venire, voi due) [verreste] con me alla fiera del lavoro?
+– Certo! Lì (potere, noi) [potremmo] parlare con molte aziende.
+
+%übung mittel | Al posto tuo …
+?ergaenzen | Dai un consiglio con il condizionale (io). || Gib einen Rat mit dem Konditional (ich-Form).
+Sono sempre stanco. (dormire di più) – Al posto tuo … | dormirei di più | Al posto tuo dormirei di più.
+Non trovo un tirocinio. (chiedere al prof) – Al posto tuo … | chiederei al prof | Al posto tuo chiederei al prof.
+Ho paura del colloquio. (fare una prova con un amico) – Al posto tuo … | farei una prova con un amico | Al posto tuo farei una prova con un amico.
+Il mio inglese non è buono. (guardare film in inglese) – Al posto tuo … | guarderei film in inglese | Al posto tuo guarderei film in inglese.
+Non so che lavoro fare. (andare a una fiera del lavoro) – Al posto tuo … | andrei a una fiera del lavoro | Al posto tuo andrei a una fiera del lavoro.
+Arrivo sempre in ritardo. (prendere l’autobus prima) – Al posto tuo … | prenderei l’autobus prima | Al posto tuo prenderei l’autobus prima.
+Il mio curriculum è troppo lungo. (scrivere solo le cose importanti) – Al posto tuo … | scriverei solo le cose importanti | Al posto tuo scriverei solo le cose importanti.
+Ho litigato con una collega. (parlare con lei) – Al posto tuo … | parlerei con lei | Al posto tuo parlerei con lei.
+Ho sempre sete al lavoro. (bere più acqua) – Al posto tuo … | berrei più acqua | Al posto tuo berrei più acqua.
+! Con «al posto tuo» + condizionale diamo un consiglio. || al posto tuo + Konditional = an deiner Stelle würde ich …
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Io [volerei=>vorrei] diventare ingegnere.
+Noi [andaremmo=>andremmo] volentieri a lavorare in Italia.
+Al posto tuo io [cercarei=>cercherei] un altro lavoro.
+Signora, [poterebbe=>potrebbe] ripetere, per favore?
+I miei genitori [pagarebbero=>pagherebbero] il corso di lingua.
+Adesso io [mangierei=>mangerei] volentieri una pizza.
+Luca [venirebbe=>verrebbe] alla festa, ma deve lavorare.
+Io [beverei=>berrei] volentieri un tè caldo.
+Tu [rimaneresti=>rimarresti] a Roma per un anno?
+Noi [vederemmo=>vedremmo] volentieri il vostro ufficio.
+! Attenzione ai verbi irregolari (vorrei, andrei, potrei, verrei, berrei, rimarrei, vedrei) e all’ortografia (cercherei, pagherei, mangerei). || Achte auf die unregelmäßigen Stämme und auf die Schreibung (cercherei, pagherei, mangerei).
+
+%übung schwer | Una mail per il tirocinio
+?luecke | Completa la mail con il condizionale. || Ergänze die Mail mit dem Konditional.
+Gentile signora Bianchi,
+frequento un liceo a Monaco e (volere) [vorrei] fare un tirocinio nella Sua agenzia di viaggi.
+Mi (interessare) [interesserebbe] soprattutto il lavoro con i clienti.
+(essere) [Sarebbe] possibile cominciare a luglio?
+In quel mese (avere, io) [avrei] tre settimane libere.
+Per me (andare) [andrebbe] bene anche lavorare il sabato.
+(potere, Lei) [Potrebbe] dirmi quali documenti servono?
+(dovere, io) [Dovrei] mandare anche una foto?
+I miei insegnanti (scrivere) [scriverebbero] volentieri una lettera per me.
+Io e mia madre (venire) [verremmo] volentieri a visitare l’agenzia.
+(sapere, Lei) [Saprebbe] dirmi quando è possibile?
+Mi (fare) [farebbe] molto piacere ricevere una Sua risposta.
+Cordiali saluti, Elena
+
+%übung schwer | Più gentile, per favore!
+?ergaenzen | Riscrivi le frasi in modo più gentile: metti il verbo al condizionale. || Formuliere höflicher: Setze das Verb ins Konditional.
+Voglio un’informazione. | Vorrei un’informazione | Vorrei un’informazione.
+Mi può aiutare? | Mi potrebbe aiutare/Potrebbe aiutarmi | Mi potrebbe aiutare?
+Devi studiare di più. | Dovresti studiare di più | Dovresti studiare di più.
+Mi dai il tuo numero? | Mi daresti il tuo numero | Mi daresti il tuo numero?
+Sa dirmi l’ora? | Saprebbe dirmi l’ora/Mi saprebbe dire l’ora | Saprebbe dirmi l’ora?
+Preferisco il turno di mattina. | Preferirei il turno di mattina | Preferirei il turno di mattina.
+Ci fate vedere l’ufficio? | Ci fareste vedere l’ufficio | Ci fareste vedere l’ufficio?
+Potete aspettare un momento? | Potreste aspettare un momento | Potreste aspettare un momento?
+?frei | Il tuo lavoro dei sogni: che cosa faresti? Dove vivresti? Con chi lavoreresti? Scrivi 5 frasi con il condizionale. || Dein Traumberuf: Was würdest du machen? Wo würdest du leben? Mit wem würdest du arbeiten? Schreibe 5 Sätze im Konditional.
+Mi piacerebbe fare la fotografa. Vivrei in una grande città, per esempio a Milano. Lavorerei con persone creative. Viaggerei molto e vedrei tanti paesi. Con i primi soldi comprerei una macchina fotografica nuova.
+Zeilen: 5
+
+@thema avverbi-formazione | 4 · Lavoro e futuro | Parte B | Aggettivi, avverbi e formazione delle parole | 3
+#lehrplan Jgst. 9 · Adverbien auf -mente, Adjektiv und Adverb, Wortbildung
+#regel
+**L’avverbio in -mente** si forma dall’aggettivo **femminile** + **-mente**:
+| lento → lenta | **lentamente** |
+| veloce | **velocemente** |
+| facile | **facilmente** (-le → senza e) |
+| regolare | **regolarmente** (-re → senza e) |
+Irregolari: buono → **bene**, cattivo → **male**.
+**Aggettivo o avverbio?** L’aggettivo descrive un **nome** e concorda: _una risposta **chiara**_. L’avverbio descrive un **verbo** e non cambia mai: _Sara risponde **chiaramente**._
+**Formazione delle parole:**
+| verbo → nome | informare → l’informa**zione** |
+| aggettivo → nome | possibile → la possibili**tà** |
+| mestieri | giornale → il / la giornal**ista** · lavorare → il lavora**tore**, la lavora**trice** |
+| contrario | utile → **in**utile · possibile → **im**possibile · fortunato → **s**fortunato · occupato → **dis**occupato |
+| di nuovo | leggere → **ri**leggere |
+#regel-de
+**Adverb auf -mente:** weibliche Form des Adjektivs + **-mente** (_lenta → lentamente_). Adjektive auf **-le / -re** verlieren das **e**: _facilmente, regolarmente_. Unregelmäßig: _buono → bene, cattivo → male_.
+Das **Adjektiv** gehört zum Nomen und passt sich an, das **Adverb** gehört zum Verb und bleibt unverändert. Im Deutschen sehen beide oft gleich aus („eine klare Antwort“ – „sie antwortet klar“), im Italienischen nicht: _chiara – chiaramente_.
+**Wortbildung:** Nomen auf **-zione** (immer weiblich), **-tà** (immer weiblich, Plural gleich), Berufe auf **-ista** und **-tore / -trice**; Gegenteil mit **in-** (vor p, b, m: **im-**), **s-**, **dis-**; **ri-** = noch einmal.
+
+%übung leicht | Dall’aggettivo all’avverbio
+?zuordnen | Abbina l’aggettivo all’avverbio. || Verbinde das Adjektiv mit dem Adverb.
+lento = lentamente
+veloce = velocemente
+facile = facilmente
+regolare = regolarmente
+chiaro = chiaramente
+gentile = gentilmente
+sicuro = sicuramente
+particolare = particolarmente
+buono = bene
+cattivo = male
+
+%übung leicht | Nome, aggettivo o avverbio?
+?sortieren | Che tipo di parola è? || Welche Wortart ist das?
+Kategorien: n=nome (Nomen); a=aggettivo (Adjektiv); v=avverbio (Adverb)
+informazione > n
+possibilità > n
+giornalista > n
+direttore > n
+puntuale > a
+creativo > a
+difficile > a
+tranquillo > a
+puntualmente > v
+attentamente > v
+raramente > v
+tranquillamente > v
+! -zione, -tà, -ista, -tore → nomi · -mente → avverbi. || -zione, -tà, -ista, -tore → Nomen · -mente → Adverbien.
+
+%übung mittel | Il primo giorno di tirocinio
+?luecke | Forma l’avverbio dall’aggettivo tra parentesi. || Bilde das Adverb aus dem Adjektiv in Klammern.
+Il primo giorno Matteo arriva (puntuale) [puntualmente] alle otto.
+La responsabile lo saluta (gentile) [gentilmente].
+Spiega tutto (chiaro) [chiaramente] e parla (lento) [lentamente].
+Matteo ascolta (attento) [attentamente].
+(Normale) [Normalmente] i tirocinanti lavorano fino alle due.
+Matteo impara (veloce) [velocemente] e fa (buono) [bene] il suo lavoro.
+Solo il computer funziona (cattivo) [male].
+(Finale) [Finalmente] alle due può andare a casa: è (particolare) [particolarmente] stanco, ma contento.
+! -o → -amente · -e → -emente · -le / -re → -lmente / -rmente · buono → bene, cattivo → male. || -o → -amente · -e → -emente · -le / -re → ohne e · buono → bene, cattivo → male.
+
+%übung mittel | Parole nuove
+?tabelle | Forma la parola nuova. || Bilde das neue Wort.
+Spalten: parola | con | parola nuova
+informare | -zione | [informazione]
+organizzare | -zione | [organizzazione]
+possibile | -tà | [possibilità]
+creativo | -tà | [creatività]
+responsabile | -tà | [responsabilità]
+giornale | -ista | [giornalista]
+lavorare | -tore | [lavoratore]
+allenare | -trice | [allenatrice]
+utile | in- | [inutile]
+fortunato | s- | [sfortunato]
+occupato | dis- | [disoccupato]
+leggere | ri- | [rileggere]
+! -are → -azione · -ile → -ilità · -ivo → -ività. || -are → -azione · -ile → -ilità · -ivo → -ività.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Sara lavora molto [buono=>bene].
+Rispondo [facilemente=>facilmente] a tutte le domande.
+Faccio sport [regolaremente=>regolarmente].
+Il treno è arrivato [puntualemente=>puntualmente].
+Luca guida [lentomente=>lentamente].
+Il mio cellulare funziona [cattivo=>male].
+Le mie colleghe sono molto [gentilmente=>gentili].
+Il tempo passa [velocamente=>velocemente].
+Fare il medico è un lavoro [difficilmente=>difficile].
+Marta è [particolare=>particolarmente] brava in matematica.
+! Con un verbo → avverbio (lavora bene). Con un nome o dopo essere → aggettivo (sono gentili). Davanti a un aggettivo → avverbio (particolarmente brava). || Beim Verb → Adverb (lavora bene). Beim Nomen oder nach essere → Adjektiv (sono gentili). Vor einem Adjektiv → Adverb (particolarmente brava).
+
+%übung schwer | La lettera di Giulia
+?luecke | Aggettivo o avverbio? Scrivi la forma giusta della parola tra parentesi. || Adjektiv oder Adverb? Schreibe die richtige Form des Wortes in Klammern.
+Giulia scrive una lettera (lungo) [lunga] per un tirocinio in una libreria.
+Scrive (lento) [lentamente], perché vuole evitare errori (inutile) [inutili].
+Le sue frasi sono (chiaro) [chiare] e (semplice) [semplici].
+Sa usare (buono) [bene] il computer e parla (perfetto) [perfettamente] l’inglese.
+(Naturale) [Naturalmente] è anche una ragazza (serio) [seria].
+(Finale) [Finalmente] la lettera è pronta: Giulia è (contento) [contenta]!
+! L’aggettivo concorda con il nome (una lettera lunga, errori inutili). L’avverbio non cambia (scrive lentamente). || Das Adjektiv passt sich dem Nomen an, das Adverb bleibt unverändert.
+
+%übung schwer | Un annuncio di lavoro
+?luecke | Forma la parola giusta dalla parola tra parentesi (≠ = il contrario). || Bilde aus dem Wort in Klammern das passende Wort (≠ = das Gegenteil).
+La nostra (organizzare) [organizzazione] cerca un (giornale) [giornalista] per il sito web.
+Offriamo la (possibile) [possibilità] di lavorare anche da casa.
+Il lavoro richiede molta (responsabile) [responsabilità] e (creativo) [creatività].
+Sei (≠ occupato) [disoccupato] o (≠ contento) [scontento] del tuo lavoro? Allora scrivici!
+Un colloquio in inglese ti sembra (≠ possibile) [impossibile]? Nessun problema: ti aiutiamo noi.
+Manda la tua (presentare) [presentazione] alla nostra (direttore) [direttrice], la dottoressa Neri.
+Ma prima devi (leggere di nuovo) [rileggere] tutto (attento) [attentamente]!
+?auswahl | E adesso: aggettivo o avverbio? || Und jetzt: Adjektiv oder Adverb?
+Il direttore parla sempre {tranquillamente*|tranquilla|tranquille} con i clienti.
+La sua segretaria è una persona molto {tranquilla*|tranquillamente|tranquillo}.
+Il mio capo cucina molto {bene*|buono|buona}.
+La sua pizza è davvero {buona*|bene|buono}.
+{Normalmente*|Normale|Normali} comincio a lavorare alle nove.
+
+@thema avverbi-confronto | 4 · Lavoro e futuro | Parte B | Confrontare con gli avverbi | 4
+#lehrplan Jgst. 9 · Steigerung des Adverbs
+#regel
+Anche gli **avverbi** hanno il comparativo: **più / meno** + avverbio + **di**.
+- _Luca corre **più velocemente di** Marco._
+- _Oggi lavoro **meno attentamente di** ieri._
+**Forme irregolari:**
+| bene | **meglio** | benissimo |
+| male | **peggio** | malissimo |
+| molto | **(di) più** | moltissimo |
+| poco | **(di) meno** | pochissimo |
+_Sara canta **meglio di** me. · Devi studiare **di più**. · Studio **più di** te._
+**Il più … possibile:** _Rispondi **il più presto possibile**!_
+**Attenzione:** **migliore / peggiore** sono aggettivi (con un nome), **meglio / peggio** sono avverbi (con un verbo): _Cerco un lavoro **migliore**. · Adesso lavoro **meglio**._
+#regel-de
+Auch **Adverbien** werden gesteigert: **più / meno** + Adverb + **di** (als): _più velocemente di Marco_.
+Unregelmäßig: _bene → **meglio**_ (besser), _male → **peggio**_ (schlechter), _molto → **di più**_ (mehr), _poco → **di meno**_ (weniger). Sehr gut / sehr schlecht: _benissimo, malissimo_. Vor dem Vergleichswort ohne _di_: _Studio più di te._
+„So … wie möglich“: **il più** + Adverb + **possibile**.
+Achtung: Das Deutsche sagt beide Male „besser“ – das Italienische trennt: **migliore** (Adjektiv, beim Nomen: _un lavoro migliore_) und **meglio** (Adverb, beim Verb: _lavoro meglio_).
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le frasi alla traduzione. || Verbinde die Sätze mit der Übersetzung.
+Sara canta meglio di me. = Sara singt besser als ich.
+Oggi sto peggio di ieri. = Heute geht es mir schlechter als gestern.
+Devi dormire di più. = Du musst mehr schlafen.
+Vorrei lavorare di meno. = Ich würde gern weniger arbeiten.
+Parli benissimo l’italiano. = Du sprichst sehr gut Italienisch.
+Ho dormito malissimo. = Ich habe sehr schlecht geschlafen.
+Vieni il più presto possibile! = Komm so früh wie möglich!
+Luca corre più velocemente di Paolo. = Luca läuft schneller als Paolo.
+Parla più lentamente, per favore! = Sprich bitte langsamer!
+
+%übung leicht | Meglio o peggio?
+?auswahl | Scegli la parola che va bene nella frase. || Wähle das Wort, das in den Satz passt.
+Luca ha preso nove, io sei: lui studia {di più*|di meno|peggio}.
+Ho la febbre alta: oggi sto {peggio*|meglio|di più} di ieri.
+Dopo la medicina sto {meglio*|peggio|di meno}: non ho più mal di testa.
+Sei sempre stanco: dovresti lavorare {di meno*|di più|peggio}.
+Con gli occhiali nuovi vedo {meglio*|peggio|di meno}.
+Non capisco: puoi parlare {più lentamente*|più velocemente|di meno}?
+Siamo in ritardo: cammina {più velocemente*|più lentamente|peggio}!
+Senza allenamento la squadra gioca {peggio*|meglio|benissimo}.
+Anna parla {benissimo*|malissimo|peggio} l’inglese: ha vissuto tre anni a Londra.
+Ho dormito {malissimo*|benissimo|meglio}: sono stanchissimo.
+
+%übung leicht | Qual è la frase giusta?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Chiara canta meglio di me.
+- Chiara canta migliore di me.
+- Chiara canta più bene di me.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Cerco un lavoro migliore.
+- Cerco un lavoro meglio.
+- Cerco un lavoro più bene.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Il secondo colloquio è andato peggio del primo.
+- Il secondo colloquio è andato peggiore del primo.
+- Il secondo colloquio è andato più peggio del primo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Vieni il più presto possibile!
+- Vieni il più presto possibilmente!
+- Vieni il presto più possibile!
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Dovresti studiare di più.
+- Dovresti studiare più molto.
+- Dovresti studiare il più.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Luca corre più velocemente {di*|che|come} Marco.
+Hai risposto {benissimo*|buonissimo|molto benissimo}.
+Parla {più lentamente*|più lentamento|lentamente più}, per favore.
+! meglio / peggio con un verbo, migliore / peggiore con un nome; «als» = di. || meglio / peggio beim Verb, migliore / peggiore beim Nomen; „als“ = di.
+
+%übung mittel | In ufficio
+?luecke | Scrivi il comparativo dell’avverbio (+ = più, – = meno). || Schreibe den Komparativ des Adverbs (+ = mehr, – = weniger).
+Chiara scrive al computer (+ veloce) [più velocemente] di me.
+Il nuovo collega lavora (– attento) [meno attentamente] degli altri.
+Matteo parla l’inglese (+ bene) [meglio] di suo fratello.
+Io purtroppo canto (+ male) [peggio] di tutti.
+La professoressa spiega (+ chiaro) [più chiaramente] del libro.
+Mia nonna cammina (+ lento) [più lentamente] di una volta.
+Con la bici arrivo (+ facile) [più facilmente] in centro.
+Sara risponde alle mail (– regolare) [meno regolarmente] di Luca.
+Con questo programma lavoro (+ bene) [meglio] e (+ veloce) [più velocemente].
+! più / meno + avverbio in -mente · bene → meglio · male → peggio. || più / meno + Adverb auf -mente · bene → meglio · male → peggio.
+
+%übung mittel | Confronta
+?ergaenzen | Leggi e completa il confronto. || Lies und ergänze den Vergleich.
+Luca corre velocemente, Marco molto velocemente. → Marco corre … | più velocemente di Luca | Marco corre più velocemente di Luca.
+Anna canta bene, Sara molto bene. → Sara canta … | meglio di Anna | Sara canta meglio di Anna.
+Io cucino male, mio fratello molto male. → Mio fratello cucina … | peggio di me | Mio fratello cucina peggio di me.
+Il nonno guida lentamente, la nonna molto lentamente. → La nonna guida … | più lentamente del nonno | La nonna guida più lentamente del nonno.
+Chiara lavora attentamente, Davide poco attentamente. → Davide lavora … | meno attentamente di Chiara | Davide lavora meno attentamente di Chiara.
+Tu parli chiaramente, il prof molto chiaramente. → Il prof parla … | più chiaramente di te | Il prof parla più chiaramente di te.
+Paolo studia molto, Giulia moltissimo. → Giulia studia … | più di Paolo | Giulia studia più di Paolo.
+Io dormo poco, tu pochissimo. → Tu dormi … | meno di me | Tu dormi meno di me.
+! «als» = di: di Luca, di me, del nonno. Prima di «di + persona» diciamo solo più / meno: studia più di Paolo. || „als“ = di: di Luca, di me, del nonno. Vor „di + Person“ steht nur più / meno: studia più di Paolo.
+
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Meine Schwester spricht besser Englisch als ich.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mia sorella
+parla l’inglese
+meglio
+di me.
+?ordnen | Metti le parole in ordine: „Antworte so schnell wie möglich!“ || Bringe die Wörter in die richtige Reihenfolge.
+Rispondi
+il più
+presto
+possibile!
+?ordnen | Metti le parole in ordine: „Der neue Computer funktioniert schneller als der alte.“ || Bringe die Wörter in die richtige Reihenfolge.
+Il nuovo computer
+funziona
+più
+velocemente
+del vecchio.
+?ordnen | Metti le parole in ordine: „Heute fühle ich mich viel besser als gestern.“ || Bringe die Wörter in die richtige Reihenfolge.
+Oggi
+mi sento
+molto
+meglio
+di ieri.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i dieci errori. || Korrigiere die zehn Fehler.
+Chiara canta [migliore=>meglio] di me.
+Sara ha voti [meglio=>migliori] dei miei.
+Oggi la squadra ha giocato [peggiore=>peggio] di ieri.
+Marco nuota [più bene=>meglio] di Luca.
+Luca corre più velocemente [che=>di] Marco.
+Rispondi il più presto [possibilmente=>possibile]!
+Per l’esame devo studiare [più molto=>di più].
+Il nuovo capo spiega le regole [più chiaro=>più chiaramente] del vecchio.
+Anna parla [molto benissimo=>benissimo] il tedesco.
+Stanotte Giulia ha dormito [malissima=>malissimo].
+! migliore / peggiore = aggettivi (voti migliori) · meglio / peggio = avverbi (canta meglio). L’avverbio non cambia mai. || migliore / peggiore = Adjektive · meglio / peggio = Adverbien. Das Adverb bleibt immer unverändert.
+
+%übung schwer | Due tirocini a confronto
+?auswahl | Aggettivo o avverbio? Scegli la forma giusta. || Adjektiv oder Adverb? Wähle die richtige Form.
+Quest’anno ho fatto un tirocinio {migliore*|meglio|bene} di quello dell’anno scorso.
+Ho lavorato {meglio*|migliore|buono}, perché i colleghi mi aiutavano.
+Purtroppo avevo un orario {peggiore*|peggio|male}: cominciavo alle sette!
+Il primo giorno è andato {peggio*|peggiore|cattivo} del secondo.
+La banca ha la mensa {migliore*|meglio|bene} della città.
+Lì si mangia {meglio*|migliore|buono} che a casa.
+Adesso parlo {meglio*|migliore|buono} l’inglese e ho voti {migliori*|meglio|migliore}.
+Solo in matematica vado {peggio*|peggiore|peggiori} di prima.
+Alla fine la direttrice mi ha detto: «Hai lavorato {benissimo*|buonissimo|migliore}!»
+! Con un nome: migliore, peggiore (un tirocinio migliore). Con un verbo: meglio, peggio (ho lavorato meglio). || Beim Nomen: migliore, peggiore. Beim Verb: meglio, peggio.
+
+%übung schwer | Dopo il colloquio
+?luecke | Completa la mail. + = comparativo (più …, meglio …), ++ = forma in -issimo. || Ergänze die Mail. + = Komparativ (più …, meglio …), ++ = Form auf -issimo.
+Cara Giulia, ieri ho fatto il colloquio: è andato (++ bene) [benissimo]!
+Mi sono preparato (+ bene) [meglio] dell’ultima volta.
+Ho parlato (+ lento) [più lentamente] e ho ascoltato (+ attento) [più attentamente].
+L’anno scorso invece il colloquio è andato (++ male) [malissimo].
+Ero nervoso e ho risposto (+ male) [peggio] degli altri candidati.
+Questo posto è (+ buono) [migliore] di quello dell’anno scorso: è anche vicino a casa.
+Devo rispondere alla direttrice il (+ presto) [più presto] possibile. A presto, Davide
+! bene → meglio → benissimo · male → peggio → malissimo · buono (aggettivo) → migliore. || bene → meglio → benissimo · male → peggio → malissimo · buono (Adjektiv) → migliore.
+?frei | Confronta te stesso/a con un amico o un’amica: che cosa fate meglio, peggio, di più, di meno, più velocemente …? Scrivi 5 frasi. || Vergleiche dich mit einem Freund oder einer Freundin: Was macht ihr besser, schlechter, mehr, weniger, schneller …? Schreibe 5 Sätze.
+Io disegno meglio di Lena, ma lei canta meglio di me. Lena corre più velocemente di me. Io leggo di più, lei fa più sport. In matematica lei capisce tutto più facilmente. Io invece parlo l’italiano benissimo!
+Zeilen: 5

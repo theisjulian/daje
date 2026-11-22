@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-chi-relativo-l2",
+ "title": "Chi o che?",
+ "language": "it",
+ "level": "A2",
+ "description": "Il pronome relativo chi · Chi o che? · livello facile.",
+ "topics": [
+  "Il pronome relativo chi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 4 · Lavoro e futuro · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Relativpronomen chi (wer / derjenige, der)"
+ },
+ "grammar": {
+  "topic": "ecco2-chi-relativo",
+  "topicTitle": "Il pronome relativo chi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 72,
+  "rule": "**Chi** vuol dire **la persona che / le persone che**. Davanti a **chi** non c’è un nome, e il verbo è **sempre al singolare**:\n- _**Chi** studia impara._ (= Le persone che studiano imparano.)\n- _Parlo con **chi** mi capisce._ · _Do una mano a **chi** ha bisogno._ (con una preposizione)\nMolti **proverbi** cominciano con chi: _**Chi** cerca trova._ · _**Chi** dorme non piglia pesci._ · _**Chi** va piano va sano e va lontano._\n| **che** | dopo un nome | _La ragazza **che** lavora qui è simpatica._ |\n| **chi** (relativo) | senza nome | _**Chi** lavora qui è simpatico._ |\n| **chi?** (domanda) | parola interrogativa | _**Chi** lavora qui?_ |",
+  "ruleHelp": "**chi** heißt hier **„wer“ / „derjenige, der“**. Es hat **kein Bezugswort** vor sich, und das Verb steht **immer im Singular**: _Chi studia impara._ (Wer lernt, lernt etwas.) Auch nach Präposition: _Parlo con chi mi capisce._ (Ich spreche mit dem, der mich versteht.)\nUnterschied: **che** bezieht sich auf ein Nomen (_la ragazza che …_), **chi** steht allein. Außerdem gibt es das Fragewort **chi?** (wer?). Viele Sprichwörter beginnen mit chi: _Chi cerca trova._ (Wer sucht, der findet.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli: chi o che?",
+   "promptHelp": "Wähle: chi oder che?",
+   "explanation": "Dopo un nome (la ragazza, un lavoro): che. Senza nome: chi (= la persona che).",
+   "explanationHelp": "Nach einem Nomen: che. Ohne Bezugswort: chi (= derjenige, der).",
+   "type": "gap_choice",
+   "text": "[[g1]] cerca un lavoro deve scrivere un curriculum.\nLa ragazza [[g2]] lavora al bar è mia cugina.\nIl ragazzo [[g3]] fa lo stage con me si chiama Davide.\n[[g4]] arriva tardi deve chiedere scusa.\nHo trovato un lavoro [[g5]] mi piace molto.\n[[g6]] non ha il biglietto non può entrare.\nI colleghi [[g7]] ho conosciuto oggi sono simpatici.\nNon mi piace [[g8]] parla sempre di soldi.\n[[g9]] vuole può fare una pausa adesso.\nQuesta è la ditta [[g10]] cerca stagisti.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Chi",
+      "Che"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "che",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "che",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Chi",
+      "Che"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "che",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Chi",
+      "Che"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "che",
+      "chi"
+     ],
+     "answer": "che"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "chi",
+      "che"
+     ],
+     "answer": "chi"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Chi",
+      "Che"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "che",
+      "chi"
+     ],
+     "answer": "che"
+    }
+   ]
+  }
+ ]
+}

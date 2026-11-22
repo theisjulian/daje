@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it13-grammatica-l1",
+ "title": "Congiuntivo o indicativo?",
+ "language": "it",
+ "level": "B2",
+ "description": "Grammatica per comprendere e scrivere · Congiuntivo o indicativo? · livello facile.",
+ "topics": [
+  "Grammatica per comprendere e scrivere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Sesto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "6",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 13,
+  "foreignLanguageNo": 3,
+  "cefr": "B2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 13 · Abiturvorbereitung: Konjunktiv nach Konnektoren, Zeitenfolge, Bedingungssätze, Satzverknüpfung, typische Fehler"
+ },
+ "grammar": {
+  "topic": "it13-grammatica",
+  "topicTitle": "Grammatica per comprendere e scrivere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "**Connettivi + congiuntivo:** benché / sebbene / nonostante (obwohl) · affinché (damit) · a meno che (non) (es sei denn) · qualora (falls) · purché / a condizione che (vorausgesetzt) · prima che (bevor).\nMa: **anche se, dopo che, siccome, poiché, mentre** + indicativo.\n**Concordanza dei tempi al congiuntivo:**\n| frase principale | nello stesso momento / dopo | prima |\n| presente: _Penso che …_ | … _**venga**._ | … _**sia venuto**._ |\n| passato: _Pensavo che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n| condizionale: _Vorrei che …_ | … _**venisse**._ | … _**fosse venuto**._ |\n**Stesso soggetto → infinito:** _Penso **di avere** ragione._ · _**Prima di** partire ti telefono._ · _**Dopo aver** finito, sono uscito._ · _È uscito **senza** salutare._\n**Gerundio e participio:** _**Essendo** stanca, è rimasta a casa._ · _**Pur essendo** giovane, ha molta esperienza._ · _**Finita** la lezione, siamo usciti._\n**Periodo ipotetico misto:** _Se **avessi studiato** medicina, oggi **farei** il medico._\n**Errori tipici** (forma giusta): se **avessi** (non: se avrei) · penso **di avere** ragione (non: penso che ho) · la gente **è** (non: sono) · studio l’italiano **da** tre anni (non: per) · tre anni **fa** (non: prima di tre anni) · ho chiesto **a** mio padre · **il** problema (non: la problema).",
+  "ruleHelp": "**Konnektoren mit Konjunktiv:** benché / sebbene / nonostante (obwohl), affinché (damit), a meno che (non) (es sei denn), qualora (falls), purché (vorausgesetzt, dass), prima che (bevor). **Mit Indikativ:** anche se, dopo che, siccome, poiché, mentre.\n**Zeitenfolge:** Hauptsatz im Präsens → congiuntivo presente (gleichzeitig/nachzeitig) oder passato (vorzeitig); Hauptsatz in der Vergangenheit oder im condizionale → congiuntivo imperfetto oder trapassato.\n**Gleiches Subjekt → Infinitiv:** _Penso di avere ragione_ (nicht: penso che ho), _prima di partire, dopo aver finito, senza salutare_. Gerundium und Partizip verkürzen Nebensätze: _Essendo stanca … · Pur essendo giovane … · Finita la lezione …_\n**Typische Fehler deutschsprachiger Lernender:** „wenn ich hätte“ = se **avessi** (nie condizionale nach se) · „seit drei Jahren“ = **da** tre anni · „vor drei Jahren“ = tre anni **fa** · „jemanden fragen“ = chiedere **a** qualcuno · _la gente_ ist Singular · _il problema_ ist maskulin."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Dopo quali connettivi si usa il congiuntivo? Metti ogni connettivo nel gruppo giusto.",
+   "promptHelp": "Nach welchen Konnektoren steht der Konjunktiv? Ordne jeden Konnektor der richtigen Gruppe zu.",
+   "explanation": "benché, affinché, a meno che, qualora, nonostante, purché, prima che + congiuntivo. Attenzione: anche se e dopo che vogliono l’indicativo.",
+   "explanationHelp": "benché, affinché, a meno che, qualora, nonostante, purché, prima che verlangen den Konjunktiv. Achtung: anche se und dopo che stehen mit dem Indikativ.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "+ congiuntivo"
+    },
+    {
+     "id": "b",
+     "label": "+ indicativo"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "benché",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "affinché",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "a meno che",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "qualora",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "nonostante",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "purché",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "prima che",
+     "category": "a"
+    },
+    {
+     "id": "i8",
+     "text": "anche se",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "dopo che",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "siccome",
+     "category": "b"
+    },
+    {
+     "id": "i11",
+     "text": "poiché",
+     "category": "b"
+    },
+    {
+     "id": "i12",
+     "text": "mentre",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

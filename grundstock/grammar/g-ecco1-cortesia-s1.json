@@ -61,7 +61,8 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "Vorrei"
+      "Vorrei",
+      "Prendo"
      ]
     },
     {
@@ -85,7 +86,8 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "Scusi"
+      "Scusi",
+      "Mi scusi"
      ]
     },
     {
@@ -97,7 +99,8 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "Prego"
+      "Prego",
+      "Grazie"
      ]
     }
    ]

@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-imperfetto-l3",
+ "title": "La scuola della nonna",
+ "language": "it",
+ "level": "A2",
+ "description": "L’imperfetto · La scuola della nonna · livello facile.",
+ "topics": [
+  "L’imperfetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · imperfetto: Formen und Gebrauch"
+ },
+ "grammar": {
+  "topic": "ecco2-imperfetto",
+  "topicTitle": "L’imperfetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Con l’**imperfetto** raccontiamo **abitudini** e facciamo **descrizioni** nel passato.\n| | parl**are** | legg**ere** | dorm**ire** | **essere** |\n| io | parl**avo** | legg**evo** | dorm**ivo** | **ero** |\n| tu | parl**avi** | legg**evi** | dorm**ivi** | **eri** |\n| lui / lei | parl**ava** | legg**eva** | dorm**iva** | **era** |\n| noi | parl**avamo** | legg**evamo** | dorm**ivamo** | **eravamo** |\n| voi | parl**avate** | legg**evate** | dorm**ivate** | **eravate** |\n| loro | parl**avano** | legg**evano** | dorm**ivano** | **erano** |\n**Irregolari:** fare → **facevo**, dire → **dicevo**, bere → **bevevo**. C’è → **c’era**, ci sono → **c’erano**.\n_Da bambino **giocavo** sempre in cortile. La casa **era** piccola e **aveva** un giardino._\nParole tipiche: _da bambino, da piccola, di solito, sempre, ogni estate, una volta_.",
+  "ruleHelp": "Das **imperfetto** steht für **Gewohnheiten** und **Beschreibungen** in der Vergangenheit (wie war es früher? was machte man immer?).\nEndungen: -**avo**, -**avi**, -**ava**, -**avamo**, -**avate**, -**avano** (ebenso -evo …, -ivo …). **essere:** ero, eri, era, eravamo, eravate, erano.\nUnregelmäßig: fare → facevo, dire → dicevo, bere → bevevo.\nSignalwörter: da bambino, di solito, sempre, ogni estate, una volta (früher)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "La nonna racconta. Completa con i verbi giusti.",
+   "promptHelp": "Die Oma erzählt. Ergänze die passenden Verben.",
+   "type": "gap_fill",
+   "text": "Quando [[g1]] piccola, abitavo in un paese di montagna.\nLa nostra casa [[g2]] solo tre stanze.\nIo e mio fratello [[g3]] a scuola a piedi.\nIn classe [[g4]] trenta bambini.\nLa maestra [[g5]] tutto alla lavagna.\nIl pomeriggio i miei amici [[g6]] in piazza.\nD’inverno [[g7]] molto freddo.\nIo [[g8]] sempre un vestito blu.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ero"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aveva"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "andavamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "c’erano"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "scriveva"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "giocavano"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "faceva"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "portavo"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "giocavi",
+    "avevate"
+   ]
+  }
+ ]
+}

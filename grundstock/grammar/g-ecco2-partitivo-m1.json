@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-partitivo-m1",
+ "title": "La festa dopo il concerto",
+ "language": "it",
+ "level": "A2",
+ "description": "L’articolo partitivo · La festa dopo il concerto · livello medio.",
+ "topics": [
+  "L’articolo partitivo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, Extra 2 · Musica italiana · Modulo.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Modulo"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Teilungsartikel (del, dello, della, dei, degli, delle) und andere Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco2-partitivo",
+  "topicTitle": "L’articolo partitivo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "L’**articolo partitivo** = **di + articolo**. Indica una quantità **non precisa**.\n| | singolare = un po’ di | plurale = alcuni / alcune |\n| maschile | **del** pane, **dello** zucchero, **dell’**olio | **dei** biglietti, **degli** amici |\n| femminile | **della** musica, **dell’**acqua | **delle** canzoni |\n- _Compro **del** pane._ = _Compro **un po’ di** pane._\n- _Ho **degli** amici a Roma._ = _Ho **alcuni** amici / **qualche** amic**o** a Roma._ (qualche + **singolare**!)\n**Attenzione:**\n- Dopo **non** niente partitivo: _**Non** ho soldi. **Non** mangio carne._\n- Dopo una quantità solo **di**: _un chilo **di** mele, una bottiglia **di** acqua, un po’ **di** tempo_. Con **molto, poco, troppo, tanto** niente di: _molti amici, poca acqua_.",
+  "ruleHelp": "Der **Teilungsartikel** (di + bestimmter Artikel: del, dello, dell’, della, dei, degli, delle) bezeichnet eine **unbestimmte Menge**. Im Deutschen steht dann meist gar kein Artikel oder „etwas / einige“: _Compro del pane_ = Ich kaufe (etwas) Brot. _Ho degli amici_ = Ich habe (einige) Freunde.\nGleichbedeutend: Singular **un po’ di**, Plural **alcuni/alcune** oder **qualche + Singular** (_qualche amico_).\nNach **Verneinung** steht kein Teilungsartikel (_Non ho soldi_ = Ich habe kein Geld), nach **Mengenangaben** nur **di** (_un chilo di mele_); molto/poco/troppo/tanto stehen ohne di (_molti amici_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il partitivo (del, dello, dell’, della, dei, degli, delle).",
+   "promptHelp": "Ergänze den Teilungsartikel (del, dello, dell’, della, dei, degli, delle).",
+   "type": "gap_fill",
+   "text": "Per la festa dopo il concerto compriamo [[g1]] pizza e [[g2]] panini.\nGiulia porta [[g3]]aranciata e Matteo porta [[g4]] zucchero per il tè freddo.\nCi sono anche [[g5]] patatine e [[g6]] formaggio.\nLuca invita [[g7]] amici della sua classe.\nChiara mette [[g8]] musica italiana e subito [[g9]] ragazzi cominciano a ballare.\nAlla fine facciamo [[g10]] foto e a mezzanotte mangiamo [[g11]] spaghetti!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dell’"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dello"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "degli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "dei"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "delle"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "degli"
+     ]
+    }
+   ]
+  }
+ ]
+}

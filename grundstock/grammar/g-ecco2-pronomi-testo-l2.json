@@ -1,0 +1,141 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-pronomi-testo-l2",
+ "title": "Il pronome giusto",
+ "language": "it",
+ "level": "A2",
+ "description": "Pronomi e riferimenti nel testo · Il pronome giusto · livello facile.",
+ "topics": [
+  "Pronomi e riferimenti nel testo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 2 · Vita online · Ripasso.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "2 · Vita online",
+   "section": "Ripasso"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · Objektpronomen, ci und ne als Mittel der Textverknüpfung"
+ },
+ "grammar": {
+  "topic": "ecco2-pronomi-testo",
+  "topicTitle": "Pronomi e riferimenti nel testo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "I **pronomi** sostituiscono parole già dette: così non ripetiamo sempre lo stesso nome.\n| **lo / la** | una cosa o una persona (singolare) | _Il video? **Lo** guardo dopo. · La chat? **La** leggo ogni sera._ |\n| **li / le** | cose o persone (plurale) | _I messaggi? **Li** leggo. · Le foto? **Le** guardo._ |\n| **gli** | a lui, a loro | _Scrivo a Luca. → **Gli** scrivo._ |\n| **le** | a lei | _Scrivo a Sara. → **Le** scrivo._ |\n| **ci** | in / a un luogo | _Vado al parco. → **Ci** vado._ |\n| **ne** | di questo; con una quantità | _Ho tre app. → **Ne** ho tre._ |\nPer capire un pronome guarda **indietro** nel testo: è maschile o femminile? singolare o plurale? cosa, persona o luogo?\nAttenzione: **le** = a lei (_Le scrivo_) oppure plurale femminile (_Le guardo_).",
+  "ruleHelp": "**Pronomen** ersetzen schon Genanntes. **lo / la / li / le** = direktes Objekt (ihn, sie, es; Plural), **gli** = ihm / ihnen, **le** = ihr, **ci** = dort(hin), **ne** = davon (bei Mengen: _Ne ho tre_).\nUm ein Pronomen zu verstehen, schau im Text **zurück**: männlich oder weiblich, Singular oder Plural, Sache, Person oder Ort?\nAchtung: **le** kann „ihr“ (_Le scrivo_) oder „sie“ (weiblich Plural: _Le guardo_) bedeuten. Anders als im Deutschen steht das Pronomen **vor** dem konjugierten Verb."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome giusto.",
+   "promptHelp": "Wähle das richtige Pronomen.",
+   "explanation": "Guarda il nome: maschile o femminile, singolare o plurale? Con scrivere / mandare **a** una persona: gli (a lui), le (a lei).",
+   "explanationHelp": "Schau auf das Nomen: männlich oder weiblich, Singular oder Plural? Bei „a + Person“: gli (ihm), le (ihr).",
+   "type": "gap_choice",
+   "text": "Questa canzone è bellissima: [[g1]] ascolto sempre.\nI messaggi di Luca sono divertenti: [[g2]] leggo volentieri.\nDov’è il caricabatterie? Non [[g3]] trovo.\nLe password sono importanti: non [[g4]] dico a nessuno.\nDomani è il compleanno di Marco: [[g5]] mando un messaggio.\nMia cugina vive in Canada: [[g6]] scrivo ogni settimana.\nConosci Sara e Marta? – Sì, [[g7]] conosco bene.\nIl mio profilo? [[g8]] vedono solo gli amici.\nTi piace Roma? – Sì, [[g9]] vado ogni estate.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "la",
+      "lo",
+      "le"
+     ],
+     "answer": "la"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "li",
+      "le",
+      "lo"
+     ],
+     "answer": "li"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "lo",
+      "la",
+      "li"
+     ],
+     "answer": "lo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "le",
+      "li",
+      "la"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "gli",
+      "le",
+      "lo"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "le",
+      "gli",
+      "la"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "le",
+      "li",
+      "gli"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Lo",
+      "La",
+      "Gli"
+     ],
+     "answer": "Lo"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "ci",
+      "ne",
+      "la"
+     ],
+     "answer": "ci"
+    }
+   ]
+  }
+ ]
+}

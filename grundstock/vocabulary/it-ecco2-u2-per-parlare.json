@@ -134,7 +134,8 @@
    "definition": "Storia girata per essere vista sul piccolo schermo.",
    "example": "Stasera c’è un telefilm divertente.",
    "acceptedAnswers": [
-    "ilfilm"
+    "il film",
+    "il telefilm"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -216,7 +217,7 @@
     "das Fernsehprogramm"
    ],
    "definition": "Trasmissione che va in onda in TV.",
-   "example": "Il mio programma televisivo preferito è la sera.",
+   "example": "Il mio programma televisivo preferito va in onda la sera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -236,7 +237,7 @@
    "definition": "Dice quanto tempo occupa un film.",
    "example": "Il film dura novanta minuti.",
    "acceptedAnswers": [
-    "il film dura"
+    "il film dura 90 minuti"
    ],
    "grammar": {
     "partOfSpeech": "noun",
@@ -274,7 +275,7 @@
    ],
    "definition": "Conversazione fatta per raccogliere informazioni.",
    "example": "Il giornalista fa un’intervista al cantante.",
-   "related": "E the interview; F le interview"
+   "related": "E interview; F l’interview"
   },
   {
    "id": "u2-per-parlare-017",

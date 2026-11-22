@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-daje-202-073",
- "title": "Venire, sapere e i verbi modali (2)",
+ "title": "Andare, venire e fare al presente",
  "language": "it",
  "level": "A1",
- "description": "Venire, sapere e i verbi modali · Venire, sapere e i verbi modali (2) · livello medio.",
+ "description": "I verbi in -ire e andare · Andare, venire e fare al presente · livello medio.",
  "topics": [
-  "Venire, sapere e i verbi modali",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -24,8 +24,8 @@
   "textbook": {
    "series": "Corso daje",
    "volume": "1",
-   "unit": "4 · Tempo libero",
-   "section": "Parte A"
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -36,8 +36,8 @@
   "curriculum": "It8 1.2 Grammatik"
  },
  "grammar": {
-  "topic": "ecco1-modali",
-  "topicTitle": "Venire, sapere e i verbi modali",
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 1073
@@ -46,8 +46,8 @@
   {
    "id": "q1",
    "type": "gap_fill",
-   "prompt": "Completa le forme. Usa le indicazioni tra parentesi.",
-   "promptHelp": "Ergänze die Formen. Beachte die Angaben in Klammern.",
+   "prompt": "Completa le forme del verbo al presente.",
+   "promptHelp": "Ergänze die Verbformen im Präsens.",
    "text": "1. andare · io · presente → [[g1]]\n2. andare · tu · presente → [[g2]]\n3. andare · lui/lei · presente → [[g3]]\n4. andare · noi · presente → [[g4]]\n5. andare · voi · presente → [[g5]]\n6. andare · loro · presente → [[g6]]\n7. venire · io · presente → [[g7]]\n8. venire · tu · presente → [[g8]]\n9. venire · lui/lei · presente → [[g9]]\n10. venire · noi · presente → [[g10]]\n11. venire · voi · presente → [[g11]]\n12. venire · loro · presente → [[g12]]\n13. fare · io · presente → [[g13]]\n14. fare · tu · presente → [[g14]]\n15. fare · lui/lei · presente → [[g15]]\n16. fare · noi · presente → [[g16]]\n17. fare · voi · presente → [[g17]]\n18. fare · loro · presente → [[g18]]",
    "gaps": [
     {

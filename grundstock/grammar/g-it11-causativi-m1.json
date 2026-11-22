@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-causativi-m1",
+ "title": "La festa della scuola",
+ "language": "it",
+ "level": "B1",
+ "description": "Fare e lasciare + infinito · La festa della scuola · livello medio.",
+ "topics": [
+  "Fare e lasciare + infinito",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · fare / lasciare + Infinitiv"
+ },
+ "grammar": {
+  "topic": "it11-causativi",
+  "topicTitle": "Fare e lasciare + infinito",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "**fare + infinito** = un’altra persona fa l’azione per me, o io provoco l’azione:\n- _**Faccio riparare** la bici._ · _Questo film mi **fa ridere**._\n- Chi fa l’azione? **a / da** + persona: _Faccio leggere il testo **agli** studenti. Faccio riparare la bici **dal** meccanico._\n**farsi + infinito** (per sé; ausiliare **essere**): _**Mi faccio tagliare** i capelli. Giulia **si è fatta tagliare** i capelli._\n**lasciare + infinito** = permettere, non impedire: _I miei genitori mi **lasciano uscire**. **Lasciami parlare**!_\n**Pronomi:** prima di fare / lasciare, non dopo l’infinito: _**Lo** faccio riparare. **Glielo** faccio vedere._\nCon l’imperativo, attaccati: _**Fammelo** sapere! **Lasciami** dormire!_",
+  "ruleHelp": "Deutsches „**lassen**“ hat zwei Entsprechungen:\n- **fare + Infinitiv** = veranlassen, beauftragen, jemanden zu etwas bringen: _Faccio riparare la bici._ (Ich lasse das Rad reparieren.) _Mi fai ridere._ (Du bringst mich zum Lachen.)\n- **lasciare + Infinitiv** = zulassen, erlauben: _Lasciami dormire!_ (Lass mich schlafen!)\nDer Ausführende steht mit **a** oder **da**: _Faccio riparare la bici dal meccanico._ **farsi + Infinitiv** mit essere: _Mi sono fatto/fatta tagliare i capelli._\nPronomen stehen **vor** fare/lasciare (_glielo faccio vedere_), beim Imperativ angehängt (_fammelo sapere_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Chi organizza la festa non fa tutto da solo. Completa con fare (presente) + infinito.",
+   "promptHelp": "Wer das Fest organisiert, macht nicht alles selbst. Ergänze fare (Präsens) + Infinitiv.",
+   "type": "gap_fill",
+   "text": "Per la festa della scuola noi (preparare) [[g1]] il buffet da una pizzeria.\nIl preside (stampare) [[g2]] gli inviti.\nIo (riparare) [[g3]] le casse dal tecnico.\nLe ragazze della quinta B (venire) [[g4]] un DJ da Bologna.\nI professori (decorare) [[g5]] la palestra agli studenti di arte.\nE tu, (controllare) [[g6]] le luci a tuo fratello?\nRagazzi, (sentire) [[g7]] la playlist anche a noi?\nLe canzoni italiane (ballare) [[g8]] tutti!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "facciamo preparare"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "fa stampare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "faccio riparare"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "fanno venire"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "fanno decorare"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "fai controllare"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fate sentire"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "fanno ballare"
+     ]
+    }
+   ]
+  }
+ ]
+}

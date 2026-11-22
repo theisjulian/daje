@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-indiretto-passato-m2",
+ "title": "Che cosa hanno detto?",
+ "language": "it",
+ "level": "B1",
+ "description": "Il discorso indiretto al passato · Che cosa hanno detto? · livello medio.",
+ "topics": [
+  "Il discorso indiretto al passato",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · indirekte Rede mit Einleitung in der Vergangenheit (Zeitenverschiebung, Orts- und Zeitangaben)"
+ },
+ "grammar": {
+  "topic": "ecco3-indiretto-passato",
+  "topicTitle": "Il discorso indiretto al passato",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Quando il verbo che introduce è **al passato** (_ha detto che …, ha raccontato che …, ha chiesto se …_), i tempi **cambiano**:\n| discorso diretto | discorso indiretto |\n| presente: «**Lavoro** a Torino.» | imperfetto: Ha detto che **lavorava** a Torino. |\n| passato prossimo: «**Ho trovato** casa.» | trapassato prossimo: Ha detto che **aveva trovato** casa. |\n| futuro: «**Tornerò** presto.» | condizionale composto: Ha detto che **sarebbe tornato** presto. |\n| imperativo: «**Chiamami!**» | **di** + infinito: Mi ha detto **di chiamarlo**. |\n| imperfetto: «**Ero** stanco.» | non cambia: Ha detto che **era** stanco. |\nCambiano anche le persone (_io → lui / lei, mio → suo_) e le parole di tempo e di luogo:\n| oggi → **quel giorno** | domani → **il giorno dopo** | ieri → **il giorno prima** |\n| qui → **lì** | questo → **quello** | adesso → **in quel momento** |\n| stasera → **quella sera** | la settimana prossima → **la settimana dopo** | due giorni fa → **due giorni prima** |\nLe domande: **se** (domanda sì / no) o la parola interrogativa: _Mi ha chiesto **se** avevo fame. Mi ha chiesto **dove** abitavo._ (Si può dire anche: _se avessi fame, dove abitassi_.)",
+  "ruleHelp": "Steht das einleitende Verb in der **Vergangenheit** (_ha detto che …_), verschieben sich die Zeiten: presente → **imperfetto**, passato prossimo → **trapassato prossimo**, futuro → **condizionale composto** (_sarebbe tornato_, nicht _tornerebbe_!), Imperativ → **di + Infinitiv**. Das imperfetto bleibt.\nAuch Personen und Angaben ändern sich: oggi → quel giorno, domani → il giorno dopo, ieri → il giorno prima, stasera → quella sera, prossimo → dopo, fa → prima, qui → lì, questo → quello.\nFragen: **se** (ob) oder Fragewort; danach Indikativ oder congiuntivo (_se avevo / se avessi fame_). Anders als im Deutschen steht nach _dire che_ kein Konjunktiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma al discorso indiretto.",
+   "promptHelp": "Forme in die indirekte Rede um.",
+   "explanation": "Cambiano il tempo, la persona (mia → sua) e le parole di tempo (ieri → il giorno prima, domani → il giorno dopo).",
+   "explanationHelp": "Es ändern sich Zeit, Person (mia → sua) und Zeitangaben (ieri → il giorno prima, domani → il giorno dopo).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca: «Non capisco il dialetto.» → Luca ha detto che …",
+     "acceptedAnswers": [
+      "non capiva il dialetto"
+     ],
+     "modelAnswer": "Luca ha detto che non capiva il dialetto."
+    },
+    {
+     "id": "s2",
+     "start": "Sara: «Ho visitato Matera.» → Sara ha detto che …",
+     "acceptedAnswers": [
+      "aveva visitato Matera"
+     ],
+     "modelAnswer": "Sara ha detto che aveva visitato Matera."
+    },
+    {
+     "id": "s3",
+     "start": "Davide: «Andrò a vivere a Bologna.» → Davide ha detto che …",
+     "acceptedAnswers": [
+      "sarebbe andato a vivere a Bologna"
+     ],
+     "modelAnswer": "Davide ha detto che sarebbe andato a vivere a Bologna."
+    },
+    {
+     "id": "s4",
+     "start": "La prof: «Aprite il libro!» → La prof ha detto agli studenti di …",
+     "acceptedAnswers": [
+      "aprire il libro"
+     ],
+     "modelAnswer": "La prof ha detto agli studenti di aprire il libro."
+    },
+    {
+     "id": "s5",
+     "start": "Giulia: «Mia zia abita a Napoli.» → Giulia ha detto che …",
+     "acceptedAnswers": [
+      "sua zia abitava a Napoli"
+     ],
+     "modelAnswer": "Giulia ha detto che sua zia abitava a Napoli."
+    },
+    {
+     "id": "s6",
+     "start": "Matteo: «Ieri ho perso l’autobus.» → Matteo ha detto che …",
+     "acceptedAnswers": [
+      "il giorno prima aveva perso l’autobus",
+      "aveva perso l’autobus il giorno prima",
+      "il giorno precedente aveva perso l’autobus",
+      "aveva perso l’autobus il giorno precedente"
+     ],
+     "modelAnswer": "Matteo ha detto che il giorno prima aveva perso l’autobus."
+    },
+    {
+     "id": "s7",
+     "start": "I nonni: «Domani partiremo presto.» → I nonni hanno detto che …",
+     "acceptedAnswers": [
+      "il giorno dopo sarebbero partiti presto",
+      "sarebbero partiti presto il giorno dopo",
+      "il giorno seguente sarebbero partiti presto",
+      "sarebbero partiti presto il giorno seguente",
+      "il giorno successivo sarebbero partiti presto",
+      "sarebbero partiti presto il giorno successivo"
+     ],
+     "modelAnswer": "I nonni hanno detto che il giorno dopo sarebbero partiti presto."
+    },
+    {
+     "id": "s8",
+     "start": "Chiara: «Non dimenticare le chiavi!» → Chiara ha detto a Marco di …",
+     "acceptedAnswers": [
+      "non dimenticare le chiavi"
+     ],
+     "modelAnswer": "Chiara ha detto a Marco di non dimenticare le chiavi."
+    }
+   ]
+  }
+ ]
+}

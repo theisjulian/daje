@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco3-sequenza-tempi-l2",
+ "title": "Penso o pensavo?",
+ "language": "it",
+ "level": "B1",
+ "description": "La sequenza dei tempi II · Penso o pensavo? · livello facile.",
+ "topics": [
+  "La sequenza dei tempi II",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Terzo anno, 4 · Nord e Sud · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "3",
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 10 · Zeitenfolge im Indikativ und im congiuntivo (Vor-, Gleich- und Nachzeitigkeit)"
+ },
+ "grammar": {
+  "topic": "ecco3-sequenza-tempi",
+  "topicTitle": "La sequenza dei tempi II",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "Il tempo della frase secondaria dipende da **due cose**: il tempo della frase principale e il **rapporto di tempo** (prima, nello stesso momento, dopo).\n| frase principale | prima | nello stesso momento | dopo |\n| **So che** … (presente + indicativo) | è venuto | viene | verrà |\n| **Penso che** … (presente + congiuntivo) | **sia venuto** | **venga** | **verrà** (o venga) |\n| **Sapevo che** … (passato + indicativo) | era venuto | veniva | **sarebbe venuto** |\n| **Pensavo che** … (passato + congiuntivo) | **fosse venuto** | **venisse** | **sarebbe venuto** |\n- _Penso che Luca **sia** a casa._ → _Pensavo che Luca **fosse** a casa._\n- _Credo che **abbia perso** il treno._ → _Credevo che **avesse perso** il treno._\n- _So che **verrà**._ → _Sapevo che **sarebbe venuto**._",
+  "ruleHelp": "Die Zeit im Nebensatz hängt vom **Hauptsatz** (Gegenwart oder Vergangenheit) und vom **Zeitverhältnis** ab (vorher – gleichzeitig – nachher).\nHauptsatz im **Präsens**: _Penso che sia venuto / venga / verrà._ Hauptsatz in der **Vergangenheit**: _Pensavo che fosse venuto / venisse / sarebbe venuto._\nNachzeitigkeit in der Vergangenheit: **condizionale composto** (_sarebbe venuto_ = „dass er kommen würde“). Nach Verben wie sapere, essere sicuro, dire steht der Indikativ, nach pensare, credere, sperare, sembrare der congiuntivo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Guarda il verbo della frase principale e scegli la forma giusta.",
+   "promptHelp": "Achte auf das Verb im Hauptsatz und wähle die richtige Form.",
+   "explanation": "Principale al presente → congiuntivo presente / passato, futuro. Principale al passato → congiuntivo imperfetto / trapassato, condizionale composto.",
+   "explanationHelp": "Hauptsatz im Präsens → congiuntivo presente / passato, Futur. Hauptsatz in der Vergangenheit → congiuntivo imperfetto / trapassato, condizionale composto.",
+   "type": "gap_choice",
+   "text": "Penso che adesso Giulia [[g1]] in vacanza.\nPensavo che Giulia [[g2]] ancora in vacanza, invece era già tornata.\nCredo che ieri Matteo [[g3]] il treno.\nCredevo che Matteo [[g4]] il treno, per questo l’ho chiamato.\nSono sicura che domani [[g5]] tutti alla festa.\nEro sicura che il giorno dopo [[g6]] tutti alla festa.\nNon pensavo che tu [[g7]] così bene il napoletano.\nMi sembra che oggi i ragazzi [[g8]] un po’ stanchi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sia",
+      "fosse",
+      "sarebbe stata"
+     ],
+     "answer": "sia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "fosse",
+      "sia",
+      "sarà"
+     ],
+     "answer": "fosse"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "abbia perso",
+      "perda",
+      "perderà"
+     ],
+     "answer": "abbia perso"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "avesse perso",
+      "abbia perso",
+      "perderà"
+     ],
+     "answer": "avesse perso"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "verranno",
+      "venissero",
+      "sarebbero venuti"
+     ],
+     "answer": "verranno"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sarebbero venuti",
+      "verranno",
+      "vengano"
+     ],
+     "answer": "sarebbero venuti"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "parlassi",
+      "parli",
+      "parlerai"
+     ],
+     "answer": "parlassi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "siano",
+      "fossero",
+      "sarebbero"
+     ],
+     "answer": "siano"
+    }
+   ]
+  }
+ ]
+}

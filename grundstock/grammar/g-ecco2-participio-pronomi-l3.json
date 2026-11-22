@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-participio-pronomi-l3",
+ "title": "Di che cosa parlano?",
+ "language": "it",
+ "level": "A2",
+ "description": "L’accordo del participio con i pronomi diretti · Di che cosa parlano? · livello facile.",
+ "topics": [
+  "L’accordo del participio con i pronomi diretti",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 3 · Roma ed Europa · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · passato prossimo mit direkten Objektpronomen (Angleichung des Partizips)"
+ },
+ "grammar": {
+  "topic": "ecco2-participio-pronomi",
+  "topicTitle": "L’accordo del participio con i pronomi diretti",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Con **lo, la, li, le** (e **l’**) prima di _avere_, il participio passato **concorda** con il pronome:\n| il biglietto | **L’**ho comprat**o**. |\n| la cartolina | **L’**ho comprat**a**. |\n| i biglietti | **Li** ho comprat**i**. |\n| le cartoline | **Le** ho comprat**e**. |\n- **lo** e **la** diventano **l’** prima di _ho, hai, ha, abbiamo …_; **li** e **le** non cambiano mai: _li ho visti, le ho viste_.\n- Senza pronome davanti al verbo non c’è accordo: _Ho comprat**o** le cartoline._\n- Con la negazione: _**Non** l’ho vista._\n- Anche con **ne** + quantità: _Quante foto hai fatto? – **Ne** ho fatt**e** venti._",
+  "ruleHelp": "Stehen **lo, la, li, le** (auch **l’**) vor dem passato prossimo mit _avere_, richtet sich das **Partizip** nach dem Pronomen: _l’ho visto_ (ihn), _l’ho vista_ (sie), _li ho visti_, _le ho viste_. An der Endung erkennt man also, wofür **l’** steht.\nNur **lo** und **la** werden zu **l’**; **li** und **le** nie.\nOhne Pronomen vor dem Verb bleibt das Partizip unverändert: _Ho comprato le cartoline._ Im Deutschen gibt es diese Angleichung nicht.\nAuch bei **ne** + Menge: _Ne ho fatte venti._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Guarda il pronome e il participio: di che cosa parlano?",
+   "promptHelp": "Achte auf Pronomen und Partizip: Wovon ist die Rede?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "il museo"
+    },
+    {
+     "id": "b",
+     "label": "la chiesa"
+    },
+    {
+     "id": "c",
+     "label": "i monumenti"
+    },
+    {
+     "id": "d",
+     "label": "le piazze"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "L’ho visitato lunedì.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "L’ho visitata lunedì.",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "Li ho fotografati tutti.",
+     "category": "c"
+    },
+    {
+     "id": "i4",
+     "text": "Le ho fotografate tutte.",
+     "category": "d"
+    },
+    {
+     "id": "i5",
+     "text": "Non l’ho trovata.",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "L’abbiamo trovato chiuso.",
+     "category": "a"
+    },
+    {
+     "id": "i7",
+     "text": "Le abbiamo attraversate a piedi.",
+     "category": "d"
+    },
+    {
+     "id": "i8",
+     "text": "Li abbiamo visti dal pullman.",
+     "category": "c"
+    },
+    {
+     "id": "i9",
+     "text": "L’hanno costruita nel Seicento.",
+     "category": "b"
+    },
+    {
+     "id": "i10",
+     "text": "Non le ho ancora viste.",
+     "category": "d"
+    },
+    {
+     "id": "i11",
+     "text": "Li ha spiegati la guida.",
+     "category": "c"
+    }
+   ]
+  }
+ ]
+}

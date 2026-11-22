@@ -52,7 +52,7 @@
    "explanation": "io e mia sorella = noi (femminile) → siamo andate, siamo arrivate.",
    "explanationHelp": "io e mia sorella = noi (weiblich) → siamo andate.",
    "type": "gap_fill",
-   "text": "Domenica io e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
+   "text": "Domenica io (Giulia) e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
    "gaps": [
     {
      "id": "g1",

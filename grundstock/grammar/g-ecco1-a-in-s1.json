@@ -52,7 +52,7 @@
    "explanation": "Città → a, paese → in, via → in, a scuola, a casa, in biblioteca, in centro.",
    "explanationHelp": "Stadt → a, Land → in, Straße → in, a scuola, a casa, in biblioteca, in centro.",
    "type": "error_correction",
-   "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.\nOggi studio [[g5]] biblioteca.\nMia nonna abita [[g6]] Bari.\nAndiamo [[g7]] centro?\nLa sera resto [[g8]] casa.",
+   "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.\nOggi studio [[g5]] biblioteca.\nMia nonna abita [[g6]] Bari.\nAndiamo [[g7]] centro?\nLa sera torno [[g8]] casa.",
    "errors": [
     {
      "id": "g1",

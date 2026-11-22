@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-it11-futuro-anteriore-l2",
+ "title": "Prima nel futuro o supposizione?",
+ "language": "it",
+ "level": "B1",
+ "description": "Futuro anteriore · Prima nel futuro o supposizione? · livello facile.",
+ "topics": [
+  "Futuro anteriore",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Quarto anno, Lehrplan · Sprachliche Mittel.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "4",
+   "unit": "Lehrplan · Sprachliche Mittel"
+  },
+  "grade": 11,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 11 · Futuro anteriore"
+ },
+ "grammar": {
+  "topic": "it11-futuro-anteriore",
+  "topicTitle": "Futuro anteriore",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Il **futuro anteriore** = futuro di **avere / essere** + **participio passato**:\n| | finire | partire |\n| io | **avrò** finito | **sarò** partito/-a |\n| tu | **avrai** finito | **sarai** partito/-a |\n| lui / lei | **avrà** finito | **sarà** partito/-a |\n| noi | **avremo** finito | **saremo** partiti/-e |\n| voi | **avrete** finito | **sarete** partiti/-e |\n| loro | **avranno** finito | **saranno** partiti/-e |\nSi usa:\n- per un’azione futura che succede **prima** di un’altra azione futura, dopo **quando, appena, dopo che**: _Quando **avrò finito** i compiti, uscirò._\n- con **entro** + momento futuro: _Entro venerdì **avrò letto** il libro._\n- per una **supposizione sul passato**: _Marco non c’è: **sarà uscito**. **Avrà dimenticato** l’appuntamento._\nCon **essere** il participio concorda con il soggetto: _Appena Giulia **sarà arrivata** …_",
+  "ruleHelp": "**Futuro anteriore** (Futur II) = Futur von avere/essere + Partizip: _avrò finito, sarò partito/-a_.\nGebrauch: 1. **Vorzeitigkeit in der Zukunft** nach quando, appena, dopo che: _Quando avrò finito, uscirò._ (Wenn ich fertig bin, gehe ich raus – im Deutschen meist Perfekt!) 2. mit **entro** + Zeitpunkt: _Entro venerdì avrò letto il libro._ 3. **Vermutung über Vergangenes**: _Sarà uscito._ (Er ist wohl ausgegangen.) _Avrà dimenticato l’appuntamento._ (Er hat den Termin wohl vergessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa esprime il futuro anteriore in queste frasi?",
+   "promptHelp": "Was drückt das futuro anteriore in diesen Sätzen aus?",
+   "explanation": "Supposizione: in tedesco „wohl“ + Perfekt (Er hat wohl den Bus verpasst).",
+   "explanationHelp": "Vermutung: im Deutschen „wohl“ + Perfekt.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "azione futura conclusa prima di un altro momento"
+    },
+    {
+     "id": "b",
+     "label": "supposizione sul passato"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Quando avrò finito la scuola, farò un lungo viaggio.",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Marco non risponde: avrà dimenticato il telefono a casa.",
+     "category": "b"
+    },
+    {
+     "id": "i3",
+     "text": "Appena sarete arrivati, mandateci un messaggio.",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "Sara non è venuta alla festa: sarà rimasta a casa a studiare.",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "Dopo che avremo visto il film, ne parleremo in classe.",
+     "category": "a"
+    },
+    {
+     "id": "i6",
+     "text": "Dov’è il mio libro? L’avrò lasciato a scuola.",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "Entro venerdì avrò consegnato la relazione.",
+     "category": "a"
+    },
+    {
+     "id": "i8",
+     "text": "I ragazzi sono in ritardo: avranno perso l’autobus.",
+     "category": "b"
+    },
+    {
+     "id": "i9",
+     "text": "Ti presterò il romanzo quando l’avrò letto.",
+     "category": "a"
+    },
+    {
+     "id": "i10",
+     "text": "Chi ha mangiato la torta? – Mah, sarà stato Davide.",
+     "category": "b"
+    }
+   ]
+  }
+ ]
+}

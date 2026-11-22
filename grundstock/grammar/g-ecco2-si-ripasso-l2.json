@@ -1,0 +1,140 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco2-si-ripasso-l2",
+ "title": "Singolare o plurale?",
+ "language": "it",
+ "level": "A2",
+ "description": "Si impersonale e si passivante: ripasso · Singolare o plurale? · livello facile.",
+ "topics": [
+  "Si impersonale e si passivante: ripasso",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Secondo anno, 1 · Ricordi · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "2",
+   "unit": "1 · Ricordi",
+   "section": "Parte A"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 9 · si impersonale und si passivante (Wiederholung)"
+ },
+ "grammar": {
+  "topic": "ecco2-si-ripasso",
+  "topicTitle": "Si impersonale e si passivante: ripasso",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Con **si** parliamo di quello che fanno tutti, la gente (in tedesco: _man_).\n- **si + verbo alla terza persona singolare** (si impersonale): _In Italia **si cena** tardi. Qui **si sta** bene._\n- Con un nome il verbo **concorda** con il nome (si passivante):\n| nome singolare → verbo singolare | _A Natale **si mangia** il panettone._ |\n| nome plurale → verbo plurale | _A Natale **si mangiano** i dolci._ |\n- La negazione **non** sta prima di **si**: _Qui **non si** parla tedesco._\n- Con potere e dovere + infinito: _Qui non **si può** entrare. In classe **si deve** ascoltare._\n- Anche al passato: _Una volta **si scrivevano** molte lettere._",
+  "ruleHelp": "**si** + Verb entspricht dem deutschen **man**: _In Italia si cena tardi._ (In Italien isst man spät zu Abend.)\nAchtung, anders als im Deutschen: Steht ein Nomen dabei, richtet sich das Verb nach diesem Nomen: _si mangi**a** il panettone_, aber _si mangi**ano** i dolci_.\n**non** steht vor si: _Qui non si parla tedesco._ Mit potere / dovere: _si può, si deve_ + Infinitiv."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta del verbo.",
+   "promptHelp": "Wähle die richtige Verbform.",
+   "explanation": "Nome plurale → verbo al plurale. Senza nome → verbo al singolare.",
+   "explanationHelp": "Nomen im Plural → Verb im Plural. Ohne Nomen → Verb im Singular.",
+   "type": "gap_choice",
+   "text": "A Napoli si [[g1]] una pizza buonissima.\nIn Italia si [[g2]] molti tipi di pasta.\nA scuola si [[g3]] due lingue straniere.\nIn biblioteca si [[g4]] a voce bassa.\nA Natale si [[g5]] i regali.\nIn estate si [[g6]] al mare.\nAl mercato si [[g7]] le fragole.\nIn questo negozio si [[g8]] solo pane.\nIn Svizzera si [[g9]] quattro lingue.\nA colazione si [[g10]] il caffellatte.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "mangia",
+      "mangiano"
+     ],
+     "answer": "mangia"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "mangiano",
+      "mangia"
+     ],
+     "answer": "mangiano"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "studiano",
+      "studia"
+     ],
+     "answer": "studiano"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "parla",
+      "parlano"
+     ],
+     "answer": "parla"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "fanno",
+      "fa"
+     ],
+     "answer": "fanno"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "va",
+      "vanno"
+     ],
+     "answer": "va"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "vendono",
+      "vende"
+     ],
+     "answer": "vendono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "vende",
+      "vendono"
+     ],
+     "answer": "vende"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "parlano",
+      "parla"
+     ],
+     "answer": "parlano"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "beve",
+      "bevono"
+     ],
+     "answer": "beve"
+    }
+   ]
+  }
+ ]
+}

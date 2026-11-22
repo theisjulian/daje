@@ -47,12 +47,12 @@
  "questions": [
   {
    "id": "q1",
-   "prompt": "Scrivi la data con o senza articolo.",
-   "promptHelp": "Setze das Datum mit oder ohne Artikel ein.",
-   "explanation": "Con il giorno della settimana: niente articolo (sabato venti aprile).",
+   "prompt": "Scrivi la data in lettere, con o senza articolo.",
+   "promptHelp": "Schreibe das Datum in Worten, mit oder ohne Artikel.",
+   "explanation": "Con il giorno della settimana: niente articolo (sabato venticinque aprile).",
    "explanationHelp": "Mit Wochentag kein Artikel.",
    "type": "gap_fill",
-   "text": "Il mio compleanno è (19.4.) [[g1]].\nMa festeggio (sabato 20.4.) [[g2]].\nIl compleanno di Anna è (1.4.) [[g3]].\nLa sua festa è (venerdì 3.4.) [[g4]].\nLunedì (6.4.) [[g5]] gioca la Juve.\nIl compleanno del nonno è (24.4.) [[g6]].\nLa festa del nonno è (domenica 26.4.) [[g7]].\nLa mia festa è (25.4.) [[g8]].",
+   "text": "Il mio compleanno è (19.4.) [[g1]].\nMa festeggio (sabato 25.4.) [[g2]].\nIl compleanno di Anna è (1.4.) [[g3]].\nLa sua festa è (venerdì 3.4.) [[g4]].\nLunedì (6.4.) [[g5]] gioca la Juve.\nIl compleanno del nonno è (24.4.) [[g6]].\nLa festa del nonno è (domenica 26.4.) [[g7]].\nLa mia festa è (25.4.) [[g8]].",
    "gaps": [
     {
      "id": "g1",
@@ -63,7 +63,7 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "sabato venti aprile"
+      "sabato venticinque aprile"
      ]
     },
     {
